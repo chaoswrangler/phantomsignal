@@ -82,7 +82,7 @@ jobs:
               exit 0
             fi
 
-            git commit -m "Update PHANTOMSignal feed [skip ci]"
+            git commit -m "Update PHANTOMSignal feed"
 
             if git push origin main; then
               echo "Push succeeded on attempt $attempt."
