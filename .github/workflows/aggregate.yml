@@ -54,8 +54,44 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/feed.json docs/briefing_packet.json
-          # Pull before pushing in case build-pages.yml ran concurrently
-          git pull --rebase --autostash origin main || true
-          git diff --staged --quiet || git commit -m "Update CTI briefing packet [skip ci]"
-          git push
+
+          # Generated files are authoritative — they always win.
+          # Strategy: fetch latest, reset main to it, then re-stage our generated
+          # files on top and push. If push fails (another workflow won the race),
+          # retry up to 3 times by re-running the same merge-free pattern.
+          for attempt in 1 2 3; do
+            # Save our freshly-generated files outside the working tree.
+            mkdir -p /tmp/phantom-outputs
+            cp docs/feed.json /tmp/phantom-outputs/feed.json
+            cp docs/briefing_packet.json /tmp/phantom-outputs/briefing_packet.json
+
+            # Sync to whatever is now on origin/main, discarding any local divergence.
+            git fetch origin main
+            git reset --hard origin/main
+
+            # Put our generated files back on top of the synced state.
+            cp /tmp/phantom-outputs/feed.json docs/feed.json
+            cp /tmp/phantom-outputs/briefing_packet.json docs/briefing_packet.json
+
+            git add docs/feed.json docs/briefing_packet.json
+
+            # If nothing actually changed (e.g., feed.json identical to what's
+            # already on main), exit cleanly.
+            if git diff --staged --quiet; then
+              echo "No changes to commit (attempt $attempt). Exiting cleanly."
+              exit 0
+            fi
+
+            git commit -m "Update PHANTOMSignal feed [skip ci]"
+
+            if git push origin main; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push failed on attempt $attempt — likely a concurrent push from build-pages workflow. Retrying."
+            sleep 5
+          done
+
+          echo "Push failed after 3 attempts. Failing the workflow."
+          exit 1
