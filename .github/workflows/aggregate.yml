@@ -2,12 +2,30 @@ name: Aggregate Feeds
 
 on:
   schedule:
-    - cron: "0 13 * * *"
-    - cron: "0 19 * * *"
+    # Hourly at :05 past the hour to avoid contention with other repos
+    # that run at :00. Adjust if you see commit collisions.
+    - cron: "5 * * * *"
   workflow_dispatch:
+    inputs:
+      lookback_hours:
+        description: "How far back to scan (hours). Common: 24, 36, 168 (1 week), 336 (2 weeks)."
+        required: false
+        default: "168"
+        type: string
   push:
     paths:
       - "feeds.yaml"
+      - "aggregate.py"
+      - "taxonomy.py"
+      - "affinity.py"
+      - "requirements.txt"
+
+# Prevent overlapping runs. If a run is in progress when the next hour fires,
+# the new run is queued but only the most recent one executes — older queued
+# runs are cancelled. This protects against fetch-and-commit races.
+concurrency:
+  group: aggregate-feeds
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -15,6 +33,7 @@ permissions:
 jobs:
   aggregate:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
 
@@ -27,12 +46,16 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run aggregator
+        env:
+          LOOKBACK_HOURS: ${{ inputs.lookback_hours || '168' }}
         run: python aggregate.py
 
-      - name: Commit updated feed.json
+      - name: Commit outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/feed.json
-          git diff --staged --quiet || git commit -m "Update feed.json [skip ci]"
+          git add docs/feed.json docs/briefing_packet.json
+          # Pull before pushing in case build-pages.yml ran concurrently
+          git pull --rebase --autostash origin main || true
+          git diff --staged --quiet || git commit -m "Update CTI briefing packet [skip ci]"
           git push
