@@ -3,6 +3,9 @@ const path = require("path");
 
 const feedPath = path.join(__dirname, "../docs/feed.json");
 const outputPath = path.join(__dirname, "../docs/index.html");
+const briefPath = path.join(__dirname, "../docs/brief/index.html");
+
+const briefExists = fs.existsSync(briefPath);
 
 const LOOKBACK_DAYS = 7;
 
@@ -1768,6 +1771,7 @@ const items = dateFilteredItems
 const cohorts = feed.cohorts || {};
 const rawFeedStatus = feed.feed_status || {};
 const generatedAt = feed.generated_at || new Date().toISOString();
+const affinityGroups = Array.isArray(feed.affinity_groups) ? feed.affinity_groups : [];
 
 const feedStatus = Object.fromEntries(
   Object.entries(rawFeedStatus).filter(([sourceName]) => {
@@ -1842,6 +1846,58 @@ const cohortCards = Object.entries(cohorts)
   })
   .join("");
 
+function formatDominantFeatures(dominant) {
+  if (!dominant || typeof dominant !== "object") return "";
+  const parts = [];
+  const axisLabels = {
+    actor_attribution: "Actor",
+    affected_products: "Product",
+    affected_industries: "Industry",
+    threat_categories: "Category",
+    cve_ids: "CVE",
+    attack_techniques: "Technique",
+  };
+  for (const axis of ["actor_attribution", "affected_products", "threat_categories", "affected_industries", "cve_ids", "attack_techniques"]) {
+    const values = dominant[axis];
+    if (Array.isArray(values) && values.length) {
+      const display = values.slice(0, 3).map((v) => v.replace(/_/g, " ")).join(", ");
+      parts.push(`<span class="theme-feature"><strong>${axisLabels[axis]}:</strong> ${escapeHtml(display)}</span>`);
+    }
+  }
+  return parts.join("");
+}
+
+const themeCards = affinityGroups
+  .map((group) => {
+    const cohesionPct = Math.round((group.cohesion || 0) * 100);
+    return `
+      <article class="theme-card">
+        <header class="theme-card-header">
+          <h3>${escapeHtml(group.label)}</h3>
+          <div class="theme-stats">
+            <span><strong>${escapeHtml(group.article_count)}</strong> articles</span>
+            <span><strong>${escapeHtml(group.cluster_count)}</strong> stories</span>
+            <span><strong>${cohesionPct}%</strong> cohesion</span>
+          </div>
+        </header>
+        <div class="theme-features">${formatDominantFeatures(group.dominant_features)}</div>
+      </article>
+    `;
+  })
+  .join("");
+
+const activeThemesSection = affinityGroups.length > 0 ? `
+    <section class="panel" id="active-themes">
+      <h2>Active Themes</h2>
+      <p class="panel-intro">
+        Affinity groups detected across the article corpus. Where multiple distinct stories share an actor, product, vulnerability, or threat category, they are surfaced here as a single theme. Cohesion reflects how tightly the constituent stories share taxonomy. Use themes to spot coordinated campaigns, recurring attacker behavior, or sector-targeted activity that the Top 10 list alone can miss.
+      </p>
+      <div class="theme-grid">
+        ${themeCards}
+      </div>
+    </section>
+` : "";
+
 const articleCorpus = `
   <section class="panel" id="article-corpus">
     <h2>Article Corpus</h2>
@@ -1909,9 +1965,9 @@ const parseErrorBlock = parseErrors.length
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  name: "Wolfram Threatstream Feed",
+  name: "PHANTOMSignal Feed",
   description:
-    "Curated cyber news and threat insight feed. Items are limited to the last 7 days, filtered for CTI relevance, deduplicated, tagged by likely affected industry and threat category, and dynamically filterable.",
+    "Threat signal. Not threat noise. Curated cyber news and threat insight feed. Items are limited to the last 7 days, filtered for CTI relevance, deduplicated, tagged by likely affected industry and threat category, and dynamically filterable.",
   dateModified: generatedAt,
   numberOfItems: dedupedLatestItems.length,
   itemListElement: dedupedLatestItems.map((item, index) => ({
@@ -1939,9 +1995,9 @@ const html = `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Wolfram Threatstream Feed</title>
+  <title>PHANTOMSignal Feed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Curated English-language cyber threat intelligence feed. Last 7 days only. CTI-relevant items only. Deduplicated and dynamically filterable by threat category, industry, and source cohort.">
+  <meta name="description" content="PHANTOMSignal: threat signal, not threat noise. Curated English-language cyber threat intelligence feed. Last 7 days only. CTI-relevant items only. Deduplicated and dynamically filterable by threat category, industry, and source cohort.">
   <meta name="robots" content="index, follow">
 
   <script type="application/ld+json">
@@ -2205,6 +2261,68 @@ ${JSON.stringify(jsonLd, null, 2)}
       font-weight: 700;
     }
 
+    .theme-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .theme-card {
+      border: 1px solid rgba(255, 211, 122, 0.32);
+      background: rgba(255, 211, 122, 0.05);
+      border-radius: 18px;
+      padding: 18px;
+      transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+    }
+
+    .theme-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(255, 211, 122, 0.58);
+      background: rgba(255, 211, 122, 0.09);
+    }
+
+    .theme-card-header {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .theme-card h3 {
+      margin: 0;
+      font-size: 1.05rem;
+      letter-spacing: -0.02em;
+      color: #ffe7af;
+    }
+
+    .theme-stats {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .theme-stats strong {
+      color: #ffe7af;
+      font-weight: 700;
+    }
+
+    .theme-features {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 0.86rem;
+      color: #dbe8fb;
+    }
+
+    .theme-feature strong {
+      color: var(--muted);
+      font-weight: 600;
+      margin-right: 4px;
+    }
+
     .insight-list {
       display: grid;
       gap: 14px;
@@ -2426,10 +2544,12 @@ ${JSON.stringify(jsonLd, null, 2)}
 
 <body>
   <div class="sticky-header">
-    <a href="#top" class="sticky-title">Wolfram Threatstream Feed</a>
+    <a href="#top" class="sticky-title">PHANTOMSignal Feed</a>
     <div class="sticky-actions">
+      ${briefExists ? '<a href="./brief/" target="_blank" rel="noopener noreferrer">PHANTOMSignal Brief</a>' : ''}
       <a href="./feed.json" target="_blank" rel="noopener noreferrer">Raw JSON</a>
       <a href="#top-insights">Top 10</a>
+      <a href="#active-themes">Themes</a>
       <a href="#source-cohorts">Sources</a>
       <a href="#article-corpus">Corpus</a>
       <a href="#source-health">Health</a>
@@ -2438,10 +2558,10 @@ ${JSON.stringify(jsonLd, null, 2)}
 
   <main id="top">
     <header class="hero">
-      <div class="eyebrow">Strategic Cyber Threat Intelligence Feed</div>
-      <h1>Wolfram Threatstream Feed</h1>
+      <div class="eyebrow">PHANTOMSignal · Threat signal. Not threat noise.</div>
+      <h1>PHANTOMSignal Feed</h1>
       <p class="subtitle">
-        Curated English-language cyber threat intelligence insights from the last ${LOOKBACK_DAYS} days. Items are filtered for CTI relevance, aggressively deduplicated, tagged by threat category and likely affected industry, and dynamically assembled by filter.
+        Curated English-language cyber threat intelligence from the last ${LOOKBACK_DAYS} days. Items are filtered for CTI relevance, aggressively deduplicated, tagged by threat category and likely affected industry, and dynamically assembled by filter.
       </p>
 
       <div class="stats" aria-label="Feed status summary">
@@ -2461,8 +2581,10 @@ ${JSON.stringify(jsonLd, null, 2)}
     </header>
 
     <nav class="utility-links" aria-label="Feed navigation">
+      ${briefExists ? `<a class="button-link" href="./brief/" ${externalLinkAttrs()}>Latest PHANTOMSignal Brief</a>` : ''}
       <a class="button-link" href="./feed.json" ${externalLinkAttrs()}>Raw JSON feed</a>
       <a class="button-link" href="#top-insights">Top 10 Breaches and Threat Insights</a>
+      <a class="button-link" href="#active-themes">Active Themes</a>
       <a class="button-link" href="#source-cohorts">Source Cohorts</a>
       <a class="button-link" href="#article-corpus">Article Corpus</a>
       <a class="button-link" href="#source-health">Source health</a>
@@ -2477,6 +2599,8 @@ ${JSON.stringify(jsonLd, null, 2)}
         ${topInsights.map(buildInsight).join("")}
       </div>
     </section>
+
+    ${activeThemesSection}
 
     <section class="panel" id="source-cohorts">
       <h2>Source Cohorts</h2>
