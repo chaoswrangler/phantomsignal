@@ -1957,8 +1957,9 @@ function renderCompactRow(item) {
   const link = item.link || item.url || "";
   const source = item.source || "Unknown source";
   const published = item.published || "";
+  const timestamp = getItemTime(item);
   return `
-    <div class="all-feed-row">
+    <div class="all-feed-row" data-published="${escapeHtml(published)}" data-timestamp="${timestamp}" data-source="${escapeHtml(source)}" data-title="${escapeHtml(title.toLowerCase())}">
       <a class="feed-title" href="${escapeHtml(link)}" ${externalLinkAttrs()} title="${escapeHtml(title)}">${escapeHtml(title)}</a>
       <span class="feed-source">${escapeHtml(source)}</span>
       <time class="feed-date" datetime="${escapeHtml(published)}">${escapeHtml(formatDate(published))}</time>
@@ -1970,9 +1971,17 @@ const allFeedItemsSection = `
   <section class="feed-list-panel" id="all-feed-items">
     ${renderPanelHeader({ tag: "Unfiltered Stream", title: "All Feed Items", status: `${dedupedLatestItems.length} entries` })}
     <p class="panel-intro">
-      The complete running list of every deduplicated item in the feed, in published-date order. Compact view for fast scanning.
+      The complete running list of every deduplicated item in the feed. Loaded in newest-first order. Use the toggles to re-sort.
     </p>
-    <div class="all-feed-table">
+    <div class="all-feed-sort" role="toolbar" aria-label="Sort feed items">
+      <span class="all-feed-sort-label">Sort:</span>
+      <button class="sort-toggle active" type="button" data-sort="date-desc">Newest first</button>
+      <button class="sort-toggle" type="button" data-sort="date-asc">Oldest first</button>
+      <button class="sort-toggle" type="button" data-sort="source-asc">Source A→Z</button>
+      <button class="sort-toggle" type="button" data-sort="source-desc">Source Z→A</button>
+      <button class="sort-toggle" type="button" data-sort="title-asc">Title A→Z</button>
+    </div>
+    <div class="all-feed-table" id="all-feed-table">
       ${dedupedLatestItems.map(renderCompactRow).join("")}
     </div>
   </section>
@@ -3135,6 +3144,52 @@ ${JSON.stringify(jsonLd, null, 2)}
        ALL FEED ITEMS — compact running list
        ========================================================= */
 
+    .all-feed-sort {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      padding: 0 26px;
+      margin-bottom: 14px;
+    }
+
+    .all-feed-sort-label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin-right: 4px;
+    }
+
+    .sort-toggle {
+      border: 1px solid var(--line);
+      background: rgba(255, 126, 195, 0.06);
+      color: var(--text);
+      border-radius: 4px;
+      padding: 6px 10px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      transition: all 120ms ease;
+    }
+
+    .sort-toggle:hover {
+      border-color: rgba(255, 126, 195, 0.5);
+      background: rgba(255, 126, 195, 0.12);
+      color: var(--text-bright);
+    }
+
+    .sort-toggle.active {
+      border-color: var(--pink);
+      background: rgba(255, 126, 195, 0.18);
+      color: var(--text-bright);
+      box-shadow: 0 0 0 1px var(--pink) inset;
+    }
+
     .all-feed-table {
       padding: 0 26px;
       display: grid;
@@ -3321,6 +3376,24 @@ ${JSON.stringify(jsonLd, null, 2)}
 
     footer code {
       color: var(--cyan);
+    }
+
+    .footer-credit {
+      margin-top: 18px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line-soft);
+      color: var(--muted);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+    }
+
+    .footer-credit a {
+      color: var(--cyan);
+    }
+
+    .footer-credit a:hover {
+      color: var(--text-bright);
     }
 
     /* =========================================================
@@ -3513,6 +3586,9 @@ ${JSON.stringify(jsonLd, null, 2)}
       </p>
       <p>
         Generated at: ${escapeHtml(formatDate(generatedAt))}
+      </p>
+      <p class="footer-credit">
+        Created by Raae Wolfram &middot; <a href="https://www.linkedin.com/in/raaewolfram/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
       </p>
     </footer>
   </main>
@@ -3733,6 +3809,60 @@ ${JSON.stringify(
         searchInput.value = "";
         runSearch("");
         searchInput.focus();
+      });
+    }
+
+    // -----------------------------------------------------------
+    // All Feed Items — client-side sorting
+    // -----------------------------------------------------------
+    const allFeedTable = document.getElementById("all-feed-table");
+    const sortToggles = Array.from(document.querySelectorAll(".sort-toggle"));
+
+    function sortAllFeedItems(mode) {
+      if (!allFeedTable) return;
+      const rows = Array.from(allFeedTable.querySelectorAll(".all-feed-row"));
+
+      const comparators = {
+        "date-desc": (a, b) => Number(b.dataset.timestamp || 0) - Number(a.dataset.timestamp || 0),
+        "date-asc":  (a, b) => Number(a.dataset.timestamp || 0) - Number(b.dataset.timestamp || 0),
+        "source-asc": (a, b) => {
+          const sa = (a.dataset.source || "").toLowerCase();
+          const sb = (b.dataset.source || "").toLowerCase();
+          if (sa < sb) return -1;
+          if (sa > sb) return 1;
+          // secondary: newest first within same source
+          return Number(b.dataset.timestamp || 0) - Number(a.dataset.timestamp || 0);
+        },
+        "source-desc": (a, b) => {
+          const sa = (a.dataset.source || "").toLowerCase();
+          const sb = (b.dataset.source || "").toLowerCase();
+          if (sa > sb) return -1;
+          if (sa < sb) return 1;
+          return Number(b.dataset.timestamp || 0) - Number(a.dataset.timestamp || 0);
+        },
+        "title-asc": (a, b) => {
+          const ta = a.dataset.title || "";
+          const tb = b.dataset.title || "";
+          if (ta < tb) return -1;
+          if (ta > tb) return 1;
+          return 0;
+        },
+      };
+
+      const comparator = comparators[mode] || comparators["date-desc"];
+      rows.sort(comparator);
+
+      // Re-attach in new order; appendChild moves existing nodes.
+      for (const row of rows) {
+        allFeedTable.appendChild(row);
+      }
+    }
+
+    for (const toggle of sortToggles) {
+      toggle.addEventListener("click", () => {
+        for (const t of sortToggles) t.classList.remove("active");
+        toggle.classList.add("active");
+        sortAllFeedItems(toggle.dataset.sort);
       });
     }
   </script>
