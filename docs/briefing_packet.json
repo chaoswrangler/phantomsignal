@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-15T20:18:54.442405+00:00",
+  "generated_at": "2026-05-15T22:03:48.994347+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 79,
-  "total_items_in_window": 486,
-  "total_clusters_raw": 457,
+  "feeds_ok": 78,
+  "total_items_in_window": 474,
+  "total_clusters_raw": 448,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 295,
-  "dropped_overflow": 82,
+  "dropped_low_score": 297,
+  "dropped_overflow": 71,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,19 +67,12 @@
     }
   },
   "feed_status": {
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 2
-    },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -88,40 +81,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -130,12 +95,54 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -144,6 +151,20 @@
       "item_count": 15,
       "in_window_count": 5
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -151,39 +172,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Horizon3 Attack Research": {
@@ -200,8 +193,36 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
+    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -214,26 +235,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 11
+      "in_window_count": 3
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -249,20 +263,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -277,20 +277,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -298,19 +284,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 4
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -326,12 +312,33 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 9
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -347,20 +354,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -368,11 +361,18 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 19
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "OpenSSF Blog": {
@@ -389,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 18
+      "in_window_count": 0
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -403,19 +403,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,19 +431,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 1
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,15 +452,22 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 24
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -466,19 +480,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 23
+      "item_count": 20,
+      "in_window_count": 0
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -487,33 +494,19 @@
       "item_count": 50,
       "in_window_count": 39
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 6
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -522,26 +515,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 28
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -550,12 +529,33 @@
       "item_count": 20,
       "in_window_count": 3
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 23
+      "in_window_count": 22
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -585,13 +585,6 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -599,12 +592,12 @@
       "item_count": 25,
       "in_window_count": 9
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -612,6 +605,13 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2409,7 +2409,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Kazuar: Anatomy of a nation-state botnet",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2441,7 +2441,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2470,7 +2470,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2617,79 +2617,6 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f10a4dd7e7",
-      "priority_score": 16,
-      "member_count": 4,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "united_states"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
-        "link": "https://isc.sans.edu/diary/rss/32992",
-        "published": "2026-05-15T04:10:13+00:00",
-        "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "united_states"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
-          "link": "https://isc.sans.edu/diary/rss/32992",
-          "published": "2026-05-15T04:10:13+00:00",
-          "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "united_states"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -2862,115 +2789,6 @@
       ]
     },
     {
-      "cluster_id": "8fd391b96b",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "nation_state",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2022-20775",
-          "CVE-2026-20127",
-          "CVE-2026-20182"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-        "published": "2026-05-14T20:25:31+00:00",
-        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [
-            "CVE-2022-20775",
-            "CVE-2026-20127",
-            "CVE-2026-20182"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-          "published": "2026-05-14T20:25:31+00:00",
-          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [
-              "CVE-2022-20775",
-              "CVE-2026-20127",
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "6298838115",
       "priority_score": 15,
       "member_count": 1,
@@ -3059,6 +2877,79 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "71d889cc01",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "NCSC UK",
+        "cohort": "government_authoritative",
+        "title": "Thinking carefully before adopting agentic AI",
+        "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+        "published": "2026-05-15T12:00:00+00:00",
+        "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
+        "full_body": "Blog Post Download & print article PDF Download & print article PDF Thinking carefully before adopting agentic AI When it comes to using agentic AI, make sure you can walk before you run. Martin R , Dr Kate S Krot Studio via Getty Images Agentic AI tools are starting to appear in real organisations, not just research labs. These tools don’t just generate content or predictions; they can plan, make decisions and take actions on your behalf. This capability can be beneficial, including in cyber defence , but it can also introduce new risks if used without care. ' Careful adoption of agentic AI services’ is new joint guidance, co-authored by the NCSC with international partners, that sets out why organisations should start small, use agents only for low-risk tasks, and apply established cyber security controls from the outset. This blog summarises the key points from that guidance, and will be of use to anyone involved in the design, development, deployment and operation of agentic AI systems. What is agentic AI? Agentic AI represents the next step for the most advanced generative AI (also known as ‘frontier AI’). Rather than outputting a prediction or new content, agentic systems can access data sources, remember context, make decisions, use tools, and take actions in pursuit of a goal. They can operate without continuous human intervention and even create sub-agents to complete specific tasks. This is what makes them useful, but also more hazardous than non-agentic AI tools. Agentic AI increases the risk Many risks associated with agentic AI are not new: access control, secure development, supply chain risk, monitoring, incident response and accountability are all still relevant concerns. Agentic AI systems also inherit known LLM risks like susceptibility to jailbreaking and prompt injection , with security challenges evolving as the technology matures. However, the extra autonomy and complexity of agentic systems can increase the attack surface and make behaviour harder to predict, test and govern. Additional risks include: broader access – agents can be permitted to access external systems, data and tools in ways that non-agentic AI systems are not unpredictable behaviour – especially when goals can be interpreted in ways that a human would not expect harder to spot problems – particularly when actions occur faster than humans can meaningfully review them challenging to explain – while the workings of non-agentic frontier AI systems are notoriously difficult to interpret, the range of behaviours and tools available to agents make it even more challenging to explain a particular course of action Approach adoption very carefully If an agent is over‑privileged or poorly designed, a single failure can quickly become a serious incident . It is crucial, therefore, to think before you deploy. Specifically you should: consider what could go wrong and how failures or misuse could affect operations reflect on whether AI is really needed, or whether a process could be simplified, removed or automated in a lower-risk way deploy agentic AI incrementally, starting with tightly bounded pilots using clearly defined tasks, and build confidence in the system before you expand the scope Develop and adopt agentic AI with security in mind Think about what could happen if an agent misunderstood its task, exceeded its intended scope or was manipulated, and never grant an agent unrestricted access to sensitive data or critical systems. Ensure you maintain ongoing visibility of the system’s operation, and understand how to retain meaningful human oversight and control. If you cannot understand, monitor or contain an agent’s actions, it is not ready for deployment Insist on human accountability A system may take an action, but humans remain accountable for: the decision to deploy it the access it was granted the safeguards around it the consequences of its operation You should be clear about who owns an agentic system, who approves its access, who mon",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "NCSC UK",
+          "cohort": "government_authoritative",
+          "title": "Thinking carefully before adopting agentic AI",
+          "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+          "published": "2026-05-15T12:00:00+00:00",
+          "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -3280,79 +3171,6 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "71d889cc01",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "NCSC UK",
-        "cohort": "government_authoritative",
-        "title": "Thinking carefully before adopting agentic AI",
-        "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
-        "published": "2026-05-15T12:00:00+00:00",
-        "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
-        "full_body": "Blog Post Download & print article PDF Download & print article PDF Thinking carefully before adopting agentic AI When it comes to using agentic AI, make sure you can walk before you run. Martin R , Dr Kate S Krot Studio via Getty Images Agentic AI tools are starting to appear in real organisations, not just research labs. These tools don’t just generate content or predictions; they can plan, make decisions and take actions on your behalf. This capability can be beneficial, including in cyber defence , but it can also introduce new risks if used without care. ' Careful adoption of agentic AI services’ is new joint guidance, co-authored by the NCSC with international partners, that sets out why organisations should start small, use agents only for low-risk tasks, and apply established cyber security controls from the outset. This blog summarises the key points from that guidance, and will be of use to anyone involved in the design, development, deployment and operation of agentic AI systems. What is agentic AI? Agentic AI represents the next step for the most advanced generative AI (also known as ‘frontier AI’). Rather than outputting a prediction or new content, agentic systems can access data sources, remember context, make decisions, use tools, and take actions in pursuit of a goal. They can operate without continuous human intervention and even create sub-agents to complete specific tasks. This is what makes them useful, but also more hazardous than non-agentic AI tools. Agentic AI increases the risk Many risks associated with agentic AI are not new: access control, secure development, supply chain risk, monitoring, incident response and accountability are all still relevant concerns. Agentic AI systems also inherit known LLM risks like susceptibility to jailbreaking and prompt injection , with security challenges evolving as the technology matures. However, the extra autonomy and complexity of agentic systems can increase the attack surface and make behaviour harder to predict, test and govern. Additional risks include: broader access – agents can be permitted to access external systems, data and tools in ways that non-agentic AI systems are not unpredictable behaviour – especially when goals can be interpreted in ways that a human would not expect harder to spot problems – particularly when actions occur faster than humans can meaningfully review them challenging to explain – while the workings of non-agentic frontier AI systems are notoriously difficult to interpret, the range of behaviours and tools available to agents make it even more challenging to explain a particular course of action Approach adoption very carefully If an agent is over‑privileged or poorly designed, a single failure can quickly become a serious incident . It is crucial, therefore, to think before you deploy. Specifically you should: consider what could go wrong and how failures or misuse could affect operations reflect on whether AI is really needed, or whether a process could be simplified, removed or automated in a lower-risk way deploy agentic AI incrementally, starting with tightly bounded pilots using clearly defined tasks, and build confidence in the system before you expand the scope Develop and adopt agentic AI with security in mind Think about what could happen if an agent misunderstood its task, exceeded its intended scope or was manipulated, and never grant an agent unrestricted access to sensitive data or critical systems. Ensure you maintain ongoing visibility of the system’s operation, and understand how to retain meaningful human oversight and control. If you cannot understand, monitor or contain an agent’s actions, it is not ready for deployment Insist on human accountability A system may take an action, but humans remain accountable for: the decision to deploy it the access it was granted the safeguards around it the consequences of its operation You should be clear about who owns an agentic system, who approves its access, who mon",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "NCSC UK",
-          "cohort": "government_authoritative",
-          "title": "Thinking carefully before adopting agentic AI",
-          "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
-          "published": "2026-05-15T12:00:00+00:00",
-          "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -3876,7 +3694,7 @@
       ]
     },
     {
-      "cluster_id": "044dd073f2",
+      "cluster_id": "8fd391b96b",
       "priority_score": 14,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -3884,23 +3702,25 @@
       "taxonomy": {
         "threat_categories": [
           "active_exploitation",
-          "ransomware",
+          "nation_state",
           "vulnerability_disclosure",
           "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Microsoft Exchange"
+          "Cisco"
         ],
         "cve_ids": [
-          "CVE-2026-42897"
+          "CVE-2022-20775",
+          "CVE-2026-20127",
+          "CVE-2026-20182"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [
           "actively_exploited",
-          "zero_day"
+          "preauth_unauth"
         ],
         "content_type": [
           "vulnerability_disclosure"
@@ -3910,34 +3730,36 @@
         ]
       },
       "primary": {
-        "source": "BleepingComputer",
+        "source": "Dark Reading",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-        "published": "2026-05-15T09:40:42+00:00",
-        "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
-        "full_body": "Microsoft warns of Exchange zero-day flaw exploited in attacks By Sergiu Gatlan May 15, 2026 05:40 AM 0 On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. Microsoft describes this security flaw (CVE-2026-42897) as a spoofing vulnerability affecting up-to-date Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE) software. While patches aren't yet available to permanently fix the vulnerability, the company added that the Exchange Emergency Mitigation Service (EEMS) will provide automatic mitigation for Exchange Server 2016, 2019, and SE on-premises servers. \"An attacker could exploit this issue by sending a specially crafted email to a user. If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context,\" the Exchange Team said . \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away. Please note that EM Service will not be able to check for new mitigations if your server is running Exchange Server version older than March 2023.\" EEMS was introduced in September 2021 to provide automated protection for on-premises Exchange servers, securing them against ongoing attacks by applying interim mitigations for high-risk (and likely actively exploited) vulnerabilities. EEMS runs as a Windows service on Exchange Mailbox servers and is automatically enabled on servers with the Mailbox role. The security feature was added after many hacking groups exploited ProxyLogon and ProxyShell zero-days (which lacked patches or mitigation information) to breach Internet-exposed Exchange servers. Admins with servers in air-gapped environments can also mitigate the flaw by downloading the latest Exchange on-premises Mitigation Tool (EOMT) version and applying the mitigation by running the script via an elevated Exchange Management Shell (EMS) with one of the following commands: Single server: .\\EOMT.ps1 -CVE \"CVE-2026-42897\" All servers: Get-ExchangeServer | Where-Object { $_.ServerRole -ne \"Edge\" } | .\\EOMT.ps1 -CVE \"CVE-2026-42897\" However, it’s important to note that applying the mitigation measures on vulnerable servers will cause issues, including: OWA Print Calendar functionality might not work. As a workaround, Microsoft suggested copying the data, taking a screenshot of the calendar you want to print, or using the Outlook Desktop client. Inline images might not display correctly in the recipients' OWA reading pane. As a workaround, users are advised to send images as email attachments or use the Outlook Desktop client. OWA light (OWA URL ending in /?layout=light ) does not work properly (this feature was deprecated several years ago and is not intended for regular production use). Microsoft plans to release patches for Exchange SE RTM, Exchange 2016 CU23, and Exchange Server 2019 CU14 and CU15, but says that updates for Exchange 2016 and 2019 will only be available to customers enrolled in the Period 2 Exchange Server ESU program. BleepingComputer also reached out to Microsoft with questions about the attacks, but a response was not immediately available. In October, weeks after Exchange 2016 and 2019 reached the end of support , the Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency (NSA) released guidance to help IT admins harden Microsoft Exchange servers against attacks. Over the last 5 years, CISA has added 19 Microsoft Exchange Server vulnerabilities to its list of actively exploited security flaws, 14 of which were also abused in ransomware attacks. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real valu",
+        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+        "published": "2026-05-14T20:25:31+00:00",
+        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware",
             "zero_day",
             "active_exploitation",
-            "vulnerability_disclosure"
+            "vulnerability_disclosure",
+            "nation_state"
           ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Microsoft Exchange"
+            "Cisco"
           ],
           "cve_ids": [
-            "CVE-2026-42897"
+            "CVE-2022-20775",
+            "CVE-2026-20127",
+            "CVE-2026-20182"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day"
+            "preauth_unauth"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
@@ -3945,32 +3767,34 @@
       },
       "corroborating_sources": [
         {
-          "source": "BleepingComputer",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-          "published": "2026-05-15T09:40:42+00:00",
-          "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
+          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+          "published": "2026-05-14T20:25:31+00:00",
+          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
           "taxonomy": {
             "threat_categories": [
-              "ransomware",
               "zero_day",
               "active_exploitation",
-              "vulnerability_disclosure"
+              "vulnerability_disclosure",
+              "nation_state"
             ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Microsoft Exchange"
+              "Cisco"
             ],
             "cve_ids": [
-              "CVE-2026-42897"
+              "CVE-2022-20775",
+              "CVE-2026-20127",
+              "CVE-2026-20182"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day"
+              "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -5300,6 +5124,109 @@
       ]
     },
     {
+      "cluster_id": "044dd073f2",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "ransomware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [
+          "CVE-2026-42897"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+        "published": "2026-05-15T09:40:42+00:00",
+        "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
+        "full_body": "Microsoft warns of Exchange zero-day flaw exploited in attacks By Sergiu Gatlan May 15, 2026 05:40 AM 0 On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. Microsoft describes this security flaw (CVE-2026-42897) as a spoofing vulnerability affecting up-to-date Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE) software. While patches aren't yet available to permanently fix the vulnerability, the company added that the Exchange Emergency Mitigation Service (EEMS) will provide automatic mitigation for Exchange Server 2016, 2019, and SE on-premises servers. \"An attacker could exploit this issue by sending a specially crafted email to a user. If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context,\" the Exchange Team said . \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away. Please note that EM Service will not be able to check for new mitigations if your server is running Exchange Server version older than March 2023.\" EEMS was introduced in September 2021 to provide automated protection for on-premises Exchange servers, securing them against ongoing attacks by applying interim mitigations for high-risk (and likely actively exploited) vulnerabilities. EEMS runs as a Windows service on Exchange Mailbox servers and is automatically enabled on servers with the Mailbox role. The security feature was added after many hacking groups exploited ProxyLogon and ProxyShell zero-days (which lacked patches or mitigation information) to breach Internet-exposed Exchange servers. Admins with servers in air-gapped environments can also mitigate the flaw by downloading the latest Exchange on-premises Mitigation Tool (EOMT) version and applying the mitigation by running the script via an elevated Exchange Management Shell (EMS) with one of the following commands: Single server: .\\EOMT.ps1 -CVE \"CVE-2026-42897\" All servers: Get-ExchangeServer | Where-Object { $_.ServerRole -ne \"Edge\" } | .\\EOMT.ps1 -CVE \"CVE-2026-42897\" However, it’s important to note that applying the mitigation measures on vulnerable servers will cause issues, including: OWA Print Calendar functionality might not work. As a workaround, Microsoft suggested copying the data, taking a screenshot of the calendar you want to print, or using the Outlook Desktop client. Inline images might not display correctly in the recipients' OWA reading pane. As a workaround, users are advised to send images as email attachments or use the Outlook Desktop client. OWA light (OWA URL ending in /?layout=light ) does not work properly (this feature was deprecated several years ago and is not intended for regular production use). Microsoft plans to release patches for Exchange SE RTM, Exchange 2016 CU23, and Exchange Server 2019 CU14 and CU15, but says that updates for Exchange 2016 and 2019 will only be available to customers enrolled in the Period 2 Exchange Server ESU program. BleepingComputer also reached out to Microsoft with questions about the attacks, but a response was not immediately available. In October, weeks after Exchange 2016 and 2019 reached the end of support , the Cybersecurity and Infrastructure Security Agency (CISA) and the National Security Agency (NSA) released guidance to help IT admins harden Microsoft Exchange servers against attacks. Over the last 5 years, CISA has added 19 Microsoft Exchange Server vulnerabilities to its list of actively exploited security flaws, 14 of which were also abused in ransomware attacks. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real valu",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [
+            "CVE-2026-42897"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+          "published": "2026-05-15T09:40:42+00:00",
+          "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a3958e5424",
       "priority_score": 13,
       "member_count": 1,
@@ -5434,188 +5361,6 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f72dc2efba",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "energy_utilities"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
-        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
-        "published": "2026-05-15T10:00:52+00:00",
-        "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Threat Research Malware Malware Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files 7 min read Related Products Advanced DNS Security Advanced Threat Prevention Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Pranay Kumar Chhaparwal Mark Lim Published: May 15, 2026 Categories: Malware Threat Research Tags: API Cryptocurrency Gremlin stealer Obfuscation Payload Telegram VirusTotal Share Executive Summary This article examines new obfuscation techniques the Gremlin stealer malware uses to conceal malicious payloads within embedded resources. We analyze a variant protected by a sophisticated commercial packing utility that employs instruction virtualization, transforming the original code into a custom, non-standard bytecode executed by a private virtual machine. Gremlin stealer siphons sensitive information from compromised systems and exfiltrates it to attacker‑controlled servers for potential publication or sale. It targets web browsers, system clipboard and local storage to exfiltrate sensitive information like: Payment card details Browser cookies Session tokens Cryptocurrency wallet data FTP and VPN credentials This threat has rapidly evolved, incorporating new anti-analysis safeguards into recent builds. Palo Alto Networks customers are better protected from Gremlin Stealer through our Network Security solutions and Cortex line of products, including: Cortex XDR and XSIAM Advanced WildFire Advanced Threat Prevention Advanced URL Filtering and Advanced DNS Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Infostealer , Telegram , Cryptocurrency New Gremlin Site for Publishing Data Using data from our internal threat intelligence, we identified a new Gremlin stealer variant. This variant exfiltrates stolen data to a newly deployed site at hxxp[:]194.87.92[.]109 as shown in Figure 1. Figure 1. New Gremlin site. At the time of discovery, VirusTotal showed zero detection for this new Gremlin site hxxp[:]194.87.92[.]109 , its associated URLs or any retrieved artifacts. There were no block list entries, community reports or malicious categorizations as shown in Figure 2. Figure 2. Gremlin Stealer’s new site detection on VirusTotal. After data theft, the malware bundles harvested artifacts into a ZIP archive, including: Browser cookies Session tokens Clipboard contents Cryptocurrency wallet data FTP and VPN credentials The malware names the file using the victim’s public IP address to identify the source, and then uploads it to the attacker-controlled site, as shown in Figure 3. Figure 3. Gremlin site published data. Technical Analysis In this section, we present a comparative analysis of older and newer Gremlin stealer variants, highlighting the key changes and describing our process for extracting the final-stage payloads. Hiding Payload in Resource The latest iteration of the Gremlin stealer has an increased focus on stealth, specifically designed to evade static analysis tools. In this version, the malware authors have shifted the malicious payload into the .NET Resource section, masking it with XOR encoding to bypass signature-based detection and heuristic scanning. Figure 4 shows how the resource section appears as an opaque block of data, hiding strings and API calls that would otherwise trigger alerts. Figure 4. Resource section. By applying a single-byte XOR decryption routine, we recovered the plain-text configuration. Figure 5 shows that this reveals the hard-coded command-and-control (C2) URLs and exfiltration paths. Figure 5. XOR decryption on resource section. Gremlin stealer uses the resource section to mirror the tactics of several high-profile malware families that frequently use this area for payload obfuscation, including: Agent Tesla GuLoader LokiBot Quasar RAT Comparison with Olde",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "energy_utilities"
-          ],
-          "affected_products": [
-            "Palo Alto Networks"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
-          "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
-          "published": "2026-05-15T10:00:52+00:00",
-          "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "energy_utilities"
-            ],
-            "affected_products": [
-              "Palo Alto Networks"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c42bf483b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "mass_exploitation"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-        "published": "2026-05-12T13:17:51+00:00",
-        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "mass_exploitation",
-            "cisa_kev"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-          "published": "2026-05-12T13:17:51+00:00",
-          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "mass_exploitation",
-              "cisa_kev"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -5907,6 +5652,103 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c42bf483b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "cisa_kev",
+          "mass_exploitation"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+        "published": "2026-05-12T13:17:51+00:00",
+        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "mass_exploitation",
+            "cisa_kev"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+          "published": "2026-05-12T13:17:51+00:00",
+          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "mass_exploitation",
+              "cisa_kev"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -6355,7 +6197,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6383,7 +6225,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6408,7 +6250,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6427,6 +6269,176 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f72dc2efba",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "energy_utilities"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
+        "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
+        "published": "2026-05-15T10:00:52+00:00",
+        "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Threat Research Malware Malware Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files 7 min read Related Products Advanced DNS Security Advanced Threat Prevention Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Pranay Kumar Chhaparwal Mark Lim Published: May 15, 2026 Categories: Malware Threat Research Tags: API Cryptocurrency Gremlin stealer Obfuscation Payload Telegram VirusTotal Share Executive Summary This article examines new obfuscation techniques the Gremlin stealer malware uses to conceal malicious payloads within embedded resources. We analyze a variant protected by a sophisticated commercial packing utility that employs instruction virtualization, transforming the original code into a custom, non-standard bytecode executed by a private virtual machine. Gremlin stealer siphons sensitive information from compromised systems and exfiltrates it to attacker‑controlled servers for potential publication or sale. It targets web browsers, system clipboard and local storage to exfiltrate sensitive information like: Payment card details Browser cookies Session tokens Cryptocurrency wallet data FTP and VPN credentials This threat has rapidly evolved, incorporating new anti-analysis safeguards into recent builds. Palo Alto Networks customers are better protected from Gremlin Stealer through our Network Security solutions and Cortex line of products, including: Cortex XDR and XSIAM Advanced WildFire Advanced Threat Prevention Advanced URL Filtering and Advanced DNS Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Infostealer , Telegram , Cryptocurrency New Gremlin Site for Publishing Data Using data from our internal threat intelligence, we identified a new Gremlin stealer variant. This variant exfiltrates stolen data to a newly deployed site at hxxp[:]194.87.92[.]109 as shown in Figure 1. Figure 1. New Gremlin site. At the time of discovery, VirusTotal showed zero detection for this new Gremlin site hxxp[:]194.87.92[.]109 , its associated URLs or any retrieved artifacts. There were no block list entries, community reports or malicious categorizations as shown in Figure 2. Figure 2. Gremlin Stealer’s new site detection on VirusTotal. After data theft, the malware bundles harvested artifacts into a ZIP archive, including: Browser cookies Session tokens Clipboard contents Cryptocurrency wallet data FTP and VPN credentials The malware names the file using the victim’s public IP address to identify the source, and then uploads it to the attacker-controlled site, as shown in Figure 3. Figure 3. Gremlin site published data. Technical Analysis In this section, we present a comparative analysis of older and newer Gremlin stealer variants, highlighting the key changes and describing our process for extracting the final-stage payloads. Hiding Payload in Resource The latest iteration of the Gremlin stealer has an increased focus on stealth, specifically designed to evade static analysis tools. In this version, the malware authors have shifted the malicious payload into the .NET Resource section, masking it with XOR encoding to bypass signature-based detection and heuristic scanning. Figure 4 shows how the resource section appears as an opaque block of data, hiding strings and API calls that would otherwise trigger alerts. Figure 4. Resource section. By applying a single-byte XOR decryption routine, we recovered the plain-text configuration. Figure 5 shows that this reveals the hard-coded command-and-control (C2) URLs and exfiltration paths. Figure 5. XOR decryption on resource section. Gremlin stealer uses the resource section to mirror the tactics of several high-profile malware families that frequently use this area for payload obfuscation, including: Agent Tesla GuLoader LokiBot Quasar RAT Comparison with Olde",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "energy_utilities"
+          ],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files",
+          "link": "https://unit42.paloaltonetworks.com/gremlin-stealer-evolution/",
+          "published": "2026-05-15T10:00:52+00:00",
+          "summary": "Unit 42 analyzes the evolution of Gremlin stealer. This variant uses advanced obfuscation, crypto clipping and session hijacking to compromise data. The post Gremlin Stealer's Evolved Tactics: Hiding in Plain Sight With Resource Files appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "energy_utilities"
+            ],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3e50af038c",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "GitHub Security Lab",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+        "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+        "published": "2026-05-15T14:00:00+00:00",
+        "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
+        "full_body": "Jarom Brown · @jarombrown May 15, 2026 | 7 minutes Share: The security research community is one of GitHub’s greatest assets. Every year, researchers from around the world help us find and fix vulnerabilities, making the platform safer for over 180 million developers. Our bug bounty program exists because we believe that collaboration with external researchers is one of the most effective ways to improve security, and we remain deeply committed to it. But like every bug bounty program, we’re adapting to a changing landscape. We want to share what we’re seeing, what we’re doing about it, and how we think about the security boundaries of a platform like GitHub. The volume problem Over the past year, submission volume across the industry has grown significantly. New tools, including AI, have lowered the barrier to entry for security research, which in many ways is a positive development. More people exploring attack surfaces means more opportunities to find real issues. However, alongside the growth in legitimate reports, we’ve seen a sharp increase in submissions that don’t demonstrate real security impact. These include reports without a proof of concept, theoretical attack scenarios that don’t hold up under scrutiny, and findings that are already covered by our published ineligible list. This isn’t unique to GitHub. Programs across the industry are grappling with the same challenge, and some have shut down entirely. We don’t want to go that direction. Instead, we want to invest in making our program better. What makes a strong submission We’re raising the bar on what we consider a complete submission. Going forward, reports will be evaluated more strictly against these criteria: A working proof of concept with demonstrated security impact. Show us the impact, don’t just describe it. What could an attacker actually achieve? We need a working proof of concept that demonstrates real exploitation and concrete security impact. Show us the boundary that can be crossed, not just that one theoretically exists. If your report says “this could lead to…” but doesn’t show that it does , it’s incomplete. Awareness of scope and ineligible findings. Before submitting, review our scope and ineligible findings list . Reports covering known ineligible categories (DMARC/SPF/DKIM configuration, user enumeration, missing security headers without a demonstrated attack path, and others) will be closed as Not Applicable, which may impact your HackerOne Signal and reputation. Validation before submission. No matter what tools you use (scanners, static analysis, AI assistants), you need to validate the output before submitting. A false positive that’s been manually reviewed is caught before it wastes anyone’s time. One that hasn’t is just noise. We welcome AI in security research We want to be explicit about this: we have no problem with researchers using AI tools. AI is a force multiplier, and we expect it to play an increasing role in security research. We use AI across our own internal security programs, and we’re seeing the best external researchers do the same. We welcome it. What we need is the same standard we’ve always expected: validation. An AI-assisted finding that’s been verified, reproduced, and submitted with a working proof of concept is a great submission. An unvalidated output submitted as-is without reproduction or demonstrated impact is not. This isn’t a new standard. It’s the same standard we apply to scanner output, static analysis, or any other tool. The human researcher is accountable for the accuracy of the submission. We’d also ask researchers to keep reports concise and structured. A strong report has three things: a short summary of the issue, clear steps to reproduce with supporting evidence (screenshots, HTTP requests, terminal output), and an impact statement explaining what an attacker can actually achieve. That’s it. Verbose reports such as multi-page theoretical narratives, restated background context, or AI-generated f",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "GitHub Security Lab",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+          "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -6650,91 +6662,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e50af038c",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "GitHub Security Lab",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-        "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-        "published": "2026-05-15T14:00:00+00:00",
-        "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-        "full_body": "Jarom Brown · @jarombrown May 15, 2026 | 7 minutes Share: The security research community is one of GitHub’s greatest assets. Every year, researchers from around the world help us find and fix vulnerabilities, making the platform safer for over 180 million developers. Our bug bounty program exists because we believe that collaboration with external researchers is one of the most effective ways to improve security, and we remain deeply committed to it. But like every bug bounty program, we’re adapting to a changing landscape. We want to share what we’re seeing, what we’re doing about it, and how we think about the security boundaries of a platform like GitHub. The volume problem Over the past year, submission volume across the industry has grown significantly. New tools, including AI, have lowered the barrier to entry for security research, which in many ways is a positive development. More people exploring attack surfaces means more opportunities to find real issues. However, alongside the growth in legitimate reports, we’ve seen a sharp increase in submissions that don’t demonstrate real security impact. These include reports without a proof of concept, theoretical attack scenarios that don’t hold up under scrutiny, and findings that are already covered by our published ineligible list. This isn’t unique to GitHub. Programs across the industry are grappling with the same challenge, and some have shut down entirely. We don’t want to go that direction. Instead, we want to invest in making our program better. What makes a strong submission We’re raising the bar on what we consider a complete submission. Going forward, reports will be evaluated more strictly against these criteria: A working proof of concept with demonstrated security impact. Show us the impact, don’t just describe it. What could an attacker actually achieve? We need a working proof of concept that demonstrates real exploitation and concrete security impact. Show us the boundary that can be crossed, not just that one theoretically exists. If your report says “this could lead to…” but doesn’t show that it does , it’s incomplete. Awareness of scope and ineligible findings. Before submitting, review our scope and ineligible findings list . Reports covering known ineligible categories (DMARC/SPF/DKIM configuration, user enumeration, missing security headers without a demonstrated attack path, and others) will be closed as Not Applicable, which may impact your HackerOne Signal and reputation. Validation before submission. No matter what tools you use (scanners, static analysis, AI assistants), you need to validate the output before submitting. A false positive that’s been manually reviewed is caught before it wastes anyone’s time. One that hasn’t is just noise. We welcome AI in security research We want to be explicit about this: we have no problem with researchers using AI tools. AI is a force multiplier, and we expect it to play an increasing role in security research. We use AI across our own internal security programs, and we’re seeing the best external researchers do the same. We welcome it. What we need is the same standard we’ve always expected: validation. An AI-assisted finding that’s been verified, reproduced, and submitted with a working proof of concept is a great submission. An unvalidated output submitted as-is without reproduction or demonstrated impact is not. This isn’t a new standard. It’s the same standard we apply to scanner output, static analysis, or any other tool. The human researcher is accountable for the accuracy of the submission. We’d also ask researchers to keep reports concise and structured. A strong report has three things: a short summary of the issue, clear steps to reproduce with supporting evidence (screenshots, HTTP requests, terminal output), and an impact statement explaining what an attacker can actually achieve. That’s it. Verbose reports such as multi-page theoretical narratives, restated background context, or AI-generated f",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-          "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -6983,206 +6910,6 @@
       ]
     },
     {
-      "cluster_id": "30a37286ce",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [
-          "Google Cloud"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Security",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Gemini Live Agent Challenge: Announcing the winners and highlights",
-        "link": "https://cloud.google.com/blog/topics/developers-practitioners/winners-and-highlights-of-the-gemini-live-agent-challenge/",
-        "published": "2026-05-15T16:00:00+00:00",
-        "summary": "The Gemini Live Agent Challenge is officially in the books! We challenged developers worldwide to break out of the traditional 'text box' paradigm by building next-generation AI agents. From our initial announcement to amassing 11,878 participants and 1,536 submitted projects from 151 countries, the results were nothing short of spectacular. The mission was to seamlessly integrate multimodal capabilities—building agents that help you see, hear, speak, and create in real time — using the Gemini Live API, the Agent Development Kit (ADK), and the robust infrastructure of Google Cloud. Participants pushed the boundaries of interactive AI across three distinct categories: The Live Agent, The Creative Storyteller, and The UI Navigator. Congratulations to the builders who took home the top prizes! These winning teams combined technical precision with bold imagination, completely redefining how users can interact with and experience agents. Two of these standout developers were even recognized",
-        "full_body": "Developers & Practitioners Gemini Live Agent Challenge: Announcing the winners and highlights May 15, 2026 Dilasha Panigrahi Product Marketing Manager, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The Gemini Live Agent Challenge is officially in the books! We challenged developers worldwide to break out of the traditional 'text box' paradigm by building next-generation AI agents. From our initial announcement to amassing 11,878 participants and 1,536 submitted projects from 151 countries, the results were nothing short of spectacular. The mission was to seamlessly integrate multimodal capabilities—building agents that help you see, hear, speak, and create in real time — using the Gemini Live API, the Agent Development Kit (ADK), and the robust infrastructure of Google Cloud. Participants pushed the boundaries of interactive AI across three distinct categories: The Live Agent, The Creative Storyteller, and The UI Navigator. Congratulations to the builders who took home the top prizes! These winning teams combined technical precision with bold imagination, completely redefining how users can interact with and experience agents. Two of these standout developers were even recognized in person at Google Cloud Next 2026. Here’s a look at their experience, alongside the complete list of winning agents. Celebrating our category winners at Google Cloud Next ‘26 Category winners Jeremiah Somoine and Bryen Param were invited to attend Google Cloud Next 2026 in Las Vegas, where they shared their experiences and insights with the broader developer community. Both winners presented Lightning Talks at the Developer Theatre on the expo floor and sat down for exclusive interviews in the Creator Studio Pod at the GDE and Certified Lounge. During his time at the event, Bryen discussed the core inspiration behind drone-copilot . He explained that his project was driven by the question of \"what if a model could interact with the real world?\", showcasing how multimodal capabilities can bridge the gap between AI and physical environments. Jeremiah, currently a college student, reflected on the development process behind Sankofa , noting that \"the best response to a technical limitation was a creative one.\" When asked what advice he would give to other students looking to build the next generation of AI applications, he emphasized the importance of jumping at any opportunity to get hands-on with the technology. \"The best way to learn is by doing,\" he said, encouraging aspiring developers to simply dive in and start building. Winners Grand Prize winner: ORION - Operating Room Intelligent Orchestration Node By: Aditya Shukla ORION, or Operating Room Intelligent Orchestration Node, is a voice-directed surgical co-pilot for robotic surgery. Surgeons can speak naturally and instantly receive answers, live data on display, and real-time visual assistance - all without breaking scrub. The Live Agent winner: drone-copilot By: Bryen Param Drone-copilot transforms how users interact with hardware by enabling natural, real-time conversations with a drone instead of using a joystick or complex menus. Simply by speaking, users can instruct the drone to navigate, perform autonomous visual inspections, or describe its surroundings, while the drone verbally responds and confirms its actions in real time. Creative Storyteller winner: Sankofa By: Jeremiah Somoine Sankofa acts as a multimodal AI \"griot\"—a traditional West African storyteller—transforming fragmented family histories into deeply immersive narratives. Based on just a few user details, it weaves together rich voice narration, watercolor imagery, and ambient soundscapes into a historical story, allowing users to engage in a real-time voice conversation with the storyteller to explore their roots further. UI Navigator winner: Moonwalk By: Enaiho Uwas Paul and Aman Kumar Sah Moonwalk is a conversational, hands-free desktop assistant that helps users i",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "education"
-          ],
-          "affected_products": [
-            "Google Cloud"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Gemini Live Agent Challenge: Announcing the winners and highlights",
-          "link": "https://cloud.google.com/blog/topics/developers-practitioners/winners-and-highlights-of-the-gemini-live-agent-challenge/",
-          "published": "2026-05-15T16:00:00+00:00",
-          "summary": "The Gemini Live Agent Challenge is officially in the books! We challenged developers worldwide to break out of the traditional 'text box' paradigm by building next-generation AI agents. From our initial announcement to amassing 11,878 participants and 1,536 submitted projects from 151 countries, the results were nothing short of spectacular. The mission was to seamlessly integrate multimodal capabilities—building agents that help you see, hear, speak, and create in real time — using the Gemini Live API, the Agent Development Kit (ADK), and the robust infrastructure of Google Cloud. Participants pushed the boundaries of interactive AI across three distinct categories: The Live Agent, The Creative Storyteller, and The UI Navigator. Congratulations to the builders who took home the top prizes! These winning teams combined technical precision with bold imagination, completely redefining how users can interact with and experience agents. Two of these standout developers were even recognized",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
-            "affected_products": [
-              "Google Cloud"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a8d58ef104",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "malware"
-        ],
-        "actor_attribution": [
-          "MuddyWater",
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government_public_sector",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Android",
-          "Anthropic/Claude",
-          "Chrome",
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "europe",
-          "iran"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
-        "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
-        "published": "2026-05-15T14:52:16+00:00",
-        "summary": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws appeared first on SecurityWeek .",
-        "full_body": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Nvidia cloud gaming partner suffers data breach Nvidia has confirmed that a breach of GeForce NOW user data occurred through GFN.am, its regional Alliance partner operating the service in Armenia, with no impact on Nvidia’s own infrastructure. The incident, which took place between March 20 and 26, exposed personal details including full names, email addresses, phone numbers, dates of birth, and usernames, but no passwords were compromised, and users who registered after March 9 are unaffected. A threat actor operating under the ShinyHunters name (believed to be an impersonator) claimed responsibility on a hacker forum and listed the full database for $100,000 in cryptocurrency before the post was taken down. Advertisement. Scroll to continue reading. FCC buys time for foreign routers with extended update window Foreign-made routers and drones on the FCC’s Covered List — devices deemed national security risks — will be allowed to receive security patches and firmware updates until at least January 1, 2029, up from the previous March 2027 cutoff. The agency is also considering making the waiver permanent. OpenAI moves to give EU regulators a look at its cyber AI OpenAI is in talks with the European Commission to provide access to a cyber-focused variant of GPT-5.5 that can identify and exploit software vulnerabilities. The offer came after EU cybersecurity and AI officials spent weeks unable to gain access to Anthropic’s comparable model, Mythos , which has been limited to a few dozen organizations. ENISA, the EU’s cybersecurity agency, confirmed OpenAI made contact, and the Commission called the move a step toward monitoring the model’s deployment and addressing potential security risks. Developers targeted with fake Claude Code installer Ontinue has uncovered an active infostealer campaign that uses fake Claude Code installation pages , promoted via sponsored search results, to trick developers into running malicious PowerShell commands. The payload uses a small native helper to abuse Chrome’s App-Bound Encryption via the IElevator2 COM interface, extracting decrypted cookies, saved passwords, and payment data from Chrome, Edge, Brave, and other Chromium-based browsers, before exfiltrating the data to attacker-controlled infrastructure. The malware doesn’t match any known family and is notably well-maintained. Seedworm targets South Korean electronics manufacturer Iran-linked group Seedworm (also known as MuddyWater) breached a major South Korean electronics manufacturer in February 2026 as part of a broader campaign hitting at least nine organizations across four continents, including government agencies, industrial manufacturers, financial services firms, and educational institutions. The attackers used DLL sideloading via legitimately signed Fortemedia and SentinelOne binaries to deploy malicious payloads. Android 17 brings AI-driven defenses Google’s Android 17 introduces a broad set of security upgrades, including verified financial calls (automatically drops spoofed calls impersonating participating banks) and expanded Live Threat Detection, which now flags suspicious behaviors like SMS forwarding and accessibility overlay abuse in real time. On the anti-theft front, biometric authentication can now be required to unlock a device marked as lost, and default-on theft protections are rolling out globally. The update also introduces post-quantum cryptography, automatic OTP hiding from most apps, and Android OS verification to help users conf",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach",
-            "malware"
-          ],
-          "actor_attribution": [
-            "MuddyWater",
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government_public_sector",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Android",
-            "Chrome",
-            "OpenAI/ChatGPT",
-            "Anthropic/Claude"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "europe",
-            "iran"
-          ],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
-          "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
-          "published": "2026-05-15T14:52:16+00:00",
-          "summary": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach",
-              "malware"
-            ],
-            "actor_attribution": [
-              "MuddyWater",
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government_public_sector",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Android",
-              "Chrome",
-              "OpenAI/ChatGPT",
-              "Anthropic/Claude"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "europe",
-              "iran"
-            ],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1702439df4",
       "priority_score": 11,
       "member_count": 1,
@@ -7190,18 +6917,32 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "supply_chain"
+          "data_breach",
+          "malware",
+          "supply_chain",
+          "vulnerability_disclosure"
         ],
         "actor_attribution": [],
         "affected_industries": [
+          "government_public_sector",
           "manufacturing_industrial"
         ],
         "affected_products": [
-          "OpenAI/ChatGPT"
+          "Android",
+          "Anthropic/Claude",
+          "Apple iOS/macOS",
+          "Canvas LMS",
+          "Fortinet",
+          "Ivanti",
+          "OpenAI/ChatGPT",
+          "PyPI",
+          "npm"
         ],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "china"
+        ],
         "urgency_signals": [],
         "content_type": [
           "news_report"
@@ -7217,22 +6958,36 @@
         "link": "https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/",
         "published": "2026-05-15T10:37:00+00:00",
         "summary": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "OpenAI has disclosed the impact of the recent TanStack supply chain attack, warning that credential material was exfiltrated from internal source code repositories. The open source web application development stack TanStack was hit on May 11, when the TeamPCP hacking group exploited security weaknesses in the package publishing process to release 84 malicious artifacts across 42 packages . Over 170 packages across several high-profile NPM and PyPI namespaces were compromised on the same day as part of a coordinated campaign. Developer devices were infected with the Shai-Hulud worm . OpenAI was one of the organizations affected downstream. Two employee devices were infected as part of the attack, and credentials and other secrets were exfiltrated from them. Despite its limited scope, the compromise granted the attackers access to several internal source code repositories that the two OpenAI employees had access to. “We confirmed that only limited credential material was successfully exfiltrated from these code repositories and that no other information or code was impacted,” OpenAI says . Advertisement. Scroll to continue reading. The company says it has rotated credentials across all affected repositories, revoked user sessions, and temporarily restricted code-deployment workflows. No customer data or intellectual property was affected in the attack, it says. The compromised repositories contained code-signing certificates for iOS, macOS, Windows, and Android products, and OpenAI decided to revoke the certificates and re-sign all applications. macOS users will need to update their applications by June 12, 2026. After that date, these products will no longer receive updates and might stop functioning properly. “We are updating our security certificates, which will require all macOS users to update their OpenAI apps to the latest versions. This helps prevent any risk, however unlikely, of someone attempting to distribute a fake app that appears to be from OpenAI,” the company says. OpenAI says it is also coordinating with platform providers to stop new notarizations and prevent the malicious use of the stolen certificates. “We have also reviewed all notarization of software using our previous certificates to confirm no unexpected software signing has occurred with these keys, and validated that our published software did not have unauthorized modifications. We have found no evidence of compromise or risk to existing software installations,” the company says. The incident, OpenAI says, occurred during the transition to hardened configurations and credentials material, which was prompted by the Axios supply chain attack that occurred at the end of March, and which affected a certificate and notarization material used to sign OpenAI’s macOS applications. Because the transition was implemented in phases, the two employee devices had not yet been updated with the new configurations, which would have prevented the malicious package downloads. Related: DigiCert Revokes Certificates After Support Portal Hack Related: Worries About AI’s Risks to Humanity Loom Over the Trial Pitting Musk Against OpenAI’s Leaders Related: Checkmarx Confirms Data Stolen in Supply Chain Attack Related: OpenAI Widens Access to Cybersecurity Model After Anthropic’s Mythos Reveal Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. More from Ionut Arghire Chinese APTs Expand Targets, Update Backdoors in Recent Campaigns F5 Patches Over 50 Vulnerabilities Hackers Targeted PraisonAI Vulnerability Hours After Disclosure Researcher Drops YellowKey, GreenPlasma Windows Zero-Days Government to Scrutinize Instructure Over Canvas Disruption, Data Breach 716,000 Impacted by OpenLoop Health Data Breach Fortinet, Ivanti Patch Critical Vulnerabilities Chipmaker Patch Tuesday: Intel and AMD Patch 70 Vulnerabilities Latest News In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws Microsoft Warn",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain"
+            "data_breach",
+            "supply_chain",
+            "vulnerability_disclosure",
+            "malware"
           ],
           "actor_attribution": [],
           "affected_industries": [
+            "government_public_sector",
             "manufacturing_industrial"
           ],
           "affected_products": [
-            "OpenAI/ChatGPT"
+            "Fortinet",
+            "Ivanti",
+            "Canvas LMS",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS",
+            "Android",
+            "OpenAI/ChatGPT",
+            "Anthropic/Claude"
           ],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "china"
+          ],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news"
@@ -7248,91 +7003,32 @@
           "summary": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0a743708e4",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code",
-        "link": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
-        "published": "2026-05-15T09:47:09+00:00",
-        "summary": "The hacking group is encouraging miscreants to use the code in supply chain attacks, promising monetary rewards. The post TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code appeared first on SecurityWeek .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code",
-          "link": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
-          "published": "2026-05-15T09:47:09+00:00",
-          "summary": "The hacking group is encouraging miscreants to use the code in supply chain attacks, promising monetary rewards. The post TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
+              "data_breach",
+              "supply_chain",
+              "vulnerability_disclosure",
               "malware"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "government_public_sector",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Fortinet",
+              "Ivanti",
+              "Canvas LMS",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS",
+              "Android",
+              "OpenAI/ChatGPT",
+              "Anthropic/Claude"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "china"
+            ],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
@@ -7348,6 +7044,8 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
+          "malware",
+          "phishing_social_eng",
           "supply_chain"
         ],
         "actor_attribution": [],
@@ -7356,11 +7054,14 @@
         ],
         "affected_products": [
           "Apple iOS/macOS",
+          "GitHub",
           "OpenAI/ChatGPT"
         ],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "north_korea"
+        ],
         "urgency_signals": [],
         "content_type": [
           "news_report"
@@ -7376,23 +7077,28 @@
         "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
         "published": "2026-05-15T10:54:44+00:00",
         "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates  Ravie Lakshmanan  May 15, 2026 Supply Chain Attack / Malware OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to protect our systems,\" OpenAI said . \"We observed activity consistent with the malware's publicly described behavior, including unauthorized access and credential-focused exfiltration activity, in a limited subset of internal source code repositories to which the two impacted employees had access.\" The artificial intelligence (AI) upstart said only limited credential material was successfully transferred from these code repositories, adding no other information or code was impacted. Upon being alerted of the activity, OpenAI said it isolated impacted systems and identities, revoked user sessions, rotated all credentials across impacted repositories, temporarily restricted code-deployment workflows, and audited user and credential behavior. Since the impacted repositories included signing certificates for iOS, macOS, and Windows products, the company has taken the step of revoking the certificates and issuing new ones. As a result, macOS users of ChatGPT Desktop, Codex App, Codex CLI, and Atlas are required to update their apps to the latest versions. \"This helps prevent any risk, however unlikely, of someone attempting to distribute a fake app that appears to be from OpenAI,\" OpenAI said. \"Users do not need to take any action for Windows and iOS apps.\" The certificates are scheduled to be revoked on June 12, 2026, after which new downloads and launches of apps signed with the previous certificate will be blocked by built-in macOS protections. Users are therefore advised to apply the updates before the cut-off date for optimal protection. This is the second time OpenAI has rotated its code-signing certificates for its macOS in as many months. Around mid-April 2026, it rotated the certificates after a GitHub Actions workflow used to sign its macOS apps led to the download of the malicious Axios library on March 31, which was compromised by a North Korean hacking group called UNC1069. \"This incident reflects a broader shift in the threat landscape: attackers are increasingly targeting shared software dependencies and development tooling rather than any single company,\" OpenAI said. \"Modern software is built on a deeply interconnected ecosystem of open-source libraries, package managers, and continuous integration and continuous deployment infrastructure, which means that a vulnerability introduced upstream can propagate widely and quickly across organizations.\" The development comes close on the heels of TeamPCP claiming a number of fresh victims, compromising hundreds of packages associated with TanStack, UiPath, Mistral AI, OpenSearch, and Guardrails AI as part of an ongoing supply chain attack campaign designed to push malware to downstream developers and steal credentials from their systems to further extend the scale of the breaches. \"Just to be clear, no maintainer was phished, had a password leak, or a token stolen from their account,\" TanStack said . \"The attacker managed to engineer a path where our own CI pipeline stole its own publish token for them, at the exact moment it was created, by way of a cache that everyone in the chain implicitly trusted. It is a sophisticated approach that we hadn't anticipated and that we're taking very seriously.\" TeamPCP has since announced a supply chain attack contest in partnership with Breached cybercrime, offering participants with a $1,000 in Monero to compromise open-source packages using the Shai-Hulud worm that it has made freely available to others",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain"
+            "supply_chain",
+            "malware",
+            "phishing_social_eng"
           ],
           "actor_attribution": [],
           "affected_industries": [
             "manufacturing_industrial"
           ],
           "affected_products": [
+            "GitHub",
             "Apple iOS/macOS",
             "OpenAI/ChatGPT"
           ],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "north_korea"
+          ],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news"
@@ -7408,19 +7114,24 @@
           "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain"
+              "supply_chain",
+              "malware",
+              "phishing_social_eng"
             ],
             "actor_attribution": [],
             "affected_industries": [
               "manufacturing_industrial"
             ],
             "affected_products": [
+              "GitHub",
               "Apple iOS/macOS",
               "OpenAI/ChatGPT"
             ],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "north_korea"
+            ],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
@@ -7459,8 +7170,8 @@
         "link": "https://horizon3.ai/news/awards/nodezero-tradewinds-awardable/",
         "published": "2026-05-14T12:16:00+00:00",
         "summary": "NodeZero achieved Awardable status in the Tradewinds Solutions Marketplace, accelerating access to AI-native proactive security for government organizations.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Horizon3.ai NodeZero® Achieves “Awardable” Status in the Tradewinds Solutions Marketplace Horizon3.ai May 14, 2026 Awards Horizon3.ai’s NodeZero® platform has achieved “Awardable” status through the Tradewinds Solutions Marketplace (TSM), the premier offering of the Department of Defense Chief Digital and Artificial Intelligence Office (CDAO). This recognition highlights solutions that demonstrate technical merit, innovation, and alignment with government mission priorities through a competitive evaluation process involving government, industry, and academic experts. NodeZero enables organizations to continuously hack, fix, verify, and repeat testing across cloud, hybrid, and on-premises environments by safely executing real-world cyberattacks in production to uncover exploitable attack paths and validate defenses. FedRAMP® High authorized, NodeZero is trusted by government organizations, critical infrastructure operators, and enterprises worldwide to proactively identify and eliminate exploitable weaknesses before attackers can take advantage of them. We’re honored to have NodeZero recognized within the Tradewinds Solutions Marketplace and remain committed to helping mission teams strengthen resilience through continuous, real-world security validation. How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -7497,6 +7208,73 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5907e9cfc7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
+        "link": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
+        "published": "2026-05-11T22:00:43+00:00",
+        "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
+          "link": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
+          "published": "2026-05-11T22:00:43+00:00",
+          "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
           }
         }
       ]
@@ -7709,7 +7487,7 @@
       ]
     },
     {
-      "cluster_id": "5907e9cfc7",
+      "cluster_id": "3da3cf9f20",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7731,12 +7509,12 @@
         ]
       },
       "primary": {
-        "source": "Unit 42",
+        "source": "SentinelOne Labs",
         "cohort": "threat_research_primary",
-        "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
-        "link": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
-        "published": "2026-05-11T22:00:43+00:00",
-        "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42 .",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7754,12 +7532,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "Unit 42",
+          "source": "SentinelOne Labs",
           "cohort": "threat_research_primary",
-          "title": "Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools",
-          "link": "https://unit42.paloaltonetworks.com/active-directory-certificate-services-exploitation/",
-          "published": "2026-05-11T22:00:43+00:00",
-          "summary": "Unit 42 analyzes AD CS exploitation through template misconfigurations and shadow credential misuse while offering behavioral detection for defenders. The post Inside AD CS Escalation: Unpacking Advanced Misuse Techniques and Tools appeared first on Unit 42 .",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -8044,73 +7822,6 @@
       ]
     },
     {
-      "cluster_id": "3da3cf9f20",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "SentinelOne Labs",
-        "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SentinelOne Labs",
-          "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bb0ffb2b81",
       "priority_score": 10,
       "member_count": 1,
@@ -8318,15 +8029,94 @@
       ]
     },
     {
-      "cluster_id": "d6cc422002",
+      "cluster_id": "55d60e5654",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Kimsuky targets organizations with PebbleDash-based tools",
+        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+        "published": "2026-05-14T11:00:58+00:00",
+        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Kimsuky targets organizations with PebbleDash-based tools",
+          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+          "published": "2026-05-14T11:00:58+00:00",
+          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "272f23d58f",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -8338,22 +8128,20 @@
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_1_government"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "[Guest Diary] New Malware Libraries means New Signatures, (Fri, May 15th)",
-        "link": "https://isc.sans.edu/diary/rss/32986",
-        "published": "2026-05-15T06:38:33+00:00",
-        "summary": "&#;xd; &#;xd; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;};;",
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
+        "link": "https://www.exploit-db.com/exploits/52567",
+        "published": "2026-05-15T00:00:00+00:00",
+        "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -8362,21 +8150,19 @@
           "geographic_scope": [],
           "urgency_signals": [],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
+          "confidence_tier": "tier_1_offensive_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "[Guest Diary] New Malware Libraries means New Signatures, (Fri, May 15th)",
-          "link": "https://isc.sans.edu/diary/rss/32986",
-          "published": "2026-05-15T06:38:33+00:00",
-          "summary": "&#;xd; &#;xd; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;};;",
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
+          "link": "https://www.exploit-db.com/exploits/52567",
+          "published": "2026-05-15T00:00:00+00:00",
+          "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
           "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8385,7 +8171,7 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -8525,20 +8311,166 @@
       ]
     },
     {
-      "cluster_id": "55d60e5654",
+      "cluster_id": "57ba190969",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "malware"
+          "ai_security"
         ],
-        "actor_attribution": [
-          "Kimsuky"
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude"
         ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Malicious Coding Agent Skills and the Risk of Dynamic Context",
+        "link": "https://securitylabs.datadoghq.com/articles/malicious-skills-supply-chain-risks-in-coding-agents-with-dynamic-context/",
+        "published": "2026-05-11T00:00:00+00:00",
+        "summary": "Learn how malicious Claude Code skills can abuse dynamic context commands to execute before model-level prompt injection defenses can intervene.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Anthropic/Claude"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Malicious Coding Agent Skills and the Risk of Dynamic Context",
+          "link": "https://securitylabs.datadoghq.com/articles/malicious-skills-supply-chain-risks-in-coding-agents-with-dynamic-context/",
+          "published": "2026-05-11T00:00:00+00:00",
+          "summary": "Learn how malicious Claude Code skills can abuse dynamic context commands to execute before model-level prompt injection defenses can intervene.",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c430b7110",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitLab"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+        "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+        "published": "2026-05-11T23:58:55+00:00",
+        "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 18 are listed in their public employee handbook but this post says they are \"operating in nearly 60 countries\". That handbook used to document their payroll workflows for those countries too - they stopped publishing that in 2023 but the last public version (hooray for version control) remains a fascinating read. Since we don't know which of those 60 countries have small teams, we can't calculate how many countries that 30% applies to. \"We're planning to flatten the organization, removing up to three layers of management in some functions so leaders are closer to the work.\" - this isn't th",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitLab"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
+          "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
+          "published": "2026-05-11T23:58:55+00:00",
+          "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 18 are listed in their public employee handbook but this post says they are \"operating in nearly 60 countries\". That handbook used to document their payroll workflows for those countries too - they stopped publishing that in 2023 but the last public version (hooray for version control) remains a fascinating read. Since we don't know which of those 60 countries have small teams, we can't calculate how many countries that 30% applies to. \"We're planning to flatten the organization, removing up to three layers of management in some functions so leaders are closer to the work.\" - this isn't th",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitLab"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "92dc9cfa5d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
         "cve_ids": [],
@@ -8549,25 +8481,21 @@
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Kimsuky targets organizations with PebbleDash-based tools",
-        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-        "published": "2026-05-14T11:00:58+00:00",
-        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Quoting James Shore",
+        "link": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+        "published": "2026-05-11T19:48:32+00:00",
+        "summary": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You’re trading a temporary speed boost for permanent indenture. [...] The math only works if the LLM decreases your maintenance costs, and by exactly the inverse of the rate it adds code. If you double your output and your cost of maintaining that output, two times two means you’ve quadrupled your maintenance costs. If you double your output and hold your maintenance costs steady, two times one means you’ve still doubled your maintenance costs. — James Shore , You Need AI That Reduces Maintenance Costs Tags: coding-agents , ai-assisted-programming , generative-ai , agentic-engineering , ai , llms",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [
-            "Kimsuky"
-          ],
+          "threat_categories": [],
+          "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
           "cve_ids": [],
@@ -8575,24 +8503,20 @@
           "geographic_scope": [],
           "urgency_signals": [],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
+          "confidence_tier": "tier_2_operator"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Kimsuky targets organizations with PebbleDash-based tools",
-          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-          "published": "2026-05-14T11:00:58+00:00",
-          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Quoting James Shore",
+          "link": "https://simonwillison.net/2026/May/11/james-shore/#atom-everything",
+          "published": "2026-05-11T19:48:32+00:00",
+          "summary": "Your AI coding agent, the one you use to write code, needs to reduce your maintenance costs. Not by a little bit, either. You write code twice as quick now? Better hope you’ve halved your maintenance costs. Three times as productive? One third the maintenance costs. Otherwise, you’re screwed. You’re trading a temporary speed boost for permanent indenture. [...] The math only works if the LLM decreases your maintenance costs, and by exactly the inverse of the rate it adds code. If you double your output and your cost of maintaining that output, two times two means you’ve quadrupled your maintenance costs. If you double your output and hold your maintenance costs steady, two times one means you’ve still doubled your maintenance costs. — James Shore , You Need AI That Reduces Maintenance Costs Tags: coding-agents , ai-assisted-programming , generative-ai , agentic-engineering , ai , llms",
           "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [
-              "Kimsuky"
-            ],
+            "threat_categories": [],
+            "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
             "cve_ids": [],
@@ -8600,7 +8524,83 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a586cc0746",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Security",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "What’s new with Google Data Cloud",
+        "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+        "published": "2026-05-14T16:00:00+00:00",
+        "summary": "May 11 - May 15 Managed Service for Apache Airflow has launched a wave of new features, including the general availability of Airflow 3.1, AI-powered agentic troubleshooting, a new managed Airflow MCP Server for custom agent integration, and declarative YAML-based orchestration pipelines—discover all the details in the full blog post . April 20 - April 24 Google-built ODBC Driver for BigQuery is now available in Preview We are excited to announce the launch of the new, Google-built ODBC driver for BigQuery. This new open-source driver provides a direct, high-performance connection for applications to BigQuery and is developed entirely in-house by Google. Download a new driver and connect your application to BigQuery . April 13 - April 17 We announced we are reintroducing Data Studio to play a significant role in the AI era, expanding from data visualizations and reports to host BigQuery conversational agents and data apps built in Colab notebooks. We announced BigQuery Graph is now ava",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "What’s new with Google Data Cloud",
+          "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+          "published": "2026-05-14T16:00:00+00:00",
+          "summary": "May 11 - May 15 Managed Service for Apache Airflow has launched a wave of new features, including the general availability of Airflow 3.1, AI-powered agentic troubleshooting, a new managed Airflow MCP Server for custom agent integration, and declarative YAML-based orchestration pipelines—discover all the details in the full blog post . April 20 - April 24 Google-built ODBC Driver for BigQuery is now available in Preview We are excited to announce the launch of the new, Google-built ODBC driver for BigQuery. This new open-source driver provides a direct, high-performance connection for applications to BigQuery and is developed entirely in-house by Google. Download a new driver and connect your application to BigQuery . April 13 - April 17 We announced we are reintroducing Data Studio to play a significant role in the AI era, expanding from data visualizations and reports to host BigQuery conversational agents and data apps built in Colab notebooks. We announced BigQuery Graph is now ava",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -8608,47 +8608,45 @@
   ],
   "affinity_groups": [
     {
-      "label": "malware targeting Kubernetes",
+      "label": "malware targeting npm",
       "dominant_features": {
         "threat_categories": [
           "malware",
-          "credential_attack",
           "supply_chain",
-          "active_exploitation",
-          "zero_day"
+          "vulnerability_disclosure",
+          "zero_day",
+          "active_exploitation"
         ],
         "affected_industries": [
           "manufacturing_industrial"
         ],
         "affected_products": [
-          "Kubernetes",
           "npm",
-          "Apple iOS/macOS",
-          "AWS",
-          "GitHub"
+          "Apple iOS/macOS"
         ],
         "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized",
-          "news_report"
+          "zero_day",
+          "actively_exploited"
         ],
         "confidence_tier": [
-          "tier_4_news",
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
-      "cluster_count": 12,
-      "article_count": 13,
-      "cohesion": 0.414,
+      "cluster_count": 17,
+      "article_count": 22,
+      "cohesion": 0.397,
       "cluster_ids": [
+        "8e9036b5b9",
         "103c7a4c61",
         "5f3c119b8d",
         "c97972626b",
         "eb8e5fefbf",
+        "29b070dccb",
         "39ec215030",
+        "255bec07f9",
         "d5f47a271d",
+        "044dd073f2",
+        "a3958e5424",
         "06895f3526",
         "651d91b6fa",
         "52d06b5a30",
@@ -8690,55 +8688,6 @@
         "cf2449e818",
         "3e50af038c",
         "39d2e3147e"
-      ]
-    },
-    {
-      "label": "vulnerability disclosure targeting Microsoft Exchange",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure",
-          "zero_day",
-          "active_exploitation",
-          "malware",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "technology"
-        ],
-        "affected_products": [
-          "Microsoft Exchange",
-          "Chrome",
-          "OpenAI/ChatGPT",
-          "Palo Alto Networks",
-          "VMware"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "geographic_scope": [
-          "united_states"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "actively_exploited"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 9,
-      "cohesion": 0.482,
-      "cluster_ids": [
-        "8e9036b5b9",
-        "044dd073f2",
-        "29b070dccb",
-        "255bec07f9",
-        "a3958e5424"
       ]
     },
     {
@@ -8813,6 +8762,28 @@
       ]
     },
     {
+      "label": "ai security targeting Anthropic/Claude",
+      "dominant_features": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.431,
+      "cluster_ids": [
+        "f2e3964c00",
+        "34c2e8a296",
+        "57ba190969"
+      ]
+    },
+    {
       "label": "vulnerability disclosure targeting Microsoft Windows",
       "dominant_features": {
         "threat_categories": [
@@ -8879,33 +8850,6 @@
       "cluster_ids": [
         "43bdfe45f4",
         "f959bb0f37"
-      ]
-    },
-    {
-      "label": "MuddyWater targeting Anthropic/Claude",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach",
-          "malware"
-        ],
-        "actor_attribution": [
-          "MuddyWater",
-          "ShinyHunters"
-        ],
-        "affected_products": [
-          "Anthropic/Claude",
-          "Chrome"
-        ],
-        "geographic_scope": [
-          "iran"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.332,
-      "cluster_ids": [
-        "ac835ec460",
-        "a8d58ef104"
       ]
     }
   ]
