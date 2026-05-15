@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-15T14:45:37.787453+00:00",
+  "generated_at": "2026-05-15T14:50:34.122705+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 486,
-  "total_clusters_raw": 457,
+  "total_items_in_window": 487,
+  "total_clusters_raw": 458,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 291,
-  "dropped_overflow": 86,
+  "dropped_low_score": 290,
+  "dropped_overflow": 88,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,12 +67,12 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 8
     },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
@@ -81,8 +81,50 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -94,48 +136,6 @@
       "status": "ok",
       "item_count": 24,
       "in_window_count": 0
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -151,27 +151,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -186,6 +165,34 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -193,15 +200,29 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 10
+      "in_window_count": 11
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -214,13 +235,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -228,15 +242,8 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -248,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -270,19 +270,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -291,13 +291,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 4
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -305,19 +298,12 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 30,
+      "in_window_count": 4
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -333,13 +319,6 @@
       "item_count": 20,
       "in_window_count": 8
     },
-    "Protect AI": {
-      "url": "https://protectai.com/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -347,11 +326,25 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
+    "Protect AI": {
+      "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 0
     },
     "GreyNoise": {
@@ -361,12 +354,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 0
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -375,12 +368,19 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -396,11 +396,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 0
     },
     "BleepingComputer": {
@@ -410,18 +410,11 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "The Record": {
@@ -430,13 +423,6 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -459,15 +445,36 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 39
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -479,34 +486,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 23
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 39
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -522,6 +501,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -529,12 +515,19 @@
       "item_count": 100,
       "in_window_count": 28
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -543,33 +536,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 22
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -578,8 +550,43 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 22
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -594,13 +601,6 @@
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -649,16 +649,25 @@
           "Cisco"
         ],
         "cve_ids": [
+          "CVE-2022-20775",
+          "CVE-2026-20122",
           "CVE-2026-20127",
-          "CVE-2026-20182"
+          "CVE-2026-20128",
+          "CVE-2026-20133",
+          "CVE-2026-20182",
+          "CVE-2026-20209",
+          "CVE-2026-20210",
+          "CVE-2026-20224"
         ],
         "attack_techniques": [],
         "geographic_scope": [
+          "china",
           "united_states"
         ],
         "urgency_signals": [
           "actively_exploited",
           "cisa_kev",
+          "poc_available",
           "preauth_unauth",
           "zero_day"
         ],
@@ -678,8 +687,8 @@
         "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
         "published": "2026-05-15T12:43:27+00:00",
         "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security May 15, 2026 Share Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported to Cisco by Rapid7 researchers Jonah Burgess and Stephen Fewer, who discovered it while researching CVE-2026-20127, another auth bypass flaw (CVE-2026-20127) that was spotted being exploited earlier this year . Both vulnerabilities can be exploited by sending crafted requests to the affected system, and may allow attackers to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non- root user account. “This new authentication bypass vulnerability affects the ‘vdaemon’ service over DTLS (UDP port 12346), which is the same service that was vulnerable to CVE-2026-20127,” Rapid7 researchers explained . The issue is located in a similar part of the “vdaemon” networking stack, but the impact is the same. “A remote unauthenticated attacker can leverage CVE-2026-20182 to become an authenticated peer of the target appliance, and perform privileged operations, such as injecting an attacker controlled public key into the vmanage-admin user account’s authorized SSH keys file,” Fewer and Burgess noted. “Once this has been performed, a remote unauthenticated attacker can login to the NETCONF service (SSH over TCP port 830) as the vmanage-admin user, and begin to issue arbitrary NETCONF commands [to reconfigure the SD-WAN fabric].” Cisco’s threat analysts tied the exploitation of both vulnerabilities to a group they dubbed “UAT-8616”. In previously detected attacks, the group escalated their privileges to root by downgrading the software versions and exploiting an older privilege escalation vulnerability (CVE-2022-20775). After that, they restored back the original software version. Cisco did not speculate on the provenance or nature of UAT-8616, though it said that the infrastructure used by the group to carry out exploitation and post-compromise activities overlaps with the Operational Relay Box (ORB) networks its researchers are monitoring. Google Mandiant researchers previously stated that China-nexus threat actors use ORB networks when conducting espionage operations. What to do? Cisco says that CVE-2026-20182 exploitation seems to be limited, so far, but did not specify which organizations are likely to have been targeted. The company advises customers to upgrade to a fixed software release of the software and to review SD-WAN Controller logs for entries that are related to Accepted publickey for vmanage-admin from unknown or unauthorized IP addresses. Customers can also reach out to Cisco’s Technical Assistance Center for help in the investigation. The company has also pushed out fixes for an information disclosure (CVE-2026-20224) and two privilege escalation vulnerabilities (CVE-2026-20209, CVE-2026-20210) affecting Cisco Catalyst SD-WAN Manager, but those are not known to have been exploited. Cisco Talos researchers have published indicators of compromise and other information on ongoing attacks perpetrated by exploiting CVE-2026-20133 , CVE-2026-20128, and CVE-2026-20122 in Cisco Catalyst SD-WAN Manager. “The vast majority of observed exploitation attempts involved the use of the ZeroZenX Labs proof-of-concept code and accompanying JavaServer Pages (JSP) shell, which we are calling ‘XenShell.’ However, we observed several other JSP-based webshell variants,” the analysts shared . “Following successful exploitation, th",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "zero_day",
@@ -688,15 +697,29 @@
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Cisco"
+          ],
           "cve_ids": [
-            "CVE-2026-20182"
+            "CVE-2022-20775",
+            "CVE-2026-20122",
+            "CVE-2026-20127",
+            "CVE-2026-20128",
+            "CVE-2026-20133",
+            "CVE-2026-20182",
+            "CVE-2026-20209",
+            "CVE-2026-20210",
+            "CVE-2026-20224"
           ],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "china"
+          ],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day"
+            "zero_day",
+            "poc_available",
+            "preauth_unauth"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
@@ -718,15 +741,29 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Cisco"
+            ],
             "cve_ids": [
-              "CVE-2026-20182"
+              "CVE-2022-20775",
+              "CVE-2026-20122",
+              "CVE-2026-20127",
+              "CVE-2026-20128",
+              "CVE-2026-20133",
+              "CVE-2026-20182",
+              "CVE-2026-20209",
+              "CVE-2026-20210",
+              "CVE-2026-20224"
             ],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "china"
+            ],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day"
+              "zero_day",
+              "poc_available",
+              "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -2021,7 +2058,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Kazuar: Anatomy of a nation-state botnet",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2053,7 +2090,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2082,7 +2119,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -3382,115 +3419,6 @@
       ]
     },
     {
-      "cluster_id": "8fd391b96b",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "nation_state",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2022-20775",
-          "CVE-2026-20127",
-          "CVE-2026-20182"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-        "published": "2026-05-14T20:25:31+00:00",
-        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [
-            "CVE-2022-20775",
-            "CVE-2026-20127",
-            "CVE-2026-20182"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-          "published": "2026-05-14T20:25:31+00:00",
-          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [
-              "CVE-2022-20775",
-              "CVE-2026-20127",
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bbf47cae0b",
       "priority_score": 15,
       "member_count": 1,
@@ -3594,6 +3522,115 @@
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8fd391b96b",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "nation_state",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [
+          "CVE-2022-20775",
+          "CVE-2026-20127",
+          "CVE-2026-20182"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+        "published": "2026-05-14T20:25:31+00:00",
+        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [
+            "CVE-2022-20775",
+            "CVE-2026-20127",
+            "CVE-2026-20182"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+          "published": "2026-05-14T20:25:31+00:00",
+          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [
+              "CVE-2022-20775",
+              "CVE-2026-20127",
+              "CVE-2026-20182"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
@@ -4002,85 +4039,6 @@
       ]
     },
     {
-      "cluster_id": "c0426023f6",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "State of ransomware in 2026",
-        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-        "published": "2026-05-12T07:00:04+00:00",
-        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "State of ransomware in 2026",
-          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-          "published": "2026-05-12T07:00:04+00:00",
-          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "30f6252cf0",
       "priority_score": 14,
       "member_count": 1,
@@ -4316,6 +4274,85 @@
             ],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0426023f6",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "State of ransomware in 2026",
+        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+        "published": "2026-05-12T07:00:04+00:00",
+        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "russia"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "State of ransomware in 2026",
+          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+          "published": "2026-05-12T07:00:04+00:00",
+          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "russia"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
           }
         }
       ]
@@ -6495,7 +6532,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6523,7 +6560,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6548,7 +6585,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -6715,7 +6752,7 @@
       ]
     },
     {
-      "cluster_id": "70478c7b85",
+      "cluster_id": "6eb535f5c1",
       "priority_score": 12,
       "member_count": 2,
       "corroborating_source_count": 2,
@@ -6739,11 +6776,11 @@
         ]
       },
       "primary": {
-        "source": "Reddit r/cybersecurity",
+        "source": "Reddit r/blueteamsec",
         "cohort": "reddit_practitioner_osint",
         "title": "SentinelOne. Backup delete attempt at 06:28, Kill process mitigation action at 06:31. Was the deletion blocked or not?",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1tdrimk/sentinelone_backup_delete_attempt_at_0628_kill/",
-        "published": "2026-05-15T09:49:49+00:00",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tdribr/sentinelone_backup_delete_attempt_at_0628_kill/",
+        "published": "2026-05-15T09:49:19+00:00",
         "summary": "Hi everyone, I'm reviewing a \"Critical - Ransomware\" alert (\"VSS Shadow Copies Deletion Attempt detected\") and I have a question about the timestamps and mitigation logic. Here is the timeline from the report: 06:28:24 - vssadmin.exe executes delete shadows /for=C: /oldest 06:30:28 - diskshadow.exe is executed (presumably a fallback) 06:31:06 - SentinelOne executes \"Kill\" (11/11 processes) and \"Quarantine\". Mitigation status is \"Success / Mitigated\". The dilemma: There is a 3-minute gap between the first execution and the final Kill action. Does the SentinelOne agent intercept and block the deletion command at the kernel level in real-time (06:28), or is there a risk the shadow copies were actually purged before the Kill at 06:31? SentinelOne, in the alert, consistently uses the word \"attempted\" , which implies the deletion failed... but is Sentinel just being optimistic, or can I trust that \"attempted\" means the backups are 100% safe despite the delayed Kill? submitted by /u/allexj [l",
         "full_body": "",
         "fetch_status": "fetch_failed:HTTPError",
@@ -6764,11 +6801,11 @@
       },
       "corroborating_sources": [
         {
-          "source": "Reddit r/cybersecurity",
+          "source": "Reddit r/blueteamsec",
           "cohort": "reddit_practitioner_osint",
           "title": "SentinelOne. Backup delete attempt at 06:28, Kill process mitigation action at 06:31. Was the deletion blocked or not?",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tdrimk/sentinelone_backup_delete_attempt_at_0628_kill/",
-          "published": "2026-05-15T09:49:49+00:00",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tdribr/sentinelone_backup_delete_attempt_at_0628_kill/",
+          "published": "2026-05-15T09:49:19+00:00",
           "summary": "Hi everyone, I'm reviewing a \"Critical - Ransomware\" alert (\"VSS Shadow Copies Deletion Attempt detected\") and I have a question about the timestamps and mitigation logic. Here is the timeline from the report: 06:28:24 - vssadmin.exe executes delete shadows /for=C: /oldest 06:30:28 - diskshadow.exe is executed (presumably a fallback) 06:31:06 - SentinelOne executes \"Kill\" (11/11 processes) and \"Quarantine\". Mitigation status is \"Success / Mitigated\". The dilemma: There is a 3-minute gap between the first execution and the final Kill action. Does the SentinelOne agent intercept and block the deletion command at the kernel level in real-time (06:28), or is there a risk the shadow copies were actually purged before the Kill at 06:31? SentinelOne, in the alert, consistently uses the word \"attempted\" , which implies the deletion failed... but is Sentinel just being optimistic, or can I trust that \"attempted\" means the backups are 100% safe despite the delayed Kill? submitted by /u/allexj [l",
           "taxonomy": {
             "threat_categories": [
@@ -6786,11 +6823,11 @@
           }
         },
         {
-          "source": "Reddit r/blueteamsec",
+          "source": "Reddit r/cybersecurity",
           "cohort": "reddit_practitioner_osint",
           "title": "SentinelOne. Backup delete attempt at 06:28, Kill process mitigation action at 06:31. Was the deletion blocked or not?",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tdribr/sentinelone_backup_delete_attempt_at_0628_kill/",
-          "published": "2026-05-15T09:49:19+00:00",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tdrimk/sentinelone_backup_delete_attempt_at_0628_kill/",
+          "published": "2026-05-15T09:49:49+00:00",
           "summary": "Hi everyone, I'm reviewing a \"Critical - Ransomware\" alert (\"VSS Shadow Copies Deletion Attempt detected\") and I have a question about the timestamps and mitigation logic. Here is the timeline from the report: 06:28:24 - vssadmin.exe executes delete shadows /for=C: /oldest 06:30:28 - diskshadow.exe is executed (presumably a fallback) 06:31:06 - SentinelOne executes \"Kill\" (11/11 processes) and \"Quarantine\". Mitigation status is \"Success / Mitigated\". The dilemma: There is a 3-minute gap between the first execution and the final Kill action. Does the SentinelOne agent intercept and block the deletion command at the kernel level in real-time (06:28), or is there a risk the shadow copies were actually purged before the Kill at 06:31? SentinelOne, in the alert, consistently uses the word \"attempted\" , which implies the deletion failed... but is Sentinel just being optimistic, or can I trust that \"attempted\" means the backups are 100% safe despite the delayed Kill? submitted by /u/allexj [l",
           "taxonomy": {
             "threat_categories": [
@@ -7485,6 +7522,146 @@
       ]
     },
     {
+      "cluster_id": "f5612c3cd6",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "detection_writeup"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+        "published": "2026-05-12T22:53:09+00:00",
+        "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "detection_writeup",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+          "published": "2026-05-12T22:53:09+00:00",
+          "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "detection_writeup",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e8d332d1ab",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Defending consumer web properties against modern DDoS attacks",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+        "published": "2026-05-12T16:00:00+00:00",
+        "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Defending consumer web properties against modern DDoS attacks",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+          "published": "2026-05-12T16:00:00+00:00",
+          "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5907e9cfc7",
       "priority_score": 10,
       "member_count": 1,
@@ -7686,146 +7863,6 @@
       ]
     },
     {
-      "cluster_id": "f5612c3cd6",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "detection_writeup"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
-        "published": "2026-05-12T22:53:09+00:00",
-        "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "detection_writeup",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
-          "published": "2026-05-12T22:53:09+00:00",
-          "summary": "What if you could generate realistic attack telemetry on demand? Explore research methods that translate attacker behaviors (TTPs) into synthetic logs that can trigger detections at scale and without sensitive data. The post Accelerating detection engineering using AI-assisted synthetic attack logs generation appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "detection_writeup",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e8d332d1ab",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Defending consumer web properties against modern DDoS attacks",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
-        "published": "2026-05-12T16:00:00+00:00",
-        "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Defending consumer web properties against modern DDoS attacks",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
-          "published": "2026-05-12T16:00:00+00:00",
-          "summary": "Read how to protect consumer websites and defend against modern DDoS attacks with layered security, resilient architecture, and graceful service degradation. The post Defending consumer web properties against modern DDoS attacks appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3da3cf9f20",
       "priority_score": 10,
       "member_count": 1,
@@ -7947,87 +7984,6 @@
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "55d60e5654",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [
-          "Kimsuky"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Kimsuky targets organizations with PebbleDash-based tools",
-        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-        "published": "2026-05-14T11:00:58+00:00",
-        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [
-            "Kimsuky"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Kimsuky targets organizations with PebbleDash-based tools",
-          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-          "published": "2026-05-14T11:00:58+00:00",
-          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [
-              "Kimsuky"
-            ],
             "affected_industries": [],
             "affected_products": [],
             "cve_ids": [],
@@ -8315,6 +8271,154 @@
       ]
     },
     {
+      "cluster_id": "272f23d58f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
+        "link": "https://www.exploit-db.com/exploits/52567",
+        "published": "2026-05-15T00:00:00+00:00",
+        "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
+          "link": "https://www.exploit-db.com/exploits/52567",
+          "published": "2026-05-15T00:00:00+00:00",
+          "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "55d60e5654",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Kimsuky targets organizations with PebbleDash-based tools",
+        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+        "published": "2026-05-14T11:00:58+00:00",
+        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Kimsuky targets organizations with PebbleDash-based tools",
+          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+          "published": "2026-05-14T11:00:58+00:00",
+          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "57ba190969",
       "priority_score": 10,
       "member_count": 1,
@@ -8392,79 +8496,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "4c430b7110",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitLab"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
-        "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
-        "published": "2026-05-11T23:58:55+00:00",
-        "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 18 are listed in their public employee handbook but this post says they are \"operating in nearly 60 countries\". That handbook used to document their payroll workflows for those countries too - they stopped publishing that in 2023 but the last public version (hooray for version control) remains a fascinating read. Since we don't know which of those 60 countries have small teams, we can't calculate how many countries that 30% applies to. \"We're planning to flatten the organization, removing up to three layers of management in some functions so leaders are closer to the work.\" - this isn't th",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitLab"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Thoughts on GitLab's workforce reduction\" and \"structural and strategic decisions\"",
-          "link": "https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything",
-          "published": "2026-05-11T23:58:55+00:00",
-          "summary": "GitLab Act 2 There's a lot going on in this announcement from GitLab about the \"workforce reduction\" and \"structural and strategic decisions\" they are making with respect to the agentic era. They're \"planning to reduce the number of countries by up to 30% where we have small teams\". One of the most interesting things about GitLab is that they have employees spread across a large number of countries - 18 are listed in their public employee handbook but this post says they are \"operating in nearly 60 countries\". That handbook used to document their payroll workflows for those countries too - they stopped publishing that in 2023 but the last public version (hooray for version control) remains a fascinating read. Since we don't know which of those 60 countries have small teams, we can't calculate how many countries that 30% applies to. \"We're planning to flatten the organization, removing up to three layers of management in some functions so leaders are closer to the work.\" - this isn't th",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitLab"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8527,7 +8558,10 @@
         ],
         "cve_ids": [
           "CVE-2026-20127",
-          "CVE-2026-20182"
+          "CVE-2026-20182",
+          "CVE-2022-20775",
+          "CVE-2026-20122",
+          "CVE-2026-20128"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -8545,7 +8579,7 @@
       },
       "cluster_count": 4,
       "article_count": 11,
-      "cohesion": 0.527,
+      "cohesion": 0.512,
       "cluster_ids": [
         "0c789f50ec",
         "03f477fe86",
