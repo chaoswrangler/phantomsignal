@@ -6,13 +6,21 @@ on:
       - main
     paths:
       - "docs/feed.json"
+      - "docs/brief/**"
       - "scripts/build-page.js"
       - ".github/workflows/build-pages.yml"
 
   schedule:
-    - cron: "0 12 * * *"
+    # Hourly at :20 past the hour — runs 15 minutes after the aggregator
+    # so build-page.js renders the newest feed.json. Adjust if aggregate
+    # consistently takes longer than 15 minutes.
+    - cron: "20 * * * *"
 
   workflow_dispatch:
+
+concurrency:
+  group: build-pages
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -20,6 +28,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out repo
