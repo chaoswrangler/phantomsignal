@@ -1,5 +1,12 @@
 name: Build GitHub Pages from Feed
 
+# This workflow rebuilds the HTML page (docs/index.html) whenever feed.json
+# changes, which happens after every aggregate.yml run.
+#
+# There is intentionally NO cron schedule here. The aggregator runs hourly
+# and commits feed.json, which triggers this workflow via the path filter.
+# Running this on its own cron would race with aggregate.yml and cause
+# git push conflicts on docs/.
 on:
   push:
     branches:
@@ -9,12 +16,6 @@ on:
       - "docs/brief/**"
       - "scripts/build-page.js"
       - ".github/workflows/build-pages.yml"
-
-  schedule:
-    # Hourly at :20 past the hour — runs 15 minutes after the aggregator
-    # so build-page.js renders the newest feed.json. Adjust if aggregate
-    # consistently takes longer than 15 minutes.
-    - cron: "20 * * * *"
 
   workflow_dispatch:
 
@@ -45,5 +46,5 @@ jobs:
       - name: Commit generated page
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Build GitHub Pages feed"
+          commit_message: "Build PHANTOMSignal Feed page"
           file_pattern: docs/index.html
