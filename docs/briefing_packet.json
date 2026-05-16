@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T06:27:03.277492+00:00",
+  "generated_at": "2026-05-16T08:52:36.359849+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
@@ -7,8 +7,8 @@
   "total_items_in_window": 332,
   "total_clusters_raw": 311,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 165,
-  "dropped_overflow": 66,
+  "dropped_low_score": 166,
+  "dropped_overflow": 65,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -86,28 +93,7 @@
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 2
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 3
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -116,26 +102,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 24,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 7
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -144,12 +123,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -157,6 +143,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -172,12 +165,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -186,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -200,12 +193,12 @@
       "item_count": 50,
       "in_window_count": 3
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -214,23 +207,16 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 78,
+      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
@@ -241,6 +227,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -263,19 +256,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -284,12 +270,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -298,12 +284,12 @@
       "item_count": 30,
       "in_window_count": 4
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -311,6 +297,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 9
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -326,19 +326,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 9
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -347,16 +347,16 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
@@ -382,6 +382,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -389,11 +396,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Embrace the Red": {
@@ -410,18 +424,11 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 18
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 1
     },
     "The Record": {
@@ -431,12 +438,19 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -444,20 +458,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -473,19 +473,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -494,19 +487,19 @@
       "item_count": 50,
       "in_window_count": 24
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 38
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 39
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -515,11 +508,25 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 2
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Reddit r/netsec": {
@@ -529,6 +536,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -536,29 +550,22 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 28
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
@@ -571,20 +578,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -592,8 +585,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
@@ -649,16 +649,25 @@
           "Cisco"
         ],
         "cve_ids": [
+          "CVE-2022-20775",
+          "CVE-2026-20122",
           "CVE-2026-20127",
-          "CVE-2026-20182"
+          "CVE-2026-20128",
+          "CVE-2026-20133",
+          "CVE-2026-20182",
+          "CVE-2026-20209",
+          "CVE-2026-20210",
+          "CVE-2026-20224"
         ],
         "attack_techniques": [],
         "geographic_scope": [
+          "china",
           "united_states"
         ],
         "urgency_signals": [
           "actively_exploited",
           "cisa_kev",
+          "poc_available",
           "preauth_unauth",
           "zero_day"
         ],
@@ -678,8 +687,8 @@
         "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
         "published": "2026-05-15T12:43:27+00:00",
         "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Zeljka Zorz , Editor-in-Chief, Help Net Security May 15, 2026 Share Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported to Cisco by Rapid7 researchers Jonah Burgess and Stephen Fewer, who discovered it while researching CVE-2026-20127, another auth bypass flaw (CVE-2026-20127) that was spotted being exploited earlier this year . Both vulnerabilities can be exploited by sending crafted requests to the affected system, and may allow attackers to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non- root user account. “This new authentication bypass vulnerability affects the ‘vdaemon’ service over DTLS (UDP port 12346), which is the same service that was vulnerable to CVE-2026-20127,” Rapid7 researchers explained . The issue is located in a similar part of the “vdaemon” networking stack, but the impact is the same. “A remote unauthenticated attacker can leverage CVE-2026-20182 to become an authenticated peer of the target appliance, and perform privileged operations, such as injecting an attacker controlled public key into the vmanage-admin user account’s authorized SSH keys file,” Fewer and Burgess noted. “Once this has been performed, a remote unauthenticated attacker can login to the NETCONF service (SSH over TCP port 830) as the vmanage-admin user, and begin to issue arbitrary NETCONF commands [to reconfigure the SD-WAN fabric].” Cisco’s threat analysts tied the exploitation of both vulnerabilities to a group they dubbed “UAT-8616”. In previously detected attacks, the group escalated their privileges to root by downgrading the software versions and exploiting an older privilege escalation vulnerability (CVE-2022-20775). After that, they restored back the original software version. Cisco did not speculate on the provenance or nature of UAT-8616, though it said that the infrastructure used by the group to carry out exploitation and post-compromise activities overlaps with the Operational Relay Box (ORB) networks its researchers are monitoring. Google Mandiant researchers previously stated that China-nexus threat actors use ORB networks when conducting espionage operations. What to do? Cisco says that CVE-2026-20182 exploitation seems to be limited, so far, but did not specify which organizations are likely to have been targeted. The company advises customers to upgrade to a fixed software release of the software and to review SD-WAN Controller logs for entries that are related to Accepted publickey for vmanage-admin from unknown or unauthorized IP addresses. Customers can also reach out to Cisco’s Technical Assistance Center for help in the investigation. The company has also pushed out fixes for an information disclosure (CVE-2026-20224) and two privilege escalation vulnerabilities (CVE-2026-20209, CVE-2026-20210) affecting Cisco Catalyst SD-WAN Manager, but those are not known to have been exploited. Cisco Talos researchers have published indicators of compromise and other information on ongoing attacks perpetrated by exploiting CVE-2026-20133 , CVE-2026-20128, and CVE-2026-20122 in Cisco Catalyst SD-WAN Manager. “The vast majority of observed exploitation attempts involved the use of the ZeroZenX Labs proof-of-concept code and accompanying JavaServer Pages (JSP) shell, which we are calling ‘XenShell.’ However, we observed several other JSP-based webshell variants,” the analysts shared . “Following successful exploitation, th",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "zero_day",
@@ -688,15 +697,29 @@
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Cisco"
+          ],
           "cve_ids": [
-            "CVE-2026-20182"
+            "CVE-2022-20775",
+            "CVE-2026-20122",
+            "CVE-2026-20127",
+            "CVE-2026-20128",
+            "CVE-2026-20133",
+            "CVE-2026-20182",
+            "CVE-2026-20209",
+            "CVE-2026-20210",
+            "CVE-2026-20224"
           ],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "china"
+          ],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day"
+            "zero_day",
+            "poc_available",
+            "preauth_unauth"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
@@ -718,15 +741,29 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Cisco"
+            ],
             "cve_ids": [
-              "CVE-2026-20182"
+              "CVE-2022-20775",
+              "CVE-2026-20122",
+              "CVE-2026-20127",
+              "CVE-2026-20128",
+              "CVE-2026-20133",
+              "CVE-2026-20182",
+              "CVE-2026-20209",
+              "CVE-2026-20210",
+              "CVE-2026-20224"
             ],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "china"
+            ],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day"
+              "zero_day",
+              "poc_available",
+              "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -1428,7 +1465,7 @@
     },
     {
       "cluster_id": "029fcc1f63",
-      "priority_score": 21,
+      "priority_score": 20,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -3100,103 +3137,6 @@
       ]
     },
     {
-      "cluster_id": "c97972626b",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "credential_attack",
-          "malware",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "retail_ecommerce"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
-        "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-        "published": "2026-05-15T19:30:33+00:00",
-        "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
-        "full_body": "Funnel Builder WordPress plugin bug exploited to steal credit cards By Bill Toulas May 15, 2026 03:30 PM 0 A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. The flaw has not received an official identifier and can be leveraged without authentication. It affects all versions of the plugin before 3.15.0.3. Funnel Builder is a WordPress plugin for WooCommerce Checkout developed by FunnelKit, primarily used to customize checkout pages, with features like one-click upsells, landing pages, and to optimize conversion rates. Based on statistics from WordPress.org, the Funnel Builder plugin is active on more than 40,000 websites . E-commerce security company Sansec detected the malicious activity and noticed that the payload (analytics-reports[.]com/wss/jquery-lib.js) is disguised as a fake Google Tag Manager/Google Analytics script that opens a WebSocket connection to an external location (wss://protect-wss[.]com/ws). An attacker can exploit it to modify the plugin’s global settings via an unprotected, publicly exposed checkout endpoint. This allows them to inject arbitrary JavaScript into the plugin’s “External Scripts” setting, causing malicious code to execute on every checkout page. According to Sansec, the attacker-controlled server delivers a customized payment card skimmer that steals the following information: Credit card numbers CVVs Billing addresses Other customer information Payment card skimmers enable threat actors to make fraudulent online purchases, while stolen records often end up sold individually or in bulk on dark web portals known as carding markets. FunnelKit addressed the vulnerability in version 3.15.0.3 of Funnel Builder, released yesterday. A security advisory from the vendor, seen by Sansec, confirms the malicious activity, saying “we identified an issue that allowed bad actors to inject scripts.” The vendor recommends that website owners and administrators prioritize updating to the latest version from the WordPress dashboard and also review Settings > Checkout > External Scripts for potential rogue scripts the attacker may have added. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Avada Builder WordPress plugin flaws allow site credential theft Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin Popular WordPress redirect plugin hid dormant backdoor for years Hackers exploit file upload bug in Breeze Cache WordPress plugin WordPress plugin suite hacked to push malware to thousands of sites",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "retail_ecommerce"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
-          "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-          "published": "2026-05-15T19:30:33+00:00",
-          "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "retail_ecommerce"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8fd391b96b",
       "priority_score": 14,
       "member_count": 1,
@@ -3617,88 +3557,6 @@
       ]
     },
     {
-      "cluster_id": "af7f3f5c0b",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure",
-          "Microsoft Windows"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
-        "published": "2026-05-12T22:00:00+00:00",
-        "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Today Microsoft announced a major step forward in AI-powered cyber defense: our new agentic security system helped researchers find 16 new vulnerabilities across the Windows networking and authentication stack—including four Critical remote code execution flaws in components such as the Windows kernel TCP/IP stack and the IKEv2 service. They used the new Microsoft Security m ulti-mo d el a gentic s canning h arness (codename MDASH) which was built by Microsoft’s Autonomous Code Security team. Unlike single-model approaches, the harness orchestrates more than 100 specialized AI agents across an ensemble of frontier and distilled models to discover, debate, and prove exploitable bugs end-to-end. Learn more and sign up to join the preview The results speak for themselves: 21 of 21 planted vulnerabilities found with zero false positives on a private test driver; 96% recall against five years of confirmed Microsoft Security Response Center (MSRC) cases in clfs.sys and 100% in tcpip.sys; and an industry-leading 88.45% score on the public CyberGym benchmark of 1,507 real-world vulnerabilities—the top score on the leaderboard, roughly five points ahead of the next entry. The strategic implication is clear: AI vulnerability discovery has crossed from research curiosity into production-grade defense at enterprise scale, and the durable advantage lies in the agentic system around the model rather than any single model itself. Codename MDASH is being used by Microsoft security engineering teams and tested by a small set of customers as part of a limited private preview. This post explains how codename MDASH works, what we shipped today, what we learned along the way, and how you can sign up for the private preview. AI-powered vulnerability discovery at hyper-scale The Microsoft Autonomous Code Security (ACS) team was assembled to take AI-powered vulnerability research from a research curiosity to production engineering at enterprise scale. Several members of this team came to Microsoft from Team Atlanta, the team that won the $29.5 million DARPA AI Cyber Challenge by building an autonomous cyber-reasoning system that found and patched real bugs in complex open-source projects. The lessons from that work, especially the level of engineering required to make the frontier language models perform professional-level security auditing, are what our new multi-model agentic scanning harness (codename MDASH) is built around. Microsoft’s code base is challenging for security auditing for a few reasons: Massive proprietary surface. Windows, Hyper-V, Azure, and the device-driver and service ecosystems around them are private Microsoft codebases—not part of any commodity language model’s training corpus, and genuinely hard to reason about: kernel calling conventions, IRP and lock invariants, IPC trust boundaries, and component-internal idioms do not yield to pattern matching. On this surface, a model has to actually reason. DevSecOps at scale. Every finding has a real owner, a triage process, and a Patch Tuesday to land on. There is no quiet drawer for speculative findings; if a tool produces noise, the noise is everyone’s problem. High-value targets. Windows, Hyper-V, Xbox, and Azure serve billions of users. The payoff for finding a single hard bug is unusually high—and so is the cost of a false positive in a tier-one component. The findings in this post are the result of close collaboration between ACS, Microsoft Offensive Research & Security Engineering (MORSE) , and Microsoft Windows Attack Research and Protection (WARP) . WARP and MORSE own the deep, hard end of Windows offensive research; ACS brings the AI-powered discovery and validation pipeline. Together, the teams have collaborated to build a mature harness. Codename: MDASH—Microsoft Security’s new multi-model agentic scanning harness Codename MDASH is, at its core, an agentic vulnerability discovery and remediation system . The model is one input. The system ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows",
-            "Azure"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
-          "published": "2026-05-12T22:00:00+00:00",
-          "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows",
-              "Azure"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ac835ec460",
       "priority_score": 13,
       "member_count": 1,
@@ -3856,6 +3714,88 @@
               "preauth_unauth"
             ],
             "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "af7f3f5c0b",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure",
+          "Microsoft Windows"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+        "published": "2026-05-12T22:00:00+00:00",
+        "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Today Microsoft announced a major step forward in AI-powered cyber defense: our new agentic security system helped researchers find 16 new vulnerabilities across the Windows networking and authentication stack—including four Critical remote code execution flaws in components such as the Windows kernel TCP/IP stack and the IKEv2 service. They used the new Microsoft Security m ulti-mo d el a gentic s canning h arness (codename MDASH) which was built by Microsoft’s Autonomous Code Security team. Unlike single-model approaches, the harness orchestrates more than 100 specialized AI agents across an ensemble of frontier and distilled models to discover, debate, and prove exploitable bugs end-to-end. Learn more and sign up to join the preview The results speak for themselves: 21 of 21 planted vulnerabilities found with zero false positives on a private test driver; 96% recall against five years of confirmed Microsoft Security Response Center (MSRC) cases in clfs.sys and 100% in tcpip.sys; and an industry-leading 88.45% score on the public CyberGym benchmark of 1,507 real-world vulnerabilities—the top score on the leaderboard, roughly five points ahead of the next entry. The strategic implication is clear: AI vulnerability discovery has crossed from research curiosity into production-grade defense at enterprise scale, and the durable advantage lies in the agentic system around the model rather than any single model itself. Codename MDASH is being used by Microsoft security engineering teams and tested by a small set of customers as part of a limited private preview. This post explains how codename MDASH works, what we shipped today, what we learned along the way, and how you can sign up for the private preview. AI-powered vulnerability discovery at hyper-scale The Microsoft Autonomous Code Security (ACS) team was assembled to take AI-powered vulnerability research from a research curiosity to production engineering at enterprise scale. Several members of this team came to Microsoft from Team Atlanta, the team that won the $29.5 million DARPA AI Cyber Challenge by building an autonomous cyber-reasoning system that found and patched real bugs in complex open-source projects. The lessons from that work, especially the level of engineering required to make the frontier language models perform professional-level security auditing, are what our new multi-model agentic scanning harness (codename MDASH) is built around. Microsoft’s code base is challenging for security auditing for a few reasons: Massive proprietary surface. Windows, Hyper-V, Azure, and the device-driver and service ecosystems around them are private Microsoft codebases—not part of any commodity language model’s training corpus, and genuinely hard to reason about: kernel calling conventions, IRP and lock invariants, IPC trust boundaries, and component-internal idioms do not yield to pattern matching. On this surface, a model has to actually reason. DevSecOps at scale. Every finding has a real owner, a triage process, and a Patch Tuesday to land on. There is no quiet drawer for speculative findings; if a tool produces noise, the noise is everyone’s problem. High-value targets. Windows, Hyper-V, Xbox, and Azure serve billions of users. The payoff for finding a single hard bug is unusually high—and so is the cost of a false positive in a tier-one component. The findings in this post are the result of close collaboration between ACS, Microsoft Offensive Research & Security Engineering (MORSE) , and Microsoft Windows Attack Research and Protection (WARP) . WARP and MORSE own the deep, hard end of Windows offensive research; ACS brings the AI-powered discovery and validation pipeline. Together, the teams have collaborated to build a mature harness. Codename: MDASH—Microsoft Security’s new multi-model agentic scanning harness Codename MDASH is, at its core, an agentic vulnerability discovery and remediation system . The model is one input. The system ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows",
+            "Azure"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+          "published": "2026-05-12T22:00:00+00:00",
+          "summary": "Today Microsoft is announcing a major step forward in AI-powered cyber defense: a new multi-model agentic scanning harness (codenamed MDASH). The post Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows",
+              "Azure"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -4094,6 +4034,103 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c97972626b",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "credential_attack",
+          "malware",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "retail_ecommerce"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+        "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+        "published": "2026-05-15T19:30:33+00:00",
+        "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
+        "full_body": "Funnel Builder WordPress plugin bug exploited to steal credit cards By Bill Toulas May 15, 2026 03:30 PM 0 A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. The flaw has not received an official identifier and can be leveraged without authentication. It affects all versions of the plugin before 3.15.0.3. Funnel Builder is a WordPress plugin for WooCommerce Checkout developed by FunnelKit, primarily used to customize checkout pages, with features like one-click upsells, landing pages, and to optimize conversion rates. Based on statistics from WordPress.org, the Funnel Builder plugin is active on more than 40,000 websites . E-commerce security company Sansec detected the malicious activity and noticed that the payload (analytics-reports[.]com/wss/jquery-lib.js) is disguised as a fake Google Tag Manager/Google Analytics script that opens a WebSocket connection to an external location (wss://protect-wss[.]com/ws). An attacker can exploit it to modify the plugin’s global settings via an unprotected, publicly exposed checkout endpoint. This allows them to inject arbitrary JavaScript into the plugin’s “External Scripts” setting, causing malicious code to execute on every checkout page. According to Sansec, the attacker-controlled server delivers a customized payment card skimmer that steals the following information: Credit card numbers CVVs Billing addresses Other customer information Payment card skimmers enable threat actors to make fraudulent online purchases, while stolen records often end up sold individually or in bulk on dark web portals known as carding markets. FunnelKit addressed the vulnerability in version 3.15.0.3 of Funnel Builder, released yesterday. A security advisory from the vendor, seen by Sansec, confirms the malicious activity, saying “we identified an issue that allowed bad actors to inject scripts.” The vendor recommends that website owners and administrators prioritize updating to the latest version from the WordPress dashboard and also review Settings > Checkout > External Scripts for potential rogue scripts the attacker may have added. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Avada Builder WordPress plugin flaws allow site credential theft Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin Popular WordPress redirect plugin hid dormant backdoor for years Hackers exploit file upload bug in Breeze Cache WordPress plugin WordPress plugin suite hacked to push malware to thousands of sites",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "retail_ecommerce"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
+          "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
+          "published": "2026-05-15T19:30:33+00:00",
+          "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "retail_ecommerce"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -5965,6 +6002,88 @@
       ]
     },
     {
+      "cluster_id": "3da3cf9f20",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "nation_state",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "SentinelOne Labs",
+        "cohort": "threat_research_primary",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "full_body": "LABScon LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout LABScon / May 14, 2026 When a company suffers a cyber breach, its stock price often takes a hit, but the timing, depth, and duration of that reaction are far less predictable. In this LABScon25 presentation, Mick Baccio and Scott Roberts explore whether public indicators of breach activity can be used to anticipate market response before formal disclosure. Drawing on sources such as EDGAR filings, executive blog posts, and social media chatter, the speakers examine how public breadcrumbs can reveal incident activity early enough to support an opportunistic trading strategy. At the center of the talk is their “15/30” hypothesis: short the stock after a breach becomes visible, then flip long as the market recovers. To test the idea, Baccio and Roberts used AI-assisted data collection to build a dataset of public disclosures relating to “material” cyber breaches at U.S. companies. They then compared their initial, intuition-led model with a more structured time-series analysis based on a Hidden Markov Model to see whether a more rigorous timeline could improve performance. Along the way, the presentation digs into real-world breach cases, market misreads, and missed opportunities. One particularly useful comparison looks at two similarly sized casino operators hit by ransomware around the same period, illustrating how market outcomes can diverge sharply depending on factors such as response strategy, disclosure dynamics, and investor perception. After working through a set of highly mixed results, the speakers arrive at what they call “quantitized nihilism”, a conclusion that questions many of the assumptions analysts bring to cyber-event trading and how the market actually values cyber failures. This talk is essential viewing for security practitioners, investors, and analysts interested in the messy intersection of cyber risk, public disclosure, and market psychology. <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> About the Authors Mick Baccio is a globally recognized security strategist with a career spanning offensive operations, threat intelligence, and national-level incident response. He currently advises organizations around the world through his role at Splunk, helping security leaders improve operations through data-informed approaches. Mick was the first Chief Information Security Officer for a U.S. presidential campaign (2020), and previously served in the Obama White House as the Chief of the Threat Intelligence Branch. Scott J. Roberts is a cybersecurity leader with over 15 years of experience specializing in cyber threat intelligence and threat hunting after leadership roles at GitHub, Apple, and Splunk. He blends machine learning with traditional intelligence frameworks to track and disrupt nation state and criminal adversaries. LABScon 2026 | Call For Papers Submission Deadline: June 19, 2026 LABScon is a unique venue for original research to be shared among peers. The benefit of an invite-only audience of researchers is that there’s no need for long preambles or introductions – speakers are encouraged to dive right into their technical findings. Original content only. Talks are 20 minutes long + 5 minutes for Q&A. Workshops are 90 minutes long. LABScon is primarily a threat intelligence and vulnerability research conference but we keep an open-mind. About LABScon This presentation was featured live at LABScon 2025, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS. Keep up with all the latest on LABScon here.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SentinelOne Labs",
+          "cohort": "threat_research_primary",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5907e9cfc7",
       "priority_score": 10,
       "member_count": 1,
@@ -6053,6 +6172,100 @@
               "zero_day"
             ],
             "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "03647dbe9e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "government_public_sector"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran",
+          "ukraine"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Why geopolitical turmoil is a gift for scammers, and how to stay safe",
+        "link": "https://www.welivesecurity.com/en/scams/geopolitical-turmoil-gift-scammers-how-stay-safe/",
+        "published": "2026-05-15T08:50:00+00:00",
+        "summary": "Conflict is a boon for opportunistic fraudsters. Look out for their ploys.",
+        "full_body": "Digital Security Why geopolitical turmoil is a gift for scammers, and how to stay safe Conflict is a boon for opportunistic fraudsters. Look out for their ploys. Phil Muncaster 15 May 2026 • , 5 min. read It didn’t take long for tensions in the Middle East to spill over into the cyber domain . There’s been significant disruption of a major US medtech provider , the compromise of OT assets in US critical infrastructure , and ongoing ransomware attacks on businesses by Iran-nexus groups. But what about regular internet users? The truth is that geopolitical tension and conflict offers potentially rich pickings for opportunistic online scammers. Fraudsters know that these events are a great way to grab the attention of potential victims, and exploit their fear and sympathy in equal measure. The backdrop of geopolitical turmoil, whether it’s Ukraine or Iran, adds weight to the stories they spin in order to achieve their goals. What scams prosper in times of turmoil? Whatever tactics they choose, the end goal is usually the same: to harvest your credentials and/or personal and financial data. Or to trick you directly into making payments to non-existent entities. These are not novel techniques. They’re tried and tested and could come via email , text , social media or phone call . What’s different is the lure; specially crafted for timeliness and maximum impact. Watch out for the following scams: Fraudulent charges You receive a call or text from a bank or trusted company informing you of non-existent charges related to “Iran” on your account. According to the FTC , you might then be put on to a government official who convinces you to hand over your bank account details. Romance fraud Romantic-themed scams are a big money-maker for fraudsters. According to the FBI , they generated over $929m in illegal profits last year. In this new take, a romantic contact you met online may claim to be a soldier deployed to the Middle East, who now needs cash to deal with an emergency. Fake charities Geopolitical turmoil often leads to human misery, which tends to pull at the heart strings. Legitimate charities may solicit donations to help their efforts to support innocent citizens caught in the crossfire. Scammers know this and will create their own fake charities – or impersonate legitimate ones – to collect donations. They may have professional-looking websites designed to add weight to their requests. Be in no doubt though, if you fall for these scams you’ll end up handing them your money, your card details, or both. Travel scams Military conflict can often result in sudden flight cancellations, border checks and other travel-related disruption. Scammers can take advantage of this by impersonating airlines and government agencies. They might offer streamlined visa processing or refunds on booked flights and accommodation . But all they’re after is your personal and financial details. Investment fraud Investment scams raked in more money than any other type of cybercrime last year: over $8.6 billion, according to the FBI. Sure enough, scammers can take advantage of geopolitics to further their goals here, perhaps by claiming to offer guaranteed returns as a hedge against inflation or market instability. Sensational (fake) news Political and social unrest usually generates a great deal of click-worthy content. The problem is that some of it is complete fake. Scammers use sensationalist ‘leaked videos’ and ‘breaking news’ stories to lure you into clicking on malicious links. The most likely end result is getting an infostealer on your phone or computers. This category of malware is designed to harvest passwords, record keystrokes and even steal session cookies to bypass multi-factor authentication (MFA) on your accounts. Advance fee fraud/419 scams This is perhaps one of the oldest scams in the book. You receive a message out of the blue from someone you’ve never met. They’ll proceed with a fantastical story about how they will let you share in",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government_public_sector"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran",
+            "ukraine"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Why geopolitical turmoil is a gift for scammers, and how to stay safe",
+          "link": "https://www.welivesecurity.com/en/scams/geopolitical-turmoil-gift-scammers-how-stay-safe/",
+          "published": "2026-05-15T08:50:00+00:00",
+          "summary": "Conflict is a boon for opportunistic fraudsters. Look out for their ploys.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government_public_sector"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran",
+              "ukraine"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -6475,88 +6688,6 @@
       ]
     },
     {
-      "cluster_id": "3da3cf9f20",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "nation_state",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "SentinelOne Labs",
-        "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "LABScon LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout LABScon / May 14, 2026 When a company suffers a cyber breach, its stock price often takes a hit, but the timing, depth, and duration of that reaction are far less predictable. In this LABScon25 presentation, Mick Baccio and Scott Roberts explore whether public indicators of breach activity can be used to anticipate market response before formal disclosure. Drawing on sources such as EDGAR filings, executive blog posts, and social media chatter, the speakers examine how public breadcrumbs can reveal incident activity early enough to support an opportunistic trading strategy. At the center of the talk is their “15/30” hypothesis: short the stock after a breach becomes visible, then flip long as the market recovers. To test the idea, Baccio and Roberts used AI-assisted data collection to build a dataset of public disclosures relating to “material” cyber breaches at U.S. companies. They then compared their initial, intuition-led model with a more structured time-series analysis based on a Hidden Markov Model to see whether a more rigorous timeline could improve performance. Along the way, the presentation digs into real-world breach cases, market misreads, and missed opportunities. One particularly useful comparison looks at two similarly sized casino operators hit by ransomware around the same period, illustrating how market outcomes can diverge sharply depending on factors such as response strategy, disclosure dynamics, and investor perception. After working through a set of highly mixed results, the speakers arrive at what they call “quantitized nihilism”, a conclusion that questions many of the assumptions analysts bring to cyber-event trading and how the market actually values cyber failures. This talk is essential viewing for security practitioners, investors, and analysts interested in the messy intersection of cyber risk, public disclosure, and market psychology. <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> About the Authors Mick Baccio is a globally recognized security strategist with a career spanning offensive operations, threat intelligence, and national-level incident response. He currently advises organizations around the world through his role at Splunk, helping security leaders improve operations through data-informed approaches. Mick was the first Chief Information Security Officer for a U.S. presidential campaign (2020), and previously served in the Obama White House as the Chief of the Threat Intelligence Branch. Scott J. Roberts is a cybersecurity leader with over 15 years of experience specializing in cyber threat intelligence and threat hunting after leadership roles at GitHub, Apple, and Splunk. He blends machine learning with traditional intelligence frameworks to track and disrupt nation state and criminal adversaries. LABScon 2026 | Call For Papers Submission Deadline: June 19, 2026 LABScon is a unique venue for original research to be shared among peers. The benefit of an invite-only audience of researchers is that there’s no need for long preambles or introductions – speakers are encouraged to dive right into their technical findings. Original content only. Talks are 20 minutes long + 5 minutes for Q&A. Workshops are 90 minutes long. LABScon is primarily a threat intelligence and vulnerability research conference but we keep an open-mind. About LABScon This presentation was featured live at LABScon 2025, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS. Keep up with all the latest on LABScon here.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SentinelOne Labs",
-          "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ad3165eb09",
       "priority_score": 10,
       "member_count": 1,
@@ -6834,8 +6965,8 @@
         "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
         "published": "2026-05-13T10:00:54+00:00",
         "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-        "full_body": "Breaking things to keep them safe with Philippe Laulheret By Amy Ciminnisi Wednesday, May 13, 2026 06:00 Humans of Talos In the latest Humans of Talos, Amy sits down with Senior Vulnerability Researcher Philippe Laulheret to demystify the world of ethical hacking. Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited. From his memorable experiment using a green onion to bypass a biometric fingerprint reader to his perspective on the reality of cybersecurity versus what we see in the movies, Philippe provides a fascinating look at the work that keeps our digital world safe. Amy Ciminnisi: So, can you talk to me a little bit about what you do in vulnerability research? Philippe Laulheret: I work in vulnerability research. Basically, my job is to find vulnerabilities in software, hardware, or things physically. It’s an interesting position because I usually get to choose which target I want to look at, which confuses people usually, because usually it’s a consulting role, or someone asks you to do that. But for us, we find vulnerabilities in things that we think are important. And then this way, people in different teams can write detection rules, and our customers are protected. AC: I love that you get to kind of pick a niche and explore. How did you get into this? PL: My deepest interest was more in reverse engineering, which is understanding how things work, software in particular. Throughout my whole life, I was really curious and really wanted to understand stuff. I guess research is an extension of that where you need to understand how the system works, and then it’s a puzzle where you need to find a way to break it. In my teenage years, I was really interested in that. I started playing Capture The Flag, which are challenges where people design exercises where there is a bug to find and exploit. It was really fun. I was doing that to stay sharp with my skills, and eventually, I was able to transition from regular development work to actual research. All those years of playing CTF really helped, even if it wasn't professional. AC: Did you go to school initially for development work? What kind of career path led you here? PL: Originally, as you can hear, I have a French accent. In France, we have engineering schools, which are fancy grad schools. The process is first you study very hard in math and physics, and then you go to grad school. At that time, I was convinced I wanted to do security, and I joined an electrical and computer engineering school. Somehow, in that school, I discovered an interest for different aspects of software development. I was getting interested in computer vision and other things. When I moved to the U.S. for development work instead of security work, I worked in a design studio for four years, which was really fun. I was making interactive installations. But as I said, I was playing CTF on the side to keep security pretty high in my head. Eventually, I moved to New York and joined a cybersecurity startup, and finally, I moved back to the Pacific Northwest, where I’m currently living, and I was finally able to do vulnerability research the way I wanted to. Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content More than pretty pictures: Wendy Bishop on visual storytelling in tech April 16, 2026 06:00 Wendy shares the unique challenges and rewards of bridging the gap between artistic expression and highly technical research. Spinning complex ideas into clear docs with Kri Dontje March 11, 2026 06:00 The episode features Kri Dontje discussing her role in translating complex technical cybersecurity topics into clear, accessible documentation, emphasizing the importance of consistency, accuracy, and collaboration with s",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -6941,79 +7072,6 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d6cc422002",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "[Guest Diary] New Malware Libraries means New Signatures, (Fri, May 15th)",
-        "link": "https://isc.sans.edu/diary/rss/32986",
-        "published": "2026-05-15T06:38:33+00:00",
-        "summary": "&#;xd; &#;xd; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;};;",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "[Guest Diary] New Malware Libraries means New Signatures, (Fri, May 15th)",
-          "link": "https://isc.sans.edu/diary/rss/32986",
-          "published": "2026-05-15T06:38:33+00:00",
-          "summary": "&#;xd; &#;xd; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;};;",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -7660,94 +7718,6 @@
       ]
     },
     {
-      "cluster_id": "d5f47a271d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Popular node-ipc npm package compromised to steal credentials",
-        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-        "published": "2026-05-15T17:10:42+00:00",
-        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "npm"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Popular node-ipc npm package compromised to steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-          "published": "2026-05-15T17:10:42+00:00",
-          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "npm"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a586cc0746",
       "priority_score": 10,
       "member_count": 1,
@@ -8104,6 +8074,94 @@
       ]
     },
     {
+      "cluster_id": "d5f47a271d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Popular node-ipc npm package compromised to steal credentials",
+        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+        "published": "2026-05-15T17:10:42+00:00",
+        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Popular node-ipc npm package compromised to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+          "published": "2026-05-15T17:10:42+00:00",
+          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1702439df4",
       "priority_score": 10,
       "member_count": 1,
@@ -8379,8 +8437,8 @@
         "103c7a4c61",
         "5f3c119b8d",
         "eb8e5fefbf",
-        "c97972626b",
         "39ec215030",
+        "c97972626b",
         "06895f3526",
         "651d91b6fa",
         "52d06b5a30",
@@ -8526,7 +8584,10 @@
         ],
         "cve_ids": [
           "CVE-2026-20127",
-          "CVE-2026-20182"
+          "CVE-2026-20182",
+          "CVE-2022-20775",
+          "CVE-2026-20122",
+          "CVE-2026-20128"
         ],
         "urgency_signals": [
           "actively_exploited",
@@ -8544,12 +8605,41 @@
       },
       "cluster_count": 4,
       "article_count": 11,
-      "cohesion": 0.527,
+      "cohesion": 0.512,
       "cluster_ids": [
         "0c789f50ec",
         "8fd391b96b",
         "03f477fe86",
         "bb0ffb2b81"
+      ]
+    },
+    {
+      "label": "malware affecting government public sector",
+      "dominant_features": {
+        "threat_categories": [
+          "malware",
+          "nation_state"
+        ],
+        "affected_industries": [
+          "government_public_sector"
+        ],
+        "geographic_scope": [
+          "ukraine"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.505,
+      "cluster_ids": [
+        "e605f0e929",
+        "03647dbe9e",
+        "34dacb9aa5"
       ]
     },
     {
@@ -8568,30 +8658,6 @@
       "cluster_ids": [
         "b45ac0ca64",
         "af7f3f5c0b"
-      ]
-    },
-    {
-      "label": "nation state affecting government public sector",
-      "dominant_features": {
-        "threat_categories": [
-          "nation_state"
-        ],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.625,
-      "cluster_ids": [
-        "e605f0e929",
-        "34dacb9aa5"
       ]
     },
     {
