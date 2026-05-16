@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T11:56:47.378287+00:00",
+  "generated_at": "2026-05-16T13:46:45.529288+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 71,
-  "total_items_in_window": 327,
-  "total_clusters_raw": 306,
+  "feeds_ok": 79,
+  "total_items_in_window": 486,
+  "total_clusters_raw": 458,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 162,
-  "dropped_overflow": 64,
+  "dropped_low_score": 304,
+  "dropped_overflow": 74,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -74,12 +74,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 2
     },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -88,32 +88,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 7
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 3
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 3
     },
     "Google Threat Analysis Group": {
@@ -123,19 +109,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 3
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -144,12 +123,33 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -158,11 +158,18 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 2
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "SANS Internet Storm Center": {
@@ -172,12 +179,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -186,12 +200,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -207,26 +228,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 11
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,12 +242,12 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -248,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -277,13 +277,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -298,12 +291,33 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 4
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -319,20 +333,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -346,6 +346,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -361,19 +368,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 21
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -382,11 +396,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -403,6 +417,13 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -410,18 +431,11 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 18
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "Interconnects": {
@@ -438,6 +452,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -445,22 +466,15 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -480,54 +494,12 @@
       "item_count": 50,
       "in_window_count": 38
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -536,26 +508,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "in_window_count": 7
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -564,33 +522,40 @@
       "item_count": 100,
       "in_window_count": 28
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 21
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -599,6 +564,41 @@
       "item_count": 100,
       "in_window_count": 6
     },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 10
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
@@ -606,12 +606,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -630,10 +630,10 @@
   },
   "clusters": [
     {
-      "cluster_id": "0c789f50ec",
-      "priority_score": 41,
-      "member_count": 8,
-      "corroborating_source_count": 6,
+      "cluster_id": "63ea56af01",
+      "priority_score": 42,
+      "member_count": 9,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "CVE-2026-20182"
       ],
@@ -668,18 +668,19 @@
         "confidence_tier": [
           "tier_1_offensive_research",
           "tier_1_primary_research",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Help Net Security",
+        "source": "BleepingComputer",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182)",
-        "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
-        "published": "2026-05-15T12:43:27+00:00",
-        "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+        "published": "2026-05-14T20:09:56+00:00",
+        "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. [...]",
+        "full_body": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks By Lawrence Abrams May 14, 2026 04:09 PM 0 Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. CVE-2026-20182 has a maximum severity of 10.0 and impacts Cisco Catalyst SD-WAN Controller and Cisco Catalyst SD-WAN Manager in on-prem and SD-WAN Cloud deployments. In an advisory published today, Cisco said the issue stems from a peering authentication mechanism that \"is not working properly.\" \"This vulnerability exists because the peering authentication mechanism in an affected system is not working properly. An attacker could exploit this vulnerability by sending crafted requests to the affected system,\" reads the Cisco CVE-2026-20182 advisory . \"A successful exploit could allow the attacker to log in to an affected Cisco Catalyst SD-WAN Controller as an internal, high-privileged, non-root user account. Using this account, the attacker could access NETCONF, which would then allow the attacker to manipulate network configuration for the SD-WAN fabric.\" Cisco Catalyst SD-WAN is a software-based networking platform that connects branch offices, data centers, and cloud environments through a centrally managed system. It uses a controller to securely route traffic between sites over encrypted connections. The company says it detected threat actors exploiting the flaw in May, but did not share any details regarding how it was exploited. However, shared indicators of compromise (IOCs) warn admins to check for unauthorized peering events in the SD-WAN Controller logs, which could indicate attempts to register rogue devices within the SD-WAN fabric. By adding a rogue peer, an attacker could insert a malicious device into the SD-WAN environment that appears legitimate. That device could then establish encrypted connections and advertise networks under the attacker's control, potentially allowing them to move deeper into an organization's network. The flaw was discovered by Rapid7 while researching a different Cisco SD-WAN controller vulnerability, tracked as CVE-2026-20127 , which was fixed in February. CVE-2026-20127 was also exploited in zero-day attacks by a threat actor tracked as \"UAT-8616\" since 2023 to create rogue peers in organizations. Cisco has released security updates to address the vulnerability and says there are no workarounds that fully mitigate the issue. The company also recommends restricting access to SD-WAN management and control-plane interfaces to trusted internal networks or to authorized IP addresses only, and reviewing authentication logs for suspicious login activity. CISA has added the Cisco CVE-2026-20182 flaw to the Known Exploited Vulnerabilities Catalog , ordering federal agencies to patch affected devices by May 17, 2026. Indicators of compromise Cisco is urging organizations to review logs from any internet-exposed Catalyst SD-WAN Controller systems for events that may indicate unauthorized access or peering events. The company says that admins should review /var/log/auth.log for entries showing \"Accepted publickey for vmanage-admin\" from unknown IP addresses: 2026-02-10T22:51:36+00:00 vm sshd[804]: Accepted publickey for vmanage-admin from port [REDACTED PORT] ssh2: RSA SHA256:[REDACTED KEY] Administrators should compare IP addresses in logs with the configured System IPs listed in the Cisco Catalyst SD-WAN Manager web UI, under WebUI > Devices > System IP . If an unknown IP address successfully authenticated, administrators should consider the device to be compromised and open a Cisco TAC case. Cisco also recommends reviewing SD-WAN Controller logs for unauthorized peering activity, as attackers may attempt to register rogue devices within the SD-WAN fabric. Jul 26 22:03:33 vSmart-01 VDAEMON_0[2571]: %Viptela-vSmart-VDAEMON_0-5-NTCE-1000001: control-c",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "zero_day",
@@ -690,13 +691,15 @@
           "affected_industries": [],
           "affected_products": [],
           "cve_ids": [
+            "CVE-2026-20127",
             "CVE-2026-20182"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [
             "actively_exploited",
-            "zero_day"
+            "zero_day",
+            "cisa_kev"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
@@ -704,12 +707,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "Help Net Security",
+          "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182)",
-          "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
-          "published": "2026-05-15T12:43:27+00:00",
-          "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
+          "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+          "published": "2026-05-14T20:09:56+00:00",
+          "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. [...]",
           "taxonomy": {
             "threat_categories": [
               "zero_day",
@@ -720,25 +723,27 @@
             "affected_industries": [],
             "affected_products": [],
             "cve_ids": [
+              "CVE-2026-20127",
               "CVE-2026-20182"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
               "actively_exploited",
-              "zero_day"
+              "zero_day",
+              "cisa_kev"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
           }
         },
         {
-          "source": "BleepingComputer",
+          "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-          "published": "2026-05-14T20:09:56+00:00",
-          "summary": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. [...]",
+          "title": "Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182)",
+          "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
+          "published": "2026-05-15T12:43:27+00:00",
+          "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
           "taxonomy": {
             "threat_categories": [
               "zero_day",
@@ -867,14 +872,197 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_primary_research"
           }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CVE-2026-20182: Critical authentication bypass in Cisco Catalyst SD-WAN Controller (FIXED)",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1teoi6t/cve202620182_critical_authentication_bypass_in/",
+          "published": "2026-05-16T09:10:59+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-20182"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2eb9132451",
+      "priority_score": 30,
+      "member_count": 3,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "CVE-2026-42945"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "Kubernetes"
+        ],
+        "cve_ids": [
+          "CVE-2026-42945"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated DoS and Potential RCE",
+        "link": "https://orca.security/resources/blog/nginx-rewrite-module-vulnerability-cve-2026-42945/",
+        "published": "2026-05-14T15:46:26+00:00",
+        "summary": "A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root […]",
+        "full_body": "Table of contents Technical Root Cause Affected Products and Versions Recommended Action Exploitation Risk and Threat Outlook Potential Business Impact UPDATE May 15, 2026 How can Orca help? A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root Cause The issue originates from the ngx_http_rewrite_module, where improper handling of unnamed PCRE captures combined with rewrite directives and replacement strings containing a question mark (?) leads to a heap buffer overflow in the NGINX worker process. By sending crafted HTTP requests, attackers can reliably crash NGINX worker processes through heap memory corruption, resulting in denial of service, while certain environments may also be susceptible to remote code execution. No authentication is required to exploit this issue. Affected Products and Versions The following components are affected: NGINX Open Source versions 1.0.0 through 1.30.0, NGINX Plus R32 through R36, as well as several dependent products including NGINX Ingress Controller , NGINX Gateway Fabric, NGINX App Protect WAF, F5 WAF for NGINX, and related DoS protection offerings. The vulnerability is particularly dangerous in deployments utilizing rewrite, if, or set directives with unnamed regex captures such as $1 or $2. Recommended Action Users should upgrade to NGINX Open Source 1.30.1 or 1.31.0 and NGINX Plus R32 P6 or R36 P4. If immediate patching is not possible, organizations should replace unnamed captures with named captures in affected rewrite directives as a temporary mitigation. Exploitation Risk and Threat Outlook At the time of writing, a public GitHub proof-of-concept (PoC) exploit has already been released, significantly increasing the likelihood of opportunistic exploitation attempts and rapid weaponization by threat actors. While no confirmed in-the-wild exploitation has been publicly reported yet, the combination of public exploit availability, unauthenticated attack surface, and the ubiquity of NGINX in production environments makes this vulnerability especially dangerous for internet-facing applications and Kubernetes ingress deployments . Potential Business Impact Successful exploitation can reliably cause repeated worker crashes and service instability. In some environments, attackers may also be able to leverage the heap corruption for arbitrary code execution, potentially leading to service disruption, traffic manipulation, sensitive data exposure, or deeper infrastructure compromise. While some reports note that reliable RCE may be easier on systems where ASLR is disabled, attackers do not necessarily require ASLR to be turned off. Sophisticated exploitation techniques may combine heap corruption with memory disclosure vulnerabilities, heap grooming, or other environment-specific methods to bypass memory protection mechanisms and achieve code execution on hardened systems. UPDATE May 15, 2026 Our team successfully demonstrated a Proof of Concept (PoC) for CVE-2026-42945, exploiting an 18-year-old heap buffer overflow in NGINX’s rewrite module to achieve an unauthenticated remote Denial of Service (DoS). Executing the attack against a fully patched Ubuntu instance running NGINX 1.28.3 with modern exploit mitigations enabled, we required only standard Python sockets and a single, precisely crafted HTTP GET request. By sending a payload of 349 safe padding bytes followed by 2,000 URI-escapable characters (such as + ), our exploit leveraged a state mismatch in the script engine to trigger a deterministic 4,000-byte heap overflow. This successfully bypassed built-in mitigations and corrupted adjacent glibc heap me",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Kubernetes",
+            "GitHub"
+          ],
+          "cve_ids": [
+            "CVE-2026-42945"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "poc_available",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated DoS and Potential RCE",
+          "link": "https://orca.security/resources/blog/nginx-rewrite-module-vulnerability-cve-2026-42945/",
+          "published": "2026-05-14T15:46:26+00:00",
+          "summary": "A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root […]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes",
+              "GitHub"
+            ],
+            "cve_ids": [
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "poc_available",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator"
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+          "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+          "published": "2026-05-14T06:00:09+00:00",
+          "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CVE-2026-42945 : NGINX Heap Buffer Overflow in rewrite module - Writeup and PoC",
+          "link": "https://www.reddit.com/r/netsec/comments/1tctw53/cve202642945_nginx_heap_buffer_overflow_in/",
+          "published": "2026-05-14T10:18:03+00:00",
+          "summary": "submitted by /u/qwerty0x41 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
         }
       ]
     },
     {
       "cluster_id": "8e9036b5b9",
-      "priority_score": 29,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "priority_score": 30,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "CVE-2026-42897"
       ],
@@ -917,7 +1105,8 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -1040,6 +1229,32 @@
           }
         },
         {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Addressing Exchange Server May 2026 vulnerability CVE-2026-42897",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1teonpo/addressing_exchange_server_may_2026_vulnerability/",
+          "published": "2026-05-16T09:19:46+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
           "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
           "title": "Unpatched Microsoft Exchange Server vulnerability exploited (CVE-2026-42897)",
@@ -1062,138 +1277,6 @@
             "geographic_scope": [],
             "urgency_signals": [
               "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "2eb9132451",
-      "priority_score": 28,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-42945"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "Kubernetes"
-        ],
-        "cve_ids": [
-          "CVE-2026-42945"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated DoS and Potential RCE",
-        "link": "https://orca.security/resources/blog/nginx-rewrite-module-vulnerability-cve-2026-42945/",
-        "published": "2026-05-14T15:46:26+00:00",
-        "summary": "A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root […]",
-        "full_body": "Table of contents Technical Root Cause Affected Products and Versions Recommended Action Exploitation Risk and Threat Outlook Potential Business Impact UPDATE May 15, 2026 How can Orca help? A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root Cause The issue originates from the ngx_http_rewrite_module, where improper handling of unnamed PCRE captures combined with rewrite directives and replacement strings containing a question mark (?) leads to a heap buffer overflow in the NGINX worker process. By sending crafted HTTP requests, attackers can reliably crash NGINX worker processes through heap memory corruption, resulting in denial of service, while certain environments may also be susceptible to remote code execution. No authentication is required to exploit this issue. Affected Products and Versions The following components are affected: NGINX Open Source versions 1.0.0 through 1.30.0, NGINX Plus R32 through R36, as well as several dependent products including NGINX Ingress Controller , NGINX Gateway Fabric, NGINX App Protect WAF, F5 WAF for NGINX, and related DoS protection offerings. The vulnerability is particularly dangerous in deployments utilizing rewrite, if, or set directives with unnamed regex captures such as $1 or $2. Recommended Action Users should upgrade to NGINX Open Source 1.30.1 or 1.31.0 and NGINX Plus R32 P6 or R36 P4. If immediate patching is not possible, organizations should replace unnamed captures with named captures in affected rewrite directives as a temporary mitigation. Exploitation Risk and Threat Outlook At the time of writing, a public GitHub proof-of-concept (PoC) exploit has already been released, significantly increasing the likelihood of opportunistic exploitation attempts and rapid weaponization by threat actors. While no confirmed in-the-wild exploitation has been publicly reported yet, the combination of public exploit availability, unauthenticated attack surface, and the ubiquity of NGINX in production environments makes this vulnerability especially dangerous for internet-facing applications and Kubernetes ingress deployments . Potential Business Impact Successful exploitation can reliably cause repeated worker crashes and service instability. In some environments, attackers may also be able to leverage the heap corruption for arbitrary code execution, potentially leading to service disruption, traffic manipulation, sensitive data exposure, or deeper infrastructure compromise. While some reports note that reliable RCE may be easier on systems where ASLR is disabled, attackers do not necessarily require ASLR to be turned off. Sophisticated exploitation techniques may combine heap corruption with memory disclosure vulnerabilities, heap grooming, or other environment-specific methods to bypass memory protection mechanisms and achieve code execution on hardened systems. UPDATE May 15, 2026 Our team successfully demonstrated a Proof of Concept (PoC) for CVE-2026-42945, exploiting an 18-year-old heap buffer overflow in NGINX’s rewrite module to achieve an unauthenticated remote Denial of Service (DoS). Executing the attack against a fully patched Ubuntu instance running NGINX 1.28.3 with modern exploit mitigations enabled, we required only standard Python sockets and a single, precisely crafted HTTP GET request. By sending a payload of 349 safe padding bytes followed by 2,000 URI-escapable characters (such as + ), our exploit leveraged a state mismatch in the script engine to trigger a deterministic 4,000-byte heap overflow. This successfully bypassed built-in mitigations and corrupted adjacent glibc heap me",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "vulnerability_disclosure",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes",
-            "GitHub"
-          ],
-          "cve_ids": [
-            "CVE-2026-42945"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated DoS and Potential RCE",
-          "link": "https://orca.security/resources/blog/nginx-rewrite-module-vulnerability-cve-2026-42945/",
-          "published": "2026-05-14T15:46:26+00:00",
-          "summary": "A critical vulnerability (CVE-2026-42945, CVSS 9.2) was disclosed affecting NGINX Open Source and NGINX Plus, allowing attackers to reliably trigger denial-of-service (DoS) conditions and potentially achieve remote code execution (RCE) via specially crafted HTTP requests. Due to the potential for widespread disruption across internet-facing applications and ingress infrastructure, immediate patching is strongly recommended. Technical Root […]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "vulnerability_disclosure",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes",
-              "GitHub"
-            ],
-            "cve_ids": [
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator"
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
-          "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-          "published": "2026-05-14T06:00:09+00:00",
-          "summary": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -1772,6 +1855,118 @@
       ]
     },
     {
+      "cluster_id": "b6e5532bde",
+      "priority_score": 19,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-45185"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [
+          "CVE-2026-45185"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Dead.Letter (CVE-2026-45185) How XBOW found an unauthenticated RCE on Exim",
+        "link": "https://www.reddit.com/r/netsec/comments/1tb8vj3/deadletter_cve202645185_how_xbow_found_an/",
+        "published": "2026-05-12T17:41:33+00:00",
+        "summary": "submitted by /u/fede_k [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [
+            "CVE-2026-45185"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Dead.Letter (CVE-2026-45185) How XBOW found an unauthenticated RCE on Exim",
+          "link": "https://www.reddit.com/r/netsec/comments/1tb8vj3/deadletter_cve202645185_how_xbow_found_an/",
+          "published": "2026-05-12T17:41:33+00:00",
+          "summary": "submitted by /u/fede_k [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-45185"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+          "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+          "published": "2026-05-12T16:44:00+00:00",
+          "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185 (CVSS score: 9.8), aka Dead.Letter, has been described as a",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-45185"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "3dcc1b1cb8",
       "priority_score": 18,
       "member_count": 1,
@@ -1956,6 +2151,233 @@
       ]
     },
     {
+      "cluster_id": "22ff5ee355",
+      "priority_score": 18,
+      "member_count": 4,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "CVE-2026-46300"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [
+          "CVE-2026-46300"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Fragnesia (CVE-2026-46300) is a universal Linux local privilege escalation exploit",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tenyd4/fragnesia_cve202646300_is_a_universal_linux_local/",
+        "published": "2026-05-16T08:40:11+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [
+            "CVE-2026-46300"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Fragnesia (CVE-2026-46300) is a universal Linux local privilege escalation exploit",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tenyd4/fragnesia_cve202646300_is_a_universal_linux_local/",
+          "published": "2026-05-16T08:40:11+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
+          "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
+          "published": "2026-05-14T13:44:46+00:00",
+          "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+          "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+          "published": "2026-05-14T07:06:15+00:00",
+          "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "Reddit r/sysadmin",
+          "cohort": "reddit_practitioner_osint",
+          "title": "A third vulnerability has hit the kernel",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1tdiagh/a_third_vulnerability_has_hit_the_kernel/",
+          "published": "2026-05-15T01:55:20+00:00",
+          "summary": "This is part of the dirtyfrag family, but is different enough to warrant its own CVE. https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/ Known as Fragnasia and tracked as CVE-2026-46300 , this security flaw stems from a logic bug in the Linux XFRM ESP-in-TCP subsystem that can enable unprivileged local attackers to gain root privileges by writing arbitrary bytes to the kernel page cache of read-only files. Immediate patching if you cannot update: rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.confrmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.conf submitted by /u/NoDistrict1529 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3ff98b28d1",
+      "priority_score": 16,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "New ipTIME Pre-Auth RCE in CWMP",
+        "link": "https://www.reddit.com/r/netsec/comments/1tav4dk/new_iptime_preauth_rce_in_cwmp/",
+        "published": "2026-05-12T08:16:01+00:00",
+        "summary": "A pre-auth remote code execution vulnerability was found in the CWMP implementation of ipTIME routers, allowing unauthenticated attackers to execute arbitrary code remotely. submitted by /u/SSDisclosure [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "New ipTIME Pre-Auth RCE in CWMP",
+          "link": "https://www.reddit.com/r/netsec/comments/1tav4dk/new_iptime_preauth_rce_in_cwmp/",
+          "published": "2026-05-12T08:16:01+00:00",
+          "summary": "A pre-auth remote code execution vulnerability was found in the CWMP implementation of ipTIME routers, allowing unauthenticated attackers to execute arbitrary code remotely. submitted by /u/SSDisclosure [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "e605f0e929",
       "priority_score": 16,
       "member_count": 2,
@@ -1988,7 +2410,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
+        "source": "Microsoft Threat Intelligence",
         "cohort": "threat_research_primary",
         "title": "Kazuar: Anatomy of a nation-state botnet",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2020,7 +2442,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2049,7 +2471,7 @@
           }
         },
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Kazuar: Anatomy of a nation-state botnet",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
@@ -2676,85 +3098,6 @@
       ]
     },
     {
-      "cluster_id": "c0426023f6",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "State of ransomware in 2026",
-        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-        "published": "2026-05-12T07:00:04+00:00",
-        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "State of ransomware in 2026",
-          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-          "published": "2026-05-12T07:00:04+00:00",
-          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "30f6252cf0",
       "priority_score": 14,
       "member_count": 1,
@@ -2826,6 +3169,85 @@
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0426023f6",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "State of ransomware in 2026",
+        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+        "published": "2026-05-12T07:00:04+00:00",
+        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "russia"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "State of ransomware in 2026",
+          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+          "published": "2026-05-12T07:00:04+00:00",
+          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "russia"
+            ],
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
@@ -3765,79 +4187,6 @@
       ]
     },
     {
-      "cluster_id": "71d889cc01",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "NCSC UK",
-        "cohort": "government_authoritative",
-        "title": "Thinking carefully before adopting agentic AI",
-        "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
-        "published": "2026-05-15T12:00:00+00:00",
-        "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
-        "full_body": "Blog Post Download & print article PDF Download & print article PDF Thinking carefully before adopting agentic AI When it comes to using agentic AI, make sure you can walk before you run. Martin R , Dr Kate S Krot Studio via Getty Images Agentic AI tools are starting to appear in real organisations, not just research labs. These tools don’t just generate content or predictions; they can plan, make decisions and take actions on your behalf. This capability can be beneficial, including in cyber defence , but it can also introduce new risks if used without care. ' Careful adoption of agentic AI services’ is new joint guidance, co-authored by the NCSC with international partners, that sets out why organisations should start small, use agents only for low-risk tasks, and apply established cyber security controls from the outset. This blog summarises the key points from that guidance, and will be of use to anyone involved in the design, development, deployment and operation of agentic AI systems. What is agentic AI? Agentic AI represents the next step for the most advanced generative AI (also known as ‘frontier AI’). Rather than outputting a prediction or new content, agentic systems can access data sources, remember context, make decisions, use tools, and take actions in pursuit of a goal. They can operate without continuous human intervention and even create sub-agents to complete specific tasks. This is what makes them useful, but also more hazardous than non-agentic AI tools. Agentic AI increases the risk Many risks associated with agentic AI are not new: access control, secure development, supply chain risk, monitoring, incident response and accountability are all still relevant concerns. Agentic AI systems also inherit known LLM risks like susceptibility to jailbreaking and prompt injection , with security challenges evolving as the technology matures. However, the extra autonomy and complexity of agentic systems can increase the attack surface and make behaviour harder to predict, test and govern. Additional risks include: broader access – agents can be permitted to access external systems, data and tools in ways that non-agentic AI systems are not unpredictable behaviour – especially when goals can be interpreted in ways that a human would not expect harder to spot problems – particularly when actions occur faster than humans can meaningfully review them challenging to explain – while the workings of non-agentic frontier AI systems are notoriously difficult to interpret, the range of behaviours and tools available to agents make it even more challenging to explain a particular course of action Approach adoption very carefully If an agent is over‑privileged or poorly designed, a single failure can quickly become a serious incident . It is crucial, therefore, to think before you deploy. Specifically you should: consider what could go wrong and how failures or misuse could affect operations reflect on whether AI is really needed, or whether a process could be simplified, removed or automated in a lower-risk way deploy agentic AI incrementally, starting with tightly bounded pilots using clearly defined tasks, and build confidence in the system before you expand the scope Develop and adopt agentic AI with security in mind Think about what could happen if an agent misunderstood its task, exceeded its intended scope or was manipulated, and never grant an agent unrestricted access to sensitive data or critical systems. Ensure you maintain ongoing visibility of the system’s operation, and understand how to retain meaningful human oversight and control. If you cannot understand, monitor or contain an agent’s actions, it is not ready for deployment Insist on human accountability A system may take an action, but humans remain accountable for: the decision to deploy it the access it was granted the safeguards around it the consequences of its operation You should be clear about who owns an agentic system, who approves its access, who mon",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "NCSC UK",
-          "cohort": "government_authoritative",
-          "title": "Thinking carefully before adopting agentic AI",
-          "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
-          "published": "2026-05-15T12:00:00+00:00",
-          "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "fd4f2336b4",
       "priority_score": 13,
       "member_count": 1,
@@ -4329,127 +4678,6 @@
       ]
     },
     {
-      "cluster_id": "29b070dccb",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "nation_state",
-          "ransomware",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Mustang Panda"
-        ],
-        "affected_industries": [
-          "technology"
-        ],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "asia_pacific"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers",
-        "link": "https://www.infosecurity-magazine.com/news/microsoft-zeroday-exchange-servers/",
-        "published": "2026-05-15T12:35:00+00:00",
-        "summary": "The zero-day vulnerability affects on-premises installations for all versions of Exchange Server 2016, 2019 and Subscription Edition",
-        "full_body": "Infosecurity Magazine Home » News » Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers News 15 May 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Microsoft has warned of a high-severity zero-day vulnerability that could lead to an attacker sending arbitrary code to a victim by sending a specially crafted email to an Outlook user. The flaw, tracked as CVE-2026-42897, is due to an improper neutralization of input during web page generation – also called cross-site scripting (XSS) – in Microsoft Exchange Server that allows an unauthorized attacker to perform spoofing over a network. This high-severity vulnerability (CVSS rating of 8.1), disclosed by the tech giant on May 14, is affecting some on-premises Exchange Server versions: All existing Exchange Server 2016 versions All existing Exchange Server 2019 versions All existing Exchange Server Subscription Edition (SE) versions It does not impact Exchange Online. Temporary Fixes Available While Patch Is in Development Microsoft has not yet released a patch for this vulnerability. However, in a security advisory published on May 14 , the Exchange Team shared two approaches security teams can take to mitigate the impact of potential exploits of this vulnerability before patches are available. The first option, which Microsoft recommends, uses the Exchange Emergency Mitigation (EM) Service. If the EM Service is enabled, which it is by default, the mitigation has already been automatically applied. Administrators can verify this by: Checking the applied mitigations for CVE-2026-42897 (M2.1.x) through the documentation Running the Exchange Health Checker script to quickly check the status of EM Service and applied mitigations Enabling the EM Service if it is currently disabled, as Microsoft strongly recommends doing so Note that servers running versions older than March 2023 cannot receive new mitigations through this service. The second mitigation option is intended for environments unable to use the EM Service, such as disconnected or air-gapped environments. Administrators can manually apply the mitigation by: Downloading the latest version of the Exchange On-premises Mitigation Tool (EOMT) Running the provided PowerShell script from an elevated Exchange Management Shell, targeting either a single server or all servers at once using the CVE-2026-42897 identifier Microsoft acknowledged that both mitigation measures can cause issues, such as disabling or disrupting features (e.g. OWA Print Calendar, Inline images). The company is working on security patches for impacted Exchange servers. The Exchange SE update will be released as a publicly available security update, while updates for Exchange 2016 and 2019 will be released only to customers who are enrolled in the Period 2 Exchange Server ESU program. You may also like Microsoft Patches Windows Zero-Day as Attackers Exploit it in the Wild News 13 July 2022 The Most Exploited Vulnerabilities by State Sponsored Actors, and the Easy Fix News Feature 15 May 2020 Microsoft Releases Patch for Office Zero Day Amid Evidence of Exploitation News 27 January 2026 Google vs Microsoft: Let the Patch Wars Commence Magazine Feature 15 May 2015 Rushed Patches Follow Broken Embargo on New Linux Kernel Vulnerabilities News 11 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice One in Eight Workers Has Sold Their Corporate Logins News 6 May 2026 1 Mustang Panda Linked to Updated FDMTP Backdoor in Asia-Pacific Espionage Campaign News 14 May 2026 2 Interview: How Alpine’s Head of IT Secures the High-Speed Environment of an F1 Team Interview 14 May 2026 3 Canvas Owner Reaches Agreement With Cybercriminals After Ransomware Attack News 13 May 2026 4 Avada Builder Flaws Expose One Million WordPress Sites News 13 May 2026 5 Ransomware: Over Half of CISOs Would Consider Paying Ransom to Hacker",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "zero_day",
-            "vulnerability_disclosure",
-            "malware",
-            "nation_state"
-          ],
-          "actor_attribution": [
-            "Mustang Panda"
-          ],
-          "affected_industries": [
-            "technology"
-          ],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [
-            "CVE-2026-42897"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "asia_pacific"
-          ],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers",
-          "link": "https://www.infosecurity-magazine.com/news/microsoft-zeroday-exchange-servers/",
-          "published": "2026-05-15T12:35:00+00:00",
-          "summary": "The zero-day vulnerability affects on-premises installations for all versions of Exchange Server 2016, 2019 and Subscription Edition",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "zero_day",
-              "vulnerability_disclosure",
-              "malware",
-              "nation_state"
-            ],
-            "actor_attribution": [
-              "Mustang Panda"
-            ],
-            "affected_industries": [
-              "technology"
-            ],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [
-              "CVE-2026-42897"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "asia_pacific"
-            ],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "4cca4604a8",
       "priority_score": 13,
       "member_count": 2,
@@ -4567,6 +4795,79 @@
       ]
     },
     {
+      "cluster_id": "71d889cc01",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "NCSC UK",
+        "cohort": "government_authoritative",
+        "title": "Thinking carefully before adopting agentic AI",
+        "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+        "published": "2026-05-15T12:00:00+00:00",
+        "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
+        "full_body": "Blog Post Download & print article PDF Download & print article PDF Thinking carefully before adopting agentic AI When it comes to using agentic AI, make sure you can walk before you run. Martin R , Dr Kate S Krot Studio via Getty Images Agentic AI tools are starting to appear in real organisations, not just research labs. These tools don’t just generate content or predictions; they can plan, make decisions and take actions on your behalf. This capability can be beneficial, including in cyber defence , but it can also introduce new risks if used without care. ' Careful adoption of agentic AI services’ is new joint guidance, co-authored by the NCSC with international partners, that sets out why organisations should start small, use agents only for low-risk tasks, and apply established cyber security controls from the outset. This blog summarises the key points from that guidance, and will be of use to anyone involved in the design, development, deployment and operation of agentic AI systems. What is agentic AI? Agentic AI represents the next step for the most advanced generative AI (also known as ‘frontier AI’). Rather than outputting a prediction or new content, agentic systems can access data sources, remember context, make decisions, use tools, and take actions in pursuit of a goal. They can operate without continuous human intervention and even create sub-agents to complete specific tasks. This is what makes them useful, but also more hazardous than non-agentic AI tools. Agentic AI increases the risk Many risks associated with agentic AI are not new: access control, secure development, supply chain risk, monitoring, incident response and accountability are all still relevant concerns. Agentic AI systems also inherit known LLM risks like susceptibility to jailbreaking and prompt injection , with security challenges evolving as the technology matures. However, the extra autonomy and complexity of agentic systems can increase the attack surface and make behaviour harder to predict, test and govern. Additional risks include: broader access – agents can be permitted to access external systems, data and tools in ways that non-agentic AI systems are not unpredictable behaviour – especially when goals can be interpreted in ways that a human would not expect harder to spot problems – particularly when actions occur faster than humans can meaningfully review them challenging to explain – while the workings of non-agentic frontier AI systems are notoriously difficult to interpret, the range of behaviours and tools available to agents make it even more challenging to explain a particular course of action Approach adoption very carefully If an agent is over‑privileged or poorly designed, a single failure can quickly become a serious incident . It is crucial, therefore, to think before you deploy. Specifically you should: consider what could go wrong and how failures or misuse could affect operations reflect on whether AI is really needed, or whether a process could be simplified, removed or automated in a lower-risk way deploy agentic AI incrementally, starting with tightly bounded pilots using clearly defined tasks, and build confidence in the system before you expand the scope Develop and adopt agentic AI with security in mind Think about what could happen if an agent misunderstood its task, exceeded its intended scope or was manipulated, and never grant an agent unrestricted access to sensitive data or critical systems. Ensure you maintain ongoing visibility of the system’s operation, and understand how to retain meaningful human oversight and control. If you cannot understand, monitor or contain an agent’s actions, it is not ready for deployment Insist on human accountability A system may take an action, but humans remain accountable for: the decision to deploy it the access it was granted the safeguards around it the consequences of its operation You should be clear about who owns an agentic system, who approves its access, who mon",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "NCSC UK",
+          "cohort": "government_authoritative",
+          "title": "Thinking carefully before adopting agentic AI",
+          "link": "https://www.ncsc.gov.uk/blogs/thinking-carefully-before-adopting-agentic-ai",
+          "published": "2026-05-15T12:00:00+00:00",
+          "summary": "When it comes to using agentic AI, make sure you can walk before you run.",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "651d91b6fa",
       "priority_score": 12,
       "member_count": 1,
@@ -4668,6 +4969,103 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c42bf483b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "cisa_kev",
+          "mass_exploitation"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+        "published": "2026-05-12T13:17:51+00:00",
+        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "mass_exploitation",
+            "cisa_kev"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+          "published": "2026-05-12T13:17:51+00:00",
+          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "mass_exploitation",
+              "cisa_kev"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -4853,103 +5251,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c42bf483b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "mass_exploitation"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-        "published": "2026-05-12T13:17:51+00:00",
-        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "mass_exploitation",
-            "cisa_kev"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-          "published": "2026-05-12T13:17:51+00:00",
-          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "mass_exploitation",
-              "cisa_kev"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -5288,6 +5589,127 @@
       ]
     },
     {
+      "cluster_id": "29b070dccb",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "nation_state",
+          "ransomware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Mustang Panda"
+        ],
+        "affected_industries": [
+          "technology"
+        ],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [
+          "CVE-2026-42897"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "asia_pacific"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers",
+        "link": "https://www.infosecurity-magazine.com/news/microsoft-zeroday-exchange-servers/",
+        "published": "2026-05-15T12:35:00+00:00",
+        "summary": "The zero-day vulnerability affects on-premises installations for all versions of Exchange Server 2016, 2019 and Subscription Edition",
+        "full_body": "Infosecurity Magazine Home » News » Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers News 15 May 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Microsoft has warned of a high-severity zero-day vulnerability that could lead to an attacker sending arbitrary code to a victim by sending a specially crafted email to an Outlook user. The flaw, tracked as CVE-2026-42897, is due to an improper neutralization of input during web page generation – also called cross-site scripting (XSS) – in Microsoft Exchange Server that allows an unauthorized attacker to perform spoofing over a network. This high-severity vulnerability (CVSS rating of 8.1), disclosed by the tech giant on May 14, is affecting some on-premises Exchange Server versions: All existing Exchange Server 2016 versions All existing Exchange Server 2019 versions All existing Exchange Server Subscription Edition (SE) versions It does not impact Exchange Online. Temporary Fixes Available While Patch Is in Development Microsoft has not yet released a patch for this vulnerability. However, in a security advisory published on May 14 , the Exchange Team shared two approaches security teams can take to mitigate the impact of potential exploits of this vulnerability before patches are available. The first option, which Microsoft recommends, uses the Exchange Emergency Mitigation (EM) Service. If the EM Service is enabled, which it is by default, the mitigation has already been automatically applied. Administrators can verify this by: Checking the applied mitigations for CVE-2026-42897 (M2.1.x) through the documentation Running the Exchange Health Checker script to quickly check the status of EM Service and applied mitigations Enabling the EM Service if it is currently disabled, as Microsoft strongly recommends doing so Note that servers running versions older than March 2023 cannot receive new mitigations through this service. The second mitigation option is intended for environments unable to use the EM Service, such as disconnected or air-gapped environments. Administrators can manually apply the mitigation by: Downloading the latest version of the Exchange On-premises Mitigation Tool (EOMT) Running the provided PowerShell script from an elevated Exchange Management Shell, targeting either a single server or all servers at once using the CVE-2026-42897 identifier Microsoft acknowledged that both mitigation measures can cause issues, such as disabling or disrupting features (e.g. OWA Print Calendar, Inline images). The company is working on security patches for impacted Exchange servers. The Exchange SE update will be released as a publicly available security update, while updates for Exchange 2016 and 2019 will be released only to customers who are enrolled in the Period 2 Exchange Server ESU program. You may also like Microsoft Patches Windows Zero-Day as Attackers Exploit it in the Wild News 13 July 2022 The Most Exploited Vulnerabilities by State Sponsored Actors, and the Easy Fix News Feature 15 May 2020 Microsoft Releases Patch for Office Zero Day Amid Evidence of Exploitation News 27 January 2026 Google vs Microsoft: Let the Patch Wars Commence Magazine Feature 15 May 2015 Rushed Patches Follow Broken Embargo on New Linux Kernel Vulnerabilities News 11 May 2026 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice One in Eight Workers Has Sold Their Corporate Logins News 6 May 2026 1 Mustang Panda Linked to Updated FDMTP Backdoor in Asia-Pacific Espionage Campaign News 14 May 2026 2 Interview: How Alpine’s Head of IT Secures the High-Speed Environment of an F1 Team Interview 14 May 2026 3 Canvas Owner Reaches Agreement With Cybercriminals After Ransomware Attack News 13 May 2026 4 Avada Builder Flaws Expose One Million WordPress Sites News 13 May 2026 5 Ransomware: Over Half of CISOs Would Consider Paying Ransom to Hacker",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "zero_day",
+            "vulnerability_disclosure",
+            "malware",
+            "nation_state"
+          ],
+          "actor_attribution": [
+            "Mustang Panda"
+          ],
+          "affected_industries": [
+            "technology"
+          ],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [
+            "CVE-2026-42897"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "asia_pacific"
+          ],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Reports Severe Zero-Day Flaw in On-Prem Exchange Servers",
+          "link": "https://www.infosecurity-magazine.com/news/microsoft-zeroday-exchange-servers/",
+          "published": "2026-05-15T12:35:00+00:00",
+          "summary": "The zero-day vulnerability affects on-premises installations for all versions of Exchange Server 2016, 2019 and Subscription Edition",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "zero_day",
+              "vulnerability_disclosure",
+              "malware",
+              "nation_state"
+            ],
+            "actor_attribution": [
+              "Mustang Panda"
+            ],
+            "affected_industries": [
+              "technology"
+            ],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "asia_pacific"
+            ],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "f2e3964c00",
       "priority_score": 12,
       "member_count": 1,
@@ -5422,7 +5844,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
+        "source": "Microsoft Threat Intelligence",
         "cohort": "threat_research_primary",
         "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -5450,7 +5872,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -5475,7 +5897,7 @@
           }
         },
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
@@ -5499,170 +5921,130 @@
       ]
     },
     {
-      "cluster_id": "255bec07f9",
+      "cluster_id": "55d60e5654",
       "priority_score": 12,
       "member_count": 2,
       "corroborating_source_count": 2,
       "strong_signals": [
-        "CVE-2026-46300"
+        "Kimsuky"
       ],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "iot_ot",
           "malware",
-          "supply_chain",
-          "vulnerability_disclosure",
-          "zero_day"
+          "nation_state",
+          "phishing_social_eng"
         ],
-        "actor_attribution": [],
+        "actor_attribution": [
+          "APT43",
+          "Kimsuky",
+          "Lazarus"
+        ],
         "affected_industries": [
-          "manufacturing_industrial",
-          "technology"
+          "government_public_sector"
         ],
         "affected_products": [
-          "Chrome",
-          "Microsoft Exchange",
-          "OpenAI/ChatGPT",
-          "Palo Alto Networks",
-          "VMware"
+          "GitHub"
         ],
-        "cve_ids": [
-          "CVE-2026-46300"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [
-          "united_states"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available",
-          "zero_day"
-        ],
+        "geographic_scope": [],
+        "urgency_signals": [],
         "content_type": [
-          "threat_research",
-          "vulnerability_disclosure"
+          "news_report",
+          "uncategorized"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_1_primary_research",
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
-        "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
-        "published": "2026-05-14T13:44:46+00:00",
-        "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
-        "full_body": "Linux distributions are informing users about a new kernel vulnerability that can be exploited by a local attacker to escalate privileges to root. Dubbed Fragnesia and officially tracked as CVE-2026-46300 , the issue resides in the kernel’s XFRM ESP-in-TCP subsystem, allowing an unprivileged attacker to gain root permissions by overwriting sensitive system files. A majority of Linux distributions are affected, and they have started releasing patches. A proof-of-concept (PoC) exploit is available, but there is no evidence that Fragnesia has been exploited in the wild. “Similar to Dirty Frag, Fragnesia exploits a vulnerability in the XFRM ESP-in-TCP subsystem to achieve a memory write primitive in the kernel,” Microsoft’s threat intelligence team said . “The primitive is then used to corrupt the page cache memory of the [/]usr[/]bin[/]su binary, which in turn leads to launching a shell with root privilege. Note that exploitation is not constrained to use the [/]usr[/]bin[/]su binary; it can modify any file readable by the user, including [/]etc[/]passwd,” it added. Advertisement. Scroll to continue reading. Microsoft has urged organizations to apply the available patches as soon as possible. Fragnesia is in the same class of vulnerabilities as the recently disclosed Dirty Frag and Copy Fail . Copy Fail has been exploited in the wild, and Microsoft noted shortly after Dirty Frag’s disclosure that it too may have been leveraged in malicious attacks. The tech giant reported on May 8 that its Defender product had seen limited in-the-wild activity that could indicate exploitation of either Dirty Frag or Copy Fail. At the time of writing, there do not appear to be any other reports confirming the exploitation of Dirty Frag. Related : OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years Related : Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access Related : Organizations Warned of Exploited Linux Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. More from Eduard Kovacs Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million G7 Countries Release AI SBOM Guidance High-Severity Vulnerability Patched in VMware Fusion Foxconn Confirms North American Factories Hit by Cyberattack Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises Hundreds of Malicious Packages Force RubyGems to Suspend Registrations ICS Patch Tuesday: New Security Advisories From Siemens, Schneider, CISA Latest News PoC Code Published for Critical NGINX Vulnerability In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild American Lending Center Data Breach Affects 123,000 Individuals OpenAI Hit by TanStack Supply Chain Attack TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code Chrome 148 Update Patches Critical Vulnerabilities Cisco Patches Another SD-WAN Zero-Day, the Sixth Exploited in 2026 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Event: Threat Detection and Incident Response Summit May 20, 2026 Delve ",
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Kimsuky targets organizations with PebbleDash-based tools",
+        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+        "published": "2026-05-14T11:00:58+00:00",
+        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "full_body": "Table of Contents Executive summary Background Initial access Deployed malware HelloDoor: first Rust-based PebbleDash variant httpMalice: latest backdoor variant of PebbleDash MemLoad downloads httpTroy AppleSeed HappyDoor Post-exploitation VSCode (launched by the JSE dropper) VSCode (launched by VSCode installer) DWAgent Infrastructure Victims Attribution Conclusion Indicators of compromise File hashes Domains and IPs Authors Sojun Ryu Over the past few months, we have conducted an in-depth analysis of specific activity clusters of Kimsuky (aka APT43, Ruby Sleet, Black Banshee, Sparkling Pisces, Velvet Chollima, and Springtail), a prolific Korean-speaking threat actor. Our research revealed notable tactical shifts throughout multiple phases of the group’s latest campaigns. Kimsuky has continuously introduced new malware variants based on the PebbleDash platform, a tool historically leveraged by the Lazarus Group but appropriated by Kimsuky since at least 2021. Our monitoring indicates various strategic updates to the group’s arsenal, including the use of VSCode Tunneling, Cloudflare Quick Tunnels, DWAgent, large language models (LLMs), and the Rust programming language. This expanding set of tools underscores the group’s ongoing adaptation and evolution. Specifically, Kimsuky leveraged legitimate VSCode tunneling mechanisms to establish persistence and distributed the open-source DWAgent remote monitoring and management tool for post-exploitation activities. These activities affected various sectors in South Korea, impacting both public and private entities. This article covers both previously undocumented attacks and a deeper technical analysis of incidents within this campaign that have been reported before — offering new insight beyond what has already been published. Executive summary Kimsuky obtains initial access to target systems by delivering spear-phishing emails containing malicious attachments disguised as documents. They also contact targets via messengers in some cases. Kimsuky uses a variety of droppers in different formats, such as JSE, PIF, SCR, EXE, etc. The droppers deliver malware mainly belonging to two big clusters: PebbleDash and AppleSeed. These clusters are considered the most technically advanced in the group’s toolset. The report covers the following PebbleDash malware: HelloDoor, httpMalice, MemLoad, httpTroy. It also covers AppleSeed and HappyDoor from AppleSeed cluster. For post-exploitation activities Kimsuky uses legitimate tools Visual Studio Code (VSCode) and DWAgent. For VSCode, the attacker uses GitHub authentication method. For hosting C2 infrastructure the group mainly uses domains registered at a free South Korean hosting provider. It also occasionally relies on hacked South Korean websites and tunneling tools, such as Ngrok or VSCode. Kimsuky mainly targets South Korean entities. However, PebbleDash attacks were also seen in Brazil and Germany. This malware cluster focuses on defense sector, while AppleSeed most often targets government organizations. Background First identified by Kaspersky in 2013, Kimsuky has been active for over 10 years and is considered less technically proficient compared to other Korean-speaking APT groups. The group has targeted a wide range of entities and demonstrated capability in creating tailored spear-phishing emails. The group’s arsenal includes proprietary malware such as PebbleDash, BabyShark, AppleSeed, and RandomQuery, as well as open-source RATs like xRAT, XenoRAT, and TutRAT. This blog post examines the evolving PebbleDash-based malware (referred to as the PebbleDash cluster) and its connections to the AppleSeed-based malware (referred to as the AppleSeed cluster). The PebbleDash and AppleSeed clusters are considered the most technically advanced in Kimsuky’s toolset. Since at least 2019, these clusters have masqueraded as legitimate documents and application installers, manifesting as JSE droppers or executables with .EXE, .SCR and .PIF extensions.",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "data_breach",
-            "supply_chain",
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
             "malware",
-            "iot_ot"
+            "phishing_social_eng",
+            "nation_state"
           ],
-          "actor_attribution": [],
+          "actor_attribution": [
+            "Kimsuky",
+            "Lazarus",
+            "APT43"
+          ],
           "affected_industries": [
-            "technology",
-            "manufacturing_industrial"
+            "government_public_sector"
           ],
           "affected_products": [
-            "Palo Alto Networks",
-            "Microsoft Exchange",
-            "VMware",
-            "Chrome",
-            "OpenAI/ChatGPT"
+            "GitHub"
           ],
-          "cve_ids": [
-            "CVE-2026-46300"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [
-            "united_states"
-          ],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_4_news"
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
-          "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
-          "published": "2026-05-14T13:44:46+00:00",
-          "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Kimsuky targets organizations with PebbleDash-based tools",
+          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+          "published": "2026-05-14T11:00:58+00:00",
+          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
           "taxonomy": {
             "threat_categories": [
-              "data_breach",
-              "supply_chain",
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
               "malware",
-              "iot_ot"
+              "phishing_social_eng",
+              "nation_state"
             ],
-            "actor_attribution": [],
+            "actor_attribution": [
+              "Kimsuky",
+              "Lazarus",
+              "APT43"
+            ],
             "affected_industries": [
-              "technology",
-              "manufacturing_industrial"
+              "government_public_sector"
             ],
             "affected_products": [
-              "Palo Alto Networks",
-              "Microsoft Exchange",
-              "VMware",
-              "Chrome",
-              "OpenAI/ChatGPT"
+              "GitHub"
             ],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "united_states"
-            ],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_4_news"
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
-          "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-          "published": "2026-05-14T07:06:15+00:00",
-          "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Disclosing new PebbleDash-based tools by Kimsuky",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1teogof/disclosing_new_pebbledashbased_tools_by_kimsuky/",
+          "published": "2026-05-16T09:08:34+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -6569,164 +6951,6 @@
       ]
     },
     {
-      "cluster_id": "ad3165eb09",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-        "published": "2026-05-14T19:37:56+00:00",
-        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-        "full_body": "Date Published May 14, 2026 Topics Law & Policy bill c-22 Mentions Kate Robertson Share Canada’s proposed Bill C-22 could threaten encryption and privacy, say companies like Signal and Meta. Speaking with The Globe and Mail , senior research associate Kate Robertson says the bill could lead to the rollout of forced metadata collection for messaging apps. Robertson said that government officials were reticent to commit to protection for encryption. “Encrypted communication systems are a lifeline for human rights defenders, journalists, and dissidents around the world,” she said. Read the article More in: Law & Policy LATEST Our preliminary analysis of Bill C-2 situates the legislation within the context of existing research by the Citizen Lab about two potential data-sharing treaties that are most relevant to the new proposed powers being introduced in Bill C-2: the Second Additional Protocol to the Budapest Convention (2AP) and the CLOUD Act. Both of which carry significant constitutional and human rights risks. June 16, 2025 Law & Policy event Civil Society Summit on the AI Industry MAY 14, 2026 News + Updates → News Kill Bill C-22 Says Civil Society to Parliament APRIL 29, 2026 event [CANCELLED] Citizen Lab @ RightsCon APRIL 28, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-          "published": "2026-05-14T19:37:56+00:00",
-          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "34dacb9aa5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "nation_state"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-        "published": "2026-05-13T17:36:53+00:00",
-        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
-        "full_body": "Date Published May 13, 2026 Topics Mass Surveillance Targeted Surveillance digital transnational repression , spyware Mentions Ron Deibert Share Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. While the growth of the mercenary spyware industry is a major concern, Deibert noted that “spyware is only the sharp point of the spear in a massive, growing, and largely unregulated surveillance marketplace that is deeply anchored in the personal data surveillance economy.” He called for liberal democratic countries to resist using “national security or counterterrorism as an excuse to override oversight and public accountability.” Instead, “governments must put words into actions…to protect civil society and those most vulnerable to the spread of authoritarianism worldwide.” Watch More in: Mass Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → Podcast Chilling Effects in the Digital Age APRIL 30, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 event [CANCELLED] Citizen Lab @ RightsCon APRIL 28, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-          "published": "2026-05-13T17:36:53+00:00",
-          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3da3cf9f20",
       "priority_score": 10,
       "member_count": 1,
@@ -6809,105 +7033,134 @@
       ]
     },
     {
-      "cluster_id": "55d60e5654",
+      "cluster_id": "ad3165eb09",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
+      "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "nation_state",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "APT43",
-          "Kimsuky",
-          "Lazarus"
-        ],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
+        "source": "Citizen Lab",
         "cohort": "threat_research_primary",
-        "title": "Kimsuky targets organizations with PebbleDash-based tools",
-        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-        "published": "2026-05-14T11:00:58+00:00",
-        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
-        "full_body": "Table of Contents Executive summary Background Initial access Deployed malware HelloDoor: first Rust-based PebbleDash variant httpMalice: latest backdoor variant of PebbleDash MemLoad downloads httpTroy AppleSeed HappyDoor Post-exploitation VSCode (launched by the JSE dropper) VSCode (launched by VSCode installer) DWAgent Infrastructure Victims Attribution Conclusion Indicators of compromise File hashes Domains and IPs Authors Sojun Ryu Over the past few months, we have conducted an in-depth analysis of specific activity clusters of Kimsuky (aka APT43, Ruby Sleet, Black Banshee, Sparkling Pisces, Velvet Chollima, and Springtail), a prolific Korean-speaking threat actor. Our research revealed notable tactical shifts throughout multiple phases of the group’s latest campaigns. Kimsuky has continuously introduced new malware variants based on the PebbleDash platform, a tool historically leveraged by the Lazarus Group but appropriated by Kimsuky since at least 2021. Our monitoring indicates various strategic updates to the group’s arsenal, including the use of VSCode Tunneling, Cloudflare Quick Tunnels, DWAgent, large language models (LLMs), and the Rust programming language. This expanding set of tools underscores the group’s ongoing adaptation and evolution. Specifically, Kimsuky leveraged legitimate VSCode tunneling mechanisms to establish persistence and distributed the open-source DWAgent remote monitoring and management tool for post-exploitation activities. These activities affected various sectors in South Korea, impacting both public and private entities. This article covers both previously undocumented attacks and a deeper technical analysis of incidents within this campaign that have been reported before — offering new insight beyond what has already been published. Executive summary Kimsuky obtains initial access to target systems by delivering spear-phishing emails containing malicious attachments disguised as documents. They also contact targets via messengers in some cases. Kimsuky uses a variety of droppers in different formats, such as JSE, PIF, SCR, EXE, etc. The droppers deliver malware mainly belonging to two big clusters: PebbleDash and AppleSeed. These clusters are considered the most technically advanced in the group’s toolset. The report covers the following PebbleDash malware: HelloDoor, httpMalice, MemLoad, httpTroy. It also covers AppleSeed and HappyDoor from AppleSeed cluster. For post-exploitation activities Kimsuky uses legitimate tools Visual Studio Code (VSCode) and DWAgent. For VSCode, the attacker uses GitHub authentication method. For hosting C2 infrastructure the group mainly uses domains registered at a free South Korean hosting provider. It also occasionally relies on hacked South Korean websites and tunneling tools, such as Ngrok or VSCode. Kimsuky mainly targets South Korean entities. However, PebbleDash attacks were also seen in Brazil and Germany. This malware cluster focuses on defense sector, while AppleSeed most often targets government organizations. Background First identified by Kaspersky in 2013, Kimsuky has been active for over 10 years and is considered less technically proficient compared to other Korean-speaking APT groups. The group has targeted a wide range of entities and demonstrated capability in creating tailored spear-phishing emails. The group’s arsenal includes proprietary malware such as PebbleDash, BabyShark, AppleSeed, and RandomQuery, as well as open-source RATs like xRAT, XenoRAT, and TutRAT. This blog post examines the evolving PebbleDash-based malware (referred to as the PebbleDash cluster) and its connections to the AppleSeed-based malware (referred to as the AppleSeed cluster). The PebbleDash and AppleSeed clusters are considered the most technically advanced in Kimsuky’s toolset. Since at least 2019, these clusters have masqueraded as legitimate documents and application installers, manifesting as JSE droppers or executables with .EXE, .SCR and .PIF extensions.",
-        "fetch_status": "ok",
+        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+        "published": "2026-05-14T19:37:56+00:00",
+        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "malware",
-            "phishing_social_eng",
-            "nation_state"
-          ],
-          "actor_attribution": [
-            "Kimsuky",
-            "Lazarus",
-            "APT43"
-          ],
-          "affected_industries": [
-            "government_public_sector"
-          ],
-          "affected_products": [
-            "GitHub"
-          ],
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "news_report",
+          "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
+          "source": "Citizen Lab",
           "cohort": "threat_research_primary",
-          "title": "Kimsuky targets organizations with PebbleDash-based tools",
-          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-          "published": "2026-05-14T11:00:58+00:00",
-          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+          "published": "2026-05-14T19:37:56+00:00",
+          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
           "taxonomy": {
-            "threat_categories": [
-              "malware",
-              "phishing_social_eng",
-              "nation_state"
-            ],
-            "actor_attribution": [
-              "Kimsuky",
-              "Lazarus",
-              "APT43"
-            ],
-            "affected_industries": [
-              "government_public_sector"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "news_report",
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "34dacb9aa5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+        "published": "2026-05-13T17:36:53+00:00",
+        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+          "published": "2026-05-13T17:36:53+00:00",
+          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7121,79 +7374,6 @@
       ]
     },
     {
-      "cluster_id": "3e50af038c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "GitHub Security Lab",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-        "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-        "published": "2026-05-15T14:00:00+00:00",
-        "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-          "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1f34fcae04",
       "priority_score": 10,
       "member_count": 1,
@@ -7390,6 +7570,79 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3e50af038c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "GitHub Security Lab",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+        "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+        "published": "2026-05-15T14:00:00+00:00",
+        "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "GitHub Security Lab",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
+          "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -7676,94 +7929,6 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d5f47a271d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Popular node-ipc npm package compromised to steal credentials",
-        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-        "published": "2026-05-15T17:10:42+00:00",
-        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "npm"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Popular node-ipc npm package compromised to steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-          "published": "2026-05-15T17:10:42+00:00",
-          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "npm"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -8125,81 +8290,88 @@
       ]
     },
     {
-      "cluster_id": "24dee09e9a",
+      "cluster_id": "d5f47a271d",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-45185"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "vulnerability_disclosure"
+          "malware",
+          "supply_chain"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2026-45185"
+        "affected_industries": [
+          "manufacturing_industrial"
         ],
+        "affected_products": [
+          "npm"
+        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "The Hacker News",
+        "source": "BleepingComputer",
         "cohort": "cyber_news_breach_reporting",
-        "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
-        "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-        "published": "2026-05-12T16:44:00+00:00",
-        "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185 (CVSS score: 9.8), aka Dead.Letter, has been described as a",
+        "title": "Popular node-ipc npm package compromised to steal credentials",
+        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+        "published": "2026-05-15T17:10:42+00:00",
+        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "vulnerability_disclosure"
+            "supply_chain",
+            "malware"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2026-45185"
+          "affected_industries": [
+            "manufacturing_industrial"
           ],
+          "affected_products": [
+            "npm"
+          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
+          "content_type": "news_report",
           "confidence_tier": "tier_4_news"
         }
       },
       "corroborating_sources": [
         {
-          "source": "The Hacker News",
+          "source": "BleepingComputer",
           "cohort": "cyber_news_breach_reporting",
-          "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
-          "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
-          "published": "2026-05-12T16:44:00+00:00",
-          "summary": "Exim has released security updates to address a severe security issue affecting certain configurations that could enable memory corruption and potential code execution. Exim is an open-source Mail Transfer Agent (MTA) designed for Unix-like systems to receive, route, and deliver email. The vulnerability, tracked as CVE-2026-45185 (CVSS score: 9.8), aka Dead.Letter, has been described as a",
+          "title": "Popular node-ipc npm package compromised to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+          "published": "2026-05-15T17:10:42+00:00",
+          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
           "taxonomy": {
             "threat_categories": [
-              "vulnerability_disclosure"
+              "supply_chain",
+              "malware"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-45185"
+            "affected_industries": [
+              "manufacturing_industrial"
             ],
+            "affected_products": [
+              "npm"
+            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -8288,79 +8460,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "f25c2c1db7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: FCC relaxes foreign router security patch ban",
-        "link": "https://risky.biz/RBNEWS562/",
-        "published": "2026-05-11T00:39:13+00:00",
-        "summary": "The FCC relaxes its foreign router ban to allow for security updates, the ShinyHunters group disrupts schools across the globe, a 21-year-old remote code execution bug turns up in FreeBSD, and another Linux privilege escalation bug was disclosed… without a patch.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: FCC relaxes foreign router security patch ban",
-          "link": "https://risky.biz/RBNEWS562/",
-          "published": "2026-05-11T00:39:13+00:00",
-          "summary": "The FCC relaxes its foreign router ban to allow for security updates, the ShinyHunters group disrupts schools across the globe, a 21-year-old remote code execution bug turns up in FreeBSD, and another Linux privilege escalation bug was disclosed… without a patch.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8435,19 +8534,18 @@
           "tier_1_primary_research"
         ]
       },
-      "cluster_count": 9,
-      "article_count": 11,
-      "cohesion": 0.356,
+      "cluster_count": 8,
+      "article_count": 12,
+      "cohesion": 0.317,
       "cluster_ids": [
         "2eb9132451",
         "029fcc1f63",
         "e605f0e929",
         "09f484b295",
         "cf2449e818",
+        "55d60e5654",
         "03647dbe9e",
-        "34dacb9aa5",
-        "3da3cf9f20",
-        "55d60e5654"
+        "3da3cf9f20"
       ]
     },
     {
@@ -8458,11 +8556,10 @@
           "vulnerability_disclosure",
           "active_exploitation",
           "malware",
-          "data_breach"
+          "ransomware"
         ],
         "affected_industries": [
-          "manufacturing_industrial",
-          "technology"
+          "manufacturing_industrial"
         ],
         "affected_products": [
           "Microsoft Exchange",
@@ -8490,15 +8587,14 @@
           "tier_4_news"
         ]
       },
-      "cluster_count": 6,
-      "article_count": 9,
-      "cohesion": 0.45,
+      "cluster_count": 5,
+      "article_count": 8,
+      "cohesion": 0.425,
       "cluster_ids": [
         "8e9036b5b9",
         "6ca30bfec7",
-        "29b070dccb",
         "044dd073f2",
-        "255bec07f9",
+        "29b070dccb",
         "a3958e5424"
       ]
     },
@@ -8570,12 +8666,38 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 10,
+      "article_count": 11,
       "cohesion": 0.673,
       "cluster_ids": [
-        "0c789f50ec",
+        "63ea56af01",
         "8fd391b96b",
         "03f477fe86"
+      ]
+    },
+    {
+      "label": "vulnerability disclosure activity",
+      "dominant_features": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.333,
+      "cluster_ids": [
+        "b6e5532bde",
+        "22ff5ee355",
+        "f5e012a226"
       ]
     },
     {
@@ -8624,24 +8746,6 @@
       "cluster_ids": [
         "43bdfe45f4",
         "f959bb0f37"
-      ]
-    },
-    {
-      "label": "vulnerability disclosure activity",
-      "dominant_features": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.286,
-      "cluster_ids": [
-        "f5e012a226",
-        "24dee09e9a"
       ]
     }
   ]
