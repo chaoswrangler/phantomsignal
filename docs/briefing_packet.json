@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-16T17:11:38.847199+00:00",
+  "generated_at": "2026-05-16T19:15:01.631178+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 489,
-  "total_clusters_raw": 461,
+  "total_items_in_window": 487,
+  "total_clusters_raw": 458,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 308,
-  "dropped_overflow": 73,
+  "dropped_low_score": 307,
+  "dropped_overflow": 71,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -74,6 +74,13 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -81,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -102,33 +109,12 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -137,25 +123,53 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 2
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 5
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "SANS Internet Storm Center": {
@@ -165,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -178,20 +192,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 5
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -207,27 +207,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -241,6 +220,27 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 11
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -284,13 +284,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -319,12 +312,12 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -333,12 +326,19 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -350,13 +350,6 @@
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
@@ -375,18 +368,11 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Chainalysis": {
@@ -396,25 +382,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 2
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -424,12 +410,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 18
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -438,22 +424,57 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
+      "item_count": 15,
+      "in_window_count": 15
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 24
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -466,47 +487,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 39
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -515,12 +501,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
+      "item_count": 50,
+      "in_window_count": 39
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -529,13 +522,6 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
@@ -543,33 +529,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 23
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 22
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 24
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -578,19 +557,33 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 19
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 10
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -605,6 +598,13 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 10
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -1394,7 +1394,7 @@
     },
     {
       "cluster_id": "da2bf7e408",
-      "priority_score": 25,
+      "priority_score": 24,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -1501,109 +1501,6 @@
             "geographic_scope": [],
             "urgency_signals": [
               "cisa_kev",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "029fcc1f63",
-      "priority_score": 20,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2024-48760",
-        "CVE-2025-6793"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [
-          "CVE-2023-30253",
-          "CVE-2024-48760",
-          "CVE-2025-6793"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Metasploit Wrap-Up 05/15/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
-        "published": "2026-05-15T18:54:25+00:00",
-        "summary": "Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02",
-        "full_body": "Back to Blog Products and Tools Metasploit Wrap-Up 05/15/2026 Martin Sutovsky May 15, 2026 | Last updated on May 15, 2026 | xx min read Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02 brought an elaborate module which changes <?php to <?PHP in the payload to successfully bypass this mitigation (CVE-2023-30253). Truly a wonderful time to be alive. New module content (4) Marvell QConvergeConsole Path Traversal (CVE-2025-6793) Authors: Michael Heinzl and rgod Type: Auxiliary Pull request: #21322 contributed by h4x-x0r Path: gather/qconvergeconsole_traversal CVE reference: ZDI-25-450 Description: This adds a new auxiliary module that exploits a path traversal vulnerability (CVE-2025-6793) in Marvell QConvergeConsole to read arbitrary files from the target host. Marvell QConvergeConsole versions 5.5.0.85 and earlier are vulnerable, and no authentication is required to exploit the issue. VIM Plugin Persistence Author: h00die Type: Exploit Pull request: #21206 contributed by h00die Path: linux/persistence/vim_plugin Description: This adds a new Linux persistence module, which establishes persistence by writing a Vim plugin to the target user's ~/.vim/plugin/ directory. The next time that user launches Vim, the plugin executes the configured payload and opens a new session as that user. GestioIP 3.5.7 Remote Command Execution Authors: maxibelino and odeez24 Type: Exploit Pull request: #21041 contributed by Odeez24 Path: multi/http/gestioip_rce AttackerKB reference: CVE-2024-48760 Description: This adds an exploit module for an authenticated remote code execution vulnerability in GestioIP 3.5.7 (CVE-2024-48760). An attacker with admin credentials can abuse the unsafe upload handler at /api/upload.cgi to overwrite the script itself with a backdoor, which is then invoked to execute attacker-supplied commands. Dolibarr ERP/CRM Authenticated Code Injection Authors: Emanuele Cervelli and Tinexta Cyber Offensive Security Team Type: Exploit Pull request: #21362 contributed by M4nu02 Path: unix/http/dolibarr_cms_rce_cve_2023_30253 AttackerKB reference: CVE-2023-30253 Description: This adds a new exploit module for Dolibarr ERP/CRM (CVE-2023-30253), an authenticated PHP code injection vulnerability affecting versions before 17.0.1. The module abuses the Website module to inject a payload that bypasses Dolibarr's PHP tag filter by using uppercase <?PHP tags instead of the filtered lowercase form. Valid credentials with access to the Website module are required. Enhancements and features (1) #20617 from Aaditya1273 - Adds an OptArray datastore option type to the framework. Previously multi valued datastore options were usually input as comma separated strings, now Metasploit devs have the option to use OptArray. Bugs fixed (0) None Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [
-            "CVE-2023-30253",
-            "CVE-2024-48760",
-            "CVE-2025-6793"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Metasploit Wrap-Up 05/15/2026",
-          "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
-          "published": "2026-05-15T18:54:25+00:00",
-          "summary": "Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [
-              "CVE-2023-30253",
-              "CVE-2024-48760",
-              "CVE-2025-6793"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
@@ -1748,6 +1645,109 @@
             ],
             "content_type": "threat_research",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "029fcc1f63",
+      "priority_score": 19,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2024-48760",
+        "CVE-2025-6793"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [
+          "CVE-2023-30253",
+          "CVE-2024-48760",
+          "CVE-2025-6793"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Metasploit Wrap-Up 05/15/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
+        "published": "2026-05-15T18:54:25+00:00",
+        "summary": "Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02",
+        "full_body": "Back to Blog Products and Tools Metasploit Wrap-Up 05/15/2026 Martin Sutovsky May 15, 2026 | Last updated on May 15, 2026 | xx min read Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02 brought an elaborate module which changes <?php to <?PHP in the payload to successfully bypass this mitigation (CVE-2023-30253). Truly a wonderful time to be alive. New module content (4) Marvell QConvergeConsole Path Traversal (CVE-2025-6793) Authors: Michael Heinzl and rgod Type: Auxiliary Pull request: #21322 contributed by h4x-x0r Path: gather/qconvergeconsole_traversal CVE reference: ZDI-25-450 Description: This adds a new auxiliary module that exploits a path traversal vulnerability (CVE-2025-6793) in Marvell QConvergeConsole to read arbitrary files from the target host. Marvell QConvergeConsole versions 5.5.0.85 and earlier are vulnerable, and no authentication is required to exploit the issue. VIM Plugin Persistence Author: h00die Type: Exploit Pull request: #21206 contributed by h00die Path: linux/persistence/vim_plugin Description: This adds a new Linux persistence module, which establishes persistence by writing a Vim plugin to the target user's ~/.vim/plugin/ directory. The next time that user launches Vim, the plugin executes the configured payload and opens a new session as that user. GestioIP 3.5.7 Remote Command Execution Authors: maxibelino and odeez24 Type: Exploit Pull request: #21041 contributed by Odeez24 Path: multi/http/gestioip_rce AttackerKB reference: CVE-2024-48760 Description: This adds an exploit module for an authenticated remote code execution vulnerability in GestioIP 3.5.7 (CVE-2024-48760). An attacker with admin credentials can abuse the unsafe upload handler at /api/upload.cgi to overwrite the script itself with a backdoor, which is then invoked to execute attacker-supplied commands. Dolibarr ERP/CRM Authenticated Code Injection Authors: Emanuele Cervelli and Tinexta Cyber Offensive Security Team Type: Exploit Pull request: #21362 contributed by M4nu02 Path: unix/http/dolibarr_cms_rce_cve_2023_30253 AttackerKB reference: CVE-2023-30253 Description: This adds a new exploit module for Dolibarr ERP/CRM (CVE-2023-30253), an authenticated PHP code injection vulnerability affecting versions before 17.0.1. The module abuses the Website module to inject a payload that bypasses Dolibarr's PHP tag filter by using uppercase <?PHP tags instead of the filtered lowercase form. Valid credentials with access to the Website module are required. Enhancements and features (1) #20617 from Aaditya1273 - Adds an OptArray datastore option type to the framework. Previously multi valued datastore options were usually input as comma separated strings, now Metasploit devs have the option to use OptArray. Bugs fixed (0) None Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [
+            "CVE-2023-30253",
+            "CVE-2024-48760",
+            "CVE-2025-6793"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Metasploit Wrap-Up 05/15/2026",
+          "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
+          "published": "2026-05-15T18:54:25+00:00",
+          "summary": "Weaponizing a text editor for fun and profit Gather round, dear readers, because today, we (by we, we mean @h00die) dropped the ultimate persistence mechanism: Vim plugin persistence. And honestly, calling it \"persistence\" feels redundant — Vim is already the most persistent thing ever. Somewhere, somehow, there will still be a Vim session open since 2011, because no one has figured out how to close it. So we are not so much establishing a foothold here as we are joining an existing hostage situation. Elsewhere this week, Marvell's QConvergeConsole has been caught handing arbitrary files to unauthenticated visitors, as is tradition (CVE-2025-6793), GestioIP 3.5.7 ships an upload handler, so trusting it will cheerfully let an admin overwrite the handler with a backdoor and then dutifully execute it (CVE-2024-48760). And of course, we can't forget about Dolibarr ERP/CRM, which blocks PHP injections by checking — and we cannot stress this enough — by searching for string <?php. So @M4nu02",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [
+              "CVE-2023-30253",
+              "CVE-2024-48760",
+              "CVE-2025-6793"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -3162,85 +3162,6 @@
       ]
     },
     {
-      "cluster_id": "c0426023f6",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "State of ransomware in 2026",
-        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-        "published": "2026-05-12T07:00:04+00:00",
-        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "State of ransomware in 2026",
-          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
-          "published": "2026-05-12T07:00:04+00:00",
-          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "30f6252cf0",
       "priority_score": 14,
       "member_count": 1,
@@ -3312,6 +3233,85 @@
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c0426023f6",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "State of ransomware in 2026",
+        "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+        "published": "2026-05-12T07:00:04+00:00",
+        "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+        "full_body": "Table of Contents Ransomware attacks decline but remain a major threat The continued rise of EDR killers and defense evasion tooling The appearance of new families adopting post-quantum cryptography The shift to encryptionless extortion Industrialization of initial access (Access-as-a-Service) Ransomware developments on the dark web Law enforcement actions Top ransomware groups in 2025 New actors in 2026 Conclusion and protection recommendations Authors Fabio Assolini Marc Rivero Maher Yamout Darya Gorodilova With International Anti-Ransomware Day taking place on May 12, Kaspersky presents its annual report on the evolving global and regional ransomware cyberthreat landscape. Ransomware remains one of the most persistent and adaptive cyberthreats. In 2026: New families continue to emerge, adopting post-quantum cryptography ciphers . As ransom payments drop, some groups implement encryptionless extortion attacks . In a constantly changing ecosystem of threat actors, initial access brokers maintain a relevant role in this market, showing increased focus on access to RDWeb as the preferred method of remote access . Ransomware attacks decline but remain a major threat According to Kaspersky Security Network, the share of organizations affected by ransomware decreased in 2025 across all regions compared to 2024. Percentage of organizations affected by ransomware attacks by region, 2025 ( download ) Despite the formal decrease, organizations across all sectors continue to face a high likelihood of attack, as ransomware operators refine their tactics and scale their operations with increasing efficiency. Kaspersky and VDC Research have found that in the manufacturing sector alone, ransomware attacks may have caused over $18 billion in losses in the first three quarters of the year. The continued rise of EDR killers and defense evasion tooling In 2026, ransomware operators increasingly prioritize neutralizing endpoint defenses before executing their payloads. Tools commonly referred to as “EDR killers” have become a standard component of attack playbooks. This reflects a continuing trend toward more deliberate and methodical intrusions. Attackers attempt to terminate security processes and disable monitoring agents, often by exploiting trusted components such as signed drivers. This technique is called Bring Your Own Vulnerable Driver (BYOVD) and allows adversaries to blend into legitimate system activity while gradually degrading defensive visibility. Thus, evasion is no longer an opportunistic step but a planned and repeatable phase of the attack lifecycle. As a result, organizations are increasingly challenged not just to detect ransomware but also to maintain control in environments where security controls themselves are actively targeted. The appearance of new families adopting post-quantum cryptography We predicted that quantum-resistant ransomware would appear in 2025. Looking back at the previous year, we see that advanced ransomware groups indeed started using post-quantum cryptography as quantum computing evolved. The encryption techniques used by this quantum-proof ransomware could be used to resist decryption attempts from both classical and quantum computers, making it nearly impossible for victims to decrypt their data without having to pay a ransom. One example is the appearance of the PE32 ransomware family (link in Russian) ; it leverages the cutting-edge ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) standard to secure its AES keys. This specific cryptographic framework was recently selected by NIST as the primary standard for post-quantum defense. Within the PE32 ransomware architecture, this is realized through the Kyber1024 algorithm , a robust mechanism providing Level 5 security, roughly equivalent in strength to AES-256. Its primary function is the secure generation and transmission of shared secrets between parties, specifically engineered to withstand future quantum computing attacks. This shift to",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "russia"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "State of ransomware in 2026",
+          "link": "https://securelist.com/state-of-ransomware-in-2026/119761/",
+          "published": "2026-05-12T07:00:04+00:00",
+          "summary": "Kaspersky researchers are sharing insights into the main ransomware trends for 2026: EDR killers on the rise, switching from data encryption to data leaks, and more.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "russia"
+            ],
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
@@ -3581,6 +3581,115 @@
             ],
             "content_type": "threat_research",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8fd391b96b",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "nation_state",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [
+          "CVE-2022-20775",
+          "CVE-2026-20127",
+          "CVE-2026-20182"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+        "published": "2026-05-14T20:25:31+00:00",
+        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [
+            "CVE-2022-20775",
+            "CVE-2026-20127",
+            "CVE-2026-20182"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+          "published": "2026-05-14T20:25:31+00:00",
+          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [
+              "CVE-2022-20775",
+              "CVE-2026-20127",
+              "CVE-2026-20182"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -3885,115 +3994,6 @@
             "geographic_scope": [],
             "urgency_signals": [
               "no_patch_yet",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8fd391b96b",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "nation_state",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2022-20775",
-          "CVE-2026-20127",
-          "CVE-2026-20182"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-        "published": "2026-05-14T20:25:31+00:00",
-        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: Cyber Espionage Group Targets Aviation Firms to Steal Map Data What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [
-            "CVE-2022-20775",
-            "CVE-2026-20127",
-            "CVE-2026-20182"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-          "published": "2026-05-14T20:25:31+00:00",
-          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [
-              "CVE-2022-20775",
-              "CVE-2026-20127",
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
@@ -4603,118 +4603,6 @@
       ]
     },
     {
-      "cluster_id": "6ca30bfec7",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Cursor",
-          "Microsoft Exchange",
-          "Microsoft Windows",
-          "OpenAI/ChatGPT",
-          "SharePoint",
-          "VMware"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-        "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-        "published": "2026-05-15T17:47:25+00:00",
-        "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 0 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Microsoft Windows",
-            "Microsoft Exchange",
-            "SharePoint",
-            "VMware",
-            "OpenAI/ChatGPT",
-            "Cursor"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-          "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-          "published": "2026-05-15T17:47:25+00:00",
-          "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Microsoft Windows",
-              "Microsoft Exchange",
-              "SharePoint",
-              "VMware",
-              "OpenAI/ChatGPT",
-              "Cursor"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "71d889cc01",
       "priority_score": 12,
       "member_count": 1,
@@ -4783,112 +4671,6 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_government"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "651d91b6fa",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "Azure",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-        "published": "2026-05-12T15:29:00+00:00",
-        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Azure",
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-          "published": "2026-05-12T15:29:00+00:00",
-          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure",
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -5176,6 +4958,112 @@
       ]
     },
     {
+      "cluster_id": "651d91b6fa",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "Azure",
+          "GitHub",
+          "Google Cloud",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+        "published": "2026-05-12T15:29:00+00:00",
+        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Azure",
+            "AWS",
+            "Google Cloud",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+          "published": "2026-05-12T15:29:00+00:00",
+          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure",
+              "AWS",
+              "Google Cloud",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "52d06b5a30",
       "priority_score": 12,
       "member_count": 1,
@@ -5294,6 +5182,118 @@
       ]
     },
     {
+      "cluster_id": "6ca30bfec7",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Cursor",
+          "Microsoft Exchange",
+          "Microsoft Windows",
+          "OpenAI/ChatGPT",
+          "SharePoint",
+          "VMware"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+        "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+        "published": "2026-05-15T17:47:25+00:00",
+        "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
+        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 0 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Microsoft Windows",
+            "Microsoft Exchange",
+            "SharePoint",
+            "VMware",
+            "OpenAI/ChatGPT",
+            "Cursor"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+          "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+          "published": "2026-05-15T17:47:25+00:00",
+          "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Microsoft Windows",
+              "Microsoft Exchange",
+              "SharePoint",
+              "VMware",
+              "OpenAI/ChatGPT",
+              "Cursor"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "044dd073f2",
       "priority_score": 12,
       "member_count": 1,
@@ -5391,6 +5391,118 @@
               "zero_day"
             ],
             "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "db4739da92",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "malware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [
+          "CVE-2026-33109",
+          "CVE-2026-40361",
+          "CVE-2026-40364",
+          "CVE-2026-40464",
+          "CVE-2026-42823",
+          "CVE-2026-42898"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight",
+        "link": "https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight",
+        "published": "2026-05-12T21:03:04+00:00",
+        "summary": "It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do.",
+        "full_body": "Application Security Vulnerabilities & Threats Threat Intelligence News It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do. Jai Vijayan , Contributing Writer May 12, 2026 5 Min Read Source: Andrii Yalanskyi via Shutterstock For the first time in nearly two years, Microsoft's monthly security update featured no actively exploited zero-day vulnerabilities or previously disclosed flaws. But that welcome reprieve aside, Microsoft's May 2026 update contained fixes for 137 CVEs, 13 of which Microsoft considers as likely candidates for exploitation and nine of which the company rated as critical. These include two in Microsoft Office Word, where the Preview Pane is an attack vector, plus five others with near-maximum severity scores of 9.8 or 9.9 on the 10-point CVSS scale. 500 CVEs in 2026 & Counting This is the third month this year where Microsoft has disclosed more than 100 CVEs in a Patch Tuesday update. Through May, the company had already patched over 500 CVEs, which puts it on pace to surpass the annual record of 1,245 bugs Microsoft disclosed in 2020, said Satnam Naranag, senior staff research engineer at Tenable. Related: Attackers Weaponize RubyGems for Data Dead Drops According to Tom Gallagher, Microsoft's vice president of engineering, large releases could soon be the norm, with AI helping researchers uncover more vulnerabilities than before. \"This month's release sits on the larger side of a hotpatch month, and we expect releases to continue trending larger for some time,\" Gallagher said in a blog post . \"Advanced AI models are part of the discovery picture and help to accelerate it. They enable us to reason about code paths and configurations at a speed and consistency that would not be possible through manual review alone.\" The two Microsoft Office Word vulnerabilities in Microsoft's latest update with the preview pane attack vector are CVE-2026-40361 (CVSS 8.4) and CVE-2026-40364 (CVSS 8.4). The former is a memory-related vulnerability that allows a remote attacker to execute code locally on vulnerable systems. CVE-2026-40464 too is a remote code execution (RCE) bug stemming from a type-confusion issue. Neither vulnerability requires any user interaction. An attacker can trigger the flaws by simply sending a maliciously crafted document. \"Outlook's reading pane has long been a common attack vector; a single incoming email can trigger exploitation without the user ever opening it,\" warned Amol Sarwate, head of security research at Cohesity, in a statement. Nine Near-Max Severity Vulnerabilities Among the nine vulnerabilities in the May update with a severity score of 9.0 or greater — a rarity in recent Microsoft Patch Tuesday releases — are three with a near maximum rating of 9.9 out of 10 on the CVSS scale: CVE-2026-42898, CVE-2026-42823, and CVE-2026-33109. Related: Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain Of these, CVE-2026-42898 , an RCE in Microsoft Dynamics 365 On-premises, is the most pressing. The code-injection flaw enables an authenticated remote attacker to execute arbitrary code. Though an attacker does not require admin or other elevated privileges to exploit the attack, Microsoft itself has categorized the flaw as one attackers are unlikely to exploit. But Jack Bicer, director of vulnerability research at Action1, recommended organizations patch it immediately anyway. \"With no user interaction required, and the potential to impact systems beyond the vulnerable component's original security scope, this vulnerability poses serious enterprise risk,\" he said in emailed comments. An attacker who successfully exploits the vulnerability can access customer records, operational workflows, financial information, and integrated business systems, he explained. \"Since CRM environments often connect with identity services, databases, and e",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [
+            "CVE-2026-33109",
+            "CVE-2026-40361",
+            "CVE-2026-40364",
+            "CVE-2026-40464",
+            "CVE-2026-42823",
+            "CVE-2026-42898"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight",
+          "link": "https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight",
+          "published": "2026-05-12T21:03:04+00:00",
+          "summary": "It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-33109",
+              "CVE-2026-40361",
+              "CVE-2026-40364",
+              "CVE-2026-40464",
+              "CVE-2026-42823",
+              "CVE-2026-42898"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day"
+            ],
+            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -5509,118 +5621,6 @@
               "cisa_kev"
             ],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "db4739da92",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "malware",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2026-33109",
-          "CVE-2026-40361",
-          "CVE-2026-40364",
-          "CVE-2026-40464",
-          "CVE-2026-42823",
-          "CVE-2026-42898"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight",
-        "link": "https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight",
-        "published": "2026-05-12T21:03:04+00:00",
-        "summary": "It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do.",
-        "full_body": "Application Security Vulnerabilities & Threats Threat Intelligence News It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do. Jai Vijayan , Contributing Writer May 12, 2026 5 Min Read Source: Andrii Yalanskyi via Shutterstock For the first time in nearly two years, Microsoft's monthly security update featured no actively exploited zero-day vulnerabilities or previously disclosed flaws. But that welcome reprieve aside, Microsoft's May 2026 update contained fixes for 137 CVEs, 13 of which Microsoft considers as likely candidates for exploitation and nine of which the company rated as critical. These include two in Microsoft Office Word, where the Preview Pane is an attack vector, plus five others with near-maximum severity scores of 9.8 or 9.9 on the 10-point CVSS scale. 500 CVEs in 2026 & Counting This is the third month this year where Microsoft has disclosed more than 100 CVEs in a Patch Tuesday update. Through May, the company had already patched over 500 CVEs, which puts it on pace to surpass the annual record of 1,245 bugs Microsoft disclosed in 2020, said Satnam Naranag, senior staff research engineer at Tenable. Related: Attackers Weaponize RubyGems for Data Dead Drops According to Tom Gallagher, Microsoft's vice president of engineering, large releases could soon be the norm, with AI helping researchers uncover more vulnerabilities than before. \"This month's release sits on the larger side of a hotpatch month, and we expect releases to continue trending larger for some time,\" Gallagher said in a blog post . \"Advanced AI models are part of the discovery picture and help to accelerate it. They enable us to reason about code paths and configurations at a speed and consistency that would not be possible through manual review alone.\" The two Microsoft Office Word vulnerabilities in Microsoft's latest update with the preview pane attack vector are CVE-2026-40361 (CVSS 8.4) and CVE-2026-40364 (CVSS 8.4). The former is a memory-related vulnerability that allows a remote attacker to execute code locally on vulnerable systems. CVE-2026-40464 too is a remote code execution (RCE) bug stemming from a type-confusion issue. Neither vulnerability requires any user interaction. An attacker can trigger the flaws by simply sending a maliciously crafted document. \"Outlook's reading pane has long been a common attack vector; a single incoming email can trigger exploitation without the user ever opening it,\" warned Amol Sarwate, head of security research at Cohesity, in a statement. Nine Near-Max Severity Vulnerabilities Among the nine vulnerabilities in the May update with a severity score of 9.0 or greater — a rarity in recent Microsoft Patch Tuesday releases — are three with a near maximum rating of 9.9 out of 10 on the CVSS scale: CVE-2026-42898, CVE-2026-42823, and CVE-2026-33109. Related: Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain Of these, CVE-2026-42898 , an RCE in Microsoft Dynamics 365 On-premises, is the most pressing. The code-injection flaw enables an authenticated remote attacker to execute arbitrary code. Though an attacker does not require admin or other elevated privileges to exploit the attack, Microsoft itself has categorized the flaw as one attackers are unlikely to exploit. But Jack Bicer, director of vulnerability research at Action1, recommended organizations patch it immediately anyway. \"With no user interaction required, and the potential to impact systems beyond the vulnerable component's original security scope, this vulnerability poses serious enterprise risk,\" he said in emailed comments. An attacker who successfully exploits the vulnerability can access customer records, operational workflows, financial information, and integrated business systems, he explained. \"Since CRM environments often connect with identity services, databases, and e",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2026-33109",
-            "CVE-2026-40361",
-            "CVE-2026-40364",
-            "CVE-2026-40464",
-            "CVE-2026-42823",
-            "CVE-2026-42898"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight",
-          "link": "https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight",
-          "published": "2026-05-12T21:03:04+00:00",
-          "summary": "It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-33109",
-              "CVE-2026-40361",
-              "CVE-2026-40364",
-              "CVE-2026-40464",
-              "CVE-2026-42823",
-              "CVE-2026-42898"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
-            ],
-            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -6311,7 +6311,7 @@
         "link": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
         "published": "2026-05-16T17:00:11+00:00",
         "summary": "An eventful month with one flagship release after another",
-        "full_body": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment. An eventful month with one flagship release after another Florian Brand and Nathan Lambert May 16, 2026 ∙ Paid 5 1 Share This month was packed, with all open frontier labs, including DeepSeek, releasing new models. The latter prompted an evaluation by the Center for AI Standards and Innovation (CAISI) , which has evaluated open models and their risks in the past. Their result is that open models lag behind the American frontier, with the gap becoming wider over time: For the report, they calculate an Elo score based on Item Response Theory , which is commonly used to compare different models, even when they were tested on a different set of benchmarks. For V4, CAISI used nine different benchmarks: The huge Elo difference is explained by DeepSeek V4s bad score in CTF-Archive-Diamond (which was only run with a subset of the benchmark and extrapolated with IRT for V4), PortBench (a CAISI-private benchmark) and ARC-AGI-2 (with a different scoring method than the public leaderboards). The differences in these benchmark have a huge impact on the overall Elo, which can exacerbate the difference in capabilities. When using Epoch AI’s ECI , which also uses IRT over a set of different benchmarks, we see that the gap roughly stays between 3-7 months since R1: The open<>closed gap in ECI (from https://mcnair.center/china/) However, both CAISI and ECI paint an incomplete picture, as both use standardized (and simple) setups to compare the capabilities of models. To be more concrete: Coding tasks are evaluated using access to bash and a for-loop with a fixed budget of tokens, not with a harness such as Claude Code or OpenCode, which models are trained in! These setups result in benchmarks claiming that porting applications to another language is currently not possible , while Bun is ported from Zig to Rust with 1 million LOC changes 1 . Therefore, we would argue that a frontier comparison of open and closed models would also need to elicit the capabilities of all models better, which means the usage of the preferred harnesses, as well as model-specific prompting. This section was written primarily by Florian. An interesting dynamic within Interconnects is that Florian believes more in the proximity of open frontier models to closed alternatives in true performance. Nathan thinks the benchmarks are imperfect as well, but thinks the closed models are ahead by more. We’re going to continue to unpack this in our future content. Share Our Picks MiMo-V2.5-Pro by XiaomiMiMo : Avid Artifacts readers know that Xiaomi has been working on open models for a while; its debut was exactly one year ago . The progress of its releases is remarkable, with 2.5 Pro (released under Apache 2.0) being neck and neck with other flagship models such as Kimi K2.6 and GLM-5.1 in both benchmarks and real-world usage . gemma-4-26B-A4B-it by google (full Interconnects post here ): The long-awaited update to the Gemma series, featuring multiple sizes: 4B , 9B , and 31B dense models, as well as a 26B-A4B MoE. Even more importantly, with Gemma 4, Google has decided to use Apache 2.0 as its license, which removes the uncertainty and legal challenges around interpreting custom licenses. Kimi-K2.6 by moonshotai : An update to the Kimi series, delivering stronger performance across the board and making it one of the best open models out there yet again. They also focus on long-horizon performance, showing that open models are capable of running over hours to complete tasks or optimize performance. Given the focus of everyone to build autoresearch -like systems, seeing open models catch up is important. Laguna-XS.2 by poolside : Poolside AI has released its first public coding-focused models, including the open-weight XS.2. Its size (33B-A3B) makes it attractive for local use, with performance on par with other models in that size range. The acco",
+        "full_body": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment. An eventful month with one flagship release after another Florian Brand and Nathan Lambert May 16, 2026 ∙ Paid 7 1 Share This month was packed, with all open frontier labs, including DeepSeek, releasing new models. The latter prompted an evaluation by the Center for AI Standards and Innovation (CAISI) , which has evaluated open models and their risks in the past. Their result is that open models lag behind the American frontier, with the gap becoming wider over time: For the report, they calculate an Elo score based on Item Response Theory , which is commonly used to compare different models, even when they were tested on a different set of benchmarks. For V4, CAISI used nine different benchmarks: The huge Elo difference is explained by DeepSeek V4s bad score in CTF-Archive-Diamond (which was only run with a subset of the benchmark and extrapolated with IRT for V4), PortBench (a CAISI-private benchmark) and ARC-AGI-2 (with a different scoring method than the public leaderboards). The differences in these benchmark have a huge impact on the overall Elo, which can exacerbate the difference in capabilities. When using Epoch AI’s ECI , which also uses IRT over a set of different benchmarks, we see that the gap roughly stays between 3-7 months since R1: The open<>closed gap in ECI (from https://mcnair.center/china/) However, both CAISI and ECI paint an incomplete picture, as both use standardized (and simple) setups to compare the capabilities of models. To be more concrete: Coding tasks are evaluated using access to bash and a for-loop with a fixed budget of tokens, not with a harness such as Claude Code or OpenCode, which models are trained in! These setups result in benchmarks claiming that porting applications to another language is currently not possible , while Bun has been ported from Zig to Rust with 1 million LOC changes 1 . Therefore, we would argue that a frontier comparison of open and closed models would also need to elicit the capabilities of all models better, which means the usage of the preferred harnesses, as well as model-specific prompting. This section was written primarily by Florian. An interesting dynamic within Interconnects is that Florian believes more in the proximity of open frontier models to closed alternatives in true performance. Nathan thinks the benchmarks are imperfect as well, but thinks the closed models are ahead by more. We’re going to continue to unpack this in our future content. Share Our Picks MiMo-V2.5-Pro by XiaomiMiMo : Avid Artifacts readers know that Xiaomi has been working on open models for a while; its debut was exactly one year ago . The progress of its releases is remarkable, with 2.5 Pro (released under Apache 2.0) being neck and neck with other flagship models such as Kimi K2.6 and GLM-5.1 in both benchmarks and real-world usage . gemma-4-26B-A4B-it by google (full Interconnects post here ): The long-awaited update to the Gemma series, featuring multiple sizes: 4B , 9B , and 31B dense models, as well as a 26B-A4B MoE. Even more importantly, with Gemma 4, Google has decided to use Apache 2.0 as its license, which removes the uncertainty and legal challenges around interpreting custom licenses. Kimi-K2.6 by moonshotai : An update to the Kimi series, delivering stronger performance across the board and making it one of the best open models out there yet again. They also focus on long-horizon performance, showing that open models are capable of running over hours to complete tasks or optimize performance. Given the focus of everyone to build autoresearch -like systems, seeing open models catch up is important. Laguna-XS.2 by poolside : Poolside AI has released its first public coding-focused models, including the open-weight XS.2. Its size (33B-A3B) makes it attractive for local use, with performance on par with other models in that size range. Th",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
@@ -7253,6 +7253,73 @@
       ]
     },
     {
+      "cluster_id": "3da3cf9f20",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "SentinelOne Labs",
+        "cohort": "threat_research_primary",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SentinelOne Labs",
+          "cohort": "threat_research_primary",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ad3165eb09",
       "priority_score": 10,
       "member_count": 1,
@@ -7387,7 +7454,7 @@
       ]
     },
     {
-      "cluster_id": "3da3cf9f20",
+      "cluster_id": "bb0ffb2b81",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7409,12 +7476,12 @@
         ]
       },
       "primary": {
-        "source": "SentinelOne Labs",
+        "source": "Cisco Talos",
         "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "title": "The time of much patching is coming",
+        "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
+        "published": "2026-05-14T18:00:24+00:00",
+        "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7432,14 +7499,154 @@
       },
       "corroborating_sources": [
         {
-          "source": "SentinelOne Labs",
+          "source": "Cisco Talos",
           "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "title": "The time of much patching is coming",
+          "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
+          "published": "2026-05-14T18:00:24+00:00",
+          "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
           "taxonomy": {
             "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "3a47054b2d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Breaking things to keep them safe with Philippe Laulheret",
+        "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
+        "published": "2026-05-13T10:00:54+00:00",
+        "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Breaking things to keep them safe with Philippe Laulheret",
+          "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
+          "published": "2026-05-13T10:00:54+00:00",
+          "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1665858c39",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
+        "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
+        "published": "2026-05-12T19:57:04+00:00",
+        "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
+          "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
+          "published": "2026-05-12T19:57:04+00:00",
+          "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -7649,213 +7856,6 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "bb0ffb2b81",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "The time of much patching is coming",
-        "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
-        "published": "2026-05-14T18:00:24+00:00",
-        "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "The time of much patching is coming",
-          "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
-          "published": "2026-05-14T18:00:24+00:00",
-          "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3a47054b2d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Breaking things to keep them safe with Philippe Laulheret",
-        "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
-        "published": "2026-05-13T10:00:54+00:00",
-        "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Breaking things to keep them safe with Philippe Laulheret",
-          "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
-          "published": "2026-05-13T10:00:54+00:00",
-          "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1665858c39",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
-        "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
-        "published": "2026-05-12T19:57:04+00:00",
-        "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "Microsoft Patch Tuesday for May 2026 — Snort rules and prominent vulnerabilities",
-          "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-may-2026/",
-          "published": "2026-05-12T19:57:04+00:00",
-          "summary": "Microsoft has released its monthly security update for May 2026, which includes 137 vulnerabilities affecting a range of products, including 16 that Microsoft marked as “critical”.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -8469,8 +8469,8 @@
         "c9571e6ca0",
         "39ec215030",
         "c97972626b",
-        "651d91b6fa",
         "06895f3526",
+        "651d91b6fa",
         "52d06b5a30",
         "db4739da92",
         "e8d332d1ab"
