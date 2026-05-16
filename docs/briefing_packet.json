@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T03:42:49.985726+00:00",
+  "generated_at": "2026-05-16T06:27:03.277492+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
@@ -7,8 +7,8 @@
   "total_items_in_window": 332,
   "total_clusters_raw": 311,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 163,
-  "dropped_overflow": 68,
+  "dropped_low_score": 165,
+  "dropped_overflow": 66,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -81,12 +81,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -95,18 +109,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 2
     },
     "Google Threat Analysis Group": {
@@ -123,25 +137,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 2
     },
     "Cisco Talos": {
@@ -151,20 +151,6 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -172,12 +158,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -193,6 +193,20 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -200,16 +214,16 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
@@ -221,40 +235,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -263,12 +249,33 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -284,26 +291,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 4
+    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -312,19 +312,12 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 4
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 5
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -332,6 +325,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -347,6 +347,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -354,12 +361,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 21
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -368,12 +375,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
+      "item_count": 20,
+      "in_window_count": 0
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -389,20 +396,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
@@ -417,61 +410,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 18
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -480,6 +424,48 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -487,12 +473,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -501,19 +487,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 39
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 24
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -522,33 +501,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 39
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -557,8 +515,57 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
@@ -571,8 +578,15 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 28
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
@@ -580,20 +594,6 @@
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "parse_error",
       "item_count": 0,
@@ -1202,8 +1202,116 @@
       ]
     },
     {
-      "cluster_id": "da2bf7e408",
+      "cluster_id": "b45ac0ca64",
       "priority_score": 26,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-41089"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Atlassian",
+          "Entra ID",
+          "Microsoft 365",
+          "Microsoft Windows"
+        ],
+        "cve_ids": [
+          "CVE-2020-1472",
+          "CVE-2026-26129",
+          "CVE-2026-41089",
+          "CVE-2026-41096",
+          "CVE-2026-41103"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Patch Tuesday - May 2026",
+        "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
+        "published": "2026-05-13T00:22:19+00:00",
+        "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
+        "full_body": "Back to Blog Exposure Management Patch Tuesday - May 2026 Adam Barnett May 13, 2026 | Last updated on May 13, 2026 | xx min read Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Microsoft assesses exploitation as less likely, but since those exploitability assessments are provided without an accompanying explanation, it’s not clear how much reassurance defenders should take. Anyone who remembers the much-discussed CVE-2020-1472 (aka ZeroLogon) back in 2020 will note that CVE-2026-41089 offers an attacker more immediate control of a domain controller. Patches are available for all versions of Windows Server from 2012 onwards. Windows DNS Client: critical RCE An attacker looking for a master key for Windows assets will pay attention to CVE-2026-41096 , a critical RCE in the Windows DNS client implementation. A modern computer talks to DNS the way a child in the back of a car asks “are we there yet?” The variable and complex structure of DNS responses means that DNS client implementations are also complex and thus prone to flaws. Microsoft assesses exploitation as less likely, and we can hope that modern mitigations such as heap address randomization and optional-but-recommended encrypted channel DNS will make weaponization significantly more challenging by putting barriers across specific paths to exploitation. The DNS client on Windows runs as the NetworkService role, rather than SYSTEM, but a foothold is a foothold, and skilled attackers expect to chain exploits together. JIRA/Confluence Entra ID auth plugin: critical EoP If you’re still self-hosting Atlassian JIRA or Confluence and relying on the Microsoft Entra ID authentication plugin, you’ll want to know about CVE-2026-41103 . This critical elevation of privilege vulnerability allows an unauthorized attacker to impersonate an existing user by presenting forged credentials, thus bypassing Entra ID. Microsoft expects that exploitation is more likely. Even if you can’t always find what you want on the corporate Confluence, a motivated attacker probably will. Curiously, the patch links on the advisory lead to older versions of the plugins published in 2024. Microsoft WARP team Microsoft’s WARP team is credited with multiple critical vulnerabilities today, after making their first appearance in MSRC advisory acknowledgements in last month’s Patch Tuesday. We can speculate that they likely know a great deal about the current state of AI-powered vulnerability research as it applies to Microsoft products. Microsoft lifecycle update There are no significant Microsoft product lifecycle changes this month. Microsoft .NET 9 STS (Standard Term Support, as distinct from Long Term Support) was originally scheduled to move past the end of support in May 2026, but late last year, Microsoft granted a six-month extension , so that .NET 9 STS now reaches end of support on November 10, 2026. Summary charts Summary tables Apps vulnerabilities CVE Title Exploitation status Publicly disclosed? CVSS v3 base score CVE-2026-26129 M365 Copilot Information Disclosure Vuln",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows",
+            "Microsoft 365",
+            "Entra ID",
+            "Atlassian"
+          ],
+          "cve_ids": [
+            "CVE-2020-1472",
+            "CVE-2026-26129",
+            "CVE-2026-41089",
+            "CVE-2026-41096",
+            "CVE-2026-41103"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Patch Tuesday - May 2026",
+          "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
+          "published": "2026-05-13T00:22:19+00:00",
+          "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows",
+              "Microsoft 365",
+              "Entra ID",
+              "Atlassian"
+            ],
+            "cve_ids": [
+              "CVE-2020-1472",
+              "CVE-2026-26129",
+              "CVE-2026-41089",
+              "CVE-2026-41096",
+              "CVE-2026-41103"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "da2bf7e408",
+      "priority_score": 25,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -1312,114 +1420,6 @@
               "cisa_kev",
               "preauth_unauth"
             ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b45ac0ca64",
-      "priority_score": 26,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-41089"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Atlassian",
-          "Entra ID",
-          "Microsoft 365",
-          "Microsoft Windows"
-        ],
-        "cve_ids": [
-          "CVE-2020-1472",
-          "CVE-2026-26129",
-          "CVE-2026-41089",
-          "CVE-2026-41096",
-          "CVE-2026-41103"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Patch Tuesday - May 2026",
-        "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
-        "published": "2026-05-13T00:22:19+00:00",
-        "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
-        "full_body": "Back to Blog Exposure Management Patch Tuesday - May 2026 Adam Barnett May 13, 2026 | Last updated on May 13, 2026 | xx min read Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Microsoft assesses exploitation as less likely, but since those exploitability assessments are provided without an accompanying explanation, it’s not clear how much reassurance defenders should take. Anyone who remembers the much-discussed CVE-2020-1472 (aka ZeroLogon) back in 2020 will note that CVE-2026-41089 offers an attacker more immediate control of a domain controller. Patches are available for all versions of Windows Server from 2012 onwards. Windows DNS Client: critical RCE An attacker looking for a master key for Windows assets will pay attention to CVE-2026-41096 , a critical RCE in the Windows DNS client implementation. A modern computer talks to DNS the way a child in the back of a car asks “are we there yet?” The variable and complex structure of DNS responses means that DNS client implementations are also complex and thus prone to flaws. Microsoft assesses exploitation as less likely, and we can hope that modern mitigations such as heap address randomization and optional-but-recommended encrypted channel DNS will make weaponization significantly more challenging by putting barriers across specific paths to exploitation. The DNS client on Windows runs as the NetworkService role, rather than SYSTEM, but a foothold is a foothold, and skilled attackers expect to chain exploits together. JIRA/Confluence Entra ID auth plugin: critical EoP If you’re still self-hosting Atlassian JIRA or Confluence and relying on the Microsoft Entra ID authentication plugin, you’ll want to know about CVE-2026-41103 . This critical elevation of privilege vulnerability allows an unauthorized attacker to impersonate an existing user by presenting forged credentials, thus bypassing Entra ID. Microsoft expects that exploitation is more likely. Even if you can’t always find what you want on the corporate Confluence, a motivated attacker probably will. Curiously, the patch links on the advisory lead to older versions of the plugins published in 2024. Microsoft WARP team Microsoft’s WARP team is credited with multiple critical vulnerabilities today, after making their first appearance in MSRC advisory acknowledgements in last month’s Patch Tuesday. We can speculate that they likely know a great deal about the current state of AI-powered vulnerability research as it applies to Microsoft products. Microsoft lifecycle update There are no significant Microsoft product lifecycle changes this month. Microsoft .NET 9 STS (Standard Term Support, as distinct from Long Term Support) was originally scheduled to move past the end of support in May 2026, but late last year, Microsoft granted a six-month extension , so that .NET 9 STS now reaches end of support on November 10, 2026. Summary charts Summary tables Apps vulnerabilities CVE Title Exploitation status Publicly disclosed? CVSS v3 base score CVE-2026-26129 M365 Copilot Information Disclosure Vuln",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows",
-            "Microsoft 365",
-            "Entra ID",
-            "Atlassian"
-          ],
-          "cve_ids": [
-            "CVE-2020-1472",
-            "CVE-2026-26129",
-            "CVE-2026-41089",
-            "CVE-2026-41096",
-            "CVE-2026-41103"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Patch Tuesday - May 2026",
-          "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
-          "published": "2026-05-13T00:22:19+00:00",
-          "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows",
-              "Microsoft 365",
-              "Entra ID",
-              "Atlassian"
-            ],
-            "cve_ids": [
-              "CVE-2020-1472",
-              "CVE-2026-26129",
-              "CVE-2026-41089",
-              "CVE-2026-41096",
-              "CVE-2026-41103"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research"
           }
@@ -2201,79 +2201,6 @@
       ]
     },
     {
-      "cluster_id": "f10a4dd7e7",
-      "priority_score": 16,
-      "member_count": 4,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "united_states"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
-        "link": "https://isc.sans.edu/diary/rss/32992",
-        "published": "2026-05-15T04:10:13+00:00",
-        "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "united_states"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
-          "link": "https://isc.sans.edu/diary/rss/32992",
-          "published": "2026-05-15T04:10:13+00:00",
-          "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "united_states"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "eb8e5fefbf",
       "priority_score": 15,
       "member_count": 1,
@@ -2450,6 +2377,79 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f10a4dd7e7",
+      "priority_score": 15,
+      "member_count": 4,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "united_states"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
+        "link": "https://isc.sans.edu/diary/rss/32992",
+        "published": "2026-05-15T04:10:13+00:00",
+        "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "united_states"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "ISC Stormcast For Friday, May 15th, 2026 https://isc.sans.edu/podcastdetail/9934, (Fri, May 15th)",
+          "link": "https://isc.sans.edu/diary/rss/32992",
+          "published": "2026-05-15T04:10:13+00:00",
+          "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "united_states"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -3191,118 +3191,6 @@
               "actively_exploited"
             ],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6ca30bfec7",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ddos",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Cursor",
-          "Microsoft Exchange",
-          "Microsoft Windows",
-          "OpenAI/ChatGPT",
-          "SharePoint",
-          "VMware"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-        "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-        "published": "2026-05-15T17:47:25+00:00",
-        "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 0 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Microsoft Windows",
-            "Microsoft Exchange",
-            "SharePoint",
-            "VMware",
-            "OpenAI/ChatGPT",
-            "Cursor"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-          "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-          "published": "2026-05-15T17:47:25+00:00",
-          "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Microsoft Windows",
-              "Microsoft Exchange",
-              "SharePoint",
-              "VMware",
-              "OpenAI/ChatGPT",
-              "Cursor"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -4211,6 +4099,118 @@
       ]
     },
     {
+      "cluster_id": "6ca30bfec7",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ddos",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Cursor",
+          "Microsoft Exchange",
+          "Microsoft Windows",
+          "OpenAI/ChatGPT",
+          "SharePoint",
+          "VMware"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+        "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+        "published": "2026-05-15T17:47:25+00:00",
+        "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
+        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 0 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "ddos"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Microsoft Windows",
+            "Microsoft Exchange",
+            "SharePoint",
+            "VMware",
+            "OpenAI/ChatGPT",
+            "Cursor"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
+          "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
+          "published": "2026-05-15T17:47:25+00:00",
+          "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "ddos"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Microsoft Windows",
+              "Microsoft Exchange",
+              "SharePoint",
+              "VMware",
+              "OpenAI/ChatGPT",
+              "Cursor"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "044dd073f2",
       "priority_score": 13,
       "member_count": 1,
@@ -4670,209 +4670,6 @@
       ]
     },
     {
-      "cluster_id": "651d91b6fa",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "Azure",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-        "published": "2026-05-12T15:29:00+00:00",
-        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Azure",
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-          "published": "2026-05-12T15:29:00+00:00",
-          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure",
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c42bf483b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "mass_exploitation"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-        "published": "2026-05-12T13:17:51+00:00",
-        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "mass_exploitation",
-            "cisa_kev"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-          "published": "2026-05-12T13:17:51+00:00",
-          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "mass_exploitation",
-              "cisa_kev"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "12769a0a4d",
       "priority_score": 12,
       "member_count": 1,
@@ -5052,6 +4849,209 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c42bf483b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "cisa_kev",
+          "mass_exploitation"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+        "published": "2026-05-12T13:17:51+00:00",
+        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "mass_exploitation",
+            "cisa_kev"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+          "published": "2026-05-12T13:17:51+00:00",
+          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "mass_exploitation",
+              "cisa_kev"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "651d91b6fa",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "Azure",
+          "GitHub",
+          "Google Cloud",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+        "published": "2026-05-12T15:29:00+00:00",
+        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Azure",
+            "AWS",
+            "Google Cloud",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+          "published": "2026-05-12T15:29:00+00:00",
+          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure",
+              "AWS",
+              "Google Cloud",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -5892,209 +5892,6 @@
       ]
     },
     {
-      "cluster_id": "019fa66169",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "inaturalist-clumper 0.1",
-        "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
-        "published": "2026-05-15T23:53:11+00:00",
-        "summary": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog . I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this JSON file . Tags: projects , inaturalist",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Datadog — Ship reliable AI faster with LLM Observability. Read the best practices guide 15th May 2026 Release inaturalist-clumper 0.1 — Group iNaturalist sightings into clumps Part of the infrastructure I use for publishing my iNaturalist sightings on my blog . I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this JSON file . Posted 15th May 2026 at 11:53 pm Recent articles Notes on the xAI/Anthropic data center deal - 7th May 2026 Live blog: Code w/ Claude 2026 - 6th May 2026 Vibe coding and agentic engineering are getting closer than I'd like - 6th May 2026 This is a beat by Simon Willison, posted on 15th May 2026 . projects 529 inaturalist 11 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Anthropic/Claude"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "inaturalist-clumper 0.1",
-          "link": "https://simonwillison.net/2026/May/15/inaturalist-clumper/#atom-everything",
-          "published": "2026-05-15T23:53:11+00:00",
-          "summary": "Release: inaturalist-clumper 0.1 Part of the infrastructure I use for publishing my iNaturalist sightings on my blog . I've been running this in production for a few weeks now, inspiring some iterations on how it works, so I decided to ship a 0.1 release. You can see an example of the output in this JSON file . Tags: projects , inaturalist",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d5f47a271d",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "telecommunications"
-        ],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "Docker",
-          "GitHub",
-          "GitLab",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "Teams",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia",
-          "ukraine"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Popular node-ipc npm package compromised to steal credentials",
-        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-        "published": "2026-05-15T17:10:42+00:00",
-        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-        "full_body": "Popular node-ipc npm package compromised to steal credentials By Bill Toulas May 15, 2026 01:10 PM 0 Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. The node-ipc package is a Node.js module that enables various processes to communicate through all forms of sockets, including Unix, Windows, UDP, TLS, and TCP. Despite the maintainer publishing in March 2022 weaponized versions that targeted Russia and Belarus-based systems with a data-overwriting module, in protest to the Russian invasion of Ukraine, the package still has more than 690,000 weekly downloads on npm. The recent supply-chain attack was detected by multiple application security companies, including Socket , Ox Security , and Upwind , who confirmed the following three versions as malicious: node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 The malicious code hides inside the CommonJS entrypoint (node-ipc.cjs) and executes automatically whenever applications are loaded. The malware is heavily obfuscated and fingerprints infected systems, collects environment variables and sensitive local files, compresses the stolen data into archives, and exfiltrates it through DNS TXT queries. The latest compromise appears to be the work of an external actor who compromised the account of an inactive maintainer named 'atiertant.' According to the researchers, the infostealer injected in the new node-ipc versions collects the following types of information from compromised systems: Cloud credentials from AWS, Azure, GCP, OCI, DigitalOcean, and others SSH keys and SSH configs Kubernetes, Docker, Helm, and Terraform credentials npm, GitHub, GitLab, and Git CLI tokens .env files and database credentials Shell histories and CI/CD secrets macOS Keychain files and Linux keyrings Firefox profile and key database files (on macOS) Microsoft Teams local storage and IndexedDB paths The malware skips files larger than 4 MiB and avoids scanning .git and node_modules directories to increase efficiency and reduce operational noise on the host. Attack overview Source: Ox Research A notable operational characteristic is the use of DNS TXT queries instead of conventional HTTP-based command-and-control (C2) traffic for data exfiltration. The attackers use a fake Azure-themed domain (sh[.]azurestaticprovider[.]net:443) as a bootstrap resolver, transmitting the data to ‘bt[.]node[.]js’ with query prefixes like xh, xd, and xf. According to Socket, exfiltrating a 500 KB compressed archive could generate roughly 29,400 DNS TXT requests, helping the traffic blend into normal DNS activity. Prior to submission, the malware stores collected data in temporary compressed tar.gz archives, which are deleted after exfiltration to reduce forensic traces. The malware does not establish persistence or download any secondary payloads, so the operation appears focused on rapid credential theft and exfiltration. Potentially impacted developers should immediately remove the affected versions, rotate exposed secrets and credentials, and inspect lockfiles and npm caches. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Shai Hulud attack ships signed malicious TanStack, Mistral npm packages New npm supply-chain attack self-spreads to steal auth tokens PyPI package with 1.1M monthly downloads hacked to push infostealer Hackers compromise Axios npm package to drop cross-platform malware GlassWorm malware hits 400+ code repos on GitHub, npm, VSCode, OpenVSX",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Teams",
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "GitLab",
-            "Docker",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia",
-            "ukraine"
-          ],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Popular node-ipc npm package compromised to steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-          "published": "2026-05-15T17:10:42+00:00",
-          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial",
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Teams",
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "GitLab",
-              "Docker",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia",
-              "ukraine"
-            ],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c089005a69",
       "priority_score": 11,
       "member_count": 2,
@@ -6256,6 +6053,188 @@
               "zero_day"
             ],
             "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ab51d3dc5d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "healthcare",
+          "manufacturing_industrial",
+          "transportation_logistics"
+        ],
+        "affected_products": [
+          "Slack"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "europe",
+          "ukraine"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "FrostyNeighbor: Fresh mischief and digital shenanigans",
+        "link": "https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/",
+        "published": "2026-05-14T08:50:00+00:00",
+        "summary": "ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations",
+        "full_body": "ESET Research FrostyNeighbor: Fresh mischief and digital shenanigans ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations Damien Schaeffer 14 May 2026 • , 10 min. read This blogpost covers newly discovered activities attributed to FrostyNeighbor, targeting governmental organizations in Ukraine. FrostyNeighbor has been running continual cyberoperations, changing and updating its toolset regularly, updating its compromise chain and methods to evade detection – targeting victims located in Eastern Europe, according to our telemetry. Key points of the report: FrostyNeighbor is a long-running cyberespionage actor apparently aligned with the interests of Belarus. The group primarily targets governmental, military, and key sectors in Eastern Europe. This report documents new activity observed that started in March 2026, showing continued evolution of tooling and compromise chains. FrostyNeighbor uses server-side validation of its victims before delivering the final payload. The group has been active recently in campaigns targeting governmental organizations in Ukraine. Introduction FrostyNeighbor, also known as Ghostwriter, UNC1151, UAC‑0057, TA445, PUSHCHA, or Storm-0257, is a group allegedly operating from Belarus . According to Mandiant , the group has been active since at least 2016. The majority of FrostyNeighbor’s operations have targeted countries neighboring Belarus; a small minority have been observed in other European countries. FrostyNeighbor performs campaigns that utilize spearphishing, spread disinformation, and attempt to influence their targets (like the Ghostwriter influence activity ) but has also compromised a variety of governmental and private sector entities, with a focus on Ukraine, Poland, and Lithuania. FrostyNeighbor has demonstrated a continued evolution in its tactics, techniques, and procedures (TTPs), leveraging over time a diverse arsenal of malware and delivery mechanisms to target entities. Key developments include the deployment of multiple variants of the group’s main payload downloader, named PicassoLoader by CERT-UA . Variants of this downloader are written in .NET, PowerShell, JavaScript, and C++. The name comes from the fact that it retrieves a Cobalt Strike beacon, from an attacker-controlled environment, disguised as a renderable image or hidden in a web-associated file type, like CSS, JS, or SVG. Cobalt Strike is a post-exploitation framework widely used both by pentesters and threat actors, and its associated beacon acts as an initial implant, allowing the attacker to fully control the compromised victim’s computer. Moreover, the group uses a wide variety of lure documents to compromise its targets, such as CHM, XLS, PPT, or DOC, and it has exploited the WinRAR vulnerability CVE‑2023‑38831 . FrostyNeighbor has also exploited legitimate services such as Slack for payload delivery, and Canarytokens for victim tracking, complicating detection and attribution efforts. While Ukrainian targeting seems to be focused on military, defense sector, and governmental entities, the victimology in Poland and Lithuania is broader and includes, among others, a wide variety of sectors like industrial and manufacturing, healthcare and pharmaceuticals, logistics, and many governmental organizations. As this report is solely based on our telemetry, other campaigns against entities in countries in the same region cannot be excluded. FrostyNeighbor has conducted spearphishing campaigns targeting users of Polish organizations, focusing on major free email providers such as Interia Poczta and Onet Poczta . These campaigns included spoofed login pages designed to harvest credentials. Additionally, CERT-PL reported that the group exploited the CVE‑2024‑42009 XSS vulnerability in Roundcube, which enables JavaScript execution upon opening of weaponized email messages, to exfiltrate the victim’s credentials. This r",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "manufacturing_industrial",
+            "transportation_logistics"
+          ],
+          "affected_products": [
+            "Slack"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "europe",
+            "ukraine"
+          ],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "FrostyNeighbor: Fresh mischief and digital shenanigans",
+          "link": "https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/",
+          "published": "2026-05-14T08:50:00+00:00",
+          "summary": "ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "manufacturing_industrial",
+              "transportation_logistics"
+            ],
+            "affected_products": [
+              "Slack"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "europe",
+              "ukraine"
+            ],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "be36f6ec15",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Eyes wide open: How to mitigate the security and privacy risks of smart glasses",
+        "link": "https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/",
+        "published": "2026-05-11T08:55:00+00:00",
+        "summary": "Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk.",
+        "full_body": "Privacy Eyes wide open: How to mitigate the security and privacy risks of smart glasses Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk. Phil Muncaster 11 May 2026 • , 5 min. read Fashion and many other trends have a way of reappearing every few years. So we probably shouldn’t be surprised that smart glasses are doing the rounds once more, after a failed attempt by Google to popularize them over a decade ago. The difference this time round is that they’re not just more stylish – and arguably harder to tell from regular shades. They’re also packed with far more powerful technology, capable of tracking and recording their surroundings, and allowing the user to ask AI about the things they can see around them. This presents significant security and privacy risks for both smart glasses users and the people they interact with. What are the privacy risks? Anyone who’s ever lived in a city will be used to being monitored. Germany and the UK have among the highest number of CCTV cameras in the world. But when that monitoring is targeted and not based around informed consent, it can quickly get out of hand. Smart glasses give anyone the ability to record or take photos of strangers surreptitiously. Although they feature a small LED light, this can be covered up, and in any case may be difficult for bystanders to spot. But that’s not all. Harvard University researchers have demonstrated how video taken via smart glasses and livestreamed to Instagram can be connected to AI. Algorithms then work to identify faces and then pull information from the internet on those individuals. Suddenly that cool accessory becomes a powerful, portable surveillance device capable of empowering stalkers , bullies and fraudsters . The bad news is that Meta may be looking to streamline the process with a controversial Name Tag feature . The social media giant has also come under scrutiny from regulators recently after reports revealed that some outsourced workers in Kenya were able to view highly sensitive images as part of their job to monitor users’ interaction with its AI platform. Even if users don’t have data monitored in this way, it might still be used to train AI models, according to an updated Meta privacy policy. And any voice recordings made after the “Hey Meta” wake word will be stored (along with transcripts) for up to a year by default. When privacy risk becomes a security problem This isn’t just about privacy. Any sensitive information shared with a public AI platform via a pair of smart glasses could theoretically be regurgitated to other users if prompted in the right way. That’s a potential security risk if they choose to use the information fraudulently. And then there are those outsourced workers and contractors who may stumble across information harvested by glasses, which they might decide to sell to scammers. Information you might accidentally send to the cloud/AI model could include: Card PINs that you type in at the ATM or in–store payment terminals Passwords typed in at your desk or on your phone which could be used to hijack accounts Bank statements or bills with full details that could be used to impersonate you There’s also a risk of nefarious smart glasses users shoulder surfing behind you in public, in order to steal PINs, passwords and other secrets. Combined with facial recognition technology , this data extraction may allow them to build up a sizeable digital profile on their targets. With enough detail they could either launch convincing phishing attacks, hijack your accounts or impersonate you in new account creation attempts. Hacking the smart glasses ecosystem Like any smart device, glasses could also be hacked more conventionally, by: Exploiting the operating system/firmware Hijacking connected apps/smartphones Intercepting traffic/inject malicious content via fake Wi–Fi hotspots Social engineering, such as sending a malicious QR code ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "education"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Eyes wide open: How to mitigate the security and privacy risks of smart glasses",
+          "link": "https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/",
+          "published": "2026-05-11T08:55:00+00:00",
+          "summary": "Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "education"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -6578,188 +6557,6 @@
       ]
     },
     {
-      "cluster_id": "ab51d3dc5d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "healthcare",
-          "manufacturing_industrial",
-          "transportation_logistics"
-        ],
-        "affected_products": [
-          "Slack"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "europe",
-          "ukraine"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "FrostyNeighbor: Fresh mischief and digital shenanigans",
-        "link": "https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/",
-        "published": "2026-05-14T08:50:00+00:00",
-        "summary": "ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations",
-        "full_body": "ESET Research FrostyNeighbor: Fresh mischief and digital shenanigans ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations Damien Schaeffer 14 May 2026 • , 10 min. read This blogpost covers newly discovered activities attributed to FrostyNeighbor, targeting governmental organizations in Ukraine. FrostyNeighbor has been running continual cyberoperations, changing and updating its toolset regularly, updating its compromise chain and methods to evade detection – targeting victims located in Eastern Europe, according to our telemetry. Key points of the report: FrostyNeighbor is a long-running cyberespionage actor apparently aligned with the interests of Belarus. The group primarily targets governmental, military, and key sectors in Eastern Europe. This report documents new activity observed that started in March 2026, showing continued evolution of tooling and compromise chains. FrostyNeighbor uses server-side validation of its victims before delivering the final payload. The group has been active recently in campaigns targeting governmental organizations in Ukraine. Introduction FrostyNeighbor, also known as Ghostwriter, UNC1151, UAC‑0057, TA445, PUSHCHA, or Storm-0257, is a group allegedly operating from Belarus . According to Mandiant , the group has been active since at least 2016. The majority of FrostyNeighbor’s operations have targeted countries neighboring Belarus; a small minority have been observed in other European countries. FrostyNeighbor performs campaigns that utilize spearphishing, spread disinformation, and attempt to influence their targets (like the Ghostwriter influence activity ) but has also compromised a variety of governmental and private sector entities, with a focus on Ukraine, Poland, and Lithuania. FrostyNeighbor has demonstrated a continued evolution in its tactics, techniques, and procedures (TTPs), leveraging over time a diverse arsenal of malware and delivery mechanisms to target entities. Key developments include the deployment of multiple variants of the group’s main payload downloader, named PicassoLoader by CERT-UA . Variants of this downloader are written in .NET, PowerShell, JavaScript, and C++. The name comes from the fact that it retrieves a Cobalt Strike beacon, from an attacker-controlled environment, disguised as a renderable image or hidden in a web-associated file type, like CSS, JS, or SVG. Cobalt Strike is a post-exploitation framework widely used both by pentesters and threat actors, and its associated beacon acts as an initial implant, allowing the attacker to fully control the compromised victim’s computer. Moreover, the group uses a wide variety of lure documents to compromise its targets, such as CHM, XLS, PPT, or DOC, and it has exploited the WinRAR vulnerability CVE‑2023‑38831 . FrostyNeighbor has also exploited legitimate services such as Slack for payload delivery, and Canarytokens for victim tracking, complicating detection and attribution efforts. While Ukrainian targeting seems to be focused on military, defense sector, and governmental entities, the victimology in Poland and Lithuania is broader and includes, among others, a wide variety of sectors like industrial and manufacturing, healthcare and pharmaceuticals, logistics, and many governmental organizations. As this report is solely based on our telemetry, other campaigns against entities in countries in the same region cannot be excluded. FrostyNeighbor has conducted spearphishing campaigns targeting users of Polish organizations, focusing on major free email providers such as Interia Poczta and Onet Poczta . These campaigns included spoofed login pages designed to harvest credentials. Additionally, CERT-PL reported that the group exploited the CVE‑2024‑42009 XSS vulnerability in Roundcube, which enables JavaScript execution upon opening of weaponized email messages, to exfiltrate the victim’s credentials. This r",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "manufacturing_industrial",
-            "transportation_logistics"
-          ],
-          "affected_products": [
-            "Slack"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "europe",
-            "ukraine"
-          ],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "FrostyNeighbor: Fresh mischief and digital shenanigans",
-          "link": "https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/",
-          "published": "2026-05-14T08:50:00+00:00",
-          "summary": "ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "manufacturing_industrial",
-              "transportation_logistics"
-            ],
-            "affected_products": [
-              "Slack"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "europe",
-              "ukraine"
-            ],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "be36f6ec15",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Eyes wide open: How to mitigate the security and privacy risks of smart glasses",
-        "link": "https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/",
-        "published": "2026-05-11T08:55:00+00:00",
-        "summary": "Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk.",
-        "full_body": "Privacy Eyes wide open: How to mitigate the security and privacy risks of smart glasses Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk. Phil Muncaster 11 May 2026 • , 5 min. read Fashion and many other trends have a way of reappearing every few years. So we probably shouldn’t be surprised that smart glasses are doing the rounds once more, after a failed attempt by Google to popularize them over a decade ago. The difference this time round is that they’re not just more stylish – and arguably harder to tell from regular shades. They’re also packed with far more powerful technology, capable of tracking and recording their surroundings, and allowing the user to ask AI about the things they can see around them. This presents significant security and privacy risks for both smart glasses users and the people they interact with. What are the privacy risks? Anyone who’s ever lived in a city will be used to being monitored. Germany and the UK have among the highest number of CCTV cameras in the world. But when that monitoring is targeted and not based around informed consent, it can quickly get out of hand. Smart glasses give anyone the ability to record or take photos of strangers surreptitiously. Although they feature a small LED light, this can be covered up, and in any case may be difficult for bystanders to spot. But that’s not all. Harvard University researchers have demonstrated how video taken via smart glasses and livestreamed to Instagram can be connected to AI. Algorithms then work to identify faces and then pull information from the internet on those individuals. Suddenly that cool accessory becomes a powerful, portable surveillance device capable of empowering stalkers , bullies and fraudsters . The bad news is that Meta may be looking to streamline the process with a controversial Name Tag feature . The social media giant has also come under scrutiny from regulators recently after reports revealed that some outsourced workers in Kenya were able to view highly sensitive images as part of their job to monitor users’ interaction with its AI platform. Even if users don’t have data monitored in this way, it might still be used to train AI models, according to an updated Meta privacy policy. And any voice recordings made after the “Hey Meta” wake word will be stored (along with transcripts) for up to a year by default. When privacy risk becomes a security problem This isn’t just about privacy. Any sensitive information shared with a public AI platform via a pair of smart glasses could theoretically be regurgitated to other users if prompted in the right way. That’s a potential security risk if they choose to use the information fraudulently. And then there are those outsourced workers and contractors who may stumble across information harvested by glasses, which they might decide to sell to scammers. Information you might accidentally send to the cloud/AI model could include: Card PINs that you type in at the ATM or in–store payment terminals Passwords typed in at your desk or on your phone which could be used to hijack accounts Bank statements or bills with full details that could be used to impersonate you There’s also a risk of nefarious smart glasses users shoulder surfing behind you in public, in order to steal PINs, passwords and other secrets. Combined with facial recognition technology , this data extraction may allow them to build up a sizeable digital profile on their targets. With enough detail they could either launch convincing phishing attacks, hijack your accounts or impersonate you in new account creation attempts. Hacking the smart glasses ecosystem Like any smart device, glasses could also be hacked more conventionally, by: Exploiting the operating system/firmware Hijacking connected apps/smartphones Intercepting traffic/inject malicious content via fake Wi–Fi hotspots Social engineering, such as sending a malicious QR code ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "education"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Eyes wide open: How to mitigate the security and privacy risks of smart glasses",
-          "link": "https://www.welivesecurity.com/en/privacy/eyes-wide-open-mitigate-security-privacy-risks-smart-glasses/",
-          "published": "2026-05-11T08:55:00+00:00",
-          "summary": "Smart glasses allow anyone to track and record the world around them. That could put your data and the privacy of those nearby at risk.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "education"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ad3165eb09",
       "priority_score": 10,
       "member_count": 1,
@@ -6924,14 +6721,22 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation",
+          "nation_state",
+          "ransomware"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Cisco"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
         "content_type": [
           "uncategorized"
         ],
@@ -6946,17 +6751,25 @@
         "link": "https://blog.talosintelligence.com/the-time-of-much-patching-is-coming/",
         "published": "2026-05-14T18:00:24+00:00",
         "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "The time of much patching is coming By Martin Lee Thursday, May 14, 2026 14:00 Threat Source newsletter Welcome to this week’s edition of the Threat Source newsletter. Many solutions have been proposed to reduce software bugs: zero-defect mandates, pair programming, formal methods, and mathematical software proofs. The reality is that software engineering is hard . Identifying and fixing bugs before they make it into production code is hard . Source code peer review and extensive unit testing have improved code quality, but bugs still get through. Not every bug is a vulnerability, and not every fault that appears to be a vulnerability can be usefully exploited. Nevertheless, through extensive testing and review, a skilled vulnerability researcher can still uncover faults in software that has already undergone rigorous quality assurance. However, skilled vulnerability researchers are a scarce resource and can only review so much software. AI is the great hope for improving software quality. Iterative improvements in AI's ability to find bugs mean that each new version of these systems is better than the last. We’re now at the point where AI, although still not as good as a skilled vulnerability researcher, can scan code to find errors at a scale and speed that human analysis cannot match. Used well, it can identify potential vulnerabilities before they reach production. In the long term, this is very good news. Better automated review and analysis of software is how we will improve code quality. However, in the short term, decades of technical debt and latent errors will be uncovered and will need to be addressed. To make things more complex, threat actors will have access to these same tools to search for exploitable vulnerabilities for their own ends. The result is likely to be a surge in patches. More vulnerabilities discovered means more fixes released, placing additional pressure on already stretched operations teams. Many of these patches will be urgent; some will address vulnerabilities that are being actively exploited. Without proper planning, the volume of fixes may outpace an organization's capacity to deploy them. The surge of patches has yet to happen, but the first signs may already be visible. Now is an excellent time to consider how you prioritise patching, apply patches at scale, and manage systems that cannot be patched quickly — or at all. We can reflect on these questions now, and improve our processes, or we can flounder when the surge of patches arrives. Either way, ready or not, the time of much patching is coming. The one big thing In Cisco Talos’ latest blog , we outline the differences between responding to state-sponsored threat actors and handling commodity ransomware. These advanced adversaries log in using valid credentials and leverage your own trusted tools to remain invisible for months. Because their primary objectives are long-term espionage and pre-positioning rather than immediate financial gain, standard incident response playbooks are entirely inadequate. Why do I care? State-sponsored actors operate inside your trust boundary and aim to remain completely undetected. They have the patience and resources to map your infrastructure, exploit supply chain vulnerabilities, and blend their lateral movement into routine administrative tasks. If your security architecture assumes internal traffic is inherently trustworthy, these adversaries will exploit that gap to establish deep, persistent access across both IT and operational technology environments. Prematurely containing these threats can even tip off the attacker, causing you to lose critical intelligence and the chance to fully eradicate their foothold. So now what? Shift to a zero trust architecture that continuously verifies access and plans for inevitable failures, starting with maximizing your visibility through centralized log aggregation and enabling Windows command-line and PowerShell script block logging. Prioritize identity managem",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "ransomware",
+            "active_exploitation",
+            "nation_state"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Cisco"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
           "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
@@ -6970,14 +6783,22 @@
           "published": "2026-05-14T18:00:24+00:00",
           "summary": "In this week’s newsletter, Martin reflects on what the next iteration of AI tools means for vulnerability discovery and our ability to manage large-scale patch releases.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "ransomware",
+              "active_exploitation",
+              "nation_state"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Cisco"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
@@ -7013,8 +6834,8 @@
         "link": "https://blog.talosintelligence.com/breaking-things-to-keep-them-safe-with-philippe-laulheret/",
         "published": "2026-05-13T10:00:54+00:00",
         "summary": "Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Breaking things to keep them safe with Philippe Laulheret By Amy Ciminnisi Wednesday, May 13, 2026 06:00 Humans of Talos In the latest Humans of Talos, Amy sits down with Senior Vulnerability Researcher Philippe Laulheret to demystify the world of ethical hacking. Philippe shares his unique journey from French engineering school to the front lines of cybersecurity, explaining how his lifelong love for solving puzzles helps him uncover critical security flaws before they can be exploited. From his memorable experiment using a green onion to bypass a biometric fingerprint reader to his perspective on the reality of cybersecurity versus what we see in the movies, Philippe provides a fascinating look at the work that keeps our digital world safe. Amy Ciminnisi: So, can you talk to me a little bit about what you do in vulnerability research? Philippe Laulheret: I work in vulnerability research. Basically, my job is to find vulnerabilities in software, hardware, or things physically. It’s an interesting position because I usually get to choose which target I want to look at, which confuses people usually, because usually it’s a consulting role, or someone asks you to do that. But for us, we find vulnerabilities in things that we think are important. And then this way, people in different teams can write detection rules, and our customers are protected. AC: I love that you get to kind of pick a niche and explore. How did you get into this? PL: My deepest interest was more in reverse engineering, which is understanding how things work, software in particular. Throughout my whole life, I was really curious and really wanted to understand stuff. I guess research is an extension of that where you need to understand how the system works, and then it’s a puzzle where you need to find a way to break it. In my teenage years, I was really interested in that. I started playing Capture The Flag, which are challenges where people design exercises where there is a bug to find and exploit. It was really fun. I was doing that to stay sharp with my skills, and eventually, I was able to transition from regular development work to actual research. All those years of playing CTF really helped, even if it wasn't professional. AC: Did you go to school initially for development work? What kind of career path led you here? PL: Originally, as you can hear, I have a French accent. In France, we have engineering schools, which are fancy grad schools. The process is first you study very hard in math and physics, and then you go to grad school. At that time, I was convinced I wanted to do security, and I joined an electrical and computer engineering school. Somehow, in that school, I discovered an interest for different aspects of software development. I was getting interested in computer vision and other things. When I moved to the U.S. for development work instead of security work, I worked in a design studio for four years, which was really fun. I was making interactive installations. But as I said, I was playing CTF on the side to keep security pretty high in my head. Eventually, I moved to New York and joined a cybersecurity startup, and finally, I moved back to the Pacific Northwest, where I’m currently living, and I was finally able to do vulnerability research the way I wanted to. Want to see more? Watch the full interview , and don’t forget to subscribe to our YouTube channel for future episodes of Humans of Talos. Share this post Related Content More than pretty pictures: Wendy Bishop on visual storytelling in tech April 16, 2026 06:00 Wendy shares the unique challenges and rewards of bridging the gap between artistic expression and highly technical research. Spinning complex ideas into clear docs with Kri Dontje March 11, 2026 06:00 The episode features Kri Dontje discussing her role in translating complex technical cybersecurity topics into clear, accessible documentation, emphasizing the importance of consistency, accuracy, and collaboration with s",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -7839,6 +7660,94 @@
       ]
     },
     {
+      "cluster_id": "d5f47a271d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Popular node-ipc npm package compromised to steal credentials",
+        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+        "published": "2026-05-15T17:10:42+00:00",
+        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Popular node-ipc npm package compromised to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+          "published": "2026-05-15T17:10:42+00:00",
+          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a586cc0746",
       "priority_score": 10,
       "member_count": 1,
@@ -8351,57 +8260,135 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "be57e84446",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "OpenAI/ChatGPT"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+        "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+        "published": "2026-05-15T10:54:44+00:00",
+        "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Apple iOS/macOS",
+            "OpenAI/ChatGPT"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+          "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+          "published": "2026-05-15T10:54:44+00:00",
+          "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS",
+              "OpenAI/ChatGPT"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
     {
-      "label": "malware targeting Kubernetes",
+      "label": "malware targeting npm",
       "dominant_features": {
         "threat_categories": [
           "malware",
-          "credential_attack",
           "supply_chain",
-          "active_exploitation",
-          "zero_day"
+          "credential_attack"
         ],
         "affected_industries": [
           "manufacturing_industrial"
         ],
         "affected_products": [
-          "Kubernetes",
-          "npm",
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub"
-        ],
-        "urgency_signals": [
-          "zero_day"
+          "npm"
         ],
         "content_type": [
-          "uncategorized",
           "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news",
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
-      "cluster_count": 12,
-      "article_count": 13,
-      "cohesion": 0.389,
+      "cluster_count": 13,
+      "article_count": 14,
+      "cohesion": 0.39,
       "cluster_ids": [
         "103c7a4c61",
         "5f3c119b8d",
         "eb8e5fefbf",
         "c97972626b",
         "39ec215030",
-        "651d91b6fa",
         "06895f3526",
+        "651d91b6fa",
         "52d06b5a30",
         "db4739da92",
-        "d5f47a271d",
         "e8d332d1ab",
-        "1702439df4"
+        "d5f47a271d",
+        "1702439df4",
+        "be57e84446"
       ]
     },
     {
@@ -8531,7 +8518,8 @@
         "threat_categories": [
           "active_exploitation",
           "vulnerability_disclosure",
-          "zero_day"
+          "zero_day",
+          "nation_state"
         ],
         "affected_products": [
           "Cisco"
@@ -8550,16 +8538,18 @@
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_4_news",
+          "tier_1_primary_research"
         ]
       },
-      "cluster_count": 3,
-      "article_count": 10,
-      "cohesion": 0.673,
+      "cluster_count": 4,
+      "article_count": 11,
+      "cohesion": 0.527,
       "cluster_ids": [
         "0c789f50ec",
         "8fd391b96b",
-        "03f477fe86"
+        "03f477fe86",
+        "bb0ffb2b81"
       ]
     },
     {
