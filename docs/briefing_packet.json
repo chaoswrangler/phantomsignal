@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-16T13:46:45.529288+00:00",
+  "generated_at": "2026-05-16T15:02:59.246519+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 486,
-  "total_clusters_raw": 458,
+  "total_items_in_window": 487,
+  "total_clusters_raw": 459,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 304,
+  "dropped_low_score": 305,
   "dropped_overflow": 74,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -102,12 +102,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -116,18 +116,18 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 24,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "NCSC UK": {
@@ -137,20 +137,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -158,12 +144,19 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -179,6 +172,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -186,26 +186,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 11
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -214,8 +200,29 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -228,18 +235,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -249,19 +256,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -270,12 +270,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -284,26 +284,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -312,19 +305,19 @@
       "item_count": 30,
       "in_window_count": 4
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 9
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 9
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -333,12 +326,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 9
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -346,13 +346,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -375,19 +368,12 @@
       "item_count": 30,
       "in_window_count": 21
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
+      "item_count": 100,
+      "in_window_count": 5
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -396,11 +382,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Cloudflare Security": {
@@ -410,19 +396,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,9 +410,16 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -445,19 +431,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 5,
+      "in_window_count": 5
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -465,6 +451,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -480,12 +473,40 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 24
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -501,19 +522,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -521,13 +535,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 28
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -543,26 +550,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 21
-    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 22
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -571,29 +571,8 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 10
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -612,6 +591,27 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 10
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2151,160 +2151,6 @@
       ]
     },
     {
-      "cluster_id": "22ff5ee355",
-      "priority_score": 18,
-      "member_count": 4,
-      "corroborating_source_count": 4,
-      "strong_signals": [
-        "CVE-2026-46300"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2026-46300"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Fragnesia (CVE-2026-46300) is a universal Linux local privilege escalation exploit",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tenyd4/fragnesia_cve202646300_is_a_universal_linux_local/",
-        "published": "2026-05-16T08:40:11+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2026-46300"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Fragnesia (CVE-2026-46300) is a universal Linux local privilege escalation exploit",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tenyd4/fragnesia_cve202646300_is_a_universal_linux_local/",
-          "published": "2026-05-16T08:40:11+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
-          "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
-          "published": "2026-05-14T13:44:46+00:00",
-          "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
-          "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
-          "published": "2026-05-14T07:06:15+00:00",
-          "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        },
-        {
-          "source": "Reddit r/sysadmin",
-          "cohort": "reddit_practitioner_osint",
-          "title": "A third vulnerability has hit the kernel",
-          "link": "https://www.reddit.com/r/sysadmin/comments/1tdiagh/a_third_vulnerability_has_hit_the_kernel/",
-          "published": "2026-05-15T01:55:20+00:00",
-          "summary": "This is part of the dirtyfrag family, but is different enough to warrant its own CVE. https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/ Known as Fragnasia and tracked as CVE-2026-46300 , this security flaw stems from a logic bug in the Linux XFRM ESP-in-TCP subsystem that can enable unprivileged local attackers to gain root privileges by writing arbitrary bytes to the kernel page cache of read-only files. Immediate patching if you cannot update: rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.confrmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.conf submitted by /u/NoDistrict1529 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "3ff98b28d1",
       "priority_score": 16,
       "member_count": 1,
@@ -2618,6 +2464,224 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "255bec07f9",
+      "priority_score": 16,
+      "member_count": 4,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "CVE-2026-46300"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "iot_ot",
+          "malware",
+          "supply_chain",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "technology"
+        ],
+        "affected_products": [
+          "Chrome",
+          "Microsoft Exchange",
+          "OpenAI/ChatGPT",
+          "Palo Alto Networks",
+          "VMware"
+        ],
+        "cve_ids": [
+          "CVE-2026-46300"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "united_states"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "threat_research",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
+        "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
+        "published": "2026-05-14T13:44:46+00:00",
+        "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
+        "full_body": "Linux distributions are informing users about a new kernel vulnerability that can be exploited by a local attacker to escalate privileges to root. Dubbed Fragnesia and officially tracked as CVE-2026-46300 , the issue resides in the kernel’s XFRM ESP-in-TCP subsystem, allowing an unprivileged attacker to gain root permissions by overwriting sensitive system files. A majority of Linux distributions are affected, and they have started releasing patches. A proof-of-concept (PoC) exploit is available, but there is no evidence that Fragnesia has been exploited in the wild. “Similar to Dirty Frag, Fragnesia exploits a vulnerability in the XFRM ESP-in-TCP subsystem to achieve a memory write primitive in the kernel,” Microsoft’s threat intelligence team said . “The primitive is then used to corrupt the page cache memory of the [/]usr[/]bin[/]su binary, which in turn leads to launching a shell with root privilege. Note that exploitation is not constrained to use the [/]usr[/]bin[/]su binary; it can modify any file readable by the user, including [/]etc[/]passwd,” it added. Advertisement. Scroll to continue reading. Microsoft has urged organizations to apply the available patches as soon as possible. Fragnesia is in the same class of vulnerabilities as the recently disclosed Dirty Frag and Copy Fail . Copy Fail has been exploited in the wild, and Microsoft noted shortly after Dirty Frag’s disclosure that it too may have been leveraged in malicious attacks. The tech giant reported on May 8 that its Defender product had seen limited in-the-wild activity that could indicate exploitation of either Dirty Frag or Copy Fail. At the time of writing, there do not appear to be any other reports confirming the exploitation of Dirty Frag. Related : OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years Related : Easily Exploitable ‘Pack2TheRoot’ Linux Vulnerability Leads to Root Access Related : Organizations Warned of Exploited Linux Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. More from Eduard Kovacs Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million G7 Countries Release AI SBOM Guidance High-Severity Vulnerability Patched in VMware Fusion Foxconn Confirms North American Factories Hit by Cyberattack Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code Microsoft Patches Critical Zero-Click Outlook Vulnerability Threatening Enterprises Hundreds of Malicious Packages Force RubyGems to Suspend Registrations ICS Patch Tuesday: New Security Advisories From Siemens, Schneider, CISA Latest News PoC Code Published for Critical NGINX Vulnerability In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild American Lending Center Data Breach Affects 123,000 Individuals OpenAI Hit by TanStack Supply Chain Attack TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code Chrome 148 Update Patches Critical Vulnerabilities Cisco Patches Another SD-WAN Zero-Day, the Sixth Exploited in 2026 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Event: Threat Detection and Incident Response Summit May 20, 2026 Delve ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "supply_chain",
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "malware",
+            "iot_ot"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "technology",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Microsoft Exchange",
+            "VMware",
+            "Chrome",
+            "OpenAI/ChatGPT"
+          ],
+          "cve_ids": [
+            "CVE-2026-46300"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "united_states"
+          ],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
+          "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
+          "published": "2026-05-14T13:44:46+00:00",
+          "summary": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "supply_chain",
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "malware",
+              "iot_ot"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "technology",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Microsoft Exchange",
+              "VMware",
+              "Chrome",
+              "OpenAI/ChatGPT"
+            ],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "united_states"
+            ],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+          "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+          "published": "2026-05-14T07:06:15+00:00",
+          "summary": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Fragnesia (CVE-2026-46300) is a universal Linux local privilege escalation exploit",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tenyd4/fragnesia_cve202646300_is_a_universal_linux_local/",
+          "published": "2026-05-16T08:40:11+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
+          "source": "Reddit r/sysadmin",
+          "cohort": "reddit_practitioner_osint",
+          "title": "A third vulnerability has hit the kernel",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1tdiagh/a_third_vulnerability_has_hit_the_kernel/",
+          "published": "2026-05-15T01:55:20+00:00",
+          "summary": "This is part of the dirtyfrag family, but is different enough to warrant its own CVE. https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/ Known as Fragnasia and tracked as CVE-2026-46300 , this security flaw stems from a logic bug in the Linux XFRM ESP-in-TCP subsystem that can enable unprivileged local attackers to gain root privileges by writing arbitrary bytes to the kernel page cache of read-only files. Immediate patching if you cannot update: rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.confrmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/dirtyfrag.conf submitted by /u/NoDistrict1529 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -4560,241 +4624,6 @@
       ]
     },
     {
-      "cluster_id": "03f477fe86",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2026-20122",
-          "CVE-2026-20127",
-          "CVE-2026-20128",
-          "CVE-2026-20133",
-          "CVE-2026-20182"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "cisa_kev",
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "CyberScoop",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Cisco zero-day under ongoing attack by persistent threat group",
-        "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/",
-        "published": "2026-05-15T14:11:59+00:00",
-        "summary": "The threat group behind the attacks is also linked to a series of recently disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems. The post Cisco zero-day under ongoing attack by persistent threat group appeared first on CyberScoop .",
-        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close Attackers returned once again to a common target with a massive user base by exploiting a max-severity zero-day vulnerability affecting Cisco Catalyst SD-WAN Controller and Manager. The threat group behind the “limited” number of attacks Cisco is aware of thus far are also linked to a series of previously disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems, the company said in a threat advisory Thursday. The authentication bypass vulnerability — CVE-2026-20182 — has a CVSS rating of 10 and “behaves like a master key,” Douglas McKee, director of vulnerability intelligence at Rapid7, wrote in a blog post. “An attacker can present themselves to the controller as a trusted network router and, if the system accepts that claim without properly validating it, they can obtain the highest level of administrative access,” he added. “That is the cybersecurity version of a Jedi mind trick.” Advertisement Rapid7 discovered and reported the vulnerability to Cisco on March 9, and Cisco said it became aware of limited exploitation of the vulnerability earlier this month. The vendor disclosed and released a patch for the vulnerability Thursday, and the Cybersecurity and Infrastructure Security Agency quickly added the defect to its known exploited vulnerabilities catalog . Cisco did not explain what occurred during that two-month window. Yet, the disclosure and warning from researchers marks another challenge for Cisco customers that have confronted a flood of actively exploited vulnerabilities affecting the vendor’s network edge software since late February. Cisco isn’t the only security vendor facing an onslaught of attacks on its customers, but it is among the most heavily targeted. CISA has added seven vulnerabilities affecting Cisco SD-WANs and firewalls to its known exploited vulnerabilities catalog in less than three months. Cisco Talos researchers attributed the latest round of zero-day attacks to UAT-8616 , the same attackers that exploited a pair of separate zero-days in Cisco’s network edge software for at least three years before the activity was discovered and reported in February. The company, which described the exploitation of the new zero-day as ongoing, once again declined to answer questions about the origins or motivations of UAT-8616. Advertisement “We strongly recommend customers apply the available fixed software releases and follow the guidance provided in the advisories and Cisco Talos blog,” a spokesperson for the company said in a statement. Cisco Talos researchers also warned that UAT-8616 and at least 10 other threat groups have chained together and achieved “widespread in-the-wild active exploitation of three vulnerabilities in unpatched Cisco Catalyst SD-WAN Infrastructure.” The company previously disclosed and released patches for the vulnerabilities — including CVE-2026-20122 , CVE-2026-20128 and CVE-2026-20133 — in February. Rapid7 said it discovered the latest critical authentication bypass vulnerability when it was researching CVE-2026-20127 , a previous zero-day the Five Eyes identified and confirmed as actively exploited by UAT-8616 in late 2025. Authorities and Cisco waited at least two months to disclose and patch the vulnerability, and share emergency mitigation guidance. That campaign, which got underway at least three years prior, marked the second series of actively exploited zero-days in Cisco edge technology in less than a year. Both campaigns prompted CISA to issue emergency directives months after the attacks were first detected, and both attack sprees were underway for at least a year before they were discovered. The latest zero-day, which bypasses authentication in the same control-plane service as CVE-2026-20127, requires no credentials or prior knowledge of the target environment for exploitation, Jonah Burgess, senior security researcher at Rapid7, told CyberScoop. Advertisement “Cisco confirmed it affects al",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [
-            "CVE-2026-20122",
-            "CVE-2026-20127",
-            "CVE-2026-20128",
-            "CVE-2026-20133",
-            "CVE-2026-20182"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "no_patch_yet",
-            "cisa_kev"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "CyberScoop",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco zero-day under ongoing attack by persistent threat group",
-          "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/",
-          "published": "2026-05-15T14:11:59+00:00",
-          "summary": "The threat group behind the attacks is also linked to a series of recently disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems. The post Cisco zero-day under ongoing attack by persistent threat group appeared first on CyberScoop .",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [
-              "CVE-2026-20122",
-              "CVE-2026-20127",
-              "CVE-2026-20128",
-              "CVE-2026-20133",
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "no_patch_yet",
-              "cisa_kev"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4cca4604a8",
-      "priority_score": 13,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365",
-          "Okta"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Threat Intelligence",
-        "cohort": "threat_research_primary",
-        "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-        "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-        "published": "2026-05-15T14:00:00+00:00",
-        "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-        "full_body": "Threat Intelligence Welcome to BlackFile: Inside a Vishing Extortion Operation May 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has targeted dozens of organizations across North America, Australia, and the UK. GTIG previously highlighted UNC6671 as a distinct cluster in a prior report detailing similar SaaS data-theft techniques utilized by ShinyHunters (UNC6240). While UNC6671 has co-opted the ShinyHunters brand in at least one instance to inject artificial credibility into their threats, GTIG assesses that the operations are independent. This distinction is supported by UNC6671's use of separate TOX communication channels, unique domain registration patterns, and the launch of a dedicated \"BlackFile\" data leak site (DLS). These compromises are not the result of a security vulnerability in vendor products or infrastructure. Instead, this campaign continues to highlight the effectiveness of social engineering and underscores the critical importance of organizations moving toward phishing-resistant MFA to protect their SaaS and identity platforms . Initial Access UNC6671 initial access operations rely on high-volume voice phishing (vishing), often characterized by meticulous social engineering tactics, synchronized with real-time credential harvesting. These vishing calls are typically made by \"callers\" hired by the threat actor. IT Deployment Pretext The callers often call targeted employees' personal cellular phones to bypass security tooling and move the victim away from standard support channels. They typically masquerade as internal IT or help desk personnel, citing a mandatory migration to passkeys or a required multi-factor authentication (MFA) update. This pretext justifies directing the victim to a credential harvesting site and provides a logical cover for any subsequent security alerts generated during the compromise. UNC6671 has shifted from unique, organization-tailored credential harvesting domains to a subdomain-based model. These domains are typically registered with Tucows. Recent campaigns have used subdomains explicitly referencing \"passkey\" or \"enrollment\" themes to enhance the legitimacy of the help desk pretext . <organization>.enrollms[.]com <organization>.passkeyms[.]com <organization>.setupsso[.]com Real-Time MFA Interception The vishing call functions as a live adversary-in-the-middle (AitM) attack. The process follows a rapid, procedural lifecycle : Redirection : The victim is directed to a lookalike subdomain mirroring the organization's single sign-on (SSO) portal. Credential Capture : As the victim inputs their username and password, the threat actor captures these in real-time and immediately submits them to the legitimate SSO provider. MFA Bypass : When the legitimate portal issues an MFA challenge (Push, SMS, or TOTP), the victim—believing they are completing a setup step—provides the code or approval to the threat acto",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "credential_attack"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft 365",
-            "Okta"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "credential_attack"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365",
-              "Okta"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365",
-              "Okta"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "71d889cc01",
       "priority_score": 12,
       "member_count": 1,
@@ -4863,209 +4692,6 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_government"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "651d91b6fa",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "Azure",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-        "published": "2026-05-12T15:29:00+00:00",
-        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Azure",
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
-          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
-          "published": "2026-05-12T15:29:00+00:00",
-          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Azure",
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4c42bf483b",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government_public_sector",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "mass_exploitation"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-        "published": "2026-05-12T13:17:51+00:00",
-        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "data_breach",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government_public_sector",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "mass_exploitation",
-            "cisa_kev"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
-          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
-          "published": "2026-05-12T13:17:51+00:00",
-          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "data_breach",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government_public_sector",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "mass_exploitation",
-              "cisa_kev"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -5250,6 +4876,209 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4c42bf483b",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "data_breach",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government_public_sector",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "cisa_kev",
+          "mass_exploitation"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+        "published": "2026-05-12T13:17:51+00:00",
+        "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+        "full_body": "Back to Blog Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik May 8, 2026 | Last updated on May 12, 2026 | xx min read DISCOVER RAPID7 MDR Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that controls are working, that risk is being reduced, and that security investments are delivering measurable outcomes. Point-in-time audit evidence, assembled quarterly, is structurally incompatible with an environment where the threat picture changes in minutes. The underlying issue is not a lack of effort, but a disconnect. Security data lives in one place, remediation happens in another, and evidence for auditors is assembled somewhere else. When leadership asks what changed, what was fixed, and what risk remains, teams are left stitching the story together manually producing reports that reflect where the organization was, not where it is. Cyber GRC closes that gap by bringing governance, risk management, and compliance closer to the security data and workflows teams already rely on. Why security operations and compliance need connected data For years, security operations and GRC have run in parallel. One team manages threats, exposures, and remediation. Another manages policies, controls, audits, and evidence. Both aim to reduce risk, but typically without shared context or shared data. That separation is no longer sustainable. Vulnerability exploitation rose 34% year-over-year and now accounts for 20% of all breaches, with a median of zero days between critical vulnerability publication and mass exploitation (Verizon DBIR 2025). Supply chain breaches doubled, now representing 30% of all incidents. Ransomware appeared in 44% of breaches – up 37% from the prior year. Security leaders operating in this environment face an expectation that compliance teams were not designed to meet alone: continuous proof that controls are effective against adversaries who operate at machine speed. When AI agents can autonomously chain every phase of an attack with minimal human oversight, a quarterly audit cycle is not an assurance, but a historical record. Why Cyber GRC matters now Boards are no longer satisfied with compliance status reports. They want dollarized risk scenarios and evidence that remediation is actually reducing exposure -- not just that it was attempted. Two pressures are converging. First, environmental complexity: modern infrastructure spans cloud, SaaS, remote endpoints, OT systems, and third-party providers. The perimeter is everywhere, and so is the attack surface. Second, regulatory expectation: SEC, NIS2, DORA, and CMMC now require demonstrable control effectiveness, not just documented policies. Both pressures demand a model that brings security activity, compliance readiness, and accountability into the same view. What Cyber GRC changes for security and compliance teams Cyber GRC changes how organizations use security data. Instead of disconnected, point-in-time artifacts, it enables teams to build governance and compliance workflows directly on top of rea",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "data_breach",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government_public_sector",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "mass_exploitation",
+            "cisa_kev"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "How Rapid7 is bringing Cyber GRC closer to security operations",
+          "link": "https://www.rapid7.com/blog/post/cds-rapid7-cyber-grc-secops-compliance",
+          "published": "2026-05-12T13:17:51+00:00",
+          "summary": "Sabeen Malik is VP, Global Government Affairs and Public Policy at Rapid7. ⠀ Security teams need a better way to connect what they detect, what they fix, and what they can prove. The pace of modern security operations no longer works in defenders’ favor. IBM’s Cost of a Data Breach Report 2025 found that the mean time to identify and contain a breach is now 241 days, even as AI and automation help defenders move faster. At the same time, Rapid7’s 2026 Global Threat Landscape Report shows how quickly attacker behavior is compressing the response window: exploited high and critical severity vulnerabilities more than doubled year over year, increasing 105% from 71 in 2024 to 146 in 2025, while the median time from publication to CISA KEV inclusion fell from 8.5 days to 5.0 days. This is not a future risk. It is today’s operational reality. It also exposes a governance problem most security programs were not built to solve. Security teams are expected to demonstrate, continuously, that con",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "data_breach",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government_public_sector",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "mass_exploitation",
+              "cisa_kev"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "651d91b6fa",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "Azure",
+          "GitHub",
+          "Google Cloud",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+        "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+        "published": "2026-05-12T15:29:00+00:00",
+        "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+        "full_body": "Table of contents Key Takeaways Executive Summary How the Exploit Chain Worked How the Worm Propagates The gh-token-monitor Wiper Scope of Compromise Immediate Mitigation Steps Why This Attack Matters How Can Orca Help? UPDATE May 12th 17:00UTC Key Takeaways Critical supply chain compromise disclosed May 12, 2026 TanStack, Mistral AI, UiPath, and 160+ npm/PyPI packages affected TeamPCP attacker group Named “Mini Shai-Hulud” due to credential theft, self-propagation, and destructive wiper Immediate action required Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer home directories via a persistent destructive daemon. Due to the active exploitation and worm-like propagation, immediate action is required. How the Exploit Chain Worked The issue originates from a chain of three GitHub Actions vulnerabilities exploited in sequence. The attacker forked the TanStack/router repository , opened a pull request that triggered a pull_request_target workflow, and poisoned the GitHub Actions cache with a malicious pnpm store. When legitimate maintainer merges later triggered the release workflow, the poisoned cache was restored and attacker-controlled binaries extracted OIDC tokens directly from the GitHub Actions runner process memory via /proc/<pid>/mem. These tokens were then used to publish malicious package versions to npm without ever needing to steal long-lived credentials. Because the malicious packages were published from within the legitimate GitHub Actions runner using valid OIDC tokens, they carry valid npm provenance attestations, meaning provenance alone is not a reliable safety signal for this attack. How the Worm Propagates By installing any affected package version, the malicious payload executes during npm lifecycle hooks and steals GitHub tokens, npm tokens, AWS credentials (via IMDSv2), GCP and Azure credentials, Kubernetes service account tokens , HashiCorp Vault tokens, and environment variables. The payload then identifies npm packages the victim has publish access to, modifies those package archives to inject the same malicious dependency, bumps versions, and publishes new compromised releases using the stolen credentials. This worm behavior means each compromised developer or CI runner becomes a new infection vector, amplifying the attack across the ecosystem. The gh-token-monitor Wiper A particularly dangerous component is the persistent wiper daemon called gh-token-monitor. If the payload finds a valid GitHub token with repo write access and org membership, it installs a daemon that polls GitHub every 60 seconds. If the token is revoked, the daemon executes rm -rf ~/, wiping the user’s home directory. On macOS this persists via a LaunchAgent plist, and on Linux via a systemd user service. The daemon automatically exits after 24 hours. Security teams must locate and remove this daemon before revoking any GitHub tokens to avoid triggering the destructive payload. No CVE has been assigned at the time of writing. Aikido Security classifies this as a 100/100 Critical malware issue . No authentication is required to exploit this issue since it triggers automatically during package installation. Scope of Compromise The following components are affected across 373 malicious package-version entries spanning 169 npm package names and 2 PyPI packages. The primary affected namespaces include @tanstack (83 entries across router, start, devtools, and adapter packages), @uipath (66 entries), @squawk (87 entries), @mistralai (including mistralai, mistralai-azure, and mistralai-gcp), @tallyui, @beproduct, and numerous unscoped packages such as intercom-client, lightning, and opensearch-project/opensearch. On PyPI, the ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Azure",
+            "AWS",
+            "Google Cloud",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "TanStack and 160+ npm/PyPI Packages Compromised in Supply Chain Worm Attack",
+          "link": "https://orca.security/resources/blog/tanstack-npm-supply-chain-worm/",
+          "published": "2026-05-12T15:29:00+00:00",
+          "summary": "Key Takeaways Executive Summary A critical supply chain compromise was disclosed on May 12, 2026, affecting TanStack, Mistral AI, UiPath, and over 160 additional npm and PyPI packages. The attack, attributed to the threat actor group TeamPCP and dubbed “Mini Shai-Hulud,” allows attackers to steal credentials, self-propagate through the npm ecosystem, and potentially wipe developer […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure",
+              "AWS",
+              "Google Cloud",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -5469,6 +5298,124 @@
             "urgency_signals": [
               "actively_exploited",
               "zero_day"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "03f477fe86",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [
+          "CVE-2026-20122",
+          "CVE-2026-20127",
+          "CVE-2026-20128",
+          "CVE-2026-20133",
+          "CVE-2026-20182"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "cisa_kev",
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "CyberScoop",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Cisco zero-day under ongoing attack by persistent threat group",
+        "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/",
+        "published": "2026-05-15T14:11:59+00:00",
+        "summary": "The threat group behind the attacks is also linked to a series of recently disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems. The post Cisco zero-day under ongoing attack by persistent threat group appeared first on CyberScoop .",
+        "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close Attackers returned once again to a common target with a massive user base by exploiting a max-severity zero-day vulnerability affecting Cisco Catalyst SD-WAN Controller and Manager. The threat group behind the “limited” number of attacks Cisco is aware of thus far are also linked to a series of previously disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems, the company said in a threat advisory Thursday. The authentication bypass vulnerability — CVE-2026-20182 — has a CVSS rating of 10 and “behaves like a master key,” Douglas McKee, director of vulnerability intelligence at Rapid7, wrote in a blog post. “An attacker can present themselves to the controller as a trusted network router and, if the system accepts that claim without properly validating it, they can obtain the highest level of administrative access,” he added. “That is the cybersecurity version of a Jedi mind trick.” Advertisement Rapid7 discovered and reported the vulnerability to Cisco on March 9, and Cisco said it became aware of limited exploitation of the vulnerability earlier this month. The vendor disclosed and released a patch for the vulnerability Thursday, and the Cybersecurity and Infrastructure Security Agency quickly added the defect to its known exploited vulnerabilities catalog . Cisco did not explain what occurred during that two-month window. Yet, the disclosure and warning from researchers marks another challenge for Cisco customers that have confronted a flood of actively exploited vulnerabilities affecting the vendor’s network edge software since late February. Cisco isn’t the only security vendor facing an onslaught of attacks on its customers, but it is among the most heavily targeted. CISA has added seven vulnerabilities affecting Cisco SD-WANs and firewalls to its known exploited vulnerabilities catalog in less than three months. Cisco Talos researchers attributed the latest round of zero-day attacks to UAT-8616 , the same attackers that exploited a pair of separate zero-days in Cisco’s network edge software for at least three years before the activity was discovered and reported in February. The company, which described the exploitation of the new zero-day as ongoing, once again declined to answer questions about the origins or motivations of UAT-8616. Advertisement “We strongly recommend customers apply the available fixed software releases and follow the guidance provided in the advisories and Cisco Talos blog,” a spokesperson for the company said in a statement. Cisco Talos researchers also warned that UAT-8616 and at least 10 other threat groups have chained together and achieved “widespread in-the-wild active exploitation of three vulnerabilities in unpatched Cisco Catalyst SD-WAN Infrastructure.” The company previously disclosed and released patches for the vulnerabilities — including CVE-2026-20122 , CVE-2026-20128 and CVE-2026-20133 — in February. Rapid7 said it discovered the latest critical authentication bypass vulnerability when it was researching CVE-2026-20127 , a previous zero-day the Five Eyes identified and confirmed as actively exploited by UAT-8616 in late 2025. Authorities and Cisco waited at least two months to disclose and patch the vulnerability, and share emergency mitigation guidance. That campaign, which got underway at least three years prior, marked the second series of actively exploited zero-days in Cisco edge technology in less than a year. Both campaigns prompted CISA to issue emergency directives months after the attacks were first detected, and both attack sprees were underway for at least a year before they were discovered. The latest zero-day, which bypasses authentication in the same control-plane service as CVE-2026-20127, requires no credentials or prior knowledge of the target environment for exploitation, Jonah Burgess, senior security researcher at Rapid7, told CyberScoop. Advertisement “Cisco confirmed it affects al",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [
+            "CVE-2026-20122",
+            "CVE-2026-20127",
+            "CVE-2026-20128",
+            "CVE-2026-20133",
+            "CVE-2026-20182"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "no_patch_yet",
+            "cisa_kev"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "CyberScoop",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Cisco zero-day under ongoing attack by persistent threat group",
+          "link": "https://cyberscoop.com/cisco-sd-wan-zero-day-exploited/",
+          "published": "2026-05-15T14:11:59+00:00",
+          "summary": "The threat group behind the attacks is also linked to a series of recently disclosed vulnerabilities in the vendor’s firewalls and SD-WAN systems. The post Cisco zero-day under ongoing attack by persistent threat group appeared first on CyberScoop .",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [
+              "CVE-2026-20122",
+              "CVE-2026-20127",
+              "CVE-2026-20128",
+              "CVE-2026-20133",
+              "CVE-2026-20182"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "no_patch_yet",
+              "cisa_kev"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -6050,6 +5997,123 @@
       ]
     },
     {
+      "cluster_id": "4cca4604a8",
+      "priority_score": 12,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft 365",
+          "Okta"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Threat Intelligence",
+        "cohort": "threat_research_primary",
+        "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+        "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+        "published": "2026-05-15T14:00:00+00:00",
+        "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+        "full_body": "Threat Intelligence Welcome to BlackFile: Inside a Vishing Extortion Operation May 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has targeted dozens of organizations across North America, Australia, and the UK. GTIG previously highlighted UNC6671 as a distinct cluster in a prior report detailing similar SaaS data-theft techniques utilized by ShinyHunters (UNC6240). While UNC6671 has co-opted the ShinyHunters brand in at least one instance to inject artificial credibility into their threats, GTIG assesses that the operations are independent. This distinction is supported by UNC6671's use of separate TOX communication channels, unique domain registration patterns, and the launch of a dedicated \"BlackFile\" data leak site (DLS). These compromises are not the result of a security vulnerability in vendor products or infrastructure. Instead, this campaign continues to highlight the effectiveness of social engineering and underscores the critical importance of organizations moving toward phishing-resistant MFA to protect their SaaS and identity platforms . Initial Access UNC6671 initial access operations rely on high-volume voice phishing (vishing), often characterized by meticulous social engineering tactics, synchronized with real-time credential harvesting. These vishing calls are typically made by \"callers\" hired by the threat actor. IT Deployment Pretext The callers often call targeted employees' personal cellular phones to bypass security tooling and move the victim away from standard support channels. They typically masquerade as internal IT or help desk personnel, citing a mandatory migration to passkeys or a required multi-factor authentication (MFA) update. This pretext justifies directing the victim to a credential harvesting site and provides a logical cover for any subsequent security alerts generated during the compromise. UNC6671 has shifted from unique, organization-tailored credential harvesting domains to a subdomain-based model. These domains are typically registered with Tucows. Recent campaigns have used subdomains explicitly referencing \"passkey\" or \"enrollment\" themes to enhance the legitimacy of the help desk pretext . <organization>.enrollms[.]com <organization>.passkeyms[.]com <organization>.setupsso[.]com Real-Time MFA Interception The vishing call functions as a live adversary-in-the-middle (AitM) attack. The process follows a rapid, procedural lifecycle : Redirection : The victim is directed to a lookalike subdomain mirroring the organization's single sign-on (SSO) portal. Credential Capture : As the victim inputs their username and password, the threat actor captures these in real-time and immediately submits them to the legitimate SSO provider. MFA Bypass : When the legitimate portal issues an MFA challenge (Push, SMS, or TOTP), the victim—believing they are completing a setup step—provides the code or approval to the threat acto",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_attack"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft 365",
+            "Okta"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_attack"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365",
+              "Okta"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365",
+              "Okta"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a3958e5424",
       "priority_score": 11,
       "member_count": 1,
@@ -6184,6 +6248,73 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c34d1f8492",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Thinkpad vs Macbook pro endpoint security",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1teuu5w/thinkpad_vs_macbook_pro_endpoint_security/",
+        "published": "2026-05-16T14:13:37+00:00",
+        "summary": "Let's compare the intel t14 gen 6 with intel TME, to the macbook pro 14 m5. So off the bat I want to avoid supply chain vulnerabilities. I just want to focus on what hardware has the higher security ceiling. I go back and forth on this. On the one hand, Lenovo has thinkshield, encrypted memory and the ability to run FIPS compliant linux distros. On the other hand the macbook pro has its security enclave. The storage is another battle. Since apple storage can't be swapped. So we can compare the kanguru defender 30 SED nvme to the apple storage. This might be a wash since they are both really secure. What makes like apple slightly more is that it doesn't Intel's ME or microsoft pluton. I am inclined to thinkpad has the higher ceiling but let me know. submitted by /u/Fresh_Heron_3707 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Thinkpad vs Macbook pro endpoint security",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1teuu5w/thinkpad_vs_macbook_pro_endpoint_security/",
+          "published": "2026-05-16T14:13:37+00:00",
+          "summary": "Let's compare the intel t14 gen 6 with intel TME, to the macbook pro 14 m5. So off the bat I want to avoid supply chain vulnerabilities. I just want to focus on what hardware has the higher security ceiling. I go back and forth on this. On the one hand, Lenovo has thinkshield, encrypted memory and the ability to run FIPS compliant linux distros. On the other hand the macbook pro has its security enclave. The storage is another battle. Since apple storage can't be swapped. So we can compare the kanguru defender 30 SED nvme to the apple storage. This might be a wash since they are both really secure. What makes like apple slightly more is that it doesn't Intel's ME or microsoft pluton. I am inclined to thinkpad has the higher ceiling but let me know. submitted by /u/Fresh_Heron_3707 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -6957,21 +7088,16 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "nation_state",
-          "ransomware"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "threat_research"
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
@@ -6984,23 +7110,18 @@
         "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
         "published": "2026-05-14T13:00:44+00:00",
         "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "LABScon LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout LABScon / May 14, 2026 When a company suffers a cyber breach, its stock price often takes a hit, but the timing, depth, and duration of that reaction are far less predictable. In this LABScon25 presentation, Mick Baccio and Scott Roberts explore whether public indicators of breach activity can be used to anticipate market response before formal disclosure. Drawing on sources such as EDGAR filings, executive blog posts, and social media chatter, the speakers examine how public breadcrumbs can reveal incident activity early enough to support an opportunistic trading strategy. At the center of the talk is their “15/30” hypothesis: short the stock after a breach becomes visible, then flip long as the market recovers. To test the idea, Baccio and Roberts used AI-assisted data collection to build a dataset of public disclosures relating to “material” cyber breaches at U.S. companies. They then compared their initial, intuition-led model with a more structured time-series analysis based on a Hidden Markov Model to see whether a more rigorous timeline could improve performance. Along the way, the presentation digs into real-world breach cases, market misreads, and missed opportunities. One particularly useful comparison looks at two similarly sized casino operators hit by ransomware around the same period, illustrating how market outcomes can diverge sharply depending on factors such as response strategy, disclosure dynamics, and investor perception. After working through a set of highly mixed results, the speakers arrive at what they call “quantitized nihilism”, a conclusion that questions many of the assumptions analysts bring to cyber-event trading and how the market actually values cyber failures. This talk is essential viewing for security practitioners, investors, and analysts interested in the messy intersection of cyber risk, public disclosure, and market psychology. <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> About the Authors Mick Baccio is a globally recognized security strategist with a career spanning offensive operations, threat intelligence, and national-level incident response. He currently advises organizations around the world through his role at Splunk, helping security leaders improve operations through data-informed approaches. Mick was the first Chief Information Security Officer for a U.S. presidential campaign (2020), and previously served in the Obama White House as the Chief of the Threat Intelligence Branch. Scott J. Roberts is a cybersecurity leader with over 15 years of experience specializing in cyber threat intelligence and threat hunting after leadership roles at GitHub, Apple, and Splunk. He blends machine learning with traditional intelligence frameworks to track and disrupt nation state and criminal adversaries. LABScon 2026 | Call For Papers Submission Deadline: June 19, 2026 LABScon is a unique venue for original research to be shared among peers. The benefit of an invite-only audience of researchers is that there’s no need for long preambles or introductions – speakers are encouraged to dive right into their technical findings. Original content only. Talks are 20 minutes long + 5 minutes for Q&A. Workshops are 90 minutes long. LABScon is primarily a threat intelligence and vulnerability research conference but we keep an open-mind. About LABScon This presentation was featured live at LABScon 2025, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS. Keep up with all the latest on LABScon here.",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "nation_state"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "threat_research",
+          "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
       },
@@ -7012,145 +7133,6 @@
           "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
           "published": "2026-05-14T13:00:44+00:00",
           "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad3165eb09",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-        "published": "2026-05-14T19:37:56+00:00",
-        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-          "published": "2026-05-14T19:37:56+00:00",
-          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "34dacb9aa5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-        "published": "2026-05-13T17:36:53+00:00",
-        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
-          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
-          "published": "2026-05-13T17:36:53+00:00",
-          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7374,6 +7356,140 @@
       ]
     },
     {
+      "cluster_id": "ad3165eb09",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+        "published": "2026-05-14T19:37:56+00:00",
+        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+          "published": "2026-05-14T19:37:56+00:00",
+          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "34dacb9aa5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+        "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+        "published": "2026-05-13T17:36:53+00:00",
+        "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II",
+          "link": "https://citizenlab.ca/ron-deibert-speaks-at-the-osce-supplementary-human-dimension-meeting-ii/",
+          "published": "2026-05-13T17:36:53+00:00",
+          "summary": "Citizen Lab director Ron Deibert recently spoke at the OSCE Supplementary Human Dimension Meeting II on Safeguarding Civil Space in the Digital Age. The post Ron Deibert Speaks at the OSCE: Supplementary Human Dimension Meeting II appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1f34fcae04",
       "priority_score": 10,
       "member_count": 1,
@@ -7570,79 +7686,6 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3e50af038c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "GitHub Security Lab",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-        "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-        "published": "2026-05-15T14:00:00+00:00",
-        "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "GitHub Security Lab",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program",
-          "link": "https://github.blog/security/raising-the-bar-quality-shared-responsibility-and-the-future-of-githubs-bug-bounty-program/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "We're updating our bug bounty program standards to prioritize quality submissions, clarify shared responsibility boundaries, and evolve how we reward low-risk findings. The post Raising the bar: Quality, shared responsibility, and the future of GitHub’s bug bounty program appeared first on The GitHub Blog .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -7929,6 +7972,94 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d5f47a271d",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Popular node-ipc npm package compromised to steal credentials",
+        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+        "published": "2026-05-15T17:10:42+00:00",
+        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Popular node-ipc npm package compromised to steal credentials",
+          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
+          "published": "2026-05-15T17:10:42+00:00",
+          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -8290,94 +8421,6 @@
       ]
     },
     {
-      "cluster_id": "d5f47a271d",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Popular node-ipc npm package compromised to steal credentials",
-        "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-        "published": "2026-05-15T17:10:42+00:00",
-        "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "npm"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Popular node-ipc npm package compromised to steal credentials",
-          "link": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-          "published": "2026-05-15T17:10:42+00:00",
-          "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "npm"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "24359bd2ba",
       "priority_score": 10,
       "member_count": 1,
@@ -8500,52 +8543,12 @@
         "eb8e5fefbf",
         "39ec215030",
         "c97972626b",
-        "651d91b6fa",
         "06895f3526",
+        "651d91b6fa",
         "52d06b5a30",
         "db4739da92",
         "e8d332d1ab",
         "d5f47a271d"
-      ]
-    },
-    {
-      "label": "malware targeting GitHub",
-      "dominant_features": {
-        "threat_categories": [
-          "malware",
-          "vulnerability_disclosure",
-          "nation_state"
-        ],
-        "affected_industries": [
-          "government_public_sector"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure",
-          "threat_research",
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "cluster_count": 8,
-      "article_count": 12,
-      "cohesion": 0.317,
-      "cluster_ids": [
-        "2eb9132451",
-        "029fcc1f63",
-        "e605f0e929",
-        "09f484b295",
-        "cf2449e818",
-        "55d60e5654",
-        "03647dbe9e",
-        "3da3cf9f20"
       ]
     },
     {
@@ -8556,10 +8559,11 @@
           "vulnerability_disclosure",
           "active_exploitation",
           "malware",
-          "ransomware"
+          "data_breach"
         ],
         "affected_industries": [
-          "manufacturing_industrial"
+          "manufacturing_industrial",
+          "technology"
         ],
         "affected_products": [
           "Microsoft Exchange",
@@ -8584,14 +8588,16 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
-      "cluster_count": 5,
-      "article_count": 8,
-      "cohesion": 0.425,
+      "cluster_count": 6,
+      "article_count": 12,
+      "cohesion": 0.45,
       "cluster_ids": [
         "8e9036b5b9",
+        "255bec07f9",
         "6ca30bfec7",
         "044dd073f2",
         "29b070dccb",
@@ -8638,6 +8644,37 @@
       ]
     },
     {
+      "label": "vulnerability disclosure targeting GitHub",
+      "dominant_features": {
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "malware"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.306,
+      "cluster_ids": [
+        "2eb9132451",
+        "029fcc1f63",
+        "09f484b295",
+        "cf2449e818"
+      ]
+    },
+    {
       "label": "active exploitation targeting Cisco",
       "dominant_features": {
         "threat_categories": [
@@ -8675,29 +8712,32 @@
       ]
     },
     {
-      "label": "vulnerability disclosure activity",
+      "label": "malware affecting government public sector",
       "dominant_features": {
         "threat_categories": [
-          "vulnerability_disclosure"
+          "malware",
+          "nation_state"
         ],
-        "urgency_signals": [
-          "preauth_unauth"
+        "affected_industries": [
+          "government_public_sector"
+        ],
+        "geographic_scope": [
+          "ukraine"
         ],
         "content_type": [
-          "vulnerability_disclosure"
+          "uncategorized"
         ],
         "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_1_primary_research"
         ]
       },
       "cluster_count": 3,
-      "article_count": 7,
-      "cohesion": 0.333,
+      "article_count": 5,
+      "cohesion": 0.328,
       "cluster_ids": [
-        "b6e5532bde",
-        "22ff5ee355",
-        "f5e012a226"
+        "e605f0e929",
+        "55d60e5654",
+        "03647dbe9e"
       ]
     },
     {
@@ -8716,6 +8756,27 @@
       "cluster_ids": [
         "b45ac0ca64",
         "af7f3f5c0b"
+      ]
+    },
+    {
+      "label": "vulnerability disclosure activity",
+      "dominant_features": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 3,
+      "cohesion": 0.429,
+      "cluster_ids": [
+        "b6e5532bde",
+        "f5e012a226"
       ]
     },
     {
