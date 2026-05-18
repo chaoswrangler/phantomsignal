@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-17T23:00:20.581143+00:00",
+  "generated_at": "2026-05-18T00:03:18.837139+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 79,
-  "total_items_in_window": 483,
-  "total_clusters_raw": 457,
+  "feeds_ok": 78,
+  "total_items_in_window": 469,
+  "total_clusters_raw": 445,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 312,
-  "dropped_overflow": 65,
+  "dropped_low_score": 301,
+  "dropped_overflow": 64,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -81,13 +81,6 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -95,12 +88,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -108,6 +101,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -130,13 +130,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -151,12 +144,12 @@
       "item_count": 15,
       "in_window_count": 5
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -165,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -178,13 +171,6 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -200,9 +186,23 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
@@ -214,30 +214,16 @@
       "item_count": 50,
       "in_window_count": 11
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
-    },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -249,6 +235,20 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
@@ -256,12 +256,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -270,6 +270,13 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -277,12 +284,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 3
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -297,20 +318,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 4
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -333,18 +340,18 @@
       "item_count": 20,
       "in_window_count": 9
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "GreyNoise": {
@@ -359,7 +366,7 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 23
+      "in_window_count": 22
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -367,20 +374,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,6 +389,20 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -409,6 +416,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,54 +438,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -480,6 +452,34 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -487,12 +487,12 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 40
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,12 +501,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 40
+      "item_count": 100,
+      "in_window_count": 28
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -522,12 +522,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 4
+      "in_window_count": 3
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -535,13 +549,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 28
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -557,12 +564,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 16
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -571,12 +578,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -585,12 +599,12 @@
       "item_count": 25,
       "in_window_count": 9
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -599,12 +613,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -612,28 +626,14 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 16
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     }
   },
   "clusters": [
     {
       "cluster_id": "63ea56af01",
-      "priority_score": 40,
-      "member_count": 8,
-      "corroborating_source_count": 6,
+      "priority_score": 38,
+      "member_count": 7,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-20182"
       ],
@@ -731,35 +731,6 @@
               "actively_exploited",
               "zero_day",
               "cisa_kev"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        },
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182)",
-          "link": "https://www.helpnetsecurity.com/2026/05/15/cisco-sd-wan-zero-day-cve-2026-20182/",
-          "published": "2026-05-15T12:43:27+00:00",
-          "summary": "Cisco has patched yet another Catalyst SD-WAN Controller authentication bypass vulnerability (CVE-2026-20182) that has been exploited as a zero-day by “a highly sophisticated cyber threat actor”. About CVE-2026-20182 CVE-2026-20182 – affecting both Cisco Catalyst SD-WAN Controller (the “brain” of the Cisco Catalyst SD-WAN solution) and Cisco Catalyst SD-WAN Manager (the management plane for the entire SD-WAN fabric) – stems from a flawed peering authentication mechanism. It affects both on-prem and cloud deployments. CVE-2026-20182 was reported … More → The post Cisco patches another actively exploited SD-WAN zero-day (CVE-2026-20182) appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -982,33 +953,6 @@
           }
         },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-          "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-          "published": "2026-05-17T11:57:53+00:00",
-          "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        },
-        {
           "source": "Reddit r/cybersecurity",
           "cohort": "reddit_practitioner_osint",
           "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
@@ -1033,6 +977,33 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+          "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+          "published": "2026-05-17T11:57:53+00:00",
+          "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
           }
         },
         {
@@ -1064,10 +1035,118 @@
       ]
     },
     {
+      "cluster_id": "b45ac0ca64",
+      "priority_score": 26,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-41089"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Atlassian",
+          "Entra ID",
+          "Microsoft 365",
+          "Microsoft Windows"
+        ],
+        "cve_ids": [
+          "CVE-2020-1472",
+          "CVE-2026-26129",
+          "CVE-2026-41089",
+          "CVE-2026-41096",
+          "CVE-2026-41103"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Patch Tuesday - May 2026",
+        "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
+        "published": "2026-05-13T00:22:19+00:00",
+        "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
+        "full_body": "Back to Blog Exposure Management Patch Tuesday - May 2026 Adam Barnett May 13, 2026 | Last updated on May 13, 2026 | xx min read Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Microsoft assesses exploitation as less likely, but since those exploitability assessments are provided without an accompanying explanation, it’s not clear how much reassurance defenders should take. Anyone who remembers the much-discussed CVE-2020-1472 (aka ZeroLogon) back in 2020 will note that CVE-2026-41089 offers an attacker more immediate control of a domain controller. Patches are available for all versions of Windows Server from 2012 onwards. Windows DNS Client: critical RCE An attacker looking for a master key for Windows assets will pay attention to CVE-2026-41096 , a critical RCE in the Windows DNS client implementation. A modern computer talks to DNS the way a child in the back of a car asks “are we there yet?” The variable and complex structure of DNS responses means that DNS client implementations are also complex and thus prone to flaws. Microsoft assesses exploitation as less likely, and we can hope that modern mitigations such as heap address randomization and optional-but-recommended encrypted channel DNS will make weaponization significantly more challenging by putting barriers across specific paths to exploitation. The DNS client on Windows runs as the NetworkService role, rather than SYSTEM, but a foothold is a foothold, and skilled attackers expect to chain exploits together. JIRA/Confluence Entra ID auth plugin: critical EoP If you’re still self-hosting Atlassian JIRA or Confluence and relying on the Microsoft Entra ID authentication plugin, you’ll want to know about CVE-2026-41103 . This critical elevation of privilege vulnerability allows an unauthorized attacker to impersonate an existing user by presenting forged credentials, thus bypassing Entra ID. Microsoft expects that exploitation is more likely. Even if you can’t always find what you want on the corporate Confluence, a motivated attacker probably will. Curiously, the patch links on the advisory lead to older versions of the plugins published in 2024. Microsoft WARP team Microsoft’s WARP team is credited with multiple critical vulnerabilities today, after making their first appearance in MSRC advisory acknowledgements in last month’s Patch Tuesday. We can speculate that they likely know a great deal about the current state of AI-powered vulnerability research as it applies to Microsoft products. Microsoft lifecycle update There are no significant Microsoft product lifecycle changes this month. Microsoft .NET 9 STS (Standard Term Support, as distinct from Long Term Support) was originally scheduled to move past the end of support in May 2026, but late last year, Microsoft granted a six-month extension , so that .NET 9 STS now reaches end of support on November 10, 2026. Summary charts Summary tables Apps vulnerabilities CVE Title Exploitation status Publicly disclosed? CVSS v3 base score CVE-2026-26129 M365 Copilot Information Disclosure Vuln",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows",
+            "Microsoft 365",
+            "Entra ID",
+            "Atlassian"
+          ],
+          "cve_ids": [
+            "CVE-2020-1472",
+            "CVE-2026-26129",
+            "CVE-2026-41089",
+            "CVE-2026-41096",
+            "CVE-2026-41103"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Patch Tuesday - May 2026",
+          "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
+          "published": "2026-05-13T00:22:19+00:00",
+          "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows",
+              "Microsoft 365",
+              "Entra ID",
+              "Atlassian"
+            ],
+            "cve_ids": [
+              "CVE-2020-1472",
+              "CVE-2026-26129",
+              "CVE-2026-41089",
+              "CVE-2026-41096",
+              "CVE-2026-41103"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "8e9036b5b9",
-      "priority_score": 28,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "priority_score": 26,
+      "member_count": 2,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "CVE-2026-42897"
       ],
@@ -1102,7 +1181,6 @@
         ],
         "urgency_signals": [
           "actively_exploited",
-          "no_patch_yet",
           "poc_available",
           "zero_day"
         ],
@@ -1230,142 +1308,6 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
-          }
-        },
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Unpatched Microsoft Exchange Server vulnerability exploited (CVE-2026-42897)",
-          "link": "https://www.helpnetsecurity.com/2026/05/15/exchange-server-cve-2026-42897-exploited/",
-          "published": "2026-05-15T09:58:09+00:00",
-          "summary": "A critical cross-site scripting (XSS) vulnerability (CVE-2026-42897) in Microsoft Exchange Server is being exploited by attackers, Microsoft warned on Thursday. A permanent fix is still in the works. In the meantime, Microsoft provided temporary mitigations. About CVE-2026-42897 CVE-2026-42897 affects on-premises versions of Microsoft Exchange Server: Subscription Edition RTM, 2019, and 2016. Exchange Online is not affected. Flagged by an anonymous researcher, the vulnerability allows an unauthorized attacker to perform spoofing over a network. “An attacker … More → The post Unpatched Microsoft Exchange Server vulnerability exploited (CVE-2026-42897) appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [
-              "CVE-2026-42897"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b45ac0ca64",
-      "priority_score": 26,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-41089"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Atlassian",
-          "Entra ID",
-          "Microsoft 365",
-          "Microsoft Windows"
-        ],
-        "cve_ids": [
-          "CVE-2020-1472",
-          "CVE-2026-26129",
-          "CVE-2026-41089",
-          "CVE-2026-41096",
-          "CVE-2026-41103"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Patch Tuesday - May 2026",
-        "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
-        "published": "2026-05-13T00:22:19+00:00",
-        "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
-        "full_body": "Back to Blog Exposure Management Patch Tuesday - May 2026 Adam Barnett May 13, 2026 | Last updated on May 13, 2026 | xx min read Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Microsoft assesses exploitation as less likely, but since those exploitability assessments are provided without an accompanying explanation, it’s not clear how much reassurance defenders should take. Anyone who remembers the much-discussed CVE-2020-1472 (aka ZeroLogon) back in 2020 will note that CVE-2026-41089 offers an attacker more immediate control of a domain controller. Patches are available for all versions of Windows Server from 2012 onwards. Windows DNS Client: critical RCE An attacker looking for a master key for Windows assets will pay attention to CVE-2026-41096 , a critical RCE in the Windows DNS client implementation. A modern computer talks to DNS the way a child in the back of a car asks “are we there yet?” The variable and complex structure of DNS responses means that DNS client implementations are also complex and thus prone to flaws. Microsoft assesses exploitation as less likely, and we can hope that modern mitigations such as heap address randomization and optional-but-recommended encrypted channel DNS will make weaponization significantly more challenging by putting barriers across specific paths to exploitation. The DNS client on Windows runs as the NetworkService role, rather than SYSTEM, but a foothold is a foothold, and skilled attackers expect to chain exploits together. JIRA/Confluence Entra ID auth plugin: critical EoP If you’re still self-hosting Atlassian JIRA or Confluence and relying on the Microsoft Entra ID authentication plugin, you’ll want to know about CVE-2026-41103 . This critical elevation of privilege vulnerability allows an unauthorized attacker to impersonate an existing user by presenting forged credentials, thus bypassing Entra ID. Microsoft expects that exploitation is more likely. Even if you can’t always find what you want on the corporate Confluence, a motivated attacker probably will. Curiously, the patch links on the advisory lead to older versions of the plugins published in 2024. Microsoft WARP team Microsoft’s WARP team is credited with multiple critical vulnerabilities today, after making their first appearance in MSRC advisory acknowledgements in last month’s Patch Tuesday. We can speculate that they likely know a great deal about the current state of AI-powered vulnerability research as it applies to Microsoft products. Microsoft lifecycle update There are no significant Microsoft product lifecycle changes this month. Microsoft .NET 9 STS (Standard Term Support, as distinct from Long Term Support) was originally scheduled to move past the end of support in May 2026, but late last year, Microsoft granted a six-month extension , so that .NET 9 STS now reaches end of support on November 10, 2026. Summary charts Summary tables Apps vulnerabilities CVE Title Exploitation status Publicly disclosed? CVSS v3 base score CVE-2026-26129 M365 Copilot Information Disclosure Vuln",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows",
-            "Microsoft 365",
-            "Entra ID",
-            "Atlassian"
-          ],
-          "cve_ids": [
-            "CVE-2020-1472",
-            "CVE-2026-26129",
-            "CVE-2026-41089",
-            "CVE-2026-41096",
-            "CVE-2026-41103"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Patch Tuesday - May 2026",
-          "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-may-2026",
-          "published": "2026-05-13T00:22:19+00:00",
-          "summary": "Microsoft is publishing 137 vulnerabilities on May 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild or public disclosure for any of these vulnerabilities. So far this month, Microsoft has provided patches to address 133 browser vulnerabilities, which are not included in the Patch Tuesday count above. Windows Netlogon: critical RCE Anyone responsible for securing a domain controller should prioritize remediation of CVE-2026-41089 , which is a critical stack-based buffer overflow in Windows Netlogon with a CVSS v3 base score of 9.8. Exploitation leads to execution in the context of the Netlogon service, so that’s SYSTEM privileges on the domain controller. For most pentesters, that’s the point at which the customer report more or less writes itself. No privileges or user interaction are required, and attack complexity is low, which suggests that creation of a reliable exploit might not be especially difficult for anyone with knowledge of the specific mechanism. Mic",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows",
-              "Microsoft 365",
-              "Entra ID",
-              "Atlassian"
-            ],
-            "cve_ids": [
-              "CVE-2020-1472",
-              "CVE-2026-26129",
-              "CVE-2026-41089",
-              "CVE-2026-41096",
-              "CVE-2026-41103"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -3767,6 +3709,91 @@
       ]
     },
     {
+      "cluster_id": "d7eba37810",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Mean time-to-exploit just hit 2.1 days. Critical vulnerabilities everywhere. Is the AI apocalypse here?",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tg58gm/mean_timetoexploit_just_hit_21_days_critical/",
+        "published": "2026-05-17T23:23:33+00:00",
+        "summary": "Mandiant's new figure: attacks begin 7 days before the patch ships. Patch Tuesday is now exploit-last-Friday Supporting stats: 71% of known exploits hit same-day as disclosure (Zero Day Clock) 40% of breaches start with an unpatched flaw (IBM) +162% CVE volume since 2020 (Mondoo) 25,973 CVEs filed in 2026 already — heading towards 70k, FIRST.org forecasts up to 100k And we seem to be seeing a lot of Linux and other software critical vulnerabilities lately, all thanks to AI. Take a look at https://zerodayclock.com Is the AI exploit apocalypse here? Is this the end? submitted by /u/Mr_Prometius [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Mean time-to-exploit just hit 2.1 days. Critical vulnerabilities everywhere. Is the AI apocalypse here?",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tg58gm/mean_timetoexploit_just_hit_21_days_critical/",
+          "published": "2026-05-17T23:23:33+00:00",
+          "summary": "Mandiant's new figure: attacks begin 7 days before the patch ships. Patch Tuesday is now exploit-last-Friday Supporting stats: 71% of known exploits hit same-day as disclosure (Zero Day Clock) 40% of breaches start with an unpatched flaw (IBM) +162% CVE volume since 2020 (Mondoo) 25,973 CVEs filed in 2026 already — heading towards 70k, FIRST.org forecasts up to 100k And we seem to be seeing a lot of Linux and other software critical vulnerabilities lately, all thanks to AI. Take a look at https://zerodayclock.com Is the AI exploit apocalypse here? Is this the end? submitted by /u/Mr_Prometius [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "af7f3f5c0b",
       "priority_score": 13,
       "member_count": 1,
@@ -4249,6 +4276,191 @@
       ]
     },
     {
+      "cluster_id": "12769a0a4d",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "GitHub",
+          "Google Cloud",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
+        "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
+        "published": "2026-05-14T00:00:00+00:00",
+        "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
+        "full_body": "Martin McCloskey Staff Security Engineer Sebastian Obregoso Security Researcher Rory McCune Senior Advocate - Security & Compliance What happened On May 11th a coordinated supply chain campaign poisoned 170 legitimate packages across npm and PyPI within a five-hour window. SafeDep documented the notable victims, malicious versions of @tanstack/react-router (3M+ weekly downloads) pushed through compromised npm tokens alongside a direct commit to the upstream GitHub repo (79ac49eed), and a backdoored mistralai==2.4.6 slipped onto PyPI with no corresponding upstream tag. While investigating the mistralai compromise, we discovered that transformers.pyz a payload embedded in the malicious wheel was also associated with releases on the cemu-project/Cemu GitHub release page, a Nintendo Wii U emulator with no obvious relationship to Python ML SDKs. Investigation into the Cemu project While investigating transformers.pyz on VirusTotal, pivoting on its SHA256 led us to a second binary bundling the same file: Cemu-2.6-x86_64.AppImage . We confirmed this was the image hosted on the official cemu-project/Cemu GitHub release page. The Cemu v2.6 GitHub release page showing backdoored Linux assets re-uploaded by MangelSpec alongside the original macOS and Windows builds Cemu-2.6-x86_64.AppImage is a single-file Linux application bundle; under the hood it is a SquashFS image with a small ELF prefix. Extracting it laid out the bundled filesystem under squashfs-root/ . The interesting artifact lives at squashfs-root/usr/share/Cemu/scripts/startup.pyz â a path that does not exist in the legitimate Cemu build. There is no scripts/ directory in upstream Cemu and no Python interpreter in its dependency graph; the file is foreign to the project. startup.pyz is a Python zipapp: a renamed zip archive with a __main__.py entrypoint, designed to be executed by the system Python interpreter. Its sha256 ( 0f35abda19fb69430c32228465396094b866d887427bf551e353ab31256a9dd6 ) indicates byte-for-byte identical to the transformers.pyz distributed through the TanStack npm campaign. Unzipping startup.pyz reveals the campaign's working set: Date Time Attr Size Compressed Name ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 D.... 0 0 python_mistral_cemu_files 2026-05-05 06:02:52 D.... 0 0 python_mistral_cemu_files/utilities 2026-05-03 04:24:52 ..... 0 12 python_mistral_cemu_files/utilities/__init__.py 2026-05-07 00:38:54 ..... 1565 568 python_mistral_cemu_files/utilities/crypto.py 2026-05-05 05:56:18 ..... 2411 846 python_mistral_cemu_files/utilities/aws_signer.py 2026-05-06 21:25:52 ..... 1579 554 python_mistral_cemu_files/__main__.py 2026-05-12 09:21:46 ..... 6035 2582 python_mistral_cemu_files/entrypoint.py 2026-05-07 17:07:42 ..... 2457 1150 python_mistral_cemu_files/LICENSE 2026-05-12 09:20:38 ..... 897 409 python_mistral_cemu_files/aggregate.py 2026-05-07 00:39:02 ..... 3729 1335 python_mistral_cemu_files/roulette.py 2026-05-05 06:02:42 D.... 0 0 python_mistral_cemu_files/collectors 2026-05-07 00:30:36 ..... 10499 2617 python_mistral_cemu_files/collectors/filesystem.py 2026-05-05 04:21:48 ..... 11943 3172 python_mistral_cemu_files/collectors/kubernetes.py 2026-05-07 00:32:20 ..... 4224 1445 python_mistral_cemu_files/collectors/vault.py 2026-05-06 21:22:46 ..... 7274 1953 python_mistral_cemu_files/collectors/aws.py 2026-05-03 04:24:58 ..... 6370 1891 python_mistral_cemu_files/collectors/gcp.py 2026-05-03 22:43:44 ..... 3930 947 python_mistral_cemu_files/collectors/passwords.py 2026-05-03 04:10:34 ..... 0 12 python_mistral_cemu_files/collectors/__init__.py 2026-05-03 04:24:58 ..... 7803 2178 python_mistral_cemu_files/collectors/azure.py ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 70716 21671 16 files, 3 folders GitHub release investigation The npm and PyPI legs of this campaign were credential-driven: stolen publishing tokens used to ship malicious versions of l",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "Google Cloud",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
+          "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
+          "published": "2026-05-14T00:00:00+00:00",
+          "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "Google Cloud",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "06895f3526",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "GitHub",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Shai-Hulud Goes Open Source",
+        "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
+        "published": "2026-05-13T00:00:00+00:00",
+        "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
+        "full_body": "Ryan Simon Senior Security Researcher Sebastian Obregoso Security Researcher Greg Foss Manager, Threat Detection & Research Key points and observations On May 12, 2026, a GitHub repository noticed under several likely compromised users ( github search ) appeared containing what appears to be the complete source code for the Shai-Hulud offensive framework attributed to TeamPCP. The repository's README explicitly states: \"Love - TeamPCP\" and \"Change keys and C2 as needed.\" The framework is a modular TypeScript/Bun toolkit for credential harvesting, supply chain poisoning, and encrypted data exfiltration, targeting both CI/CD pipelines and developer workstations. All 3 commits use a spoofed date ( 2099-01-01 ) and are authored by TeamPCP_OSS <TeamPCP> . The source code maps directly to compiled artifacts previously observed in the wild including router_init.js , setup.mjs , and opensearch_init.js The released source code showed evolving capabilities for persistence via AI agent integration and stealth by adding sigstore provenance to releases Background Throughout early-to-mid 2026, the threat actor known as TeamPCP conducted a series of escalating supply chain attacks across the npm and PyPI ecosystems. Multiple open source reports provided detailed analyses of the campaign's evolution from the initial Trivy and Checkmarx KICS tag hijacking in March, through the LiteLLM PyPI poisoning, to the more recent TanStack and UiPath npm compromises. These reports described the compiled payloads and their behavior in detail: obfuscated 2.3MB JavaScript bundles, OIDC token abuse for trusted publishing, Runner.Worker memory extraction, and AES-256-GCM encrypted exfiltration to domains mimicking legitimate open source projects. What they couldn't show was the source code behind it all. On May 12, 2026, a repository briefly appeared on GitHub that filled that gap. This appears to have been removed by GitHub shortly after publishing, though not in time to prevent multiple forks. We were able to obtain a copy of the code before it was pulled and performed a static analysis of the repository contents and found a complete, production-grade offensive framework that accounts for nearly every TTP previously attributed to TeamPCP. GitHub repository overview showing the Shai-Hulud-Open-Source project structure and metadata (click to enlarge) Architecture overview The framework follows a clean pipeline design. Each stage is decoupled through well-defined interfaces, which allows operators to swap components. Shai-Hulud framework architecture showing the pipeline from loaders through providers, collector, dispatcher, senders, and mutators (click to enlarge) Component Role Loaders Stage-1 droppers ( BASH_LOADER.sh , PYTHON_LOADER.py , config.mjs ) that bootstrap execution by downloading the Bun runtime and launching the bundled JavaScript payload Providers Credential and secret collection modules, each targeting a specific source: filesystem, shell environment, GitHub Actions runners, AWS, Kubernetes, HashiCorp Vault Collector Buffered ingestion layer with a configurable flush threshold (default: 100KB), batching results before handoff to the dispatcher Dispatcher Manages encrypted delivery with ordered failover across multiple sender backends Senders Exfiltration channelsHTTPS POST to a C2 domain, or GitHub repositories used as encrypted dead-drops Mutators Supply chain propagation by poisoning GitHub repository branches and publishing backdoored npm packages Credential harvesting The toolkit's collection capabilities are broad. Three providers run immediately on startup as \"quick results\" before the heavier cloud-targeting providers are initialized. Filesystem scanning The FileSystemService maintains OS-specific lists of over 100 sensitive file paths. On Linux and macOS, these include: Cloud credentials: ~/.aws/credentials , ~/.azure/accessTokens.json , ~/.config/gcloud/credentials.db SSH material: ~/.ssh/id_* , ~/.ssh/config , ~/.ssh/known_hosts Kuber",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Shai-Hulud Goes Open Source",
+          "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
+          "published": "2026-05-13T00:00:00+00:00",
+          "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4c42bf483b",
       "priority_score": 12,
       "member_count": 1,
@@ -4446,191 +4658,6 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "12769a0a4d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-        "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-        "full_body": "Martin McCloskey Staff Security Engineer Sebastian Obregoso Security Researcher Rory McCune Senior Advocate - Security & Compliance What happened On May 11th a coordinated supply chain campaign poisoned 170 legitimate packages across npm and PyPI within a five-hour window. SafeDep documented the notable victims, malicious versions of @tanstack/react-router (3M+ weekly downloads) pushed through compromised npm tokens alongside a direct commit to the upstream GitHub repo (79ac49eed), and a backdoored mistralai==2.4.6 slipped onto PyPI with no corresponding upstream tag. While investigating the mistralai compromise, we discovered that transformers.pyz a payload embedded in the malicious wheel was also associated with releases on the cemu-project/Cemu GitHub release page, a Nintendo Wii U emulator with no obvious relationship to Python ML SDKs. Investigation into the Cemu project While investigating transformers.pyz on VirusTotal, pivoting on its SHA256 led us to a second binary bundling the same file: Cemu-2.6-x86_64.AppImage . We confirmed this was the image hosted on the official cemu-project/Cemu GitHub release page. The Cemu v2.6 GitHub release page showing backdoored Linux assets re-uploaded by MangelSpec alongside the original macOS and Windows builds Cemu-2.6-x86_64.AppImage is a single-file Linux application bundle; under the hood it is a SquashFS image with a small ELF prefix. Extracting it laid out the bundled filesystem under squashfs-root/ . The interesting artifact lives at squashfs-root/usr/share/Cemu/scripts/startup.pyz â a path that does not exist in the legitimate Cemu build. There is no scripts/ directory in upstream Cemu and no Python interpreter in its dependency graph; the file is foreign to the project. startup.pyz is a Python zipapp: a renamed zip archive with a __main__.py entrypoint, designed to be executed by the system Python interpreter. Its sha256 ( 0f35abda19fb69430c32228465396094b866d887427bf551e353ab31256a9dd6 ) indicates byte-for-byte identical to the transformers.pyz distributed through the TanStack npm campaign. Unzipping startup.pyz reveals the campaign's working set: Date Time Attr Size Compressed Name ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 D.... 0 0 python_mistral_cemu_files 2026-05-05 06:02:52 D.... 0 0 python_mistral_cemu_files/utilities 2026-05-03 04:24:52 ..... 0 12 python_mistral_cemu_files/utilities/__init__.py 2026-05-07 00:38:54 ..... 1565 568 python_mistral_cemu_files/utilities/crypto.py 2026-05-05 05:56:18 ..... 2411 846 python_mistral_cemu_files/utilities/aws_signer.py 2026-05-06 21:25:52 ..... 1579 554 python_mistral_cemu_files/__main__.py 2026-05-12 09:21:46 ..... 6035 2582 python_mistral_cemu_files/entrypoint.py 2026-05-07 17:07:42 ..... 2457 1150 python_mistral_cemu_files/LICENSE 2026-05-12 09:20:38 ..... 897 409 python_mistral_cemu_files/aggregate.py 2026-05-07 00:39:02 ..... 3729 1335 python_mistral_cemu_files/roulette.py 2026-05-05 06:02:42 D.... 0 0 python_mistral_cemu_files/collectors 2026-05-07 00:30:36 ..... 10499 2617 python_mistral_cemu_files/collectors/filesystem.py 2026-05-05 04:21:48 ..... 11943 3172 python_mistral_cemu_files/collectors/kubernetes.py 2026-05-07 00:32:20 ..... 4224 1445 python_mistral_cemu_files/collectors/vault.py 2026-05-06 21:22:46 ..... 7274 1953 python_mistral_cemu_files/collectors/aws.py 2026-05-03 04:24:58 ..... 6370 1891 python_mistral_cemu_files/collectors/gcp.py 2026-05-03 22:43:44 ..... 3930 947 python_mistral_cemu_files/collectors/passwords.py 2026-05-03 04:10:34 ..... 0 12 python_mistral_cemu_files/collectors/__init__.py 2026-05-03 04:24:58 ..... 7803 2178 python_mistral_cemu_files/collectors/azure.py ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 70716 21671 16 files, 3 folders GitHub release investigation The npm and PyPI legs of this campaign were credential-driven: stolen publishing tokens used to ship malicious versions of l",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-          "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "06895f3526",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Shai-Hulud Goes Open Source",
-        "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
-        "published": "2026-05-13T00:00:00+00:00",
-        "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
-        "full_body": "Ryan Simon Senior Security Researcher Sebastian Obregoso Security Researcher Greg Foss Manager, Threat Detection & Research Key points and observations On May 12, 2026, a GitHub repository noticed under several likely compromised users ( github search ) appeared containing what appears to be the complete source code for the Shai-Hulud offensive framework attributed to TeamPCP. The repository's README explicitly states: \"Love - TeamPCP\" and \"Change keys and C2 as needed.\" The framework is a modular TypeScript/Bun toolkit for credential harvesting, supply chain poisoning, and encrypted data exfiltration, targeting both CI/CD pipelines and developer workstations. All 3 commits use a spoofed date ( 2099-01-01 ) and are authored by TeamPCP_OSS <TeamPCP> . The source code maps directly to compiled artifacts previously observed in the wild including router_init.js , setup.mjs , and opensearch_init.js The released source code showed evolving capabilities for persistence via AI agent integration and stealth by adding sigstore provenance to releases Background Throughout early-to-mid 2026, the threat actor known as TeamPCP conducted a series of escalating supply chain attacks across the npm and PyPI ecosystems. Multiple open source reports provided detailed analyses of the campaign's evolution from the initial Trivy and Checkmarx KICS tag hijacking in March, through the LiteLLM PyPI poisoning, to the more recent TanStack and UiPath npm compromises. These reports described the compiled payloads and their behavior in detail: obfuscated 2.3MB JavaScript bundles, OIDC token abuse for trusted publishing, Runner.Worker memory extraction, and AES-256-GCM encrypted exfiltration to domains mimicking legitimate open source projects. What they couldn't show was the source code behind it all. On May 12, 2026, a repository briefly appeared on GitHub that filled that gap. This appears to have been removed by GitHub shortly after publishing, though not in time to prevent multiple forks. We were able to obtain a copy of the code before it was pulled and performed a static analysis of the repository contents and found a complete, production-grade offensive framework that accounts for nearly every TTP previously attributed to TeamPCP. GitHub repository overview showing the Shai-Hulud-Open-Source project structure and metadata (click to enlarge) Architecture overview The framework follows a clean pipeline design. Each stage is decoupled through well-defined interfaces, which allows operators to swap components. Shai-Hulud framework architecture showing the pipeline from loaders through providers, collector, dispatcher, senders, and mutators (click to enlarge) Component Role Loaders Stage-1 droppers ( BASH_LOADER.sh , PYTHON_LOADER.py , config.mjs ) that bootstrap execution by downloading the Bun runtime and launching the bundled JavaScript payload Providers Credential and secret collection modules, each targeting a specific source: filesystem, shell environment, GitHub Actions runners, AWS, Kubernetes, HashiCorp Vault Collector Buffered ingestion layer with a configurable flush threshold (default: 100KB), batching results before handoff to the dispatcher Dispatcher Manages encrypted delivery with ordered failover across multiple sender backends Senders Exfiltration channelsHTTPS POST to a C2 domain, or GitHub repositories used as encrypted dead-drops Mutators Supply chain propagation by poisoning GitHub repository branches and publishing backdoored npm packages Credential harvesting The toolkit's collection capabilities are broad. Three providers run immediately on startup as \"quick results\" before the heavier cloud-targeting providers are initialized. Filesystem scanning The FileSystemService maintains OS-specific lists of over 100 sensitive file paths. On Linux and macOS, these include: Cloud credentials: ~/.aws/credentials , ~/.azure/accessTokens.json , ~/.config/gcloud/credentials.db SSH material: ~/.ssh/id_* , ~/.ssh/config , ~/.ssh/known_hosts Kuber",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Shai-Hulud Goes Open Source",
-          "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
-          "published": "2026-05-13T00:00:00+00:00",
-          "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -4895,7 +4922,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
         "published": "2026-05-15T17:47:25+00:00",
         "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
-        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 1 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
+        "full_body": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own By Sergiu Gatlan May 15, 2026 01:47 PM 1 ​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. The Pwn2Own Berlin 2026 hacking competition takes place at the OffensiveCon conference from May 14 to May 16 and focuses on enterprise technologies and artificial intelligence. Security researchers can earn over $1,000,000 in cash and prizes by hacking fully patched products in the web browser, enterprise applications, cloud-native/container environments, virtualization, local privilege escalation, servers, local inference, and LLM categories. According to Pwn2Own's rules , all targeted devices run the latest operating system versions, and all entries must compromise the target and demonstrate arbitrary code execution. Vendors have 90 days to patch their software and hardware after the zero-days are disclosed at Pwn2Own. The highlight of the second day was Cheng-Da Tsai (also known as Orange Tsai) of DEVCORE Research Team earning $200,000 after chaining three bugs to gain remote code execution with SYSTEM privileges on Microsoft Exchange. Siyeon Wi also collected $7,500 after exploiting an integer overflow bug to hack Windows 11 , and Ben Koo of Team DDOS escalated privileges to root on Red Hat Enterprise Linux for Workstations to earn a $10,000 cash prize, while 0xDACA and Noam Trobishi used a use-after-free bug to exploit the NVIDIA Container Toolkit . In the AI category, Le Duc Anh Vu of Viettel Cyber Security hacked the Cursor AI coding agent for $30,000, Sina Kheirkhah of Summoning Team demoed an OpenAI Codex zero-day ($20,000), and Compass Security exploited Cursor ($15,000). Pwn2Own leaderboard (ZDI) On the first day , Orange Tsai earned another $175,000 after chaining 4 logic bugs for a Microsoft Edge sandbox escape, while Valentina Palmiotti (chompie) of IBM X-Force Offensive Research collected $20,000 for rooting Red Hat Linux for Workstations and $50,000 for an NVIDIA Container Toolkit zero-day. Windows 11 was also hacked three times on day one by Angelboy and TwinkleStar03 (working with the DEVCORE Internship Program), Kentaro Kawane of GMO Cybersecurity, and Marcin Wiązowski, each earning $30,000 in cash rewards for demonstrating new privilege-escalation zero-days. On the third day of Pwn2Own, the hackers will target Microsoft Windows 11, VMware ESXi, Red Hat Enterprise Linux, Microsoft SharePoint, and several AI coding agents. The full schedule for the second day and the results for each challenge are available here , while the complete schedule for Pwn2Own Berlin 2026 is available here . During last year's Pwn2Own Berlin contest , TrendMicro's Zero Day Initiative awarded 1,078,750 for 29 zero-day flaws and some bug collisions. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026 New Linux 'Dirty Frag' zero-day gives root on all major distros New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released Windows BitLocker zero-day gives access to protected drives, PoC released Google: Hackers used AI to develop zero-day exploit for web admin tool",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5696,6 +5723,123 @@
       ]
     },
     {
+      "cluster_id": "4cca4604a8",
+      "priority_score": 12,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft 365",
+          "Okta"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research",
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Google Cloud Threat Intelligence",
+        "cohort": "threat_research_primary",
+        "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+        "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+        "published": "2026-05-15T14:00:00+00:00",
+        "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+        "full_body": "Threat Intelligence Welcome to BlackFile: Inside a Vishing Extortion Operation May 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has targeted dozens of organizations across North America, Australia, and the UK. GTIG previously highlighted UNC6671 as a distinct cluster in a prior report detailing similar SaaS data-theft techniques utilized by ShinyHunters (UNC6240). While UNC6671 has co-opted the ShinyHunters brand in at least one instance to inject artificial credibility into their threats, GTIG assesses that the operations are independent. This distinction is supported by UNC6671's use of separate TOX communication channels, unique domain registration patterns, and the launch of a dedicated \"BlackFile\" data leak site (DLS). These compromises are not the result of a security vulnerability in vendor products or infrastructure. Instead, this campaign continues to highlight the effectiveness of social engineering and underscores the critical importance of organizations moving toward phishing-resistant MFA to protect their SaaS and identity platforms . Initial Access UNC6671 initial access operations rely on high-volume voice phishing (vishing), often characterized by meticulous social engineering tactics, synchronized with real-time credential harvesting. These vishing calls are typically made by \"callers\" hired by the threat actor. IT Deployment Pretext The callers often call targeted employees' personal cellular phones to bypass security tooling and move the victim away from standard support channels. They typically masquerade as internal IT or help desk personnel, citing a mandatory migration to passkeys or a required multi-factor authentication (MFA) update. This pretext justifies directing the victim to a credential harvesting site and provides a logical cover for any subsequent security alerts generated during the compromise. UNC6671 has shifted from unique, organization-tailored credential harvesting domains to a subdomain-based model. These domains are typically registered with Tucows. Recent campaigns have used subdomains explicitly referencing \"passkey\" or \"enrollment\" themes to enhance the legitimacy of the help desk pretext . <organization>.enrollms[.]com <organization>.passkeyms[.]com <organization>.setupsso[.]com Real-Time MFA Interception The vishing call functions as a live adversary-in-the-middle (AitM) attack. The process follows a rapid, procedural lifecycle : Redirection : The victim is directed to a lookalike subdomain mirroring the organization's single sign-on (SSO) portal. Credential Capture : As the victim inputs their username and password, the threat actor captures these in real-time and immediately submits them to the legitimate SSO provider. MFA Bypass : When the legitimate portal issues an MFA challenge (Push, SMS, or TOTP), the victim—believing they are completing a setup step—provides the code or approval to the threat acto",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_attack"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft 365",
+            "Okta"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Google Cloud Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_attack"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365",
+              "Okta"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
+          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
+          "published": "2026-05-15T14:00:00+00:00",
+          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365",
+              "Okta"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "255bec07f9",
       "priority_score": 12,
       "member_count": 2,
@@ -5860,123 +6004,6 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4cca4604a8",
-      "priority_score": 12,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365",
-          "Okta"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Threat Intelligence",
-        "cohort": "threat_research_primary",
-        "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-        "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-        "published": "2026-05-15T14:00:00+00:00",
-        "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-        "full_body": "Threat Intelligence Welcome to BlackFile: Inside a Vishing Extortion Operation May 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has targeted dozens of organizations across North America, Australia, and the UK. GTIG previously highlighted UNC6671 as a distinct cluster in a prior report detailing similar SaaS data-theft techniques utilized by ShinyHunters (UNC6240). While UNC6671 has co-opted the ShinyHunters brand in at least one instance to inject artificial credibility into their threats, GTIG assesses that the operations are independent. This distinction is supported by UNC6671's use of separate TOX communication channels, unique domain registration patterns, and the launch of a dedicated \"BlackFile\" data leak site (DLS). These compromises are not the result of a security vulnerability in vendor products or infrastructure. Instead, this campaign continues to highlight the effectiveness of social engineering and underscores the critical importance of organizations moving toward phishing-resistant MFA to protect their SaaS and identity platforms . Initial Access UNC6671 initial access operations rely on high-volume voice phishing (vishing), often characterized by meticulous social engineering tactics, synchronized with real-time credential harvesting. These vishing calls are typically made by \"callers\" hired by the threat actor. IT Deployment Pretext The callers often call targeted employees' personal cellular phones to bypass security tooling and move the victim away from standard support channels. They typically masquerade as internal IT or help desk personnel, citing a mandatory migration to passkeys or a required multi-factor authentication (MFA) update. This pretext justifies directing the victim to a credential harvesting site and provides a logical cover for any subsequent security alerts generated during the compromise. UNC6671 has shifted from unique, organization-tailored credential harvesting domains to a subdomain-based model. These domains are typically registered with Tucows. Recent campaigns have used subdomains explicitly referencing \"passkey\" or \"enrollment\" themes to enhance the legitimacy of the help desk pretext . <organization>.enrollms[.]com <organization>.passkeyms[.]com <organization>.setupsso[.]com Real-Time MFA Interception The vishing call functions as a live adversary-in-the-middle (AitM) attack. The process follows a rapid, procedural lifecycle : Redirection : The victim is directed to a lookalike subdomain mirroring the organization's single sign-on (SSO) portal. Credential Capture : As the victim inputs their username and password, the threat actor captures these in real-time and immediately submits them to the legitimate SSO provider. MFA Bypass : When the legitimate portal issues an MFA challenge (Push, SMS, or TOTP), the victim—believing they are completing a setup step—provides the code or approval to the threat acto",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "credential_attack"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft 365",
-            "Okta"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "credential_attack"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365",
-              "Okta"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Welcome to BlackFile: Inside a Vishing Extortion Operation",
-          "link": "https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation/",
-          "published": "2026-05-15T14:00:00+00:00",
-          "summary": "Written by: Austin Larsen, Tyler McLellan, Genevieve Stark, Dan Ebreo Introduction Google Threat Intelligence Group (GTIG) has continued to track an expansive extortion campaign by UNC6671, a threat actor operating under the \"BlackFile\" brand, that targets organizations via sophisticated voice phishing (vishing) and single sign-on (SSO) compromise. By leveraging adversary-in-the-middle (AiTM) techniques to bypass traditional perimeter defenses and multi-factor authentication (MFA), UNC6671 gains deep access to cloud environments. The group primarily targets Microsoft 365 and Okta infrastructure, leveraging Python and PowerShell scripts to programmatically exfiltrate sensitive corporate data for subsequent extortion attempts. This post details UNC6671’s attack lifecycle and provides defenders with actionable guidance to detect and mitigate these identity-centric threats. Since emerging in early 2026, UNC6671 has maintained a high operational cadence. GTIG assesses that the group has tar",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365",
-              "Okta"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -6889,21 +6916,16 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "nation_state",
-          "ransomware"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "threat_research"
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
@@ -6916,23 +6938,18 @@
         "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
         "published": "2026-05-14T13:00:44+00:00",
         "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "LABScon LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout LABScon / May 14, 2026 When a company suffers a cyber breach, its stock price often takes a hit, but the timing, depth, and duration of that reaction are far less predictable. In this LABScon25 presentation, Mick Baccio and Scott Roberts explore whether public indicators of breach activity can be used to anticipate market response before formal disclosure. Drawing on sources such as EDGAR filings, executive blog posts, and social media chatter, the speakers examine how public breadcrumbs can reveal incident activity early enough to support an opportunistic trading strategy. At the center of the talk is their “15/30” hypothesis: short the stock after a breach becomes visible, then flip long as the market recovers. To test the idea, Baccio and Roberts used AI-assisted data collection to build a dataset of public disclosures relating to “material” cyber breaches at U.S. companies. They then compared their initial, intuition-led model with a more structured time-series analysis based on a Hidden Markov Model to see whether a more rigorous timeline could improve performance. Along the way, the presentation digs into real-world breach cases, market misreads, and missed opportunities. One particularly useful comparison looks at two similarly sized casino operators hit by ransomware around the same period, illustrating how market outcomes can diverge sharply depending on factors such as response strategy, disclosure dynamics, and investor perception. After working through a set of highly mixed results, the speakers arrive at what they call “quantitized nihilism”, a conclusion that questions many of the assumptions analysts bring to cyber-event trading and how the market actually values cyber failures. This talk is essential viewing for security practitioners, investors, and analysts interested in the messy intersection of cyber risk, public disclosure, and market psychology. <span data-mce-type=\"bookmark\" style=\"display: inline-block; width: 0px; overflow: hidden; line-height: 0;\" class=\"mce_SELRES_start\">﻿</span> About the Authors Mick Baccio is a globally recognized security strategist with a career spanning offensive operations, threat intelligence, and national-level incident response. He currently advises organizations around the world through his role at Splunk, helping security leaders improve operations through data-informed approaches. Mick was the first Chief Information Security Officer for a U.S. presidential campaign (2020), and previously served in the Obama White House as the Chief of the Threat Intelligence Branch. Scott J. Roberts is a cybersecurity leader with over 15 years of experience specializing in cyber threat intelligence and threat hunting after leadership roles at GitHub, Apple, and Splunk. He blends machine learning with traditional intelligence frameworks to track and disrupt nation state and criminal adversaries. LABScon 2026 | Call For Papers Submission Deadline: June 19, 2026 LABScon is a unique venue for original research to be shared among peers. The benefit of an invite-only audience of researchers is that there’s no need for long preambles or introductions – speakers are encouraged to dive right into their technical findings. Original content only. Talks are 20 minutes long + 5 minutes for Q&A. Workshops are 90 minutes long. LABScon is primarily a threat intelligence and vulnerability research conference but we keep an open-mind. About LABScon This presentation was featured live at LABScon 2025, an immersive 3-day conference bringing together the world’s top cybersecurity minds, hosted by SentinelOne’s research arm, SentinelLABS. Keep up with all the latest on LABScon here.",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "nation_state"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "threat_research",
+          "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
       },
@@ -6945,20 +6962,15 @@
           "published": "2026-05-14T13:00:44+00:00",
           "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "nation_state"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
+            "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "threat_research",
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7583,85 +7595,6 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "57ba190969",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Malicious Coding Agent Skills and the Risk of Dynamic Context",
-        "link": "https://securitylabs.datadoghq.com/articles/malicious-skills-supply-chain-risks-in-coding-agents-with-dynamic-context/",
-        "published": "2026-05-11T00:00:00+00:00",
-        "summary": "Learn how malicious Claude Code skills can abuse dynamic context commands to execute before model-level prompt injection defenses can intervene.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Anthropic/Claude"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Malicious Coding Agent Skills and the Risk of Dynamic Context",
-          "link": "https://securitylabs.datadoghq.com/articles/malicious-skills-supply-chain-risks-in-coding-agents-with-dynamic-context/",
-          "published": "2026-05-11T00:00:00+00:00",
-          "summary": "Learn how malicious Claude Code skills can abuse dynamic context commands to execute before model-level prompt injection defenses can intervene.",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -8416,8 +8349,8 @@
         "5f3c119b8d",
         "eb8e5fefbf",
         "39ec215030",
-        "651d91b6fa",
         "06895f3526",
+        "651d91b6fa",
         "52d06b5a30",
         "c97972626b",
         "db4739da92",
@@ -8465,8 +8398,8 @@
         ]
       },
       "cluster_count": 6,
-      "article_count": 9,
-      "cohesion": 0.45,
+      "article_count": 8,
+      "cohesion": 0.459,
       "cluster_ids": [
         "8e9036b5b9",
         "6ca30bfec7",
@@ -8544,38 +8477,12 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 10,
+      "article_count": 9,
       "cohesion": 0.673,
       "cluster_ids": [
         "63ea56af01",
         "8fd391b96b",
         "03f477fe86"
-      ]
-    },
-    {
-      "label": "malware targeting GitHub",
-      "dominant_features": {
-        "threat_categories": [
-          "malware",
-          "vulnerability_disclosure"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "threat_research"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.317,
-      "cluster_ids": [
-        "029fcc1f63",
-        "09f484b295",
-        "3da3cf9f20"
       ]
     },
     {
@@ -8615,6 +8522,28 @@
       "cluster_ids": [
         "b6e5532bde",
         "f5e012a226"
+      ]
+    },
+    {
+      "label": "malware targeting GitHub",
+      "dominant_features": {
+        "threat_categories": [
+          "malware",
+          "vulnerability_disclosure"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.333,
+      "cluster_ids": [
+        "029fcc1f63",
+        "09f484b295"
       ]
     },
     {
