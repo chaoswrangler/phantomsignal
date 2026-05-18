@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-18T18:56:23.926511+00:00",
+  "generated_at": "2026-05-18T20:41:40.903452+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 458,
-  "total_clusters_raw": 439,
+  "total_items_in_window": 481,
+  "total_clusters_raw": 460,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 265,
-  "dropped_overflow": 94,
+  "dropped_low_score": 289,
+  "dropped_overflow": 91,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,19 +81,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -109,13 +102,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -123,12 +109,19 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,6 +130,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -144,26 +144,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 5
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -179,20 +172,6 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -200,18 +179,11 @@
       "item_count": 50,
       "in_window_count": 3
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -221,12 +193,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 11
+      "item_count": 10,
+      "in_window_count": 7
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -235,8 +207,36 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 11
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -249,9 +249,30 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -263,47 +284,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 8
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -312,19 +305,12 @@
       "item_count": 30,
       "in_window_count": 4
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 9
+      "item_count": 20,
+      "in_window_count": 8
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -332,6 +318,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 9
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -345,6 +345,13 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 0
     },
     "GreyNoise": {
@@ -361,12 +368,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -374,13 +381,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,40 +396,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 15
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -438,39 +417,18 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 16
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 5,
+      "in_window_count": 5
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "SecurityWeek": {
@@ -480,6 +438,20 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -487,12 +459,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 24
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -501,19 +480,12 @@
       "item_count": 50,
       "in_window_count": 42
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 23
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 25
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -522,19 +494,19 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 1
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -550,12 +522,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 25
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -578,19 +564,19 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -599,12 +585,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 8
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -612,6 +598,20 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 23
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 7
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -631,9 +631,9 @@
   "clusters": [
     {
       "cluster_id": "2eb9132451",
-      "priority_score": 34,
-      "member_count": 5,
-      "corroborating_source_count": 4,
+      "priority_score": 36,
+      "member_count": 6,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-42945"
       ],
@@ -788,6 +788,33 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
+          }
+        },
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tg2nd9/nginx_cve202642945_exploited_in_the_wild_causing/",
+          "published": "2026-05-17T21:37:18+00:00",
+          "summary": "submitted by /u/Cristiano1 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter"
           }
         },
         {
@@ -1594,6 +1621,91 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a737fa0143",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Jenkins",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-17, (Mon, May 18th)",
+        "link": "https://isc.sans.edu/diary/rss/32994",
+        "published": "2026-05-18T20:08:00+00:00",
+        "summary": "Since the last update , the TeamPCP supply chain campaign produced its loudest stretch since the March Trivy disclosure: an officially confirmed Checkmarx Jenkins plugin compromise and a new self-spreading Mini Shai-Hulud worm across npm and PyPI.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Jenkins",
+            "npm",
+            "PyPI"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-17, (Mon, May 18th)",
+          "link": "https://isc.sans.edu/diary/rss/32994",
+          "published": "2026-05-18T20:08:00+00:00",
+          "summary": "Since the last update , the TeamPCP supply chain campaign produced its loudest stretch since the March Trivy disclosure: an officially confirmed Checkmarx Jenkins plugin compromise and a new self-spreading Mini Shai-Hulud worm across npm and PyPI.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Jenkins",
+              "npm",
+              "PyPI"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
           }
         }
       ]
@@ -3047,85 +3159,6 @@
       ]
     },
     {
-      "cluster_id": "30f6252cf0",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "nation_state",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "State-sponsored actors, better known as the friends you don’t want",
-        "link": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
-        "published": "2026-05-12T10:00:54+00:00",
-        "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
-        "full_body": "State-sponsored actors, better known as the friends you don’t want By Elio Biasiotto , Jerzy ‘Yuri’ Kramarz Tuesday, May 12, 2026 06:00 Threats State-sponsored actors don't break in. They log in, and they use your own tools to stay invisible for months. Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. From logging and baselines to OT segmentation and supply chain readiness, the work that matters happens long before the first alert. Most organizations operate under the assumption that anything residing within their trust boundary is trustworthy. Software arrives from vetted vendors, employees pass background checks, cloud providers hold compliance certifications, and build pipelines produce signed artifacts. In practice, these assumptions are rarely scrutinized, and state-sponsored actors have constructed their operational methodology around exploiting precisely this gap. They operate inside the trust boundary, using trusted tools, holding valid credentials, and performing actions that appear entirely authorized. Conventional security architecture is not designed to identify this, and that limitation warrants acknowledgment before turning to what incident response looks like when the adversary is a state-sponsored. Responding to a state-sponsored intrusion is fundamentally different from responding to a criminal one. The adversary is better resourced, more patient, operationally disciplined, and often in pursuit of objectives that do not trigger any alarms, such as espionage or long-term data extraction. Standard incident response playbooks, typically built around malware containment and ransomware recovery, are not adequate for this category of threat. The tooling, decision-making, legal coordination, and even the definition of what constitutes a successful response all need to be reconsidered. This is also the context in which zero trust architecture becomes essential. This is a fundamental reorientation from a model in which trust is assumed to one in which it is continuously verified, and in which systems are architected to handle the case where verification fails. The operative principle is not \"trust nothing,\" which no organization can realistically operationalize, but rather \"verify continuously and plan for failure.\" The following sections cover how state-sponsored actors operate across the Cyber Kill Chain, why their techniques demand different detection and response approaches, and what organizations need to have in place before, during, and after an intrusion to mount an effective response. Same Kill Chain, different objective Every cyber attack, from commodity ransomware to state-sponsored espionage , follows the same fundamental sequence as the Cyber Kill Chain developed by Lockheed Martin: reconnaissance, weaponization, delivery, exploitation, installation, command and control (C2), and action on objectives. State-sponsored actors do not deviate from this sequence. They execute each phase with greater patience, greater precision, and a fundamentally different objective. A financially motivated attacker requires the target to know it has been compromised. The ransomware note, the leak site, and the negotiation channel are all components of the business model. A state-sponsored actor requires the opposite. Whether the objective is espionage, intellectual property theft, or pre-positioning for future disruption , success depends on the target remaining unaware. That requirement for covertness shapes every technical decision the actor makes and determines what defenders need to look for at each phase. The following are common trends that change the dimensions of defense: Reconnaissance : This stage tends to be deeper and more prolonged. Where a financially motivated actor might scan for exposed Remote Desktop Protocol (RDP) and move on, a state-sponsored adversary may spend weeks or months mapping an organization's personnel, technology",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "malware",
-            "nation_state"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "State-sponsored actors, better known as the friends you don’t want",
-          "link": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
-          "published": "2026-05-12T10:00:54+00:00",
-          "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "malware",
-              "nation_state"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c0426023f6",
       "priority_score": 14,
       "member_count": 1,
@@ -3197,6 +3230,85 @@
             "geographic_scope": [
               "russia"
             ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "30f6252cf0",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "nation_state",
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "State-sponsored actors, better known as the friends you don’t want",
+        "link": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
+        "published": "2026-05-12T10:00:54+00:00",
+        "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
+        "full_body": "State-sponsored actors, better known as the friends you don’t want By Elio Biasiotto , Jerzy ‘Yuri’ Kramarz Tuesday, May 12, 2026 06:00 Threats State-sponsored actors don't break in. They log in, and they use your own tools to stay invisible for months. Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. From logging and baselines to OT segmentation and supply chain readiness, the work that matters happens long before the first alert. Most organizations operate under the assumption that anything residing within their trust boundary is trustworthy. Software arrives from vetted vendors, employees pass background checks, cloud providers hold compliance certifications, and build pipelines produce signed artifacts. In practice, these assumptions are rarely scrutinized, and state-sponsored actors have constructed their operational methodology around exploiting precisely this gap. They operate inside the trust boundary, using trusted tools, holding valid credentials, and performing actions that appear entirely authorized. Conventional security architecture is not designed to identify this, and that limitation warrants acknowledgment before turning to what incident response looks like when the adversary is a state-sponsored. Responding to a state-sponsored intrusion is fundamentally different from responding to a criminal one. The adversary is better resourced, more patient, operationally disciplined, and often in pursuit of objectives that do not trigger any alarms, such as espionage or long-term data extraction. Standard incident response playbooks, typically built around malware containment and ransomware recovery, are not adequate for this category of threat. The tooling, decision-making, legal coordination, and even the definition of what constitutes a successful response all need to be reconsidered. This is also the context in which zero trust architecture becomes essential. This is a fundamental reorientation from a model in which trust is assumed to one in which it is continuously verified, and in which systems are architected to handle the case where verification fails. The operative principle is not \"trust nothing,\" which no organization can realistically operationalize, but rather \"verify continuously and plan for failure.\" The following sections cover how state-sponsored actors operate across the Cyber Kill Chain, why their techniques demand different detection and response approaches, and what organizations need to have in place before, during, and after an intrusion to mount an effective response. Same Kill Chain, different objective Every cyber attack, from commodity ransomware to state-sponsored espionage , follows the same fundamental sequence as the Cyber Kill Chain developed by Lockheed Martin: reconnaissance, weaponization, delivery, exploitation, installation, command and control (C2), and action on objectives. State-sponsored actors do not deviate from this sequence. They execute each phase with greater patience, greater precision, and a fundamentally different objective. A financially motivated attacker requires the target to know it has been compromised. The ransomware note, the leak site, and the negotiation channel are all components of the business model. A state-sponsored actor requires the opposite. Whether the objective is espionage, intellectual property theft, or pre-positioning for future disruption , success depends on the target remaining unaware. That requirement for covertness shapes every technical decision the actor makes and determines what defenders need to look for at each phase. The following are common trends that change the dimensions of defense: Reconnaissance : This stage tends to be deeper and more prolonged. Where a financially motivated actor might scan for exposed Remote Desktop Protocol (RDP) and move on, a state-sponsored adversary may spend weeks or months mapping an organization's personnel, technology",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "malware",
+            "nation_state"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "State-sponsored actors, better known as the friends you don’t want",
+          "link": "https://blog.talosintelligence.com/state-sponsored-actors-better-known-as-the-friends-you-dont-want/",
+          "published": "2026-05-12T10:00:54+00:00",
+          "summary": "Responding to a state-sponsored threat is nothing like responding to ransomware, and the differences can make or break the outcome. Learn why your IR plan might need revisiting, and the factors you should consider.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "malware",
+              "nation_state"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
@@ -3553,6 +3665,112 @@
       ]
     },
     {
+      "cluster_id": "8fd391b96b",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [
+          "CVE-2022-20775",
+          "CVE-2026-20127",
+          "CVE-2026-20182"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+        "published": "2026-05-14T20:25:31+00:00",
+        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise actions\" a",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [
+            "CVE-2022-20775",
+            "CVE-2026-20127",
+            "CVE-2026-20182"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
+          "published": "2026-05-14T20:25:31+00:00",
+          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [
+              "CVE-2022-20775",
+              "CVE-2026-20127",
+              "CVE-2026-20182"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "08d387ca71",
       "priority_score": 14,
       "member_count": 1,
@@ -3792,112 +4010,6 @@
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8fd391b96b",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [
-          "CVE-2022-20775",
-          "CVE-2026-20127",
-          "CVE-2026-20182"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-        "published": "2026-05-14T20:25:31+00:00",
-        "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-        "full_body": "Vulnerabilities & Threats Сloud Security Cybersecurity Operations Perimeter News Maximum Severity Cisco SD-WAN Bug Exploited in the Wild This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system. Nate Nelson , Contributing Writer May 14, 2026 4 Min Read Source: MTP via Alamy Stock Photo A highly sophisticated threat actor is exploiting a critical vulnerability in Cisco Catalyst Software-Defined Wide Area Network (SD-WAN) Controllers. Rapid7 disclosed CVE-2026-20182, an authentication bypass vulnerability in Cisco's market-leading network management solution. By allowing unauthenticated attackers free rein over one of an organization's most powerful tools, it earned the highest possible 10 out of 10 score in the Common Vulnerability Scoring System (CVSS). In an updated blog post today, Rapid7 director of vulnerability intelligence Douglas McKee hammered home just how serious an issue this was. \"Attackers have become very good at turning central infrastructure weaknesses into high impact operations,\" he warned, and for nation-states in particular, \"an SD-WAN controller is a great place to do [espionage], because it lives in the middle of trust relationships most organizations rarely question.\" To avoid sensationalizing, McKee added, \"To be fair, not every bug turns into Internet-wide exploitation overnight.\" Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out In fact, CVE-2026-20182 had been exploited overnight. In a separate publication that same day, researchers at Cisco Talos flagged that a group it tracks as UAT-8616 has already gotten to it . Hackers Leverage Critical Bugs in Cisco Catalyst Not only is CVE-2026-20182 not the first vulnerability discovered in Cisco Catalyst this year, it isn't even the first authentication bypass vulnerability with a \"critical\" 10 score on the CVSS scale. Back in February, Cisco revealed half a dozen issues with Catalyst . The cream was CVE-2026-20127, which gave unauthenticated attackers the power to log into Cisco controllers as high-privileged users. Though Cisco characterized in-the-wild exploitation of CVE-2026-20127 as \"limited,\" Talos researchers suggested that it was extensive, lasting at least a few years — a lifetime in cyber years. They labeled the threat cluster actor behind that exploitation \"UAT-8616,\" calling it \"highly sophisticated.\" Cisco patched CVE-2026-20127 , threatening to derail UAT-8616's fun. The threat actor was unphased, though, as it seems to have almost immediately picked up with yet another, nearly identical vulnerability in the very same product line. The difference is really only a technicality. In February, the issue was that the Catalyst Controller and Manager weren't rigorous enough in authenticating SD-WAN components, so any hacker off the street could use a specially crafted message to impersonate a device and get in. This month, the problem is that the Controller doesn't actually verify the legitimacy of a specific type of component — a hub router, \"vHub,\" used in cloud deployments — before authenticating it. As a consequence, and as with the February CVE before it, attackers can use this new CVE to obtain administrative privileges in targeted systems and access \"NETCONF,\" a protocol through which they could mess with all kinds of network configurations. Related: 'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros What Might Happen Next to Cisco's Customers The first time UAT-8616 exploited a Catalyst authentication bypass bug, it took advantage of its access to exploit an older vulnerability, CVE-2022-20775, and escalate from privileged to outright root access. Without spelling it out, Talos indicated that the threat actor might have been \"looking to establish persistent footholds into high-value organizations including Critical Infrastructure (CI) sectors.\" This time around, the researchers observed the threat actor performing \"similar post-compromise actions\" a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [
-            "CVE-2022-20775",
-            "CVE-2026-20127",
-            "CVE-2026-20182"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Maximum Severity Cisco SD-WAN Bug Exploited in the Wild",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/maximum-severity-cisco-sd-wan-bug-exploited",
-          "published": "2026-05-14T20:25:31+00:00",
-          "summary": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [
-              "CVE-2022-20775",
-              "CVE-2026-20127",
-              "CVE-2026-20182"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
@@ -4166,6 +4278,73 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7bd7fa5fd",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "From Point-in-Time Testing to Continuous Security Validation",
+        "link": "https://horizon3.ai/customer-story/continuous-security-validation-public-sector/",
+        "published": "2026-05-18T19:43:23+00:00",
+        "summary": "Learn how Mid Devon District Council moved beyond annual pentests to continuously validate exploitable risk, strengthen identity security, and accelerate remediation with autonomous pentesting.",
+        "full_body": "From Point-in-Time Testing to Continuous Security Validation Horizon3.ai Customer Stories Annual pentests and vulnerability scans can identify issues. They don’t continuously validate what attackers can actually exploit. Mid Devon District Council needed a more practical way to understand real exposure across a constantly evolving environment, prioritize what mattered most, and strengthen security without increasing operational overhead. This customer story explores how Mid Devon adopted autonomous pentesting to move beyond static assessments and continuously validate security posture against real attack paths. Key Insight Traditional assessments created long gaps between testing cycles, making it difficult to understand what was truly exploitable at any given moment. By adopting autonomous pentesting and Rapid Response capabilities, Mid Devon gained: Continuous visibility into exploitable risk Faster prioritization and remediation Stronger identity security validation Faster response to emerging threats Clearer reporting for leadership and auditors What You’ll Learn Why point-in-time testing leaves critical visibility gaps How autonomous pentesting validates real-world attack paths Ways to prioritize remediation based on exploitability, not vulnerability volume How password auditing strengthens identity security initiatives How to validate exposure to emerging threats faster Why continuous validation improves communication with leadership and auditors How to turn pentesting into an ongoing security discipline instead of a yearly exercise Why It Matters Public sector and lean security teams face constant change across users, systems, cloud services, and identity infrastructure. Attackers don’t wait for annual pentests. Organizations that improve resilience are the ones continuously validating whether controls actually reduce exploitable risk in real-world conditions—not just whether controls exist on paper. Mid Devon transformed security testing from a periodic compliance activity into a continuous, practical, and risk-focused process. Download the customer story to see how autonomous pentesting helped Mid Devon continuously validate security exposure, accelerate remediation, and strengthen operational resilience. Download the Customer Story How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "From Point-in-Time Testing to Continuous Security Validation",
+          "link": "https://horizon3.ai/customer-story/continuous-security-validation-public-sector/",
+          "published": "2026-05-18T19:43:23+00:00",
+          "summary": "Learn how Mid Devon District Council moved beyond annual pentests to continuously validate exploitable risk, strengthen identity security, and accelerate remediation with autonomous pentesting.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -4817,6 +4996,191 @@
       ]
     },
     {
+      "cluster_id": "12769a0a4d",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "GitHub",
+          "Google Cloud",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
+        "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
+        "published": "2026-05-14T00:00:00+00:00",
+        "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
+        "full_body": "Martin McCloskey Staff Security Engineer Sebastian Obregoso Security Researcher Rory McCune Senior Advocate - Security & Compliance What happened On May 11th a coordinated supply chain campaign poisoned 170 legitimate packages across npm and PyPI within a five-hour window. SafeDep documented the notable victims, malicious versions of @tanstack/react-router (3M+ weekly downloads) pushed through compromised npm tokens alongside a direct commit to the upstream GitHub repo (79ac49eed), and a backdoored mistralai==2.4.6 slipped onto PyPI with no corresponding upstream tag. While investigating the mistralai compromise, we discovered that transformers.pyz a payload embedded in the malicious wheel was also associated with releases on the cemu-project/Cemu GitHub release page, a Nintendo Wii U emulator with no obvious relationship to Python ML SDKs. Investigation into the Cemu project While investigating transformers.pyz on VirusTotal, pivoting on its SHA256 led us to a second binary bundling the same file: Cemu-2.6-x86_64.AppImage . We confirmed this was the image hosted on the official cemu-project/Cemu GitHub release page. The Cemu v2.6 GitHub release page showing backdoored Linux assets re-uploaded by MangelSpec alongside the original macOS and Windows builds Cemu-2.6-x86_64.AppImage is a single-file Linux application bundle; under the hood it is a SquashFS image with a small ELF prefix. Extracting it laid out the bundled filesystem under squashfs-root/ . The interesting artifact lives at squashfs-root/usr/share/Cemu/scripts/startup.pyz â a path that does not exist in the legitimate Cemu build. There is no scripts/ directory in upstream Cemu and no Python interpreter in its dependency graph; the file is foreign to the project. startup.pyz is a Python zipapp: a renamed zip archive with a __main__.py entrypoint, designed to be executed by the system Python interpreter. Its sha256 ( 0f35abda19fb69430c32228465396094b866d887427bf551e353ab31256a9dd6 ) indicates byte-for-byte identical to the transformers.pyz distributed through the TanStack npm campaign. Unzipping startup.pyz reveals the campaign's working set: Date Time Attr Size Compressed Name ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 D.... 0 0 python_mistral_cemu_files 2026-05-05 06:02:52 D.... 0 0 python_mistral_cemu_files/utilities 2026-05-03 04:24:52 ..... 0 12 python_mistral_cemu_files/utilities/__init__.py 2026-05-07 00:38:54 ..... 1565 568 python_mistral_cemu_files/utilities/crypto.py 2026-05-05 05:56:18 ..... 2411 846 python_mistral_cemu_files/utilities/aws_signer.py 2026-05-06 21:25:52 ..... 1579 554 python_mistral_cemu_files/__main__.py 2026-05-12 09:21:46 ..... 6035 2582 python_mistral_cemu_files/entrypoint.py 2026-05-07 17:07:42 ..... 2457 1150 python_mistral_cemu_files/LICENSE 2026-05-12 09:20:38 ..... 897 409 python_mistral_cemu_files/aggregate.py 2026-05-07 00:39:02 ..... 3729 1335 python_mistral_cemu_files/roulette.py 2026-05-05 06:02:42 D.... 0 0 python_mistral_cemu_files/collectors 2026-05-07 00:30:36 ..... 10499 2617 python_mistral_cemu_files/collectors/filesystem.py 2026-05-05 04:21:48 ..... 11943 3172 python_mistral_cemu_files/collectors/kubernetes.py 2026-05-07 00:32:20 ..... 4224 1445 python_mistral_cemu_files/collectors/vault.py 2026-05-06 21:22:46 ..... 7274 1953 python_mistral_cemu_files/collectors/aws.py 2026-05-03 04:24:58 ..... 6370 1891 python_mistral_cemu_files/collectors/gcp.py 2026-05-03 22:43:44 ..... 3930 947 python_mistral_cemu_files/collectors/passwords.py 2026-05-03 04:10:34 ..... 0 12 python_mistral_cemu_files/collectors/__init__.py 2026-05-03 04:24:58 ..... 7803 2178 python_mistral_cemu_files/collectors/azure.py ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 70716 21671 16 files, 3 folders GitHub release investigation The npm and PyPI legs of this campaign were credential-driven: stolen publishing tokens used to ship malicious versions of l",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "Google Cloud",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
+          "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
+          "published": "2026-05-14T00:00:00+00:00",
+          "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "Google Cloud",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "06895f3526",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Apple iOS/macOS",
+          "GitHub",
+          "Kubernetes",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Shai-Hulud Goes Open Source",
+        "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
+        "published": "2026-05-13T00:00:00+00:00",
+        "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
+        "full_body": "Ryan Simon Senior Security Researcher Sebastian Obregoso Security Researcher Greg Foss Manager, Threat Detection & Research Key points and observations On May 12, 2026, a GitHub repository noticed under several likely compromised users ( github search ) appeared containing what appears to be the complete source code for the Shai-Hulud offensive framework attributed to TeamPCP. The repository's README explicitly states: \"Love - TeamPCP\" and \"Change keys and C2 as needed.\" The framework is a modular TypeScript/Bun toolkit for credential harvesting, supply chain poisoning, and encrypted data exfiltration, targeting both CI/CD pipelines and developer workstations. All 3 commits use a spoofed date ( 2099-01-01 ) and are authored by TeamPCP_OSS <TeamPCP> . The source code maps directly to compiled artifacts previously observed in the wild including router_init.js , setup.mjs , and opensearch_init.js The released source code showed evolving capabilities for persistence via AI agent integration and stealth by adding sigstore provenance to releases Background Throughout early-to-mid 2026, the threat actor known as TeamPCP conducted a series of escalating supply chain attacks across the npm and PyPI ecosystems. Multiple open source reports provided detailed analyses of the campaign's evolution from the initial Trivy and Checkmarx KICS tag hijacking in March, through the LiteLLM PyPI poisoning, to the more recent TanStack and UiPath npm compromises. These reports described the compiled payloads and their behavior in detail: obfuscated 2.3MB JavaScript bundles, OIDC token abuse for trusted publishing, Runner.Worker memory extraction, and AES-256-GCM encrypted exfiltration to domains mimicking legitimate open source projects. What they couldn't show was the source code behind it all. On May 12, 2026, a repository briefly appeared on GitHub that filled that gap. This appears to have been removed by GitHub shortly after publishing, though not in time to prevent multiple forks. We were able to obtain a copy of the code before it was pulled and performed a static analysis of the repository contents and found a complete, production-grade offensive framework that accounts for nearly every TTP previously attributed to TeamPCP. GitHub repository overview showing the Shai-Hulud-Open-Source project structure and metadata (click to enlarge) Architecture overview The framework follows a clean pipeline design. Each stage is decoupled through well-defined interfaces, which allows operators to swap components. Shai-Hulud framework architecture showing the pipeline from loaders through providers, collector, dispatcher, senders, and mutators (click to enlarge) Component Role Loaders Stage-1 droppers ( BASH_LOADER.sh , PYTHON_LOADER.py , config.mjs ) that bootstrap execution by downloading the Bun runtime and launching the bundled JavaScript payload Providers Credential and secret collection modules, each targeting a specific source: filesystem, shell environment, GitHub Actions runners, AWS, Kubernetes, HashiCorp Vault Collector Buffered ingestion layer with a configurable flush threshold (default: 100KB), batching results before handoff to the dispatcher Dispatcher Manages encrypted delivery with ordered failover across multiple sender backends Senders Exfiltration channelsHTTPS POST to a C2 domain, or GitHub repositories used as encrypted dead-drops Mutators Supply chain propagation by poisoning GitHub repository branches and publishing backdoored npm packages Credential harvesting The toolkit's collection capabilities are broad. Three providers run immediately on startup as \"quick results\" before the heavier cloud-targeting providers are initialized. Filesystem scanning The FileSystemService maintains OS-specific lists of over 100 sensitive file paths. On Linux and macOS, these include: Cloud credentials: ~/.aws/credentials , ~/.azure/accessTokens.json , ~/.config/gcloud/credentials.db SSH material: ~/.ssh/id_* , ~/.ssh/config , ~/.ssh/known_hosts Kuber",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Shai-Hulud Goes Open Source",
+          "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
+          "published": "2026-05-13T00:00:00+00:00",
+          "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4c42bf483b",
       "priority_score": 12,
       "member_count": 1,
@@ -5008,276 +5372,6 @@
               "npm",
               "PyPI",
               "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "12769a0a4d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-        "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-        "full_body": "Martin McCloskey Staff Security Engineer Sebastian Obregoso Security Researcher Rory McCune Senior Advocate - Security & Compliance What happened On May 11th a coordinated supply chain campaign poisoned 170 legitimate packages across npm and PyPI within a five-hour window. SafeDep documented the notable victims, malicious versions of @tanstack/react-router (3M+ weekly downloads) pushed through compromised npm tokens alongside a direct commit to the upstream GitHub repo (79ac49eed), and a backdoored mistralai==2.4.6 slipped onto PyPI with no corresponding upstream tag. While investigating the mistralai compromise, we discovered that transformers.pyz a payload embedded in the malicious wheel was also associated with releases on the cemu-project/Cemu GitHub release page, a Nintendo Wii U emulator with no obvious relationship to Python ML SDKs. Investigation into the Cemu project While investigating transformers.pyz on VirusTotal, pivoting on its SHA256 led us to a second binary bundling the same file: Cemu-2.6-x86_64.AppImage . We confirmed this was the image hosted on the official cemu-project/Cemu GitHub release page. The Cemu v2.6 GitHub release page showing backdoored Linux assets re-uploaded by MangelSpec alongside the original macOS and Windows builds Cemu-2.6-x86_64.AppImage is a single-file Linux application bundle; under the hood it is a SquashFS image with a small ELF prefix. Extracting it laid out the bundled filesystem under squashfs-root/ . The interesting artifact lives at squashfs-root/usr/share/Cemu/scripts/startup.pyz â a path that does not exist in the legitimate Cemu build. There is no scripts/ directory in upstream Cemu and no Python interpreter in its dependency graph; the file is foreign to the project. startup.pyz is a Python zipapp: a renamed zip archive with a __main__.py entrypoint, designed to be executed by the system Python interpreter. Its sha256 ( 0f35abda19fb69430c32228465396094b866d887427bf551e353ab31256a9dd6 ) indicates byte-for-byte identical to the transformers.pyz distributed through the TanStack npm campaign. Unzipping startup.pyz reveals the campaign's working set: Date Time Attr Size Compressed Name ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 D.... 0 0 python_mistral_cemu_files 2026-05-05 06:02:52 D.... 0 0 python_mistral_cemu_files/utilities 2026-05-03 04:24:52 ..... 0 12 python_mistral_cemu_files/utilities/__init__.py 2026-05-07 00:38:54 ..... 1565 568 python_mistral_cemu_files/utilities/crypto.py 2026-05-05 05:56:18 ..... 2411 846 python_mistral_cemu_files/utilities/aws_signer.py 2026-05-06 21:25:52 ..... 1579 554 python_mistral_cemu_files/__main__.py 2026-05-12 09:21:46 ..... 6035 2582 python_mistral_cemu_files/entrypoint.py 2026-05-07 17:07:42 ..... 2457 1150 python_mistral_cemu_files/LICENSE 2026-05-12 09:20:38 ..... 897 409 python_mistral_cemu_files/aggregate.py 2026-05-07 00:39:02 ..... 3729 1335 python_mistral_cemu_files/roulette.py 2026-05-05 06:02:42 D.... 0 0 python_mistral_cemu_files/collectors 2026-05-07 00:30:36 ..... 10499 2617 python_mistral_cemu_files/collectors/filesystem.py 2026-05-05 04:21:48 ..... 11943 3172 python_mistral_cemu_files/collectors/kubernetes.py 2026-05-07 00:32:20 ..... 4224 1445 python_mistral_cemu_files/collectors/vault.py 2026-05-06 21:22:46 ..... 7274 1953 python_mistral_cemu_files/collectors/aws.py 2026-05-03 04:24:58 ..... 6370 1891 python_mistral_cemu_files/collectors/gcp.py 2026-05-03 22:43:44 ..... 3930 947 python_mistral_cemu_files/collectors/passwords.py 2026-05-03 04:10:34 ..... 0 12 python_mistral_cemu_files/collectors/__init__.py 2026-05-03 04:24:58 ..... 7803 2178 python_mistral_cemu_files/collectors/azure.py ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 70716 21671 16 files, 3 folders GitHub release investigation The npm and PyPI legs of this campaign were credential-driven: stolen publishing tokens used to ship malicious versions of l",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-          "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "06895f3526",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Shai-Hulud Goes Open Source",
-        "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
-        "published": "2026-05-13T00:00:00+00:00",
-        "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
-        "full_body": "Ryan Simon Senior Security Researcher Sebastian Obregoso Security Researcher Greg Foss Manager, Threat Detection & Research Key points and observations On May 12, 2026, a GitHub repository noticed under several likely compromised users ( github search ) appeared containing what appears to be the complete source code for the Shai-Hulud offensive framework attributed to TeamPCP. The repository's README explicitly states: \"Love - TeamPCP\" and \"Change keys and C2 as needed.\" The framework is a modular TypeScript/Bun toolkit for credential harvesting, supply chain poisoning, and encrypted data exfiltration, targeting both CI/CD pipelines and developer workstations. All 3 commits use a spoofed date ( 2099-01-01 ) and are authored by TeamPCP_OSS <TeamPCP> . The source code maps directly to compiled artifacts previously observed in the wild including router_init.js , setup.mjs , and opensearch_init.js The released source code showed evolving capabilities for persistence via AI agent integration and stealth by adding sigstore provenance to releases Background Throughout early-to-mid 2026, the threat actor known as TeamPCP conducted a series of escalating supply chain attacks across the npm and PyPI ecosystems. Multiple open source reports provided detailed analyses of the campaign's evolution from the initial Trivy and Checkmarx KICS tag hijacking in March, through the LiteLLM PyPI poisoning, to the more recent TanStack and UiPath npm compromises. These reports described the compiled payloads and their behavior in detail: obfuscated 2.3MB JavaScript bundles, OIDC token abuse for trusted publishing, Runner.Worker memory extraction, and AES-256-GCM encrypted exfiltration to domains mimicking legitimate open source projects. What they couldn't show was the source code behind it all. On May 12, 2026, a repository briefly appeared on GitHub that filled that gap. This appears to have been removed by GitHub shortly after publishing, though not in time to prevent multiple forks. We were able to obtain a copy of the code before it was pulled and performed a static analysis of the repository contents and found a complete, production-grade offensive framework that accounts for nearly every TTP previously attributed to TeamPCP. GitHub repository overview showing the Shai-Hulud-Open-Source project structure and metadata (click to enlarge) Architecture overview The framework follows a clean pipeline design. Each stage is decoupled through well-defined interfaces, which allows operators to swap components. Shai-Hulud framework architecture showing the pipeline from loaders through providers, collector, dispatcher, senders, and mutators (click to enlarge) Component Role Loaders Stage-1 droppers ( BASH_LOADER.sh , PYTHON_LOADER.py , config.mjs ) that bootstrap execution by downloading the Bun runtime and launching the bundled JavaScript payload Providers Credential and secret collection modules, each targeting a specific source: filesystem, shell environment, GitHub Actions runners, AWS, Kubernetes, HashiCorp Vault Collector Buffered ingestion layer with a configurable flush threshold (default: 100KB), batching results before handoff to the dispatcher Dispatcher Manages encrypted delivery with ordered failover across multiple sender backends Senders Exfiltration channelsHTTPS POST to a C2 domain, or GitHub repositories used as encrypted dead-drops Mutators Supply chain propagation by poisoning GitHub repository branches and publishing backdoored npm packages Credential harvesting The toolkit's collection capabilities are broad. Three providers run immediately on startup as \"quick results\" before the heavier cloud-targeting providers are initialized. Filesystem scanning The FileSystemService maintains OS-specific lists of over 100 sensitive file paths. On Linux and macOS, these include: Cloud credentials: ~/.aws/credentials , ~/.azure/accessTokens.json , ~/.config/gcloud/credentials.db SSH material: ~/.ssh/id_* , ~/.ssh/config , ~/.ssh/known_hosts Kuber",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Shai-Hulud Goes Open Source",
-          "link": "https://securitylabs.datadoghq.com/articles/shai-hulud-open-source-framework-static-analysis/",
-          "published": "2026-05-13T00:00:00+00:00",
-          "summary": "A static analysis of the open-sourced Shai-Hulud offensive framework attributed to TeamPCP, covering its credential harvesting, supply chain poisoning, and exfiltration capabilities.",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1e6a8db106",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "energy_utilities"
-        ],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Huntress",
-        "cohort": "detection_response_operations",
-        "title": "Threat Actor Defense Evasion: How Attackers Disable AV & EDR",
-        "link": "https://www.huntress.com/blog/how-attackers-disable-av-edr",
-        "published": "2026-05-18T14:00:00+00:00",
-        "summary": "Threat actors are actively targeting your security tools. Learn how threat actors disable antivirus and EDR through vulnerable drivers, tampering attacks, and malicious firewall rules, and how Huntress detects.",
-        "full_body": "Home Blog Defending EDR Against Adversaries Published: May 18, 2026 Defending EDR Against Adversaries By: Toby Bussa Key Takeaways Adversaries are increasingly using \"Bring Your Own Vulnerable Driver\" (BYOVD) attacks to gain elevated privileges, allowing them to disable AV and EDR. Relying on default security settings and antivirus is not good enough. It's trivial these days for attackers to impair and bypass these defenses. Threat actors know that most organizations are going to have some type of endpoint defenses, whether it’s next-generation antivirus (NGAV), endpoint detection and response (EDR), or an endpoint protection platform solution (EPP). Getting around these defenses is part of their playbook and tradecraft, covered in frameworks like MITRE ATT&CK under the Defense Evasion tactic and techniques like Impair Defense (T.1652) . These actors are moving beyond merely evading detection and even basic impairment to disabling threat-detection tools. This allows adversaries to create a \"dark zone\" where they can establish footholds, move laterally, exfiltrate data, and deploy ransomware with zero visibility to IT and security teams. This isn't just evasion; it’s an active destruction of the security stack. Attacker tradecraft and tools: How they’re wrecking antivirus and EDR There are multiple methods used by threat attackers as part of their tradecraft to impair, block, and disable endpoint security controls. Here’s a list of the most common approaches: Blocking AV and EDR communications Attackers can blind EDR communications using malicious Windows Firewall rules via two approaches: directly creating the firewall rules, which is a bit noisy but effective, or using the Windows Filtering Platform (WFP) to create hidden firewall rules . These rules specifically block the EDR agent from communicating with its platform. The agent continues to run locally, giving the user a false sense of security, but it's effectively \"silenced\" and can't send any telemetry or alerts. Tools like EDRSandblast and EDRSilencer allow attackers to easily abuse Windows Firewall as part of their defense-evasion tradecraft. Escalate privileges, uninstall agents Once an attacker lands on an endpoint, getting administrative privileges gives them much more latitude to install their tools, apply their tradecraft, and get to work. Sometimes, they might not even have to go through the effort if permissions aren’t properly secured, and any user has the right level of permissions to add or remove software. Even though it can be a noisy approach, uninstalling an EDR agent is effective at blinding IT and security teams to an attack. Attackers are counting on the lack of real-time visibility to threats on an endpoint, so they won’t be detected even with such a noisy approach. Bring Your Own Vulnerable Driver (BYOVD) This is the new \"gold standard\" for EDR impairment. Attackers \"bring\" a legitimate, digitally signed driver that contains a known vulnerability (e.g., an old gaming driver or hardware utility). Because the driver is signed by a trusted vendor, Windows allows it to load into the kernel. The attacker then exploits the driver's vulnerability to gain kernel-mode access, which they use to unhook security monitoring or terminate protected EDR processes that even an administrator shouldn't be able to kill. Real-world examples The Huntress SOC and threat hunters consistently see threat actors trying to impair defenses, trying to uninstall our EDR agent, and using BYOVD to try to kill AV and the EDR agent. Here are some examples of the shady tradecraft our experts have detected. Messing with Defender Antivirus Huntress frequently sees attackers try to blind Microsoft Defender Antivirus. They have several techniques to do this, like abusing Windows Firewall rules and abusing Defender exclusions. Figure 1: Abusing Defender AV exclusions to exclude C: and C:\\Windows drives Figure 2: Abusing Windows Defender Antivirus exclusions to impair AV Uninstalling the EDR",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "energy_utilities"
-          ],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Huntress",
-          "cohort": "detection_response_operations",
-          "title": "Threat Actor Defense Evasion: How Attackers Disable AV & EDR",
-          "link": "https://www.huntress.com/blog/how-attackers-disable-av-edr",
-          "published": "2026-05-18T14:00:00+00:00",
-          "summary": "Threat actors are actively targeting your security tools. Learn how threat actors disable antivirus and EDR through vulnerable drivers, tampering attacks, and malicious firewall rules, and how Huntress detects.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "energy_utilities"
-            ],
-            "affected_products": [
-              "Microsoft Windows"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -5778,7 +5872,7 @@
         "link": "https://www.darkreading.com/application-security/patch-tuesday-microsoft-zero-day-sight",
         "published": "2026-05-12T21:03:04+00:00",
         "summary": "It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do.",
-        "full_body": "Application Security Vulnerabilities & Threats Threat Intelligence News It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do. Jai Vijayan , Contributing Writer May 12, 2026 5 Min Read Source: Andrii Yalanskyi via Shutterstock For the first time in nearly two years, Microsoft's monthly security update featured no actively exploited zero-day vulnerabilities or previously disclosed flaws. But that welcome reprieve aside, Microsoft's May 2026 update contained fixes for 137 CVEs, 13 of which Microsoft considers as likely candidates for exploitation and nine of which the company rated as critical. These include two in Microsoft Office Word, where the Preview Pane is an attack vector, plus five others with near-maximum severity scores of 9.8 or 9.9 on the 10-point CVSS scale. 500 CVEs in 2026 & Counting This is the third month this year where Microsoft has disclosed more than 100 CVEs in a Patch Tuesday update. Through May, the company had already patched over 500 CVEs, which puts it on pace to surpass the annual record of 1,245 bugs Microsoft disclosed in 2020, said Satnam Naranag, senior staff research engineer at Tenable. Related: Attackers Weaponize RubyGems for Data Dead Drops According to Tom Gallagher, Microsoft's vice president of engineering, large releases could soon be the norm, with AI helping researchers uncover more vulnerabilities than before. \"This month's release sits on the larger side of a hotpatch month, and we expect releases to continue trending larger for some time,\" Gallagher said in a blog post . \"Advanced AI models are part of the discovery picture and help to accelerate it. They enable us to reason about code paths and configurations at a speed and consistency that would not be possible through manual review alone.\" The two Microsoft Office Word vulnerabilities in Microsoft's latest update with the preview pane attack vector are CVE-2026-40361 (CVSS 8.4) and CVE-2026-40364 (CVSS 8.4). The former is a memory-related vulnerability that allows a remote attacker to execute code locally on vulnerable systems. CVE-2026-40464 too is a remote code execution (RCE) bug stemming from a type-confusion issue. Neither vulnerability requires any user interaction. An attacker can trigger the flaws by simply sending a maliciously crafted document. \"Outlook's reading pane has long been a common attack vector; a single incoming email can trigger exploitation without the user ever opening it,\" warned Amol Sarwate, head of security research at Cohesity, in a statement. Nine Near-Max Severity Vulnerabilities Among the nine vulnerabilities in the May update with a severity score of 9.0 or greater — a rarity in recent Microsoft Patch Tuesday releases — are three with a near maximum rating of 9.9 out of 10 on the CVSS scale: CVE-2026-42898, CVE-2026-42823, and CVE-2026-33109. Related: Worm Redux: Fresh Mini Shai-Hulud Infections Bite Supply Chain Of these, CVE-2026-42898 , an RCE in Microsoft Dynamics 365 On-premises, is the most pressing. The code-injection flaw enables an authenticated remote attacker to execute arbitrary code. Though an attacker does not require admin or other elevated privileges to exploit the attack, Microsoft itself has categorized the flaw as one attackers are unlikely to exploit. But Jack Bicer, director of vulnerability research at Action1, recommended organizations patch it immediately anyway. \"With no user interaction required, and the potential to impact systems beyond the vulnerable component's original security scope, this vulnerability poses serious enterprise risk,\" he said in emailed comments. An attacker who successfully exploits the vulnerability can access customer records, operational workflows, financial information, and integrated business systems, he explained. \"Since CRM environments often connect with identity services, databases, and e",
+        "full_body": "Application Security Vulnerabilities & Threats Threat Intelligence News It's Patch Tuesday for Microsoft & Not a Zero-Day In Sight It's the first time in two years with no zero-days. But with 137 flaws to patch, including nine critical ones, admins still have plenty of work to do. Jai Vijayan , Contributing Writer May 12, 2026 5 Min Read Source: Andrii Yalanskyi via Shutterstock For the first time in nearly two years, Microsoft's monthly security update featured no actively exploited zero-day vulnerabilities or previously disclosed flaws. But that welcome reprieve aside, Microsoft's May 2026 update contained fixes for 137 CVEs, 13 of which Microsoft considers as likely candidates for exploitation and nine of which the company rated as critical. These include two in Microsoft Office Word, where the Preview Pane is an attack vector, plus five others with near-maximum severity scores of 9.8 or 9.9 on the 10-point CVSS scale. 500 CVEs in 2026 & Counting This is the third month this year where Microsoft has disclosed more than 100 CVEs in a Patch Tuesday update. Through May, the company had already patched over 500 CVEs, which puts it on pace to surpass the annual record of 1,245 bugs Microsoft disclosed in 2020, said Satnam Naranag, senior staff research engineer at Tenable. Related: Shai-Hulud Worm Clones Spread After Code Release According to Tom Gallagher, Microsoft's vice president of engineering, large releases could soon be the norm, with AI helping researchers uncover more vulnerabilities than before. \"This month's release sits on the larger side of a hotpatch month, and we expect releases to continue trending larger for some time,\" Gallagher said in a blog post . \"Advanced AI models are part of the discovery picture and help to accelerate it. They enable us to reason about code paths and configurations at a speed and consistency that would not be possible through manual review alone.\" The two Microsoft Office Word vulnerabilities in Microsoft's latest update with the preview pane attack vector are CVE-2026-40361 (CVSS 8.4) and CVE-2026-40364 (CVSS 8.4). The former is a memory-related vulnerability that allows a remote attacker to execute code locally on vulnerable systems. CVE-2026-40464 too is a remote code execution (RCE) bug stemming from a type-confusion issue. Neither vulnerability requires any user interaction. An attacker can trigger the flaws by simply sending a maliciously crafted document. \"Outlook's reading pane has long been a common attack vector; a single incoming email can trigger exploitation without the user ever opening it,\" warned Amol Sarwate, head of security research at Cohesity, in a statement. Nine Near-Max Severity Vulnerabilities Among the nine vulnerabilities in the May update with a severity score of 9.0 or greater — a rarity in recent Microsoft Patch Tuesday releases — are three with a near maximum rating of 9.9 out of 10 on the CVSS scale: CVE-2026-42898, CVE-2026-42823, and CVE-2026-33109. Related: Attackers Weaponize RubyGems for Data Dead Drops Of these, CVE-2026-42898 , an RCE in Microsoft Dynamics 365 On-premises, is the most pressing. The code-injection flaw enables an authenticated remote attacker to execute arbitrary code. Though an attacker does not require admin or other elevated privileges to exploit the attack, Microsoft itself has categorized the flaw as one attackers are unlikely to exploit. But Jack Bicer, director of vulnerability research at Action1, recommended organizations patch it immediately anyway. \"With no user interaction required, and the potential to impact systems beyond the vulnerable component's original security scope, this vulnerability poses serious enterprise risk,\" he said in emailed comments. An attacker who successfully exploits the vulnerability can access customer records, operational workflows, financial information, and integrated business systems, he explained. \"Since CRM environments often connect with identity services, databases, and enterprise appl",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6603,160 +6697,6 @@
       ]
     },
     {
-      "cluster_id": "5938356925",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach",
-          "ddos",
-          "malware",
-          "supply_chain",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "government_public_sector",
-          "healthcare",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Canvas LMS",
-          "Chrome",
-          "Ivanti",
-          "Microsoft Exchange",
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [
-          "CVE-2026-42945"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Exploitation of Critical NGINX Vulnerability Begins",
-        "link": "https://www.securityweek.com/exploitation-of-critical-nginx-vulnerability-begins/",
-        "published": "2026-05-18T07:27:42+00:00",
-        "summary": "The flaw leads to denial-of-service on default configurations and to remote code execution if ASLR is disabled. The post Exploitation of Critical NGINX Vulnerability Begins appeared first on SecurityWeek .",
-        "full_body": "The first in-the-wild attacks exploiting a critical-severity NGINX vulnerability patched last week have occurred over the weekend, VulnCheck warns. Tracked as CVE-2026-42945 (CVSS score of 9.2) and dubbed Nginx Rift , the flaw is described as a heap buffer overflow in the ngx_http_rewrite_module component. It lurked in the NGINX code for 16 years. Shortly after F5 released patches for the bug, Depthfirst published technical details and proof-of-concept (PoC) code targeting it. Now, VulnCheck says threat actors are already exploiting the issue in attacks. “We’re seeing active exploitation of CVE-2026-42945 in F5 NGINX, a heap buffer overflow affecting both NGINX Plus and NGINX Open Source on VulnCheck Canaries just days after the CVE was published,” VulnCheck researcher Patrick Garrity warned . The security defect exists because the script engine relies on a two-pass process to calculate the buffer size and copy data to it, and because the internal engine state changes between these passes. In certain conditions, an unpropagated flag results in attacker-supplied data being written past the heap boundary. On default deployments, successful exploitation of the CVE would trigger a server restart, causing a denial-of-service (DoS) condition. If Address Space Layout Randomization (ASLR) is disabled, the vulnerability can lead to remote code execution (RCE). Advertisement. Scroll to continue reading. As VulnCheck points out, the bug can be exploited remotely, without authentication, via crafted HTTP requests, but requires a specific rewrite configuration. While crashing the NGINX worker process is fairly trivial with a single crafted request, achieving RCE is more difficult, as most deployments have ASLR enabled by default. “Our Censys query surfaces roughly 5.7M internet-exposed NGINX servers running a potentially vulnerable version, though the truly exploitable population is likely to be a much smaller subset of those,” VulnCheck says . The vulnerability demands urgent attention, security researchers warn . Wider exploitation attempts against vulnerable deployments are to be expected, especially since the public PoC can be used to disable ASLR and achieve RCE. Related: Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild Related: Cisco Patches Another SD-WAN Zero-Day, the Sixth Exploited in 2026 Related: New ‘Dirty Frag’ Linux Vulnerability Possibly Exploited in Attacks Related: Ivanti Patches EPMM Zero-Day Exploited in Targeted Attacks Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. More from Ionut Arghire OpenAI Hit by TanStack Supply Chain Attack TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code Chrome 148 Update Patches Critical Vulnerabilities Chinese APTs Expand Targets, Update Backdoors in Recent Campaigns F5 Patches Over 50 Vulnerabilities Hackers Targeted PraisonAI Vulnerability Hours After Disclosure Researcher Drops YellowKey, GreenPlasma Windows Zero-Days Government to Scrutinize Instructure Over Canvas Disruption, Data Breach Latest News Millions Impacted Across Several US Healthcare Data Breaches ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE First Shai-Hulud Worm Clones Emerge Grafana Confirms Breach After Hackers Claim They Stole Data Hackers Earn $1.3 Million at Pwn2Own Berlin 2026 PoC Code Published for Critical NGINX Vulnerability Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk p",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach",
-            "supply_chain",
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware",
-            "ddos"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "healthcare",
-            "government_public_sector",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Ivanti",
-            "Microsoft Exchange",
-            "Canvas LMS",
-            "Chrome",
-            "OpenAI/ChatGPT"
-          ],
-          "cve_ids": [
-            "CVE-2026-42945"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "poc_available",
-            "no_patch_yet"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Exploitation of Critical NGINX Vulnerability Begins",
-          "link": "https://www.securityweek.com/exploitation-of-critical-nginx-vulnerability-begins/",
-          "published": "2026-05-18T07:27:42+00:00",
-          "summary": "The flaw leads to denial-of-service on default configurations and to remote code execution if ASLR is disabled. The post Exploitation of Critical NGINX Vulnerability Begins appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach",
-              "supply_chain",
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware",
-              "ddos"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "healthcare",
-              "government_public_sector",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Ivanti",
-              "Microsoft Exchange",
-              "Canvas LMS",
-              "Chrome",
-              "OpenAI/ChatGPT"
-            ],
-            "cve_ids": [
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "poc_available",
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "c24871ea48",
       "priority_score": 11,
       "member_count": 1,
@@ -6831,6 +6771,173 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "33e8eb0724",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tgda6s/new_windows_miniplasma_zeroday_exploit_gives/",
+        "published": "2026-05-18T05:41:04+00:00",
+        "summary": "submitted by /u/rkhunter_ [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tgda6s/new_windows_miniplasma_zeroday_exploit_gives/",
+          "published": "2026-05-18T05:41:04+00:00",
+          "summary": "submitted by /u/rkhunter_ [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d7eba37810",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Mean time-to-exploit just hit 2.1 days. Critical vulnerabilities everywhere. Is the AI apocalypse here?",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tg58gm/mean_timetoexploit_just_hit_21_days_critical/",
+        "published": "2026-05-17T23:23:33+00:00",
+        "summary": "Mandiant's new figure: attacks begin 7 days before the patch ships. Patch Tuesday is now exploit-last-Friday Supporting stats: 71% of known exploits hit same-day as disclosure (Zero Day Clock) 40% of breaches start with an unpatched flaw (IBM) +162% CVE volume since 2020 (Mondoo) 25,973 CVEs filed in 2026 already — heading towards 70k, FIRST.org forecasts up to 100k And we seem to be seeing a lot of Linux and other software critical vulnerabilities lately, all thanks to AI. Take a look at https://zerodayclock.com Is the AI exploit apocalypse here? Is this the end? submitted by /u/Mr_Prometius [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day",
+            "no_patch_yet"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Mean time-to-exploit just hit 2.1 days. Critical vulnerabilities everywhere. Is the AI apocalypse here?",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tg58gm/mean_timetoexploit_just_hit_21_days_critical/",
+          "published": "2026-05-17T23:23:33+00:00",
+          "summary": "Mandiant's new figure: attacks begin 7 days before the patch ships. Patch Tuesday is now exploit-last-Friday Supporting stats: 71% of known exploits hit same-day as disclosure (Zero Day Clock) 40% of breaches start with an unpatched flaw (IBM) +162% CVE volume since 2020 (Mondoo) 25,973 CVEs filed in 2026 already — heading towards 70k, FIRST.org forecasts up to 100k And we seem to be seeing a lot of Linux and other software critical vulnerabilities lately, all thanks to AI. Take a look at https://zerodayclock.com Is the AI exploit apocalypse here? Is this the end? submitted by /u/Mr_Prometius [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day",
+              "no_patch_yet"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -7250,6 +7357,73 @@
       ]
     },
     {
+      "cluster_id": "3da3cf9f20",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "SentinelOne Labs",
+        "cohort": "threat_research_primary",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SentinelOne Labs",
+          "cohort": "threat_research_primary",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "03647dbe9e",
       "priority_score": 10,
       "member_count": 1,
@@ -7368,73 +7542,6 @@
           "link": "https://www.welivesecurity.com/en/eset-research/frostyneighbor-fresh-mischief-digital-shenanigans/",
           "published": "2026-05-14T08:50:00+00:00",
           "summary": "ESET researchers uncovered new activities attributed to FrostyNeighbor, updating its compromise chain to support the group’s continual cyberespionage operations",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3da3cf9f20",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "SentinelOne Labs",
-        "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SentinelOne Labs",
-          "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7572,6 +7679,87 @@
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "55d60e5654",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Kimsuky targets organizations with PebbleDash-based tools",
+        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+        "published": "2026-05-14T11:00:58+00:00",
+        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Kimsuky targets organizations with PebbleDash-based tools",
+          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+          "published": "2026-05-14T11:00:58+00:00",
+          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
             "affected_industries": [],
             "affected_products": [],
             "cve_ids": [],
@@ -7924,233 +8112,15 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "b177b7443c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
-        "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
-          "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "55d60e5654",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [
-          "Kimsuky"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Kimsuky targets organizations with PebbleDash-based tools",
-        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-        "published": "2026-05-14T11:00:58+00:00",
-        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [
-            "Kimsuky"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Kimsuky targets organizations with PebbleDash-based tools",
-          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
-          "published": "2026-05-14T11:00:58+00:00",
-          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [
-              "Kimsuky"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "eb0e9d77c3",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Quoting Mitchell Hashimoto",
-        "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
-        "published": "2026-05-14T22:31:20+00:00",
-        "summary": "[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. Its useful until its not then it can be thrown out. That's interesting! — Mitchell Hashimoto , on Bun porting from Zig to Rust Tags: zig , ai , mitchell-hashimoto , llms , rust , generative-ai , agentic-engineering , bun",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Quoting Mitchell Hashimoto",
-          "link": "https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything",
-          "published": "2026-05-14T22:31:20+00:00",
-          "summary": "[...] On the interesting side is how fungible programming languages are nowadays. Programming languages used to be LOCK IN, and they're increasingly not so. You think the Bun rewrite in Rust is good for Rust? Bun has shown they can be in probably any language they want in roughly a week or two. Rust is expendable. Its useful until its not then it can be thrown out. That's interesting! — Mitchell Hashimoto , on Bun porting from Zig to Rust Tags: zig , ai , mitchell-hashimoto , llms , rust , generative-ai , agentic-engineering , bun",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
     {
-      "label": "zero day targeting Microsoft Windows",
+      "label": "zero day activity",
       "dominant_features": {
         "threat_categories": [
           "zero_day",
           "vulnerability_disclosure"
-        ],
-        "affected_products": [
-          "Microsoft Windows"
         ],
         "urgency_signals": [
           "zero_day"
@@ -8165,77 +8135,30 @@
       },
       "cluster_count": 22,
       "article_count": 27,
-      "cohesion": 0.387,
+      "cohesion": 0.383,
       "cluster_ids": [
         "6239eacb98",
         "b45ac0ca64",
+        "a737fa0143",
         "9802f04a89",
         "1e084ad922",
         "f0685ad88a",
         "eb8e5fefbf",
         "9e047f3f25",
-        "08d387ca71",
         "8fd391b96b",
+        "08d387ca71",
         "405bfcae7f",
         "39ec215030",
         "af7f3f5c0b",
         "63c9e17389",
         "b1bfbc4124",
-        "651d91b6fa",
         "06895f3526",
-        "1e6a8db106",
+        "651d91b6fa",
         "52d06b5a30",
         "6ca30bfec7",
         "03f477fe86",
         "29b070dccb",
         "0b55f28621"
-      ]
-    },
-    {
-      "label": "ShinyHunters targeting GitHub",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "ddos",
-          "vulnerability_disclosure",
-          "zero_day",
-          "malware"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "healthcare",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "GitHub",
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [
-          "CVE-2026-42945"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available",
-          "preauth_unauth",
-          "no_patch_yet",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 8,
-      "cohesion": 0.344,
-      "cluster_ids": [
-        "2eb9132451",
-        "ad84f1fd3a",
-        "5938356925"
       ]
     },
     {
