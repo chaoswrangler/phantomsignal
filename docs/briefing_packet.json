@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-23T09:06:40.070189+00:00",
+  "generated_at": "2026-05-23T11:18:45.577797+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
   "total_items_in_window": 482,
-  "total_clusters_raw": 467,
+  "total_clusters_raw": 468,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 320,
-  "dropped_overflow": 67,
+  "dropped_low_score": 322,
+  "dropped_overflow": 66,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -81,19 +74,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -109,20 +102,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -137,13 +116,6 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -151,12 +123,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -165,12 +151,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 8
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -179,11 +165,18 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Volexity": {
@@ -193,12 +186,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
+      "item_count": 78,
+      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -221,6 +214,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -233,13 +233,6 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "Active Countermeasures": {
@@ -256,18 +249,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 2
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 2
     },
     "Rapid7": {
@@ -276,13 +269,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -298,18 +284,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 6
     },
     "Datadog Security Labs": {
@@ -326,19 +305,33 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -352,7 +345,7 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 8
+      "in_window_count": 7
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -361,12 +354,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -375,19 +368,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
+      "item_count": 30,
+      "in_window_count": 20
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,12 +382,33 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 18
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -410,13 +417,6 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
@@ -424,12 +424,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,19 +445,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -465,6 +458,20 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 31
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "fetch_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -480,12 +487,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 50,
+      "in_window_count": 44
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -494,20 +508,6 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 43
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -515,12 +515,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -529,12 +529,12 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -550,13 +550,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -570,6 +563,13 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -599,19 +599,19 @@
       "item_count": 25,
       "in_window_count": 4
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -631,8 +631,8 @@
   "clusters": [
     {
       "cluster_id": "2950f750fc",
-      "priority_score": 34,
-      "member_count": 7,
+      "priority_score": 32,
+      "member_count": 6,
       "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-9082"
@@ -818,10 +818,10 @@
         {
           "source": "SecurityWeek",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking",
-          "link": "https://www.securityweek.com/drupal-patches-highly-critical-vulnerability-exposing-websites-to-hacking/",
-          "published": "2026-05-21T10:58:49+00:00",
-          "summary": "CVE-2026-9082 can be exploited without authentication for information disclosure, privilege escalation, and remote code execution. The post Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking appeared first on SecurityWeek .",
+          "title": "Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure",
+          "link": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/",
+          "published": "2026-05-22T17:15:26+00:00",
+          "summary": "Drupal is warning users that it has already seen attempts to exploit CVE-2026-9082 and security firms are seeing attacks against thousands of websites. The post Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
               "vulnerability_disclosure"
@@ -1018,7 +1018,7 @@
         "link": "https://www.securityweek.com/trendai-patches-apex-one-zero-day-exploited-in-the-wild/",
         "published": "2026-05-22T08:19:24+00:00",
         "summary": "CVE-2026-34926 is a directory traversal flaw that can be exploited against the on-premise version of Apex One. The post TrendAI Patches Apex One Zero-Day Exploited in the Wild appeared first on SecurityWeek .",
-        "full_body": "TrendAI, Trend Micro’s enterprise business, has informed customers that it has patched another Apex One vulnerability that has been exploited in the wild. The zero-day, tracked as CVE-2026-34926 , is a medium-severity directory traversal issue that can be exploited by an unauthenticated local attacker to “modify a key table on the server to inject malicious code to deploy to agents on affected installations”. TrendAI noted that the attacker requires admin credentials to the server, and the attack only works against the on-premises version of Apex One. No information has been shared by the cybersecurity firm on the attacks exploiting the latest zero-day. The vulnerability was discovered internally by TrendAI’s incident response team. It’s not uncommon for threat actors to exploit vulnerabilities in Apex products, but attribution information is rarely made public. Some past attacks have been linked to Chinese state-sponsored hackers , and given the access required to exploit CVE-2026-34926, it’s likely that this vulnerability has also been exploited by an APT. CISA added CVE-2026-34926 to its Known Exploited Vulnerabilities (KEV) catalog on Thursday, instructing federal agencies to address it by June 4. Advertisement. Scroll to continue reading. CISA’s KEV catalog currently includes 10 other CVEs assigned to Apex flaws. In addition to CVE-2026-34926, the latest Apex One updates address several other vulnerabilities — all of them are high-severity issues that can be exploited for local privilege escalation. “Exploiting these type of vulnerabilities generally require that an attacker has access (physical or remote) to a vulnerable machine. In addition to timely application of patches and updated solutions, customers are also advised to review remote access to critical systems and ensure policies and perimeter security is up-to-date,” TrendAI said in its advisory. Related : Google’s Surge in Chrome Vulnerability Discoveries Likely Driven by AI Related : Trend Micro Patches Critical Code Execution Flaw in Apex Central Related : Trend Micro Patches Critical Apex One Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking Google’s Surge in Chrome Vulnerability Discoveries Likely Driven by AI Anthropic Silently Patches Claude Code Sandbox Bypass Real-World ICS Security Tales From the Trenches Drupal to Patch Highly Critical Vulnerability at Risk of Quick Exploitation Microsoft Disrupts Malware-Signing Service Run by ‘Fox Tempest’ Critical Vulnerability Exposes Industrial Robot Fleets to Hacking Millions Impacted Across Several US Healthcare Data Breaches Latest News Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking Canadian Man Arrested for Operating Kimwolf Botnet ‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack Cisco Patches Critical Vulnerability in Secure Workload Ocean Emerges From Stealth With $28M for Agentic Email Security Platform Apple Rejected 2 Million App Store Submissions in 2025 for Security and Fraud Prevention Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Threat Detection and Incident Response Summit May 20, 2026 Delve into big-picture strategies t",
+        "full_body": "TrendAI, Trend Micro’s enterprise business, has informed customers that it has patched another Apex One vulnerability that has been exploited in the wild. The zero-day, tracked as CVE-2026-34926 , is a medium-severity directory traversal issue that can be exploited by an unauthenticated local attacker to “modify a key table on the server to inject malicious code to deploy to agents on affected installations”. TrendAI noted that the attacker requires admin credentials to the server, and the attack only works against the on-premises version of Apex One. No information has been shared by the cybersecurity firm on the attacks exploiting the latest zero-day. The vulnerability was discovered internally by TrendAI’s incident response team. It’s not uncommon for threat actors to exploit vulnerabilities in Apex products, but attribution information is rarely made public. Some past attacks have been linked to Chinese state-sponsored hackers , and given the access required to exploit CVE-2026-34926, it’s likely that this vulnerability has also been exploited by an APT. CISA added CVE-2026-34926 to its Known Exploited Vulnerabilities (KEV) catalog on Thursday, instructing federal agencies to address it by June 4. Advertisement. Scroll to continue reading. CISA’s KEV catalog currently includes 10 other CVEs assigned to Apex flaws. In addition to CVE-2026-34926, the latest Apex One updates address several other vulnerabilities — all of them are high-severity issues that can be exploited for local privilege escalation. “Exploiting these type of vulnerabilities generally require that an attacker has access (physical or remote) to a vulnerable machine. In addition to timely application of patches and updated solutions, customers are also advised to review remote access to critical systems and ensure policies and perimeter security is up-to-date,” TrendAI said in its advisory. Related : Google’s Surge in Chrome Vulnerability Discoveries Likely Driven by AI Related : Trend Micro Patches Critical Code Execution Flaw in Apex Central Related : Trend Micro Patches Critical Apex One Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking Google’s Surge in Chrome Vulnerability Discoveries Likely Driven by AI Anthropic Silently Patches Claude Code Sandbox Bypass Real-World ICS Security Tales From the Trenches Drupal to Patch Highly Critical Vulnerability at Risk of Quick Exploitation Microsoft Disrupts Malware-Signing Service Run by ‘Fox Tempest’ Critical Vulnerability Exposes Industrial Robot Fleets to Hacking Millions Impacted Across Several US Healthcare Data Breaches Latest News ‘Underminr’ Vulnerability Lets Attackers Hide Malicious Connections Behind Trusted Domains Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking Canadian Man Arrested for Operating Kimwolf Botnet ‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack Cisco Patches Critical Vulnerability in Secure Workload Ocean Emerges From Stealth With $28M for Agentic Email Security Platform Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Virtual Event: Threat Detection and Incident Response Summit May 20, 2026 Delve into big-picture strategies",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -1242,7 +1242,7 @@
     },
     {
       "cluster_id": "b0318e89fd",
-      "priority_score": 23,
+      "priority_score": 22,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -1932,7 +1932,7 @@
         "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
         "published": "2026-05-23T07:35:13+00:00",
         "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
-        "full_body": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root  Ravie Lakshmanan  May 23, 2026 Vulnerability / Web Security A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may exploit the lsws.redisAble function to execute arbitrary scripts as root,\" LiteSpeed said . The vulnerability impacts all versions of the plugin between 2.3 and 2.4.4. LiteSpeed's WHM plugin is not impacted. The issue has been addressed in version 2.4.5. Security researcher David Strydom has been credited with discovering and reporting the flaw. LiteSpeed noted that the \"vulnerability is being actively exploited,\" but refrained from sharing additional details. It has shared the following indicator of compromise - grep -rE \"cpanel_jsonapi_func=redisAble\" /var/cpanel/logs /usr/local/cpanel/logs/ 2>/dev/null If running the aforementioned \"grep\" command does not produce any output, the server is not affected. However, if there is any output, users are advised to examine the IP addresses in the list and determine if they are legitimate, and if not, block them. Following a security review of its cPanel and WHM plugins in the wake of the vulnerability, LiteSpeed said it has patched additional potential attack vectors in both plugins and released cPanel plugin version 2.4.7 bundled with WHM plugin version 5.3.1.0. Users are advised to upgrade to LiteSpeed WHM Plugin version 5.3.1.0, which is bundled with cPanel plugin v2.4.7 or higher, to patch the vulnerability. If immediate patching is not an option, it's recommended to remove the user-end plugin by running the below command - /usr/local/lsws/admin/misc/lscmctl cpanelplugin --uninstall The development comes weeks after a critical cPanel vulnerability ( CVE-2026-41940 , CVSS score: 9.8) was identified as actively exploited by unknown threat actors to deploy Mirai botnet variants and a ransomware strain called Sorry. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cPanel , cybersecurity , LiteSpeed , privilege escalation , ransomware , Vulnerability , WHM ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Handle Critical SOC Alerts With AI Support Identify Internal Attack Surfaces More Efficiently With a Free Assessment [eBook] Get the 3-Number SOC Diagnostic to Reduce Queue Risk [Guide] Stop Email Fraud ",
+        "full_body": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root  Ravie Lakshmanan  May 23, 2026 Vulnerability / Web Security A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may exploit the lsws.redisAble function to execute arbitrary scripts as root,\" LiteSpeed said . The vulnerability impacts all versions of the plugin between 2.3 and 2.4.4. LiteSpeed's WHM plugin is not impacted. The issue has been addressed in version 2.4.5. Security researcher David Strydom has been credited with discovering and reporting the flaw. LiteSpeed noted that the \"vulnerability is being actively exploited,\" but refrained from sharing additional details. It has provided the following indicator of compromise - grep -rE \"cpanel_jsonapi_func=redisAble\" /var/cpanel/logs /usr/local/cpanel/logs/ 2>/dev/null If running the aforementioned \"grep\" command does not produce any output, the server is not affected. However, if there is any output, users are advised to examine the IP addresses in the list and determine if they are legitimate, and if not, block them. Following a security review of its cPanel and WHM plugins in the wake of the vulnerability, LiteSpeed said it has patched additional potential attack vectors in both plugins and released cPanel plugin version 2.4.7 as part of WHM plugin version 5.3.1.0. Users are advised to upgrade to LiteSpeed WHM Plugin version 5.3.1.0, which is bundled with cPanel plugin v2.4.7 or higher, to patch the vulnerability. If immediate patching is not an option, it's recommended to remove the user-end plugin by running the below command - /usr/local/lsws/admin/misc/lscmctl cpanelplugin --uninstall The development comes weeks after a critical cPanel vulnerability ( CVE-2026-41940 , CVSS score: 9.8) was identified as actively exploited by unknown threat actors to deploy Mirai botnet variants and a ransomware strain called Sorry. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cPanel , cybersecurity , LiteSpeed , privilege escalation , ransomware , Vulnerability , WHM ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Handle Critical SOC Alerts With AI Support Identify Internal Attack Surfaces More Efficiently With a Free Assessment [eBook] Get the 3-Number SOC Diagnostic to Reduce Queue Risk [Guide] Stop Email Fraud ",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2802,103 +2802,6 @@
       ]
     },
     {
-      "cluster_id": "b35dce398c",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "nation_state",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "APT29/Cozy Bear"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure",
-          "Entra ID",
-          "GitHub",
-          "Palo Alto Networks"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
-        "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
-        "published": "2026-05-22T10:00:24+00:00",
-        "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research Paved With Intent: ROADtools and Nation-State Tactics in the Cloud 14 min read Related Products Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Bill Batchelor Eyal Rafian Published: May 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: Curious Serpens Entra ID Microsoft Azure Microsoft graph API Midnight Blizzard MITRE ROADtools UTA0355 Void Blizzard Share Executive Summary ROADtools is a publicly available toolkit for offensive and defensive security purposes that attackers have integrated into cloud attacks. The tool is designed to: Enumerate Entra ID Register devices in Entra ID Acquire, exchange and manipulate Microsoft Entra ID tokens ROADtools is an open-source framework written in Python and built for red-teaming and research. It primarily targets the identity and authentication layers of Azure, and focuses on how accounts, applications and tokens operate in tenants. To avoid detection, ROADtools operates through legitimate Microsoft APIs and can mimic typical traffic. Further defense evasion can be achieved by configuring request attributes such as user-agent strings. These capabilities have made ROADtools a valuable asset for attackers. Nation-state threat actors have used it in recent cloud intrusions for discovery, persistence and defense evasion. Attackers involved in a targeted phishing campaign in early 2025 used tooling that matches ROADtools' token management capabilities. We provide an accessible overview of ROADtools, including how it evades detection and how nation-state threat actors and other adversaries misuse it. To aid defenders in protecting organizations against this threat, we also provide: Straightforward hunting queries that can reveal ROADtools usage Practical recommendations to detect and prevent the effectiveness of ROADtools within an environment Palo Alto Networks customers are better protected from the threats described here through the following products and services: Cortex Cloud Cortex XDR and XSIAM The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Microsoft Azure , Cloud , MITRE Tool Overview ROADtools is able to interact with Entra ID via legitimate APIs, and to customize user-agent strings — both of which help it to evade detection. The tool includes several modules — two of which we discuss in this article - and a set of shared libraries. The ROADrecon Module The roadrecon module is designed for internal discovery and enumeration. It gathers organizational data and identity information from Entra ID (formerly Azure Active Directory), including: Users Groups Roles Devices Service principals Applications Directory configurations Results are stored in a local SQLite database that can be viewed through a custom web interface. This provides a graphical way to navigate the tenant and identify relationships or privileged objects that attackers could use for persistence or escalation. Figure 1 shows Entra ID Groups within the ROADrecon graphical web interface. Figure 1. Entra ID Groups in the ROADtools web interface. The roadrecon module originally queried the Azure AD Graph API to enumerate Azure AD resources. However, Microsoft has stated the Azure AD Graph API is being retired and all new or existing applications must migrate to Microsoft Graph API , which breaks a fundamental component of the original roadrecon functionality. As of May 2026, an msgraph branch exists in the official ROADtools Github repository but has not been updated since April 2025. Subsequent development has continued in a separate, community-maintained fork , where partial roadrecon functionality has been impleme",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "nation_state"
-          ],
-          "actor_attribution": [
-            "APT29/Cozy Bear"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Azure",
-            "Entra ID",
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
-          "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
-          "published": "2026-05-22T10:00:24+00:00",
-          "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "nation_state"
-            ],
-            "actor_attribution": [
-              "APT29/Cozy Bear"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Azure",
-              "Entra ID",
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8ebb62380b",
       "priority_score": 15,
       "member_count": 1,
@@ -3453,6 +3356,103 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_government"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b35dce398c",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "nation_state",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "APT29/Cozy Bear"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure",
+          "Entra ID",
+          "GitHub",
+          "Palo Alto Networks"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
+        "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
+        "published": "2026-05-22T10:00:24+00:00",
+        "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research Paved With Intent: ROADtools and Nation-State Tactics in the Cloud 14 min read Related Products Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Bill Batchelor Eyal Rafian Published: May 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: Curious Serpens Entra ID Microsoft Azure Microsoft graph API Midnight Blizzard MITRE ROADtools UTA0355 Void Blizzard Share Executive Summary ROADtools is a publicly available toolkit for offensive and defensive security purposes that attackers have integrated into cloud attacks. The tool is designed to: Enumerate Entra ID Register devices in Entra ID Acquire, exchange and manipulate Microsoft Entra ID tokens ROADtools is an open-source framework written in Python and built for red-teaming and research. It primarily targets the identity and authentication layers of Azure, and focuses on how accounts, applications and tokens operate in tenants. To avoid detection, ROADtools operates through legitimate Microsoft APIs and can mimic typical traffic. Further defense evasion can be achieved by configuring request attributes such as user-agent strings. These capabilities have made ROADtools a valuable asset for attackers. Nation-state threat actors have used it in recent cloud intrusions for discovery, persistence and defense evasion. Attackers involved in a targeted phishing campaign in early 2025 used tooling that matches ROADtools' token management capabilities. We provide an accessible overview of ROADtools, including how it evades detection and how nation-state threat actors and other adversaries misuse it. To aid defenders in protecting organizations against this threat, we also provide: Straightforward hunting queries that can reveal ROADtools usage Practical recommendations to detect and prevent the effectiveness of ROADtools within an environment Palo Alto Networks customers are better protected from the threats described here through the following products and services: Cortex Cloud Cortex XDR and XSIAM The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Microsoft Azure , Cloud , MITRE Tool Overview ROADtools is able to interact with Entra ID via legitimate APIs, and to customize user-agent strings — both of which help it to evade detection. The tool includes several modules — two of which we discuss in this article - and a set of shared libraries. The ROADrecon Module The roadrecon module is designed for internal discovery and enumeration. It gathers organizational data and identity information from Entra ID (formerly Azure Active Directory), including: Users Groups Roles Devices Service principals Applications Directory configurations Results are stored in a local SQLite database that can be viewed through a custom web interface. This provides a graphical way to navigate the tenant and identify relationships or privileged objects that attackers could use for persistence or escalation. Figure 1 shows Entra ID Groups within the ROADrecon graphical web interface. Figure 1. Entra ID Groups in the ROADtools web interface. The roadrecon module originally queried the Azure AD Graph API to enumerate Azure AD resources. However, Microsoft has stated the Azure AD Graph API is being retired and all new or existing applications must migrate to Microsoft Graph API , which breaks a fundamental component of the original roadrecon functionality. As of May 2026, an msgraph branch exists in the official ROADtools Github repository but has not been updated since April 2025. Subsequent development has continued in a separate, community-maintained fork , where partial roadrecon functionality has been impleme",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "nation_state"
+          ],
+          "actor_attribution": [
+            "APT29/Cozy Bear"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Azure",
+            "Entra ID",
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Paved With Intent: ROADtools and Nation-State Tactics in the Cloud",
+          "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
+          "published": "2026-05-22T10:00:24+00:00",
+          "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "nation_state"
+            ],
+            "actor_attribution": [
+              "APT29/Cozy Bear"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Azure",
+              "Entra ID",
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
           }
         }
       ]
@@ -4062,6 +4062,91 @@
       ]
     },
     {
+      "cluster_id": "d227de9cf4",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "TrustedSec",
+        "cohort": "detection_response_operations",
+        "title": "Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem",
+        "link": "https://trustedsec.com/blog/shai-hulud-is-back",
+        "published": "2026-05-21T04:00:00+00:00",
+        "summary": "<p>Same worm, different wave. In our new blog, Director of Security Intelligence Carlos Perez covers Shai-Hulud, how this supply-chain malware can eat your whole ecosystem, and what you can do to protect your data.</p>",
+        "full_body": "Blog Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem May 21, 2026 Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem Written by Carlos Perez Incident Response Malware Analysis Table of contents 1.1 What Actually Happened 1.2 How the Malware Works 1.3 Detecting Compromise 1.4 Cleanup 1.5 Auditd Rules for Linux Systems 1.6 What to Change Going Forward 1.7 Closing 1.8 Shai-Hulud IOC Reference Tables The name Shai-Hulud is not new to anyone who's been watching npm supply chain attacks over the past few years, or has heard me sound like a broken record in threat intel reports and when warning customers about gaps in software inventory and processes when building playbooks. It's the same worm, but a different wave. What changed this time is the blast radius of over 300 packages across Alibaba's AntV data visualization ecosystem, and at the time of this writing, the count is still climbing. The nasty touch of setting a dead-man switch to delete the root folder was one that I will be adding to Tabletop Exercises and will make some organizations think twice when doing rapid isolation. 1.1 What Actually Happened All it took was one (1) npm account. The atool account, which owns the popular timeago.js package (around 1.5 million weekly downloads) and publishes across a large chunk of the @antv namespace, got compromised. Whoever did this pushed malicious versions across charting libraries, graph tools, mapping components, and general-purpose utilities, the whole suite of packages. Anything that pulls from AntV is in scope, from front-end teams to data visualization pipelines. This will be the hardest part for many out there, as your perimeter logs will be king when hunting for hosts to inspect,in addition to the use of EDR and other tools that allow you to script or leverage built-in string searches. The attacker didn't try to hide the impact, with over 2,200 public GitHub repositories created using stolen tokens. Each one was named with Dune-universe terminology, described with the reversed string \"niagA oG eW ereH :duluH-iahS.\" Flip that around: \"Shai-Hulud: Here We Go Again.\" They're announcing themselves in real time, using the credentials they just stole. That is not accidental, it is someone making a point. With how well orchestrated the attack is, I cannot say this is sloppy but intentional. Any environment that installed an affected package should be treated as fully compromised. Rotate everything now, before you finish reading this. High-impact packages by download volume: Package Compromised Versions timeago.js 4.1.2, 4.2.2 echarts-for-react 3.0.7, 3.1.7, 3.2.7 jest-canvas-mock 2.5.3, 2.6.3, 2.7.3 @antv/g6 5.2.1, 5.3.1 @antv/g2 5.5.8, 5.6.8 @antv/l7 2.26.10, 2.27.10 mcp-echarts 0.8.1, 0.9.1 mcp-mermaid 0.5.1, 0.6.1 The full list at the end and it keeps growing. I still recommend you perform a threat hunt for the indicators of compromise (IOCs)). 1.2 How the Malware Works This second time around, we see the same payload across every compromised package, just differently obfuscated (note that this does not mean it has not changed recently). The entry point is either a preinstall or postinstall hook. Execution fires the moment npm install runs, which happens before anything in your codebase loads. 1.2.1 Stage 1 The Install Hook { \"scripts\": { \"preinstall\": \"node -e \\\"require('./.build/preinstall.js')\\\"\" } } The .build/preinstall.js is heavily obfuscated and is worth deobfuscating if you're doing forensic work on a hit system. Once unpacked, behavior runs three (3) tracks: Credential harvesting Exfiltration Persistence 1.2.2 Stage 2 Pulling Secrets Out of Runner Memory GitHub Actions masks secrets in log output, but what it can't stop is a process on the same runner reading its own process memory. The payload does exactly that—it walks /proc/self/maps , locates the heap regions where ACTIONS_ -prefixed environment variables live, and reads the unmasked values directly out of memory. // Simplified representati",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "malware",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub",
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "TrustedSec",
+          "cohort": "detection_response_operations",
+          "title": "Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem",
+          "link": "https://trustedsec.com/blog/shai-hulud-is-back",
+          "published": "2026-05-21T04:00:00+00:00",
+          "summary": "<p>Same worm, different wave. In our new blog, Director of Security Intelligence Carlos Perez covers Shai-Hulud, how this supply-chain malware can eat your whole ecosystem, and what you can do to protect your data.</p>",
+          "taxonomy": {
+            "threat_categories": [
+              "malware",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "bee3cb593e",
       "priority_score": 13,
       "member_count": 1,
@@ -4147,91 +4232,6 @@
             "geographic_scope": [],
             "urgency_signals": [],
             "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "d227de9cf4",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "npm"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "TrustedSec",
-        "cohort": "detection_response_operations",
-        "title": "Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem",
-        "link": "https://trustedsec.com/blog/shai-hulud-is-back",
-        "published": "2026-05-21T04:00:00+00:00",
-        "summary": "<p>Same worm, different wave. In our new blog, Director of Security Intelligence Carlos Perez covers Shai-Hulud, how this supply-chain malware can eat your whole ecosystem, and what you can do to protect your data.</p>",
-        "full_body": "Blog Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem May 21, 2026 Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem Written by Carlos Perez Incident Response Malware Analysis Table of contents 1.1 What Actually Happened 1.2 How the Malware Works 1.3 Detecting Compromise 1.4 Cleanup 1.5 Auditd Rules for Linux Systems 1.6 What to Change Going Forward 1.7 Closing 1.8 Shai-Hulud IOC Reference Tables The name Shai-Hulud is not new to anyone who's been watching npm supply chain attacks over the past few years, or has heard me sound like a broken record in threat intel reports and when warning customers about gaps in software inventory and processes when building playbooks. It's the same worm, but a different wave. What changed this time is the blast radius of over 300 packages across Alibaba's AntV data visualization ecosystem, and at the time of this writing, the count is still climbing. The nasty touch of setting a dead-man switch to delete the root folder was one that I will be adding to Tabletop Exercises and will make some organizations think twice when doing rapid isolation. 1.1 What Actually Happened All it took was one (1) npm account. The atool account, which owns the popular timeago.js package (around 1.5 million weekly downloads) and publishes across a large chunk of the @antv namespace, got compromised. Whoever did this pushed malicious versions across charting libraries, graph tools, mapping components, and general-purpose utilities, the whole suite of packages. Anything that pulls from AntV is in scope, from front-end teams to data visualization pipelines. This will be the hardest part for many out there, as your perimeter logs will be king when hunting for hosts to inspect,in addition to the use of EDR and other tools that allow you to script or leverage built-in string searches. The attacker didn't try to hide the impact, with over 2,200 public GitHub repositories created using stolen tokens. Each one was named with Dune-universe terminology, described with the reversed string \"niagA oG eW ereH :duluH-iahS.\" Flip that around: \"Shai-Hulud: Here We Go Again.\" They're announcing themselves in real time, using the credentials they just stole. That is not accidental, it is someone making a point. With how well orchestrated the attack is, I cannot say this is sloppy but intentional. Any environment that installed an affected package should be treated as fully compromised. Rotate everything now, before you finish reading this. High-impact packages by download volume: Package Compromised Versions timeago.js 4.1.2, 4.2.2 echarts-for-react 3.0.7, 3.1.7, 3.2.7 jest-canvas-mock 2.5.3, 2.6.3, 2.7.3 @antv/g6 5.2.1, 5.3.1 @antv/g2 5.5.8, 5.6.8 @antv/l7 2.26.10, 2.27.10 mcp-echarts 0.8.1, 0.9.1 mcp-mermaid 0.5.1, 0.6.1 The full list at the end and it keeps growing. I still recommend you perform a threat hunt for the indicators of compromise (IOCs)). 1.2 How the Malware Works This second time around, we see the same payload across every compromised package, just differently obfuscated (note that this does not mean it has not changed recently). The entry point is either a preinstall or postinstall hook. Execution fires the moment npm install runs, which happens before anything in your codebase loads. 1.2.1 Stage 1 The Install Hook { \"scripts\": { \"preinstall\": \"node -e \\\"require('./.build/preinstall.js')\\\"\" } } The .build/preinstall.js is heavily obfuscated and is worth deobfuscating if you're doing forensic work on a hit system. Once unpacked, behavior runs three (3) tracks: Credential harvesting Exfiltration Persistence 1.2.2 Stage 2 Pulling Secrets Out of Runner Memory GitHub Actions masks secrets in log output, but what it can't stop is a process on the same runner reading its own process memory. The payload does exactly that—it walks /proc/self/maps , locates the heap regions where ACTIONS_ -prefixed environment variables live, and reads the unmasked values directly out of memory. // Simplified representati",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub",
-            "npm"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "TrustedSec",
-          "cohort": "detection_response_operations",
-          "title": "Shai-Hulud Is Back, and This Time It Ate the Whole Ecosystem",
-          "link": "https://trustedsec.com/blog/shai-hulud-is-back",
-          "published": "2026-05-21T04:00:00+00:00",
-          "summary": "<p>Same worm, different wave. In our new blog, Director of Security Intelligence Carlos Perez covers Shai-Hulud, how this supply-chain malware can eat your whole ecosystem, and what you can do to protect your data.</p>",
-          "taxonomy": {
-            "threat_categories": [
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "npm"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
             "confidence_tier": "tier_2_operator"
           }
         }
@@ -4345,91 +4345,6 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_offensive_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "eb48980918",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "retail_ecommerce"
-        ],
-        "affected_products": [
-          "AWS"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
-        "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
-        "published": "2026-05-20T20:56:03+00:00",
-        "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
-        "full_body": "AWS Security Blog Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection attacks, where adversaries inject malicious commands through tool responses or user inputs. LLMs don’t robustly differentiate between commands and data, everything is only tokens. For these reasons, if you want defense in depth, you must treat the LLM as an untrusted actor from a security point of view. The insight is that the LLM can’t affect the external world directly: it has to go through an orchestrator that invokes tools based on the LLM’s output. This is precisely where the controls must be applied. What you need at this boundary is authorization: a decision about whether each tool invocation should be allowed and under what conditions. Consider a customer service agent for an online retailer. Without proper controls, it could process refunds that exceed authorized limits, apply discounts to product categories that should be excluded, or look up one customer’s data while handling another customer’s session. If you control agents’ access to tools, you can establish a safety envelope within which the agent can operate freely. This differs from two common but unsatisfactory approaches: Creating hard-coded workflows eliminates uncertainty, but by itself defeats the purpose of using an LLM as the brain of the agent, because you’ve built a traditional application with an LLM interface. And even with this restriction, using LLM outputs at any step can open up the same risks. While it’s a useful technique for well-understood workflows, it’s not sufficient for agents that need to adapt. Human-in-the-loop provides a safety net for critical operations, and it will always have a role. But relying on it as the main control mechanism sacrifices autonomy and can lead to approval fatigue. You need agents that are safe and autonomous. This requires an auditable, deterministic enforcement layer that sits outside the agent and tools. Why outside? Because the LLM’s plan is the thing you can’t trust—it can’t be responsible for enforcing its own constraints. Controls at the LLM layer—such as system prompts and training-time alignment—can be bypassed by prompt injection or hallucination. Hard-coded checks in agent or tool code are more robust, but become difficult to audit and manage at scale, especially when security logic is scattered across many tools and services. Centralizing authorization outside both gives you a single checkpoint the LLM can’t circumvent; one that’s auditable and can be verified independently of the application code. This is where AgentCore Policies come in. Amazon Bedrock AgentCore Gateway sits between the agent and the remote tools it calls. When you associate a Policy with a Gateway, it blocks everything by default. Policies selectively open this boundary by specifying which tool invocations are allowed and under what conditions. This enforcement applies to all tool traffic routed through the Gateway. For this approach to scale, it must be more straightforward to reason about the policies than about the agent’s behavior. AgentCore policies are expressed in Cedar . Cedar is an open source authorization policy language developed by AWS that has recently joined the Cloud Native Computing Foundation (CNCF) . Cedar was designed with exactly these properties: it’s purpose-built for authorization, readable by humans, and analyzable by machines using automated reasoning. This gives enterprises the ability to scale policy definition and enforcement to their AI agents. How Cedar is used by Amazon Bedrock AgentCore Amazon Bedrock AgentCore provides the infrastructure ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "retail_ecommerce"
-          ],
-          "affected_products": [
-            "AWS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
-          "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
-          "published": "2026-05-20T20:56:03+00:00",
-          "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "retail_ecommerce"
-            ],
-            "affected_products": [
-              "AWS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -4607,6 +4522,91 @@
             "affected_products": [
               "AWS",
               "Google Cloud"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "eb48980918",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "AWS"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "AWS Security Blog",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+        "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+        "published": "2026-05-20T20:56:03+00:00",
+        "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
+        "full_body": "AWS Security Blog Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection attacks, where adversaries inject malicious commands through tool responses or user inputs. LLMs don’t robustly differentiate between commands and data, everything is only tokens. For these reasons, if you want defense in depth, you must treat the LLM as an untrusted actor from a security point of view. The insight is that the LLM can’t affect the external world directly: it has to go through an orchestrator that invokes tools based on the LLM’s output. This is precisely where the controls must be applied. What you need at this boundary is authorization: a decision about whether each tool invocation should be allowed and under what conditions. Consider a customer service agent for an online retailer. Without proper controls, it could process refunds that exceed authorized limits, apply discounts to product categories that should be excluded, or look up one customer’s data while handling another customer’s session. If you control agents’ access to tools, you can establish a safety envelope within which the agent can operate freely. This differs from two common but unsatisfactory approaches: Creating hard-coded workflows eliminates uncertainty, but by itself defeats the purpose of using an LLM as the brain of the agent, because you’ve built a traditional application with an LLM interface. And even with this restriction, using LLM outputs at any step can open up the same risks. While it’s a useful technique for well-understood workflows, it’s not sufficient for agents that need to adapt. Human-in-the-loop provides a safety net for critical operations, and it will always have a role. But relying on it as the main control mechanism sacrifices autonomy and can lead to approval fatigue. You need agents that are safe and autonomous. This requires an auditable, deterministic enforcement layer that sits outside the agent and tools. Why outside? Because the LLM’s plan is the thing you can’t trust—it can’t be responsible for enforcing its own constraints. Controls at the LLM layer—such as system prompts and training-time alignment—can be bypassed by prompt injection or hallucination. Hard-coded checks in agent or tool code are more robust, but become difficult to audit and manage at scale, especially when security logic is scattered across many tools and services. Centralizing authorization outside both gives you a single checkpoint the LLM can’t circumvent; one that’s auditable and can be verified independently of the application code. This is where AgentCore Policies come in. Amazon Bedrock AgentCore Gateway sits between the agent and the remote tools it calls. When you associate a Policy with a Gateway, it blocks everything by default. Policies selectively open this boundary by specifying which tool invocations are allowed and under what conditions. This enforcement applies to all tool traffic routed through the Gateway. For this approach to scale, it must be more straightforward to reason about the policies than about the agent’s behavior. AgentCore policies are expressed in Cedar . Cedar is an open source authorization policy language developed by AWS that has recently joined the Cloud Native Computing Foundation (CNCF) . Cedar was designed with exactly these properties: it’s purpose-built for authorization, readable by humans, and analyzable by machines using automated reasoning. This gives enterprises the ability to scale policy definition and enforcement to their AI agents. How Cedar is used by Amazon Bedrock AgentCore Amazon Bedrock AgentCore provides the infrastructure ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "retail_ecommerce"
+          ],
+          "affected_products": [
+            "AWS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+          "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+          "published": "2026-05-20T20:56:03+00:00",
+          "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "retail_ecommerce"
+            ],
+            "affected_products": [
+              "AWS"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -4821,20 +4821,31 @@
       ]
     },
     {
-      "cluster_id": "90a07a10a2",
+      "cluster_id": "47b2954a67",
       "priority_score": 13,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
         "affected_products": [
-          "AWS",
+          "Apple iOS/macOS",
           "Azure",
+          "Docker",
+          "GitHub",
           "GitLab",
-          "Google Cloud"
+          "Google Cloud",
+          "Jenkins",
+          "Kubernetes",
+          "Slack"
         ],
         "cve_ids": [],
         "attack_techniques": [],
@@ -4848,23 +4859,34 @@
         ]
       },
       "primary": {
-        "source": "Help Net Security",
+        "source": "The Hacker News",
         "cohort": "cyber_news_breach_reporting",
-        "title": "GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support",
-        "link": "https://www.helpnetsecurity.com/2026/05/22/gitlab-19-0-adds-ai-workflows-secrets-management-and-self-hosted-model-support/",
-        "published": "2026-05-22T10:31:10+00:00",
-        "summary": "GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials, reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where … More → The post GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support appeared first on Help Net Security .",
-        "full_body": "Industry News May 22, 2026 Share GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials , reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where teams already work, helping reduce the handoffs between writing code and shipping it. “AI made it faster to generate code, but it didn’t make it easier to trust or secure it at scale,” said Manav Khurana , chief product and marketing officer at GitLab. “When security, automation, and governance share the same platform as the code, teams can move fast on AI without losing control of what ships, and that’s exactly what GitLab 19.0 delivers.” GitLab Secrets Manager enters public beta GitLab Secrets Manager, now in public beta for GitLab Premium and Ultimate users, stores credentials inside the same platform that runs code and pipelines, scoping each secret to only the jobs authorized to use it. Access control and audit logging use the same group and project structure already in GitLab, with no separate permission model to maintain. If a credential is compromised, responders can trace every job that used it from the GitLab audit trail, linked to the originating pipeline, without correlating logs across separate systems. It works alongside existing integrations with HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, and Google Cloud Secret Manager. Developer Flow extends across the full merge request lifecycle GitLab 19.0 extends Developer Flow across the full MR lifecycle to address reviewer feedback, resolve conflicts, split oversized MRs, and implement features at any stage. Since the flow reads project-specific standards from AGENTS.md before committing, the output reflects team context, workflows, and guardrails rather than generic defaults. Two new capabilities, now in beta, round out the flow including a Resolve with Duo button that evaluates both branches, commits a proposed fix, and leaves a summary comment for the next reviewer, and one-click rebase-and-merge for teams using semi-linear or fast-forward merge methods. It is available for Free, Premium, and Ultimate tier users. Components Analytics closes the visibility gap in shared CI infrastructure Components Analytics gives platform engineering teams visibility into which CI/CD Catalog components are running across their organization, and which versions are in use. The data resides in GitLab’s unified platform, so teams can see and act on it without switching tools. Adoption data is available for Free, Premium, and Ultimate tier users, and the per-component drill-down is available for Ultimate tier users. GitLab Duo Agent Platform Self-Hosted gains new open source model options GitLab Duo Agent Platform Self-Hosted now runs its agents on four additional open source models, Mistral Devstral 2 123B, GLM-5.1, Kimi-K2.6, and MiniMax-M2.7. The additions support teams in air-gapped or regulated environments that can’t send source code to external APIs. Each model was evaluated against GitLab Duo Agent Platform task requirements including multi-step tool use, code generation quality, and reasoning across large code differences. Both on-premises and private cloud deployment options are supported, including deployment via vLLM on GPU-enabled infrastructure and hybrid configurations that mix self-hosted and GitLab-managed models. Strengthening software supply chain visibility GitLab 19.0 adds security capabilities that give teams more control over governing what ships and who can access the platform",
+        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "published": "2026-05-23T09:51:13+00:00",
+        "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
+        "full_body": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer  Ravie Lakshmanan  May 23, 2026 Supply Chain Attack / Malware Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags point to a broader compromise of the Laravel Lang organization's release process, rather than a single malicious package version,\" Socket said . \"The tags were published in rapid succession on May 22 and May 23, 2026, with many versions appearing only seconds apart.\" More than 700 versions associated with these packages have been identified, indicating automated mass tagging or republishing. It's suspected that the attacker may have managed to obtain access to organization-level credentials, repository automation, or release infrastructure. The core malicious functionality is located in a file named \"src/helpers.php\" that's embedded into the version tags. It's mainly designed to fingerprint the infected host and contact an external server (\"flipboxstudio[.]info\") to retrieve a PHP-based cross-platform payload that runs on Windows, Linux, and macOS. According to Aikido Security, the dropper delivers a Visual Basic Script launcher on Windows and runs it via cscript. On Linux and macOS, it executes the stealer payload via exec(). \"Because this file ['src/helpers.php'] is registered in the composer.json under autoload.files, the backdoor is executed automatically on every PHP request handled by the compromised application,\" Socket explained. \"The script generates a unique per-host marker (an MD5 hash combining the directory path, system architecture, and inode) to ensure the payload only triggers once per machine. This prevents redundant executions and helps the malware remain undetected after the initial run.\" The stealer is equipped to harvest a wide range of data from compromised systems and exfiltrate it to the same server. This includes - IAM roles and instance identity documents by querying cloud metadata endpoints Google Cloud application default credentials Microsoft Azure access tokens and service principal profiles Kubernetes Service Account tokens and Helm registry configurations Authentication tokens for DigitalOcean, Heroku, Vercel, Netlify, Railway and Fly.io HashiCorp Vault tokens Tokens and configurations from Jenkins, GitLab Runners, GitHub Actions, CircleCI, TravisCI, and ArgoCD Seed phrases and files associated with cryptocurrency wallets (Electrum, Exodus, Atomic, Ledger Live, Trezor, Wasabi, and Sparrow) and extensions (MetaMask, Phantom, Trust Wallet, Ronin, Keplr, Solflare, and Rabby) Browser history, cookies, and login data from Google Chrome, Microsoft Edge, Mozilla Firefox, Brave, and Opera by using a Base64-encoded embedded Windows executable that bypass Chromium's app-bound encryption ( ABE ) protections Local vaults and browser extension data for 1Password, Bitwarden, LastPass, KeePass, Dashlane, and NordPass PuTTY/WinSCP saved sessions Windows Credential Manager dumps WinSCP saved sessions RDP files Session tokens associated with applications like Discord, Slack, and Telegram Data from Microsoft Outlook, Thunderbird, and popular FTP clients (FileZilla, WinSCP, and CoreFTP) Configuration and credential files containing Docker auth tokens, SSH private keys, Git credentials, shell history files, database history files, Kubernetes cluster configurations, .env files, wp-config.php, and docker-compose.yml Environment variables loaded into the PHP process Source control credentials from global and local .gitconfig files, .git-credentials, and .netrc files VPN configuration and saved login files for OpenVPN, WireGuard, NetworkManager, and commercial VPNs such as NordVPN, ExpressVPN, CyberG",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
           "affected_products": [
             "Azure",
-            "AWS",
             "Google Cloud",
-            "GitLab"
+            "Kubernetes",
+            "Slack",
+            "GitHub",
+            "GitLab",
+            "Docker",
+            "Jenkins",
+            "Apple iOS/macOS"
           ],
           "cve_ids": [],
           "attack_techniques": [],
@@ -4876,21 +4898,32 @@
       },
       "corroborating_sources": [
         {
-          "source": "Help Net Security",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support",
-          "link": "https://www.helpnetsecurity.com/2026/05/22/gitlab-19-0-adds-ai-workflows-secrets-management-and-self-hosted-model-support/",
-          "published": "2026-05-22T10:31:10+00:00",
-          "summary": "GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials, reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where … More → The post GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support appeared first on Help Net Security .",
+          "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+          "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+          "published": "2026-05-23T09:51:13+00:00",
+          "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
             "affected_products": [
               "Azure",
-              "AWS",
               "Google Cloud",
-              "GitLab"
+              "Kubernetes",
+              "Slack",
+              "GitHub",
+              "GitLab",
+              "Docker",
+              "Jenkins",
+              "Apple iOS/macOS"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -4974,94 +5007,6 @@
             "affected_industries": [],
             "affected_products": [
               "Microsoft Windows"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "405bfcae7f",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "link": "https://risky.biz/RBNEWS565/",
-        "published": "2026-05-18T05:24:03+00:00",
-        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-          "link": "https://risky.biz/RBNEWS565/",
-          "published": "2026-05-18T05:24:03+00:00",
-          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -5161,6 +5106,94 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "405bfcae7f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "link": "https://risky.biz/RBNEWS565/",
+        "published": "2026-05-18T05:24:03+00:00",
+        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+          "link": "https://risky.biz/RBNEWS565/",
+          "published": "2026-05-18T05:24:03+00:00",
+          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
           }
         }
       ]
@@ -5319,200 +5352,6 @@
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fd75303239",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Check Point",
-          "Fortinet"
-        ],
-        "cve_ids": [
-          "CVE-2024-55591"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Huntress",
-        "cohort": "detection_response_operations",
-        "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered | Huntress",
-        "link": "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
-        "published": "2026-05-21T07:00:00+00:00",
-        "summary": "Two recent incidents involving The Gentlemen ransomware show the use of defense evasion tactics, including logs being cleared and attempts to add antivirus exclusions.",
-        "full_body": "Home Blog The Gentlemen (Ransomware) in Disguise: Defense Evasion and other TTPs Published: May 21, 2026 The Gentlemen (Ransomware) in Disguise: Defense Evasion and other TTPs By: Harlan Carvey Lindsey O'Donnell-Welch Key Takeaways In April and May, Huntress investigated two incidents involving The Gentlemen, a ransomware-as-a-service (RaaS) operation that has reportedly been gaining traction since its launch in mid-2025 Both incidents included the use of Scheduled Tasks, PowerShell, and some defense evasion or impairment tactics: in both cases, the Security , System , and Application Event Logs were cleared, and PowerShell commands aimed to disable Microsoft Defender and add antivirus exclusions A recent leak of The Gentlemen operation’s internal chats reveals several other ways its operators are targeting security gaps in organizations Acknowledgments: Huntress wishes to recognize the contributions of SOC analysts Nick Roddy and Dani Lopez for their investigations and analysis into these incidents. The Huntress SOC recently came across two incidents involving The Gentlemen ransomware, an operation that first emerged in mid-2025 and has been very active since then, with Ransomware.live showing claims of over 400 victims across at least 70 countries. One intriguing aspect of previous The Gentlemen incidents is the defense evasion strategy used by threat actors that have deployed the ransomware. According to a Trend Micro report , threat actors have used custom-built defense evasion tools and capabilities to disable security solutions in The Gentlemen attacks. A more recent leak of the operation’s internal database, in early May, further revealed its operators relying on a group of tools dedicated to security tool evasion, and techniques for abusing Windows logging. The Gentlemen is a RaaS operation, meaning that it can be distributed in attacks by affiliates, and as such, the observed attack chains will very often differ between attacks. Our investigation into the two incidents where The Gentlemen was deployed revealed several commonalities in TTPs, including the use of Scheduled Tasks and PowerShell. We did also see some basic defense evasion tactics: in both incidents, the Security , System , and Application Event Logs were cleared, although curiously other Windows Event Logs were untouched. The threat actors in these incidents also tried to evade antivirus solutions after their first attempt to deploy the encryptor was blocked. Our insight into how attacks play out within impacted organizations themselves, combined with the leaked chat corpus revealing the under-the-hood operations of The Gentlemen, offer detailed insight for defenders trying to better understand the incidents linked back to this ransomware. A not so gentlemen-ly ransomware The industry is now learning more about The Gentlemen because an insider with access to their information leaked an internal database belonging to the operation in early May. The leak exposed several accounts, including one purportedly belonging to the group’s administrator, who runs the infrastructure and builds the ransomware’s locker and panel. The leak gave an inside look at how the operation works, including initial access vectors (such as edge appliances), CVEs the actors are tracking (including Fortinet authentication bypass flaw CVE-2024-55591 ), and how ransom negotiations play out. Previous analysis of The Gentlemen ransomware samples by Check Point researchers has shown eight affiliate IDs tied back to the Tox messaging network that the operation was using – including a Tox ID belonging to the administrator, which indicates that The Gentlemen administrator may also actively engage in some of the attacks, in addition to affiliates. Previous public reports have also pointed to various techniques used by threat actors deploying The Gentlemen ransomware, including the use of legitimate driver abuse, the leveraging of Group Policy Objects (GPO) to enable domain-wide attacks, and pe",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Fortinet",
-            "Check Point"
-          ],
-          "cve_ids": [
-            "CVE-2024-55591"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Huntress",
-          "cohort": "detection_response_operations",
-          "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered | Huntress",
-          "link": "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
-          "published": "2026-05-21T07:00:00+00:00",
-          "summary": "Two recent incidents involving The Gentlemen ransomware show the use of defense evasion tactics, including logs being cleared and attempts to add antivirus exclusions.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Fortinet",
-              "Check Point"
-            ],
-            "cve_ids": [
-              "CVE-2024-55591"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "472d0de785",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware"
-        ],
-        "actor_attribution": [
-          "Akira",
-          "LockBit",
-          "Qilin",
-          "Scattered Spider"
-        ],
-        "affected_industries": [
-          "technology"
-        ],
-        "affected_products": [
-          "SonicWall"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Huntress",
-        "cohort": "detection_response_operations",
-        "title": "Inside the RaaS Ecosystem: Operators, Affiliates & Attack Tradecraft | Huntress",
-        "link": "https://www.huntress.com/blog/raas-ecosystem-ransomware-tradecraft",
-        "published": "2026-05-20T13:00:00+00:00",
-        "summary": "The ransomware name on the ransom note doesn't tell the full story. See how RaaS affiliates drive initial access, persistence, and exfiltration and what defenders should watch for.",
-        "full_body": "Home Blog Beyond the RaaS Headlines: The Reality of Ransomware Tradecraft Published: May 20, 2026 Beyond the RaaS Headlines: The Reality of Ransomware Tradecraft By: Harlan Carvey Lindsey O'Donnell-Welch Ransomware actors following a ransomware-as-a-service (or RaaS) model are often described as one cohesive threat actor. But reality - and what we see in actual incidents - is far different. RaaS powers an ecosystem made up of ransomware operators, affiliates, and initial access brokers (IABs). That structure is important because it means the name on the ransom note or in the encrypted file extension doesn’t reliably explain how an intrusion started or actions the attacker took (recon, data theft, etc.) in the victim’s environment. The same ransomware family (whether it’s Akira , Qilin , or LockBit) can show up across very different intrusion chains. One attack may start with phishing or a help-desk scam. Another may begin with exposed RDP, and yet another may come through a rogue remote monitoring and management (RMM) tool. That means defenders cannot assume that one ransomware brand equals one consistent playbook. In many cases, it is the affiliate, and not the ransomware operator, that dictates the tradecraft. During this month’s Tradecraft Tuesday, Huntress’ Harlan Carvey , Principal Threat Intelligence Analyst, and Lindsey O’Donnell-Welch , Principal Technical Community Engagement Writer, explained how the RaaS economy plays out in attacker tradecraft during on-the-ground incidents. What is RaaS? But first, what is RaaS ? At a high level, the business model is straightforward. Ransomware operators provide, maintain, and update the variant itself, and manage ransomware infrastructure, including leak sites and post-compromise ransom negotiations. Affiliates handle the “dirty work” across victim environments – including recon, initial access, hands-on-keyboard activity, any data theft, and deploying the file encryptor. For example, in practice, Qilin operators maintain the ransomware, recruit affiliates, and provide the surrounding business infrastructure, including leak sites, payment portals, and even legal support functions. Meanwhile, Qilin’s range of affiliates show why attribution gets messy. Its affiliate base is unusually diverse, spanning actors like Scattered Spider, Moonstone Sleet, and Devman. That means one ransomware brand can sit behind very different intrusion styles, skill levels, and operational behaviors. Figure 1: A breakdown of how the Qilin RaaS model works Initial access: What we see One of the clearest realities in ransomware intrusions is that initial access is all over the map. Access may come through social engineering, remote access services, or a pre-existing foothold purchased from an IAB. Threat actors continue to abuse legitimate tools and pathways because they blend in. We see ransomware affiliates gaining initial access via: Remote Desktop Protocol : Threat actors use weak or compromised RDP credentials; or even enable RDP via the SMB protocol or Microsoft SQL Server (MSSQL) Vulnerable edge appliances : in 2025, threat actors targeted SonicWall VPNs before deploying Akira ransomware Rogue RMMs : threat actors use RMMs like ScreenConnect, TeamViewer , or Bomgar to get into the victim’s environment When RMMs are involved, in MSP-centric environments, one compromised instance can open the door to many downstream victims at once. That’s what we saw with an incident detected on April 14, when a ransomware campaign hit multiple organizations through a compromised Bomgar remote support environment belonging to a dental software company with software installed across dozens of organizations. Figure 2: In April, threat actors used Bomgar to gain access to multiple organization environments before deploying ransomware. Ransomware persistence, defense evasion, and exfiltration Persistence in ransomware intrusions stems from a variety of methods. For example, threat actors will create new users, and some",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [
-            "Akira",
-            "LockBit",
-            "Qilin",
-            "Scattered Spider"
-          ],
-          "affected_industries": [
-            "technology"
-          ],
-          "affected_products": [
-            "SonicWall"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Huntress",
-          "cohort": "detection_response_operations",
-          "title": "Inside the RaaS Ecosystem: Operators, Affiliates & Attack Tradecraft | Huntress",
-          "link": "https://www.huntress.com/blog/raas-ecosystem-ransomware-tradecraft",
-          "published": "2026-05-20T13:00:00+00:00",
-          "summary": "The ransomware name on the ransom note doesn't tell the full story. See how RaaS affiliates drive initial access, persistence, and exfiltration and what defenders should watch for.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [
-              "Akira",
-              "LockBit",
-              "Qilin",
-              "Scattered Spider"
-            ],
-            "affected_industries": [
-              "technology"
-            ],
-            "affected_products": [
-              "SonicWall"
-            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
@@ -5733,6 +5572,200 @@
       ]
     },
     {
+      "cluster_id": "fd75303239",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Check Point",
+          "Fortinet"
+        ],
+        "cve_ids": [
+          "CVE-2024-55591"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Huntress",
+        "cohort": "detection_response_operations",
+        "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered | Huntress",
+        "link": "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+        "published": "2026-05-21T07:00:00+00:00",
+        "summary": "Two recent incidents involving The Gentlemen ransomware show the use of defense evasion tactics, including logs being cleared and attempts to add antivirus exclusions.",
+        "full_body": "Home Blog The Gentlemen (Ransomware) in Disguise: Defense Evasion and other TTPs Published: May 21, 2026 The Gentlemen (Ransomware) in Disguise: Defense Evasion and other TTPs By: Harlan Carvey Lindsey O'Donnell-Welch Key Takeaways In April and May, Huntress investigated two incidents involving The Gentlemen, a ransomware-as-a-service (RaaS) operation that has reportedly been gaining traction since its launch in mid-2025 Both incidents included the use of Scheduled Tasks, PowerShell, and some defense evasion or impairment tactics: in both cases, the Security , System , and Application Event Logs were cleared, and PowerShell commands aimed to disable Microsoft Defender and add antivirus exclusions A recent leak of The Gentlemen operation’s internal chats reveals several other ways its operators are targeting security gaps in organizations Acknowledgments: Huntress wishes to recognize the contributions of SOC analysts Nick Roddy and Dani Lopez for their investigations and analysis into these incidents. The Huntress SOC recently came across two incidents involving The Gentlemen ransomware, an operation that first emerged in mid-2025 and has been very active since then, with Ransomware.live showing claims of over 400 victims across at least 70 countries. One intriguing aspect of previous The Gentlemen incidents is the defense evasion strategy used by threat actors that have deployed the ransomware. According to a Trend Micro report , threat actors have used custom-built defense evasion tools and capabilities to disable security solutions in The Gentlemen attacks. A more recent leak of the operation’s internal database, in early May, further revealed its operators relying on a group of tools dedicated to security tool evasion, and techniques for abusing Windows logging. The Gentlemen is a RaaS operation, meaning that it can be distributed in attacks by affiliates, and as such, the observed attack chains will very often differ between attacks. Our investigation into the two incidents where The Gentlemen was deployed revealed several commonalities in TTPs, including the use of Scheduled Tasks and PowerShell. We did also see some basic defense evasion tactics: in both incidents, the Security , System , and Application Event Logs were cleared, although curiously other Windows Event Logs were untouched. The threat actors in these incidents also tried to evade antivirus solutions after their first attempt to deploy the encryptor was blocked. Our insight into how attacks play out within impacted organizations themselves, combined with the leaked chat corpus revealing the under-the-hood operations of The Gentlemen, offer detailed insight for defenders trying to better understand the incidents linked back to this ransomware. A not so gentlemen-ly ransomware The industry is now learning more about The Gentlemen because an insider with access to their information leaked an internal database belonging to the operation in early May. The leak exposed several accounts, including one purportedly belonging to the group’s administrator, who runs the infrastructure and builds the ransomware’s locker and panel. The leak gave an inside look at how the operation works, including initial access vectors (such as edge appliances), CVEs the actors are tracking (including Fortinet authentication bypass flaw CVE-2024-55591 ), and how ransom negotiations play out. Previous analysis of The Gentlemen ransomware samples by Check Point researchers has shown eight affiliate IDs tied back to the Tox messaging network that the operation was using – including a Tox ID belonging to the administrator, which indicates that The Gentlemen administrator may also actively engage in some of the attacks, in addition to affiliates. Previous public reports have also pointed to various techniques used by threat actors deploying The Gentlemen ransomware, including the use of legitimate driver abuse, the leveraging of Group Policy Objects (GPO) to enable domain-wide attacks, and pe",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Fortinet",
+            "Check Point"
+          ],
+          "cve_ids": [
+            "CVE-2024-55591"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Huntress",
+          "cohort": "detection_response_operations",
+          "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered | Huntress",
+          "link": "https://www.huntress.com/blog/the-gentlemen-ransomware-defense-evasion-ttps",
+          "published": "2026-05-21T07:00:00+00:00",
+          "summary": "Two recent incidents involving The Gentlemen ransomware show the use of defense evasion tactics, including logs being cleared and attempts to add antivirus exclusions.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Fortinet",
+              "Check Point"
+            ],
+            "cve_ids": [
+              "CVE-2024-55591"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "472d0de785",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "ransomware"
+        ],
+        "actor_attribution": [
+          "Akira",
+          "LockBit",
+          "Qilin",
+          "Scattered Spider"
+        ],
+        "affected_industries": [
+          "technology"
+        ],
+        "affected_products": [
+          "SonicWall"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Huntress",
+        "cohort": "detection_response_operations",
+        "title": "Inside the RaaS Ecosystem: Operators, Affiliates & Attack Tradecraft | Huntress",
+        "link": "https://www.huntress.com/blog/raas-ecosystem-ransomware-tradecraft",
+        "published": "2026-05-20T13:00:00+00:00",
+        "summary": "The ransomware name on the ransom note doesn't tell the full story. See how RaaS affiliates drive initial access, persistence, and exfiltration and what defenders should watch for.",
+        "full_body": "Home Blog Beyond the RaaS Headlines: The Reality of Ransomware Tradecraft Published: May 20, 2026 Beyond the RaaS Headlines: The Reality of Ransomware Tradecraft By: Harlan Carvey Lindsey O'Donnell-Welch Ransomware actors following a ransomware-as-a-service (or RaaS) model are often described as one cohesive threat actor. But reality - and what we see in actual incidents - is far different. RaaS powers an ecosystem made up of ransomware operators, affiliates, and initial access brokers (IABs). That structure is important because it means the name on the ransom note or in the encrypted file extension doesn’t reliably explain how an intrusion started or actions the attacker took (recon, data theft, etc.) in the victim’s environment. The same ransomware family (whether it’s Akira , Qilin , or LockBit) can show up across very different intrusion chains. One attack may start with phishing or a help-desk scam. Another may begin with exposed RDP, and yet another may come through a rogue remote monitoring and management (RMM) tool. That means defenders cannot assume that one ransomware brand equals one consistent playbook. In many cases, it is the affiliate, and not the ransomware operator, that dictates the tradecraft. During this month’s Tradecraft Tuesday, Huntress’ Harlan Carvey , Principal Threat Intelligence Analyst, and Lindsey O’Donnell-Welch , Principal Technical Community Engagement Writer, explained how the RaaS economy plays out in attacker tradecraft during on-the-ground incidents. What is RaaS? But first, what is RaaS ? At a high level, the business model is straightforward. Ransomware operators provide, maintain, and update the variant itself, and manage ransomware infrastructure, including leak sites and post-compromise ransom negotiations. Affiliates handle the “dirty work” across victim environments – including recon, initial access, hands-on-keyboard activity, any data theft, and deploying the file encryptor. For example, in practice, Qilin operators maintain the ransomware, recruit affiliates, and provide the surrounding business infrastructure, including leak sites, payment portals, and even legal support functions. Meanwhile, Qilin’s range of affiliates show why attribution gets messy. Its affiliate base is unusually diverse, spanning actors like Scattered Spider, Moonstone Sleet, and Devman. That means one ransomware brand can sit behind very different intrusion styles, skill levels, and operational behaviors. Figure 1: A breakdown of how the Qilin RaaS model works Initial access: What we see One of the clearest realities in ransomware intrusions is that initial access is all over the map. Access may come through social engineering, remote access services, or a pre-existing foothold purchased from an IAB. Threat actors continue to abuse legitimate tools and pathways because they blend in. We see ransomware affiliates gaining initial access via: Remote Desktop Protocol : Threat actors use weak or compromised RDP credentials; or even enable RDP via the SMB protocol or Microsoft SQL Server (MSSQL) Vulnerable edge appliances : in 2025, threat actors targeted SonicWall VPNs before deploying Akira ransomware Rogue RMMs : threat actors use RMMs like ScreenConnect, TeamViewer , or Bomgar to get into the victim’s environment When RMMs are involved, in MSP-centric environments, one compromised instance can open the door to many downstream victims at once. That’s what we saw with an incident detected on April 14, when a ransomware campaign hit multiple organizations through a compromised Bomgar remote support environment belonging to a dental software company with software installed across dozens of organizations. Figure 2: In April, threat actors used Bomgar to gain access to multiple organization environments before deploying ransomware. Ransomware persistence, defense evasion, and exfiltration Persistence in ransomware intrusions stems from a variety of methods. For example, threat actors will create new users, and some",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [
+            "Akira",
+            "LockBit",
+            "Qilin",
+            "Scattered Spider"
+          ],
+          "affected_industries": [
+            "technology"
+          ],
+          "affected_products": [
+            "SonicWall"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Huntress",
+          "cohort": "detection_response_operations",
+          "title": "Inside the RaaS Ecosystem: Operators, Affiliates & Attack Tradecraft | Huntress",
+          "link": "https://www.huntress.com/blog/raas-ecosystem-ransomware-tradecraft",
+          "published": "2026-05-20T13:00:00+00:00",
+          "summary": "The ransomware name on the ransom note doesn't tell the full story. See how RaaS affiliates drive initial access, persistence, and exfiltration and what defenders should watch for.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [
+              "Akira",
+              "LockBit",
+              "Qilin",
+              "Scattered Spider"
+            ],
+            "affected_industries": [
+              "technology"
+            ],
+            "affected_products": [
+              "SonicWall"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d6442218f6",
       "priority_score": 12,
       "member_count": 1,
@@ -5945,6 +5978,88 @@
               "cisa_kev"
             ],
             "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "90a07a10a2",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Azure",
+          "GitLab",
+          "Google Cloud"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support",
+        "link": "https://www.helpnetsecurity.com/2026/05/22/gitlab-19-0-adds-ai-workflows-secrets-management-and-self-hosted-model-support/",
+        "published": "2026-05-22T10:31:10+00:00",
+        "summary": "GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials, reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where … More → The post GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support appeared first on Help Net Security .",
+        "full_body": "Industry News May 22, 2026 Share GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials , reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where teams already work, helping reduce the handoffs between writing code and shipping it. “AI made it faster to generate code, but it didn’t make it easier to trust or secure it at scale,” said Manav Khurana , chief product and marketing officer at GitLab. “When security, automation, and governance share the same platform as the code, teams can move fast on AI without losing control of what ships, and that’s exactly what GitLab 19.0 delivers.” GitLab Secrets Manager enters public beta GitLab Secrets Manager, now in public beta for GitLab Premium and Ultimate users, stores credentials inside the same platform that runs code and pipelines, scoping each secret to only the jobs authorized to use it. Access control and audit logging use the same group and project structure already in GitLab, with no separate permission model to maintain. If a credential is compromised, responders can trace every job that used it from the GitLab audit trail, linked to the originating pipeline, without correlating logs across separate systems. It works alongside existing integrations with HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, and Google Cloud Secret Manager. Developer Flow extends across the full merge request lifecycle GitLab 19.0 extends Developer Flow across the full MR lifecycle to address reviewer feedback, resolve conflicts, split oversized MRs, and implement features at any stage. Since the flow reads project-specific standards from AGENTS.md before committing, the output reflects team context, workflows, and guardrails rather than generic defaults. Two new capabilities, now in beta, round out the flow including a Resolve with Duo button that evaluates both branches, commits a proposed fix, and leaves a summary comment for the next reviewer, and one-click rebase-and-merge for teams using semi-linear or fast-forward merge methods. It is available for Free, Premium, and Ultimate tier users. Components Analytics closes the visibility gap in shared CI infrastructure Components Analytics gives platform engineering teams visibility into which CI/CD Catalog components are running across their organization, and which versions are in use. The data resides in GitLab’s unified platform, so teams can see and act on it without switching tools. Adoption data is available for Free, Premium, and Ultimate tier users, and the per-component drill-down is available for Ultimate tier users. GitLab Duo Agent Platform Self-Hosted gains new open source model options GitLab Duo Agent Platform Self-Hosted now runs its agents on four additional open source models, Mistral Devstral 2 123B, GLM-5.1, Kimi-K2.6, and MiniMax-M2.7. The additions support teams in air-gapped or regulated environments that can’t send source code to external APIs. Each model was evaluated against GitLab Duo Agent Platform task requirements including multi-step tool use, code generation quality, and reasoning across large code differences. Both on-premises and private cloud deployment options are supported, including deployment via vLLM on GPU-enabled infrastructure and hybrid configurations that mix self-hosted and GitLab-managed models. Strengthening software supply chain visibility GitLab 19.0 adds security capabilities that give teams more control over governing what ships and who can access the platform",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Azure",
+            "AWS",
+            "Google Cloud",
+            "GitLab"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support",
+          "link": "https://www.helpnetsecurity.com/2026/05/22/gitlab-19-0-adds-ai-workflows-secrets-management-and-self-hosted-model-support/",
+          "published": "2026-05-22T10:31:10+00:00",
+          "summary": "GitLab released GitLab 19.0 with expanded secrets management, agentic merge request workflows, improved CI pipeline visibility, support for self-hosted open-source models, and supply chain visibility enhancements. Engineering organizations shipping more code than ever are confronting the AI Paradox firsthand, as the surrounding workflows for securing credentials, reviewing and merging changes, enforcing pipeline standards, and running AI in regulated environments have not kept pace. GitLab 19.0 advances the platform’s agentic core by embedding those capabilities where … More → The post GitLab 19.0 adds AI workflows, secrets management, and self-hosted model support appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Azure",
+              "AWS",
+              "Google Cloud",
+              "GitLab"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -6408,227 +6523,6 @@
       ]
     },
     {
-      "cluster_id": "ede483f81e",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial",
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Check Point",
-          "Palo Alto Networks"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "europe",
-          "iran",
-          "israel"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-        "published": "2026-05-22T13:00:42+00:00",
-        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-        "full_body": "Threat Research Center Threat Actor Groups Malware Malware Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: May 22, 2026 Categories: Malware Threat Actor Groups Tags: Advanced Persistent Threat AppDomainManager DLL Sideloading Iran MiniJunk MiniUpdate Operation security RATs Screening serpens Social engineering Share Executive Summary Unit 42 researchers have observed evidence of cyberattacks by the Iran-nexus advanced persistent threat (APT) group Screening Serpens (aka UNC1549, Smoke Sandstorm and Iranian Dream Job). Based on our visibility, we believe that the group targeted entities in the U.S., Israel and the United Arab Emirates, and likely two additional Middle Eastern entities. This research follows an evolution through cyberattacks in mid-February through April 2026. The timing of these campaigns aligns closely with that of the regional conflict that started in the Middle East on Feb. 28, 2026. We discovered six new remote access Trojan (RAT) variants developed and deployed between February and April 2026. Screening Serpens has been active since at least 2022. Their recent activity demonstrates an increase in technical capabilities and operational resilience. Screening Serpens primarily targets technology sector professionals, using highly tailored social engineering. The group frequently uses personalized recruitment lures that impersonate trusted brands and hiring platforms, to trick targets into initiating the infection chain. We assess with moderate-high confidence that the campaigns discussed in this article are conducted by Screening Serpens. The group has maintained a consistently high operational tempo throughout March and April 2026. We have grouped the six newly discovered RAT variants into two new malware families that were deployed in concurrent espionage campaigns. Based on the timing of deployment, our analysis indicates two sets of coordinated cyberattacks. At least one variant was compiled and deployed with specific timing instructions. Our analysis reveals a continuous cycle of development and deployment, characterized by specialized and upgraded variants with diverse functionalities, as shown in each targeted campaign. The most critical evolution in the group’s recent campaign uses a technique called AppDomainManager hijacking. This hijack method manipulates the initialization phase of .NET applications to proactively disable the application’s own security mechanisms via a legitimate configuration file. The disabled security in these apps left the targeted entities vulnerable to the deployed multi-functional RATs. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex XDR and XSIAM Cortex Cloud Cortex AgentiX Agentic Assistant can assist teams in investigating incidents. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Advanced Persistent Threat (APT) , Malware , Cyberespionage , RATs S creening Serpens Overview Screening Serpens is an Iran-nexus APT group operating as a cyberespionage group aligned with Iranian intelligence objectives. While historically focused on regional targets in the Middle East, the group gained industry attention in late 2025 when Check Point Research detailed its strategic expansion into Western Europe . During these campaigns, Screening Serpens consistently set its sights on high-value sectors, heavily targeting aerospace, defense manufacturing and telecommunications organizations. These operations are characterized by targeted social engineering campaigns, using lures designed specifically to trick j",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "malware",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Check Point"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "europe",
-            "iran",
-            "israel"
-          ],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-          "published": "2026-05-22T13:00:42+00:00",
-          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "malware",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial",
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Check Point"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "europe",
-              "iran",
-              "israel"
-            ],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6c08f48b40",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "phishing_social_eng",
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Android",
-          "Check Point",
-          "OpenAI/ChatGPT"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "europe",
-          "iran",
-          "israel",
-          "ukraine",
-          "united_states"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-        "published": "2026-05-22T15:09:29+00:00",
-        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-        "full_body": "CATEGORIES AI Research 2 Android Malware 23 Artificial Intelligence 4 ChatGPT 3 Check Point Research Publications 456 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 408 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict May 22, 2026 https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/ Key Findings The Iranian, IRGC affiliated, threat actor Nimbus Manticore resurfaced during Operation Epic Fury, the US military campaign against Iran launched on February 28, 2026, demonstrating newly adopted techniques and enhanced capabilities. The campaign leveraged malicious lures impersonating organizations in the aviation and software sectors across the United States, Europe and the Middle East. For the first time, we observed the use of SEO poisoning as an additional malware delivery method. The operation introduced a previously undocumented backdoor, named MiniFast , which appears to incorporate AI-assisted development practices, enabling the threat actor to rapidly develop and adapt tooling while maintaining high operational availability during the war. The actor also used a Zoom installer’s execution flow and abused it to stage a time-sensitive infection chain for malware deployment while blending into legitimate system activity. Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras , conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549 ) is an IRGC-affiliated threat actor who primarily targets the defense, aviation and telecommunication sectors through career-themed phishing campaigns. Nimbus Manticore stands out compared to other Iranian-linked groups due to its complex malware toolset. In 2025, we documented the MiniJunk malware framework used by Nimbus Manticore to target high-profile organizations across Western Europe and the Middle East. In the recent campaign, the actor adopted several new techniques, including AppDomain (application domain) hijacking, AI-assisted malware development, and SEO poisoning. In this article, we focus on three waves of the threat actor’s activity in the last few months, as well as discuss their latest techniques. Figure 1 – 2026 campaign timeline during the ongoing military campaign. Campaign 1: Rising Tension In February 2026, amid rising tensions between the US, Israel and Iran and weeks of military buildup, we monitored new Nimbus Manticore phishing activity worldwide. In this campaign, the threat actor introduced a modified infection chain by abusing AppDomain Hijacking for execution instead of relying on the usual DLL sideloading techniques. AppDomain Hijacking is a technique that abuses legitimate .NET applications to load a malicious DLL at launch time. This is achieved by placing a Trojanized XML .config file in the same directory as the target application. The configuration file, named after the abused binary with the .config suffix, specifies an attacker-controlled AppDomainManager class that points to a malicious DLL. When the application starts, the .NET runtime loads the DLL, enabling malicious code execution within the context of the trusted process. Figure 2 – Config file pointing the appDomainManager class to the attacker-controlled DLL. The phishing lure is consistent with previous Nimbus Manticore campaigns, targeting employees in selected organizations (primarily software and aviation sectors) with fake career opportunities. Targeted orga",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "malware",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Check Point",
-            "Android",
-            "OpenAI/ChatGPT"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "united_states",
-            "europe",
-            "iran",
-            "ukraine",
-            "israel"
-          ],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-          "published": "2026-05-22T15:09:29+00:00",
-          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "malware",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Check Point",
-              "Android",
-              "OpenAI/ChatGPT"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "united_states",
-              "europe",
-              "iran",
-              "ukraine",
-              "israel"
-            ],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "51ca0b4574",
       "priority_score": 11,
       "member_count": 1,
@@ -6875,7 +6769,113 @@
       ]
     },
     {
-      "cluster_id": "d601f76167",
+      "cluster_id": "ede483f81e",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Check Point",
+          "Palo Alto Networks"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "europe",
+          "iran",
+          "israel"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+        "published": "2026-05-22T13:00:42+00:00",
+        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+        "full_body": "Threat Research Center Threat Actor Groups Malware Malware Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: May 22, 2026 Categories: Malware Threat Actor Groups Tags: Advanced Persistent Threat AppDomainManager DLL Sideloading Iran MiniJunk MiniUpdate Operation security RATs Screening serpens Social engineering Share Executive Summary Unit 42 researchers have observed evidence of cyberattacks by the Iran-nexus advanced persistent threat (APT) group Screening Serpens (aka UNC1549, Smoke Sandstorm and Iranian Dream Job). Based on our visibility, we believe that the group targeted entities in the U.S., Israel and the United Arab Emirates, and likely two additional Middle Eastern entities. This research follows an evolution through cyberattacks in mid-February through April 2026. The timing of these campaigns aligns closely with that of the regional conflict that started in the Middle East on Feb. 28, 2026. We discovered six new remote access Trojan (RAT) variants developed and deployed between February and April 2026. Screening Serpens has been active since at least 2022. Their recent activity demonstrates an increase in technical capabilities and operational resilience. Screening Serpens primarily targets technology sector professionals, using highly tailored social engineering. The group frequently uses personalized recruitment lures that impersonate trusted brands and hiring platforms, to trick targets into initiating the infection chain. We assess with moderate-high confidence that the campaigns discussed in this article are conducted by Screening Serpens. The group has maintained a consistently high operational tempo throughout March and April 2026. We have grouped the six newly discovered RAT variants into two new malware families that were deployed in concurrent espionage campaigns. Based on the timing of deployment, our analysis indicates two sets of coordinated cyberattacks. At least one variant was compiled and deployed with specific timing instructions. Our analysis reveals a continuous cycle of development and deployment, characterized by specialized and upgraded variants with diverse functionalities, as shown in each targeted campaign. The most critical evolution in the group’s recent campaign uses a technique called AppDomainManager hijacking. This hijack method manipulates the initialization phase of .NET applications to proactively disable the application’s own security mechanisms via a legitimate configuration file. The disabled security in these apps left the targeted entities vulnerable to the deployed multi-functional RATs. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex XDR and XSIAM Cortex Cloud Cortex AgentiX Agentic Assistant can assist teams in investigating incidents. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Advanced Persistent Threat (APT) , Malware , Cyberespionage , RATs S creening Serpens Overview Screening Serpens is an Iran-nexus APT group operating as a cyberespionage group aligned with Iranian intelligence objectives. While historically focused on regional targets in the Middle East, the group gained industry attention in late 2025 when Check Point Research detailed its strategic expansion into Western Europe . During these campaigns, Screening Serpens consistently set its sights on high-value sectors, heavily targeting aerospace, defense manufacturing and telecommunications organizations. These operations are characterized by targeted social engineering campaigns, using lures designed specifically to trick j",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "malware",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Check Point"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "europe",
+            "iran",
+            "israel"
+          ],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+          "published": "2026-05-22T13:00:42+00:00",
+          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Check Point"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "europe",
+              "iran",
+              "israel"
+            ],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6c08f48b40",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -6884,64 +6884,73 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Check Point"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [
-          "russia"
+          "iran",
+          "israel"
         ],
         "urgency_signals": [],
         "content_type": [
-          "uncategorized"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
+        "source": "Check Point Research",
         "cohort": "threat_research_primary",
-        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-        "link": "https://securelist.com/cloud-atlas-2026/119895/",
-        "published": "2026-05-22T09:12:13+00:00",
-        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+        "published": "2026-05-22T15:09:29+00:00",
+        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Check Point"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [
-            "russia"
+            "iran",
+            "israel"
           ],
           "urgency_signals": [],
-          "content_type": "uncategorized",
+          "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
+          "source": "Check Point Research",
           "cohort": "threat_research_primary",
-          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-          "link": "https://securelist.com/cloud-atlas-2026/119895/",
-          "published": "2026-05-22T09:12:13+00:00",
-          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+          "published": "2026-05-22T15:09:29+00:00",
+          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Check Point"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [
-              "russia"
+              "iran",
+              "israel"
             ],
             "urgency_signals": [],
-            "content_type": "uncategorized",
+            "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7229,169 +7238,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "27954d511c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-        "published": "2026-05-20T10:00:46+00:00",
-        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-          "published": "2026-05-20T10:00:46+00:00",
-          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad84f1fd3a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Lapsus"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "Lapsus$"
-        ],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Check Point",
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "18th May – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-        "published": "2026-05-18T14:58:29+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "Lapsus$"
-          ],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Check Point",
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "18th May – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-          "published": "2026-05-18T14:58:29+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "Lapsus$"
-            ],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Check Point",
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
           }
         }
       ]
@@ -7818,6 +7664,79 @@
           "summary": "See how built-in security helps keep your growing business running, protect customer trust, and support growth. The post How to better protect your growing business in an AI-powered world appeared first on Microsoft Security Blog .",
           "taxonomy": {
             "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "27954d511c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+        "published": "2026-05-20T10:00:46+00:00",
+        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+          "published": "2026-05-20T10:00:46+00:00",
+          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8264,7 +8183,97 @@
       ]
     },
     {
-      "cluster_id": "a64f4c6a4f",
+      "cluster_id": "ad84f1fd3a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Lapsus"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "Lapsus$"
+        ],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Check Point",
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "18th May – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+        "published": "2026-05-18T14:58:29+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "Lapsus$"
+          ],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Check Point",
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "18th May – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+          "published": "2026-05-18T14:58:29+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "Lapsus$"
+            ],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Check Point",
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d601f76167",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -8276,7 +8285,9 @@
         "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "russia"
+        ],
         "urgency_signals": [],
         "content_type": [
           "uncategorized"
@@ -8288,10 +8299,10 @@
       "primary": {
         "source": "Kaspersky Securelist",
         "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q1 2026. Mobile statistics",
-        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-        "published": "2026-05-18T12:00:30+00:00",
-        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+        "link": "https://securelist.com/cloud-atlas-2026/119895/",
+        "published": "2026-05-22T09:12:13+00:00",
+        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -8301,7 +8312,9 @@
           "affected_products": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "russia"
+          ],
           "urgency_signals": [],
           "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
@@ -8311,10 +8324,10 @@
         {
           "source": "Kaspersky Securelist",
           "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q1 2026. Mobile statistics",
-          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-          "published": "2026-05-18T12:00:30+00:00",
-          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+          "link": "https://securelist.com/cloud-atlas-2026/119895/",
+          "published": "2026-05-22T09:12:13+00:00",
+          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -8322,7 +8335,9 @@
             "affected_products": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "russia"
+            ],
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
@@ -8333,23 +8348,29 @@
   ],
   "affinity_groups": [
     {
-      "label": "vulnerability disclosure activity",
+      "label": "vulnerability disclosure targeting GitHub",
       "dominant_features": {
         "threat_categories": [
           "vulnerability_disclosure",
           "malware",
           "zero_day"
         ],
+        "affected_products": [
+          "GitHub"
+        ],
         "urgency_signals": [
           "preauth_unauth"
         ],
         "content_type": [
           "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
         ]
       },
-      "cluster_count": 35,
+      "cluster_count": 36,
       "article_count": 42,
-      "cohesion": 0.367,
+      "cohesion": 0.37,
       "cluster_ids": [
         "2950f750fc",
         "f0383fca84",
@@ -8370,13 +8391,14 @@
         "9802f04a89",
         "2f7409432b",
         "9e9edc180d",
-        "bee3cb593e",
         "d227de9cf4",
+        "bee3cb593e",
         "e52acefae7",
         "a30f0248c2",
+        "47b2954a67",
         "9e047f3f25",
-        "405bfcae7f",
         "65812e837f",
+        "405bfcae7f",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
@@ -8386,41 +8408,6 @@
         "4e4bcc3acf",
         "a17791a046",
         "fadd6ff8fe"
-      ]
-    },
-    {
-      "label": "phishing social eng targeting Check Point",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "ransomware",
-          "malware"
-        ],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Check Point"
-        ],
-        "geographic_scope": [
-          "europe",
-          "iran",
-          "israel"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.349,
-      "cluster_ids": [
-        "25254fd267",
-        "ede483f81e",
-        "6c08f48b40"
       ]
     },
     {
@@ -8443,8 +8430,8 @@
       "article_count": 2,
       "cohesion": 0.333,
       "cluster_ids": [
-        "eb48980918",
-        "cf7fdef083"
+        "cf7fdef083",
+        "eb48980918"
       ]
     }
   ]
