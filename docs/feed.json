@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T10:01:06.935835+00:00",
+  "generated_at": "2026-05-24T11:21:34.883199+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2457,
@@ -11,13 +11,6 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -25,12 +18,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -39,18 +32,18 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 24,
-      "in_window_count": 0
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
       "in_window_count": 0
     },
     "Check Point Research": {
@@ -60,12 +53,33 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -74,8 +88,8 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -102,40 +116,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -144,13 +130,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -158,12 +137,33 @@
       "item_count": 50,
       "in_window_count": 5
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -179,6 +179,13 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
@@ -193,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -214,11 +221,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 30,
       "in_window_count": 2
     },
     "Rapid7": {
@@ -235,26 +242,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -269,6 +262,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -291,19 +291,19 @@
       "item_count": 100,
       "in_window_count": 7
     },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -312,12 +312,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
+      "item_count": 30,
+      "in_window_count": 19
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -333,13 +333,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -347,19 +340,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 18
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -368,12 +361,26 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -389,36 +396,15 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 31
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -431,19 +417,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 45
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "in_window_count": 31
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -452,12 +431,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 45
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -465,6 +458,13 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -487,6 +487,20 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
@@ -501,40 +515,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 23
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 5
-    },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 24
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -543,12 +529,33 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 5
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -556,13 +563,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     }
   },
   "cohorts": {
@@ -681,34 +681,34 @@
   },
   "affinity_groups": [
     {
-      "label": "vulnerability disclosure targeting GitHub",
+      "label": "vulnerability disclosure activity",
       "dominant_features": {
         "threat_categories": [
           "vulnerability_disclosure",
           "malware"
         ],
-        "affected_products": [
-          "GitHub"
-        ],
         "content_type": [
           "vulnerability_disclosure"
         ]
       },
-      "cluster_count": 33,
-      "article_count": 33,
-      "cohesion": 0.373,
+      "cluster_count": 38,
+      "article_count": 39,
+      "cohesion": 0.355,
       "cluster_ids": [
         "f0383fca84",
+        "31ede2289a",
         "8d99a48c55",
         "b090e3ad19",
         "f2c995ec5f",
         "4240d9e332",
         "0a08121d4a",
+        "04571b3b50",
         "bc4a1043d6",
         "c1d9509f14",
         "b9778d72dd",
         "8ebb62380b",
         "038b9ff831",
+        "f0c4c171b9",
         "a737fa0143",
         "9802f04a89",
         "2f7409432b",
@@ -717,20 +717,22 @@
         "bee3cb593e",
         "e52acefae7",
         "9e047f3f25",
-        "405bfcae7f",
         "65812e837f",
+        "405bfcae7f",
+        "6500eda78d",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
         "83e574101d",
         "a30f0248c2",
+        "08d387ca71",
         "4e4bcc3acf",
+        "42f47b63fd",
         "ede483f81e",
         "27954d511c",
         "a17791a046",
-        "fadd6ff8fe",
         "ca17b8fd1f",
-        "af2c17c132"
+        "fadd6ff8fe"
       ]
     },
     {
@@ -823,6 +825,346 @@
         "confidence_tier": "tier_4_news"
       },
       "score": 8
+    },
+    {
+      "source": "Reddit r/netsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How to Use Claude AI: A Complete Technical Beginner's Guide",
+      "link": "https://www.reddit.com/r/netsec/comments/1tm923o/how_to_use_claude_ai_a_complete_technical/",
+      "published": "2026-05-24T11:00:27+00:00",
+      "summary": "If you’re still using Claude AI just as a glorified search engine or a conversational sparring partner, you are leaving about 90% of its actual horsepower on the table. Most people treat LLMs like a text-in, text-out slot machine. They write a quick prompt, get a generic answer, and move on. But if you want to turn Claude into an elite, hyper-focused extension of your brain—capable of coding entire web apps, analyzing massive databases, or writing in your exact voice—you need to change how you collaborate with it. Here is how to unlock Claude’s true potential, using the technical strategies most basic guides completely ignore: 1. Build a Dedicated Brain with \"Claude Projects\" Stop pasting your context over and over in every new chat. Claude Pro features a massive 200,k-token context window , and the best way to utilize it is by creating a \"Project.\" How it works: You can upload your brand guidelines, style sheets, database schemas, or an entire codebase directly into a Project's \"Proje",
+      "author": "/u/AcanthisittaOk2009",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Anthropic/Claude"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/cybersecurity",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "[AI Security] Exploring Behavioral AI for Runtime Threat Detection",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1tm8prf/ai_security_exploring_behavioral_ai_for_runtime/",
+      "published": "2026-05-24T10:41:52+00:00",
+      "summary": "Hi everyone, I’m currently building BPFense AI, an open-source behavioral AI framework focused on runtime threat detection and anomaly analysis. The idea is to combine: local AI inference behavioral telemetry analysis anomaly detection ensemble threat scoring I’m exploring applications around: AI-native security tooling runtime security malware behavior analysis telemetry-driven detection Would love feedback from founders, security engineers, AI/ML folks, or anyone building in cybersecurity infrastructure. submitted by /u/No-Creme-5778 [link] [comments]",
+      "author": "/u/No-Creme-5778",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/cybersecurity",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Podman and krun: is it pointless to harden quadlets?",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1tm8p87/podman_and_krun_is_it_pointless_to_harden_quadlets/",
+      "published": "2026-05-24T10:41:05+00:00",
+      "summary": "Krun is special crun runtime mode that uses KVM-backed krunvm -based micro VMs to execute the container. Compared to a full VM, these micro VMs start in milliseconds and use a different kernel. This should provide better security compared to regular containers that run with the host kernel. Hi, I'm switching to krun and was wondering if hardening the quadlets is pointless since they're virtual machines . By \"hardening\" I mean: [Unit] After=network-online.target demo.network Wants=network-online.target [Container] ContainerName=redlib Image=ghcr.io/silvenga/redlib:0 Network=demo.network User=101 ReadOnly=true NoNewPrivileges=true DropCapability=ALL #UserNS=auto:size=1024 [Service] AmbientCapabilities= #CapabilityBoundingSet= IPAddressAllow=any KeyringMode=private LockPersonality=true MemoryDenyWriteExecute=true NoNewPrivileges=true ProcSubset=pid RemoveIPC=true DevicePolicy=closed #PrivateDevices=true #PrivateNetwork=true #PrivateTmp=true #PrivateUsers=true #ProtectClock=true #ProtectCo",
+      "author": "/u/Wise_Stick9613",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/sysadmin",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "IT Asset Management system recommendations?",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1tm8n79/it_asset_management_system_recommendations/",
+      "published": "2026-05-24T10:37:57+00:00",
+      "summary": "Hello, For some time now, we've been using Excel spreadsheets to manage assets in the business. When I say assets, I mean not just laptops, but also monitors, firewalls, switches, docking stations, meeting room kits, and anything like that. We are just looking to manage: Where the asset is Who has it What desk it's on When it was purchased We have Intune, so we use that for the more technical stuff about deployment and Autopilot, so I'm not looking for that. However, I am interested to see what asset management solutions people are using to manage not just laptops and computers, but also items like monitors and docking stations etc. Thank you. submitted by /u/No-Room2990 [link] [comments]",
+      "author": "/u/No-Room2990",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/sysadmin",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Personal Website vs LinkedIn for Building a Personal Brand in Tech?",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1tm8j3f/personal_website_vs_linkedin_for_building_a/",
+      "published": "2026-05-24T10:31:43+00:00",
+      "summary": "Hello, I work as a fintech systems administrator at a large company. Recently, I’ve been thinking about creating a personal website to build my personal brand, become more visible in the industry, and share the work I do. However, I’m not sure about one thing: Does having a personal website really make sense nowadays, or would consistently posting technical content on LinkedIn provide better visibility and engagement? Has anyone here actively used a personal website/blog for this purpose, or focused only on LinkedIn and seen good results? I’d really appreciate hearing about your experiences and seeing any examples if possible. Thanks in advance. submitted by /u/Head-Praline9270 [link] [comments]",
+      "author": "/u/Head-Praline9270",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Monitoring for vssadmin.exe delete shadows is an absolute bare minimum",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8gzo/monitoring_for_vssadminexe_delete_shadows_is_an/",
+      "published": "2026-05-24T10:28:33+00:00",
+      "summary": "Your XDR monitors for vssadmin.exe and ntdsutil.exe . If an attacker runs those binaries on a DC, a high-severity alert is instantly triggered, and your playbook or internal procedures kick in. So, how do real-world threat actors still walk away with ntds.dit ? They don't use the standard Windows utilities. They use native API calls or alternative administrative mechanisms to interact with the Volume Shadow Copy (VSS) service directly—masking the extraction as routine backup operations. Instead of spawning loud processes, sophisticated actors manipulate VSS via: Direct COM/API interaction: Compiling custom binaries that call the VSS API directly, bypassing process-name logging entirely. NTDSDumpEx or native Esentutl: Leveraging esentutl.exe (a native Windows database utility) to copy locked database files via alternative volume paths. PowerShell WMI/CIM objects: Invoking the Win32_ShadowCopy class directly to create snapshots without ever touching vssadmin. If you are only waiting for ",
+      "author": "/u/ridgelinecyber",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "energy_utilities"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Infostealers Just Spawned a 5,000+ Repo GitHub Supply Chain Attack",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8ecr/infostealers_just_spawned_a_5000_repo_github/",
+      "published": "2026-05-24T10:24:34+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 11,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How a consultant and a concert pianist from the Netherlands aided pro-Russian hackers",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8dxl/how_a_consultant_and_a_concert_pianist_from_the/",
+      "published": "2026-05-24T10:23:55+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "CVE-2026-48029: Two grid-decode bugs in libheif",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm85mk/cve202648029_two_griddecode_bugs_in_libheif/",
+      "published": "2026-05-24T10:11:12+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [
+          "CVE-2026-48029"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 12,
+      "full_body": "",
+      "fetch_status": "fetch_failed:HTTPError"
+    },
+    {
+      "source": "Reddit r/sysadmin",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Graduated in 2024 still did not find a job",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1tm85j0/graduated_in_2024_still_did_not_find_a_job/",
+      "published": "2026-05-24T10:11:01+00:00",
+      "summary": "So I've graduated from a Tier-3 college and have two internships of software development and AWS Cloud under my belt, but I have been trying and trying to now get a job in any of the cloud architecture jobs but am unable to find any, from refactoring my resume to applying blindly i have done it all but other have never been shortlisted for an interview. I am really tired and am looking a way out.what should I do? submitted by /u/ken-kanekiiiiii [link] [comments]",
+      "author": "/u/ken-kanekiiiiii",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [
+          "AWS"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "workcell: Bounded local runtime and policy boundary for coding agents",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm84a5/workcell_bounded_local_runtime_and_policy/",
+      "published": "2026-05-24T10:09:00+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "OpenShell: OpenShell is the safe, private runtime for autonomous AI agents.",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tm83dz/openshell_openshell_is_the_safe_private_runtime/",
+      "published": "2026-05-24T10:07:30+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "What cybersecurity skill do beginners usually underestimate?",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1tm81js/what_cybersecurity_skill_do_beginners_usually/",
+      "published": "2026-05-24T10:04:29+00:00",
+      "summary": "I am interested in hearing from people working or studying in cybersecurity. What skills become more important later than most beginners expect? submitted by /u/ColdReality7803 [link] [comments]",
+      "author": "/u/ColdReality7803",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_5_chatter"
+      },
+      "score": 6
     },
     {
       "source": "Reddit r/cybersecurity",
@@ -923,54 +1265,52 @@
       "score": 6
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Soc analysts in big companies, how it looks like?",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1tm6365/soc_analysts_in_big_companies_how_it_looks_like/",
-      "published": "2026-05-24T08:14:12+00:00",
-      "summary": "Hey everyone! I'm a cyber entrepreneur looking to understand what a day in the life of a SOC analyst looks like nowadays in large enterprises. If you are one, I'd love to know: What do you like? What do you hate? What scares you the most? submitted by /u/ElectricalGrab7397 [link] [comments]",
-      "author": "/u/ElectricalGrab7397",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 6
-    },
-    {
       "source": "Help Net Security",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
       "title": "Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited",
       "link": "https://www.helpnetsecurity.com/2026/05/24/week-in-review-github-breached-via-poisoned-vs-code-extension-critical-nginx-flaw-exploited/",
       "published": "2026-05-24T08:00:37+00:00",
-      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: TeamPCP breached GitHub’s internal codebase via poisoned VS Code extension Following TeamPCP’s claim that they’ve breached GitHub’s own private code repositories, the Microsoft-owned company launched an investigation and confirmed the compromise. Earbud sensors can authenticate users by their heartbeat, study finds Researchers built a continuous authentication system called AccLock that identifies a wearer by the tiny vibrations a heartbeat makes … More → The post Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited appeared first on Help Net Security .",
+      "summary": "Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: GitHub, Grafana Labs breaches traced back to TanStack supply chain compromise GitHub CISO Alexis Wales has named the malicious VS Code extension behind the breach they suffered at the hands of the threat group TeamPCP: Nx Console, a popular developer tool with 2.2 million installs. Earbud sensors can authenticate users by their heartbeat, study finds Researchers built a continuous authentication … More → The post Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited appeared first on Help Net Security .",
       "author": "Help Net Security",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
+        "threat_categories": [
+          "data_breach",
+          "supply_chain",
+          "active_exploitation",
+          "vulnerability_disclosure",
+          "malware",
+          "phishing_social_eng"
         ],
-        "cve_ids": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services",
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Fortinet",
+          "GitHub",
+          "Apple iOS/macOS"
+        ],
+        "cve_ids": [
+          "CVE-2026-41091",
+          "CVE-2026-42945",
+          "CVE-2026-45498",
+          "CVE-2026-45585"
+        ],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
+        "urgency_signals": [
+          "actively_exploited",
+          "cisa_kev"
+        ],
+        "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news"
       },
-      "score": 8
+      "score": 13,
+      "full_body": "Help Net Security May 24, 2026 Share Week in review: GitHub breached via poisoned VS Code extension, critical NGINX flaw exploited Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: GitHub, Grafana Labs breaches traced back to TanStack supply chain compromise GitHub CISO Alexis Wales has named the malicious VS Code extension behind the breach they suffered at the hands of the threat group TeamPCP: Nx Console, a popular developer tool with 2.2 million installs. Earbud sensors can authenticate users by their heartbeat, study finds Researchers built a continuous authentication system called AccLock that identifies a wearer by the tiny vibrations a heartbeat makes inside the ear canal. Attackers are exploiting critical NGINX vulnerability (CVE-2026-42945) A critical NGINX vulnerability (CVE-2026-42945) disclosed last week is being exploited by attackers, VulnCheck security researcher Patrick Garrity revealed on Saturday. Communicating cyber risk in dollars boards understand In this Help Net Security interview, Nick Nieuwenhuis, Cybersecurity Architect at Nedscaper, explains why cybersecurity has not delivered the resilience that decades of investment have promised. Microsoft provides mitigation for “YellowKey” BitLocker bypass flaw (CVE-2026-45585) Microsoft is working on a fix for CVE-2026-45585 (aka “Yellowkey”), a vulnerability that can be used by attackers to bypass protections offered by BitLocker, the full-disk encryption feature built into Windows, and access users’ data. Why AI changed the threat model for travel technology In this Help Net Security interview, Devon Bryan, SVP, Global CSO at Booking Holdings, reflects on his path from Air Force network security engineer to global CSO across financial services, hospitality, and travel technology. Deleted Google API keys keep working for up to 23 minutes, researchers warn Google API keys are credentials that let applications access Google services, from Maps to the Gemini AI. If a key is leaked, an attacker can use it to make API calls, rack up charges, and, if Gemini is enabled, access uploaded files and cached conversations. The assumed fix is simple: delete the key. But Aikido Security has found that deletion doesn’t actually work right away. Microsoft open-sources tools for designing and testing AI agents Microsoft has open-sourced two tools aimed at bringing security discipline to AI agent development: Clarity, a structured design review tool, and RAMPART, a continuous testing framework. AI red teaming agents change how LLMs get tested Adversarial probing of LLMs has piled up a sprawling toolkit over the past three years. Attack techniques with names like Tree of Attacks with Pruning, Crescendo, and Skeleton Key sit alongside hundreds of prompt transforms and scoring methods across open-source frameworks including Microsoft’s PyRIT, NVIDIA’s Garak, and Promptfoo. Microsoft Defender vulnerabilities exploited in the wild (CVE-2026-41091, CVE-2026-45498) Attackers are exploiting two Microsoft Defender vulnerabilities (CVE-2026-41091 and CVE-2026-45498), Microsoft acknowledged and CISA confirmed by adding them to its Known Exploited Vulnerabilities catalog. Verizon DBIR: Vulnerability exploitation is the dominant initial access vector Vulnerability exploitation has overtaken stolen credentials as the most common way attackers gain initial access to target networks, according to the 2026 Verizon Data Breach Investigations Report. PureLogs infostealer is stealing credentials worldwide A phishing campaign is smuggling the powerful PureLogs information stealer onto targets’ Windows machines by hiding encrypted malicious payloads inside cat photos, Fortinet researchers discovered. New macOS infostealer impersonates Apple, Microsoft, and Google in a single attack chain A SHub macOS infostealer variant called Reaper impersonates Apple, Microsoft, and Google to trick users into executing malicious code, then targets browser data, passw",
+      "fetch_status": "ok"
     },
     {
       "source": "Reddit r/cybersecurity",
@@ -1216,7 +1556,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 6
+      "score": 4
     },
     {
       "source": "Reddit r/sysadmin",
@@ -1240,7 +1580,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 6
+      "score": 4
     },
     {
       "source": "Reddit r/sysadmin",
@@ -1368,7 +1708,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Reddit r/cybersecurity",
@@ -1635,30 +1975,6 @@
       "published": "2026-05-23T19:14:20+00:00",
       "summary": "Recently developed a surface level liking to Cyber, and I know that no cybersecurity jobs are actually entry level but require 2-3+ years of experience. I was just wondering what does this so called experience involve?? submitted by /u/runfreelyactwildly [link] [comments]",
       "author": "/u/runfreelyactwildly",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 3
-    },
-    {
-      "source": "Reddit r/sysadmin",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Software(s) for USB-only OOBM?",
-      "link": "https://www.reddit.com/r/sysadmin/comments/1tloz7v/softwares_for_usbonly_oobm/",
-      "published": "2026-05-23T18:58:59+00:00",
-      "summary": "Is there any software or combination of softwares that could act as a low level OOBM solution that could be run by simply connecting some cables and emulating serial connections to display and control Device A in the OS of Device B or something similar? As far as I can tell this would only require a virtual monitor and HID emulation both hosted by Device B, but google is basically useless now and I can't find an example of this being done before. This repo seems to be capable of the video portion, but I don't see any mention of HID emulation to send back to the host device, which is necessary in this case. Really if anyone has a purely software version of USB Armory that would be ideal. The goal here is to not spend 4 quadrillion dollars on hardware for one-off situations that require extended out of OS troubleshooting, so no IPKVM or anything like that. FOSS and/or Windows usable preferred if at all possible. artist rendition: https://ibb.co/3YCR5vxh (I just realized that the hub migh",
-      "author": "/u/doctor_doggo420",
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
@@ -2308,7 +2624,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "SecurityWeek",
@@ -2332,7 +2648,7 @@
         "content_type": "news_report",
         "confidence_tier": "tier_4_news"
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -2358,7 +2674,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -2386,7 +2702,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -2410,7 +2726,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_5_chatter"
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Reddit r/cybersecurity",
@@ -2619,30 +2935,6 @@
       "score": 18
     },
     {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Recommendations for getting started in cybersecurity",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1tl92qq/recommendations_for_getting_started_in/",
-      "published": "2026-05-23T06:58:59+00:00",
-      "summary": "Hi everyone, I'm a new user and I want to learn a bit about cybersecurity. Could you give me some recommendations to get started? I'd really like to learn more about this; it interests me a lot. Thanks! submitted by /u/zpxhi [link] [comments]",
-      "author": "/u/zpxhi",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
       "source": "Reddit r/sysadmin",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -2693,30 +2985,6 @@
         "confidence_tier": "tier_1_government"
       },
       "score": 9
-    },
-    {
-      "source": "Reddit r/sysadmin",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "DFSR migration stuck",
-      "link": "https://www.reddit.com/r/sysadmin/comments/1tl4o30/dfsr_migration_stuck/",
-      "published": "2026-05-23T03:16:26+00:00",
-      "summary": "So I have been doing a dfsr migration on my two DCs, which are both Server 2016. The process has technically finished in that the SYSVOL_DFSR folder is present, the net shares are correct, and the backlog says that both DCs are in sync. The problem is that both servers are stuck in the 'Eliminating' phase, and Event Viewer just says that it can't delete SYSVOL with nothing really useful to explain why. I have been doing research and trying different things for literal days, but nothing has worked. I think I finally tracked the problem down to the ntfrs service not running on either server. The problem is, I can't get it started. Running it from Server Manager, Services, or Powershell have all come back with errors saying the service is not responding to the control function. Any help to get them running long enough to get the DCs to the 'Eliminated' state would be amazing. Of course, if I'm completely off base and need to look somewhere else, I'd be grateful for that as well. submitted",
-      "author": "/u/Theprofessionalmouse",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
     },
     {
       "source": "Reddit r/AskNetsec",
@@ -3319,32 +3587,6 @@
       "score": 7
     },
     {
-      "source": "Reddit r/sysadmin",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Yellowkey Bitlocker Exploit repo taken down",
-      "link": "https://www.reddit.com/r/sysadmin/comments/1tkq3x9/yellowkey_bitlocker_exploit_repo_taken_down/",
-      "published": "2026-05-22T17:39:44+00:00",
-      "summary": "Referencing this post from a few days back, it looks like the github repo regarding the yellowkey exploit has been removed from github. RIP Nightmare-Eclipse [*] submitted by /u/heavymetalusa [link] [comments]",
-      "author": "/u/heavymetalusa",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -3486,9 +3728,7 @@
       "author": "Nadim Abdo",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -3496,12 +3736,10 @@
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
-        "content_type": "news_report",
+        "content_type": "uncategorized",
         "confidence_tier": "tier_1_primary_research"
       },
-      "score": 10,
-      "full_body": "Share Link copied to clipboard! Tags Forrester Waves Content types News Products and services Microsoft Entra Topics Analyst reports Identity and access management Zero Trust Identity is the backbone of modern cybersecurity. Every access decision carries risk, across employees, partners, devices, workloads, and an expanding set of AI-powered agents. But most organizations are still operating across disparate systems. Identity signals are captured in one place, access policies enforced in another, and response workflows managed separately. That fragmentation slows decision-making, increases operational complexity, and creates gaps cyberattackers can exploit. Customers are looking for an identity platform that meets their evolving needs. We’re pleased to share that Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026 , receiving the highest scores in both the current offering and strategy categories. We believe this recognition demonstrates the value that the Microsoft Entra product portfolio brings to our customers, which we are always striving to improve. This report also reflects a broader shift in the market. Identity is no longer just a checkpoint in the access flow. It has become the primary way organizations manage risk across environments. Explore Microsoft Entra identity and access solutions Figure 1. The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026 . Forrester’s research highlights the need for strong identity foundations, actionable intelligence, and support for emerging AI-powered scenarios. As identity surfaces expand and cyberthreats grow more dynamic, organizations need a model that connects signals, enforces policy consistently, and drives response in real time. Without that continuity, security remains reactive and incomplete. This is especially important as identity continues to be one of the most targeted attack surfaces, with credential-based attacks still dominating. Securing access requires more than stronger authentication. It requires bringing identity, access, and response into a unified system. Read the full Forrester Wave report Why this recognition matters now As AI expands the number of identities and accelerates the pace of change, organizations need approaches that simplify how identity is managed while strengthening how risk is controlled. That means moving beyond disconnected tools toward systems that are integrated by design. The priorities highlighted by Forrester in their report reflect this reality. They also align with Microsoft’s focus on delivering a comprehensive strategy based on Zero Trust principles , using AI in the flow of work, and extending identity and access controls to AI agents. Forrester noted Microsoft strengths in identity threat detection and response (ITDR), access control, phishing-resistant authentication , and identity verification. These capabilities are essential for organizations to stay ahead of evolving cyberthreats and improve their identity security posture continuously. Microsoft is focused on helping customers reap the benefits of a unified system that extends governance, visibility, and control across all identities. AI is accelerating identity complexity AI is reshaping the identity landscape. It is increasing both the number of identities and the speed at which they operate. In addition to human users, organizations now need to manage AI agents and other non-human identities. These identities require authentication, authorization, lifecycle management, and governance. They operate at machine speed and interact with systems in ways traditional identity models were not designed to handle. At this scale, static policies and disconnected systems fall short. Organizations need continuous enforcement driven by real-time signals. Treating AI-powered identities as core participants in an identity strategy enables organizations to extend governance, visibility, and control as their environ",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "Microsoft Security Blog",
@@ -3522,7 +3760,6 @@
         "affected_industries": [],
         "affected_products": [
           "F5",
-          "Azure",
           "Atlassian"
         ],
         "cve_ids": [],
@@ -3532,9 +3769,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_1_primary_research"
       },
-      "score": 10,
-      "full_body": "Share Link copied to clipboard! Tags Credential theft Linux Content types Research Products and services Microsoft Defender Topics Actionable threat insights Detection and protection success stories A growing trend in modern intrusions is the compromise of internet-facing edge appliances such as firewalls and VPN gateways. Systems traditionally deployed as security boundaries are increasingly becoming initial access points due to the continued discovery and exploitation of critical vulnerabilities. Because these devices are externally exposed, lightly monitored, and highly trusted inside enterprise environments, compromise can provide a durable foothold with limited visibility. Edge appliances often store credentials, certificates, session material, authentication tokens, and identity integrations with directories, cloud services, and identity providers. Once compromised, these trust relationships can enable lateral movement that bypasses traditional security controls. In this incident, the threat actor compromised an internet-facing firewall appliance and used trusted relationships to pivot to an internal Linux host. From there, the threat actor compromised a vulnerable SaaS application and leveraged its credentials to conduct relay-style authentication attacks against Active Directory. This incident reflects a broader shift toward identity-centric, multi-domain attack chains that span network infrastructure, endpoints, SaaS platforms, cloud workloads, and identity systems. Organizations should treat edge devices, non-Windows systems, and cloud identities as security-critical assets, prioritize monitoring across these environments, and use attack path analysis to identify where threat actors are most likely to establish initial access. Attack chain overview Figure 1. Multi-stage Linux intrusion via F5 and Confluence – Attack flow. Figure 2. Multi-stage Linux intrusion via F5 and Confluence – Threat actor activities. Initial access: Exploiting edge appliances The threat actor established SSH access to the first Linux host from a network device identified as an F5 BIG-IP load balancer. Device inventory confirmed the source as an Azure-hosted appliance running version 15.1.201000. This is a specific BIG-IP Virtual Edition (VE) image version deployed primarily in cloud environments and commonly used in Azure ARM templates and Terraform modules for deploying F5 BIG-IP instances. This version of BIG-IP reached end-of-life (EOL) on December 31, 2024. Retiring deprecated firewalls is a security imperative, as unsupported hardware might leave the network exposed to modern threats. This aligns with a broader pattern observed in recent high‑impact incidents, where internet‑facing edge devices such as routers, firewalls, and gateways are compromised through N‑day vulnerabilities. Operational constraints, including the availability of maintenance windows, could delay the installation of software updates for these appliances. When such devices are compromised, threat actors might be able to abuse or extract embedded trusted identities, enabling lateral movement that can bypass traditional perimeter and endpoint‑focused controls. In this incident, the threat actor authenticated to a Linux server over SSH using a privileged account. The threat actor maintained this level of access throughout the observed activity without establishing explicit persistence mechanisms, underscoring the risk posed by over-privileged identities with sudo rights. The threat actor maintained sustained hands-on keyboard access throughout the attack, directly executing actions during the SSH session. Discovery and reconnaissance The threat actor performed extensive reconnaissance of the host and network, including file enumeration, network scanning, and service discovery. They aggressively scanned the internal network subnets with Nmap to identify connected hosts, and then used Nmap on the identified hosts to detect open services. This execution was automated using a",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "Krebs on Security",
@@ -3629,16 +3864,10 @@
       "author": "Steve Dispensa",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [
-          "Microsoft 365"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
@@ -3646,9 +3875,7 @@
         "content_type": "uncategorized",
         "confidence_tier": "tier_1_primary_research"
       },
-      "score": 10,
-      "full_body": "Share Link copied to clipboard! Tags Microsoft 365 Content types Best practices Products and services Microsoft Defender Microsoft Purview Microsoft Security Copilot Microsoft Sentinel Topics AI and agents Cloud security Data protection Zero Trust AI is reshaping how work gets done—and how risks emerge across cloud, data, identity, and more. Many organizations want AI-powered productivity, but their security foundations aren’t yet built for it. As organizations move toward AI-powered operating models, security becomes the critical enabler to allow innovation to scale responsibly. In this new era of agentic AI, 1 protections can’t be layered on after the fact; they must be built into the fabric of how AI systems are developed, governed, and used—grounded in strong cloud security posture , clear data governance , and Zero Trust principles that assume breach and verify continuously. We’re sharing two customer spotlights that explore how global organizations are putting that approach into practice. Why security has become a strategic enabler for AI‑powered growth These customer stories highlight how security is no longer a supporting function—it’s a strategic enabler of growth, speed, and trust. As AI accelerates decision-making and reshapes how work gets done, leaders must modernize without increasing risk or slowing the business. The experiences of these forward-looking organizations reflect the realities many companies face: gaining consistent visibility across complex environments, moving faster while maintaining trust, meeting governance and compliance expectations that expand with AI adoption, and driving operational efficiency through automation. These examples will show how the right security foundation allows organizations to scale AI with confidence—turning protection into a competitive advantage, not a constraint. First, we’ll take a closer look at St. Luke’s University Health Network. How St. Luke’s is accelerating efficiency and threat response with AI St. Luke’s identified a critical gap in unified, real-time visibility across its security tools, limiting its ability to detect and stop threats early. The organization needed a way to see across their entire landscape and respond to threats as they emerge. To modernize and unify security operations, St. Luke’s turned to Microsoft Security Copilot to supercharge analyst productivity and help its Security Operations Center (SOC) teams operate at scale. Learn more about Microsoft Security Copilot By connecting Microsoft Defender and Microsoft Sentinel, St. Luke’s gains a single, AI-powered view across endpoints, identity, email, and cloud workloads—helping analysts move faster, correlate cyberthreats more effectively, and shift from reactive response to proactive, predictive defense. With AI embedded directly into daily workflows, teams can identify risks in real time, uncover gaps in visibility, and make more informed decisions with greater precision. Streamlining workflows and automating protection At the same time, Security Copilot agents are transforming how the SOC operates by automating time-consuming tasks like alert triage and vulnerability remediation. This reduces noise, accelerates investigations, and frees analysts to focus on real threats and strategic work. The result is a more efficient, collaborative, and resilient security operation built for today’s increasingly complex threat landscape. With Microsoft Security Copilot, St. Luke’s has: Unified visibility across Defender and Microsoft Sentinel eliminates silos and accelerates threat response. AI-powered insights help analysts detect, investigate, and act on cyberthreats in real time. Security Copilot agents automating routine tasks, with Security Triage Agent saving up to 200 analyst hours each month. Advanced phishing triage reduces false positives and improves decision confidence. Centralized workflows improve collaboration, reporting speed, and overall SOC efficiency. St. Luke’s sees its investment in ",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "Google Cloud Security",
@@ -4886,56 +5113,6 @@
       "score": 2
     },
     {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "CrabLoader: A PoC Cobalt Strike UDRL written in Rust",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkdrvq/crabloader_a_poc_cobalt_strike_udrl_written_in/",
-      "published": "2026-05-22T09:26:14+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "The 429 Microsoft Graph Mystery",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkdr73/the_429_microsoft_graph_mystery/",
-      "published": "2026-05-22T09:25:09+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
       "source": "SecurityWeek",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -4994,30 +5171,6 @@
       "title": "A Deep Dive into Codex Windows Sandbox",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1tkdnm1/a_deep_dive_into_codex_windows_sandbox/",
       "published": "2026-05-22T09:20:04+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Striga: Lifting x86 to LLVM IR with Python",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkdn5z/striga_lifting_x86_to_llvm_ir_with_python/",
-      "published": "2026-05-22T09:19:24+00:00",
       "summary": "submitted by /u/digicat [link] [comments]",
       "author": "/u/digicat",
       "in_window": true,
@@ -5140,86 +5293,6 @@
         "confidence_tier": "tier_1_primary_research"
       },
       "score": 10
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "veilgate: Asymmetric defense against AI red-team agents. VeilGate scores every request, diverts likely agents into a per-IP-coherent fake application, and measures the cost it imposes on the attacker.",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkctse/veilgate_asymmetric_defense_against_ai_redteam/",
-      "published": "2026-05-22T08:33:12+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Windows BitLocker Security Feature Bypass Vulnerability",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkcsoh/windows_bitlocker_security_feature_bypass/",
-      "published": "2026-05-22T08:31:24+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "CVE-2026-28910: Breaking macOS App Sandbox Data Containers, TCC, and Hijacking Apps Using Archive Utility",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tkcric/cve202628910_breaking_macos_app_sandbox_data/",
-      "published": "2026-05-22T08:29:37+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "energy_utilities"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "cve_ids": [
-          "CVE-2026-28910"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 8
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -8176,30 +8249,6 @@
       "score": 2
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
-      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
-      "author": "",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      },
-      "score": 10
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -8340,6 +8389,30 @@
       "score": 14,
       "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training FUXA 1.2.9 - RCE EDB-ID: 52568 CVE: 2026-25895 EDB Verified: Author: Anthony Cihan Type: webapps Exploit: / Platform: Multiple Date: 2026-05-21 Vulnerable App: # Exploit Title: FUXA 1.2.9 - RCE # Date: 4/24/2026 # Exploit Author: Anthony Cihan (Hann1bl3L3ct3r) # Vendor Homepage: https://github.com/frangoteam/FUXA # Version: <= 1.2.9 # Tested on: Ubuntu Server # CVE : CVE-2026-25895 \"\"\" CVE-2026-25895 - FUXA Unauthenticated Path Traversal -> Arbitrary File Write -> RCE Affected: FUXA <= 1.2.9 Patched: 1.2.10 Vulnerable endpoint: POST /api/upload (server/api/projects/index.js, ~line 193) Root cause: * The /api/upload route is registered with NO middleware: prjApp.post('/api/upload', function (req, res) { ... }) so it bypasses both `secureFnc` (JWT/API-key) and the admin permission gate that wraps every other endpoint in projects/index.js. * Inside the handler, the JSON-body field `destination` is concatenated into a path with only a leading underscore and no normalization / containment check: let destinationDir = path.resolve(runtime.settings.appDir, `_${destination}`); filePath = path.join(destinationDir, fullPath || fileName); fs.writeFileSync(filePath, basedata, encoding); A relative payload of the form `a/../../../../<target>` makes Node's path.resolve() climb out of `appDir` to anywhere the FUXA process can write. * `fullPath`/`fileName` strip `..` sequences, so we control the directory via `destination` and the filename via `file.name`. Exploitation: pre-auth RCE even when `secureEnabled = true`. Authorization: this script is for credentialed penetration tests against systems you are explicitly authorized to assess. Use only inside a defined engagement scope. \"\"\" from __future__ import annotations import argparse import base64 import json import posixpath import secrets import sys from typing import Dict, List, Optional, Tuple from urllib.parse import urljoin, urlparse, quote try: import requests except ImportError: sys.stderr.write(\"[-] Missing dependency: pip install requests\\n\") sys.exit(2) BANNER = r\"\"\" ______ _ ___ __ _______ ___ _ | ____| | | \\ \\ / / /\\ | __ \\ \\ / / \\ | | | |__ | | | |\\ V / / \\ | |__) \\ \\ /\\ / /| \\| | | __| | | | | > < / /\\ \\ | ___/ \\ \\/ \\/ / | . ` | | | | |__| |/ . \\ / ____ \\| | \\ /\\ / | |\\ | |_| \\____//_/ \\_\\/_/ \\_\\_| \\/ \\/ |_| \\_| CVE-2026-25895 :: FUXA <=1.2.9 Unauth Path Traversal -> RCE \"\"\" # --- Server response helpers --------------------------------------------------- def _extract_errno(response_text: str) -> Optional[str]: \"\"\"Parse the server's error JSON body (e.g. {\"error\":\"EACCES\",\"message\": \"EACCES: permission denied, open '/root/x'\"}) and return the errno code. Returns None if the body is not JSON or has no 'error' key. \"\"\" if not response_text: return None try: data = json.loads(response_text) except (ValueError, TypeError): return None if isinstance(data, dict): err = data.get(\"error\") if isinstance(err, str): return err return None def _extract_syscall(response_text: str) -> Optional[str]: \"\"\"Parse the server's error JSON body and return the Node.js syscall that failed (e.g. 'open', 'mkdir', 'write'). The upload handler forwards `err.message`, which for POSIX fs errors is formatted by libuv as: \"<CODE>: <reason>, <syscall> '<path>'\" So we pull the token between the comma and the quoted path. The syscall lets us distinguish ambiguous errno values. In particular, on EACCES the upload handler conditionally calls fs.mkdirSync(parent, {recursive: true}) before writing — so a non-existent /home/<user>/ gets mkdir-EACCES (can't create under root-owned /home/), while an existing /home/<other>/ (mode 0700) gets open-EACCES on the write itself. Same errno, different meaning. \"\"\" if not response_text: return None try: data = json.loads(response_text) except (ValueError, TypeError): return None if not isinstance(data, dict): return None msg = data.get(\"message\") if not isinstance(msg, str",
       "fetch_status": "ok"
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+      "published": "2026-05-21T00:00:00+00:00",
+      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
+      "author": "",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_1_primary_research"
+      },
+      "score": 10
     },
     {
       "source": "Datadog Security Labs",
@@ -10133,21 +10206,28 @@
           "vulnerability_disclosure"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "technology",
+          "energy_utilities"
+        ],
+        "affected_products": [
+          "Microsoft Windows",
+          "GitHub"
+        ],
         "cve_ids": [
           "CVE-2026-45585"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [
-          "zero_day"
+          "zero_day",
+          "poc_available"
         ],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news"
       },
       "score": 18,
-      "full_body": "",
+      "full_body": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit  Ravie Lakshmanan  May 20, 2026 Vulnerability / Encryption Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585 , carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the tech giant said in an advisory. \"The proof of concept for this vulnerability has been made public, violating coordinated vulnerability best practices.\" The issue impacts Windows 11 version 26H1 for x64-based Systems, Windows 11 Version 24H2 for x64-based Systems, Windows 11 Version 25H2 for x64-based Systems, Windows Server 2025, and Windows Server 2025 (Server Core installation). YellowKey was disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse). It essentially involves placing specially crafted 'FsTx' files on a USB drive or EFI partition, plugging the USB drive into the target Windows computer with BitLocker protections turned on, rebooting into the Windows Recovery Environment (WinRE), and triggering a shell with unrestricted access by holding down the CTRL key. \"If you did everything properly, a shell will spawn with unrestricted access to the BitLocker protected volume,\" the researcher noted in a GitHub post. Redmond noted that successful exploitation could permit an attacker with physical access to sidestep the BitLocker Device Encryption feature on the system storage device and gain access to encrypted data. \"To break encryption, YellowKey abuses a behavioral trust assumption in the recovery interface, allowing attackers to spawn an unrestricted shell with full access to the encrypted volume during the pre-boot recovery sequence,\" LevelBlue said . \"And because YellowKey doesn't require software installation, existing credentials, or network access to break encryption, any machine that has a USB port and can be rebooted can be a target.\" To address the risk, the following mitigations have been outlined: Mount the WinRE image on each device. Mount the system registry hive of the mounted WinRE image. Modify BootExecute by removing \"autofstx.exe\" value from Session Manager's BootExecute REG_MULTI_SZ value. Save and unload Registry hive . Unmount and commit the updated WinRE image. Reestablish BitLocker trust for WinRE. \"Specifically, you prevent the FsTx Auto Recovery Utility, autofstx.exe, from automatically starting when the WinRE image launches,\" security researcher Will Dormann said . \"With this change, the Transactional NTFS replaying that deletes winpeshl.ini no longer happens. It also recommends switching from TPM-only to TPM+PIN.\" Microsoft also emphasized that users can be safeguarded against exploitation by configuring BitLocker on already encrypted devices with \"TPM-only\" protector by switching to \"TPM+PIN\" mode via PowerShell, the command line, or the control panel. This will require a PIN to decrypt the drive at startup, effectively backing YellowKey attacks. On devices that are not encrypted, administrators are advised to enable the \"Require additional authentication at startup\" option via Microsoft Intune or Group Policies and ensure that \"Configure TPM startup PIN\" is set to \"Require startup PIN with TPM.\" Update In a new analysis published on May 22, 2026, LevelBlue said YellowKey eliminates the need for specialized tooling and operates entirely through native Windows functionality. \"It requires only brief physical access and does not introduce persistent hardware artifacts,\" it said. \"As a result, it becomes viable across a wider range of real-world scenarios, including device theft, border inspections, insider access, and supply chain exposure.\" It further noted that YellowKey reinforces how initial access to a decrypted volume can be expanded t",
       "fetch_status": "ok"
     },
     {
@@ -11441,32 +11521,6 @@
         "confidence_tier": "tier_4_news"
       },
       "score": 4
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Pathfinding Labs: Deploy, test, and learn from 100+ intentionally vulnerable AWS environments",
-      "link": "https://www.reddit.com/r/netsec/comments/1thjpl5/pathfinding_labs_deploy_test_and_learn_from_100/",
-      "published": "2026-05-19T11:13:12+00:00",
-      "summary": "submitted by /u/sethsec [link] [comments]",
-      "author": "/u/sethsec",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
-      },
-      "score": 2
     },
     {
       "source": "Schneier on Security",
@@ -12969,16 +13023,25 @@
           "VMware"
         ],
         "cve_ids": [
+          "CVE-2026-26083",
+          "CVE-2026-34260",
+          "CVE-2026-34263",
+          "CVE-2026-41702",
+          "CVE-2026-42231",
+          "CVE-2026-42232",
+          "CVE-2026-44277",
           "CVE-2026-8043"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news"
       },
       "score": 15,
-      "full_body": "",
+      "full_body": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws  Ravie Lakshmanan  May 18, 2026 Vulnerability / Software Security Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. \"External control of a file name in Ivanti Xtraction before version 2026.2 allows a remote authenticated attacker to read sensitive files and write arbitrary HTML files to a web directory, leading to information disclosure and possible client-side attacks,\" Ivanti said in an advisory. Fortinet published advisories for two critical shortcomings affecting FortiAuthenticator and FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS that could result in code execution - CVE-2026-44277 (CVSS score: 9.1) - An improper access control vulnerability in FortiAuthenticator that may allow an unauthenticated attacker to execute unauthorized code or commands via crafted requests. (Fixed in FortiAuthenticator versions 6.5.7, 6.6.9, and 8.0.3) CVE-2026-26083 (CVSS score: 9.1) - A missing authorization vulnerability in FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS WEB UI that may allow an unauthenticated attacker to execute unauthorized code or commands via HTTP requests. (Fixed in FortiSandbox versions 4.4.9 and 5.0.2, FortiSandbox Cloud version 5.0.6, and FortiSandbox PaaS versions 4.4.9. and 5.0.2) SAP also shipped fixes for two critical vulnerabilities - CVE-2026-34260 (CVSS score: 9.6) - An SQL injection vulnerability in SAP S/4HANA CVE-2026-34263 (CVSS score: 9.6) - A missing authentication check in the SAP Commerce cloud configuration \"The vulnerability is caused by an overly permissive security configuration with improper rule ordering, allowing an unauthenticated user to perform malicious configuration upload and code injection, resulting in arbitrary server-side code execution,\" Onapsis said about CVE-2026-34263. On the other hand, CVE-2026-34260 could be exploited by an attacker to inject malicious SQL statements and potentially impact the confidentiality and availability of the application. However, since the affected code only allows read access to data, the vulnerability does not compromise the integrity of the application. \"It allows a low-privileged, authenticated attacker to inject malicious SQL code via user-controlled input, potentially exposing sensitive database information and crashing the application,\" Pathlock said . Patches have also been released by Broadcom for a high-severity flaw in VMware Fusion (CVE-2026-41702, CVSS score: 7.8) that could pave the way for local privilege escalation. The issue has been addressed in version 26H1. \"VMware Fusion contains a TOCTOU (Time-of-check Time-of-use) vulnerability that occurs during an operation performed by a SETUID binary,\" Broadcom said . \"A malicious actor with local non-administrative user privileges may exploit this vulnerability to escalate privileges to root on the system where Fusion is installed.\" Round off the list is a set of five critical vulnerabilities impacting n8n - CVE-2026-42231 (CVSS score: 9.4) - A vulnerability in the xml2js library used to parse XML request bodies in n8n's webhook handler that allows prototype pollution via a crafted XML payload, enabling an authenticated user with permission to create or modify workflows to achieve remote code execution on the n8n host. (Fixed in n8n versions 1.123.32, 2.17.4, and 2.18.1) CVE-2026-42232 (CVSS score: 9.4) - An authenticated user with permission to create or modify workflows could achieve global prototype pollution via the XML Node, leading to remote code execution when combined with other nodes exploiting the prototype pollution. (Fixed in n8n versions 1.123.32, 2.17.4, and 2.18.1",
       "fetch_status": "ok"
     },
     {
@@ -13117,23 +13180,41 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "zero_day"
+          "ransomware",
+          "zero_day",
+          "active_exploitation",
+          "vulnerability_disclosure",
+          "malware"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
+        "affected_products": [
+          "Palo Alto Networks",
+          "Microsoft Windows",
+          "Microsoft Exchange",
+          "Apple iOS/macOS"
+        ],
+        "cve_ids": [
+          "CVE-2020-17103",
+          "CVE-2025-62221",
+          "CVE-2026-41940",
+          "CVE-2026-42897"
+        ],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [
+          "actively_exploited",
           "zero_day",
-          "poc_available"
+          "poc_available",
+          "no_patch_yet",
+          "mass_exploitation",
+          "preauth_unauth"
         ],
-        "content_type": "news_report",
+        "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news"
       },
       "score": 12,
-      "full_body": "",
+      "full_body": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems  Ravie Lakshmanan  May 18, 2026 Zero Day / Vulnerability Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma , has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma , the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver, and resides in a routine named \"HsmOsBlockPlaceholderAccess.\" It was originally reported to Microsoft by Google Project Zero researcher James Forshaw in September 2020. Although it was assumed that the shortcoming was fixed by Microsoft in December 2020 as part of CVE-2020-17103 , Chaotic Eclipse said further investigation has uncovered that the \"exact same issue [...] is actually still present, unpatched.\" \"I'm unsure if Microsoft just never patched the issue or the patch was silently rolled back at some point for unknown reasons. The original PoC by Google worked without any changes,\" the researcher added. \"To highlight this issue, I weaponized the original PoC to spawn a SYSTEM shell. It seems to work reliably in my machines butsuccess rate may vary since it's a race condition.\" The researcher further pointed out that all Windows versions are likely affected by this vulnerability. In a post shared on Mastodon, security researcher Will Dormann said MiniPlasma works \"reliably\" to open a \"cmd.exe\" prompt with SYSTEM privileges on Windows 11 systems running the latest May 2026 updates. \"I'll note that it does not seem to work on the latest Insider Preview Canary Windows 11,\" Dormann pointed out . In December 2025, Microsoft also addressed another privilege escalation flaw in the same component ( CVE-2025-62221 , CVSS score: 7.8), which it identified as exploited by unknown threat actors. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cybersecurity , Google Project Zero , Microsoft , privilege escalation , Vulnerability , Windows , Windows 11 , Zero-Day ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Handle Critical SOC Alerts With AI Support Identify Internal Attack Surfaces More Efficiently With a Free Assessment [eBook] Get the 3-Number SOC Diagnostic to Reduce Queue Risk [Guide] Stop Email Fraud Before It Turns Into Ransomware Damage",
       "fetch_status": "ok"
     },
     {
@@ -13824,32 +13905,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news"
-      }
-    },
-    {
-      "source": "Reddit r/AskNetsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "SSPM is becoming necessary in SaaS-heavy environments",
-      "link": "https://www.reddit.com/r/AskNetsec/comments/1tepthg/sspm_is_becoming_necessary_in_saasheavy/",
-      "published": "2026-05-16T10:25:06+00:00",
-      "summary": "Traditional security controls were built around networks, endpoints, and infrastructure, but a huge amount of sensitive company data now lives inside SaaS platforms like Google Workspace, Slack, Salesforce, and similar collaboration tools. What makes these environments difficult to secure is that permissions and sharing exposure constantly evolve over time. External collaborators get added temporarily, public links remain active longer than intended, and third-party integrations quietly accumulate access across multiple systems. In many cases, the biggest risk is no longer a single obvious breach event but gradual permission drift and overexposure that becomes difficult to continuously track manually at scale. That’s why SSPM feels increasingly relevant in modern environments. Maintaining visibility into who has access to what across SaaS applications seems to be turning into a core operational security problem rather than just a compliance checkbox. submitted by /u/ngimehasthoughts [l",
-      "author": "/u/ngimehasthoughts",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Slack",
-          "Salesforce"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_5_chatter"
       }
     },
     {
@@ -14867,29 +14922,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "April 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -14958,6 +14990,29 @@
         "urgency_signals": [],
         "content_type": "uncategorized",
         "confidence_tier": "tier_1_offensive_research"
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "April 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
+      "published": "2026-05-15T00:00:00+00:00",
+      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_1_primary_research"
       }
     },
     {
@@ -16102,52 +16157,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
-      "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
-      "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "threat_research",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -16237,6 +16246,52 @@
         "urgency_signals": [],
         "content_type": "uncategorized",
         "confidence_tier": "tier_1_offensive_research"
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
+      "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
+      "published": "2026-05-14T00:00:00+00:00",
+      "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_1_primary_research"
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
+      "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
+      "published": "2026-05-14T00:00:00+00:00",
+      "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "threat_research",
+        "confidence_tier": "tier_1_primary_research"
       }
     },
     {
@@ -18079,29 +18134,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
-      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
-      "published": "2026-05-12T00:00:00+00:00",
-      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_2_operator"
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -18121,6 +18153,29 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator"
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
+      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
+      "published": "2026-05-12T00:00:00+00:00",
+      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
         "confidence_tier": "tier_2_operator"
       }
     },
@@ -19875,14 +19930,14 @@
       }
     },
     {
-      "source": "Cloudflare Security",
+      "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
-      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
       "published": "2026-05-07T13:00:00+00:00",
-      "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
-      "author": "Rian Islam",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -19898,14 +19953,14 @@
       }
     },
     {
-      "source": "Wiz Research",
+      "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+      "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
       "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
+      "summary": "When a critical Linux kernel privilege escalation was publicly disclosed, Cloudflare's security and engineering teams detected, investigated, and mitigated the threat across our global fleet, confirming zero customer impact and no malicious exploitation.",
+      "author": "Rian Islam",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -20195,29 +20250,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Quantum Risk Explained",
-      "link": "https://www.recordedfuture.com/research/quantum-risk-explained",
-      "published": "2026-05-07T00:00:00+00:00",
-      "summary": "Learn how the \"Harvest Now, Decrypt Later\" (HNDL) risk exposes long-lived sensitive data today, regardless of when Cryptographically Relevant Quantum Computers (CRQCs) arrive.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20356,30 +20388,26 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
-      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Quantum Risk Explained",
+      "link": "https://www.recordedfuture.com/research/quantum-risk-explained",
       "published": "2026-05-07T00:00:00+00:00",
-      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+      "summary": "Learn how the \"Harvest Now, Decrypt Later\" (HNDL) risk exposes long-lived sensitive data today, regardless of when Cryptographically Relevant Quantum Computers (CRQCs) arrive.",
       "author": "",
       "in_window": false,
       "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": "uncategorized",
-        "confidence_tier": "tier_2_operator"
+        "confidence_tier": "tier_1_primary_research"
       }
     },
     {
@@ -20406,6 +20434,33 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator"
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
+      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
+      "published": "2026-05-07T00:00:00+00:00",
+      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
         "confidence_tier": "tier_2_operator"
       }
     },
@@ -22623,29 +22678,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
-      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
-      "published": "2026-05-01T00:00:00+00:00",
-      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_2_operator"
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -22671,6 +22703,29 @@
           "poc_available"
         ],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator"
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
+      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
+      "published": "2026-05-01T00:00:00+00:00",
+      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
         "confidence_tier": "tier_2_operator"
       }
     },
@@ -23269,57 +23324,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Risk Scenarios for the US’s Strategic Pivot",
-      "link": "https://www.recordedfuture.com/research/us-strategic-pivot",
-      "published": "2026-04-30T00:00:00+00:00",
-      "summary": "The United States (US) is shifting toward a more force-driven security strategy primarily relying on military operations and economic pressure to counter transnational criminal organizations and limit Chinese, Russian, and Iranian influence in the Western Hemisphere.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "united_states",
-          "russia",
-          "china",
-          "iran"
-        ],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Building with AI: Here's What No Briefing Will Tell You",
-      "link": "https://www.recordedfuture.com/blog/building-with-ai",
-      "published": "2026-04-30T00:00:00+00:00",
-      "summary": "What building with AI for three months revealed about four leadership blind spots executives can't afford to ignore: the comprehension gap, eroding competitive moats, deployment complexity, and what \"senior\" really means now.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_1_primary_research"
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -23737,6 +23741,57 @@
         "urgency_signals": [],
         "content_type": "uncategorized",
         "confidence_tier": "tier_1_offensive_research"
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Risk Scenarios for the US’s Strategic Pivot",
+      "link": "https://www.recordedfuture.com/research/us-strategic-pivot",
+      "published": "2026-04-30T00:00:00+00:00",
+      "summary": "The United States (US) is shifting toward a more force-driven security strategy primarily relying on military operations and economic pressure to counter transnational criminal organizations and limit Chinese, Russian, and Iranian influence in the Western Hemisphere.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "united_states",
+          "russia",
+          "china",
+          "iran"
+        ],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_1_primary_research"
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Building with AI: Here's What No Briefing Will Tell You",
+      "link": "https://www.recordedfuture.com/blog/building-with-ai",
+      "published": "2026-04-30T00:00:00+00:00",
+      "summary": "What building with AI for three months revealed about four leadership blind spots executives can't afford to ignore: the comprehension gap, eroding competitive moats, deployment complexity, and what \"senior\" really means now.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
+        "confidence_tier": "tier_1_primary_research"
       }
     },
     {
@@ -24432,33 +24487,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "CI/CD pipeline abuse: the problem no one is watching",
-      "link": "https://www.elastic.co/security-labs/detecting-cicd-pipeline-abuse-with-llm-augmented-analysis",
-      "published": "2026-04-29T00:00:00+00:00",
-      "summary": "How we built an open-source, drop-in CI template that uses signal extraction and LLM reasoning to catch CI/CD abuse in GitHub Actions, GitLab CI, and Azure DevOps pipelines.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Azure",
-          "GitHub",
-          "GitLab"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_2_operator"
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -24484,6 +24512,33 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator"
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "CI/CD pipeline abuse: the problem no one is watching",
+      "link": "https://www.elastic.co/security-labs/detecting-cicd-pipeline-abuse-with-llm-augmented-analysis",
+      "published": "2026-04-29T00:00:00+00:00",
+      "summary": "How we built an open-source, drop-in CI template that uses signal extraction and LLM reasoning to catch CI/CD abuse in GitHub Actions, GitLab CI, and Azure DevOps pipelines.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure",
+          "GitHub",
+          "GitLab"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
         "confidence_tier": "tier_2_operator"
       }
     },
@@ -29671,29 +29726,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
-      "link": "https://www.elastic.co/security-labs/elastic-defence-cyber-marvel",
-      "published": "2026-04-09T00:00:00+00:00",
-      "summary": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": "uncategorized",
-        "confidence_tier": "tier_2_operator"
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -29740,6 +29772,29 @@
           "zero_day"
         ],
         "content_type": "threat_research",
+        "confidence_tier": "tier_2_operator"
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
+      "link": "https://www.elastic.co/security-labs/elastic-defence-cyber-marvel",
+      "published": "2026-04-09T00:00:00+00:00",
+      "summary": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": "uncategorized",
         "confidence_tier": "tier_2_operator"
       }
     },
@@ -33154,7 +33209,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f6806da5ee0>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f9613f67fa0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
