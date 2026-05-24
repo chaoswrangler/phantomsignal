@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T11:21:34.882578+00:00",
+  "generated_at": "2026-05-24T13:48:56.624098+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 482,
-  "total_clusters_raw": 469,
+  "total_items_in_window": 480,
+  "total_clusters_raw": 466,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 328,
+  "dropped_low_score": 325,
   "dropped_overflow": 61,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,20 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,33 +95,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -123,6 +116,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
@@ -137,25 +137,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 50,
+      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Cisco Talos": {
@@ -172,12 +165,26 @@
       "item_count": 10,
       "in_window_count": 8
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,20 +193,6 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -207,12 +200,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -221,12 +214,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 2
+      "in_window_count": 5
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -242,19 +242,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -298,6 +298,20 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
@@ -312,26 +326,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -347,20 +347,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -368,12 +354,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -382,12 +368,19 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
       "in_window_count": 5
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,12 +389,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 10,
+      "in_window_count": 5
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -410,12 +403,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 18
+      "in_window_count": 0
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -424,12 +431,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 18
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -438,20 +445,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -459,9 +452,9 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -473,26 +466,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 31
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -501,6 +487,20 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 44
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 31
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -508,18 +508,25 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 45
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 2
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Graham Cluley": {
@@ -536,26 +543,12 @@
       "item_count": 100,
       "in_window_count": 23
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
+      "item_count": 100,
+      "in_window_count": 6
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -564,13 +557,6 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -578,12 +564,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 24
+      "in_window_count": 23
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -592,12 +578,26 @@
       "item_count": 25,
       "in_window_count": 25
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 5
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -1354,123 +1354,6 @@
       ]
     },
     {
-      "cluster_id": "2c7cbbb67e",
-      "priority_score": 21,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-42945"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "ddos",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Docker"
-        ],
-        "cve_ids": [
-          "CVE-2026-28515",
-          "CVE-2026-28516",
-          "CVE-2026-28517",
-          "CVE-2026-42945"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-        "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-        "published": "2026-05-17T11:57:53+00:00",
-        "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
-        "full_body": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE  Ravie Lakshmanan  May 17, 2026 Server Security / Vulnerability A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck . The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the vulnerability was introduced in 2008. Successful exploitation of the flaw can permit an unauthenticated attacker to crash worker processes or execute remote code with crafted HTTP requests. However, it bears noting that code execution is possible only on devices where Address Space Layout Randomization (ASLR), a safeguard against memory-based attacks, is turned off. \"It relies on a specific NGINX config to be vulnerable, and for an attacker to know or discover the config to exploit it,\" security researcher Kevin Beaumont said . \"To reach RCE [remote code execution], also ASLR needs to have been disabled on the box.\" In a similar assessment, AlmaLinux maintainers said : \"Turning the heap overflow into reliable code execution is not trivial in the default configuration, and on systems with ASLR enabled (which is the default on every supported AlmaLinux release), we do not expect a generic, reliable exploit to be easy to produce.\" \"That said, 'not easy' is not 'impossible,' and the worker-crash DoS is exploitable enough on its own that we recommend treating this as urgent,\" the maintainers added. The latest findings from VulnCheck show that threat actors have begun to weaponize the flaw, with exploitation attempts detected against its honeypot networks. The nature of the attack activity and the end goals are presently unknown. Users are advised to apply the latest fixes from F5 to secure their networks against active threats. Flaws in openDCIM Also Exploited The development comes as VulnCheck also revealed exploitation efforts targeting two critical flaws in openDCIM, an open-source application used for data center infrastructure management. The vulnerabilities, both rated 9.3 on the CVSS scoring system, are listed below - CVE-2026-28515 - A missing authorization vulnerability that could allow an authenticated user to access LDAP configuration functionality regardless of their assigned privileges. In Docker deployments where REMOTE_USER is set without authentication enforcement, the endpoint may be reachable without credentials, allowing unauthorized modification of application configuration. CVE-2026-28517 - An operating system command injection vulnerability impacting the \"report_network_map.php\" component that processes a parameter called \"dot\" without sanitization and passes it directly to a shell command, resulting in arbitrary code execution. The two vulnerabilities were discovered alongside CVE-2026-28516 (CVSS score: 9.3), an SQL injection vulnerability in openDCIM, by VulnCheck security researcher Valentin Lobstein in February 2026. According to Lobstein, the three flaws can be chained to achieve remote code execution over five HTTP requests and spawn a reverse shell. \"The cluster of attacker activity we're observing so far originates from a single Chinese IP and uses what appears to be a customized implementation of AI vuln discovery tool Vulnhuntr to automatically check for vulnerable installations before dropping a PHP web shell,\" Caitlin Condon, vice president of security research at VulnCheck, said . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Command Injection , cybersecurity , denial of service , exploitation , NGINX , remote code execution , VulnCheck , Vulnerability , Web Shell ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows R",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "ddos"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Docker"
-          ],
-          "cve_ids": [
-            "CVE-2026-28515",
-            "CVE-2026-28516",
-            "CVE-2026-28517",
-            "CVE-2026-42945"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-          "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-          "published": "2026-05-17T11:57:53+00:00",
-          "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "ddos"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Docker"
-            ],
-            "cve_ids": [
-              "CVE-2026-28515",
-              "CVE-2026-28516",
-              "CVE-2026-28517",
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "8d99a48c55",
       "priority_score": 20,
       "member_count": 1,
@@ -1807,120 +1690,6 @@
       ]
     },
     {
-      "cluster_id": "4240d9e332",
-      "priority_score": 18,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-42897"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "ransomware",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "patch_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
-        "published": "2026-05-18T21:43:51+00:00",
-        "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
-        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Microsoft Exchange Zero-Day Under Attack, No Patch Available CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes. Rob Wright , Senior News Director , Dark Reading May 18, 2026 3 Min Read Source: Piotr Swat via Alamy Stock Photo Microsoft on Thursday disclosed a zero-day vulnerability in Exchange that's under active exploitation, but four days later customers are still awaiting a patch. The zero-day, tracked as CVE-2026-42897, affects Exchange Outlook Web Access (OWA) and enables an unauthorized attacker to execute spoofing attacks over a network. According to Microsoft, the zero-day stems from a cross-site scripting (XSS) flaw , which is one of the most common software vulnerabilities found by security researchers, frequently making the Open Web Application Security Project's (OWASP) Top 10 lists. \"An attacker could exploit this issue by sending a specially crafted email to a user,\" Microsoft said in an advisory . \"If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.\" CVE-2026-42897 was disclosed two days after a large Patch Tuesday release last week that, ironically, contained no zero-days. The Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploit Vulnerabilities (KEV) catalog on Friday. Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out Cyber-Risks to OWA Users CVE-2026-42897 affects the on-premise versions of Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE). Microsoft assigned the zero-day a CVSS score of 8.1, though the NIST's National Vulnerability Database assigned it a medium-severity 6.1 score. Microsoft did not provide details about the potential scope of cyberattacks, but in an advisory published on Monday, the Centre for Cybersecurity Belgium (CCB) warned that successful exploitation could give a threat actor access to a victim's Outlook mailbox and session tokens, and also allow them to make unauthorized changes to mailbox settings or modifications to email content. While CVE-2026-42897 is a Microsoft Exchange Server vulnerability, the risk is to OWA users' mailboxes. In a LinkedIn post , Bogdan Tiron, founder of penetration testing firm Fortbridge, emphasized the impact \"isn't server compromise. It's mailbox compromise — reading mail, sending emails as the victim, stealing session tokens, planting forwarding rules that survive password resets.\" He warned that such mailbox compromises can lead to business email compromise (BEC) or ransomware attacks. Tiron also noted that that XSS \"still owns enterprise mail in 2026,\" adding that while such flaws may be considered \"junior\" threats by the cybersecurity industry, attackers continue to exploit them for reliable initial access to victims' networks. \"The boring vulnerabilities are the ones that keep working,\" he warned. Related: Maximum Severity Cisco SD-WAN Bug Exploited in the Wild Mitigating the Microsoft Exchange Zero-Day In a blog post , Microsoft provided two mitigations options that customers can apply while they wait for a patch to arrive. The first, which Microsoft recommended, is for organizations that have the Exchange Emergency Mitigation (EM) Service, which received a mitigation for Exchange Server 2016, 2019, and SEs instances that is enabled automatically. Microsoft noted that the Exchange EM Service was released in 2021 and is enabled by default. \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away,\" the software giant said. It's unclear what percentage of Exchange customers currently have the EM service enabled. Dark Reading contacted Microsoft for comment, a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [
-            "CVE-2026-42897"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "patch_available",
-            "no_patch_yet"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
-          "published": "2026-05-18T21:43:51+00:00",
-          "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [
-              "CVE-2026-42897"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "patch_available",
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "0a08121d4a",
       "priority_score": 18,
       "member_count": 1,
@@ -2153,6 +1922,120 @@
             "urgency_signals": [
               "zero_day",
               "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4240d9e332",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-42897"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng",
+          "ransomware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [
+          "CVE-2026-42897"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet",
+          "patch_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
+        "published": "2026-05-18T21:43:51+00:00",
+        "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
+        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Microsoft Exchange Zero-Day Under Attack, No Patch Available CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes. Rob Wright , Senior News Director , Dark Reading May 18, 2026 3 Min Read Source: Piotr Swat via Alamy Stock Photo Microsoft on Thursday disclosed a zero-day vulnerability in Exchange that's under active exploitation, but four days later customers are still awaiting a patch. The zero-day, tracked as CVE-2026-42897, affects Exchange Outlook Web Access (OWA) and enables an unauthorized attacker to execute spoofing attacks over a network. According to Microsoft, the zero-day stems from a cross-site scripting (XSS) flaw , which is one of the most common software vulnerabilities found by security researchers, frequently making the Open Web Application Security Project's (OWASP) Top 10 lists. \"An attacker could exploit this issue by sending a specially crafted email to a user,\" Microsoft said in an advisory . \"If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.\" CVE-2026-42897 was disclosed two days after a large Patch Tuesday release last week that, ironically, contained no zero-days. The Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploit Vulnerabilities (KEV) catalog on Friday. Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out Cyber-Risks to OWA Users CVE-2026-42897 affects the on-premise versions of Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE). Microsoft assigned the zero-day a CVSS score of 8.1, though the NIST's National Vulnerability Database assigned it a medium-severity 6.1 score. Microsoft did not provide details about the potential scope of cyberattacks, but in an advisory published on Monday, the Centre for Cybersecurity Belgium (CCB) warned that successful exploitation could give a threat actor access to a victim's Outlook mailbox and session tokens, and also allow them to make unauthorized changes to mailbox settings or modifications to email content. While CVE-2026-42897 is a Microsoft Exchange Server vulnerability, the risk is to OWA users' mailboxes. In a LinkedIn post , Bogdan Tiron, founder of penetration testing firm Fortbridge, emphasized the impact \"isn't server compromise. It's mailbox compromise — reading mail, sending emails as the victim, stealing session tokens, planting forwarding rules that survive password resets.\" He warned that such mailbox compromises can lead to business email compromise (BEC) or ransomware attacks. Tiron also noted that that XSS \"still owns enterprise mail in 2026,\" adding that while such flaws may be considered \"junior\" threats by the cybersecurity industry, attackers continue to exploit them for reliable initial access to victims' networks. \"The boring vulnerabilities are the ones that keep working,\" he warned. Related: Maximum Severity Cisco SD-WAN Bug Exploited in the Wild Mitigating the Microsoft Exchange Zero-Day In a blog post , Microsoft provided two mitigations options that customers can apply while they wait for a patch to arrive. The first, which Microsoft recommended, is for organizations that have the Exchange Emergency Mitigation (EM) Service, which received a mitigation for Exchange Server 2016, 2019, and SEs instances that is enabled automatically. Microsoft noted that the Exchange EM Service was released in 2021 and is enabled by default. \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away,\" the software giant said. It's unclear what percentage of Exchange customers currently have the EM service enabled. Dark Reading contacted Microsoft for comment, a",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [
+            "CVE-2026-42897"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "patch_available",
+            "no_patch_yet"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
+          "published": "2026-05-18T21:43:51+00:00",
+          "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "patch_available",
+              "no_patch_yet"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -3687,6 +3570,91 @@
       ]
     },
     {
+      "cluster_id": "b5d32d8b6e",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "china"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "How China-linked threat actors obtain zero-day vulnerabilities",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
+        "published": "2026-05-24T13:47:52+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "china"
+          ],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How China-linked threat actors obtain zero-day vulnerabilities",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
+          "published": "2026-05-24T13:47:52+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "china"
+            ],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b625c0e6b0",
       "priority_score": 13,
       "member_count": 1,
@@ -4573,6 +4541,94 @@
       ]
     },
     {
+      "cluster_id": "405bfcae7f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "link": "https://risky.biz/RBNEWS565/",
+        "published": "2026-05-18T05:24:03+00:00",
+        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+          "link": "https://risky.biz/RBNEWS565/",
+          "published": "2026-05-18T05:24:03+00:00",
+          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "65812e837f",
       "priority_score": 13,
       "member_count": 1,
@@ -4658,94 +4714,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "405bfcae7f",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "link": "https://risky.biz/RBNEWS565/",
-        "published": "2026-05-18T05:24:03+00:00",
-        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-          "link": "https://risky.biz/RBNEWS565/",
-          "published": "2026-05-18T05:24:03+00:00",
-          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
           }
         }
       ]
@@ -5620,121 +5588,6 @@
       ]
     },
     {
-      "cluster_id": "83e574101d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "phishing_social_eng",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "cve_ids": [
-          "CVE-2020-17103"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "iran"
-        ],
-        "urgency_signals": [
-          "cisa_kev",
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-        "published": "2026-05-19T21:06:54+00:00",
-        "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
-        "full_body": "Cyberattacks & Data Breaches Cyber Risk Threat Intelligence Vulnerabilities & Threats News Windows Zero-Day Barrage Continues After Patch Tuesday YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks. Jai Vijayan , Contributing Writer May 19, 2026 6 Min Read Source: JLStock via Shutterstock A security researcher with an apparent grudge against Microsoft has in recent days disclosed two more Windows zero-days and released a proof-of-concept exploit against a third vulnerability that Microsoft supposedly patched in 2020. That makes six flaws researcher \"Nightmare Eclipse\" has disclosed over the past six weeks, some of which attackers are already actively exploiting, and one that the Cybersecurity and Infrastructure Security Agency (CISA) has included in its catalog of known exploited vulnerabilities (KEV). Six Vulnerabilities in Six Weeks Nightmare Eclipse disclosed the three new vulnerabilities in the days following Microsoft's May 2026 security update a week ago. The vulnerabilities are tracked as YellowKey, GreenPlasma, and MiniPlasma. YellowKey, as researchers at LevelBlue described it, \"can enable any attacker with physical access and a USB device to take down BitLocker's encryption and gain unfettered access to encrypted laptops in no time.\" All the attacker has to do is insert a weaponized USB into BitLocker encryption-enabled target machines and wait for or force a reboot into the Windows Recovery Environment (WinRE) and enter a specific key combination to trigger the exploit. An attacker needs no credentials, PIN, or TPM bypass to completely negate BitLocker encryption protection for physically accessible devices, according to LevelBlue. Related: Processes & Culture Top Reasons Behind Data Breaches GreenPlasma meanwhile is a vulnerability that affects Windows 10, Windows 11, and Windows Server. It exploits a Windows component for managing text input services to allow attackers to escalate privileges to SYSTEM on vulnerable devices, according to LevelBlue. However, Nightmare Eclipse's PoC stops short of the final SYSTEM stage for the moment at least, meaning an attacker would need to have an understanding of Windows internals to fully exploit it, the security vendor said. If successfully exploited, the vulnerability enables credential harvesting, lateral movement, persistence, and security bypass on fully patched Windows systems, according to LevelBlue. \"YellowKey requires physical access in order to be properly exploited. GreenPlasma is a Local Privilege Escalation, however, we often see these exploited in conjunction with a social engineering attack,\" says Karl Sigler, security research manager, SpiderLabs Threat Intelligence, at LevelBlue. \"A typical scenario would be a threat actor convincing a target user to install Remote Monitoring and Management (RMM) software. They can then use this remote access to trigger the exploit and elevate their access from the generic user to SYSTEM,\" he says in comments to Dark Reading. Related: Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive Unpatched Flaw From Six Years Ago? MiniPlasma, meanwhile, is an exploit for CVE-2020-17103 , an elevation-of-privilege vulnerability in Windows Cloud Files Mini Filter Driver that researchers at Google's Project Zero reported to Microsoft back in 2020. Though Microsoft issued a patch for the flaw at the time, Google's original proof-of-concept exploit against the vulnerability still works without any changes. Nightmare Eclipse claims to have weaponized the PoC to develop an exploit for CVE-2020-17103, allowing attackers to gain complete control of a vulnerable system. The other three flaws that Nightmare Eclipse released during the past six weeks are BlueHammer and RedSun , which essentially allow attackers to turn Microsoft Defender into an attack tool against users, as well as UnDefend, a vulnerability that let attackers slowly degrade Microsoft Defende",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "vulnerability_disclosure",
-            "phishing_social_eng",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "cve_ids": [
-            "CVE-2020-17103"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "iran"
-          ],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available",
-            "no_patch_yet",
-            "cisa_kev"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-          "published": "2026-05-19T21:06:54+00:00",
-          "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "vulnerability_disclosure",
-              "phishing_social_eng",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "cve_ids": [
-              "CVE-2020-17103"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "iran"
-            ],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available",
-              "no_patch_yet",
-              "cisa_kev"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a30f0248c2",
       "priority_score": 12,
       "member_count": 1,
@@ -6050,6 +5903,121 @@
               "preauth_unauth"
             ],
             "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "83e574101d",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "phishing_social_eng",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "cve_ids": [
+          "CVE-2020-17103"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran"
+        ],
+        "urgency_signals": [
+          "cisa_kev",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+        "published": "2026-05-19T21:06:54+00:00",
+        "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
+        "full_body": "Cyberattacks & Data Breaches Cyber Risk Threat Intelligence Vulnerabilities & Threats News Windows Zero-Day Barrage Continues After Patch Tuesday YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks. Jai Vijayan , Contributing Writer May 19, 2026 6 Min Read Source: JLStock via Shutterstock A security researcher with an apparent grudge against Microsoft has in recent days disclosed two more Windows zero-days and released a proof-of-concept exploit against a third vulnerability that Microsoft supposedly patched in 2020. That makes six flaws researcher \"Nightmare Eclipse\" has disclosed over the past six weeks, some of which attackers are already actively exploiting, and one that the Cybersecurity and Infrastructure Security Agency (CISA) has included in its catalog of known exploited vulnerabilities (KEV). Six Vulnerabilities in Six Weeks Nightmare Eclipse disclosed the three new vulnerabilities in the days following Microsoft's May 2026 security update a week ago. The vulnerabilities are tracked as YellowKey, GreenPlasma, and MiniPlasma. YellowKey, as researchers at LevelBlue described it, \"can enable any attacker with physical access and a USB device to take down BitLocker's encryption and gain unfettered access to encrypted laptops in no time.\" All the attacker has to do is insert a weaponized USB into BitLocker encryption-enabled target machines and wait for or force a reboot into the Windows Recovery Environment (WinRE) and enter a specific key combination to trigger the exploit. An attacker needs no credentials, PIN, or TPM bypass to completely negate BitLocker encryption protection for physically accessible devices, according to LevelBlue. Related: Processes & Culture Top Reasons Behind Data Breaches GreenPlasma meanwhile is a vulnerability that affects Windows 10, Windows 11, and Windows Server. It exploits a Windows component for managing text input services to allow attackers to escalate privileges to SYSTEM on vulnerable devices, according to LevelBlue. However, Nightmare Eclipse's PoC stops short of the final SYSTEM stage for the moment at least, meaning an attacker would need to have an understanding of Windows internals to fully exploit it, the security vendor said. If successfully exploited, the vulnerability enables credential harvesting, lateral movement, persistence, and security bypass on fully patched Windows systems, according to LevelBlue. \"YellowKey requires physical access in order to be properly exploited. GreenPlasma is a Local Privilege Escalation, however, we often see these exploited in conjunction with a social engineering attack,\" says Karl Sigler, security research manager, SpiderLabs Threat Intelligence, at LevelBlue. \"A typical scenario would be a threat actor convincing a target user to install Remote Monitoring and Management (RMM) software. They can then use this remote access to trigger the exploit and elevate their access from the generic user to SYSTEM,\" he says in comments to Dark Reading. Related: Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive Unpatched Flaw From Six Years Ago? MiniPlasma, meanwhile, is an exploit for CVE-2020-17103 , an elevation-of-privilege vulnerability in Windows Cloud Files Mini Filter Driver that researchers at Google's Project Zero reported to Microsoft back in 2020. Though Microsoft issued a patch for the flaw at the time, Google's original proof-of-concept exploit against the vulnerability still works without any changes. Nightmare Eclipse claims to have weaponized the PoC to develop an exploit for CVE-2020-17103, allowing attackers to gain complete control of a vulnerable system. The other three flaws that Nightmare Eclipse released during the past six weeks are BlueHammer and RedSun , which essentially allow attackers to turn Microsoft Defender into an attack tool against users, as well as UnDefend, a vulnerability that let attackers slowly degrade Microsoft Defende",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure",
+            "phishing_social_eng",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "cve_ids": [
+            "CVE-2020-17103"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran"
+          ],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available",
+            "no_patch_yet",
+            "cisa_kev"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+          "published": "2026-05-19T21:06:54+00:00",
+          "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure",
+              "phishing_social_eng",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "cve_ids": [
+              "CVE-2020-17103"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran"
+            ],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available",
+              "no_patch_yet",
+              "cisa_kev"
+            ],
+            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
@@ -6549,7 +6517,7 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 | Online How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 5 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -7822,80 +7790,7 @@
       ]
     },
     {
-      "cluster_id": "d601f76167",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-        "link": "https://securelist.com/cloud-atlas-2026/119895/",
-        "published": "2026-05-22T09:12:13+00:00",
-        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-          "link": "https://securelist.com/cloud-atlas-2026/119895/",
-          "published": "2026-05-22T09:12:13+00:00",
-          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a64f4c6a4f",
+      "cluster_id": "508673b003",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -7917,12 +7812,12 @@
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
+        "source": "Recorded Future",
         "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q1 2026. Mobile statistics",
-        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-        "published": "2026-05-18T12:00:30+00:00",
-        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+        "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+        "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+        "published": "2026-05-21T00:00:00+00:00",
+        "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -7940,96 +7835,17 @@
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
+          "source": "Recorded Future",
           "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q1 2026. Mobile statistics",
-          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-          "published": "2026-05-18T12:00:30+00:00",
-          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+          "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+          "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+          "published": "2026-05-21T00:00:00+00:00",
+          "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ca17b8fd1f",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
-        "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
-        "published": "2026-05-18T12:00:22+00:00",
-        "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
-          "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
-          "published": "2026-05-18T12:00:22+00:00",
-          "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
@@ -8264,34 +8080,179 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "d601f76167",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+        "link": "https://securelist.com/cloud-atlas-2026/119895/",
+        "published": "2026-05-22T09:12:13+00:00",
+        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "russia"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+          "link": "https://securelist.com/cloud-atlas-2026/119895/",
+          "published": "2026-05-22T09:12:13+00:00",
+          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "russia"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a64f4c6a4f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "IT threat evolution in Q1 2026. Mobile statistics",
+        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+        "published": "2026-05-18T12:00:30+00:00",
+        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "IT threat evolution in Q1 2026. Mobile statistics",
+          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+          "published": "2026-05-18T12:00:30+00:00",
+          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
     {
-      "label": "vulnerability disclosure activity",
+      "label": "vulnerability disclosure targeting GitHub",
       "dominant_features": {
         "threat_categories": [
           "vulnerability_disclosure",
           "malware"
         ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "vulnerability_disclosure"
         ]
       },
-      "cluster_count": 38,
-      "article_count": 39,
-      "cohesion": 0.355,
+      "cluster_count": 36,
+      "article_count": 37,
+      "cohesion": 0.356,
       "cluster_ids": [
         "f0383fca84",
         "31ede2289a",
         "8d99a48c55",
         "b090e3ad19",
         "f2c995ec5f",
-        "4240d9e332",
         "0a08121d4a",
         "04571b3b50",
+        "4240d9e332",
         "bc4a1043d6",
-        "c1d9509f14",
         "b9778d72dd",
         "8ebb62380b",
         "038b9ff831",
@@ -8304,21 +8265,20 @@
         "bee3cb593e",
         "e52acefae7",
         "9e047f3f25",
-        "65812e837f",
         "405bfcae7f",
+        "65812e837f",
         "6500eda78d",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
-        "83e574101d",
         "a30f0248c2",
         "08d387ca71",
+        "83e574101d",
         "4e4bcc3acf",
         "42f47b63fd",
         "ede483f81e",
         "27954d511c",
         "a17791a046",
-        "ca17b8fd1f",
         "fadd6ff8fe"
       ]
     },
