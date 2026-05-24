@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T00:03:13.196023+00:00",
+  "generated_at": "2026-05-24T04:23:49.145274+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 483,
-  "total_clusters_raw": 469,
+  "total_items_in_window": 482,
+  "total_clusters_raw": 468,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 329,
+  "dropped_low_score": 328,
   "dropped_overflow": 60,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,6 +81,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -102,18 +109,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
       "in_window_count": 0
     },
     "Check Point Research": {
@@ -123,19 +123,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -144,32 +137,18 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 24,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "SANS Internet Storm Center": {
@@ -179,12 +158,19 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 7
+      "in_window_count": 4
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -193,39 +179,18 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 7
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Volexity": {
@@ -235,6 +200,27 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 5
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -242,11 +228,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -263,6 +256,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -277,13 +277,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -291,19 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -312,12 +298,26 @@
       "item_count": 30,
       "in_window_count": 2
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -347,19 +347,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -368,12 +361,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
+      "item_count": 100,
+      "in_window_count": 7
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -381,6 +374,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,6 +396,13 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -410,19 +417,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -430,13 +430,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -451,6 +444,20 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -473,13 +480,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -487,19 +487,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 31
+      "in_window_count": 46
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -508,12 +508,26 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 46
+      "in_window_count": 31
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -529,26 +543,12 @@
       "item_count": 100,
       "in_window_count": 23
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -564,19 +564,19 @@
       "item_count": 25,
       "in_window_count": 23
     },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 6
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -604,7 +604,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 23
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -631,7 +631,7 @@
   "clusters": [
     {
       "cluster_id": "5da5ef0cd5",
-      "priority_score": 35,
+      "priority_score": 34,
       "member_count": 7,
       "corroborating_source_count": 6,
       "strong_signals": [
@@ -1807,120 +1807,6 @@
       ]
     },
     {
-      "cluster_id": "4240d9e332",
-      "priority_score": 18,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-42897"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "ransomware",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "no_patch_yet",
-          "patch_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
-        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
-        "published": "2026-05-18T21:43:51+00:00",
-        "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
-        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Microsoft Exchange Zero-Day Under Attack, No Patch Available CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes. Rob Wright , Senior News Director , Dark Reading May 18, 2026 3 Min Read Source: Piotr Swat via Alamy Stock Photo Microsoft on Thursday disclosed a zero-day vulnerability in Exchange that's under active exploitation, but four days later customers are still awaiting a patch. The zero-day, tracked as CVE-2026-42897, affects Exchange Outlook Web Access (OWA) and enables an unauthorized attacker to execute spoofing attacks over a network. According to Microsoft, the zero-day stems from a cross-site scripting (XSS) flaw , which is one of the most common software vulnerabilities found by security researchers, frequently making the Open Web Application Security Project's (OWASP) Top 10 lists. \"An attacker could exploit this issue by sending a specially crafted email to a user,\" Microsoft said in an advisory . \"If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.\" CVE-2026-42897 was disclosed two days after a large Patch Tuesday release last week that, ironically, contained no zero-days. The Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploit Vulnerabilities (KEV) catalog on Friday. Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out Cyber-Risks to OWA Users CVE-2026-42897 affects the on-premise versions of Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE). Microsoft assigned the zero-day a CVSS score of 8.1, though the NIST's National Vulnerability Database assigned it a medium-severity 6.1 score. Microsoft did not provide details about the potential scope of cyberattacks, but in an advisory published on Monday, the Centre for Cybersecurity Belgium (CCB) warned that successful exploitation could give a threat actor access to a victim's Outlook mailbox and session tokens, and also allow them to make unauthorized changes to mailbox settings or modifications to email content. While CVE-2026-42897 is a Microsoft Exchange Server vulnerability, the risk is to OWA users' mailboxes. In a LinkedIn post , Bogdan Tiron, founder of penetration testing firm Fortbridge, emphasized the impact \"isn't server compromise. It's mailbox compromise — reading mail, sending emails as the victim, stealing session tokens, planting forwarding rules that survive password resets.\" He warned that such mailbox compromises can lead to business email compromise (BEC) or ransomware attacks. Tiron also noted that that XSS \"still owns enterprise mail in 2026,\" adding that while such flaws may be considered \"junior\" threats by the cybersecurity industry, attackers continue to exploit them for reliable initial access to victims' networks. \"The boring vulnerabilities are the ones that keep working,\" he warned. Related: Maximum Severity Cisco SD-WAN Bug Exploited in the Wild Mitigating the Microsoft Exchange Zero-Day In a blog post , Microsoft provided two mitigations options that customers can apply while they wait for a patch to arrive. The first, which Microsoft recommended, is for organizations that have the Exchange Emergency Mitigation (EM) Service, which received a mitigation for Exchange Server 2016, 2019, and SEs instances that is enabled automatically. Microsoft noted that the Exchange EM Service was released in 2021 and is enabled by default. \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away,\" the software giant said. It's unclear what percentage of Exchange customers currently have the EM service enabled. Dark Reading contacted Microsoft for comment, a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware",
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [
-            "CVE-2026-42897"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "patch_available",
-            "no_patch_yet"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
-          "published": "2026-05-18T21:43:51+00:00",
-          "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware",
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [
-              "CVE-2026-42897"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "patch_available",
-              "no_patch_yet"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "0a08121d4a",
       "priority_score": 18,
       "member_count": 1,
@@ -2159,6 +2045,120 @@
             "urgency_signals": [
               "zero_day",
               "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4240d9e332",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-42897"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng",
+          "ransomware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [
+          "CVE-2026-42897"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet",
+          "patch_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
+        "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
+        "published": "2026-05-18T21:43:51+00:00",
+        "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
+        "full_body": "Vulnerabilities & Threats Cyber Risk Application Security Cyberattacks & Data Breaches News Microsoft Exchange Zero-Day Under Attack, No Patch Available CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes. Rob Wright , Senior News Director , Dark Reading May 18, 2026 3 Min Read Source: Piotr Swat via Alamy Stock Photo Microsoft on Thursday disclosed a zero-day vulnerability in Exchange that's under active exploitation, but four days later customers are still awaiting a patch. The zero-day, tracked as CVE-2026-42897, affects Exchange Outlook Web Access (OWA) and enables an unauthorized attacker to execute spoofing attacks over a network. According to Microsoft, the zero-day stems from a cross-site scripting (XSS) flaw , which is one of the most common software vulnerabilities found by security researchers, frequently making the Open Web Application Security Project's (OWASP) Top 10 lists. \"An attacker could exploit this issue by sending a specially crafted email to a user,\" Microsoft said in an advisory . \"If the user opens the email in Outlook Web Access and certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.\" CVE-2026-42897 was disclosed two days after a large Patch Tuesday release last week that, ironically, contained no zero-days. The Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its Known Exploit Vulnerabilities (KEV) catalog on Friday. Related: Can Laws Stop Deepfakes? South Korea Aims to Find Out Cyber-Risks to OWA Users CVE-2026-42897 affects the on-premise versions of Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition (SE). Microsoft assigned the zero-day a CVSS score of 8.1, though the NIST's National Vulnerability Database assigned it a medium-severity 6.1 score. Microsoft did not provide details about the potential scope of cyberattacks, but in an advisory published on Monday, the Centre for Cybersecurity Belgium (CCB) warned that successful exploitation could give a threat actor access to a victim's Outlook mailbox and session tokens, and also allow them to make unauthorized changes to mailbox settings or modifications to email content. While CVE-2026-42897 is a Microsoft Exchange Server vulnerability, the risk is to OWA users' mailboxes. In a LinkedIn post , Bogdan Tiron, founder of penetration testing firm Fortbridge, emphasized the impact \"isn't server compromise. It's mailbox compromise — reading mail, sending emails as the victim, stealing session tokens, planting forwarding rules that survive password resets.\" He warned that such mailbox compromises can lead to business email compromise (BEC) or ransomware attacks. Tiron also noted that that XSS \"still owns enterprise mail in 2026,\" adding that while such flaws may be considered \"junior\" threats by the cybersecurity industry, attackers continue to exploit them for reliable initial access to victims' networks. \"The boring vulnerabilities are the ones that keep working,\" he warned. Related: Maximum Severity Cisco SD-WAN Bug Exploited in the Wild Mitigating the Microsoft Exchange Zero-Day In a blog post , Microsoft provided two mitigations options that customers can apply while they wait for a patch to arrive. The first, which Microsoft recommended, is for organizations that have the Exchange Emergency Mitigation (EM) Service, which received a mitigation for Exchange Server 2016, 2019, and SEs instances that is enabled automatically. Microsoft noted that the Exchange EM Service was released in 2021 and is enabled by default. \"Using EM Service is the best way for your organization to mitigate this vulnerability right away. If you have EM Service currently disabled, we recommend you enable it right away,\" the software giant said. It's unclear what percentage of Exchange customers currently have the EM service enabled. Dark Reading contacted Microsoft for comment, a",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware",
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [
+            "CVE-2026-42897"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "patch_available",
+            "no_patch_yet"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
+          "published": "2026-05-18T21:43:51+00:00",
+          "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware",
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "patch_available",
+              "no_patch_yet"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -4361,112 +4361,6 @@
       ]
     },
     {
-      "cluster_id": "af2c17c132",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "malware",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "Apple iOS/macOS",
-          "GitHub",
-          "Kubernetes",
-          "Slack"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
-        "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-        "published": "2026-05-23T20:48:23+00:00",
-        "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
-        "full_body": "Laravel Lang packages hijacked to deploy credential-stealing malware By Lawrence Abrams May 23, 2026 04:48 PM 0 A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. Security firms StepSecurity , Aikido Security , and Socket warned about the compromise on Friday, warning that attackers had rewritten GitHub tags across four repositories maintained by the Laravel Lang organization rather than publishing entirely new malicious versions. The affected packages include laravel-lang/lang, laravel-lang/http-statuses, laravel-lang/attributes, and possibly laravel-lang/actions. The Laravel Lang packages are third-party localization packages and are not part of the official Laravel project. According to Aikido, the attackers compromised 233 versions across three repositories, while Socket said roughly 700 historical versions may have been impacted. What made the attack stand out is that the actual project's source code was not modified to include malicious code, but instead the attackers abused a GitHub feature that allows tags to point to commits in forks of the same repository. \"Rather than publishing a new malicious version, the attacker rewrote every existing git tag in each repository to point at a new malicious commit,\" explained StepSecurity. \"The rewrites started at 22:32 UTC against laravel-lang/lang (the flagship Laravel translations package, with 502 tags) and finished by 00:00 UTC against laravel-lang/actions. All four repositories share the same fake author identity, the same modified files, and the same payload behavior, which makes them almost certainly the work of one actor using one compromised credential with org wide push access.\" This allowed the attackers to publish what appeared to be legitimate release tags for the project, which actually led to malicious commits stored in an attacker-controlled fork of the repository. When developers installed the package via Composer, it would download the malicious code while it appeared to install legitimate Laravel Lang releases. Executes a credential-stealer The researchers found that the malicious releases introduced a malicious file named 'src/helpers.php', which was automatically loaded by Composer. helpers.php payload added to autoload section of composer.json The injected code acted as a dropper that downloaded a second payload from the attacker's command and control server at flipboxstudio[.]info. The downloaded PHP payload [ VirusTotal ] was a large cross-platform credential stealer for Linux, macOS, and Windows that harvests cloud credentials, Kubernetes secrets, Vault tokens, Git credentials, CI/CD secrets, SSH keys, browser data, cryptocurrency wallets, password managers, VPN configurations, and local `.env` configuration files. The malware also contains regular expression patterns used to extract AWS keys, GitHub tokens, Slack tokens, Stripe secrets, database credentials, JWTs, SSH private keys, and cryptocurrency recovery phrases from files and environment variables. Regular expression patterns used to steal secrets Source: BleepingComputer On Windows systems, the PHP payload also extracts a base64-encoded executable [ VirusTotal ] embedded within the file, which is written to the %TEMP% folder as a random .exe filename, and then launched. BleepingComputer's analysis of the Windows infostealer shows it is named 'DebugElevator' and designed to target Chrome, Brave, and Edge, and extract App-Bound Encryption keys needed to decrypt stored browser credentials. DebugElevator executable Source: BleepingComputer An embedded PDB path also references the Windows account name 'Mero' and contains 'claude,' potentially indicating that AI was used to assist in developing the Windows malware. C:\\Users\\Mero\\OneDrive\\Desktop\\stuff\\claude\\Chromium-DebugElevator\\x64\\Release\\DebugChromium.pd",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "malware",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "AWS",
-            "Kubernetes",
-            "Slack",
-            "GitHub",
-            "Apple iOS/macOS",
-            "Anthropic/Claude"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
-          "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
-          "published": "2026-05-23T20:48:23+00:00",
-          "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "malware",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "AWS",
-              "Kubernetes",
-              "Slack",
-              "GitHub",
-              "Apple iOS/macOS",
-              "Anthropic/Claude"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "9e047f3f25",
       "priority_score": 13,
       "member_count": 1,
@@ -4538,94 +4432,6 @@
             "affected_industries": [],
             "affected_products": [
               "Microsoft Windows"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "405bfcae7f",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "link": "https://risky.biz/RBNEWS565/",
-        "published": "2026-05-18T05:24:03+00:00",
-        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-          "link": "https://risky.biz/RBNEWS565/",
-          "published": "2026-05-18T05:24:03+00:00",
-          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -4725,6 +4531,94 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "405bfcae7f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "link": "https://risky.biz/RBNEWS565/",
+        "published": "2026-05-18T05:24:03+00:00",
+        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+          "link": "https://risky.biz/RBNEWS565/",
+          "published": "2026-05-18T05:24:03+00:00",
+          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
           }
         }
       ]
@@ -5673,121 +5567,6 @@
       ]
     },
     {
-      "cluster_id": "83e574101d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_attack",
-          "phishing_social_eng",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "cve_ids": [
-          "CVE-2020-17103"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "iran"
-        ],
-        "urgency_signals": [
-          "cisa_kev",
-          "no_patch_yet",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Dark Reading",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-        "published": "2026-05-19T21:06:54+00:00",
-        "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
-        "full_body": "Cyberattacks & Data Breaches Cyber Risk Threat Intelligence Vulnerabilities & Threats News Windows Zero-Day Barrage Continues After Patch Tuesday YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks. Jai Vijayan , Contributing Writer May 19, 2026 6 Min Read Source: JLStock via Shutterstock A security researcher with an apparent grudge against Microsoft has in recent days disclosed two more Windows zero-days and released a proof-of-concept exploit against a third vulnerability that Microsoft supposedly patched in 2020. That makes six flaws researcher \"Nightmare Eclipse\" has disclosed over the past six weeks, some of which attackers are already actively exploiting, and one that the Cybersecurity and Infrastructure Security Agency (CISA) has included in its catalog of known exploited vulnerabilities (KEV). Six Vulnerabilities in Six Weeks Nightmare Eclipse disclosed the three new vulnerabilities in the days following Microsoft's May 2026 security update a week ago. The vulnerabilities are tracked as YellowKey, GreenPlasma, and MiniPlasma. YellowKey, as researchers at LevelBlue described it, \"can enable any attacker with physical access and a USB device to take down BitLocker's encryption and gain unfettered access to encrypted laptops in no time.\" All the attacker has to do is insert a weaponized USB into BitLocker encryption-enabled target machines and wait for or force a reboot into the Windows Recovery Environment (WinRE) and enter a specific key combination to trigger the exploit. An attacker needs no credentials, PIN, or TPM bypass to completely negate BitLocker encryption protection for physically accessible devices, according to LevelBlue. Related: Processes & Culture Top Reasons Behind Data Breaches GreenPlasma meanwhile is a vulnerability that affects Windows 10, Windows 11, and Windows Server. It exploits a Windows component for managing text input services to allow attackers to escalate privileges to SYSTEM on vulnerable devices, according to LevelBlue. However, Nightmare Eclipse's PoC stops short of the final SYSTEM stage for the moment at least, meaning an attacker would need to have an understanding of Windows internals to fully exploit it, the security vendor said. If successfully exploited, the vulnerability enables credential harvesting, lateral movement, persistence, and security bypass on fully patched Windows systems, according to LevelBlue. \"YellowKey requires physical access in order to be properly exploited. GreenPlasma is a Local Privilege Escalation, however, we often see these exploited in conjunction with a social engineering attack,\" says Karl Sigler, security research manager, SpiderLabs Threat Intelligence, at LevelBlue. \"A typical scenario would be a threat actor convincing a target user to install Remote Monitoring and Management (RMM) software. They can then use this remote access to trigger the exploit and elevate their access from the generic user to SYSTEM,\" he says in comments to Dark Reading. Related: Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive Unpatched Flaw From Six Years Ago? MiniPlasma, meanwhile, is an exploit for CVE-2020-17103 , an elevation-of-privilege vulnerability in Windows Cloud Files Mini Filter Driver that researchers at Google's Project Zero reported to Microsoft back in 2020. Though Microsoft issued a patch for the flaw at the time, Google's original proof-of-concept exploit against the vulnerability still works without any changes. Nightmare Eclipse claims to have weaponized the PoC to develop an exploit for CVE-2020-17103, allowing attackers to gain complete control of a vulnerable system. The other three flaws that Nightmare Eclipse released during the past six weeks are BlueHammer and RedSun , which essentially allow attackers to turn Microsoft Defender into an attack tool against users, as well as UnDefend, a vulnerability that let attackers slowly degrade Microsoft Defende",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "vulnerability_disclosure",
-            "phishing_social_eng",
-            "credential_attack"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Windows"
-          ],
-          "cve_ids": [
-            "CVE-2020-17103"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "iran"
-          ],
-          "urgency_signals": [
-            "zero_day",
-            "poc_available",
-            "no_patch_yet",
-            "cisa_kev"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-          "published": "2026-05-19T21:06:54+00:00",
-          "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "vulnerability_disclosure",
-              "phishing_social_eng",
-              "credential_attack"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Windows"
-            ],
-            "cve_ids": [
-              "CVE-2020-17103"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "iran"
-            ],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available",
-              "no_patch_yet",
-              "cisa_kev"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "08d387ca71",
       "priority_score": 12,
       "member_count": 1,
@@ -5924,6 +5703,121 @@
       ]
     },
     {
+      "cluster_id": "83e574101d",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_attack",
+          "phishing_social_eng",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "cve_ids": [
+          "CVE-2020-17103"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran"
+        ],
+        "urgency_signals": [
+          "cisa_kev",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+        "published": "2026-05-19T21:06:54+00:00",
+        "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
+        "full_body": "Cyberattacks & Data Breaches Cyber Risk Threat Intelligence Vulnerabilities & Threats News Windows Zero-Day Barrage Continues After Patch Tuesday YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks. Jai Vijayan , Contributing Writer May 19, 2026 6 Min Read Source: JLStock via Shutterstock A security researcher with an apparent grudge against Microsoft has in recent days disclosed two more Windows zero-days and released a proof-of-concept exploit against a third vulnerability that Microsoft supposedly patched in 2020. That makes six flaws researcher \"Nightmare Eclipse\" has disclosed over the past six weeks, some of which attackers are already actively exploiting, and one that the Cybersecurity and Infrastructure Security Agency (CISA) has included in its catalog of known exploited vulnerabilities (KEV). Six Vulnerabilities in Six Weeks Nightmare Eclipse disclosed the three new vulnerabilities in the days following Microsoft's May 2026 security update a week ago. The vulnerabilities are tracked as YellowKey, GreenPlasma, and MiniPlasma. YellowKey, as researchers at LevelBlue described it, \"can enable any attacker with physical access and a USB device to take down BitLocker's encryption and gain unfettered access to encrypted laptops in no time.\" All the attacker has to do is insert a weaponized USB into BitLocker encryption-enabled target machines and wait for or force a reboot into the Windows Recovery Environment (WinRE) and enter a specific key combination to trigger the exploit. An attacker needs no credentials, PIN, or TPM bypass to completely negate BitLocker encryption protection for physically accessible devices, according to LevelBlue. Related: Processes & Culture Top Reasons Behind Data Breaches GreenPlasma meanwhile is a vulnerability that affects Windows 10, Windows 11, and Windows Server. It exploits a Windows component for managing text input services to allow attackers to escalate privileges to SYSTEM on vulnerable devices, according to LevelBlue. However, Nightmare Eclipse's PoC stops short of the final SYSTEM stage for the moment at least, meaning an attacker would need to have an understanding of Windows internals to fully exploit it, the security vendor said. If successfully exploited, the vulnerability enables credential harvesting, lateral movement, persistence, and security bypass on fully patched Windows systems, according to LevelBlue. \"YellowKey requires physical access in order to be properly exploited. GreenPlasma is a Local Privilege Escalation, however, we often see these exploited in conjunction with a social engineering attack,\" says Karl Sigler, security research manager, SpiderLabs Threat Intelligence, at LevelBlue. \"A typical scenario would be a threat actor convincing a target user to install Remote Monitoring and Management (RMM) software. They can then use this remote access to trigger the exploit and elevate their access from the generic user to SYSTEM,\" he says in comments to Dark Reading. Related: Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive Unpatched Flaw From Six Years Ago? MiniPlasma, meanwhile, is an exploit for CVE-2020-17103 , an elevation-of-privilege vulnerability in Windows Cloud Files Mini Filter Driver that researchers at Google's Project Zero reported to Microsoft back in 2020. Though Microsoft issued a patch for the flaw at the time, Google's original proof-of-concept exploit against the vulnerability still works without any changes. Nightmare Eclipse claims to have weaponized the PoC to develop an exploit for CVE-2020-17103, allowing attackers to gain complete control of a vulnerable system. The other three flaws that Nightmare Eclipse released during the past six weeks are BlueHammer and RedSun , which essentially allow attackers to turn Microsoft Defender into an attack tool against users, as well as UnDefend, a vulnerability that let attackers slowly degrade Microsoft Defende",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure",
+            "phishing_social_eng",
+            "credential_attack"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
+          "cve_ids": [
+            "CVE-2020-17103"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran"
+          ],
+          "urgency_signals": [
+            "zero_day",
+            "poc_available",
+            "no_patch_yet",
+            "cisa_kev"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
+          "published": "2026-05-19T21:06:54+00:00",
+          "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure",
+              "phishing_social_eng",
+              "credential_attack"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
+            "cve_ids": [
+              "CVE-2020-17103"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran"
+            ],
+            "urgency_signals": [
+              "zero_day",
+              "poc_available",
+              "no_patch_yet",
+              "cisa_kev"
+            ],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "4e4bcc3acf",
       "priority_score": 12,
       "member_count": 1,
@@ -6037,111 +5931,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "41bfb3dbd2",
-      "priority_score": 12,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2021-35036"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2021-35036"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Zyxel super-admin credential leak expanded from one router image to CPE/ONT/LTE/5G devices + password gen algorithm.",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1tlf7xf/zyxel_superadmin_credential_leak_expanded_from/",
-        "published": "2026-05-23T12:31:01+00:00",
-        "summary": "I did some restyling and cleanup on Zyxel CVE-2021-35036 writeup and wanted to re-share it here. A Zyxel credential leak that started with one VMG3625-T50B firmware image later expanded across a much wider set of CPE, ONT, LTE, and 5G devices. A low-privileged router session could reach backend DAL endpoints that returned supervisor/admin account data, FTPS credentials, and TR-069 management secrets. So the practical impact was closer to post-login privilege escalation and remote-management exposure than a boring “passwords exist in config” bug. The writeup also includes a firmware lab where I ran Zyxel’s own password generator under QEMU and traced the deterministic supervisor password routines. submitted by /u/TheReedemer69 [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2021-35036"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Zyxel super-admin credential leak expanded from one router image to CPE/ONT/LTE/5G devices + password gen algorithm.",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tlf7xf/zyxel_superadmin_credential_leak_expanded_from/",
-          "published": "2026-05-23T12:31:01+00:00",
-          "summary": "I did some restyling and cleanup on Zyxel CVE-2021-35036 writeup and wanted to re-share it here. A Zyxel credential leak that started with one VMG3625-T50B firmware image later expanded across a much wider set of CPE, ONT, LTE, and 5G devices. A low-privileged router session could reach backend DAL endpoints that returned supervisor/admin account data, FTPS credentials, and TR-069 management secrets. So the practical impact was closer to post-login privilege escalation and remote-management exposure than a boring “passwords exist in config” bug. The writeup also includes a firmware lab where I ran Zyxel’s own password generator under QEMU and traced the deterministic supervisor password routines. submitted by /u/TheReedemer69 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2021-35036"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Zyxel low-priv account leaked super-admin, FTPS, and TR-069 secrets across router fleets",
-          "link": "https://www.reddit.com/r/netsec/comments/1tkkq0m/zyxel_lowpriv_account_leaked_superadmin_ftps_and/",
-          "published": "2026-05-22T14:31:22+00:00",
-          "summary": "This is the longer technical writeup behind CVE-2021-35036. The short CVE summary makes it sound like simple cleartext storage, but the useful part is the access path. A low-privileged Zyxel router session could query DAL handlers like login_privilege and tr69 and receive password-bearing backend objects in the response. That included higher-privilege local account data, FTPS credentials, and TR-069 management secrets. Zyxel’s advisory later expanded the scope from the original VMG3625-T50B report into broader CPE, ONT, LTE, and 5G product lines. I also included the password-generation side: QEMU runtime, LD_PRELOAD serial hook, getpassword analysis, and the Method2 / Method3 supervisor password logic. submitted by /u/TheReedemer69 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2021-35036"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -6317,68 +6106,231 @@
       ]
     },
     {
-      "cluster_id": "043dd01c37",
+      "cluster_id": "af2c17c132",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "credential_attack",
+          "malware",
+          "supply_chain"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "AWS",
+          "Anthropic/Claude",
+          "Apple iOS/macOS",
+          "GitHub",
+          "Kubernetes",
+          "Slack"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "uncategorized"
+          "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "On the",
-        "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-        "published": "2026-05-23T20:24:48+00:00",
-        "summary": "On the <dl> I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a <div> for styling - but only a <div> . You can label them using ARIA. They've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008 . So this is valid: < h2 id =\" credits \" > Credits </ h2 > < dl aria-labelledby =\" credits \" > < div > < dt > Author </ dt > < dd > Jeffrey Zeldman </ dd > < dd > Ethan Marcotte </ dd > </ div > </ dl > Here's a useful note from Adrian Roselli on screen reader support for description lists . Via Hacker News Tags: css , html , screen-readers , web-standards",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 23rd May 2026 - Link Blog On the <dl> ( via ) I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a <div> for styling - but only a <div> . You can label them using ARIA. They've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008 . So this is valid: < h2 id =\" credits \" > Credits </ h2 > < dl aria-labelledby =\" credits \" > < div > < dt > Author </ dt > < dd > Jeffrey Zeldman </ dd > < dd > Ethan Marcotte </ dd > </ div > </ dl > Here's a useful note from Adrian Roselli on screen reader support for description lists . Posted 23rd May 2026 at 8:24 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a link post by Simon Willison, posted on 23rd May 2026 . css 237 html 97 screen-readers 8 web-standards 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+        "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+        "published": "2026-05-23T20:48:23+00:00",
+        "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
+        "full_body": "Laravel Lang packages hijacked to deploy credential-stealing malware By Lawrence Abrams May 23, 2026 04:48 PM 0 A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. Security firms StepSecurity , Aikido Security , and Socket warned about the compromise on Friday, warning that attackers had rewritten GitHub tags across four repositories maintained by the Laravel Lang organization rather than publishing entirely new malicious versions. The affected packages include laravel-lang/lang, laravel-lang/http-statuses, laravel-lang/attributes, and possibly laravel-lang/actions. The Laravel Lang packages are third-party localization packages and are not part of the official Laravel project. According to Aikido, the attackers compromised 233 versions across three repositories, while Socket said roughly 700 historical versions may have been impacted. What made the attack stand out is that the actual project's source code was not modified to include malicious code, but instead the attackers abused a GitHub feature that allows tags to point to commits in forks of the same repository. \"Rather than publishing a new malicious version, the attacker rewrote every existing git tag in each repository to point at a new malicious commit,\" explained StepSecurity. \"The rewrites started at 22:32 UTC against laravel-lang/lang (the flagship Laravel translations package, with 502 tags) and finished by 00:00 UTC against laravel-lang/actions. All four repositories share the same fake author identity, the same modified files, and the same payload behavior, which makes them almost certainly the work of one actor using one compromised credential with org wide push access.\" This allowed the attackers to publish what appeared to be legitimate release tags for the project, which actually led to malicious commits stored in an attacker-controlled fork of the repository. When developers installed the package via Composer, it would download the malicious code while it appeared to install legitimate Laravel Lang releases. Executes a credential-stealer The researchers found that the malicious releases introduced a malicious file named 'src/helpers.php', which was automatically loaded by Composer. helpers.php payload added to autoload section of composer.json The injected code acted as a dropper that downloaded a second payload from the attacker's command and control server at flipboxstudio[.]info. The downloaded PHP payload [ VirusTotal ] was a large cross-platform credential stealer for Linux, macOS, and Windows that harvests cloud credentials, Kubernetes secrets, Vault tokens, Git credentials, CI/CD secrets, SSH keys, browser data, cryptocurrency wallets, password managers, VPN configurations, and local `.env` configuration files. The malware also contains regular expression patterns used to extract AWS keys, GitHub tokens, Slack tokens, Stripe secrets, database credentials, JWTs, SSH private keys, and cryptocurrency recovery phrases from files and environment variables. Regular expression patterns used to steal secrets Source: BleepingComputer On Windows systems, the PHP payload also extracts a base64-encoded executable [ VirusTotal ] embedded within the file, which is written to the %TEMP% folder as a random .exe filename, and then launched. BleepingComputer's analysis of the Windows infostealer shows it is named 'DebugElevator' and designed to target Chrome, Brave, and Edge, and extract App-Bound Encryption keys needed to decrypt stored browser credentials. DebugElevator executable Source: BleepingComputer An embedded PDB path also references the Windows account name 'Mero' and contains 'claude,' potentially indicating that AI was used to assist in developing the Windows malware. C:\\Users\\Mero\\OneDrive\\Desktop\\stuff\\claude\\Chromium-DebugElevator\\x64\\Release\\DebugChromium.pd",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "supply_chain",
+            "malware",
+            "credential_attack"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "AWS",
+            "Kubernetes",
+            "Slack",
+            "GitHub",
+            "Apple iOS/macOS",
+            "Anthropic/Claude"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "On the",
-          "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-          "published": "2026-05-23T20:24:48+00:00",
-          "summary": "On the <dl> I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a <div> for styling - but only a <div> . You can label them using ARIA. They've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008 . So this is valid: < h2 id =\" credits \" > Credits </ h2 > < dl aria-labelledby =\" credits \" > < div > < dt > Author </ dt > < dd > Jeffrey Zeldman </ dd > < dd > Ethan Marcotte </ dd > </ div > </ dl > Here's a useful note from Adrian Roselli on screen reader support for description lists . Via Hacker News Tags: css , html , screen-readers , web-standards",
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+          "link": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+          "published": "2026-05-23T20:48:23+00:00",
+          "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "supply_chain",
+              "malware",
+              "credential_attack"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "AWS",
+              "Kubernetes",
+              "Slack",
+              "GitHub",
+              "Apple iOS/macOS",
+              "Anthropic/Claude"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "68ea83e527",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "malware",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS",
+          "GitHub",
+          "Microsoft Exchange",
+          "Palo Alto Networks",
+          "npm"
+        ],
+        "cve_ids": [
+          "CVE-2026-41940",
+          "CVE-2026-42897"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "mass_exploitation",
+          "preauth_unauth",
+          "zero_day"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+        "published": "2026-05-23T16:35:10+00:00",
+        "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+        "full_body": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks  Ravie Lakshmanan  May 23, 2026 Software Supply Chain / DevSecOps GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve a package before it is pushed to the npmjs[.]com. \"Instead of a direct publish that immediately makes a package version available to consumers, the prebuilt tarball is uploaded to a stage queue where a maintainer must explicitly approve it before it becomes installable,\" GitHub said . The Microsoft-owned subsidiary said the change ensures \"proof of presence\" for every publish, including those that come from non-interactive CI/CD workflows and trusted publishing with OpenID Connect (OIDC) authentication. Before using staged publishing , package maintainers have to meet the following criteria - Have publish access to the package Package already exists on the npm registry, meaning a brand new package cannot be staged 2FA is enabled for the account Developers can use the command \"npm stage publish\" from the root directory of the package to submit it to a staging area. To use this command, it's essential to update to npm CLI 11.15.0 or newer. For optimal protection, GitHub is recommending that staged publishing be paired with trusted publishing using OIDC. A second update focused on npm relates to the introduction of three new install source flags alongside the existing -allow-git flag - --allow-file: Controls installs from local file paths and local tarballs --allow-remote: Controls installs from remote URLs, including https tarballs --allow-directory: Controls installs from local directories The flags allow developers to \"apply the same explicit-allowlist approach to every non-registry install source,\" GitHub said. The development comes amid a massive surge in software supply chain attacks targeting open-source ecosystems over the past few months, with one cybercriminal group known as TeamPCP engaging in poisoning popular packages at an unprecedented scale through a self-perpetuating cycle of compromises. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cybersecurity , DevSecOps , GitHub , NPM , Open Source , Package Security , Software Supply Chain , Two-Factor Authentication ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Han",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation",
+            "vulnerability_disclosure",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Microsoft Exchange",
+            "GitHub",
+            "npm",
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [
+            "CVE-2026-41940",
+            "CVE-2026-42897"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "mass_exploitation",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+          "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+          "published": "2026-05-23T16:35:10+00:00",
+          "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation",
+              "vulnerability_disclosure",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Microsoft Exchange",
+              "GitHub",
+              "npm",
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [
+              "CVE-2026-41940",
+              "CVE-2026-42897"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "mass_exploitation",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -6563,240 +6515,106 @@
       ]
     },
     {
-      "cluster_id": "68ea83e527",
+      "cluster_id": "41bfb3dbd2",
       "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2021-35036"
+      ],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation",
-          "malware",
-          "vulnerability_disclosure",
-          "zero_day"
+          "vulnerability_disclosure"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "GitHub",
-          "Microsoft Exchange",
-          "Palo Alto Networks",
-          "npm"
-        ],
+        "affected_products": [],
         "cve_ids": [
-          "CVE-2026-41940",
-          "CVE-2026-42897"
+          "CVE-2021-35036"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "mass_exploitation",
-          "preauth_unauth",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
-        "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
-        "published": "2026-05-23T16:35:10+00:00",
-        "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
-        "full_body": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks  Ravie Lakshmanan  May 23, 2026 Software Supply Chain / DevSecOps GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve a package before it is pushed to the npmjs[.]com. \"Instead of a direct publish that immediately makes a package version available to consumers, the prebuilt tarball is uploaded to a stage queue where a maintainer must explicitly approve it before it becomes installable,\" GitHub said . The Microsoft-owned subsidiary said the change ensures \"proof of presence\" for every publish, including those that come from non-interactive CI/CD workflows and trusted publishing with OpenID Connect (OIDC) authentication. Before using staged publishing , package maintainers have to meet the following criteria - Have publish access to the package Package already exists on the npm registry, meaning a brand new package cannot be staged 2FA is enabled for the account Developers can use the command \"npm stage publish\" from the root directory of the package to submit it to a staging area. To use this command, it's essential to update to npm CLI 11.15.0 or newer. For optimal protection, GitHub is recommending that staged publishing be paired with trusted publishing using OIDC. A second update focused on npm relates to the introduction of three new install source flags alongside the existing -allow-git flag - --allow-file: Controls installs from local file paths and local tarballs --allow-remote: Controls installs from remote URLs, including https tarballs --allow-directory: Controls installs from local directories The flags allow developers to \"apply the same explicit-allowlist approach to every non-registry install source,\" GitHub said. The development comes amid a massive surge in software supply chain attacks targeting open-source ecosystems over the past few months, with one cybercriminal group known as TeamPCP engaging in poisoning popular packages at an unprecedented scale through a self-perpetuating cycle of compromises. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cybersecurity , DevSecOps , GitHub , NPM , Open Source , Package Security , Software Supply Chain , Two-Factor Authentication ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Han",
-        "fetch_status": "ok",
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Zyxel super-admin credential leak expanded from one router image to CPE/ONT/LTE/5G devices + password gen algorithm.",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tlf7xf/zyxel_superadmin_credential_leak_expanded_from/",
+        "published": "2026-05-23T12:31:01+00:00",
+        "summary": "I did some restyling and cleanup on Zyxel CVE-2021-35036 writeup and wanted to re-share it here. A Zyxel credential leak that started with one VMG3625-T50B firmware image later expanded across a much wider set of CPE, ONT, LTE, and 5G devices. A low-privileged router session could reach backend DAL endpoints that returned supervisor/admin account data, FTPS credentials, and TR-069 management secrets. So the practical impact was closer to post-login privilege escalation and remote-management exposure than a boring “passwords exist in config” bug. The writeup also includes a firmware lab where I ran Zyxel’s own password generator under QEMU and traced the deterministic supervisor password routines. submitted by /u/TheReedemer69 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware"
+            "vulnerability_disclosure"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Microsoft Exchange",
-            "GitHub",
-            "npm",
-            "Apple iOS/macOS"
-          ],
+          "affected_products": [],
           "cve_ids": [
-            "CVE-2026-41940",
-            "CVE-2026-42897"
+            "CVE-2021-35036"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "mass_exploitation",
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
+          "confidence_tier": "tier_5_chatter"
         }
       },
       "corroborating_sources": [
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
-          "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
-          "published": "2026-05-23T16:35:10+00:00",
-          "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Zyxel super-admin credential leak expanded from one router image to CPE/ONT/LTE/5G devices + password gen algorithm.",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tlf7xf/zyxel_superadmin_credential_leak_expanded_from/",
+          "published": "2026-05-23T12:31:01+00:00",
+          "summary": "I did some restyling and cleanup on Zyxel CVE-2021-35036 writeup and wanted to re-share it here. A Zyxel credential leak that started with one VMG3625-T50B firmware image later expanded across a much wider set of CPE, ONT, LTE, and 5G devices. A low-privileged router session could reach backend DAL endpoints that returned supervisor/admin account data, FTPS credentials, and TR-069 management secrets. So the practical impact was closer to post-login privilege escalation and remote-management exposure than a boring “passwords exist in config” bug. The writeup also includes a firmware lab where I ran Zyxel’s own password generator under QEMU and traced the deterministic supervisor password routines. submitted by /u/TheReedemer69 [link] [comments]",
           "taxonomy": {
             "threat_categories": [
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware"
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Microsoft Exchange",
-              "GitHub",
-              "npm",
-              "Apple iOS/macOS"
-            ],
+            "affected_products": [],
             "cve_ids": [
-              "CVE-2026-41940",
-              "CVE-2026-42897"
+              "CVE-2021-35036"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "mass_exploitation",
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
+            "confidence_tier": "tier_5_chatter"
           }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b60cfa45bc",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "malware",
-          "supply_chain",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "GitHub",
-          "Microsoft Exchange",
-          "Palo Alto Networks"
-        ],
-        "cve_ids": [
-          "CVE-2026-42897"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
-        "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-        "published": "2026-05-23T16:07:51+00:00",
-        "summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
-        "full_body": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware  Ravie Lakshmanan  May 23, 2026 Malware / DevSecOps A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said . \"Instead, it was inserted into package.json, targeting projects that ship JavaScript build tooling alongside PHP code.\" This \"cross-ecosystem placement\" makes the activity stand out because developers and security teams scanning PHP dependencies may only focus on Composer-related metadata, while skipping package.json lifecycle hooks that are bundled within the package. The malicious versions have since been removed from Packagist. An analysis of the packages has uncovered that their upstream repositories have been modified to include a postinstall script that attempts to download a Linux binary from a GitHub Releases URL (\"github[.]com/parikhpreyash4/systemd-network-helper-aa5c751f\"), save it to the \"/tmp/.sshd\" folder, change its permissions using \"chmod\" to grant execute permissions to all users, and run it in the background. The names of the packages and the associated affected version are listed below - moritz-sauer-13/silverstripe-cms-theme (dev-master) crosiersource/crosierlib-base (dev-master) devdojo/wave (dev-main) devdojo/genesis (dev-main) katanaui/katana (dev-main) elitedevsquad/sidecar-laravel (3.x-dev) r2luna/brain (dev-main) baskarcm/tzi-chat-ui (dev-main) Socket's investigation has found references to the same payload across 777 files in GitHub, suggesting that it could be part of a broader campaign. In at least two instances , it was added to a GitHub workflow. However, it's currently not known how many of these match distinct compromises, forks, duplicate package artifacts, or cached references. \"This suggests the attacker was not relying on a single execution mechanism. In package artifacts, the payload was triggered through package.json postinstall scripts,\" the application security firm said. \"In workflow files, it was positioned to run during GitHub Actions jobs.\" What's more, the exact nature of the payload downloaded from GitHub is unclear, as the GitHub account associated with the repository hosting it is no longer available. The choice of the name \"gvfsd-network\" for the malware is interesting, as it refers to a GNOME Virtual File System (GVfs) daemon responsible for managing and browsing network shares. \"Even without the second-stage binary, the malicious installer is enough to warrant blocking,\" Socket said. \"It provides remote code execution during installation or build workflows and attempts to hide its activity by disabling TLS verification, suppressing errors, and running a downloaded binary in the background.\" Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Composer , cybersecurity , DevSecOps , GitHub , linux , Malware , Open Source , Packagist , remote code execution , Supply Chain Attack ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Microsoft Exchange",
-            "GitHub"
-          ],
-          "cve_ids": [
-            "CVE-2026-42897"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
+        },
         {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
-          "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-          "published": "2026-05-23T16:07:51+00:00",
-          "summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Zyxel low-priv account leaked super-admin, FTPS, and TR-069 secrets across router fleets",
+          "link": "https://www.reddit.com/r/netsec/comments/1tkkq0m/zyxel_lowpriv_account_leaked_superadmin_ftps_and/",
+          "published": "2026-05-22T14:31:22+00:00",
+          "summary": "This is the longer technical writeup behind CVE-2021-35036. The short CVE summary makes it sound like simple cleartext storage, but the useful part is the access path. A low-privileged Zyxel router session could query DAL handlers like login_privilege and tr69 and receive password-bearing backend objects in the response. That included higher-privilege local account data, FTPS credentials, and TR-069 management secrets. Zyxel’s advisory later expanded the scope from the original VMG3625-T50B report into broader CPE, ONT, LTE, and 5G product lines. I also included the password-generation side: QEMU runtime, LD_PRELOAD serial hook, getpassword analysis, and the Method2 / Method3 supervisor password logic. submitted by /u/TheReedemer69 [link] [comments]",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware"
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Microsoft Exchange",
-              "GitHub"
-            ],
+            "affected_industries": [],
+            "affected_products": [],
             "cve_ids": [
-              "CVE-2026-42897"
+              "CVE-2021-35036"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news"
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -6809,19 +6627,28 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "malware"
+          "malware",
+          "phishing_social_eng"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "manufacturing_industrial",
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Check Point",
+          "Palo Alto Networks"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [
-          "iran"
+          "europe",
+          "iran",
+          "israel"
         ],
         "urgency_signals": [],
         "content_type": [
-          "uncategorized"
+          "threat_research"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
@@ -6834,22 +6661,31 @@
         "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
         "published": "2026-05-22T13:00:42+00:00",
         "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Threat Research Center Threat Actor Groups Malware Malware Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: May 22, 2026 Categories: Malware Threat Actor Groups Tags: Advanced Persistent Threat AppDomainManager DLL Sideloading Iran MiniJunk MiniUpdate Operation security RATs Screening serpens Social engineering Share Executive Summary Unit 42 researchers have observed evidence of cyberattacks by the Iran-nexus advanced persistent threat (APT) group Screening Serpens (aka UNC1549, Smoke Sandstorm and Iranian Dream Job). Based on our visibility, we believe that the group targeted entities in the U.S., Israel and the United Arab Emirates, and likely two additional Middle Eastern entities. This research follows an evolution through cyberattacks in mid-February through April 2026. The timing of these campaigns aligns closely with that of the regional conflict that started in the Middle East on Feb. 28, 2026. We discovered six new remote access Trojan (RAT) variants developed and deployed between February and April 2026. Screening Serpens has been active since at least 2022. Their recent activity demonstrates an increase in technical capabilities and operational resilience. Screening Serpens primarily targets technology sector professionals, using highly tailored social engineering. The group frequently uses personalized recruitment lures that impersonate trusted brands and hiring platforms, to trick targets into initiating the infection chain. We assess with moderate-high confidence that the campaigns discussed in this article are conducted by Screening Serpens. The group has maintained a consistently high operational tempo throughout March and April 2026. We have grouped the six newly discovered RAT variants into two new malware families that were deployed in concurrent espionage campaigns. Based on the timing of deployment, our analysis indicates two sets of coordinated cyberattacks. At least one variant was compiled and deployed with specific timing instructions. Our analysis reveals a continuous cycle of development and deployment, characterized by specialized and upgraded variants with diverse functionalities, as shown in each targeted campaign. The most critical evolution in the group’s recent campaign uses a technique called AppDomainManager hijacking. This hijack method manipulates the initialization phase of .NET applications to proactively disable the application’s own security mechanisms via a legitimate configuration file. The disabled security in these apps left the targeted entities vulnerable to the deployed multi-functional RATs. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex XDR and XSIAM Cortex Cloud Cortex AgentiX Agentic Assistant can assist teams in investigating incidents. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Advanced Persistent Threat (APT) , Malware , Cyberespionage , RATs S creening Serpens Overview Screening Serpens is an Iran-nexus APT group operating as a cyberespionage group aligned with Iranian intelligence objectives. While historically focused on regional targets in the Middle East, the group gained industry attention in late 2025 when Check Point Research detailed its strategic expansion into Western Europe . During these campaigns, Screening Serpens consistently set its sights on high-value sectors, heavily targeting aerospace, defense manufacturing and telecommunications organizations. These operations are characterized by targeted social engineering campaigns, using lures designed specifically to trick j",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "malware"
+            "malware",
+            "phishing_social_eng"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Palo Alto Networks",
+            "Check Point"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [
-            "iran"
+            "europe",
+            "iran",
+            "israel"
           ],
           "urgency_signals": [],
-          "content_type": "uncategorized",
+          "content_type": "threat_research",
           "confidence_tier": "tier_1_primary_research"
         }
       },
@@ -6863,18 +6699,27 @@
           "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
           "taxonomy": {
             "threat_categories": [
-              "malware"
+              "malware",
+              "phishing_social_eng"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Palo Alto Networks",
+              "Check Point"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [
-              "iran"
+              "europe",
+              "iran",
+              "israel"
             ],
             "urgency_signals": [],
-            "content_type": "uncategorized",
+            "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -6892,13 +6737,15 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "uncategorized"
+          "threat_research"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
@@ -6911,20 +6758,22 @@
         "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
         "published": "2026-05-20T10:00:46+00:00",
         "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Threat Research Center Threat Research Malware Malware Tracking TamperedChef Clusters via Certificate and Code Reuse 21 min read Related Products Cortex Cortex XDR Cortex XSIAM Prisma Browser Prisma SASE Secure Access Service Edge (SASE) Unit 42 Incident Response By: Joseph Ganter Published: May 20, 2026 Categories: Malware Threat Research Tags: Adware Appsuite PDF Certificates CL-CRI-1089 CL-UNK-1090 DocuFlex EvilAI Malvertising RATs Remote Access Trojan TamperedChef Share Executive Summary This article documents novel activity clusters that have significant overlap with the publicly described threat known as TamperedChef (aka EvilAI). TamperedChef-style malware is trojanized productivity software, such as PDF editors or calendars, that deliver malicious payloads. These campaigns typically employ malicious ads that direct users to sites hosting the applications. While this style of malware shares many similarities in technical operation, installation lures and distribution methods, we do not attribute it to a single author or group. TamperedChef-style malware samples share characteristics with potentially unwanted programs (PUPs) and adware. These include robust mechanisms to remain persistent, and end-user licensing agreements (EULAs) that attempt to legally cover the software's questionable actions. However, TamperedChef-style malware is far more stealthy than PUPs or adware, remaining dormant for weeks to months before activating. This includes continuous command and control (C2) methods enabling adversaries to retrieve additional payloads, such as information stealers, proxy tooling or remote access Trojans (RATs). We have been tracking several campaigns of TamperedChef-style activity starting in 2024, with three distinct clusters: CL-CRI-1089, CL-UNK-1090 and CL-UNK-1110. Between the three clusters of activity, we have identified over 4,000 samples across 100 unique variants. Palo Alto Networks customers are better protected from TamperedChef activity discussed in this article through the following products and services: Cortex XDR and XSIAM Prisma Browser If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics AI , Malware , Adware , RATs , Malvertising The Rise of Malicious Productivity Applications Since early 2024, we have observed a sharp increase in information stealer-style incidents originating from software mimicking legitimate productivity tools (e.g., PDF editors, ZIP file extractors, GIF image makers). Upon deeper inspection, these applications generally contain code that enables the delivery of arbitrary binaries. These features are typically used to deploy stealer malware. In 2025, our telemetry revealed over 100 unique variants of malware masquerading as productivity software. They all contained a malicious component, such as basic RAT capabilities, or delivering adware and infostealers. Due to their legitimate functionality and tendency to remain dormant for long periods of time, these applications often go unnoticed by the victim. They are also commonly downplayed or miscategorized by defenders and security researchers as potentially unwanted programs (PUPs). Because these applications can execute arbitrary code on victims' machines, either directly or indirectly through module loads, these threats are more significant than mere background annoyances or adware. We have been able to track over 4,000 file hashes and 81 unique code signing organisations through several methods, including: Reviewing code-signing certificates of the binaries Analyzing code reuse among the binaries Open-source intelligence (OSINT) on corporate structures for organizations distributing the binaries Leveraging ad transparency platforms to hunt for advertising overlaps that can identify additional organizations distributing the binaries We have identified TamperedChef-style malware campaigns starting in 2023. These malicious productivity applicatio",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "malware"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "uncategorized",
+          "content_type": "threat_research",
           "confidence_tier": "tier_1_primary_research"
         }
       },
@@ -6942,12 +6791,14 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "uncategorized",
+            "content_type": "threat_research",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7987,6 +7838,304 @@
       ]
     },
     {
+      "cluster_id": "a4625c9f3f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "The art of being ungovernable",
+        "link": "https://blog.talosintelligence.com/the-art-of-being-ungovernable/",
+        "published": "2026-05-21T18:00:14+00:00",
+        "summary": "In this edition of the Threat Source newsletter, William explores the value of being \"ungovernable\" in a professional setting, sharing how challenging the status quo and seeking out the smartest people in the room can lead to a more fulfilling and successful career.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "The art of being ungovernable",
+          "link": "https://blog.talosintelligence.com/the-art-of-being-ungovernable/",
+          "published": "2026-05-21T18:00:14+00:00",
+          "summary": "In this edition of the Threat Source newsletter, William explores the value of being \"ungovernable\" in a professional setting, sharing how challenging the status quo and seeking out the smartest people in the room can lead to a more fulfilling and successful career.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "48141a0d5c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
+        "link": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
+        "published": "2026-05-19T15:39:37+00:00",
+        "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
+          "link": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
+          "published": "2026-05-19T15:39:37+00:00",
+          "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "fadd6ff8fe",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "china"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
+        "link": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
+        "published": "2026-05-19T10:00:20+00:00",
+        "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "china"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
+          "link": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
+          "published": "2026-05-19T10:00:20+00:00",
+          "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "china"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "b2d4914481",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "An Example of Stack String in High Level Language, (Sat, May 23rd)",
+        "link": "https://isc.sans.edu/diary/rss/33008",
+        "published": "2026-05-23T05:49:17+00:00",
+        "summary": "This week, I'm attending the SEC670[ 1 ] training (â€œRed Teaming Tools - Developing Windows Implants, Shellcode, Command and Controlâ€). From my point of view, this training fits perfectly with FOR610 or FOR710 (malware analysis) because it addresses malware from the opposite: Instead of performing reverse engineering, you write malicious code! Always interesting to have another point of view.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "An Example of Stack String in High Level Language, (Sat, May 23rd)",
+          "link": "https://isc.sans.edu/diary/rss/33008",
+          "published": "2026-05-23T05:49:17+00:00",
+          "summary": "This week, I'm attending the SEC670[ 1 ] training (â€œRed Teaming Tools - Developing Windows Implants, Shellcode, Command and Controlâ€). From my point of view, this training fits perfectly with FOR610 or FOR710 (malware analysis) because it addresses malware from the opposite: Instead of performing reverse engineering, you write malicious code! Always interesting to have another point of view.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d601f76167",
       "priority_score": 10,
       "member_count": 1,
@@ -8125,152 +8274,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "ca17b8fd1f",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
-        "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
-        "published": "2026-05-18T12:00:22+00:00",
-        "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Apple iOS/macOS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
-          "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
-          "published": "2026-05-18T12:00:22+00:00",
-          "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a4625c9f3f",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "The art of being ungovernable",
-        "link": "https://blog.talosintelligence.com/the-art-of-being-ungovernable/",
-        "published": "2026-05-21T18:00:14+00:00",
-        "summary": "In this edition of the Threat Source newsletter, William explores the value of being \"ungovernable\" in a professional setting, sharing how challenging the status quo and seeking out the smartest people in the room can lead to a more fulfilling and successful career.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "The art of being ungovernable",
-          "link": "https://blog.talosintelligence.com/the-art-of-being-ungovernable/",
-          "published": "2026-05-21T18:00:14+00:00",
-          "summary": "In this edition of the Threat Source newsletter, William explores the value of being \"ungovernable\" in a professional setting, sharing how challenging the status quo and seeking out the smartest people in the room can lead to a more fulfilling and successful career.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8289,9 +8292,6 @@
         ],
         "content_type": [
           "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
         ]
       },
       "cluster_count": 37,
@@ -8303,12 +8303,11 @@
         "8d99a48c55",
         "b090e3ad19",
         "f2c995ec5f",
-        "4240d9e332",
         "0a08121d4a",
         "04571b3b50",
+        "4240d9e332",
         "b9778d72dd",
         "bc4a1043d6",
-        "c1d9509f14",
         "8ebb62380b",
         "038b9ff831",
         "f0c4c171b9",
@@ -8319,22 +8318,23 @@
         "d227de9cf4",
         "bee3cb593e",
         "e52acefae7",
-        "af2c17c132",
         "9e047f3f25",
-        "405bfcae7f",
         "65812e837f",
+        "405bfcae7f",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
         "a30f0248c2",
-        "83e574101d",
         "08d387ca71",
+        "83e574101d",
         "4e4bcc3acf",
-        "41bfb3dbd2",
+        "af2c17c132",
         "68ea83e527",
-        "b60cfa45bc",
+        "41bfb3dbd2",
+        "ede483f81e",
+        "27954d511c",
         "a17791a046",
-        "ca17b8fd1f"
+        "fadd6ff8fe"
       ]
     },
     {
