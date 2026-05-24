@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-24T15:11:27.744868+00:00",
+  "generated_at": "2026-05-24T17:11:26.009372+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 479,
-  "total_clusters_raw": 465,
+  "total_items_in_window": 480,
+  "total_clusters_raw": 466,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 322,
-  "dropped_overflow": 63,
+  "dropped_low_score": 320,
+  "dropped_overflow": 66,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,6 +67,20 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -80,6 +94,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -95,33 +116,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -137,13 +137,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -151,19 +144,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 9
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
@@ -171,6 +171,13 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -186,9 +193,30 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 5
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -200,46 +228,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
+      "item_count": 15,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -270,26 +270,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -298,12 +284,12 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -311,6 +297,27 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -333,26 +340,12 @@
       "item_count": 20,
       "in_window_count": 6
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -368,19 +361,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 18
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,19 +396,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -417,25 +417,18 @@
       "item_count": 20,
       "in_window_count": 18
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "Cloudflare Radar": {
@@ -445,22 +438,29 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -473,12 +473,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -487,19 +494,12 @@
       "item_count": 50,
       "in_window_count": 31
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 44
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -508,19 +508,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 6
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 44
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -529,11 +529,11 @@
       "item_count": 100,
       "in_window_count": 23
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 15,
       "in_window_count": 2
     },
     "Krebs on Security": {
@@ -543,26 +543,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -571,12 +564,26 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 23
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -597,21 +604,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 24
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 25
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -619,6 +612,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -2393,7 +2393,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Security Blog",
+        "source": "Microsoft Threat Intelligence",
         "cohort": "threat_research_primary",
         "title": "Exposing Fox Tempest: A malware-signing service operation",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2430,7 +2430,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2464,7 +2464,7 @@
           }
         },
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -3760,6 +3760,73 @@
       ]
     },
     {
+      "cluster_id": "86028b894f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Wireshark 4.6.6 Released, (Sun, May 24th)",
+        "link": "https://isc.sans.edu/diary/rss/33010",
+        "published": "2026-05-24T16:38:21+00:00",
+        "summary": "Wireshark release 4.6.6 fixes 1 vulnerability and 11 bugs.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_government"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Wireshark 4.6.6 Released, (Sun, May 24th)",
+          "link": "https://isc.sans.edu/diary/rss/33010",
+          "published": "2026-05-24T16:38:21+00:00",
+          "summary": "Wireshark release 4.6.6 fixes 1 vulnerability and 11 bugs.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_government"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "b625c0e6b0",
       "priority_score": 13,
       "member_count": 1,
@@ -4132,91 +4199,6 @@
       ]
     },
     {
-      "cluster_id": "eb48980918",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "retail_ecommerce"
-        ],
-        "affected_products": [
-          "AWS"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
-        "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
-        "published": "2026-05-20T20:56:03+00:00",
-        "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
-        "full_body": "AWS Security Blog Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection attacks, where adversaries inject malicious commands through tool responses or user inputs. LLMs don’t robustly differentiate between commands and data, everything is only tokens. For these reasons, if you want defense in depth, you must treat the LLM as an untrusted actor from a security point of view. The insight is that the LLM can’t affect the external world directly: it has to go through an orchestrator that invokes tools based on the LLM’s output. This is precisely where the controls must be applied. What you need at this boundary is authorization: a decision about whether each tool invocation should be allowed and under what conditions. Consider a customer service agent for an online retailer. Without proper controls, it could process refunds that exceed authorized limits, apply discounts to product categories that should be excluded, or look up one customer’s data while handling another customer’s session. If you control agents’ access to tools, you can establish a safety envelope within which the agent can operate freely. This differs from two common but unsatisfactory approaches: Creating hard-coded workflows eliminates uncertainty, but by itself defeats the purpose of using an LLM as the brain of the agent, because you’ve built a traditional application with an LLM interface. And even with this restriction, using LLM outputs at any step can open up the same risks. While it’s a useful technique for well-understood workflows, it’s not sufficient for agents that need to adapt. Human-in-the-loop provides a safety net for critical operations, and it will always have a role. But relying on it as the main control mechanism sacrifices autonomy and can lead to approval fatigue. You need agents that are safe and autonomous. This requires an auditable, deterministic enforcement layer that sits outside the agent and tools. Why outside? Because the LLM’s plan is the thing you can’t trust—it can’t be responsible for enforcing its own constraints. Controls at the LLM layer—such as system prompts and training-time alignment—can be bypassed by prompt injection or hallucination. Hard-coded checks in agent or tool code are more robust, but become difficult to audit and manage at scale, especially when security logic is scattered across many tools and services. Centralizing authorization outside both gives you a single checkpoint the LLM can’t circumvent; one that’s auditable and can be verified independently of the application code. This is where AgentCore Policies come in. Amazon Bedrock AgentCore Gateway sits between the agent and the remote tools it calls. When you associate a Policy with a Gateway, it blocks everything by default. Policies selectively open this boundary by specifying which tool invocations are allowed and under what conditions. This enforcement applies to all tool traffic routed through the Gateway. For this approach to scale, it must be more straightforward to reason about the policies than about the agent’s behavior. AgentCore policies are expressed in Cedar . Cedar is an open source authorization policy language developed by AWS that has recently joined the Cloud Native Computing Foundation (CNCF) . Cedar was designed with exactly these properties: it’s purpose-built for authorization, readable by humans, and analyzable by machines using automated reasoning. This gives enterprises the ability to scale policy definition and enforcement to their AI agents. How Cedar is used by Amazon Bedrock AgentCore Amazon Bedrock AgentCore provides the infrastructure ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "retail_ecommerce"
-          ],
-          "affected_products": [
-            "AWS"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
-          "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
-          "published": "2026-05-20T20:56:03+00:00",
-          "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
-          "taxonomy": {
-            "threat_categories": [
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "retail_ecommerce"
-            ],
-            "affected_products": [
-              "AWS"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "16a15d87de",
       "priority_score": 13,
       "member_count": 1,
@@ -4324,6 +4306,91 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "eb48980918",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ai_security"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "AWS"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "AWS Security Blog",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+        "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+        "published": "2026-05-20T20:56:03+00:00",
+        "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
+        "full_body": "AWS Security Blog Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection attacks, where adversaries inject malicious commands through tool responses or user inputs. LLMs don’t robustly differentiate between commands and data, everything is only tokens. For these reasons, if you want defense in depth, you must treat the LLM as an untrusted actor from a security point of view. The insight is that the LLM can’t affect the external world directly: it has to go through an orchestrator that invokes tools based on the LLM’s output. This is precisely where the controls must be applied. What you need at this boundary is authorization: a decision about whether each tool invocation should be allowed and under what conditions. Consider a customer service agent for an online retailer. Without proper controls, it could process refunds that exceed authorized limits, apply discounts to product categories that should be excluded, or look up one customer’s data while handling another customer’s session. If you control agents’ access to tools, you can establish a safety envelope within which the agent can operate freely. This differs from two common but unsatisfactory approaches: Creating hard-coded workflows eliminates uncertainty, but by itself defeats the purpose of using an LLM as the brain of the agent, because you’ve built a traditional application with an LLM interface. And even with this restriction, using LLM outputs at any step can open up the same risks. While it’s a useful technique for well-understood workflows, it’s not sufficient for agents that need to adapt. Human-in-the-loop provides a safety net for critical operations, and it will always have a role. But relying on it as the main control mechanism sacrifices autonomy and can lead to approval fatigue. You need agents that are safe and autonomous. This requires an auditable, deterministic enforcement layer that sits outside the agent and tools. Why outside? Because the LLM’s plan is the thing you can’t trust—it can’t be responsible for enforcing its own constraints. Controls at the LLM layer—such as system prompts and training-time alignment—can be bypassed by prompt injection or hallucination. Hard-coded checks in agent or tool code are more robust, but become difficult to audit and manage at scale, especially when security logic is scattered across many tools and services. Centralizing authorization outside both gives you a single checkpoint the LLM can’t circumvent; one that’s auditable and can be verified independently of the application code. This is where AgentCore Policies come in. Amazon Bedrock AgentCore Gateway sits between the agent and the remote tools it calls. When you associate a Policy with a Gateway, it blocks everything by default. Policies selectively open this boundary by specifying which tool invocations are allowed and under what conditions. This enforcement applies to all tool traffic routed through the Gateway. For this approach to scale, it must be more straightforward to reason about the policies than about the agent’s behavior. AgentCore policies are expressed in Cedar . Cedar is an open source authorization policy language developed by AWS that has recently joined the Cloud Native Computing Foundation (CNCF) . Cedar was designed with exactly these properties: it’s purpose-built for authorization, readable by humans, and analyzable by machines using automated reasoning. This gives enterprises the ability to scale policy definition and enforcement to their AI agents. How Cedar is used by Amazon Bedrock AgentCore Amazon Bedrock AgentCore provides the infrastructure ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ai_security"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "retail_ecommerce"
+          ],
+          "affected_products": [
+            "AWS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+          "link": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+          "published": "2026-05-20T20:56:03+00:00",
+          "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
+          "taxonomy": {
+            "threat_categories": [
+              "ai_security"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "retail_ecommerce"
+            ],
+            "affected_products": [
+              "AWS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -4699,21 +4766,16 @@
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
+        "affected_industries": [],
         "affected_products": [
-          "GitHub",
-          "Slack"
+          "GitHub"
         ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_3_analysis"
@@ -4726,25 +4788,20 @@
         "link": "https://tldrsec.com/p/tldr-sec-329",
         "published": "2026-05-21T14:30:00+00:00",
         "summary": "Detecting and deceiving attackers with AI honeypots, detect supply chain attacks with GitHub Action canaries, the latest from Microsoft's new \"Autonomous Code Security\" team",
-        "full_body": "0 tl;dr sec Posts [tl;dr sec] #329 - AI-powered Honeypots, GitHub Action Canaries, Microsoft’s Agentic Security Scanner [tl;dr sec] #329 - AI-powered Honeypots, GitHub Action Canaries, Microsoft’s Agentic Security Scanner Detecting and deceiving attackers with AI honeypots, detect supply chain attacks with GitHub Action canaries, the latest from Microsoft's new \"Autonomous Code Security\" team Clint Gibler May 21, 2026 Hey there, I hope you’ve been doing well! 🍦 Ice Cream Bonding There’s this Mediterranean place I like to go to sometimes, Souvla, that has delicious frozen Greek yogurt you can get with baklava on top. It’s helped me power through many a late night writing tl;dr sec . Like tonight 😅 I’ve gradually started befriending the manager over time, over a series of froyos. We’ve discussed how it’s sometimes difficult to make new (deep) friends as you get older, some of his work challenges, and more. All from periodic 5 minute conversations. It makes me think that most people probably have a lot to open up and share about, if you create a little space for it. Anyway, I’m not saying frozen yogurt is the key to adult friendship, but I’m not not saying that. Maybe community is built less through grand gestures, and more through remembering someone’s name, asking one more question, and occasionally adding baklava. Sponsor 📣 State of AI in the Cloud 2026: How AI Is Reshaping Cloud Security AI is no longer a standalone tool, it’s embedded across cloud environments, development workflows, and production systems. The State of AI Report reveals how AI adoption is expanding the attack surface, accelerating attacker behavior, and introducing new risks through agents, copilots, and automation. Get the data behind what’s changing and what security teams need to do about it. 👉 Read the Report 👈 Hm some interesting stats here: “AI is now core operational infrastructure.” ~80% of orgs use AI IDE extensions, and its impact on security is… 👆️ AppSec The down fall of bug bounties Assetnote Searchlight Cyber’s Shubham Shah reflects on how AI has impacted bug bounty: skilled researchers are submitting higher quality reports faster with AI assistance, but platforms are overwhelmed by low-quality AI-generated submissions. Shubz isn’t pleased with current solutions from HackerOne (fighting AI with AI) and Bugcrowd (spam controls), finding despite him hacking on Uber’s bug bounty program for almost ten years and ranked #1 on their public program, and his recent high impact submission took 12 days to get a response instead of previously 1-3 days. The security policy rollout survival guide The blog version of Oblique's Maya Kaczorowski ’s BSidesSeattle talk. Maya o utlines a practical framework for rolling out security policies, emphasizing that successful implementation requires getting stakeholder input from engineering, product, SRE, and IT before defining controls, then running a pilot with representative users across diverse roles and platforms to identify edge cases and validate that controls actually work. She emphasizes the importance of communicating changes through multiple channels (email, Slack, all-hands), making policy enforcement visible to users so they can see how they compare to peers, and ensuring the policy owner (not IT) handles ongoing enforcement and user friction. How OLTs may have exposed entire ISP networks Quarkslab's Mathieu Farrell describes a chain of pre-auth RCEs against network vendor VSOL's GPON OLT (Gigabit Passive Optical Network Optical Line Terminal) hardware and its Cloud EMS fleet manager that together can take over an ISP's entire fiber network. Farrell found three pre-auth command injection bugs in the V1600 OLT models (SNMP traceroute, TACACS+ login, web traceroute), all share the same default admin credentials hardcoded in the firmware, plus an arbitrary file upload RCE in Cloud EMS that allows JSP webshell deployment with root access. The post shows how attackers could chain these vulnerabilities, startin",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "fetch_failed:ReadTimeout",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
+          "affected_industries": [],
           "affected_products": [
-            "Slack",
             "GitHub"
           ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
+          "urgency_signals": [],
+          "content_type": "uncategorized",
           "confidence_tier": "tier_3_analysis"
         }
       },
@@ -4759,132 +4816,16 @@
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "Slack",
               "GitHub"
             ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
+            "urgency_signals": [],
+            "content_type": "uncategorized",
             "confidence_tier": "tier_3_analysis"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6500eda78d",
-      "priority_score": 13,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Infostealers Just Spawned a 5,000+ Repo GitHub Supply Chain Attack",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8ecr/infostealers_just_spawned_a_5000_repo_github/",
-        "published": "2026-05-24T10:24:34+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Infostealers Just Spawned a 5,000+ Repo GitHub Supply Chain Attack",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8ecr/infostealers_just_spawned_a_5000_repo_github/",
-          "published": "2026-05-24T10:24:34+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_5_chatter"
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "infostealers just spawned a 5,000+ repo github supply chain attack",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tlhrmp/infostealers_just_spawned_a_5000_repo_github/",
-          "published": "2026-05-23T14:19:37+00:00",
-          "summary": "submitted by /u/Malwarebeasts [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -6114,87 +6055,6 @@
       ]
     },
     {
-      "cluster_id": "42f47b63fd",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-48029"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [
-          "CVE-2026-48029"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "CVE-2026-48029: Two grid-decode bugs in libheif",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tm85mk/cve202648029_two_griddecode_bugs_in_libheif/",
-        "published": "2026-05-24T10:11:12+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [
-            "CVE-2026-48029"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CVE-2026-48029: Two grid-decode bugs in libheif",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tm85mk/cve202648029_two_griddecode_bugs_in_libheif/",
-          "published": "2026-05-24T10:11:12+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-48029"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "f7bd6f19f6",
       "priority_score": 11,
       "member_count": 1,
@@ -6622,7 +6482,7 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6677,14 +6537,289 @@
       ]
     },
     {
-      "cluster_id": "51ca0b4574",
+      "cluster_id": "d94e310bf8",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Anthropic/Claude",
+          "GitHub",
+          "PyPI",
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/cybersecurity",
+        "cohort": "reddit_practitioner_osint",
+        "title": "TrapDoor supply-chain campaign hits npm, PyPI, and Crates.io with AI-assistant poisoning angle",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tmhokx/trapdoor_supplychain_campaign_hits_npm_pypi_and/",
+        "published": "2026-05-24T16:59:35+00:00",
+        "summary": "A new coordinated supply-chain campaign called TrapDoor reportedly pushed malicious packages across npm, PyPI, and Crates.io, targeting developer environments, crypto tooling, AWS/GitHub credentials, SSH keys, and even AI coding assistant config files like .cursorrules and CLAUDE.md. submitted by /u/raptorhunter22 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "GitHub",
+            "npm",
+            "PyPI",
+            "Anthropic/Claude"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "TrapDoor supply-chain campaign hits npm, PyPI, and Crates.io with AI-assistant poisoning angle",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tmhokx/trapdoor_supplychain_campaign_hits_npm_pypi_and/",
+          "published": "2026-05-24T16:59:35+00:00",
+          "summary": "A new coordinated supply-chain campaign called TrapDoor reportedly pushed malicious packages across npm, PyPI, and Crates.io, targeting developer environments, crypto tooling, AWS/GitHub credentials, SSH keys, and even AI coding assistant config files like .cursorrules and CLAUDE.md. submitted by /u/raptorhunter22 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "GitHub",
+              "npm",
+              "PyPI",
+              "Anthropic/Claude"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6500eda78d",
+      "priority_score": 11,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Infostealers Just Spawned a 5,000+ Repo GitHub Supply Chain Attack",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8ecr/infostealers_just_spawned_a_5000_repo_github/",
+        "published": "2026-05-24T10:24:34+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_5_chatter"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Infostealers Just Spawned a 5,000+ Repo GitHub Supply Chain Attack",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tm8ecr/infostealers_just_spawned_a_5000_repo_github/",
+          "published": "2026-05-24T10:24:34+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        },
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "infostealers just spawned a 5,000+ repo github supply chain attack",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tlhrmp/infostealers_just_spawned_a_5000_repo_github/",
+          "published": "2026-05-23T14:19:37+00:00",
+          "summary": "submitted by /u/Malwarebeasts [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ede483f81e",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "phishing_social_eng"
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+        "published": "2026-05-22T13:00:42+00:00",
+        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+          "published": "2026-05-22T13:00:42+00:00",
+          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "27954d511c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -6694,7 +6829,78 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+        "published": "2026-05-20T10:00:46+00:00",
+        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+          "published": "2026-05-20T10:00:46+00:00",
+          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "51ca0b4574",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
         ],
         "confidence_tier": [
           "tier_1_primary_research"
@@ -6707,12 +6913,10 @@
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
         "published": "2026-05-22T17:00:00+00:00",
         "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The post Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Forrester Waves Content types News Products and services Microsoft Entra Topics Analyst reports Identity and access management Zero Trust Identity is the backbone of modern cybersecurity. Every access decision carries risk, across employees, partners, devices, workloads, and an expanding set of AI-powered agents. But most organizations are still operating across disparate systems. Identity signals are captured in one place, access policies enforced in another, and response workflows managed separately. That fragmentation slows decision-making, increases operational complexity, and creates gaps cyberattackers can exploit. Customers are looking for an identity platform that meets their evolving needs. We’re pleased to share that Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026 , receiving the highest scores in both the current offering and strategy categories. We believe this recognition demonstrates the value that the Microsoft Entra product portfolio brings to our customers, which we are always striving to improve. This report also reflects a broader shift in the market. Identity is no longer just a checkpoint in the access flow. It has become the primary way organizations manage risk across environments. Explore Microsoft Entra identity and access solutions Figure 1. The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026 . Forrester’s research highlights the need for strong identity foundations, actionable intelligence, and support for emerging AI-powered scenarios. As identity surfaces expand and cyberthreats grow more dynamic, organizations need a model that connects signals, enforces policy consistently, and drives response in real time. Without that continuity, security remains reactive and incomplete. This is especially important as identity continues to be one of the most targeted attack surfaces, with credential-based attacks still dominating. Securing access requires more than stronger authentication. It requires bringing identity, access, and response into a unified system. Read the full Forrester Wave report Why this recognition matters now As AI expands the number of identities and accelerates the pace of change, organizations need approaches that simplify how identity is managed while strengthening how risk is controlled. That means moving beyond disconnected tools toward systems that are integrated by design. The priorities highlighted by Forrester in their report reflect this reality. They also align with Microsoft’s focus on delivering a comprehensive strategy based on Zero Trust principles , using AI in the flow of work, and extending identity and access controls to AI agents. Forrester noted Microsoft strengths in identity threat detection and response (ITDR), access control, phishing-resistant authentication , and identity verification. These capabilities are essential for organizations to stay ahead of evolving cyberthreats and improve their identity security posture continuously. Microsoft is focused on helping customers reap the benefits of a unified system that extends governance, visibility, and control across all identities. AI is accelerating identity complexity AI is reshaping the identity landscape. It is increasing both the number of identities and the speed at which they operate. In addition to human users, organizations now need to manage AI agents and other non-human identities. These identities require authentication, authorization, lifecycle management, and governance. They operate at machine speed and interact with systems in ways traditional identity models were not designed to handle. At this scale, static policies and disconnected systems fall short. Organizations need continuous enforcement driven by real-time signals. Treating AI-powered identities as core participants in an identity strategy enables organizations to extend governance, visibility, and control as their environ",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -6720,7 +6924,7 @@
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [],
-          "content_type": "news_report",
+          "content_type": "uncategorized",
           "confidence_tier": "tier_1_primary_research"
         }
       },
@@ -6733,9 +6937,7 @@
           "published": "2026-05-22T17:00:00+00:00",
           "summary": "Microsoft has been recognized as a Leader in The Forrester Wave™: Workforce Identity Security Platforms, Q2 2026, receiving the highest scores in both the current offering and strategy categories. The post Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms appeared first on Microsoft Security Blog .",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -6743,7 +6945,7 @@
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [],
-            "content_type": "news_report",
+            "content_type": "uncategorized",
             "confidence_tier": "tier_1_primary_research"
           }
         }
@@ -7716,158 +7918,6 @@
       ]
     },
     {
-      "cluster_id": "ede483f81e",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "iran"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-        "published": "2026-05-22T13:00:42+00:00",
-        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "iran"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-          "published": "2026-05-22T13:00:42+00:00",
-          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "iran"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "27954d511c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-        "published": "2026-05-20T10:00:46+00:00",
-        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-          "published": "2026-05-20T10:00:46+00:00",
-          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "a4625c9f3f",
       "priority_score": 10,
       "member_count": 1,
@@ -8093,80 +8143,7 @@
       ]
     },
     {
-      "cluster_id": "d601f76167",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "russia"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-        "link": "https://securelist.com/cloud-atlas-2026/119895/",
-        "published": "2026-05-22T09:12:13+00:00",
-        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "russia"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-          "link": "https://securelist.com/cloud-atlas-2026/119895/",
-          "published": "2026-05-22T09:12:13+00:00",
-          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "russia"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "a64f4c6a4f",
+      "cluster_id": "508673b003",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -8188,12 +8165,12 @@
         ]
       },
       "primary": {
-        "source": "Kaspersky Securelist",
+        "source": "Recorded Future",
         "cohort": "threat_research_primary",
-        "title": "IT threat evolution in Q1 2026. Mobile statistics",
-        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-        "published": "2026-05-18T12:00:30+00:00",
-        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+        "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+        "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+        "published": "2026-05-21T00:00:00+00:00",
+        "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
@@ -8211,12 +8188,12 @@
       },
       "corroborating_sources": [
         {
-          "source": "Kaspersky Securelist",
+          "source": "Recorded Future",
           "cohort": "threat_research_primary",
-          "title": "IT threat evolution in Q1 2026. Mobile statistics",
-          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
-          "published": "2026-05-18T12:00:30+00:00",
-          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+          "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+          "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+          "published": "2026-05-21T00:00:00+00:00",
+          "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -8251,9 +8228,9 @@
           "vulnerability_disclosure"
         ]
       },
-      "cluster_count": 34,
-      "article_count": 35,
-      "cohesion": 0.357,
+      "cluster_count": 33,
+      "article_count": 34,
+      "cohesion": 0.36,
       "cluster_ids": [
         "f0383fca84",
         "31ede2289a",
@@ -8278,7 +8255,6 @@
         "9e047f3f25",
         "405bfcae7f",
         "65812e837f",
-        "6500eda78d",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
@@ -8286,7 +8262,7 @@
         "83e574101d",
         "08d387ca71",
         "4e4bcc3acf",
-        "42f47b63fd",
+        "6500eda78d",
         "a17791a046",
         "fadd6ff8fe"
       ]
