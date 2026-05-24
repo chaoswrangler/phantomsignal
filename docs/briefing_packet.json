@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T17:11:26.009372+00:00",
+  "generated_at": "2026-05-24T19:25:23.097031+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 480,
-  "total_clusters_raw": 466,
+  "total_items_in_window": 482,
+  "total_clusters_raw": 469,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 320,
+  "dropped_low_score": 323,
   "dropped_overflow": 66,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,19 +67,19 @@
     }
   },
   "feed_status": {
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 4
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
@@ -95,20 +95,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -116,25 +102,25 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 24,
-      "in_window_count": 0
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -151,6 +137,20 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -158,26 +158,19 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -193,19 +186,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -221,12 +207,33 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 2
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,8 +242,8 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -248,13 +255,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -270,58 +270,9 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -332,6 +283,55 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -347,23 +347,23 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
@@ -373,14 +373,14 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 18
+      "in_window_count": 19
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -396,9 +396,9 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
@@ -424,20 +424,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -445,16 +431,9 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
@@ -466,19 +445,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -487,19 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 31
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -508,12 +480,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 31
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -522,18 +501,25 @@
       "item_count": 50,
       "in_window_count": 44
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 2
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Krebs on Security": {
@@ -549,6 +535,27 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -571,20 +578,6 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -597,7 +590,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 5
+      "in_window_count": 6
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -606,12 +599,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Just Security": {
-      "url": "https://www.justsecurity.org/feed/",
-      "cohort": "policy_strategy_geopolitics",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 25,
+      "in_window_count": 25
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -619,6 +612,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Just Security": {
+      "url": "https://www.justsecurity.org/feed/",
+      "cohort": "policy_strategy_geopolitics",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -630,10 +630,109 @@
   },
   "clusters": [
     {
-      "cluster_id": "5da5ef0cd5",
-      "priority_score": 33,
-      "member_count": 7,
-      "corroborating_source_count": 6,
+      "cluster_id": "f0383fca84",
+      "priority_score": 31,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-45829"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Palo Alto Networks",
+          "PyPI"
+        ],
+        "cve_ids": [
+          "CVE-2026-45829"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "poc_available",
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Orca Security Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Critical Pre-Auth RCE in ChromaDB Threatens AI Infrastructure",
+        "link": "https://orca.security/resources/blog/chromadb-pre-auth-rce-vulnerability/",
+        "published": "2026-05-21T20:31:44+00:00",
+        "summary": "A max-severity vulnerability (CVE-2026-45829, CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About […]",
+        "full_body": "A max-severity vulnerability ( CVE-2026-45829 , CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About the Vulnerability: CVE-2026-45829 The issue originates from ChromaDB’s FastAPI server component, where user-controlled embedding function configuration is processed before authentication checks occur, leading to pre-authentication code execution. By sending a crafted HTTP POST request to the collection creation endpoint with a malicious HuggingFace model reference (with trust_remote_code enabled), attackers can force the server to download and execute arbitrary Python code before the request is rejected as unauthorized. No authentication is required to exploit this issue. The following components are affected: ChromaDB Python FastAPI server, versions 1.0.0 through 1.5.8. ChromaDB is a core component in many AI and machine learning pipelines, used as a vector database and retrieval backend in agentic AI applications , RAG (Retrieval-Augmented Generation) systems, and semantic search services. With approximately 14 million monthly PyPI downloads, ChromaDB has a substantial footprint in enterprise AI deployments. Approximately 73% of internet-exposed ChromaDB instances are running vulnerable versions according to Shodan-based scanning data. The vulnerability, dubbed “ChromaToast Served Pre-Auth” by its discoverers at HiddenLayer, was first reported by independent researcher Azraelxuemo in November 2025, and subsequently by HiddenLayer starting February 17, 2026. Multiple contact attempts to the ChromaDB maintainers went unanswered. ChromaDB released version 1.5.9 shortly before public disclosure, though whether this version fully addresses the vulnerability remains unconfirmed. Risk Impact At the time of writing, HiddenLayer has published a detailed technical analysis with proof-of-concept details, and there is no confirmed active exploitation in the wild. Regardless, the severity, ease of exploitation, and the large number of exposed instances make this vulnerability a critical risk, especially for cloud-hosted and internet-facing deployments. Successful exploitation could allow attackers to gain full control of the server process, exfiltrate sensitive data including API keys, environment variables, and mounted secrets, and potentially move laterally across connected infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. Mitigation Recommendations Users should upgrade to ChromaDB version 1.5.9 or later and verify the patch status. Organizations running the Python FastAPI server should immediately evaluate whether their deployments are internet-facing and take the following steps: Switch to the Rust-based frontend, which is not affected by this vulnerability Restrict network access to ChromaDB API ports to trusted clients only Avoid exposing the Python API server to the public internet Scan all ML model artifacts before runtime execution Treat external model references as untrusted code sources How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of ChromaDB, understand their exposure in context, including internet accessibility, runtime reachability , and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Best Palo Alto Networks Cortex (Prisma Cloud) Alternatives in 2026 May 22, 2026 Cloud Security Learning 7 Enterprise AI Security Risks to Manage May 22, 2026 Research C",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Palo Alto Networks",
+            "PyPI"
+          ],
+          "cve_ids": [
+            "CVE-2026-45829"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "poc_available",
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Orca Security Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Critical Pre-Auth RCE in ChromaDB Threatens AI Infrastructure",
+          "link": "https://orca.security/resources/blog/chromadb-pre-auth-rce-vulnerability/",
+          "published": "2026-05-21T20:31:44+00:00",
+          "summary": "A max-severity vulnerability (CVE-2026-45829, CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About […]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks",
+              "PyPI"
+            ],
+            "cve_ids": [
+              "CVE-2026-45829"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "poc_available",
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7a0bfcbd42",
+      "priority_score": 29,
+      "member_count": 6,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-9082"
       ],
@@ -644,10 +743,16 @@
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services"
+          "education",
+          "government_public_sector"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
         "cve_ids": [
+          "CVE-2026-0300",
+          "CVE-2026-23734",
+          "CVE-2026-44578",
           "CVE-2026-9082"
         ],
         "attack_techniques": [],
@@ -668,68 +773,42 @@
         ]
       },
       "primary": {
-        "source": "Reddit r/cybersecurity",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Drupal Core SQL injection flaw actively exploited less than 48 hours after patch. 15,000 attack attempts already recorded across 6,000 sites",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1tlitj2/drupal_core_sql_injection_flaw_actively_exploited/",
-        "published": "2026-05-23T15:01:11+00:00",
-        "summary": "Drupal patched CVE-2026-9082 on May 21. By May 22 CISA had added it to the Known Exploited Vulnerabilities catalog. Researchers at Imperva have already tracked over 15,000 attack attempts hitting close to 6,000 sites across 65 countries. The flaw is an SQL injection in Drupal Core's database abstraction API, affecting all supported versions. A successful exploit can lead to privilege escalation and remote code execution on the server. Right now most of the observed activity is reconnaissance, attackers scanning for vulnerable PostgreSQL-backed Drupal sites and building a target list. That phase does not last long before it shifts to actual exploitation. Gaming and financial services sites are the primary targets so far, accounting for nearly half of all observed attempts. Patched versions to update to: Drupal 11: 11.3.10, 11.2.12, or 11.1.10 Drupal 10: 10.6.9, 10.5.10, or 10.4.10 Drupal 9.5 and 8.9: patches are available but require manual application, check the Drupal security advisor",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "CVE-2026-9082 | Drupal SQL Injection Vulnerability",
+        "link": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-9082/",
+        "published": "2026-05-21T20:53:27+00:00",
+        "summary": "CVE-2026-9082 is a highly critical SQL injection vulnerability in Drupal core affecting PostgreSQL-backed deployments. The flaw allows unauthenticated attackers to execute arbitrary SQL queries and potentially compromise affected environments.",
+        "full_body": "CVE-2026-9082 Drupal SQL Injection Vulnerability CVE-2026-9082 is a highly critical SQL injection vulnerability affecting Drupal core sites configured to use PostgreSQL as the backend database. The vulnerability exists in Drupal’s database abstraction API, where specially crafted requests can bypass query sanitization and result in arbitrary SQL injection. The issue is reachable by anonymous users and requires no authentication or prior privileges. Drupal rates the issue as “Highly Critical,” with a 20 out of 25 security risk score. The vulnerability is rated as Critical (CVSS 9.8). Technical Details Drupal is an open-source content management system used to build and operate websites, intranets, and digital experience platforms across government, higher education, media, and enterprise environments. In affected deployments, Drupal core’s database abstraction API fails to properly sanitize certain crafted requests when the site uses PostgreSQL. Successful exploitation enables arbitrary SQL execution against the Drupal site database. Potential outcomes include credential exposure, unauthorized data access, privilege escalation, database manipulation, and possible remote code execution paths depending on site configuration and connected services. The vulnerability affects PostgreSQL-backed Drupal deployments only. NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this SQL injection vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Re-run the test: Confirm the vulnerability is no longer exploitable after remediation Run the Rapid Response test: Launch from the NodeZero platform to determine whether affected Drupal instances using PostgreSQL are exploitable Patch immediately: Upgrade Drupal core to a fixed release based on your supported branch Stop Guessing, Start Proving Schedule a demo Affected versions & patch Affected: Drupal 8.9.0 through 10.4.9 Drupal 10.5.0 through 10.5.9 Drupal 10.6.0 through 10.6.8 Drupal 11.0.0 through 11.1.9 Drupal 11.2.0 through 11.2.11 Drupal 11.3.0 through 11.3.9 Drupal deployments configured to use PostgreSQL Not affected: Drupal sites using MySQL, MariaDB, or SQLite Patch: Upgrade to Drupal 11.3.10 or later Upgrade to Drupal 11.2.12 or later Upgrade to Drupal 11.1.10 or later Upgrade to Drupal 10.6.9 or later Upgrade to Drupal 10.5.10 or later Upgrade to Drupal 10.4.10 or later For unsupported Drupal 8 or 9 deployments, apply the manually distributed security patches from the Drupal Security Team and migrate to a supported branch as soon as possible Timeline May 18, 2026 – Drupal issued advance notice of an upcoming highly critical core security release. May 20, 2026 – Drupal published SA-CORE-2026-004 for CVE-2026-9082. May 21, 2026 – Public reporting highlighted the risk to PostgreSQL-backed Drupal sites. References The Hacker News: Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks Drupal Security Advisory: SA-CORE-2026-004 NVD: CVE-2026-9082 SecurityWeek: Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking Read about other CVEs CVE-2026-23734 CVE-2026-23734 is a critical path traversal vulnerability affecting XWiki’s xwiki-commons-classloader-api component. The flaw may allow unauthenticated attackers to access sensitive… Read more CVE-2026-44578 CVE-2026-44578 is a high-severity server-side request forgery vulnerability affecting self-hosted Next.js applications using the built-in Node.js server. Read more CVE-2026-0300 CVE-2026-0300 enables unauthenticated remote code execution in PAN-OS, posing a critical risk to enterprise and government networks. Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your security risks by autonomously finding exploitable we",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "active_exploitation",
             "vulnerability_disclosure"
           ],
           "actor_attribution": [],
           "affected_industries": [
-            "financial_services"
+            "government_public_sector",
+            "education"
           ],
-          "affected_products": [],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
           "cve_ids": [
+            "CVE-2026-0300",
+            "CVE-2026-23734",
+            "CVE-2026-44578",
             "CVE-2026-9082"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [
-            "actively_exploited",
-            "cisa_kev"
+            "preauth_unauth"
           ],
           "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter"
+          "confidence_tier": "tier_1_offensive_research"
         }
       },
       "corroborating_sources": [
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Drupal Core SQL injection flaw actively exploited less than 48 hours after patch. 15,000 attack attempts already recorded across 6,000 sites",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tlitj2/drupal_core_sql_injection_flaw_actively_exploited/",
-          "published": "2026-05-23T15:01:11+00:00",
-          "summary": "Drupal patched CVE-2026-9082 on May 21. By May 22 CISA had added it to the Known Exploited Vulnerabilities catalog. Researchers at Imperva have already tracked over 15,000 attack attempts hitting close to 6,000 sites across 65 countries. The flaw is an SQL injection in Drupal Core's database abstraction API, affecting all supported versions. A successful exploit can lead to privilege escalation and remote code execution on the server. Right now most of the observed activity is reconnaissance, attackers scanning for vulnerable PostgreSQL-backed Drupal sites and building a target list. That phase does not last long before it shifts to actual exploitation. Gaming and financial services sites are the primary targets so far, accounting for nearly half of all observed attempts. Patched versions to update to: Drupal 11: 11.3.10, 11.2.12, or 11.1.10 Drupal 10: 10.6.9, 10.5.10, or 10.4.10 Drupal 9.5 and 8.9: patches are available but require manual application, check the Drupal security advisor",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "cve_ids": [
-              "CVE-2026-9082"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "cisa_kev"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter"
-          }
-        },
         {
           "source": "Horizon3 Attack Research",
           "cohort": "offensive_vulnerability_research",
@@ -742,9 +821,17 @@
               "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "government_public_sector",
+              "education"
+            ],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
             "cve_ids": [
+              "CVE-2026-0300",
+              "CVE-2026-23734",
+              "CVE-2026-44578",
               "CVE-2026-9082"
             ],
             "attack_techniques": [],
@@ -854,105 +941,6 @@
             "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f0383fca84",
-      "priority_score": 31,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-45829"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Palo Alto Networks",
-          "PyPI"
-        ],
-        "cve_ids": [
-          "CVE-2026-45829"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "poc_available",
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Critical Pre-Auth RCE in ChromaDB Threatens AI Infrastructure",
-        "link": "https://orca.security/resources/blog/chromadb-pre-auth-rce-vulnerability/",
-        "published": "2026-05-21T20:31:44+00:00",
-        "summary": "A max-severity vulnerability (CVE-2026-45829, CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About […]",
-        "full_body": "A max-severity vulnerability ( CVE-2026-45829 , CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About the Vulnerability: CVE-2026-45829 The issue originates from ChromaDB’s FastAPI server component, where user-controlled embedding function configuration is processed before authentication checks occur, leading to pre-authentication code execution. By sending a crafted HTTP POST request to the collection creation endpoint with a malicious HuggingFace model reference (with trust_remote_code enabled), attackers can force the server to download and execute arbitrary Python code before the request is rejected as unauthorized. No authentication is required to exploit this issue. The following components are affected: ChromaDB Python FastAPI server, versions 1.0.0 through 1.5.8. ChromaDB is a core component in many AI and machine learning pipelines, used as a vector database and retrieval backend in agentic AI applications , RAG (Retrieval-Augmented Generation) systems, and semantic search services. With approximately 14 million monthly PyPI downloads, ChromaDB has a substantial footprint in enterprise AI deployments. Approximately 73% of internet-exposed ChromaDB instances are running vulnerable versions according to Shodan-based scanning data. The vulnerability, dubbed “ChromaToast Served Pre-Auth” by its discoverers at HiddenLayer, was first reported by independent researcher Azraelxuemo in November 2025, and subsequently by HiddenLayer starting February 17, 2026. Multiple contact attempts to the ChromaDB maintainers went unanswered. ChromaDB released version 1.5.9 shortly before public disclosure, though whether this version fully addresses the vulnerability remains unconfirmed. Risk Impact At the time of writing, HiddenLayer has published a detailed technical analysis with proof-of-concept details, and there is no confirmed active exploitation in the wild. Regardless, the severity, ease of exploitation, and the large number of exposed instances make this vulnerability a critical risk, especially for cloud-hosted and internet-facing deployments. Successful exploitation could allow attackers to gain full control of the server process, exfiltrate sensitive data including API keys, environment variables, and mounted secrets, and potentially move laterally across connected infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. Mitigation Recommendations Users should upgrade to ChromaDB version 1.5.9 or later and verify the patch status. Organizations running the Python FastAPI server should immediately evaluate whether their deployments are internet-facing and take the following steps: Switch to the Rust-based frontend, which is not affected by this vulnerability Restrict network access to ChromaDB API ports to trusted clients only Avoid exposing the Python API server to the public internet Scan all ML model artifacts before runtime execution Treat external model references as untrusted code sources How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of ChromaDB, understand their exposure in context, including internet accessibility, runtime reachability , and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. From the News Item in the Orca Platform Related articles Cloud Security Learning Best Palo Alto Networks Cortex (Prisma Cloud) Alternatives in 2026 May 22, 2026 Cloud Security Learning 7 Enterprise AI Security Risks to Manage May 22, 2026 Research C",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks",
-            "PyPI"
-          ],
-          "cve_ids": [
-            "CVE-2026-45829"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "poc_available",
-            "preauth_unauth"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Critical Pre-Auth RCE in ChromaDB Threatens AI Infrastructure",
-          "link": "https://orca.security/resources/blog/chromadb-pre-auth-rce-vulnerability/",
-          "published": "2026-05-21T20:31:44+00:00",
-          "summary": "A max-severity vulnerability (CVE-2026-45829, CVSS 10.0) was disclosed affecting ChromaDB, the widely used open-source vector database for AI applications, allowing attackers to achieve unauthenticated remote code execution via a logic flaw in the Python FastAPI server’s authentication flow. Due to the potential for full server compromise, immediate mitigation is required for all internet-facing deployments. About […]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks",
-              "PyPI"
-            ],
-            "cve_ids": [
-              "CVE-2026-45829"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "poc_available",
-              "preauth_unauth"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -2393,7 +2381,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Exposing Fox Tempest: A malware-signing service operation",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2430,7 +2418,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2464,7 +2452,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -4580,94 +4568,6 @@
       ]
     },
     {
-      "cluster_id": "405bfcae7f",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "link": "https://risky.biz/RBNEWS565/",
-        "published": "2026-05-18T05:24:03+00:00",
-        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-          "link": "https://risky.biz/RBNEWS565/",
-          "published": "2026-05-18T05:24:03+00:00",
-          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "65812e837f",
       "priority_score": 13,
       "member_count": 1,
@@ -4758,6 +4658,94 @@
       ]
     },
     {
+      "cluster_id": "405bfcae7f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "link": "https://risky.biz/RBNEWS565/",
+        "published": "2026-05-18T05:24:03+00:00",
+        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+          "link": "https://risky.biz/RBNEWS565/",
+          "published": "2026-05-18T05:24:03+00:00",
+          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "75e639228e",
       "priority_score": 13,
       "member_count": 1,
@@ -4766,16 +4754,21 @@
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
         "affected_products": [
-          "GitHub"
+          "GitHub",
+          "Slack"
         ],
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
-          "uncategorized"
+          "news_report"
         ],
         "confidence_tier": [
           "tier_3_analysis"
@@ -4788,20 +4781,25 @@
         "link": "https://tldrsec.com/p/tldr-sec-329",
         "published": "2026-05-21T14:30:00+00:00",
         "summary": "Detecting and deceiving attackers with AI honeypots, detect supply chain attacks with GitHub Action canaries, the latest from Microsoft's new \"Autonomous Code Security\" team",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "0 tl;dr sec Posts [tl;dr sec] #329 - AI-powered Honeypots, GitHub Action Canaries, Microsoft’s Agentic Security Scanner [tl;dr sec] #329 - AI-powered Honeypots, GitHub Action Canaries, Microsoft’s Agentic Security Scanner Detecting and deceiving attackers with AI honeypots, detect supply chain attacks with GitHub Action canaries, the latest from Microsoft's new \"Autonomous Code Security\" team Clint Gibler May 21, 2026 Hey there, I hope you’ve been doing well! 🍦 Ice Cream Bonding There’s this Mediterranean place I like to go to sometimes, Souvla, that has delicious frozen Greek yogurt you can get with baklava on top. It’s helped me power through many a late night writing tl;dr sec . Like tonight 😅 I’ve gradually started befriending the manager over time, over a series of froyos. We’ve discussed how it’s sometimes difficult to make new (deep) friends as you get older, some of his work challenges, and more. All from periodic 5 minute conversations. It makes me think that most people probably have a lot to open up and share about, if you create a little space for it. Anyway, I’m not saying frozen yogurt is the key to adult friendship, but I’m not not saying that. Maybe community is built less through grand gestures, and more through remembering someone’s name, asking one more question, and occasionally adding baklava. Sponsor 📣 State of AI in the Cloud 2026: How AI Is Reshaping Cloud Security AI is no longer a standalone tool, it’s embedded across cloud environments, development workflows, and production systems. The State of AI Report reveals how AI adoption is expanding the attack surface, accelerating attacker behavior, and introducing new risks through agents, copilots, and automation. Get the data behind what’s changing and what security teams need to do about it. 👉 Read the Report 👈 Hm some interesting stats here: “AI is now core operational infrastructure.” ~80% of orgs use AI IDE extensions, and its impact on security is… 👆️ AppSec The down fall of bug bounties Assetnote Searchlight Cyber’s Shubham Shah reflects on how AI has impacted bug bounty: skilled researchers are submitting higher quality reports faster with AI assistance, but platforms are overwhelmed by low-quality AI-generated submissions. Shubz isn’t pleased with current solutions from HackerOne (fighting AI with AI) and Bugcrowd (spam controls), finding despite him hacking on Uber’s bug bounty program for almost ten years and ranked #1 on their public program, and his recent high impact submission took 12 days to get a response instead of previously 1-3 days. The security policy rollout survival guide The blog version of Oblique's Maya Kaczorowski ’s BSidesSeattle talk. Maya o utlines a practical framework for rolling out security policies, emphasizing that successful implementation requires getting stakeholder input from engineering, product, SRE, and IT before defining controls, then running a pilot with representative users across diverse roles and platforms to identify edge cases and validate that controls actually work. She emphasizes the importance of communicating changes through multiple channels (email, Slack, all-hands), making policy enforcement visible to users so they can see how they compare to peers, and ensuring the policy owner (not IT) handles ongoing enforcement and user friction. How OLTs may have exposed entire ISP networks Quarkslab's Mathieu Farrell describes a chain of pre-auth RCEs against network vendor VSOL's GPON OLT (Gigabit Passive Optical Network Optical Line Terminal) hardware and its Cloud EMS fleet manager that together can take over an ISP's entire fiber network. Farrell found three pre-auth command injection bugs in the V1600 OLT models (SNMP traceroute, TACACS+ login, web traceroute), all share the same default admin credentials hardcoded in the firmware, plus an arbitrary file upload RCE in Cloud EMS that allows JSP webshell deployment with root access. The post shows how attackers could chain these vulnerabilities, startin",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
           "affected_products": [
+            "Slack",
             "GitHub"
           ],
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
           "confidence_tier": "tier_3_analysis"
         }
       },
@@ -4816,15 +4814,20 @@
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
             "affected_products": [
+              "Slack",
               "GitHub"
             ],
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
             "confidence_tier": "tier_3_analysis"
           }
         }
@@ -6225,6 +6228,79 @@
       ]
     },
     {
+      "cluster_id": "0809a94114",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Quoting Armin Ronacher",
+        "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+        "published": "2026-05-24T18:46:53+00:00",
+        "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 24th May 2026 The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Posted 24th May 2026 at 6:46 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a quotation collected by Simon Willison, posted on 24th May 2026 . armin-ronacher 23 open-source 305 ai 2032 generative-ai 1798 llms 1764 slop 40 ai-ethics 305 github-issues 15 coding-agents 204 pi 3 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Quoting Armin Ronacher",
+          "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+          "published": "2026-05-24T18:46:53+00:00",
+          "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "786dce3e78",
       "priority_score": 11,
       "member_count": 1,
@@ -6482,7 +6558,7 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6657,7 +6733,7 @@
         "published": "2026-05-24T10:24:34+00:00",
         "summary": "submitted by /u/digicat [link] [comments]",
         "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
             "supply_chain"
@@ -6728,6 +6804,213 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_5_chatter"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "743ec99484",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
+        "link": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
+        "published": "2026-05-22T08:50:00+00:00",
+        "summary": "Watch out for bogus World Cup websites that mimic official ticket and merchandise flows to steal money and personal data",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
+          "link": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
+          "published": "2026-05-22T08:50:00+00:00",
+          "summary": "Watch out for bogus World Cup websites that mimic official ticket and merchandise flows to steal money and personal data",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7335a38549",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Webworm: New burrowing techniques",
+        "link": "https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/",
+        "published": "2026-05-20T08:40:00+00:00",
+        "summary": "ESET researchers describe new tools and techniques that the Webworm APT group recently added to its arsenal",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Webworm: New burrowing techniques",
+          "link": "https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/",
+          "published": "2026-05-20T08:40:00+00:00",
+          "summary": "ESET researchers describe new tools and techniques that the Webworm APT group recently added to its arsenal",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "42788c8317",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "The quest for greater tech independence",
+        "link": "https://www.welivesecurity.com/en/cybersecurity/quest-greater-tech-independence/",
+        "published": "2026-05-19T08:50:00+00:00",
+        "summary": "A complete decoupling from US technology is neither realistic nor necessary, but the changing environment does require nations and companies to reassess their relationships and dependencies",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "The quest for greater tech independence",
+          "link": "https://www.welivesecurity.com/en/cybersecurity/quest-greater-tech-independence/",
+          "published": "2026-05-19T08:50:00+00:00",
+          "summary": "A complete decoupling from US technology is neither realistic nor necessary, but the changing environment does require nations and companies to reassess their relationships and dependencies",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
           }
         }
       ]
@@ -7539,213 +7822,6 @@
       ]
     },
     {
-      "cluster_id": "743ec99484",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
-        "link": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
-        "published": "2026-05-22T08:50:00+00:00",
-        "summary": "Watch out for bogus World Cup websites that mimic official ticket and merchandise flows to steal money and personal data",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Foul play: Fake FIFA websites target soccer fans looking for World Cup tickets, merchandise",
-          "link": "https://www.welivesecurity.com/en/cybersecurity/foul-play-fake-fifa-world-cup-websites-tickets/",
-          "published": "2026-05-22T08:50:00+00:00",
-          "summary": "Watch out for bogus World Cup websites that mimic official ticket and merchandise flows to steal money and personal data",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "7335a38549",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Webworm: New burrowing techniques",
-        "link": "https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/",
-        "published": "2026-05-20T08:40:00+00:00",
-        "summary": "ESET researchers describe new tools and techniques that the Webworm APT group recently added to its arsenal",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Webworm: New burrowing techniques",
-          "link": "https://www.welivesecurity.com/en/eset-research/webworm-new-burrowing-techniques/",
-          "published": "2026-05-20T08:40:00+00:00",
-          "summary": "ESET researchers describe new tools and techniques that the Webworm APT group recently added to its arsenal",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "42788c8317",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "The quest for greater tech independence",
-        "link": "https://www.welivesecurity.com/en/cybersecurity/quest-greater-tech-independence/",
-        "published": "2026-05-19T08:50:00+00:00",
-        "summary": "A complete decoupling from US technology is neither realistic nor necessary, but the changing environment does require nations and companies to reassess their relationships and dependencies",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "The quest for greater tech independence",
-          "link": "https://www.welivesecurity.com/en/cybersecurity/quest-greater-tech-independence/",
-          "published": "2026-05-19T08:50:00+00:00",
-          "summary": "A complete decoupling from US technology is neither realistic nor necessary, but the changing environment does require nations and companies to reassess their relationships and dependencies",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "6c08f48b40",
       "priority_score": 10,
       "member_count": 1,
@@ -8141,73 +8217,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "508673b003",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
-        "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
-        "published": "2026-05-21T00:00:00+00:00",
-        "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
-          "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
-          "published": "2026-05-21T00:00:00+00:00",
-          "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8228,11 +8237,12 @@
           "vulnerability_disclosure"
         ]
       },
-      "cluster_count": 33,
-      "article_count": 34,
-      "cohesion": 0.36,
+      "cluster_count": 34,
+      "article_count": 40,
+      "cohesion": 0.366,
       "cluster_ids": [
         "f0383fca84",
+        "7a0bfcbd42",
         "31ede2289a",
         "8d99a48c55",
         "b090e3ad19",
@@ -8253,8 +8263,8 @@
         "d227de9cf4",
         "e52acefae7",
         "9e047f3f25",
-        "405bfcae7f",
         "65812e837f",
+        "405bfcae7f",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
