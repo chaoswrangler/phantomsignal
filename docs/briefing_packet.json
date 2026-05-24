@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-23T22:58:16.310472+00:00",
+  "generated_at": "2026-05-24T00:03:13.196023+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 482,
-  "total_clusters_raw": 468,
+  "total_items_in_window": 483,
+  "total_clusters_raw": 469,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 328,
+  "dropped_low_score": 329,
   "dropped_overflow": 60,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -88,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 3
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -102,12 +102,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
@@ -116,25 +116,18 @@
       "item_count": 24,
       "in_window_count": 0
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -144,25 +137,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -172,11 +151,53 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
+      "in_window_count": 0
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 7
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -186,40 +207,12 @@
       "item_count": 50,
       "in_window_count": 2
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -228,18 +221,25 @@
       "item_count": 50,
       "in_window_count": 5
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Active Countermeasures": {
@@ -270,32 +270,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Rapid7": {
@@ -304,6 +283,27 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -319,19 +319,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -347,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
+      "item_count": 100,
+      "in_window_count": 7
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -361,19 +361,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 7
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -389,20 +389,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -417,12 +403,26 @@
       "item_count": 20,
       "in_window_count": 18
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,12 +431,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -452,40 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 31
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -494,12 +473,33 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 31
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -514,13 +514,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 46
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -550,13 +543,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
-    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
@@ -571,6 +557,13 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -578,12 +571,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -592,6 +585,13 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -599,19 +599,19 @@
       "item_count": 25,
       "in_window_count": 5
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -4552,6 +4552,94 @@
       ]
     },
     {
+      "cluster_id": "405bfcae7f",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Exchange"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Risky Business News",
+        "cohort": "practitioner_analysis",
+        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "link": "https://risky.biz/RBNEWS565/",
+        "published": "2026-05-18T05:24:03+00:00",
+        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft Exchange"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_3_analysis"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
+          "link": "https://risky.biz/RBNEWS565/",
+          "published": "2026-05-18T05:24:03+00:00",
+          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft Exchange"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_3_analysis"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "65812e837f",
       "priority_score": 13,
       "member_count": 1,
@@ -4637,94 +4725,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "405bfcae7f",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Exchange"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Risky Business News",
-        "cohort": "practitioner_analysis",
-        "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "link": "https://risky.biz/RBNEWS565/",
-        "published": "2026-05-18T05:24:03+00:00",
-        "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-        "full_body": "Risky Bulletin Podcast May 18, 2026 Risky Bulletin: Indonesia emerges as a new hub for cyber scams Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack. Your browser does not support the audio element. Risky Bulletin: Indonesia emerges as a new hub for cyber scams â¶ 0:00 / 10:10 Subscribe Brought to you by Push Security Browser-based detection and response Show notes Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft Exchange"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_3_analysis"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Risky Business News",
-          "cohort": "practitioner_analysis",
-          "title": "Risky Bulletin: Indonesia emerges as a new hub for cyber scams",
-          "link": "https://risky.biz/RBNEWS565/",
-          "published": "2026-05-18T05:24:03+00:00",
-          "summary": "Indonesia emerges as a new cyber scam hub, Grafana got hacked and held for ransom, the Fast16 malware subverted software used to simulate nuclear explosions, and a new Microsoft Exchange zero-day is under attack.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft Exchange"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_3_analysis"
           }
         }
       ]
@@ -6508,7 +6508,7 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 | Online How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 5 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -7608,178 +7608,6 @@
       ]
     },
     {
-      "cluster_id": "6c08f48b40",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Check Point"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "iran",
-          "israel"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-        "published": "2026-05-22T15:09:29+00:00",
-        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Check Point"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "iran",
-            "israel"
-          ],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-          "published": "2026-05-22T15:09:29+00:00",
-          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Check Point"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "iran",
-              "israel"
-            ],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "ad84f1fd3a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Lapsus"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "Lapsus$"
-        ],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [
-          "Check Point",
-          "GitHub"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "18th May – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-        "published": "2026-05-18T14:58:29+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "Lapsus$"
-          ],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [
-            "Check Point",
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "18th May – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
-          "published": "2026-05-18T14:58:29+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "Lapsus$"
-            ],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [
-              "Check Point",
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "743ec99484",
       "priority_score": 10,
       "member_count": 1,
@@ -7987,6 +7815,397 @@
       ]
     },
     {
+      "cluster_id": "6c08f48b40",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Check Point"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran",
+          "israel"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+        "published": "2026-05-22T15:09:29+00:00",
+        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Check Point"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran",
+            "israel"
+          ],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+          "published": "2026-05-22T15:09:29+00:00",
+          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Check Point"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran",
+              "israel"
+            ],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ad84f1fd3a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Lapsus"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "Lapsus$"
+        ],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "Check Point",
+          "GitHub"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "18th May – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+        "published": "2026-05-18T14:58:29+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "Lapsus$"
+          ],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "Check Point",
+            "GitHub"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "18th May – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/18th-may-threat-intelligence-report/",
+          "published": "2026-05-18T14:58:29+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 18th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Vodafone, a major international telecom, has sustained a source code leak claimed by the Lapsus$ extortion group. The company confirmed limited access to GitHub files through compromised third-party development software, while stating that […] The post 18th May – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "Lapsus$"
+            ],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "Check Point",
+              "GitHub"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d601f76167",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "russia"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+        "link": "https://securelist.com/cloud-atlas-2026/119895/",
+        "published": "2026-05-22T09:12:13+00:00",
+        "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "russia"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
+          "link": "https://securelist.com/cloud-atlas-2026/119895/",
+          "published": "2026-05-22T09:12:13+00:00",
+          "summary": "Cloud Atlas attacks the public sector and diplomatic structures of Russia and Belarus, using ReverseSocks, SSH, and Tor for persistence in infected systems and its new tool, PowerCloud.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "russia"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a64f4c6a4f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "IT threat evolution in Q1 2026. Mobile statistics",
+        "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+        "published": "2026-05-18T12:00:30+00:00",
+        "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "IT threat evolution in Q1 2026. Mobile statistics",
+          "link": "https://securelist.com/malware-report-q1-2026-mobile-statistics/119819/",
+          "published": "2026-05-18T12:00:30+00:00",
+          "summary": "This report contains mobile threat statistics for Q1 2026, along with noteworthy discoveries and quarterly trends: new versions of SparkCat and Triada.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "ca17b8fd1f",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
+        "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
+        "published": "2026-05-18T12:00:22+00:00",
+        "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Apple iOS/macOS"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "IT threat evolution in Q1 2026. Non-mobile statistics",
+          "link": "https://securelist.com/malware-report-q1-2026-pc-iot-statistics/119828/",
+          "published": "2026-05-18T12:00:22+00:00",
+          "summary": "The report presents key trends and statistics on malware that targeted personal computers running Windows and macOS, as well as Internet of Things (IoT) devices, during Q1 2026.",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "a4625c9f3f",
       "priority_score": 10,
       "member_count": 1,
@@ -8052,237 +8271,6 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "48141a0d5c",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
-        "link": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
-        "published": "2026-05-19T15:39:37+00:00",
-        "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities",
-          "link": "https://blog.talosintelligence.com/tp-link-photoshop-openvpn-norton-vpn-vulnerabilities/",
-          "published": "2026-05-19T15:39:37+00:00",
-          "summary": "Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, in adherence to Cisco’s third-party vulnerability",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "fadd6ff8fe",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
-        "link": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
-        "published": "2026-05-19T10:00:20+00:00",
-        "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "From PDB strings to MaaS: Tracking a commodity BadIIS ecosystem used by Chinese-speaking threat",
-          "link": "https://blog.talosintelligence.com/from-pdb-strings-to-maas-tracking-a-commodity-badiis-ecosystem/",
-          "published": "2026-05-19T10:00:20+00:00",
-          "summary": "Cisco Talos has uncovered a BadIIS variant — identifiable by its embedded \"demo.pdb\" strings — that functions as commodity malware, likely sold or shared among multiple Chinese-speaking cyber crime groups operating under a malware-as-a-service (MaaS) model for continuous monetization.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b2d4914481",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "malware"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "An Example of Stack String in High Level Language, (Sat, May 23rd)",
-        "link": "https://isc.sans.edu/diary/rss/33008",
-        "published": "2026-05-23T05:49:17+00:00",
-        "summary": "This week, I'm attending the SEC670[ 1 ] training (â€œRed Teaming Tools - Developing Windows Implants, Shellcode, Command and Controlâ€). From my point of view, this training fits perfectly with FOR610 or FOR710 (malware analysis) because it addresses malware from the opposite: Instead of performing reverse engineering, you write malicious code! Always interesting to have another point of view.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_1_government"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "An Example of Stack String in High Level Language, (Sat, May 23rd)",
-          "link": "https://isc.sans.edu/diary/rss/33008",
-          "published": "2026-05-23T05:49:17+00:00",
-          "summary": "This week, I'm attending the SEC670[ 1 ] training (â€œRed Teaming Tools - Developing Windows Implants, Shellcode, Command and Controlâ€). From my point of view, this training fits perfectly with FOR610 or FOR710 (malware analysis) because it addresses malware from the opposite: Instead of performing reverse engineering, you write malicious code! Always interesting to have another point of view.",
-          "taxonomy": {
-            "threat_categories": [
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_1_government"
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
@@ -8306,9 +8294,9 @@
           "tier_4_news"
         ]
       },
-      "cluster_count": 36,
-      "article_count": 37,
-      "cohesion": 0.373,
+      "cluster_count": 37,
+      "article_count": 38,
+      "cohesion": 0.372,
       "cluster_ids": [
         "f0383fca84",
         "31ede2289a",
@@ -8320,6 +8308,7 @@
         "04571b3b50",
         "b9778d72dd",
         "bc4a1043d6",
+        "c1d9509f14",
         "8ebb62380b",
         "038b9ff831",
         "f0c4c171b9",
@@ -8332,8 +8321,8 @@
         "e52acefae7",
         "af2c17c132",
         "9e047f3f25",
-        "65812e837f",
         "405bfcae7f",
+        "65812e837f",
         "312db5be97",
         "3f3940c1a9",
         "d6442218f6",
@@ -8345,7 +8334,7 @@
         "68ea83e527",
         "b60cfa45bc",
         "a17791a046",
-        "fadd6ff8fe"
+        "ca17b8fd1f"
       ]
     },
     {
