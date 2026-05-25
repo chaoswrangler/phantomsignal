@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T23:09:59.013547+00:00",
+  "generated_at": "2026-05-25T04:24:13.404889+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 480,
-  "total_clusters_raw": 465,
+  "total_items_in_window": 479,
+  "total_clusters_raw": 466,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 318,
+  "dropped_low_score": 319,
   "dropped_overflow": 67,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -109,25 +116,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 24,
-      "in_window_count": 0
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -144,33 +137,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -179,12 +158,40 @@
       "item_count": 10,
       "in_window_count": 9
     },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -200,12 +207,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 5
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 2
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -214,20 +228,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 5
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -235,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -263,13 +263,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -277,18 +270,11 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
+      "item_count": 15,
       "in_window_count": 2
     },
     "Rapid7": {
@@ -298,19 +284,26 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 6
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 5
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
@@ -319,19 +312,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 6
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -340,12 +326,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 6
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -354,26 +354,12 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 2
-    },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -382,11 +368,18 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 30,
+      "in_window_count": 23
+    },
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 5
     },
     "Chainalysis": {
@@ -395,6 +388,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,19 +424,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,12 +438,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 18
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -464,10 +457,17 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 31
+      "in_window_count": 30
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -479,20 +479,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -508,6 +494,41 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 1
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 23
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -521,48 +542,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 23
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -578,6 +557,34 @@
       "item_count": 100,
       "in_window_count": 6
     },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
+    },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
+    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -591,13 +598,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 6
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -1934,21 +1934,14 @@
           "zero_day"
         ],
         "actor_attribution": [],
-        "affected_industries": [
-          "energy_utilities",
-          "technology"
-        ],
-        "affected_products": [
-          "GitHub",
-          "Microsoft Windows"
-        ],
+        "affected_industries": [],
+        "affected_products": [],
         "cve_ids": [
           "CVE-2026-45585"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [
-          "poc_available",
           "zero_day"
         ],
         "content_type": [
@@ -1965,7 +1958,7 @@
         "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
         "published": "2026-05-20T08:28:26+00:00",
         "summary": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
-        "full_body": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit  Ravie Lakshmanan  May 20, 2026 Vulnerability / Encryption Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585 , carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the tech giant said in an advisory. \"The proof of concept for this vulnerability has been made public, violating coordinated vulnerability best practices.\" The issue impacts Windows 11 version 26H1 for x64-based Systems, Windows 11 Version 24H2 for x64-based Systems, Windows 11 Version 25H2 for x64-based Systems, Windows Server 2025, and Windows Server 2025 (Server Core installation). YellowKey was disclosed by a security researcher named Chaotic Eclipse (aka Nightmare-Eclipse). It essentially involves placing specially crafted 'FsTx' files on a USB drive or EFI partition, plugging the USB drive into the target Windows computer with BitLocker protections turned on, rebooting into the Windows Recovery Environment (WinRE), and triggering a shell with unrestricted access by holding down the CTRL key. \"If you did everything properly, a shell will spawn with unrestricted access to the BitLocker protected volume,\" the researcher noted in a GitHub post. Redmond noted that successful exploitation could permit an attacker with physical access to sidestep the BitLocker Device Encryption feature on the system storage device and gain access to encrypted data. \"To break encryption, YellowKey abuses a behavioral trust assumption in the recovery interface, allowing attackers to spawn an unrestricted shell with full access to the encrypted volume during the pre-boot recovery sequence,\" LevelBlue said . \"And because YellowKey doesn't require software installation, existing credentials, or network access to break encryption, any machine that has a USB port and can be rebooted can be a target.\" To address the risk, the following mitigations have been outlined: Mount the WinRE image on each device. Mount the system registry hive of the mounted WinRE image. Modify BootExecute by removing \"autofstx.exe\" value from Session Manager's BootExecute REG_MULTI_SZ value. Save and unload Registry hive . Unmount and commit the updated WinRE image. Reestablish BitLocker trust for WinRE. \"Specifically, you prevent the FsTx Auto Recovery Utility, autofstx.exe, from automatically starting when the WinRE image launches,\" security researcher Will Dormann said . \"With this change, the Transactional NTFS replaying that deletes winpeshl.ini no longer happens. It also recommends switching from TPM-only to TPM+PIN.\" Microsoft also emphasized that users can be safeguarded against exploitation by configuring BitLocker on already encrypted devices with \"TPM-only\" protector by switching to \"TPM+PIN\" mode via PowerShell, the command line, or the control panel. This will require a PIN to decrypt the drive at startup, effectively backing YellowKey attacks. On devices that are not encrypted, administrators are advised to enable the \"Require additional authentication at startup\" option via Microsoft Intune or Group Policies and ensure that \"Configure TPM startup PIN\" is set to \"Require startup PIN with TPM.\" Update In a new analysis published on May 22, 2026, LevelBlue said YellowKey eliminates the need for specialized tooling and operates entirely through native Windows functionality. \"It requires only brief physical access and does not introduce persistent hardware artifacts,\" it said. \"As a result, it becomes viable across a wider range of real-world scenarios, including device theft, border inspections, insider access, and supply chain exposure.\" It further noted that YellowKey reinforces how initial access to a decrypted volume can be expanded t",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -1973,22 +1966,15 @@
             "vulnerability_disclosure"
           ],
           "actor_attribution": [],
-          "affected_industries": [
-            "technology",
-            "energy_utilities"
-          ],
-          "affected_products": [
-            "Microsoft Windows",
-            "GitHub"
-          ],
+          "affected_industries": [],
+          "affected_products": [],
           "cve_ids": [
             "CVE-2026-45585"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [
-            "zero_day",
-            "poc_available"
+            "zero_day"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
@@ -2008,22 +1994,15 @@
               "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [
-              "technology",
-              "energy_utilities"
-            ],
-            "affected_products": [
-              "Microsoft Windows",
-              "GitHub"
-            ],
+            "affected_industries": [],
+            "affected_products": [],
             "cve_ids": [
               "CVE-2026-45585"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
-              "zero_day",
-              "poc_available"
+              "zero_day"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
@@ -2227,32 +2206,17 @@
       ],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation",
-          "malware",
-          "ransomware",
-          "vulnerability_disclosure",
-          "zero_day"
+          "vulnerability_disclosure"
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS",
-          "Microsoft Exchange",
-          "Palo Alto Networks"
-        ],
+        "affected_products": [],
         "cve_ids": [
-          "CVE-2026-41940",
-          "CVE-2026-42897",
           "CVE-2026-48172"
         ],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "mass_exploitation",
-          "preauth_unauth",
-          "zero_day"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "vulnerability_disclosure"
         ],
@@ -2267,36 +2231,21 @@
         "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
         "published": "2026-05-23T07:35:13+00:00",
         "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
-        "full_body": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root  Ravie Lakshmanan  May 23, 2026 Vulnerability / Web Security A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may exploit the lsws.redisAble function to execute arbitrary scripts as root,\" LiteSpeed said . The vulnerability impacts all versions of the plugin between 2.3 and 2.4.4. LiteSpeed's WHM plugin is not impacted. The issue has been addressed in version 2.4.5. Security researcher David Strydom has been credited with discovering and reporting the flaw. LiteSpeed noted that the \"vulnerability is being actively exploited,\" but refrained from sharing additional details. It has provided the following indicator of compromise - grep -rE \"cpanel_jsonapi_func=redisAble\" /var/cpanel/logs /usr/local/cpanel/logs/ 2>/dev/null If running the aforementioned \"grep\" command does not produce any output, the server is not affected. However, if there is any output, users are advised to examine the IP addresses in the list and determine if they are legitimate, and if not, block them. Following a security review of its cPanel and WHM plugins in the wake of the vulnerability, LiteSpeed said it has patched additional potential attack vectors in both plugins and released cPanel plugin version 2.4.7 as part of WHM plugin version 5.3.1.0. Users are advised to upgrade to LiteSpeed WHM Plugin version 5.3.1.0, which is bundled with cPanel plugin v2.4.7 or higher, to patch the vulnerability. If immediate patching is not an option, it's recommended to remove the user-end plugin by running the below command - /usr/local/lsws/admin/misc/lscmctl cpanelplugin --uninstall The development comes weeks after a critical cPanel vulnerability ( CVE-2026-41940 , CVSS score: 9.8) was identified as actively exploited by unknown threat actors to deploy Mirai botnet variants and a ransomware strain called Sorry. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  cPanel , cybersecurity , LiteSpeed , privilege escalation , ransomware , Vulnerability , WHM ⚡ Top Stories This Week Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption 18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday [Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI and More Packages cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor ⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation ⭐ Featured Resources [Webinar] Learn How to Handle Critical SOC Alerts With AI Support Identify Internal Attack Surfaces More Efficiently With a Free Assessment [eBook] Get the 3-Number SOC Diagnostic to Reduce Queue Risk [Guide] Stop Email Fraud ",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware",
-            "zero_day",
-            "active_exploitation",
-            "vulnerability_disclosure",
-            "malware"
+            "vulnerability_disclosure"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks",
-            "Microsoft Exchange",
-            "Apple iOS/macOS"
-          ],
+          "affected_products": [],
           "cve_ids": [
-            "CVE-2026-41940",
-            "CVE-2026-42897",
             "CVE-2026-48172"
           ],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "mass_exploitation",
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news"
         }
@@ -2311,32 +2260,17 @@
           "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to an instance of incorrect privilege assignment that an attacker could abuse to run arbitrary scripts with elevated permissions. \"Any cPanel user (including an attacker or a compromised account) may",
           "taxonomy": {
             "threat_categories": [
-              "ransomware",
-              "zero_day",
-              "active_exploitation",
-              "vulnerability_disclosure",
-              "malware"
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks",
-              "Microsoft Exchange",
-              "Apple iOS/macOS"
-            ],
+            "affected_products": [],
             "cve_ids": [
-              "CVE-2026-41940",
-              "CVE-2026-42897",
               "CVE-2026-48172"
             ],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "mass_exploitation",
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news"
           }
@@ -2381,7 +2315,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "Exposing Fox Tempest: A malware-signing service operation",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2418,7 +2352,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -2452,7 +2386,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "Exposing Fox Tempest: A malware-signing service operation",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
@@ -3558,14 +3492,14 @@
       ]
     },
     {
-      "cluster_id": "1152520ddc",
+      "cluster_id": "6134aa4920",
       "priority_score": 14,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation"
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -3574,11 +3508,10 @@
         "attack_techniques": [],
         "geographic_scope": [],
         "urgency_signals": [
-          "actively_exploited",
-          "cisa_kev"
+          "zero_day"
         ],
         "content_type": [
-          "uncategorized"
+          "detection_writeup"
         ],
         "confidence_tier": [
           "tier_5_chatter"
@@ -3587,15 +3520,15 @@
       "primary": {
         "source": "Reddit r/cybersecurity",
         "cohort": "reddit_practitioner_osint",
-        "title": "Active Drupal SQLi exploitation is a real „patch now“ moment",
-        "link": "https://www.reddit.com/r/cybersecurity/comments/1tmnctp/active_drupal_sqli_exploitation_is_a_real_patch/",
-        "published": "2026-05-24T20:30:56+00:00",
-        "summary": "A Drupal core SQL injection issue is reportedly being actively exploited and added to CISA KEV. If your team runs Drupal, this is not a \"next sprint\" fix. Patch fast, review logs, and check internet-facing exposure right away. Most damage in cases like this comes from patch delays, not lack of awareness. Do you think most orgs are actually ready for this kind of patch speed? submitted by /u/SkrXR_ [link] [comments]",
+        "title": "Window between zero-day CVE and a patch!",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1tmxuq8/window_between_zeroday_cve_and_a_patch/",
+        "published": "2026-05-25T04:06:37+00:00",
+        "summary": "Can we protect the ZeroDay CVE ? Since every zero-day CVE still needs something to stand on. A misconfig that keeps the door open. A Prerequisite that must be satisfied. A missing detection rule that lets it move silently. the scariest moment in security can be turned into something controlled way! Making this possible will be most precautionary act for planning / patching the holes for crown jewels... submitted by /u/Sea_Cable_548 [link] [comments]",
         "full_body": "",
         "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [
-            "active_exploitation"
+            "zero_day"
           ],
           "actor_attribution": [],
           "affected_industries": [],
@@ -3604,10 +3537,9 @@
           "attack_techniques": [],
           "geographic_scope": [],
           "urgency_signals": [
-            "actively_exploited",
-            "cisa_kev"
+            "zero_day"
           ],
-          "content_type": "uncategorized",
+          "content_type": "detection_writeup",
           "confidence_tier": "tier_5_chatter"
         }
       },
@@ -3615,13 +3547,13 @@
         {
           "source": "Reddit r/cybersecurity",
           "cohort": "reddit_practitioner_osint",
-          "title": "Active Drupal SQLi exploitation is a real „patch now“ moment",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tmnctp/active_drupal_sqli_exploitation_is_a_real_patch/",
-          "published": "2026-05-24T20:30:56+00:00",
-          "summary": "A Drupal core SQL injection issue is reportedly being actively exploited and added to CISA KEV. If your team runs Drupal, this is not a \"next sprint\" fix. Patch fast, review logs, and check internet-facing exposure right away. Most damage in cases like this comes from patch delays, not lack of awareness. Do you think most orgs are actually ready for this kind of patch speed? submitted by /u/SkrXR_ [link] [comments]",
+          "title": "Window between zero-day CVE and a patch!",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tmxuq8/window_between_zeroday_cve_and_a_patch/",
+          "published": "2026-05-25T04:06:37+00:00",
+          "summary": "Can we protect the ZeroDay CVE ? Since every zero-day CVE still needs something to stand on. A misconfig that keeps the door open. A Prerequisite that must be satisfied. A missing detection rule that lets it move silently. the scariest moment in security can be turned into something controlled way! Making this possible will be most precautionary act for planning / patching the holes for crown jewels... submitted by /u/Sea_Cable_548 [link] [comments]",
           "taxonomy": {
             "threat_categories": [
-              "active_exploitation"
+              "zero_day"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -3630,10 +3562,9 @@
             "attack_techniques": [],
             "geographic_scope": [],
             "urgency_signals": [
-              "actively_exploited",
-              "cisa_kev"
+              "zero_day"
             ],
-            "content_type": "uncategorized",
+            "content_type": "detection_writeup",
             "confidence_tier": "tier_5_chatter"
           }
         }
@@ -3922,96 +3853,6 @@
       ]
     },
     {
-      "cluster_id": "e52acefae7",
-      "priority_score": 13,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2021-25740"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Kubernetes"
-        ],
-        "cve_ids": [
-          "CVE-2020-8562",
-          "CVE-2021-25740"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740",
-        "link": "https://securitylabs.datadoghq.com/articles/unpatchable-kubernetes-vulnerabilities-cve-2021-25740/",
-        "published": "2026-05-21T00:00:00+00:00",
-        "summary": "A look at how Kubernetes CVE-2021-25740 allows users with EndpointSlice access to redirect traffic via shared ingress and load balancer services.",
-        "full_body": "Rory McCune Senior Advocate - Security & Compliance In the previous post in this series, we continued our look at unpatchable Kubernetes vulnerabilities with an examination of CVE-2020-8562, which can allow attackers to bypass filters that the Kubernetes project put in place to avoid misuse of the API server proxy feature. For this post, we're going to look at the last of the four unpatchable Kubernetes CVEs, CVE-2021-25740, which relates to how Kubernetes ingress or LoadBalancer features can be abused to bypass network security controls in a cluster. The core of this issue is that users who can modify Endpoint or EndpointSlice objects, which define which Pod objects back services, can redirect traffic to addresses they don't otherwise have access to. How Kubernetes Services and EndpointSlices route traffic To understand this vulnerability and its impact, we first need to look at how Kubernetes Services and EndpointSlices work. Services are used to provide a stable network identity to a set of pods. They're an important part of Kubernetes, as they enable entities like load balancers and proxies to direct traffic to an application with multiple replicas, without them directly needing to track the IP addresses of the Kubernetes pods. While the service object provides a stable network identity, services don't actually track the IP addresses of pods that provide applications. Instead, this information is stored in EndpointSlice (and, in older clusters, Endpoint ) objects, and those objects are kept up to date by controllers running as part of the kube-controller-manager . As an example, let's say we create a simple Kubernetes deployment of three replicas of an NGINX-based application and a service that provides a stable identity: Deployment apiVersion : apps/v1 kind : Deployment metadata : name : nginx labels : app : nginx spec : replicas : 3 selector : matchLabels : app : nginx template : metadata : labels : app : nginx spec : containers : - name : nginx image : nginx : 1.27 ports : - containerPort : 80 Service apiVersion : v1 kind : Service metadata : name : nginx spec : selector : app : nginx ports : - port : 80 targetPort : 80 Once these deployment and service configurations have been applied to the cluster, an EndpointSlice is automatically created that provides the IP addresses of the three pods in the deployment. This EndpointSlice can then be used by the service object to send traffic to one of the pods, when requested. kubectl get endpointslices.discovery.k8s.io NAME ADDRESSTYPE PORTS ENDPOINTS AGE kubernetes IPv4 6443 172.18 .0.2 12m nginx-tkrxf IPv4 80 10.244 .0.6,10.244.0.5,10.244.0.7 87s CVE-2021-25740 technical details The mechanism we've just described can cause security issues in some cases, especially in multi-tenant clusters that have shared ingress or load balancer services, and it's this risk that's captured in CVE-2021-25740. In a cluster with multiple tenants that do not have direct network access to each other's workloads, a malicious application owner can modify their own EndpointSlice objects, causing shared ingress and load balancers to redirect traffic to endpoints in other tenants' namespaces. For example, consider a cluster that has two namespaces for different tenants. Each tenant has a service that they own and can access, but they're prevented from accessing each other's services by network policies and load balancer rules. The load balancer routes traffic based on URLs, which then use services in the two tenants' respective namespaces to work out which pod to send traffic to. The load balancer must have network access to both namespaces in order to fulfill its function, so network policies don't affect traffic coming into the cluster via the load balancer. In this cluster, each tenant has full access to their own namespace, including rights to edit EndpointSlice objects. Multi-tenant cluster where an attacker tenant redirects shared load balancer traffic to the victim tenant's pods (click to enlarg",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes"
-          ],
-          "cve_ids": [
-            "CVE-2020-8562",
-            "CVE-2021-25740"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740",
-          "link": "https://securitylabs.datadoghq.com/articles/unpatchable-kubernetes-vulnerabilities-cve-2021-25740/",
-          "published": "2026-05-21T00:00:00+00:00",
-          "summary": "A look at how Kubernetes CVE-2021-25740 allows users with EndpointSlice access to redirect traffic via shared ingress and load balancer services.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes"
-            ],
-            "cve_ids": [
-              "CVE-2020-8562",
-              "CVE-2021-25740"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "16a15d87de",
       "priority_score": 13,
       "member_count": 1,
@@ -4119,6 +3960,96 @@
             "urgency_signals": [],
             "content_type": "threat_research",
             "confidence_tier": "tier_1_offensive_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e52acefae7",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2021-25740"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Kubernetes"
+        ],
+        "cve_ids": [
+          "CVE-2020-8562",
+          "CVE-2021-25740"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740",
+        "link": "https://securitylabs.datadoghq.com/articles/unpatchable-kubernetes-vulnerabilities-cve-2021-25740/",
+        "published": "2026-05-21T00:00:00+00:00",
+        "summary": "A look at how Kubernetes CVE-2021-25740 allows users with EndpointSlice access to redirect traffic via shared ingress and load balancer services.",
+        "full_body": "Rory McCune Senior Advocate - Security & Compliance In the previous post in this series, we continued our look at unpatchable Kubernetes vulnerabilities with an examination of CVE-2020-8562, which can allow attackers to bypass filters that the Kubernetes project put in place to avoid misuse of the API server proxy feature. For this post, we're going to look at the last of the four unpatchable Kubernetes CVEs, CVE-2021-25740, which relates to how Kubernetes ingress or LoadBalancer features can be abused to bypass network security controls in a cluster. The core of this issue is that users who can modify Endpoint or EndpointSlice objects, which define which Pod objects back services, can redirect traffic to addresses they don't otherwise have access to. How Kubernetes Services and EndpointSlices route traffic To understand this vulnerability and its impact, we first need to look at how Kubernetes Services and EndpointSlices work. Services are used to provide a stable network identity to a set of pods. They're an important part of Kubernetes, as they enable entities like load balancers and proxies to direct traffic to an application with multiple replicas, without them directly needing to track the IP addresses of the Kubernetes pods. While the service object provides a stable network identity, services don't actually track the IP addresses of pods that provide applications. Instead, this information is stored in EndpointSlice (and, in older clusters, Endpoint ) objects, and those objects are kept up to date by controllers running as part of the kube-controller-manager . As an example, let's say we create a simple Kubernetes deployment of three replicas of an NGINX-based application and a service that provides a stable identity: Deployment apiVersion : apps/v1 kind : Deployment metadata : name : nginx labels : app : nginx spec : replicas : 3 selector : matchLabels : app : nginx template : metadata : labels : app : nginx spec : containers : - name : nginx image : nginx : 1.27 ports : - containerPort : 80 Service apiVersion : v1 kind : Service metadata : name : nginx spec : selector : app : nginx ports : - port : 80 targetPort : 80 Once these deployment and service configurations have been applied to the cluster, an EndpointSlice is automatically created that provides the IP addresses of the three pods in the deployment. This EndpointSlice can then be used by the service object to send traffic to one of the pods, when requested. kubectl get endpointslices.discovery.k8s.io NAME ADDRESSTYPE PORTS ENDPOINTS AGE kubernetes IPv4 6443 172.18 .0.2 12m nginx-tkrxf IPv4 80 10.244 .0.6,10.244.0.5,10.244.0.7 87s CVE-2021-25740 technical details The mechanism we've just described can cause security issues in some cases, especially in multi-tenant clusters that have shared ingress or load balancer services, and it's this risk that's captured in CVE-2021-25740. In a cluster with multiple tenants that do not have direct network access to each other's workloads, a malicious application owner can modify their own EndpointSlice objects, causing shared ingress and load balancers to redirect traffic to endpoints in other tenants' namespaces. For example, consider a cluster that has two namespaces for different tenants. Each tenant has a service that they own and can access, but they're prevented from accessing each other's services by network policies and load balancer rules. The load balancer routes traffic based on URLs, which then use services in the two tenants' respective namespaces to work out which pod to send traffic to. The load balancer must have network access to both namespaces in order to fulfill its function, so network policies don't affect traffic coming into the cluster via the load balancer. In this cluster, each tenant has full access to their own namespace, including rights to edit EndpointSlice objects. Multi-tenant cluster where an attacker tenant redirects shared load balancer traffic to the victim tenant's pods (click to enlarg",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Kubernetes"
+          ],
+          "cve_ids": [
+            "CVE-2020-8562",
+            "CVE-2021-25740"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740",
+          "link": "https://securitylabs.datadoghq.com/articles/unpatchable-kubernetes-vulnerabilities-cve-2021-25740/",
+          "published": "2026-05-21T00:00:00+00:00",
+          "summary": "A look at how Kubernetes CVE-2021-25740 allows users with EndpointSlice access to redirect traffic via shared ingress and load balancer services.",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Kubernetes"
+            ],
+            "cve_ids": [
+              "CVE-2020-8562",
+              "CVE-2021-25740"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator"
           }
         }
       ]
@@ -5329,117 +5260,6 @@
       ]
     },
     {
-      "cluster_id": "a1e8437c6d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-26980"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "malware",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [
-          "SonicWall"
-        ],
-        "cve_ids": [
-          "CVE-2026-26980"
-        ],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
-        "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-        "published": "2026-05-24T14:12:32+00:00",
-        "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
-        "full_body": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign By Bill Toulas May 24, 2026 10:12 AM 0 A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. The campaign was discovered by XLab threat intelligence researchers at Chinese cybersecurity company Qianxin, who confirmed impact on more than 700 domains, including university portals, AI/SaaS companies, media outlets, fintech firms, security sites, and personal blogs. According to the researchers, threat actors planted malicious code on the websites of Harvard University, Oxford University, Auburn University, and DuckDuckGo. Compromised sites Source: XLab CVE-2026-26980 impacts Ghost 3.24.0 through 6.19.0, and allows unauthenticated attackers to read arbitrary data from the website database, including the admin API keys. This key gives management access to users, articles, and themes, and can be used to modify article pages. Although the fix for the issue was released on February 19 in Ghost CMS version 6.19.1 , many sites failed to install the security update. SentinelOne published on February 27 details about CVE-2026-26980 being exploited in attacks and how incidents can be detected. The researchers observed at least two distinct activity clusters targeting vulnerable Ghost sites, sometimes re-infecting the same domains with different scripts after cleanup, or one cleaning the script of the other to inject its own. Timeline of the attacks Source: XLab Attack chain The attacks that XLab observed begin by exploiting CVE-2026-26980 to steal the admin API keys, and then use the elevated rights to inject malicious JavaScript into articles. The JavaScript code is a lightweight loader that fetches second-stage code from the attacker’s infrastructure, which is essentially a cloaking script that fingerprints visitors to determine whether they qualify as targets. Visitors passing the verification are served a fake Cloudflare prompt loaded via an iframe on top of the article page, which contains the ClickFix lure. The ClickFix page Source: XLab The page instructs victims to verify that they are human by pasting a provided command on their Windows command prompt, which drops a payload on their systems. XLab has observed multiple payloads being used in these attacks, including DLL loaders, JavaScript droppers, and an Electron-based malware sample named UtilifySetup.exe. Attack phases Source: XLab Mitigating the risk The most important course of action for Ghost CMS website administrators is to upgrade to version 6.19.1 or later and rotate all keys used previously, as they may have been exposed. XLab provided a list of indicators of compromise (IoCs), including injected scripts, so a thorough review of the websites is needed to locate and remove them. The researchers recommend that website owners maintain a 30-day record of admin API call logs to enable a reliable retrospective investigation. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Drupal: Critical SQL injection flaw now targeted in attacks Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw Hackers bypass SonicWall VPN MFA due to incomplete patching Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin Weaver E-cology critical bug exploited in attacks since March",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure",
-            "malware"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "education"
-          ],
-          "affected_products": [
-            "SonicWall"
-          ],
-          "cve_ids": [
-            "CVE-2026-26980"
-          ],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_4_news"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
-          "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
-          "published": "2026-05-24T14:12:32+00:00",
-          "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure",
-              "malware"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "education"
-            ],
-            "affected_products": [
-              "SonicWall"
-            ],
-            "cve_ids": [
-              "CVE-2026-26980"
-            ],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_4_news"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "83e574101d",
       "priority_score": 12,
       "member_count": 1,
@@ -5994,170 +5814,6 @@
       ]
     },
     {
-      "cluster_id": "b5d32d8b6e",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [
-          "china"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "How China-linked threat actors obtain zero-day vulnerabilities",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
-        "published": "2026-05-24T13:47:52+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [
-            "china"
-          ],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "How China-linked threat actors obtain zero-day vulnerabilities",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
-          "published": "2026-05-24T13:47:52+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [
-              "china"
-            ],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "26fa06774d",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "uncategorized"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/sysadmin",
-        "cohort": "reddit_practitioner_osint",
-        "title": "CrowdStrike detections on Nessus scan for MINIPLASMA_VULNERABLE",
-        "link": "https://www.reddit.com/r/sysadmin/comments/1tmdpvp/crowdstrike_detections_on_nessus_scan_for/",
-        "published": "2026-05-24T14:29:01+00:00",
-        "summary": "FYI, we're seeing a ton of CrowdStrike detections this morning where it is killing a powershell execution from our Tenable Nessus scans. Issue seems to be around a new detection for the Miniplasma zero day from last week. Command Line: C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell -NoProfile -Command \"& {$j = sajb {[CmdletBinding()]param([int]$TimeoutSec=20,[int]$Parallelism=4,[switch]$Quiet);$ErrorActionPreference='Stop';function W($m){if(-not $Quiet){Write-Host \\\"[*] $m\\\"}};function Finish($c,$v,$r){$s=switch($c){0{'MINIPLASMA_VULNERABLE'}1{'MINIPLASMA_PATCHED'}default{'MINIPLASMA_INCONCLUSIVE'}}; Killing the scan job seems to resolve. Putting it here in case anyone else gets freaked out this morning. ;-) submitted by /u/Forgery [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "uncategorized",
-          "confidence_tier": "tier_5_chatter"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/sysadmin",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CrowdStrike detections on Nessus scan for MINIPLASMA_VULNERABLE",
-          "link": "https://www.reddit.com/r/sysadmin/comments/1tmdpvp/crowdstrike_detections_on_nessus_scan_for/",
-          "published": "2026-05-24T14:29:01+00:00",
-          "summary": "FYI, we're seeing a ton of CrowdStrike detections this morning where it is killing a powershell execution from our Tenable Nessus scans. Issue seems to be around a new detection for the Miniplasma zero day from last week. Command Line: C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell -NoProfile -Command \"& {$j = sajb {[CmdletBinding()]param([int]$TimeoutSec=20,[int]$Parallelism=4,[switch]$Quiet);$ErrorActionPreference='Stop';function W($m){if(-not $Quiet){Write-Host \\\"[*] $m\\\"}};function Finish($c,$v,$r){$s=switch($c){0{'MINIPLASMA_VULNERABLE'}1{'MINIPLASMA_PATCHED'}default{'MINIPLASMA_INCONCLUSIVE'}}; Killing the scan job seems to resolve. Putting it here in case anyone else gets freaked out this morning. ;-) submitted by /u/Forgery [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "uncategorized",
-            "confidence_tier": "tier_5_chatter"
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "86028b894f",
       "priority_score": 11,
       "member_count": 1,
@@ -6395,7 +6051,74 @@
       ]
     },
     {
-      "cluster_id": "0809a94114",
+      "cluster_id": "718b0a0777",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Simon Willison",
+        "cohort": "ai_security_agentic_risk",
+        "title": "datasette 1.0a30",
+        "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+        "published": "2026-05-24T23:52:37+00:00",
+        "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects , datasette , annotated-release-notes",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 24th May 2026 Release datasette 1.0a30 — An open source multi-tool for exploring and publishing data The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Posted 24th May 2026 at 11:52 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a beat by Simon Willison, posted on 24th May 2026 . projects 531 datasette 1499 annotated-release-notes 50 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_2_operator"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "datasette 1.0a30",
+          "link": "https://simonwillison.net/2026/May/24/datasette/#atom-everything",
+          "published": "2026-05-24T23:52:37+00:00",
+          "summary": "Release: datasette 1.0a30 The big new feature in this alpha is a new customizable \"Jump to...\" menu, described in detail in The extensible \"Jump to\" menu in Datasette 1.0a30 on the Datasette blog. You can try it out by hitting / on latest.datasette.io - it looks like this: The new jump_items_sql() plugin hook allows plugins to add their own items to the set that's searched by the plugin. Tags: projects , datasette , annotated-release-notes",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "d86b3f4c97",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
@@ -6412,79 +6135,6 @@
         "geographic_scope": [],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Simon Willison",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Quoting Armin Ronacher",
-        "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
-        "published": "2026-05-24T18:46:53+00:00",
-        "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 24th May 2026 The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Posted 24th May 2026 at 6:46 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a quotation collected by Simon Willison, posted on 24th May 2026 . armin-ronacher 23 open-source 305 ai 2032 generative-ai 1798 llms 1764 slop 40 ai-ethics 305 github-issues 15 coding-agents 204 pi 3 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "geographic_scope": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator"
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Quoting Armin Ronacher",
-          "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
-          "published": "2026-05-24T18:46:53+00:00",
-          "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "geographic_scope": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator"
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "98d051cdcf",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "geographic_scope": [],
-        "urgency_signals": [],
-        "content_type": [
           "uncategorized"
         ],
         "confidence_tier": [
@@ -6494,18 +6144,18 @@
       "primary": {
         "source": "Simon Willison",
         "cohort": "ai_security_agentic_risk",
-        "title": "Mad House — Usborne Creepy Computer Games",
-        "link": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
-        "published": "2026-05-24T17:14:11+00:00",
-        "summary": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version of that game in JavaScript and HTML: Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books Tags: computer-history , games , tools",
-        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 24th May 2026 Tool Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version of that game in JavaScript and HTML: Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books Posted 24th May 2026 at 5:14 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a beat by Simon Willison, posted on 24th May 2026 . computer-history 18 games 22 tools 64 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
+        "title": "datasette-agent 0.1a4",
+        "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+        "published": "2026-05-24T23:19:34+00:00",
+        "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit / : You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette , datasette-agent",
+        "full_body": "Simon Willison’s Weblog Subscribe Sponsored by: exe.dev — ssh, root, https. Real VMs, not sandboxes. Edge-injected secrets so you can yolo. 0→1? ½→1! 24th May 2026 Release datasette-agent 0.1a4 — An LLM-powered agent for Datasette Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit / : You can try this out by signing into agent.datasette.io using your GitHub account. Posted 24th May 2026 at 11:19 pm Recent articles Datasette Agent - 21st May 2026 Gemini 3.5 Flash: more expensive, but Google plan to use it for everything - 19th May 2026 The last six months in LLMs in five minutes - 19th May 2026 This is a beat by Simon Willison, posted on 24th May 2026 . datasette 1499 datasette-agent 11 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "Anthropic/Claude"
+            "GitHub"
           ],
           "cve_ids": [],
           "attack_techniques": [],
@@ -6519,16 +6169,16 @@
         {
           "source": "Simon Willison",
           "cohort": "ai_security_agentic_risk",
-          "title": "Mad House — Usborne Creepy Computer Games",
-          "link": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
-          "published": "2026-05-24T17:14:11+00:00",
-          "summary": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version of that game in JavaScript and HTML: Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books Tags: computer-history , games , tools",
+          "title": "datasette-agent 0.1a4",
+          "link": "https://simonwillison.net/2026/May/24/datasette-agent/#atom-everything",
+          "published": "2026-05-24T23:19:34+00:00",
+          "summary": "Release: datasette-agent 0.1a4 Taking advantage of the new makeJumpSections() JavaScript plugin hook added in Datasette 1.0a30 , datasette-agent now presents this \"Start a new agent chat\" interface as part of the Jump to menu, any time you hit / : You can try this out by signing into agent.datasette.io using your GitHub account. Tags: datasette , datasette-agent",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Anthropic/Claude"
+              "GitHub"
             ],
             "cve_ids": [],
             "attack_techniques": [],
@@ -6536,6 +6186,117 @@
             "urgency_signals": [],
             "content_type": "uncategorized",
             "confidence_tier": "tier_2_operator"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a1e8437c6d",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-26980"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "malware",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [
+          "SonicWall"
+        ],
+        "cve_ids": [
+          "CVE-2026-26980"
+        ],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "china"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+        "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+        "published": "2026-05-24T14:12:32+00:00",
+        "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+        "full_body": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign By Bill Toulas May 24, 2026 10:12 AM 0 A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. The campaign was discovered by XLab threat intelligence researchers at Chinese cybersecurity company Qianxin, who confirmed impact on more than 700 domains, including university portals, AI/SaaS companies, media outlets, fintech firms, security sites, and personal blogs. According to the researchers, threat actors planted malicious code on the websites of Harvard University, Oxford University, Auburn University, and DuckDuckGo. Compromised sites Source: XLab CVE-2026-26980 impacts Ghost 3.24.0 through 6.19.0, and allows unauthenticated attackers to read arbitrary data from the website database, including the admin API keys. This key gives management access to users, articles, and themes, and can be used to modify article pages. Although the fix for the issue was released on February 19 in Ghost CMS version 6.19.1 , many sites failed to install the security update. SentinelOne published on February 27 details about CVE-2026-26980 being exploited in attacks and how incidents can be detected. The researchers observed at least two distinct activity clusters targeting vulnerable Ghost sites, sometimes re-infecting the same domains with different scripts after cleanup, or one cleaning the script of the other to inject its own. Timeline of the attacks Source: XLab Attack chain The attacks that XLab observed begin by exploiting CVE-2026-26980 to steal the admin API keys, and then use the elevated rights to inject malicious JavaScript into articles. The JavaScript code is a lightweight loader that fetches second-stage code from the attacker’s infrastructure, which is essentially a cloaking script that fingerprints visitors to determine whether they qualify as targets. Visitors passing the verification are served a fake Cloudflare prompt loaded via an iframe on top of the article page, which contains the ClickFix lure. The ClickFix page Source: XLab The page instructs victims to verify that they are human by pasting a provided command on their Windows command prompt, which drops a payload on their systems. XLab has observed multiple payloads being used in these attacks, including DLL loaders, JavaScript droppers, and an Electron-based malware sample named UtilifySetup.exe. Attack phases Source: XLab Mitigating the risk The most important course of action for Ghost CMS website administrators is to upgrade to version 6.19.1 or later and rotate all keys used previously, as they may have been exposed. XLab provided a list of indicators of compromise (IoCs), including injected scripts, so a thorough review of the websites is needed to locate and remove them. The researchers recommend that website owners maintain a 30-day record of admin API call logs to enable a reliable retrospective investigation. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Drupal: Critical SQL injection flaw now targeted in attacks Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw Hackers bypass SonicWall VPN MFA due to incomplete patching Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin Weaver E-cology critical bug exploited in attacks since March",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure",
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "education"
+          ],
+          "affected_products": [
+            "SonicWall"
+          ],
+          "cve_ids": [
+            "CVE-2026-26980"
+          ],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "china"
+          ],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_4_news"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+          "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+          "published": "2026-05-24T14:12:32+00:00",
+          "summary": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure",
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "education"
+            ],
+            "affected_products": [
+              "SonicWall"
+            ],
+            "cve_ids": [
+              "CVE-2026-26980"
+            ],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "china"
+            ],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_4_news"
           }
         }
       ]
@@ -6639,14 +6400,20 @@
           "data_breach"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "telecommunications"
+        ],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
         "cve_ids": [],
         "attack_techniques": [],
-        "geographic_scope": [],
+        "geographic_scope": [
+          "united_states"
+        ],
         "urgency_signals": [],
         "content_type": [
-          "news_report"
+          "threat_research"
         ],
         "confidence_tier": [
           "tier_4_news"
@@ -6659,20 +6426,26 @@
         "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
         "published": "2026-06-18T15:00:00+00:00",
         "summary": "",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Home Events [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Jun 18, 2026 How do you ensure your SecOps team is prepared to respond to a cyberattack that exposes your critical data? This comprehensive virtual event examines the main vulnerabilities and exploits that lead to enterprise data breaches, plus the latest tools and best practices for conducting incident response. Get ahead of attackers and avoid becoming the next breach victim. Beat Hackers To It Explore the Agenda Beat Hackers To It Explore the Agenda Latest from [Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You Threat Intelligence Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut by Alexander Culafi May 19, 2026 1 Min Read Editor's Choice Threat Intelligence From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber From Stuxnet to ChatGPT: 20 News Events That Shaped Cyber by Dark Reading Editorial Team May 6, 2026 31 Min Read Cyber Risk Physical Cargo Theft Gets a Boost From Cybercriminals Physical Cargo Theft Gets a Boost From Cybercriminals by Robert Lemos May 4, 2026 5 Min Read Want more Dark Reading stories in your Google search results? Keep up with the latest cybersecurity threats, newly discovered vulnerabilities, data breach information, and emerging trends. Delivered daily or weekly right to your email inbox. Subscribe RSAC 2026: key news & insights At RSAC 2026, Dark Reading captured critical intelligence on AI, new attack methods, geopolitics, and much more Get Your Recap Webinars Build vs. Buy: The Hidden Cost of Building Your Own AI Security Stack Thurs, June 25, 2026, at 1pm EST Defending in the Shadow Era: When the CVE Feed Goes Dark Tues, June 16, 2026 at 1pm EST Building SecOps That Make the Most of Every Dollar Thurs, July 9, 2026 at 1pm EST AI-Powered Cybersecurity for Resource-Constrained Organizations Thurs, June 18, 2026, at 1pm EST AI-Powered Credential Security: Intelligence Without Exposure Wed, June 17, 2026, at 1pm EST More Webinars Black Hat USA | Mandalay Bay, Las Vegas The premier cybersecurity event of the year returns to Mandalay Bay with a re‑engineered, six‑day program built to ignite innovation, push boundaries, and bring the global security community together like never before. Use code: DARKREADING to save $200 on a Briefings pass or $100 on a Business pass. GET YOUR PASS",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "data_breach"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "telecommunications"
+          ],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
           "cve_ids": [],
           "attack_techniques": [],
-          "geographic_scope": [],
+          "geographic_scope": [
+            "united_states"
+          ],
           "urgency_signals": [],
-          "content_type": "news_report",
+          "content_type": "threat_research",
           "confidence_tier": "tier_4_news"
         }
       },
@@ -6689,27 +6462,33 @@
               "data_breach"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "telecommunications"
+            ],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
             "cve_ids": [],
             "attack_techniques": [],
-            "geographic_scope": [],
+            "geographic_scope": [
+              "united_states"
+            ],
             "urgency_signals": [],
-            "content_type": "news_report",
+            "content_type": "threat_research",
             "confidence_tier": "tier_4_news"
           }
         }
       ]
     },
     {
-      "cluster_id": "ede483f81e",
-      "priority_score": 10,
+      "cluster_id": "b5d32d8b6e",
+      "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "malware"
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -6717,28 +6496,30 @@
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [
-          "iran"
+          "china"
         ],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": [
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-        "published": "2026-05-22T13:00:42+00:00",
-        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "How China-linked threat actors obtain zero-day vulnerabilities",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
+        "published": "2026-05-24T13:47:52+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
         "full_body": "",
-        "fetch_status": "not_attempted",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [
-            "malware"
+            "zero_day"
           ],
           "actor_attribution": [],
           "affected_industries": [],
@@ -6746,24 +6527,26 @@
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [
-            "iran"
+            "china"
           ],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
+          "confidence_tier": "tier_5_chatter"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
-          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
-          "published": "2026-05-22T13:00:42+00:00",
-          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How China-linked threat actors obtain zero-day vulnerabilities",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tmcosb/how_chinalinked_threat_actors_obtain_zeroday/",
+          "published": "2026-05-24T13:47:52+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
           "taxonomy": {
             "threat_categories": [
-              "malware"
+              "zero_day"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -6771,24 +6554,26 @@
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [
-              "iran"
+              "china"
             ],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
     },
     {
-      "cluster_id": "27954d511c",
-      "priority_score": 10,
+      "cluster_id": "26fa06774d",
+      "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "malware"
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -6796,26 +6581,28 @@
         "cve_ids": [],
         "attack_techniques": [],
         "geographic_scope": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": [
           "uncategorized"
         ],
         "confidence_tier": [
-          "tier_1_primary_research"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-        "published": "2026-05-20T10:00:46+00:00",
-        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+        "source": "Reddit r/sysadmin",
+        "cohort": "reddit_practitioner_osint",
+        "title": "CrowdStrike detections on Nessus scan for MINIPLASMA_VULNERABLE",
+        "link": "https://www.reddit.com/r/sysadmin/comments/1tmdpvp/crowdstrike_detections_on_nessus_scan_for/",
+        "published": "2026-05-24T14:29:01+00:00",
+        "summary": "FYI, we're seeing a ton of CrowdStrike detections this morning where it is killing a powershell execution from our Tenable Nessus scans. Issue seems to be around a new detection for the Miniplasma zero day from last week. Command Line: C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell -NoProfile -Command \"& {$j = sajb {[CmdletBinding()]param([int]$TimeoutSec=20,[int]$Parallelism=4,[switch]$Quiet);$ErrorActionPreference='Stop';function W($m){if(-not $Quiet){Write-Host \\\"[*] $m\\\"}};function Finish($c,$v,$r){$s=switch($c){0{'MINIPLASMA_VULNERABLE'}1{'MINIPLASMA_PATCHED'}default{'MINIPLASMA_INCONCLUSIVE'}}; Killing the scan job seems to resolve. Putting it here in case anyone else gets freaked out this morning. ;-) submitted by /u/Forgery [link] [comments]",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
-            "malware"
+            "zero_day"
           ],
           "actor_attribution": [],
           "affected_industries": [],
@@ -6823,22 +6610,24 @@
           "cve_ids": [],
           "attack_techniques": [],
           "geographic_scope": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
           "content_type": "uncategorized",
-          "confidence_tier": "tier_1_primary_research"
+          "confidence_tier": "tier_5_chatter"
         }
       },
       "corroborating_sources": [
         {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
-          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
-          "published": "2026-05-20T10:00:46+00:00",
-          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+          "source": "Reddit r/sysadmin",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CrowdStrike detections on Nessus scan for MINIPLASMA_VULNERABLE",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1tmdpvp/crowdstrike_detections_on_nessus_scan_for/",
+          "published": "2026-05-24T14:29:01+00:00",
+          "summary": "FYI, we're seeing a ton of CrowdStrike detections this morning where it is killing a powershell execution from our Tenable Nessus scans. Issue seems to be around a new detection for the Miniplasma zero day from last week. Command Line: C:\\Windows\\System32\\WindowsPowershell\\v1.0\\powershell -NoProfile -Command \"& {$j = sajb {[CmdletBinding()]param([int]$TimeoutSec=20,[int]$Parallelism=4,[switch]$Quiet);$ErrorActionPreference='Stop';function W($m){if(-not $Quiet){Write-Host \\\"[*] $m\\\"}};function Finish($c,$v,$r){$s=switch($c){0{'MINIPLASMA_VULNERABLE'}1{'MINIPLASMA_PATCHED'}default{'MINIPLASMA_INCONCLUSIVE'}}; Killing the scan job seems to resolve. Putting it here in case anyone else gets freaked out this morning. ;-) submitted by /u/Forgery [link] [comments]",
           "taxonomy": {
             "threat_categories": [
-              "malware"
+              "zero_day"
             ],
             "actor_attribution": [],
             "affected_industries": [],
@@ -6846,9 +6635,11 @@
             "cve_ids": [],
             "attack_techniques": [],
             "geographic_scope": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "uncategorized",
-            "confidence_tier": "tier_1_primary_research"
+            "confidence_tier": "tier_5_chatter"
           }
         }
       ]
@@ -7508,6 +7299,158 @@
       ]
     },
     {
+      "cluster_id": "ede483f81e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [
+          "iran"
+        ],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+        "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+        "published": "2026-05-22T13:00:42+00:00",
+        "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [
+            "iran"
+          ],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns",
+          "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
+          "published": "2026-05-22T13:00:42+00:00",
+          "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [
+              "iran"
+            ],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "27954d511c",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "malware"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "geographic_scope": [],
+        "urgency_signals": [],
+        "content_type": [
+          "uncategorized"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+        "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+        "published": "2026-05-20T10:00:46+00:00",
+        "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "malware"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "geographic_scope": [],
+          "urgency_signals": [],
+          "content_type": "uncategorized",
+          "confidence_tier": "tier_1_primary_research"
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Tracking TamperedChef Clusters via Certificate and Code Reuse",
+          "link": "https://unit42.paloaltonetworks.com/tracking-tampered-chef-clusters/",
+          "published": "2026-05-20T10:00:46+00:00",
+          "summary": "Unit 42 analyzes TamperedChef malware clusters that use trojanized productivity apps and malvertising to deliver stealthy payloads to targets. The post Tracking TamperedChef Clusters via Certificate and Code Reuse appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "malware"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "geographic_scope": [],
+            "urgency_signals": [],
+            "content_type": "uncategorized",
+            "confidence_tier": "tier_1_primary_research"
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "743ec99484",
       "priority_score": 10,
       "member_count": 1,
@@ -8130,9 +8073,9 @@
           "vulnerability_disclosure"
         ]
       },
-      "cluster_count": 33,
-      "article_count": 38,
-      "cohesion": 0.367,
+      "cluster_count": 32,
+      "article_count": 37,
+      "cohesion": 0.359,
       "cluster_ids": [
         "f0383fca84",
         "7a0bfcbd42",
@@ -8142,7 +8085,6 @@
         "f2c995ec5f",
         "4240d9e332",
         "0a08121d4a",
-        "04571b3b50",
         "bc4a1043d6",
         "b9778d72dd",
         "8ebb62380b",
@@ -8173,7 +8115,11 @@
       "label": "ai security targeting AWS",
       "dominant_features": {
         "threat_categories": [
-          "ai_security"
+          "ai_security",
+          "data_breach"
+        ],
+        "affected_industries": [
+          "telecommunications"
         ],
         "affected_products": [
           "AWS"
@@ -8185,12 +8131,13 @@
           "tier_2_operator"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.333,
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.321,
       "cluster_ids": [
         "eb48980918",
-        "cf7fdef083"
+        "cf7fdef083",
+        "c80000c11d"
       ]
     }
   ]
