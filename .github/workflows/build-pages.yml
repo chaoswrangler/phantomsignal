@@ -1,48 +1,34 @@
 name: Build GitHub Pages from Feed
-
-# This workflow rebuilds the HTML page (docs/index.html) whenever feed.json
-# changes, which happens after every aggregate.yml run.
-#
-# There is intentionally NO cron schedule here. The aggregator runs hourly
-# and commits feed.json, which triggers this workflow via the path filter.
-# Running this on its own cron would race with aggregate.yml and cause
-# git push conflicts on docs/.
+# Triggered when Aggregate Feeds completes successfully.
+# This works with the default GITHUB_TOKEN — workflow_run events
+# fire on workflow completion regardless of which token did the commit.
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/feed.json"
-      - "docs/brief/**"
-      - "scripts/build-page.js"
-      - ".github/workflows/build-pages.yml"
-
+  workflow_run:
+    workflows: ["Aggregate Feeds"]
+    types:
+      - completed
   workflow_dispatch:
-
 concurrency:
   group: build-pages
   cancel-in-progress: true
-
 permissions:
   contents: write
-
 jobs:
   build:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
-
+        with:
+          ref: main
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Build index.html from feed.json
         run: node scripts/build-page.js
-
       - name: Commit generated page
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
