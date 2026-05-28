@@ -1,409 +1,525 @@
 """
-Taxonomy extraction for CTI items.
+Deterministic taxonomy enrichment for CTI items.
 
-Pattern-based, deterministic enrichment. No LLM calls.
-Maintain the dictionaries below; everything else is mechanical.
+v2 rewrite. Fixes the contamination class of bugs in v1:
 
-Public surface:
-    extract_taxonomy(title, summary, source, cohort, full_body="") -> dict
+  1. PROXIMITY-ANCHORED EXTRACTION
+     A product or actor tag now requires the term to appear within
+     PROXIMITY_WINDOW tokens of a threat-language anchor (exploit, patch,
+     vulnerability, attack, compromise, ...). This kills the "page nav
+     mentions GitHub once" false positive without losing real signal.
+
+  2. ROLE DISAMBIGUATION
+     Each product tag is annotated with its inferred role:
+       - target    : the thing being attacked
+       - tool      : the thing being used to attack (e.g., "Claude wrote the exploit")
+       - vendor    : the entity publishing the advisory
+       - mention   : context only, no role inferred
+     Affinity grouping should ignore non-target roles.
+
+  3. HARD CAPS
+     Max 3 products and max 5 CVEs per article. Beyond that the article is
+     almost certainly a roundup or a polluted scrape, and using all of them
+     to compute affinity will smear the cluster's identity.
+
+  4. BODY-ONLY OPERATION
+     The aggregator must pass clean body text (already stripped of nav/footer/
+     aside/script). This module assumes that and never tries to compensate.
+     If you start tagging from rendered HTML again, you'll get v1's behavior
+     back.
+
+  5. CONFIDENCE PER TAG
+     Each tag carries a confidence score. Tags below MIN_CONFIDENCE are
+     dropped from the canonical taxonomy and surfaced only in `weak_tags`
+     for transparency and tuning.
 """
 
 import re
-from collections import Counter
+from collections import defaultdict
+
 
 # ---------------------------------------------------------------------------
-# Threat categories — the "what kind of threat is this" axis
+# Anchors and lexicons
 # ---------------------------------------------------------------------------
-# Order matters: higher-specificity patterns first so they don't get
-# pre-empted by broader categories.
-THREAT_CATEGORIES = {
-    "ransomware": [
-        r"\bransomware\b", r"\bdouble[\s-]extortion\b", r"\bdata[\s-]extortion\b",
-        r"\b(?:LockBit|BlackCat|ALPHV|Cl0p|Akira|RansomHub|BlackBasta|Royal|Play|Medusa|Qilin|Hunters International|RansomEXX)\b",
-    ],
-    "data_breach": [
-        r"\bdata[\s-]breach\b", r"\bdatabase[\s-]leak\b",
-        r"\b\d[\d,]*\s*(?:million|billion)\s+(?:\w+\s+){0,3}(?:records|users|accounts|customers|individuals|people)\b",
-        r"\bexposed\s+(?:customer|user|employee|student|patient)\s+data\b",
-        r"\bcredentials\s+(?:leaked|exposed|stolen|dumped)\b",
-        r"\b(?:posted|leaked|dumped)\s+(?:on|to)\s+(?:a\s+)?(?:hacking|leak|data\s+leak|criminal)\s+forum\b",
-    ],
-    "supply_chain": [
-        r"\bsupply[\s-]chain\s+(attack|compromise|breach)\b", r"\bdependency\s+confusion\b",
-        r"\bmalicious\s+(package|npm|pypi|gem|crate)\b", r"\btyposquat", r"\bSBOM\b",
-    ],
-    "zero_day": [
-        r"\bzero[\s-]?day\b", r"\b0[\s-]?day\b", r"\bin[\s-]the[\s-]wild\s+exploit",
-        r"\bunpatched\s+vulnerability\b",
-    ],
-    "active_exploitation": [
-        r"\bactively\s+exploited\b", r"\bexploited\s+in\s+the\s+wild\b",
-        r"\bobserved\s+exploitation\b", r"\bmass\s+exploitation\b",
-    ],
-    "vulnerability_disclosure": [
-        r"\bCVE-\d{4}-\d{4,7}\b", r"\bCVSS\b", r"\bvulnerability\s+(disclosed|patched|discovered)\b",
-        r"\bsecurity\s+advisory\b", r"\bpatch\s+(released|available|tuesday)\b",
-    ],
-    "malware": [
-        r"\bmalware\b", r"\binfostealer\b", r"\bbackdoor\b", r"\btrojan\b",
-        r"\brootkit\b", r"\bbotnet\b", r"\bloader\b", r"\bdropper\b", r"\bworm\b",
-        r"\bRAT\b(?!\w)", r"\brootkits?\b",
-    ],
-    "phishing_social_eng": [
-        r"\bphish(ing|ed)?\b", r"\bspear[\s-]phish", r"\bvishing\b", r"\bsmishing\b",
-        r"\bsocial\s+engineering\b", r"\bBEC\b", r"\bbusiness\s+email\s+compromise\b",
-        r"\bcallback\s+phishing\b", r"\bMFA\s+fatigue\b", r"\bMFA\s+bombing\b",
-    ],
-    "credential_attack": [
-        r"\bcredential\s+(stuff|theft|harvest|stealer|dump)", r"\btoken\s+theft\b",
-        r"\bsession\s+(hijack|theft|cookie\s+theft)\b", r"\bOAuth\s+abuse\b",
-        r"\bpass[\s-]the[\s-](hash|ticket)\b", r"\bgolden\s+ticket\b",
-    ],
-    "nation_state": [
-        r"\bnation[\s-]state\b", r"\bstate[\s-]sponsored\b", r"\bstate[\s-]backed\b",
-        r"\bAPT\d+\b", r"\bcyber\s+espionage\b",
-    ],
-    "ddos": [
-        r"\bDDoS\b", r"\b(?:distributed[\s-])?denial[\s-]of[\s-]service\b", r"\bbotnet\s+attack\b",
-    ],
-    "cloud_attack": [
-        r"\bcloud\s+(attack|compromise|breach)\b", r"\bS3\s+bucket\b", r"\bIAM\s+(abuse|misconfig)",
-        r"\bcontainer\s+escape\b", r"\bKubernetes\s+(attack|compromise)\b",
-    ],
-    "identity_attack": [
-        r"\bidentity\s+(attack|compromise|abuse)\b", r"\bEntra\s+(ID\s+)?abuse\b",
-        r"\bConditional\s+Access\s+bypass\b", r"\bAzure\s+AD\s+(attack|compromise)\b",
-        r"\bSAML\s+(forge|abuse|attack)\b", r"\bJWT\s+(forge|manipulation)\b",
-    ],
-    "ai_security": [
-        r"\bprompt\s+injection\b", r"\bjailbreak\b", r"\bmodel\s+(poisoning|abuse|exploitation)\b",
-        r"\bagentic\s+(risk|abuse|attack)\b", r"\bLLM\s+(abuse|exploit|attack)\b",
-        r"\bAI\s+(agent|model)\s+(abuse|attack)\b", r"\bMCP\s+(abuse|attack|server)\b",
-    ],
-    "iot_ot": [
-        r"\bICS\b", r"\bSCADA\b", r"\bOT\s+(security|attack|network)\b",
-        r"\bIoT\s+(attack|compromise|botnet)\b", r"\bPLC\b", r"\bindustrial\s+control",
-    ],
-    "policy_regulation": [
-        r"\bSEC\s+(rule|filing|disclosure)\b", r"\bGDPR\b", r"\bHIPAA\b",
-        r"\bexecutive\s+order\b", r"\bsanctions\b", r"\bCISA\s+(directive|advisory)\b",
-    ],
-}
 
-# ---------------------------------------------------------------------------
-# Threat actors — including aliases and ecosystem groups
-# ---------------------------------------------------------------------------
-# Each canonical name maps to a list of patterns/aliases.
-# Add new actors here as they become relevant.
-ACTOR_DICTIONARY = {
-    # Ransomware groups
-    "LockBit": [r"\bLockBit\s*[2-4]?\.?\d?\b", r"\bLockBitSupp\b"],
-    "BlackCat/ALPHV": [r"\bBlackCat\b", r"\bALPHV\b"],
-    "Cl0p": [r"\bCl0p\b", r"\bClop\b"],
-    "Akira": [r"\bAkira\s+(ransomware|group)\b"],
-    "RansomHub": [r"\bRansomHub\b"],
-    "BlackBasta": [r"\bBlack\s*Basta\b"],
-    "Qilin": [r"\bQilin\b", r"\bAgenda\s+ransomware\b"],
-    "Medusa": [r"\bMedusa\s+(ransomware|group)\b"],
-    "Hunters International": [r"\bHunters\s+International\b"],
-    "Play": [r"\bPlay\s+ransomware\b"],
-    # ecrime / extortion
-    "ShinyHunters": [r"\bShinyHunters\b", r"\bShiny\s+Hunters\b"],
-    "Scattered Spider": [r"\bScattered\s+Spider\b", r"\bUNC3944\b", r"\bMuddled\s+Libra\b", r"\bOktapus\b"],
-    "Lapsus$": [r"\bLapsus\$?\b", r"\bDEV-0537\b"],
-    "FIN7": [r"\bFIN7\b"],
-    "TA505": [r"\bTA505\b"],
-    "TA577": [r"\bTA577\b"],
-    "TA866": [r"\bTA866\b"],
-    # Nation-state actors
-    "APT28/Fancy Bear": [r"\bAPT28\b", r"\bFancy\s+Bear\b", r"\bSofacy\b", r"\bSTRONTIUM\b", r"\bForest\s+Blizzard\b"],
-    "APT29/Cozy Bear": [r"\bAPT29\b", r"\bCozy\s+Bear\b", r"\bMidnight\s+Blizzard\b", r"\bNOBELIUM\b"],
-    "APT41": [r"\bAPT41\b", r"\bBarium\b", r"\bWinnti\b", r"\bBrass\s+Typhoon\b"],
-    "Volt Typhoon": [r"\bVolt\s+Typhoon\b"],
-    "Salt Typhoon": [r"\bSalt\s+Typhoon\b"],
-    "Flax Typhoon": [r"\bFlax\s+Typhoon\b"],
-    "Mustang Panda": [r"\bMustang\s+Panda\b", r"\bTwill\s+Typhoon\b", r"\bBronze\s+President\b"],
-    "Kimsuky": [r"\bKimsuky\b", r"\bEmerald\s+Sleet\b", r"\bVelvet\s+Chollima\b"],
-    "Lazarus": [r"\bLazarus\s+Group\b", r"\bLazarus\b(?!\s+University)", r"\bHidden\s+Cobra\b", r"\bDiamond\s+Sleet\b"],
-    "Sandworm": [r"\bSandworm\b", r"\bSeashell\s+Blizzard\b", r"\bVoodoo\s+Bear\b"],
-    "Charming Kitten": [r"\bCharming\s+Kitten\b", r"\bAPT35\b", r"\bMint\s+Sandstorm\b"],
-    "MuddyWater": [r"\bMuddyWater\b", r"\bMango\s+Sandstorm\b", r"\bSeedworm\b"],
-    "Andariel": [r"\bAndariel\b", r"\bOnyx\s+Sleet\b"],
-    "Earth Estries": [r"\bEarth\s+Estries\b"],
-}
+# A tag is only kept if its term appears within PROXIMITY_WINDOW characters
+# of one of these anchor terms.
+PROXIMITY_WINDOW = 180
 
-# Generic APT-N pattern that doesn't match a named actor — extracted separately as fallback.
-APT_GENERIC = re.compile(r"\b(APT\d+)\b")
+# Anchors that indicate the surrounding text is about an attack, vulnerability,
+# patch, or defensive operation. Tags within window of any of these are
+# treated as "in-context" and earn confidence.
+THREAT_ANCHORS = (
+    r"vulnerab\w+", r"exploit\w*", r"attack\w*", r"compromis\w+",
+    r"breach\w*", r"intrusion", r"malware", r"ransomware", r"backdoor",
+    r"web\s?shell", r"infostealer", r"trojan", r"botnet", r"rootkit",
+    r"phish\w+", r"smish\w+", r"vish\w+",
+    r"zero[-\s]?day", r"n[-\s]?day",
+    r"patch\w*", r"hotfix", r"advisor\w+", r"disclos\w+",
+    r"CVE-\d{4}-\d{4,7}", r"CVSS",
+    r"actively\s+exploited", r"in\s+the\s+wild",
+    r"RCE", r"LPE", r"SSRF", r"XXE", r"deserialization", r"injection",
+    r"path\s+traversal", r"auth(?:entication)?\s+bypass", r"privilege\s+escalation",
+    r"hijack\w*", r"takeover", r"impersonat\w+",
+    r"C2", r"command[-\s]and[-\s]control",
+    r"IoC", r"indicator", r"detection", r"hunting", r"telemetry",
+)
 
-# ---------------------------------------------------------------------------
-# Affected products / vendors — the "what was hit" axis
-# ---------------------------------------------------------------------------
-PRODUCT_DICTIONARY = {
-    # Network / edge
-    "Fortinet": [r"\bFortinet\b", r"\bFortiGate\b", r"\bFortiManager\b", r"\bFortiAnalyzer\b", r"\bFortiOS\b"],
-    "Palo Alto Networks": [r"\bPalo\s+Alto\s+Networks\b", r"\bPAN-OS\b", r"\bGlobalProtect\b"],
-    "Cisco": [r"\bCisco\s+(ASA|IOS|Talos|Firepower|Meraki|Webex)\b"],
-    "Citrix": [r"\bCitrix\b", r"\bNetScaler\b", r"\bADC\b(?=.*Citrix)"],
-    "Ivanti": [r"\bIvanti\b", r"\bConnect\s+Secure\b", r"\bPulse\s+Secure\b", r"\bPolicy\s+Secure\b"],
-    "F5": [r"\bF5\s+(BIG-IP|Networks)\b", r"\bBIG-IP\b"],
-    "Check Point": [r"\bCheck\s+Point\b", r"\bQuantum\s+Security\b"],
-    "SonicWall": [r"\bSonicWall\b"],
-    "Juniper": [r"\bJuniper\s+(Networks|Junos)\b"],
-    # Microsoft ecosystem
-    "Microsoft Windows": [r"\bWindows\s+(10|11|Server|Defender)\b", r"\bMSRC\b"],
-    "Microsoft Exchange": [r"\bExchange\s+Server\b", r"\bMicrosoft\s+Exchange\b"],
-    "Microsoft 365": [r"\bMicrosoft\s+365\b", r"\bOffice\s+365\b", r"\bM365\b"],
-    "Azure": [r"\bAzure\s+(AD|Active\s+Directory|Functions|Storage)?\b"],
-    "Entra ID": [r"\bEntra\s+ID\b", r"\bAzure\s+AD\b"],
-    "SharePoint": [r"\bSharePoint\b"],
-    "Teams": [r"\bMicrosoft\s+Teams\b"],
-    # Cloud
-    "AWS": [r"\bAWS\b", r"\bAmazon\s+Web\s+Services\b", r"\bEC2\b", r"\bS3\b"],
-    "Google Cloud": [r"\bGoogle\s+Cloud\b", r"\bGCP\b"],
-    "Kubernetes": [r"\bKubernetes\b", r"\bk8s\b"],
-    # Identity
-    "Okta": [r"\bOkta\b"],
-    "Auth0": [r"\bAuth0\b"],
-    "Duo": [r"\bDuo\s+Security\b"],
-    # Collaboration / SaaS
-    "Slack": [r"\bSlack\b(?!\s+command)"],
-    "Salesforce": [r"\bSalesforce\b"],
-    "Snowflake": [r"\bSnowflake\b"],
-    "GitHub": [r"\bGitHub\b"],
-    "GitLab": [r"\bGitLab\b"],
-    "Atlassian": [r"\bAtlassian\b", r"\bJira\b", r"\bConfluence\b", r"\bBitbucket\b"],
-    "Canvas LMS": [r"\bCanvas\s+(LMS|Instructure)\b", r"\bInstructure\b"],
-    "Zendesk": [r"\bZendesk\b"],
-    # Developer / Infrastructure
-    "Docker": [r"\bDocker\b"],
-    "Jenkins": [r"\bJenkins\b"],
-    "npm": [r"\bnpm\b"],
-    "PyPI": [r"\bPyPI\b"],
-    "VMware": [r"\bVMware\b", r"\bvCenter\b", r"\bvSphere\b", r"\bESXi\b"],
-    # Mobile / endpoint
-    "Apple iOS/macOS": [r"\biOS\b", r"\bmacOS\b", r"\bApple\s+(Security|Silicon)\b"],
-    "Android": [r"\bAndroid\b(?=.*(?:security|patch|vulnerability|exploit))"],
-    "Chrome": [r"\bChrome\b(?=.*(?:vulnerability|exploit|patch|security))", r"\bV8\b"],
-    "Firefox": [r"\bFirefox\b(?=.*(?:vulnerability|exploit|patch|security))"],
-    # AI ecosystem
-    "OpenAI/ChatGPT": [r"\bOpenAI\b", r"\bChatGPT\b"],
-    "Anthropic/Claude": [r"\bAnthropic\b", r"\bClaude\b(?!\s+(?:Monet|Debussy|Levi-Strauss))"],
-    "GitHub Copilot": [r"\bGitHub\s+Copilot\b", r"\bCopilot\s+(CLI|Workspace)\b"],
-    "Cursor": [r"\bCursor\b(?=.*(?:AI|editor|agent|code))"],
-}
+# Anchors that indicate a vendor/product is being discussed as a *tool* used
+# by attackers (or, importantly, by researchers acting on attackers' behalf).
+# A product tag near these and FAR FROM target-anchors gets role=tool.
+TOOL_ANCHORS = (
+    r"used\s+to\s+(?:generate|write|create|build|produce|craft)",
+    r"asked\s+\w+\s+to\b",
+    r"AI[-\s]assisted", r"AI[-\s]generated", r"AI[-\s]built", r"AI[-\s]powered\s+(?:exploit|malware|phishing)",
+    r"jailbroken", r"jailbreak", r"agentic\s+(?:exploit|attack)",
+    r"prompted\s+\w+\s+to", r"abuse[ds]?\s+\w+\s+to",
+)
 
-# ---------------------------------------------------------------------------
-# Industries — derived from victim names and content
-# ---------------------------------------------------------------------------
-INDUSTRY_DICTIONARY = {
-    "healthcare": [
-        r"\bhospital\b", r"\bhealthcare\b", r"\bmedical\s+(records?|center|practice)\b",
-        r"\bpatient\s+data\b", r"\bHIPAA\b", r"\bClinical\b", r"\bpharma(ceutical)?\b",
-    ],
-    "financial_services": [
-        r"\bbank\b", r"\bbanking\b", r"\bfinancial\s+(services|institution)\b",
-        r"\bcredit\s+(card|union)\b", r"\bSWIFT\b", r"\binsurance\b",
-        r"\bfintech\b", r"\bpayment\s+processor\b",
-    ],
-    "government_public_sector": [
-        r"\bgovernment\b", r"\bfederal\s+agency\b", r"\bmunicipality\b",
-        r"\bstate\s+department\b", r"\bDoD\b", r"\bdefense\s+department\b",
-        r"\bcity\s+of\s+\w+\b(?=.*(?:hack|breach|attack))",
-    ],
-    "education": [
-        r"\buniversity\b", r"\bcollege\b(?!\s+football)", r"\bschool\s+district\b",
-        r"\bK-12\b", r"\bhigher\s+ed", r"\bCanvas\s+LMS\b", r"\bstudent\s+data\b",
-    ],
-    "technology": [
-        r"\btech\s+(giant|company)\b", r"\bsoftware\s+company\b",
-        r"\bsemiconductor\b", r"\bSaaS\s+(provider|company)\b",
-    ],
-    "manufacturing_industrial": [
-        r"\bmanufacturer\b", r"\bindustrial\b(?!\s+control)",
-        r"\bautomotive\b", r"\baerospace\b", r"\bsupply\s+chain\s+(disruption|attack)\b",
-    ],
-    "energy_utilities": [
-        r"\benergy\s+(company|sector)\b", r"\butility\b", r"\bpower\s+(grid|company)\b",
-        r"\boil\s+and\s+gas\b", r"\belectric\s+(utility|grid)\b",
-    ],
-    "telecommunications": [
-        r"\btelecom(munication)?s?\b", r"\b(AT&T|Verizon|T-Mobile|Comcast|Vodafone|Orange|BT)\b",
-        r"\bISP\b", r"\bwireless\s+carrier\b",
-    ],
-    "retail_ecommerce": [
-        r"\bretail(er)?\b", r"\be-?commerce\b", r"\bpoint\s+of\s+sale\b", r"\bPOS\b",
-    ],
-    "media_entertainment": [
-        r"\bmedia\s+company\b", r"\bbroadcaster\b", r"\bnews\s+outlet\b",
-        r"\bentertainment\s+(industry|company)\b",
-    ],
-    "transportation_logistics": [
-        r"\bairline\b", r"\bshipping\s+(company|line)\b", r"\bport\s+of\s+\w+\b",
-        r"\blogistics\b", r"\btransportation\s+(sector|company)\b",
-    ],
-    "legal_professional_services": [
-        r"\blaw\s+firm\b", r"\bconsulting\s+firm\b", r"\baccounting\s+firm\b",
-    ],
-}
+# Anchors that indicate the surrounding entity is the vendor publishing
+# advisory or research, not the target.
+VENDOR_ANCHORS = (
+    r"\b(?:wrote|posted|published|reported|disclosed|disclosed)\s+by\b",
+    r"\bsaid\s+(?:in\s+)?(?:a\s+)?(?:blog|post|advisory|statement|bulletin)\b",
+    r"according\s+to\s+\w+\s+research\w*",
+    r"researchers?\s+at\b",
+)
 
-# ---------------------------------------------------------------------------
-# MITRE ATT&CK technique IDs
-# ---------------------------------------------------------------------------
-MITRE_TECHNIQUE = re.compile(r"\b(T\d{4}(?:\.\d{3})?)\b")
+# Product names → canonical labels. Order matters: longest match wins.
+# Keep this list tight and curated. Catch-all regexes are worse than
+# missing tags.
+PRODUCTS = [
+    # AI platforms
+    (r"\bAnthropic\b|\bClaude\s+(?:Code|Desktop|Sonnet|Opus|Haiku|Mythos)?", "Anthropic/Claude"),
+    (r"\bOpenAI\b|\bChatGPT\b|\bGPT-?\d", "OpenAI/ChatGPT"),
+    (r"\bGoogle\s+Gemini\b|\bGemini\s+(?:Pro|Flash|Code)?", "Google/Gemini"),
+    (r"\bMicrosoft\s+Copilot\b|\bCopilot\s+(?:Cowork|Studio|Pro|for)\b|\bM365\s+Copilot\b", "Microsoft/Copilot"),
+    (r"\bCursor\b(?=\s+(?:IDE|editor|code|agent))", "Cursor"),
+    # Source control / dev tooling
+    (r"\bGitHub\s+(?:Actions|Enterprise|Codespaces|Copilot)\b|\bGitHub\b(?!\.com/)", "GitHub"),
+    (r"\bGitLab\b", "GitLab"),
+    (r"\bGitea\b", "Gitea"),
+    (r"\bGogs\b", "Gogs"),
+    (r"\bnpm\b|\bNode\s+Package\s+Manager\b", "npm"),
+    (r"\bPyPI\b", "PyPI"),
+    (r"\bcrates\.io\b|\bCargo\b(?=\s+(?:registry|package))", "crates.io"),
+    (r"\bPackagist\b", "Packagist"),
+    # Cloud / identity / SaaS
+    (r"\bMicrosoft\s+Entra(?:\s+ID)?\b|\bEntra\s+ID\b|\bAzure\s+AD\b", "Microsoft Entra"),
+    (r"\bOkta\b", "Okta"),
+    (r"\bSalesforce\b", "Salesforce"),
+    (r"\bSnowflake\b", "Snowflake"),
+    (r"\bAWS\b|\bAmazon\s+Web\s+Services\b", "AWS"),
+    (r"\bAzure\b(?!\s+AD)", "Azure"),
+    (r"\bGoogle\s+Cloud\s+Platform\b|\bGCP\b|\bGoogle\s+Cloud\b", "Google Cloud"),
+    (r"\bSharePoint\b", "Microsoft SharePoint"),
+    (r"\bMicrosoft\s+365\b|\bO365\b|\bOffice\s+365\b", "Microsoft 365"),
+    (r"\bGoogle\s+Workspace\b", "Google Workspace"),
+    # Edge / network appliances
+    (r"\bFortinet\b|\bFortiGate\b|\bFortiOS\b|\bFortiClient\s+EMS\b", "Fortinet"),
+    (r"\bIvanti\b|\bConnect\s+Secure\b|\bPolicy\s+Secure\b", "Ivanti"),
+    (r"\bPalo\s+Alto\s+Networks?\b|\bPAN-OS\b|\bGlobalProtect\b", "Palo Alto Networks"),
+    (r"\bCisco\b(?=\s+(?:ASA|FTD|IOS|SD-WAN|Secure|vManage|Webex|Talos))", "Cisco"),
+    (r"\bF5\s+(?:BIG-IP|Networks)\b", "F5 BIG-IP"),
+    (r"\bSonicWall\b", "SonicWall"),
+    (r"\bCitrix\b(?=\s+(?:ADC|Gateway|NetScaler))", "Citrix"),
+    # Endpoint / OS
+    (r"\bMicrosoft\s+Defender\b|\bDefender\s+(?:XDR|for\s+Endpoint|ATP)\b", "Microsoft Defender"),
+    (r"\bBitLocker\b", "Microsoft BitLocker"),
+    (r"\bWindows\s+(?:11|10|Server|Cloud\s+Filter)\b|\bWindows\b(?=\s+(?:kernel|driver))", "Microsoft Windows"),
+    (r"\bmacOS\b|\bApple\s+(?:iOS|macOS)\b", "Apple iOS/macOS"),
+    (r"\bAndroid\b(?=\s+(?:OS|kernel|device|app|malware))", "Android"),
+    (r"\bLinux\s+kernel\b", "Linux kernel"),
+    # Virtualization / containers
+    (r"\bVMware\s+(?:ESXi|vCenter|Workstation)\b|\bvSphere\b", "VMware"),
+    (r"\bDocker\b(?=\s+(?:image|container|registry|hub))", "Docker"),
+    (r"\bKubernetes\b|\bk8s\b", "Kubernetes"),
+    # Other
+    (r"\bConfluence\b", "Atlassian Confluence"),
+    (r"\bJira\b", "Atlassian Jira"),
+    (r"\bDrupal\b", "Drupal"),
+    (r"\bWordPress\b", "WordPress"),
+    (r"\bScreenConnect\b|\bConnectWise\s+ScreenConnect\b", "ScreenConnect"),
+    (r"\bSolarWinds\b", "SolarWinds"),
+    (r"\bUbiquiti\b|\bUniFi\b|\bUDM\b|\bUDMP\b", "Ubiquiti UniFi"),
+    (r"\bLiteSpeed\b", "LiteSpeed"),
+    (r"\bcPanel\b", "cPanel"),
+    (r"\bKnowledgeDeliver\b|\bDigital\s+Knowledge\b", "KnowledgeDeliver LMS"),
+    (r"\bChromaDB\b", "ChromaDB"),
+    (r"\bKopia\b", "Kopia"),
+    (r"\bXWiki\b", "XWiki"),
+]
 
-# ---------------------------------------------------------------------------
-# Geographic scope — coarse, from victim or actor mentions
-# ---------------------------------------------------------------------------
-GEOGRAPHIC_DICTIONARY = {
-    "united_states": [r"\b(United States|U\.S\.|USA|American)\b"],
-    "europe": [r"\b(Europe|EU|European Union)\b"],
-    "uk": [r"\b(United Kingdom|U\.K\.|British|England|Britain)\b"],
-    "russia": [r"\bRussian?\b"],
-    "china": [r"\bChin(a|ese)\b"],
-    "north_korea": [r"\bNorth\s+Korea(n)?\b", r"\bDPRK\b"],
-    "iran": [r"\bIran(ian)?\b"],
-    "ukraine": [r"\bUkrain(e|ian)\b"],
-    "israel": [r"\bIsrael(i)?\b"],
-    "asia_pacific": [r"\bAPAC\b", r"\bAsia-?Pacific\b"],
-    "latin_america": [r"\bLatin\s+America\b", r"\bLatAm\b"],
-}
+# Known threat actors. Same rule: curated > regex catch-all.
+ACTORS = [
+    (r"\bScattered\s+Spider\b|\bMuddled\s+Libra\b|\bUNC3944\b", "Scattered Spider"),
+    (r"\bShinyHunters?\b", "ShinyHunters"),
+    (r"\bLockBit\b", "LockBit"),
+    (r"\bBlackCat\b|\bALPHV\b", "BlackCat/ALPHV"),
+    (r"\bCl0p\b|\bClop\b", "Cl0p"),
+    (r"\bAkira\b(?=\s+ransomware)", "Akira"),
+    (r"\bRansomHub\b", "RansomHub"),
+    (r"\bRhysida\b", "Rhysida"),
+    (r"\bPlay\b(?=\s+ransomware)", "Play"),
+    (r"\bBlack\s+Basta\b", "Black Basta"),
+    (r"\bMedusa\b(?=\s+(?:ransomware|gang|group))", "Medusa"),
+    (r"\bVolt\s+Typhoon\b", "Volt Typhoon"),
+    (r"\bSalt\s+Typhoon\b", "Salt Typhoon"),
+    (r"\bFlax\s+Typhoon\b", "Flax Typhoon"),
+    (r"\bMustang\s+Panda\b", "Mustang Panda"),
+    (r"\bAPT\s?28\b|\bFancy\s+Bear\b", "APT28"),
+    (r"\bAPT\s?29\b|\bCozy\s+Bear\b|\bMidnight\s+Blizzard\b", "APT29"),
+    (r"\bAPT\s?41\b|\bWinnti\b", "APT41"),
+    (r"\bLazarus\s+(?:Group)?\b", "Lazarus"),
+    (r"\bKimsuky\b", "Kimsuky"),
+    (r"\bAPT\s?37\b|\bReaperGroup\b", "APT37"),
+    (r"\bAPT\s?38\b", "APT38"),
+    (r"\bMuddyWater\b", "MuddyWater"),
+    (r"\bNimbus\s+Manticore\b|\bScreening\s+Serpens\b|\bUNC1549\b", "Nimbus Manticore"),
+    (r"\bGhostwriter\b|\bUAC-0057\b|\bUNC1151\b", "Ghostwriter"),
+    (r"\bCloud\s+Atlas\b", "Cloud Atlas"),
+    (r"\bHandala\s+Hack\s+Team\b|\bHandala\b", "Handala"),
+    (r"\bNoName057\(?16\)?\b|\bNoName057\b", "NoName057(16)"),
+    (r"\bSilent\s+Ransom\s+Group\b|\bLuna\s+Moth\b", "Silent Ransom Group"),
+    (r"\bTeamPCP\b", "TeamPCP"),
+    (r"\bJINX-0164\b", "JINX-0164"),
+    # Generic UNC/APT pattern - low priority, surface as weak tag
+    (r"\bAPT\d+\b", None),   # captured below in unknown_apt fallback
+    (r"\bUNC\d+\b", None),
+]
 
-# ---------------------------------------------------------------------------
-# Urgency signals — the "how time-sensitive" axis
-# ---------------------------------------------------------------------------
-URGENCY_SIGNALS = {
-    "actively_exploited": [r"\bactively\s+exploited\b", r"\bexploited\s+in\s+the\s+wild\b"],
-    "zero_day": [r"\bzero[\s-]?day\b", r"\b0[\s-]?day\b"],
-    "poc_available": [r"\bproof[\s-]of[\s-]concept\b", r"\bPoC\b", r"\bexploit\s+code\s+(public|available|released)\b"],
-    "patch_available": [r"\bpatch\s+(released|available)\b", r"\bsecurity\s+update\s+available\b"],
-    "no_patch_yet": [r"\bno\s+patch\b", r"\bunpatched\b", r"\bworkaround\s+only\b"],
-    "mass_exploitation": [r"\bmass\s+(exploitation|scanning)\b", r"\bwidespread\s+exploitation\b"],
-    "cisa_kev": [r"\bCISA\s+(KEV|Known\s+Exploited)\b", r"\bKnown\s+Exploited\s+Vulnerabilities\b"],
-    "emergency_directive": [r"\bemergency\s+(patch|directive)\b", r"\bout[\s-]of[\s-]band\s+patch\b"],
-    "preauth_unauth": [r"\bpre[\s-]auth\b", r"\bunauthenticated\b"],
-}
+INDUSTRIES = [
+    (r"\bhealthcare\b|\bhospital\b|\bmedical\b|\bclinic\b|\bpatient\s+data\b", "healthcare"),
+    (r"\bfinanc(?:e|ial)\b|\bbank(?:ing)?\b|\bfintech\b|\bcrypto(?:currency)?\b", "financial_services"),
+    (r"\bgovern\w+|\bfederal\b|\bmunicipal\b|\bstate\s+agency\b|\bpublic\s+sector\b", "government"),
+    (r"\bcritical\s+infrastructure\b|\benergy\b|\butilit\w+|\bwater\s+treatment\b|\boil\s+and\s+gas\b", "critical_infrastructure"),
+    (r"\bmanufactur\w+|\bindustrial\b|\bOT\s+network\b|\bICS\b|\bSCADA\b|\bPLC\b", "manufacturing_industrial"),
+    (r"\btelecom\w*|\bISP\b|\bbroadband\b|\bcellular\b", "telecommunications"),
+    (r"\baviation\b|\bairline\b|\baerospace\b|\bdefense\s+contractor\b", "aviation_defense"),
+    (r"\beducation\b|\buniversit\w+|\bcolleg\w+|\bschool\s+district\b|\bk-12\b", "education"),
+    (r"\bretail\b|\be-?commerce\b|\bpoint[-\s]of[-\s]sale\b|\bPOS\b", "retail_ecommerce"),
+    (r"\blegal\b|\blaw\s+firm\b|\bcounsel\b", "legal_professional"),
+    (r"\bmedia\s+(?:company|organization)\b|\bbroadcast\w+|\bnews\s+(?:agency|organization)", "media_communications"),
+]
 
-# ---------------------------------------------------------------------------
-# Content type — what kind of artifact is this
-# ---------------------------------------------------------------------------
-CONTENT_TYPE_PATTERNS = {
-    "threat_research": [r"\bthreat\s+(research|intelligence|analysis)\b", r"\bcampaign\s+analysis\b"],
-    "vulnerability_disclosure": [r"\bCVE-\d{4}-\d{4,7}\b", r"\bsecurity\s+advisory\b"],
-    "incident_report": [r"\bincident\s+report\b", r"\bbreach\s+(disclosure|notification)\b"],
-    "detection_writeup": [r"\bdetection\s+(rule|writeup|guidance|engineering)\b", r"\bhunting\s+(query|guide)\b"],
-    "policy_analysis": [r"\bpolicy\s+(analysis|brief)\b", r"\bregulatory\s+(update|change)\b"],
-    "news_report": [r"\b(reported|reports|sources\s+say)\b"],
-}
+THREAT_CATEGORIES = [
+    (r"\bransomware\b|\bextortion\b|\bdouble[-\s]extortion\b", "ransomware_extortion"),
+    (r"\bsupply[-\s]chain\b(?:\s+attack|\s+compromis)?", "supply_chain"),
+    (r"\bphish\w+|\bsmish\w+|\bvish\w+|\bsocial\s+engineering\b", "phishing_social_eng"),
+    (r"\bcredential\s+theft\b|\binfostealer\b|\bcredential\s+stuffing\b|\btoken\s+theft\b|\bsession\s+hijack\w+", "credential_theft"),
+    (r"\bzero[-\s]?day\b", "zero_day"),
+    (r"\bdata\s+breach\b|\bdata\s+leak\b|\bdata\s+exposure\b", "data_breach"),
+    (r"\bDDoS\b|\bdenial[-\s]of[-\s]service\b", "ddos"),
+    (r"\bAPT\b|\bstate[-\s]sponsored\b|\bnation[-\s]state\b|\bespionage\b", "apt_espionage"),
+    (r"\bcryptojack\w+|\bcoin\s?mining\b|\bgpu\s+mining\b", "cryptojacking"),
+    (r"\bprompt\s+injection\b|\bmodel\s+poisoning\b|\bagent\s+(?:abuse|drift|hijack)\b|\bagentic\s+exfiltration\b", "ai_security"),
+    (r"\bweb\s?shell\b|\bbackdoor\b", "web_shell_backdoor"),
+    (r"\bcloud\s+(?:misconfig|abuse|attack)\b|\bcloud[-\s]native\s+attack\b|\bOAuth\s+abuse\b", "cloud_abuse"),
+    (r"\bMFA\s+(?:bypass|prompt\s+bombing|fatigue)\b|\bAiTM\b|\badversary[-\s]in[-\s]the[-\s]middle\b", "mfa_bypass"),
+    (r"\bvulnerability\s+disclos\w+|\badvisor\w+\s+released\b", "vulnerability_disclosure"),
+    (r"\bactive(?:ly)?\s+exploited\b|\bin[-\s]the[-\s]wild\b|\bexploitation\s+observed\b", "active_exploitation"),
+]
 
-# ---------------------------------------------------------------------------
-# Confidence tiers based on source cohort
-# ---------------------------------------------------------------------------
-COHORT_CONFIDENCE_TIER = {
+# Things that should never trigger a target tag, even with proximity.
+# These are common page-furniture phrases that produced false positives in v1.
+NEGATIVE_PRODUCT_CONTEXTS = (
+    r"sign\s+(?:in|up)\s+with\s+\w+",
+    r"discuss\s+with\s+Claude",
+    r"available\s+on\s+(?:GitHub|GitLab)",
+    r"hosted\s+on\s+GitHub",
+    r"source\s+code\s+on\s+GitHub",
+    r"open[-\s]source(?:d)?\s+on\s+GitHub",
+    r"follow\s+(?:us|the\s+\w+)\s+on\s+\w+",
+    r"published\s+on\s+\w+",
+    r"sponsored\s+by\b",
+)
+
+# Confidence thresholds
+MIN_CONFIDENCE = 0.4
+HIGH_CONFIDENCE = 0.8
+
+# Hard caps post-extraction
+MAX_PRODUCTS = 3
+MAX_CVES = 5
+MAX_ACTORS = 3
+MAX_INDUSTRIES = 4
+
+# Compile once
+THREAT_ANCHOR_RE = re.compile("|".join(THREAT_ANCHORS), re.IGNORECASE)
+TOOL_ANCHOR_RE = re.compile("|".join(TOOL_ANCHORS), re.IGNORECASE)
+VENDOR_ANCHOR_RE = re.compile("|".join(VENDOR_ANCHORS), re.IGNORECASE)
+NEGATIVE_CONTEXT_RE = re.compile("|".join(NEGATIVE_PRODUCT_CONTEXTS), re.IGNORECASE)
+CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
+MITRE_TID_RE = re.compile(r"\bT\d{4}(?:\.\d{3})?\b")
+
+CONFIDENCE_TIER_MAP = {
     "threat_research_primary": "tier_1_primary_research",
-    "government_authoritative": "tier_1_government",
     "offensive_vulnerability_research": "tier_1_offensive_research",
+    "government_authoritative": "tier_1_government",
     "detection_response_operations": "tier_2_operator",
     "cloud_identity_infrastructure": "tier_2_operator",
     "ai_security_agentic_risk": "tier_2_operator",
     "ransomware_ecrime_financial_crime": "tier_2_operator",
-    "policy_strategy_geopolitics": "tier_3_analysis",
     "practitioner_analysis": "tier_3_analysis",
+    "policy_strategy_geopolitics": "tier_3_analysis",
     "cyber_news_breach_reporting": "tier_4_news",
     "reddit_practitioner_osint": "tier_5_chatter",
 }
 
 
 # ---------------------------------------------------------------------------
-# Extraction helpers
+# Helpers
 # ---------------------------------------------------------------------------
 
-def _match_dictionary(text, dictionary):
-    """Return list of canonical names whose patterns match the text."""
+def _anchored_matches(text, term_re, anchor_re, window=PROXIMITY_WINDOW):
+    """Find matches of term_re that are within `window` chars of any anchor.
+
+    Returns list of (term_match_str, position, anchor_distance).
+    """
+    anchors = [(m.start(), m.end()) for m in anchor_re.finditer(text)]
+    if not anchors:
+        return []
+
     hits = []
-    for canonical, patterns in dictionary.items():
-        for p in patterns:
-            if re.search(p, text, re.IGNORECASE):
-                hits.append(canonical)
-                break  # one match per canonical is enough
+    for m in term_re.finditer(text):
+        pos = m.start()
+        # nearest anchor distance
+        nearest = min(
+            (max(0, pos - aend, astart - m.end()) for astart, aend in anchors),
+            default=10 ** 9,
+        )
+        if nearest <= window:
+            hits.append((m.group(0), pos, nearest))
     return hits
 
 
-def _match_simple(text, simple_dict):
-    """For dicts mapping label -> list of patterns. Returns list of labels matched."""
-    return _match_dictionary(text, simple_dict)
+def _classify_role(text, term_pos, term_len):
+    """Decide if a product mention near a threat anchor is target/tool/vendor.
+
+    Walks the surrounding ±120 chars and checks which anchor class fires.
+    """
+    span_start = max(0, term_pos - 120)
+    span_end = min(len(text), term_pos + term_len + 120)
+    window = text[span_start:span_end]
+
+    if NEGATIVE_CONTEXT_RE.search(window):
+        return "mention"
+    if TOOL_ANCHOR_RE.search(window):
+        return "tool"
+    if VENDOR_ANCHOR_RE.search(window):
+        return "vendor"
+    if THREAT_ANCHOR_RE.search(window):
+        return "target"
+    return "mention"
 
 
-def extract_cve_ids(text):
-    """Extract all CVE IDs, normalized to uppercase."""
-    return sorted(set(m.upper() for m in re.findall(r"CVE-\d{4}-\d{4,7}", text, re.IGNORECASE)))
+def _confidence(role, distance_to_anchor, in_first_paragraph):
+    """Confidence score for a tag.
+
+    Higher when role is unambiguous, close to anchor, and in first paragraph.
+    """
+    base = {
+        "target": 0.85,
+        "tool": 0.7,
+        "vendor": 0.5,
+        "mention": 0.25,
+    }[role]
+    proximity_bonus = max(0.0, 0.15 * (1 - distance_to_anchor / PROXIMITY_WINDOW))
+    first_para_bonus = 0.1 if in_first_paragraph else 0.0
+    return min(1.0, base + proximity_bonus + first_para_bonus)
 
 
-def extract_mitre_techniques(text):
-    """Extract MITRE ATT&CK technique IDs (Txxxx or Txxxx.xxx)."""
-    return sorted(set(MITRE_TECHNIQUE.findall(text)))
+def _first_paragraph_end(text, cutoff=600):
+    """Approximate end of first paragraph or first 600 chars, whichever first."""
+    para = text.find("\n\n")
+    if para == -1 or para > cutoff:
+        return cutoff
+    return para
 
 
-def extract_actors(text):
-    """Extract named actors, plus generic APT-N matches not covered by the dictionary."""
-    named = _match_dictionary(text, ACTOR_DICTIONARY)
-
-    # Generic APT-N capture for actors not yet in the dictionary.
-    generic_apts = set(APT_GENERIC.findall(text))
-    # Strip ones already covered (e.g., APT28 is covered as "APT28/Fancy Bear")
-    covered_apt_numbers = {"APT28", "APT29", "APT41"}
-    extras = sorted(generic_apts - covered_apt_numbers)
-
-    return sorted(set(named)) + extras
-
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
 
 def extract_taxonomy(title, summary, source, cohort, full_body=""):
-    """
-    Return a structured taxonomy dict for one item.
+    """Extract a structured taxonomy from an article.
 
-    Args:
-        title:     item title
-        summary:   item summary (RSS-provided, may be short)
-        source:    feed source name
-        cohort:    cohort name (e.g., 'threat_research_primary')
-        full_body: full article body if fetched (better recall)
-
-    Returns:
-        dict with keys: threat_categories, actor_attribution, affected_industries,
-        affected_products, cve_ids, attack_techniques, geographic_scope,
-        urgency_signals, content_type, confidence_tier
+    Returns a dict with:
+      threat_categories, actor_attribution, affected_industries,
+      affected_products, cve_ids, attack_techniques, urgency_signals,
+      content_type, confidence_tier,
+      role_map (product -> role), weak_tags (dropped low-confidence tags)
     """
-    # Build the text corpus to search over.
-    # Weight title heavier by including it twice — improves precision on short feeds.
-    haystack_parts = [title, title, summary, full_body or ""]
-    haystack = " ".join(p for p in haystack_parts if p)
+    # Build the haystack. Title and summary get double-weight by appearing
+    # in the "first paragraph" region.
+    body = (full_body or "").strip()
+    haystack = "\n\n".join(filter(None, [title, summary, body]))
+    fp_end = _first_paragraph_end(haystack)
+
+    # Extract CVEs. Cap at MAX_CVES. Preference: CVEs in title/summary first.
+    cves_seen = []
+    for m in CVE_RE.finditer(haystack):
+        cve = m.group(0).upper()
+        if cve not in cves_seen:
+            cves_seen.append(cve)
+    # Prefer CVEs that appear in the first paragraph
+    first_para_cves = [c for c in cves_seen if c in haystack[:fp_end]]
+    other_cves = [c for c in cves_seen if c not in first_para_cves]
+    cve_ids = (first_para_cves + other_cves)[:MAX_CVES]
+
+    # MITRE techniques
+    mitre_tids = sorted({m.group(0) for m in MITRE_TID_RE.finditer(haystack)})
+
+    # Products with role and confidence
+    product_tags = []  # list of (label, role, confidence)
+    for pattern, label in PRODUCTS:
+        term_re = re.compile(pattern, re.IGNORECASE)
+        hits = _anchored_matches(haystack, term_re, THREAT_ANCHOR_RE)
+        if not hits:
+            continue
+        # Use the best (highest-confidence) hit for this product
+        best = None
+        for term, pos, dist in hits:
+            role = _classify_role(haystack, pos, len(term))
+            conf = _confidence(role, dist, pos < fp_end)
+            if not best or conf > best[2]:
+                best = (label, role, conf)
+        product_tags.append(best)
+
+    # Sort by confidence, dedupe by label
+    product_tags.sort(key=lambda t: -t[2])
+    seen_labels = set()
+    deduped = []
+    for label, role, conf in product_tags:
+        if label in seen_labels:
+            continue
+        seen_labels.add(label)
+        deduped.append((label, role, conf))
+    product_tags = deduped
+
+    # Split into accepted target tags and weak/other tags
+    target_products = [(l, c) for l, r, c in product_tags if r == "target" and c >= MIN_CONFIDENCE]
+    tool_products = [(l, c) for l, r, c in product_tags if r == "tool" and c >= MIN_CONFIDENCE]
+    weak_products = [(l, r, c) for l, r, c in product_tags if c < MIN_CONFIDENCE or r in ("vendor", "mention")]
+
+    affected_products = [l for l, _ in target_products[:MAX_PRODUCTS]]
+    tools_used = [l for l, _ in tool_products[:MAX_PRODUCTS]]
+
+    # Role map for downstream consumers (affinity must use this to ignore tools)
+    role_map = {l: r for l, r, _ in product_tags}
+
+    # Actors. Same proximity-anchored approach; actors mentioned near threat
+    # context get tagged. No role disambiguation — an actor mentioned in CTI
+    # context is always a subject, not a tool.
+    actor_tags = []
+    for pattern, label in ACTORS:
+        if label is None:
+            continue
+        term_re = re.compile(pattern, re.IGNORECASE)
+        hits = _anchored_matches(haystack, term_re, THREAT_ANCHOR_RE)
+        if hits:
+            actor_tags.append(label)
+    # Unknown APT/UNC fallback - capture if uncategorized
+    for term in re.findall(r"\bAPT\d+\b|\bUNC\d{3,4}\b", haystack):
+        if term not in actor_tags and len(actor_tags) < MAX_ACTORS:
+            actor_tags.append(term)
+    actor_attribution = actor_tags[:MAX_ACTORS]
+
+    # Industries
+    industries = []
+    for pattern, label in INDUSTRIES:
+        if re.search(pattern, haystack, re.IGNORECASE) and label not in industries:
+            industries.append(label)
+    affected_industries = industries[:MAX_INDUSTRIES]
+
+    # Categories
+    categories = []
+    for pattern, label in THREAT_CATEGORIES:
+        if re.search(pattern, haystack, re.IGNORECASE) and label not in categories:
+            categories.append(label)
+    threat_categories = categories
+
+    # Urgency signals
+    urgency = []
+    if re.search(r"\bactively\s+exploited\b|\bin\s+the\s+wild\b", haystack, re.IGNORECASE):
+        urgency.append("actively_exploited")
+    if re.search(r"\bzero[-\s]?day\b", haystack, re.IGNORECASE):
+        urgency.append("zero_day")
+    if re.search(r"\bunauthenticated\b|\bpre[-\s]?auth\b", haystack, re.IGNORECASE):
+        urgency.append("preauth_unauth")
+    if re.search(r"\bemergency\s+patch\b|\bout[-\s]of[-\s]band\s+patch\b", haystack, re.IGNORECASE):
+        urgency.append("emergency_patch")
+    if re.search(r"\bno\s+patch\b|\bnot\s+(?:fixed|patched)\b|\bunpatched\b", haystack, re.IGNORECASE):
+        urgency.append("no_patch_yet")
+    if re.search(r"\bPoC\b|\bproof[-\s]of[-\s]concept\s+(?:exploit|code)\b", haystack, re.IGNORECASE):
+        urgency.append("poc_available")
+    if re.search(r"\bCVSS\s*[:\s]?\s*(?:9\.\d|10(?:\.0)?)\b", haystack, re.IGNORECASE):
+        urgency.append("critical_cvss")
+
+    # Content type heuristic
+    content_type = _classify_content_type(title, haystack, source)
+
+    confidence_tier = CONFIDENCE_TIER_MAP.get(cohort, "tier_5_chatter")
 
     return {
-        "threat_categories": _match_simple(haystack, THREAT_CATEGORIES),
-        "actor_attribution": extract_actors(haystack),
-        "affected_industries": _match_simple(haystack, INDUSTRY_DICTIONARY),
-        "affected_products": _match_simple(haystack, PRODUCT_DICTIONARY),
-        "cve_ids": extract_cve_ids(haystack),
-        "attack_techniques": extract_mitre_techniques(haystack),
-        "geographic_scope": _match_simple(haystack, GEOGRAPHIC_DICTIONARY),
-        "urgency_signals": _match_simple(haystack, URGENCY_SIGNALS),
-        "content_type": _classify_content_type(haystack, cohort),
-        "confidence_tier": COHORT_CONFIDENCE_TIER.get(cohort, "tier_unknown"),
+        "threat_categories": threat_categories,
+        "actor_attribution": actor_attribution,
+        "affected_industries": affected_industries,
+        "affected_products": affected_products,
+        "tools_used": tools_used,
+        "cve_ids": cve_ids,
+        "attack_techniques": mitre_tids,
+        "urgency_signals": urgency,
+        "content_type": content_type,
+        "confidence_tier": confidence_tier,
+        "role_map": role_map,
+        "weak_tags": {"products": [(l, r, round(c, 2)) for l, r, c in weak_products]},
     }
 
 
-def _classify_content_type(text, cohort):
-    """Return the most specific content type label that applies."""
-    matches = _match_simple(text, CONTENT_TYPE_PATTERNS)
-    if matches:
-        # Specificity ordering: prefer threat_research > vulnerability > incident > detection > policy > news
-        priority = ["threat_research", "vulnerability_disclosure", "incident_report",
-                    "detection_writeup", "policy_analysis", "news_report"]
-        for p in priority:
-            if p in matches:
-                return p
-    # Fall back to cohort-based default.
-    if cohort in ("cyber_news_breach_reporting",):
-        return "news_report"
-    if cohort in ("policy_strategy_geopolitics",):
-        return "policy_analysis"
-    return "uncategorized"
+def _classify_content_type(title, body, source):
+    """Identify what kind of article this is.
+
+    Differentiates vendor announcements (low signal) from primary research
+    (high signal) from incident reports from analysis pieces.
+    """
+    t = title.lower()
+    b = body.lower()[:1500]  # head of body only
+
+    # Vendor announcement patterns — kill this dead
+    if any(p in t for p in [
+        "unveils", "introduces", "announces", "launches",
+        "now available", "general availability", "ga release",
+        "partnership with", "named a leader", "magic quadrant",
+        "earnings", "investor", "appoints", "hires",
+    ]):
+        return "vendor_announcement"
+
+    # Webinar / event
+    if any(p in t for p in ["webinar", "virtual event", "register now", "join us"]):
+        return "event_promotion"
+
+    # Vulnerability disclosure
+    if "CVE-" in title or "vulnerability" in t or "advisory" in t:
+        return "vulnerability_disclosure"
+
+    # Incident / breach
+    if any(p in t for p in [
+        "data breach", "confirmed breach", "attack on", "compromised",
+        "ransomware attack", "extortion", "leak", "exfiltrated",
+    ]):
+        return "incident_report"
+
+    # Original threat research
+    if any(p in b[:600] for p in [
+        "we discovered", "our research", "we identified",
+        "our analysis", "we observed", "we analyzed",
+        "this post details", "in this report we",
+    ]):
+        return "threat_research"
+
+    # Roundup / weekly
+    if any(p in t for p in ["weekly recap", "intelligence insights", "threat landscape", "weekly wrap"]):
+        return "intel_roundup"
+
+    return "news_report"
