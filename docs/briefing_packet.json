@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-28T22:01:25.229332+00:00",
+  "generated_at": "2026-05-28T23:24:06.325637+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 421,
-  "total_clusters_raw": 153,
+  "total_items_in_window": 422,
+  "total_clusters_raw": 154,
   "total_clusters_in_packet": 60,
-  "dropped_low_score": 93,
+  "dropped_low_score": 94,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,20 +74,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -95,18 +81,18 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 24,
+      "in_window_count": 0
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -123,12 +109,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 5
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,6 +123,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -144,11 +137,32 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 3
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 3
     },
     "SANS Internet Storm Center": {
@@ -165,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 13
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -179,25 +193,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 0
     },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -214,25 +221,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 13
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 0
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -242,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -258,6 +251,13 @@
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -291,26 +291,19 @@
       "item_count": 30,
       "in_window_count": 1
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -319,6 +312,13 @@
       "item_count": 20,
       "in_window_count": 4
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -326,11 +326,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 1
     },
     "Protect AI": {
@@ -340,13 +340,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
@@ -354,11 +347,11 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 0
     },
     "Google Cloud Security": {
@@ -375,18 +368,25 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 1
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 1
     },
     "Google Cloud Threat Intelligence": {
@@ -403,19 +403,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "The Record": {
       "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,13 +431,6 @@
       "item_count": 30,
       "in_window_count": 17
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -445,12 +438,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 100,
+      "in_window_count": 1
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -466,19 +459,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 20
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,19 +480,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 20
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,12 +501,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -522,13 +529,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 38
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -536,12 +536,12 @@
       "item_count": 100,
       "in_window_count": 19
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 38
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -585,19 +585,19 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 12
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -4628,7 +4628,7 @@
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
         "published": "2026-05-28T15:00:00+00:00",
         "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Elevation of privilege Extortion Human-operated ransomware Lateral movement Ransomware Ransomware as a service Storm Windows Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Ransomware that combines robust encryption with rapid lateral movement significantly increases the risk and impact of an attack. The Gentlemen ransomware is a ransomware-as-a-service (RaaS) threat that is distinguished by its ability to pair its strong per-file encryption with an aggressive self-propagation capability designed to enable broad network compromise. In addition to using per-file ephemeral Curve25519 keys with XChaCha20 stream cipher, The Gentlemen ransomware attempts to spread across an environment using series of simultaneous, distinct lateral movement methods, increasing the likelihood of widespread impact once initial access is achieved. Understand the threat Protect against ransomware and extortion activity › Microsoft Threat Intelligence tracks the operators behind the ransomware as Storm-2697, a financially motivated threat actor that manages the RaaS platform known as “The Gentlemen” while affiliates carry out attacks. Emerging around mid-2025 , The Gentlemen initially started as a closed ransomware group then began offering its RaaS to affiliates in September 2025 . More recently, The Gentlemen operators established an official partnership with BreachForums, a popular cybercriminal marketplace, to recruit affiliates including penetration testers and initial access brokers. Given that The Gentlemen is already a widely adopted RaaS platform, this partnership may lead to increased activity as the program becomes accessible to a broader pool of threat actors. The operators behind the ransomware use double extortion tactics, encrypting data while also exfiltrating sensitive information to pressure victims through the threat of public release if the ransom is not paid. The ransomware is written in Go and obfuscated with Garble to target the Windows environment. Microsoft has observed The Gentlemen ransomware impacting organizations across education, transportation, healthcare, and financial industries in North America, South America, Europe, Africa, and Asia. In this blog, we present a detailed analysis of the Gentlemen ransomware encryptor, including its execution flow, defense evasion behaviors, encryption design, and lateral movement techniques. This research is intended to provide defenders, incident responders, and the broader security community with a better understanding of how the threat operates, from initial argument parsing and defense evasion, through its file encryption internals, to the full lateral movement that enables it to propagate across the network. We also provide mitigation guidance, Microsoft Defender detections, hunting queries, and indicators of compromise (IOCs) to help organizations defend against this threat and similar ransomware activity. Pre-encryption Command-line argument processing The ransomware operator can control The Gentlemen encryptor through command-line arguments. A password is required for execution, and optional arguments allow the operator to specify encryption scope, speed, lateral movement, and post-encryption behaviors. The binary accepts the following arguments: Command-line argument Description -- password <password> Required access password (build-specific) -- path <list of paths> Comma-separated list of target directories or file paths -- T <minutes> Delay in minutes before file encryption begins -- silent Silent mode. Disable renaming files, changing timestamps after encryption, and setting the desktop wallpaper -- system Encrypt files as SYSTEM, targeting only local drives -- shares Encrypt only mapped network drives and available Universal Naming Convention (UNC) shares -- full Two-phase encryption by relaunching itself as two separate processe",
+        "full_body": "Share Link copied to clipboard! Tags Elevation of privilege Extortion Human-operated ransomware Lateral movement Ransomware Ransomware as a service Storm Windows Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Ransomware that combines robust encryption with rapid lateral movement significantly increases the risk and impact of an attack. The Gentlemen ransomware is a ransomware-as-a-service (RaaS) threat that is distinguished by its ability to pair its strong per-file encryption with an aggressive self-propagation capability designed to enable broad network compromise. In addition to using per-file ephemeral Curve25519 keys with XChaCha20 stream cipher, The Gentlemen ransomware attempts to spread across an environment using series of simultaneous, distinct lateral movement methods, increasing the likelihood of widespread impact once initial access is achieved. Understand the threat Protect against ransomware and extortion activity › Microsoft Threat Intelligence tracks the operators behind the ransomware as Storm-2697, a financially motivated threat actor that manages the RaaS platform known as “The Gentlemen” while affiliates carry out attacks. Emerging around mid-2025 , The Gentlemen initially started as a closed ransomware group then began offering its RaaS to affiliates in September 2025 . More recently, The Gentlemen operators established an official partnership with BreachForums, a popular cybercriminal marketplace, to recruit affiliates including penetration testers and initial access brokers. Given that The Gentlemen is already a widely adopted RaaS platform, this partnership may lead to increased activity as the program becomes accessible to a broader pool of threat actors. The operators behind the ransomware use double extortion tactics, encrypting data while also exfiltrating sensitive information to pressure victims through the threat of public release if the ransom is not paid. The ransomware is written in Go and obfuscated with Garble to target the Windows environment. Microsoft has observed The Gentlemen ransomware impacting organizations across education, transportation, healthcare, and financial industries in North America, South America, Europe, Africa, and Asia. In this blog, we present a detailed analysis of the Gentlemen ransomware encryptor, including its execution flow, defense evasion behaviors, encryption design, and lateral movement techniques. This research is intended to provide defenders, incident responders, and the broader security community with a better understanding of how the threat operates, from initial argument parsing and defense evasion, through its file encryption internals, to the full lateral movement that enables it to propagate across the network. We also provide mitigation guidance, Microsoft Defender detections, hunting queries, and indicators of compromise (IOCs) to help organizations defend against this threat and similar ransomware activity. Pre-encryption Command-line argument processing The ransomware operator can control The Gentlemen encryptor through command-line arguments. A password is required for execution, and optional arguments allow the operator to specify encryption scope, speed, lateral movement, and post-encryption behaviors. The binary accepts the following arguments: Command-line argument Description -- password <password> Required access password (build-specific) -- path <list of paths> Comma-separated list of target directories or file paths -- T <minutes> Delay in minutes before file encryption begins -- silent Silent mode. Disable renaming files, changing timestamps after encryption, and setting the desktop wallpaper -- system Encrypt files as SYSTEM, targeting only local drives -- shares Encrypt only mapped network drives and available Universal Naming Conv",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -5435,8 +5435,8 @@
     {
       "cluster_id": "5f87dacfdb",
       "priority_score": 12,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "OpenAI/ChatGPT"
       ],
@@ -5449,6 +5449,7 @@
         "affected_products": [
           "AWS",
           "Anthropic/Claude",
+          "Google/Gemini",
           "OpenAI/ChatGPT"
         ],
         "tools_used": [],
@@ -5552,6 +5553,36 @@
               "OpenAI/ChatGPT": "target",
               "AWS": "target",
               "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+          "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+          "published": "2026-05-28T22:24:49+00:00",
+          "summary": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "Google/Gemini": "target"
             },
             "weak_tags": {
               "products": []
@@ -6249,6 +6280,112 @@
       ]
     },
     {
+      "cluster_id": "0c964a73a7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-22554",
+          "CVE-2026-25104",
+          "CVE-2026-25713",
+          "CVE-2026-28764"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "MediaArea heap-based buffer overflow vulnerabilities",
+        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+        "published": "2026-05-27T14:00:14+00:00",
+        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-25104",
+            "CVE-2026-25713",
+            "CVE-2026-28764",
+            "CVE-2026-22554"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "MediaArea heap-based buffer overflow vulnerabilities",
+          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+          "published": "2026-05-27T14:00:14+00:00",
+          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-25104",
+              "CVE-2026-25713",
+              "CVE-2026-28764",
+              "CVE-2026-22554"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "34bd67b0f5",
       "priority_score": 10,
       "member_count": 1,
@@ -6467,112 +6604,6 @@
               "Azure": "target",
               "Microsoft Defender": "target",
               "F5 BIG-IP": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c964a73a7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-22554",
-          "CVE-2026-25104",
-          "CVE-2026-25713",
-          "CVE-2026-28764"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "MediaArea heap-based buffer overflow vulnerabilities",
-        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-        "published": "2026-05-27T14:00:14+00:00",
-        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-25104",
-            "CVE-2026-25713",
-            "CVE-2026-28764",
-            "CVE-2026-22554"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "MediaArea heap-based buffer overflow vulnerabilities",
-          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-          "published": "2026-05-27T14:00:14+00:00",
-          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-25104",
-              "CVE-2026-25713",
-              "CVE-2026-28764",
-              "CVE-2026-22554"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
