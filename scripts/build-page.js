@@ -1846,7 +1846,7 @@ const cohortCards = Object.entries(cohorts)
   })
   .join("");
 
-function formatDominantFeatures(dominant) {
+function formatDominantFeatures(dominant, opts = {}) {
   if (!dominant || typeof dominant !== "object") return "";
   const parts = [];
   const axisLabels = {
@@ -1857,7 +1857,11 @@ function formatDominantFeatures(dominant) {
     cve_ids: "CVE",
     attack_techniques: "Technique",
   };
+  // Skip CVE row when the theme already names its CVEs via member_cves
+  // rollup — avoids redundant display.
+  const skipAxes = new Set(opts.skipAxes || []);
   for (const axis of ["actor_attribution", "affected_products", "threat_categories", "affected_industries", "cve_ids", "attack_techniques"]) {
+    if (skipAxes.has(axis)) continue;
     const values = dominant[axis];
     if (Array.isArray(values) && values.length) {
       const display = values.slice(0, 3).map((v) => v.replace(/_/g, " ")).join(", ");
@@ -1867,10 +1871,35 @@ function formatDominantFeatures(dominant) {
   return parts.join("");
 }
 
+function formatThemeRollups(group) {
+  // Surface rollup metadata produced by affinity.py's rollup passes:
+  //   member_cves  — CVEs folded into this product theme
+  //   also_targets — products folded into this actor theme
+  // These are the elegance pass: one theme per real story, with the
+  // constituent CVEs/targets surfaced as detail rather than as parallel
+  // themes that duplicate cluster sets.
+  const parts = [];
+  const cves = Array.isArray(group.member_cves) ? Array.from(new Set(group.member_cves)).sort() : [];
+  const targets = Array.isArray(group.also_targets) ? Array.from(new Set(group.also_targets)).sort() : [];
+  if (cves.length) {
+    parts.push(`<span class="theme-feature"><strong>CVEs in theme:</strong> ${escapeHtml(cves.join(", "))}</span>`);
+  }
+  if (targets.length) {
+    parts.push(`<span class="theme-feature"><strong>Also targets:</strong> ${escapeHtml(targets.join(", "))}</span>`);
+  }
+  return parts.join("");
+}
+
 const themeCards = affinityGroups
   .map((group) => {
     const cohesionPct = Math.round((group.cohesion || 0) * 100);
-    const features = formatDominantFeatures(group.dominant_features);
+    const hasMemberCves = Array.isArray(group.member_cves) && group.member_cves.length > 0;
+    // If we're surfacing rolled-up CVEs explicitly, suppress the dominant
+    // CVE row to avoid showing the same CVEs twice on the same card.
+    const features = formatDominantFeatures(group.dominant_features, {
+      skipAxes: hasMemberCves ? ["cve_ids"] : [],
+    });
+    const rollups = formatThemeRollups(group);
     return `
       <article class="theme-card">
         <div class="theme-tag">Detected Theme · ${cohesionPct}% cohesion</div>
@@ -1880,6 +1909,7 @@ const themeCards = affinityGroups
           <span class="theme-count">${escapeHtml(group.cluster_count)} stories</span>
         </p>
         ${features ? `<p class="theme-features">${features}</p>` : ""}
+        ${rollups ? `<p class="theme-rollups">${rollups}</p>` : ""}
       </article>
     `;
   })
@@ -3500,8 +3530,8 @@ ${JSON.stringify(jsonLd, null, 2)}
       <div class="sticky-actions">
         ${briefExists ? '<a href="./brief/" target="_blank" rel="noopener noreferrer">Brief</a>' : ''}
         <a href="./feed.json" target="_blank" rel="noopener noreferrer">JSON</a>
-        <a href="#top-insights">Top 10</a>
         <a href="#active-themes">Themes</a>
+        <a href="#top-insights">Top 10</a>
         <a href="#source-cohorts">Cohorts</a>
         <a href="#article-corpus">Corpus</a>
         <a href="#all-feed-items">All Items</a>
@@ -3538,8 +3568,8 @@ ${JSON.stringify(jsonLd, null, 2)}
     <nav class="utility-links" aria-label="Feed navigation">
       ${briefExists ? `<a class="button-link" href="./brief/" ${externalLinkAttrs()}>Latest PHANTOMSignal Brief</a>` : ''}
       <a class="button-link" href="./feed.json" ${externalLinkAttrs()}>Raw JSON feed</a>
-      <a class="button-link" href="#top-insights">Top 10</a>
       <a class="button-link" href="#active-themes">Active Themes</a>
+      <a class="button-link" href="#top-insights">Top 10</a>
       <a class="button-link" href="#source-cohorts">Source Cohorts</a>
       <a class="button-link" href="#article-corpus">Article Corpus</a>
       <a class="button-link" href="#all-feed-items">All Feed Items</a>
@@ -3548,6 +3578,8 @@ ${JSON.stringify(jsonLd, null, 2)}
     </nav>
 
     ${searchResultsSection}
+
+    ${activeThemesSection}
 
     <section class="insights-panel" id="top-insights">
       ${renderPanelHeader({ tag: "Priority Alpha", title: "Top 10 Breaches and Threat Insights", status: `${topInsights.length} surfaced` })}
@@ -3558,8 +3590,6 @@ ${JSON.stringify(jsonLd, null, 2)}
         ${topInsights.map(buildInsight).join("")}
       </div>
     </section>
-
-    ${activeThemesSection}
 
     <section class="panel" id="source-cohorts">
       ${renderPanelHeader({ tag: "Ingestion Lanes", title: "Source Cohorts", status: `${Object.keys(cohorts).length} lanes` })}
