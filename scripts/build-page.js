@@ -1671,6 +1671,7 @@ function buildInsight(item, index) {
       data-theme="${escapeHtml(theme.key)}"
       data-threat-category="${escapeHtml(threatCategory.key)}"
       data-industries="${escapeHtml(industries.map((industry) => industry.key).join(" "))}"
+      data-affinity-themes="${escapeHtml(Array.from(linkToThemes[link] || []).join(" "))}"
     >
       <div class="rank">#${index + 1}</div>
       <div class="insight-body">
@@ -1715,6 +1716,7 @@ function renderLineItem(item, index) {
       data-theme="${escapeHtml(theme.key)}"
       data-threat-category="${escapeHtml(threatCategory.key)}"
       data-industries="${escapeHtml(industries.map((industry) => industry.key).join(" "))}"
+      data-affinity-themes="${escapeHtml(Array.from(linkToThemes[link] || []).join(" "))}"
       data-published="${escapeHtml(published)}"
       itemscope
       itemtype="https://schema.org/Article"
@@ -1890,18 +1892,30 @@ function formatThemeRollups(group) {
   return parts.join("");
 }
 
+// Build a link -> [theme_key, ...] map so feed items can be tagged with
+// every theme they belong to. One item can belong to multiple themes
+// when actor↔product rollups overlap.
+const linkToThemes = {};
+for (const group of affinityGroups) {
+  const key = group.theme_key || (group.anchor_signal || group.label || "").toLowerCase().replace(/[^a-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "");
+  if (!key) continue;
+  for (const link of group.links || []) {
+    if (!linkToThemes[link]) linkToThemes[link] = new Set();
+    linkToThemes[link].add(key);
+  }
+}
+
 const themeCards = affinityGroups
   .map((group) => {
     const cohesionPct = Math.round((group.cohesion || 0) * 100);
     const hasMemberCves = Array.isArray(group.member_cves) && group.member_cves.length > 0;
-    // If we're surfacing rolled-up CVEs explicitly, suppress the dominant
-    // CVE row to avoid showing the same CVEs twice on the same card.
     const features = formatDominantFeatures(group.dominant_features, {
       skipAxes: hasMemberCves ? ["cve_ids"] : [],
     });
     const rollups = formatThemeRollups(group);
+    const themeKey = group.theme_key || (group.anchor_signal || group.label || "").toLowerCase().replace(/[^a-z0-9._-]+/g, "-").replace(/^-+|-+$/g, "");
     return `
-      <article class="theme-card">
+      <button class="theme-card" type="button" data-filter-type="theme" data-filter-key="${escapeHtml(themeKey)}" aria-label="Filter corpus by theme: ${escapeHtml(group.label)}">
         <div class="theme-tag">Detected Theme · ${cohesionPct}% cohesion</div>
         <h3>${escapeHtml(group.label)}</h3>
         <p>
@@ -1910,7 +1924,7 @@ const themeCards = affinityGroups
         </p>
         ${features ? `<p class="theme-features">${features}</p>` : ""}
         ${rollups ? `<p class="theme-rollups">${rollups}</p>` : ""}
-      </article>
+      </button>
     `;
   })
   .join("");
@@ -2921,6 +2935,29 @@ ${JSON.stringify(jsonLd, null, 2)}
       border-radius: 4px var(--r-elbow-md) 4px var(--r-elbow-md);
       padding: 16px;
       border-left: 3px solid var(--jade);
+      /* button-as-card */
+      width: 100%;
+      text-align: left;
+      color: var(--text);
+      font: inherit;
+      cursor: pointer;
+      transition: border-color 140ms ease, background 140ms ease, transform 140ms ease;
+    }
+
+    .theme-card:hover,
+    .theme-card.active {
+      border-color: rgba(58, 255, 196, 0.6);
+      background: rgba(58, 255, 196, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .theme-card.active {
+      border-left-width: 4px;
+    }
+
+    .theme-card:focus-visible {
+      outline: 2px solid var(--jade);
+      outline-offset: 2px;
     }
 
     .theme-card h3 {
@@ -3643,13 +3680,18 @@ ${JSON.stringify(
     // -----------------------------------------------------------
     // Filter behavior (existing — preserved)
     // -----------------------------------------------------------
-    const filterButtons = Array.from(document.querySelectorAll(".filter-toolbar [data-filter-type][data-filter-key], .cohort-card[data-filter-type][data-filter-key], .insight [data-filter-type][data-filter-key], .feed-line [data-filter-type][data-filter-key]"));
+    const filterButtons = Array.from(document.querySelectorAll(".filter-toolbar [data-filter-type][data-filter-key], .cohort-card[data-filter-type][data-filter-key], .theme-card[data-filter-type][data-filter-key], .insight [data-filter-type][data-filter-key], .feed-line [data-filter-type][data-filter-key]"));
     const feedItems = Array.from(document.querySelectorAll("#dynamic-feed-lines .feed-line"));
     const activeFilterLabel = document.getElementById("active-filter-label");
 
     function labelForButton(button) {
       if (!button) {
         return "All";
+      }
+      // For theme cards, prefer the h3 inside the card over the full textContent
+      const headline = button.querySelector ? button.querySelector("h3") : null;
+      if (headline && headline.textContent) {
+        return headline.textContent.trim();
       }
       return button.textContent.replace(/\\s+\\d+$/, "").trim();
     }
@@ -3661,12 +3703,14 @@ ${JSON.stringify(
         const itemThreatCategory = item.dataset.threatCategory || "";
         const itemCohort = item.dataset.category || "";
         const itemIndustries = (item.dataset.industries || "").split(" ").filter(Boolean);
+        const itemAffinityThemes = (item.dataset.affinityThemes || "").split(" ").filter(Boolean);
 
         const shouldShow =
           type === "all" ||
           (type === "threat" && itemThreatCategory === key) ||
           (type === "industry" && itemIndustries.includes(key)) ||
-          (type === "cohort" && itemCohort === key);
+          (type === "cohort" && itemCohort === key) ||
+          (type === "theme" && itemAffinityThemes.includes(key));
 
         item.hidden = !shouldShow;
 
@@ -3675,11 +3719,21 @@ ${JSON.stringify(
         }
       }
 
-      // Update active state only on filter-toolbar buttons inside Article Corpus
+      // Update active state on filter-toolbar buttons inside Article Corpus
       const toolbarButtons = document.querySelectorAll(".filter-toolbar .filter-chip");
       for (const candidate of toolbarButtons) {
         candidate.classList.remove("active");
         if (candidate.dataset.filterType === type && candidate.dataset.filterKey === key) {
+          candidate.classList.add("active");
+        }
+      }
+
+      // Update active state on theme cards so the user can see which
+      // theme is currently filtering the corpus.
+      const themeButtons = document.querySelectorAll(".theme-card[data-filter-type='theme']");
+      for (const candidate of themeButtons) {
+        candidate.classList.remove("active");
+        if (type === "theme" && candidate.dataset.filterKey === key) {
           candidate.classList.add("active");
         }
       }
