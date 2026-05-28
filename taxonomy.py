@@ -234,6 +234,34 @@ NEGATIVE_PRODUCT_CONTEXTS = (
     r"sponsored\s+by\b",
 )
 
+# Non-CTI patterns. Items matching any of these are flagged with content_type
+# "out_of_scope" and should be filtered out of the public feed entirely.
+# These match cybersecurity-adjacent keywords (online, social media, identity)
+# but are not threat intelligence content — they're general-crime reporting,
+# personal-tragedy stories, or human-interest pieces that the feed should
+# never surface alongside actual CTI.
+#
+# Erring on the side of false-positives here is correct. Worst case is a
+# legitimate CTI item being dropped because it mentions one of these terms;
+# that's fixable with a noise_exempt check (e.g., if a story also names a
+# threat actor or CVE, keep it). The reverse — letting non-CTI items reach
+# the page — is much worse, particularly for content involving minors or
+# personal harm.
+OUT_OF_SCOPE_PATTERNS = (
+    # Child exploitation / CSAM / luring — never display, never tag
+    r"\b(?:child|minor|underage|teen)\s+(?:exploit|abuse|porn|sex(?:ual)?|luring|enticement|grooming)\b",
+    r"\b(?:CSAM|child\s+sexual\s+abuse\s+material)\b",
+    r"\b(?:luring|enticement|grooming|sextort\w+)\s+(?:of\s+)?(?:children|minors|kids|teens)\b",
+    r"\b(?:coerce\w*|manipulat\w+)\s+(?:children|minors|kids|teens)\b",
+    r"\bsexually\s+explicit\s+(?:images|videos|content)\b",
+    r"\bpredator\s+(?:targeting|contacting)\s+(?:children|minors|kids)\b",
+    # Personal-crime / domestic violence / stalking of individuals
+    r"\bdomestic\s+(?:violence|abuse|partner)\b",
+    r"\bstalk\w+\s+(?:victim|individual|partner|spouse|ex-?)\b(?!.*(?:campaign|operation|APT))",
+    # General criminal prosecution unrelated to cyber threats
+    r"\bsentenced\s+to\s+\d+\s+years?\b.*\b(?:luring|exploitation|child|minor)\b",
+)
+
 # Confidence thresholds
 MIN_CONFIDENCE = 0.4
 HIGH_CONFIDENCE = 0.8
@@ -249,6 +277,7 @@ THREAT_ANCHOR_RE = re.compile("|".join(THREAT_ANCHORS), re.IGNORECASE)
 TOOL_ANCHOR_RE = re.compile("|".join(TOOL_ANCHORS), re.IGNORECASE)
 VENDOR_ANCHOR_RE = re.compile("|".join(VENDOR_ANCHORS), re.IGNORECASE)
 NEGATIVE_CONTEXT_RE = re.compile("|".join(NEGATIVE_PRODUCT_CONTEXTS), re.IGNORECASE)
+OUT_OF_SCOPE_RE = re.compile("|".join(OUT_OF_SCOPE_PATTERNS), re.IGNORECASE)
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.IGNORECASE)
 MITRE_TID_RE = re.compile(r"\bT\d{4}(?:\.\d{3})?\b")
 
@@ -367,8 +396,14 @@ def extract_taxonomy(title, summary, source, cohort, full_body=""):
     other_cves = [c for c in cves_seen if c not in first_para_cves]
     cve_ids = (first_para_cves + other_cves)[:MAX_CVES]
 
-    # MITRE techniques
-    mitre_tids = sorted({m.group(0) for m in MITRE_TID_RE.finditer(haystack)})
+    # MITRE techniques — require co-location with "MITRE", "ATT&CK", or
+    # "technique" context to avoid false positives on product model
+    # numbers like "T3000" or "T2000" that aren't actual technique IDs.
+    mitre_context = re.search(r"\b(?:MITRE|ATT&?CK|technique\w*|tactic\w*|TTPs?)\b", haystack, re.IGNORECASE)
+    if mitre_context:
+        mitre_tids = sorted({m.group(0) for m in MITRE_TID_RE.finditer(haystack)})
+    else:
+        mitre_tids = []
 
     # Products with role and confidence
     product_tags = []  # list of (label, role, confidence)
@@ -456,8 +491,23 @@ def extract_taxonomy(title, summary, source, cohort, full_body=""):
     if re.search(r"\bCVSS\s*[:\s]?\s*(?:9\.\d|10(?:\.0)?)\b", haystack, re.IGNORECASE):
         urgency.append("critical_cvss")
 
-    # Content type heuristic
-    content_type = _classify_content_type(title, haystack, source)
+    # Content type heuristic. Pass the extracted taxonomy so the classifier
+    # can spot low-signal items that have NO CTI anchors at all (no CVE,
+    # no actor, no target product, no threat-category match, no urgency
+    # signals). Those are dropped from the feed even if they're nominally
+    # CTI-adjacent (Reddit chatter, career questions, hardware retirements).
+    content_type = _classify_content_type(
+        title=title,
+        body=haystack,
+        source=source,
+        cohort=cohort,
+        threat_categories=threat_categories,
+        actor_attribution=actor_attribution,
+        affected_products=affected_products,
+        cve_ids=cve_ids,
+        urgency=urgency,
+        mitre_tids=mitre_tids,
+    )
 
     confidence_tier = CONFIDENCE_TIER_MAP.get(cohort, "tier_5_chatter")
 
@@ -477,14 +527,79 @@ def extract_taxonomy(title, summary, source, cohort, full_body=""):
     }
 
 
-def _classify_content_type(title, body, source):
+def _classify_content_type(title, body, source, cohort="",
+                           threat_categories=None, actor_attribution=None,
+                           affected_products=None, cve_ids=None,
+                           urgency=None, mitre_tids=None):
     """Identify what kind of article this is.
 
     Differentiates vendor announcements (low signal) from primary research
-    (high signal) from incident reports from analysis pieces.
+    (high signal) from incident reports from analysis pieces. Short-circuits
+    to "out_of_scope" for cybersecurity-adjacent content that isn't actually
+    CTI (child exploitation prosecutions, personal crime, etc.), and to
+    "low_signal" for items that nominally come from a CTI feed but have
+    no CTI anchors at all (Reddit chatter, career questions, hardware
+    retirement posts, general IT operations).
     """
     t = title.lower()
     b = body.lower()[:1500]  # head of body only
+
+    # Out-of-scope check first. If this matches, the item should be
+    # dropped from the feed entirely. We keep an escape hatch: if the
+    # body also contains a clear CTI anchor (CVE, threat actor name,
+    # cybersecurity-product context), the item is legitimate CTI that
+    # happens to discuss these topics (e.g., a story about a CSAM
+    # distribution platform takedown that names specific malware).
+    combined = f"{t} {b}"
+    if OUT_OF_SCOPE_RE.search(combined):
+        has_cti_anchor = (
+            CVE_RE.search(combined)
+            or re.search(r"\b(?:APT\d+|UNC\d+|ransomware\s+gang|threat\s+actor|botnet|C2|malware\s+family)\b", combined, re.IGNORECASE)
+            or re.search(r"\b(?:phishing\s+kit|infostealer|RAT|backdoor|exploit\s+kit)\b", combined, re.IGNORECASE)
+        )
+        if not has_cti_anchor:
+            return "out_of_scope"
+
+    # Low-signal check: items with NO CTI anchors at all. This catches the
+    # long tail of Reddit chatter — career advice, vendor pricing, hardware
+    # retirement posts, customer-service-training questions — that match
+    # the feed's source list but contribute nothing of CTI substance.
+    #
+    # An item is low_signal when none of these hold:
+    #   - has a CVE
+    #   - has a named threat actor
+    #   - has a target product (something attackable)
+    #   - has a threat category (ransomware, supply_chain, etc.)
+    #   - has an urgency signal (actively exploited, 0-day, etc.)
+    #   - has a MITRE technique ID
+    #   - title or body contains a generic-but-CTI-relevant term (malware,
+    #     vulnerability, exploit, attack, breach, phishing, ransomware,
+    #     etc.) — this catches Tier 1 articles that may not have specific
+    #     CVEs/actors named but are clearly CTI in subject
+    has_structured_signal = bool(
+        (cve_ids or [])
+        or (actor_attribution or [])
+        or (affected_products or [])
+        or (threat_categories or [])
+        or (urgency or [])
+        or (mitre_tids or [])
+    )
+    if not has_structured_signal:
+        GENERIC_CTI_TERMS = re.compile(
+            r"\b(?:malware|vulnerab\w+|exploit\w*|attack(?:er|ed|ing|s)?|breach\w*|"
+            r"phish\w+|ransomware|hacker\w*|intrusion\w*|compromise\w+|backdoor\w*|"
+            r"trojan|infostealer|botnet|web\s?shell|patch\b|advisor\w+|disclos\w+|"
+            r"threat\s+(?:actor|intel|hunting|research)|red\s+team|blue\s+team|"
+            r"detection\s+engineer\w+|incident\s+response|SOC\b|SIEM\b|EDR\b|XDR\b|"
+            r"hunting\s+quer\w+|KQL\b|sigma\s+rule\b|YARA\b)",
+            re.IGNORECASE,
+        )
+        if not GENERIC_CTI_TERMS.search(combined):
+            # Reddit cohorts get a slightly looser pass: the cohort itself
+            # is signal, so we only drop them when they're truly off-topic.
+            # But "basic customer service training" with no CTI terms IS
+            # truly off-topic.
+            return "low_signal"
 
     # Vendor announcement patterns — kill this dead
     if any(p in t for p in [
