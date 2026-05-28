@@ -27,9 +27,11 @@ import requests
 import yaml
 from bs4 import BeautifulSoup
 
-# Local modules
+# Local modules (v2)
 from taxonomy import extract_taxonomy
 from affinity import find_affinity_groups
+from scoring import score_item, cluster_corroboration_boost
+from signals import SignalState, compute_signals
 
 socket.setdefaulttimeout(15)
 
@@ -54,57 +56,8 @@ DEFAULT_LOOKBACK_HOURS = 168
 # fit comfortably within this cap.
 ITEMS_PER_FEED = 100
 
-# Cohort tier weights for the priority score.
-# Higher tier = higher signal weight in ranking.
-COHORT_WEIGHTS = {
-    "threat_research_primary": 10,
-    "government_authoritative": 9,
-    "offensive_vulnerability_research": 9,
-    "detection_response_operations": 8,
-    "cloud_identity_infrastructure": 7,
-    "ai_security_agentic_risk": 7,
-    "ransomware_ecrime_financial_crime": 7,
-    "policy_strategy_geopolitics": 5,
-    "practitioner_analysis": 5,
-    "cyber_news_breach_reporting": 4,
-    "reddit_practitioner_osint": 2,
-}
-
-# Keyword signals that boost priority. Tuned for "this matters today" content.
-SIGNAL_KEYWORDS = {
-    # Exploitation urgency
-    r"\bactively\s+exploited\b": 8,
-    r"\bzero[\s-]?day\b": 8,
-    r"\bin[\s-]the[\s-]wild\b": 6,
-    r"\bemergency\s+patch\b": 6,
-    r"\bunauthenticated\b": 4,
-    r"\bremote\s+code\s+execution\b|\bRCE\b": 5,
-    r"\bpre[\s-]auth\b": 5,
-    # Scale / impact
-    r"\bransomware\b": 4,
-    r"\bsupply[\s-]chain\b": 5,
-    r"\bdata\s+breach\b": 3,
-    r"\bnation[\s-]state\b": 4,
-    r"\bAPT\d+\b": 4,
-    # Specificity
-    r"\bCVE-\d{4}-\d{4,7}\b": 6,
-    r"\bCVSS\s*[:\s]\s*9\.|\bCVSS\s*[:\s]\s*10\b": 4,
-    # AI / emerging
-    r"\bprompt\s+injection\b": 3,
-    r"\bagentic\b|\bagent\s+abuse\b": 3,
-    r"\bmodel\s+poisoning\b": 3,
-}
-
-# Noise penalties — patterns that suggest marketing or low-signal content.
-NOISE_PATTERNS = {
-    r"\bwebinar\b": -3,
-    r"\bjoin\s+us\s+at\b": -3,
-    r"\bregister\s+now\b": -3,
-    r"\b(introducing|announcing)\s+(our|the)\s+new\b": -2,
-    r"\bgartner\s+magic\s+quadrant\b": -3,
-    r"\baward\b.*\b(winner|recognized)\b": -2,
-    r"\bpartner(ship)?\s+with\b": -2,
-}
+# Cohort weights, signal keywords, and noise penalties now live in scoring.py.
+# score_item() is imported above.
 
 # Clustering similarity threshold (0-1). Higher = stricter.
 CLUSTER_THRESHOLD = 0.55
@@ -243,34 +196,8 @@ def fetch_article(url):
 
 
 # ---------------------------------------------------------------------------
-# Scoring
+# Scoring — see scoring.py (score_item is imported)
 # ---------------------------------------------------------------------------
-
-def score_item(item):
-    """Compute priority score for an item. Higher = more important."""
-    score = COHORT_WEIGHTS.get(item["cohort"], 3)
-
-    haystack = f"{item['title']} {item['summary']}".lower()
-
-    for pattern, weight in SIGNAL_KEYWORDS.items():
-        if re.search(pattern, haystack, re.IGNORECASE):
-            score += weight
-
-    for pattern, weight in NOISE_PATTERNS.items():
-        if re.search(pattern, haystack, re.IGNORECASE):
-            score += weight  # weight is negative
-
-    # Recency bonus — fresher items rank higher within the window.
-    if item.get("published_dt"):
-        age_hours = (datetime.now(timezone.utc) - item["published_dt"]).total_seconds() / 3600
-        if age_hours < 6:
-            score += 4
-        elif age_hours < 12:
-            score += 2
-        elif age_hours < 24:
-            score += 1
-
-    return score
 
 
 # ---------------------------------------------------------------------------
@@ -288,14 +215,24 @@ def tokenize(text):
     return {t for t in tokens if t not in stop}
 
 
-def extract_strong_signals(text):
-    """Pull CVE IDs, actor names, product names — high-signal anchors for clustering."""
+def extract_strong_signals(item):
+    """Pull strong signals from the item's taxonomy.
+
+    v2 reads from the taxonomy directly (CVE, actor, target-role products)
+    instead of regex-scraping the title/summary. This means strong-signal
+    matching for clustering inherits the proximity-anchored, role-aware
+    extraction done by taxonomy.extract_taxonomy.
+    """
+    tax = item.get("taxonomy") or {}
     signals = set()
-    # CVEs
-    signals.update(m.upper() for m in re.findall(r"CVE-\d{4}-\d{4,7}", text, re.IGNORECASE))
-    # APT / actor patterns
-    signals.update(m.upper() for m in re.findall(r"\bAPT\d+\b", text, re.IGNORECASE))
-    signals.update(m for m in re.findall(r"\b(?:Lazarus|Volt Typhoon|Salt Typhoon|Scattered Spider|LockBit|BlackCat|ALPHV|Cl0p|Akira|RansomHub|Volt|Mustang Panda|Kimsuky|Lapsus\$?)\b", text, re.IGNORECASE))
+    signals.update(tax.get("cve_ids", []))
+    signals.update(tax.get("actor_attribution", []))
+    # Only target-role products count for clustering. Tools and mentions
+    # are too generic to anchor a cluster reliably.
+    role_map = tax.get("role_map", {})
+    for p in tax.get("affected_products", []):
+        if role_map.get(p, "target") == "target":
+            signals.add(p)
     return signals
 
 
@@ -316,10 +253,11 @@ def similarity(a, b):
 def cluster_items(items):
     """Greedy clustering. Items sorted by score; each new item joins best cluster or starts one."""
     # Precompute tokens and strong signals per item.
+    # v2: strong signals come from the taxonomy, not regex on title/summary.
     for item in items:
         text = f"{item['title']} {item['summary']}"
         item["tokens"] = tokenize(text)
-        item["strong_signals"] = extract_strong_signals(text)
+        item["strong_signals"] = extract_strong_signals(item)
 
     items_sorted = sorted(items, key=lambda x: x["score"], reverse=True)
     clusters = []
@@ -337,14 +275,20 @@ def cluster_items(items):
 
         if best_cluster and best_sim >= CLUSTER_THRESHOLD:
             best_cluster["members"].append(item)
-            # Cluster score boosts with corroboration.
-            best_cluster["score"] += 2
+            # v2: no per-add boost. Corroboration boost is computed once
+            # at finalization (below) so it isn't biased toward early-
+            # arriving members.
         else:
             clusters.append({
                 "rep": item,
                 "members": [item],
                 "score": item["score"],
             })
+
+    # v2: compute the corroboration boost once per cluster, weighted by
+    # cohort/tier diversity instead of a flat +2 per member.
+    for cluster in clusters:
+        cluster["score"] = cluster["rep"]["score"] + cluster_corroboration_boost(cluster["members"])
 
     return clusters
 
@@ -451,11 +395,11 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
             "corroborating_sources": corroborating,
         })
 
-    # Detect affinity groups across the clusters in the packet.
-    # Pass the kept clusters (which still have member taxonomies attached).
-    raw_groups = find_affinity_groups(clusters_kept)
-    # Map cluster indices to cluster_ids for the packet output.
-    kept_cluster_ids = [cluster_id(c["rep"]) for c in clusters_kept]
+    # v2: affinity reads from the assembled briefing clusters so it sees
+    # the cleaned corroborating_sources shape and the rep's full-fetched
+    # taxonomy.
+    raw_groups = find_affinity_groups(briefing_clusters)
+    kept_cluster_ids = [c["cluster_id"] for c in briefing_clusters]
     affinity_groups = []
     for g in raw_groups:
         affinity_groups.append({
@@ -464,12 +408,31 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
             "cluster_count": g["cluster_count"],
             "article_count": g["article_count"],
             "cohesion": g["cohesion"],
+            "shared_strong_signals": g.get("shared_strong_signals", []),
             "cluster_ids": [kept_cluster_ids[i] for i in g["cluster_indices"]],
         })
 
     print(f"\nAffinity groups detected: {len(affinity_groups)}")
     for g in affinity_groups[:5]:
         print(f"  - {g['label']} ({g['cluster_count']} clusters, {g['article_count']} articles)")
+
+    # v2: forward-looking signals. Maintains persistent state across runs
+    # so we can detect novelty, velocity, leading-edge chatter, convergence,
+    # drift, persistence, and tier inversion.
+    state_path = Path("docs/signals_state.json")
+    state = SignalState.load(state_path)
+    forward_signals = compute_signals({"clusters": briefing_clusters}, state)
+    # Update state AFTER computing signals so this run's data informs the
+    # NEXT run's novelty check, not this one.
+    state.update_from_briefing({"clusters": briefing_clusters})
+    state.save(state_path)
+
+    print(f"\nForward signals:")
+    print(f"  Novel CVEs:      {len(forward_signals['novelty']['cves'])}")
+    print(f"  Novel actors:    {len(forward_signals['novelty']['actors'])}")
+    print(f"  Velocity bursts: {len(forward_signals['velocity'])}")
+    print(f"  Leading edge:    {len(forward_signals['leading_edge'])}")
+    print(f"  Tier inversions: {len(forward_signals['tier_inversion'])}")
 
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -486,6 +449,7 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
         "feed_status": feed_status,
         "clusters": briefing_clusters,
         "affinity_groups": affinity_groups,
+        "forward_signals": forward_signals,
     }
 
 
@@ -560,6 +524,7 @@ def main():
 
     cohorts = config.get("source_cohorts", {})
 
+    from scoring import COHORT_BASE
     cohort_metadata = {}
     fetch_tasks = []
     for cohort_name, cohort_data in cohorts.items():
@@ -567,7 +532,7 @@ def main():
         cohort_metadata[cohort_name] = {
             "description": cohort_data.get("description", ""),
             "source_count": len(sources),
-            "weight": COHORT_WEIGHTS.get(cohort_name, 3),
+            "weight": COHORT_BASE.get(cohort_name, 3),
         }
         for source_entry in sources:
             fetch_tasks.append((source_entry, cohort_name))
@@ -628,6 +593,7 @@ def main():
         "cohorts": cohort_metadata,           # build-page.js reads feed.cohorts
         "cohort_metadata": cohort_metadata,   # kept for any new tooling
         "affinity_groups": briefing.get("affinity_groups", []),
+        "forward_signals": briefing.get("forward_signals", {}),  # v2
         "items": [serializable(i) for i in sorted(
             all_items,
             key=lambda x: x.get("published") or "0",
