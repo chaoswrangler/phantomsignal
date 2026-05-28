@@ -159,77 +159,104 @@ def find_affinity_groups(
     # 1. Build representative taxonomies and strong-signal sets per cluster.
     taxonomies = [_representative_taxonomy(c) for c in clusters]
     strong_sets = [_strong_signal_set(t) for t in taxonomies]
-
-    # 2. Edges: must share a strong signal AND meet similarity threshold.
     n = len(clusters)
-    edges = []
+
+    # 2. Signal-bucket grouping. For each non-ambiguous strong signal
+    # (real CVE, real actor, non-generic target product) that appears in
+    # ≥ min_size clusters, that signal IS a theme.
+    #
+    # This replaces v1's connected-components / union-find approach, which
+    # had a transitive-merge bug: A shares Gogs with B, B shares
+    # ShinyHunters with C, so A-B-C end up in one giant component with no
+    # coherent dominant features. The signal-bucket approach yields one
+    # Gogs theme and one ShinyHunters theme; a cluster involved in both
+    # appears in both themes (correct — that *is* a coordinated campaign).
+    #
+    # After bucketing we de-duplicate: a theme whose cluster set is a
+    # strict subset of another theme's cluster set is dropped (the
+    # superset theme already represents it).
+    signal_to_clusters = defaultdict(set)
+    for i, ss in enumerate(strong_sets):
+        for signal in ss:
+            if signal in AMBIGUOUS_ANCHORS:
+                continue
+            signal_to_clusters[signal].add(i)
+
+    raw_themes = []  # list of (signal, frozenset_of_cluster_indices)
+    for signal, indices in signal_to_clusters.items():
+        if len(indices) >= min_size:
+            raw_themes.append((signal, frozenset(indices)))
+
+    # Drop themes whose cluster set is a strict subset of another theme's
+    # set. Tie-break: keep the theme whose signal is more specific
+    # (CVE > Actor > Product). Without this, we'd surface both
+    # "ShinyHunters" (5 clusters) and "ShinyHunters+Salesforce" (4 clusters)
+    # as separate themes when the second is just a slice of the first.
+    def _specificity(signal):
+        if signal.startswith("CVE-"):
+            return 3
+        # Known actor names (best heuristic: not a product label)
+        # — fall back to product = lowest specificity
+        return 1 if signal in {"Anthropic/Claude", "OpenAI/ChatGPT", "GitHub", "Azure"} else 2
+
+    raw_themes.sort(key=lambda t: (-len(t[1]), -_specificity(t[0])))
+    kept_themes = []
+    for signal, indices in raw_themes:
+        is_subset = any(
+            indices < kept_indices  # strict subset
+            for _, kept_indices in kept_themes
+        )
+        if not is_subset:
+            kept_themes.append((signal, indices))
+
+    # Build the affinity-group descriptors for kept themes.
+    edges_seen = {}  # (i, j) -> max jaccard observed (for cohesion)
     for i, j in combinations(range(n), 2):
         if not (strong_sets[i] and strong_sets[j]):
             continue
         if not (strong_sets[i] & strong_sets[j]):
-            continue  # no shared strong signal, never merge
-        sim = weighted_jaccard(taxonomies[i], taxonomies[j])
-        if sim >= threshold:
-            edges.append((i, j, sim))
-
-    # 3. Union-find for connected components.
-    parent = list(range(n))
-
-    def find(x):
-        while parent[x] != x:
-            parent[x] = parent[parent[x]]
-            x = parent[x]
-        return x
-
-    def union(x, y):
-        rx, ry = find(x), find(y)
-        if rx != ry:
-            parent[rx] = ry
-
-    edges.sort(key=lambda e: -e[2])
-    edge_scores = {(i, j): s for i, j, s in edges}
-    for i, j, _ in edges:
-        union(i, j)
-
-    components = defaultdict(list)
-    for i in range(n):
-        components[find(i)].append(i)
-
-    # 4. Build groups for components above min_size.
-    groups = []
-    for root, indices in components.items():
-        if len(indices) < min_size:
             continue
+        edges_seen[(i, j)] = weighted_jaccard(taxonomies[i], taxonomies[j])
 
-        # Cohesion: mean edge weight within component, weighted by tier.
+    # 3. Build groups from kept_themes.
+    groups = []
+    for anchor_signal, indices_fs in kept_themes:
+        indices = sorted(indices_fs)
+
+        # Cohesion: mean weighted-jaccard among pairs in this theme, scaled
+        # by tier weights so Tier 1 + Tier 4 corroboration outranks five
+        # Tier 4 news rewrites of the same story.
         scores = []
         tier_weight_sum = 0.0
-        tier_weight_count = 0
         for i, j in combinations(indices, 2):
             key = (min(i, j), max(i, j))
-            if key in edge_scores:
-                ti = taxonomies[i].get("confidence_tier", "tier_4_news")
-                tj = taxonomies[j].get("confidence_tier", "tier_4_news")
-                tw = (TIER_WEIGHTS.get(ti, 0.3) + TIER_WEIGHTS.get(tj, 0.3)) / 2
-                scores.append(edge_scores[key] * tw)
-                tier_weight_sum += tw
-                tier_weight_count += 1
-        cohesion = (
-            sum(scores) / tier_weight_sum if tier_weight_sum else 0.0
-        )
+            sim = edges_seen.get(key, 0.0)
+            ti = taxonomies[i].get("confidence_tier", "tier_4_news")
+            tj = taxonomies[j].get("confidence_tier", "tier_4_news")
+            tw = (TIER_WEIGHTS.get(ti, 0.3) + TIER_WEIGHTS.get(tj, 0.3)) / 2
+            scores.append(max(sim, 0.2) * tw)
+            tier_weight_sum += tw
+        cohesion = sum(scores) / tier_weight_sum if tier_weight_sum else 0.0
 
         member_taxonomies = [taxonomies[i] for i in indices]
         dominant = _dominant_features(member_taxonomies)
-        label = _label_from_dominant(dominant, member_taxonomies)
-        if label is None:
-            continue  # rejected as too generic
 
-        total_priority = sum(clusters[i].get("priority_score", clusters[i].get("score", 0)) for i in indices)
+        # Label preference: build from the anchor signal directly so the
+        # theme always carries the strong signal in its name. Fall back to
+        # generic label generator if the anchor signal alone is uninformative.
+        label = _label_from_anchor(anchor_signal, dominant, member_taxonomies)
+        if label is None:
+            continue
+
+        total_priority = sum(
+            clusters[i].get("priority_score", clusters[i].get("score", 0))
+            for i in indices
+        )
         total_articles = sum(
-            clusters[i].get("member_count", len(clusters[i].get("members", []))) for i in indices
+            clusters[i].get("member_count", len(clusters[i].get("members", [])))
+            for i in indices
         )
 
-        # Pick the best (highest-tier) cluster as the group anchor
         anchor_idx = max(
             indices,
             key=lambda k: TIER_WEIGHTS.get(taxonomies[k].get("confidence_tier", "tier_4_news"), 0)
@@ -243,12 +270,10 @@ def find_affinity_groups(
             "article_count": total_articles,
             "cohesion": round(cohesion, 3),
             "total_priority": total_priority,
+            "anchor_signal": anchor_signal,
             "anchor_cluster_index": anchor_idx,
             "cluster_indices": indices,
-            "shared_strong_signals": sorted(
-                set.intersection(*(strong_sets[i] for i in indices))
-                if all(strong_sets[i] for i in indices) else set()
-            ),
+            "shared_strong_signals": [anchor_signal],
         })
 
     groups.sort(
@@ -310,3 +335,53 @@ def _label_from_dominant(dominant, taxonomies):
 
     # Reject everything below this — too generic to be useful.
     return None
+
+
+# Known actor labels (used by _label_from_anchor to pick label phrasing).
+# Anything else is treated as a product target for label purposes.
+KNOWN_ACTOR_TOKENS = (
+    "Scattered Spider", "ShinyHunters", "LockBit", "BlackCat", "ALPHV",
+    "Cl0p", "Akira", "RansomHub", "Rhysida", "Play", "Black Basta",
+    "Medusa", "Volt Typhoon", "Salt Typhoon", "Flax Typhoon",
+    "Mustang Panda", "APT28", "APT29", "APT41", "Lazarus", "Kimsuky",
+    "APT37", "APT38", "MuddyWater", "Nimbus Manticore", "Ghostwriter",
+    "Cloud Atlas", "Handala", "NoName057", "Silent Ransom Group",
+    "TeamPCP", "JINX-0164", "Lapsus$",
+)
+
+
+def _label_from_anchor(anchor_signal, dominant, taxonomies):
+    """Build a theme label using the anchor signal that defines this theme.
+
+    The anchor is the strong signal (CVE / actor / target product) that
+    bucket-grouping selected this set of clusters on. Labels surface that
+    signal first so a reader instantly sees which exact actor/CVE/product
+    the theme is about.
+    """
+    # CVE anchor: "CVE-X exploitation [(Product)]"
+    if anchor_signal.startswith("CVE-"):
+        products = [p for p in dominant.get("affected_products", []) if p not in AMBIGUOUS_ANCHORS]
+        if products:
+            return f"{anchor_signal} exploitation ({products[0]})"
+        return f"{anchor_signal} exploitation activity"
+
+    # Actor anchor: "{Actor} [+ Product / category]"
+    if any(actor_tok in anchor_signal for actor_tok in KNOWN_ACTOR_TOKENS):
+        products = [p for p in dominant.get("affected_products", []) if p not in AMBIGUOUS_ANCHORS and p != anchor_signal]
+        categories = dominant.get("threat_categories", [])
+        if products:
+            return f"{anchor_signal} targeting {products[0]}"
+        if categories:
+            cat = categories[0].replace("_", " ")
+            return f"{anchor_signal}: {cat}"
+        return f"{anchor_signal} campaign activity"
+
+    # Product anchor: "{Product} {category-or-urgency}"
+    urgency = dominant.get("urgency_signals", [])
+    categories = dominant.get("threat_categories", [])
+    if "active_exploitation" in urgency or "actively_exploited" in urgency:
+        return f"{anchor_signal} active exploitation"
+    if categories:
+        cat = categories[0].replace("_", " ")
+        return f"{cat} targeting {anchor_signal}"
+    return f"{anchor_signal} vulnerability activity"
