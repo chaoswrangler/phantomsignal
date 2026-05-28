@@ -402,14 +402,36 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
     kept_cluster_ids = [c["cluster_id"] for c in briefing_clusters]
     affinity_groups = []
     for g in raw_groups:
+        # Collect all item URLs that belong to this theme so the renderer
+        # can filter the corpus when a theme card is clicked. Walks each
+        # cluster's primary link + every corroborating source link.
+        theme_links = []
+        for ci in g["cluster_indices"]:
+            cluster = briefing_clusters[ci]
+            primary_link = cluster.get("primary", {}).get("link")
+            if primary_link:
+                theme_links.append(primary_link)
+            for cs in cluster.get("corroborating_sources", []):
+                link = cs.get("link")
+                if link and link not in theme_links:
+                    theme_links.append(link)
+
+        # Theme key for renderer data-attribute (safe for HTML attrs).
+        theme_key = re.sub(r"[^a-zA-Z0-9._-]+", "-", g["anchor_signal"]).strip("-").lower()
+
         affinity_groups.append({
             "label": g["label"],
+            "anchor_signal": g["anchor_signal"],
+            "theme_key": theme_key,
             "dominant_features": g["dominant_features"],
             "cluster_count": g["cluster_count"],
             "article_count": g["article_count"],
             "cohesion": g["cohesion"],
             "shared_strong_signals": g.get("shared_strong_signals", []),
+            "member_cves": sorted(set(g.get("member_cves", []))),
+            "also_targets": sorted(set(g.get("also_targets", []))),
             "cluster_ids": [kept_cluster_ids[i] for i in g["cluster_indices"]],
+            "links": theme_links,
         })
 
     print(f"\nAffinity groups detected: {len(affinity_groups)}")
@@ -571,6 +593,29 @@ def main():
 
     # Score items in the lookback window.
     window_items = [i for i in all_items if i["in_window"]]
+
+    # v2: drop items the taxonomy classified as non-CTI:
+    #   out_of_scope — harmful/personal-crime content that should never
+    #                  appear on a CTI feed (child exploitation, etc.)
+    #   low_signal   — items from CTI feeds that have NO CTI anchors at
+    #                  all (Reddit career questions, hardware retirement
+    #                  posts, customer service training questions, etc.)
+    # Both classes are tagged on the item for transparency in feed.json
+    # (debugging) but removed from scoring, clustering, and rendering.
+    filtered_dropped = {"out_of_scope": 0, "low_signal": 0}
+    cti_items = []
+    for item in window_items:
+        ct = (item.get("taxonomy") or {}).get("content_type")
+        if ct in filtered_dropped:
+            item["filtered"] = ct
+            filtered_dropped[ct] += 1
+            continue
+        cti_items.append(item)
+    window_items = cti_items
+    for k, n in filtered_dropped.items():
+        if n:
+            print(f"Filtered {n} {k} items")
+
     for item in window_items:
         item["score"] = score_item(item)
 
@@ -595,7 +640,8 @@ def main():
         "affinity_groups": briefing.get("affinity_groups", []),
         "forward_signals": briefing.get("forward_signals", {}),  # v2
         "items": [serializable(i) for i in sorted(
-            all_items,
+            # v2: out_of_scope and low_signal items never reach the rendered page
+            (it for it in all_items if it.get("filtered") not in ("out_of_scope", "low_signal")),
             key=lambda x: x.get("published") or "0",
             reverse=True
         )],
