@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-28T19:46:35.174260+00:00",
+  "generated_at": "2026-05-28T19:48:03.069063+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 79,
-  "total_items_in_window": 431,
-  "total_clusters_raw": 416,
+  "total_items_in_window": 430,
+  "total_clusters_raw": 415,
   "total_clusters_in_packet": 80,
-  "dropped_low_score": 277,
+  "dropped_low_score": 276,
   "dropped_overflow": 59,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -88,13 +88,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
@@ -102,11 +95,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -116,13 +109,6 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -130,19 +116,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 3
-    },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -158,6 +144,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -165,18 +158,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 3
     },
     "Volexity": {
@@ -186,18 +179,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -207,13 +200,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -221,18 +207,32 @@
       "item_count": 50,
       "in_window_count": 13
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 3
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -242,12 +242,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -256,18 +256,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 1
     },
     "Sophos X-Ops": {
@@ -277,12 +270,26 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -298,20 +305,6 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -325,6 +318,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -347,13 +347,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -361,33 +354,12 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -396,12 +368,40 @@
       "item_count": 20,
       "in_window_count": 14
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -438,19 +438,19 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -466,13 +466,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
       "cohort": "detection_response_operations",
@@ -487,19 +480,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -515,12 +508,19 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 3
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -529,19 +529,19 @@
       "item_count": 50,
       "in_window_count": 38
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 19
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -557,13 +557,6 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
@@ -571,12 +564,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -585,12 +578,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -612,6 +605,13 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 15
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -3602,6 +3602,95 @@
       ]
     },
     {
+      "cluster_id": "38ba01df8a",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Akira"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Akira"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
+        "link": "https://isc.sans.edu/diary/rss/33024",
+        "published": "2026-05-27T21:14:03+00:00",
+        "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "Akira"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
+          "link": "https://isc.sans.edu/diary/rss/33024",
+          "published": "2026-05-27T21:14:03+00:00",
+          "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Akira"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1eba5f7636",
       "priority_score": 14,
       "member_count": 1,
@@ -3710,95 +3799,6 @@
               "Android": "target",
               "OpenAI/ChatGPT": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "38ba01df8a",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Akira"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Akira"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
-        "link": "https://isc.sans.edu/diary/rss/33024",
-        "published": "2026-05-27T21:14:03+00:00",
-        "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [
-            "Akira"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
-          "link": "https://isc.sans.edu/diary/rss/33024",
-          "published": "2026-05-27T21:14:03+00:00",
-          "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Akira"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5232,119 +5232,6 @@
       ]
     },
     {
-      "cluster_id": "2272e85cad",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "AWS Security Blog",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Well-architected best practices for software supply chain security",
-        "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
-        "published": "2026-05-26T17:03:30+00:00",
-        "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
-        "full_body": "AWS Security Blog Well-architected best practices for software supply chain security There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks like Shai-Hulud exploit vulnerabilities on two fronts: compromised maintainer accounts that publish malicious packages, and consumer environments that download and execute those packages. The Shai-Hulud attack, shown in Figure 1, succeeded because maintainer credentials were compromised through phishing, enabling threat actors to publish malicious versions of popular packages. Incidents like these highlight the need for strong security practices within the software supply chain, and effective defense requires addressing both sides. Package maintainers need protections that prevent account compromise and limit sprawl when credentials are stolen. Package consumers need layered defenses that detect malicious packages, prevent their deployment, and limit damage when compromise occurs. In this post, we explore best practices for package consumers. These practices are aligned with the AWS Well-Architected Framework – Security Pillar and you can use them to reduce exposure to similar threats and limit their impact if they occur. Figure 1: Architecture diagram showing Shai-Hulud attack flow Use temporary credentials and grant least privilege When Shai-Hulud executed in developer environments and continuous integration and delivery (CI/CD) pipelines, it scanned for secrets such as npm tokens, GitHub tokens, and AWS Identity and Access Management (IAM) access keys. Long-term credentials exposed in this way enabled threat actors to propagate the malware further and access cloud resources. Recent incidents have shown organizations discovering multiple leaked IAM credential pairs, with concerns about additional exposed credentials and potential compromise of CI/CD pipelines. Removing long-lived credentials from your developer environments and CI/CD pipelines reduces the scope of exposure in the event a system is compromised. For developers working locally, the new AWS CLI login command ( aws login ) simplifies the process of acquiring short-lived CLI credentials and removes the need to store long-lived credentials in configuration files. AWS IAM Identity Center also provides a straightforward way to acquire temporary credentials that expire automatically. For CI/CD pipelines, OpenID Connect (OIDC) federation with GitHub Actions, GitLab CI, or other platforms provide temporary credentials for each job without storing long-lived tokens. IAM can also federate AWS Identities to external services , allowing your AWS workloads to securely access external services without using long-term credentials. Temporary credentials expire automatically, limiting the window of exposure if a pipeline is compromised. If you’re interacting with a third-party service that doesn’t support temporary credentials, consider storing the credentials to centralized storage using AWS Secrets Manager or AWS Systems Manager Parameter Store . Limit access to these secrets, require the use of temporary credentials, and apply automatic rotation and audit logging to reduce the risk of exposure of these credentials. To reduce risk from credential exposure: Use temporary credentials : Federate users from a central identity provider into AWS and use IAM roles for access. SEC02-BP02: Use temporary credentials . Grant least privilege : Assign only the minimum permissions necessary and use temporary elevated permissions where higher privilege is occasionally required. SEC03-BP02: Grant least privilege access . Audit and rotate long-term credentials if they are required for specific use cases. SEC02-BP05: Audit and ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "AWS",
-            "npm"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "AWS": "target",
-            "npm": "target",
-            "GitHub": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "GitHub",
-                "mention",
-                0.28
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "AWS Security Blog",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Well-architected best practices for software supply chain security",
-          "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
-          "published": "2026-05-26T17:03:30+00:00",
-          "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "AWS",
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "AWS": "target",
-              "npm": "target",
-              "GitHub": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "GitHub",
-                  "mention",
-                  0.28
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "cf7fdef083",
       "priority_score": 12,
       "member_count": 1,
@@ -5590,6 +5477,119 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2272e85cad",
+      "priority_score": 12,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "AWS Security Blog",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Well-architected best practices for software supply chain security",
+        "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+        "published": "2026-05-26T17:03:30+00:00",
+        "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
+        "full_body": "AWS Security Blog Well-architected best practices for software supply chain security There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks like Shai-Hulud exploit vulnerabilities on two fronts: compromised maintainer accounts that publish malicious packages, and consumer environments that download and execute those packages. The Shai-Hulud attack, shown in Figure 1, succeeded because maintainer credentials were compromised through phishing, enabling threat actors to publish malicious versions of popular packages. Incidents like these highlight the need for strong security practices within the software supply chain, and effective defense requires addressing both sides. Package maintainers need protections that prevent account compromise and limit sprawl when credentials are stolen. Package consumers need layered defenses that detect malicious packages, prevent their deployment, and limit damage when compromise occurs. In this post, we explore best practices for package consumers. These practices are aligned with the AWS Well-Architected Framework – Security Pillar and you can use them to reduce exposure to similar threats and limit their impact if they occur. Figure 1: Architecture diagram showing Shai-Hulud attack flow Use temporary credentials and grant least privilege When Shai-Hulud executed in developer environments and continuous integration and delivery (CI/CD) pipelines, it scanned for secrets such as npm tokens, GitHub tokens, and AWS Identity and Access Management (IAM) access keys. Long-term credentials exposed in this way enabled threat actors to propagate the malware further and access cloud resources. Recent incidents have shown organizations discovering multiple leaked IAM credential pairs, with concerns about additional exposed credentials and potential compromise of CI/CD pipelines. Removing long-lived credentials from your developer environments and CI/CD pipelines reduces the scope of exposure in the event a system is compromised. For developers working locally, the new AWS CLI login command ( aws login ) simplifies the process of acquiring short-lived CLI credentials and removes the need to store long-lived credentials in configuration files. AWS IAM Identity Center also provides a straightforward way to acquire temporary credentials that expire automatically. For CI/CD pipelines, OpenID Connect (OIDC) federation with GitHub Actions, GitLab CI, or other platforms provide temporary credentials for each job without storing long-lived tokens. IAM can also federate AWS Identities to external services , allowing your AWS workloads to securely access external services without using long-term credentials. Temporary credentials expire automatically, limiting the window of exposure if a pipeline is compromised. If you’re interacting with a third-party service that doesn’t support temporary credentials, consider storing the credentials to centralized storage using AWS Secrets Manager or AWS Systems Manager Parameter Store . Limit access to these secrets, require the use of temporary credentials, and apply automatic rotation and audit logging to reduce the risk of exposure of these credentials. To reduce risk from credential exposure: Use temporary credentials : Federate users from a central identity provider into AWS and use IAM roles for access. SEC02-BP02: Use temporary credentials . Grant least privilege : Assign only the minimum permissions necessary and use temporary elevated permissions where higher privilege is occasionally required. SEC03-BP02: Grant least privilege access . Audit and rotate long-term credentials if they are required for specific use cases. SEC02-BP05: Audit and ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "AWS",
+            "npm"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "AWS": "target",
+            "npm": "target",
+            "GitHub": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "GitHub",
+                "mention",
+                0.28
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "AWS Security Blog",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Well-architected best practices for software supply chain security",
+          "link": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+          "published": "2026-05-26T17:03:30+00:00",
+          "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "AWS",
+              "npm"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "AWS": "target",
+              "npm": "target",
+              "GitHub": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "GitHub",
+                  "mention",
+                  0.28
+                ]
+              ]
             }
           }
         }
@@ -6337,87 +6337,6 @@
       ]
     },
     {
-      "cluster_id": "0ddd82a46d",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "OpenSSF Blog",
-        "cohort": "ai_security_agentic_risk",
-        "title": "OpenSSF Newsletter – May 2026",
-        "link": "https://openssf.org/newsletter/2026/05/28/openssf-newsletter-may-2026/",
-        "published": "2026-05-28T18:46:24+00:00",
-        "summary": "What a month! May was packed with milestones for the OpenSSF community, and we're still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. Read OpenSSF May Newsletter.",
-        "full_body": "What a month! May was packed with milestones for the OpenSSF community, and we’re still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. The community showed up in full force to celebrate some major wins: five new members, the launch of our inaugural Ambassador Program, a brand new AI eBook, the Python Secure Coding Guide, and so much more. A full recap of Community Day is coming soon, so stay tuned. In the meantime, read on to catch up on everything new in May! TL;DR: 🚀 Q2 Foundational Wins → Five new members, OSS-CRS sandbox project, and v1.0.0 Python Secure Coding Guide celebrated at OpenSSF Community Day North America 2026. 🤝 Ambassador Program Launches → First cohort of 13 OpenSSF Ambassadors announced to spread security best practices globally. 📖 New eBook: Securing Open Source in the Age of AI → Crafted in partnership with CNCF, this eBook translates practical expertise into actionable guidance to help your project thrive in the age of AI. 🐍 Python Secure Coding Guide v1.0 → BEST WG publishes the first framework-independent resource for Python secure coding practices. ⚖️ CRA Compliance Wake-Up Call → An urgent wake-up call: the EU Cyber Resilience Act September deadline is fast approaching, and the ecosystem must act. 📦 Package Registry Sustainability → New pressure on open source package registries fuels Part II of the “Open Infrastructure Is Not Free” series. 🤖 DARPA AIxCC Legacy → A look back at the impact and legacy of the AI Cyber Challenge, now powering OSS-CRS – the newest project of OpenSSF. OpenSSF Notes Quarter of Growth with New Members, Added AI Security Resources, and Growing Community Announced live at OpenSSF Community Day North America in Minneapolis, OpenSSF welcomed five new members: ActiveState, Aikido Security, Minimus, TuxCare (General Members), and the FreeBSD Foundation (Associate Member). We also released the v1.0.0 Python Secure Coding Guide, launched the first Ambassador cohort, and formally accepted OSS-CRS as a Sandbox project. Learn more about all the exciting news! Introducing the First Cohort of the OpenSSF Ambassador Program Securing the open source ecosystem requires passionate advocates. At OpenSSF Community Day, OpenSSF launched its inaugural Ambassador Program and announced 13 community leaders committed to spreading security best practices and growing the global OpenSSF community. Read the blog and get to know the ambassadors. Securing Open Source in the Age of AI New AI Security eBook: In collaboration with CNCF, OpenSSF released Securing Open Source in the Age of AI: A Practical Guide for Maintainers, Security Engineers, and Researchers , covering AI-generated contributions and AI-assisted security workflows. Download the eBook now. Taking Stock of the State of European Cyber Resilience Act (CRA) Compliance: An Urgent Wake-up Call for the Open Source Ecosystem Hear from CRob as he highlights that the EU Cyber Resilience Act (CRA) is no longer theoretical – it’s live and the September deadline is fast approaching. In this blog, CRob urges the open source ecosystem to move from mapping requirements to active compliance, outlining what foundations and maintainers need to do right now. Read the blog . Secure Coding Guide for Python (pyscg) First Release Python powers web apps, data pipelines, AI/ML, and cloud infrastructure, yet developers have lacked a single, framework-independent secure coding resource. The BEST Working Group’s v1.0.0 release fills that gap with high-confidence anti-patterns and compliant code examples to mitigate common vulnerabilities. Read this latest guide . Hack to the Future: The Impact and Legacy of the DARPA AIxCC Challenge Since DARPA’s 2023 announcement, the AI Cyber Challenge (AIxCC) has developed open source AI tooling to safeguard critical infrastructure. This post charts the competition’s results, the winning teams’ strategies, and how the challenge’s output now lives on inside OpenSSF through OSS-CRS. Read the blo",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "OpenSSF Blog",
-          "cohort": "ai_security_agentic_risk",
-          "title": "OpenSSF Newsletter – May 2026",
-          "link": "https://openssf.org/newsletter/2026/05/28/openssf-newsletter-may-2026/",
-          "published": "2026-05-28T18:46:24+00:00",
-          "summary": "What a month! May was packed with milestones for the OpenSSF community, and we're still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. Read OpenSSF May Newsletter.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b1f7a431a9",
       "priority_score": 11,
       "member_count": 1,
@@ -6670,6 +6589,87 @@
                   0.3
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0ddd82a46d",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "OpenSSF Newsletter – May 2026",
+        "link": "https://openssf.org/newsletter/2026/05/28/openssf-newsletter-may-2026/",
+        "published": "2026-05-28T18:46:24+00:00",
+        "summary": "What a month! May was packed with milestones for the OpenSSF community, and we're still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. Read OpenSSF May Newsletter.",
+        "full_body": "What a month! May was packed with milestones for the OpenSSF community, and we’re still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. The community showed up in full force to celebrate some major wins: five new members, the launch of our inaugural Ambassador Program, a brand new AI eBook, the Python Secure Coding Guide, and so much more. A full recap of Community Day is coming soon, so stay tuned. In the meantime, read on to catch up on everything new in May! TL;DR: 🚀 Q2 Foundational Wins → Five new members, OSS-CRS sandbox project, and v1.0.0 Python Secure Coding Guide celebrated at OpenSSF Community Day North America 2026. 🤝 Ambassador Program Launches → First cohort of 13 OpenSSF Ambassadors announced to spread security best practices globally. 📖 New eBook: Securing Open Source in the Age of AI → Crafted in partnership with CNCF, this eBook translates practical expertise into actionable guidance to help your project thrive in the age of AI. 🐍 Python Secure Coding Guide v1.0 → BEST WG publishes the first framework-independent resource for Python secure coding practices. ⚖️ CRA Compliance Wake-Up Call → An urgent wake-up call: the EU Cyber Resilience Act September deadline is fast approaching, and the ecosystem must act. 📦 Package Registry Sustainability → New pressure on open source package registries fuels Part II of the “Open Infrastructure Is Not Free” series. 🤖 DARPA AIxCC Legacy → A look back at the impact and legacy of the AI Cyber Challenge, now powering OSS-CRS – the newest project of OpenSSF. OpenSSF Notes Quarter of Growth with New Members, Added AI Security Resources, and Growing Community Announced live at OpenSSF Community Day North America in Minneapolis, OpenSSF welcomed five new members: ActiveState, Aikido Security, Minimus, TuxCare (General Members), and the FreeBSD Foundation (Associate Member). We also released the v1.0.0 Python Secure Coding Guide, launched the first Ambassador cohort, and formally accepted OSS-CRS as a Sandbox project. Learn more about all the exciting news! Introducing the First Cohort of the OpenSSF Ambassador Program Securing the open source ecosystem requires passionate advocates. At OpenSSF Community Day, OpenSSF launched its inaugural Ambassador Program and announced 13 community leaders committed to spreading security best practices and growing the global OpenSSF community. Read the blog and get to know the ambassadors. Securing Open Source in the Age of AI New AI Security eBook: In collaboration with CNCF, OpenSSF released Securing Open Source in the Age of AI: A Practical Guide for Maintainers, Security Engineers, and Researchers , covering AI-generated contributions and AI-assisted security workflows. Download the eBook now. Taking Stock of the State of European Cyber Resilience Act (CRA) Compliance: An Urgent Wake-up Call for the Open Source Ecosystem Hear from CRob as he highlights that the EU Cyber Resilience Act (CRA) is no longer theoretical – it’s live and the September deadline is fast approaching. In this blog, CRob urges the open source ecosystem to move from mapping requirements to active compliance, outlining what foundations and maintainers need to do right now. Read the blog . Secure Coding Guide for Python (pyscg) First Release Python powers web apps, data pipelines, AI/ML, and cloud infrastructure, yet developers have lacked a single, framework-independent secure coding resource. The BEST Working Group’s v1.0.0 release fills that gap with high-confidence anti-patterns and compliant code examples to mitigate common vulnerabilities. Read this latest guide . Hack to the Future: The Impact and Legacy of the DARPA AIxCC Challenge Since DARPA’s 2023 announcement, the AI Cyber Challenge (AIxCC) has developed open source AI tooling to safeguard critical infrastructure. This post charts the competition’s results, the winning teams’ strategies, and how the challenge’s output now lives on inside OpenSSF through OSS-CRS. Read the blo",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "OpenSSF Newsletter – May 2026",
+          "link": "https://openssf.org/newsletter/2026/05/28/openssf-newsletter-may-2026/",
+          "published": "2026-05-28T18:46:24+00:00",
+          "summary": "What a month! May was packed with milestones for the OpenSSF community, and we're still riding the high from an incredible OpenSSF Community Day North America in Minneapolis. Read OpenSSF May Newsletter.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -7100,6 +7100,96 @@
       ]
     },
     {
+      "cluster_id": "0f065077f2",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Help Net Security",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Cybercriminals sail away with data from 6 million Carnival customers",
+        "link": "https://www.helpnetsecurity.com/2026/05/28/carnival-corporation-data-breach/",
+        "published": "2026-05-28T14:04:03+00:00",
+        "summary": "Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee … More → The post Cybercriminals sail away with data from 6 million Carnival customers appeared first on Help Net Security .",
+        "full_body": "Sinisa Markovic , Senior Staff Writer, Help Net Security May 28, 2026 Share Cybercriminals sail away with data from 6 million Carnival customers Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee and gain access to a limited portion of the company’s IT system,” the company said. According to Have I Been Pwned, the ShinyHunters hacking group listed Carnival Corporation on its “pay or leak” portal on April 18 and claimed it had stolen customer data belonging to the cruise operator. The leak allegedly contained 8.7 million records with 7.5 million unique email addresses and included fields indicating the data related to the Mariner Society loyalty program operated by Holland America Line, a Carnival Corporation subsidiary. The exposed information included names, dates of birth, genders, email addresses, and loyalty program status information. However, in a data breach notice filed with Maine authorities, Carnival stated that the incident affected 5,995,277 people. Carnival began notifying affected individuals on May 27, 2026, and is offering eligible U.S. residents two years of complimentary credit monitoring services through TransUnion following the incident. “In addition to the security measures already in place before the incident, the company has taken steps to further safeguard its systems, including enhancing its security and monitoring controls. The company will continue advancing its IT security and data privacy controls to address evolving threats,” the company concluded . Let’s hope those additional security measures work this time, because this is not the first time cybercriminals have breached Carnival’s systems. More about breach cybercrime data breach Share",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Help Net Security",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Cybercriminals sail away with data from 6 million Carnival customers",
+          "link": "https://www.helpnetsecurity.com/2026/05/28/carnival-corporation-data-breach/",
+          "published": "2026-05-28T14:04:03+00:00",
+          "summary": "Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee … More → The post Cybercriminals sail away with data from 6 million Carnival customers appeared first on Help Net Security .",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5b0a39c461",
       "priority_score": 11,
       "member_count": 1,
@@ -7273,96 +7363,6 @@
             "affected_industries": [
               "healthcare"
             ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0f065077f2",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Help Net Security",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Cybercriminals sail away with data from 6 million Carnival customers",
-        "link": "https://www.helpnetsecurity.com/2026/05/28/carnival-corporation-data-breach/",
-        "published": "2026-05-28T14:04:03+00:00",
-        "summary": "Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee … More → The post Cybercriminals sail away with data from 6 million Carnival customers appeared first on Help Net Security .",
-        "full_body": "Sinisa Markovic , Senior Staff Writer, Help Net Security May 28, 2026 Share Cybercriminals sail away with data from 6 million Carnival customers Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee and gain access to a limited portion of the company’s IT system,” the company said. According to Have I Been Pwned, the ShinyHunters hacking group listed Carnival Corporation on its “pay or leak” portal on April 18 and claimed it had stolen customer data belonging to the cruise operator. The leak allegedly contained 8.7 million records with 7.5 million unique email addresses and included fields indicating the data related to the Mariner Society loyalty program operated by Holland America Line, a Carnival Corporation subsidiary. The exposed information included names, dates of birth, genders, email addresses, and loyalty program status information. However, in a data breach notice filed with Maine authorities, Carnival stated that the incident affected 5,995,277 people. Carnival began notifying affected individuals on May 27, 2026, and is offering eligible U.S. residents two years of complimentary credit monitoring services through TransUnion following the incident. “In addition to the security measures already in place before the incident, the company has taken steps to further safeguard its systems, including enhancing its security and monitoring controls. The company will continue advancing its IT security and data privacy controls to address evolving threats,” the company concluded . Let’s hope those additional security measures work this time, because this is not the first time cybercriminals have breached Carnival’s systems. More about breach cybercrime data breach Share",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Help Net Security",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Cybercriminals sail away with data from 6 million Carnival customers",
-          "link": "https://www.helpnetsecurity.com/2026/05/28/carnival-corporation-data-breach/",
-          "published": "2026-05-28T14:04:03+00:00",
-          "summary": "Carnival Corporation, one of the world’s largest cruise operators, confirmed a data breach weeks after the ShinyHunters hacking group claimed it had stolen millions of customer records. Carnival acknowledged a phishing incident involving a single employee account and stated that it was investigating the scope of the unauthorized activity. “On April 14, 2026, the company’s IT security team identified unauthorized activity involving an employee’s account. An unauthorized actor used social engineering to deceive an employee … More → The post Cybercriminals sail away with data from 6 million Carnival customers appeared first on Help Net Security .",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8061,181 +8061,6 @@
       ]
     },
     {
-      "cluster_id": "76e5533edc",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Salesforce"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "25th May – Threat Intelligence Report",
-        "link": "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-        "published": "2026-05-25T15:08:40+00:00",
-        "summary": "For the latest discoveries in cyber research for the week of 25th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES 7-Eleven, the global convenience store chain, confirmed a breach after an unauthorized access to systems used for franchisee documents. ShinyHunters claimed responsibility and said it stole more than 600,000 Salesforce records containing personal […] The post 25th May – Threat Intelligence Report appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Salesforce"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Salesforce": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "25th May – Threat Intelligence Report",
-          "link": "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-          "published": "2026-05-25T15:08:40+00:00",
-          "summary": "For the latest discoveries in cyber research for the week of 25th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES 7-Eleven, the global convenience store chain, confirmed a breach after an unauthorized access to systems used for franchisee documents. ShinyHunters claimed responsibility and said it stole more than 600,000 Salesforce records containing personal […] The post 25th May – Threat Intelligence Report appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Salesforce": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "6c08f48b40",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "Nimbus Manticore",
-          "UNC1549"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Check Point Research",
-        "cohort": "threat_research_primary",
-        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-        "published": "2026-05-22T15:09:29+00:00",
-        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [
-            "Nimbus Manticore",
-            "UNC1549"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Check Point Research",
-          "cohort": "threat_research_primary",
-          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
-          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
-          "published": "2026-05-22T15:09:29+00:00",
-          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "Nimbus Manticore",
-              "UNC1549"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "d601f76167",
       "priority_score": 10,
       "member_count": 1,
@@ -8548,6 +8373,256 @@
       ]
     },
     {
+      "cluster_id": "76e5533edc",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "25th May – Threat Intelligence Report",
+        "link": "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+        "published": "2026-05-25T15:08:40+00:00",
+        "summary": "For the latest discoveries in cyber research for the week of 25th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES 7-Eleven, the global convenience store chain, confirmed a breach after an unauthorized access to systems used for franchisee documents. ShinyHunters claimed responsibility and said it stole more than 600,000 Salesforce records containing personal […] The post 25th May – Threat Intelligence Report appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "ShinyHunters"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Salesforce"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Salesforce": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "25th May – Threat Intelligence Report",
+          "link": "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+          "published": "2026-05-25T15:08:40+00:00",
+          "summary": "For the latest discoveries in cyber research for the week of 25th May, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES 7-Eleven, the global convenience store chain, confirmed a breach after an unauthorized access to systems used for franchisee documents. ShinyHunters claimed responsibility and said it stole more than 600,000 Salesforce records containing personal […] The post 25th May – Threat Intelligence Report appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Salesforce"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Salesforce": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "6c08f48b40",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "Nimbus Manticore",
+          "UNC1549"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Check Point Research",
+        "cohort": "threat_research_primary",
+        "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+        "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+        "published": "2026-05-22T15:09:29+00:00",
+        "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [
+            "Nimbus Manticore",
+            "UNC1549"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Check Point Research",
+          "cohort": "threat_research_primary",
+          "title": "Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict",
+          "link": "https://research.checkpoint.com/2026/fast-and-furious-nimbus-manticore-operations-during-the-iranian-conflict/",
+          "published": "2026-05-22T15:09:29+00:00",
+          "summary": "Key Findings Introduction During the recent geopolitical tensions in the Middle East, we reported on multiple Iran-nexus threat actors advancing Iran’s strategic objectives through cyber operations. These activities included targeting internet-connected cameras, conducting destructive attacks against US and Israeli entities, and exfiltrating data from cloud environments to support broader kinetic and intelligence-gathering efforts. Nimbus Manticore (also tracked as UNC1549) is an IRGC-affiliated threat […] The post Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict appeared first on Check Point Research .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "Nimbus Manticore",
+              "UNC1549"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "f91fd037fc",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Red Canary",
+        "cohort": "detection_response_operations",
+        "title": "Grading on a curve: How to assess a pentest",
+        "link": "https://redcanary.com/blog/testing-and-validation/pentesting/",
+        "published": "2026-05-28T13:13:04+00:00",
+        "summary": "Defenders don’t need to detect every adversary action to prevent a threat. Here’s a more realistic, optimized approach to testing.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Red Canary",
+          "cohort": "detection_response_operations",
+          "title": "Grading on a curve: How to assess a pentest",
+          "link": "https://redcanary.com/blog/testing-and-validation/pentesting/",
+          "published": "2026-05-28T13:13:04+00:00",
+          "summary": "Defenders don’t need to detect every adversary action to prevent a threat. Here’s a more realistic, optimized approach to testing.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "81657d1b5b",
       "priority_score": 10,
       "member_count": 1,
@@ -8789,81 +8864,6 @@
       ]
     },
     {
-      "cluster_id": "f91fd037fc",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Red Canary",
-        "cohort": "detection_response_operations",
-        "title": "Grading on a curve: How to assess a pentest",
-        "link": "https://redcanary.com/blog/testing-and-validation/pentesting/",
-        "published": "2026-05-28T13:13:04+00:00",
-        "summary": "Defenders don’t need to detect every adversary action to prevent a threat. Here’s a more realistic, optimized approach to testing.",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Red Canary",
-          "cohort": "detection_response_operations",
-          "title": "Grading on a curve: How to assess a pentest",
-          "link": "https://redcanary.com/blog/testing-and-validation/pentesting/",
-          "published": "2026-05-28T13:13:04+00:00",
-          "summary": "Defenders don’t need to detect every adversary action to prevent a threat. Here’s a more realistic, optimized approach to testing.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "54b7e8eb44",
       "priority_score": 10,
       "member_count": 1,
@@ -9030,151 +9030,66 @@
   ],
   "affinity_groups": [
     {
-      "label": "active exploitation targeting GitHub",
+      "label": "active exploitation targeting Gogs",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation",
-          "vulnerability_disclosure",
+          "phishing_social_eng",
           "zero_day",
-          "phishing_social_eng"
+          "supply_chain"
         ],
         "affected_industries": [
           "government"
         ],
         "affected_products": [
           "GitHub",
-          "Microsoft BitLocker"
+          "Gogs",
+          "Linux kernel",
+          "cPanel"
         ],
         "cve_ids": [
-          "CVE-2026-45585",
-          "CVE-2026-41091",
-          "CVE-2026-45498",
           "CVE-2026-31635",
-          "CVE-2026-42945"
+          "CVE-2026-42945",
+          "CVE-2026-45585",
+          "CVE-2026-48172"
         ],
         "urgency_signals": [
           "actively_exploited",
           "poc_available",
           "zero_day",
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
+          "preauth_unauth"
         ]
       },
-      "cluster_count": 8,
-      "article_count": 8,
-      "cohesion": 0.386,
+      "cluster_count": 5,
+      "article_count": 5,
+      "cohesion": 0.356,
       "cluster_ids": [
-        "175d322664",
         "3646c4bc1c",
         "0a08121d4a",
-        "1c1c93f2d0",
         "b9778d72dd",
         "5efb9aed3b",
-        "22c0f52b2c",
         "10ccbdac01"
       ]
     },
     {
-      "label": "active exploitation targeting Gitea",
-      "dominant_features": {
-        "threat_categories": [
-          "active_exploitation",
-          "data_breach"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Gitea",
-          "Kopia",
-          "Palo Alto Networks",
-          "Drupal",
-          "XWiki"
-        ],
-        "cve_ids": [
-          "CVE-2026-0300",
-          "CVE-2026-23734",
-          "CVE-2026-44578",
-          "CVE-2026-9082"
-        ],
-        "urgency_signals": [
-          "preauth_unauth",
-          "actively_exploited",
-          "critical_cvss",
-          "no_patch_yet",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_1_offensive_research",
-          "tier_4_news"
-        ]
-      },
-      "cluster_count": 7,
-      "article_count": 10,
-      "cohesion": 0.336,
-      "cluster_ids": [
-        "f0383fca84",
-        "7a0bfcbd42",
-        "8d3bd4937d",
-        "b090e3ad19",
-        "7cb47afdaa",
-        "312db5be97",
-        "c645f7c752"
-      ]
-    },
-    {
-      "label": "ShinyHunters targeting Fortinet",
+      "label": "ShinyHunters targeting Salesforce",
       "dominant_features": {
         "threat_categories": [
           "data_breach",
           "ransomware_extortion",
-          "phishing_social_eng",
-          "apt_espionage",
-          "credential_theft"
+          "phishing_social_eng"
         ],
         "actor_attribution": [
           "ShinyHunters"
         ],
-        "affected_industries": [
-          "government",
-          "aviation_defense"
-        ],
         "affected_products": [
-          "Fortinet",
-          "Android",
           "Salesforce"
-        ],
-        "cve_ids": [
-          "CVE-2026-35616"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report",
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_1_primary_research"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 7,
-      "cohesion": 0.427,
+      "cluster_count": 5,
+      "article_count": 5,
+      "cohesion": 0.478,
       "cluster_ids": [
-        "23ed126bfb",
-        "1d21bdd81d",
         "10e5ab079e",
         "2be6eea2c3",
         "6cc46471de",
@@ -9183,53 +9098,76 @@
       ]
     },
     {
-      "label": "zero day targeting Anthropic/Claude",
+      "label": "vulnerability disclosure targeting Microsoft BitLocker",
       "dominant_features": {
         "threat_categories": [
+          "vulnerability_disclosure",
+          "active_exploitation",
           "zero_day"
-        ],
-        "affected_industries": [
-          "education"
         ],
         "affected_products": [
-          "Anthropic/Claude"
+          "Microsoft BitLocker",
+          "Microsoft Defender"
+        ],
+        "cve_ids": [
+          "CVE-2026-41091",
+          "CVE-2026-45498",
+          "CVE-2026-33825",
+          "CVE-2026-45585"
         ],
         "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
+          "actively_exploited",
+          "zero_day",
+          "no_patch_yet",
+          "poc_available"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 4,
-      "cohesion": 0.33,
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.459,
       "cluster_ids": [
-        "44750f6223",
-        "ed77a21674",
-        "b6007bd74a",
-        "9ab6faa64f"
+        "175d322664",
+        "1c1c93f2d0",
+        "22c0f52b2c"
       ]
     },
     {
-      "label": "TeamPCP targeting GitHub",
+      "label": "CVE-2026-35616 exploitation (Fortinet)",
+      "dominant_features": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Fortinet"
+        ],
+        "cve_ids": [
+          "CVE-2026-35616"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.614,
+      "cluster_ids": [
+        "23ed126bfb",
+        "1d21bdd81d"
+      ]
+    },
+    {
+      "label": "TeamPCP campaign activity",
       "dominant_features": {
         "actor_attribution": [
           "TeamPCP"
         ],
         "affected_products": [
           "GitHub"
-        ],
-        "content_type": [
-          "news_report"
         ]
       },
       "cluster_count": 2,
       "article_count": 3,
-      "cohesion": 0.588,
+      "cohesion": 0.647,
       "cluster_ids": [
         "da583a9e4e",
         "5b0a39c461"
@@ -9245,16 +9183,31 @@
           "Gogs"
         ],
         "urgency_signals": [
-          "no_patch_yet",
-          "preauth_unauth"
+          "preauth_unauth",
+          "no_patch_yet"
         ]
       },
       "cluster_count": 2,
       "article_count": 2,
-      "cohesion": 0.356,
+      "cohesion": 0.333,
       "cluster_ids": [
         "f160e8841b",
         "3f77e58a4f"
+      ]
+    },
+    {
+      "label": "Nimbus Manticore campaign activity",
+      "dominant_features": {
+        "actor_attribution": [
+          "Nimbus Manticore"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.364,
+      "cluster_ids": [
+        "ede483f81e",
+        "6c08f48b40"
       ]
     }
   ]
