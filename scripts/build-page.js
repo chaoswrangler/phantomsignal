@@ -2559,6 +2559,66 @@ ${JSON.stringify(jsonLd, null, 2)}
       line-height: 0.95;
       color: var(--text-bright);
       text-shadow: 0 0 40px rgba(0, 217, 255, 0.25);
+      overflow-wrap: anywhere;
+      hyphens: none;
+    }
+
+    .byline {
+      display: inline-flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 18px 0 0;
+      padding: 6px 12px;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--jade);
+      background: linear-gradient(90deg, rgba(58, 255, 196, 0.08), rgba(58, 255, 196, 0.0) 80%);
+      border-left: 2px solid var(--jade);
+      border-radius: 0 4px 4px 0;
+      max-width: 100%;
+    }
+
+    .byline-tag {
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      color: var(--jade);
+      opacity: 0.7;
+      padding-right: 8px;
+      border-right: 1px solid rgba(58, 255, 196, 0.3);
+    }
+
+    .byline-name {
+      color: var(--text-bright);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+    }
+
+    .byline-sep {
+      opacity: 0.4;
+      letter-spacing: 0;
+    }
+
+    .byline-link {
+      color: var(--jade);
+      text-decoration: none;
+      transition: color 140ms ease, text-shadow 140ms ease;
+    }
+
+    .byline-link:hover {
+      color: var(--text-bright);
+      text-shadow: 0 0 8px rgba(58, 255, 196, 0.6);
+    }
+
+    .byline-arrow {
+      display: inline-block;
+      transition: transform 140ms ease;
+    }
+
+    .byline-link:hover .byline-arrow {
+      transform: translate(2px, -2px);
     }
 
     .subtitle {
@@ -3513,7 +3573,21 @@ ${JSON.stringify(jsonLd, null, 2)}
       }
 
       h1 {
-        font-size: clamp(2rem, 11vw, 3.4rem);
+        /* Floor must be small enough that "PHANTOMSignal Feed" doesn't
+           overflow a ~360px viewport at weight 900. The vw scale takes
+           over above that. */
+        font-size: clamp(1.6rem, 9vw, 3.4rem);
+        line-height: 1.0;
+      }
+
+      .byline {
+        font-size: 0.66rem;
+        padding: 5px 10px;
+        gap: 8px;
+      }
+
+      .byline-tag {
+        padding-right: 6px;
       }
 
       .panel-header {
@@ -3582,6 +3656,12 @@ ${JSON.stringify(jsonLd, null, 2)}
     <header class="hero">
       <div class="eyebrow">PHANTOMSignal · Threat signal. Not threat noise.</div>
       <h1>PHANTOMSignal Feed</h1>
+      <p class="byline">
+        <span class="byline-tag">SIG</span>
+        <span class="byline-name">Raae Wolfram</span>
+        <span class="byline-sep" aria-hidden="true">·</span>
+        <a class="byline-link" href="https://www.linkedin.com/in/raaewolfram/" ${externalLinkAttrs()}>Connect on LinkedIn <span class="byline-arrow" aria-hidden="true">↗</span></a>
+      </p>
       <p class="subtitle">
         Curated English-language Cyber News and Threat Insights from the last ${LOOKBACK_DAYS} days. Items are filtered for CTI relevance, aggressively deduplicated, tagged by threat category and likely affected industry, and dynamically assembled by filter.
       </p>
