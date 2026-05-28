@@ -280,7 +280,153 @@ def find_affinity_groups(
         key=lambda g: g["total_priority"] * g["cluster_count"] * (0.5 + g["cohesion"]),
         reverse=True,
     )
+
+    # 4. Rollup pass for elegance. When a CVE theme's clusters all belong
+    # to a product theme on the same disclosure (e.g., three BitLocker CVEs
+    # disclosed together, each producing its own CVE theme, plus the parent
+    # "Microsoft BitLocker active exploitation" theme), collapse the CVE
+    # themes into the product theme as `member_cves` metadata. The result:
+    # one theme per real story, with the constituent CVEs surfaced as
+    # detail rather than parallel themes.
+    groups = _rollup_cve_themes_into_products(groups, taxonomies)
+
+    # 5. Actor↔Product co-fold. When an actor theme and a product theme
+    # cover overlapping cluster sets (the same campaign seen from two
+    # angles — e.g., "ShinyHunters" and "Salesforce as ransomware target"),
+    # the actor theme is the more specific framing. Fold the product theme
+    # into the actor theme as `also_targets` metadata.
+    groups = _rollup_product_into_actor(groups, taxonomies)
+
     return groups[:max_groups]
+
+
+def _rollup_product_into_actor(groups, taxonomies):
+    """When an actor theme and a product theme heavily overlap, the actor
+    theme wins and the product becomes a 'also_targets' note on the actor.
+
+    Heuristic: if actor theme A and product theme P share ≥60% of P's
+    clusters AND P's anchor product appears as a dominant product in A,
+    fold P into A.
+    """
+    absorbed = set()
+
+    actor_groups = [
+        g for g in groups
+        if not g["anchor_signal"].startswith("CVE-")
+        and any(tok in g["anchor_signal"] for tok in KNOWN_ACTOR_TOKENS)
+    ]
+    product_groups = [
+        g for g in groups
+        if not g["anchor_signal"].startswith("CVE-")
+        and not any(tok in g["anchor_signal"] for tok in KNOWN_ACTOR_TOKENS)
+    ]
+
+    for prod_g in product_groups:
+        prod_indices = set(prod_g["cluster_indices"])
+        if not prod_indices:
+            continue
+
+        for actor_g in actor_groups:
+            if id(actor_g) in absorbed:
+                continue
+            actor_indices = set(actor_g["cluster_indices"])
+            actor_dominant_products = actor_g.get("dominant_features", {}).get("affected_products", [])
+
+            overlap = len(prod_indices & actor_indices) / len(prod_indices)
+
+            if overlap >= 0.6 and prod_g["anchor_signal"] in actor_dominant_products:
+                # Skip if the parent's label already names this product
+                # (the product is the anchor of the actor theme's label).
+                if prod_g["anchor_signal"] not in actor_g.get("label", ""):
+                    actor_g.setdefault("also_targets", []).append(prod_g["anchor_signal"])
+                # Union the cluster sets regardless — the campaign overlap is real
+                merged = sorted(actor_indices | prod_indices)
+                actor_g["cluster_indices"] = merged
+                actor_g["cluster_count"] = len(merged)
+                absorbed.add(id(prod_g))
+                break
+
+    return [g for g in groups if id(g) not in absorbed]
+
+
+def _rollup_cve_themes_into_products(groups, taxonomies):
+    """Fold per-CVE themes into their parent product theme.
+
+    Heuristic (in priority order):
+      1. STRICT FOLD: CVE theme's cluster set is a subset of a product
+         theme's cluster set → fold (strongest signal).
+      2. SOFT FOLD: CVE theme's dominant product matches a product theme's
+         anchor AND ≥50% cluster overlap → fold (handles residual tagging
+         noise where the same disclosure produced slightly different
+         cluster sets per CVE).
+
+    The folded theme's CVE is recorded on the parent as a `member_cves`
+    entry. The standalone CVE theme is dropped from the output.
+    """
+    absorbed = set()
+
+    for g in groups:
+        if not g["anchor_signal"].startswith("CVE-"):
+            continue
+        if id(g) in absorbed:
+            continue
+        cve_indices = set(g["cluster_indices"])
+        cve_dominant_products = [
+            p for p in g.get("dominant_features", {}).get("affected_products", [])
+            if p not in AMBIGUOUS_ANCHORS
+        ]
+
+        best_parent = None
+        best_overlap = 0.0
+
+        for parent in groups:
+            if parent is g or id(parent) in absorbed:
+                continue
+            if parent["anchor_signal"].startswith("CVE-"):
+                continue
+            if parent["anchor_signal"] in AMBIGUOUS_ANCHORS:
+                continue
+
+            parent_indices = set(parent["cluster_indices"])
+            if not parent_indices:
+                continue
+
+            overlap = len(cve_indices & parent_indices) / len(cve_indices)
+
+            # Strict fold: CVE clusters fully contained in parent
+            if cve_indices.issubset(parent_indices):
+                best_parent = parent
+                best_overlap = 1.0
+                break
+
+            # Soft fold: parent's anchor product is in this CVE theme's
+            # dominant products AND substantial overlap
+            if (parent["anchor_signal"] in cve_dominant_products
+                    and overlap >= 0.5
+                    and overlap > best_overlap):
+                best_parent = parent
+                best_overlap = overlap
+
+        if best_parent is not None:
+            best_parent.setdefault("member_cves", []).append(g["anchor_signal"])
+            # Union the cluster sets — soft fold may bring in CVE-only clusters
+            merged_indices = sorted(set(best_parent["cluster_indices"]) | cve_indices)
+            best_parent["cluster_indices"] = merged_indices
+            best_parent["cluster_count"] = len(merged_indices)
+            absorbed.add(id(g))
+
+    rolled = []
+    for g in groups:
+        if id(g) in absorbed:
+            continue
+        if g.get("member_cves"):
+            cves = sorted(set(g["member_cves"]))
+            if len(cves) == 1:
+                g["label"] = f"{g['anchor_signal']} exploitation ({cves[0]})"
+            else:
+                g["label"] = f"{g['anchor_signal']} exploitation ({len(cves)} CVEs)"
+        rolled.append(g)
+    return rolled
 
 
 def _dominant_features(taxonomies):
