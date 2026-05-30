@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T15:16:07.034583+00:00",
+  "generated_at": "2026-05-30T17:17:40.200965+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 445,
-  "total_clusters_raw": 162,
-  "total_clusters_in_packet": 61,
-  "dropped_low_score": 101,
+  "total_items_in_window": 443,
+  "total_clusters_raw": 164,
+  "total_clusters_in_packet": 62,
+  "dropped_low_score": 102,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,11 +81,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 5
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -95,15 +109,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -116,22 +123,15 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -151,13 +151,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -165,12 +158,12 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -179,11 +172,18 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -193,18 +193,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -221,11 +214,11 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 40,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -242,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -262,6 +255,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -284,6 +284,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -298,12 +305,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -312,26 +319,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -368,6 +368,13 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -381,13 +388,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -403,12 +403,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -417,12 +417,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 30,
+      "in_window_count": 20
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -431,23 +431,23 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -466,13 +466,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
-    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -486,6 +479,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 22
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -515,6 +515,13 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -527,14 +534,7 @@
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 34
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "in_window_count": 32
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -578,26 +578,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 12
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -606,12 +592,26 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 25,
+      "in_window_count": 12
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 14
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1099,7 +1099,7 @@
     },
     {
       "cluster_id": "4f7b6597a5",
-      "priority_score": 38,
+      "priority_score": 37,
       "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
@@ -1293,7 +1293,7 @@
     },
     {
       "cluster_id": "b44c0ebad4",
-      "priority_score": 38,
+      "priority_score": 37,
       "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
@@ -1601,7 +1601,7 @@
     {
       "cluster_id": "da583a9e4e",
       "priority_score": 24,
-      "member_count": 12,
+      "member_count": 10,
       "corroborating_source_count": 8,
       "strong_signals": [
         "GitHub",
@@ -1620,9 +1620,7 @@
         "affected_industries": [],
         "affected_products": [
           "GitHub",
-          "Google/Gemini",
-          "Packagist",
-          "npm"
+          "Google/Gemini"
         ],
         "tools_used": [],
         "cve_ids": [],
@@ -1709,36 +1707,6 @@
           }
         },
         {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Developer's guide to Gemini Enterprise and A2UI integration",
-          "link": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "If you've built a chatbot, you know this conversation: User: \"Book a table for two tomorrow at 7pm.\" Agent: \"Okay, for what day?\" User: \"Tomorrow.\" Agent: \"What time?\" A date picker would have ended this in one tap. But until recently, agents had no standard way to render a date picker — or a map, or a multi-select list — inside the chat surface they live in. They could only return text or markdown for generic usage. Today, we're walking through how to fix that with A2UI , an open protocol for agent-driven user interfaces, and how to integrate an A2UI-enabled agent with Gemini Enterprise (GE) so your agent renders rich and interactive UI natively in the GE chat surface — and in your own custom frontend if you want one. We'll use a working restaurant-finder agent — built with the Google Agent Development Kit (ADK), the A2A protocol, and Gemini — as the reference. The full source is on GitHub and there's a 2-minute demo video. Gemini Enterprise and A2UI integration demo The problem: agen",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target",
-              "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Record",
           "cohort": "cyber_news_breach_reporting",
           "title": "Microsoft calls zero-day releases ‘never justifiable’ as researcher threatens to drop more",
@@ -1798,6 +1766,36 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Developer's guide to Gemini Enterprise and A2UI integration",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "If you've built a chatbot, you know this conversation: User: \"Book a table for two tomorrow at 7pm.\" Agent: \"Okay, for what day?\" User: \"Tomorrow.\" Agent: \"What time?\" A date picker would have ended this in one tap. But until recently, agents had no standard way to render a date picker — or a map, or a multi-select list — inside the chat surface they live in. They could only return text or markdown for generic usage. Today, we're walking through how to fix that with A2UI , an open protocol for agent-driven user interfaces, and how to integrate an A2UI-enabled agent with Gemini Enterprise (GE) so your agent renders rich and interactive UI natively in the GE chat surface — and in your own custom frontend if you want one. We'll use a working restaurant-finder agent — built with the Google Agent Development Kit (ADK), the A2A protocol, and Gemini — as the reference. The full source is on GitHub and there's a 2-minute demo video. Gemini Enterprise and A2UI integration demo The problem: agen",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "Google/Gemini": "target"
             },
             "weak_tags": {
               "products": []
@@ -2500,8 +2498,8 @@
     {
       "cluster_id": "2272e85cad",
       "priority_score": 18,
-      "member_count": 5,
-      "corroborating_source_count": 4,
+      "member_count": 4,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "npm"
       ],
@@ -2528,8 +2526,7 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -2671,36 +2668,6 @@
               "npm": "target",
               "PyPI": "target",
               "crates.io": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "A practical checklist for evaluating npm packages (supply chain attacks, slopsquatting, etc.)",
-          "link": "https://www.reddit.com/r/netsec/comments/1trf5hb/a_practical_checklist_for_evaluating_npm_packages/",
-          "published": "2026-05-29T20:47:05+00:00",
-          "summary": "Provenance attestation, OIDC trusted publishing, install script risk, SHA-pinned CI actions, and slopsquatting (where LLMs hallucinate package names and attackers pre-register them). Includes a tiered checklist separating security-critical signals from operational maturity signals. submitted by /u/OtherwisePush6424 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "npm"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "npm": "target"
             },
             "weak_tags": {
               "products": []
@@ -3139,8 +3106,8 @@
     {
       "cluster_id": "bb2f04ae6d",
       "priority_score": 16,
-      "member_count": 6,
-      "corroborating_source_count": 6,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "Android"
       ],
@@ -3251,38 +3218,6 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New BTMOB Android Malware Enables Full Device Takeover",
-          "link": "https://www.securityweek.com/new-btmob-android-malware-enables-full-device-takeover/",
-          "published": "2026-05-28T13:05:04+00:00",
-          "summary": "Delivered via phishing lures, the malware combines financial theft with data exfiltration and remote access. The post New BTMOB Android Malware Enables Full Device Takeover appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
             "affected_products": [
               "Android"
             ],
@@ -4283,6 +4218,144 @@
       ]
     },
     {
+      "cluster_id": "2694f33506",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Android",
+          "Fortinet",
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-40933"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
+        "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+        "published": "2026-05-30T15:55:59+00:00",
+        "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
+        "full_body": "Obsidian Security has released technical information and proof-of-concept (PoC) code targeting a remote code execution (RCE) vulnerability in Flowise. The issue, tracked as CVE-2026-40933 (CVSS score of 9.9), was disclosed in April along with several other security defects impacting AI ecosystems that rely on Anthropic’s MCP protocol. Flowise, a popular open source platform that provides developers with a drag-and-drop interface for building LLM flows and AI agents, and which has over 52,000 GitHub stars, was flagged as one of the impacted products. According to OX Security, the root cause of the issue is a “by design”, systemic command injection vulnerability in Anthropic MCP, which propagates through the ecosystem. [Learn More: SecurityWeek to Host AI Risk Summit August 11-12 at the Ritz-Carlton, Half Moon Bay ] A NIST advisory describes CVE-2026-40933 as an unsafe serialization of stdio commands in the MCP adapter, allowing an attacker to add an MCP stdio server with an arbitrary command and achieve code execution. Advertisement. Scroll to continue reading. The security weakness existed because Flowise before version 3.1.0 allowed any user to add a new MCP and, when doing so, to add any command, enabling code execution on the underlying OS. According to Obsidian , the bug can be exploited by attackers to take over servers by simply convincing a user to import a crafted chatflow. The import action triggers arbitrary code execution on the server. “Any user who can create or edit chatflows can add a Custom MCP Tool and supply a malicious stdio MCP configuration. In practice, this requires a malicious insider or a compromised user account,” Obsidian notes. A remote attacker, the cybersecurity firm explains, can include a malicious command in a Custom MCP Tool configuration, export the chatflow as JSON, and share it with the victim. The payload abuses Flowise’s legitimate functionality to execute the malicious command during the import process. “Flowise’s Custom MCP node has an ‘Available Actions’ dropdown that lists the tools exposed by the configured MCP server. To populate that dropdown, the canvas asks the backend to enumerate the server’s tools. With stdio transport, enumeration starts the configured command. Because the dropdown loads when the imported chatflow renders on the canvas, the import alone can spawn the command,” Obsidian notes. The cybersecurity firm has published PoC code that, when imported, creates a shell back to Docker’s bridge address for the host. Obsidian says successful exploitation of CVE-2026-40933 leads to “OS-level execution with the Flowise process’s privileges, often root in containerized deployments. Every credential stored in the platform is readable. Every connected service is reachable. Flowise in production is typically wired into databases, APIs, and cloud accounts; the blast radius scales with whatever it connects to.” The cybersecurity firm notes that Flowise Cloud is not affected, because it has stdio MCP disabled. Self-hosted instances are vulnerable by default. Related: Raising the Cybersecurity Stakes: Ante up for the Agentic Era Related: Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks Related: Anthropic Releases New Claude Sandbox, Security Guidance Plugin Related: ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Geordie Raises $30 Million for AI Security and Governance Platform Carnival Data Breach Exposed 6 Million People New BTMOB Android Malware Enables Full Device Takeover Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks Gitea Vulnerability Exposed 30,000 Deployments to Attacks Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks RevEng.AI Raises ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Gitea",
+            "Fortinet",
+            "Android"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-40933"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target",
+            "Fortinet": "target",
+            "Android": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "GitHub",
+                "mention",
+                0.29
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
+          "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+          "published": "2026-05-30T15:55:59+00:00",
+          "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Gitea",
+              "Fortinet",
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-40933"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target",
+              "Fortinet": "target",
+              "Android": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "GitHub",
+                  "mention",
+                  0.29
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "5efb9aed3b",
       "priority_score": 13,
       "member_count": 2,
@@ -4867,133 +4940,6 @@
       ]
     },
     {
-      "cluster_id": "ac211e1aa7",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "data_breach",
-          "phishing_social_eng",
-          "supply_chain",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "AWS",
-          "SolarWinds",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks",
-        "link": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
-        "published": "2026-05-29T16:20:49+00:00",
-        "summary": "Noteworthy stories that might have slipped under the radar: Trump Mobile exposes customer data, phishers target the 2026 FIFA World Cup, CISA responds to recent supply chain attacks. The post In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks appeared first on SecurityWeek .",
-        "full_body": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Trump Mobile data breach Phone provider Trump Mobile has confirmed that customers’ names, addresses, email addresses, phone numbers, and other data was exposed to the internet. The company reportedly said a third-party platform provider was responsible for the exposure. Russian hackers’ deep reach in Treasury emails Advertisement. Scroll to continue reading. Documents presented in a Freedom of Information Act lawsuit filed by Bloomberg News against the US government show that the Russian state-sponsored APT responsible for the 2019-2020 SolarWinds supply chain attack had deep access to Treasury emails. The hackers reportedly focused on only eight email accounts linked to 300 other email addresses. The Treasury had roughly 94,000 people at the time. VS Code Remote SSH extension vulnerability A remote code execution (RCE) vulnerability in the Visual Studio Code (VS Code) Remote‑SSH extension could allow attackers to pivot to remote systems, security researcher Suman Kumar Chakraborty warns . The issue exists because, upon initiating a Remote SSH connection, the extension writes a bootstrap shell script to the Temp directory. An attacker with access to the system can modify the script before it is transmitted and executed on the remote server, to deploy a reverse shell. UK Visa Portal exposes over 100,000 documents Immigration portal UK Visa Portal publicly exposed over 100,000 documents of people who applied for a UK visa, TechCrunch reports . Not affiliated with the UK government, the website requires applicants to upload selfies and passports, and to pay a fee for obtaining visas. The exposed files were stored in an AWS S3 bucket and were secured earlier this week. LinkedIn phishing campaign abuses Adobe Target Phishers are posing as LinkedIn in a new p hishing campaign posing as a business inquiry. The emails contain fake contract attachments masquerading as PDFs. In fact, they are HTML files directing victims to the Adobe Target A/B testing platform. The attackers are abusing Adobe Target to track users and serve them fake login pages to steal their credentials before redirecting them to LinkedIn. 2026 FIFA World Cup in attackers’ crosshairs Just as the 2026 FIFA World Cup is about to kick off, Group-IB has discovered over 4,300 fraudulent domains impersonating FIFA, including a sophisticated phishing campaign run by Chinses-speaking hacking group Ghost Stadium. The threat actor has set up over 300 domains, including a pixel-perfect clone of the legitimate FIFA site. The phishers could cause hundreds of millions of dollars in losses. Veeam, Notepad++, Roundcube patches Veeam this week resolved two high-severity vulnerabilities in its Backup & Replication product, warning they could lead to privilege escalation and arbitrary file writes. Notepad++ patched three security issues, including two leading to arbitrary code execution. The latest Roudcube security updates fix eight flaws, including unauthenticated SQL injection and arbitrary file delete bugs. CISA responds to recent supply chain attacks The US cybersecurity agency CISA has expanded its KEV catalog with three vulnerabilities describing recent software supply chain attacks. These include Daemon Tools Lite , TanStack , and Nx Console (which led to the 3.800 internal GitHub repositories hack ). CISA also issued an alert on the Megalodon and Nx Console attacks, urging organizations to hunt for and remediate potential compromises. NPM invalidated granular access tokens in response to these a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng",
-            "data_breach",
-            "apt_espionage",
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "npm",
-            "SolarWinds",
-            "AWS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "npm": "target",
-            "SolarWinds": "target",
-            "AWS": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks",
-          "link": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
-          "published": "2026-05-29T16:20:49+00:00",
-          "summary": "Noteworthy stories that might have slipped under the radar: Trump Mobile exposes customer data, phishers target the 2026 FIFA World Cup, CISA responds to recent supply chain attacks. The post In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng",
-              "data_breach",
-              "apt_espionage",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "npm",
-              "SolarWinds",
-              "AWS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "target",
-              "SolarWinds": "target",
-              "AWS": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b6007bd74a",
       "priority_score": 12,
       "member_count": 1,
@@ -5281,146 +5227,81 @@
       ]
     },
     {
-      "cluster_id": "543e4ad427",
+      "cluster_id": "ac211e1aa7",
       "priority_score": 11,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "apt_espionage"
+          "apt_espionage",
+          "data_breach",
+          "phishing_social_eng",
+          "supply_chain",
+          "vulnerability_disclosure"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "government",
-          "telecommunications"
+          "government"
         ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
+        "affected_products": [
+          "AWS",
+          "SolarWinds",
+          "npm"
         ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Researchers Uncover Espionage in Mobile Networks",
-        "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
-        "published": "2026-05-29T15:20:32+00:00",
-        "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
-        "full_body": "Date Published May 29, 2026 Topics Targeted Surveillance telecommunications Mentions Swantje Lange Share Citizen Lab doctoral fellow Swantje Lange spoke with the Hasso Plattner Institut (HPI) about sophisticated surveillance campaigns being used to exploit mobile networks, sharing that “the mobile network is highly opaque and extremely complex.” Lange also discussed a recent Citizen Lab report she co-authored with Gary Miller, which showed how weaknesses in technology and governance allow mobile networks to be used as covert surveillance platforms. Read more in HPI More in: Targeted Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 research → FAQ Bad Connection APRIL 23, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Researchers Uncover Espionage in Mobile Networks",
-          "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
-          "published": "2026-05-29T15:20:32+00:00",
-          "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "787e234466",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited"
+          "preauth_unauth"
         ],
         "content_type": [
-          "news_report"
+          "incident_report"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research"
+          "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Rapid Response",
-        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-        "published": "2026-05-29T16:00:00+00:00",
-        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks",
+        "link": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
+        "published": "2026-05-29T16:20:49+00:00",
+        "summary": "Noteworthy stories that might have slipped under the radar: Trump Mobile exposes customer data, phishers target the 2026 FIFA World Cup, CISA responds to recent supply chain attacks. The post In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks appeared first on SecurityWeek .",
+        "full_body": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Trump Mobile data breach Phone provider Trump Mobile has confirmed that customers’ names, addresses, email addresses, phone numbers, and other data was exposed to the internet. The company reportedly said a third-party platform provider was responsible for the exposure. Russian hackers’ deep reach in Treasury emails Advertisement. Scroll to continue reading. Documents presented in a Freedom of Information Act lawsuit filed by Bloomberg News against the US government show that the Russian state-sponsored APT responsible for the 2019-2020 SolarWinds supply chain attack had deep access to Treasury emails. The hackers reportedly focused on only eight email accounts linked to 300 other email addresses. The Treasury had roughly 94,000 people at the time. VS Code Remote SSH extension vulnerability A remote code execution (RCE) vulnerability in the Visual Studio Code (VS Code) Remote‑SSH extension could allow attackers to pivot to remote systems, security researcher Suman Kumar Chakraborty warns . The issue exists because, upon initiating a Remote SSH connection, the extension writes a bootstrap shell script to the Temp directory. An attacker with access to the system can modify the script before it is transmitted and executed on the remote server, to deploy a reverse shell. UK Visa Portal exposes over 100,000 documents Immigration portal UK Visa Portal publicly exposed over 100,000 documents of people who applied for a UK visa, TechCrunch reports . Not affiliated with the UK government, the website requires applicants to upload selfies and passports, and to pay a fee for obtaining visas. The exposed files were stored in an AWS S3 bucket and were secured earlier this week. LinkedIn phishing campaign abuses Adobe Target Phishers are posing as LinkedIn in a new p hishing campaign posing as a business inquiry. The emails contain fake contract attachments masquerading as PDFs. In fact, they are HTML files directing victims to the Adobe Target A/B testing platform. The attackers are abusing Adobe Target to track users and serve them fake login pages to steal their credentials before redirecting them to LinkedIn. 2026 FIFA World Cup in attackers’ crosshairs Just as the 2026 FIFA World Cup is about to kick off, Group-IB has discovered over 4,300 fraudulent domains impersonating FIFA, including a sophisticated phishing campaign run by Chinses-speaking hacking group Ghost Stadium. The threat actor has set up over 300 domains, including a pixel-perfect clone of the legitimate FIFA site. The phishers could cause hundreds of millions of dollars in losses. Veeam, Notepad++, Roundcube patches Veeam this week resolved two high-severity vulnerabilities in its Backup & Replication product, warning they could lead to privilege escalation and arbitrary file writes. Notepad++ patched three security issues, including two leading to arbitrary code execution. The latest Roudcube security updates fix eight flaws, including unauthenticated SQL injection and arbitrary file delete bugs. CISA responds to recent supply chain attacks The US cybersecurity agency CISA has expanded its KEV catalog with three vulnerabilities describing recent software supply chain attacks. These include Daemon Tools Lite , TanStack , and Nx Console (which led to the 3.800 internal GitHub repositories hack ). CISA also issued an alert on the Megalodon and Nx Console attacks, urging organizations to hunt for and remediate potential compromises. NPM invalidated granular access tokens in response to these a",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "active_exploitation"
+            "supply_chain",
+            "phishing_social_eng",
+            "data_breach",
+            "apt_espionage",
+            "vulnerability_disclosure"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "npm",
+            "SolarWinds",
+            "AWS"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [
-            "actively_exploited"
+            "preauth_unauth"
           ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "npm": "target",
+            "SolarWinds": "target",
+            "AWS": "target",
+            "GitHub": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -5428,28 +5309,43 @@
       },
       "corroborating_sources": [
         {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Rapid Response",
-          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks",
+          "link": "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
+          "published": "2026-05-29T16:20:49+00:00",
+          "summary": "Noteworthy stories that might have slipped under the radar: Trump Mobile exposes customer data, phishers target the 2026 FIFA World Cup, CISA responds to recent supply chain attacks. The post In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks appeared first on SecurityWeek .",
           "taxonomy": {
             "threat_categories": [
-              "active_exploitation"
+              "supply_chain",
+              "phishing_social_eng",
+              "data_breach",
+              "apt_espionage",
+              "vulnerability_disclosure"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "npm",
+              "SolarWinds",
+              "AWS"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [
-              "actively_exploited"
+              "preauth_unauth"
             ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "npm": "target",
+              "SolarWinds": "target",
+              "AWS": "target",
+              "GitHub": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -5818,6 +5714,96 @@
       ]
     },
     {
+      "cluster_id": "543e4ad427",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Researchers Uncover Espionage in Mobile Networks",
+        "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
+        "published": "2026-05-29T15:20:32+00:00",
+        "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
+        "full_body": "Date Published May 29, 2026 Topics Targeted Surveillance telecommunications Mentions Swantje Lange Share Citizen Lab doctoral fellow Swantje Lange spoke with the Hasso Plattner Institut (HPI) about sophisticated surveillance campaigns being used to exploit mobile networks, sharing that “the mobile network is highly opaque and extremely complex.” Lange also discussed a recent Citizen Lab report she co-authored with Gary Miller, which showed how weaknesses in technology and governance allow mobile networks to be used as covert surveillance platforms. Read more in HPI More in: Targeted Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 research → FAQ Bad Connection APRIL 23, 2026",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Researchers Uncover Espionage in Mobile Networks",
+          "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
+          "published": "2026-05-29T15:20:32+00:00",
+          "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "0c8abca5e9",
       "priority_score": 10,
       "member_count": 1,
@@ -6076,6 +6062,93 @@
             "role_map": {
               "Cisco": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "787e234466",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Rapid Response",
+        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+        "published": "2026-05-29T16:00:00+00:00",
+        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Rapid Response",
+          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6857,7 +6930,7 @@
     {
       "cluster_id": "faae644e55",
       "priority_score": 10,
-      "member_count": 2,
+      "member_count": 3,
       "corroborating_source_count": 2,
       "strong_signals": [
         "Google Workspace",
@@ -7861,143 +7934,6 @@
       ]
     },
     {
-      "cluster_id": "6cc46471de",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Fortinet",
-          "Gitea",
-          "Gogs"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Carnival Data Breach Exposed 6 Million People",
-        "link": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/",
-        "published": "2026-05-28T14:45:28+00:00",
-        "summary": "Data breach leaves nearly 6 million Carnival customers navigating identity theft risks. The post Carnival Data Breach Exposed 6 Million People appeared first on SecurityWeek .",
-        "full_body": "Cruise line operator Carnival Corporation is notifying approximately 6 million individuals that their personal information was stolen in a recent data breach. Carnival said the incident was identified on April 14, after hackers gained access to an employee’s account via social engineering. Using the compromised account, the attackers accessed certain company systems and exfiltrated files containing personal information. “The company has been conducting a thorough and time-consuming analysis of the impacted files to determine what personal information they contained and to whom that information belongs,” an incident notice on Carnival’s website reads. According to the company, the potentially impacted information varies by individual, but generally includes names, addresses, dates of birth, email addresses, phone numbers, and government-issued ID numbers. On Wednesday, Carnival informed the Maine Attorney General’s Office that 5,995,277 people were affected and that it was providing them with 24 months of free credit monitoring services. Advertisement. Scroll to continue reading. While the company has not shared further details on the attack, the incident was claimed last month by the infamous extortion group ShinyHunters. On its leak site, the hacking gang claimed the theft of 8.7 million records from Carnival’s systems, and made the data publicly available in late April. According to data breach notification website HaveIBeenPwned , which analyzed the leaked dataset, roughly 7.5 million accounts related to the Mariner Society loyalty program run by Carnival cruise line brand Holland America were likely affected. The leaked information included names, email addresses, dates of birth, gender, geographic locations, and loyalty program details. SecurityWeek has emailed Carnival for additional information on the matter and will update this article if the company responds. “From a defensive perspective, companies should treat social engineering resilience as a core cybersecurity control rather than an awareness exercise. That includes phishing-resistant MFA, stronger identity verification processes for internal requests, conditional access policies, privileged access segmentation, continuous behavioral monitoring, and regular red-team simulations focused specifically on human-centric attack paths,” SOCRadar CISO Ensar Seker points out. Since 2020, Carnival has disclosed several data breaches. The company was hacked in 2019 , fell victim to a ransomware attack in 2020, and was hacked again in March 2021. Related: 185,000 Likely Impacted by 7-Eleven Data Breach Related: Oncology Institute Discloses Data Breach Related: 266,000 Affected by Data Breach at Radiology Associates of Richmond Related: DocketWise Data Breach Impacts 143,000 Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire New BTMOB Android Malware Enables Full Device Takeover Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks Gitea Vulnerability Exposed 30,000 Deployments to Attacks Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks RevEng.AI Raises $15 Million to Hunt for Flaws and Backdoors in Software Binaries GlassWorm Botnet Disrupted FBI: Hackers Sending Operatives in Person to Insert USB Drives and Steal Data CISA Urges Immediate Patching of Exploited LiteSpeed cPanel Plugin Zero-Day Latest News In Other News: Trump Mobile Data Breach, FIFA World Cup Phishing, CISA Responds to Supply Chain Attacks Charter Communications Data Breach Could Impact Nearly 5 Million MokN Raises $15 Million for Phish-Back Platform Gogs Zero-Day Exposes Servers to Remote Code Execution California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach Chrome 148 Update Patches 151 Vulnerabilities Russia-Linked ‘GreyVibe’ Attackers Use AI to",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "zero_day",
-            "data_breach"
-          ],
-          "actor_attribution": [
-            "ShinyHunters"
-          ],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Gitea",
-            "Gogs",
-            "Fortinet"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target",
-            "Gogs": "target",
-            "Fortinet": "target",
-            "Android": "target",
-            "LiteSpeed": "target",
-            "cPanel": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Carnival Data Breach Exposed 6 Million People",
-          "link": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/",
-          "published": "2026-05-28T14:45:28+00:00",
-          "summary": "Data breach leaves nearly 6 million Carnival customers navigating identity theft risks. The post Carnival Data Breach Exposed 6 Million People appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "zero_day",
-              "data_breach"
-            ],
-            "actor_attribution": [
-              "ShinyHunters"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Gitea",
-              "Gogs",
-              "Fortinet"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target",
-              "Gogs": "target",
-              "Fortinet": "target",
-              "Android": "target",
-              "LiteSpeed": "target",
-              "cPanel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "463dae7edb",
       "priority_score": 8,
       "member_count": 1,
@@ -8576,6 +8512,95 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "cf5ba17e12",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2021-21735"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2021-21735"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+        "link": "https://www.reddit.com/r/netsec/comments/1tnbcp1/cve202121735_zte_h168n_wizard_whitelist_exposed/",
+        "published": "2026-05-25T14:47:16+00:00",
+        "summary": "Disclosure/write-up for CVE-2021-21735 affecting the ZTE ZXHN H168N V3.5. The issue is cataloged as information disclosure, but the useful part is the authorization failure: wizard handlers under the setup surface exposed PPPoE and WLAN material that should have required authenticated configuration access. Firmware analysis points to a brittle whitelist decision around the QuickSetup flow, including routes such as wizard_pppoe_lua.lua and wizard_wlan_config_lua.lua . The write-up keeps secrets redacted and focuses on the route behavior, firmware logic, deployment-dependent admin compromise path, disclosure timeline, and the ZTE Low vs NVD Medium severity split. submitted by /u/TheReedemer69 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2021-21735"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+          "link": "https://www.reddit.com/r/netsec/comments/1tnbcp1/cve202121735_zte_h168n_wizard_whitelist_exposed/",
+          "published": "2026-05-25T14:47:16+00:00",
+          "summary": "Disclosure/write-up for CVE-2021-21735 affecting the ZTE ZXHN H168N V3.5. The issue is cataloged as information disclosure, but the useful part is the authorization failure: wizard handlers under the setup surface exposed PPPoE and WLAN material that should have required authenticated configuration access. Firmware analysis points to a brittle whitelist decision around the QuickSetup flow, including routes such as wizard_pppoe_lua.lua and wizard_wlan_config_lua.lua . The write-up keeps secrets redacted and focuses on the route behavior, firmware logic, deployment-dependent admin compromise path, disclosure timeline, and the ZTE Low vs NVD Medium severity split. submitted by /u/TheReedemer69 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2021-21735"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
@@ -8649,7 +8674,7 @@
         ]
       },
       "cluster_count": 5,
-      "article_count": 10,
+      "article_count": 9,
       "cohesion": 0.303,
       "shared_strong_signals": [
         "AWS"
@@ -8667,58 +8692,11 @@
         "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
         "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
-        "https://www.reddit.com/r/netsec/comments/1trf5hb/a_practical_checklist_for_evaluating_npm_packages/",
         "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
         "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
         "https://www.reddit.com/r/blueteamsec/comments/1trb5sx/pathfinding_labs_deploy_test_and_learn_from_100/",
         "https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
-      ]
-    },
-    {
-      "label": "ShinyHunters targeting Salesforce",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Salesforce"
-        ]
-      },
-      "cluster_count": 4,
-      "article_count": 7,
-      "cohesion": 0.261,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "76e5533edc",
-        "10e5ab079e",
-        "2be6eea2c3",
-        "6cc46471de"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
-        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
-        "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
-        "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million",
-        "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
       ]
     },
     {
@@ -8753,6 +8731,84 @@
         "https://www.exploit-db.com/exploits/52596",
         "https://www.exploit-db.com/exploits/52575",
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026"
+      ]
+    },
+    {
+      "label": "Android vulnerability activity",
+      "anchor_signal": "Android",
+      "theme_key": "android",
+      "dominant_features": {
+        "affected_industries": [
+          "government",
+          "financial_services"
+        ],
+        "affected_products": [
+          "Android"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 7,
+      "cohesion": 0.27,
+      "shared_strong_signals": [
+        "Android"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "1eba5f7636",
+        "bb2f04ae6d",
+        "2694f33506"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/ai-threat-landscape-digest-march-april-2026/",
+        "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
+        "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+        "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+        "https://www.reddit.com/r/cybersecurity/comments/1tqw53i/decompiled_an_app_found_a_bunch_of_secrets_what/",
+        "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/",
+        "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/"
+      ]
+    },
+    {
+      "label": "ShinyHunters targeting Salesforce",
+      "anchor_signal": "ShinyHunters",
+      "theme_key": "shinyhunters",
+      "dominant_features": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Salesforce"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 6,
+      "cohesion": 0.235,
+      "shared_strong_signals": [
+        "ShinyHunters"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "76e5533edc",
+        "10e5ab079e",
+        "2be6eea2c3"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
+        "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
+        "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million"
       ]
     },
     {
@@ -8884,7 +8940,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.369,
       "shared_strong_signals": [
         "Microsoft 365"
@@ -8906,47 +8962,10 @@
       ]
     },
     {
-      "label": "data breach targeting Gogs",
-      "anchor_signal": "Gogs",
-      "theme_key": "gogs",
-      "dominant_features": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "affected_products": [
-          "Gogs"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 7,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Gogs"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f160e8841b",
-        "6cc46471de"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
-        "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
-        "https://risky.biz/RBNEWS570/",
-        "https://www.securityweek.com/gogs-zero-day-exposes-servers-to-remote-code-execution/",
-        "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-        "https://www.reddit.com/r/blueteamsec/comments/1tqvozq/authenticated_rce_via_argument_injection_in_gogs/",
-        "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
-      ]
-    },
-    {
-      "label": "supply chain targeting Gitea",
+      "label": "Gitea vulnerability activity",
       "anchor_signal": "Gitea",
       "theme_key": "gitea",
       "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
         "affected_products": [
           "Gitea"
         ]
@@ -8961,48 +8980,13 @@
       "also_targets": [],
       "cluster_ids": [
         "4f7b6597a5",
-        "6cc46471de"
+        "2694f33506"
       ],
       "links": [
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-27771/",
         "https://orca.security/resources/blog/gitea-container-registry-vulnerability/",
         "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-        "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/"
-      ]
-    },
-    {
-      "label": "Android vulnerability activity",
-      "anchor_signal": "Android",
-      "theme_key": "android",
-      "dominant_features": {
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Android"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 7,
-      "cohesion": 0.364,
-      "shared_strong_signals": [
-        "Android"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "1eba5f7636",
-        "bb2f04ae6d"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/ai-threat-landscape-digest-march-april-2026/",
-        "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
-        "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-        "https://www.securityweek.com/new-btmob-android-malware-enables-full-device-takeover/",
-        "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1tqw53i/decompiled_an_app_found_a_bunch_of_secrets_what/",
-        "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/"
+        "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/"
       ]
     },
     {
@@ -9021,7 +9005,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 13,
+      "article_count": 11,
       "cohesion": 0.232,
       "shared_strong_signals": [
         "TeamPCP"
@@ -9034,14 +9018,47 @@
       ],
       "links": [
         "https://isc.sans.edu/diary/rss/33016",
-        "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
         "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
         "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+        "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
         "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
         "https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled",
         "https://www.reddit.com/r/blueteamsec/comments/1ts2747/supply_chain_compromises_impact_nx_console_and/",
         "https://www.reddit.com/r/netsecstudents/comments/1tpvbru/github_iss4cf0ngopenpetya_a_proofofconcept/",
         "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
+      ]
+    },
+    {
+      "label": "Nimbus Manticore: phishing social eng",
+      "anchor_signal": "Nimbus Manticore",
+      "theme_key": "nimbus-manticore",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Nimbus Manticore"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 6,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Nimbus Manticore"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "76e5533edc",
+        "1d9f2e6d9f"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
+        "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "https://www.infosecurity-magazine.com/news/iranian-hackers-us-aviation/"
       ]
     }
   ],
@@ -9261,12 +9278,6 @@
           "first_published": "2026-05-28T14:01:00+00:00"
         },
         {
-          "value": "ShinyHunters",
-          "cluster_id": "6cc46471de",
-          "first_source": "SecurityWeek",
-          "first_published": "2026-05-28T14:45:28+00:00"
-        },
-        {
           "value": "Kimsuky",
           "cluster_id": "cc80d226e9",
           "first_source": "The Hacker News",
@@ -9286,6 +9297,12 @@
         },
         {
           "value": "Rhysida",
+          "cluster_id": "70b3cc5aba",
+          "first_source": "The Hacker News",
+          "first_published": "2026-05-25T14:13:27+00:00"
+        },
+        {
+          "value": "TeamPCP",
           "cluster_id": "70b3cc5aba",
           "first_source": "The Hacker News",
           "first_published": "2026-05-25T14:13:27+00:00"
@@ -9365,18 +9382,6 @@
           "first_published": "2026-05-25T13:26:06+00:00"
         },
         {
-          "value": "Packagist",
-          "cluster_id": "da583a9e4e",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-25T13:26:06+00:00"
-        },
-        {
-          "value": "npm",
-          "cluster_id": "da583a9e4e",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-25T13:26:06+00:00"
-        },
-        {
           "value": "WordPress",
           "cluster_id": "80b16de28f",
           "first_source": "Exploit-DB",
@@ -9411,6 +9416,18 @@
           "cluster_id": "bd3bda8915",
           "first_source": "Exploit-DB",
           "first_published": "2026-05-26T00:00:00+00:00"
+        },
+        {
+          "value": "AWS",
+          "cluster_id": "2272e85cad",
+          "first_source": "AWS Security Blog",
+          "first_published": "2026-05-26T17:03:30+00:00"
+        },
+        {
+          "value": "PyPI",
+          "cluster_id": "2272e85cad",
+          "first_source": "AWS Security Blog",
+          "first_published": "2026-05-26T17:03:30+00:00"
         }
       ]
     },
@@ -9503,6 +9520,15 @@
     ],
     "drift": [],
     "persistence": [],
-    "tier_inversion": []
+    "tier_inversion": [
+      {
+        "cluster_id": "cf5ba17e12",
+        "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2021-21735"
+        ]
+      }
+    ]
   }
 }
