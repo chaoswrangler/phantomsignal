@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T04:01:02.445815+00:00",
+  "generated_at": "2026-05-30T06:52:56.177077+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 78,
-  "total_items_in_window": 443,
-  "total_clusters_raw": 159,
-  "total_clusters_in_packet": 63,
-  "dropped_low_score": 96,
+  "feeds_ok": 79,
+  "total_items_in_window": 447,
+  "total_clusters_raw": 164,
+  "total_clusters_in_packet": 65,
+  "dropped_low_score": 99,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -74,6 +74,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +88,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 24,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -95,26 +102,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -123,22 +116,15 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -151,12 +137,26 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -186,11 +186,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -207,11 +207,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -220,13 +220,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 28
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -240,6 +233,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -263,13 +263,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -277,12 +270,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -290,6 +283,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -305,19 +305,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -361,13 +361,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -381,6 +374,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -424,13 +424,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
@@ -438,11 +431,11 @@
       "item_count": 30,
       "in_window_count": 20
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Coveware": {
@@ -459,26 +452,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,19 +473,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 22
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,12 +501,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -522,13 +529,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 21
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -536,12 +536,19 @@
       "item_count": 50,
       "in_window_count": 37
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 21
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 24
+      "in_window_count": 23
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -557,19 +564,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -578,26 +585,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 12
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -606,19 +599,26 @@
       "item_count": 25,
       "in_window_count": 25
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 15
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -1424,7 +1424,7 @@
     },
     {
       "cluster_id": "b44c0ebad4",
-      "priority_score": 33,
+      "priority_score": 32,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [
@@ -4332,8 +4332,277 @@
       ]
     },
     {
+      "cluster_id": "e96cf0fe65",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
+        "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
+        "published": "2026-05-29T19:22:29+00:00",
+        "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
+        "full_body": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or regulatory compliance. Modern systems depend on vast, rapidly evolving networks of components, making manual, paper-based approaches to due diligence impractical. Machine-readable, continuously generated security signals are therefore the only realistic way to support Cyber Resilience Act (CRA) due diligence at scale. These signals already exist across open source ecosystems as a natural byproduct of standard development practices, though they remain fragmented across tools, repositories, and pipelines. Crucially, these signals are best understood as mechanisms for transparency rather than assurance: they expose observable characteristics of software development and operational behavior without constituting guarantees, certifications, or transfers of liability. This shift is driven by a need for technical accuracy. Static documentation and point-in-time attestations cannot reflect continuously evolving software systems. This limitation has been underscored by recent U.S. enforcement actions, such as Department of Justice settlements involving inaccurate cybersecurity compliance certifications, which highlight how formal attestations can later be treated as misleading when they diverge from actual system behavior, significantly increasing legal exposure. Established approaches such as continuous compliance, evidence-based assurance, and secure-by-design all rely on the same principle: replacing subjective, point-in-time claims with dynamic, verifiable proof, automated data that reflects actual system behavior. Within this model, roles remain clearly separated. Upstream open source projects may choose to publish security-relevant signals in machine-readable formats, while manufacturers, who bear the legal responsibility under the CRA, consume and interpret this information as part of their due diligence processes. This preserves the foundational “no warranties, no liabilities” principle of open source. Participation from upstream remains strictly voluntary and must not introduce legal obligations, certification expectations, or shifting of compliance risk and liability to the project community, ensuring that ecosystem sustainability is maintained while enabling effective downstream risk management. This discussion builds on earlier reflections on voluntary attestation models under the Cyber Resilience Act, particularly Article 25, which enables voluntary security attestation programmes to support manufacturer due diligence for products incorporating free and open source software while preserving the separation between upstream development and downstream regulatory responsibility. From a systems perspective, however, Article 25 also exposes an important limitation of paper-based attestation approaches. Static, human-authored representations of security struggle to remain accurate within environments defined by continuous change, where rapidly evolving components and deeply nested dependencies can quickly render point-in-time attestations incomplete or outdated. This leads to a broader architectural observation: effective due diligence at scale increasingly shifts away from narrative declarations toward machine-readable, continuously updated security signals embedded directly within development and release workflows. In this framing, voluntary attestation is valuable not as a mechanism for upstream certification, but as a way to enable structured, interoperable security data that downstream systems can automatically consume and evaluate. Machine-readable signals thus become the practical substrate for operationalizing the intent of Article 25 in complex software ecosystems, preserving voluntariness, avoiding any conflation of transparency with assurance, and enabling evidence-based due diligence aligned with the dynamic nature of modern software s",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
+          "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
+          "published": "2026-05-29T19:22:29+00:00",
+          "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5efb9aed3b",
+      "priority_score": 13,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-45659",
+        "Microsoft SharePoint"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "phishing_social_eng",
+          "supply_chain",
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "Linux kernel",
+          "Microsoft SharePoint"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-31635",
+          "CVE-2026-32201",
+          "CVE-2026-42945",
+          "CVE-2026-45585",
+          "CVE-2026-45659"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+        "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+        "published": "2026-05-26T11:49:53+00:00",
+        "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows",
+        "full_body": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions  Ravie Lakshmanan  May 26, 2026 Vulnerability / Enterprise Security Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659 , carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network,\" Microsoft said in an advisory released last week. Microsoft noted that the vulnerability could be triggered by any authenticated attacker, and that it does not require administrator or other elevated privileges. \"In a network-based attack, an authenticated attacker, who has a minimum of Site Member permissions (PR:L), could execute code remotely on the SharePoint Server,\" the Windows maker added. Microsoft credited a researcher named MEOW for discovering and reporting the flaw. Updates have been released for the following versions - SharePoint Server Subscription Edition SharePoint Server 2019 SharePoint Enterprise Server 2016 Last month, Microsoft issued fixes for a spoofing vulnerability impacting Microsoft SharePoint Server ( CVE-2026-32201 , CVSS score: 6.5) that it said has been exploited in the wild. Although the tech giant notes that CVE-2026-45659 is less likely to be exploited, it's essential that users apply the necessary fixes for optimal protection, particularly when considering the fact that several flaws in the collaborative platform have been repeatedly weaponized by attackers over the years. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CVE , cybersecurity , Deserialization , enterprise security , Microsoft , network security , Patch Management , remote code execution , SharePoint , Vulnerability ⚡ Top Stories This Week Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories Microsoft Warns of Two Actively Exploited Defender Vulnerabilities 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective The New Phishing Click: How OAuth Consent Bypasses MFA Developer Workstations Are Now Part of the Software Supply Chain ⭐ Featured Resources Claim ANY.RUN Anniversary Offer for Faster Malware Analysis [Guide] Learn to Detect AI Typosquatting Risks in Your Domain [Guide] Get Key Identity Security Insights From 2026 Snapshot Discover How to Navigate the Era of Constant Cyber Exposure",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng",
+            "vulnerability_disclosure",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft SharePoint",
+            "GitHub",
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-45659",
+            "CVE-2026-32201",
+            "CVE-2026-45585",
+            "CVE-2026-31635",
+            "CVE-2026-42945"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Microsoft SharePoint": "target",
+            "GitHub": "target",
+            "Linux kernel": "target",
+            "Microsoft BitLocker": "target",
+            "Ivanti": "target",
+            "Fortinet": "target",
+            "Anthropic/Claude": "target",
+            "npm": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+          "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+          "published": "2026-05-26T11:49:53+00:00",
+          "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng",
+              "vulnerability_disclosure",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft SharePoint",
+              "GitHub",
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-45659",
+              "CVE-2026-32201",
+              "CVE-2026-45585",
+              "CVE-2026-31635",
+              "CVE-2026-42945"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft SharePoint": "target",
+              "GitHub": "target",
+              "Linux kernel": "target",
+              "Microsoft BitLocker": "target",
+              "Ivanti": "target",
+              "Fortinet": "target",
+              "Anthropic/Claude": "target",
+              "npm": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Issues Out-of-Band SharePoint Patch",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
+          "published": "2026-05-26T18:25:44+00:00",
+          "summary": "SharePoint often gives access to the keys of the kingdom, something attackers and defenders understand all too well.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft SharePoint"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft SharePoint": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "7b576ce45f",
-      "priority_score": 14,
+      "priority_score": 13,
       "member_count": 7,
       "corroborating_source_count": 5,
       "strong_signals": [
@@ -4558,20 +4827,21 @@
       ]
     },
     {
-      "cluster_id": "e96cf0fe65",
-      "priority_score": 13,
+      "cluster_id": "38ba01df8a",
+      "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "Akira"
+      ],
       "taxonomy": {
         "threat_categories": [
-          "supply_chain"
+          "ransomware_extortion"
         ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional",
-          "manufacturing_industrial"
+        "actor_attribution": [
+          "Akira"
         ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -4581,34 +4851,33 @@
           "news_report"
         ],
         "confidence_tier": [
-          "tier_2_operator"
+          "tier_1_government"
         ]
       },
       "primary": {
-        "source": "OpenSSF Blog",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
-        "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
-        "published": "2026-05-29T19:22:29+00:00",
-        "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
-        "full_body": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or regulatory compliance. Modern systems depend on vast, rapidly evolving networks of components, making manual, paper-based approaches to due diligence impractical. Machine-readable, continuously generated security signals are therefore the only realistic way to support Cyber Resilience Act (CRA) due diligence at scale. These signals already exist across open source ecosystems as a natural byproduct of standard development practices, though they remain fragmented across tools, repositories, and pipelines. Crucially, these signals are best understood as mechanisms for transparency rather than assurance: they expose observable characteristics of software development and operational behavior without constituting guarantees, certifications, or transfers of liability. This shift is driven by a need for technical accuracy. Static documentation and point-in-time attestations cannot reflect continuously evolving software systems. This limitation has been underscored by recent U.S. enforcement actions, such as Department of Justice settlements involving inaccurate cybersecurity compliance certifications, which highlight how formal attestations can later be treated as misleading when they diverge from actual system behavior, significantly increasing legal exposure. Established approaches such as continuous compliance, evidence-based assurance, and secure-by-design all rely on the same principle: replacing subjective, point-in-time claims with dynamic, verifiable proof, automated data that reflects actual system behavior. Within this model, roles remain clearly separated. Upstream open source projects may choose to publish security-relevant signals in machine-readable formats, while manufacturers, who bear the legal responsibility under the CRA, consume and interpret this information as part of their due diligence processes. This preserves the foundational “no warranties, no liabilities” principle of open source. Participation from upstream remains strictly voluntary and must not introduce legal obligations, certification expectations, or shifting of compliance risk and liability to the project community, ensuring that ecosystem sustainability is maintained while enabling effective downstream risk management. This discussion builds on earlier reflections on voluntary attestation models under the Cyber Resilience Act, particularly Article 25, which enables voluntary security attestation programmes to support manufacturer due diligence for products incorporating free and open source software while preserving the separation between upstream development and downstream regulatory responsibility. From a systems perspective, however, Article 25 also exposes an important limitation of paper-based attestation approaches. Static, human-authored representations of security struggle to remain accurate within environments defined by continuous change, where rapidly evolving components and deeply nested dependencies can quickly render point-in-time attestations incomplete or outdated. This leads to a broader architectural observation: effective due diligence at scale increasingly shifts away from narrative declarations toward machine-readable, continuously updated security signals embedded directly within development and release workflows. In this framing, voluntary attestation is valuable not as a mechanism for upstream certification, but as a way to enable structured, interoperable security data that downstream systems can automatically consume and evaluate. Machine-readable signals thus become the practical substrate for operationalizing the intent of Article 25 in complex software ecosystems, preserving voluntariness, avoiding any conflation of transparency with assurance, and enabling evidence-based due diligence aligned with the dynamic nature of modern software s",
-        "fetch_status": "ok",
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
+        "link": "https://isc.sans.edu/diary/rss/33024",
+        "published": "2026-05-27T21:14:03+00:00",
+        "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [
-            "supply_chain"
+            "ransomware_extortion"
           ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "legal_professional"
+          "actor_attribution": [
+            "Akira"
           ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
+          "confidence_tier": "tier_1_government",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -4617,28 +4886,27 @@
       },
       "corroborating_sources": [
         {
-          "source": "OpenSSF Blog",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
-          "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
-          "published": "2026-05-29T19:22:29+00:00",
-          "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
+          "link": "https://isc.sans.edu/diary/rss/33024",
+          "published": "2026-05-27T21:14:03+00:00",
+          "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
           "taxonomy": {
             "threat_categories": [
-              "supply_chain"
+              "ransomware_extortion"
             ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial",
-              "legal_professional"
+            "actor_attribution": [
+              "Akira"
             ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
+            "confidence_tier": "tier_1_government",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -4649,7 +4917,7 @@
     },
     {
       "cluster_id": "ac211e1aa7",
-      "priority_score": 13,
+      "priority_score": 12,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
@@ -4767,274 +5035,6 @@
               "AWS": "target",
               "GitHub": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "5efb9aed3b",
-      "priority_score": 13,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "CVE-2026-45659",
-        "Microsoft SharePoint"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng",
-          "supply_chain",
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "Linux kernel",
-          "Microsoft SharePoint"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-31635",
-          "CVE-2026-32201",
-          "CVE-2026-42945",
-          "CVE-2026-45585",
-          "CVE-2026-45659"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-        "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-        "published": "2026-05-26T11:49:53+00:00",
-        "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows",
-        "full_body": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions  Ravie Lakshmanan  May 26, 2026 Vulnerability / Enterprise Security Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659 , carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network,\" Microsoft said in an advisory released last week. Microsoft noted that the vulnerability could be triggered by any authenticated attacker, and that it does not require administrator or other elevated privileges. \"In a network-based attack, an authenticated attacker, who has a minimum of Site Member permissions (PR:L), could execute code remotely on the SharePoint Server,\" the Windows maker added. Microsoft credited a researcher named MEOW for discovering and reporting the flaw. Updates have been released for the following versions - SharePoint Server Subscription Edition SharePoint Server 2019 SharePoint Enterprise Server 2016 Last month, Microsoft issued fixes for a spoofing vulnerability impacting Microsoft SharePoint Server ( CVE-2026-32201 , CVSS score: 6.5) that it said has been exploited in the wild. Although the tech giant notes that CVE-2026-45659 is less likely to be exploited, it's essential that users apply the necessary fixes for optimal protection, particularly when considering the fact that several flaws in the collaborative platform have been repeatedly weaponized by attackers over the years. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CVE , cybersecurity , Deserialization , enterprise security , Microsoft , network security , Patch Management , remote code execution , SharePoint , Vulnerability ⚡ Top Stories This Week Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories Microsoft Warns of Two Actively Exploited Defender Vulnerabilities 9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability ⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective The New Phishing Click: How OAuth Consent Bypasses MFA Developer Workstations Are Now Part of the Software Supply Chain ⭐ Featured Resources Claim ANY.RUN Anniversary Offer for Faster Malware Analysis [Guide] Learn to Detect AI Typosquatting Risks in Your Domain [Guide] Get Key Identity Security Insights From 2026 Snapshot Discover How to Navigate the Era of Constant Cyber Exposure",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng",
-            "vulnerability_disclosure",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft SharePoint",
-            "GitHub",
-            "Linux kernel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-45659",
-            "CVE-2026-32201",
-            "CVE-2026-45585",
-            "CVE-2026-31635",
-            "CVE-2026-42945"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "poc_available"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Microsoft SharePoint": "target",
-            "GitHub": "target",
-            "Linux kernel": "target",
-            "Microsoft BitLocker": "target",
-            "Ivanti": "target",
-            "Fortinet": "target",
-            "Anthropic/Claude": "target",
-            "npm": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-          "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-          "published": "2026-05-26T11:49:53+00:00",
-          "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assigned an important severity. \"Deserialization of untrusted data in Microsoft Office SharePoint allows",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng",
-              "vulnerability_disclosure",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft SharePoint",
-              "GitHub",
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-45659",
-              "CVE-2026-32201",
-              "CVE-2026-45585",
-              "CVE-2026-31635",
-              "CVE-2026-42945"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft SharePoint": "target",
-              "GitHub": "target",
-              "Linux kernel": "target",
-              "Microsoft BitLocker": "target",
-              "Ivanti": "target",
-              "Fortinet": "target",
-              "Anthropic/Claude": "target",
-              "npm": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Issues Out-of-Band SharePoint Patch",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
-          "published": "2026-05-26T18:25:44+00:00",
-          "summary": "SharePoint often gives access to the keys of the kingdom, something attackers and defenders understand all too well.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft SharePoint"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft SharePoint": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "38ba01df8a",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Akira"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "Akira"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
-        "link": "https://isc.sans.edu/diary/rss/33024",
-        "published": "2026-05-27T21:14:03+00:00",
-        "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [
-            "Akira"
-          ],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
-          "link": "https://isc.sans.edu/diary/rss/33024",
-          "published": "2026-05-27T21:14:03+00:00",
-          "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did they get in. When did they get domain admin. What did they touch before the binary fired. Those answers live in the days before impact. They sit in two log sources that almost never get joined. The perimeter firewall and the Windows event channel.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [
-              "Akira"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5262,14 +5262,16 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
-          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
-          "published": "2026-05-28T11:30:00+00:00",
-          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
+          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+          "published": "2026-05-28T07:54:48+00:00",
+          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [
               "JINX-0164"
             ],
@@ -5294,16 +5296,14 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-          "published": "2026-05-28T07:54:48+00:00",
-          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
+          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
+          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
+          "published": "2026-05-28T11:30:00+00:00",
+          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [
               "JINX-0164"
             ],
@@ -7031,6 +7031,105 @@
       ]
     },
     {
+      "cluster_id": "1521771637",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Play"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
+        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
+        "published": "2026-05-28T13:39:39+00:00",
+        "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
+        "full_body": "Industry News 2 min read MyPillow listed on ransomware gang's leak site, but denies it has been breached Graham CLULEY May 28, 2026 The Play ransomware gang is claiming to have stolen data from US pillow manufacturer MyPillow, making off with private and personal confidential data. The claim, which appeared on Play's dark web leak portal earlier this week, threatens that an undeclared amount of data will be released on Friday, potentially exposing \"private and personal confidential data, clients and etc. documents,budget, payroll, IDs, taxes, finance information.\" However, since Straight Arrow News , which first reported details of the alleged ransomware attack, the pillow manufacturers high-profile CEO Mike Lindell has debunked the claims that any security breach has happened at all. Lindell - a high-profile supporter of US President Donald Trump who is currently seeking the Republican nomination for governor of his home state, Minnesota - told Straight Arrow News that he was not aware that any claims had been made about an alleged attack on his company until he was contacted by the press. Furthermore, Lindell says that the claims being made about a ransomware attack are politically motivated: “This is another hit job by outside sources because I'm running for governor. I guarantee it. We do not have any breaches in our data at all.\" Lindell further said that his company had not received any ransomware demands, and that the company does not store any sensitive data internally, relying upon external third parties instead. Whether MyPillow was actually breached is, at the time of writing, unconfirmed. The company denies it has been hit, and the Play ransomware gang claims otherwise. The truth is likely to emerge quickly, as the deadline for payment listed by Play on its leak portal is reached tomorrow. When the deadline passes, the data will either appear or it won't. And if it doesn't appear, then chances are that either the attackers don't have any MyPillow data at all, or they have been given a strong incentive (most commonly financial) to not release it after all. What would be a mistake, however, is for MyPillow to think that saying \"we don't hold sensitive data on our own systems\" provides a strong defence. That's because it tell you where data lives, not whether it is safe. Modern businesses hand customer records, payroll, and financial information to a wide variety of third parties - payment processors, fulfilment partners, HR and payroll providers, CRM and email platforms, cloud hosts. Each of those systems can be breached, and attacks increasingly go after such suppliers precisely because a single hack can serve up data belonging to many organisations. And from the perspective of the people whose data could potentially be at risk - such as customers, employees, and business partners - the distinction is largely academic. If your name, address, payment details, or tax information ends up on a ransomware gang's leak site, it makes little practical difference whether it was siphoned from MyPillow's own servers or from a contractor acting on its behalf. Outsourcing the storage and processing of data doesn't mean your business's reputation won't be tarnished if a security breach occurs, and it certainly doesn't mean that the consequences for the individuals affected won't be just as serious. We'll know soon enough whether Friday's payment deadline from the Play ransomware group brings a data dump or a quiet anticlimax. One thing is certain - ransomware gangs target anyone they think might pay, and strong defences are needed by all organisations. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [
+            "Play"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
+          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
+          "published": "2026-05-28T13:39:39+00:00",
+          "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [
+              "Play"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "bc44a35cd9",
       "priority_score": 9,
       "member_count": 1,
@@ -7163,120 +7262,6 @@
       ]
     },
     {
-      "cluster_id": "cc80d226e9",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kimsuky"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Kimsuky"
-        ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-        "published": "2026-05-29T05:57:41+00:00",
-        "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-        "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "Kimsuky"
-          ],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Cisco": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Cisco",
-                "mention",
-                0.28
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-          "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-          "published": "2026-05-29T05:57:41+00:00",
-          "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "Kimsuky"
-            ],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Cisco": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Cisco",
-                  "mention",
-                  0.28
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "59ffedfaf6",
       "priority_score": 9,
       "member_count": 2,
@@ -7390,6 +7375,175 @@
             "confidence_tier": "tier_5_chatter",
             "role_map": {
               "AWS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "50b10852eb",
+      "priority_score": 9,
+      "member_count": 3,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "Microsoft 365"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft 365"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Graham Cluley",
+        "cohort": "practitioner_analysis",
+        "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
+        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+        "published": "2026-05-26T16:24:02+00:00",
+        "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
+        "full_body": "Industry News 3 min read FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts — no password required Graham CLULEY May 26, 2026 So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. The FBI has issued an advisory warning about a phishing-as-a-service platform that has recently emerged, which can hijack Microsoft 365 accounts without ever stealing a password. And it has no difficulty waltzing past MFA while it's at it. Kali365 is a subscription service for scammers that was first spotted in April 2026, and has been promoted largely through Telegram. It is a turnkey toolkit that allows even non-technical fraudsters to run sophisticated phishing campaigns, reportedly for as little as US $250 per month or $2,000 a year. Subscribers to Kali365 have access to AI-generated phishing lures, automated campaign templates, real-time dashboards for tracking targets, and the ability to capture OAuth tokens. In other words, it's everything even a complete newbie would need to launch a phishing attack. And the threat is not hypothetical. Security researchers documented hundreds of Kali365 attacks in April alone, hitting organisations cross North America and Europe. The common factor in the attacks? The victim had deployed MFA. What makes Kali365 so successful I suspect is that it does not need to fool victims with a fake login page. Instead, it abuses a legitimate Microsoft feature. If you have ever signed into a streaming service like Amazon Prime or Netflix on a smart TV you have probably been promoted to type a short code into a website on your phone. If you've done that, you've used \"device code flow.\" That's the technology which allows a gadget to borrow an authenticated session from another device. The Kali365 attack works the same way. You receive a phishing email which is disguised as a message from a trusted cloud service, asking you to visit a Microsoft verification page and enter a code. You go to the genuine Microsoft page and type in the code. You may think you have acted entirely safely. After all, it was a genuine Microsoft domain, your password manager recognised it correctly, the site's SSL certificate is valid, and there are no typos in the URL. However, what you have actually done is authorise an attacker's device to access your account. Microsoft hands the criminal an OAuth token - proof you are logged in - granting them unfettered access to your Microsoft Outlook, Teams, and OneDrive with no password and no further prompts to enter an MFA code. In short, there is no fake website to spot, and no misspelt domain name. The single stolen token can unlock other cloud apps, potentially turning one careless click into a wide-ranging security incident. The thing to remember here is that MFA stops attackers from logging in as you . It does nothing to prevent you from granting access to an attacker through a workflow that Microsoft considers entirely legitimate. The criminals are never asked to answer an MFA challenge, because as far as Microsoft is concerned the victim already has. And this is why the FBI's top recommendation is to block device code flow, with a conditional access policy in Microsoft Entra ID where appropriate. You will probably want to exclude emergency access accounts so you don't accidentally lock yourself out entirely. And it is always a good idea to roll-out phishing-resistant MFA, such as hardware security keys, which tie authentication to a physical device and are much harder to circumnavigate. The FBI's Internet Crime Complaint Center is encouraging victims to report incidents to it via its website at ic3.gov . tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also li",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft 365"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_3_analysis",
+          "role_map": {
+            "Microsoft 365": "target",
+            "Microsoft Entra": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Microsoft Entra",
+                "mention",
+                0.25
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Graham Cluley",
+          "cohort": "practitioner_analysis",
+          "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
+          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+          "published": "2026-05-26T16:24:02+00:00",
+          "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "Microsoft 365": "target",
+              "Microsoft Entra": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Microsoft Entra",
+                  "mention",
+                  0.25
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "FBI Warns 'Kali365' Phishing Kit Hijacks Microsoft 365 OAuth Tokens",
+          "link": "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
+          "published": "2026-05-25T09:30:00+00:00",
+          "summary": "The Kali365 phishing-as-a-service platform lowers the barrier of entry for cybercriminals, said the FBI",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft 365": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/AskNetsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "How do phishing simulation tools work with real email security systems?",
+          "link": "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
+          "published": "2026-05-25T03:22:58+00:00",
+          "summary": "I’m trying to understand how phishing simulation tools actually work in companies that already have strong email security in place. Things like Microsoft 365 Safe Links, spam filters, DMARC checks, and email gateways often change or block emails before they even reach users. So how do simulation tools deal with this in real setups? Do they get allowlisted, or do they somehow go through normal email flow without breaking security rules? And when security tools rewrite links or scan attachments, does that mess up how realistic the simulation is? submitted by /u/Dependent-Self-6972 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Microsoft 365": "target"
             },
             "weak_tags": {
               "products": []
@@ -8382,9 +8536,7 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Microsoft Entra"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -8403,26 +8555,22 @@
         "link": "https://www.blackhillsinfosec.com/antisoc-operation/",
         "published": "2026-05-27T14:00:00+00:00",
         "summary": "ANTISOC uses a mix of techniques from traditional penetration tests like red teams, cloud, web applications, externals, internals, and, of course, social engineering. We combine this mix of techniques with a wide-open scope, with the goal of going beyond what a typical pentest can discover. The post Bad Habits: An ANTISOC Operation appeared first on Black Hills Information Security, Inc. .",
-        "full_body": "27 May 2026 Corey Ham , Fun & Games , Informational ANTISOC , Continuous Penetration Testing , PROMPT# Bad Habits: An ANTISOC Operation | Corey Ham Corey Ham leads the ANTISOC team at BHIS, delivering continuous pentesting services. When he’s not working, you’ll find him out in the woods or on a mountain somewhere. This article was originally published in the ANTISOC Issue (Continuous Penetration Testing) of our free infosec zine, PROMPT#. Find it free online HERE or order your $3 physical copy on the Spearphish General Store. ANTISOC uses a mix of techniques from traditional penetration tests like red teams, cloud, web applications, externals, internals, and, of course, social engineering. We combine this mix of techniques with a wide-open scope, with the goal of going beyond what a typical pentest can discover. Let’s dive into an example: Carl was a helpdesk technician. As one of only two technicians working for ACME Inc, he was responsible for anything and everything that users needed help with. Carl was always confused by how many users needed their passwords reset. How could people be so forgetful of something they use every day? This issue was compounded by the fact that the security team had recently added the requirement that all users must pick longer, more complex passwords. It was difficult to even describe to a user what the criteria were: 15 or more characters, including a variety of uppercase, lowercase, numerical, and special characters. At first, he generated random passwords using the tool provided by the security team, but these were difficult to read to users over the phone. “M as in MARY, Janice, and by the way I think you need a new phone; I can barely hear you.” These random passwords were slowing things down too much. To save time, Carl came up with a secure password that was easy to dictate over the phone and met the password complexity requirements. He started assigning this password to all users who requested a reset, and it became second nature for him to recite it. He also set that password on any contractor accounts that expired because keeping track of all those different passwords was too complicated. Carl figured the risks of doing this were minimal, as users would eventually change their passwords. What Carl didn’t realize is that when security changed the password policy to 15 characters, they also removed the requirement for users to change their passwords at a regular interval. This meant that over time, more and more users ended up using the identical password that had been set for them by Carl. Eventually, an ANTISOC operator placed a social engineering phone call to Carl’s helpdesk and asked him to reset the password for a target user. Later, when the security team contacted him during an investigation, Carl found out that this particular password reset had led to an account compromise. The security team assured Carl that they had detected and contained the compromise, so he didn’t worry too much about it. ANTISOC operators noted that the password set by Carl wasn’t random. They had obtained a listing of all users from Entra ID during post-exploitation and decided to spray Carl’s password across these accounts. This led to the compromise of more than 100 accounts that Carl had reset passwords for over the years. Most of these accounts had multi-factor authentication (MFA) set up properly, but some had not been used in years and did not have MFA configured. ANTISOC operators slowly picked through each account, taking note of any accounts that had not completed MFA enrollment. They configured MFA for them and quietly enumerated what access they had. Some of this activity was detected by ACME Inc’s security team, but it was difficult for them to determine which accounts might be compromised, as they were not receiving full logs from Microsoft during the original password spray with Carl’s password. With a handful of accounts enumerated that had remote access via virtual desktops, ANTISOC ope",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
             "phishing_social_eng"
           ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "Microsoft Entra"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Microsoft Entra": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -8442,18 +8590,106 @@
             ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "Microsoft Entra"
-            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Microsoft Entra": "target"
-            },
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "cc80d226e9",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Kimsuky"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Kimsuky"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+        "published": "2026-05-29T05:57:41+00:00",
+        "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Kimsuky"
+          ],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+          "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+          "published": "2026-05-29T05:57:41+00:00",
+          "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Kimsuky"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8907,8 +9143,8 @@
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "https://www.reddit.com/r/netsec/comments/1trf5hb/a_practical_checklist_for_evaluating_npm_packages/",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html"
       ]
     },
@@ -9173,6 +9409,45 @@
       ]
     },
     {
+      "label": "phishing social eng targeting Microsoft 365",
+      "anchor_signal": "Microsoft 365",
+      "theme_key": "microsoft-365",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "credential_theft"
+        ],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Microsoft 365"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.295,
+      "shared_strong_signals": [
+        "Microsoft 365"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bc44a35cd9",
+        "50b10852eb",
+        "faae644e55",
+        "34b38eb5e3"
+      ],
+      "links": [
+        "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
+        "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+        "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
+        "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
+        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
+        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
+      ]
+    },
+    {
       "label": "zero day targeting Fortinet",
       "anchor_signal": "Fortinet",
       "theme_key": "fortinet",
@@ -9252,44 +9527,9 @@
       ]
     },
     {
-      "label": "phishing social eng targeting Microsoft 365",
-      "anchor_signal": "Microsoft 365",
-      "theme_key": "microsoft-365",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "credential_theft"
-        ],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "Microsoft 365"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Microsoft 365"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "bc44a35cd9",
-        "faae644e55",
-        "34b38eb5e3"
-      ],
-      "links": [
-        "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
-        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
-      ]
-    },
-    {
-      "label": "CVE-2026-41091 exploitation activity",
-      "anchor_signal": "CVE-2026-41091",
-      "theme_key": "cve-2026-41091",
+      "label": "CVE-2026-45498 exploitation activity",
+      "anchor_signal": "CVE-2026-45498",
+      "theme_key": "cve-2026-45498",
       "dominant_features": {
         "threat_categories": [
           "ddos"
@@ -9303,7 +9543,7 @@
       "article_count": 5,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-41091"
+        "CVE-2026-45498"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -9524,16 +9764,16 @@
           "first_published": "2026-05-28T08:45:00+00:00"
         },
         {
+          "value": "Play",
+          "cluster_id": "1521771637",
+          "first_source": "Graham Cluley",
+          "first_published": "2026-05-28T13:39:39+00:00"
+        },
+        {
           "value": "Lazarus",
           "cluster_id": "bc44a35cd9",
           "first_source": "Infosecurity Magazine",
           "first_published": "2026-05-29T08:10:00+00:00"
-        },
-        {
-          "value": "Kimsuky",
-          "cluster_id": "cc80d226e9",
-          "first_source": "The Hacker News",
-          "first_published": "2026-05-29T05:57:41+00:00"
         },
         {
           "value": "ShinyHunters",
@@ -9546,6 +9786,12 @@
           "cluster_id": "6cc46471de",
           "first_source": "SecurityWeek",
           "first_published": "2026-05-28T14:45:28+00:00"
+        },
+        {
+          "value": "Kimsuky",
+          "cluster_id": "cc80d226e9",
+          "first_source": "The Hacker News",
+          "first_published": "2026-05-29T05:57:41+00:00"
         },
         {
           "value": "Nimbus Manticore",

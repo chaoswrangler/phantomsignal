@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-05-30T04:01:02.446479+00:00",
+  "generated_at": "2026-05-30T06:52:56.177721+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2437,
+  "total_items": 2457,
   "feed_status": {
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -18,11 +25,11 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 24,
       "in_window_count": 0
     },
     "Google Threat Analysis Group": {
@@ -32,26 +39,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 5
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -60,22 +53,15 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -88,12 +74,26 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -123,11 +123,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -144,11 +144,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Exploit-DB": {
@@ -157,13 +157,6 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 28
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -177,6 +170,13 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -200,13 +200,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -214,12 +207,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -227,6 +220,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 1
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -242,19 +242,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -298,13 +298,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -318,6 +311,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -361,13 +361,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
@@ -375,11 +368,11 @@
       "item_count": 30,
       "in_window_count": 20
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 100,
       "in_window_count": 0
     },
     "Coveware": {
@@ -396,26 +389,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,19 +410,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 22
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -445,12 +438,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -459,13 +466,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 21
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -473,12 +473,19 @@
       "item_count": 50,
       "in_window_count": 37
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 21
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 24
+      "in_window_count": 23
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -494,19 +501,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -515,26 +522,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 12
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -543,19 +536,26 @@
       "item_count": 25,
       "in_window_count": 25
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 15
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
       "cohort": "policy_strategy_geopolitics",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "fetch_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Google Project Zero": {
       "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
@@ -783,8 +783,8 @@
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "https://www.reddit.com/r/netsec/comments/1trf5hb/a_practical_checklist_for_evaluating_npm_packages/",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html"
       ]
     },
@@ -1049,6 +1049,45 @@
       ]
     },
     {
+      "label": "phishing social eng targeting Microsoft 365",
+      "anchor_signal": "Microsoft 365",
+      "theme_key": "microsoft-365",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "credential_theft"
+        ],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Microsoft 365"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 6,
+      "cohesion": 0.295,
+      "shared_strong_signals": [
+        "Microsoft 365"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bc44a35cd9",
+        "50b10852eb",
+        "faae644e55",
+        "34b38eb5e3"
+      ],
+      "links": [
+        "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
+        "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+        "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
+        "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
+        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
+        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
+      ]
+    },
+    {
       "label": "zero day targeting Fortinet",
       "anchor_signal": "Fortinet",
       "theme_key": "fortinet",
@@ -1128,44 +1167,9 @@
       ]
     },
     {
-      "label": "phishing social eng targeting Microsoft 365",
-      "anchor_signal": "Microsoft 365",
-      "theme_key": "microsoft-365",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "credential_theft"
-        ],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [
-          "Microsoft 365"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Microsoft 365"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "bc44a35cd9",
-        "faae644e55",
-        "34b38eb5e3"
-      ],
-      "links": [
-        "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
-        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
-      ]
-    },
-    {
-      "label": "CVE-2026-41091 exploitation activity",
-      "anchor_signal": "CVE-2026-41091",
-      "theme_key": "cve-2026-41091",
+      "label": "CVE-2026-45498 exploitation activity",
+      "anchor_signal": "CVE-2026-45498",
+      "theme_key": "cve-2026-45498",
       "dominant_features": {
         "threat_categories": [
           "ddos"
@@ -1179,7 +1183,7 @@
       "article_count": 5,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-41091"
+        "CVE-2026-45498"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1400,16 +1404,16 @@
           "first_published": "2026-05-28T08:45:00+00:00"
         },
         {
+          "value": "Play",
+          "cluster_id": "1521771637",
+          "first_source": "Graham Cluley",
+          "first_published": "2026-05-28T13:39:39+00:00"
+        },
+        {
           "value": "Lazarus",
           "cluster_id": "bc44a35cd9",
           "first_source": "Infosecurity Magazine",
           "first_published": "2026-05-29T08:10:00+00:00"
-        },
-        {
-          "value": "Kimsuky",
-          "cluster_id": "cc80d226e9",
-          "first_source": "The Hacker News",
-          "first_published": "2026-05-29T05:57:41+00:00"
         },
         {
           "value": "ShinyHunters",
@@ -1422,6 +1426,12 @@
           "cluster_id": "6cc46471de",
           "first_source": "SecurityWeek",
           "first_published": "2026-05-28T14:45:28+00:00"
+        },
+        {
+          "value": "Kimsuky",
+          "cluster_id": "cc80d226e9",
+          "first_source": "The Hacker News",
+          "first_published": "2026-05-29T05:57:41+00:00"
         },
         {
           "value": "Nimbus Manticore",
@@ -1664,6 +1674,62 @@
   },
   "items": [
     {
+      "source": "Reddit r/AskNetsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Can Malware Be Transferred Through Steam Cloud Save Files",
+      "link": "https://www.reddit.com/r/AskNetsec/comments/1trr7pe/can_malware_be_transferred_through_steam_cloud/",
+      "published": "2026-05-30T05:45:54+00:00",
+      "summary": "Planning to get an upgraded laptop and my old one may have malware cuz I won't say I'm as safe with cybersecurity as I'd like to be. Anyway can't reset old laptop cuz someone else is going to use it and they don't want to reinstall but will uninstall and logout of steam. Anyway I'm just wondering if on my new laptop, I log into steam and download games from my library, can the steam cloud files for those games be a potential entryway for potential malware? What if I ran those games while on the previous possibly infected device, would the cloud files be infected than? If so, what can I do when moving to my new laptop. Btw there probably isn't malware but just in case yk. submitted by /u/0zMosiss [link] [comments]",
+      "author": "/u/0zMosiss",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
+      "source": "Reddit r/cybersecurity",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Need suggestion",
+      "link": "https://www.reddit.com/r/cybersecurity/comments/1trqav3/need_suggestion/",
+      "published": "2026-05-30T04:59:28+00:00",
+      "summary": "Does anyone know a cyber security course for free which is good for skills and job!! I know about cisco certificates other than that please give me some suggestions and also which is helpful when i apply in SOC.. submitted by /u/Aeshh8 [link] [comments]",
+      "author": "/u/Aeshh8",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
       "source": "Reddit r/cybersecurity",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -1797,36 +1863,6 @@
         "affected_industries": [
           "financial_services"
         ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
-    },
-    {
-      "source": "Reddit r/cybersecurity",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Website Keeps Getting Falsely Flagged as Phishing/Malicious By Security Vendors",
-      "link": "https://www.reddit.com/r/cybersecurity/comments/1trheb7/website_keeps_getting_falsely_flagged_as/",
-      "published": "2026-05-29T22:12:35+00:00",
-      "summary": "Hello! I am a small business/charter boat operator in Marina del Rey, CA. After many complaints from customers that my website \"wasn't working\" I was able to narrow it down specifically to Spectrum Internet users. Turns out, Spectrum's Safe Shield software that they ship on their routers has my site blocked/blacklisted. I checked my URL on VirusTotal.com and found that 6 online Security Vendors had my site flagged as either Phishing or Malicious. I submitted requests to be reviewed and reclassified to all the vendors. I was listed as clean by a couple, then relisted as a phishing threat by one of those. Now I find another vendor, Chong Lua Dao, has listed me just today as Malicious. My Web Developer has checked all the site's DNS Settings and SSL Certificates and says everything is configured properly. His only theory is that someone, perhaps a competitor, has been intentionally reporting my website as unsafe. The domain is hosted on SquareSpace, the site is built on Shopify. I manage ",
-      "author": "/u/eyevandrago",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -2014,7 +2050,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -2046,7 +2082,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -2074,7 +2110,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "BleepingComputer",
@@ -2106,7 +2142,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -2134,7 +2170,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2171,7 +2207,7 @@
           "products": []
         }
       },
-      "score": 10,
+      "score": 9,
       "full_body": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface  Ravie Lakshmanan  May 29, 2026 Artificial Intelligence / Vulnerability Research Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown image URLs that originated from a third-party page the assistant has just summarized. It auto-fetches those images and surfaces those links as live, clickable elements inside the trusted assistant UI,\" security researcher Andi Ahmeti said in a report shared with The Hacker News. In a hypothetical attack scenario, a bad actor can append a small payload to any web page that the victim later prompts ChatGPT to summarize, causing it to leak their IP, User-Agent, and Referer details when attacker-hosted images embedded in the page are automatically fetched when the answer is rendered. In addition, it can result in malicious Markdown links being rendered as live clickable elements inside the assistant's response, serve far fake system-style security alerts, and serve a QR code from an attacker's S3 bucket and trick the victim into scanning it via their mobile device, effectively bypassing desktop URL filters and enterprise security controls. The latest finding demonstrates how summarization can emerge as an adversarial surface. Earlier this March, Permiso also revealed how an attacker-controlled email containing specially crafted instructions, when summarized by Microsoft Copilot, could influence its output via a cross-prompt injection (XPIA) or indirect prompt injection. What makes ChatGPhish a noteworthy attack technique is not the prompt injection itself, but in the manner in which the instructions embedded in a web page are followed and presented to the user as part of the summary. In other words, a regular web page summarized with ChatGPT is enough to render phishing links, spoofed account alerts, remote images, and QR codes directly inside a trusted AI interface. As organizations increasingly use ChatGPT for research and summarization, this vulnerability means any malicious web page an employee asks the AI chatbot to process could contain a payload that transforms ChatGPT into a phishing surface. \"The shift from email to the browser significantly expands the potential attack surface. A user no longer has to open a malicious attachment or interact with a suspicious message,\" Permiso said. \"Simply summarizing a page during normal browsing activity can introduce attacker-controlled instructions into the model context and ultimately into the rendered response.\" The disclosure comes as Adversa AI documented two attack techniques codenamed SymJack and TrustFall targeting AI coding agents and agentic coding CLIs that allow attackers to achieve code execution and full machine compromise. SymJack is \"a single attack pattern [that] lets a malicious repository achieve remote code execution through AI coding assistants,\" security researcher Rony Utevsky said. \"The agent is tricked into a benign-looking file copy that secretly overwrites its own config, and the next restart runs attacker code with full user privileges.\" Specifically, a booby-trapped repository tricks the agent into copying a seemingly harmless file, where the destination is a symlink pointing to the agent's own configuration, causing the attacker's payload to be written to the config. On the next restart, a malicious Model Context Protocol (MCP) server spawns and runs arbitrary code with full user privileges. TrustFall, on the other hand, is a one-click remote code execution attack via a malicious repository that can ship a configuration that auto-approves and spawns an MCP server without a user's explicit approval or requiring a ",
       "fetch_status": "ok"
     },
@@ -2201,7 +2237,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Rapid7",
@@ -2237,7 +2273,7 @@
           "products": []
         }
       },
-      "score": 33,
+      "score": 32,
       "full_body": "Back to Blog Vulnerabilities and Exploits Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257) Rapid7 May 29, 2026 | Last updated on May 29, 2026 | xx min read Overview On May 13, 2026, Palo Alto Networks published a security advisory for CVE-2026-0257, a medium severity authentication bypass affecting PAN-OS and Prisma Access when a specific configuration is present. Successful exploitation of this vulnerability allows a remote unauthenticated attacker to successfully establish a VPN connection through the GlobalProtect gateway of an affected appliance. Rapid7 MDR identified successful exploitation across numerous customers, however we did not observe any indication of successful lateral movement from the devices. The earliest date for observed exploitation was May 17, 2026. As of May 29, 2026, this vulnerability has been added to the CISA KEV. While the assigned CVSSv4 score indicates a medium severity, due to the circumstances surrounding this vulnerability Rapid7 urges that organizations treat this as a critical vulnerability. An authentication bypass in an edge facing enterprise VPN appliance can have significant impact to affected organizations. As such, organizations running affected appliances are urged to upgrade to a vendor supplied patch on an urgent basis. Observed Attacker Behavior On 2026-05-18 01:51:37 UTC, Rapid7 MDR responded to a 'Suspicious VPN Authentication - Local Account Logon via Generic Non-Human Identity' alert. During the initial investigation, Rapid7 observed a suspicious cookie authentication to the local admin account across multiple customer environments from the same hosting provider, Vultr. <14>May 18 01:51:37 palovpn-01 1,2026/05/18 01:51:37,010101010101,GLOBALPROTECT,0,2817,2026/05/18 01:51:37,vsys1,gateway-auth,login,Cookie,,admin,US,GP-CLIENT,104.207.144.154,0.0.0,0.0.0.0,0.0.0.0,aa:bb:cc:dd:ee:ff,,6.0.0,,Linux,\"linux-64\",1,,,\"Auth latency: 78ms, profile: local_auth_profile\",success,,0,,0,GP-Gateway,0101010101010101010,0x0,2026-05-18T01:51:37.264-05:00,,,,,,0,0,0,0,,palovpn-01,1,\", GlobalProtect Authentication Log Rapid7 MDR analyzed the Palo Alto tech support files across the impacted customers and observed that Cloud Authentication Service (CAS) was disabled and the GlobalProtect portal or gateway had authentication override cookies enabled. Based on these findings, MDR analysts concluded that this was likely exploitation of CVE-2026-0257. Subsequent analysis by Rapid7 Labs confirmed this was accurate by validating a successful proof-of-concept. Rapid7 MDR observed a second wave of exploitation on May 21st. Due to the consistent MAC address, Rapid7 believes both waves of exploitation are likely from the same threat actor (TA). However, the second wave of compromises originated from the hosting provider, Dromatics Systems. In this wave of exploitation, Rapid7 observed VPN IP assignment following the cookie authentication, granting them access to the internal network. At this time, Rapid7 is unable to confirm why VPN assignment occurred only for a subset of exploited customers. Across multiple customers, Rapid7 observed successful exploitation via authentication probes using forged cookies, but the appliance accepted the cookie without a full VPN session being established in 8 out of 10 impacted MDR customers. <14>May 21 01:54:39 FW-PA-A 1,2026/05/21 01:54:38,010101010101,GLOBALPROTECT,0,2818,2026/05/21 01:54:38,vsys1,gateway-auth,login,Cookie,,admin,US,DESKTOP-GP01,146.19.216.125,0.0.0.0,0.0.0.0,0.0.0.0,aa:bb:cc:dd:ee:ff,,6.0.0,Windows,\"Microsoft Windows 10 Pro , 64-bit\",1,,,\"Auth latency: 1019ms, profile: SAML-o365-GP\",success,,0,,0,GlobalProtect_External_Gateway,0101010101010101010 ,0x8000000000000000,2026-05-21T01:54:39.142-05:00,,,,,,30,241,35,0,,FW-PA-A,1,,\", GlobalProtect Authentication Log Technical Analysis Per the vendor advisory, we know the issue lies in a feature called “authentication override”. This feature allows a GlobalPr",
       "fetch_status": "ok"
     },
@@ -2286,7 +2322,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Trump Mobile data breach Phone provider Trump Mobile has confirmed that customers’ names, addresses, email addresses, phone numbers, and other data was exposed to the internet. The company reportedly said a third-party platform provider was responsible for the exposure. Russian hackers’ deep reach in Treasury emails Advertisement. Scroll to continue reading. Documents presented in a Freedom of Information Act lawsuit filed by Bloomberg News against the US government show that the Russian state-sponsored APT responsible for the 2019-2020 SolarWinds supply chain attack had deep access to Treasury emails. The hackers reportedly focused on only eight email accounts linked to 300 other email addresses. The Treasury had roughly 94,000 people at the time. VS Code Remote SSH extension vulnerability A remote code execution (RCE) vulnerability in the Visual Studio Code (VS Code) Remote‑SSH extension could allow attackers to pivot to remote systems, security researcher Suman Kumar Chakraborty warns . The issue exists because, upon initiating a Remote SSH connection, the extension writes a bootstrap shell script to the Temp directory. An attacker with access to the system can modify the script before it is transmitted and executed on the remote server, to deploy a reverse shell. UK Visa Portal exposes over 100,000 documents Immigration portal UK Visa Portal publicly exposed over 100,000 documents of people who applied for a UK visa, TechCrunch reports . Not affiliated with the UK government, the website requires applicants to upload selfies and passports, and to pay a fee for obtaining visas. The exposed files were stored in an AWS S3 bucket and were secured earlier this week. LinkedIn phishing campaign abuses Adobe Target Phishers are posing as LinkedIn in a new p hishing campaign posing as a business inquiry. The emails contain fake contract attachments masquerading as PDFs. In fact, they are HTML files directing victims to the Adobe Target A/B testing platform. The attackers are abusing Adobe Target to track users and serve them fake login pages to steal their credentials before redirecting them to LinkedIn. 2026 FIFA World Cup in attackers’ crosshairs Just as the 2026 FIFA World Cup is about to kick off, Group-IB has discovered over 4,300 fraudulent domains impersonating FIFA, including a sophisticated phishing campaign run by Chinses-speaking hacking group Ghost Stadium. The threat actor has set up over 300 domains, including a pixel-perfect clone of the legitimate FIFA site. The phishers could cause hundreds of millions of dollars in losses. Veeam, Notepad++, Roundcube patches Veeam this week resolved two high-severity vulnerabilities in its Backup & Replication product, warning they could lead to privilege escalation and arbitrary file writes. Notepad++ patched three security issues, including two leading to arbitrary code execution. The latest Roudcube security updates fix eight flaws, including unauthenticated SQL injection and arbitrary file delete bugs. CISA responds to recent supply chain attacks The US cybersecurity agency CISA has expanded its KEV catalog with three vulnerabilities describing recent software supply chain attacks. These include Daemon Tools Lite , TanStack , and Nx Console (which led to the 3.800 internal GitHub repositories hack ). CISA also issued an alert on the Megalodon and Nx Console attacks, urging organizations to hunt for and remediate potential compromises. NPM invalidated granular access tokens in response to these a",
       "fetch_status": "ok"
     },
@@ -3019,7 +3055,7 @@
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
       "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
       "published": "2026-05-29T11:31:59+00:00",
       "summary": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per WithSecure, is assessed to be a Russian-speaking group operating broadly in the Russian time zone, with the activities aligning with Kremlin state interests, specifically when it comes to",
@@ -3070,6 +3106,38 @@
         }
       },
       "score": 5
+    },
+    {
+      "source": "Reddit r/sysadmin",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "How do enterprises actually prevent developers from exfiltrating source code?",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1tqyjth/how_do_enterprises_actually_prevent_developers/",
+      "published": "2026-05-29T11:11:44+00:00",
+      "summary": "We have a scenario where an external/contract developer needs access to source code stored in Azure DevOps, but we want to minimize risk of code exfiltration as much as reasonably possible. Current thoughts: isolated workstation / VDI Entra joined compliant device only clipboard redirection blocked no local drive mapping restricted browser/download access Conditional Access + Intune policies only approved apps allowed For companies using Microsoft stack (Entra ID, Intune, Defender, Azure DevOps, Windows 365 / AVD etc.), how do you usually approach this? I know nothing is 100% preventable if someone can view code, but I’m interested in industry-standard approaches and practical controls companies actually implement for sensitive repositories. submitted by /u/thmeez [link] [comments]",
+      "author": "/u/thmeez",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Azure"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "Azure": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 3
     },
     {
       "source": "SecurityWeek",
@@ -3625,7 +3693,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -3653,7 +3721,7 @@
           "products": []
         }
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -3685,7 +3753,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -3713,7 +3781,7 @@
           "products": []
         }
       },
-      "score": 3
+      "score": 2
     },
     {
       "source": "The Hacker News",
@@ -3733,9 +3801,7 @@
         "actor_attribution": [
           "Kimsuky"
         ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -3743,22 +3809,12 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Cisco": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "Cisco",
-              "mention",
-              0.28
-            ]
-          ]
+          "products": []
         }
       },
-      "score": 9,
-      "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Help Net Security",
@@ -3786,7 +3842,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Microsoft Security Blog",
@@ -4309,6 +4365,36 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 2
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "APT Activity Report: CONFLICT-INFORMED ESPIONAGE: MONITORING OIL SHIPMENTS, TARGETING DRONE MAKERS - October 2025-March 2026",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tqd0yp/apt_activity_report_conflictinformed_espionage/",
+      "published": "2026-05-28T19:03:59+00:00",
+      "summary": "submitted by /u/jnazario [link] [comments]",
+      "author": "/u/jnazario",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -4909,6 +4995,44 @@
         }
       },
       "score": 8
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
+      "published": "2026-05-28T13:39:39+00:00",
+      "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "Play"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 9,
+      "full_body": "Industry News 2 min read MyPillow listed on ransomware gang's leak site, but denies it has been breached Graham CLULEY May 28, 2026 The Play ransomware gang is claiming to have stolen data from US pillow manufacturer MyPillow, making off with private and personal confidential data. The claim, which appeared on Play's dark web leak portal earlier this week, threatens that an undeclared amount of data will be released on Friday, potentially exposing \"private and personal confidential data, clients and etc. documents,budget, payroll, IDs, taxes, finance information.\" However, since Straight Arrow News , which first reported details of the alleged ransomware attack, the pillow manufacturers high-profile CEO Mike Lindell has debunked the claims that any security breach has happened at all. Lindell - a high-profile supporter of US President Donald Trump who is currently seeking the Republican nomination for governor of his home state, Minnesota - told Straight Arrow News that he was not aware that any claims had been made about an alleged attack on his company until he was contacted by the press. Furthermore, Lindell says that the claims being made about a ransomware attack are politically motivated: “This is another hit job by outside sources because I'm running for governor. I guarantee it. We do not have any breaches in our data at all.\" Lindell further said that his company had not received any ransomware demands, and that the company does not store any sensitive data internally, relying upon external third parties instead. Whether MyPillow was actually breached is, at the time of writing, unconfirmed. The company denies it has been hit, and the Play ransomware gang claims otherwise. The truth is likely to emerge quickly, as the deadline for payment listed by Play on its leak portal is reached tomorrow. When the deadline passes, the data will either appear or it won't. And if it doesn't appear, then chances are that either the attackers don't have any MyPillow data at all, or they have been given a strong incentive (most commonly financial) to not release it after all. What would be a mistake, however, is for MyPillow to think that saying \"we don't hold sensitive data on our own systems\" provides a strong defence. That's because it tell you where data lives, not whether it is safe. Modern businesses hand customer records, payroll, and financial information to a wide variety of third parties - payment processors, fulfilment partners, HR and payroll providers, CRM and email platforms, cloud hosts. Each of those systems can be breached, and attacks increasingly go after such suppliers precisely because a single hack can serve up data belonging to many organisations. And from the perspective of the people whose data could potentially be at risk - such as customers, employees, and business partners - the distinction is largely academic. If your name, address, payment details, or tax information ends up on a ransomware gang's leak site, it makes little practical difference whether it was siphoned from MyPillow's own servers or from a contractor acting on its behalf. Outsourcing the storage and processing of data doesn't mean your business's reputation won't be tarnished if a security breach occurs, and it certainly doesn't mean that the consequences for the individuals affected won't be just as serious. We'll know soon enough whether Friday's payment deadline from the Play ransomware group brings a data dump or a quiet anticlimax. One thing is certain - ransomware gangs target anyone they think might pay, and strong defences are needed by all organisations. tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also like Bookmarks",
+      "fetch_status": "ok"
     },
     {
       "source": "The Hacker News",
@@ -5614,6 +5738,45 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #469: What your Oura ring won’t tell you",
+      "link": "https://grahamcluley.com/smashing-security-podcast-469/",
+      "published": "2026-05-27T23:05:09+00:00",
+      "summary": "CISA, the US government agency whose entire job is keeping America's critical infrastructure safe from hackers, has had a contractor publish dozens of plain-text credentials to a public GitHub profile. Meanwhile, your Oura ring is quietly transmitting some of its data unencrypted - and when one journalist asked the company how often it hands user data to law enforcement, the answer was quite telling. Plus don't miss our featured interview with OPSWAT's Benny Czarny about his new book \"Cybersecurity Upside Down.\" All this and more in episode 469 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lesley Carhart.",
+      "author": "Graham Cluley",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "critical_infrastructure"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {
+          "GitHub": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "GitHub",
+              "mention",
+              0.26
+            ]
+          ]
+        }
+      },
+      "score": 5
+    },
+    {
       "source": "Unit 42",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -6088,25 +6251,19 @@
         ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "Microsoft Entra"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Microsoft Entra": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "27 May 2026 Corey Ham , Fun & Games , Informational ANTISOC , Continuous Penetration Testing , PROMPT# Bad Habits: An ANTISOC Operation | Corey Ham Corey Ham leads the ANTISOC team at BHIS, delivering continuous pentesting services. When he’s not working, you’ll find him out in the woods or on a mountain somewhere. This article was originally published in the ANTISOC Issue (Continuous Penetration Testing) of our free infosec zine, PROMPT#. Find it free online HERE or order your $3 physical copy on the Spearphish General Store. ANTISOC uses a mix of techniques from traditional penetration tests like red teams, cloud, web applications, externals, internals, and, of course, social engineering. We combine this mix of techniques with a wide-open scope, with the goal of going beyond what a typical pentest can discover. Let’s dive into an example: Carl was a helpdesk technician. As one of only two technicians working for ACME Inc, he was responsible for anything and everything that users needed help with. Carl was always confused by how many users needed their passwords reset. How could people be so forgetful of something they use every day? This issue was compounded by the fact that the security team had recently added the requirement that all users must pick longer, more complex passwords. It was difficult to even describe to a user what the criteria were: 15 or more characters, including a variety of uppercase, lowercase, numerical, and special characters. At first, he generated random passwords using the tool provided by the security team, but these were difficult to read to users over the phone. “M as in MARY, Janice, and by the way I think you need a new phone; I can barely hear you.” These random passwords were slowing things down too much. To save time, Carl came up with a secure password that was easy to dictate over the phone and met the password complexity requirements. He started assigning this password to all users who requested a reset, and it became second nature for him to recite it. He also set that password on any contractor accounts that expired because keeping track of all those different passwords was too complicated. Carl figured the risks of doing this were minimal, as users would eventually change their passwords. What Carl didn’t realize is that when security changed the password policy to 15 characters, they also removed the requirement for users to change their passwords at a regular interval. This meant that over time, more and more users ended up using the identical password that had been set for them by Carl. Eventually, an ANTISOC operator placed a social engineering phone call to Carl’s helpdesk and asked him to reset the password for a target user. Later, when the security team contacted him during an investigation, Carl found out that this particular password reset had led to an account compromise. The security team assured Carl that they had detected and contained the compromise, so he didn’t worry too much about it. ANTISOC operators noted that the password set by Carl wasn’t random. They had obtained a listing of all users from Entra ID during post-exploitation and decided to spray Carl’s password across these accounts. This led to the compromise of more than 100 accounts that Carl had reset passwords for over the years. Most of these accounts had multi-factor authentication (MFA) set up properly, but some had not been used in years and did not have MFA configured. ANTISOC operators slowly picked through each account, taking note of any accounts that had not completed MFA enrollment. They configured MFA for them and quietly enumerated what access they had. Some of this activity was detected by ACME Inc’s security team, but it was difficult for them to determine which accounts might be compromised, as they were not receiving full logs from Microsoft during the original password spray with Carl’s password. With a handful of accounts enumerated that had remote access via virtual desktops, ANTISOC ope",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Infosecurity Magazine",
@@ -6275,7 +6432,7 @@
       "title": "Introducing Google AI Threat Defense to help you outpace the adversary",
       "link": "https://cloud.google.com/blog/products/identity-security/introducing-google-ai-threat-defense/",
       "published": "2026-05-27T12:00:00+00:00",
-      "summary": "aside_block <ListValue: [StructValue([('title', 'Summary of today’s news'), ('body', <wagtail.rich_text.RichText object at 0x7f5c01545760>), ('btn_text', ''), ('href', ''), ('image', None)])]> AI-powered cyber threats have been receiving a lot of attention lately. AI has changed the threat landscape ; cybercriminals are using it to find security cracks faster than cybersecurity teams can manually fix them. Attacks that used to take weeks to carry out can now happen in mere hours or days. Organizations need to be able to keep pace and protect themselves against AI agent-driven, high-speed attacks — but they can no longer rely on legacy, manual methods. To defend against this range of threats, organizations need more than one model or agent. No single model will catch everything, you want to use a collection of models for multiple passes. And you need a solution that can analyze your systems, prioritize the most significant threats, patch vulnerabilities quickly, and continuously monitor",
+      "summary": "aside_block <ListValue: [StructValue([('title', 'Summary of today’s news'), ('body', <wagtail.rich_text.RichText object at 0x7f5c02633160>), ('btn_text', ''), ('href', ''), ('image', None)])]> AI-powered cyber threats have been receiving a lot of attention lately. AI has changed the threat landscape ; cybercriminals are using it to find security cracks faster than cybersecurity teams can manually fix them. Attacks that used to take weeks to carry out can now happen in mere hours or days. Organizations need to be able to keep pace and protect themselves against AI agent-driven, high-speed attacks — but they can no longer rely on legacy, manual methods. To defend against this range of threats, organizations need more than one model or agent. No single model will catch everything, you want to use a collection of models for multiple passes. And you need a solution that can analyze your systems, prioritize the most significant threats, patch vulnerabilities quickly, and continuously monitor",
       "author": "Francis deSouza",
       "in_window": true,
       "taxonomy": {
@@ -6883,6 +7040,49 @@
       "score": 12
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+      "published": "2026-05-26T16:24:02+00:00",
+      "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft 365"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {
+          "Microsoft 365": "target",
+          "Microsoft Entra": "mention"
+        },
+        "weak_tags": {
+          "products": [
+            [
+              "Microsoft Entra",
+              "mention",
+              0.25
+            ]
+          ]
+        }
+      },
+      "score": 5,
+      "full_body": "Industry News 3 min read FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts — no password required Graham CLULEY May 26, 2026 So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. The FBI has issued an advisory warning about a phishing-as-a-service platform that has recently emerged, which can hijack Microsoft 365 accounts without ever stealing a password. And it has no difficulty waltzing past MFA while it's at it. Kali365 is a subscription service for scammers that was first spotted in April 2026, and has been promoted largely through Telegram. It is a turnkey toolkit that allows even non-technical fraudsters to run sophisticated phishing campaigns, reportedly for as little as US $250 per month or $2,000 a year. Subscribers to Kali365 have access to AI-generated phishing lures, automated campaign templates, real-time dashboards for tracking targets, and the ability to capture OAuth tokens. In other words, it's everything even a complete newbie would need to launch a phishing attack. And the threat is not hypothetical. Security researchers documented hundreds of Kali365 attacks in April alone, hitting organisations cross North America and Europe. The common factor in the attacks? The victim had deployed MFA. What makes Kali365 so successful I suspect is that it does not need to fool victims with a fake login page. Instead, it abuses a legitimate Microsoft feature. If you have ever signed into a streaming service like Amazon Prime or Netflix on a smart TV you have probably been promoted to type a short code into a website on your phone. If you've done that, you've used \"device code flow.\" That's the technology which allows a gadget to borrow an authenticated session from another device. The Kali365 attack works the same way. You receive a phishing email which is disguised as a message from a trusted cloud service, asking you to visit a Microsoft verification page and enter a code. You go to the genuine Microsoft page and type in the code. You may think you have acted entirely safely. After all, it was a genuine Microsoft domain, your password manager recognised it correctly, the site's SSL certificate is valid, and there are no typos in the URL. However, what you have actually done is authorise an attacker's device to access your account. Microsoft hands the criminal an OAuth token - proof you are logged in - granting them unfettered access to your Microsoft Outlook, Teams, and OneDrive with no password and no further prompts to enter an MFA code. In short, there is no fake website to spot, and no misspelt domain name. The single stolen token can unlock other cloud apps, potentially turning one careless click into a wide-ranging security incident. The thing to remember here is that MFA stops attackers from logging in as you . It does nothing to prevent you from granting access to an attacker through a workflow that Microsoft considers entirely legitimate. The criminals are never asked to answer an MFA challenge, because as far as Microsoft is concerned the victim already has. And this is why the FBI's top recommendation is to block device code flow, with a conditional access policy in Microsoft Entra ID where appropriate. You will probably want to exclude emergency access accounts so you don't accidentally lock yourself out entirely. And it is always a good idea to roll-out phishing-resistant MFA, such as hardware security keys, which tie authentication to a physical device and are much harder to circumnavigate. The FBI's Internet Crime Complaint Center is encouraging victims to report incidents to it via its website at ic3.gov . tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also li",
+      "fetch_status": "ok"
+    },
+    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7241,17 +7441,19 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Infosecurity Magazine",
+      "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "India's CERT-In Sets 12-Hour Patch Deadline for Exposed Flaws",
-      "link": "https://www.infosecurity-magazine.com/news/cert-in-12-hour-patch-deadline-ai/",
+      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
       "published": "2026-05-26T10:30:00+00:00",
-      "summary": "CERT-In urges 12-hour patching of exposed flaws as AI compresses exploitation timelines",
-      "author": "",
+      "summary": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with",
+      "author": "info@thehackernews.com (The Hacker News)",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "mfa_bypass"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -7269,19 +7471,17 @@
       "score": 4
     },
     {
-      "source": "The Hacker News",
+      "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "title": "India's CERT-In Sets 12-Hour Patch Deadline for Exposed Flaws",
+      "link": "https://www.infosecurity-magazine.com/news/cert-in-12-hour-patch-deadline-ai/",
       "published": "2026-05-26T10:30:00+00:00",
-      "summary": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with",
-      "author": "info@thehackernews.com (The Hacker News)",
+      "summary": "CERT-In urges 12-hour patching of exposed flaws as AI compresses exploitation timelines",
+      "author": "",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "mfa_bypass"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -10721,6 +10921,35 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Defenders fall behind, as AI rewrites the rules of a data breach",
+      "link": "https://www.fortra.com/blog/defenders-fall-behind-ai-rewrites-rules-data-breach",
+      "published": "2026-05-21T17:13:28+00:00",
+      "summary": "For almost 20 years, stolen credentials have been the most common route for attackers into organizations, according to the Verizon Data Breach Investigations Report (DBIR). But that's no longer the case. Read more in my article on the Fortra blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -12093,6 +12322,33 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #468: High-speed train hacks and homicidal lawnmowers",
+      "link": "https://grahamcluley.com/smashing-security-podcast-468/",
+      "published": "2026-05-20T23:04:42+00:00",
+      "summary": "A 23-year-old radio enthusiast spent £300 on a piece of kit from the internet, and used it to bring four packed high-speed trains to a screeching halt. His defence in court? Possibly the most creative excuse we've heard all year. Meanwhile, owners of $4,000 robot lawnmowers are discovering that their gadget can be hijacked over the internet, redirected at journalists who foolishly lie down in front of it, and used to harvest Wi-Fi passwords, email addresses, and GPS coordinates. Change the default password? Sure - until the next firmware update silently resets it back. Plus - don't miss our featured interview with XBOW's Brendan Dolan-Gavitt about how AI is transforming penetration testing. All this and more in episode 468 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Geoff White.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Simon Willison",
       "cohort": "ai_security_agentic_risk",
       "category": "ai_security_agentic_risk",
@@ -12813,33 +13069,6 @@
       }
     },
     {
-      "source": "Reddit r/AskNetsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Is Traditional DLP Still Effective in Modern Cloud & AI Workflows?",
-      "link": "https://www.reddit.com/r/AskNetsec/comments/1tiiz0p/is_traditional_dlp_still_effective_in_modern/",
-      "published": "2026-05-20T11:35:39+00:00",
-      "summary": "Anyone else feeling like traditional DLP is struggling to keep up with modern workflows? Between SaaS apps, shared links, and AI tools, it seems like policies either create user friction or miss risky behavior entirely. Curious whether DLP is still giving real value in your environment or mostly adding overhead now. submitted by /u/glorius_shrooms [link] [comments]",
-      "author": "/u/glorius_shrooms",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -13067,6 +13296,37 @@
         "urgency_signals": [],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "FBI warns students and staff that ShinyHunters may come knocking after Canvas breach",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-shinyhunters-canvas-breach",
+      "published": "2026-05-20T08:28:36+00:00",
+      "summary": "Having receive a ransom payment for its attack on Canvas, ShinyHunters and other extortion gangs are only likely to be further incentivised to launch similar attacks in future. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -15961,6 +16221,33 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Suspected Dream Market kingpin arrested after gold bars sent to his home address",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/dream-market-kingpin-arrested-gold-bars",
+      "published": "2026-05-14T19:46:35+00:00",
+      "summary": "Lesson one for aspiring dark web kingpins: don't have your laundered gold bars shipped to your home address. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Citizen Lab",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -16519,6 +16806,35 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "When ransomware gets physical: cybercriminals turn to threats of violence",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/ransomware-physical-threats-violence",
+      "published": "2026-05-14T09:28:05+00:00",
+      "summary": "Pay up, or we'll pay someone to pay you a visit. Cybercrime gangs are increasingly turning to real-world threats - and even hiring local muscle to deliver the message. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -17062,6 +17378,40 @@
         "role_map": {
           "AWS": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #467: How ShinyHunters hacked the world’s biggest universities",
+      "link": "https://grahamcluley.com/smashing-security-podcast-467/",
+      "published": "2026-05-13T23:05:09+00:00",
+      "summary": "Welcome to the largest educational data breach in history - affecting nearly 9,000 institutions, every Ivy League university, and 30 million students mid-finals. When Canvas's parent company refused to pay and announced they had deployed \"security patches\" instead, the hackers were less than impressed. So they came back through the cat flap. Meanwhile, a famous finance expert's face has been showing up on Facebook adverts promising hot stock tips and exclusive WhatsApp investment groups. Spoiler: it isn't him, the tips aren't real, and you're about to be scammed. Plus we chat to Mike Nichols of Elastic, about how the SOC isn't dying, attackers and defenders are both deploying AI agents, and how the real security crisis is no longer human users - it's the bots acting on their behalf. All this and more in episode 467 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Danny Palmer.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [
+          "ShinyHunters"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -18701,13 +19051,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
-      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
+      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
+      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
+      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -18728,13 +19078,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
-      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
+      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
+      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
+      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -19711,6 +20061,64 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "One in eight UK workers has sold their company passwords, and bosses think it’s fine",
+      "link": "https://www.fortra.com/blog/one-eight-uk-workers-has-sold-their-company-passwords-and-bosses-think-its-fine",
+      "published": "2026-05-08T15:20:45+00:00",
+      "summary": "One in eight UK workers admits to selling their company login credentials - or knowing someone who has - in the past 12 months. The really alarming bit? Their bosses are even more relaxed about it. Read more in my article on the Fortra blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Inside Department 4: Russia’s secret school for hackers",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/inside-department-4-russias-secret-school-for-hackers",
+      "published": "2026-05-08T14:36:50+00:00",
+      "summary": "Most universities have a careers fair. At Bauman Moscow State Technical University, however, an elite group of students appear to have something rather more unusual: a direct pipeline into some of the world's most notorious state-sponsored hacking groups. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Rapid7",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -19787,6 +20195,35 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Sri Lanka makes 37 arrests as it raids another scam centre",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/sri-lanka-37-arrests-scam-centre",
+      "published": "2026-05-08T09:30:20+00:00",
+      "summary": "You don't need to live near a scam compound for it to wreck your life. Americans lost $5.8 billion to crypto investment scams last year alone - and a raid in Sri Lanka this month shows exactly how the operations behind them keep finding new places to hide. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20988,6 +21425,35 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
+      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
+      "published": "2026-05-07T00:00:00+00:00",
+      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -21021,28 +21487,26 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
-      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
-      "published": "2026-05-07T00:00:00+00:00",
-      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
-      "author": "",
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #466: Meta sees everything, Copy Fail, and a deepfake gets hired",
+      "link": "https://grahamcluley.com/smashing-security-podcast-466/",
+      "published": "2026-05-06T23:30:49+00:00",
+      "summary": "Meta's smart glasses promise privacy \"designed for you\" - but everything they record was being beamed off to workers in Nairobi to label by hand. When those workers blew the whistle, Meta sacked all 1,108 of them. Meanwhile, the IT press is in a frenzy over a new Linux bug called \"Copy Fail\" - complete with logo, dedicated website, and a marketing-friendly name. But is it really the disaster everyone's making it out to be? And in our featured interview, Jake Moore of ESET explains how he tricked a company into offering his deepfake clone a job - after a perfectly normal-looking video interview. All this and more in episode 466 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, joined this week by special guest Paul Ducklin.",
+      "author": "Graham Cluley",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -22509,6 +22973,33 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Teenager alleged to be Scattered Spider hacker arrested in Finland, faces US extradition",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/alleged-scattered-spider-hacker-extradition",
+      "published": "2026-05-04T11:42:44+00:00",
+      "summary": "Here's a tip for you all. Unless you want to draw attention to yourself as a cybercriminal, don't flaunt your diamond-encrusted \"HACK THE PLANET\" necklace on Snapchat, or pose as a Sopranos crime boss while the FBI is reportedly closing in. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -23000,6 +23491,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
+      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
+      "published": "2026-05-01T00:00:00+00:00",
+      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -23023,33 +23541,6 @@
           "poc_available"
         ],
         "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
-      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
-      "published": "2026-05-01T00:00:00+00:00",
-      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -23597,6 +24088,33 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Iran-linked Handala hackers leak US Marines data, send chilling WhatsApp threats",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/iran-handala-hackers-leak-us-marines-data-chilling-whatsapp-threats",
+      "published": "2026-04-30T08:13:48+00:00",
+      "summary": "US Marines stationed around the Persian Gulf have been receiving WhatsApp messages from strangers suggesting they call home and make their final goodbyes. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "TrustedSec",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -23820,6 +24338,38 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #465: This developer wanted to cheat at Roblox. It cost millions",
+      "link": "https://grahamcluley.com/smashing-security-podcast-465/",
+      "published": "2026-04-29T23:15:23+00:00",
+      "summary": "A developer at an AI startup wanted to cheat at Roblox. They downloaded a dodgy script on their work laptop. That one decision triggered a cascade of failures that ended with a $2 million data breach affecting hundreds of thousands of organisations. All for some free in-game currency. Meanwhile, there's a 1980s phone protocol called SS7 that lets shadowy surveillance companies track anyone, anywhere, via their mobile phone. Governments know about it. Telecoms know about it. Nobody's fixing it. All this and more in episode 465 of the \"Smashing Security\" podcast with cybersecurity keynote speaker and industry veteran Graham Cluley, joined this week by special guest James Ball. Plus! Don't miss our featured interview with Rob Edmondson of CoreView, discussing how to lock down Microsoft 365 before it's too late.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -24057,6 +24607,33 @@
       }
     },
     {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Alleged Silk Typhoon hacker extradited to the United States to face charges",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/silk-typhoon-hacker-extradited-united-states",
+      "published": "2026-04-29T12:14:48+00:00",
+      "summary": "A man accused of working as a hacker for China's Ministry of State Security has been extradited to the USA from Italy, and faces - if found guilty - the prospect of decades behind bars. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -24169,39 +24746,6 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "'Mini Shai-Hulud' supply chain attack targets SAP npm packages",
-      "link": "https://www.sophos.com/en-us/blog/-mini-shai-hulud-supply-chain-attack-targets-sap-npm-packages",
-      "published": "2026-04-29T00:00:00+00:00",
-      "summary": "Categories: Threat Research Tags: advisory, NPM, SAP",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "npm": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -24238,6 +24782,39 @@
               0.3
             ]
           ]
+        }
+      }
+    },
+    {
+      "source": "Sophos X-Ops",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "'Mini Shai-Hulud' supply chain attack targets SAP npm packages",
+      "link": "https://www.sophos.com/en-us/blog/-mini-shai-hulud-supply-chain-attack-targets-sap-npm-packages",
+      "published": "2026-04-29T00:00:00+00:00",
+      "summary": "Categories: Threat Research Tags: advisory, NPM, SAP",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "npm": "target"
+        },
+        "weak_tags": {
+          "products": []
         }
       }
     },
@@ -24441,6 +25018,35 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "French police arrest 21-year-old “HexDex” hacker over 100 alleged data breaches",
+      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/french-police-arrest-hexdex-hacker",
+      "published": "2026-04-28T08:43:16+00:00",
+      "summary": "A 21-year-old man suspected of conducting approximately 100 data breaches since late 2025 - including a hack of the French Ministry of National Education that exposed records on almost a quarter of a million employees - has been arrested at his home in western France. Read more in my article on the Hot for Security blog.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "incident_report",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25651,6 +26257,35 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Graham Cluley",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Smashing Security podcast #464: Rockstar got hacked. The data was junk. The secrets it revealed were not",
+      "link": "https://grahamcluley.com/smashing-security-podcast-464-rockstar-got-hacked-the-data-was-junk-the-secrets-it-revealed-were-not/",
+      "published": "2026-04-22T22:20:26+00:00",
+      "summary": "A company that ran anonymous tip lines for 35,000 American schools - handling reports of bullying, weapons, and self-harm - boasted on its website that it had suffered zero security breaches in over 20 years. A hacker called Internet Yiff Machine thought that sounded like a challenge, with predictable results... Meanwhile, Rockstar Games gets hacked again - and the stolen data turns out to be less embarrassing than the financial secrets it accidentally revealed. GTA Online is still making half a billion dollars a year. Red Dead Redemption is not. All this and more in episode 464 of the \"Smashing Security\" podcast with cybersecurity keynote speaker and industry veteran Graham Cluley, joined this week by special guest BBC cybersecurity correspondent Joe Tidy. Plus! Don't miss our featured interview with Ryan Benson of Meter.",
+      "author": "Graham Cluley",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -29360,6 +29995,33 @@
       }
     },
     {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
+      "link": "https://www.elastic.co/security-labs/elastic-defence-cyber-marvel",
+      "published": "2026-04-09T00:00:00+00:00",
+      "summary": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -29410,33 +30072,6 @@
           "zero_day"
         ],
         "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
-      "link": "https://www.elastic.co/security-labs/elastic-defence-cyber-marvel",
-      "published": "2026-04-09T00:00:00+00:00",
-      "summary": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -33063,7 +33698,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f1fac2905b0>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fb3e2835610>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
@@ -60015,6 +60650,33 @@
       }
     },
     {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Guidance on digital forensics and protective monitoring specifications for producers of network devices and appliances - for device vendors",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1ii3518/guidance_on_digital_forensics_and_protective/",
+      "published": "2025-02-05T05:39:25+00:00",
+      "summary": "submitted by /u/digicat [link] [comments]",
+      "author": "/u/digicat",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Intel 471",
       "cohort": "ransomware_ecrime_financial_crime",
       "category": "ransomware_ecrime_financial_crime",
@@ -66141,6 +66803,33 @@
       "source": "CrowdStrike",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
+      "title": "Shadow AI: The Hidden Risk Expanding Across the Enterprise",
+      "link": "https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/",
+      "published": null,
+      "summary": "",
+      "author": "CrowdStrike",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "CrowdStrike",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
       "title": "CrowdStrike Named a Leader in Identity Threat Detection and Response",
       "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/",
       "published": null,
@@ -66348,33 +67037,6 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "CrowdStrike",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Inside CrowdStrike Automated Leads: A Transformative Approach to Threat Detections",
-      "link": "https://www.crowdstrike.com/en-us/blog/ai-threat-detection-with-automated-leads/",
-      "published": null,
-      "summary": "",
-      "author": "Daniel Brown - Thomas Hobson - Amogh Pradeep",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
