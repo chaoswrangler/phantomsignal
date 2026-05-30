@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T21:08:45.700285+00:00",
+  "generated_at": "2026-05-30T23:06:06.970478+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 445,
-  "total_clusters_raw": 163,
+  "total_items_in_window": 446,
+  "total_clusters_raw": 162,
   "total_clusters_in_packet": 62,
-  "dropped_low_score": 101,
+  "dropped_low_score": 100,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,15 +67,15 @@
     }
   },
   "feed_status": {
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -88,18 +88,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -108,20 +108,6 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,6 +123,34 @@
       "item_count": 15,
       "in_window_count": 4
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "SANS Internet Storm Center": {
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -151,25 +165,18 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SANS Internet Storm Center": {
-      "url": "https://isc.sans.edu/rssfeed_full.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 4
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 4
     },
     "Volexity": {
@@ -179,11 +186,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -200,26 +221,12 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,22 +242,15 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -291,20 +291,6 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -312,11 +298,11 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 3
     },
     "Permiso Security": {
@@ -325,6 +311,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -361,20 +361,6 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -388,6 +374,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,6 +410,13 @@
       "item_count": 5,
       "in_window_count": 5
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -424,26 +431,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 23
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 22
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -452,12 +452,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -480,19 +480,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,13 +515,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -522,19 +522,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 32
-    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 32
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -571,12 +571,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 11
+      "in_window_count": 24
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -585,19 +585,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 24
+      "in_window_count": 11
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 15
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -606,12 +606,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 25
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2294,6 +2294,108 @@
       ]
     },
     {
+      "cluster_id": "7ba1375f23",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "This month in security with Tony Anscombe – May 2026 edition",
+        "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
+        "published": "2026-05-29T07:30:00+00:00",
+        "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
+        "full_body": "Video This month in security with Tony Anscombe – May 2026 edition In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit Editor 29 May 2026 It’s that time of month when ESET Chief Security Evangelist Tony Anscombe looks back at some of the top cybersecurity stories that made the news over the past 30 or so days and offers insights that the they may hold for your own cyber-defenses. Here's some of what caught Tony’s attention in May 2026: Poland’s Internal Security Agency (ABW) has released information about cyber-intrusions into ICS (industrial control systems) at five water treatment facilities in the country in 2024 and 2025. The two main attack vectors – weak passwords and systems exposed directly to the internet – were the same as those used in attacks against the Polish energy sector that leveraged DynoWiper described by ESET researchers here . An unknown group recently exfiltrated troves of data from the government of Mexico in what has been described as one of the world's first truly AI-directed attacks, but the subsequent attack against a water utility plant failed to bridge the gap from IT to OT systems, Google has identified what it believes is the first zero-day exploit developed using AI Americans lost more than $388 million last year to scams using cryptocurrency kiosks, according to the FBI . What are some key mitigation steps against attacks targeting OT systems? How do scams crypto ATMs work and how to stay safe? Learn this and more in Tony's video and be sure to check out the April 2026 edition of Tony's monthly security news roundup for more insights. Let us keep you up to date Sign up for our newsletters Related Articles Video This month in security with Tony Anscombe – April 2026 edition Video This month in security with Tony Anscombe – April 2026 edition Video This month in security with Tony Anscombe – March 2026 edition Video This month in security with Tony Anscombe – March 2026 edition Video RSAC 2026 wrap-up – Week in security with Tony Anscombe Video RSAC 2026 wrap-up – Week in security with Tony Anscombe Similar Articles ESET research DynoWiper update: Technical analysis and attribution ESET research PromptSpy ushers in the era of Android threats using GenAI Share Article Discussion",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "This month in security with Tony Anscombe – May 2026 edition",
+          "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
+          "published": "2026-05-29T07:30:00+00:00",
+          "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "bd3bda8915",
       "priority_score": 18,
       "member_count": 1,
@@ -2384,99 +2486,6 @@
               "WordPress": "target",
               "GitHub": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "7ba1375f23",
-      "priority_score": 18,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "This month in security with Tony Anscombe – May 2026 edition",
-        "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
-        "published": "2026-05-29T07:30:00+00:00",
-        "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "critical_infrastructure"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "This month in security with Tony Anscombe – May 2026 edition",
-          "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
-          "published": "2026-05-29T07:30:00+00:00",
-          "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "critical_infrastructure"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -2963,140 +2972,6 @@
       ]
     },
     {
-      "cluster_id": "1a2336126b",
-      "priority_score": 16,
-      "member_count": 4,
-      "corroborating_source_count": 2,
-      "strong_signals": [
-        "Linux kernel"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-43284",
-          "CVE-2026-43500",
-          "CVE-2026-46300"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[local] Linux Kernel - Local Privilege Escalation",
-        "link": "https://www.exploit-db.com/exploits/52591",
-        "published": "2026-05-29T00:00:00+00:00",
-        "summary": "Linux Kernel - Local Privilege Escalation",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Linux Kernel - Local Privilege Escalation EDB-ID: 52591 CVE: 2026-46300 2026-43500 2026-43284 EDB Verified: Author: nu11secur1ty Type: local Exploit: / Platform: Linux Date: 2026-05-29 Vulnerable App: # Titles:** Linux Kernel Local Privilege Escalation (CVE-2026-43284 / CVE-2026-43500 / CVE-2026-46300) # Author:** nu11secur1ty # Date:** 2026-05-11 # Vendor:** Linux Kernel # Software:** Linux Kernel (All major distributions) # Vulnerability Type:** Page-Cache Write / Memory Corruption # Status:** HIGH / CRITICAL --- ## Description The **\"Kukurigu\"** exploit represents a sophisticated local privilege escalation (LPE) vector targeting the Linux kernel's page-cache management. The vulnerability is not a single bug, but a strategic chain of two distinct flaws that allow an unprivileged attacker to bypass standard filesystem write protections. ### Vulnerability Chain: 1. **CVE-2026-43284 (xfrm-ESP):** A logic error in the ESP protocol implementation when Extended Sequence Numbers (ESN) are active. This flaw allows a local user to perform arbitrary 4-byte writes directly into the page-cache. 2. **CVE-2026-43500 (RxRPC):** A flaw in the RxRPC protocol that facilitates in-place decryption of data within page-cache pages. 3. **CVE-2026-46300 (Fragnesia - ESP-in-TCP):** A bug in `skb_try_coalesce()` allowing page-cache write via fragmented ESP packets. ### Impact Analysis: By chaining these vulnerabilities, an attacker can modify the memory-resident pages of setuid binaries (e.g., `/usr/bin/su` or `/usr/bin/sudo`) or sensitive system files (e.g., `/etc/passwd`). Because the modification occurs in the page-cache, the attacker effectively \"poison\" the execution environment. **Key Advantages for Attacker:** * **Stability:** No race conditions involved. * **Reliability:** Near 100% success rate on tested environments. * **Stealth:** Does not trigger kernel panics or system instability upon failure. * **Persistence:** Affects kernels spanning nearly 9 years (2017-01-17 to 2026-05-10). --- ## Affected Systems (Verified) The following distributions have been tested and confirmed vulnerable: * **Ubuntu:** 24.04.4 / 25.10 / 26.04 * **RHEL:** 10.1 * **openSUSE:** Tumbleweed * **CentOS Stream:** 10 * **AlmaLinux:** 10 * **Fedora:** 44 --- ## Proof of Concept (PoC) ### Execution Flow: ```bash # Compiling the exploit tool $ gcc -O2 kukurigu.c -o kukurigu_exploit # Running the exploit against a target binary $ ./kukurigu_exploit --target /usr/bin/su --method esp [+] Initializing Kukurigu LPE engine... [+] Exploiting CVE-2026-43284 (xfrm-ESP write)... [+] Exploiting CVE-2026-43500 (RxRPC decryption)... [+] Exploiting CVE-2026-46300 (Fragnesia)... [+] Page-cache poisoned successfully for /usr/bin/su. [+] Dropping into root shell... # id uid=0(root) gid=0(root) groups=0(root) [+]Exploit: [href]( https://github.com/nu11secur1ty/CVE-mitre/tree/main/2026/CVE-2026-43284-CVE-2026-43500 ) # Demo: [href](https://www.patreon.com/posts/cve-2026-43284-157962202) [href](https://www.patreon.com/posts/cve-2026-46300-k-158433402) # Patch if you want: [href](https://www.patreon.com/posts/cve-2026-43284-157966167) # Time spent: 01:30:00 -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstormsecurity.com/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <https://www.asc3t1c-nu11secur1ty.com/> -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstorm.news/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ 0day Exploit DataBase https://0day.today/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <http://",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Linux kernel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-43284",
-            "CVE-2026-43500",
-            "CVE-2026-46300"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Linux kernel": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[local] Linux Kernel - Local Privilege Escalation",
-          "link": "https://www.exploit-db.com/exploits/52591",
-          "published": "2026-05-29T00:00:00+00:00",
-          "summary": "Linux Kernel - Local Privilege Escalation",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-43284",
-              "CVE-2026-43500",
-              "CVE-2026-46300"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Linux kernel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
-          "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-          "published": "2026-05-30T14:16:08+00:00",
-          "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request mechanism, and gain root privileges. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Linux kernel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bb2f04ae6d",
       "priority_score": 16,
       "member_count": 5,
@@ -3110,7 +2985,8 @@
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "financial_services"
+          "financial_services",
+          "government"
         ],
         "affected_products": [
           "Android"
@@ -3135,12 +3011,17 @@
         "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
         "published": "2026-05-26T08:50:00+00:00",
         "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Malware BTMOB: A stealthy RAT burrowing deep into Android devices The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise Daniel Cunha Barbosa 26 May 2026 • , 6 min. read Our recent review of threat detections in Brazil surfaced BTMOB, an Android remote access trojan (RAT) that is less notable for detection volume than for the damage it can wreak. The combination of phishing-led delivery, ready-made app-building tooling and device takeover capabilities makes BTMOB a threat to watch well beyond Brazil or Latin America. BTMOB at a glance First described in February 2025, BTMOB has evolved from the SpySolr malware. Unlike banking trojans, which “only” aim to steal people’s financial credentials or intercept their financial transactions, BTMOB gives adversaries broader options: exfiltrate a range of sensitive data, capture screenshots and record activity on the device, and ultimately take remote control of it. The RAT is also sold with an APK builder interface, allowing anyone to generate new payloads and adapt phishing lures for specific regions at a rapid clip – and without writing any code. Figure 1. BTMOB APK creation tool How does BTMOB spread? Unsurprisingly, everything starts with ordinary social engineering. Operators send victims to phishing websites that pose as streaming services, cryptocurrency mining platforms or other familiar online services. From there, victims are pushed toward fake app stores that mimic legitimate repositories and prompt them to install a malicious APK. Bad actors have also been spotted tailoring their lures to specific regions. Once installed, BTMOB seeks extensive access to the device. As is common these days, it abuses Android Accessibility Services to gain elevated permissions and grant itself further system access without additional user interaction. Figure 2. Fake app store and malicious apps. Source: @Merlax_ ) Since it’s built for the malware-as-a-service (MaaS) economy, BTMOB is marketed as a software product, including through a promotional page on the open web that funnels prospective buyers to a Telegram operator. The sales pipeline extends across social media platforms, with a number of accounts on X and Instagram actively peddling the tool. Figure 3. BTMOB offer on the surface web Figure 4. X profile linked to the malware Once someone purchases the malicious kit, they can adapt its features, including the phishing lures so they impersonate the brand or agency most likely to lure victims in any given country. For example, researchers Johnk3r and Merl recently spotted campaigns that spread BTMOB while impersonating Argentina’s tax and customs authorities. Figure 5. BTMOB impersonating an Argentine government agency. (Source: Germán Fernández Bacian ) Market dynamics and detection challenges Even where developers initially restrict the tool to paying customers, the economics remain favorable for attackers. A reported $5,000 lifetime license plus a monthly support fee is low compared with the returns a successful fraud operation can generate. In addition, the MaaS model also lowers the barrier for less sophisticated adversaries. In January 2026, a dark web forum claimed to offer BTMOB-related files for free download. The forum later went offline, and our search didn’t recover the payload(s), but the episode points to a familiar risk with commercial malware: access rarely stays contained forever and the tool can move into secondary markets through resale, barter or sharing inside closed groups. Competing malware families can also copy some elements that make payload customization and campaign management easier for less skilled criminals. As new variants can be generated quickly, defenders should expect rapid payload turnover rather than a stable set of threats. ESET products detect the primary tool as MSIL/BtmobRat, while related Android variants trigger detections such as Android/Spy.Agent.EED, Android/Spy.Agent.EIJ an",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "financial_services",
+            "government"
+          ],
           "affected_products": [
             "Android"
           ],
@@ -3167,9 +3048,14 @@
           "published": "2026-05-26T08:50:00+00:00",
           "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "financial_services",
+              "government"
+            ],
             "affected_products": [
               "Android"
             ],
@@ -3297,6 +3183,140 @@
             "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "1a2336126b",
+      "priority_score": 16,
+      "member_count": 4,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "Linux kernel"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-43284",
+          "CVE-2026-43500",
+          "CVE-2026-46300"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[local] Linux Kernel - Local Privilege Escalation",
+        "link": "https://www.exploit-db.com/exploits/52591",
+        "published": "2026-05-29T00:00:00+00:00",
+        "summary": "Linux Kernel - Local Privilege Escalation",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Linux Kernel - Local Privilege Escalation EDB-ID: 52591 CVE: 2026-46300 2026-43500 2026-43284 EDB Verified: Author: nu11secur1ty Type: local Exploit: / Platform: Linux Date: 2026-05-29 Vulnerable App: # Titles:** Linux Kernel Local Privilege Escalation (CVE-2026-43284 / CVE-2026-43500 / CVE-2026-46300) # Author:** nu11secur1ty # Date:** 2026-05-11 # Vendor:** Linux Kernel # Software:** Linux Kernel (All major distributions) # Vulnerability Type:** Page-Cache Write / Memory Corruption # Status:** HIGH / CRITICAL --- ## Description The **\"Kukurigu\"** exploit represents a sophisticated local privilege escalation (LPE) vector targeting the Linux kernel's page-cache management. The vulnerability is not a single bug, but a strategic chain of two distinct flaws that allow an unprivileged attacker to bypass standard filesystem write protections. ### Vulnerability Chain: 1. **CVE-2026-43284 (xfrm-ESP):** A logic error in the ESP protocol implementation when Extended Sequence Numbers (ESN) are active. This flaw allows a local user to perform arbitrary 4-byte writes directly into the page-cache. 2. **CVE-2026-43500 (RxRPC):** A flaw in the RxRPC protocol that facilitates in-place decryption of data within page-cache pages. 3. **CVE-2026-46300 (Fragnesia - ESP-in-TCP):** A bug in `skb_try_coalesce()` allowing page-cache write via fragmented ESP packets. ### Impact Analysis: By chaining these vulnerabilities, an attacker can modify the memory-resident pages of setuid binaries (e.g., `/usr/bin/su` or `/usr/bin/sudo`) or sensitive system files (e.g., `/etc/passwd`). Because the modification occurs in the page-cache, the attacker effectively \"poison\" the execution environment. **Key Advantages for Attacker:** * **Stability:** No race conditions involved. * **Reliability:** Near 100% success rate on tested environments. * **Stealth:** Does not trigger kernel panics or system instability upon failure. * **Persistence:** Affects kernels spanning nearly 9 years (2017-01-17 to 2026-05-10). --- ## Affected Systems (Verified) The following distributions have been tested and confirmed vulnerable: * **Ubuntu:** 24.04.4 / 25.10 / 26.04 * **RHEL:** 10.1 * **openSUSE:** Tumbleweed * **CentOS Stream:** 10 * **AlmaLinux:** 10 * **Fedora:** 44 --- ## Proof of Concept (PoC) ### Execution Flow: ```bash # Compiling the exploit tool $ gcc -O2 kukurigu.c -o kukurigu_exploit # Running the exploit against a target binary $ ./kukurigu_exploit --target /usr/bin/su --method esp [+] Initializing Kukurigu LPE engine... [+] Exploiting CVE-2026-43284 (xfrm-ESP write)... [+] Exploiting CVE-2026-43500 (RxRPC decryption)... [+] Exploiting CVE-2026-46300 (Fragnesia)... [+] Page-cache poisoned successfully for /usr/bin/su. [+] Dropping into root shell... # id uid=0(root) gid=0(root) groups=0(root) [+]Exploit: [href]( https://github.com/nu11secur1ty/CVE-mitre/tree/main/2026/CVE-2026-43284-CVE-2026-43500 ) # Demo: [href](https://www.patreon.com/posts/cve-2026-43284-157962202) [href](https://www.patreon.com/posts/cve-2026-46300-k-158433402) # Patch if you want: [href](https://www.patreon.com/posts/cve-2026-43284-157966167) # Time spent: 01:30:00 -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstormsecurity.com/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <https://www.asc3t1c-nu11secur1ty.com/> -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstorm.news/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ 0day Exploit DataBase https://0day.today/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <http://",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-43284",
+            "CVE-2026-43500",
+            "CVE-2026-46300"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Linux kernel": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[local] Linux Kernel - Local Privilege Escalation",
+          "link": "https://www.exploit-db.com/exploits/52591",
+          "published": "2026-05-29T00:00:00+00:00",
+          "summary": "Linux Kernel - Local Privilege Escalation",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-43284",
+              "CVE-2026-43500",
+              "CVE-2026-46300"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+          "link": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+          "published": "2026-05-30T14:16:08+00:00",
+          "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request mechanism, and gain root privileges. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Linux kernel": "target"
             },
             "weak_tags": {
               "products": []
@@ -4196,6 +4216,216 @@
       ]
     },
     {
+      "cluster_id": "64f7b4c761",
+      "priority_score": 14,
+      "member_count": 4,
+      "corroborating_source_count": 4,
+      "strong_signals": [
+        "Apple iOS/macOS",
+        "JINX-0164"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "phishing_social_eng",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "JINX-0164"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "Apple iOS/macOS"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Wiz Research",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Commit to Compromise: A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
+        "link": "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
+        "published": "2026-05-27T13:52:45+00:00",
+        "summary": "Wiz CIRT and Wiz Research detail JINX-0164, a threat actor using LinkedIn social engineering, custom macOS malware, and CI/CD hijacking to target cryptocurrency organizations.",
+        "full_body": "Wiz Pricing Get a demo Get a demo The Wiz Customer Incident Response Team (CIRT) has investigated multiple intrusions targeting cryptocurrency organizations. These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure. The used methods enabled the threat actor to move laterally from compromised employee laptops to code distribution systems and development infrastructure. The Wiz Research team has identified the actor behind these attacks as JINX-0164, a previously unreported actor that Wiz is now tracking. This actor has been active since at least mid-2025 and appears to be motivated by financial gain. Their operations targeted developers through recruitment-themed and other social engineering techniques aiming to steal cryptocurrencies, and, in at least one case, conduct a supply chain attack. This blog begins by walking through the full attack chain of a landmark early-2026 intrusion from initial contact to impact. We then expand our analysis to detail additional campaigns linked to JINX-0164, concluding with a technical deep dive into the group's custom tools and techniques. Previous operations by this group have been reported by StepSecurity and iru . The Attack Chain - a Case Study The attack unfolded over a two-week period and followed the following key steps: Social engineering for initial access: the threat actor used a credible LinkedIn profile to contact the victim and offer a virtual meeting. Malware distribution: the meeting invite linked to a malicious domain, masquerading as a teleconference provider. Upon clicking, the victim unknowingly downloaded and executed a macOS-specific malware with remote access tool (RAT) capabilities. Credential access: the malware was used to steal credentials from the compromised endpoint. Lateral movement: the stolen credentials were leveraged to access internal code distribution systems and development infrastructure. Impact: internal source code was modified in an attempt to compromise additional endpoints, most likely in an attempt to steal cryptocurrency wallet credentials. Throughout the attack, the threat actor masked their cloud activity by routing their connections through VPN services, specifically Mullvad VPN, Astrill VPN and Express VPN. Initial Access: Social Engineering The threat actor made initial contact via LinkedIn, impersonating a potential business partner. The LinkedIn profile appeared credible, with established connections, relevant employment history, and industry alignment, making the outreach convincing. By leveraging the credible profile and business opportunity, the actor built trust and proposed a virtual meeting. The invitation included a link to a malicious domain disguised as a legitimate conferencing platform, such as Microsoft Teams. After interacting with the link, the victim executed a malicious file disguised as the meeting client. This social engineering tactic has been observed in multiple recent incidents perpetrated by different threat actors . In some cases, attackers leveraged compromised LinkedIn accounts, belonging to legitimate professionals within the cryptocurrency industry. In other cases, the LinkedIn profiles appeared credible, but were later deleted shortly after the compromise. These profiles were never re-enabled, indicating they may have been created by the threat actors. In both the hijacking and new profile creation scenarios, the apparent authenticity of the profiles significantly increased the likelihood that targets would trust the outreach. Malware Delivery and Execution After clicking the embedded link and executing the program, the victim received AUDIOFIX, a Python-based macOS infostealer, via a bash script hosted on a fake driver store domain ( apple.driver-store[.]com ). The script downloaded an architecture-aware payload from the same domain, compatible with both Intel and Apple Silicon systems. The payload masquerades as a system audio drive",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng",
+            "credential_theft"
+          ],
+          "actor_attribution": [
+            "JINX-0164"
+          ],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Apple iOS/macOS"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Apple iOS/macOS": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Wiz Research",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Commit to Compromise: A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
+          "link": "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
+          "published": "2026-05-27T13:52:45+00:00",
+          "summary": "Wiz CIRT and Wiz Research detail JINX-0164, a threat actor using LinkedIn social engineering, custom macOS malware, and CI/CD hijacking to target cryptocurrency organizations.",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng",
+              "credential_theft"
+            ],
+            "actor_attribution": [
+              "JINX-0164"
+            ],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Simon Willison",
+          "cohort": "ai_security_agentic_risk",
+          "title": "How we contain Claude across products",
+          "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+          "published": "2026-05-30T21:36:24+00:00",
+          "summary": "How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented , and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai , Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.an",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude",
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Anthropic/Claude": "target",
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+          "published": "2026-05-28T07:54:48+00:00",
+          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [
+              "JINX-0164"
+            ],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
+          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
+          "published": "2026-05-28T11:30:00+00:00",
+          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "JINX-0164"
+            ],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "2694f33506",
       "priority_score": 13,
       "member_count": 1,
@@ -4701,185 +4931,6 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "64f7b4c761",
-      "priority_score": 12,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "Apple iOS/macOS",
-        "JINX-0164"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "phishing_social_eng",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "JINX-0164"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Wiz Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Commit to Compromise: A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
-        "link": "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
-        "published": "2026-05-27T13:52:45+00:00",
-        "summary": "Wiz CIRT and Wiz Research detail JINX-0164, a threat actor using LinkedIn social engineering, custom macOS malware, and CI/CD hijacking to target cryptocurrency organizations.",
-        "full_body": "Wiz Pricing Get a demo Get a demo The Wiz Customer Incident Response Team (CIRT) has investigated multiple intrusions targeting cryptocurrency organizations. These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure. The used methods enabled the threat actor to move laterally from compromised employee laptops to code distribution systems and development infrastructure. The Wiz Research team has identified the actor behind these attacks as JINX-0164, a previously unreported actor that Wiz is now tracking. This actor has been active since at least mid-2025 and appears to be motivated by financial gain. Their operations targeted developers through recruitment-themed and other social engineering techniques aiming to steal cryptocurrencies, and, in at least one case, conduct a supply chain attack. This blog begins by walking through the full attack chain of a landmark early-2026 intrusion from initial contact to impact. We then expand our analysis to detail additional campaigns linked to JINX-0164, concluding with a technical deep dive into the group's custom tools and techniques. Previous operations by this group have been reported by StepSecurity and iru . The Attack Chain - a Case Study The attack unfolded over a two-week period and followed the following key steps: Social engineering for initial access: the threat actor used a credible LinkedIn profile to contact the victim and offer a virtual meeting. Malware distribution: the meeting invite linked to a malicious domain, masquerading as a teleconference provider. Upon clicking, the victim unknowingly downloaded and executed a macOS-specific malware with remote access tool (RAT) capabilities. Credential access: the malware was used to steal credentials from the compromised endpoint. Lateral movement: the stolen credentials were leveraged to access internal code distribution systems and development infrastructure. Impact: internal source code was modified in an attempt to compromise additional endpoints, most likely in an attempt to steal cryptocurrency wallet credentials. Throughout the attack, the threat actor masked their cloud activity by routing their connections through VPN services, specifically Mullvad VPN, Astrill VPN and Express VPN. Initial Access: Social Engineering The threat actor made initial contact via LinkedIn, impersonating a potential business partner. The LinkedIn profile appeared credible, with established connections, relevant employment history, and industry alignment, making the outreach convincing. By leveraging the credible profile and business opportunity, the actor built trust and proposed a virtual meeting. The invitation included a link to a malicious domain disguised as a legitimate conferencing platform, such as Microsoft Teams. After interacting with the link, the victim executed a malicious file disguised as the meeting client. This social engineering tactic has been observed in multiple recent incidents perpetrated by different threat actors . In some cases, attackers leveraged compromised LinkedIn accounts, belonging to legitimate professionals within the cryptocurrency industry. In other cases, the LinkedIn profiles appeared credible, but were later deleted shortly after the compromise. These profiles were never re-enabled, indicating they may have been created by the threat actors. In both the hijacking and new profile creation scenarios, the apparent authenticity of the profiles significantly increased the likelihood that targets would trust the outreach. Malware Delivery and Execution After clicking the embedded link and executing the program, the victim received AUDIOFIX, a Python-based macOS infostealer, via a bash script hosted on a fake driver store domain ( apple.driver-store[.]com ). The script downloaded an architecture-aware payload from the same domain, compatible with both Intel and Apple Silicon systems. The payload masquerades as a system audio drive",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "phishing_social_eng",
-            "credential_theft"
-          ],
-          "actor_attribution": [
-            "JINX-0164"
-          ],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Apple iOS/macOS"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Apple iOS/macOS": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Wiz Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Commit to Compromise: A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
-          "link": "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
-          "published": "2026-05-27T13:52:45+00:00",
-          "summary": "Wiz CIRT and Wiz Research detail JINX-0164, a threat actor using LinkedIn social engineering, custom macOS malware, and CI/CD hijacking to target cryptocurrency organizations.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "phishing_social_eng",
-              "credential_theft"
-            ],
-            "actor_attribution": [
-              "JINX-0164"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-          "published": "2026-05-28T07:54:48+00:00",
-          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [
-              "JINX-0164"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
-          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
-          "published": "2026-05-28T11:30:00+00:00",
-          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "JINX-0164"
-            ],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Apple iOS/macOS"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Apple iOS/macOS": "target"
             },
             "weak_tags": {
               "products": []
@@ -5443,255 +5494,6 @@
       ]
     },
     {
-      "cluster_id": "6965af22d4",
-      "priority_score": 10,
-      "member_count": 2,
-      "corroborating_source_count": 2,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education",
-          "financial_services",
-          "healthcare"
-        ],
-        "affected_products": [
-          "Microsoft Defender"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
-        "published": "2026-05-28T15:00:00+00:00",
-        "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Tags Elevation of privilege Extortion Human-operated ransomware Lateral movement Ransomware Ransomware as a service Storm Windows Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Ransomware that combines robust encryption with rapid lateral movement significantly increases the risk and impact of an attack. The Gentlemen ransomware is a ransomware-as-a-service (RaaS) threat that is distinguished by its ability to pair its strong per-file encryption with an aggressive self-propagation capability designed to enable broad network compromise. In addition to using per-file ephemeral Curve25519 keys with XChaCha20 stream cipher, The Gentlemen ransomware attempts to spread across an environment using series of simultaneous, distinct lateral movement methods, increasing the likelihood of widespread impact once initial access is achieved. Understand the threat Protect against ransomware and extortion activity › Microsoft Threat Intelligence tracks the operators behind the ransomware as Storm-2697, a financially motivated threat actor that manages the RaaS platform known as “The Gentlemen” while affiliates carry out attacks. Emerging around mid-2025 , The Gentlemen initially started as a closed ransomware group then began offering its RaaS to affiliates in September 2025 . More recently, The Gentlemen operators established an official partnership with BreachForums, a popular cybercriminal marketplace, to recruit affiliates including penetration testers and initial access brokers. Given that The Gentlemen is already a widely adopted RaaS platform, this partnership may lead to increased activity as the program becomes accessible to a broader pool of threat actors. The operators behind the ransomware use double extortion tactics, encrypting data while also exfiltrating sensitive information to pressure victims through the threat of public release if the ransom is not paid. The ransomware is written in Go and obfuscated with Garble to target the Windows environment. Microsoft has observed The Gentlemen ransomware impacting organizations across education, transportation, healthcare, and financial industries in North America, South America, Europe, Africa, and Asia. In this blog, we present a detailed analysis of the Gentlemen ransomware encryptor, including its execution flow, defense evasion behaviors, encryption design, and lateral movement techniques. This research is intended to provide defenders, incident responders, and the broader security community with a better understanding of how the threat operates, from initial argument parsing and defense evasion, through its file encryption internals, to the full lateral movement that enables it to propagate across the network. We also provide mitigation guidance, Microsoft Defender detections, hunting queries, and indicators of compromise (IOCs) to help organizations defend against this threat and similar ransomware activity. Pre-encryption Command-line argument processing The ransomware operator can control The Gentlemen encryptor through command-line arguments. A password is required for execution, and optional arguments allow the operator to specify encryption scope, speed, lateral movement, and post-encryption behaviors. The binary accepts the following arguments: Command-line argument Description -- password <password> Required access password (build-specific) -- path <list of paths> Comma-separated list of target directories or file paths -- T <minutes> Delay in minutes before file encryption begins -- silent Silent mode. Disable renaming files, changing timestamps after encryption, and setting the desktop wallpaper -- system Encrypt files as SYSTEM, targeting only local drives -- shares Encrypt only mapped network drives and available Universal Naming Conv",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "healthcare",
-            "financial_services",
-            "education"
-          ],
-          "affected_products": [
-            "Microsoft Defender"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft Defender": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
-          "published": "2026-05-28T15:00:00+00:00",
-          "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "healthcare",
-              "financial_services",
-              "education"
-            ],
-            "affected_products": [
-              "Microsoft Defender"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft Defender": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Microsoft Threat Intelligence",
-          "cohort": "threat_research_primary",
-          "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
-          "published": "2026-05-28T15:00:00+00:00",
-          "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "34bd67b0f5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "cryptojacking",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services"
-        ],
-        "affected_products": [
-          "ScreenConnect"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Microsoft Security Blog",
-        "cohort": "threat_research_primary",
-        "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
-        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
-        "published": "2026-05-26T21:35:34+00:00",
-        "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities appeared first on Microsoft Security Blog .",
-        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Microsoft Defender Experts identified an active cryptojacking campaign in which malicious download sites are surfaced not only through traditional search engine poisoning, but also through AI chatbot interactions. This emerging delivery technique extends social engineering beyond conventional search results and increases the visibility of malicious software recommendations. The campaign impersonates trusted system utilities including CrystalDiskInfo, HWMonitor, Display Driver Uninstaller, FurMark, K-Lite Codec Pack, and PDFgear to target users likely to own high-performance GPUs. Rather than maximizing infection volume, the threat actor appears focused on compromising systems with higher mining value. Beyond cryptocurrency mining, the campaign establishes persistent remote access through abused ScreenConnect deployments that could later support data theft, lateral movement, or ransomware activity. This combination of AI-assisted delivery, software impersonation, and persistent access highlights how threat actors are adapting social engineering and monetization strategies to modern user behavior. Microsoft Defender detected and blocked activity associated with this campaign. Organizations should enable cloud-delivered protection, run EDR in block mode, and enable attack surface reduction rules to reduce risk. Attack chain overview Cryptocurrency mining campaigns have long favored volume over precision, compromising as many hosts as possible to extract marginal value from each. The campaign described in this blog takes a more deliberate approach: its operators have built a targeting and monetization strategy engineered from the ground up to maximize GPU mining yield per compromised device. Initial access The campaign begins when users search for common system utility and hardware-monitoring software on a search engine. The users are then presented with manipulated results that direct them to attacker-controlled lookalike sites. The operator runs a coordinated SEO poisoning operation that simultaneously masquerades as a broad portfolio of trusted utility brands, where each one serves the same downstream payload chain. The campaign abuses multiple trusted brands, including: CrystalDiskInfo, HWMonitor, Display Driver Uninstaller, FurMark, K-Lite Codec Pack, and PDFgear. The selection of these brands is deliberate. Each application is favored by PC enthusiasts and hardware-focused users, precisely the audience most likely to own a high-performance discrete GPU, the hardware that makes GPU cryptocurrency mining economically viable. Screenshot of search engine results showing a malicious source of hwmonitor. In April 2026, we observed reports indicating that users may have been directed to malicious domains through interactions with large language model (LLM)–based tools. In these cases, users querying AI chatbots for software download recommendations were presented with links to attacker‑controlled domains within generated responses. Analysis of VirusTotal scan associated with these domains further identified traffic metadata referencing chatbot interactions as a potential referral context. While this behavior is based on observed patterns and correlated data sources, it’s consistent with emerging techniques in AI search result poisoning, representing an extension of traditional SEO poisoning beyond conventional search engines. VirusTotal scan results showing traffic metadata associated with attacker-controlled domains, corroborating observed AI-assisted delivery patterns in this campaign. Example of an LLM-generated response observed to contain links to domains later identified as malicious and associated with this campaign. This example is illustrative and does not indicate a systemic issue with any specific AI service. Each fake site presents a download button that cla",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "cryptojacking"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure"
-          ],
-          "affected_products": [
-            "ScreenConnect"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "ScreenConnect": "target",
-            "Microsoft Defender": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Microsoft Defender",
-                "mention",
-                0.28
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Microsoft Security Blog",
-          "cohort": "threat_research_primary",
-          "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
-          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
-          "published": "2026-05-26T21:35:34+00:00",
-          "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities appeared first on Microsoft Security Blog .",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "cryptojacking"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure"
-            ],
-            "affected_products": [
-              "ScreenConnect"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "ScreenConnect": "target",
-              "Microsoft Defender": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Microsoft Defender",
-                  "mention",
-                  0.28
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
@@ -5973,6 +5775,255 @@
       ]
     },
     {
+      "cluster_id": "6965af22d4",
+      "priority_score": 10,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "education",
+          "financial_services",
+          "healthcare"
+        ],
+        "affected_products": [
+          "Microsoft Defender"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+        "published": "2026-05-28T15:00:00+00:00",
+        "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Tags Elevation of privilege Extortion Human-operated ransomware Lateral movement Ransomware Ransomware as a service Storm Windows Threats intelligence Cyberattacker techniques, tools, and infrastructure Cybercrime Ransomware Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Topics Threat intelligence Ransomware that combines robust encryption with rapid lateral movement significantly increases the risk and impact of an attack. The Gentlemen ransomware is a ransomware-as-a-service (RaaS) threat that is distinguished by its ability to pair its strong per-file encryption with an aggressive self-propagation capability designed to enable broad network compromise. In addition to using per-file ephemeral Curve25519 keys with XChaCha20 stream cipher, The Gentlemen ransomware attempts to spread across an environment using series of simultaneous, distinct lateral movement methods, increasing the likelihood of widespread impact once initial access is achieved. Understand the threat Protect against ransomware and extortion activity › Microsoft Threat Intelligence tracks the operators behind the ransomware as Storm-2697, a financially motivated threat actor that manages the RaaS platform known as “The Gentlemen” while affiliates carry out attacks. Emerging around mid-2025 , The Gentlemen initially started as a closed ransomware group then began offering its RaaS to affiliates in September 2025 . More recently, The Gentlemen operators established an official partnership with BreachForums, a popular cybercriminal marketplace, to recruit affiliates including penetration testers and initial access brokers. Given that The Gentlemen is already a widely adopted RaaS platform, this partnership may lead to increased activity as the program becomes accessible to a broader pool of threat actors. The operators behind the ransomware use double extortion tactics, encrypting data while also exfiltrating sensitive information to pressure victims through the threat of public release if the ransom is not paid. The ransomware is written in Go and obfuscated with Garble to target the Windows environment. Microsoft has observed The Gentlemen ransomware impacting organizations across education, transportation, healthcare, and financial industries in North America, South America, Europe, Africa, and Asia. In this blog, we present a detailed analysis of the Gentlemen ransomware encryptor, including its execution flow, defense evasion behaviors, encryption design, and lateral movement techniques. This research is intended to provide defenders, incident responders, and the broader security community with a better understanding of how the threat operates, from initial argument parsing and defense evasion, through its file encryption internals, to the full lateral movement that enables it to propagate across the network. We also provide mitigation guidance, Microsoft Defender detections, hunting queries, and indicators of compromise (IOCs) to help organizations defend against this threat and similar ransomware activity. Pre-encryption Command-line argument processing The ransomware operator can control The Gentlemen encryptor through command-line arguments. A password is required for execution, and optional arguments allow the operator to specify encryption scope, speed, lateral movement, and post-encryption behaviors. The binary accepts the following arguments: Command-line argument Description -- password <password> Required access password (build-specific) -- path <list of paths> Comma-separated list of target directories or file paths -- T <minutes> Delay in minutes before file encryption begins -- silent Silent mode. Disable renaming files, changing timestamps after encryption, and setting the desktop wallpaper -- system Encrypt files as SYSTEM, targeting only local drives -- shares Encrypt only mapped network drives and available Universal Naming Conv",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "healthcare",
+            "financial_services",
+            "education"
+          ],
+          "affected_products": [
+            "Microsoft Defender"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft Defender": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+          "published": "2026-05-28T15:00:00+00:00",
+          "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "healthcare",
+              "financial_services",
+              "education"
+            ],
+            "affected_products": [
+              "Microsoft Defender"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft Defender": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Microsoft Threat Intelligence",
+          "cohort": "threat_research_primary",
+          "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
+          "published": "2026-05-28T15:00:00+00:00",
+          "summary": "Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "34bd67b0f5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "cryptojacking",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services"
+        ],
+        "affected_products": [
+          "ScreenConnect"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Microsoft Security Blog",
+        "cohort": "threat_research_primary",
+        "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+        "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+        "published": "2026-05-26T21:35:34+00:00",
+        "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities appeared first on Microsoft Security Blog .",
+        "full_body": "Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Microsoft Defender Experts identified an active cryptojacking campaign in which malicious download sites are surfaced not only through traditional search engine poisoning, but also through AI chatbot interactions. This emerging delivery technique extends social engineering beyond conventional search results and increases the visibility of malicious software recommendations. The campaign impersonates trusted system utilities including CrystalDiskInfo, HWMonitor, Display Driver Uninstaller, FurMark, K-Lite Codec Pack, and PDFgear to target users likely to own high-performance GPUs. Rather than maximizing infection volume, the threat actor appears focused on compromising systems with higher mining value. Beyond cryptocurrency mining, the campaign establishes persistent remote access through abused ScreenConnect deployments that could later support data theft, lateral movement, or ransomware activity. This combination of AI-assisted delivery, software impersonation, and persistent access highlights how threat actors are adapting social engineering and monetization strategies to modern user behavior. Microsoft Defender detected and blocked activity associated with this campaign. Organizations should enable cloud-delivered protection, run EDR in block mode, and enable attack surface reduction rules to reduce risk. Attack chain overview Cryptocurrency mining campaigns have long favored volume over precision, compromising as many hosts as possible to extract marginal value from each. The campaign described in this blog takes a more deliberate approach: its operators have built a targeting and monetization strategy engineered from the ground up to maximize GPU mining yield per compromised device. Initial access The campaign begins when users search for common system utility and hardware-monitoring software on a search engine. The users are then presented with manipulated results that direct them to attacker-controlled lookalike sites. The operator runs a coordinated SEO poisoning operation that simultaneously masquerades as a broad portfolio of trusted utility brands, where each one serves the same downstream payload chain. The campaign abuses multiple trusted brands, including: CrystalDiskInfo, HWMonitor, Display Driver Uninstaller, FurMark, K-Lite Codec Pack, and PDFgear. The selection of these brands is deliberate. Each application is favored by PC enthusiasts and hardware-focused users, precisely the audience most likely to own a high-performance discrete GPU, the hardware that makes GPU cryptocurrency mining economically viable. Screenshot of search engine results showing a malicious source of hwmonitor. In April 2026, we observed reports indicating that users may have been directed to malicious domains through interactions with large language model (LLM)–based tools. In these cases, users querying AI chatbots for software download recommendations were presented with links to attacker‑controlled domains within generated responses. Analysis of VirusTotal scan associated with these domains further identified traffic metadata referencing chatbot interactions as a potential referral context. While this behavior is based on observed patterns and correlated data sources, it’s consistent with emerging techniques in AI search result poisoning, representing an extension of traditional SEO poisoning beyond conventional search engines. VirusTotal scan results showing traffic metadata associated with attacker-controlled domains, corroborating observed AI-assisted delivery patterns in this campaign. Example of an LLM-generated response observed to contain links to domains later identified as malicious and associated with this campaign. This example is illustrative and does not indicate a systemic issue with any specific AI service. Each fake site presents a download button that cla",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "cryptojacking"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "ScreenConnect"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "ScreenConnect": "target",
+            "Microsoft Defender": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Microsoft Defender",
+                "mention",
+                0.28
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Microsoft Security Blog",
+          "cohort": "threat_research_primary",
+          "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+          "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+          "published": "2026-05-26T21:35:34+00:00",
+          "summary": "Microsoft exposes a cryptojacking campaign using SEO poisoning and ScreenConnect to target high-performance PCs, with malicious sites also surfaced through AI chatbots. The post From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities appeared first on Microsoft Security Blog .",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "cryptojacking"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "ScreenConnect"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "ScreenConnect": "target",
+              "Microsoft Defender": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Microsoft Defender",
+                  "mention",
+                  0.28
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "0c8abca5e9",
       "priority_score": 10,
       "member_count": 1,
@@ -6127,6 +6178,133 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "080c3ca6d1",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "Kimsuky",
+          "Lazarus",
+          "UNC5221"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Ivanti"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+        "published": "2026-05-28T08:45:00+00:00",
+        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+        "full_body": "ESET Research Threat Reports ESET APT Activity Report Q4 2025–Q1 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026 Jean-Ian Boutin 28 May 2026 • , 4 min. read ESET APT Activity Report Q4 2025–Q1 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers from October 2025 through March 2026. The operations highlighted here are representative of the broader threat landscape we investigated during this period, illustrating key trends and developments, and contain only a fraction of the cybersecurity intelligence data provided to customers of ESET Threat Intelligence APT Reports. During the monitored time frame, China-aligned threat actors remained highly active worldwide, conducting espionage campaigns shaped in part by geopolitical developments affecting Beijing’s economic and security interests. Following the US military operation in Venezuela and amid continuing instability in the Gulf region, we spotted signs that China-aligned groups were being mobilized to improve Beijing’s visibility into maritime, energy, and political developments abroad. In one notable case, FamousSparrow targeted a Venezuelan governmental entity connected to maritime affairs, likely to monitor the resilience of oil shipments after the US intervention. We also noticed SteppeDriver targeting a Syrian governmental network, activity that may reflect both Chinese commercial interest in Syria’s reconstruction projects and security concerns surrounding Uyghur fighters present in that country. On VirusTotal we found PhiliKit, a new implant that we assess to be part of UNC5221’s SPAWN toolset targeting Ivanti VPN appliances, while our tracking of NegativeGlimmer revealed the group compromising governmental entities in Cambodia and Panama, as well as an AI and robotics company in South Korea. The latter targeting in South Korea aligns with Beijing’s enduring interest in strategic technologies prioritized under the Made in China 2025 industrial development policy. The war in Iran that began in late February 2026 was the defining event for Iran-aligned activity during this period. Paradoxically, the conflict coincided with a decline in activity from established Iran-aligned APT groups in our telemetry, most likely because internet restrictions imposed by the Iranian regime hindered their ability to operate effectively. At the same time, this environment appears to have favored the mobilization of proxy and hacktivist actors targeting Israel, the United States, and other states seen as hostile to Tehran. We also documented an unusual spike in activity against Israeli targets that we could not confidently link to previously known groups. Two unattributed activity clusters, Rusty Boots and MoKhargosh, demonstrated both espionage capabilities and destructive potential – including deployment of a bootkit-style wiper and retaining destructive tooling for later use – whereas a third, MOØN Badr, appears to have been limited to targeted espionage. North Korea-aligned threat actors remained active on several fronts. Multiple groups continued targeting developers and the cryptocurrency ecosystem with social engineering schemes that can yield both direct financial gain and opportunities for software supply-chain compromise. Lazarus and DeceptiveDevelopment continued to invest in long-term relationship building with high-value targets, while Kimsuky and Konni favored quicker, more opportunistic attacks. We also uncovered the reemergence of Andariel in South Korea, where the group deployed TigerRAT and attempted to spread Rook ransomware within an engineering company that appears to manufacture equipment relevant to liquid hydrogen handling and the nuclear industry – technologies that are obviously of interest to Pyongyang’s ballistic and nuclear ambitions. We also tracked the continuing evolution of Lazarus campaigns, including Operation DreamJob",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Lazarus",
+            "Kimsuky",
+            "UNC5221"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Ivanti"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Ivanti": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+          "published": "2026-05-28T08:45:00+00:00",
+          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Lazarus",
+              "Kimsuky",
+              "UNC5221"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Ivanti"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Ivanti": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6410,87 +6588,6 @@
             "role_map": {
               "cPanel": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "080c3ca6d1",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-        "published": "2026-05-28T08:45:00+00:00",
-        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-          "published": "2026-05-28T08:45:00+00:00",
-          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8669,7 +8766,8 @@
       "theme_key": "android",
       "dominant_features": {
         "affected_industries": [
-          "government"
+          "government",
+          "financial_services"
         ],
         "affected_products": [
           "Android"
@@ -8677,7 +8775,7 @@
       },
       "cluster_count": 3,
       "article_count": 7,
-      "cohesion": 0.2,
+      "cohesion": 0.27,
       "shared_strong_signals": [
         "Android"
       ],
@@ -8833,7 +8931,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 8,
+      "article_count": 9,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -8851,6 +8949,7 @@
         "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
         "https://www.reddit.com/r/blueteamsec/comments/1tqvozq/authenticated_rce_via_argument_injection_in_gogs/",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
+        "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
         "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/"
       ]
@@ -9146,16 +9245,16 @@
           "first_published": "2026-05-27T22:00:46+00:00"
         },
         {
-          "value": "Akira",
-          "cluster_id": "38ba01df8a",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-27T21:14:03+00:00"
-        },
-        {
           "value": "JINX-0164",
           "cluster_id": "64f7b4c761",
           "first_source": "Wiz Research",
           "first_published": "2026-05-27T13:52:45+00:00"
+        },
+        {
+          "value": "Akira",
+          "cluster_id": "38ba01df8a",
+          "first_source": "SANS Internet Storm Center",
+          "first_published": "2026-05-27T21:14:03+00:00"
         },
         {
           "value": "BlackCat/ALPHV",
@@ -9174,6 +9273,24 @@
           "cluster_id": "9995e00c02",
           "first_source": "Unit 42",
           "first_published": "2026-05-28T10:00:53+00:00"
+        },
+        {
+          "value": "Kimsuky",
+          "cluster_id": "080c3ca6d1",
+          "first_source": "ESET WeLiveSecurity",
+          "first_published": "2026-05-28T08:45:00+00:00"
+        },
+        {
+          "value": "Lazarus",
+          "cluster_id": "080c3ca6d1",
+          "first_source": "ESET WeLiveSecurity",
+          "first_published": "2026-05-28T08:45:00+00:00"
+        },
+        {
+          "value": "UNC5221",
+          "cluster_id": "080c3ca6d1",
+          "first_source": "ESET WeLiveSecurity",
+          "first_published": "2026-05-28T08:45:00+00:00"
         },
         {
           "value": "Play",
