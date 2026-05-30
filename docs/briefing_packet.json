@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T19:27:44.642866+00:00",
+  "generated_at": "2026-05-30T21:08:45.700285+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 444,
-  "total_clusters_raw": 165,
+  "total_items_in_window": 445,
+  "total_clusters_raw": 163,
   "total_clusters_in_packet": 62,
-  "dropped_low_score": 103,
+  "dropped_low_score": 101,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -88,13 +88,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -109,13 +102,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -123,15 +109,36 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -144,20 +151,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -165,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,18 +179,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 10,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -214,19 +200,26 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -242,19 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
       "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -263,12 +249,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 1
+    },
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -277,19 +270,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -312,19 +305,12 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 5
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -333,11 +319,32 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -347,19 +354,26 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -373,20 +387,6 @@
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
-    },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 2
     },
     "Chainalysis": {
@@ -403,26 +403,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 21
+      "item_count": 5,
+      "in_window_count": 5
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -431,12 +417,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -445,19 +431,19 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 22
+    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -466,15 +452,15 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -487,9 +473,16 @@
       "item_count": 50,
       "in_window_count": 22
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
@@ -500,6 +493,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -515,13 +515,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -536,19 +529,19 @@
       "item_count": 50,
       "in_window_count": 32
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 21
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -564,33 +557,19 @@
       "item_count": 25,
       "in_window_count": 23
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -599,12 +578,19 @@
       "item_count": 25,
       "in_window_count": 11
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 24
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -612,6 +598,20 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
+    },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 15
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2294,108 +2294,6 @@
       ]
     },
     {
-      "cluster_id": "7ba1375f23",
-      "priority_score": 18,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "This month in security with Tony Anscombe – May 2026 edition",
-        "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
-        "published": "2026-05-29T07:30:00+00:00",
-        "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
-        "full_body": "Video This month in security with Tony Anscombe – May 2026 edition In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit Editor 29 May 2026 It’s that time of month when ESET Chief Security Evangelist Tony Anscombe looks back at some of the top cybersecurity stories that made the news over the past 30 or so days and offers insights that the they may hold for your own cyber-defenses. Here's some of what caught Tony’s attention in May 2026: Poland’s Internal Security Agency (ABW) has released information about cyber-intrusions into ICS (industrial control systems) at five water treatment facilities in the country in 2024 and 2025. The two main attack vectors – weak passwords and systems exposed directly to the internet – were the same as those used in attacks against the Polish energy sector that leveraged DynoWiper described by ESET researchers here . An unknown group recently exfiltrated troves of data from the government of Mexico in what has been described as one of the world's first truly AI-directed attacks, but the subsequent attack against a water utility plant failed to bridge the gap from IT to OT systems, Google has identified what it believes is the first zero-day exploit developed using AI Americans lost more than $388 million last year to scams using cryptocurrency kiosks, according to the FBI . What are some key mitigation steps against attacks targeting OT systems? How do scams crypto ATMs work and how to stay safe? Learn this and more in Tony's video and be sure to check out the April 2026 edition of Tony's monthly security news roundup for more insights. Let us keep you up to date Sign up for our newsletters Related Articles Video This month in security with Tony Anscombe – April 2026 edition Video This month in security with Tony Anscombe – April 2026 edition Video This month in security with Tony Anscombe – March 2026 edition Video This month in security with Tony Anscombe – March 2026 edition Video RSAC 2026 wrap-up – Week in security with Tony Anscombe Video RSAC 2026 wrap-up – Week in security with Tony Anscombe Similar Articles ESET research DynoWiper update: Technical analysis and attribution ESET research PromptSpy ushers in the era of Android threats using GenAI Share Article Discussion",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "This month in security with Tony Anscombe – May 2026 edition",
-          "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
-          "published": "2026-05-29T07:30:00+00:00",
-          "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bd3bda8915",
       "priority_score": 18,
       "member_count": 1,
@@ -2486,6 +2384,99 @@
               "WordPress": "target",
               "GitHub": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7ba1375f23",
+      "priority_score": 18,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "This month in security with Tony Anscombe – May 2026 edition",
+        "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
+        "published": "2026-05-29T07:30:00+00:00",
+        "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
+        "full_body": "",
+        "fetch_status": "fetch_failed:ReadTimeout",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "This month in security with Tony Anscombe – May 2026 edition",
+          "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-may-2026/",
+          "published": "2026-05-29T07:30:00+00:00",
+          "summary": "In this roundup, Tony looks at attacks against Polish water treatment facilities, how AI-directed attacks failed in Mexico, and what Google believes is the first AI-generated zero-day exploit",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -2972,356 +2963,6 @@
       ]
     },
     {
-      "cluster_id": "89bb4c511f",
-      "priority_score": 16,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-3055",
-        "CVE-2026-43284",
-        "CVE-2026-43500",
-        "Citrix"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Citrix",
-          "Linux kernel",
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2022-28368",
-          "CVE-2026-3055",
-          "CVE-2026-4257",
-          "CVE-2026-43284",
-          "CVE-2026-43500"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Rapid7",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Metasploit Wrap Up 05/29/2026",
-        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
-        "published": "2026-05-29T19:34:41+00:00",
-        "summary": "More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by ",
-        "full_body": "Back to Blog Products and Tools Metasploit Wrap Up 05/29/2026 Spencer McIntyre May 29, 2026 | Last updated on May 29, 2026 | xx min read More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by h00die Path: scanner/http/ollama_info Description: Adds an ollama LLM auxiliary scanner module to enumerate which LLMs are installed and details about them. xfrm-ESP Page-Cache Write via CVE-2026-43284 Authors: Giovanni Heward and Hyunwoo Kim Type: Exploit Pull request: #21434 contributed by offsecguy Path: linux/local/cve_2026_43284_dirty_frag AttackerKB reference: CVE-2026-43284 Description: Adds two new local privilege escalation modules for the \"DirtyFrag\" Linux kernel vulnerabilities. The first targets CVE-2026-43284, a page-cache write vulnerability in the xfrm/ESP fragmentation path. The second targets CVE-2026-43500, a page-cache corruption vulnerability in the RxRPC/rxkad subsystem. Dompdf RCE via Malicious Font Caching (CVE-2022-28368) Authors: Adithya Pawar, Fabian Bräunlein, Maximilian Kirchmeier, msutovsky-r7, and rvizx Type: Exploit Pull request: #21155 contributed by Adithyadspawar Path: multi/http/dompdf_rce_cve_2022_28368 AttackerKB reference: CVE-2022-28368 Description: Adds a new exploit module for CVE-2022-28368, an unauthenticated remote code execution vulnerability in dompdf prior to 1.2.1. When remote resource loading is enabled, dompdf preserves the .php extension when caching fonts fetched via CSS @font-face rules, allowing an attacker to drop a PHP webshell in the font cache directory and trigger it with a follow-up request. Supsystic Contact Form Wordpress Plugin SSTI RCE Authors: Azril Fathoni and bootstrapbool [email protected] Type: Exploit Pull request: #21267 contributed by bootstrapbool Path: multi/http/wp_plugin_supsystic_contact_form_rce AttackerKB reference: CVE-2026-4257 Description: This adds a module to exploit CVE-2026-4257 resulting in remote code execution on Wordpress sites with the Contact Form by Supsystic plugin. Contact Form plugin versions 1.7.36 and before are vulnerable. Bugs fixed (4) #21390 from zeroSteiner - This refines our smb_to_ldap relay attack reporting by demoting anonymous authentication messages from print_good to print_status, reflecting that anonymous sessions do not grant additional privileges. It also skips the #on_relay_success callback for these sessions to prevent modules from needlessly acting on unprivileged access. #21443 from jheysel-r7 - This bumps the Metasploit-credentials gem to address an issue in how Kerberos hashes were being handled. #21485 from adfoster-r7 - Fixes MCP server test failure. #21487 from adfoster-r7 - Updates to a newer version of RubyZip to support Zip files larger than 4GB. Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4.134...6.4.135 Full diff 6.4.134...6.4.135 If you are a git user",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Linux kernel",
-            "WordPress",
-            "Citrix"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-43284",
-            "CVE-2026-43500",
-            "CVE-2026-3055",
-            "CVE-2022-28368",
-            "CVE-2026-4257"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Linux kernel": "target",
-            "WordPress": "target",
-            "Citrix": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Rapid7",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Metasploit Wrap Up 05/29/2026",
-          "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
-          "published": "2026-05-29T19:34:41+00:00",
-          "summary": "More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by ",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Linux kernel",
-              "WordPress",
-              "Citrix"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-43284",
-              "CVE-2026-43500",
-              "CVE-2026-3055",
-              "CVE-2022-28368",
-              "CVE-2026-4257"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Linux kernel": "target",
-              "WordPress": "target",
-              "Citrix": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "bb2f04ae6d",
-      "priority_score": 16,
-      "member_count": 5,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "Android"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [
-          "Android"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research",
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
-        "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
-        "published": "2026-05-26T08:50:00+00:00",
-        "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
-        "full_body": "Malware BTMOB: A stealthy RAT burrowing deep into Android devices The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise Daniel Cunha Barbosa 26 May 2026 • , 6 min. read Our recent review of threat detections in Brazil surfaced BTMOB, an Android remote access trojan (RAT) that is less notable for detection volume than for the damage it can wreak. The combination of phishing-led delivery, ready-made app-building tooling and device takeover capabilities makes BTMOB a threat to watch well beyond Brazil or Latin America. BTMOB at a glance First described in February 2025, BTMOB has evolved from the SpySolr malware. Unlike banking trojans, which “only” aim to steal people’s financial credentials or intercept their financial transactions, BTMOB gives adversaries broader options: exfiltrate a range of sensitive data, capture screenshots and record activity on the device, and ultimately take remote control of it. The RAT is also sold with an APK builder interface, allowing anyone to generate new payloads and adapt phishing lures for specific regions at a rapid clip – and without writing any code. Figure 1. BTMOB APK creation tool How does BTMOB spread? Unsurprisingly, everything starts with ordinary social engineering. Operators send victims to phishing websites that pose as streaming services, cryptocurrency mining platforms or other familiar online services. From there, victims are pushed toward fake app stores that mimic legitimate repositories and prompt them to install a malicious APK. Bad actors have also been spotted tailoring their lures to specific regions. Once installed, BTMOB seeks extensive access to the device. As is common these days, it abuses Android Accessibility Services to gain elevated permissions and grant itself further system access without additional user interaction. Figure 2. Fake app store and malicious apps. Source: @Merlax_ ) Since it’s built for the malware-as-a-service (MaaS) economy, BTMOB is marketed as a software product, including through a promotional page on the open web that funnels prospective buyers to a Telegram operator. The sales pipeline extends across social media platforms, with a number of accounts on X and Instagram actively peddling the tool. Figure 3. BTMOB offer on the surface web Figure 4. X profile linked to the malware Once someone purchases the malicious kit, they can adapt its features, including the phishing lures so they impersonate the brand or agency most likely to lure victims in any given country. For example, researchers Johnk3r and Merl recently spotted campaigns that spread BTMOB while impersonating Argentina’s tax and customs authorities. Figure 5. BTMOB impersonating an Argentine government agency. (Source: Germán Fernández Bacian ) Market dynamics and detection challenges Even where developers initially restrict the tool to paying customers, the economics remain favorable for attackers. A reported $5,000 lifetime license plus a monthly support fee is low compared with the returns a successful fraud operation can generate. In addition, the MaaS model also lowers the barrier for less sophisticated adversaries. In January 2026, a dark web forum claimed to offer BTMOB-related files for free download. The forum later went offline, and our search didn’t recover the payload(s), but the episode points to a familiar risk with commercial malware: access rarely stays contained forever and the tool can move into secondary markets through resale, barter or sharing inside closed groups. Competing malware families can also copy some elements that make payload customization and campaign management easier for less skilled criminals. As new variants can be generated quickly, defenders should expect rapid payload turnover rather than a stable set of threats. ESET products detect the primary tool as MSIL/BtmobRat, while related Android variants trigger detections such as Android/Spy.Agent.EED, Android/Spy.Agent.EIJ an",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "government"
-          ],
-          "affected_products": [
-            "Android"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Android": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
-          "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
-          "published": "2026-05-26T08:50:00+00:00",
-          "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "government"
-            ],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "BTMOB Android malware service generates custom phishing payloads",
-          "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-          "published": "2026-05-28T21:10:11+00:00",
-          "summary": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
-          "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-          "published": "2026-05-27T16:10:21+00:00",
-          "summary": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively. That's according to new findings from WatchGuard and ESET, which have observed the two malware families being used to single out companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. The",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Decompiled an app, found a bunch of secrets, what now?",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tqw53i/decompiled_an_app_found_a_bunch_of_secrets_what/",
-          "published": "2026-05-29T09:10:06+00:00",
-          "summary": "Hi everyone, first of all, I do have a background in devops and fullstack development but I've never had any links to cyber security outside of fixing vulnerabilities/applying patches. I recently decided I wanted to take a look under the hood of some mobile apps to see how they're build. Purely out of curiosity. So I've randomly selected one of the android apps I frequently use, decompiled it and looked through the source code. While doing so I came across an XML file containing about a dozen different api keys and other secrets. Now, while I was curious what these are for, a bunch of alarm bells went off in my head telling me to not touch them. So I closed the files and went on with my life, but I can't stop repeatedly thinking to myself \"the moral thing would be disclosing these findings to the developers. Then it's their problem to deal with.\" As far as I'm aware decompiling an app on my device, even if not given explicit permission to do so, is not illegal, however I don't want to ",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/msp",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Real Roboshadow reviews",
-          "link": "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/",
-          "published": "2026-05-28T19:59:09+00:00",
-          "summary": "I’m evaluating RoboShadow and trying to understand how MSPs are using it in the real world. Is it mainly a cyber hygiene / vulnerability reporting tool, or are people using it as a core part of their managed security stack? A few specific questions: How useful and accurate has the data been? Is it mostly surfacing issues you already knew about, or is it finding meaningful gaps? Has it replaced anything for you, such as CyberCNS / ConnectSecure, Network Detective, Nessus basic vulnerability scanning, or custom scripts? How much of the value is in the reporting and MSP workflow versus the actual scan capability? Android app seems half baked, am i supposed to sign in and have the scan data from android app in dashboard? UI is confusing. Are people relying on this for patching? Any concerns with giving it tenant permissions or deploying another agent/app into client environments? I see a lot of changes announced. Have rapid product changes introduced any stability or security concerns? My ",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Android": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1a2336126b",
       "priority_score": 16,
       "member_count": 4,
@@ -3447,6 +3088,215 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "bb2f04ae6d",
+      "priority_score": 16,
+      "member_count": 5,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "Android"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Android"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
+        "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
+        "published": "2026-05-26T08:50:00+00:00",
+        "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
+        "full_body": "",
+        "fetch_status": "fetch_failed:ReadTimeout",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Android"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Android": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "BTMOB: A stealthy RAT burrowing deep into Android devices",
+          "link": "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
+          "published": "2026-05-26T08:50:00+00:00",
+          "summary": "The malware pairs remote access capabilities with ready-made campaign tools, lowering the barrier for full device compromise",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "BTMOB Android malware service generates custom phishing payloads",
+          "link": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
+          "published": "2026-05-28T21:10:11+00:00",
+          "summary": "An Android remote access trojan named BTMOB is offered to cybercriminals with a builder interface for generating malware payloads tailored to phishing lures. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+          "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+          "published": "2026-05-27T16:10:21+00:00",
+          "summary": "Latin America and Europe become the target of two banking trojan campaigns that are designed to infect Windows and Android devices with Grandoreiro and BTMOB malware, respectively. That's according to new findings from WatchGuard and ESET, which have observed the two malware families being used to single out companies in Spain, Portugal, and Mexico, as well as mobile users in Brazil. The",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/cybersecurity",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Question of android malware",
+          "link": "https://www.reddit.com/r/cybersecurity/comments/1tsbkb4/question_of_android_malware/",
+          "published": "2026-05-30T21:07:59+00:00",
+          "summary": "I had malware on my s23u that a factory reset got rid of (non rooted and stock u that has one ui8, when I got the malware, I factory reset the phone, however I'm still having mobile connection issues inside my apartment and at my work (others say they have the same issue), but until I had the malware, I had no connection issues. I can recieve and send texts however when it comes to calls, i can only do it outside now. Should I spend the money to have samsung look at it? submitted by /u/yuriwolfevt [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Android": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/msp",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Real Roboshadow reviews",
+          "link": "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/",
+          "published": "2026-05-28T19:59:09+00:00",
+          "summary": "I’m evaluating RoboShadow and trying to understand how MSPs are using it in the real world. Is it mainly a cyber hygiene / vulnerability reporting tool, or are people using it as a core part of their managed security stack? A few specific questions: How useful and accurate has the data been? Is it mostly surfacing issues you already knew about, or is it finding meaningful gaps? Has it replaced anything for you, such as CyberCNS / ConnectSecure, Network Detective, Nessus basic vulnerability scanning, or custom scripts? How much of the value is in the reporting and MSP workflow versus the actual scan capability? Android app seems half baked, am i supposed to sign in and have the scan data from android app in dashboard? UI is confusing. Are people relying on this for patching? Any concerns with giving it tenant permissions or deploying another agent/app into client environments? I see a lot of changes announced. Have rapid product changes introduced any stability or security concerns? My ",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Android": "target"
             },
             "weak_tags": {
               "products": []
@@ -3681,6 +3531,136 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Linux kernel": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "89bb4c511f",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-3055",
+        "CVE-2026-43284",
+        "CVE-2026-43500",
+        "Citrix"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Citrix",
+          "Linux kernel",
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2022-28368",
+          "CVE-2026-3055",
+          "CVE-2026-4257",
+          "CVE-2026-43284",
+          "CVE-2026-43500"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Rapid7",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Metasploit Wrap Up 05/29/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
+        "published": "2026-05-29T19:34:41+00:00",
+        "summary": "More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by ",
+        "full_body": "Back to Blog Products and Tools Metasploit Wrap Up 05/29/2026 Spencer McIntyre May 29, 2026 | Last updated on May 29, 2026 | xx min read More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by h00die Path: scanner/http/ollama_info Description: Adds an ollama LLM auxiliary scanner module to enumerate which LLMs are installed and details about them. xfrm-ESP Page-Cache Write via CVE-2026-43284 Authors: Giovanni Heward and Hyunwoo Kim Type: Exploit Pull request: #21434 contributed by offsecguy Path: linux/local/cve_2026_43284_dirty_frag AttackerKB reference: CVE-2026-43284 Description: Adds two new local privilege escalation modules for the \"DirtyFrag\" Linux kernel vulnerabilities. The first targets CVE-2026-43284, a page-cache write vulnerability in the xfrm/ESP fragmentation path. The second targets CVE-2026-43500, a page-cache corruption vulnerability in the RxRPC/rxkad subsystem. Dompdf RCE via Malicious Font Caching (CVE-2022-28368) Authors: Adithya Pawar, Fabian Bräunlein, Maximilian Kirchmeier, msutovsky-r7, and rvizx Type: Exploit Pull request: #21155 contributed by Adithyadspawar Path: multi/http/dompdf_rce_cve_2022_28368 AttackerKB reference: CVE-2022-28368 Description: Adds a new exploit module for CVE-2022-28368, an unauthenticated remote code execution vulnerability in dompdf prior to 1.2.1. When remote resource loading is enabled, dompdf preserves the .php extension when caching fonts fetched via CSS @font-face rules, allowing an attacker to drop a PHP webshell in the font cache directory and trigger it with a follow-up request. Supsystic Contact Form Wordpress Plugin SSTI RCE Authors: Azril Fathoni and bootstrapbool [email protected] Type: Exploit Pull request: #21267 contributed by bootstrapbool Path: multi/http/wp_plugin_supsystic_contact_form_rce AttackerKB reference: CVE-2026-4257 Description: This adds a module to exploit CVE-2026-4257 resulting in remote code execution on Wordpress sites with the Contact Form by Supsystic plugin. Contact Form plugin versions 1.7.36 and before are vulnerable. Bugs fixed (4) #21390 from zeroSteiner - This refines our smb_to_ldap relay attack reporting by demoting anonymous authentication messages from print_good to print_status, reflecting that anonymous sessions do not grant additional privileges. It also skips the #on_relay_success callback for these sessions to prevent modules from needlessly acting on unprivileged access. #21443 from jheysel-r7 - This bumps the Metasploit-credentials gem to address an issue in how Kerberos hashes were being handled. #21485 from adfoster-r7 - Fixes MCP server test failure. #21487 from adfoster-r7 - Updates to a newer version of RubyZip to support Zip files larger than 4GB. Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4.134...6.4.135 Full diff 6.4.134...6.4.135 If you are a git user",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Linux kernel",
+            "WordPress",
+            "Citrix"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-43284",
+            "CVE-2026-43500",
+            "CVE-2026-3055",
+            "CVE-2022-28368",
+            "CVE-2026-4257"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Linux kernel": "target",
+            "WordPress": "target",
+            "Citrix": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Rapid7",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Metasploit Wrap Up 05/29/2026",
+          "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
+          "published": "2026-05-29T19:34:41+00:00",
+          "summary": "More Linux LPEs Hark the age of the Linux LPE has arrived. This week’s release follows up on recent work bringing new Linux LPEs to Metasploit users. Copy Fail seemed to have kicked off a trend of similar bugs and hot on its heels is Dirty Frag. Dirty Frag is actually two vulnerabilities in a trenchcoat, individually identified as CVE-2026-43284 and CVE-2026-43500. Each is exploitable individually and comes with a new Metasploit module. New module content (5) Citrix ADC (NetScaler) CVE-2026-3055 Scanner Authors: sfewer-r7 and watchTowr Type: Auxiliary Pull request: #21204 contributed by sfewer-r7 Path: scanner/http/citrix_netscaler_cve_2026_3055 AttackerKB reference: CVE-2026-3055 Description: Adds auxiliary module targeting CVE-2026-3055, an info leak in Citrix NetScaler (when configured as an SAML IdP). Similar to the other CitrixBleed vulns, we can leak memory and potentially discover session cookies. Ollama Scanner Author: h00die Type: Auxiliary Pull request: #21271 contributed by ",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Linux kernel",
+              "WordPress",
+              "Citrix"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-43284",
+              "CVE-2026-43500",
+              "CVE-2026-3055",
+              "CVE-2022-28368",
+              "CVE-2026-4257"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Linux kernel": "target",
+              "WordPress": "target",
+              "Citrix": "target"
             },
             "weak_tags": {
               "products": []
@@ -4918,6 +4898,7 @@
       ],
       "taxonomy": {
         "threat_categories": [
+          "ai_security",
           "cloud_abuse",
           "phishing_social_eng"
         ],
@@ -4927,6 +4908,7 @@
           "AWS",
           "Anthropic/Claude",
           "Google/Gemini",
+          "Microsoft/Copilot",
           "OpenAI/ChatGPT"
         ],
         "tools_used": [],
@@ -4950,16 +4932,18 @@
         "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
         "published": "2026-05-29T18:07:12+00:00",
         "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
-        "full_body": "",
+        "full_body": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface  Ravie Lakshmanan  May 29, 2026 Artificial Intelligence / Vulnerability Research Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown image URLs that originated from a third-party page the assistant has just summarized. It auto-fetches those images and surfaces those links as live, clickable elements inside the trusted assistant UI,\" security researcher Andi Ahmeti said in a report shared with The Hacker News. In a hypothetical attack scenario, a bad actor can append a small payload to any web page that the victim later prompts ChatGPT to summarize, causing it to leak their IP, User-Agent, and Referer details when attacker-hosted images embedded in the page are automatically fetched when the answer is rendered. In addition, it can result in malicious Markdown links being rendered as live clickable elements inside the assistant's response, serve far fake system-style security alerts, and serve a QR code from an attacker's S3 bucket and trick the victim into scanning it via their mobile device, effectively bypassing desktop URL filters and enterprise security controls. The latest finding demonstrates how summarization can emerge as an adversarial surface. Earlier this March, Permiso also revealed how an attacker-controlled email containing specially crafted instructions, when summarized by Microsoft Copilot, could influence its output via a cross-prompt injection (XPIA) or indirect prompt injection. What makes ChatGPhish a noteworthy attack technique is not the prompt injection itself, but in the manner in which the instructions embedded in a web page are followed and presented to the user as part of the summary. In other words, a regular web page summarized with ChatGPT is enough to render phishing links, spoofed account alerts, remote images, and QR codes directly inside a trusted AI interface. As organizations increasingly use ChatGPT for research and summarization, this vulnerability means any malicious web page an employee asks the AI chatbot to process could contain a payload that transforms ChatGPT into a phishing surface. \"The shift from email to the browser significantly expands the potential attack surface. A user no longer has to open a malicious attachment or interact with a suspicious message,\" Permiso said. \"Simply summarizing a page during normal browsing activity can introduce attacker-controlled instructions into the model context and ultimately into the rendered response.\" The disclosure comes as Adversa AI documented two attack techniques codenamed SymJack and TrustFall targeting AI coding agents and agentic coding CLIs that allow attackers to achieve code execution and full machine compromise. SymJack is \"a single attack pattern [that] lets a malicious repository achieve remote code execution through AI coding assistants,\" security researcher Rony Utevsky said. \"The agent is tricked into a benign-looking file copy that secretly overwrites its own config, and the next restart runs attacker code with full user privileges.\" Specifically, a booby-trapped repository tricks the agent into copying a seemingly harmless file, where the destination is a symlink pointing to the agent's own configuration, causing the attacker's payload to be written to the config. On the next restart, a malicious Model Context Protocol (MCP) server spawns and runs arbitrary code with full user privileges. TrustFall, on the other hand, is a one-click remote code execution attack via a malicious repository that can ship a configuration that auto-approves and spawns an MCP server without a user's explicit approval or requiring a ",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "phishing_social_eng"
+            "phishing_social_eng",
+            "ai_security"
           ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [
-            "OpenAI/ChatGPT"
+            "OpenAI/ChatGPT",
+            "Microsoft/Copilot"
           ],
           "tools_used": [],
           "cve_ids": [],
@@ -4968,7 +4952,8 @@
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
           "role_map": {
-            "OpenAI/ChatGPT": "target"
+            "OpenAI/ChatGPT": "target",
+            "Microsoft/Copilot": "target"
           },
           "weak_tags": {
             "products": []
@@ -4985,12 +4970,14 @@
           "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
           "taxonomy": {
             "threat_categories": [
-              "phishing_social_eng"
+              "phishing_social_eng",
+              "ai_security"
             ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "OpenAI/ChatGPT"
+              "OpenAI/ChatGPT",
+              "Microsoft/Copilot"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -4999,7 +4986,8 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
             "role_map": {
-              "OpenAI/ChatGPT": "target"
+              "OpenAI/ChatGPT": "target",
+              "Microsoft/Copilot": "target"
             },
             "weak_tags": {
               "products": []
@@ -5704,81 +5692,6 @@
       ]
     },
     {
-      "cluster_id": "0c8abca5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-        "published": "2026-05-28T06:55:11+00:00",
-        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-          "published": "2026-05-28T06:55:11+00:00",
-          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
@@ -6060,32 +5973,16 @@
       ]
     },
     {
-      "cluster_id": "080c3ca6d1",
+      "cluster_id": "0c8abca5e9",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "Kimsuky",
-          "Lazarus",
-          "UNC5221"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Ivanti"
-        ],
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -6098,44 +5995,26 @@
         ]
       },
       "primary": {
-        "source": "ESET WeLiveSecurity",
+        "source": "Kaspersky Securelist",
         "cohort": "threat_research_primary",
-        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-        "published": "2026-05-28T08:45:00+00:00",
-        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
-        "full_body": "ESET Research Threat Reports ESET APT Activity Report Q4 2025–Q1 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026 Jean-Ian Boutin 28 May 2026 • , 4 min. read ESET APT Activity Report Q4 2025–Q1 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers from October 2025 through March 2026. The operations highlighted here are representative of the broader threat landscape we investigated during this period, illustrating key trends and developments, and contain only a fraction of the cybersecurity intelligence data provided to customers of ESET Threat Intelligence APT Reports. During the monitored time frame, China-aligned threat actors remained highly active worldwide, conducting espionage campaigns shaped in part by geopolitical developments affecting Beijing’s economic and security interests. Following the US military operation in Venezuela and amid continuing instability in the Gulf region, we spotted signs that China-aligned groups were being mobilized to improve Beijing’s visibility into maritime, energy, and political developments abroad. In one notable case, FamousSparrow targeted a Venezuelan governmental entity connected to maritime affairs, likely to monitor the resilience of oil shipments after the US intervention. We also noticed SteppeDriver targeting a Syrian governmental network, activity that may reflect both Chinese commercial interest in Syria’s reconstruction projects and security concerns surrounding Uyghur fighters present in that country. On VirusTotal we found PhiliKit, a new implant that we assess to be part of UNC5221’s SPAWN toolset targeting Ivanti VPN appliances, while our tracking of NegativeGlimmer revealed the group compromising governmental entities in Cambodia and Panama, as well as an AI and robotics company in South Korea. The latter targeting in South Korea aligns with Beijing’s enduring interest in strategic technologies prioritized under the Made in China 2025 industrial development policy. The war in Iran that began in late February 2026 was the defining event for Iran-aligned activity during this period. Paradoxically, the conflict coincided with a decline in activity from established Iran-aligned APT groups in our telemetry, most likely because internet restrictions imposed by the Iranian regime hindered their ability to operate effectively. At the same time, this environment appears to have favored the mobilization of proxy and hacktivist actors targeting Israel, the United States, and other states seen as hostile to Tehran. We also documented an unusual spike in activity against Israeli targets that we could not confidently link to previously known groups. Two unattributed activity clusters, Rusty Boots and MoKhargosh, demonstrated both espionage capabilities and destructive potential – including deployment of a bootkit-style wiper and retaining destructive tooling for later use – whereas a third, MOØN Badr, appears to have been limited to targeted espionage. North Korea-aligned threat actors remained active on several fronts. Multiple groups continued targeting developers and the cryptocurrency ecosystem with social engineering schemes that can yield both direct financial gain and opportunities for software supply-chain compromise. Lazarus and DeceptiveDevelopment continued to invest in long-term relationship building with high-value targets, while Kimsuky and Konni favored quicker, more opportunistic attacks. We also uncovered the reemergence of Andariel in South Korea, where the group deployed TigerRAT and attempted to spread Rook ransomware within an engineering company that appears to manufacture equipment relevant to liquid hydrogen handling and the nuclear industry – technologies that are obviously of interest to Pyongyang’s ballistic and nuclear ambitions. We also tracked the continuing evolution of Lazarus campaigns, including Operation DreamJob",
+        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+        "published": "2026-05-28T06:55:11+00:00",
+        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "Lazarus",
-            "Kimsuky",
-            "UNC5221"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Ivanti"
-          ],
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Ivanti": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -6143,42 +6022,24 @@
       },
       "corroborating_sources": [
         {
-          "source": "ESET WeLiveSecurity",
+          "source": "Kaspersky Securelist",
           "cohort": "threat_research_primary",
-          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-          "published": "2026-05-28T08:45:00+00:00",
-          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+          "published": "2026-05-28T06:55:11+00:00",
+          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "Lazarus",
-              "Kimsuky",
-              "UNC5221"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Ivanti"
-            ],
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Ivanti": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6557,6 +6418,87 @@
       ]
     },
     {
+      "cluster_id": "080c3ca6d1",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+        "published": "2026-05-28T08:45:00+00:00",
+        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+        "full_body": "",
+        "fetch_status": "fetch_failed:ReadTimeout",
+        "taxonomy": {
+          "threat_categories": [
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+          "published": "2026-05-28T08:45:00+00:00",
+          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+          "taxonomy": {
+            "threat_categories": [
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "f9a3c30e3f",
       "priority_score": 10,
       "member_count": 1,
@@ -6830,13 +6772,17 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "AWS"
+        ],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-39987"
         ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "vulnerability_disclosure"
         ],
@@ -6851,22 +6797,28 @@
         "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "published": "2026-05-29T14:39:56+00:00",
         "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised",
-        "full_body": "",
+        "full_body": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit  Ravie Lakshmanan  May 29, 2026 Vulnerability / Artificial Intelligence An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised host, replayed them through a fanned-out egress pool to retrieve an SSH private key from AWS Secrets Manager, and used that key to drive eight short SSH sessions against a downstream SSH bastion server,\" Sysdig said . \"The bastion phase exfiltrated the schema and full contents of an internal PostgreSQL database in under two minutes.\" CVE-2026-39987 refers to a critical pre-authenticated remote code execution vulnerability impacting all versions of Marimo prior to and including 0.20.4. It allows an unauthenticated attacker to execute arbitrary system commands. The issue was addressed in version 0.23.0, released last month. The security defect has since come under active exploitation, with threat actors using it to initiate manual reconnaissance against honeypot systems and attempt to harvest sensitive data. The latest activity documented by Sysdig sticks to the same pattern, the primary difference being that an LLM agent was used to drive the post-exploitation activity. The incident, per the cloud security firm, was recorded on May 10, 2026, with the attacker gathering credentials from the environment and then using the harvested AWS access key to perform API calls against AWS Secrets Manager and retrieve an SSH private key. Minutes later, the threat actor is said to have carried out the first SSH authentication on the SSH bastion server using the retrieved key, followed by launching eight parallel SSH sessions against the downstream server to siphon an internal PostgreSQL database. The end-to-end attack chain lasted a little over an hour. Sysdig said it uncovered four indicators that an LLM agent was behind the activity. First, the attacker improvised a database dump without any prior knowledge of the schema. Second, a Chinese-language planning comment, \"看还能做什么\" translating to \"See what else we can do\" leaked directly in the command stream when executing a credential search. \"The database hostname was opaque, with no application identifier on disk and no schema dump pre-staged, yet the chain still landed on a credential table within minutes,\" Sysdig said. \"The attacker no longer needs to see your environment to operate inside it.\" The third sign is that every command is designed for machine consumption, with each command separated by a \"---\" delimiter, along with bounded output captures, disabling the \"less\" command, and discarding the error stream (stderr) to minimize noise. Lastly, the value handoffs are obtained from prior tool output. In other words, the manner in which certain values, say, database passwords, were extracted implies an AI agent feeding its own previous output -- running a cat command of the \"~/.pgpass\" file -- into the next action. In another instance, a cat command to print the contents of a specific file (\"cat ~/.ssh/id_ed25519\") is preceded by an ls (\"list\") command that passes the same file pattern as input (\"ls -la ~/.ssh/id_ed25519*\") to confirm that the SSH Key exists. \"When a scripted operator builds a per-target playbook and reuses it, the bar to adding a new target is engineering time,\" Sysdig concluded. \"However, an agent operator carries general priors about a class of applications and composes the chain live to best fit its target. Here, the bar becomes inference budget, not playbook authorship.\" \"The defender-relevant property of an agent-in-the-loop is adaptiveness. A scripted attacker hits a missing file, an unexpected schema, or an authentication fa",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "AWS"
+          ],
           "tools_used": [],
           "cve_ids": [
             "CVE-2026-39987"
           ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "AWS": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -6884,16 +6836,22 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "AWS"
+            ],
             "tools_used": [],
             "cve_ids": [
               "CVE-2026-39987"
             ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "AWS": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -7012,16 +6970,17 @@
         {
           "source": "Reddit r/sysadmin",
           "cohort": "reddit_practitioner_osint",
-          "title": "Help with GMS",
-          "link": "https://www.reddit.com/r/sysadmin/comments/1ts45pe/help_with_gms/",
-          "published": "2026-05-30T16:16:01+00:00",
-          "summary": "New to GWS, need some help Hi everyone, I'm an IT for a small business with around 10 users. Coming from an Office 365 background, I’m still adapting to Google Workspace and want to make sure I haven't missed any crucial blind spots or \"gotchas\" in our new tenant. To drastically minimize our attack surface, I’ve disabled all unused Google Workspace services. We only use a minimal subset of features: Shared Drives for cloud storage and backups, Gmail, Google Meet, and Gemini. Here is what I've configured and implemented so far regarding identity, access, and data protection: Context-Aware Access (CAA): I’ve set up a rule so employees can only log in, download, or print files if they are connected via our office IP address and using managed Windows or macOS devices. While day-to-day work is allowed on mobile devices, downloading or printing files directly from a phone is completely blocked. Geo-blocking: Tenant access is strictly limited to IPs originating from Israel and the US (where o",
+          "title": "Best way to decommission OneDrive for desktop?",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1ts8xo2/best_way_to_decommission_onedrive_for_desktop/",
+          "published": "2026-05-30T19:23:32+00:00",
+          "summary": "My org is moving from Microsoft 365 to Google Workspace. All OneDrive data will be migrated to Google Drive which will be the new source of truth. I plan to remove user’s licenses for OneDrive and set gpedit to restrict the usage of OneDrive. We also have Mac’s, so I was going to use the office-reset tool to remove all M365 apps including OneDrive. In my testing, however, in both cases (Windows + Mac) it seems to leave broken shortcuts within the user’s desktop and documents folders if they had folder redirection enabled. Is there a way to fix this before I decommission, or should I have them just manually clear their desktops themselves? Thank you submitted by /u/nico8576 [link] [comments]",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [
-              "Google Workspace"
+              "Google Workspace",
+              "Microsoft 365"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -7031,16 +6990,10 @@
             "confidence_tier": "tier_5_chatter",
             "role_map": {
               "Google Workspace": "target",
-              "Microsoft 365": "mention"
+              "Microsoft 365": "target"
             },
             "weak_tags": {
-              "products": [
-                [
-                  "Microsoft 365",
-                  "mention",
-                  0.25
-                ]
-              ]
+              "products": []
             }
           }
         }
@@ -8017,7 +7970,9 @@
         "actor_attribution": [
           "Kimsuky"
         ],
-        "affected_industries": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -8037,7 +7992,7 @@
         "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
         "published": "2026-05-29T05:57:41+00:00",
         "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-        "full_body": "",
+        "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -8047,7 +8002,9 @@
           "actor_attribution": [
             "Kimsuky"
           ],
-          "affected_industries": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -8055,9 +8012,17 @@
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Cisco": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Cisco",
+                "mention",
+                0.28
+              ]
+            ]
           }
         }
       },
@@ -8077,7 +8042,9 @@
             "actor_attribution": [
               "Kimsuky"
             ],
-            "affected_industries": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8085,9 +8052,17 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Cisco": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Cisco",
+                  "mention",
+                  0.28
+                ]
+              ]
             }
           }
         }
@@ -8592,17 +8567,17 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "89bb4c511f",
         "1a2336126b",
         "101998c91d",
+        "89bb4c511f",
         "5efb9aed3b",
         "70b3cc5aba"
       ],
       "links": [
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
         "https://www.exploit-db.com/exploits/52591",
         "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
         "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
         "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
         "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
         "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
@@ -8620,11 +8595,17 @@
         "affected_products": [
           "AWS",
           "npm"
+        ],
+        "cve_ids": [
+          "CVE-2026-39987"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
         ]
       },
-      "cluster_count": 4,
-      "article_count": 8,
-      "cohesion": 0.236,
+      "cluster_count": 5,
+      "article_count": 9,
+      "cohesion": 0.303,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -8633,6 +8614,7 @@
       "cluster_ids": [
         "2272e85cad",
         "ac211e1aa7",
+        "808a3db9bb",
         "59ffedfaf6",
         "28f0293f7d"
       ],
@@ -8641,6 +8623,7 @@
         "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
+        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
         "https://www.reddit.com/r/blueteamsec/comments/1trb5sx/pathfinding_labs_deploy_test_and_learn_from_100/",
         "https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
@@ -8686,8 +8669,7 @@
       "theme_key": "android",
       "dominant_features": {
         "affected_industries": [
-          "government",
-          "financial_services"
+          "government"
         ],
         "affected_products": [
           "Android"
@@ -8695,7 +8677,7 @@
       },
       "cluster_count": 3,
       "article_count": 7,
-      "cohesion": 0.27,
+      "cohesion": 0.2,
       "shared_strong_signals": [
         "Android"
       ],
@@ -8711,7 +8693,7 @@
         "https://www.welivesecurity.com/en/malware/btmob-stealthy-rat-burrowing-deep-android-devices/",
         "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
         "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-        "https://www.reddit.com/r/cybersecurity/comments/1tqw53i/decompiled_an_app_found_a_bunch_of_secrets_what/",
+        "https://www.reddit.com/r/cybersecurity/comments/1tsbkb4/question_of_android_malware/",
         "https://www.reddit.com/r/msp/comments/1tqel00/real_roboshadow_reviews/",
         "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/"
       ]
@@ -8900,7 +8882,7 @@
       ],
       "links": [
         "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.reddit.com/r/sysadmin/comments/1ts45pe/help_with_gms/",
+        "https://www.reddit.com/r/sysadmin/comments/1ts8xo2/best_way_to_decommission_onedrive_for_desktop/",
         "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
         "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
         "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
@@ -8975,29 +8957,36 @@
       ]
     },
     {
-      "label": "CVE-2026-39987 exploitation activity",
-      "anchor_signal": "CVE-2026-39987",
-      "theme_key": "cve-2026-39987",
+      "label": "Nimbus Manticore: phishing social eng",
+      "anchor_signal": "Nimbus Manticore",
+      "theme_key": "nimbus-manticore",
       "dominant_features": {
-        "cve_ids": [
-          "CVE-2026-39987"
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Nimbus Manticore"
         ]
       },
       "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.625,
+      "article_count": 6,
+      "cohesion": 0.2,
       "shared_strong_signals": [
-        "CVE-2026-39987"
+        "Nimbus Manticore"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "808a3db9bb",
-        "28f0293f7d"
+        "76e5533edc",
+        "1d9f2e6d9f"
       ],
       "links": [
-        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-        "https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
+        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
+        "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "https://www.infosecurity-magazine.com/news/iranian-hackers-us-aviation/"
       ]
     }
   ],
@@ -9089,6 +9078,30 @@
           "first_published": "2026-05-26T00:00:00+00:00"
         },
         {
+          "value": "CVE-2026-43284",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-43500",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-46300",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-31431",
+          "cluster_id": "101998c91d",
+          "first_source": "Datadog Security Labs",
+          "first_published": "2026-05-28T00:00:00+00:00"
+        },
+        {
           "value": "CVE-2022-28368",
           "cluster_id": "89bb4c511f",
           "first_source": "Rapid7",
@@ -9099,30 +9112,6 @@
           "cluster_id": "89bb4c511f",
           "first_source": "Rapid7",
           "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-4257",
-          "cluster_id": "89bb4c511f",
-          "first_source": "Rapid7",
-          "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-43284",
-          "cluster_id": "89bb4c511f",
-          "first_source": "Rapid7",
-          "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-43500",
-          "cluster_id": "89bb4c511f",
-          "first_source": "Rapid7",
-          "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-43284",
-          "cluster_id": "1a2336126b",
-          "first_source": "Exploit-DB",
-          "first_published": "2026-05-29T00:00:00+00:00"
         }
       ],
       "actors": [
@@ -9185,24 +9174,6 @@
           "cluster_id": "9995e00c02",
           "first_source": "Unit 42",
           "first_published": "2026-05-28T10:00:53+00:00"
-        },
-        {
-          "value": "Kimsuky",
-          "cluster_id": "080c3ca6d1",
-          "first_source": "ESET WeLiveSecurity",
-          "first_published": "2026-05-28T08:45:00+00:00"
-        },
-        {
-          "value": "Lazarus",
-          "cluster_id": "080c3ca6d1",
-          "first_source": "ESET WeLiveSecurity",
-          "first_published": "2026-05-28T08:45:00+00:00"
-        },
-        {
-          "value": "UNC5221",
-          "cluster_id": "080c3ca6d1",
-          "first_source": "ESET WeLiveSecurity",
-          "first_published": "2026-05-28T08:45:00+00:00"
         },
         {
           "value": "Play",
