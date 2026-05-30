@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T17:17:40.200965+00:00",
+  "generated_at": "2026-05-30T19:27:44.642866+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 443,
-  "total_clusters_raw": 164,
+  "total_items_in_window": 444,
+  "total_clusters_raw": 165,
   "total_clusters_in_packet": 62,
-  "dropped_low_score": 102,
+  "dropped_low_score": 103,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -88,13 +95,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -102,15 +102,8 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -123,12 +116,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -137,12 +130,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -158,19 +151,19 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,19 +172,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -207,6 +193,20 @@
       "item_count": 10,
       "in_window_count": 3
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -214,11 +214,18 @@
       "item_count": 50,
       "in_window_count": 28
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 40,
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -235,11 +242,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
@@ -249,18 +256,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Sophos X-Ops": {
@@ -270,19 +277,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -304,13 +311,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -340,19 +340,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -361,13 +361,6 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -375,18 +368,25 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 2
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Chainalysis": {
@@ -403,6 +403,27 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 21
+    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -417,37 +438,9 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -458,6 +451,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -472,13 +479,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -501,19 +501,19 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 2
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -543,6 +543,13 @@
       "item_count": 100,
       "in_window_count": 21
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -557,47 +564,12 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 12
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -606,12 +578,40 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 11
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
+      "in_window_count": 15
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -817,8 +817,8 @@
     {
       "cluster_id": "f160e8841b",
       "priority_score": 40,
-      "member_count": 6,
-      "corroborating_source_count": 6,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "Gogs"
       ],
@@ -936,39 +936,6 @@
               "Gogs": "target",
               "Apple iOS/macOS": "target",
               "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "New Gogs zero-day flaw lets hackers get remote code execution",
-          "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
-          "published": "2026-05-28T14:25:43+00:00",
-          "summary": "An unpatched zero-day vulnerability in the Gogs self-hosted Git service can allow attackers to gain remote code execution (RCE) on Internet-facing instances. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Gogs"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gogs": "target"
             },
             "weak_tags": {
               "products": []
@@ -1294,8 +1261,8 @@
     {
       "cluster_id": "b44c0ebad4",
       "priority_score": 37,
-      "member_count": 3,
-      "corroborating_source_count": 3,
+      "member_count": 4,
+      "corroborating_source_count": 4,
       "strong_signals": [
         "CVE-2026-0257",
         "Palo Alto Networks"
@@ -1321,6 +1288,7 @@
           "preauth_unauth"
         ],
         "content_type": [
+          "news_report",
           "vulnerability_disclosure"
         ],
         "confidence_tier": [
@@ -1457,6 +1425,36 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Palo Alto Networks": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+          "published": "2026-05-30T18:02:51+00:00",
+          "summary": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-0257"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {
               "Palo Alto Networks": "target"
             },
@@ -4535,232 +4533,6 @@
       ]
     },
     {
-      "cluster_id": "7b576ce45f",
-      "priority_score": 13,
-      "member_count": 7,
-      "corroborating_source_count": 5,
-      "strong_signals": [
-        "OpenAI/ChatGPT"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security",
-          "cloud_abuse",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "AWS",
-          "Anthropic/Claude",
-          "Google/Gemini",
-          "Microsoft/Copilot",
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis",
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-        "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-        "published": "2026-05-29T18:07:12+00:00",
-        "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
-        "full_body": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface  Ravie Lakshmanan  May 29, 2026 Artificial Intelligence / Vulnerability Research Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown image URLs that originated from a third-party page the assistant has just summarized. It auto-fetches those images and surfaces those links as live, clickable elements inside the trusted assistant UI,\" security researcher Andi Ahmeti said in a report shared with The Hacker News. In a hypothetical attack scenario, a bad actor can append a small payload to any web page that the victim later prompts ChatGPT to summarize, causing it to leak their IP, User-Agent, and Referer details when attacker-hosted images embedded in the page are automatically fetched when the answer is rendered. In addition, it can result in malicious Markdown links being rendered as live clickable elements inside the assistant's response, serve far fake system-style security alerts, and serve a QR code from an attacker's S3 bucket and trick the victim into scanning it via their mobile device, effectively bypassing desktop URL filters and enterprise security controls. The latest finding demonstrates how summarization can emerge as an adversarial surface. Earlier this March, Permiso also revealed how an attacker-controlled email containing specially crafted instructions, when summarized by Microsoft Copilot, could influence its output via a cross-prompt injection (XPIA) or indirect prompt injection. What makes ChatGPhish a noteworthy attack technique is not the prompt injection itself, but in the manner in which the instructions embedded in a web page are followed and presented to the user as part of the summary. In other words, a regular web page summarized with ChatGPT is enough to render phishing links, spoofed account alerts, remote images, and QR codes directly inside a trusted AI interface. As organizations increasingly use ChatGPT for research and summarization, this vulnerability means any malicious web page an employee asks the AI chatbot to process could contain a payload that transforms ChatGPT into a phishing surface. \"The shift from email to the browser significantly expands the potential attack surface. A user no longer has to open a malicious attachment or interact with a suspicious message,\" Permiso said. \"Simply summarizing a page during normal browsing activity can introduce attacker-controlled instructions into the model context and ultimately into the rendered response.\" The disclosure comes as Adversa AI documented two attack techniques codenamed SymJack and TrustFall targeting AI coding agents and agentic coding CLIs that allow attackers to achieve code execution and full machine compromise. SymJack is \"a single attack pattern [that] lets a malicious repository achieve remote code execution through AI coding assistants,\" security researcher Rony Utevsky said. \"The agent is tricked into a benign-looking file copy that secretly overwrites its own config, and the next restart runs attacker code with full user privileges.\" Specifically, a booby-trapped repository tricks the agent into copying a seemingly harmless file, where the destination is a symlink pointing to the agent's own configuration, causing the attacker's payload to be written to the config. On the next restart, a malicious Model Context Protocol (MCP) server spawns and runs arbitrary code with full user privileges. TrustFall, on the other hand, is a one-click remote code execution attack via a malicious repository that can ship a configuration that auto-approves and spawns an MCP server without a user's explicit approval or requiring a ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "ai_security"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT",
-            "Microsoft/Copilot"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target",
-            "Microsoft/Copilot": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-          "published": "2026-05-29T18:07:12+00:00",
-          "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "ai_security"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "Microsoft/Copilot"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "Microsoft/Copilot": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Update Starlette Now. New severe vulnerability dropped.",
-          "link": "https://www.reddit.com/r/netsec/comments/1to10y4/update_starlette_now_new_severe_vulnerability/",
-          "published": "2026-05-26T08:47:20+00:00",
-          "summary": "This is a really bad one that flew under the radar. One character auth bypass in vLLM, LiteLLM, MCP servers, OpenAI shims, and a lot more. submitted by /u/Youknowimtheman [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-          "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-          "published": "2026-05-29T18:21:36+00:00",
-          "summary": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "tl;dr sec",
-          "cohort": "practitioner_analysis",
-          "title": "[tl;dr sec] #330 - AWS Pathfinding Labs, Running Codex Safely at OpenAI, Glasswing Updates",
-          "link": "https://tldrsec.com/p/tldr-sec-330",
-          "published": "2026-05-28T14:30:00+00:00",
-          "summary": "100+ intentionally vulnerable AWS environments for practicing cloud attack paths, how OpenAI deploys Codex internally, Anthropic's update on bugs found and their open sourced harness",
-          "taxonomy": {
-            "threat_categories": [
-              "cloud_abuse"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT",
-              "AWS",
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "OpenAI/ChatGPT": "target",
-              "AWS": "target",
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Russia-Linked ‘GreyVibe’ Attackers Use AI to Supercharge Cyberattacks",
-          "link": "https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/",
-          "published": "2026-05-28T18:50:49+00:00",
-          "summary": "Researchers warn GreyVibe’s extensive use of ChatGPT, Gemini, and other AI tools offers a glimpse into how future cybercriminal and state-aligned groups will operate. The post Russia-Linked ‘GreyVibe’ Attackers Use AI to Supercharge Cyberattacks appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "38ba01df8a",
       "priority_score": 12,
       "member_count": 1,
@@ -4841,96 +4613,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e96cf0fe65",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "legal_professional",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "OpenSSF Blog",
-        "cohort": "ai_security_agentic_risk",
-        "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
-        "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
-        "published": "2026-05-29T19:22:29+00:00",
-        "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
-        "full_body": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or regulatory compliance. Modern systems depend on vast, rapidly evolving networks of components, making manual, paper-based approaches to due diligence impractical. Machine-readable, continuously generated security signals are therefore the only realistic way to support Cyber Resilience Act (CRA) due diligence at scale. These signals already exist across open source ecosystems as a natural byproduct of standard development practices, though they remain fragmented across tools, repositories, and pipelines. Crucially, these signals are best understood as mechanisms for transparency rather than assurance: they expose observable characteristics of software development and operational behavior without constituting guarantees, certifications, or transfers of liability. This shift is driven by a need for technical accuracy. Static documentation and point-in-time attestations cannot reflect continuously evolving software systems. This limitation has been underscored by recent U.S. enforcement actions, such as Department of Justice settlements involving inaccurate cybersecurity compliance certifications, which highlight how formal attestations can later be treated as misleading when they diverge from actual system behavior, significantly increasing legal exposure. Established approaches such as continuous compliance, evidence-based assurance, and secure-by-design all rely on the same principle: replacing subjective, point-in-time claims with dynamic, verifiable proof, automated data that reflects actual system behavior. Within this model, roles remain clearly separated. Upstream open source projects may choose to publish security-relevant signals in machine-readable formats, while manufacturers, who bear the legal responsibility under the CRA, consume and interpret this information as part of their due diligence processes. This preserves the foundational “no warranties, no liabilities” principle of open source. Participation from upstream remains strictly voluntary and must not introduce legal obligations, certification expectations, or shifting of compliance risk and liability to the project community, ensuring that ecosystem sustainability is maintained while enabling effective downstream risk management. This discussion builds on earlier reflections on voluntary attestation models under the Cyber Resilience Act, particularly Article 25, which enables voluntary security attestation programmes to support manufacturer due diligence for products incorporating free and open source software while preserving the separation between upstream development and downstream regulatory responsibility. From a systems perspective, however, Article 25 also exposes an important limitation of paper-based attestation approaches. Static, human-authored representations of security struggle to remain accurate within environments defined by continuous change, where rapidly evolving components and deeply nested dependencies can quickly render point-in-time attestations incomplete or outdated. This leads to a broader architectural observation: effective due diligence at scale increasingly shifts away from narrative declarations toward machine-readable, continuously updated security signals embedded directly within development and release workflows. In this framing, voluntary attestation is valuable not as a mechanism for upstream certification, but as a way to enable structured, interoperable security data that downstream systems can automatically consume and evaluate. Machine-readable signals thus become the practical substrate for operationalizing the intent of Article 25 in complex software ecosystems, preserving voluntariness, avoiding any conflation of transparency with assurance, and enabling evidence-based due diligence aligned with the dynamic nature of modern software s",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "manufacturing_industrial",
-            "legal_professional"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "OpenSSF Blog",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
-          "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
-          "published": "2026-05-29T19:22:29+00:00",
-          "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "manufacturing_industrial",
-              "legal_professional"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5219,6 +4901,314 @@
             "role_map": {
               "Apple iOS/macOS": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7b576ce45f",
+      "priority_score": 12,
+      "member_count": 7,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "OpenAI/ChatGPT"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "cloud_abuse",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "AWS",
+          "Anthropic/Claude",
+          "Google/Gemini",
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_3_analysis",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+        "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+        "published": "2026-05-29T18:07:12+00:00",
+        "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
+        "full_body": "",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+          "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+          "published": "2026-05-29T18:07:12+00:00",
+          "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger prompt injections and open the door to phishing attacks. The technique has been codenamed ChatGPhish by Permiso Security. \"The chatgpt.com response renderer trusts Markdown links and Markdown",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Update Starlette Now. New severe vulnerability dropped.",
+          "link": "https://www.reddit.com/r/netsec/comments/1to10y4/update_starlette_now_new_severe_vulnerability/",
+          "published": "2026-05-26T08:47:20+00:00",
+          "summary": "This is a really bad one that flew under the radar. One character auth bypass in vLLM, LiteLLM, MCP servers, OpenAI shims, and a lot more. submitted by /u/Youknowimtheman [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "tl;dr sec",
+          "cohort": "practitioner_analysis",
+          "title": "[tl;dr sec] #330 - AWS Pathfinding Labs, Running Codex Safely at OpenAI, Glasswing Updates",
+          "link": "https://tldrsec.com/p/tldr-sec-330",
+          "published": "2026-05-28T14:30:00+00:00",
+          "summary": "100+ intentionally vulnerable AWS environments for practicing cloud attack paths, how OpenAI deploys Codex internally, Anthropic's update on bugs found and their open sourced harness",
+          "taxonomy": {
+            "threat_categories": [
+              "cloud_abuse"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT",
+              "AWS",
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "OpenAI/ChatGPT": "target",
+              "AWS": "target",
+              "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
+          "link": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
+          "published": "2026-05-29T18:21:36+00:00",
+          "summary": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Russia-Linked ‘GreyVibe’ Attackers Use AI to Supercharge Cyberattacks",
+          "link": "https://www.securityweek.com/russia-linked-greyvibe-attackers-use-ai-to-supercharge-cyberattacks/",
+          "published": "2026-05-28T18:50:49+00:00",
+          "summary": "Researchers warn GreyVibe’s extensive use of ChatGPT, Gemini, and other AI tools offers a glimpse into how future cybercriminal and state-aligned groups will operate. The post Russia-Linked ‘GreyVibe’ Attackers Use AI to Supercharge Cyberattacks appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "e96cf0fe65",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "OpenSSF Blog",
+        "cohort": "ai_security_agentic_risk",
+        "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
+        "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
+        "published": "2026-05-29T19:22:29+00:00",
+        "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
+        "full_body": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or regulatory compliance. Modern systems depend on vast, rapidly evolving networks of components, making manual, paper-based approaches to due diligence impractical. Machine-readable, continuously generated security signals are therefore the only realistic way to support Cyber Resilience Act (CRA) due diligence at scale. These signals already exist across open source ecosystems as a natural byproduct of standard development practices, though they remain fragmented across tools, repositories, and pipelines. Crucially, these signals are best understood as mechanisms for transparency rather than assurance: they expose observable characteristics of software development and operational behavior without constituting guarantees, certifications, or transfers of liability. This shift is driven by a need for technical accuracy. Static documentation and point-in-time attestations cannot reflect continuously evolving software systems. This limitation has been underscored by recent U.S. enforcement actions, such as Department of Justice settlements involving inaccurate cybersecurity compliance certifications, which highlight how formal attestations can later be treated as misleading when they diverge from actual system behavior, significantly increasing legal exposure. Established approaches such as continuous compliance, evidence-based assurance, and secure-by-design all rely on the same principle: replacing subjective, point-in-time claims with dynamic, verifiable proof, automated data that reflects actual system behavior. Within this model, roles remain clearly separated. Upstream open source projects may choose to publish security-relevant signals in machine-readable formats, while manufacturers, who bear the legal responsibility under the CRA, consume and interpret this information as part of their due diligence processes. This preserves the foundational “no warranties, no liabilities” principle of open source. Participation from upstream remains strictly voluntary and must not introduce legal obligations, certification expectations, or shifting of compliance risk and liability to the project community, ensuring that ecosystem sustainability is maintained while enabling effective downstream risk management. This discussion builds on earlier reflections on voluntary attestation models under the Cyber Resilience Act, particularly Article 25, which enables voluntary security attestation programmes to support manufacturer due diligence for products incorporating free and open source software while preserving the separation between upstream development and downstream regulatory responsibility. From a systems perspective, however, Article 25 also exposes an important limitation of paper-based attestation approaches. Static, human-authored representations of security struggle to remain accurate within environments defined by continuous change, where rapidly evolving components and deeply nested dependencies can quickly render point-in-time attestations incomplete or outdated. This leads to a broader architectural observation: effective due diligence at scale increasingly shifts away from narrative declarations toward machine-readable, continuously updated security signals embedded directly within development and release workflows. In this framing, voluntary attestation is valuable not as a mechanism for upstream certification, but as a way to enable structured, interoperable security data that downstream systems can automatically consume and evaluate. Machine-readable signals thus become the practical substrate for operationalizing the intent of Article 25 in complex software ecosystems, preserving voluntariness, avoiding any conflation of transparency with assurance, and enabling evidence-based due diligence aligned with the dynamic nature of modern software s",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "manufacturing_industrial",
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "OpenSSF Blog",
+          "cohort": "ai_security_agentic_risk",
+          "title": "Aligning on Machine-Readable Signals as the Foundation for Due Diligence",
+          "link": "https://openssf.org/blog/2026/05/29/aligning-on-machine-readable-signals-as-the-foundation-for-due-diligence/",
+          "published": "2026-05-29T19:22:29+00:00",
+          "summary": "By Madalin Neag, EU Policy Advisor, OpenSSF Introduction The software supply chain has reached a level of complexity where manual oversight is no longer a viable strategy for security or...",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "manufacturing_industrial",
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5714,6 +5704,81 @@
       ]
     },
     {
+      "cluster_id": "0c8abca5e9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+        "published": "2026-05-28T06:55:11+00:00",
+        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+          "published": "2026-05-28T06:55:11+00:00",
+          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
@@ -5788,81 +5853,6 @@
               "government",
               "telecommunications"
             ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c8abca5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-        "published": "2026-05-28T06:55:11+00:00",
-        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-          "published": "2026-05-28T06:55:11+00:00",
-          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -6070,93 +6060,6 @@
       ]
     },
     {
-      "cluster_id": "787e234466",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Rapid Response",
-        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-        "published": "2026-05-29T16:00:00+00:00",
-        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Rapid Response",
-          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "080c3ca6d1",
       "priority_score": 10,
       "member_count": 1,
@@ -6276,6 +6179,93 @@
             "role_map": {
               "Ivanti": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "787e234466",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Rapid Response",
+        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+        "published": "2026-05-29T16:00:00+00:00",
+        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Rapid Response",
+          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6840,17 +6830,13 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [
           "CVE-2026-39987"
         ],
         "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "vulnerability_disclosure"
         ],
@@ -6865,28 +6851,22 @@
         "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "published": "2026-05-29T14:39:56+00:00",
         "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised",
-        "full_body": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit  Ravie Lakshmanan  May 29, 2026 Vulnerability / Artificial Intelligence An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible Marimo network using a recently disclosed vulnerability. \"The attacker compromised an internet-reachable Marimo notebook via CVE-2026-39987, extracted two cloud credentials from the compromised host, replayed them through a fanned-out egress pool to retrieve an SSH private key from AWS Secrets Manager, and used that key to drive eight short SSH sessions against a downstream SSH bastion server,\" Sysdig said . \"The bastion phase exfiltrated the schema and full contents of an internal PostgreSQL database in under two minutes.\" CVE-2026-39987 refers to a critical pre-authenticated remote code execution vulnerability impacting all versions of Marimo prior to and including 0.20.4. It allows an unauthenticated attacker to execute arbitrary system commands. The issue was addressed in version 0.23.0, released last month. The security defect has since come under active exploitation, with threat actors using it to initiate manual reconnaissance against honeypot systems and attempt to harvest sensitive data. The latest activity documented by Sysdig sticks to the same pattern, the primary difference being that an LLM agent was used to drive the post-exploitation activity. The incident, per the cloud security firm, was recorded on May 10, 2026, with the attacker gathering credentials from the environment and then using the harvested AWS access key to perform API calls against AWS Secrets Manager and retrieve an SSH private key. Minutes later, the threat actor is said to have carried out the first SSH authentication on the SSH bastion server using the retrieved key, followed by launching eight parallel SSH sessions against the downstream server to siphon an internal PostgreSQL database. The end-to-end attack chain lasted a little over an hour. Sysdig said it uncovered four indicators that an LLM agent was behind the activity. First, the attacker improvised a database dump without any prior knowledge of the schema. Second, a Chinese-language planning comment, \"看还能做什么\" translating to \"See what else we can do\" leaked directly in the command stream when executing a credential search. \"The database hostname was opaque, with no application identifier on disk and no schema dump pre-staged, yet the chain still landed on a credential table within minutes,\" Sysdig said. \"The attacker no longer needs to see your environment to operate inside it.\" The third sign is that every command is designed for machine consumption, with each command separated by a \"---\" delimiter, along with bounded output captures, disabling the \"less\" command, and discarding the error stream (stderr) to minimize noise. Lastly, the value handoffs are obtained from prior tool output. In other words, the manner in which certain values, say, database passwords, were extracted implies an AI agent feeding its own previous output -- running a cat command of the \"~/.pgpass\" file -- into the next action. In another instance, a cat command to print the contents of a specific file (\"cat ~/.ssh/id_ed25519\") is preceded by an ls (\"list\") command that passes the same file pattern as input (\"ls -la ~/.ssh/id_ed25519*\") to confirm that the SSH Key exists. \"When a scripted operator builds a per-target playbook and reuses it, the bar to adding a new target is engineering time,\" Sysdig concluded. \"However, an agent operator carries general priors about a class of applications and composes the chain live to best fit its target. Here, the bar becomes inference budget, not playbook authorship.\" \"The defender-relevant property of an agent-in-the-loop is adaptiveness. A scripted attacker hits a missing file, an unexpected schema, or an authentication fa",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [
-            "AWS"
-          ],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [
             "CVE-2026-39987"
           ],
           "attack_techniques": [],
-          "urgency_signals": [
-            "preauth_unauth"
-          ],
+          "urgency_signals": [],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "AWS": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -6904,22 +6884,16 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [
-              "AWS"
-            ],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [
               "CVE-2026-39987"
             ],
             "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
+            "urgency_signals": [],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "AWS": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6930,7 +6904,7 @@
     {
       "cluster_id": "faae644e55",
       "priority_score": 10,
-      "member_count": 3,
+      "member_count": 4,
       "corroborating_source_count": 2,
       "strong_signals": [
         "Google Workspace",
@@ -7038,19 +7012,16 @@
         {
           "source": "Reddit r/sysadmin",
           "cohort": "reddit_practitioner_osint",
-          "title": "3 months into a Senior System Administrator role and I feel like my manager has turned the team into a permanent audit support desk",
-          "link": "https://www.reddit.com/r/sysadmin/comments/1trskka/3_months_into_a_senior_system_administrator_role/",
-          "published": "2026-05-30T06:59:05+00:00",
-          "summary": "I joined my current organization about 3 months ago as a Senior System Administrator. The setup is a bit unusual. I work for a company that provides IT services to a university in Abu Dhabi. The university also has another Dubai-based company involved in delivering IT services, while my employer has teams in Bangalore and Dubai. When I joined, I expected my role to involve infrastructure administration, identity management, automation, systems engineering, troubleshooting, and process improvement. Instead, a significant amount of my time has been spent on assessments, audits, evidence collection, documentation, and administrative coordination. The first major assignment was an infrastructure assessment that required collecting evidence from multiple systems and teams. As soon as that finished, we moved into a cybersecurity audit. This audit contains around 199 questions covering areas such as: Active Directory ADFS Entra ID Microsoft 365 Backup systems Vulnerability management Security",
+          "title": "Help with GMS",
+          "link": "https://www.reddit.com/r/sysadmin/comments/1ts45pe/help_with_gms/",
+          "published": "2026-05-30T16:16:01+00:00",
+          "summary": "New to GWS, need some help Hi everyone, I'm an IT for a small business with around 10 users. Coming from an Office 365 background, I’m still adapting to Google Workspace and want to make sure I haven't missed any crucial blind spots or \"gotchas\" in our new tenant. To drastically minimize our attack surface, I’ve disabled all unused Google Workspace services. We only use a minimal subset of features: Shared Drives for cloud storage and backups, Gmail, Google Meet, and Gemini. Here is what I've configured and implemented so far regarding identity, access, and data protection: Context-Aware Access (CAA): I’ve set up a rule so employees can only log in, download, or print files if they are connected via our office IP address and using managed Windows or macOS devices. While day-to-day work is allowed on mobile devices, downloading or printing files directly from a phone is completely blocked. Geo-blocking: Tenant access is strictly limited to IPs originating from Israel and the US (where o",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [
-              "education"
-            ],
+            "affected_industries": [],
             "affected_products": [
-              "Microsoft 365",
-              "Microsoft Entra"
+              "Google Workspace"
             ],
             "tools_used": [],
             "cve_ids": [],
@@ -7059,11 +7030,17 @@
             "content_type": "news_report",
             "confidence_tier": "tier_5_chatter",
             "role_map": {
-              "Microsoft 365": "target",
-              "Microsoft Entra": "target"
+              "Google Workspace": "target",
+              "Microsoft 365": "mention"
             },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Microsoft 365",
+                  "mention",
+                  0.25
+                ]
+              ]
             }
           }
         }
@@ -8040,9 +8017,7 @@
         "actor_attribution": [
           "Kimsuky"
         ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -8062,7 +8037,7 @@
         "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
         "published": "2026-05-29T05:57:41+00:00",
         "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-        "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
+        "full_body": "",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -8072,9 +8047,7 @@
           "actor_attribution": [
             "Kimsuky"
           ],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -8082,17 +8055,9 @@
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Cisco": "mention"
-          },
+          "role_map": {},
           "weak_tags": {
-            "products": [
-              [
-                "Cisco",
-                "mention",
-                0.28
-              ]
-            ]
+            "products": []
           }
         }
       },
@@ -8112,9 +8077,7 @@
             "actor_attribution": [
               "Kimsuky"
             ],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8122,17 +8085,9 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Cisco": "mention"
-            },
+            "role_map": {},
             "weak_tags": {
-              "products": [
-                [
-                  "Cisco",
-                  "mention",
-                  0.28
-                ]
-              ]
+              "products": []
             }
           }
         }
@@ -8665,17 +8620,11 @@
         "affected_products": [
           "AWS",
           "npm"
-        ],
-        "cve_ids": [
-          "CVE-2026-39987"
-        ],
-        "urgency_signals": [
-          "preauth_unauth"
         ]
       },
-      "cluster_count": 5,
-      "article_count": 9,
-      "cohesion": 0.303,
+      "cluster_count": 4,
+      "article_count": 8,
+      "cohesion": 0.236,
       "shared_strong_signals": [
         "AWS"
       ],
@@ -8684,7 +8633,6 @@
       "cluster_ids": [
         "2272e85cad",
         "ac211e1aa7",
-        "808a3db9bb",
         "59ffedfaf6",
         "28f0293f7d"
       ],
@@ -8693,7 +8641,6 @@
         "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
         "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
         "https://www.securityweek.com/in-other-news-trump-mobile-data-breach-fifa-world-cup-phishing-cisa-responds-to-supply-chain-attacks/",
-        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
         "https://www.reddit.com/r/blueteamsec/comments/1trb5sx/pathfinding_labs_deploy_test_and_learn_from_100/",
         "https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
@@ -8904,7 +8851,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 9,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -8917,7 +8864,6 @@
       ],
       "links": [
         "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
-        "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
         "https://risky.biz/RBNEWS570/",
         "https://www.securityweek.com/gogs-zero-day-exposes-servers-to-remote-code-execution/",
         "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
@@ -8940,7 +8886,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 7,
+      "article_count": 8,
       "cohesion": 0.369,
       "shared_strong_signals": [
         "Microsoft 365"
@@ -8954,7 +8900,7 @@
       ],
       "links": [
         "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.reddit.com/r/sysadmin/comments/1trskka/3_months_into_a_senior_system_administrator_role/",
+        "https://www.reddit.com/r/sysadmin/comments/1ts45pe/help_with_gms/",
         "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
         "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
         "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
@@ -9029,36 +8975,29 @@
       ]
     },
     {
-      "label": "Nimbus Manticore: phishing social eng",
-      "anchor_signal": "Nimbus Manticore",
-      "theme_key": "nimbus-manticore",
+      "label": "CVE-2026-39987 exploitation activity",
+      "anchor_signal": "CVE-2026-39987",
+      "theme_key": "cve-2026-39987",
       "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Nimbus Manticore"
+        "cve_ids": [
+          "CVE-2026-39987"
         ]
       },
       "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.2,
+      "article_count": 2,
+      "cohesion": 0.625,
       "shared_strong_signals": [
-        "Nimbus Manticore"
+        "CVE-2026-39987"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "76e5533edc",
-        "1d9f2e6d9f"
+        "808a3db9bb",
+        "28f0293f7d"
       ],
       "links": [
-        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
-        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
-        "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-        "https://www.infosecurity-magazine.com/news/iranian-hackers-us-aviation/"
+        "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+        "https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots"
       ]
     }
   ],
@@ -9431,15 +9370,7 @@
         }
       ]
     },
-    "velocity": [
-      {
-        "cluster_id": "f160e8841b",
-        "title": "Authenticated RCE via Argument Injection in Gogs (NOT FIXED)",
-        "sources_in_window": 3,
-        "window_hours": 5.4,
-        "cohort_count": 4
-      }
-    ],
+    "velocity": [],
     "leading_edge": [],
     "convergence": [
       {
