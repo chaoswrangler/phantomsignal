@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-30T23:06:06.970478+00:00",
+  "generated_at": "2026-05-31T00:13:04.284196+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
   "total_items_in_window": 446,
   "total_clusters_raw": 162,
-  "total_clusters_in_packet": 62,
-  "dropped_low_score": 100,
+  "total_clusters_in_packet": 63,
+  "dropped_low_score": 99,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,11 +67,32 @@
     }
   },
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -81,15 +102,8 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
@@ -102,12 +116,12 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -116,6 +130,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -123,18 +144,11 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 20,
       "in_window_count": 1
     },
     "Check Point Research": {
@@ -151,19 +165,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -172,12 +179,12 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -193,11 +200,11 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -207,26 +214,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 28
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -242,12 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 0
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -263,11 +256,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
+      "in_window_count": 0
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Elastic Security Labs": {
@@ -277,19 +284,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
@@ -298,19 +298,19 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 30,
       "in_window_count": 1
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -326,12 +326,12 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -361,26 +361,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 18
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -396,6 +389,20 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
@@ -409,13 +416,6 @@
       "status": "ok",
       "item_count": 5,
       "in_window_count": 5
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -445,13 +445,6 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -459,8 +452,29 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -473,40 +487,12 @@
       "item_count": 50,
       "in_window_count": 22
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -515,6 +501,20 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -522,19 +522,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 32
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -564,8 +564,29 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 11
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -578,27 +599,6 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 11
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 15
-    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
@@ -606,12 +606,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 15
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -2974,7 +2974,7 @@
     {
       "cluster_id": "bb2f04ae6d",
       "priority_score": 16,
-      "member_count": 5,
+      "member_count": 6,
       "corroborating_source_count": 5,
       "strong_signals": [
         "Android"
@@ -3449,117 +3449,6 @@
       ]
     },
     {
-      "cluster_id": "101998c91d",
-      "priority_score": 15,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2026-31431"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-31431"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
-        "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
-        "published": "2026-05-28T00:00:00+00:00",
-        "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
-        "full_body": "Ryan Simon Senior Security Engineer Key points CVE-2026-31431 (CVSS 7.8 HIGH) allows any unprivileged local user to corrupt the page caches via AF_ALG sockets and the authencesn AEAD template to escalate privileges to execute code as root. The vulnerability affects a wide range of kernel versions, from 4.14 through 6.19 and 7.0 release candidates. This is not limited to recent kernels. The corruption happens entirely within kernel space: no VFS writes, no mtime changes, no audit trail. It avoids normal file-write visibility. CISA added this to the Known Exploited Vulnerabilities (KEV) catalog on May 1, 2026. Active exploitation in the wild has since been confirmed. This post walks through the exploit mechanics and looks back at how Datadog Security Research used coding agents to compress the full detection engineering cycle into a single session, from initial threat analysis to shipped detections, in hours. Background: Page cache, AF_ALG, and splice() Before we examine the exploit in detail, let's establish three kernel concepts it relies on. If you're already familiar with these, feel free to jump to how the exploit works . The page cache The Linux kernel uses the page cache to hold file-backed data in memory. When a file is first read from disk, its contents are loaded into page cache pages indexed by inode and offset. Any later read requests, originating from either the initial process or a separate one, are fulfilled using memory, bypassing the disk entirely. Execution works the same way. When the kernel runs /usr/bin/su , it memory-maps the binary's page cache pages directly into the process address space. The CPU executes from those in-memory pages, not from disk. AF_ALG: The Kernel Crypto API The Linux kernel exposes its internal cryptography operations to userspace through AF_ALG (Address Family: Algorithm) sockets. A program creates an AF_ALG socket, binds it to a specific algorithm, configures it with setsockopt() , and sends data for encryption or decryption. The exploit focuses on the authencesn algorithm template which manages sequence numbers while integrating AES-CBC encryption and HMAC-SHA256 authentication. Importantly, creating and using AF_ALG sockets requires no special privileges. Any unprivileged user can access the kernel's crypto subsystem. splice(): Zero-copy data movement splice() facilitates zero-copy data transfers between file descriptors by bypassing userspace. When a file is spliced into a pipe, the kernel avoids copying data and instead maps the actual page cache pages into the pipe. As a result, the pipe establishes direct links to the identical memory pages that the source file occupies. This zero-copy optimization is key to the exploit: after splicing, the crypto subsystem holds references to the actual page cache pages of the target file, not copies. How the exploit works, step by step The exploit chains together the three mechanisms above to achieve a controlled write into the page cache of any file readable by the attacker. Let's walk through each stage. Stage 1: Create and configure the crypto socket The exploit begins by creating an AF_ALG socket. AF_ALG is the Linux interface that lets userspace programs ask the kernel to perform cryptographic operations. In this case, the exploit uses the AEAD algorithm authencesn(hmac(sha256),cbc(aes)) . This setup does not require root privileges. An unprivileged process can create the socket, bind it to the algorithm, configure the required options, and call accept() to create an operation socket. That operation socket is what the exploit uses for the later decrypt request. import socket ctrl_sock = socket . socket ( socket . AF_ALG , socket . SOCK_SEQPACKET , 0 ) ctrl_sock . bind ( ( \"aead\" , \"authencesn(hmac(sha256),cbc(aes))\" ) ) key = get_valid_authencesn_key ( ) ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_KEY , key ) authsize = 4 ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_AEAD_AUTHSIZE , authsize , ) op_sock ,",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [
-            "Linux kernel"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-31431"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Linux kernel": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
-          "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
-          "published": "2026-05-28T00:00:00+00:00",
-          "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [
-              "Linux kernel"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-31431"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Linux kernel": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "89bb4c511f",
       "priority_score": 15,
       "member_count": 1,
@@ -3681,6 +3570,117 @@
               "Linux kernel": "target",
               "WordPress": "target",
               "Citrix": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "101998c91d",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2026-31431"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-31431"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
+        "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
+        "published": "2026-05-28T00:00:00+00:00",
+        "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
+        "full_body": "Ryan Simon Senior Security Engineer Key points CVE-2026-31431 (CVSS 7.8 HIGH) allows any unprivileged local user to corrupt the page caches via AF_ALG sockets and the authencesn AEAD template to escalate privileges to execute code as root. The vulnerability affects a wide range of kernel versions, from 4.14 through 6.19 and 7.0 release candidates. This is not limited to recent kernels. The corruption happens entirely within kernel space: no VFS writes, no mtime changes, no audit trail. It avoids normal file-write visibility. CISA added this to the Known Exploited Vulnerabilities (KEV) catalog on May 1, 2026. Active exploitation in the wild has since been confirmed. This post walks through the exploit mechanics and looks back at how Datadog Security Research used coding agents to compress the full detection engineering cycle into a single session, from initial threat analysis to shipped detections, in hours. Background: Page cache, AF_ALG, and splice() Before we examine the exploit in detail, let's establish three kernel concepts it relies on. If you're already familiar with these, feel free to jump to how the exploit works . The page cache The Linux kernel uses the page cache to hold file-backed data in memory. When a file is first read from disk, its contents are loaded into page cache pages indexed by inode and offset. Any later read requests, originating from either the initial process or a separate one, are fulfilled using memory, bypassing the disk entirely. Execution works the same way. When the kernel runs /usr/bin/su , it memory-maps the binary's page cache pages directly into the process address space. The CPU executes from those in-memory pages, not from disk. AF_ALG: The Kernel Crypto API The Linux kernel exposes its internal cryptography operations to userspace through AF_ALG (Address Family: Algorithm) sockets. A program creates an AF_ALG socket, binds it to a specific algorithm, configures it with setsockopt() , and sends data for encryption or decryption. The exploit focuses on the authencesn algorithm template which manages sequence numbers while integrating AES-CBC encryption and HMAC-SHA256 authentication. Importantly, creating and using AF_ALG sockets requires no special privileges. Any unprivileged user can access the kernel's crypto subsystem. splice(): Zero-copy data movement splice() facilitates zero-copy data transfers between file descriptors by bypassing userspace. When a file is spliced into a pipe, the kernel avoids copying data and instead maps the actual page cache pages into the pipe. As a result, the pipe establishes direct links to the identical memory pages that the source file occupies. This zero-copy optimization is key to the exploit: after splicing, the crypto subsystem holds references to the actual page cache pages of the target file, not copies. How the exploit works, step by step The exploit chains together the three mechanisms above to achieve a controlled write into the page cache of any file readable by the attacker. Let's walk through each stage. Stage 1: Create and configure the crypto socket The exploit begins by creating an AF_ALG socket. AF_ALG is the Linux interface that lets userspace programs ask the kernel to perform cryptographic operations. In this case, the exploit uses the AEAD algorithm authencesn(hmac(sha256),cbc(aes)) . This setup does not require root privileges. An unprivileged process can create the socket, bind it to the algorithm, configure the required options, and call accept() to create an operation socket. That operation socket is what the exploit uses for the later decrypt request. import socket ctrl_sock = socket . socket ( socket . AF_ALG , socket . SOCK_SEQPACKET , 0 ) ctrl_sock . bind ( ( \"aead\" , \"authencesn(hmac(sha256),cbc(aes))\" ) ) key = get_valid_authencesn_key ( ) ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_KEY , key ) authsize = 4 ctrl_sock . setsockopt ( socket . SOL_ALG , socket . ALG_SET_AEAD_AUTHSIZE , authsize , ) op_sock ,",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [
+            "Linux kernel"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-31431"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "Linux kernel": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "From Exploit Code to Production Detection: Building a CVE-2026-31431 (Copy Fail) detection with Agents",
+          "link": "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
+          "published": "2026-05-28T00:00:00+00:00",
+          "summary": "CVE-2026-31431 (Copy Fail) lets any unprivileged user corrupt the Linux page cache via AF_ALG sockets to escalate privileges. This post covers the exploit mechanics and how Datadog Security Research used coding agents to ship a detection content pack in a single session.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [
+              "Linux kernel"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-31431"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "Linux kernel": "target"
             },
             "weak_tags": {
               "products": []
@@ -5494,287 +5494,6 @@
       ]
     },
     {
-      "cluster_id": "543e4ad427",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Citizen Lab",
-        "cohort": "threat_research_primary",
-        "title": "Researchers Uncover Espionage in Mobile Networks",
-        "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
-        "published": "2026-05-29T15:20:32+00:00",
-        "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
-        "full_body": "Date Published May 29, 2026 Topics Targeted Surveillance telecommunications Mentions Swantje Lange Share Citizen Lab doctoral fellow Swantje Lange spoke with the Hasso Plattner Institut (HPI) about sophisticated surveillance campaigns being used to exploit mobile networks, sharing that “the mobile network is highly opaque and extremely complex.” Lange also discussed a recent Citizen Lab report she co-authored with Gary Miller, which showed how weaknesses in technology and governance allow mobile networks to be used as covert surveillance platforms. Read more in HPI More in: Targeted Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 research → FAQ Bad Connection APRIL 23, 2026",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Citizen Lab",
-          "cohort": "threat_research_primary",
-          "title": "Researchers Uncover Espionage in Mobile Networks",
-          "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
-          "published": "2026-05-29T15:20:32+00:00",
-          "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
-          "taxonomy": {
-            "threat_categories": [
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "42b4567e7a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
-        "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
-        "published": "2026-05-28T10:00:52+00:00",
-        "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
-        "full_body": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap By Emmanuel Tacheau Thursday, May 28, 2026 06:00 Vulnerability Deep Dive Over the last decade, DICOM parsing has become an active research topic. The reason is simple: DICOM is both critical and complicated. Hospitals rely on DICOM-based PACS systems, and those systems often automatically ingest files received over the network. That means malformed data could directly trigger vulnerable decoders — the holy grail of attack surfaces for those studying robustness. This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The objective is to show how an Orthanc server can be targeted during the image upload process, resulting in an out-of-bounds write. DICOM, Pydicom, GDCM, and Orthanc A technical tour of what really happens in the heap Download now Share this post Related Content “Good enough” emulation: Fuzzing a single thread to uncover vulnerabilities February 18, 2026 06:00 A Talos researcher used targeted emulation of the Socomec DIRIS M-70 gateway’s Modbus thread to uncover six patched vulnerabilities, showcasing efficient tools and methods for IoT security testing. ReVault! When your SoC turns against you… deep dive edition August 9, 2025 09:00 Talos reported 5 vulnerabilities to Broadcom and Dell affecting both the ControlVault3 Firmware and its associated Windows APIs that we are calling “ReVault”. Decrement by one to rule them all: AsIO3.sys driver exploitation June 26, 2025 06:00 Cisco Talos uncovered and analyzed two critical vulnerabilities in ASUS' AsIO3.sys driver, highlighting serious security risks and the importance of robust driver design.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
-          "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
-          "published": "2026-05-28T10:00:52+00:00",
-          "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c964a73a7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-22554",
-          "CVE-2026-25104",
-          "CVE-2026-25713",
-          "CVE-2026-28764"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "MediaArea heap-based buffer overflow vulnerabilities",
-        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-        "published": "2026-05-27T14:00:14+00:00",
-        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-25104",
-            "CVE-2026-25713",
-            "CVE-2026-28764",
-            "CVE-2026-22554"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "MediaArea heap-based buffer overflow vulnerabilities",
-          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-          "published": "2026-05-27T14:00:14+00:00",
-          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-25104",
-              "CVE-2026-25713",
-              "CVE-2026-28764",
-              "CVE-2026-22554"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "6965af22d4",
       "priority_score": 10,
       "member_count": 2,
@@ -6099,55 +5818,57 @@
       ]
     },
     {
-      "cluster_id": "787e234466",
+      "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation"
+          "apt_espionage"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government",
+          "telecommunications"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
+        "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research"
+          "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Rapid Response",
-        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-        "published": "2026-05-29T16:00:00+00:00",
-        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "source": "Citizen Lab",
+        "cohort": "threat_research_primary",
+        "title": "Researchers Uncover Espionage in Mobile Networks",
+        "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
+        "published": "2026-05-29T15:20:32+00:00",
+        "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
+        "full_body": "Date Published May 29, 2026 Topics Targeted Surveillance telecommunications Mentions Swantje Lange Share Citizen Lab doctoral fellow Swantje Lange spoke with the Hasso Plattner Institut (HPI) about sophisticated surveillance campaigns being used to exploit mobile networks, sharing that “the mobile network is highly opaque and extremely complex.” Lange also discussed a recent Citizen Lab report she co-authored with Gary Miller, which showed how weaknesses in technology and governance allow mobile networks to be used as covert surveillance platforms. Read more in HPI More in: Targeted Surveillance LATEST In collaboration with the International Consortium of Investigative Journalists (ICIJ), we identified two distinct actors aligned with the People’s Republic of China that have been targeting and impersonating journalists and civil society. Our findings provide insight into the Chinese government’s practice of digital transnational repression and its shift to a system of state-sponsored attacks carried out by private contractors. April 27, 2026 Digital Transnational Repression Targeted Surveillance News + Updates → News Ron Deibert Speaks at the OSCE Supplementary Human Dimension Meeting II MAY 13, 2026 News + Updates → Podcast A New Study Shows How Ad-Based Technology is Used for Surveillance APRIL 29, 2026 research → FAQ Bad Connection APRIL 23, 2026",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
-            "active_exploitation"
+            "apt_espionage"
           ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government",
+            "telecommunications"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
+          "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
+          "confidence_tier": "tier_1_primary_research",
           "role_map": {},
           "weak_tags": {
             "products": []
@@ -6156,28 +5877,220 @@
       },
       "corroborating_sources": [
         {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Rapid Response",
-          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "source": "Citizen Lab",
+          "cohort": "threat_research_primary",
+          "title": "Researchers Uncover Espionage in Mobile Networks",
+          "link": "https://citizenlab.ca/researchers-uncover-espionage-in-mobile-networks/",
+          "published": "2026-05-29T15:20:32+00:00",
+          "summary": "Swantje Lange spoke with the Hasso Plattner Institut about sophisticated surveillance campaigns being used to exploit mobile networks. The post Researchers Uncover Espionage in Mobile Networks appeared first on The Citizen Lab .",
           "taxonomy": {
             "threat_categories": [
-              "active_exploitation"
+              "apt_espionage"
             ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government",
+              "telecommunications"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
+            "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "42b4567e7a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
+        "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
+        "published": "2026-05-28T10:00:52+00:00",
+        "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
+        "full_body": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap By Emmanuel Tacheau Thursday, May 28, 2026 06:00 Vulnerability Deep Dive Over the last decade, DICOM parsing has become an active research topic. The reason is simple: DICOM is both critical and complicated. Hospitals rely on DICOM-based PACS systems, and those systems often automatically ingest files received over the network. That means malformed data could directly trigger vulnerable decoders — the holy grail of attack surfaces for those studying robustness. This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The objective is to show how an Orthanc server can be targeted during the image upload process, resulting in an out-of-bounds write. DICOM, Pydicom, GDCM, and Orthanc A technical tour of what really happens in the heap Download now Share this post Related Content “Good enough” emulation: Fuzzing a single thread to uncover vulnerabilities February 18, 2026 06:00 A Talos researcher used targeted emulation of the Socomec DIRIS M-70 gateway’s Modbus thread to uncover six patched vulnerabilities, showcasing efficient tools and methods for IoT security testing. ReVault! When your SoC turns against you… deep dive edition August 9, 2025 09:00 Talos reported 5 vulnerabilities to Broadcom and Dell affecting both the ControlVault3 Firmware and its associated Windows APIs that we are calling “ReVault”. Decrement by one to rule them all: AsIO3.sys driver exploitation June 26, 2025 06:00 Cisco Talos uncovered and analyzed two critical vulnerabilities in ASUS' AsIO3.sys driver, highlighting serious security risks and the importance of robust driver design.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
+          "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
+          "published": "2026-05-28T10:00:52+00:00",
+          "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c964a73a7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-22554",
+          "CVE-2026-25104",
+          "CVE-2026-25713",
+          "CVE-2026-28764"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "MediaArea heap-based buffer overflow vulnerabilities",
+        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+        "published": "2026-05-27T14:00:14+00:00",
+        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-25104",
+            "CVE-2026-25713",
+            "CVE-2026-28764",
+            "CVE-2026-22554"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "MediaArea heap-based buffer overflow vulnerabilities",
+          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+          "published": "2026-05-27T14:00:14+00:00",
+          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-25104",
+              "CVE-2026-25713",
+              "CVE-2026-28764",
+              "CVE-2026-22554"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6305,6 +6218,93 @@
             "role_map": {
               "Ivanti": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "787e234466",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Rapid Response",
+        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+        "published": "2026-05-29T16:00:00+00:00",
+        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Rapid Response",
+          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6688,7 +6688,8 @@
           "government"
         ],
         "affected_products": [
-          "Fortinet"
+          "Fortinet",
+          "Palo Alto Networks"
         ],
         "tools_used": [],
         "cve_ids": [
@@ -6713,7 +6714,7 @@
         "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
         "published": "2026-05-28T17:25:43+00:00",
         "summary": "Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. [...]",
-        "full_body": "Hackers exploit FortiClient EMS flaw to push infostealer malware By Bill Toulas May 28, 2026 01:25 PM 0 Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. The attacker disguised the malware as an update for Fortinet endpoints and executed it through VPN scripting workflows managed by FortiClient. The exploited critical vulnerability is an improper access control flaw that allows unauthenticated remote attackers to execute arbitrary code or commands via specially crafted requests. Fortinet confirmed in early April that it was being exploited and released emergency hotfixes for versions 7.4.5 and 7.4.6 of the product. CISA reacted quickly to the malicious activity and ordered federal agencies to secure their instances by the end of that week, while the internet security watchdog group The Shadowserver Foundation reported at the time that it was seeing 2,000 internet-exposed EMS instances. Earlier this month, cybersecurity company Arctic Wolf observed attacks leveraging the vulnerability to deliver the EKZ infostealer. The researchers note that the intrusion begins with abusing endpoint APIs to perform administrative actions without authentication. The attacker then modifies the EMS configuration and VPN policies to introduce the execution of malicious scripts. Seconds after endpoints established an IPsec tunnel to a FortiGate firewall, the legitimate fortitray.exe launched malicious batch scripts through Command Prompt. Those scripts executed a base64-encoded PowerShell payload that downloaded and ran malware disguised as a Fortinet patch, then exfiltrated data to an attacker-controlled VPS over HTTP. Malicious PowerShell code Source: Arctic Wolf “Rather than relying on a generic malware lure, the payload was presented as a Fortinet endpoint update and executed through FortiClient-managed VPN scripting workflows,” reads the report from Arctic Wolf . “On affected endpoints, FortiClient components launched command scripts that invoked PowerShell, downloaded a credential stealer, executed it silently, and exfiltrated harvested browser data before removing local artifacts.” The downloaded payload, tracked as EKZ Infostealer, features fairly standard information-stealing functionality. It targets both Chromium-based and Firefox web browsers and extracts stored data to text files while bypassing encrypted password protections. Stealer executes without arguments Source: Arctic Wolf The malware targets credentials, credit card details, addresses, phone numbers, and cookies, which provide access to accounts protected by multi-factor authentication without loging it. According to Arctic Wolf, one indication of an exploitation attempt in attacks delivering the EKZ infostealer is the presence in the logs of the line \"Certificate not found in request header.\" In lab tests, the error was followed in seconds by another entry: Certificate user: fortinet-ca2 … successfully updated As such, the researchers recommend defenders look for certificate-authentication anomalies and unexpected changes to Remote Access Profile configurations. Any suspicious administrative activity, such as new accounts, logins with an unfamiliar origin (Tor, VPS IP addresses), or actions leading to configuration changes, should be considered red flags. Arctic Wolf's report provides extensive detection guidance that could help organizations prevent the observed attacks. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Hackers bypass SonicWall VPN MFA due to incomplete pa",
+        "full_body": "Hackers exploit FortiClient EMS flaw to push infostealer malware By Bill Toulas May 28, 2026 01:25 PM 0 Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. The attacker disguised the malware as an update for Fortinet endpoints and executed it through VPN scripting workflows managed by FortiClient. The exploited critical vulnerability is an improper access control flaw that allows unauthenticated remote attackers to execute arbitrary code or commands via specially crafted requests. Fortinet confirmed in early April that it was being exploited and released emergency hotfixes for versions 7.4.5 and 7.4.6 of the product. CISA reacted quickly to the malicious activity and ordered federal agencies to secure their instances by the end of that week, while the internet security watchdog group The Shadowserver Foundation reported at the time that it was seeing 2,000 internet-exposed EMS instances. Earlier this month, cybersecurity company Arctic Wolf observed attacks leveraging the vulnerability to deliver the EKZ infostealer. The researchers note that the intrusion begins with abusing endpoint APIs to perform administrative actions without authentication. The attacker then modifies the EMS configuration and VPN policies to introduce the execution of malicious scripts. Seconds after endpoints established an IPsec tunnel to a FortiGate firewall, the legitimate fortitray.exe launched malicious batch scripts through Command Prompt. Those scripts executed a base64-encoded PowerShell payload that downloaded and ran malware disguised as a Fortinet patch, then exfiltrated data to an attacker-controlled VPS over HTTP. Malicious PowerShell code Source: Arctic Wolf “Rather than relying on a generic malware lure, the payload was presented as a Fortinet endpoint update and executed through FortiClient-managed VPN scripting workflows,” reads the report from Arctic Wolf . “On affected endpoints, FortiClient components launched command scripts that invoked PowerShell, downloaded a credential stealer, executed it silently, and exfiltrated harvested browser data before removing local artifacts.” The downloaded payload, tracked as EKZ Infostealer, features fairly standard information-stealing functionality. It targets both Chromium-based and Firefox web browsers and extracts stored data to text files while bypassing encrypted password protections. Stealer executes without arguments Source: Arctic Wolf The malware targets credentials, credit card details, addresses, phone numbers, and cookies, which provide access to accounts protected by multi-factor authentication without loging it. According to Arctic Wolf, one indication of an exploitation attempt in attacks delivering the EKZ infostealer is the presence in the logs of the line \"Certificate not found in request header.\" In lab tests, the error was followed in seconds by another entry: Certificate user: fortinet-ca2 … successfully updated As such, the researchers recommend defenders look for certificate-authentication anomalies and unexpected changes to Remote Access Profile configurations. Any suspicious administrative activity, such as new accounts, logins with an unfamiliar origin (Tor, VPS IP addresses), or actions leading to configuration changes, should be considered red flags. Arctic Wolf's report provides extensive detection guidance that could help organizations prevent the observed attacks. The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Palo Alto GlobalProtect VPN auth bypass flaw now expl",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -6724,7 +6725,8 @@
             "government"
           ],
           "affected_products": [
-            "Fortinet"
+            "Fortinet",
+            "Palo Alto Networks"
           ],
           "tools_used": [],
           "cve_ids": [
@@ -6738,16 +6740,10 @@
           "confidence_tier": "tier_4_news",
           "role_map": {
             "Fortinet": "target",
-            "SonicWall": "mention"
+            "Palo Alto Networks": "target"
           },
           "weak_tags": {
-            "products": [
-              [
-                "SonicWall",
-                "mention",
-                0.27
-              ]
-            ]
+            "products": []
           }
         }
       },
@@ -6768,7 +6764,8 @@
               "government"
             ],
             "affected_products": [
-              "Fortinet"
+              "Fortinet",
+              "Palo Alto Networks"
             ],
             "tools_used": [],
             "cve_ids": [
@@ -6782,16 +6779,10 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Fortinet": "target",
-              "SonicWall": "mention"
+              "Palo Alto Networks": "target"
             },
             "weak_tags": {
-              "products": [
-                [
-                  "SonicWall",
-                  "mention",
-                  0.27
-                ]
-              ]
+              "products": []
             }
           }
         },
@@ -8541,6 +8532,81 @@
       ]
     },
     {
+      "cluster_id": "c017aa94d8",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "CIFSwitch: a non-universal Linux local root vulnerability",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tsflsj/cifswitch_a_nonuniversal_linux_local_root/",
+        "published": "2026-05-31T00:01:20+00:00",
+        "summary": "submitted by /u/campuscodi [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CIFSwitch: a non-universal Linux local root vulnerability",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tsflsj/cifswitch_a_nonuniversal_linux_local_root/",
+          "published": "2026-05-31T00:01:20+00:00",
+          "summary": "submitted by /u/campuscodi [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "cf5ba17e12",
       "priority_score": 8,
       "member_count": 1,
@@ -8665,16 +8731,16 @@
       "also_targets": [],
       "cluster_ids": [
         "1a2336126b",
-        "101998c91d",
         "89bb4c511f",
+        "101998c91d",
         "5efb9aed3b",
         "70b3cc5aba"
       ],
       "links": [
         "https://www.exploit-db.com/exploits/52591",
         "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-        "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
+        "https://securitylabs.datadoghq.com/articles/cve-2026-31431-copy-fail-exploit-detection-with-agents/",
         "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
         "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
         "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
@@ -8774,7 +8840,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 7,
+      "article_count": 8,
       "cohesion": 0.27,
       "shared_strong_signals": [
         "Android"
@@ -9017,6 +9083,40 @@
       ]
     },
     {
+      "label": "Palo Alto Networks vulnerability activity",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 7,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "b44c0ebad4",
+        "1d21bdd81d"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
+        "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+        "https://www.reddit.com/r/cybersecurity/comments/1trvw2f/panos_added_to_kev_langflow_exploit_activity_and/",
+        "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+        "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+        "https://www.helpnetsecurity.com/2026/05/29/forticlient-ems-vulnerability-infostealer/",
+        "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html"
+      ]
+    },
+    {
       "label": "TeamPCP: supply chain",
       "anchor_signal": "TeamPCP",
       "theme_key": "teampcp",
@@ -9053,39 +9153,6 @@
         "https://www.reddit.com/r/blueteamsec/comments/1ts2747/supply_chain_compromises_impact_nx_console_and/",
         "https://www.reddit.com/r/netsecstudents/comments/1tpvbru/github_iss4cf0ngopenpetya_a_proofofconcept/",
         "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html"
-      ]
-    },
-    {
-      "label": "Nimbus Manticore: phishing social eng",
-      "anchor_signal": "Nimbus Manticore",
-      "theme_key": "nimbus-manticore",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Nimbus Manticore"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 6,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Nimbus Manticore"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "76e5533edc",
-        "1d9f2e6d9f"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
-        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
-        "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-        "https://www.infosecurity-magazine.com/news/iranian-hackers-us-aviation/"
       ]
     }
   ],
@@ -9195,12 +9262,6 @@
           "first_published": "2026-05-29T00:00:00+00:00"
         },
         {
-          "value": "CVE-2026-31431",
-          "cluster_id": "101998c91d",
-          "first_source": "Datadog Security Labs",
-          "first_published": "2026-05-28T00:00:00+00:00"
-        },
-        {
           "value": "CVE-2022-28368",
           "cluster_id": "89bb4c511f",
           "first_source": "Rapid7",
@@ -9208,6 +9269,12 @@
         },
         {
           "value": "CVE-2026-3055",
+          "cluster_id": "89bb4c511f",
+          "first_source": "Rapid7",
+          "first_published": "2026-05-29T19:34:41+00:00"
+        },
+        {
+          "value": "CVE-2026-4257",
           "cluster_id": "89bb4c511f",
           "first_source": "Rapid7",
           "first_published": "2026-05-29T19:34:41+00:00"
