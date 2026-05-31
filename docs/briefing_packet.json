@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31T14:51:16.809948+00:00",
+  "generated_at": "2026-05-31T16:18:01.662042+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 452,
-  "total_clusters_raw": 163,
-  "total_clusters_in_packet": 64,
-  "dropped_low_score": 99,
+  "total_items_in_window": 451,
+  "total_clusters_raw": 165,
+  "total_clusters_in_packet": 65,
+  "dropped_low_score": 100,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -88,18 +88,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
+      "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -109,19 +109,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -129,6 +122,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -144,6 +144,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
@@ -151,26 +158,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,19 +186,26 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -214,13 +221,6 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
@@ -228,11 +228,11 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -241,6 +241,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -255,13 +262,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -291,6 +291,13 @@
       "item_count": 30,
       "in_window_count": 1
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 5
+    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,13 +326,6 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 5
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -340,13 +340,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
-    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
@@ -354,12 +347,33 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 18
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -375,32 +389,18 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 2
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 2
     },
     "Interconnects": {
@@ -417,13 +417,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 24
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -437,6 +430,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 24
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -508,25 +508,18 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "The Hacker News": {
@@ -536,19 +529,19 @@
       "item_count": 50,
       "in_window_count": 33
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 21
-    },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
@@ -564,19 +557,19 @@
       "item_count": 25,
       "in_window_count": 23
     },
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 25
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -585,12 +578,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 25,
+      "in_window_count": 15
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -599,12 +599,12 @@
       "item_count": 25,
       "in_window_count": 25
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 16
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -1564,7 +1564,7 @@
     {
       "cluster_id": "da583a9e4e",
       "priority_score": 24,
-      "member_count": 9,
+      "member_count": 8,
       "corroborating_source_count": 7,
       "strong_signals": [
         "GitHub",
@@ -3734,6 +3734,81 @@
       ]
     },
     {
+      "cluster_id": "941c0886a3",
+      "priority_score": 14,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
+        "link": "https://isc.sans.edu/diary/rss/33032",
+        "published": "2026-05-31T16:01:29+00:00",
+        "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
+          "link": "https://isc.sans.edu/diary/rss/33032",
+          "published": "2026-05-31T16:01:29+00:00",
+          "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "d04252af51",
       "priority_score": 14,
       "member_count": 1,
@@ -4630,144 +4705,6 @@
       ]
     },
     {
-      "cluster_id": "2694f33506",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Android",
-          "Fortinet",
-          "Gitea"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-40933"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "SecurityWeek",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
-        "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
-        "published": "2026-05-30T15:55:59+00:00",
-        "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
-        "full_body": "Obsidian Security has released technical information and proof-of-concept (PoC) code targeting a remote code execution (RCE) vulnerability in Flowise. The issue, tracked as CVE-2026-40933 (CVSS score of 9.9), was disclosed in April along with several other security defects impacting AI ecosystems that rely on Anthropic’s MCP protocol. Flowise, a popular open source platform that provides developers with a drag-and-drop interface for building LLM flows and AI agents, and which has over 52,000 GitHub stars, was flagged as one of the impacted products. According to OX Security, the root cause of the issue is a “by design”, systemic command injection vulnerability in Anthropic MCP, which propagates through the ecosystem. [Learn More: SecurityWeek to Host AI Risk Summit August 11-12 at the Ritz-Carlton, Half Moon Bay ] A NIST advisory describes CVE-2026-40933 as an unsafe serialization of stdio commands in the MCP adapter, allowing an attacker to add an MCP stdio server with an arbitrary command and achieve code execution. Advertisement. Scroll to continue reading. The security weakness existed because Flowise before version 3.1.0 allowed any user to add a new MCP and, when doing so, to add any command, enabling code execution on the underlying OS. According to Obsidian , the bug can be exploited by attackers to take over servers by simply convincing a user to import a crafted chatflow. The import action triggers arbitrary code execution on the server. “Any user who can create or edit chatflows can add a Custom MCP Tool and supply a malicious stdio MCP configuration. In practice, this requires a malicious insider or a compromised user account,” Obsidian notes. A remote attacker, the cybersecurity firm explains, can include a malicious command in a Custom MCP Tool configuration, export the chatflow as JSON, and share it with the victim. The payload abuses Flowise’s legitimate functionality to execute the malicious command during the import process. “Flowise’s Custom MCP node has an ‘Available Actions’ dropdown that lists the tools exposed by the configured MCP server. To populate that dropdown, the canvas asks the backend to enumerate the server’s tools. With stdio transport, enumeration starts the configured command. Because the dropdown loads when the imported chatflow renders on the canvas, the import alone can spawn the command,” Obsidian notes. The cybersecurity firm has published PoC code that, when imported, creates a shell back to Docker’s bridge address for the host. Obsidian says successful exploitation of CVE-2026-40933 leads to “OS-level execution with the Flowise process’s privileges, often root in containerized deployments. Every credential stored in the platform is readable. Every connected service is reachable. Flowise in production is typically wired into databases, APIs, and cloud accounts; the blast radius scales with whatever it connects to.” The cybersecurity firm notes that Flowise Cloud is not affected, because it has stdio MCP disabled. Self-hosted instances are vulnerable by default. Related: Raising the Cybersecurity Stakes: Ante up for the Agentic Era Related: Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks Related: Anthropic Releases New Claude Sandbox, Security Guidance Plugin Related: ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Geordie Raises $30 Million for AI Security and Governance Platform Carnival Data Breach Exposed 6 Million People New BTMOB Android Malware Enables Full Device Takeover Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks Gitea Vulnerability Exposed 30,000 Deployments to Attacks Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks RevEng.AI Raises ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach",
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "Gitea",
-            "Fortinet",
-            "Android"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-40933"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gitea": "target",
-            "Fortinet": "target",
-            "Android": "target",
-            "Anthropic/Claude": "target",
-            "GitHub": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "GitHub",
-                "mention",
-                0.29
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
-          "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
-          "published": "2026-05-30T15:55:59+00:00",
-          "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach",
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "Gitea",
-              "Fortinet",
-              "Android"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-40933"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gitea": "target",
-              "Fortinet": "target",
-              "Android": "target",
-              "Anthropic/Claude": "target",
-              "GitHub": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "GitHub",
-                  "mention",
-                  0.29
-                ]
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "b6007bd74a",
       "priority_score": 12,
       "member_count": 1,
@@ -5273,6 +5210,144 @@
       ]
     },
     {
+      "cluster_id": "2694f33506",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Android",
+          "Fortinet",
+          "Gitea"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-40933"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "SecurityWeek",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
+        "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+        "published": "2026-05-30T15:55:59+00:00",
+        "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
+        "full_body": "Obsidian Security has released technical information and proof-of-concept (PoC) code targeting a remote code execution (RCE) vulnerability in Flowise. The issue, tracked as CVE-2026-40933 (CVSS score of 9.9), was disclosed in April along with several other security defects impacting AI ecosystems that rely on Anthropic’s MCP protocol. Flowise, a popular open source platform that provides developers with a drag-and-drop interface for building LLM flows and AI agents, and which has over 52,000 GitHub stars, was flagged as one of the impacted products. According to OX Security, the root cause of the issue is a “by design”, systemic command injection vulnerability in Anthropic MCP, which propagates through the ecosystem. [Learn More: SecurityWeek to Host AI Risk Summit August 11-12 at the Ritz-Carlton, Half Moon Bay ] A NIST advisory describes CVE-2026-40933 as an unsafe serialization of stdio commands in the MCP adapter, allowing an attacker to add an MCP stdio server with an arbitrary command and achieve code execution. Advertisement. Scroll to continue reading. The security weakness existed because Flowise before version 3.1.0 allowed any user to add a new MCP and, when doing so, to add any command, enabling code execution on the underlying OS. According to Obsidian , the bug can be exploited by attackers to take over servers by simply convincing a user to import a crafted chatflow. The import action triggers arbitrary code execution on the server. “Any user who can create or edit chatflows can add a Custom MCP Tool and supply a malicious stdio MCP configuration. In practice, this requires a malicious insider or a compromised user account,” Obsidian notes. A remote attacker, the cybersecurity firm explains, can include a malicious command in a Custom MCP Tool configuration, export the chatflow as JSON, and share it with the victim. The payload abuses Flowise’s legitimate functionality to execute the malicious command during the import process. “Flowise’s Custom MCP node has an ‘Available Actions’ dropdown that lists the tools exposed by the configured MCP server. To populate that dropdown, the canvas asks the backend to enumerate the server’s tools. With stdio transport, enumeration starts the configured command. Because the dropdown loads when the imported chatflow renders on the canvas, the import alone can spawn the command,” Obsidian notes. The cybersecurity firm has published PoC code that, when imported, creates a shell back to Docker’s bridge address for the host. Obsidian says successful exploitation of CVE-2026-40933 leads to “OS-level execution with the Flowise process’s privileges, often root in containerized deployments. Every credential stored in the platform is readable. Every connected service is reachable. Flowise in production is typically wired into databases, APIs, and cloud accounts; the blast radius scales with whatever it connects to.” The cybersecurity firm notes that Flowise Cloud is not affected, because it has stdio MCP disabled. Self-hosted instances are vulnerable by default. Related: Raising the Cybersecurity Stakes: Ante up for the Agentic Era Related: Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks Related: Anthropic Releases New Claude Sandbox, Security Guidance Plugin Related: ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Geordie Raises $30 Million for AI Security and Governance Platform Carnival Data Breach Exposed 6 Million People New BTMOB Android Malware Enables Full Device Takeover Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks Gitea Vulnerability Exposed 30,000 Deployments to Attacks Google Unveils AI Threat Defense Platform to Fight AI-Powered Cyberattacks RevEng.AI Raises ",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "data_breach",
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "Gitea",
+            "Fortinet",
+            "Android"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-40933"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gitea": "target",
+            "Fortinet": "target",
+            "Android": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "GitHub",
+                "mention",
+                0.29
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Exploit Code Published for Critical Flowise RCE Vulnerability",
+          "link": "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/",
+          "published": "2026-05-30T15:55:59+00:00",
+          "summary": "The one-click vulnerability allows attackers to execute arbitrary code on self-hosted Flowise servers by tricking users into importing a malicious chatflow. The post Exploit Code Published for Critical Flowise RCE Vulnerability appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [
+              "data_breach",
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "Gitea",
+              "Fortinet",
+              "Android"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-40933"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gitea": "target",
+              "Fortinet": "target",
+              "Android": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "GitHub",
+                  "mention",
+                  0.29
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ac211e1aa7",
       "priority_score": 11,
       "member_count": 1,
@@ -5541,7 +5616,7 @@
         ]
       },
       "primary": {
-        "source": "Microsoft Threat Intelligence",
+        "source": "Microsoft Security Blog",
         "cohort": "threat_research_primary",
         "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
         "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
@@ -5578,7 +5653,7 @@
       },
       "corroborating_sources": [
         {
-          "source": "Microsoft Threat Intelligence",
+          "source": "Microsoft Security Blog",
           "cohort": "threat_research_primary",
           "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
@@ -5612,7 +5687,7 @@
           }
         },
         {
-          "source": "Microsoft Security Blog",
+          "source": "Microsoft Threat Intelligence",
           "cohort": "threat_research_primary",
           "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
           "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
@@ -5754,6 +5829,197 @@
                   0.28
                 ]
               ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "42b4567e7a",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
+        "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
+        "published": "2026-05-28T10:00:52+00:00",
+        "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
+        "full_body": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap By Emmanuel Tacheau Thursday, May 28, 2026 06:00 Vulnerability Deep Dive Over the last decade, DICOM parsing has become an active research topic. The reason is simple: DICOM is both critical and complicated. Hospitals rely on DICOM-based PACS systems, and those systems often automatically ingest files received over the network. That means malformed data could directly trigger vulnerable decoders — the holy grail of attack surfaces for those studying robustness. This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The objective is to show how an Orthanc server can be targeted during the image upload process, resulting in an out-of-bounds write. DICOM, Pydicom, GDCM, and Orthanc A technical tour of what really happens in the heap Download now Share this post Related Content “Good enough” emulation: Fuzzing a single thread to uncover vulnerabilities February 18, 2026 06:00 A Talos researcher used targeted emulation of the Socomec DIRIS M-70 gateway’s Modbus thread to uncover six patched vulnerabilities, showcasing efficient tools and methods for IoT security testing. ReVault! When your SoC turns against you… deep dive edition August 9, 2025 09:00 Talos reported 5 vulnerabilities to Broadcom and Dell affecting both the ControlVault3 Firmware and its associated Windows APIs that we are calling “ReVault”. Decrement by one to rule them all: AsIO3.sys driver exploitation June 26, 2025 06:00 Cisco Talos uncovered and analyzed two critical vulnerabilities in ASUS' AsIO3.sys driver, highlighting serious security risks and the importance of robust driver design.",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
+          "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
+          "published": "2026-05-28T10:00:52+00:00",
+          "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c964a73a7",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "vulnerability_disclosure"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Cisco"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-22554",
+          "CVE-2026-25104",
+          "CVE-2026-25713",
+          "CVE-2026-28764"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Cisco Talos",
+        "cohort": "threat_research_primary",
+        "title": "MediaArea heap-based buffer overflow vulnerabilities",
+        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+        "published": "2026-05-27T14:00:14+00:00",
+        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "vulnerability_disclosure"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Cisco"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-25104",
+            "CVE-2026-25713",
+            "CVE-2026-28764",
+            "CVE-2026-22554"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Cisco": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Cisco Talos",
+          "cohort": "threat_research_primary",
+          "title": "MediaArea heap-based buffer overflow vulnerabilities",
+          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
+          "published": "2026-05-27T14:00:14+00:00",
+          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
+          "taxonomy": {
+            "threat_categories": [
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Cisco"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-25104",
+              "CVE-2026-25713",
+              "CVE-2026-28764",
+              "CVE-2026-22554"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Cisco": "target"
+            },
+            "weak_tags": {
+              "products": []
             }
           }
         }
@@ -6043,197 +6309,6 @@
             "confidence_tier": "tier_1_primary_research",
             "role_map": {
               "Ivanti": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "42b4567e7a",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
-        "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
-        "published": "2026-05-28T10:00:52+00:00",
-        "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
-        "full_body": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap By Emmanuel Tacheau Thursday, May 28, 2026 06:00 Vulnerability Deep Dive Over the last decade, DICOM parsing has become an active research topic. The reason is simple: DICOM is both critical and complicated. Hospitals rely on DICOM-based PACS systems, and those systems often automatically ingest files received over the network. That means malformed data could directly trigger vulnerable decoders — the holy grail of attack surfaces for those studying robustness. This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format. The objective is to show how an Orthanc server can be targeted during the image upload process, resulting in an out-of-bounds write. DICOM, Pydicom, GDCM, and Orthanc A technical tour of what really happens in the heap Download now Share this post Related Content “Good enough” emulation: Fuzzing a single thread to uncover vulnerabilities February 18, 2026 06:00 A Talos researcher used targeted emulation of the Socomec DIRIS M-70 gateway’s Modbus thread to uncover six patched vulnerabilities, showcasing efficient tools and methods for IoT security testing. ReVault! When your SoC turns against you… deep dive edition August 9, 2025 09:00 Talos reported 5 vulnerabilities to Broadcom and Dell affecting both the ControlVault3 Firmware and its associated Windows APIs that we are calling “ReVault”. Decrement by one to rule them all: AsIO3.sys driver exploitation June 26, 2025 06:00 Cisco Talos uncovered and analyzed two critical vulnerabilities in ASUS' AsIO3.sys driver, highlighting serious security risks and the importance of robust driver design.",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "DICOM, Pydicom, GDCM, and Orthanc: A technical tour of what really happens in the heap",
-          "link": "https://blog.talosintelligence.com/dicom-pydicom-gdcm-and-orthanc-a-technical-tour-of-what-really-happens-in-the-heap/",
-          "published": "2026-05-28T10:00:52+00:00",
-          "summary": "This white paper presents a concrete case study demonstrating the creation of a heap overflow vulnerability through the exploitation of the DICOM file format.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0c964a73a7",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "vulnerability_disclosure"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Cisco"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-22554",
-          "CVE-2026-25104",
-          "CVE-2026-25713",
-          "CVE-2026-28764"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Cisco Talos",
-        "cohort": "threat_research_primary",
-        "title": "MediaArea heap-based buffer overflow vulnerabilities",
-        "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-        "published": "2026-05-27T14:00:14+00:00",
-        "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-        "full_body": "MediaArea heap-based buffer overflow vulnerabilities By Kri Dontje Wednesday, May 27, 2026 10:00 Vulnerability Roundup Cisco Talos’ Vulnerability Discovery & Research team recently disclosed four vulnerabilities in MediaArea MediaInfoLib library. The vulnerabilities mentioned in this blog post have been patched by their respective vendor, in adherence to Cisco’s third-party vulnerability disclosure policy . For Snort coverage that can detect the exploitation of these vulnerabilities, download the latest rule sets from Snort.org , and our latest Vulnerability Advisories are always posted on Talos Intelligence’s website . MediaArea vulnerabilities Discovered by Dimitrios Tatsis of Cisco Talos. MediaArea produces digital media analysis open-source software, as well as support tools for file investigation. MediaInfoLib provides a UI for technical and tag data for video and audio media files. Talos discovered four vulnerabilities in MediaInfoLib. TALOS-2026-2367 (CVE-2026-25104), TALOS-2026-2368 (CVE-2026-25713), TALOS-2026-2371 (CVE-2026-28764), and TALOS-2026-2374 (CVE-2026-22554) are heap-based buffer overflow vulnerabilities in various functionalities of MediaInfoLib (version(s): 26.01). All can lead to arbitrary code execution. An attacker can provide a malicious file to trigger these vulnerabilities. Share this post Related Content TP-Link, Photoshop, OpenVPN, Norton VPN vulnerabilities May 19, 2026 11:39 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed eight vulnerabilities in TP-Link, and one each in Adobe Photoshop, OpenVPN, and Gen Digital's Norton VPN. Foxit, LibRaw vulnerabilities April 16, 2026 15:00 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed one Foxit Reader vulnerability, and six LibRaw file reader vulnerabilities. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage that can detect the TP-Link, Canva, HikVision vulnerabilities March 26, 2026 14:34 Cisco Talos’ Vulnerability Discovery & Research team recently disclosed a vulnerability in HikVision, as well as 10 in TP-Link, and 19 in Canva. The vulnerabilities mentioned in this blog post have been patched by their respective vendors, all in adherence to Cisco’s third-party vulnerability disclosure policy. For Snort coverage",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "vulnerability_disclosure"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Cisco"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-25104",
-            "CVE-2026-25713",
-            "CVE-2026-28764",
-            "CVE-2026-22554"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Cisco": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Cisco Talos",
-          "cohort": "threat_research_primary",
-          "title": "MediaArea heap-based buffer overflow vulnerabilities",
-          "link": "https://blog.talosintelligence.com/mediaarea-heap-based-buffer-overflow-vulnerabilities/",
-          "published": "2026-05-27T14:00:14+00:00",
-          "summary": "Talos researchers find 4 heap-based buffer overflow vulnerabilities in MediaArea's MediaInfoLib.",
-          "taxonomy": {
-            "threat_categories": [
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Cisco"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-25104",
-              "CVE-2026-25713",
-              "CVE-2026-28764",
-              "CVE-2026-22554"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Cisco": "target"
             },
             "weak_tags": {
               "products": []
@@ -8128,9 +8203,7 @@
         "actor_attribution": [
           "Kimsuky"
         ],
-        "affected_industries": [
-          "manufacturing_industrial"
-        ],
+        "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -8150,8 +8223,8 @@
         "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
         "published": "2026-05-29T05:57:41+00:00",
         "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-        "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "not_attempted",
         "taxonomy": {
           "threat_categories": [
             "phishing_social_eng",
@@ -8160,9 +8233,7 @@
           "actor_attribution": [
             "Kimsuky"
           ],
-          "affected_industries": [
-            "manufacturing_industrial"
-          ],
+          "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -8170,17 +8241,9 @@
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Cisco": "mention"
-          },
+          "role_map": {},
           "weak_tags": {
-            "products": [
-              [
-                "Cisco",
-                "mention",
-                0.28
-              ]
-            ]
+            "products": []
           }
         }
       },
@@ -8200,9 +8263,7 @@
             "actor_attribution": [
               "Kimsuky"
             ],
-            "affected_industries": [
-              "manufacturing_industrial"
-            ],
+            "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8210,17 +8271,9 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Cisco": "mention"
-            },
+            "role_map": {},
             "weak_tags": {
-              "products": [
-                [
-                  "Cisco",
-                  "mention",
-                  0.28
-                ]
-              ]
+              "products": []
             }
           }
         }
@@ -8993,39 +9046,6 @@
       ]
     },
     {
-      "label": "CVE-2026-41091 exploitation activity",
-      "anchor_signal": "CVE-2026-41091",
-      "theme_key": "cve-2026-41091",
-      "dominant_features": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "cve_ids": [
-          "CVE-2026-41091",
-          "CVE-2026-45498"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "CVE-2026-41091"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "76e5533edc",
-        "22c0f52b2c"
-      ],
-      "links": [
-        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
-        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
-        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
-        "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/"
-      ]
-    },
-    {
       "label": "CVE-2026-45498 exploitation activity",
       "anchor_signal": "CVE-2026-45498",
       "theme_key": "cve-2026-45498",
@@ -9043,6 +9063,39 @@
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-45498"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "76e5533edc",
+        "22c0f52b2c"
+      ],
+      "links": [
+        "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
+        "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
+        "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
+        "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/"
+      ]
+    },
+    {
+      "label": "CVE-2026-41091 exploitation activity",
+      "anchor_signal": "CVE-2026-41091",
+      "theme_key": "cve-2026-41091",
+      "dominant_features": {
+        "threat_categories": [
+          "ddos"
+        ],
+        "cve_ids": [
+          "CVE-2026-41091",
+          "CVE-2026-45498"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 5,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "CVE-2026-41091"
       ],
       "member_cves": [],
       "also_targets": [],
