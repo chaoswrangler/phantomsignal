@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31T23:15:19.096468+00:00",
+  "generated_at": "2026-06-01T04:56:53.513353+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
   "total_items_in_window": 448,
-  "total_clusters_raw": 164,
-  "total_clusters_in_packet": 67,
-  "dropped_low_score": 97,
+  "total_clusters_raw": 162,
+  "total_clusters_in_packet": 66,
+  "dropped_low_score": 96,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,18 +74,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Microsoft Security Blog": {
@@ -102,12 +95,19 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 4
+      "in_window_count": 2
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
     },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
@@ -116,39 +116,25 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 4
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 2
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 4
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
       "in_window_count": 0
     },
     "Citizen Lab": {
@@ -158,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -179,6 +165,20 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -186,39 +186,11 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
-      "in_window_count": 0
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 28
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -228,11 +200,32 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 28
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -249,11 +242,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "TrustedSec": {
@@ -269,13 +276,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
-    },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -298,19 +298,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -326,12 +326,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -339,13 +339,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
@@ -361,19 +354,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 18
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -396,12 +389,12 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 18
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -409,6 +402,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 22
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,13 +438,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 22
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -445,12 +445,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -466,19 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 22
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,11 +480,18 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
+      "in_window_count": 22
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Schneier on Security": {
@@ -501,19 +501,19 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 1
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "in_window_count": 2
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -521,6 +521,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 33
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -536,26 +543,12 @@
       "item_count": 100,
       "in_window_count": 21
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
-    },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 23
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -571,12 +564,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 25,
+      "in_window_count": 23
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -592,6 +585,20 @@
       "item_count": 25,
       "in_window_count": 15
     },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
@@ -604,14 +611,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "in_window_count": 13
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -1230,8 +1230,8 @@
     {
       "cluster_id": "b44c0ebad4",
       "priority_score": 37,
-      "member_count": 5,
-      "corroborating_source_count": 4,
+      "member_count": 6,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "CVE-2026-0257",
         "Palo Alto Networks"
@@ -1261,6 +1261,7 @@
         ],
         "confidence_tier": [
           "tier_1_offensive_research",
+          "tier_3_analysis",
           "tier_4_news",
           "tier_5_chatter"
         ]
@@ -1427,6 +1428,38 @@
               "products": []
             }
           }
+        },
+        {
+          "source": "Risky Business News",
+          "cohort": "practitioner_analysis",
+          "title": "Risky Bulletin: Recently patched PAN 0day exploited in the wild",
+          "link": "https://risky.biz/RBNEWS571/",
+          "published": "2026-06-01T02:48:14+00:00",
+          "summary": "A new Palo Alto Networks firewall bug is being exploited in the wild, Russia expands SORM surveillance, NIST is looking for new post quantum algorithms, and ENSOC launches in Europe.",
+          "taxonomy": {
+            "threat_categories": [
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
+            "role_map": {
+              "Palo Alto Networks": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
         }
       ]
     },
@@ -1556,268 +1589,6 @@
                   0.26
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "da583a9e4e",
-      "priority_score": 24,
-      "member_count": 7,
-      "corroborating_source_count": 6,
-      "strong_signals": [
-        "GitHub",
-        "TeamPCP"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "TeamPCP"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "Google/Gemini"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government",
-          "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-24, (Mon, May 25th)",
-        "link": "https://isc.sans.edu/diary/rss/33016",
-        "published": "2026-05-25T13:26:06+00:00",
-        "summary": "TeamPCP now operates across three package ecosystems in parallel, it reached GitHub&#;x26;#;39;s own internal codebase, it trojanized an officially Microsoft-published Python SDK, and it appears to have open-sourced its own framework on GitHub.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain"
-          ],
-          "actor_attribution": [
-            "TeamPCP"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-24, (Mon, May 25th)",
-          "link": "https://isc.sans.edu/diary/rss/33016",
-          "published": "2026-05-25T13:26:06+00:00",
-          "summary": "TeamPCP now operates across three package ecosystems in parallel, it reached GitHub&#;x26;#;39;s own internal codebase, it trojanized an officially Microsoft-published Python SDK, and it appears to have open-sourced its own framework on GitHub.",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain"
-            ],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Record",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft calls zero-day releases ‘never justifiable’ as researcher threatens to drop more",
-          "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
-          "published": "2026-05-29T13:33:00+00:00",
-          "summary": "Each vulnerability was published with working proof-of-concept code to the Microsoft-owned code repository GitHub, making them immediately available to both attackers and security professionals.",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-          "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-          "published": "2026-05-28T13:53:52+00:00",
-          "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "vulnerability_disclosure"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Google Cloud Security",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Developer's guide to Gemini Enterprise and A2UI integration",
-          "link": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
-          "published": "2026-05-29T16:00:00+00:00",
-          "summary": "If you've built a chatbot, you know this conversation: User: \"Book a table for two tomorrow at 7pm.\" Agent: \"Okay, for what day?\" User: \"Tomorrow.\" Agent: \"What time?\" A date picker would have ended this in one tap. But until recently, agents had no standard way to render a date picker — or a map, or a multi-select list — inside the chat surface they live in. They could only return text or markdown for generic usage. Today, we're walking through how to fix that with A2UI , an open protocol for agent-driven user interfaces, and how to integrate an A2UI-enabled agent with Gemini Enterprise (GE) so your agent renders rich and interactive UI natively in the GE chat surface — and in your own custom frontend if you want one. We'll use a working restaurant-finder agent — built with the Google Agent Development Kit (ADK), the A2A protocol, and Gemini — as the reference. The full source is on GitHub and there's a 2-minute demo video. Gemini Enterprise and A2UI integration demo The problem: agen",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub",
-              "Google/Gemini"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "GitHub": "target",
-              "Google/Gemini": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Shai-Hulud Hackers TeamPCP: Lucky or Skilled?",
-          "link": "https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled",
-          "published": "2026-05-26T19:18:01+00:00",
-          "summary": "TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [
-              "TeamPCP"
-            ],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/netsecstudents",
-          "cohort": "reddit_practitioner_osint",
-          "title": "GitHub - iss4cf0ng/OpenPetya: A Proof-of-Concept bootkit inspired by Petya ransomware, written in Assembly, C, and C++",
-          "link": "https://www.reddit.com/r/netsecstudents/comments/1tpvbru/github_iss4cf0ngopenpetya_a_proofofconcept/",
-          "published": "2026-05-28T06:28:37+00:00",
-          "summary": "submitted by /u/AcrobaticMonitor9992 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -2059,8 +1830,8 @@
     {
       "cluster_id": "76e5533edc",
       "priority_score": 20,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "Salesforce",
         "ShinyHunters"
@@ -2106,6 +1877,7 @@
         ],
         "confidence_tier": [
           "tier_1_primary_research",
+          "tier_3_analysis",
           "tier_4_news",
           "tier_5_chatter"
         ]
@@ -2287,6 +2059,32 @@
             "urgency_signals": [],
             "content_type": "incident_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Troy Hunt",
+          "cohort": "practitioner_analysis",
+          "title": "Weekly Update 506",
+          "link": "https://www.troyhunt.com/weekly-update-506/",
+          "published": "2026-06-01T03:32:33+00:00",
+          "summary": "I'm finding it quite fascinating to watch the current spate of ShinyHunters breaches and dumps. There's the obvious criminality of it all, but then there's also the response from organisations (or lack thereof, as it relates to disclosure to victims), the appearance and disappearance",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [
+              "ShinyHunters"
+            ],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_3_analysis",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -3787,81 +3585,6 @@
       ]
     },
     {
-      "cluster_id": "941c0886a3",
-      "priority_score": 14,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_government"
-        ]
-      },
-      "primary": {
-        "source": "SANS Internet Storm Center",
-        "cohort": "government_authoritative",
-        "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
-        "link": "https://isc.sans.edu/diary/rss/33032",
-        "published": "2026-05-31T16:01:29+00:00",
-        "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
-        "full_body": "",
-        "fetch_status": "fetch_failed:HTTPError",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_government",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "SANS Internet Storm Center",
-          "cohort": "government_authoritative",
-          "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
-          "link": "https://isc.sans.edu/diary/rss/33032",
-          "published": "2026-05-31T16:01:29+00:00",
-          "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_government",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "d04252af51",
       "priority_score": 14,
       "member_count": 1,
@@ -4282,8 +4005,8 @@
     {
       "cluster_id": "64f7b4c761",
       "priority_score": 14,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 5,
+      "corroborating_source_count": 5,
       "strong_signals": [
         "Apple iOS/macOS",
         "JINX-0164"
@@ -4313,7 +4036,8 @@
         ],
         "confidence_tier": [
           "tier_2_operator",
-          "tier_4_news"
+          "tier_4_news",
+          "tier_5_chatter"
         ]
       },
       "primary": {
@@ -4482,6 +4206,109 @@
             "role_map": {
               "Apple iOS/macOS": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/blueteamsec",
+          "cohort": "reddit_practitioner_osint",
+          "title": "Sapphire Sleet Targets macOS in Multi-Stage Intrusion Campaign",
+          "link": "https://www.reddit.com/r/blueteamsec/comments/1tthhrl/sapphire_sleet_targets_macos_in_multistage/",
+          "published": "2026-06-01T04:30:38+00:00",
+          "summary": "submitted by /u/digicat [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Apple iOS/macOS"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "Apple iOS/macOS": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "941c0886a3",
+      "priority_score": 13,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_government"
+        ]
+      },
+      "primary": {
+        "source": "SANS Internet Storm Center",
+        "cohort": "government_authoritative",
+        "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
+        "link": "https://isc.sans.edu/diary/rss/33032",
+        "published": "2026-05-31T16:01:29+00:00",
+        "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_government",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "SANS Internet Storm Center",
+          "cohort": "government_authoritative",
+          "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
+          "link": "https://isc.sans.edu/diary/rss/33032",
+          "published": "2026-05-31T16:01:29+00:00",
+          "summary": "YARA-X&#;x26;#;39;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_government",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -4857,6 +4684,254 @@
             "confidence_tier": "tier_4_news",
             "role_map": {
               "Anthropic/Claude": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "acf13c1f29",
+      "priority_score": 12,
+      "member_count": 5,
+      "corroborating_source_count": 5,
+      "strong_signals": [
+        "GitHub"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "ransomware_extortion",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [
+          "Azure",
+          "GitHub",
+          "Google/Gemini"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "no_patch_yet",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator",
+          "tier_4_news",
+          "tier_5_chatter"
+        ]
+      },
+      "primary": {
+        "source": "The Record",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft calls zero-day releases ‘never justifiable’ as researcher threatens to drop more",
+        "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
+        "published": "2026-05-29T13:33:00+00:00",
+        "summary": "Each vulnerability was published with working proof-of-concept code to the Microsoft-owned code repository GitHub, making them immediately available to both attackers and security professionals.",
+        "full_body": "Image: עמית גירון / WikiMedia Commons Microsoft calls zero-day releases ‘never justifiable’ as researcher threatens to drop more Microsoft has published its first response to a weeks-long campaign of uncoordinated Windows zero-day releases, condemning the disclosures as “never justifiable” and suggesting that it could bring cases against people who enable cybercrime. A pseudonymous researcher known as Nightmare Eclipse began releasing the vulnerabilities in April. Each was published with working proof-of-concept code to the Microsoft-owned code repository GitHub, making them immediately available to both attackers and security professionals. The researcher's GitHub account has since been removed, and their Blogger page, where they have been posting since April, appears to be down as of publication. The first three of the six vulnerabilities — known as BlueHammer , UnDefend and RedSun , all disclosed in April — have been exploited in live intrusions, according to Microsoft’s own patch advisories. All three appear on the U.S. Cybersecurity and Infrastructure Security Agency’s (CISA) catalog of known exploited vulnerabilities. The three more recent releases — YellowKey , GreenPlasma and MiniPlasma, all disclosed earlier this month — have no patches and no confirmed exploitation as of publication. The researcher has not publicly identified themselves. In cryptographically signed posts on their Blogger page they have set out grievances against Microsoft, alleging the company deleted their Microsoft Security Response Center account, withheld bounty payments and removed their attribution from at least one advisory. “I could have made some insane cash selling this but no amount of money will stand between me and my determination against Microsoft,” they stated . The researcher threatened a further release on July 14 — the date scheduled for Microsoft's Patch Tuesday — warning they would “make sure your bones are shattered that day.” In a blogpost on Wednesday, Microsoft said: “We remain firmly opposed to these actions, and any disclosure outside proper coordination that could harm our customers and the digital ecosystem. Uncoordinated disclosures that put proof-of-concept code for unpatched vulnerabilities into the hands of bad actors are never justifiable and have real-world consequences.” The company stopped short of directly threatening legal action, but said: “Our security teams across the company work tirelessly tracking threat actors who look for weaknesses just like these to attack Microsoft and our customers. Our Digital Crimes Unit will continue bringing cases against these actors and those that enable their criminal activity – coordinating as needed with law enforcement around the world.” Katie Moussouris, founder of Luta Security and the architect of Microsoft's original bug bounty program, posted on Bluesky on Thursday that Microsoft's use of the phrase \"responsible disclosure\" was itself loaded. \"No vendor uses that term unless they want to call someone irresponsible,\" she wrote . Industry frustrations Although the details about the researcher’s complaints have not been verified, other security professionals have levied similar complaints about Microsoft’s handling of vulnerabilities in the past. Trend Micro's Zero Day Initiative publicly criticised Microsoft in 2024 after reporting an actively exploited vulnerability and receiving no acknowledgment when it was patched. Tenable's then-chief executive published a post on LinkedIn in 2023 accusing Microsoft of leaving customers “deliberately kept in the dark” about an Azure vulnerability that went unpatched for months after disclosure. Check Point researcher Haifei Li said separately that Microsoft had patched a bug he reported without notifying him, and that coordinated disclosure “can't be just one-sided.” Moussouris warned that researchers dropping zero-day vulnerabilities wasn’t ideal, but not the worst thing a researcher could do. “Non-disclosure is far worse,” she wro",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [
+            "Azure",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "no_patch_yet",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Azure": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Record",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft calls zero-day releases ‘never justifiable’ as researcher threatens to drop more",
+          "link": "https://therecord.media/microsoft-calls-zero-day-releases-never-justifiable-as-researcher-threatens-more",
+          "published": "2026-05-29T13:33:00+00:00",
+          "summary": "Each vulnerability was published with working proof-of-concept code to the Microsoft-owned code repository GitHub, making them immediately available to both attackers and security professionals.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [
+              "Azure",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "no_patch_yet",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Azure": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+          "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+          "published": "2026-05-28T13:53:52+00:00",
+          "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Google Cloud Security",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Developer's guide to Gemini Enterprise and A2UI integration",
+          "link": "https://cloud.google.com/blog/topics/developers-practitioners/guide-to-gemini-enterprise-and-a2ui-integration/",
+          "published": "2026-05-29T16:00:00+00:00",
+          "summary": "If you've built a chatbot, you know this conversation: User: \"Book a table for two tomorrow at 7pm.\" Agent: \"Okay, for what day?\" User: \"Tomorrow.\" Agent: \"What time?\" A date picker would have ended this in one tap. But until recently, agents had no standard way to render a date picker — or a map, or a multi-select list — inside the chat surface they live in. They could only return text or markdown for generic usage. Today, we're walking through how to fix that with A2UI , an open protocol for agent-driven user interfaces, and how to integrate an A2UI-enabled agent with Gemini Enterprise (GE) so your agent renders rich and interactive UI natively in the GE chat surface — and in your own custom frontend if you want one. We'll use a working restaurant-finder agent — built with the Google Agent Development Kit (ADK), the A2A protocol, and Gemini — as the reference. The full source is on GitHub and there's a 2-minute demo video. Gemini Enterprise and A2UI integration demo The problem: agen",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub",
+              "Google/Gemini"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "GitHub": "target",
+              "Google/Gemini": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos",
+          "link": "https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos",
+          "published": "2026-05-26T19:47:14+00:00",
+          "summary": "In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Reddit r/netsecstudents",
+          "cohort": "reddit_practitioner_osint",
+          "title": "GitHub - iss4cf0ng/OpenPetya: A Proof-of-Concept bootkit inspired by Petya ransomware, written in Assembly, C, and C++",
+          "link": "https://www.reddit.com/r/netsecstudents/comments/1tpvbru/github_iss4cf0ngopenpetya_a_proofofconcept/",
+          "published": "2026-05-28T06:28:37+00:00",
+          "summary": "submitted by /u/AcrobaticMonitor9992 [link] [comments]",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_5_chatter",
+            "role_map": {
+              "GitHub": "target"
             },
             "weak_tags": {
               "products": []
@@ -5888,6 +5963,133 @@
       ]
     },
     {
+      "cluster_id": "080c3ca6d1",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [
+          "Kimsuky",
+          "Lazarus",
+          "UNC5221"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "financial_services",
+          "government",
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Ivanti"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+        "published": "2026-05-28T08:45:00+00:00",
+        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+        "full_body": "ESET Research Threat Reports ESET APT Activity Report Q4 2025–Q1 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026 Jean-Ian Boutin 28 May 2026 • , 4 min. read ESET APT Activity Report Q4 2025–Q1 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers from October 2025 through March 2026. The operations highlighted here are representative of the broader threat landscape we investigated during this period, illustrating key trends and developments, and contain only a fraction of the cybersecurity intelligence data provided to customers of ESET Threat Intelligence APT Reports. During the monitored time frame, China-aligned threat actors remained highly active worldwide, conducting espionage campaigns shaped in part by geopolitical developments affecting Beijing’s economic and security interests. Following the US military operation in Venezuela and amid continuing instability in the Gulf region, we spotted signs that China-aligned groups were being mobilized to improve Beijing’s visibility into maritime, energy, and political developments abroad. In one notable case, FamousSparrow targeted a Venezuelan governmental entity connected to maritime affairs, likely to monitor the resilience of oil shipments after the US intervention. We also noticed SteppeDriver targeting a Syrian governmental network, activity that may reflect both Chinese commercial interest in Syria’s reconstruction projects and security concerns surrounding Uyghur fighters present in that country. On VirusTotal we found PhiliKit, a new implant that we assess to be part of UNC5221’s SPAWN toolset targeting Ivanti VPN appliances, while our tracking of NegativeGlimmer revealed the group compromising governmental entities in Cambodia and Panama, as well as an AI and robotics company in South Korea. The latter targeting in South Korea aligns with Beijing’s enduring interest in strategic technologies prioritized under the Made in China 2025 industrial development policy. The war in Iran that began in late February 2026 was the defining event for Iran-aligned activity during this period. Paradoxically, the conflict coincided with a decline in activity from established Iran-aligned APT groups in our telemetry, most likely because internet restrictions imposed by the Iranian regime hindered their ability to operate effectively. At the same time, this environment appears to have favored the mobilization of proxy and hacktivist actors targeting Israel, the United States, and other states seen as hostile to Tehran. We also documented an unusual spike in activity against Israeli targets that we could not confidently link to previously known groups. Two unattributed activity clusters, Rusty Boots and MoKhargosh, demonstrated both espionage capabilities and destructive potential – including deployment of a bootkit-style wiper and retaining destructive tooling for later use – whereas a third, MOØN Badr, appears to have been limited to targeted espionage. North Korea-aligned threat actors remained active on several fronts. Multiple groups continued targeting developers and the cryptocurrency ecosystem with social engineering schemes that can yield both direct financial gain and opportunities for software supply-chain compromise. Lazarus and DeceptiveDevelopment continued to invest in long-term relationship building with high-value targets, while Kimsuky and Konni favored quicker, more opportunistic attacks. We also uncovered the reemergence of Andariel in South Korea, where the group deployed TigerRAT and attempted to spread Rook ransomware within an engineering company that appears to manufacture equipment relevant to liquid hydrogen handling and the nuclear industry – technologies that are obviously of interest to Pyongyang’s ballistic and nuclear ambitions. We also tracked the continuing evolution of Lazarus campaigns, including Operation DreamJob",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [
+            "Lazarus",
+            "Kimsuky",
+            "UNC5221"
+          ],
+          "affected_industries": [
+            "financial_services",
+            "government",
+            "critical_infrastructure",
+            "manufacturing_industrial"
+          ],
+          "affected_products": [
+            "Ivanti"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Ivanti": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
+          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
+          "published": "2026-05-28T08:45:00+00:00",
+          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [
+              "Lazarus",
+              "Kimsuky",
+              "UNC5221"
+            ],
+            "affected_industries": [
+              "financial_services",
+              "government",
+              "critical_infrastructure",
+              "manufacturing_industrial"
+            ],
+            "affected_products": [
+              "Ivanti"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Ivanti": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "42b4567e7a",
       "priority_score": 10,
       "member_count": 1,
@@ -6079,81 +6281,6 @@
       ]
     },
     {
-      "cluster_id": "0c8abca5e9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-        "published": "2026-05-28T06:55:11+00:00",
-        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
-          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
-          "published": "2026-05-28T06:55:11+00:00",
-          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "543e4ad427",
       "priority_score": 10,
       "member_count": 1,
@@ -6244,32 +6371,16 @@
       ]
     },
     {
-      "cluster_id": "080c3ca6d1",
+      "cluster_id": "0c8abca5e9",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [
-          "Kimsuky",
-          "Lazarus",
-          "UNC5221"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "financial_services",
-          "government",
-          "manufacturing_industrial"
-        ],
-        "affected_products": [
-          "Ivanti"
-        ],
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
@@ -6282,44 +6393,26 @@
         ]
       },
       "primary": {
-        "source": "ESET WeLiveSecurity",
+        "source": "Kaspersky Securelist",
         "cohort": "threat_research_primary",
-        "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-        "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-        "published": "2026-05-28T08:45:00+00:00",
-        "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
-        "full_body": "ESET Research Threat Reports ESET APT Activity Report Q4 2025–Q1 2026 An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026 Jean-Ian Boutin 28 May 2026 • , 4 min. read ESET APT Activity Report Q4 2025–Q1 2026 summarizes notable activities of selected advanced persistent threat (APT) groups documented by ESET researchers from October 2025 through March 2026. The operations highlighted here are representative of the broader threat landscape we investigated during this period, illustrating key trends and developments, and contain only a fraction of the cybersecurity intelligence data provided to customers of ESET Threat Intelligence APT Reports. During the monitored time frame, China-aligned threat actors remained highly active worldwide, conducting espionage campaigns shaped in part by geopolitical developments affecting Beijing’s economic and security interests. Following the US military operation in Venezuela and amid continuing instability in the Gulf region, we spotted signs that China-aligned groups were being mobilized to improve Beijing’s visibility into maritime, energy, and political developments abroad. In one notable case, FamousSparrow targeted a Venezuelan governmental entity connected to maritime affairs, likely to monitor the resilience of oil shipments after the US intervention. We also noticed SteppeDriver targeting a Syrian governmental network, activity that may reflect both Chinese commercial interest in Syria’s reconstruction projects and security concerns surrounding Uyghur fighters present in that country. On VirusTotal we found PhiliKit, a new implant that we assess to be part of UNC5221’s SPAWN toolset targeting Ivanti VPN appliances, while our tracking of NegativeGlimmer revealed the group compromising governmental entities in Cambodia and Panama, as well as an AI and robotics company in South Korea. The latter targeting in South Korea aligns with Beijing’s enduring interest in strategic technologies prioritized under the Made in China 2025 industrial development policy. The war in Iran that began in late February 2026 was the defining event for Iran-aligned activity during this period. Paradoxically, the conflict coincided with a decline in activity from established Iran-aligned APT groups in our telemetry, most likely because internet restrictions imposed by the Iranian regime hindered their ability to operate effectively. At the same time, this environment appears to have favored the mobilization of proxy and hacktivist actors targeting Israel, the United States, and other states seen as hostile to Tehran. We also documented an unusual spike in activity against Israeli targets that we could not confidently link to previously known groups. Two unattributed activity clusters, Rusty Boots and MoKhargosh, demonstrated both espionage capabilities and destructive potential – including deployment of a bootkit-style wiper and retaining destructive tooling for later use – whereas a third, MOØN Badr, appears to have been limited to targeted espionage. North Korea-aligned threat actors remained active on several fronts. Multiple groups continued targeting developers and the cryptocurrency ecosystem with social engineering schemes that can yield both direct financial gain and opportunities for software supply-chain compromise. Lazarus and DeceptiveDevelopment continued to invest in long-term relationship building with high-value targets, while Kimsuky and Konni favored quicker, more opportunistic attacks. We also uncovered the reemergence of Andariel in South Korea, where the group deployed TigerRAT and attempted to spread Rook ransomware within an engineering company that appears to manufacture equipment relevant to liquid hydrogen handling and the nuclear industry – technologies that are obviously of interest to Pyongyang’s ballistic and nuclear ambitions. We also tracked the continuing evolution of Lazarus campaigns, including Operation DreamJob",
+        "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+        "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+        "published": "2026-05-28T06:55:11+00:00",
+        "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
+        "full_body": "Table of Contents Introduction Link to previous campaigns Potential distribution scale The downloadable archive DLL analysis Main module Watchdog RAT agent The miners Conclusion Indicators of Compromise Authors Konstantin Krasilnikov Valery Akulenko Artem Snegirev Introduction In late April 2026, a client reached out to us for incident response support after discovering a miner running on users’ computers. We later discovered that the malware was being distributed via illegal movie and TV show streaming sites. The infection chain leveraged a fake update for a video player plugin. When the user attempted to watch a video, the player displayed a message saying the plugin version was outdated and asking to install an update to continue. Clicking the link downloaded a ZIP archive with the following contents: The archive contained a legitimate executable, HLS Installer.874.exe , alongside a malicious DLL. Launching the EXE triggered a DLL side-loading mechanism, injecting the malicious module into a legitimate program process and executing code within its context. The library contained the logic for deploying the miner and establishing persistence on the device. At the time of the investigation, the infection risk was associated with two pirated video sites in the .ru and .top TLDs. Link to previous campaigns The current incident does not appear to be an isolated case. After analyzing the infection vector and the logic of the DLL, we concluded that this activity is a continuation of a campaign involving pirated digital libraries, which was previously described by another cybersecurity company . The delivery mechanism for the malicious archive has remained virtually unchanged. Previously, the archive was downloaded in parts from the domain file[.]ipfs[.]us[.]69[.]mu, but this domain was unavailable at the time of our investigation. Instead, the threat actor employed a new website, urush1bar4[.]online. The structure of the archive has also been preserved: inside is a legitimate executable and a large malicious DLL (see the screenshot below). In the course of our research, we also discovered a blog post by NTT Security describing a similar delivery method for a malicious archive. In that instance, the threat actors displayed a fake browser crash page (shown below) while simultaneously downloading an archive to the device with a name starting with chromium-patch-nightly. This scenario resembles the current scheme involving the fake video player plugin update. Given the previously described activity, it’s safe to assume that this campaign has been active since at least 2022. Throughout this entire period, the threat actor has been updating both the downloadable malware and individual parts of the infection mechanism. Potential distribution scale As in previous episodes of the campaign, infections occur via highly popular websites. As of late April 2026, sites linked to the campaign typically displayed extremely high monthly traffic. For instance, the audience for the smallest of the free digital libraries stood at 11,000 users, while the largest reached 4.7 million. For pirated movie and TV show streaming sites, this figure ranged from 2.1 million to 27.4 million. In April, the total number of visits to websites where the malware described in this study was detected reached 40 million. The popularity of these sites increases the potential scale of the miner’s distribution. Furthermore, the campaign is not limited to a single type of platform: the malicious archive is being distributed through both online digital libraries and movie and TV show streaming sites. This broadens the potential range of victims and makes it more difficult to attribute the threat to a single infection vector. The downloadable archive The current version of the downloadable malware is a ZIP archive containing a legitimate EXE file and a malicious DLL. When the executable runs, the library side-loads into its process, triggering the malicious logic. The technical",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [
-            "Lazarus",
-            "Kimsuky",
-            "UNC5221"
-          ],
-          "affected_industries": [
-            "financial_services",
-            "government",
-            "critical_infrastructure",
-            "manufacturing_industrial"
-          ],
-          "affected_products": [
-            "Ivanti"
-          ],
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Ivanti": "target"
-          },
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -6327,42 +6420,24 @@
       },
       "corroborating_sources": [
         {
-          "source": "ESET WeLiveSecurity",
+          "source": "Kaspersky Securelist",
           "cohort": "threat_research_primary",
-          "title": "ESET APT Activity Report Q4 2025–Q1 2026",
-          "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q4-2025-q1-2026/",
-          "published": "2026-05-28T08:45:00+00:00",
-          "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q4 2025 and Q1 2026",
+          "title": "Pirates in the crosshairs: how one cybercrime gang has been infecting book, movie, and TV show fans for years",
+          "link": "https://securelist.com/video-books-pirates-miners-rat/119943/",
+          "published": "2026-05-28T06:55:11+00:00",
+          "summary": "Our experts continue to track attacks targeting consumers of pirated content, both books and movies. 2026 saw the discovery of new target sites with tens of millions of visitors, while the miner gained a RAT module.",
           "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [
-              "Lazarus",
-              "Kimsuky",
-              "UNC5221"
-            ],
-            "affected_industries": [
-              "financial_services",
-              "government",
-              "critical_infrastructure",
-              "manufacturing_industrial"
-            ],
-            "affected_products": [
-              "Ivanti"
-            ],
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Ivanti": "target"
-            },
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -7422,175 +7497,6 @@
       ]
     },
     {
-      "cluster_id": "50b10852eb",
-      "priority_score": 9,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "Microsoft 365"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_3_analysis",
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "Graham Cluley",
-        "cohort": "practitioner_analysis",
-        "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
-        "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
-        "published": "2026-05-26T16:24:02+00:00",
-        "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
-        "full_body": "Industry News 3 min read FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts — no password required Graham CLULEY May 26, 2026 So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. The FBI has issued an advisory warning about a phishing-as-a-service platform that has recently emerged, which can hijack Microsoft 365 accounts without ever stealing a password. And it has no difficulty waltzing past MFA while it's at it. Kali365 is a subscription service for scammers that was first spotted in April 2026, and has been promoted largely through Telegram. It is a turnkey toolkit that allows even non-technical fraudsters to run sophisticated phishing campaigns, reportedly for as little as US $250 per month or $2,000 a year. Subscribers to Kali365 have access to AI-generated phishing lures, automated campaign templates, real-time dashboards for tracking targets, and the ability to capture OAuth tokens. In other words, it's everything even a complete newbie would need to launch a phishing attack. And the threat is not hypothetical. Security researchers documented hundreds of Kali365 attacks in April alone, hitting organisations cross North America and Europe. The common factor in the attacks? The victim had deployed MFA. What makes Kali365 so successful I suspect is that it does not need to fool victims with a fake login page. Instead, it abuses a legitimate Microsoft feature. If you have ever signed into a streaming service like Amazon Prime or Netflix on a smart TV you have probably been promoted to type a short code into a website on your phone. If you've done that, you've used \"device code flow.\" That's the technology which allows a gadget to borrow an authenticated session from another device. The Kali365 attack works the same way. You receive a phishing email which is disguised as a message from a trusted cloud service, asking you to visit a Microsoft verification page and enter a code. You go to the genuine Microsoft page and type in the code. You may think you have acted entirely safely. After all, it was a genuine Microsoft domain, your password manager recognised it correctly, the site's SSL certificate is valid, and there are no typos in the URL. However, what you have actually done is authorise an attacker's device to access your account. Microsoft hands the criminal an OAuth token - proof you are logged in - granting them unfettered access to your Microsoft Outlook, Teams, and OneDrive with no password and no further prompts to enter an MFA code. In short, there is no fake website to spot, and no misspelt domain name. The single stolen token can unlock other cloud apps, potentially turning one careless click into a wide-ranging security incident. The thing to remember here is that MFA stops attackers from logging in as you . It does nothing to prevent you from granting access to an attacker through a workflow that Microsoft considers entirely legitimate. The criminals are never asked to answer an MFA challenge, because as far as Microsoft is concerned the victim already has. And this is why the FBI's top recommendation is to block device code flow, with a conditional access policy in Microsoft Entra ID where appropriate. You will probably want to exclude emergency access accounts so you don't accidentally lock yourself out entirely. And it is always a good idea to roll-out phishing-resistant MFA, such as hardware security keys, which tie authentication to a physical device and are much harder to circumnavigate. The FBI's Internet Crime Complaint Center is encouraging victims to report incidents to it via its website at ic3.gov . tags Industry News Author Graham CLULEY Graham Cluley is an award-winning security blogger, researcher and public speaker. He has been working in the computer security industry since the early 1990s. View all posts You might also li",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft 365"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_3_analysis",
-          "role_map": {
-            "Microsoft 365": "target",
-            "Microsoft Entra": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Microsoft Entra",
-                "mention",
-                0.25
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Graham Cluley",
-          "cohort": "practitioner_analysis",
-          "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
-          "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
-          "published": "2026-05-26T16:24:02+00:00",
-          "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_3_analysis",
-            "role_map": {
-              "Microsoft 365": "target",
-              "Microsoft Entra": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Microsoft Entra",
-                  "mention",
-                  0.25
-                ]
-              ]
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "FBI Warns 'Kali365' Phishing Kit Hijacks Microsoft 365 OAuth Tokens",
-          "link": "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
-          "published": "2026-05-25T09:30:00+00:00",
-          "summary": "The Kali365 phishing-as-a-service platform lowers the barrier of entry for cybercriminals, said the FBI",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Microsoft 365": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/AskNetsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "How do phishing simulation tools work with real email security systems?",
-          "link": "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
-          "published": "2026-05-25T03:22:58+00:00",
-          "summary": "I’m trying to understand how phishing simulation tools actually work in companies that already have strong email security in place. Things like Microsoft 365 Safe Links, spam filters, DMARC checks, and email gateways often change or block emails before they even reach users. So how do simulation tools deal with this in real setups? Do they get allowlisted, or do they somehow go through normal email flow without breaking security rules? And when security tools rewrite links or scan attachments, does that mess up how realistic the simulation is? submitted by /u/Dependent-Self-6972 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "Microsoft 365": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "bb291aafce",
       "priority_score": 8,
       "member_count": 1,
@@ -8171,7 +8077,9 @@
         "actor_attribution": [
           "Kimsuky"
         ],
-        "affected_industries": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
         "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
@@ -8191,8 +8099,8 @@
         "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
         "published": "2026-05-29T05:57:41+00:00",
         "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels  Ravie Lakshmanan  May 29, 2026 Threat Intelligence / Endpoint Security The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as spoofing security software installation pages and crafting a fake Webex meeting page that leveraged a legitimate meeting schedule,\" ENKI said in an analysis published this week. The attacks have been found to deliver a variant of a known malware family dubbed HTTPSpy by disguising it as installers from South Korean security software, a tactic the threat actor has consistently adopted since 2023. In the latest campaign observed in March 2026, the adversary has been found to propagate malicious payloads through a bogus web page impersonating the security software installation page of a South Korean B2B messaging service. Given the nature of the lure, it's suspected that the activity may have been specifically designed to single out messaging administrators within corporate environments. The page claims to offer two security tools: a firewall and a keyboard security program. Once unsuspecting users initiate the download, it results in the download of either of the two executables - \"nos-setup.exe\" and \"astx-setup.exe\" - that masquerade as nProtect Online Security and AhnLab Safe Transaction (ASTx). Despite the differences in the name, the malicious behavior embedded in them is identical. The primary responsibility of the binaries is to launch a second-stage DLL payload (\"MemLoader.dll\") via \"regsvr32.exe,\" after which a batch script is run to delete themselves from disk. The DLL establishes persistence on the host using a scheduled task and contacts a command-and-control (C2) server to retrieve an as-yet-unknown payload. \"The attacker likely monitored the recurring GET requests from the malware and selectively delivered payloads to specific victims,\" ENKI said. In another campaign observed in April 2026, a counterfeit web page mimicking Cisco Webex is said to have been used to display a pop-up message urging the victim to download and run a script to address issues with accessing the camera. Doing so results in the retrieval of a ZIP archive containing an encrypted JavaScript (JSE) file (\"fix-camera.jse\"). The execution of the JSE file results in the deployment of an intermediate downloader (\"mTSTCv8.mdxm\") using PowerShell, which then runs anti-analysis checks and contacts a C2 server to fetch the next-stage malware (\"engine.dat\" or \"spyInster.dll\"). In the final stage, the DLL drops a loader component (\"cacheMon.dat\") that, in turn, executes HTTPSpy on the compromised system. HTTPSpy is a full-featured remote access trojan that supports a wide range of capabilities to run shell commands, upload/download files, execute processes, capture screenshots, inject DLL paths into specified PID processes, and erase itself from the endpoint. This is not the first time Kimsuky has deployed HTTPSpy. In its 2025 European Threat Landscape Report, CrowdStrike said the hacking group likely targeted a German defense manufacturer's employees via a credential phishing campaign deploying the malware between May 2024 and at least September 2024. The first use of HTTPSpy dates back to 2022. Simultaneously, the malware also drops and opens an HTML file named \"meeting.html,\" which immediately redirects the victim to a Webex meeting room. Accessing the URL opens a legitimate Webex meeting room associated with an actual scheduled event that took place around the same time. \"This indicates that the attacker likely compromised a service member's device or account to obtain the meeting schedule, then crafted a fake meeting page to distribute malware to the other attendees,\" the cybersecurity company said. ENKI said it a",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
             "phishing_social_eng",
@@ -8201,7 +8109,9 @@
           "actor_attribution": [
             "Kimsuky"
           ],
-          "affected_industries": [],
+          "affected_industries": [
+            "manufacturing_industrial"
+          ],
           "affected_products": [],
           "tools_used": [],
           "cve_ids": [],
@@ -8209,9 +8119,17 @@
           "urgency_signals": [],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Cisco": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Cisco",
+                "mention",
+                0.28
+              ]
+            ]
           }
         }
       },
@@ -8231,7 +8149,9 @@
             "actor_attribution": [
               "Kimsuky"
             ],
-            "affected_industries": [],
+            "affected_industries": [
+              "manufacturing_industrial"
+            ],
             "affected_products": [],
             "tools_used": [],
             "cve_ids": [],
@@ -8239,9 +8159,17 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Cisco": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Cisco",
+                  "mention",
+                  0.28
+                ]
+              ]
             }
           }
         }
@@ -9031,7 +8959,7 @@
         ]
       },
       "cluster_count": 3,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.235,
       "shared_strong_signals": [
         "ShinyHunters"
@@ -9047,6 +8975,7 @@
         "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
         "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
         "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.troyhunt.com/weekly-update-506/",
         "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
         "https://unit42.paloaltonetworks.com/cyber-extortion-economy/",
         "https://therecord.media/cruise-giant-carnival-confirms-data-breach-affecting-6-million"
@@ -9065,7 +8994,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 7,
+      "article_count": 8,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Drupal"
@@ -9085,6 +9014,7 @@
         "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
         "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
         "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.troyhunt.com/weekly-update-506/",
         "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/"
       ]
     },
@@ -9101,7 +9031,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 8,
+      "article_count": 9,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Apple iOS/macOS"
@@ -9120,41 +9050,8 @@
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/"
-      ]
-    },
-    {
-      "label": "phishing social eng targeting Microsoft 365",
-      "anchor_signal": "Microsoft 365",
-      "theme_key": "microsoft-365",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "affected_products": [
-          "Microsoft 365"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 6,
-      "cohesion": 0.369,
-      "shared_strong_signals": [
-        "Microsoft 365"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "faae644e55",
-        "50b10852eb",
-        "34b38eb5e3"
-      ],
-      "links": [
-        "https://www.elastic.co/security-labs/tycoon-2fa-aitm-detection-engineering",
-        "https://www.reddit.com/r/sysadmin/comments/1ts8xo2/best_way_to_decommission_onedrive_for_desktop/",
-        "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
-        "https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/",
-        "https://www.reddit.com/r/AskNetsec/comments/1tmwxl1/how_do_phishing_simulation_tools_work_with_real/",
-        "https://www.huntress.com/blog/why-hackers-don't-need-passwords-anymore"
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
+        "https://www.reddit.com/r/blueteamsec/comments/1tthhrl/sapphire_sleet_targets_macos_in_multistage/"
       ]
     },
     {
@@ -9199,7 +9096,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 6,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-45498"
@@ -9214,6 +9111,7 @@
         "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
         "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
         "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.troyhunt.com/weekly-update-506/",
         "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
         "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/"
       ]
@@ -9232,7 +9130,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 6,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-41091"
@@ -9247,6 +9145,7 @@
         "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
         "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
         "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.troyhunt.com/weekly-update-506/",
         "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
         "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/"
       ]
@@ -9264,7 +9163,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "Nimbus Manticore"
@@ -9279,9 +9178,39 @@
         "https://research.checkpoint.com/2026/25th-may-threat-intelligence-report/",
         "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
         "https://www.securityweek.com/charter-communications-data-breach-could-impact-nearly-5-million/",
+        "https://www.troyhunt.com/weekly-update-506/",
         "https://www.reddit.com/r/netsec/comments/1tn6yrv/threat_intel_shinyhunters_leaks_94gb_database_of/",
         "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
         "https://www.infosecurity-magazine.com/news/iranian-hackers-us-aviation/"
+      ]
+    },
+    {
+      "label": "Microsoft Windows vulnerability activity",
+      "anchor_signal": "Microsoft Windows",
+      "theme_key": "microsoft-windows",
+      "dominant_features": {
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "urgency_signals": [
+          "poc_available"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Microsoft Windows"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "98b099472a",
+        "22c0f52b2c"
+      ],
+      "links": [
+        "https://www.exploit-db.com/exploits/52588",
+        "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/"
       ]
     }
   ],
@@ -9410,12 +9339,6 @@
         }
       ],
       "actors": [
-        {
-          "value": "TeamPCP",
-          "cluster_id": "da583a9e4e",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-25T13:26:06+00:00"
-        },
         {
           "value": "Nimbus Manticore",
           "cluster_id": "76e5533edc",
@@ -9582,18 +9505,6 @@
         },
         {
           "value": "GitHub",
-          "cluster_id": "da583a9e4e",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-25T13:26:06+00:00"
-        },
-        {
-          "value": "Google/Gemini",
-          "cluster_id": "da583a9e4e",
-          "first_source": "SANS Internet Storm Center",
-          "first_published": "2026-05-25T13:26:06+00:00"
-        },
-        {
-          "value": "GitHub",
           "cluster_id": "bd3bda8915",
           "first_source": "Exploit-DB",
           "first_published": "2026-05-26T00:00:00+00:00"
@@ -9636,6 +9547,18 @@
         },
         {
           "value": "PyPI",
+          "cluster_id": "2272e85cad",
+          "first_source": "AWS Security Blog",
+          "first_published": "2026-05-26T17:03:30+00:00"
+        },
+        {
+          "value": "crates.io",
+          "cluster_id": "2272e85cad",
+          "first_source": "AWS Security Blog",
+          "first_published": "2026-05-26T17:03:30+00:00"
+        },
+        {
+          "value": "npm",
           "cluster_id": "2272e85cad",
           "first_source": "AWS Security Blog",
           "first_published": "2026-05-26T17:03:30+00:00"
@@ -9724,6 +9647,14 @@
     "drift": [],
     "persistence": [],
     "tier_inversion": [
+      {
+        "cluster_id": "64f7b4c761",
+        "title": "Commit to Compromise: A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
+        "primary_source": "Wiz Research",
+        "strong_signals": [
+          "JINX-0164"
+        ]
+      },
       {
         "cluster_id": "35feaba3ac",
         "title": "Click Or Trick (CVE-2025-59199): Escaping the Sandbox with Windows URIs",
