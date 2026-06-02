@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-06-02T21:54:37.948258+00:00",
+  "generated_at": "2026-06-02T23:53:37.894977+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2447,
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -18,25 +11,25 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 5
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 24,
       "in_window_count": 0
     },
     "SentinelOne Labs": {
@@ -46,19 +39,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 24,
+      "in_window_count": 0
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
-    },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
+      "in_window_count": 1
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -67,12 +60,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -81,6 +74,13 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
+    },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,19 +88,19 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -116,6 +116,13 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -123,16 +130,16 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -143,13 +150,6 @@
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -165,13 +165,6 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -179,8 +172,22 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -192,13 +199,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -228,20 +228,6 @@
       "item_count": 30,
       "in_window_count": 2
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 7
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -256,12 +242,12 @@
       "item_count": 20,
       "in_window_count": 5
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 7
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -270,18 +256,25 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -291,19 +284,19 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -312,26 +305,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -340,12 +319,40 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 20
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -360,20 +367,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -396,6 +389,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 20
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -417,12 +417,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 24
+      "in_window_count": 25
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -445,19 +452,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 3
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 34
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -473,13 +480,6 @@
       "item_count": 100,
       "in_window_count": 29
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 34
-    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -494,13 +494,6 @@
       "item_count": 25,
       "in_window_count": 20
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
@@ -508,12 +501,26 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -529,13 +536,6 @@
       "item_count": 25,
       "in_window_count": 15
     },
-    "Risky Business News": {
-      "url": "https://risky.biz/feeds/risky-business-news/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 5
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -543,12 +543,12 @@
       "item_count": 25,
       "in_window_count": 15
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Risky Business News": {
+      "url": "https://risky.biz/feeds/risky-business-news/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
+      "item_count": 100,
+      "in_window_count": 5
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -700,7 +700,7 @@
         ]
       },
       "cluster_count": 6,
-      "article_count": 28,
+      "article_count": 29,
       "cohesion": 0.218,
       "shared_strong_signals": [
         "WordPress"
@@ -718,6 +718,7 @@
       "links": [
         "https://orca.security/resources/blog/netlogon-rce-cve-2026-41089/",
         "https://www.reddit.com/r/cybersecurity/comments/1ttzncy/windows_server_vulnerability_can_grant_system/",
+        "https://www.reddit.com/r/sysadmin/comments/1tv6nnh/survived_the_april_rc4_patching_good_to_go_come/",
         "https://www.reddit.com/r/msp/comments/1ttaclq/connectwise_elite_server_care_feedback/",
         "https://orca.security/resources/blog/critical-rce-in-liquidjs-lets-attackers-execute-arbitrary-commands-on-unpatched-hosts/",
         "https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/",
@@ -730,11 +731,10 @@
         "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
         "https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/",
         "https://www.reddit.com/r/blueteamsec/comments/1tu08o1/miasma_supply_chain_attack_targeting_redhat_npm/",
-        "https://www.reddit.com/r/sysadmin/comments/1tu4fr6/dozens_of_red_hat_packages_backdoored_through_its/",
         "https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/",
         "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
         "https://www.exploit-db.com/exploits/52607",
-        "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+        "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
         "https://www.reddit.com/r/cybersecurity/comments/1tujcw2/godaddy_found_malware_on_1980_wordpress_sites/",
         "https://www.exploit-db.com/exploits/52596",
         "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
@@ -834,8 +834,8 @@
         "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://www.reddit.com/r/blueteamsec/comments/1tthhrl/sapphire_sleet_targets_macos_in_multistage/",
         "https://www.securityweek.com/critical-vulnerability-in-hp-voip-phones-enables-enterprise-network-breaches/",
         "https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/"
@@ -886,11 +886,10 @@
         "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
         "https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/",
         "https://www.reddit.com/r/blueteamsec/comments/1tu08o1/miasma_supply_chain_attack_targeting_redhat_npm/",
-        "https://www.reddit.com/r/sysadmin/comments/1tu4fr6/dozens_of_red_hat_packages_backdoored_through_its/",
         "https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/",
         "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
         "https://www.exploit-db.com/exploits/52607",
-        "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+        "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
         "https://www.reddit.com/r/cybersecurity/comments/1tujcw2/godaddy_found_malware_on_1980_wordpress_sites/",
         "https://securelist.com/container-attack-vectors/120010/",
         "https://webflow.sysdig.com/blog/runtime-security-without-privileged-containers-fast-tracking-compliance-with-least-privilege-controls",
@@ -911,7 +910,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 6,
+      "article_count": 7,
       "cohesion": 0.232,
       "shared_strong_signals": [
         "Microsoft Windows"
@@ -927,10 +926,54 @@
       "links": [
         "https://orca.security/resources/blog/netlogon-rce-cve-2026-41089/",
         "https://www.reddit.com/r/cybersecurity/comments/1ttzncy/windows_server_vulnerability_can_grant_system/",
+        "https://www.reddit.com/r/sysadmin/comments/1tv6nnh/survived_the_april_rc4_patching_good_to_go_come/",
         "https://www.reddit.com/r/msp/comments/1ttaclq/connectwise_elite_server_care_feedback/",
         "https://www.exploit-db.com/exploits/52588",
         "https://www.infosecurity-magazine.com/news/microsoft-uncoordinated-zeroday/",
         "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection"
+      ]
+    },
+    {
+      "label": "Gogs active exploitation",
+      "anchor_signal": "Gogs",
+      "theme_key": "gogs",
+      "dominant_features": {
+        "threat_categories": [
+          "credential_theft",
+          "data_breach",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Gogs"
+        ],
+        "urgency_signals": [
+          "preauth_unauth",
+          "no_patch_yet",
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.2,
+      "shared_strong_signals": [
+        "Gogs"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "f160e8841b",
+        "c861fcec28",
+        "0018093ec7"
+      ],
+      "links": [
+        "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
+        "https://risky.biz/RBNEWS570/",
+        "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+        "https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/"
       ]
     },
     {
@@ -977,49 +1020,6 @@
         "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
         "https://www.securityweek.com/oracle-weblogic-vulnerability-exploited-in-the-wild/",
         "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html"
-      ]
-    },
-    {
-      "label": "Gogs active exploitation",
-      "anchor_signal": "Gogs",
-      "theme_key": "gogs",
-      "dominant_features": {
-        "threat_categories": [
-          "credential_theft",
-          "data_breach",
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Gogs"
-        ],
-        "urgency_signals": [
-          "preauth_unauth",
-          "no_patch_yet",
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 5,
-      "cohesion": 0.2,
-      "shared_strong_signals": [
-        "Gogs"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "f160e8841b",
-        "c861fcec28",
-        "0018093ec7"
-      ],
-      "links": [
-        "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
-        "https://risky.biz/RBNEWS570/",
-        "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-        "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
-        "https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/"
       ]
     },
     {
@@ -1151,8 +1151,8 @@
         "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
         "https://www.wiz.io/blog/threat-actors-target-crypto-orgs",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
-        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
+        "https://www.infosecurity-magazine.com/news/jinx-0164-crypto-developers-macos/",
         "https://www.reddit.com/r/blueteamsec/comments/1tthhrl/sapphire_sleet_targets_macos_in_multistage/"
       ]
     },
@@ -1285,6 +1285,12 @@
           "first_published": "2026-05-29T00:00:00+00:00"
         },
         {
+          "value": "CVE-2026-33829",
+          "cluster_id": "6f4bbbf716",
+          "first_source": "Huntress",
+          "first_published": "2026-06-02T14:00:00+00:00"
+        },
+        {
           "value": "CVE-2025-48572",
           "cluster_id": "af95353deb",
           "first_source": "BleepingComputer",
@@ -1307,21 +1313,9 @@
           "cluster_id": "af95353deb",
           "first_source": "BleepingComputer",
           "first_published": "2026-06-02T11:10:15+00:00"
-        },
-        {
-          "value": "CVE-2024-21182",
-          "cluster_id": "31c8431eee",
-          "first_source": "SecurityWeek",
-          "first_published": "2026-06-02T11:39:04+00:00"
         }
       ],
       "actors": [
-        {
-          "value": "JINX-0164",
-          "cluster_id": "fdf9413677",
-          "first_source": "Unit 42",
-          "first_published": "2026-06-02T10:00:31+00:00"
-        },
         {
           "value": "TeamPCP",
           "cluster_id": "d90bf7fe85",
@@ -1333,6 +1327,12 @@
           "cluster_id": "1467561a9a",
           "first_source": "Datadog Security Labs",
           "first_published": "2026-06-02T00:00:00+00:00"
+        },
+        {
+          "value": "JINX-0164",
+          "cluster_id": "fdf9413677",
+          "first_source": "Unit 42",
+          "first_published": "2026-06-02T10:00:31+00:00"
         },
         {
           "value": "Handala",
@@ -1676,10 +1676,132 @@
       "source": "Reddit r/blueteamsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
+      "title": "C2 Frameworks - Threat Hunting in Action with YARA Rules",
+      "link": "https://www.reddit.com/r/blueteamsec/comments/1tv7y6f/c2_frameworks_threat_hunting_in_action_with_yara/",
+      "published": "2026-06-02T23:31:17+00:00",
+      "summary": "submitted by /u/jnazario [link] [comments]",
+      "author": "/u/jnazario",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
+      "source": "Reddit r/sysadmin",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "Survived the April RC4 patching. Good to go come July?",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1tv6nnh/survived_the_april_rc4_patching_good_to_go_come/",
+      "published": "2026-06-02T22:39:04+00:00",
+      "summary": "Greetings everyone. So we survived the April RC4 patching of our DCs. We’re a small Windows shop of 25 users all running Windows 11. We do not have any legacy systems. We do have a Netapp SAN. All Windows Servers >=2016. We did not have to do anything special in our environment. We regularly update our service account passwords. *My krbtgt account has NOT been rotated recently although I am planning on doing so very shortly. We did not have to use any registry temporary keys to allow RC4 *I’m still seeing RC4 session keys and tickets for my NetApps. I am not seeing any 201-209 events in my 2016 DC System logs. (A bit confused about this as I’m not sure if we needed to create a registry key for this to work) Kerberos auditing is enabled via GPO. Are we OK for July? My understanding is that MS is only removing the ability to rollback to RC4. Thank you! submitted by /u/javajo91 [link] [comments]",
+      "author": "/u/javajo91",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
+        "role_map": {
+          "Microsoft Windows": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 4
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Critical Kirki flaw exploited to hijack WordPress admin accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-kirki-flaw-exploited-to-hijack-wordpress-admin-accounts/",
+      "published": "2026-06-02T22:12:57+00:00",
+      "summary": "Hackers are exploiting a critical privilege escalation vulnerability (CVE-2026-8206) in the Kirki plugin for WordPress to take over any user account, including those belonging to administrators. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "WordPress"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-8206"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {
+          "WordPress": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 8
+    },
+    {
+      "source": "BleepingComputer",
+      "cohort": "cyber_news_breach_reporting",
+      "category": "cyber_news_breach_reporting",
+      "title": "Over 116,000 Mincraft systems infected in WeedHack malware campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/over-116-000-mincraft-systems-infected-in-weedhack-malware-campaign/",
+      "published": "2026-06-02T21:54:49+00:00",
+      "summary": "A large-scale malware campaign dubbed WeedHack is targeting Minecraft players and has infected more than 116,000 systems since January. [...]",
+      "author": "Bill Toulas",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 6
+    },
+    {
+      "source": "Reddit r/blueteamsec",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
       "title": "Ransomware tabletop",
       "link": "https://www.reddit.com/r/blueteamsec/comments/1tv528i/ransomware_tabletop/",
       "published": "2026-06-02T21:38:37+00:00",
-      "summary": "Not particularly interesting for the Cyber security folk per-se, but useful for lunch and learn /table top for leadership/xCO set ups https://ransomcare.io/value it will take the players on a journey of ethical dilemmas reflective of real situations, and because there's no good answer other than 'becoming resilient to ransomware' all the answers you give will hurt one thing or another, but there's a nice report and crib sheet of actions when you're done. - sometimes leadershit switch off, but if you can get them engaged you can help them realise this defence nightmare isn't just for the SoC, it's a vertical problem with horizontal commitments. - the vale page in the hyperlink is to set expectations, it'll take about 15-20 solo, and longer (for debate, in groups). submitted by /u/Splinters_io [link] [comments]",
+      "summary": "Not particularly interesting for the Cyber security folk per-se, but useful for lunch and learn /table top for leadership/xCO set ups https://ransomcare.io/value it will take the players on a journey of ethical dilemmas reflective of real situations, and because there's no good answer other than 'becoming resilient to ransomware' all the answers you give will hurt one thing or another, but there's a nice report and crib sheet of actions when you're done. - sometimes leadershit switch off, but if you can get them engaged you can help them realise this defence nightmare isn't just for the SoC, it's a vertical problem with horizontal commitments. - the value page in the hyperlink is to set expectations, it'll take about 15-20 solo, and longer (for debate, in groups). submitted by /u/Splinters_io [link] [comments]",
       "author": "/u/Splinters_io",
       "in_window": true,
       "taxonomy": {
@@ -3425,7 +3547,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "SecurityWeek",
@@ -3475,7 +3597,7 @@
           "products": []
         }
       },
-      "score": 21,
+      "score": 20,
       "full_body": "CISA is warning organizations that an Oracle WebLogic vulnerability patched nearly two years ago is being exploited in the wild. The security hole, tracked as CVE-2024-21182, was patched by Oracle in the Java application server with its July 2024 CPU . The software giant’s advisory shows that the flaw was discovered and reported independently by several researchers. Several proof-of-concept (PoC) exploits targeting CVE-2024-21182 have been made publicly available since the vulnerability’s existence came to light, but CISA appears to be the first to warn about its in-the-wild exploitation. CISA added CVE-2024-21182 to its Known Exploited Vulnerabilities (KEV) catalog on June 1, instructing federal agencies to address it by June 4. The flaw can be leveraged by remote, unauthenticated hackers to compromise vulnerable Oracle WebLogic Server instances. “Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data,” the agency noted in its KEV entry. Advertisement. Scroll to continue reading. There does not appear to be any information on attacks exploiting the vulnerability. CISA’s KEV catalog includes a dozen other WebLogic Server flaws. The majority are vulnerabilities with CVEs assigned in 2020 or earlier, but most were added to the KEV catalog several years after Oracle patched them. Related : Oracle’s First Monthly Patches Resolve 77 Vulnerabilities Related : Oracle Patches 450 Vulnerabilities With April 2026 CPU Related : Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability Related : Oracle EBS Hack: Only 4 Corporate Giants Still Silent on Potential Impact Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Dashlane Brute-Force Attack Leads to Limited Encrypted Vault Downloads Vulnerability in Popular Conference Software Granted Attackers a 100% Talk Acceptance Rate Romanian Hacker Sentenced to Prison in US for Selling Access to State Network LA Metro Cyberattack Linked to Iranian State-Sponsored Hackers Anthropic Releases New Claude Sandbox, Security Guidance Plugin Anthropic Expands Claude’s Enterprise Security Governance With 28 New Integrations Ghost CMS Vulnerability Exploited to Hack Over 700 Websites Oncology Institute Discloses Data Breach Latest News Trump Signs Executive Order That Invites Vetting of Top AI Models for National Security Risks Two New Reports Offer Competing Explanations for Cybersecurity’s Growing Crisis Exclusive: How One Line of Code Put Billions of Microsoft Android App Downloads at Risk Android Update Patches Exploited Zero-Day, 123 Other Vulnerabilities Anthropic Expanding Mythos Access to 150 New Organizations The Zero-Knowledge Threat Actor and the End of Responsible Disclosure Critical Vulnerability in HP VoIP Phones Enables Enterprise Network Breaches Meta AI Hands Over High-Profile Instagram Accounts to Hackers Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 Explore how attackers are using A",
       "fetch_status": "ok"
     },
@@ -3525,7 +3647,7 @@
           "products": []
         }
       },
-      "score": 21,
+      "score": 20,
       "full_body": "Google fixes one actively exploited Android zero-day, 124 flaws By Sergiu Gatlan June 2, 2026 07:10 AM 4 Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. Local attackers can exploit the actively abused high-severity Android Framework vulnerability (tracked as CVE-2025-48595) to gain code execution and escalate privileges on devices running Android 14 or later. \"There are indications that CVE-2025-48595 may be under limited, targeted exploitation,\" the company said on Monday in its March 2025 Android Security Bulletin. \"Exploitation for many issues on Android is made more difficult by enhancements in newer versions of the Android platform. We encourage all users to update to the latest version of Android where possible.\" While Google has yet to share technical details about the flaw or provide more information about the ongoing attacks targeting it, similar flaws have been exploited in the past by commercial spyware and by nation-state operations targeting high-profile or high-interest individuals. With this month's Android security updates, Google has fixed 18 critical vulnerabilities across System, Framework, and Qualcomm closed-source components that attackers can abuse to trigger denial-of-service conditions and elevate privileges on unpatched Android devices. \"The most severe of these issues is a critical security vulnerability in the Framework component that could lead to remote escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation,\" Google added. On Monday, Google issued two sets of patches: the 2026-06-01 and 2026-06-05 security patch levels, with the latter bundling all fixes from the first batch, along with patches for closed-source third-party and kernel subcomponents that may not apply to all Android devices. While Google Pixel devices will receive these security updates immediately, other vendors will often take longer to test and tweak them for specific hardware configurations. A Google spokesperson was not immediately available for comment when BleepingComputer reached out for more details regarding the CVE-2025-48595 attacks and their targets. Google released patches for two other high-severity zero-days (CVE-2025-48633 and CVE-2025-48572) in December, and for another zero-day flaw in a Qualcomm display component (CVE-2026-21385) in March, all of which were tagged as \"under limited, targeted exploitation.\" Last month, Google also overhauled its Android and Chrome vulnerability rewards programs, offering bounties of up to $1.5 million for some Android exploits while scaling back payouts for flaws that are easier to find using artificial intelligence (AI). The Validation Gap: Automated Pentesting Answers One Question. You Need Six. Automated pentesting tools deliver real value, but they were built to answer one question: can an attacker move through the network? They were not built to test whether your controls block threats, your detection rules fire, or your cloud configs hold. This guide covers the 6 surfaces you actually need to validate. Download Now Related Articles: Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks Race Against Time: Why Faster Vulnerability Alerts Matter Disgruntled researcher leaks “BlueHammer” Windows zero-day exploit",
       "fetch_status": "ok"
     },
@@ -3557,7 +3679,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Schneier on Security",
@@ -3591,7 +3713,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Infosecurity Magazine",
@@ -3619,7 +3741,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -3647,7 +3769,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -3675,7 +3797,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Help Net Security",
@@ -3733,7 +3855,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Reddit r/blueteamsec",
@@ -3763,7 +3885,7 @@
           "products": []
         }
       },
-      "score": 4
+      "score": 3
     },
     {
       "source": "Unit 42",
@@ -3800,7 +3922,7 @@
           "products": []
         }
       },
-      "score": 12,
+      "score": 11,
       "full_body": "Threat Research Center Threat Research Malware Malware Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor 17 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Ido Asher Noa Dekel Tom Fakterman Published: June 2, 2026 Categories: Malware Threat Research Tags: CL-CRI-1089 MacOS Malvertising Share Executive Summary We are tracking an increasingly widespread malvertising campaign targeting macOS. This campaign appears to be the next stage of a previous campaign known as JSCoreRunner, which was first identified in August 2025. In recent months, the financially-motivated attackers behind these campaigns transitioned from delivering standard adware, to delivering adware with full backdoor capabilities. We designate this campaign Operation FlutterBridge, and we call the payload that it delivers FlutterShell. Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications. In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation. Some variants weaponize artificial intelligence (AI) summarization features for data exfiltration by routing documents through an attacker-controlled server before processing them. The FlutterShell malware strain appears to be under active development, with new improvements being rapidly integrated into the code. Operation FlutterBridge targets a global audience through an extensive Google Ads campaign, with an emphasis on Anglophone and Western European markets, distributed via hundreds of Google-verified advertisements. Our research indicates that the attackers behind this cluster distributed the ads using a series of shell companies, to bypass ad-network vetting and orchestrate these attacks at scale. We reported these advertisers to Google, which provided the following statement: Malware has no place on our platforms, and we’ve suspended these advertiser accounts for violating our policies. We track Operation FlutterBridge and the JSCoreRunner campaign under a cluster of activity that we refer to as CL-CRI-1089 . This article provides a technical overview of the FlutterShell macOS malware and the delivery network behind the malvertising campaigns. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex Agentix Threat Intel Agent Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics macOS , Malvertising Campaign Background CL-CRI-1089 is a cybercrime cluster of activity that has been operational since at least 2023. The attackers behind this cluster are responsible for spreading malicious payloads via malvertising campaigns, targeting both Windows and macOS users through separate, ongoing operations. The attackers’ modus operandi is consistent across these operations: They distributed malicious advertisements using a network of Google-verified shell companies. These ads were designed to trick targets into deploying malware that masquerades as legitimate desktop applications. While in-the-wild observations suggest the malware functions primarily as adware, it possesses capabilities for far more dangerous behavior, effectively functioning as a backdoor. Operations attributed to this cluster include the RecipeLister and Calendaromatic Windows campaigns, as well as the JSCoreRunner macOS campaign. The Windows activity was previously tracked by other vendors under the broader “TamperedChef” designation, before Unit 42 researchers deconstructed the activity into distinct clusters. In late 2025, the attackers expanded their operations with Operation FlutterBridge, deploying a new macOS backdoor ide",
       "fetch_status": "ok"
     },
@@ -3830,7 +3952,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Infosecurity Magazine",
@@ -3862,7 +3984,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "SecurityWeek",
@@ -4387,7 +4509,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "CyberScoop",
@@ -4419,7 +4541,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -4447,7 +4569,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Orca Security Research",
@@ -4481,7 +4603,7 @@
           "products": []
         }
       },
-      "score": 17
+      "score": 16
     },
     {
       "source": "BleepingComputer",
@@ -4615,38 +4737,6 @@
         }
       },
       "score": 8
-    },
-    {
-      "source": "Reddit r/sysadmin",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Dozens of Red Hat packages backdoored through its offical NPM channel",
-      "link": "https://www.reddit.com/r/sysadmin/comments/1tu4fr6/dozens_of_red_hat_packages_backdoored_through_its/",
-      "published": "2026-06-01T20:18:25+00:00",
-      "summary": "https://arstechnica.com/security/2026/06/dozens-of-red-hat-packages-backdoored-through-its-offical-npm-channel/ Yikes! submitted by /u/sheep5555 [link] [comments]",
-      "author": "/u/sheep5555",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "npm": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 2
     },
     {
       "source": "Orca Security Research",
@@ -5426,34 +5516,6 @@
       "score": 8
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
-      "link": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
-      "published": "2026-06-01T14:00:10+00:00",
-      "summary": "Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response times. [...]",
-      "author": "Sponsored by SecAlerts",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 8
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -5682,34 +5744,6 @@
       "score": 12
     },
     {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
-      "published": "2026-06-01T12:30:27+00:00",
-      "summary": "The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon vulnerability in attacks. [...]",
-      "author": "Sergiu Gatlan",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
       "source": "Horizon3 Attack Research",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -5766,34 +5800,6 @@
         }
       },
       "score": 5
-    },
-    {
-      "source": "BleepingComputer",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Webinar tomorrow: From alert to resolution in network incident response",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-      "published": "2026-06-01T12:01:09+00:00",
-      "summary": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams accelerate incident response. [...]",
-      "author": "BleepingComputer",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "event_promotion",
-        "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 3
     },
     {
       "source": "The Hacker News",
@@ -6601,36 +6607,6 @@
         }
       },
       "score": 2
-    },
-    {
-      "source": "Reddit r/blueteamsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Inside MicrosoftSystem64: A Supply Chain RAT Exfiltrating to HuggingFace",
-      "link": "https://www.reddit.com/r/blueteamsec/comments/1tsnvlx/inside_microsoftsystem64_a_supply_chain_rat/",
-      "published": "2026-05-31T06:55:13+00:00",
-      "summary": "submitted by /u/digicat [link] [comments]",
-      "author": "/u/digicat",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 4
     },
     {
       "source": "Reddit r/netsecstudents",
@@ -8084,7 +8060,7 @@
       "score": 4
     },
     {
-      "source": "Microsoft Threat Intelligence",
+      "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
@@ -8124,7 +8100,7 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Microsoft Security Blog",
+      "source": "Microsoft Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
       "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
@@ -9743,6 +9719,33 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Simon Willison",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "The pressure",
+      "link": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+      "published": "2026-05-26T23:48:45+00:00",
+      "summary": "The pressure Daniel Stenberg on the unprecedented level of pressure the curl team are facing right now thanks to the deluge of (credible) AI-assisted security issues being reported. The rate of incoming security reports is 4-5 times higher than it was in 2024 and double the speed of 2025 -- meaning that on average we now get more than one report per day . The quality is way higher than ever before. The reports are typically very detailed and long. [...] For the first time in my life, my wife voiced concerns about my work hours and my imbalanced work/life situation. I work more than I’ve done before, but the flood keeps coming. [...] This is a never-before seen or experienced pressure on the curl project and its security team members. An avalanche of high priority work that trumps all other things in the project that is primarily mental because we certainly could ignore them all if we wanted, but we feel a responsibility, we have a conscience and we are proud about our work. The good ne",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Microsoft Security Blog",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -10562,17 +10565,19 @@
       }
     },
     {
-      "source": "Infosecurity Magazine",
+      "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "India's CERT-In Sets 12-Hour Patch Deadline for Exposed Flaws",
-      "link": "https://www.infosecurity-magazine.com/news/cert-in-12-hour-patch-deadline-ai/",
+      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
       "published": "2026-05-26T10:30:00+00:00",
-      "summary": "CERT-In urges 12-hour patching of exposed flaws as AI compresses exploitation timelines",
-      "author": "",
+      "summary": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with",
+      "author": "info@thehackernews.com (The Hacker News)",
       "in_window": false,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "mfa_bypass"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -10589,19 +10594,17 @@
       }
     },
     {
-      "source": "The Hacker News",
+      "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+      "title": "India's CERT-In Sets 12-Hour Patch Deadline for Exposed Flaws",
+      "link": "https://www.infosecurity-magazine.com/news/cert-in-12-hour-patch-deadline-ai/",
       "published": "2026-05-26T10:30:00+00:00",
-      "summary": "Multi-factor authentication (MFA) was supposed to close a critical gap in identity security. It meant that, even if an attacker possessed the account credentials, they couldn't log in without the second factor. While that logic was sound, attackers have now figured out that they don't need to steal the second factor: they just need the user to hand it over. If your workforce authenticates with",
-      "author": "info@thehackernews.com (The Hacker News)",
+      "summary": "CERT-In urges 12-hour patching of exposed flaws as AI compresses exploitation timelines",
+      "author": "",
       "in_window": false,
       "taxonomy": {
-        "threat_categories": [
-          "mfa_bypass"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -11334,33 +11337,6 @@
       "source": "Reddit r/netsecstudents",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
-      "title": "Cybersecurity and computer science advice. What's the best option and has a high chance of getting a well-paying job to live a meaningful life? I'm just totally confused. Please no hate.",
-      "link": "https://www.reddit.com/r/netsecstudents/comments/1tnmcbc/cybersecurity_and_computer_science_advice_whats/",
-      "published": "2026-05-25T21:22:14+00:00",
-      "summary": "submitted by /u/qualityorder [link] [comments]",
-      "author": "/u/qualityorder",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsecstudents",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
       "title": "Follow-up: learning LLM red teaming with repeatable campaign results",
       "link": "https://www.reddit.com/r/netsecstudents/comments/1tnltz5/followup_learning_llm_red_teaming_with_repeatable/",
       "published": "2026-05-25T21:03:07+00:00",
@@ -12011,33 +11987,6 @@
       }
     },
     {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "Mad House — Usborne Creepy Computer Games",
-      "link": "https://simonwillison.net/2026/May/24/usborne-mad-house/#atom-everything",
-      "published": "2026-05-24T17:14:11+00:00",
-      "summary": "Tool: Mad House — Usborne Creepy Computer Games Via Hacker News I learned that UK publisher Usborne published free PDFs of their 1980s Computer Books , some of which I remember working through on my Commodore 64 as a child. These were so great! Beautifully illustrated books with fun projects made up of code you could type into your own machine. I remember playing \"Mad House\" typed in from the 1983 book \"Creepy Computer Games\", so I fed that PDF into Claude and had it build an interactive version of that game in JavaScript and HTML: Build a vanilla JS artifact that exactly recreates the game Mad House from this book, make sure it's mobile friendly and has a suitable retro aesthetic Credit the book title and link to https://usborne.com/us/books/computer-and-coding-books Tags: computer-history , games , tools",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Reddit r/AskNetsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -12114,33 +12063,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Simon Willison",
-      "cohort": "ai_security_agentic_risk",
-      "category": "ai_security_agentic_risk",
-      "title": "On the",
-      "link": "https://simonwillison.net/2026/May/23/on-the-dl/#atom-everything",
-      "published": "2026-05-23T20:24:48+00:00",
-      "summary": "On the <dl> I learned a few new-to-me things about the <dl> element from this article by Ben Meyer: A <dt> can be followed by multiple <dd> You can optionally group the <dt> and <dd> elements in a <div> for styling - but only a <div> . You can label them using ARIA. They've been called \"description lists\", not \"definition lists\", since an HTML5 draft in 2008 . So this is valid: < h2 id =\" credits \" > Credits </ h2 > < dl aria-labelledby =\" credits \" > < div > < dt > Author </ dt > < dd > Jeffrey Zeldman </ dd > < dd > Ethan Marcotte </ dd > </ div > </ dl > Here's a useful note from Adrian Roselli on screen reader support for description lists . Via Hacker News Tags: css , html , screen-readers , web-standards",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -12406,6 +12328,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Reddit r/netsecstudents",
+      "cohort": "reddit_practitioner_osint",
+      "category": "reddit_practitioner_osint",
+      "title": "[Career Advice] When are you actually ready to apply for a Junior Pentester role?",
+      "link": "https://www.reddit.com/r/netsecstudents/comments/1tkttw8/career_advice_when_are_you_actually_ready_to/",
+      "published": "2026-05-22T19:48:33+00:00",
+      "summary": "Hi everyone, I’m currently a CS student and I’ve been dedicating most of my free time to studying cybersecurity, specifically offensive security and web vulnerabilities. However, I’m hitting a wall of feeling completely lost and overwhelmed, and I genuinely don't know if I'm anywhere near employable yet. My question is: What is the realistic checklist for a Junior Penetration Tester? How do I know I am ready to start applying for junior roles? I feel like I'm stuck in tutorial hell and would appreciate any harsh truths or guidance on how to bridge the gap between learning and actually getting hired. Thanks in advance! submitted by /u/AliAyman333 [link] [comments]",
+      "author": "/u/AliAyman333",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -15391,39 +15340,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_4_news",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Dark Reading",
-      "cohort": "cyber_news_breach_reporting",
-      "category": "cyber_news_breach_reporting",
-      "title": "Stealer Spoofs Google, Microsoft & Apple, Then Backdoors macOS",
-      "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
-      "published": "2026-05-19T19:49:40+00:00",
-      "summary": "The SHub Reaper stealer, which hides behind fake WeChat and Miro installers, marks a shift from ClickFix social engineering to Apple script-based execution.",
-      "author": "Elizabeth Montalbano",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Apple iOS/macOS"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_4_news",
-        "role_map": {
-          "Apple iOS/macOS": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -19266,6 +19182,35 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
+      "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
+      "published": "2026-05-13T07:00:00+00:00",
+      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it was patched in January 2026. While we had an exploit chain for the Pixel 9, we wanted to see if it was possible to write a similar exploit chain for Pixel 10. Updating the Dolby Exploit Altering our exploit for CVE-2025-54957 was fairly straightforward. The majority of needed changes involved updating offsets calculated for the specific version of the library we targeted on the Pixel 9 to similar offsets in the library for Pixel 10. The only challenge (outside of wishing we’d better documented which syncframes contained offsets) was that the Pixel 10 uses RET PAC in the place of -fstack-protector, which meant that __stack_chk_fail wasn’t available to be overwritten by code. After a bit of trial and error, we used dap_cpdp_init, initialization code t",
+      "author": "Seth Jenkins",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-54957"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -19494,35 +19439,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",
-      "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "published": "2026-05-13T00:00:00+00:00",
-      "summary": "We recently published an exploit chain for the Google Pixel 9 that demonstrated it was possible to go from a zero-click context to root on Android in just two exploits. The Dolby 0-click vulnerability existed across all of Android, until it was patched in January 2026. While we had an exploit chain for the Pixel 9, we wanted to see if it was possible to write a similar exploit chain for Pixel 10. Updating the Dolby Exploit Altering our exploit for CVE-2025-54957 was fairly straightforward. The majority of needed changes involved updating offsets calculated for the specific version of the library we targeted on the Pixel 9 to similar offsets in the library for Pixel 10. The only challenge (outside of wishing we’d better documented which syncframes contained offsets) was that the Pixel 10 uses RET PAC in the place of -fstack-protector, which meant that __stack_chk_fail wasn’t available to be overwritten by code. After a bit of trial and error, we used dap_cpdp_init, initialization code t",
-      "author": "Seth Jenkins",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-54957"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -33505,7 +33421,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f6ce4ec4910>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fa900d081c0>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
@@ -36660,6 +36576,33 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
+      "link": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
+      "published": "2026-03-05T08:00:00+00:00",
+      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing ap",
+      "author": "Ivan Fratric",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -36711,33 +36654,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "On the Effectiveness of Mutational Grammar Fuzzing",
-      "link": "https://projectzero.google/2026/03/mutational-grammar-fuzzing.html",
-      "published": "2026-03-05T00:00:00+00:00",
-      "summary": "Mutational grammar fuzzing is a fuzzing technique in which the fuzzer uses a predefined grammar that describes the structure of the samples. When a sample gets mutated, the mutations happen in such a way that any resulting samples still adhere to the grammar rules, thus the structure of the samples gets maintained by the mutation process. In case of coverage-guided grammar fuzzing, if the resulting sample (after the mutation) triggers previously unseen code coverage, this sample is saved to the sample corpus and used as a basis for future mutations. This technique has proven capable of finding complex issues and I have used it successfully in the past, including to find issues in XSLT implementations in web browsers and even JIT engine bugs. However, despite the approach being effective, it is not without its flaws which, for a casual fuzzer user, might not be obvious. In this blogpost I will introduce what I perceive to be the flaws of the mutational coverage-guided grammar fuzzing ap",
-      "author": "Ivan Fratric",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -37801,6 +37717,33 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
+      "link": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
+      "published": "2026-02-26T08:00:00+00:00",
+      "summary": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remarks contain the following three statements that I thought were interesting: If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller. GetProcessHandleFromHwnd is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user.",
+      "author": "James Forshaw",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -37880,33 +37823,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "A Deep Dive into the GetProcessHandleFromHwnd API",
-      "link": "https://projectzero.google/2026/02/gphfh-deep-dive.html",
-      "published": "2026-02-26T00:00:00+00:00",
-      "summary": "In my previous blog post I mentioned the GetProcessHandleFromHwnd API. This was an API I didn’t know existed until I found a publicly disclosed UAC bypass using the Quick Assist UI Access application. This API looked interesting so I thought I should take a closer look. I typically start by reading the documentation for an API I don’t know about, assuming it’s documented at all. It can give you an idea of how long the API has existed as well as its security properties. The documentation’s remarks contain the following three statements that I thought were interesting: If the caller has UIAccess, however, they can use a windows hook to inject code into the target process, and from within the target process, send a handle back to the caller. GetProcessHandleFromHwnd is a convenience function that uses this technique to obtain the handle of the process that owns the specified HWND. Note that it only succeeds in cases where the caller and target process are running as the same user.",
-      "author": "James Forshaw",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -39800,6 +39716,33 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Bypassing Administrator Protection by Abusing UI Access",
+      "link": "https://projectzero.google/2026/02/windows-administrator-protection.html",
+      "published": "2026-02-12T08:00:00+00:00",
+      "summary": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC that’s been under-appreciated, and how it’s being fixed now. A Question of Accessibility Prior to Windows Vista any process running on a user’s desktop could control any window created by another, such as by sending window messages. This behavior could be abused if a privileged user, such as SYSTEM, displayed a user interface on the desktop. A limited user could control the UI and potentially elevate privileges. This was referred to as a Shatter Attack, and was usually fixed by removing user inter",
+      "author": "James Forshaw",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Huntress",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -39919,33 +39862,6 @@
         "role_map": {
           "GitHub": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "Bypassing Administrator Protection by Abusing UI Access",
-      "link": "https://projectzero.google/2026/02/windows-administrator-protection.html",
-      "published": "2026-02-12T00:00:00+00:00",
-      "summary": "In my last blog post I introduced the new Windows feature, Administrator Protection and how it aimed to create a secure boundary for UAC where one didn’t exist. I described one of the ways I was able to bypass the feature before it was released. In total I found 9 bypasses during my research that have now all been fixed. In this blog post I wanted to describe the root cause of 5 of those 9 issues, specifically the implementation of UI Access, how this has been a long standing problem with UAC that’s been under-appreciated, and how it’s being fixed now. A Question of Accessibility Prior to Windows Vista any process running on a user’s desktop could control any window created by another, such as by sending window messages. This behavior could be abused if a privileged user, such as SYSTEM, displayed a user interface on the desktop. A limited user could control the UI and potentially elevate privileges. This was referred to as a Shatter Attack, and was usually fixed by removing user inter",
-      "author": "James Forshaw",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -41587,7 +41503,7 @@
       "category": "offensive_vulnerability_research",
       "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
       "link": "https://projectzero.google/2026/01/sound-barrier-2.html",
-      "published": "2026-01-30T00:00:00+00:00",
+      "published": "2026-01-30T08:00:00+00:00",
       "summary": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the intricate process of exploiting the type confusion vulnerability. I’ll explain the technical details of turning a potentially exploitable crash into a working exploit: a journey filled with dead ends, creative problem solving, and ultimately, success. The Vulnerability: A Quick Recap If you haven’t already, I highly recommend reading my detailed writeup on this vulnerability before proceeding. As a refresher, CVE-2024-54529 is a type confusion vulnerability within the com.apple.audio.audiohald Mach service in the CoreAudio framework used by the coreaudiod process. Several Mach message handlers, s",
       "author": "Dillon Franke, Google Information Security Engineering, 20% time on Project Zero",
       "in_window": false,
@@ -42580,6 +42496,37 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "Bypassing Windows Administrator Protection",
+      "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
+      "published": "2026-01-26T08:00:00+00:00",
+      "summary": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC. I’ll then describe some of the security research I undertook while it was in the insider preview builds on Windows 11. Finally I’ll detail one of the nine separate vulnerabilities that I found to bypass the feature to silently gain full administrator privileges. All the issues that I reported to Microsoft have been fixed, either prior to the feature being officially released (in optional update KB5067036) or as subsequent security bulletins. Note: As of 1st December 2025 the Administrator Protection feature has been disabled by Microsoft while an application compatibility issue is dealt ",
+      "author": "James Forshaw",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Microsoft Windows"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Microsoft Windows": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Reddit r/netsec",
       "cohort": "reddit_practitioner_osint",
       "category": "reddit_practitioner_osint",
@@ -42630,37 +42577,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "Bypassing Windows Administrator Protection",
-      "link": "https://projectzero.google/2026/26/windows-administrator-protection.html",
-      "published": "2026-01-26T00:00:00+00:00",
-      "summary": "A headline feature introduced in the latest release of Windows 11, 25H2 is Administrator Protection. The goal of this feature is to replace User Account Control (UAC) with a more robust and importantly, securable system to allow a local user to access administrator privileges only when necessary. This blog post will give a brief overview of the new feature, how it works and how it’s different from UAC. I’ll then describe some of the security research I undertook while it was in the insider preview builds on Windows 11. Finally I’ll detail one of the nine separate vulnerabilities that I found to bypass the feature to silently gain full administrator privileges. All the issues that I reported to Microsoft have been fixed, either prior to the feature being officially released (in optional update KB5067036) or as subsequent security bulletins. Note: As of 1st December 2025 the Administrator Protection feature has been disabled by Microsoft while an application compatibility issue is dealt ",
-      "author": "James Forshaw",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft Windows"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Microsoft Windows": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -43397,6 +43313,102 @@
       }
     },
     {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
+      "link": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
+      "published": "2026-01-14T18:01:00+00:00",
+      "summary": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the Google Messages application. Incoming audio messages are transcribed before a user interacts with the message. On Pixel 9, a second process com.google.android.tts also decodes incoming audio. Its purpose is not completely clear, but it seems to be related to making incoming messages searchable.",
+      "author": "Natalie Silvanovich",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Android"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Android": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+      "link": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+      "published": "2026-01-14T18:00:00+00:00",
+      "summary": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible from the mediacodec SELinux context. BigWave is hardware present on the Pixel SOC that accelerates AV1 decoding tasks, which explains why it is accessible from the mediacodec context. As previous research has copiously affirmed, Android drivers for hardware devices are prime places to find powerful local privilege escalation bugs. The BigWave driver was no exception - across a couple hours of auditing the code, I discovered three separate bugs, including one that was powerful enough to escape the",
+      "author": "Seth Jenkins",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Linux kernel"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Linux kernel": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Project Zero",
+      "cohort": "offensive_vulnerability_research",
+      "category": "offensive_vulnerability_research",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
+      "link": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
+      "published": "2026-01-14T17:59:00+00:00",
+      "summary": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, audio decoders are now in the 0-click attack surface of most Android phones. I’ve spent a fair bit of time investigating these decoders, first reporting CVE-2025-49415 in the Monkey’s Audio codec on Samsung devices. Based on this research, the team reviewed the Dolby Unified Decoder, and Ivan Fratric and I reported CVE-2025-54957. This vulnerability is likely in the 0-click attack surface of most Android devices in use today. In parallel, Seth Jenkins investigated a driver accessible from the sand",
+      "author": "Natalie Silvanovich",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Android"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2025-49415",
+          "CVE-2025-54957"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_offensive_research",
+        "role_map": {
+          "Android": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -43478,37 +43490,6 @@
       }
     },
     {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
-      "link": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
-      "published": "2026-01-14T10:01:00+00:00",
-      "summary": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the Google Messages application. Incoming audio messages are transcribed before a user interacts with the message. On Pixel 9, a second process com.google.android.tts also decodes incoming audio. Its purpose is not completely clear, but it seems to be related to making incoming messages searchable.",
-      "author": "Natalie Silvanovich",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Android"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Android": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "ESET WeLiveSecurity",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -43530,71 +43511,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
-      "link": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
-      "published": "2026-01-14T10:00:00+00:00",
-      "summary": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible from the mediacodec SELinux context. BigWave is hardware present on the Pixel SOC that accelerates AV1 decoding tasks, which explains why it is accessible from the mediacodec context. As previous research has copiously affirmed, Android drivers for hardware devices are prime places to find powerful local privilege escalation bugs. The BigWave driver was no exception - across a couple hours of auditing the code, I discovered three separate bugs, including one that was powerful enough to escape the",
-      "author": "Seth Jenkins",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Linux kernel": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Google Project Zero",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
-      "link": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
-      "published": "2026-01-14T09:59:00+00:00",
-      "summary": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, audio decoders are now in the 0-click attack surface of most Android phones. I’ve spent a fair bit of time investigating these decoders, first reporting CVE-2025-49415 in the Monkey’s Audio codec on Samsung devices. Based on this research, the team reviewed the Dolby Unified Decoder, and Ivan Fratric and I reported CVE-2025-54957. This vulnerability is likely in the 0-click attack surface of most Android devices in use today. In parallel, Seth Jenkins investigated a driver accessible from the sand",
-      "author": "Natalie Silvanovich",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Android"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2025-49415",
-          "CVE-2025-54957"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Android": "target"
-        },
         "weak_tags": {
           "products": []
         }
