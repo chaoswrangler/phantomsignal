@@ -70,6 +70,7 @@ jobs:
             cp docs/feed.json /tmp/phantom-outputs/feed.json
             cp docs/feed.html /tmp/phantom-outputs/feed.html
             cp docs/briefing_packet.json /tmp/phantom-outputs/briefing_packet.json
+            cp docs/briefing_packet.md /tmp/phantom-outputs/briefing_packet.md
 
             # Also preserve the signals state file if it exists (created by
             # signals.py for cross-run novelty/persistence tracking).
@@ -85,11 +86,12 @@ jobs:
             cp /tmp/phantom-outputs/feed.json docs/feed.json
             cp /tmp/phantom-outputs/feed.html docs/feed.html
             cp /tmp/phantom-outputs/briefing_packet.json docs/briefing_packet.json
+            cp /tmp/phantom-outputs/briefing_packet.md docs/briefing_packet.md
             if [ -f /tmp/phantom-outputs/signals_state.json ]; then
               cp /tmp/phantom-outputs/signals_state.json docs/signals_state.json
             fi
 
-            git add docs/feed.json docs/feed.html docs/briefing_packet.json
+            git add docs/feed.json docs/feed.html docs/briefing_packet.json docs/briefing_packet.md
             if [ -f docs/signals_state.json ]; then
               git add docs/signals_state.json
             fi
