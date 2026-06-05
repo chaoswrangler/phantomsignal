@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-05T23:07:00.408540+00:00",
+  "generated_at": "2026-06-05T23:10:18.441412+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 78,
   "total_items_in_window": 467,
-  "total_clusters_raw": 177,
+  "total_clusters_raw": 178,
   "total_clusters_in_packet": 68,
-  "dropped_low_score": 109,
+  "dropped_low_score": 110,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,11 +74,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -102,6 +95,27 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -116,26 +130,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -144,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -158,26 +158,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -185,6 +171,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -228,18 +221,25 @@
       "item_count": 50,
       "in_window_count": 7
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
+      "item_count": 50,
+      "in_window_count": 4
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -249,15 +249,15 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -270,13 +270,6 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Elastic Security Labs": {
       "url": "https://www.elastic.co/security-labs/rss/feed.xml",
       "cohort": "detection_response_operations",
@@ -284,12 +277,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -304,6 +297,13 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -347,16 +347,16 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
+    "Wiz Research": {
+      "url": "https://www.wiz.io/feed/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
     },
-    "Wiz Research": {
-      "url": "https://www.wiz.io/feed/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
@@ -375,12 +375,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
@@ -396,19 +396,19 @@
       "item_count": 20,
       "in_window_count": 15
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -417,26 +417,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 15
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -445,9 +431,16 @@
       "item_count": 30,
       "in_window_count": 19
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
@@ -466,12 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -487,19 +480,19 @@
       "item_count": 50,
       "in_window_count": 24
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -515,12 +508,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 42
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -529,19 +529,19 @@
       "item_count": 20,
       "in_window_count": 3
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 33
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 42
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -585,19 +585,19 @@
       "item_count": 25,
       "in_window_count": 24
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
-    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 18
+    },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -2948,34 +2948,6 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
-          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
-          "published": "2026-06-03T09:30:00+00:00",
-          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
@@ -2999,6 +2971,34 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
+          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
+          "published": "2026-06-03T09:30:00+00:00",
+          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -3447,18 +3447,35 @@
         "CVE-2026-20230"
       ],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation",
+          "mfa_bypass",
+          "phishing_social_eng",
+          "supply_chain",
+          "zero_day"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [],
+        "affected_products": [
+          "GitHub",
+          "OpenAI/ChatGPT",
+          "Palo Alto Networks"
+        ],
         "tools_used": [],
         "cve_ids": [
+          "CVE-2024-21182",
+          "CVE-2025-20309",
+          "CVE-2026-0257",
+          "CVE-2026-20045",
           "CVE-2026-20230"
         ],
         "attack_techniques": [],
         "urgency_signals": [
+          "actively_exploited",
+          "critical_cvss",
           "poc_available",
-          "preauth_unauth"
+          "preauth_unauth",
+          "zero_day"
         ],
         "content_type": [
           "vulnerability_disclosure"
@@ -3474,25 +3491,50 @@
         "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
         "published": "2026-06-04T16:55:51+00:00",
         "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.",
-        "full_body": "",
+        "full_body": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public  Swati Khandelwal  Jun 04, 2026 Vulnerability / Network Security Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230 , and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery. Unified CM and its Session Management Edition fail to validate certain HTTP requests properly, so a crafted request can push the server into writing arbitrary files onto the underlying OS. Those files are the foothold. Cisco says they can be used later to escalate to root, the top privilege on the system. That two-step is why the score and the rating disagree. The CVSS base is 8.6: it scores the file write (an integrity-only impact, no confidentiality or availability loss) but not the root escalation that follows. Cisco rated the advisory Critical anyway, since the end state is full root. There is one mitigating factor: the flaw only works when the WebDialer service is running, and WebDialer ships off by default. That does not help any deployment that has switched it on. To check, open Cisco Unified CM Administration and switch to Cisco Unified Serviceability. Under Tools > Control Center - Feature Services, look at the Cisco WebDialer Web Service status in the CTI Services section. Started means you are exposed. Patching is the only real fix. For the 14 train, that is 14SU6. For 15, the full Service Update (15SU5) is not due until September 2026, so until then, you are on the interim COP patch, or you turn WebDialer off (uncheck it under Tools > Service Activation and save). An independent researcher working with SSD Secure Disclosure reported the bug. Unified CM has been a steady source of unauthenticated, root-level trouble. Last July, Cisco pulled a hard-coded root SSH account left in from development (CVE-2025-20309, CVSS 10). In January, it patched an unauthenticated RCE across several of its voice products (CVE-2026-20045) that was already being exploited in the wild, enough for CISA to add it to its known-exploited list. This one fits the pattern: a request that should never have reached anything sensitive, reaching it. With a PoC public and the 15-train fix months out, assume someone turns that file-write into a working attack before the patches are everywhere. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cisco , network security , SSRF , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Use",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "supply_chain",
+            "phishing_social_eng",
+            "zero_day",
+            "mfa_bypass",
+            "active_exploitation"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
-          "affected_products": [],
+          "affected_products": [
+            "Palo Alto Networks",
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ],
           "tools_used": [],
           "cve_ids": [
-            "CVE-2026-20230"
+            "CVE-2026-20230",
+            "CVE-2025-20309",
+            "CVE-2026-20045",
+            "CVE-2024-21182",
+            "CVE-2026-0257"
           ],
           "attack_techniques": [],
           "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
             "preauth_unauth",
-            "poc_available"
+            "poc_available",
+            "critical_cvss"
           ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Palo Alto Networks": "target",
+            "GitHub": "target",
+            "OpenAI/ChatGPT": "target",
+            "npm": "target",
+            "Fortinet": "target",
+            "Anthropic/Claude": "target",
+            "Azure": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -3507,22 +3549,47 @@
           "published": "2026-06-04T16:55:51+00:00",
           "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "supply_chain",
+              "phishing_social_eng",
+              "zero_day",
+              "mfa_bypass",
+              "active_exploitation"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
-            "affected_products": [],
+            "affected_products": [
+              "Palo Alto Networks",
+              "GitHub",
+              "OpenAI/ChatGPT"
+            ],
             "tools_used": [],
             "cve_ids": [
-              "CVE-2026-20230"
+              "CVE-2026-20230",
+              "CVE-2025-20309",
+              "CVE-2026-20045",
+              "CVE-2024-21182",
+              "CVE-2026-0257"
             ],
             "attack_techniques": [],
             "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
               "preauth_unauth",
-              "poc_available"
+              "poc_available",
+              "critical_cvss"
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Palo Alto Networks": "target",
+              "GitHub": "target",
+              "OpenAI/ChatGPT": "target",
+              "npm": "target",
+              "Fortinet": "target",
+              "Anthropic/Claude": "target",
+              "Azure": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -3817,7 +3884,10 @@
         "CVE-2026-23479"
       ],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "active_exploitation",
+          "zero_day"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -3826,7 +3896,9 @@
           "CVE-2026-23479"
         ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
         "content_type": [
           "vulnerability_disclosure"
         ],
@@ -3841,10 +3913,13 @@
         "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
         "published": "2026-06-03T16:40:00+00:00",
         "summary": "Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and remained in every stable branch until the May 5 fixes, unnoticed for over two years.",
-        "full_body": "",
+        "full_body": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)  Swati Khandelwal  Jun 03, 2026 Vulnerability / Cloud Security Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479 , the flaw was introduced in Redis 7.2.0 and remained in every stable branch until the May 5 fixes, unnoticed for over two years. NVD rates it 8.8 under CVSS 3.1; Redis lists it as 7.7 under CVSS 4.0. It was reported by Team Xint Code, and a complete technical write-up is now public. The cloud footprint makes this worse. Wiz's analysis, published with the exploit writeup, puts Redis in a large majority of cloud environments, with most of those instances running without a password. The exploit needs an authenticated session, but in a default deployment, the default user already holds every privilege the chain requires. The flaw lives in unblockClientOnKey() in src/blocked.c , which fires when a key event wakes a blocked command. The function dispatches the queued command through processCommandAndResetClient() , then keeps using the same client pointer. The problem: that function can free the client as a side effect, and its own header comment says so. The caller ignores the return value and reads the freed structure anyway, a use-after-free (CWE-416). Per Wiz's analysis, the bug took two commits to create. A January 2023 refactor ( PR #11012 ) added the unchecked call. A March 2023 change ( PR #11568 ) added more client access after it. Neither was dangerous alone. Together, they reached general availability in 7.2.0 and survived multiple rounds of security review. The chain starts by leaking a heap address. From there it frees a client and slips a fake one into the same memory, then turns Redis's own memory accounting against itself to overwrite a function pointer. The published version runs in three stages. First, a one-line Lua script (EVAL \"return tostring(redis.call)\" 0) leaks a heap pointer. Second, the attacker grooms client memory limits, parks a bloated client on a stream, then drops the limits and wakes it. Redis frees the blocked client mid-call, and a pipelined SET immediately reclaims the freed slot with a fake client structure. Third, Redis's routine memory accounting in updateClientMemoryUsage() performs an out-of-bounds decrement using attacker-controlled fields, aimed at the Global Offset Table to repoint strcasecmp() at system(). The next command Redis parses runs as a shell command. The official Redis Docker image makes the last step easier. It ships with only partial RELRO, leaving the GOT writable at runtime. ASLR and PIE do not help here, since the write is relative to a global whose offset is fixed at build time. The full chain needs an authenticated session with CONFIG SET, EVAL, stream commands (XREAD/XADD), and basic SET/GET, which maps to the @admin, @scripting, @stream, and @read/@write ACL categories. The default user has all of them, and in most deployments, these privileges are grouped into a single shared application or operator role. Denying CONFIG outright breaks this specific chain, though not the underlying use-after-free. Team Xint Code demonstrated the working RCE at ZeroDay.Cloud 2025 , Wiz's hacking competition in London last December. Theori describes Xint Code as an autonomous AI security tool built to hunt bugs in large codebases. Redis said it had no evidence of exploitation in its own or customer environments, and as of publication no public in-the-wild reports have surfaced. The full technical chain is now public, increasing the risk of follow-on exploitation. Upgrade to the patched minor for your series: 7.2.14, 7.4.9, 8.2.6, 8.4.3, or 8.6.3, all released on May 5. Minor upgrades within a series are meant to be drop-in. Managed Redis services patch on their own schedules, and Redis says",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -3853,12 +3928,22 @@
             "CVE-2026-23479"
           ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Docker": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Docker",
+                "mention",
+                0.26
+              ]
+            ]
           }
         }
       },
@@ -3871,7 +3956,10 @@
           "published": "2026-06-03T16:40:00+00:00",
           "summary": "Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and remained in every stable branch until the May 5 fixes, unnoticed for over two years.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -3880,12 +3968,22 @@
               "CVE-2026-23479"
             ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Docker": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Docker",
+                  "mention",
+                  0.26
+                ]
+              ]
             }
           }
         }
@@ -5388,198 +5486,6 @@
       ]
     },
     {
-      "cluster_id": "2ef64738f9",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Threats to the 2026 FIFA World Cup",
-        "link": "https://www.recordedfuture.com/research/2026-fifa-world-cup-threats",
-        "published": "2026-06-04T00:00:00+00:00",
-        "summary": "Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.",
-        "full_body": "Threats to the 2026 FIFA World Cup Executive Summary The 2026 FIFA World Cup, which takes place across sixteen host cities in the United States (US), Mexico, and Canada, presents a complex threat environment across multiple security domains. The tournament’s global visibility creates opportunities for both financially and geopolitically motivated threat actors to target attendees, affiliated organizations, sponsors, vendors, and event-supporting infrastructure. Physical security will almost certainly remain the highest priority for event coordinators and local government officials, given the high levels of international attention and the concentration of large crowds in host cities spanning three countries and multiple, distinct security environments. Mexico’s host cities face the highest physical risk due to the persistent presence of local and transnational criminal organizations (TCOs), with elevated concerns around theft, extortion, kidnapping, and fraud. US and Canadian host cities likely face a more limited threat from violent extremists, with greater risks to soft targets such as fan zones, watch parties, transit hubs, and other crowded public areas. Civil unrest and disruptive protests are also very likely in a majority of host cities. Localized travel disruptions are especially likely in Mexico, where prior demonstrations have already blocked roads near World Cup venues. Large police or military deployments near event sites will likely increase the risk of confrontation. The most immediate risk to corporate sponsors and affiliates is likely cybercriminal exploitation of World Cup demand and branding. Recorded Future’s Payment Fraud Intelligence team has already identified World Cup-themed purchase scams, fake FIFA-branded stores, and spoofed FIFA and host city domains. Carders are also likely to leverage stolen payment card credentials to fraudulently purchase event tickets and travel-related services for rapid resale and monetization. Efforts to use individuals’ interest in the World Cup to deliver malware or carry out data extortion or fraud will likely accelerate as the tournament approaches. Threat actors will likely continue to use AI-generated content to scale fraud, impersonation, phishing, smishing, and social engineering campaigns. The concentration of senior government officials, diplomats, security personnel, corporate executives, and media at World Cup events also very likely increases the risk of cyber espionage and disruptive cyber incidents. Russian, Chinese, and Iranian state-sponsored threat groups will likely use the tournament as an intelligence collection opportunity, targeting executives, VIP attendees, national delegations, media partners, telecommunications providers, airlines, hotels, event logistics firms, and commercial affiliates. China is most likely to pursue targeted espionage, while Russia and Iran pose a higher risk of more disruptive attacks through proxy hacktivism. Influence activity related to the tournament remains largely overt, driven by state media and diplomatic messaging from Russia, China, and Iran. These narratives focus on host-country legitimacy, Iran’s conditional participation, visa and access issues, public safety, immigration, ticketing, and alleged politicization of the event. Covert influence activity has so far been limited and opportunistic, but could increase as the tournament approaches, particularly around geopolitical flashpoints or viral news events. Organizations involved in or exposed to the World Cup should prioritize proactive monitoring of location-specific physical security risks, protest activity, cybercriminal infrastructure, phishing and credential exposure, malicious traffic, ransomware indicators, and influence operations. Cyber indicators such as increased scanning activity or newly registered domains linked to FIFA or host cities may indicate an expansion of criminal or espionage activity. Developments around geopolitical flashpoints such as the w",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Threats to the 2026 FIFA World Cup",
-          "link": "https://www.recordedfuture.com/research/2026-fifa-world-cup-threats",
-          "published": "2026-06-04T00:00:00+00:00",
-          "summary": "Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "68573a4922",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Lessons for life: Why children’s data is a long-term identity risk",
-        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-        "published": "2026-06-03T08:50:00+00:00",
-        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Lessons for life: Why children’s data is a long-term identity risk",
-          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-          "published": "2026-06-03T08:50:00+00:00",
-          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1f5463ba47",
       "priority_score": 10,
       "member_count": 1,
@@ -5742,6 +5648,102 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "68573a4922",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Lessons for life: Why children’s data is a long-term identity risk",
+        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+        "published": "2026-06-03T08:50:00+00:00",
+        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Lessons for life: Why children’s data is a long-term identity risk",
+          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+          "published": "2026-06-03T08:50:00+00:00",
+          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5938,6 +5940,102 @@
             "role_map": {
               "Drupal": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "2ef64738f9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Threats to the 2026 FIFA World Cup",
+        "link": "https://www.recordedfuture.com/research/2026-fifa-world-cup-threats",
+        "published": "2026-06-04T00:00:00+00:00",
+        "summary": "Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.",
+        "full_body": "Threats to the 2026 FIFA World Cup Executive Summary The 2026 FIFA World Cup, which takes place across sixteen host cities in the United States (US), Mexico, and Canada, presents a complex threat environment across multiple security domains. The tournament’s global visibility creates opportunities for both financially and geopolitically motivated threat actors to target attendees, affiliated organizations, sponsors, vendors, and event-supporting infrastructure. Physical security will almost certainly remain the highest priority for event coordinators and local government officials, given the high levels of international attention and the concentration of large crowds in host cities spanning three countries and multiple, distinct security environments. Mexico’s host cities face the highest physical risk due to the persistent presence of local and transnational criminal organizations (TCOs), with elevated concerns around theft, extortion, kidnapping, and fraud. US and Canadian host cities likely face a more limited threat from violent extremists, with greater risks to soft targets such as fan zones, watch parties, transit hubs, and other crowded public areas. Civil unrest and disruptive protests are also very likely in a majority of host cities. Localized travel disruptions are especially likely in Mexico, where prior demonstrations have already blocked roads near World Cup venues. Large police or military deployments near event sites will likely increase the risk of confrontation. The most immediate risk to corporate sponsors and affiliates is likely cybercriminal exploitation of World Cup demand and branding. Recorded Future’s Payment Fraud Intelligence team has already identified World Cup-themed purchase scams, fake FIFA-branded stores, and spoofed FIFA and host city domains. Carders are also likely to leverage stolen payment card credentials to fraudulently purchase event tickets and travel-related services for rapid resale and monetization. Efforts to use individuals’ interest in the World Cup to deliver malware or carry out data extortion or fraud will likely accelerate as the tournament approaches. Threat actors will likely continue to use AI-generated content to scale fraud, impersonation, phishing, smishing, and social engineering campaigns. The concentration of senior government officials, diplomats, security personnel, corporate executives, and media at World Cup events also very likely increases the risk of cyber espionage and disruptive cyber incidents. Russian, Chinese, and Iranian state-sponsored threat groups will likely use the tournament as an intelligence collection opportunity, targeting executives, VIP attendees, national delegations, media partners, telecommunications providers, airlines, hotels, event logistics firms, and commercial affiliates. China is most likely to pursue targeted espionage, while Russia and Iran pose a higher risk of more disruptive attacks through proxy hacktivism. Influence activity related to the tournament remains largely overt, driven by state media and diplomatic messaging from Russia, China, and Iran. These narratives focus on host-country legitimacy, Iran’s conditional participation, visa and access issues, public safety, immigration, ticketing, and alleged politicization of the event. Covert influence activity has so far been limited and opportunistic, but could increase as the tournament approaches, particularly around geopolitical flashpoints or viral news events. Organizations involved in or exposed to the World Cup should prioritize proactive monitoring of location-specific physical security risks, protest activity, cybercriminal infrastructure, phishing and credential exposure, malicious traffic, ransomware indicators, and influence operations. Cyber indicators such as increased scanning activity or newly registered domains linked to FIFA or host cities may indicate an expansion of criminal or espionage activity. Developments around geopolitical flashpoints such as the w",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Threats to the 2026 FIFA World Cup",
+          "link": "https://www.recordedfuture.com/research/2026-fifa-world-cup-threats",
+          "published": "2026-06-04T00:00:00+00:00",
+          "summary": "Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8134,171 +8232,6 @@
       ]
     },
     {
-      "cluster_id": "bb5fa910dd",
-      "priority_score": 8,
-      "member_count": 2,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "OpenAI/ChatGPT"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-        "published": "2026-06-04T13:00:00+00:00",
-        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-          "published": "2026-06-04T13:00:00+00:00",
-          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8f36ac3451",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-        "published": "2026-06-03T13:30:00+00:00",
-        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-          "published": "2026-06-03T13:30:00+00:00",
-          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ac3891b02c",
       "priority_score": 8,
       "member_count": 1,
@@ -8477,6 +8410,171 @@
       ]
     },
     {
+      "cluster_id": "bb5fa910dd",
+      "priority_score": 8,
+      "member_count": 2,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "OpenAI/ChatGPT"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+        "published": "2026-06-04T13:00:00+00:00",
+        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+          "published": "2026-06-04T13:00:00+00:00",
+          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8f36ac3451",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+        "published": "2026-06-03T13:30:00+00:00",
+        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+          "published": "2026-06-03T13:30:00+00:00",
+          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ab1941e554",
       "priority_score": 8,
       "member_count": 1,
@@ -8594,13 +8692,14 @@
         ],
         "urgency_signals": [
           "actively_exploited",
-          "no_patch_yet",
-          "zero_day"
+          "zero_day",
+          "preauth_unauth",
+          "no_patch_yet"
         ]
       },
-      "cluster_count": 8,
-      "article_count": 16,
-      "cohesion": 0.244,
+      "cluster_count": 9,
+      "article_count": 17,
+      "cohesion": 0.255,
       "shared_strong_signals": [
         "Palo Alto Networks"
       ],
@@ -8614,6 +8713,7 @@
         "791da8c978",
         "a8a021acdc",
         "9aa815a49a",
+        "4faddc63ad",
         "c37232a3fc",
         "fdf9413677",
         "0018093ec7",
@@ -8630,6 +8730,7 @@
         "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
         "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
         "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+        "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
         "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
         "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
         "https://www.reddit.com/r/cybersecurity/comments/1txsqmx/installed_fake_codex_hidden_as_a_google_site/",
@@ -9016,8 +9117,8 @@
         "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
         "https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/",
-        "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
         "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+        "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
         "https://www.reddit.com/r/cybersecurity/comments/1txz6l2/microsoft_discovered_that_anthropics_claude_code/",
         "https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/",
         "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
