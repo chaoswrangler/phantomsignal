@@ -18,6 +18,8 @@ on:
       - "aggregate.py"
       - "taxonomy.py"
       - "affinity.py"
+      - "scoring.py"
+      - "signals.py"
       - "requirements.txt"
 
 # Prevent overlapping runs. If a run is in progress when the next hour fires,
@@ -61,9 +63,19 @@ jobs:
           # retry up to 3 times by re-running the same merge-free pattern.
           for attempt in 1 2 3; do
             # Save our freshly-generated files outside the working tree.
+            # IMPORTANT: every generated output must be listed in all three
+            # places (cp out, cp back, git add). Anything not preserved here
+            # gets blown away by the `git reset --hard` and never committed.
             mkdir -p /tmp/phantom-outputs
             cp docs/feed.json /tmp/phantom-outputs/feed.json
+            cp docs/feed.html /tmp/phantom-outputs/feed.html
             cp docs/briefing_packet.json /tmp/phantom-outputs/briefing_packet.json
+
+            # Also preserve the signals state file if it exists (created by
+            # signals.py for cross-run novelty/persistence tracking).
+            if [ -f docs/signals_state.json ]; then
+              cp docs/signals_state.json /tmp/phantom-outputs/signals_state.json
+            fi
 
             # Sync to whatever is now on origin/main, discarding any local divergence.
             git fetch origin main
@@ -71,9 +83,16 @@ jobs:
 
             # Put our generated files back on top of the synced state.
             cp /tmp/phantom-outputs/feed.json docs/feed.json
+            cp /tmp/phantom-outputs/feed.html docs/feed.html
             cp /tmp/phantom-outputs/briefing_packet.json docs/briefing_packet.json
+            if [ -f /tmp/phantom-outputs/signals_state.json ]; then
+              cp /tmp/phantom-outputs/signals_state.json docs/signals_state.json
+            fi
 
-            git add docs/feed.json docs/briefing_packet.json
+            git add docs/feed.json docs/feed.html docs/briefing_packet.json
+            if [ -f docs/signals_state.json ]; then
+              git add docs/signals_state.json
+            fi
 
             # If nothing actually changed (e.g., feed.json identical to what's
             # already on main), exit cleanly.
