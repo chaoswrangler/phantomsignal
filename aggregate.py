@@ -15,6 +15,7 @@ import os
 import re
 import socket
 import sys
+import html
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -648,6 +649,18 @@ def main():
     }
     with open(feed_output, "w") as f:
         json.dump(raw_feed, f, indent=2, ensure_ascii=False, default=str)
+    # Also emit a human-readable HTML view of the raw feed.
+    pretty = json.dumps(raw_feed, indent=2, ensure_ascii=False, default=str)
+    feed_html = (
+        '<!doctype html><html lang="en"><head><meta charset="utf-8">'
+        '<title>PHANTOMSignal feed.json</title>'
+        '<style>body{margin:0;background:#0b0f14;color:#e8f4ff;'
+        "font-family:'JetBrains Mono',Consolas,monospace}"
+        'pre{margin:0;padding:24px;font-size:13px;line-height:1.5;'
+        'white-space:pre-wrap;word-break:break-word}</style></head>'
+        f'<body><pre>{html.escape(pretty)}</pre></body></html>'
+    )
+    (feed_output.parent / "feed.html").write_text(feed_html, encoding="utf-8")
 
     # Write briefing packet.
     with open(briefing_output, "w") as f:
@@ -659,7 +672,7 @@ def main():
     print(f"  Items in window:    {briefing['total_items_in_window']}")
     print(f"  Clusters in packet: {briefing['total_clusters_in_packet']}")
     print(f"  Full-fetched:       {sum(1 for c in briefing['clusters'] if c['primary']['fetch_status'] == 'ok')}")
-    print(f"  Outputs:            {feed_output}, {briefing_output}")
+    print(f"  Outputs:            {feed_output}, {briefing_output}, {feed_output.parent / 'feed.html'}")
 
 
 if __name__ == "__main__":
