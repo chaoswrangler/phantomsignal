@@ -397,6 +397,249 @@ def _aggregate_cluster_taxonomy(members):
     return {k: sorted(v) for k, v in aggregated.items()}
 
 
+def briefing_to_markdown(briefing):
+    """Render the briefing dict as markdown. Preserves every field of the JSON.
+
+    The markdown is structured so an LLM agent can parse it the same way it
+    would parse the JSON — headings map to top-level sections, bullet lists
+    map to objects, and code fences wrap free-form text (titles, summaries,
+    full bodies) so embedded markdown in source content doesn't get treated
+    as document structure.
+    """
+    lines = []
+
+    # --- Metadata header -----------------------------------------------------
+    lines.append("# PHANTOMSignal Briefing Packet")
+    lines.append("")
+    lines.append(f"- Generated: {briefing.get('generated_at', '')}")
+    lines.append(f"- Lookback hours: {briefing.get('lookback_hours', '')}")
+    lines.append(f"- Lookback human: {briefing.get('lookback_human', '')}")
+    lines.append(f"- Total feeds: {briefing.get('total_feeds', 0)}")
+    lines.append(f"- Feeds OK: {briefing.get('feeds_ok', 0)}")
+    lines.append(f"- Total items in window: {briefing.get('total_items_in_window', 0)}")
+    lines.append(f"- Total clusters raw: {briefing.get('total_clusters_raw', 0)}")
+    lines.append(f"- Total clusters in packet: {briefing.get('total_clusters_in_packet', 0)}")
+    lines.append(f"- Dropped low score: {briefing.get('dropped_low_score', 0)}")
+    lines.append(f"- Dropped overflow: {briefing.get('dropped_overflow', 0)}")
+    lines.append("")
+
+    # --- Cohort metadata -----------------------------------------------------
+    lines.append("## Cohort metadata")
+    lines.append("")
+    for cohort_name, meta in (briefing.get("cohort_metadata") or {}).items():
+        lines.append(f"### {cohort_name}")
+        lines.append(f"- Description: {meta.get('description', '')}")
+        lines.append(f"- Source count: {meta.get('source_count', 0)}")
+        lines.append(f"- Weight: {meta.get('weight', 0)}")
+        lines.append("")
+
+    # --- Feed status ---------------------------------------------------------
+    lines.append("## Feed status")
+    lines.append("")
+    for name, st in (briefing.get("feed_status") or {}).items():
+        lines.append(f"- **{name}** ({st.get('cohort', '')})")
+        lines.append(f"  - URL: {st.get('url', '')}")
+        lines.append(f"  - Status: {st.get('status', '')}")
+        lines.append(f"  - Item count: {st.get('item_count', 0)}")
+        lines.append(f"  - In window count: {st.get('in_window_count', 0)}")
+    lines.append("")
+
+    # --- Affinity groups -----------------------------------------------------
+    lines.append("## Affinity groups (themes)")
+    lines.append("")
+    for g in briefing.get("affinity_groups", []):
+        lines.append(f"### {g.get('label', 'unnamed theme')}")
+        lines.append(f"- Anchor signal: {g.get('anchor_signal', '')}")
+        lines.append(f"- Theme key: {g.get('theme_key', '')}")
+        lines.append(f"- Cluster count: {g.get('cluster_count', 0)}")
+        lines.append(f"- Article count: {g.get('article_count', 0)}")
+        lines.append(f"- Cohesion: {g.get('cohesion', 0)}")
+        shared = g.get("shared_strong_signals") or []
+        lines.append(f"- Shared strong signals: {', '.join(shared) if shared else '(none)'}")
+        cves = g.get("member_cves") or []
+        lines.append(f"- Member CVEs: {', '.join(cves) if cves else '(none)'}")
+        also = g.get("also_targets") or []
+        lines.append(f"- Also targets: {', '.join(also) if also else '(none)'}")
+        dom = g.get("dominant_features") or {}
+        if dom:
+            lines.append("- Dominant features:")
+            for axis, vals in dom.items():
+                if isinstance(vals, list) and vals:
+                    lines.append(f"  - {axis}: {', '.join(vals)}")
+        cluster_ids = g.get("cluster_ids") or []
+        lines.append(f"- Cluster IDs: {', '.join(cluster_ids) if cluster_ids else '(none)'}")
+        links = g.get("links") or []
+        if links:
+            lines.append("- Links:")
+            for link in links:
+                lines.append(f"  - {link}")
+        lines.append("")
+
+    # --- Forward signals -----------------------------------------------------
+    fs = briefing.get("forward_signals") or {}
+    if fs:
+        lines.append("## Forward signals")
+        lines.append("")
+
+        novelty = fs.get("novelty") or {}
+        lines.append("### Novelty")
+        for axis in ("cves", "actors", "products"):
+            entries = novelty.get(axis) or []
+            lines.append(f"- Novel {axis}: {len(entries)}")
+            for entry in entries:
+                lines.append(
+                    f"  - {entry.get('value', '')} "
+                    f"(first seen via {entry.get('first_source', '')} "
+                    f"at {entry.get('first_published', '')}, "
+                    f"cluster {entry.get('cluster_id', '')})"
+                )
+        lines.append("")
+
+        velocity = fs.get("velocity") or []
+        lines.append(f"### Velocity bursts ({len(velocity)})")
+        for v in velocity:
+            lines.append(f"- **{v.get('title', '')}**")
+            lines.append(f"  - Cluster: {v.get('cluster_id', '')}")
+            lines.append(f"  - Sources in window: {v.get('sources_in_window', 0)}")
+            lines.append(f"  - Window hours: {v.get('window_hours', 0)}")
+            lines.append(f"  - Cohort count: {v.get('cohort_count', 0)}")
+        lines.append("")
+
+        leading = fs.get("leading_edge") or []
+        lines.append(f"### Leading edge ({len(leading)})")
+        for le in leading:
+            lines.append(f"- **{le.get('title', '')}**")
+            lines.append(f"  - Cluster: {le.get('cluster_id', '')}")
+            lines.append(f"  - Lead hours: {le.get('lead_hours', 0)}")
+            lines.append(f"  - First source: {le.get('first_source', '')}")
+            lines.append(f"  - Later Tier 1 source: {le.get('later_tier1_source', '')}")
+            shared = le.get("shared_signals") or []
+            lines.append(f"  - Shared signals: {', '.join(shared) if shared else '(none)'}")
+        lines.append("")
+
+        convergence = fs.get("convergence") or []
+        lines.append(f"### Convergence ({len(convergence)})")
+        for c in convergence:
+            lines.append(
+                f"- Pair: {c.get('pair', '')} "
+                f"(cluster {c.get('cluster_id', '')}, "
+                f"first observation: {c.get('first_observation', False)})"
+            )
+        lines.append("")
+
+        drift = fs.get("drift") or []
+        lines.append(f"### Drift ({len(drift)})")
+        for d in drift:
+            lines.append(f"- **{d.get('actor', '')}** (cluster {d.get('cluster_id', '')})")
+            new_ind = d.get("new_industries") or []
+            new_prod = d.get("new_products") or []
+            prior_ind = d.get("prior_top_industries") or []
+            prior_prod = d.get("prior_top_products") or []
+            lines.append(f"  - New industries: {', '.join(new_ind) if new_ind else '(none)'}")
+            lines.append(f"  - New products: {', '.join(new_prod) if new_prod else '(none)'}")
+            lines.append(f"  - Prior top industries: {', '.join(prior_ind) if prior_ind else '(none)'}")
+            lines.append(f"  - Prior top products: {', '.join(prior_prod) if prior_prod else '(none)'}")
+        lines.append("")
+
+        persistence = fs.get("persistence") or []
+        lines.append(f"### Persistence ({len(persistence)})")
+        for p in persistence:
+            lines.append(
+                f"- {p.get('axis', '')}: {p.get('value', '')} "
+                f"(weeks observed: {p.get('weeks_observed', 0)}, "
+                f"cluster {p.get('cluster_id', '')})"
+            )
+        lines.append("")
+
+        inversion = fs.get("tier_inversion") or []
+        lines.append(f"### Tier inversion ({len(inversion)})")
+        for ti in inversion:
+            lines.append(f"- **{ti.get('title', '')}**")
+            lines.append(f"  - Cluster: {ti.get('cluster_id', '')}")
+            lines.append(f"  - Primary source: {ti.get('primary_source', '')}")
+            sigs = ti.get("strong_signals") or []
+            lines.append(f"  - Strong signals: {', '.join(sigs) if sigs else '(none)'}")
+        lines.append("")
+
+    # --- Clusters ------------------------------------------------------------
+    lines.append("## Clusters")
+    lines.append("")
+    for c in briefing.get("clusters", []):
+        cid = c.get("cluster_id", "")
+        rep = c.get("primary") or {}
+        lines.append(f"### Cluster {cid} — score {c.get('priority_score', 0)}")
+        lines.append("")
+        lines.append(f"- Title: {rep.get('title', '')}")
+        lines.append(f"- Source: {rep.get('source', '')} ({rep.get('cohort', '')})")
+        lines.append(f"- Published: {rep.get('published', '')}")
+        lines.append(f"- Link: {rep.get('link', '')}")
+        lines.append(f"- Fetch status: {rep.get('fetch_status', '')}")
+        lines.append(f"- Member count: {c.get('member_count', 0)}")
+        lines.append(f"- Corroborating source count: {c.get('corroborating_source_count', 0)}")
+        strong = c.get("strong_signals") or []
+        lines.append(f"- Strong signals: {', '.join(strong) if strong else '(none)'}")
+        lines.append("")
+
+        # Aggregate cluster taxonomy
+        ctax = c.get("taxonomy") or {}
+        if ctax:
+            lines.append("#### Cluster taxonomy (union across members)")
+            for axis, vals in ctax.items():
+                if isinstance(vals, list) and vals:
+                    lines.append(f"- {axis}: {', '.join(str(v) for v in vals)}")
+            lines.append("")
+
+        # Primary-article taxonomy (more detailed than aggregate)
+        ptax = rep.get("taxonomy") or {}
+        if ptax:
+            lines.append("#### Primary article taxonomy")
+            for axis, vals in ptax.items():
+                if axis in ("role_map", "weak_tags"):
+                    continue  # debug-only fields, skip from agent-facing markdown
+                if isinstance(vals, list):
+                    if vals:
+                        lines.append(f"- {axis}: {', '.join(str(v) for v in vals)}")
+                elif vals:
+                    lines.append(f"- {axis}: {vals}")
+            lines.append("")
+
+        # Summary
+        summary = (rep.get("summary") or "").strip()
+        if summary:
+            lines.append("#### Summary")
+            lines.append("")
+            lines.append("```")
+            lines.append(summary)
+            lines.append("```")
+            lines.append("")
+
+        # Full body
+        body = (rep.get("full_body") or "").strip()
+        if body:
+            lines.append("#### Full body")
+            lines.append("")
+            lines.append("```")
+            lines.append(body)
+            lines.append("```")
+            lines.append("")
+
+        # Corroborating sources
+        corr = c.get("corroborating_sources") or []
+        if corr:
+            lines.append(f"#### Corroborating sources ({len(corr)})")
+            lines.append("")
+            for cs in corr:
+                lines.append(f"- **{cs.get('source', '')}** ({cs.get('cohort', '')})")
+                lines.append(f"  - Title: {cs.get('title', '')}")
+                lines.append(f"  - Published: {cs.get('published', '')}")
+                lines.append(f"  - Link: {cs.get('link', '')}")
+                cs_sum = (cs.get("summary") or "").strip()
+                if cs_sum:
+                    lines.append(f"  - Summary: {cs_sum}")
+            lines.append("")
+
+    return "\n".join(lines)
+
 def _humanize_window(hours):
     if hours <= 24:
         return f"{hours} hours"
@@ -446,6 +689,7 @@ def main():
     feed_output = Path("docs/feed.json")
     feed_html_output = Path("docs/feed.html")
     briefing_output = Path("docs/briefing_packet.json")
+    briefing_md_output = Path("docs/briefing_packet.md")
     feed_output.parent.mkdir(parents=True, exist_ok=True)
 
     with open(feeds_file) as f:
@@ -558,9 +802,10 @@ def main():
     )
     feed_html_output.write_text(feed_html, encoding="utf-8")
 
-    # Write briefing packet.
+    # Write briefing packet (JSON + markdown for the agent).
     with open(briefing_output, "w") as f:
         json.dump(briefing, f, indent=2, ensure_ascii=False, default=str)
+    briefing_md_output.write_text(briefing_to_markdown(briefing), encoding="utf-8")
 
     ok = briefing["feeds_ok"]
     print(f"\nDone.")
@@ -568,7 +813,7 @@ def main():
     print(f"  Items in window:    {briefing['total_items_in_window']}")
     print(f"  Clusters in packet: {briefing['total_clusters_in_packet']}")
     print(f"  Full-fetched:       {sum(1 for c in briefing['clusters'] if c['primary']['fetch_status'] == 'ok')}")
-    print(f"  Outputs:            {feed_output}, {feed_html_output}, {briefing_output}")
+    print(f"  Outputs:            {feed_output}, {feed_html_output}, {briefing_output}, {briefing_md_output}")
 
 
 if __name__ == "__main__":
