@@ -5,17 +5,18 @@ and produce a briefing packet ready for LLM analysis.
 
 Outputs:
   docs/feed.json              - raw normalized feed data (transparency)
+  docs/feed.html              - human-readable HTML view of feed.json
   docs/briefing_packet.json   - the curated input for the analysis agent
 """
 
 import argparse
 import hashlib
+import html
 import json
 import os
 import re
 import socket
 import sys
-import html
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
@@ -40,47 +41,13 @@ socket.setdefaulttimeout(15)
 # Configuration
 # ---------------------------------------------------------------------------
 
-# Default lookback window in hours. Override with:
-#   - CLI flag:  python aggregate.py --lookback-hours 36
-#   - Env var:   LOOKBACK_HOURS=36 python aggregate.py
-#   - GitHub Actions workflow_dispatch input (see aggregate.yml)
-# Common values: 24 (one day), 36 (overnight buffer), 168 (one week, default), 336 (two weeks).
 DEFAULT_LOOKBACK_HOURS = 168
-
-# Items per feed pulled from RSS (before lookback filtering).
-# Set to 100 as a defensive cap. Most feeds return 10-30 entries regardless,
-# so 100 is rarely the binding constraint. High-volume feeds (BleepingComputer,
-# Reddit, The Hacker News) cap their RSS output below this and may not return
-# a full week of content even at the cap. That's accepted tradeoff. Their
-# stories typically reach you via corroboration from Tier 1 research feeds
-# (Unit 42, Talos, Mandiant, etc.), which have lower publication volume and
-# fit comfortably within this cap.
 ITEMS_PER_FEED = 100
-
-# Cohort weights, signal keywords, and noise penalties now live in scoring.py.
-# score_item() is imported above.
-
-# Clustering similarity threshold (0-1). Higher = stricter.
 CLUSTER_THRESHOLD = 0.55
-
-# User-Agent for full-article fetches.
 UA = "Mozilla/5.0 (compatible; CTI-Aggregator/1.0; +https://github.com)"
-
-# Max full-fetch attempts. We only full-fetch the top N cluster representatives
-# to keep the briefing packet bounded and respectful to source sites.
-# Scaled up for week-long windows; the agent will still only surface 10-15 cards.
 MAX_FULL_FETCH = 60
-
-# Minimum priority score for a cluster to survive into the briefing packet.
-# Filters out the long tail of low-signal items at large lookback windows.
-# Lower this if you want more raw context; raise it to be more ruthless.
 MIN_CLUSTER_SCORE = 8
-
-# Maximum clusters to include in the briefing packet (post-filter, post-sort).
-# The agent's job is to pick 10-15 from this set, not from 200.
 MAX_CLUSTERS_IN_PACKET = 80
-
-# Output size cap for the briefing packet items (chars per article body).
 BODY_CHAR_LIMIT = 4000
 
 
@@ -89,7 +56,6 @@ BODY_CHAR_LIMIT = 4000
 # ---------------------------------------------------------------------------
 
 def clean_text(s):
-    """Strip HTML, collapse whitespace."""
     if not s:
         return ""
     soup = BeautifulSoup(s, "html.parser")
@@ -98,7 +64,6 @@ def clean_text(s):
 
 
 def parse_feed(name, url, cohort, lookback_hours):
-    """Fetch and parse a single feed. Return list of normalized items + status."""
     try:
         parsed = feedparser.parse(url, agent=UA)
     except Exception as e:
@@ -132,7 +97,7 @@ def parse_feed(name, url, cohort, lookback_hours):
         item = {
             "source": name,
             "cohort": cohort,
-            "category": cohort,  # backward-compat alias for build-page.js
+            "category": cohort,
             "title": title,
             "link": link,
             "published": pub_date.isoformat() if pub_date else None,
@@ -141,9 +106,6 @@ def parse_feed(name, url, cohort, lookback_hours):
             "author": clean_text(entry.get("author", "")),
             "in_window": bool(pub_date and pub_date >= cutoff),
         }
-        # Enrich with structured taxonomy (deterministic, no LLM).
-        # full_body is not available at this stage; taxonomy will be re-enriched
-        # for cluster representatives after full-fetch to improve recall.
         item["taxonomy"] = extract_taxonomy(
             title=title,
             summary=summary,
@@ -157,11 +119,10 @@ def parse_feed(name, url, cohort, lookback_hours):
 
 
 # ---------------------------------------------------------------------------
-# Full-article fetching (only for cluster representatives)
+# Full-article fetching
 # ---------------------------------------------------------------------------
 
 def fetch_article(url):
-    """Pull an article and return readable body text. Bounded, polite."""
     try:
         r = requests.get(
             url,
@@ -181,11 +142,9 @@ def fetch_article(url):
     except Exception:
         return "", "parse_failed"
 
-    # Strip nav/footer/script noise.
     for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
         tag.decompose()
 
-    # Prefer article tag, then main, then largest text block.
     candidates = soup.find_all(["article", "main"])
     if candidates:
         body = max(candidates, key=lambda t: len(t.get_text()))
@@ -197,16 +156,10 @@ def fetch_article(url):
 
 
 # ---------------------------------------------------------------------------
-# Scoring — see scoring.py (score_item is imported)
-# ---------------------------------------------------------------------------
-
-
-# ---------------------------------------------------------------------------
 # Clustering
 # ---------------------------------------------------------------------------
 
 def tokenize(text):
-    """Lowercase tokens, drop short/common words."""
     stop = {
         "the", "a", "an", "and", "or", "of", "in", "on", "to", "for",
         "with", "is", "are", "was", "were", "by", "as", "at", "from",
@@ -217,19 +170,10 @@ def tokenize(text):
 
 
 def extract_strong_signals(item):
-    """Pull strong signals from the item's taxonomy.
-
-    v2 reads from the taxonomy directly (CVE, actor, target-role products)
-    instead of regex-scraping the title/summary. This means strong-signal
-    matching for clustering inherits the proximity-anchored, role-aware
-    extraction done by taxonomy.extract_taxonomy.
-    """
     tax = item.get("taxonomy") or {}
     signals = set()
     signals.update(tax.get("cve_ids", []))
     signals.update(tax.get("actor_attribution", []))
-    # Only target-role products count for clustering. Tools and mentions
-    # are too generic to anchor a cluster reliably.
     role_map = tax.get("role_map", {})
     for p in tax.get("affected_products", []):
         if role_map.get(p, "target") == "target":
@@ -238,23 +182,16 @@ def extract_strong_signals(item):
 
 
 def similarity(a, b):
-    """Hybrid similarity: strong signal match dominates, token overlap fills in."""
-    # Strong signals (CVE, actor) — if any match, almost certainly the same story.
     if a["strong_signals"] and a["strong_signals"] & b["strong_signals"]:
         return 1.0
-
     if not a["tokens"] or not b["tokens"]:
         return 0.0
-
     intersection = a["tokens"] & b["tokens"]
     union = a["tokens"] | b["tokens"]
     return len(intersection) / len(union) if union else 0.0
 
 
 def cluster_items(items):
-    """Greedy clustering. Items sorted by score; each new item joins best cluster or starts one."""
-    # Precompute tokens and strong signals per item.
-    # v2: strong signals come from the taxonomy, not regex on title/summary.
     for item in items:
         text = f"{item['title']} {item['summary']}"
         item["tokens"] = tokenize(text)
@@ -268,7 +205,6 @@ def cluster_items(items):
         best_sim = 0.0
 
         for cluster in clusters:
-            # Compare against cluster representative (highest scoring member).
             sim = similarity(item, cluster["rep"])
             if sim > best_sim:
                 best_sim = sim
@@ -276,9 +212,6 @@ def cluster_items(items):
 
         if best_cluster and best_sim >= CLUSTER_THRESHOLD:
             best_cluster["members"].append(item)
-            # v2: no per-add boost. Corroboration boost is computed once
-            # at finalization (below) so it isn't biased toward early-
-            # arriving members.
         else:
             clusters.append({
                 "rep": item,
@@ -286,8 +219,6 @@ def cluster_items(items):
                 "score": item["score"],
             })
 
-    # v2: compute the corroboration boost once per cluster, weighted by
-    # cohort/tier diversity instead of a flat +2 per member.
     for cluster in clusters:
         cluster["score"] = cluster["rep"]["score"] + cluster_corroboration_boost(cluster["members"])
 
@@ -299,22 +230,17 @@ def cluster_items(items):
 # ---------------------------------------------------------------------------
 
 def cluster_id(rep):
-    """Stable cluster identifier."""
     seed = f"{rep['title']}|{rep['link']}"
     return hashlib.sha1(seed.encode()).hexdigest()[:10]
 
 
 def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, lookback_hours):
-    """Build the structured input for the analysis agent."""
-    # Sort clusters by score desc, apply floor, apply cap.
     clusters_sorted = sorted(clusters, key=lambda c: c["score"], reverse=True)
     total_clusters_raw = len(clusters_sorted)
 
-    # Filter: drop clusters below the signal floor.
     clusters_filtered = [c for c in clusters_sorted if c["score"] >= MIN_CLUSTER_SCORE]
     dropped_low_score = total_clusters_raw - len(clusters_filtered)
 
-    # Cap at the maximum packet size.
     clusters_kept = clusters_filtered[:MAX_CLUSTERS_IN_PACKET]
     dropped_overflow = len(clusters_filtered) - len(clusters_kept)
 
@@ -324,7 +250,6 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
     print(f"  Dropped (overflow):     {dropped_overflow}")
     print(f"  Kept in packet:         {len(clusters_kept)}")
 
-    # Full-fetch the top N cluster reps in parallel.
     to_fetch = clusters_kept[:MAX_FULL_FETCH]
     print(f"\nFull-fetching {len(to_fetch)} cluster representatives...")
 
@@ -340,7 +265,6 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
                 body, status = "", f"error:{type(e).__name__}"
             c["rep"]["full_body"] = body
             c["rep"]["fetch_status"] = status
-            # Re-enrich taxonomy with the full body for better recall.
             if body:
                 c["rep"]["taxonomy"] = extract_taxonomy(
                     title=c["rep"]["title"],
@@ -352,11 +276,9 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
             symbol = "OK" if status == "ok" else "SKIP"
             print(f"  [{symbol}] {c['rep']['source']}: {c['rep']['title'][:70]}")
 
-    # Assemble briefing clusters.
     briefing_clusters = []
     for c in clusters_kept:
         rep = c["rep"]
-        # Collect all unique sources corroborating this cluster.
         corroborating = []
         seen_sources = set()
         for m in c["members"]:
@@ -372,7 +294,6 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
                     "taxonomy": m.get("taxonomy", {}),
                 })
 
-        # Aggregate taxonomy across all cluster members (union of tags).
         cluster_tax = _aggregate_cluster_taxonomy(c["members"])
 
         briefing_clusters.append({
@@ -396,16 +317,10 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
             "corroborating_sources": corroborating,
         })
 
-    # v2: affinity reads from the assembled briefing clusters so it sees
-    # the cleaned corroborating_sources shape and the rep's full-fetched
-    # taxonomy.
     raw_groups = find_affinity_groups(briefing_clusters)
     kept_cluster_ids = [c["cluster_id"] for c in briefing_clusters]
     affinity_groups = []
     for g in raw_groups:
-        # Collect all item URLs that belong to this theme so the renderer
-        # can filter the corpus when a theme card is clicked. Walks each
-        # cluster's primary link + every corroborating source link.
         theme_links = []
         for ci in g["cluster_indices"]:
             cluster = briefing_clusters[ci]
@@ -417,7 +332,6 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
                 if link and link not in theme_links:
                     theme_links.append(link)
 
-        # Theme key for renderer data-attribute (safe for HTML attrs).
         theme_key = re.sub(r"[^a-zA-Z0-9._-]+", "-", g["anchor_signal"]).strip("-").lower()
 
         affinity_groups.append({
@@ -439,14 +353,9 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
     for g in affinity_groups[:5]:
         print(f"  - {g['label']} ({g['cluster_count']} clusters, {g['article_count']} articles)")
 
-    # v2: forward-looking signals. Maintains persistent state across runs
-    # so we can detect novelty, velocity, leading-edge chatter, convergence,
-    # drift, persistence, and tier inversion.
     state_path = Path("docs/signals_state.json")
     state = SignalState.load(state_path)
     forward_signals = compute_signals({"clusters": briefing_clusters}, state)
-    # Update state AFTER computing signals so this run's data informs the
-    # NEXT run's novelty check, not this one.
     state.update_from_briefing({"clusters": briefing_clusters})
     state.save(state_path)
 
@@ -477,7 +386,6 @@ def build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, loo
 
 
 def _aggregate_cluster_taxonomy(members):
-    """Union taxonomy tags across cluster members."""
     aggregated = defaultdict(set)
     for m in members:
         tax = m.get("taxonomy") or {}
@@ -490,7 +398,6 @@ def _aggregate_cluster_taxonomy(members):
 
 
 def _humanize_window(hours):
-    """Render the lookback as a human-friendly string for the agent."""
     if hours <= 24:
         return f"{hours} hours"
     days = hours / 24
@@ -504,13 +411,11 @@ def _humanize_window(hours):
 # ---------------------------------------------------------------------------
 
 def serializable(item):
-    """Strip non-JSON-serializable fields."""
     out = {k: v for k, v in item.items() if k not in ("published_dt", "tokens", "strong_signals")}
     return out
 
 
 def resolve_lookback_hours():
-    """Resolve the lookback window from CLI arg > env var > default."""
     parser = argparse.ArgumentParser(description="CTI feed aggregator and briefing packet builder.")
     parser.add_argument(
         "--lookback-hours",
@@ -539,6 +444,7 @@ def main():
 
     feeds_file = Path("feeds.yaml")
     feed_output = Path("docs/feed.json")
+    feed_html_output = Path("docs/feed.html")
     briefing_output = Path("docs/briefing_packet.json")
     feed_output.parent.mkdir(parents=True, exist_ok=True)
 
@@ -592,17 +498,8 @@ def main():
             }
             all_items.extend(items)
 
-    # Score items in the lookback window.
     window_items = [i for i in all_items if i["in_window"]]
 
-    # v2: drop items the taxonomy classified as non-CTI:
-    #   out_of_scope — harmful/personal-crime content that should never
-    #                  appear on a CTI feed (child exploitation, etc.)
-    #   low_signal   — items from CTI feeds that have NO CTI anchors at
-    #                  all (Reddit career questions, hardware retirement
-    #                  posts, customer service training questions, etc.)
-    # Both classes are tagged on the item for transparency in feed.json
-    # (debugging) but removed from scoring, clustering, and rendering.
     filtered_dropped = {"out_of_scope": 0, "low_signal": 0}
     cti_items = []
     for item in window_items:
@@ -622,33 +519,32 @@ def main():
 
     print(f"\nScored {len(window_items)} items in {lookback_hours}h window")
 
-    # Cluster.
     clusters = cluster_items(window_items)
     print(f"Clustered into {len(clusters)} stories")
 
-    # Build briefing packet (this also full-fetches top reps).
     briefing = build_briefing_packet(clusters, all_items, feed_status, cohort_metadata, lookback_hours)
 
-    # Write raw feed.json (all items, for transparency / debugging).
     raw_feed = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "lookback_hours": lookback_hours,
         "lookback_human": _humanize_window(lookback_hours),
         "total_items": len(all_items),
         "feed_status": feed_status,
-        "cohorts": cohort_metadata,           # build-page.js reads feed.cohorts
-        "cohort_metadata": cohort_metadata,   # kept for any new tooling
+        "cohorts": cohort_metadata,
+        "cohort_metadata": cohort_metadata,
         "affinity_groups": briefing.get("affinity_groups", []),
-        "forward_signals": briefing.get("forward_signals", {}),  # v2
+        "forward_signals": briefing.get("forward_signals", {}),
         "items": [serializable(i) for i in sorted(
-            # v2: out_of_scope and low_signal items never reach the rendered page
             (it for it in all_items if it.get("filtered") not in ("out_of_scope", "low_signal")),
             key=lambda x: x.get("published") or "0",
             reverse=True
         )],
     }
+
+    # Write raw feed.json.
     with open(feed_output, "w") as f:
         json.dump(raw_feed, f, indent=2, ensure_ascii=False, default=str)
+
     # Also emit a human-readable HTML view of the raw feed.
     pretty = json.dumps(raw_feed, indent=2, ensure_ascii=False, default=str)
     feed_html = (
@@ -660,7 +556,7 @@ def main():
         'white-space:pre-wrap;word-break:break-word}</style></head>'
         f'<body><pre>{html.escape(pretty)}</pre></body></html>'
     )
-    (feed_output.parent / "feed.html").write_text(feed_html, encoding="utf-8")
+    feed_html_output.write_text(feed_html, encoding="utf-8")
 
     # Write briefing packet.
     with open(briefing_output, "w") as f:
@@ -672,7 +568,7 @@ def main():
     print(f"  Items in window:    {briefing['total_items_in_window']}")
     print(f"  Clusters in packet: {briefing['total_clusters_in_packet']}")
     print(f"  Full-fetched:       {sum(1 for c in briefing['clusters'] if c['primary']['fetch_status'] == 'ok')}")
-    print(f"  Outputs:            {feed_output}, {briefing_output}, {feed_output.parent / 'feed.html'}")
+    print(f"  Outputs:            {feed_output}, {feed_html_output}, {briefing_output}")
 
 
 if __name__ == "__main__":
