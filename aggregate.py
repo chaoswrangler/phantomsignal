@@ -640,6 +640,144 @@ def briefing_to_markdown(briefing):
 
     return "\n".join(lines)
 
+def items_to_rss(raw_feed, site_url="https://chaoswrangler.github.io/phantomsignal/"):
+    """Render the in-window item list as RSS 2.0 XML for Outlook / Feedly / etc.
+
+    Spec: RSS 2.0 with atom:link self-reference (recommended by RSS Best
+    Practices Profile and required by some validators / readers).
+
+    Notes:
+      - Dates are RFC 822 format via email.utils.format_datetime(). Outlook
+        is strict on this — ISO 8601 dates silently fail to register pubDate.
+      - <description> is CDATA-wrapped so the summary doesn't need character
+        escaping. summaries are already plain text (clean_text strips HTML),
+        but CDATA insulates against future changes.
+      - <guid> uses the article URL with isPermaLink="true" so Outlook
+        de-duplicates correctly even if the same article appears twice
+        across runs.
+      - <source> element attributes the original RSS feed the item came
+        from, which Outlook displays in its source column.
+      - Items already filtered (out_of_scope, low_signal) by main(); we
+        consume raw_feed["items"] directly which has the filter applied.
+    """
+    from email.utils import format_datetime
+    from datetime import datetime, timezone
+
+    feed_status = raw_feed.get("feed_status") or {}
+    items = raw_feed.get("items") or []
+
+    # Sort newest first, defensively
+    def _parse(p):
+        if not p:
+            return datetime.min.replace(tzinfo=timezone.utc)
+        try:
+            return datetime.fromisoformat(p.replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            return datetime.min.replace(tzinfo=timezone.utc)
+
+    items = sorted(items, key=lambda i: _parse(i.get("published")), reverse=True)
+
+    # Build channel-level dates
+    now = datetime.now(timezone.utc)
+    last_build = format_datetime(now)
+
+    rss_url = site_url.rstrip("/") + "/rss.xml"
+    n_items = len(items)
+    n_sources = sum(1 for s in feed_status.values() if s.get("status") == "ok")
+    lookback_human = raw_feed.get("lookback_human", "")
+
+    parts = []
+    parts.append('<?xml version="1.0" encoding="UTF-8"?>')
+    parts.append('<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">')
+    parts.append("<channel>")
+    parts.append("<title>PHANTOMSignal Feed</title>")
+    parts.append(f"<link>{_xml_escape(site_url)}</link>")
+    parts.append(f'<atom:link href="{_xml_escape(rss_url)}" rel="self" type="application/rss+xml" />')
+    parts.append(
+        "<description>"
+        f"Curated CTI from {n_sources} sources over {_xml_escape(lookback_human)}. "
+        "Filtered for relevance, deduplicated, tagged by threat category and likely affected industry."
+        "</description>"
+    )
+    parts.append("<language>en-us</language>")
+    parts.append(f"<lastBuildDate>{last_build}</lastBuildDate>")
+    parts.append("<generator>PHANTOMSignal aggregator</generator>")
+    parts.append("<ttl>60</ttl>")
+
+    for item in items:
+        title = item.get("title", "")
+        link = item.get("link", "")
+        summary = item.get("summary", "")
+        published = item.get("published")
+        source_name = item.get("source", "")
+        cohort = item.get("cohort", "")
+
+        # pubDate in RFC 822
+        pub_dt = _parse(published)
+        if pub_dt == datetime.min.replace(tzinfo=timezone.utc):
+            pub_rfc822 = last_build  # fallback for items without dates
+        else:
+            pub_rfc822 = format_datetime(pub_dt)
+
+        # Description: summary plus a small taxonomy footer if useful
+        tax = item.get("taxonomy") or {}
+        tags = []
+        for axis in ("affected_products", "actor_attribution", "cve_ids", "threat_categories"):
+            vals = tax.get(axis) or []
+            tags.extend(vals)
+        # Dedupe while preserving order, cap at 8 tags
+        seen = set()
+        deduped = []
+        for t in tags:
+            if t not in seen:
+                seen.add(t)
+                deduped.append(t)
+        deduped = deduped[:8]
+
+        description_html = _xml_escape(summary)
+        if deduped:
+            tag_html = " · ".join(_xml_escape(t) for t in deduped)
+            description_html = f"{description_html}<br/><br/><em>Tags: {tag_html}</em>"
+
+        source_rss_url = (feed_status.get(source_name) or {}).get("url", "")
+
+        parts.append("<item>")
+        parts.append(f"<title>{_xml_escape(title)}</title>")
+        parts.append(f"<link>{_xml_escape(link)}</link>")
+        parts.append(f"<description><![CDATA[{description_html}]]></description>")
+        parts.append(f"<pubDate>{pub_rfc822}</pubDate>")
+        parts.append(f'<guid isPermaLink="true">{_xml_escape(link)}</guid>')
+        if source_rss_url:
+            parts.append(f'<source url="{_xml_escape(source_rss_url)}">{_xml_escape(source_name)}</source>')
+        else:
+            parts.append(f'<dc:creator>{_xml_escape(source_name)}</dc:creator>')
+        if cohort:
+            parts.append(f"<category>{_xml_escape(cohort)}</category>")
+        # Surface taxonomy categories too so Outlook category filters work
+        for tag in deduped[:4]:
+            parts.append(f"<category>{_xml_escape(tag)}</category>")
+        parts.append("</item>")
+
+    parts.append("</channel>")
+    parts.append("</rss>")
+
+    return "\n".join(parts)
+
+
+def _xml_escape(s):
+    """Escape for XML element content and attribute values."""
+    if s is None:
+        return ""
+    return (
+        str(s)
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
 def _humanize_window(hours):
     if hours <= 24:
         return f"{hours} hours"
@@ -690,6 +828,7 @@ def main():
     feed_html_output = Path("docs/feed.html")
     briefing_output = Path("docs/briefing_packet.json")
     briefing_md_output = Path("docs/briefing_packet.md")
+    rss_output = Path("docs/rss.xml")
     feed_output.parent.mkdir(parents=True, exist_ok=True)
 
     with open(feeds_file) as f:
@@ -807,13 +946,18 @@ def main():
         json.dump(briefing, f, indent=2, ensure_ascii=False, default=str)
     briefing_md_output.write_text(briefing_to_markdown(briefing), encoding="utf-8")
 
+    # Write RSS 2.0 feed for Outlook / Feedly / generic readers.
+    # All in-window items (post-filter), newest first, with taxonomy tags
+    # surfaced as categories so reader-side filtering works.
+    rss_output.write_text(items_to_rss(raw_feed), encoding="utf-8")
+
     ok = briefing["feeds_ok"]
     print(f"\nDone.")
     print(f"  Feeds OK:           {ok}/{len(feed_status)}")
     print(f"  Items in window:    {briefing['total_items_in_window']}")
     print(f"  Clusters in packet: {briefing['total_clusters_in_packet']}")
     print(f"  Full-fetched:       {sum(1 for c in briefing['clusters'] if c['primary']['fetch_status'] == 'ok')}")
-    print(f"  Outputs:            {feed_output}, {feed_html_output}, {briefing_output}, {briefing_md_output}")
+    print(f"  Outputs:            {feed_output}, {feed_html_output}, {briefing_output}, {briefing_md_output}, {rss_output}")
 
 
 if __name__ == "__main__":
