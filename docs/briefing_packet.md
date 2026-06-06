@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-06T12:11:00.097738+00:00
+- Generated: 2026-06-06T14:48:27.516924+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 78
-- Total items in window: 476
-- Total clusters raw: 179
-- Total clusters in packet: 70
+- Feeds OK: 76
+- Total items in window: 471
+- Total clusters raw: 177
+- Total clusters in packet: 68
 - Dropped low score: 109
 - Dropped overflow: 0
 
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,36 +80,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - Item count: 25
+  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -125,16 +130,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -145,53 +160,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 0
+  - Item count: 10
+  - In window count: 2
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +205,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -215,16 +220,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -235,11 +240,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 6
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -255,26 +260,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,106 +290,106 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+  - Item count: 10
+  - In window count: 3
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 3
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 22
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 10
+  - In window count: 10
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -400,66 +400,66 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 33
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 46
+  - In window count: 47
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 24
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 33
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 14
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
   - In window count: 25
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Risky Business News** (practitioner_analysis)
-  - URL: https://risky.biz/feeds/risky-business-news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 25
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 23
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 25
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 25
   - In window count: 24
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
+- **Risky Business News** (practitioner_analysis)
+  - URL: https://risky.biz/feeds/risky-business-news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 23
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -477,8 +477,8 @@
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 10
-- Article count: 17
-- Cohesion: 0.256
+- Article count: 18
+- Cohesion: 0.255
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: CVE-2024-21182, CVE-2026-39987
 - Also targets: (none)
@@ -488,7 +488,7 @@
   - affected_products: Palo Alto Networks, GitHub
   - cve_ids: CVE-2026-0257, CVE-2024-21182, CVE-2026-39987
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: df6874157e, 791da8c978, 5c65105996, a8a021acdc, 9aa815a49a, 4faddc63ad, c37232a3fc, fdf9413677, 0018093ec7, ad4a52246a
+- Cluster IDs: df6874157e, 791da8c978, 5c65105996, a8a021acdc, 9aa815a49a, fdf9413677, 4faddc63ad, c37232a3fc, 0018093ec7, ad4a52246a
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
   - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
@@ -503,9 +503,10 @@
   - https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/
   - https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
   - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+  - https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
+  - https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
   - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
   - https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html
-  - https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
   - https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
   - https://webflow.sysdig.com/blog/agentic-threat-actor-hits-the-orchestration-plane-ai-agent-driven-container-escape
 
@@ -513,7 +514,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 14
+- Article count: 13
 - Cohesion: 0.245
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -529,9 +530,8 @@
   - https://risky.biz/RBNEWS572/
   - https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
   - https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/
+  - https://www.reddit.com/r/blueteamsec/comments/1tyfwyf/miasma_npm_supply_chain_attack_selfspreading_worm/
   - https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/
-  - https://www.reddit.com/r/blueteamsec/comments/1txag47/ironworm_supply_chain_malware_hits_npm/
-  - https://www.reddit.com/r/cybersecurity/comments/1tws7yc/new_ironworm_malware_hits_36_packages_in_npm/
   - https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
   - https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
   - https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/
@@ -540,7 +540,7 @@
 - Anchor signal: TeamPCP
 - Theme key: teampcp
 - Cluster count: 3
-- Article count: 19
+- Article count: 18
 - Cohesion: 0.583
 - Shared strong signals: TeamPCP
 - Member CVEs: (none)
@@ -557,9 +557,8 @@
   - https://risky.biz/RBNEWS572/
   - https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
   - https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/
+  - https://www.reddit.com/r/blueteamsec/comments/1tyfwyf/miasma_npm_supply_chain_attack_selfspreading_worm/
   - https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/
-  - https://www.reddit.com/r/blueteamsec/comments/1txag47/ironworm_supply_chain_malware_hits_npm/
-  - https://www.reddit.com/r/cybersecurity/comments/1tws7yc/new_ironworm_malware_hits_36_packages_in_npm/
   - https://securitylabs.datadoghq.com/articles/case-for-github-actions-security/
   - https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/
   - https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html
@@ -713,7 +712,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
-- Article count: 7
+- Article count: 8
 - Cohesion: 0.2
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -727,6 +726,7 @@
   - https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
   - https://www.exploit-db.com/exploits/52609
   - https://www.infosecurity-magazine.com/news/everest-forms-pro-rce-actively/
+  - https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
   - https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/
 
 ### CVE-2026-33829 exploitation activity
@@ -1102,8 +1102,8 @@ Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patc
 - Published: 2026-06-02T20:36:39+00:00
 - Link: https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 4
+- Member count: 7
+- Corroborating source count: 5
 - Strong signals: CVE-2026-8206, WordPress
 
 #### Cluster taxonomy (union across members)
@@ -1134,7 +1134,7 @@ A critical vulnerability (CVE-2026-8206, CVSS 9.8) was disclosed affecting the K
 A critical vulnerability ( CVE-2026-8206 , CVSS 9.8) was disclosed affecting the Kirki Freeform Page Builder, Website Builder & Customizer plugin for WordPress, allowing attackers to take over administrator accounts via a flawed password reset mechanism. Due to the potential for full site compromise and confirmed active exploitation, immediate patching is required. Technical Root Cause The issue originates from the handle_forgot_password() function in the CompLibFormHandler class, where the custom REST API endpoint for password resets accepts an attacker-supplied email address instead of using the account’s registered email. By sending a crafted password reset request containing a target username and an attacker-controlled email, attackers can receive the reset link and gain full administrative access, potentially installing malicious plugins, injecting web shells, or exfiltrating sensitive data . No authentication is required to exploit this issue. Affected Versions The following components are affected: the Kirki Freeform Page Builder, Website Builder & Customizer WordPress plugin, versions 6.0.0 through 6.0.6. This plugin is installed on over 500,000 WordPress sites, with approximately 150,000 currently running vulnerable versions. Sites where the frontend account management features are enabled are particularly at risk. Remediation Guidance Users should upgrade to Kirki version 6.0.7 or later immediately. Administrators should also audit user registries for unauthorized accounts or privilege changes, review site files for unauthorized plugins, themes, or web shells, and consider deploying WAF rules to block malicious REST API requests targeting the password reset endpoint. Patchstack also offers automatic virtual patching rules for organizations that need time to schedule an update. Current Threat Status At the time of writing, active exploitation has been confirmed, with Wordfence reporting 59 blocked attacks targeting this vulnerability within a 24-hour period. The severity, ease of exploitation, and lack of authentication requirements make this vulnerability extremely high risk, especially for internet-facing WordPress deployments. Potential Impact Successful exploitation could allow attackers to gain full administrative control over WordPress sites, install backdoors and web shells, and exfiltrate user data and site content, leading to service disruption, data exposure, or full infrastructure compromise. How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of the Kirki plugin, understand their exposure in context, including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s agentless SideScanning technology detects WordPress installations and identifies outdated or vulnerable plugins across customer cloud environments without requiring agents or credentials on the target systems. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning What Is Cloud Security Architecture? Principles, Layers, and Frameworks Jun 05, 2026 Cloud Security Learning What Is ASPM? A Guide to Application Security Posture Management Jun 05, 2026 Cloud Security Learning What Is SaaS Security? A Practical Guide 2026 Jun 05, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data in accordance with Orca Security Privacy Policy . Personalized Demo See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Get a Demo Chat with Us See Orca Security in Action Gain visibility, achieve compliance, and prioritize risks with the Orca Cloud Security Platform. Chat with an Orca Expert No Slack accoun
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
   - Title: Critical WordPress Plugin Vulnerability Allows Unauthenticated Admin Takeover on 150K Sites
@@ -1156,6 +1156,11 @@ A critical vulnerability ( CVE-2026-8206 , CVSS 9.8) was disclosed affecting the
   - Published: 2026-06-04T16:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/everest-forms-pro-rce-actively/
   - Summary: Critical Everest Forms Pro RCE flaw exploited to create rogue WordPress admin accounts
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical Everest Forms Pro flaw exploited to take over WordPress sites
+  - Published: 2026-06-06T14:09:26+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
+  - Summary: Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]
 
 ### Cluster 25c84fc509 — score 24
 
@@ -1164,8 +1169,8 @@ A critical vulnerability ( CVE-2026-8206 , CVSS 9.8) was disclosed affecting the
 - Published: 2026-06-02T17:30:33+00:00
 - Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
 - Fetch status: ok
-- Member count: 11
-- Corroborating source count: 9
+- Member count: 10
+- Corroborating source count: 8
 - Strong signals: npm
 
 #### Cluster taxonomy (union across members)
@@ -1194,7 +1199,7 @@ Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable m
 Threat Research Center High Profile Threats Malware Malware The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2) 23 min read Related Products Advanced DNS Security Advanced URL Filtering Cloud-Delivered Security Services Cortex Cortex Cloud Unit 42 Incident Response By: Unit 42 Published: June 2, 2026 Categories: High Profile Threats Malware Tags: Credential Harvesting GitHub Npm packages Obfuscation Payload Supply chain Worm propagation Share Executive Summary The security of the npm ecosystem reached a critical inflection point in September 2025. The Shai-Hulud worm, a self-replicating malware that automated the compromise and redistribution of malicious packages, marked the end of the “nuisance” era of npm attacks and the beginning of a high-consequence threat landscape. Since that watershed moment, Unit 42 has tracked an aggressive acceleration in the frequency and technical depth of supply chain compromises. Attacks have evolved from a series of isolated typosquatting incidents into systematic campaigns by various threat actors to weaponize the trust that powers modern software development. April 2026 Campaigns We have seen two campaigns in April: the first started April 22, 2026 and included the string Shai-Hulud: The Third Coming . The second started April 29, 2026 and is known as Mini Shai-Hulud . May 2026 Campaigns In May 2026, the Mini Shai-Hulud campaign continued with two new waves attributed to TeamPCP. These campaigns introduced two unique elements. One campaign used a credential-free initial access technique. The other campaign generated the highest single-hour package count of any Shai-Hulud worm to date. Copycat activity has made future attribution to TeamPCP more difficult. June 2026 Campaign A new supply chain attack on June 1, 2026 compromised at least 32 packages published under the @redhat-cloud-services npm namespace. The attacker bypassed code review entirely, pushing a payload named Miasma. The New Baseline for npm Threats The Shai-Hulud incident proved that the npm registry could be used as a force multiplier for malware distribution. In the months following, we have observed three core shifts in adversary TTPs: Wormable propagation: Malicious payloads now prioritize the theft of npm tokens and GitHub Personal Access Tokens (PATs) to automatically infect and republish legitimate packages, as seen in the March 2026 Axios compromise . Infrastructure-level persistence: Attackers are no longer just stealing data; they are embedding themselves into continuous integration/continuous delivery (CI/CD) pipelines to attain long-term, undetectable access to enterprise environments. Multi-stage payloads: Following the September 2025 template, current attacks often deploy dormant “sleeper” dependencies that only activate under specific environmental conditions to evade automated scanners. npm Attacks Seen As a Whole npm compromises have common themes. In the post-Shai-Hulud era, we believe it is helpful to consider the attack surface as a whole. This article will combine: Details of major incidents: Real-time analysis of significant package compromises (e.g., Shai-Hulud 2.0 , Axios , Chalk/Debug ) Cross-campaign correlation: Identifying common infrastructure or code snippets that link disparate attacks to the same threat actors Remediation playbooks: Actionable guidance for rotating credentials and purging malicious dependencies from local and cloud-based caches Shai-Hulud: A New Wave A malicious npm package published as @bitwarden/cli version 2026.4.0 was identified as part of a broader supply-chain campaign attributed to TeamPCP . The package impersonates the legitimate Bitwarden command-line interface (CLI) password manager. Upon installation, it executes a multi-stage payload that steals credentials from cloud providers, CI/CD systems and developer workstations. It then self-propagates by backdooring every npm package the victim can publish. It has been noted that inside public GitHub repo
 ```
 
-#### Corroborating sources (9)
+#### Corroborating sources (8)
 
 - **Unit 42** (threat_research_primary)
   - Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)
@@ -1226,21 +1231,16 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Published: 2026-06-04T15:25:37+00:00
   - Link: https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/
   - Summary: A new supply-chain attack has infected 36 packages on the Node Package Manager (npm) index with infostealer malware called IronWorm. [...]
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: Miasma npm Supply Chain Attack: Self-Spreading Worm via Phantom Gyp
+  - Published: 2026-06-06T12:24:56+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1tyfwyf/miasma_npm_supply_chain_attack_selfspreading_worm/
+  - Summary: submitted by /u/digicat [link] [comments]
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Attackers Hijack Red Hat npm Scope to Steal Cloud Secrets
   - Published: 2026-06-02T10:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/red-hat-npm-scope-backdoored/
   - Summary: Attackers backdoored 32 packages in Red Hat's official npm scope to steal cloud and CI secrets
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: IronWorm Supply Chain Malware Hits npm
-  - Published: 2026-06-05T04:21:04+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1txag47/ironworm_supply_chain_malware_hits_npm/
-  - Summary: submitted by /u/digicat [link] [comments]
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: New IronWorm malware hits 36 packages in npm supply-chain attack
-  - Published: 2026-06-04T16:10:58+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1tws7yc/new_ironworm_malware_hits_36_packages_in_npm/
-  - Summary: submitted by /u/rkhunter_ [link] [comments]
 
 ### Cluster 791da8c978 — score 23
 
@@ -1352,7 +1352,7 @@ CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie
   - Link: https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/
   - Summary: submitted by /u/Doug24 [link] [comments]
 
-### Cluster cc7cd597eb — score 21
+### Cluster cc7cd597eb — score 20
 
 - Title: Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms
 - Source: Google Cloud Threat Intelligence (threat_research_primary)
@@ -1702,6 +1702,54 @@ Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes �
   - Link: https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
   - Summary: Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress. CVE-2026-33829 refers to a spoofing vulnerability that could expose
 
+### Cluster fdf9413677 — score 16
+
+- Title: Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-02T10:00:31+00:00
+- Link: https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Apple iOS/macOS
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, web_shell_backdoor
+- affected_products: Anthropic/Claude, Apple iOS/macOS, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor, active_exploitation
+- affected_products: Apple iOS/macOS, Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework. The post Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor 17 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Ido Asher Noa Dekel Tom Fakterman Published: June 2, 2026 Categories: Malware Threat Research Tags: CL-CRI-1089 MacOS Malvertising Share Executive Summary We are tracking an increasingly widespread malvertising campaign targeting macOS. This campaign appears to be the next stage of a previous campaign known as JSCoreRunner, which was first identified in August 2025. In recent months, the financially-motivated attackers behind these campaigns transitioned from delivering standard adware, to delivering adware with full backdoor capabilities. We designate this campaign Operation FlutterBridge, and we call the payload that it delivers FlutterShell. Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications. In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation. Some variants weaponize artificial intelligence (AI) summarization features for data exfiltration by routing documents through an attacker-controlled server before processing them. The FlutterShell malware strain appears to be under active development, with new improvements being rapidly integrated into the code. Operation FlutterBridge targets a global audience through an extensive Google Ads campaign, with an emphasis on Anglophone and Western European markets, distributed via hundreds of Google-verified advertisements. Our research indicates that the attackers behind this cluster distributed the ads using a series of shell companies, to bypass ad-network vetting and orchestrate these attacks at scale. We reported these advertisers to Google, which provided the following statement: Malware has no place on our platforms, and we’ve suspended these advertiser accounts for violating our policies. We track Operation FlutterBridge and the JSCoreRunner campaign under a cluster of activity that we refer to as CL-CRI-1089 . This article provides a technical overview of the FlutterShell macOS malware and the delivery network behind the malvertising campaigns. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex Agentix Threat Intel Agent Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics macOS , Malvertising Campaign Background CL-CRI-1089 is a cybercrime cluster of activity that has been operational since at least 2023. The attackers behind this cluster are responsible for spreading malicious payloads via malvertising campaigns, targeting both Windows and macOS users through separate, ongoing operations. The attackers’ modus operandi is consistent across these operations: They distributed malicious advertisements using a network of Google-verified shell companies. These ads were designed to trick targets into deploying malware that masquerades as legitimate desktop applications. While in-the-wild observations suggest the malware functions primarily as adware, it possesses capabilities for far more dangerous behavior, effectively functioning as a backdoor. Operations attributed to this cluster include the RecipeLister and Calendaromatic Windows campaigns, as well as the JSCoreRunner macOS campaign. The Windows activity was previously tracked by other vendors under the broader “TamperedChef” designation, before Unit 42 researchers deconstructed the activity into distinct clusters. In late 2025, the attackers expanded their operations with Operation FlutterBridge, deploying a new macOS backdoor ide
+```
+
+#### Corroborating sources (2)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor
+  - Published: 2026-06-02T10:00:31+00:00
+  - Link: https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
+  - Summary: Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework. The post Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor appeared first on Unit 42 .
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: How we contain Claude across products
+  - Published: 2026-05-30T21:36:24+00:00
+  - Link: https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
+  - Summary: How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented , and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai , Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.an
+
 ### Cluster a8d16f40d7 — score 15
 
 - Title: Software supply chain attacks: check your dependencies
@@ -1791,73 +1839,6 @@ Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public  Swati
   - Published: 2026-06-04T16:55:51+00:00
   - Link: https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
   - Summary: Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.
-
-### Cluster cc667f540f — score 15
-
-- Title: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-05T13:05:06+00:00
-- Link: https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, vulnerability_disclosure
-- affected_industries: critical_infrastructure, financial_services, government
-- affected_products: Anthropic/Claude, Apple iOS/macOS, ScreenConnect
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach, vulnerability_disclosure
-- affected_industries: financial_services, government, critical_infrastructure
-- affected_products: Anthropic/Claude, ScreenConnect
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner. The post In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Threat actors poison AI chatbot queries to harvest computing power Microsoft reported that threat actors are exploiting both SEO and AI chatbot recommendations to trick users into downloading fake utilities that impersonate legitimate tools like CrystalDiskInfo and PDFgear. Once an endpoint is compromised, the attackers abuse ConnectWise ScreenConnect to secure persistent remote access and deploy a specialized binary that hollows out trusted Microsoft .NET processes. The hijacked processing power is ultimately used to run cryptocurrency miners specifically engineered to target high-performance GPUs. Advertisement. Scroll to continue reading. Grandoreiro banking trojan attacks WatchGuard researchers observed a new Grandoreiro malware campaign targeting financial institutions across Portugal and Latin America using DLL side-loading techniques that abuse four legitimate software applications. The malware has been around for a decade and it continues to be active despite law enforcement action. Self-propagating Go encryptor automates full network compromise Microsoft Threat Intelligence is tracking Storm-2697 , a financially motivated group operating ‘The Gentlemen’ ransomware-as-a-service, which features an aggressive Go-based encryptor obfuscated with Garble. The malware uses password-protected command-line arguments to establish its encryption speed and automatically self-propagates across targeted networks by creating scheduled tasks with SYSTEM privileges. The Gentlemen ransomware was recently also dissected by Halcyon and Huntress . Let’s Encrypt adopts Merkle trees for post-quantum future To mitigate the massive bandwidth bloat caused by post-quantum cryptographic algorithms, Let’s Encrypt is adopting Merkle Tree Certificates to secure future web authentication infrastructure. By batching certificates under a single signature rather than authenticating them individually, this new approach significantly shrinks TLS handshake sizes while inherently baking in certificate transparency. The certificate authority plans to launch a staging environment for these optimized post-quantum certificates in late 2026, followed by a full production rollout in 2027. Federal agencies sound alarm on exposed tank gauge systems CISA, the FBI, the NSA, and other US agencies are warning critical infrastructure operators about threat actors actively exploiting internet-exposed Automatic Tank Gauge (ATG) systems used for remote liquid and fuel monitoring. Attackers are bypassing authentication and leveraging OS command execution to modify configurations, prompting the government to urge facilities to immediately disconnect ATGs from the public internet. Attacks on ATGs at US gas stations were recently linked by officials to Iran . Palantir technology chief eyed for CISA director role The Trump administration is reportedly considering Palantir Technologies Chief Technology Officer Shyam Sankar to serve as the next director of CISA. If nominated, the longtime Palantir executive would step into the vacant leadership position as CISA faces significant budget cuts . Tom Parker, a security services lead at IBM, was recently also positioned as a frontrunner for the role. Malware infection triggers leak of Ultrahuman data Indian health technology vendor Ultrahuman disclosed a data breach exposing user contact details, transaction history, and wellness metrics for a fraction of its customer base. The threat actor gained unauthorized, read-only access to an internal analytics
-```
-
-#### Corroborating sources (5)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA
-  - Published: 2026-06-05T13:05:06+00:00
-  - Link: https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/
-  - Summary: Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner. The post In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA appeared first on SecurityWeek .
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: How we contain Claude across products
-  - Published: 2026-05-30T21:36:24+00:00
-  - Link: https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything
-  - Summary: How we contain Claude across products A complaint I often have about sandboxing products is that they are rarely thoroughly documented , and in the absence of detailed documentation it's hard to know how much I can trust them. Anthropic just published a fantastic overview of how their various sandbox techniques work across Claude.ai , Claude Code, and Cowork. We constrain where and how an agent can act with process sandboxes, VMs, filesystem boundaries, and egress controls. The goal is to set a hard boundary on what an agent can reach. For example, if credentials never enter the sandbox, they can't be exfiltrated, regardless of whether the cause is a user, a model finding a “creative” path, or an attacker. Claude.ai uses gVisor. Claude Code, run locally, uses Seatbelt on macOS and Bubblewrap on Linux. Claude Cowork runs a full VM (Apple's Virtualization framework on macOS, HCS on Windows). There's a lot in here, including some interesting stories of risks they missed such as the api.an
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: AI is helping low-skill hackers pull off advanced cyberattacks
-  - Published: 2026-06-05T08:22:35+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/
-  - Summary: Anthropic has published an analysis of cyber-related misuse of its AI systems, examining 832 accounts that were banned for malicious cyber activity between March 2025 and March 2026. The company mapped the observed behavior to the MITRE ATT&CK framework, which documents tactics and techniques used by attackers. “These 832 cases are just a subset of the total number of accounts banned during this period, but they represent those where we had enough detail to conduct … More → The post AI is helping low-skill hackers pull off advanced cyberattacks appeared first on Help Net Security .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Anthropic Expands Mythos Access to 150 More Organizations
-  - Published: 2026-06-03T09:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/
-  - Summary: Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: defending-code-reference-harness: Claude skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize
-  - Published: 2026-06-06T07:39:14+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1tyasu7/defendingcodereferenceharness_claude_skills_for/
-  - Summary: submitted by /u/digicat [link] [comments]
 
 ### Cluster 2f698932c6 — score 14
 
@@ -2033,6 +2014,47 @@ Risky Bulletin Podcast June 01, 2026 Sponsored: Inside CISA's disastrous secrets
   - Link: https://risky.biz/RBNEWSSI130/
   - Summary: In this sponsored interview Casey Ellis chats with Truffle Security’s founder and CEO Dylan Ayrey about the recent CISA secrets leak. Days after Brian Krebs ran the story, plenty of the exposed credentials were still live, including an admin-level GitHub app key with full rights over CISA’s org. Dylan walks through why deleting the repo doesn’t fix anything, why most cloud vendors won’t hard-revoke exposed keys (OpenAI and Slack will; AWS, Google and friends mostly won’t), why Hugging Face datasets now hold more secrets than GitHub itself, and what the next generation of multi-provider credential-harvesting supply chain worms is going to look like.
 
+### Cluster 78564873ca — score 12
+
+- Title: Modeling a digital twin of a food supply chain using BigQuery Graph
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-06-01T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/data-analytics/modeling-a-digital-twin-using-bigquery-graph/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we
+```
+
+#### Full body
+
+```
+Data Analytics Modeling a digital twin of a food supply chain using BigQuery Graph June 1, 2026 Guru Rangavittal Cloud Transformation Technical Lead, Google Cloud Candice Chen Product Manager, BigQuery Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we must ask: are they still the right tool for everything? Given that our world is inherently interconnected, perhaps shifting to graph-based models is the natural evolution for capturing reality. When managing thousands of assets, complex supply chains, or global logistics networks, traditional relational databases require massive, resource-intensive SQL joins to trace dependencies. This architecture creates a latency gap between physical events and operational awareness. Modeling with BigQuery Graph BigQuery Graph allows you to build a digital twin of your entire supply chain within your existing data platform. By turning your physical world—items, recipes, and locations—into a searchable map of nodes and edges, you gain a new level of clarity. 1. Defining the Semantic Layer Instead of moving data to a new database, you create a Graph View over your existing tables. This tells BigQuery exactly how your tables relate to one another. Query Language: Loading... # Build the Graph Nodes & Edges CREATE or REPLACE PROPERTY GRAPH `restaurant.bombod` NODE TABLES ( `restaurant.item` label item properties all columns, `restaurant.location` label location properties all columns, `restaurant.itemlocation` label itemlocation properties all columns ) EDGE TABLES ( `restaurant.bom` KEY(bomKey) SOURCE KEY (childItemLocation) REFERENCES `restaurant.itemlocation`(itemLocationKey) DESTINATION KEY (parentItemLocation) REFERENCES `restaurant.itemlocation`(itemLocationKey) LABEL consists_of properties all columns ); Image of a fictitious restaurant supply chain modeled using BigQuery Graph Precision in practice How does this change daily operations? It moves the business from panic to precision. Surgical recalls: If a supplier reports a Listeria breakout, you walk the graph forward to find exactly which menu items in which specific restaurants are affected. Weather risk analysis: When a hurricane threatens a distribution center, you don't see a list of stores; you see the blast radius. You identify the locations critically dependent on that hub and reroute supplies. 2. Executing the search Graph Queries are a new tool for modelers and data scientists to query their data - it simplifies complex multi-domain data concepts and simplifies querying and makes data analysis a simpler more natural representation of problem articulation. For example: If I want to know which all locations handle chicken I could run a graph query as shown below: To investigate a specific complaint or risk, you run a search on the model using graph query language. Graph Query Language Loading... # Navigate to the source of a specific ingredient issue Graph restaurant.bombod MATCH (a:itemlocation)-[c:consists_o
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Modeling a digital twin of a food supply chain using BigQuery Graph
+  - Published: 2026-06-01T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/data-analytics/modeling-a-digital-twin-using-bigquery-graph/
+  - Summary: The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we
+
 ### Cluster b96df4915d — score 12
 
 - Title: The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap
@@ -2075,47 +2097,6 @@ By Angelah Liu, OpenSSF Executive Summary The open source community recently gat
   - Published: 2026-06-05T19:12:30+00:00
   - Link: https://openssf.org/blog/2026/06/05/the-skyway-to-oss-security-openssf-community-day-north-america-2026-recap/
   - Summary: The open source community recently gathered in Minneapolis for Open Source Summit North America and OpenSSF Community Day North America 2026. Functioning as a collaborative “Skyway,” the Open Source Security Foundation (OpenSSF) successfully brought together diverse working groups, security researchers, and enterprise maintainers to unify tooling, address artificial intelligence security transitions, and fortify the global software supply chain.
-
-### Cluster 78564873ca — score 12
-
-- Title: Modeling a digital twin of a food supply chain using BigQuery Graph
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-06-01T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/data-analytics/modeling-a-digital-twin-using-bigquery-graph/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we
-```
-
-#### Full body
-
-```
-Data Analytics Modeling a digital twin of a food supply chain using BigQuery Graph June 1, 2026 Guru Rangavittal Cloud Transformation Technical Lead, Google Cloud Candice Chen Product Manager, BigQuery Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we must ask: are they still the right tool for everything? Given that our world is inherently interconnected, perhaps shifting to graph-based models is the natural evolution for capturing reality. When managing thousands of assets, complex supply chains, or global logistics networks, traditional relational databases require massive, resource-intensive SQL joins to trace dependencies. This architecture creates a latency gap between physical events and operational awareness. Modeling with BigQuery Graph BigQuery Graph allows you to build a digital twin of your entire supply chain within your existing data platform. By turning your physical world—items, recipes, and locations—into a searchable map of nodes and edges, you gain a new level of clarity. 1. Defining the Semantic Layer Instead of moving data to a new database, you create a Graph View over your existing tables. This tells BigQuery exactly how your tables relate to one another. Query Language: Loading... # Build the Graph Nodes & Edges CREATE or REPLACE PROPERTY GRAPH `restaurant.bombod` NODE TABLES ( `restaurant.item` label item properties all columns, `restaurant.location` label location properties all columns, `restaurant.itemlocation` label itemlocation properties all columns ) EDGE TABLES ( `restaurant.bom` KEY(bomKey) SOURCE KEY (childItemLocation) REFERENCES `restaurant.itemlocation`(itemLocationKey) DESTINATION KEY (parentItemLocation) REFERENCES `restaurant.itemlocation`(itemLocationKey) LABEL consists_of properties all columns ); Image of a fictitious restaurant supply chain modeled using BigQuery Graph Precision in practice How does this change daily operations? It moves the business from panic to precision. Surgical recalls: If a supplier reports a Listeria breakout, you walk the graph forward to find exactly which menu items in which specific restaurants are affected. Weather risk analysis: When a hurricane threatens a distribution center, you don't see a list of stores; you see the blast radius. You identify the locations critically dependent on that hub and reroute supplies. 2. Executing the search Graph Queries are a new tool for modelers and data scientists to query their data - it simplifies complex multi-domain data concepts and simplifies querying and makes data analysis a simpler more natural representation of problem articulation. For example: If I want to know which all locations handle chicken I could run a graph query as shown below: To investigate a specific complaint or risk, you run a search on the model using graph query language. Graph Query Language Loading... # Navigate to the source of a specific ingredient issue Graph restaurant.bombod MATCH (a:itemlocation)-[c:consists_o
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Modeling a digital twin of a food supply chain using BigQuery Graph
-  - Published: 2026-06-01T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/data-analytics/modeling-a-digital-twin-using-bigquery-graph/
-  - Summary: The example of a growing restaurant Imagine you are running a restaurant chain. You just can't physically feel and touch things to know how your business operates. You need tools and a digital replica of your business to sense the health of the business for you. The friction of growth Growth creates a unique kind of friction that spreadsheets simply weren't built to solve: The bullwhip effect: Small downstream demand shifts swell into upstream inventory tidal waves. SOP drift: Tiny departures from standard prep work eventually erode the entire brand vibe. The food safety blast radius: One contaminated ingredient creates a messy, complex map of risk across the network. Maverick spend: The "million-dollar leak" caused by local managers purchasing ingredients off-contract. The digital twin Digital models empower us to ask more insightful questions about the world, but they also force a critical choice in how we structure data. While traditional relational tables have been the standard, we
 
 ### Cluster c37232a3fc — score 12
 
@@ -2228,8 +2209,8 @@ Inside Google Cloud What’s new with Google Cloud June 5, 2026 Google Cloud Con
 - Published: 2026-06-04T13:00:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
+- Member count: 5
+- Corroborating source count: 4
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -2257,7 +2238,7 @@ A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI 
 Infosecurity Magazine Home » News » Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark News 4 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn Anthropic’s Claude Mythos outperformed OpenAI’s GPT5.5 on real‑world Google Chrome vulnerability exploits, a new benchmark designed to test the performance of frontier AI models to exploit real-world vulnerabilities found . During Infosecurity Europe 2026, Bugcrowd presented the first findings of ExploitBench , an independent, graded benchmark launched in May 2026 by the cybersecurity firm in collaboration with experts at Carnegie Mellon University and top Chrome vulnerability researchers. David Brumley, chief AI & science officer at Bugrcrowd, described the benchmark as “the first independent benchmark that measures what AI models can actually do with a vulnerability, not just identify it but exploit it step by step.” Anthropic was among the first to engage with it. He said the first test resulted in Mythos achieving a markedly higher exploitation performance than GPT‑5.5 in head‑to‑head runs, underlining how AI models are closing the gap with elite human researchers. Unlike earlier binary tests, ExploitBench scores progress through staged exploitation outcomes rather than merely recording a crash. The benchmark evaluates five tiers of capability up to arbitrary code execution against a vulnerable V8 build, the JavaScript/WebAssembly engine that powers Google Chrome, Microsoft Edge, Node.js and Cloudflare Workers. In the runs discussed at the show, Anthropic’s Mythos, with occasional human hints or “nudges,” posted an average score of 9.90 out of 16 and reached the highest tier on 21 of 41 vulnerabilities. OpenAI’s GPT‑5.5 scored 5.51 on average and reached the top tier on just two cases. “For example, Mythos is able to exploit a one-day vulnerability in Chrome about 50% of the time. This is lead-tier activity. If we were to put money on it, Google could reward up to $10,000 for such a vulnerability that has no previously known exploit,” Brumley said. “Anthropic’s model is churning these out and actually found solutions for exploiting the flaws that even top-tier hackers missed – that’s kind of impressive.” Brumley added that, while GPT5.5’s performances were currently a little lower than its counterpart’s, the broader availability of OpenAI’s model opens opportunities for more people to use it to develop exploits. AI Models Edge Closer to Reliable Exploitation, But Experts Urge Caution Frontier large language models (LLMs) have already shown they can accelerate vulnerability discovery at scale , but whether those discoveries could be chained into reliable, actionable exploits had remained an open question until ExploitBench. “We measure not just crash or no crash but stages of exploitation,” Brumley told Infosecurity , explaining why the new benchmark matters for assessing real exploitation capability rather than superficial signals. That distinction is critical because models that can reliably exploit zero‑day flaws lower the barrier for threat actors to weaponize vulnerabilities. Bugcrowd CEO, Dave Gerry, further warned that automation and AI are already being integrated into attacker workflows, increasing the pace at which discovered flaws can be turned into active exploits. Nonetheless, while ExploitBench is one of the first experiments showing the possibilities of using AI to exploit vulnerabilities, Brumley also cautioned that the first findings of his team only reflect on a specific type of vulnerabilities and the results should not be extrapolated. “I don’t want to oversell anything here. We measured a very sophisticated target application. Chrome is made of hundreds of thousands of lines of codes, it’s been audited for years. We know how valuable finding an
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark
@@ -2269,6 +2250,11 @@ Infosecurity Magazine Home » News » Infosecurity Europe: Mythos Outperforms GP
   - Published: 2026-06-05T23:56:40+00:00
   - Link: https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything
   - Summary: OpenAI Help: Lockdown Mode OpenAI first teased this in February , but now it's live and "rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts": Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content ChatGPT processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response. This looks really good to me. The Lethal Trifecta occurs when an LLM system has access to all three of access to private data, exposure to untrusted content and a way to steal data and transmit it back to the attacker. The only way to solve the trifecta is to cut off one of the three legs, and by far the easiest leg to restrict without m
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration
+  - Published: 2026-06-06T13:36:57+00:00
+  - Link: https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html
+  - Summary: OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily designed for people and organizations that handle sensitive data and require stricter protection guarantees. Lockdown Mode is available to logged-in users across Free, Go, Plus, and Pro, and
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - Title: Any good uncensored AI tools or models out there? Looking for recommendations!
   - Published: 2026-06-06T02:45:54+00:00
@@ -2361,49 +2347,6 @@ submitted by /u/digicat [link] [comments]
   - Published: 2026-06-01T03:32:33+00:00
   - Link: https://www.troyhunt.com/weekly-update-506/
   - Summary: I'm finding it quite fascinating to watch the current spate of ShinyHunters breaches and dumps. There's the obvious criminality of it all, but then there's also the response from organisations (or lack thereof, as it relates to disclosure to victims), the appearance and disappearance
-
-### Cluster fdf9413677 — score 10
-
-- Title: Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-02T10:00:31+00:00
-- Link: https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Apple iOS/macOS
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, web_shell_backdoor
-- affected_products: Apple iOS/macOS, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor, active_exploitation
-- affected_products: Apple iOS/macOS, Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework. The post Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor 17 min read Related Products Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Ido Asher Noa Dekel Tom Fakterman Published: June 2, 2026 Categories: Malware Threat Research Tags: CL-CRI-1089 MacOS Malvertising Share Executive Summary We are tracking an increasingly widespread malvertising campaign targeting macOS. This campaign appears to be the next stage of a previous campaign known as JSCoreRunner, which was first identified in August 2025. In recent months, the financially-motivated attackers behind these campaigns transitioned from delivering standard adware, to delivering adware with full backdoor capabilities. We designate this campaign Operation FlutterBridge, and we call the payload that it delivers FlutterShell. Built using the Flutter framework, FlutterShell infects targets with adware via malicious desktop applications. In addition to its adware functionality, the payload possesses backdoor capabilities, including shell command execution and file system manipulation. Some variants weaponize artificial intelligence (AI) summarization features for data exfiltration by routing documents through an attacker-controlled server before processing them. The FlutterShell malware strain appears to be under active development, with new improvements being rapidly integrated into the code. Operation FlutterBridge targets a global audience through an extensive Google Ads campaign, with an emphasis on Anglophone and Western European markets, distributed via hundreds of Google-verified advertisements. Our research indicates that the attackers behind this cluster distributed the ads using a series of shell companies, to bypass ad-network vetting and orchestrate these attacks at scale. We reported these advertisers to Google, which provided the following statement: Malware has no place on our platforms, and we’ve suspended these advertiser accounts for violating our policies. We track Operation FlutterBridge and the JSCoreRunner campaign under a cluster of activity that we refer to as CL-CRI-1089 . This article provides a technical overview of the FlutterShell macOS malware and the delivery network behind the malvertising campaigns. Palo Alto Networks customers are better protected from the threats described in this article through the following products and services: Advanced WildFire Advanced URL Filtering and Advanced DNS Security Cortex Agentix Threat Intel Agent Cortex XDR and XSIAM If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics macOS , Malvertising Campaign Background CL-CRI-1089 is a cybercrime cluster of activity that has been operational since at least 2023. The attackers behind this cluster are responsible for spreading malicious payloads via malvertising campaigns, targeting both Windows and macOS users through separate, ongoing operations. The attackers’ modus operandi is consistent across these operations: They distributed malicious advertisements using a network of Google-verified shell companies. These ads were designed to trick targets into deploying malware that masquerades as legitimate desktop applications. While in-the-wild observations suggest the malware functions primarily as adware, it possesses capabilities for far more dangerous behavior, effectively functioning as a backdoor. Operations attributed to this cluster include the RecipeLister and Calendaromatic Windows campaigns, as well as the JSCoreRunner macOS campaign. The Windows activity was previously tracked by other vendors under the broader “TamperedChef” designation, before Unit 42 researchers deconstructed the activity into distinct clusters. In late 2025, the attackers expanded their operations with Operation FlutterBridge, deploying a new macOS backdoor ide
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor
-  - Published: 2026-06-02T10:00:31+00:00
-  - Link: https://unit42.paloaltonetworks.com/flutterbridge-new-fluttershell-backdoor/
-  - Summary: Operation FlutterBridge is a malvertising campaign targeting macOS users. It distributed the new backdoor FlutterShell, built using the Flutter framework. The post Operation FlutterBridge: macOS Malvertising Campaign Spreads New FlutterShell Backdoor appeared first on Unit 42 .
 
 ### Cluster 3bb8c2fd25 — score 10
 
@@ -2528,22 +2471,112 @@ Table of Contents Technical details Background Delivery Script executor Maliciou
   - Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
   - Summary: Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
 
+### Cluster 7c6c399f7e — score 10
+
+- Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-05T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, apt_espionage
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
+```
+
+#### Full body
+
+```
+Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
+  - Published: 2026-06-05T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
+  - Summary: Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
+
+### Cluster 2ef64738f9 — score 10
+
+- Title: Threats to the 2026 FIFA World Cup
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-04T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/2026-fifa-world-cup-threats
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
+- affected_industries: government, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
+- affected_industries: government, telecommunications
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.
+```
+
+#### Full body
+
+```
+Threats to the 2026 FIFA World Cup Executive Summary The 2026 FIFA World Cup, which takes place across sixteen host cities in the United States (US), Mexico, and Canada, presents a complex threat environment across multiple security domains. The tournament’s global visibility creates opportunities for both financially and geopolitically motivated threat actors to target attendees, affiliated organizations, sponsors, vendors, and event-supporting infrastructure. Physical security will almost certainly remain the highest priority for event coordinators and local government officials, given the high levels of international attention and the concentration of large crowds in host cities spanning three countries and multiple, distinct security environments. Mexico’s host cities face the highest physical risk due to the persistent presence of local and transnational criminal organizations (TCOs), with elevated concerns around theft, extortion, kidnapping, and fraud. US and Canadian host cities likely face a more limited threat from violent extremists, with greater risks to soft targets such as fan zones, watch parties, transit hubs, and other crowded public areas. Civil unrest and disruptive protests are also very likely in a majority of host cities. Localized travel disruptions are especially likely in Mexico, where prior demonstrations have already blocked roads near World Cup venues. Large police or military deployments near event sites will likely increase the risk of confrontation. The most immediate risk to corporate sponsors and affiliates is likely cybercriminal exploitation of World Cup demand and branding. Recorded Future’s Payment Fraud Intelligence team has already identified World Cup-themed purchase scams, fake FIFA-branded stores, and spoofed FIFA and host city domains. Carders are also likely to leverage stolen payment card credentials to fraudulently purchase event tickets and travel-related services for rapid resale and monetization. Efforts to use individuals’ interest in the World Cup to deliver malware or carry out data extortion or fraud will likely accelerate as the tournament approaches. Threat actors will likely continue to use AI-generated content to scale fraud, impersonation, phishing, smishing, and social engineering campaigns. The concentration of senior government officials, diplomats, security personnel, corporate executives, and media at World Cup events also very likely increases the risk of cyber espionage and disruptive cyber incidents. Russian, Chinese, and Iranian state-sponsored threat groups will likely use the tournament as an intelligence collection opportunity, targeting executives, VIP attendees, national delegations, media partners, telecommunications providers, airlines, hotels, event logistics firms, and commercial affiliates. China is most likely to pursue targeted espionage, while Russia and Iran pose a higher risk of more disruptive attacks through proxy hacktivism. Influence activity related to the tournament remains largely overt, driven by state media and diplomatic messaging from Russia, China, and Iran. These narratives focus on host-country legitimacy, Iran’s conditional participation, visa and access issues, public safety, immigration, ticketing, and alleged politicization of the event. Covert influence activity has so far been limited and opportunistic, but could increase as the tournament approaches, particularly around geopolitical flashpoints or viral news events. Organizations involved in or exposed to the World Cup should prioritize proactive monitoring of location-specific physical security risks, protest activity, cybercriminal infrastructure, phishing and credential exposure, malicious traffic, ransomware indicators, and influence operations. Cyber indicators such as increased scanning activity or newly registered domains linked to FIFA or host cities may indicate an expansion of criminal or espionage activity. Developments around geopolitical flashpoints such as the w
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Threats to the 2026 FIFA World Cup
+  - Published: 2026-06-04T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/2026-fifa-world-cup-threats
+  - Summary: Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.
+
 ### Cluster 6a15521eed — score 10
 
 - Title: Impersonation, Click Hijacking, and TDS: Inside a Malware Distribution Ecosystem
 - Source: Check Point Research (threat_research_primary)
 - Published: 2026-06-03T13:21:44+00:00
 - Link: https://research.checkpoint.com/2026/impersonation-click-hijacking-and-tds-inside-a-malware-distribution-ecosystem/
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- affected_industries: financial_services
+- affected_products: Android, OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
@@ -2551,6 +2584,12 @@ Table of Contents Technical details Background Delivery Script executor Maliciou
 
 ```
 Research by: Alexey Bukhteyev Key Takeaways Introduction When we search Google for a popular piece of software, we usually click the first result, sometimes without even looking at the rest, because official project sites tend to rank highest and appear near the top of the results. After landing on a site with a professional design and […] The post Impersonation, Click Hijacking, and TDS: Inside a Malware Distribution Ecosystem appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+CATEGORIES AI Research 16 Android Malware 23 Artificial Intelligence 4 ChatGPT 3 Check Point Research Publications 458 Cloud Security 1 CPRadio 44 Crypto 2 Data & Threat Intelligence 2 Data Analysis 0 Demos 22 Global Cyber Attack Reports 410 How To Guides 13 Ransomware 5 Russo-Ukrainian War 1 Security Report 1 Threat and data analysis 0 Threat Research 175 Web 3.0 Security 11 Wipers 0 Impersonation, Click Hijacking, and TDS: Inside a Malware Distribution Ecosystem June 3, 2026 https://research.checkpoint.com/2026/impersonation-click-hijacking-and-tds-inside-a-malware-distribution-ecosystem/ Research by: Alexey Bukhteyev Key Takeaways Check Point Research investigated a large-scale operation that impersonates open-source and freeware projects to capture search traffic, including lookalikes for researcher and security tooling such as Ghidra, dnSpy, and SpiderFoot. The sites are well-designed and often look like legitimate project portals at a glance, sometimes referencing real upstream resources. The deception is not in the page content alone, it’s in what happens when a user interacts. Our analysis shows these pages load a CloudFront-hosted JavaScript staging layer that converts a click on a “download” button/link into a handoff to a Traffic Distribution System (TDS). The TDS enforces strict gating: first-visit state, mandatory click confirmation, anti-bot/anti-analysis logic, VPN/datacenter filtering, and frequency capping. The observed ecosystem appears to be built primarily for traffic acquisition and monetization, likely leveraging legitimate ad-tech and monetization tooling, while downstream redirect chains repeatedly led selected users to malware delivery infrastructure. The downstream branches we analyzed led to multiple malware families, including RemusStealer, AnimateClipper, and the SessionGate framework, which we observed delivering PUA (Potentially Unwanted Applications), suggesting this was not an isolated malicious redirect. Introduction When we search Google for a popular piece of software, we usually click the first result, sometimes without even looking at the rest, because official project sites tend to rank highest and appear near the top of the results. After landing on a site with a professional design and links that appear to point to the project’s official GitHub repository, most users intuitively trust it and proceed to download and run the installer without a second thought. Nothing seems suspicious: the first link in Google, a polished “official-looking” website, and references to the real project. What could go wrong? Check Point Research investigated a large-scale campaign in which malicious and unwanted software is distributed through a gated traffic-routing stack. The operation relies on professionally built open-source and freeware impersonation sites, where click events initiate routing through a Traffic Distribution System (TDS) — a traffic-filtering and redirection layer that can send different users to different destinations based on factors such as geography, device type, browser fingerprint, or campaign rules — and can ultimately lead to payload delivery. What makes this campaign especially notable is the choice of brands: a high-risk subset of sites impersonates trusted reverse-engineering tools such as Ghidra and dnSpy, used by security researchers and malware analysts. Figure 1 – Impersonated websites of popular software tools The broader phenomenon of websites impersonating popular open-source and freeware projects had already been documented by late 2025. In November 2025, Fullstory reported a large cluster of such fraudulent domains and did not identify direct abuse in their examined samples at the time (including checking hosted archives against known-good content), while emphasizing the clear security risk and the potential for downstream phishing or watering-hole style abuse. Our findings show that this ecosystem has evolved. We observed that by at least December 2025, the sites in
 ```
 
 #### Corroborating sources (1)
@@ -2611,6 +2650,49 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 1st June �
   - Published: 2026-06-01T14:43:11+00:00
   - Link: https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 1st June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Carnival Corporation, a global cruise line operator, has confirmed a data breach affecting nearly 6 million people after attackers used social engineering to compromise an employee account. Exposed information may include names, contact […] The post 1st June – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 68573a4922 — score 10
+
+- Title: Lessons for life: Why children’s data is a long-term identity risk
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-03T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: critical_infrastructure, education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: financial_services, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
+```
+
+#### Full body
+
+```
+Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Lessons for life: Why children’s data is a long-term identity risk
+  - Published: 2026-06-03T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
+  - Summary: Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
 
 ### Cluster 1f5463ba47 — score 10
 
@@ -2740,133 +2822,6 @@ Threat Intelligence VerdantBamboo: Just Another BRICKSTORM in the Firewall June 
   - Published: 2026-06-04T20:23:55+00:00
   - Link: https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/
   - Summary: In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .
-
-### Cluster 68573a4922 — score 10
-
-- Title: Lessons for life: Why children’s data is a long-term identity risk
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-03T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: critical_infrastructure, education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: financial_services, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
-```
-
-#### Full body
-
-```
-Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Lessons for life: Why children’s data is a long-term identity risk
-  - Published: 2026-06-03T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
-  - Summary: Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
-
-### Cluster 7c6c399f7e — score 10
-
-- Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-05T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, apt_espionage
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
-```
-
-#### Full body
-
-```
-Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
-  - Published: 2026-06-05T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
-  - Summary: Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
-
-### Cluster 2ef64738f9 — score 10
-
-- Title: Threats to the 2026 FIFA World Cup
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-04T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/2026-fifa-world-cup-threats
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion
-- affected_industries: government, telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, apt_espionage
-- affected_industries: government, telecommunications
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.
-```
-
-#### Full body
-
-```
-Threats to the 2026 FIFA World Cup Executive Summary The 2026 FIFA World Cup, which takes place across sixteen host cities in the United States (US), Mexico, and Canada, presents a complex threat environment across multiple security domains. The tournament’s global visibility creates opportunities for both financially and geopolitically motivated threat actors to target attendees, affiliated organizations, sponsors, vendors, and event-supporting infrastructure. Physical security will almost certainly remain the highest priority for event coordinators and local government officials, given the high levels of international attention and the concentration of large crowds in host cities spanning three countries and multiple, distinct security environments. Mexico’s host cities face the highest physical risk due to the persistent presence of local and transnational criminal organizations (TCOs), with elevated concerns around theft, extortion, kidnapping, and fraud. US and Canadian host cities likely face a more limited threat from violent extremists, with greater risks to soft targets such as fan zones, watch parties, transit hubs, and other crowded public areas. Civil unrest and disruptive protests are also very likely in a majority of host cities. Localized travel disruptions are especially likely in Mexico, where prior demonstrations have already blocked roads near World Cup venues. Large police or military deployments near event sites will likely increase the risk of confrontation. The most immediate risk to corporate sponsors and affiliates is likely cybercriminal exploitation of World Cup demand and branding. Recorded Future’s Payment Fraud Intelligence team has already identified World Cup-themed purchase scams, fake FIFA-branded stores, and spoofed FIFA and host city domains. Carders are also likely to leverage stolen payment card credentials to fraudulently purchase event tickets and travel-related services for rapid resale and monetization. Efforts to use individuals’ interest in the World Cup to deliver malware or carry out data extortion or fraud will likely accelerate as the tournament approaches. Threat actors will likely continue to use AI-generated content to scale fraud, impersonation, phishing, smishing, and social engineering campaigns. The concentration of senior government officials, diplomats, security personnel, corporate executives, and media at World Cup events also very likely increases the risk of cyber espionage and disruptive cyber incidents. Russian, Chinese, and Iranian state-sponsored threat groups will likely use the tournament as an intelligence collection opportunity, targeting executives, VIP attendees, national delegations, media partners, telecommunications providers, airlines, hotels, event logistics firms, and commercial affiliates. China is most likely to pursue targeted espionage, while Russia and Iran pose a higher risk of more disruptive attacks through proxy hacktivism. Influence activity related to the tournament remains largely overt, driven by state media and diplomatic messaging from Russia, China, and Iran. These narratives focus on host-country legitimacy, Iran’s conditional participation, visa and access issues, public safety, immigration, ticketing, and alleged politicization of the event. Covert influence activity has so far been limited and opportunistic, but could increase as the tournament approaches, particularly around geopolitical flashpoints or viral news events. Organizations involved in or exposed to the World Cup should prioritize proactive monitoring of location-specific physical security risks, protest activity, cybercriminal infrastructure, phishing and credential exposure, malicious traffic, ransomware indicators, and influence operations. Cyber indicators such as increased scanning activity or newly registered domains linked to FIFA or host cities may indicate an expansion of criminal or espionage activity. Developments around geopolitical flashpoints such as the w
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Threats to the 2026 FIFA World Cup
-  - Published: 2026-06-04T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/2026-fifa-world-cup-threats
-  - Summary: Threat assessment for the 2026 FIFA World Cup (US, Mexico, Canada) covering organized crime, AI-powered cyber fraud, state espionage, and political influence operations.
 
 ### Cluster 98f46bf0a9 — score 10
 
@@ -3074,6 +3029,63 @@ Page content Public skill marketplaces are being flooded with malicious skills t
   - Published: 2026-06-03T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
   - Summary: Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skill scanner , and all three of the scanners integrated into skills.sh . These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills , using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some trial and error. Our findings demonstrate that even when skill scanners have some defenses, their static nature gives an adversary unlimited bites at the apple to tweak an attack until it finds a w
+
+### Cluster cc667f540f — score 10
+
+- Title: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-05T13:05:06+00:00
+- Link: https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, vulnerability_disclosure
+- affected_industries: critical_infrastructure, financial_services, government
+- affected_products: Anthropic/Claude, ScreenConnect
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach, vulnerability_disclosure
+- affected_industries: financial_services, government, critical_infrastructure
+- affected_products: Anthropic/Claude, ScreenConnect
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner. The post In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: Threat actors poison AI chatbot queries to harvest computing power Microsoft reported that threat actors are exploiting both SEO and AI chatbot recommendations to trick users into downloading fake utilities that impersonate legitimate tools like CrystalDiskInfo and PDFgear. Once an endpoint is compromised, the attackers abuse ConnectWise ScreenConnect to secure persistent remote access and deploy a specialized binary that hollows out trusted Microsoft .NET processes. The hijacked processing power is ultimately used to run cryptocurrency miners specifically engineered to target high-performance GPUs. Advertisement. Scroll to continue reading. Grandoreiro banking trojan attacks WatchGuard researchers observed a new Grandoreiro malware campaign targeting financial institutions across Portugal and Latin America using DLL side-loading techniques that abuse four legitimate software applications. The malware has been around for a decade and it continues to be active despite law enforcement action. Self-propagating Go encryptor automates full network compromise Microsoft Threat Intelligence is tracking Storm-2697 , a financially motivated group operating ‘The Gentlemen’ ransomware-as-a-service, which features an aggressive Go-based encryptor obfuscated with Garble. The malware uses password-protected command-line arguments to establish its encryption speed and automatically self-propagates across targeted networks by creating scheduled tasks with SYSTEM privileges. The Gentlemen ransomware was recently also dissected by Halcyon and Huntress . Let’s Encrypt adopts Merkle trees for post-quantum future To mitigate the massive bandwidth bloat caused by post-quantum cryptographic algorithms, Let’s Encrypt is adopting Merkle Tree Certificates to secure future web authentication infrastructure. By batching certificates under a single signature rather than authenticating them individually, this new approach significantly shrinks TLS handshake sizes while inherently baking in certificate transparency. The certificate authority plans to launch a staging environment for these optimized post-quantum certificates in late 2026, followed by a full production rollout in 2027. Federal agencies sound alarm on exposed tank gauge systems CISA, the FBI, the NSA, and other US agencies are warning critical infrastructure operators about threat actors actively exploiting internet-exposed Automatic Tank Gauge (ATG) systems used for remote liquid and fuel monitoring. Attackers are bypassing authentication and leveraging OS command execution to modify configurations, prompting the government to urge facilities to immediately disconnect ATGs from the public internet. Attacks on ATGs at US gas stations were recently linked by officials to Iran . Palantir technology chief eyed for CISA director role The Trump administration is reportedly considering Palantir Technologies Chief Technology Officer Shyam Sankar to serve as the next director of CISA. If nominated, the longtime Palantir executive would step into the vacant leadership position as CISA faces significant budget cuts . Tom Parker, a security services lead at IBM, was recently also positioned as a frontrunner for the role. Malware infection triggers leak of Ultrahuman data Indian health technology vendor Ultrahuman disclosed a data breach exposing user contact details, transaction history, and wellness metrics for a fraction of its customer base. The threat actor gained unauthorized, read-only access to an internal analytics
+```
+
+#### Corroborating sources (3)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA
+  - Published: 2026-06-05T13:05:06+00:00
+  - Link: https://www.securityweek.com/in-other-news-anthropic-maps-ai-threats-unpatched-comodo-flaw-palantir-chief-eyed-for-cisa/
+  - Summary: Other noteworthy stories that might have slipped under the radar: Ultrahuman data leak, The Gentlemen ransomware analysis, Hola Browser bundles miner. The post In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA appeared first on SecurityWeek .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: AI is helping low-skill hackers pull off advanced cyberattacks
+  - Published: 2026-06-05T08:22:35+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/05/anthropic-ai-cyber-activity-analysis/
+  - Summary: Anthropic has published an analysis of cyber-related misuse of its AI systems, examining 832 accounts that were banned for malicious cyber activity between March 2025 and March 2026. The company mapped the observed behavior to the MITRE ATT&CK framework, which documents tactics and techniques used by attackers. “These 832 cases are just a subset of the total number of accounts banned during this period, but they represent those where we had enough detail to conduct … More → The post AI is helping low-skill hackers pull off advanced cyberattacks appeared first on Help Net Security .
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Anthropic Expands Mythos Access to 150 More Organizations
+  - Published: 2026-06-03T09:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/
+  - Summary: Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck
 
 ### Cluster 8e89abb8f0 — score 9
 
@@ -3735,39 +3747,6 @@ After a disgruntled security researcher published several zero-day exploits in r
   - Link: https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash
   - Summary: After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.
 
-### Cluster 8f36ac3451 — score 8
-
-- Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-06-03T13:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
-  - Published: 2026-06-03T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
-  - Summary: Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
-
 ### Cluster ac3891b02c — score 8
 
 - Title: New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
@@ -3871,12 +3850,12 @@ submitted by /u/digicat [link] [comments]
   - Link: https://www.reddit.com/r/blueteamsec/comments/1tybr9z/security_advisory_brute_force_attack_on_dashlane/
   - Summary: submitted by /u/digicat [link] [comments]
 
-### Cluster dc7469a1a3 — score 8
+### Cluster 8f36ac3451 — score 8
 
-- Title: Cisco Security Advisory: Cisco Catalyst SD-WAN Manager Authenticated Privilege Escalation Vulnerability
-- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
-- Published: 2026-06-06T08:34:28+00:00
-- Link: https://www.reddit.com/r/blueteamsec/comments/1tybqoe/cisco_security_advisory_cisco_catalyst_sdwan/
+- Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-06-03T13:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
@@ -3884,25 +3863,25 @@ submitted by /u/digicat [link] [comments]
 
 #### Cluster taxonomy (union across members)
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-submitted by /u/digicat [link] [comments]
+Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: Cisco Security Advisory: Cisco Catalyst SD-WAN Manager Authenticated Privilege Escalation Vulnerability
-  - Published: 2026-06-06T08:34:28+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1tybqoe/cisco_security_advisory_cisco_catalyst_sdwan/
-  - Summary: submitted by /u/digicat [link] [comments]
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
+  - Published: 2026-06-03T13:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
+  - Summary: Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
 
 ### Cluster c2c858a455 — score 8
 
@@ -3938,38 +3917,3 @@ submitted by /u/dn3t [link] [comments]
   - Published: 2026-06-05T11:35:56+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/
   - Summary: submitted by /u/dn3t [link] [comments]
-
-### Cluster 778f29c38f — score 8
-
-- Title: Anyone else's firewall logs look like a denial-of-service attack on themselves?
-- Source: Reddit r/AskNetsec (reddit_practitioner_osint)
-- Published: 2026-06-06T02:33:35+00:00
-- Link: https://www.reddit.com/r/AskNetsec/comments/1ty4zon/anyone_elses_firewall_logs_look_like_a/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- content_type: incident_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-Seriously, we're getting hammered with invalid packets and malformed requests from IPs that don't even exist. It's making it damn near impossible to spot actual threats in the noise. Is this just us, or is the internet trying to kill our logging infrastructure? submitted by /u/Data_Commission_7434 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - Title: Anyone else's firewall logs look like a denial-of-service attack on themselves?
-  - Published: 2026-06-06T02:33:35+00:00
-  - Link: https://www.reddit.com/r/AskNetsec/comments/1ty4zon/anyone_elses_firewall_logs_look_like_a/
-  - Summary: Seriously, we're getting hammered with invalid packets and malformed requests from IPs that don't even exist. It's making it damn near impossible to spot actual threats in the noise. Is this just us, or is the internet trying to kill our logging infrastructure? submitted by /u/Data_Commission_7434 [link] [comments]
