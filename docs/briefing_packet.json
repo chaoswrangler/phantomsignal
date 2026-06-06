@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-05T23:40:47.372771+00:00",
+  "generated_at": "2026-06-06T00:15:31.352610+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 78,
-  "total_items_in_window": 468,
-  "total_clusters_raw": 177,
+  "feeds_ok": 77,
+  "total_items_in_window": 459,
+  "total_clusters_raw": 176,
   "total_clusters_in_packet": 67,
-  "dropped_low_score": 110,
+  "dropped_low_score": 109,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -81,12 +74,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 4
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -94,6 +94,13 @@
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 1
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -109,20 +116,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 1
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -130,12 +123,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -151,13 +144,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -165,19 +151,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
+      "item_count": 20,
+      "in_window_count": 1
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -186,12 +172,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
       "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Red Canary": {
       "url": "https://redcanary.com/feed/",
@@ -200,13 +200,6 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -214,12 +207,19 @@
       "item_count": 78,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
-      "in_window_count": 7
+      "in_window_count": 3
     },
     "watchTowr Labs": {
       "url": "https://labs.watchtowr.com/rss/",
@@ -298,20 +298,6 @@
       "item_count": 30,
       "in_window_count": 1
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -319,12 +305,26 @@
       "item_count": 20,
       "in_window_count": 7
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -340,19 +340,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -368,13 +368,6 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -389,19 +382,19 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 15
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -410,12 +403,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
+      "item_count": 20,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -424,19 +417,19 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
       "in_window_count": 19
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -480,6 +473,13 @@
       "item_count": 50,
       "in_window_count": 24
     },
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -494,13 +494,6 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -508,12 +501,33 @@
       "item_count": 100,
       "in_window_count": 0
     },
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 42
     },
     "Graham Cluley": {
       "url": "https://grahamcluley.com/feed/",
@@ -528,20 +542,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 33
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 42
-    },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
     },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
@@ -585,12 +585,19 @@
       "item_count": 25,
       "in_window_count": 24
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 25
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 18
+      "in_window_count": 19
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -598,13 +605,6 @@
       "status": "ok",
       "item_count": 25,
       "in_window_count": 24
-    },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 25
     },
     "Risky Business News": {
       "url": "https://risky.biz/feeds/risky-business-news/",
@@ -1652,36 +1652,6 @@
           }
         },
         {
-          "source": "Exploit-DB",
-          "cohort": "offensive_vulnerability_research",
-          "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-          "link": "https://www.exploit-db.com/exploits/52609",
-          "published": "2026-06-05T00:00:00+00:00",
-          "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "WordPress"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "preauth_unauth"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_offensive_research",
-            "role_map": {
-              "WordPress": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
@@ -1705,6 +1675,36 @@
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
+            "role_map": {
+              "WordPress": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Exploit-DB",
+          "cohort": "offensive_vulnerability_research",
+          "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+          "link": "https://www.exploit-db.com/exploits/52609",
+          "published": "2026-06-05T00:00:00+00:00",
+          "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "WordPress"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "preauth_unauth"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_offensive_research",
             "role_map": {
               "WordPress": "target"
             },
@@ -1746,7 +1746,7 @@
     {
       "cluster_id": "25c84fc509",
       "priority_score": 24,
-      "member_count": 12,
+      "member_count": 11,
       "corroborating_source_count": 9,
       "strong_signals": [
         "npm"
@@ -2983,34 +2983,6 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
-          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
-          "published": "2026-06-03T09:30:00+00:00",
-          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Anthropic/Claude"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
           "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
           "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
@@ -3034,6 +3006,34 @@
             "role_map": {
               "Anthropic/Claude": "target",
               "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Anthropic Expands Mythos Access to 150 More Organizations",
+          "link": "https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/",
+          "published": "2026-06-03T09:30:00+00:00",
+          "summary": "Anthropic widens Project Glasswing access to 150 more firms as patching becomes the bottleneck",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Anthropic/Claude"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Anthropic/Claude": "target"
             },
             "weak_tags": {
               "products": []
@@ -4542,7 +4542,7 @@
     {
       "cluster_id": "fdf9413677",
       "priority_score": 12,
-      "member_count": 4,
+      "member_count": 3,
       "corroborating_source_count": 3,
       "strong_signals": [
         "Apple iOS/macOS"
@@ -4692,96 +4692,6 @@
             "role_map": {
               "Apple iOS/macOS": "target"
             },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "7c6c399f7e",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Recorded Future",
-        "cohort": "threat_research_primary",
-        "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-        "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-        "published": "2026-06-05T00:00:00+00:00",
-        "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-        "full_body": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "apt_espionage"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Recorded Future",
-          "cohort": "threat_research_primary",
-          "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-          "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-          "published": "2026-06-05T00:00:00+00:00",
-          "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "apt_espionage"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -5521,6 +5431,102 @@
       ]
     },
     {
+      "cluster_id": "68573a4922",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "education",
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "Lessons for life: Why children’s data is a long-term identity risk",
+        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+        "published": "2026-06-03T08:50:00+00:00",
+        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services",
+            "critical_infrastructure",
+            "education"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "Lessons for life: Why children’s data is a long-term identity risk",
+          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
+          "published": "2026-06-03T08:50:00+00:00",
+          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services",
+              "critical_infrastructure",
+              "education"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "1f5463ba47",
       "priority_score": 10,
       "member_count": 1,
@@ -5794,102 +5800,6 @@
       ]
     },
     {
-      "cluster_id": "68573a4922",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure",
-          "education",
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "Lessons for life: Why children’s data is a long-term identity risk",
-        "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-        "published": "2026-06-03T08:50:00+00:00",
-        "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-        "full_body": "Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services",
-            "critical_infrastructure",
-            "education"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "Lessons for life: Why children’s data is a long-term identity risk",
-          "link": "https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/",
-          "published": "2026-06-03T08:50:00+00:00",
-          "summary": "Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services",
-              "critical_infrastructure",
-              "education"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "98f46bf0a9",
       "priority_score": 10,
       "member_count": 1,
@@ -5975,6 +5885,96 @@
             "role_map": {
               "Drupal": "target"
             },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "7c6c399f7e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Recorded Future",
+        "cohort": "threat_research_primary",
+        "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+        "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+        "published": "2026-06-05T00:00:00+00:00",
+        "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+        "full_body": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "apt_espionage"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Recorded Future",
+          "cohort": "threat_research_primary",
+          "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+          "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+          "published": "2026-06-05T00:00:00+00:00",
+          "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "apt_espionage"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
             "weak_tags": {
               "products": []
             }
@@ -8117,171 +8117,6 @@
       ]
     },
     {
-      "cluster_id": "bb5fa910dd",
-      "priority_score": 8,
-      "member_count": 2,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "OpenAI/ChatGPT"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "OpenAI/ChatGPT"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report",
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-        "published": "2026-06-04T13:00:00+00:00",
-        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "OpenAI/ChatGPT"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "OpenAI/ChatGPT": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
-          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
-          "published": "2026-06-04T13:00:00+00:00",
-          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "OpenAI/ChatGPT"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "OpenAI/ChatGPT": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8f36ac3451",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-        "published": "2026-06-03T13:30:00+00:00",
-        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-          "published": "2026-06-03T13:30:00+00:00",
-          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "ac3891b02c",
       "priority_score": 8,
       "member_count": 1,
@@ -8442,6 +8277,171 @@
             "threat_categories": [
               "active_exploitation"
             ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "bb5fa910dd",
+      "priority_score": 8,
+      "member_count": 2,
+      "corroborating_source_count": 1,
+      "strong_signals": [
+        "OpenAI/ChatGPT"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "OpenAI/ChatGPT"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report",
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+        "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+        "published": "2026-06-04T13:00:00+00:00",
+        "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "OpenAI/ChatGPT"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "OpenAI/ChatGPT": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Mythos Outperforms GPT5.5 on Google Chrome Vulnerability Exploits, Says New Benchmark",
+          "link": "https://www.infosecurity-magazine.com/news/mythos-gpt-chrome-exploits/",
+          "published": "2026-06-04T13:00:00+00:00",
+          "summary": "A Bugcrowd researcher has unveiled ExploitBench, an independent benchmark of AI models for vulnerability exploitation",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "OpenAI/ChatGPT"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "OpenAI/ChatGPT": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "8f36ac3451",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+        "published": "2026-06-03T13:30:00+00:00",
+        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+          "published": "2026-06-03T13:30:00+00:00",
+          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+          "taxonomy": {
+            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8673,7 +8673,7 @@
         ]
       },
       "cluster_count": 9,
-      "article_count": 18,
+      "article_count": 17,
       "cohesion": 0.255,
       "shared_strong_signals": [
         "Palo Alto Networks"
@@ -8727,7 +8727,7 @@
         ]
       },
       "cluster_count": 4,
-      "article_count": 15,
+      "article_count": 14,
       "cohesion": 0.245,
       "shared_strong_signals": [
         "npm"
@@ -8945,7 +8945,7 @@
         ]
       },
       "cluster_count": 2,
-      "article_count": 13,
+      "article_count": 12,
       "cohesion": 0.5,
       "shared_strong_signals": [
         "TeamPCP"
@@ -9066,8 +9066,8 @@
       ],
       "links": [
         "https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/",
-        "https://www.exploit-db.com/exploits/52609",
         "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+        "https://www.exploit-db.com/exploits/52609",
         "https://www.infosecurity-magazine.com/news/everest-forms-pro-rce-actively/",
         "https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/"
       ]
@@ -9226,6 +9226,23 @@
           "Gogs",
           "Google/Gemini",
           "Palo Alto Networks"
+        ]
+      },
+      {
+        "actor": "UNC6201",
+        "cluster_id": "5e1681c391",
+        "new_industries": [],
+        "new_products": [
+          "VMware"
+        ],
+        "prior_top_industries": [
+          "critical_infrastructure",
+          "legal_professional"
+        ],
+        "prior_top_products": [
+          "AWS",
+          "Microsoft 365",
+          "Okta"
         ]
       }
     ],
