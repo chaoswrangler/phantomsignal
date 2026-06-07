@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-06T22:10:17.660845+00:00
+- Generated: 2026-06-07T00:12:27.142568+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 78
 - Total items in window: 473
-- Total clusters raw: 175
+- Total clusters raw: 177
 - Total clusters in packet: 65
-- Dropped low score: 110
+- Dropped low score: 112
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,81 +70,76 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 3
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 10
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,11 +150,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -170,28 +165,43 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 78
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -200,21 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,36 +220,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 30
+  - Item count: 20
   - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 30
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,51 +270,56 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
+  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,23 +330,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 18
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
   - Status: ok
   - Item count: 20
   - In window count: 0
@@ -355,26 +355,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -385,11 +390,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -400,26 +400,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 33
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 47
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 25
-  - In window count: 24
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 14
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 24
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -430,31 +430,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 25
   - In window count: 25
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 25
   - In window count: 24
-- **Risky Business News** (practitioner_analysis)
-  - URL: https://risky.biz/feeds/risky-business-news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 25
+- **Risky Business News** (practitioner_analysis)
+  - URL: https://risky.biz/feeds/risky-business-news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -476,9 +476,9 @@
 ### Palo Alto Networks exploitation (2 CVEs)
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
-- Cluster count: 10
-- Article count: 18
-- Cohesion: 0.256
+- Cluster count: 11
+- Article count: 19
+- Cohesion: 0.246
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: CVE-2024-21182, CVE-2026-39987
 - Also targets: (none)
@@ -487,8 +487,8 @@
   - affected_industries: government
   - affected_products: Palo Alto Networks, GitHub
   - cve_ids: CVE-2026-0257, CVE-2024-21182, CVE-2026-39987
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: df6874157e, 791da8c978, 5c65105996, a8a021acdc, 9aa815a49a, 4faddc63ad, c37232a3fc, fdf9413677, 0018093ec7, ad4a52246a
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth
+- Cluster IDs: df6874157e, 791da8c978, 5c65105996, 001d61d9b2, a8a021acdc, 9aa815a49a, 4faddc63ad, c37232a3fc, fdf9413677, 0018093ec7, ad4a52246a
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
   - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
@@ -501,6 +501,7 @@
   - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
   - https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
   - https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
   - https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
   - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
   - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
@@ -586,50 +587,6 @@
   - https://www.huntress.com/blog/unpatched-ntlm-coercion-windows-search-uri-handler
   - https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection
 
-### ShinyHunters: phishing social eng
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 4
-- Article count: 5
-- Cohesion: 0.461
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, data_breach, ransomware_extortion
-  - actor_attribution: ShinyHunters
-  - affected_industries: government
-- Cluster IDs: 0018093ec7, b2bc43473b, 0069d5f28f, 2862572eb6
-- Links:
-  - https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
-  - https://www.reddit.com/r/blueteamsec/comments/1tybpqd/a_new_extortion_brand_called_pink_tracked_as/
-  - https://www.troyhunt.com/weekly-update-506/
-  - https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
-  - https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
-
-### CVE-2026-44825 exploitation activity
-- Anchor signal: CVE-2026-44825
-- Theme key: cve-2026-44825
-- Cluster count: 2
-- Article count: 9
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-44825
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-44825
-  - urgency_signals: preauth_unauth
-- Cluster IDs: df6874157e, 001d61d9b2
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
-  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
-  - https://www.infosecurity-magazine.com/news/palo-alto-highseverity-bug/
-  - https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html
-  - https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit
-  - https://risky.biz/RBNEWS571/
-  - https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
-
 ### Gitea exploitation (3 CVEs)
 - Anchor signal: Gitea
 - Theme key: gitea
@@ -667,6 +624,25 @@
   - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026
   - https://www.helpnetsecurity.com/2026/06/05/june-2026-patch-tuesday-forecast/
   - https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
+
+### ShinyHunters: data breach
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.411
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+  - actor_attribution: ShinyHunters
+  - affected_industries: government
+- Cluster IDs: 0018093ec7, 0069d5f28f, 2862572eb6
+- Links:
+  - https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
+  - https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
+  - https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
 
 ### Cisco vulnerability activity
 - Anchor signal: Cisco
@@ -747,10 +723,28 @@
   - https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/
   - https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
 
+### Linux kernel vulnerability activity
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Linux kernel
+- Cluster IDs: d90bf7fe85, c61f79fa63
+- Links:
+  - https://securelist.com/container-attack-vectors/120010/
+  - https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 2
+  - CVE-2026-46633 (first seen via Reddit r/cybersecurity at 2026-06-07T00:04:48+00:00, cluster f3e7dda1b9)
+  - CVE-2026-46640 (first seen via Reddit r/cybersecurity at 2026-06-07T00:04:48+00:00, cluster f3e7dda1b9)
 - Novel actors: 0
 - Novel products: 0
 
@@ -800,10 +794,10 @@
   - Cluster: 5c65105996
   - Primary source: The Hacker News
   - Strong signals: CVE-2024-21182, CVE-2026-0257, CVE-2026-28318, CVE-2026-39987, CVE-2026-45659, Cl0p
-- **A new extortion brand called Pink, tracked as cluster CL-CRI-1147, that leverages vishing for initial access for the purposes of extortion. CL-CRI-1147 is likely a Com-affiliated actor, with techniques similar to Bling Libra (ShinyHunters) and CL-CRI-1116 (Blackfile/Redact).**
-  - Cluster: b2bc43473b
-  - Primary source: Reddit r/blueteamsec
-  - Strong signals: ShinyHunters
+- **CVE-2026-46640: Developing payloads for Twig sandbox bypass**
+  - Cluster: f3e7dda1b9
+  - Primary source: Reddit r/cybersecurity
+  - Strong signals: CVE-2026-46633, CVE-2026-46640
 
 ## Clusters
 
@@ -1421,16 +1415,16 @@ Threat Intelligence Seeking Counsel: Ongoing Targeted Campaign Against US Law Fi
 
 #### Cluster taxonomy (union across members)
 - threat_categories: web_shell_backdoor
-- affected_products: Atlassian Jira, Drupal, Gitea
-- cve_ids: CVE-2026-27771, CVE-2026-42271, CVE-2026-44825, CVE-2026-48710, CVE-2026-9082
+- affected_products: Atlassian Jira, Gitea, Palo Alto Networks
+- cve_ids: CVE-2026-0257, CVE-2026-27771, CVE-2026-42271, CVE-2026-44825, CVE-2026-48710
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
 - threat_categories: web_shell_backdoor
-- affected_products: Drupal, Gitea, Atlassian Jira
-- cve_ids: CVE-2026-44825, CVE-2026-42271, CVE-2026-48710, CVE-2026-27771, CVE-2026-9082
+- affected_products: Palo Alto Networks, Gitea, Atlassian Jira
+- cve_ids: CVE-2026-44825, CVE-2026-0257, CVE-2026-42271, CVE-2026-48710, CVE-2026-27771
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research
@@ -1444,7 +1438,7 @@ CVE-2026-44825 is a hardcoded credentials vulnerability affecting Apache Solr Ba
 #### Full body
 
 ```
-CVE-2026-44825 Apache Solr AuthTool Hardcoded Credentials Vulnerability CVE-2026-44825 is a hardcoded credentials vulnerability in Apache Solr’s Basic Authentication setup tool, bin/solr auth enable, affecting SolrCloud deployments. The vulnerability was discovered by the Horizon3.ai Attack Team and responsibly disclosed to the Apache Solr project. When used to enable BasicAuth, the tool can silently install undocumented template users with publicly known default credentials, potentially giving a remote attacker full administrative access to the SolrCloud cluster. Technical Details CVE-2026-44825 affects Apache Solr 9.4.0 through 9.10.1 and 10.0.0. The vulnerability exists in the SolrCloud Basic Authentication setup workflow. When administrators use bin/solr auth enable , Solr can create additional template accounts in security.json , including: superadmin admin search index These accounts may be installed with hardcoded credentials where the username equals the password. If the Solr admin API is reachable, an attacker can authenticate using those credentials and gain administrative access to the cluster. The superadmin account has security-edit privileges, which can allow an attacker to access indexed data, modify authentication settings, create backdoor accounts, and potentially move toward remote code execution depending on cluster configuration. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this hardcoded credentials vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether known hardcoded credentials can authenticate to SolrCloud. Patch immediately: Upgrade to Apache Solr 9.11.0 or 10.1.0 when available. As an immediate workaround, delete the template users or change the passwords for superadmin , admin , search , and index . Re-run the test: Confirm the hardcoded credentials are no longer exploitable after remediation. Affected versions & patch Affected: Apache Solr 9.4.0 through 9.10.1 Apache Solr 10.0.0 Not affected: Clusters where bin/solr auth enable was not used to bootstrap BasicAuth Clusters where the template users have already been assigned strong passwords after bootstrap Patch: Upgrade to Apache Solr 9.11.0 or 10.1.0 when available Until then, remove the template users from security.json or change their passwords Timeline May 29, 2026 – Apache publicly disclosed CVE-2026-44825 via the oss-security mailing list and released remediation guidance. May 29, 2026 – Apache published SOLR-18233 and credited Naveen Sunkavally of Horizon3.ai for responsibly reporting the vulnerability. June 2, 2026 – NodeZero Rapid Response test available to validate exploitability and verify remediation. References Apache Security Advisory for CVE-2026-44825 (via Openwall) CVE-2026-44825 Record Apache JIRA SOLR-18233 Apache Solr Basic Authentication Plugin Documentation Read about other CVEs CVE-2026-42271 Chained with CVE-2026-48710 CVE-2026-27771 is a high-severity authentication bypass vulnerability affecting Gitea’s built-in package and container registry functionality. The flaw may allow unauthenticated… Read more CVE-2026-27771 CVE-2026-27771 is a high-severity authentication bypass vulnerability affecting Gitea’s built-in package and container registry functionality. The flaw may allow unauthenticated… Read more CVE-2026-9082 CVE-2026-9082 is a highly critical SQL injection vulnerability in Drupal core affecting PostgreSQL-backed deployments. The flaw allows unauthenticated attackers to… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your security risks by autonomously finding exploitable weaknesses in your net
+CVE-2026-44825 Apache Solr AuthTool Hardcoded Credentials Vulnerability CVE-2026-44825 is a hardcoded credentials vulnerability in Apache Solr’s Basic Authentication setup tool, bin/solr auth enable, affecting SolrCloud deployments. The vulnerability was discovered by the Horizon3.ai Attack Team and responsibly disclosed to the Apache Solr project. When used to enable BasicAuth, the tool can silently install undocumented template users with publicly known default credentials, potentially giving a remote attacker full administrative access to the SolrCloud cluster. Technical Details CVE-2026-44825 affects Apache Solr 9.4.0 through 9.10.1 and 10.0.0. The vulnerability exists in the SolrCloud Basic Authentication setup workflow. When administrators use bin/solr auth enable , Solr can create additional template accounts in security.json , including: superadmin admin search index These accounts may be installed with hardcoded credentials where the username equals the password. If the Solr admin API is reachable, an attacker can authenticate using those credentials and gain administrative access to the cluster. The superadmin account has security-edit privileges, which can allow an attacker to access indexed data, modify authentication settings, create backdoor accounts, and potentially move toward remote code execution depending on cluster configuration. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this hardcoded credentials vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether known hardcoded credentials can authenticate to SolrCloud. Patch immediately: Upgrade to Apache Solr 9.11.0 or 10.1.0 when available. As an immediate workaround, delete the template users or change the passwords for superadmin , admin , search , and index . Re-run the test: Confirm the hardcoded credentials are no longer exploitable after remediation. Affected versions & patch Affected: Apache Solr 9.4.0 through 9.10.1 Apache Solr 10.0.0 Not affected: Clusters where bin/solr auth enable was not used to bootstrap BasicAuth Clusters where the template users have already been assigned strong passwords after bootstrap Patch: Upgrade to Apache Solr 9.11.0 or 10.1.0 when available Until then, remove the template users from security.json or change their passwords Timeline May 29, 2026 – Apache publicly disclosed CVE-2026-44825 via the oss-security mailing list and released remediation guidance. May 29, 2026 – Apache published SOLR-18233 and credited Naveen Sunkavally of Horizon3.ai for responsibly reporting the vulnerability. June 2, 2026 – NodeZero Rapid Response test available to validate exploitability and verify remediation. References Apache Security Advisory for CVE-2026-44825 (via Openwall) CVE-2026-44825 Record Apache JIRA SOLR-18233 Apache Solr Basic Authentication Plugin Documentation Read about other CVEs CVE-2026-0257 CVE-2026-0257 is a critical authentication bypass vulnerability in Palo Alto Networks PAN-OS GlobalProtect that allows unauthorized VPN access and is… Read more CVE-2026-42271 Chained with CVE-2026-48710 CVE-2026-27771 is a high-severity authentication bypass vulnerability affecting Gitea’s built-in package and container registry functionality. The flaw may allow unauthenticated… Read more CVE-2026-27771 CVE-2026-27771 is a high-severity authentication bypass vulnerability affecting Gitea’s built-in package and container registry functionality. The flaw may allow unauthenticated… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your security risks by autonomously finding exploitable weaknesses in your network, giving y
 ```
 
 #### Corroborating sources (1)
@@ -2377,6 +2371,47 @@ AWS Security Blog Gain visibility into DDoS attacks with flow logs in AWS Shield
   - Link: https://www.reddit.com/r/netsecstudents/comments/1tsnsc6/using_asn_data_for_osintbased_infrastructure/
   - Summary: I’ve been revisiting ASN-based recon for bug bounty and external attack surface mapping. With so much infra now sitting on AWS/GCP/Azure, ASN recon is not complete by itself, but I still find it useful for identifying core networks, forgotten services, and older assets. I made a practical workflow here: https://youtu.be/6S6itslTYkQ Question for the experienced folks: where does ASN recon still fit in your modern recon process? submitted by /u/ammartiger [link] [comments]
 
+### Cluster 645e3dae0f — score 10
+
+- Title: Winning the cyber marathon with Tony Giandomenico
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-04T12:05:31+00:00
+- Link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Cisco
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons.
+```
+
+#### Full body
+
+```
+Winning the cyber marathon with Tony Giandomenico By Amy Ciminnisi Thursday, June 4, 2026 08:05 Humans of Talos In the high-speed world of cybersecurity, the difference between a breach and a breakthrough often comes down to endurance. Tony Giandomenico, Senior Director of Product Management with Cisco Talos, joins me to discuss how he balances the intensity of leading major product launches with the grueling discipline of Ironman triathlons. Beyond the technical specs and new threat hunting features, this conversation dives deep into the human side of leadership. Tony shares his hard-won lessons on the power of communication, the importance of knowing your "why," and how to navigate the complexities of a 30-year career without losing your focus. Amy Ciminnisi: You have been in the thick of the cyber security world for a while now, and a lot of things have shifted in this field. So what has been the biggest surprise for you, and what keeps you excited about leading the charge on the product side? Tony Giandomenico: Well, I would probably say that the biggest shift over the last six months has been the increase rate of the capabilities of these frontier models. I'm the first one not to jump on the bandwagon of this stuff, because I've been doing this for about 30 plus years or so, but I think this feels a little different. The capabilities are increasing, and I think what that means to cybersecurity is a big shift. How do we deal with all that? From the adversary side, they're actually breaking in the networks like they typically do. They're moving laterally within the environment. They're evading different types of security controls. Finding vulnerabilities, exploiting those vulnerabilities, all of that stuff. It's also going to be supercharged on the defensive side. Of course, you don't bring a knife to a gun fight, right? You're going to use the same AI technology — you know, the same frontier models — to speed things up there as well. From the product management side, I think we're going to see the things that we would have previously seen five years down the road a lot sooner. And that's kind of that's what kind of excites me about everything — that opportunity to explore the art of possibility is a lot more at your fingertips where it wasn't necessarily before. AC: We specifically lined this episode up with the Cisco Talos Threat Hunting launch, which you played a major role in. For people who aren't familiar, can you explain what it is? TG: Threat hunting is where we're looking for different types of threats that are circumventing our existing security control alerts, detection mechanisms, and so on. When defenders invest in these different types of technologies that are automatically detecting alerts or threats in your environment, the challenge that they have is the sensitivity meter. If they set it to be too high, the team might get inundated with false positives, and then that particular product isn't really worth that investment because you're constantly have to investigate those. So the sensitivity meter has to find some place in the middle. That's where it gives these stealthy threat actors a place to live. So you have a combination of AI and human-in-the-loop services, where we build hypotheses to identify actors that may have actually already circumvented your security controls. Currently, we're hunting in the endpoint telemetry side (e.g., Secure Endpoint) that we offer our customers today. With this expansion, we're expanding it out to our flagship firewall product. So we'll be hunting within Secure Firewall as well as identity, which actually includes Duo and CII, which is Cisco Identity Intelligence. AC: How do you keep your cool and stay focused on the why behind the work when you're dealing with the intensity of a major launch? TG: Before coming to Cisco, I had a small cybersecurity consulting company for about 10 years or so out in the Hawaiian Islands. I had the domain expertise, but I had to learn finan
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Winning the cyber marathon with Tony Giandomenico
+  - Published: 2026-06-04T12:05:31+00:00
+  - Link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
+  - Summary: Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons.
+
 ### Cluster 3bb8c2fd25 — score 10
 
 - Title: LABScon25 Replay | Gamaredon x Turla: Unveiling a 2025 Espionage Alliance Targeting Ukraine
@@ -2419,47 +2454,6 @@ LABScon LABScon25 Replay | Gamaredon x Turla: Unveiling a 2025 Espionage Allianc
   - Published: 2026-06-02T13:00:58+00:00
   - Link: https://www.sentinelone.com/labs/labscon25-replay-gamaredon-x-turla-unveiling-a-2025-espionage-alliance-targeting-ukraine/
   - Summary: ESET researchers show how Gamaredon facilitated Turla access to Ukrainian targets, revealing rare cooperation between FSB-linked espionage groups.
-
-### Cluster 645e3dae0f — score 10
-
-- Title: Winning the cyber marathon with Tony Giandomenico
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-04T12:05:31+00:00
-- Link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Cisco
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons.
-```
-
-#### Full body
-
-```
-Winning the cyber marathon with Tony Giandomenico By Amy Ciminnisi Thursday, June 4, 2026 08:05 Humans of Talos In the high-speed world of cybersecurity, the difference between a breach and a breakthrough often comes down to endurance. Tony Giandomenico, Senior Director of Product Management with Cisco Talos, joins me to discuss how he balances the intensity of leading major product launches with the grueling discipline of Ironman triathlons. Beyond the technical specs and new threat hunting features, this conversation dives deep into the human side of leadership. Tony shares his hard-won lessons on the power of communication, the importance of knowing your "why," and how to navigate the complexities of a 30-year career without losing your focus. Amy Ciminnisi: You have been in the thick of the cyber security world for a while now, and a lot of things have shifted in this field. So what has been the biggest surprise for you, and what keeps you excited about leading the charge on the product side? Tony Giandomenico: Well, I would probably say that the biggest shift over the last six months has been the increase rate of the capabilities of these frontier models. I'm the first one not to jump on the bandwagon of this stuff, because I've been doing this for about 30 plus years or so, but I think this feels a little different. The capabilities are increasing, and I think what that means to cybersecurity is a big shift. How do we deal with all that? From the adversary side, they're actually breaking in the networks like they typically do. They're moving laterally within the environment. They're evading different types of security controls. Finding vulnerabilities, exploiting those vulnerabilities, all of that stuff. It's also going to be supercharged on the defensive side. Of course, you don't bring a knife to a gun fight, right? You're going to use the same AI technology — you know, the same frontier models — to speed things up there as well. From the product management side, I think we're going to see the things that we would have previously seen five years down the road a lot sooner. And that's kind of that's what kind of excites me about everything — that opportunity to explore the art of possibility is a lot more at your fingertips where it wasn't necessarily before. AC: We specifically lined this episode up with the Cisco Talos Threat Hunting launch, which you played a major role in. For people who aren't familiar, can you explain what it is? TG: Threat hunting is where we're looking for different types of threats that are circumventing our existing security control alerts, detection mechanisms, and so on. When defenders invest in these different types of technologies that are automatically detecting alerts or threats in your environment, the challenge that they have is the sensitivity meter. If they set it to be too high, the team might get inundated with false positives, and then that particular product isn't really worth that investment because you're constantly have to investigate those. So the sensitivity meter has to find some place in the middle. That's where it gives these stealthy threat actors a place to live. So you have a combination of AI and human-in-the-loop services, where we build hypotheses to identify actors that may have actually already circumvented your security controls. Currently, we're hunting in the endpoint telemetry side (e.g., Secure Endpoint) that we offer our customers today. With this expansion, we're expanding it out to our flagship firewall product. So we'll be hunting within Secure Firewall as well as identity, which actually includes Duo and CII, which is Cisco Identity Intelligence. AC: How do you keep your cool and stay focused on the why behind the work when you're dealing with the intensity of a major launch? TG: Before coming to Cisco, I had a small cybersecurity consulting company for about 10 years or so out in the Hawaiian Islands. I had the domain expertise, but I had to learn finan
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Winning the cyber marathon with Tony Giandomenico
-  - Published: 2026-06-04T12:05:31+00:00
-  - Link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
-  - Summary: Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons.
 
 ### Cluster 6a15521eed — score 10
 
@@ -2596,49 +2590,6 @@ Table of Contents Technical details Background Delivery Script executor Maliciou
   - Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
   - Summary: Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
 
-### Cluster 68573a4922 — score 10
-
-- Title: Lessons for life: Why children’s data is a long-term identity risk
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-03T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: critical_infrastructure, education, financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: financial_services, critical_infrastructure, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
-```
-
-#### Full body
-
-```
-Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: Lessons for life: Why children’s data is a long-term identity risk
-  - Published: 2026-06-03T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
-  - Summary: Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
-
 ### Cluster 1f5463ba47 — score 10
 
 - Title: Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure
@@ -2767,6 +2718,49 @@ Threat Intelligence VerdantBamboo: Just Another BRICKSTORM in the Firewall June 
   - Published: 2026-06-04T20:23:55+00:00
   - Link: https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/
   - Summary: In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .
+
+### Cluster 68573a4922 — score 10
+
+- Title: Lessons for life: Why children’s data is a long-term identity risk
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-03T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: critical_infrastructure, education, financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: financial_services, critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
+```
+
+#### Full body
+
+```
+Kids Online Lessons for life: Why children’s data is a long-term identity risk Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe. Phil Muncaster 03 Jun 2026 • , 6 min. read When we talk about cybersecurity and digital safety in the context of our children, it’s often framed in one of two ways. Either it’s about inappropriate or unsafe content – of the sort that COPPA is meant to regulate in the US. Or it’s about managing the psychological and social impacts of excessive screen time. But there’s an elephant in the room. Our kids are exposed to many of the same identity, privacy, and data security risks as their parents. In fact they may be even more at risk. Helping them understand how to protect their data and online accounts at an early age is an increasingly important parental responsibility. Why do people want my kids’ data? Our children are digital natives. From an early age they might have logins to school accounts, gaming profiles , cloud photos, health records, and accounts with a variety of other apps. All of these contain potentially lucrative data for identity thieves . Why is this information a popular target? Because from a fraud perspective it has a relatively long shelf life. That means, if it’s stolen and used by a scammer to open a new line of credit, it’s unlikely the victim would find out, until perhaps they apply for their first loan many years later. What’s more, it will have a pristine credit score, meaning the fraudulent application will likely sail through unchecked. Fraudsters might use it as is, or combine it with made-up information to create synthetic identities. The emergence of AI tools has made it far easier to spin up these fake identities. They might be harder for companies to spot. But when they do finally flag fraud, the impact on your child’s credit history can be severe. These are not theoretical risks. One report reveals the story of risk and compliance professional Renata Galvão, whose identity was stolen at the age of six and used to run up debt in excess of $400,000. It reportedly took her over two decades to clear her name and restore her credit rating. In another case, Axton Betz-Hamilton was 11 when her identity was stolen and used to rack up thousands of dollars in unpaid credit card bills. She only found out when applying to set up her first utility bill at college. Current data is hard to come by, but the FTC claims that child identity theft increased by 40% between 2021 and 2024. What could go wrong? Children’s data is at risk in other ways. Kids might be digitally savvy enough to set up online accounts, but they’re not always security-smart. They may be more prone to fall for a phishing message; especially if it appears to be sent from a trusted authority or friend . Too-good-to-be-true offers, innocuous-looking quizzes and FOMO-type ads are all more likely to hit home if the target is a credulous 13-year-old rather than a skeptical adult. Kids are also more likely to unwittingly download malware onto their devices or share their passwords and personal info with their peers, compounding security risk. Roblox gamers sharing their experiences after downloading fake versions of Solara. Source: YouTube But it’s not just our children who represent a potential weak link in the security chain. Research from the University of Southampton last year found that nearly half (45%) of parents regularly share information about their children online. Sharenting like this increases the risk of it falling into the hands of fraudsters. Around one-in-six children have already experienced at least one form of digital harm, including cyberbullying , privacy breaches, or identity misuse, the study claimed. There’s also a growing risk that the edtech vendors, school platforms, gaming providers, smart toy makers, social media companies and other firms entrusted with your child’s data are themselves breached. The non-profit Iden
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: Lessons for life: Why children’s data is a long-term identity risk
+  - Published: 2026-06-03T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
+  - Summary: Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
 
 ### Cluster 98f46bf0a9 — score 10
 
@@ -3059,48 +3053,6 @@ Page content Public skill marketplaces are being flooded with malicious skills t
   - Link: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
   - Summary: Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skill scanner , and all three of the scanners integrated into skills.sh . These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills , using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some trial and error. Our findings demonstrate that even when skill scanners have some defenses, their static nature gives an adversary unlimited bites at the apple to tweak an attack until it finds a w
 
-### Cluster b2bc43473b — score 10
-
-- Title: A new extortion brand called Pink, tracked as cluster CL-CRI-1147, that leverages vishing for initial access for the purposes of extortion. CL-CRI-1147 is likely a Com-affiliated actor, with techniques similar to Bling Libra (ShinyHunters) and CL-CRI-1116 (Blackfile/Redact).
-- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
-- Published: 2026-06-06T08:32:52+00:00
-- Link: https://www.reddit.com/r/blueteamsec/comments/1tybpqd/a_new_extortion_brand_called_pink_tracked_as/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
-- content_type: incident_report, news_report
-- confidence_tier: tier_3_analysis, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- actor_attribution: ShinyHunters
-- content_type: incident_report
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/digicat [link] [comments]
-```
-
-#### Corroborating sources (2)
-
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: A new extortion brand called Pink, tracked as cluster CL-CRI-1147, that leverages vishing for initial access for the purposes of extortion. CL-CRI-1147 is likely a Com-affiliated actor, with techniques similar to Bling Libra (ShinyHunters) and CL-CRI-1116 (Blackfile/Redact).
-  - Published: 2026-06-06T08:32:52+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1tybpqd/a_new_extortion_brand_called_pink_tracked_as/
-  - Summary: submitted by /u/digicat [link] [comments]
-- **Troy Hunt** (practitioner_analysis)
-  - Title: Weekly Update 506
-  - Published: 2026-06-01T03:32:33+00:00
-  - Link: https://www.troyhunt.com/weekly-update-506/
-  - Summary: I'm finding it quite fascinating to watch the current spate of ShinyHunters breaches and dumps. There's the obvious criminality of it all, but then there's also the response from organisations (or lack thereof, as it relates to disclosure to victims), the appearance and disappearance
-
 ### Cluster 8e89abb8f0 — score 9
 
 - Title: Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us
@@ -3267,6 +3219,41 @@ Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on t
   - Link: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
   - Summary: Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations
 
+### Cluster f3e7dda1b9 — score 9
+
+- Title: CVE-2026-46640: Developing payloads for Twig sandbox bypass
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-06-07T00:04:48+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1tywwu0/cve202646640_developing_payloads_for_twig_sandbox/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-46633, CVE-2026-46640
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-46633, CVE-2026-46640
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-46640, CVE-2026-46633
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+I recently learned about multiple sandbox bypasses discovered in Twig by project Glasswing. From the descriptions, only CVE-2026-46640 and CVE-2026-46633 seemed universally exploitable, so I decoded to research them. This writeup documents my development of payloads for the CVE-2026-46640 and the corresponding SSTImap module. submitted by /u/vladko312 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: CVE-2026-46640: Developing payloads for Twig sandbox bypass
+  - Published: 2026-06-07T00:04:48+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1tywwu0/cve202646640_developing_payloads_for_twig_sandbox/
+  - Summary: I recently learned about multiple sandbox bypasses discovered in Twig by project Glasswing. From the descriptions, only CVE-2026-46640 and CVE-2026-46633 seemed universally exploitable, so I decoded to research them. This writeup documents my development of payloads for the CVE-2026-46640 and the corresponding SSTImap module. submitted by /u/vladko312 [link] [comments]
+
 ### Cluster 04483ccd70 — score 8
 
 - Title: The Privileged Roles Nobody Talks About
@@ -3305,47 +3292,6 @@ Blog The Privileged Roles Nobody Talks About June 04, 2026 The Privileged Roles 
   - Published: 2026-06-04T04:00:00+00:00
   - Link: https://trustedsec.com/blog/the-privileged-roles-nobody-talks-about
   - Summary: <p>Part 1: Why Your MDM Platform is a Tier 0 AssetThis is Part 1 of a two-part series on Intune security hardening. This post covers what we have seen in real world attacks as well as attack paths our Pentest Team has…</p>
-
-### Cluster 2d5d45634d — score 8
-
-- Title: From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-06-02T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.
-```
-
-#### Full body
-
-```
-2 June 2026 • Jamie Hynds • Mia LaVada From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes. 5 min read Product Updates Elastic Security natively ingests Google Threat Intelligence: known-malicious IPs, domains, URLs, and file hashes matched against your telemetry the moment they appear, each carrying a verdict and a 0–100 threat score. The setup consists of an API key and two data streams, with no extra infrastructure. When an indicator is ambiguous, workflows built on Agent Builder query VirusTotal in real time, enrich the alert, correlate with your telemetry, and summarize findings in real time. How threat intelligence works in Elastic Security In modern security operations, threat intelligence must work across detection, investigation, and response, not sit in a reference table. Elastic Security supports this in two ways. Ingested intelligence via integrations drives continuous detection and historical hunting. Agentic workflows, built on Elastic Workflows and Agent Builder, provide on-demand enrichment and investigative reasoning during an active investigation. This post focuses on how Elastic's Google Threat Intelligence (GTI) integration powers ingestion-based detection and hunting, and how it fits into a broader, more dynamic SOC model where AI-driven workflows use that intelligence at alert time. What Google Threat Intelligence provides The Google Threat Intelligence integration brings curated threat intelligence directly into Elastic Security, making it actionable across detection and investigation. GTI combines intelligence from Google's global security visibility with VirusTotal data to deliver enriched context on indicators of compromise, with coverage across malware, ransomware, phishing, infostealers, malicious infrastructure, threat actors, and other adversary activity. Each indicator is returned with: a verdict (Malicious, Suspicious, or Undetected), a severity, and a composite threat score from 0–100. Because that score is derived from multiple signals, security teams can prioritize indicators based on confidence rather than their presence alone. How the Google Threat Intelligence integration works in Elastic Security Setup takes only a few minutes. You provide your GTI API key in the Elastic integration, and ingestion begins on a scheduled polling interval, with no additional infrastructure or collectors required. The integration ingests two primary data streams. Purpose Threat List IOC Stream Purpose High-confidence detection Threat hunting + early visibility Volume Curated, lower volume Broader, higher volume Best for Precision-critical alerting Emerging and exploratory activity As data is ingested, indicators are standardized using the Elastic Common Schema (ECS), along with GTI context, such as verdict, severity, score, malware families, threat actor associations, and campaign metadata (where available). This enables GTI to be searched and correlated consistently alongside other ECS-compliant intelligence sources (including TAXII feeds), custom intelligence, and the broader security telemetry already present in Elastic Security. Elastic also manages indicator lifecycle automatically, including expiration and revocation, which reduces matches against stale intelligence. Once ingested, GTI indicators become part of the same searchable dataset as logs, endpoint, and cloud telemetry, enabling unified correlation across the environment. Using Google Threat Intelligence for indicator match detections Elastic's indicator match rules use GTI data to detect when known malicious IPs, domains, URLs, or file hashes appear in security telemetry, continuously correlating intelligence against observed activity and surfacing matches for investigation. Because GTI provides struc
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence
-  - Published: 2026-06-02T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence
-  - Summary: Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.
 
 ### Cluster 859427c417 — score 8
 
@@ -3387,6 +3333,47 @@ Pointing a Cursor at evading detection AI accelerated tool development and testi
   - Published: 2026-06-02T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection
   - Summary: AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR
+
+### Cluster 2d5d45634d — score 8
+
+- Title: From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-06-02T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.
+```
+
+#### Full body
+
+```
+2 June 2026 • Jamie Hynds • Mia LaVada From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes. 5 min read Product Updates Elastic Security natively ingests Google Threat Intelligence: known-malicious IPs, domains, URLs, and file hashes matched against your telemetry the moment they appear, each carrying a verdict and a 0–100 threat score. The setup consists of an API key and two data streams, with no extra infrastructure. When an indicator is ambiguous, workflows built on Agent Builder query VirusTotal in real time, enrich the alert, correlate with your telemetry, and summarize findings in real time. How threat intelligence works in Elastic Security In modern security operations, threat intelligence must work across detection, investigation, and response, not sit in a reference table. Elastic Security supports this in two ways. Ingested intelligence via integrations drives continuous detection and historical hunting. Agentic workflows, built on Elastic Workflows and Agent Builder, provide on-demand enrichment and investigative reasoning during an active investigation. This post focuses on how Elastic's Google Threat Intelligence (GTI) integration powers ingestion-based detection and hunting, and how it fits into a broader, more dynamic SOC model where AI-driven workflows use that intelligence at alert time. What Google Threat Intelligence provides The Google Threat Intelligence integration brings curated threat intelligence directly into Elastic Security, making it actionable across detection and investigation. GTI combines intelligence from Google's global security visibility with VirusTotal data to deliver enriched context on indicators of compromise, with coverage across malware, ransomware, phishing, infostealers, malicious infrastructure, threat actors, and other adversary activity. Each indicator is returned with: a verdict (Malicious, Suspicious, or Undetected), a severity, and a composite threat score from 0–100. Because that score is derived from multiple signals, security teams can prioritize indicators based on confidence rather than their presence alone. How the Google Threat Intelligence integration works in Elastic Security Setup takes only a few minutes. You provide your GTI API key in the Elastic integration, and ingestion begins on a scheduled polling interval, with no additional infrastructure or collectors required. The integration ingests two primary data streams. Purpose Threat List IOC Stream Purpose High-confidence detection Threat hunting + early visibility Volume Curated, lower volume Broader, higher volume Best for Precision-critical alerting Emerging and exploratory activity As data is ingested, indicators are standardized using the Elastic Common Schema (ECS), along with GTI context, such as verdict, severity, score, malware families, threat actor associations, and campaign metadata (where available). This enables GTI to be searched and correlated consistently alongside other ECS-compliant intelligence sources (including TAXII feeds), custom intelligence, and the broader security telemetry already present in Elastic Security. Elastic also manages indicator lifecycle automatically, including expiration and revocation, which reduces matches against stale intelligence. Once ingested, GTI indicators become part of the same searchable dataset as logs, endpoint, and cloud telemetry, enabling unified correlation across the environment. Using Google Threat Intelligence for indicator match detections Elastic's indicator match rules use GTI data to detect when known malicious IPs, domains, URLs, or file hashes appear in security telemetry, continuously correlating intelligence against observed activity and surfacing matches for investigation. Because GTI provides struc
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence
+  - Published: 2026-06-02T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence
+  - Summary: Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.
 
 ### Cluster ad4a52246a — score 8
 
