@@ -6,9 +6,36 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 78 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 07 Jun 2026 18:11:06 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 20:19:23 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Anyone else tired of chasing false positives from this one rule?</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1tzmfw2/anyone_else_tired_of_chasing_false_positives_from/</link>
+<description><![CDATA[My SIEM is drowning me in alerts for Rule ID 12345. It&apos;s always the same outbound traffic pattern. I&apos;ve tweaked the thresholds, but it&apos;s still noisy. Anyone found a way to make it smarter? submitted by /u/Data_Commission_7434 [link] [comments]]]></description>
+<pubDate>Sun, 07 Jun 2026 20:02:45 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1tzmfw2/anyone_else_tired_of_chasing_false_positives_from/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>UPnPHostFileRead: Arbitrary file read exploit for the Windows UPnP Device Host service.</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1tzlpu8/upnphostfileread_arbitrary_file_read_exploit_for/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sun, 07 Jun 2026 19:35:01 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1tzlpu8/upnphostfileread_arbitrary_file_read_exploit_for/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>Bypassed enterprise DLP (Netskope) using only native Windows CMD and a PNG file — full writeup with mitigation</title>
+<link>https://www.reddit.com/r/AskNetsec/comments/1tzlkzi/bypassed_enterprise_dlp_netskope_using_only/</link>
+<description><![CDATA[Documented a data exfiltration technique that bypasses Netskope&apos;s default inspection by exploiting recursion depth limitations via file nesting. The chain: secret.txt → zipped → binary appended into PNG via copy /b → embedded into PPTX. Three layers deep — beyond Netskope&apos;s default inspection threshold. No additional software needed on the source machine, no admin rights required. Also found a low-cost detection path — anomalous metadata extensions (.txtux, .ux) surface during standard inspection without increasing recursion depth. Full writeup with reproduction steps, binwalk forensics, and a dual-layer mitigation using SentinelOne behavioral rules + Netskope metadata rules. https://github.com/YuvaBhargav/DLP-Bypass-Research Happy to answer questions or get torn apart — genuinely want to know if there are gaps in the mitigation logic? submitted by /u/kehndi-hundi_si [link] [comments]]]></description>
+<pubDate>Sun, 07 Jun 2026 19:29:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1tzlkzi/bypassed_enterprise_dlp_netskope_using_only/</guid>
+<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>EDRChoker: A tool uses the QoS Policy (Pacer.sys) to throttle Endpoint Detection and Response (EDR) agents from connecting to the server.</title>
 <link>https://www.reddit.com/r/blueteamsec/comments/1tzhyo7/edrchoker_a_tool_uses_the_qos_policy_pacersys_to/</link>
@@ -48,15 +75,6 @@
 <category>Silent Ransom Group</category>
 <category>ransomware_extortion</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>How To Avoid Potential Malware From Transferring To New Laptop</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1tzbeqd/how_to_avoid_potential_malware_from_transferring/</link>
-<description><![CDATA[Sorry if wrong sub Hi, so I just upgraded a new laptop and wanted to ask how to avoid transferring potential malware on my old laptop to the new one. I say potential cuz I wasn&apos;t too safe with my old laptop but there isn&apos;t any malware signs and full scan came clean so it&apos;s just more of a what if. If assuming my old laptop has malware, and I cannot reinstall windows on it, what can I do. I can&apos;t reinstall windows because it was a shared laptop with my mom and even after telling her I&apos;ll do it or the risk of malware she doesn&apos;t care and won&apos;t let me reinstall windows on it and I can&apos;t do anything now since its no longer mine. So in that case, what else can I do to keep my new one safe? I don&apos;t plan on transferring any files through USB or a hard drive to the new laptop, not even images. I only plan to log into my accounts like steam (steam cloud?), google, Microsoft on the new laptop. TLDR: Upgrading to new laptop, old laptop MAY have malware, can&apos;t reinstall on old laptop due to reasons]]></description>
-<pubDate>Sun, 07 Jun 2026 12:55:27 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1tzbeqd/how_to_avoid_potential_malware_from_transferring/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>How To Avoid Potential Malware From Transferring To New Laptop</title>
@@ -212,15 +230,6 @@
 <category>Apple iOS/macOS</category>
 </item>
 <item>
-<title>Looking for guidance</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1tyo5p3/looking_for_guidance/</link>
-<description><![CDATA[Hello all. I’ve worked security jobs on and off throughout my life time(31 now BTW.) The real basic ones. Like in department and grocery stores. I’ve recently got into a Control Room/SOC position that I enjoy. (Not the typical SOC. More focused on watching cameras.) I’ve since taken up an interest in CyberSecurity and learned about a site called Asis. Does any one have experience with being a member and getting certifications through this company? How was it? submitted by /u/CreativeInOrbit95 [link] [comments]]]></description>
-<pubDate>Sat, 06 Jun 2026 17:59:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1tyo5p3/looking_for_guidance/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Before you attempt any OffSec certification, read what just happened to me</title>
 <link>https://www.reddit.com/r/cybersecurity/comments/1tym8c9/before_you_attempt_any_offsec_certification_read/</link>
 <description><![CDATA[OffSec revoked my OSEP certification after 7 months with zero evidence and no right to appeal. Here is my full story. I passed my OSEP exam in November 2025. 44 hours. Proctor had zero concerns. Certification granted. Then in April 2026, seven months later, I received an investigation email citing indications of remote assistance. I asked twice for specifics. What did you observe? What evidence exists? Both times I received the exact same copy-pasted reply with zero details. On June 5, 2026 I received their final decision: Certification revoked. Account permanently banned. Their official reason after a 7-month investigation: &quot;Collaborating with third-parties. This can include remote session help, phone usage as well as sharing or using shared exam materials.&quot; CAN INCLUDE. After 7 months they still have not told me which specific thing I supposedly did. No logs. No recordings. No timestamps. No screenshots. Not a single piece of evidence disclosed at any point. And their final line: the]]></description>
@@ -276,15 +285,6 @@
 <description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
 <pubDate>Sat, 06 Jun 2026 12:34:07 +0000</pubDate>
 <guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1tyg3w6/game_over_weedhack_the_rise_of_minecraft/</guid>
-<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>PoisonXドライバを用いた日本組織への攻撃キャンペーン - Attack campaign against Japanese organizations using PoisonX driver</title>
-<link>https://www.reddit.com/r/blueteamsec/comments/1tyfyrq/poisonxドライバを用いた日本組織への攻撃キャンペーン_attack_campaign/</link>
-<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
-<pubDate>Sat, 06 Jun 2026 12:27:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1tyfyrq/poisonxドライバを用いた日本組織への攻撃キャンペーン_attack_campaign/</guid>
 <source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
 <category>reddit_practitioner_osint</category>
 </item>
@@ -479,15 +479,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>npm</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>I fell for the cybersecurity degree trap and thought I could beat the job market, I could not. Not sure what to do now</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1txr7p2/i_fell_for_the_cybersecurity_degree_trap_and/</link>
-<description><![CDATA[Just posting my story to get some thoughts on my situation from the wider community outside of my peers. I know I&apos;m beating a dead horse with the job market post but just hope I get some good feedback or see some good discussion. I graduated in early May with a B.S. in Cybersecurity, and have spent all my free time over the past 4 years saying yes to as many opportunities as I could hoping I&apos;d be able to land a job right out the gate. I have 4 years of OSINT-based CTI experience, primarily focused on translating unstructured OSINT to MITRE ATT&amp;CK matrix data and correctly attributing it to threat actors and tools. 3 years of full-stack Python/Angular dev experience concurrent with the CTI work, and I managed to work my way up the university research lab ladder to be a mentor/team lead for about 30 undergrads. Got my Magnet Forensics MCFE cert through coursework, regularly presented my team&apos;s research to multiple C-suite execs, federal, and state law enforcement at both general research]]></description>
-<pubDate>Fri, 05 Jun 2026 17:15:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1txr7p2/i_fell_for_the_cybersecurity_degree_trap_and/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum</title>
@@ -733,15 +724,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jun/5/andreas-kling/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>PLEASE can some explain to me why Claude + ANYTHING cyber is a good thing?</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1txg0p3/please_can_some_explain_to_me_why_claude_anything/</link>
-<description><![CDATA[Having been at InfoSec 2026 in London, my mind is melting. I&apos;m just a dumb salesperson, but I REALLY REALLY need someone to explain something to me, so that I can understand it... Every single product/service that I saw in London was &lt;insert here an AI/LLM&gt; powered - so everything is powered by an LLM. Having had my ear chewed off by some yank about how amazing their new SOC/SIEM/SOAR product now is and how they could now run investigations instantly and....yada...yada...yada... &quot;Sounds incredible. So what LLM are you using to power all of this?&quot; &quot;Claude&quot; &quot;Cool, so what&apos;s going on with my data? Have you managed to split and protect the control plane and user plane data? So all of my alerts/logs aren&apos;t going to become training data for Claude, for some 12-year-old to break some guard rails and then find all my weak spots?&quot; &quot;I&apos;m not sure actually...&quot; --- I use Claude/Gemini/GPT - chat and coding extensively, daily. These models still CANNOT accurately remember the 1st, the 500,000th, and]]></description>
-<pubDate>Fri, 05 Jun 2026 09:33:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1txg0p3/please_can_some_explain_to_me_why_claude_anything/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Cisco SD-WAN 0-day exploited, no patch available (CVE-2026-20245)</title>
@@ -1177,16 +1159,6 @@
 <category>Apple iOS/macOS</category>
 <category>Palo Alto Networks</category>
 <category>web_shell_backdoor</category>
-</item>
-<item>
-<title>Does anyone use rule feeds in 2026?</title>
-<link>https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/</link>
-<description><![CDATA[We’re considering investing in a few paid rule feeds to save time on building and maintaining detections from scratch, but I’m not sure whether they provide enough value. There are so many public sources available now: threat reports, blogs, GitHub repositories, and detection content from all kinds of vendors and researchers. If you’ve invested in paid rule feeds, could you share your experience? Which types of rules have delivered the most value for your team? submitted by /u/minfrihet [link] [comments]<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Thu, 04 Jun 2026 11:15:32 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/</guid>
-<source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
-<category>reddit_practitioner_osint</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Hacking Meta’s AI Chatbot</title>
@@ -2663,7 +2635,7 @@
 <item>
 <title>Cloud CISO Perspectives: How to build an AI-ready security program for the public sector</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-to-build-an-ai-ready-security-program-for-the-public-sector/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for May 2026. Today, Usman Chaudhary, Field CISO, Google Public Sector, offers a guide for CISOs protecting government agencies and critical infrastructure on how to get started — and get the most out of — defending with AI. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f6a7daba820&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to build an AI-ready security program for the public sector By Us]]></description>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for May 2026. Today, Usman Chaudhary, Field CISO, Google Public Sector, offers a guide for CISOs protecting government agencies and critical infrastructure on how to get started — and get the most out of — defending with AI. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff17e871af0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to build an AI-ready security program for the public sector By Us]]></description>
 <pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-to-build-an-ai-ready-security-program-for-the-public-sector/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -3170,7 +3142,7 @@
 <description><![CDATA[Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Thu, 28 May 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 </item>
@@ -3180,7 +3152,7 @@
 <description><![CDATA[Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Thu, 28 May 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 </item>
@@ -10527,7 +10499,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fed4a42ca90&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fed4c9a61f0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -21162,7 +21134,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21171,7 +21143,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21180,7 +21152,7 @@
 <title>How to Stop AI-Driven Data Loss</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21189,7 +21161,7 @@
 <title>CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21198,7 +21170,7 @@
 <title>CrowdStrike Scales AI-Native Agents Across Falcon Exposure Management with NVIDIA</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21207,7 +21179,7 @@
 <title>Secure Shadow AI at the Control Plane with Falcon for IT</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21216,7 +21188,7 @@
 <title>CrowdStrike Named a Leader in 2026 Gartner® Magic Quadrant™ for Endpoint Protection for Seventh Consecutive Time</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21225,7 +21197,7 @@
 <title>Shadow AI: The Hidden Risk Expanding Across the Enterprise</title>
 <link>https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21234,7 +21206,7 @@
 <title>CrowdStrike Named a Leader in Identity Threat Detection and Response</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21243,7 +21215,7 @@
 <title>Disrupting Glassworm: Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 18:11:06 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 20:19:23 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
