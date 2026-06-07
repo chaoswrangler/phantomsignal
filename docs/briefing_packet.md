@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-07T09:26:50.358155+00:00
+- Generated: 2026-06-07T11:55:03.875416+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 72
-- Total items in window: 415
-- Total clusters raw: 155
-- Total clusters in packet: 60
+- Total items in window: 416
+- Total clusters raw: 156
+- Total clusters in packet: 61
 - Dropped low score: 95
 - Dropped overflow: 0
 
@@ -85,21 +85,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
@@ -110,36 +105,41 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 4
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -155,38 +155,33 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -195,36 +190,46 @@
   - Status: ok
   - Item count: 50
   - In window count: 4
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -245,21 +250,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -280,16 +280,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -305,21 +305,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -330,16 +320,26 @@
   - Status: ok
   - Item count: 30
   - In window count: 17
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -350,46 +350,46 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -400,11 +400,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 14
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -415,6 +410,11 @@
   - Status: ok
   - Item count: 25
   - In window count: 24
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 15
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -425,36 +425,36 @@
   - Status: ok
   - Item count: 25
   - In window count: 25
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 24
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 25
   - In window count: 25
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 25
+  - In window count: 24
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 25
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -579,6 +579,29 @@
   - https://www.huntress.com/blog/unpatched-ntlm-coercion-windows-search-uri-handler
   - https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection
 
+### data breach targeting WordPress
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 3
+- Article count: 8
+- Cohesion: 0.379
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: data_breach
+  - affected_industries: government
+  - affected_products: WordPress, Anthropic/Claude, Linux kernel
+  - urgency_signals: no_patch_yet, poc_available
+- Cluster IDs: b55205ddd6, 4c73edce77, c61f79fa63
+- Links:
+  - https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/
+  - https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
+  - https://www.exploit-db.com/exploits/52609
+  - https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
+  - https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/
+  - https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/
+
 ### Cisco active exploitation
 - Anchor signal: Cisco
 - Theme key: cisco
@@ -639,6 +662,26 @@
   - https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
   - https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
 
+### data breach targeting Linux kernel
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.339
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: data_breach
+  - affected_industries: government
+  - affected_products: Linux kernel, Anthropic/Claude, WordPress
+  - urgency_signals: no_patch_yet, poc_available
+- Cluster IDs: d90bf7fe85, 4c73edce77, c61f79fa63
+- Links:
+  - https://securelist.com/container-attack-vectors/120010/
+  - https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/
+  - https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/
+
 ### Microsoft 365 vulnerability activity
 - Anchor signal: Microsoft 365
 - Theme key: microsoft-365
@@ -657,26 +700,6 @@
   - https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
   - https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
   - https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash
-
-### data breach targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: data_breach
-  - affected_products: WordPress
-- Cluster IDs: b55205ddd6, c61f79fa63
-- Links:
-  - https://orca.security/resources/blog/kirki-wordpress-plugin-vulnerability-cve-2026-8206/
-  - https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html
-  - https://www.exploit-db.com/exploits/52609
-  - https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/
-  - https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/
 
 ### CVE-2026-33829 exploitation activity
 - Anchor signal: CVE-2026-33829
@@ -716,30 +739,12 @@
   - https://www.reddit.com/r/AskNetsec/comments/1twklcc/does_anyone_use_rule_feeds_in_2026/
   - https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.769
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, data_breach
-  - actor_attribution: ShinyHunters
-- Cluster IDs: 0069d5f28f, 2862572eb6
-- Links:
-  - https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
-  - https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/
-
 ## Forward signals
 
 ### Novelty
 - Novel cves: 0
 - Novel actors: 0
-- Novel products: 1
-  - Ubiquiti UniFi (first seen via Reddit r/blueteamsec at 2026-06-07T06:07:00+00:00, cluster c5ca4202ee)
+- Novel products: 0
 
 ### Velocity bursts (0)
 
@@ -2611,6 +2616,53 @@ Page content Public skill marketplaces are being flooded with malicious skills t
   - Link: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
   - Summary: Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skill scanner , and all three of the scanners integrated into skills.sh . These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills , using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some trial and error. Our findings demonstrate that even when skill scanners have some defenses, their static nature gives an adversary unlimited bites at the apple to tweak an attack until it finds a w
 
+### Cluster 4c73edce77 — score 10
+
+- Title: Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-07T11:30:00+00:00
+- Link: https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: government
+- affected_products: Anthropic/Claude, Linux kernel, WordPress
+- urgency_signals: no_patch_yet, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: government
+- affected_products: Linux kernel, WordPress, Anthropic/Claude
+- urgency_signals: no_patch_yet, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Emphere’s solution delivers AI-driven remediation to software companies to speed up releases. The post Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Emphere, a Seattle cybersecurity startup building an AI-driven vulnerability remediation platform, this week announced raising $2.1 million in pre-seed funding from AI2 Incubator and Outsiders Fund. The startup’s approach to vulnerability remediation falls in line with modern software development trends, where code is no longer built from scratch but assembled from open source packages, runtimes, dependencies, and OS layers. Any vulnerability in these components, Emphere says, is the shipping company’s or the vendor’s problem, even if they did not write a single line of code. The startup aims to resolve the infrastructure problem of addressing the discovered security defects without breaking something downstream or getting blocked by security tools. Emphere ‘s AI platform analyzes the software dependency graph to understand what is exploitable and applies bug fixes automatically. What the startup’s solution brings to the table is not automation but the ability to understand dependencies and make confident, safe remediation possible at scale. It executes patches, validates them, and ships results, Emphere says. Advertisement. Scroll to continue reading. “Security got very good at finding the problem. Remediation is where teams are drowning. The volume has crossed a threshold where manual processes simply stop working, and AI is finally capable enough to do something about it,” said Emphere co-founder and CEO Ankit Kumar. Emphere will use the early-stage investment to accelerate the development of its AI-powered platform and grow its customer base, focusing on software companies looking to deliver faster releases. In the long term, the company wants to grow its platform to cover the entire surface of modern software development. Related: Lastwall Raises $11.5 Million for Quantum-Resilient Identity Platform Related: Ocean Emerges From Stealth With $28M for Agentic Email Security Platform Related: Socket Raises $60 Million at $1 Billion Valuation Related: Quantum Bridge Raises $8 Million for Quantum-Safe Key Distribution Solution Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Mirasvit Vulnerability Exploited to Execute Code on Magento Servers Chinese Cybercrime Group in Spotlight for Record Campaign Pace Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown Cisco Warns of Available PoC for Critical Unified CM Vulnerability Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs IMA Diligence Services Data Breach Impacts 525,000 People Organizations Warned of Exploited Linux Kernel Vulnerability ‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds Latest News Opal Security Raises $23 Million for AI-Native Identity Governance OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA Hackers Leak DentaQuest Information Impacting 2.6 Million Chrome 149 Patches 429 Vulnerabilities Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 20
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation
+  - Published: 2026-06-07T11:30:00+00:00
+  - Link: https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/
+  - Summary: Emphere’s solution delivers AI-driven remediation to software companies to speed up releases. The post Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation appeared first on SecurityWeek .
+
 ### Cluster cc667f540f — score 10
 
 - Title: In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA
@@ -2828,6 +2880,49 @@ For a few days, my SANS ISC mailbox is flooded with emails that delivers SVG fil
   - Link: https://isc.sans.edu/diary/rss/33040
   - Summary: For a few days, my SANS ISC mailbox is flooded with emails that delivers SVG files. An SVG ("Scalable Vector Graphic") is a web-friendly vector file format used for graphics and icons. No URL in the body, just â€œan imageâ€, that's the perfect way to deliver some malicious content. This isn't the first time that we see this technique used by threat actors[ 1 ].
 
+### Cluster 0069d5f28f — score 9
+
+- Title: 1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever
+- Source: Troy Hunt (practitioner_analysis)
+- Published: 2026-06-01T08:22:52+00:00
+- Link: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: ShinyHunters
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: ShinyHunters
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations
+```
+
+#### Full body
+
+```
+Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations such as GDPR and CCPA in the 12 and a half years since I started HIBP, what possible purpose does it still serve? The title kinda gives the answer away, and the big number we hit today coincided with another pattern that makes everything worse: increasingly long lag times for disclosure. This is all going to be anecdotal, and as far as I know, there are no hard numbers for me to cite, but the evidence is everywhere. Here's what I mean: New breach: Cruise operator Carnival was targeted in a ShinyHunters “pay or leak” attack last week. 8.7M records with 7.5M email addresses and loyalty program data were published yesterday. 85% were already in @haveibeenpwned . Read more: https://t.co/QhqNt0WucV — Have I Been Pwned (@haveibeenpwned) April 24, 2026 That was the 24th of April, five days after news of the incident had broken . Given ShinyHunters' MO, Carnival would have known about the breach many days before they ratcheted up extortion pressure by announcing the impending leak on their website. The subsequent leak on the 24th was very public: an announcement was posted to the group's dark-web site, the data itself was published to their clear-web site, and industry commentary followed: 🚨 Massive Data Breach Carnival Corporation ( https://t.co/pGlchZ1yFy ) reportedly impacted — 8.7M+ customer records exposed 📊 Alleged data includes: • Full names & email addresses • Dates of birth & gender • Location data & loyalty program details 🎯 Linked to ShinyHunters… pic.twitter.com/Fd8tNFPqpd — Intel and Breaches (@IBreaches) April 24, 2026 Per that last post, the data was then reposted to all sorts of other places: hacking forums, Telegram channels, and who knows how many other, more private locations. The point is that it spread quickly, extensively, and, without any shadow of a doubt, Carnival were aware of this. They then told people about it on the 27th... of May . According to their press release that same day , this was 43 days after learning about the incident. For more than 6 weeks, data breach victims whose names, dates of birth, email addresses, loyalty program details and, of course, their association with Carnival leaked to the public en masse had absolutely no idea of their exposure. And if they asked Carnival about it? Well: As recently as four days ago, we heard “I’m in the breach per HIBP, but Carnival is telling me there’s no breach!” pic.twitter.com/YYmGm3NzEY — Troy Hunt (@troyhunt) May 28, 2026 So, why the delay? Last week's press coverage may give some insight: thorough and time-consuming analysis of the impacted data Often, the reason I hear for disclosure lag is "we needed to fully assess the scope of exposed data before notifying people". The issue I have with this position is that it implies that even an early heads-up can't happen until there's a very comprehensive understanding of the impact. There are many things that take time to establish after a data breach: the jurisdiction each individual sits in, the precise data that was exposed about them and additional information that may be buried in terabytes of exfiltrated data in all sorts of different formats. But pulling out email addresses and sending early notification is very easy - I've literally done it a thousand times now. This isn't just a Carnival issue; in fact, it was off the back of this next one only a few days later that I was prompted to write this post: FFS. 45 days. Even worse than Carnival. And like Carnival, very broadly distributed and easily accessible by the masses, including HIBP: New breach: Zara was named as a ShinyHunters victim last month, after which data containing 197k unique email addresses was published. Impacted data included customer support
+```
+
+#### Corroborating sources (1)
+
+- **Troy Hunt** (practitioner_analysis)
+  - Title: 1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever
+  - Published: 2026-06-01T08:22:52+00:00
+  - Link: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
+  - Summary: Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations
+
 ### Cluster f7820a3d5f — score 9
 
 - Title: Vulnerability Disclosure in the Age of AI
@@ -2872,49 +2967,6 @@ Clive Robinson • June 1, 2026 3:02 PM @ ALL, For those that read through the a
   - Published: 2026-06-01T16:49:39+00:00
   - Link: https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html
   - Summary: New article: “ Responsible Disclosure in the Age of AI: A Call for Urgent Action ,” by Melissa Hathaway. Abstract: Artificial intelligence is fundamentally reshaping the balance between vulnerability discovery and remediation. Frontier AI models are now capable of autonomously identifying exploitable software vulnerabilities at unprecedented speed and scale. This development exposes decades of accumulated technical debt created by a software industry that prioritized rapid deployment over secure-by-design engineering practices. Drawing on the evolution of software assurance, vulnerability disclosure frameworks, and U.S. cyber policy, this perspective argues that the current moment represents a strategic inflection point for governments, industry, and critical infrastructure operators. The author examines the growing tension between offensive and defensive equities in cyberspace, the emergence of AI-enabled vulnerability discovery capabilities in both the U.S. and China, and the increas
-
-### Cluster 0069d5f28f — score 9
-
-- Title: 1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever
-- Source: Troy Hunt (practitioner_analysis)
-- Published: 2026-06-01T08:22:52+00:00
-- Link: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- actor_attribution: ShinyHunters
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- actor_attribution: ShinyHunters
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations
-```
-
-#### Full body
-
-```
-Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations such as GDPR and CCPA in the 12 and a half years since I started HIBP, what possible purpose does it still serve? The title kinda gives the answer away, and the big number we hit today coincided with another pattern that makes everything worse: increasingly long lag times for disclosure. This is all going to be anecdotal, and as far as I know, there are no hard numbers for me to cite, but the evidence is everywhere. Here's what I mean: New breach: Cruise operator Carnival was targeted in a ShinyHunters “pay or leak” attack last week. 8.7M records with 7.5M email addresses and loyalty program data were published yesterday. 85% were already in @haveibeenpwned . Read more: https://t.co/QhqNt0WucV — Have I Been Pwned (@haveibeenpwned) April 24, 2026 That was the 24th of April, five days after news of the incident had broken . Given ShinyHunters' MO, Carnival would have known about the breach many days before they ratcheted up extortion pressure by announcing the impending leak on their website. The subsequent leak on the 24th was very public: an announcement was posted to the group's dark-web site, the data itself was published to their clear-web site, and industry commentary followed: 🚨 Massive Data Breach Carnival Corporation ( https://t.co/pGlchZ1yFy ) reportedly impacted — 8.7M+ customer records exposed 📊 Alleged data includes: • Full names & email addresses • Dates of birth & gender • Location data & loyalty program details 🎯 Linked to ShinyHunters… pic.twitter.com/Fd8tNFPqpd — Intel and Breaches (@IBreaches) April 24, 2026 Per that last post, the data was then reposted to all sorts of other places: hacking forums, Telegram channels, and who knows how many other, more private locations. The point is that it spread quickly, extensively, and, without any shadow of a doubt, Carnival were aware of this. They then told people about it on the 27th... of May . According to their press release that same day , this was 43 days after learning about the incident. For more than 6 weeks, data breach victims whose names, dates of birth, email addresses, loyalty program details and, of course, their association with Carnival leaked to the public en masse had absolutely no idea of their exposure. And if they asked Carnival about it? Well: As recently as four days ago, we heard “I’m in the breach per HIBP, but Carnival is telling me there’s no breach!” pic.twitter.com/YYmGm3NzEY — Troy Hunt (@troyhunt) May 28, 2026 So, why the delay? Last week's press coverage may give some insight: thorough and time-consuming analysis of the impacted data Often, the reason I hear for disclosure lag is "we needed to fully assess the scope of exposed data before notifying people". The issue I have with this position is that it implies that even an early heads-up can't happen until there's a very comprehensive understanding of the impact. There are many things that take time to establish after a data breach: the jurisdiction each individual sits in, the precise data that was exposed about them and additional information that may be buried in terabytes of exfiltrated data in all sorts of different formats. But pulling out email addresses and sending early notification is very easy - I've literally done it a thousand times now. This isn't just a Carnival issue; in fact, it was off the back of this next one only a few days later that I was prompted to write this post: FFS. 45 days. Even worse than Carnival. And like Carnival, very broadly distributed and easily accessible by the masses, including HIBP: New breach: Zara was named as a ShinyHunters victim last month, after which data containing 197k unique email addresses was published. Impacted data included customer support
-```
-
-#### Corroborating sources (1)
-
-- **Troy Hunt** (practitioner_analysis)
-  - Title: 1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever
-  - Published: 2026-06-01T08:22:52+00:00
-  - Link: https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/
-  - Summary: Today, I loaded the 1,000th data breach into Have I Been Pwned . Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations
 
 ### Cluster f3e7dda1b9 — score 9
 
@@ -3227,18 +3279,18 @@ Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook 
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, zero_day
+- threat_categories: data_breach, ransomware_extortion
 - affected_industries: government
 - affected_products: Anthropic/Claude, Linux kernel, WordPress
-- urgency_signals: no_patch_yet, poc_available, zero_day
+- urgency_signals: no_patch_yet, poc_available
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach
+- threat_categories: ransomware_extortion, data_breach
 - affected_industries: government
 - affected_products: Linux kernel, WordPress, Anthropic/Claude
-- urgency_signals: zero_day, no_patch_yet, poc_available
+- urgency_signals: no_patch_yet, poc_available
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3251,7 +3303,7 @@ The ShinyHunters extortion group leaked roughly 234 GB of data allegedly stolen 
 #### Full body
 
 ```
-The ShinyHunters extortion group has published over 230 gigabytes of data allegedly stolen from dental benefits administrator DentaQuest. The threat actor listed DentaQuest on its Tor-based leak site last month, claiming negotiations with the company failed, and leaking a 234 GB archive containing allegedly stolen data. DentaQuest data breach According to data breach notification website HaveIBeenPwned , which added the information to its database, the leak impacts roughly 2.6 million accounts. The dataset includes names, addresses, email addresses, phone numbers, dates of birth, government-issued IDs, and health insurance information. This week, DentaQuest confirmed falling victim to a cyberattack, saying it was working with external cybersecurity experts to determine the scope of the incident and what data might have been compromised. “DentaQuest is actively managing a cybersecurity incident involving unauthorized access to a limited portion of our network. Upon discovery of the initial incident, we took immediate action to secure our environment, contain the attack and mitigate the threat,” the company said. The benefits administrator said it has notified the relevant authorities of the attack, but did not share details on how the incident occurred or who was behind it. Advertisement. Scroll to continue reading. SecurityWeek has emailed DentaQuest for additional information on the attack and will update this article if the company responds. A Sun Life subsidiary, DentaQuest is one of the largest administrators of dental benefits in the US, serving 35 million people in 50 states. Related: Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Related: IMA Diligence Services Data Breach Impacts 525,000 People Related: Charter Communications Data Breach Could Impact Nearly 5 Million Related: California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Mirasvit Vulnerability Exploited to Execute Code on Magento Servers Chinese Cybercrime Group in Spotlight for Record Campaign Pace Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown Cisco Warns of Available PoC for Critical Unified CM Vulnerability Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs IMA Diligence Services Data Breach Impacts 525,000 People Organizations Warned of Exploited Linux Kernel Vulnerability ‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds Latest News Opal Security Raises $23 Million for AI-Native Identity Governance OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA Chrome 149 Patches 429 Vulnerabilities Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 Explore how attackers are using AI to scale threats and how security teams can respond with AI-driven defenses. Protecting
+The ShinyHunters extortion group has published over 230 gigabytes of data allegedly stolen from dental benefits administrator DentaQuest. The threat actor listed DentaQuest on its Tor-based leak site last month, claiming negotiations with the company failed, and leaking a 234 GB archive containing allegedly stolen data. DentaQuest data breach According to data breach notification website HaveIBeenPwned , which added the information to its database, the leak impacts roughly 2.6 million accounts. The dataset includes names, addresses, email addresses, phone numbers, dates of birth, government-issued IDs, and health insurance information. This week, DentaQuest confirmed falling victim to a cyberattack, saying it was working with external cybersecurity experts to determine the scope of the incident and what data might have been compromised. “DentaQuest is actively managing a cybersecurity incident involving unauthorized access to a limited portion of our network. Upon discovery of the initial incident, we took immediate action to secure our environment, contain the attack and mitigate the threat,” the company said. The benefits administrator said it has notified the relevant authorities of the attack, but did not share details on how the incident occurred or who was behind it. Advertisement. Scroll to continue reading. SecurityWeek has emailed DentaQuest for additional information on the attack and will update this article if the company responds. A Sun Life subsidiary, DentaQuest is one of the largest administrators of dental benefits in the US, serving 35 million people in 50 states. Related: Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Related: IMA Diligence Services Data Breach Impacts 525,000 People Related: Charter Communications Data Breach Could Impact Nearly 5 Million Related: California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Mirasvit Vulnerability Exploited to Execute Code on Magento Servers Chinese Cybercrime Group in Spotlight for Record Campaign Pace Over 1.4 Million Accounts Disrupted in Cybercrime Crackdown Cisco Warns of Available PoC for Critical Unified CM Vulnerability Kirki, Burst Statistics WordPress Plugin Flaws in Attackers’ Crosshairs IMA Diligence Services Data Breach Impacts 525,000 People Organizations Warned of Exploited Linux Kernel Vulnerability ‘HTTP/2 Bomb’ Exploit Knocks Web Servers Offline in Seconds Latest News Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation Opal Security Raises $23 Million for AI-Native Identity Governance OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA Chrome 149 Patches 429 Vulnerabilities Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 Explore how attackers are using AI to scale threats and how security teams can respond with AI-driven defe
 ```
 
 #### Corroborating sources (1)
@@ -3274,18 +3326,18 @@ The ShinyHunters extortion group has published over 230 gigabytes of data allege
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, credential_theft, data_breach, ransomware_extortion, zero_day
+- threat_categories: apt_espionage, credential_theft, data_breach, ransomware_extortion, zero_day
 - affected_industries: government, legal_professional, manufacturing_industrial
 - affected_products: Anthropic/Claude, GitHub, Google/Gemini
-- urgency_signals: actively_exploited, no_patch_yet, zero_day
+- urgency_signals: no_patch_yet, zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, credential_theft, zero_day, data_breach, apt_espionage, active_exploitation
+- threat_categories: ransomware_extortion, credential_theft, zero_day, data_breach, apt_espionage
 - affected_industries: government, manufacturing_industrial, legal_professional
 - affected_products: Anthropic/Claude, Google/Gemini, GitHub
-- urgency_signals: actively_exploited, zero_day, no_patch_yet
+- urgency_signals: zero_day, no_patch_yet
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3298,7 +3350,7 @@ The company detected a network intrusion in March and an investigation showed th
 #### Full body
 
 ```
-Adult nightclub giant RCI Hospitality Holdings has informed authorities that a data breach disclosed in April affects roughly 40,000 individuals. RCI Hospitality is one of the largest adult nightclub operators in the United States, and its portfolio also includes sports bars and dance clubs. The company told the SEC in mid-April that its RCI Internet Services subsidiary discovered an insecure direct object reference (IDOR) vulnerability on March 23 in an IIS web server, allowing unauthorized access to personal information . IDOR vulnerabilities can be exploited by an attacker to access data by changing a value in a URL or a request. For instance, a user logged into ‘account=101’ can change the URL to ‘account=102’ and access another user’s private information. RCI said at the time that the information of “numerous” independent contractors was exposed, including names, contact information, dates of birth, SSNs, and driver’s license numbers. Notification letters sent to affected individuals indicate that a review of the stolen files was completed on May 13. The FBI has been informed and RCI says it will cooperate with any resulting investigation. Advertisement. Scroll to continue reading. The company told the Maine Attorney General this week that more than 40,000 individuals are affected. It’s unclear who was behind the attack. No known ransomware group appears to have taken credit for hacking RCI. Related : IMA Diligence Services Data Breach Impacts 525,000 People Related : California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach Related : Charter Communications Data Breach Could Impact Nearly 5 Million Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Gemini Voice Assistant Hijacked via Messaging Notifications VS Code Vulnerability Allows One-Click GitHub Token Theft Coralogix Raises $200M at $1.6B Valuation to Scale AI Observability Platform Hackers Target Global Stock Exchange in Espionage Operation Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash Android Update Patches Exploited Zero-Day, 123 Other Vulnerabilities Anthropic Expanding Mythos Access to 150 New Organizations Oracle WebLogic Vulnerability Exploited in the Wild Latest News Opal Security Raises $23 Million for AI-Native Identity Governance OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA Hackers Leak DentaQuest Information Impacting 2.6 Million Chrome 149 Patches 429 Vulnerabilities Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 Explore how attackers are using AI to scale threats and how security teams can respond with AI-driven defenses. Protecting against unmonitored use of g
+Adult nightclub giant RCI Hospitality Holdings has informed authorities that a data breach disclosed in April affects roughly 40,000 individuals. RCI Hospitality is one of the largest adult nightclub operators in the United States, and its portfolio also includes sports bars and dance clubs. The company told the SEC in mid-April that its RCI Internet Services subsidiary discovered an insecure direct object reference (IDOR) vulnerability on March 23 in an IIS web server, allowing unauthorized access to personal information . IDOR vulnerabilities can be exploited by an attacker to access data by changing a value in a URL or a request. For instance, a user logged into ‘account=101’ can change the URL to ‘account=102’ and access another user’s private information. RCI said at the time that the information of “numerous” independent contractors was exposed, including names, contact information, dates of birth, SSNs, and driver’s license numbers. Notification letters sent to affected individuals indicate that a review of the stolen files was completed on May 13. The FBI has been informed and RCI says it will cooperate with any resulting investigation. Advertisement. Scroll to continue reading. The company told the Maine Attorney General this week that more than 40,000 individuals are affected. It’s unclear who was behind the attack. No known ransomware group appears to have taken credit for hacking RCI. Related : IMA Diligence Services Data Breach Impacts 525,000 People Related : California Sues 23andMe, Alleging It Failed to Protect User Data in 2023 Breach Related : Charter Communications Data Breach Could Impact Nearly 5 Million Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 Gemini Voice Assistant Hijacked via Messaging Notifications VS Code Vulnerability Allows One-Click GitHub Token Theft Coralogix Raises $200M at $1.6B Valuation to Scale AI Observability Platform Hackers Target Global Stock Exchange in Espionage Operation Microsoft Tries to Calm Legal Threat Fears After Zero-Day Disclosure Backlash Android Update Patches Exploited Zero-Day, 123 Other Vulnerabilities Anthropic Expanding Mythos Access to 150 New Organizations Latest News Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation Opal Security Raises $23 Million for AI-Native Identity Governance OWASP Incubator Project Helps Developers Find and Fix Vulnerable Dependencies in Seconds In Other News: Anthropic Maps AI Threats, Unpatched Comodo Flaw, Palantir Chief Eyed for CISA Hackers Leak DentaQuest Information Impacting 2.6 Million Chrome 149 Patches 429 Vulnerabilities Industry Reactions to New Trump AI Cybersecurity Executive Order: Feedback Friday Five Eyes: Chinese Spies Target Government, Military Staff With Fake Job Opportunities Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 Explore how attackers are using AI to scale threats and how security teams can respond with AI-driven defenses. Protecting against unm
 ```
 
 #### Corroborating sources (1)
@@ -3401,6 +3453,39 @@ Application Security Cyber Risk Cybersecurity Operations Vulnerabilities & Threa
   - Link: https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash
   - Summary: After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.
 
+### Cluster 00d498484a — score 8
+
+- Title: On May 31, 2026, Meta discovered that there was a vulnerability in an AI-assisted account recovery system for Instagram ("High Touch Support" or "HTS") that was exploited byun authorized third parties to perform password resets on Instagram user accounts.
+- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
+- Published: 2026-06-07T07:42:26+00:00
+- Link: https://www.reddit.com/r/blueteamsec/comments/1tz5q4q/on_may_31_2026_meta_discovered_that_there_was_a/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/digicat [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - Title: On May 31, 2026, Meta discovered that there was a vulnerability in an AI-assisted account recovery system for Instagram ("High Touch Support" or "HTS") that was exploited byun authorized third parties to perform password resets on Instagram user accounts.
+  - Published: 2026-06-07T07:42:26+00:00
+  - Link: https://www.reddit.com/r/blueteamsec/comments/1tz5q4q/on_may_31_2026_meta_discovered_that_there_was_a/
+  - Summary: submitted by /u/digicat [link] [comments]
+
 ### Cluster c2c858a455 — score 8
 
 - Title: Unauthenticated RCE as QSECOFR via IBM i Management Central — port 5555, client-controlled verify flag, no credentials required (V7R4 and earlier)
@@ -3435,39 +3520,6 @@ submitted by /u/dn3t [link] [comments]
   - Published: 2026-06-05T11:35:56+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/
   - Summary: submitted by /u/dn3t [link] [comments]
-
-### Cluster 00d498484a — score 8
-
-- Title: On May 31, 2026, Meta discovered that there was a vulnerability in an AI-assisted account recovery system for Instagram ("High Touch Support" or "HTS") that was exploited byun authorized third parties to perform password resets on Instagram user accounts.
-- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
-- Published: 2026-06-07T07:42:26+00:00
-- Link: https://www.reddit.com/r/blueteamsec/comments/1tz5q4q/on_may_31_2026_meta_discovered_that_there_was_a/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/digicat [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: On May 31, 2026, Meta discovered that there was a vulnerability in an AI-assisted account recovery system for Instagram ("High Touch Support" or "HTS") that was exploited byun authorized third parties to perform password resets on Instagram user accounts.
-  - Published: 2026-06-07T07:42:26+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1tz5q4q/on_may_31_2026_meta_discovered_that_there_was_a/
-  - Summary: submitted by /u/digicat [link] [comments]
 
 ### Cluster ac3891b02c — score 8
 
@@ -3522,20 +3574,18 @@ New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & C
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-02T11:58:00+00:00
 - Link: https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure
-- affected_products: Anthropic/Claude
+- threat_categories: active_exploitation
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: vulnerability_disclosure, active_exploitation
-- affected_products: Anthropic/Claude
+- threat_categories: active_exploitation
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -3543,12 +3593,6 @@ New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & C
 
 ```
 AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's
-```
-
-#### Full body
-
-```
-AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.  The Hacker News  Jun 02, 2026 Vulnerability Management / Enterprise Security AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry's main answer has largely been: patch faster. Regulators say it, boards expect it, and executives demand it. But for most enterprises, it is not a button defenders can press. Patching is a controlled process shaped by uptime requirements, stability testing, change windows, business approvals, compliance obligations, and the reality that production systems cannot be broken in the name of urgency. While patching is still essential, patching alone or even faster patching is no longer a complete answer to this "new normal" and influx of disclosed vulnerabilities. Anthropic's Project Glasswing update in May 2026 made the imbalance hard to ignore. The company said it, along with approximately 50 partners, used Claude Mythos Preview to identify more than 10,000 high- or critical-severity vulnerabilities across systemically important software in a single month, while many other organizations are reporting similar results with internal efforts, driven by AI. AI is industrializing vulnerability research, but not just for defenders or software vendors. Attackers are using the same tools, with the same speed advantage, to identify and reproduce vulnerabilities that are then used against the organizations they target. So, what does this mean for exploitation timelines and defense? The Bottleneck Has Moved It's no secret that exploitation timelines have been shrinking for years, and in recent years, it has not been uncommon for vulnerability disclosures to be followed by in-the-wild exploitation in single-digit hours . With AI, the window a large organization may have from being told there is a problem to seeing someone try to use it against them will only continue to compress. Remediation and patching, on the other hand, have not kept pace. The Verizon 2026 DBIR is clear on this point: the median time for an organization to patch a critical vulnerability increased year over year, from 32 days to 43 days. The reality is brutal: while attackers operate on timelines measured in hours, defenders operate on timelines measured in weeks. That gap is where exploitation actually happens. Yes, there are more vulnerabilities. Yes, attackers are moving faster. But the hardest part for defenders is that remediation isn't getting, and maybe can't get, faster. Telling organizations to "just patch faster" is like telling someone to "be taller." It sounds useful and well-intentioned, but it is not something most teams can simply decide to do. Then there is pressure coming from regulators. India's CERT-IN recently issued guidance pointing toward sub-day patching expectations for certain critical vulnerabilities. The intent is clear, but this ignores operational reality. The realistic view is that some vulnerabilities will be targeted before they can be fully remediated. Security teams need to plan around that reality without creating new operational risk. That means answering a few questions quickly: Do we use this technology? Is the vulnerability theoretical? Is the vulnerability exploitable within our environment? What would exploitation look like? What temporary controls can reduce risk while the normal patching cycle runs? The operating model needs to shift to preempt, validate and mitigate. And here's how to do it. Step 1: Preempt What Attackers Are Likely to Exploit Every disclosed vulnerability does not carry the same urgency. Some vulnerabilities will never become exploited in the real world. Others
 ```
 
 #### Corroborating sources (1)

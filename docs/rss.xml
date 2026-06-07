@@ -6,9 +6,42 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 72 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 07 Jun 2026 09:26:50 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Jun 2026 11:55:04 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Learn AI Security Through Hands-On Attack Labs</title>
+<link>https://www.reddit.com/r/netsecstudents/comments/1tz9ptk/learn_ai_security_through_handson_attack_labs/</link>
+<description><![CDATA[Hey r/netsec , I recently open-sourced DVAP (Damn Vulnerable AI Platform), a local-first AI security research and training platform designed to help researchers, red teamers, and defenders explore real-world AI security issues in a safe environment. GitHub: https://github.com/sonuoffsec/DVAP https://preview.redd.it/o2j031aoju5h1.png?width=1920&amp;format=png&amp;auto=webp&amp;s=afad921d010205c0d5d8549ab4ea514572065d37 What is DVAP? DVAP provides 15 intentionally vulnerable AI labs that run entirely on your machine using Docker and local Ollama models (Llama, Qwen, Gemma, and Mistral). The goal is to create a practical environment for learning, testing, and researching modern AI attack techniques without relying on cloud services or paid APIs. Labs include: Prompt Injection Memory Poisoning RAG Poisoning Tool Output Injection MCP Security Browser Agent Security Multi-Agent Security Autonomous Agent Attacks Data Exfiltration Identity &amp; Trust Abuse AI Banking AI Healthcare AI Supply Chain Multi-Tenan<br/><br/><em>Tags: supply_chain · ai_security</em>]]></description>
+<pubDate>Sun, 07 Jun 2026 11:32:58 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1tz9ptk/learn_ai_security_through_handson_attack_labs/</guid>
+<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
+<category>reddit_practitioner_osint</category>
+<category>supply_chain</category>
+<category>ai_security</category>
+</item>
+<item>
+<title>Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation</title>
+<link>https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/</link>
+<description><![CDATA[Emphere’s solution delivers AI-driven remediation to software companies to speed up releases. The post Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation appeared first on SecurityWeek .<br/><br/><em>Tags: Linux kernel · WordPress · Anthropic/Claude · data_breach</em>]]></description>
+<pubDate>Sun, 07 Jun 2026 11:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.securityweek.com/emphere-raises-2-1-million-for-ai-powered-vulnerability-remediation/</guid>
+<source url="https://www.securityweek.com/feed/">SecurityWeek</source>
+<category>cyber_news_breach_reporting</category>
+<category>Linux kernel</category>
+<category>WordPress</category>
+<category>Anthropic/Claude</category>
+<category>data_breach</category>
+</item>
+<item>
+<title>EDRChoker: Choking The Telemetry Stream to Bypass Defenses</title>
+<link>https://www.reddit.com/r/netsec/comments/1tz81jo/edrchoker_choking_the_telemetry_stream_to_bypass/</link>
+<description><![CDATA[EDRChoker uses Policy-based Quality of Service (QoS) to set hard bandwidth caps (throttling) on Endpoint Detection and Response (EDR) agents, causing them to always time out - effectively blocking them. submitted by /u/Cold-Dinosaur [link] [comments]]]></description>
+<pubDate>Sun, 07 Jun 2026 10:00:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1tz81jo/edrchoker_choking_the_telemetry_stream_to_bypass/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
 <item>
 <title>On May 31, 2026, Meta discovered that there was a vulnerability in an AI-assisted account recovery system for Instagram (&quot;High Touch Support&quot; or &quot;HTS&quot;) that was exploited byun authorized third parties to perform password resets on Instagram user accounts.</title>
 <link>https://www.reddit.com/r/blueteamsec/comments/1tz5q4q/on_may_31_2026_meta_discovered_that_there_was_a/</link>
@@ -124,15 +157,6 @@
 <pubDate>Sat, 06 Jun 2026 16:43:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1tym62d/before_you_attempt_any_offsec_certification_read/</guid>
 <source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>got hit with SOC 2, cyber insurance, and a prospect pentest request at the same time</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1tykozi/got_hit_with_soc_2_cyber_insurance_and_a_prospect/</link>
-<description><![CDATA[curious if anyone has dealt with this kind of overlap. i’m the security lead at a mid-size SaaS company and last month three separate things landed almost at once: SOC 2 Type 2 coming up, cyber insurance renewal, and an enterprise prospect asking for recent pentest documentation during vendor review. on paper they all want the same thing. in practice the bar feels different for each. the auditor wants methodology, scope, remediation evidence, etc. the insurer mostly wants something recent and credible. the prospect’s security team is technical enough that i’m assuming they’ll actually read the report and ask questions. we’ve been looking at vendors for the last couple weeks. shortlist right now is Cobalt, Bishop Fox, and StealthNet AI. Bishop Fox seems like the deepest option, but the timeline/cost is hard to make work when we’re trying to close all three of these this quarter. Cobalt feels like the safer known-name choice. StealthNet AI is the one i’m less sure about. i’ve seen the hy]]></description>
-<pubDate>Sat, 06 Jun 2026 15:46:05 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1tykozi/got_hit_with_soc_2_cyber_insurance_and_a_prospect/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
@@ -634,7 +658,7 @@
 <item>
 <title>Hackers Leak DentaQuest Information Impacting 2.6 Million</title>
 <link>https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/</link>
-<description><![CDATA[The ShinyHunters extortion group leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator. The post Hackers Leak DentaQuest Information Impacting 2.6 Million appeared first on SecurityWeek .<br/><br/><em>Tags: Linux kernel · WordPress · Anthropic/Claude · ransomware_extortion · zero_day · data_breach</em>]]></description>
+<description><![CDATA[The ShinyHunters extortion group leaked roughly 234 GB of data allegedly stolen from the dental benefits administrator. The post Hackers Leak DentaQuest Information Impacting 2.6 Million appeared first on SecurityWeek .<br/><br/><em>Tags: Linux kernel · WordPress · Anthropic/Claude · ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Fri, 05 Jun 2026 11:33:27 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/hackers-leak-dentaquest-information-impacting-2-6-million/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
@@ -1624,13 +1648,11 @@
 <item>
 <title>AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.</title>
 <link>https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html</link>
-<description><![CDATA[AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry&apos;s<br/><br/><em>Tags: Anthropic/Claude · vulnerability_disclosure · active_exploitation</em>]]></description>
+<description><![CDATA[AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of enterprise security. As a result, the window between a vulnerability being disclosed and indiscriminate exploitation observed across the internet is now measured in hours, not days. The industry&apos;s<br/><br/><em>Tags: active_exploitation</em>]]></description>
 <pubDate>Tue, 02 Jun 2026 11:58:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-<category>vulnerability_disclosure</category>
 <category>active_exploitation</category>
 </item>
 <item>
@@ -2100,15 +2122,6 @@
 <category>Azure</category>
 </item>
 <item>
-<title>Cyberpatriot competition Mac OS</title>
-<link>https://www.reddit.com/r/netsecstudents/comments/1tslu4f/cyberpatriot_competition_mac_os/</link>
-<description><![CDATA[Hi, I am a high school student looking to buy a new laptop for competitions. I know that Windows is generally better than macOS for the CyberPatriot competition, but I would prefer to buy a MacBook. Is there any way I could use a MacBook for the competition? I want to know specific way to use it. submitted by /u/IndependentBeing2010 [link] [comments]]]></description>
-<pubDate>Sun, 31 May 2026 05:03:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1tslu4f/cyberpatriot_competition_mac_os/</guid>
-<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Finished a free webinar on live SOC investigations. Here&apos;s Part 1 of what we covered (Technical Post).</title>
 <link>https://www.reddit.com/r/netsecstudents/comments/1tslfaj/finished_a_free_webinar_on_live_soc/</link>
 <description><![CDATA[So on 16 May 2026 (Saturday) I ran a live session for students who wanted to see what actual threat analysis looks like. Not the sanitized course version. The real thing, sitting in front of an alert, zero context, figuring out what the hell happened in real time. Thank you to everyone who attended the webinar. 158 people registered. Over 50 stuck through the whole thing. A lot of them had never seen this part of the job before. The setup was simple: phishing email lands in the SOC queue. Subject line says &quot;Your wallet has been Blocked.&quot; Legitimate looking. Urgent. Classic social engineering. But here&apos;s what actually went down when I investigated it. The email came from info@metamaask[.]io note the extra &apos;A&apos;. One character lookalike domain. It bypassed email filters on 6 mailboxes. 2 got caught. 4 didn&apos;t. From there it gets worse. The attachment is an Excel file with macros. User opens it. Macro executes. Spawns PowerShell with an encoded command. Downloads a second-stage payload. Impl<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -2329,7 +2342,7 @@
 <item>
 <title>Cloud CISO Perspectives: How to build an AI-ready security program for the public sector</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-to-build-an-ai-ready-security-program-for-the-public-sector/</link>
-<description><![CDATA[Welcome to the second Cloud CISO Perspectives for May 2026. Today, Usman Chaudhary, Field CISO, Google Public Sector, offers a guide for CISOs protecting government agencies and critical infrastructure on how to get started — and get the most out of — defending with AI. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f4a124904f0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to build an AI-ready security program for the public sector By Us]]></description>
+<description><![CDATA[Welcome to the second Cloud CISO Perspectives for May 2026. Today, Usman Chaudhary, Field CISO, Google Public Sector, offers a guide for CISOs protecting government agencies and critical infrastructure on how to get started — and get the most out of — defending with AI. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f6037baa2e0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; How to build an AI-ready security program for the public sector By Us]]></description>
 <pubDate>Fri, 29 May 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-how-to-build-an-ai-ready-security-program-for-the-public-sector/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -2788,7 +2801,7 @@
 <description><![CDATA[Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Thu, 28 May 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 </item>
@@ -2798,7 +2811,7 @@
 <description><![CDATA[Microsoft Threat Intelligence presents a comprehensive analysis of The Gentlemen, a Go-based ransomware deployed by affiliates of Storm-2697 that combines per-file ephemeral key encryption with an aggressive self-propagation module to deploy itself across an entire network using series of simultaneous lateral movement techniques per target. The post The Gentlemen ransomware: Dissecting a self-propagating Go encryptor appeared first on Microsoft Security Blog .<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
 <pubDate>Thu, 28 May 2026 15:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/">Microsoft Threat Intelligence</source>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
 <category>ransomware_extortion</category>
 </item>
@@ -3038,17 +3051,6 @@
 <guid isPermaLink="true">https://www.wiz.io/blog/wiz-sensor-forensics-ga</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>New Phishing Technique - Vaultjacking: One Captured PIN, the Entire Google Password Manager Vault</title>
-<link>https://www.reddit.com/r/netsec/comments/1tp9kta/new_phishing_technique_vaultjacking_one_captured/</link>
-<description><![CDATA[I&apos;ve been hard at work on a NEW phishing technique I&apos;m excited to share. I&apos;m calling it &quot;Vaultjacking&quot; and the impact is honestly a bit sobering. In my blog I demonstrate how a single AiTM landing page can spoof your Google passkey/password manager PIN and use that to access ALL of a victim&apos;s third-party credentials (yes, including passkeys). A simple phish on one site can lead to a total compromise of all Chrome-saved credentials. submitted by /u/phishullc [link] [comments]<br/><br/><em>Tags: phishing_social_eng · mfa_bypass</em>]]></description>
-<pubDate>Wed, 27 May 2026 15:49:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1tp9kta/new_phishing_technique_vaultjacking_one_captured/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
-<category>mfa_bypass</category>
 </item>
 <item>
 <title>Third-Party Risk Management</title>
@@ -8855,7 +8857,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f3276050ac0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff17d3f5b20&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -9430,9 +9432,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>It’s Official: Wiz Joins Google</title>
+<title>Es ist offiziell: Wiz wird Teil von Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
+<description><![CDATA[Wir begrüßen eine neue Ära der Cloud- und KI-Sicherheit.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -18668,7 +18670,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18677,7 +18679,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18686,7 +18688,7 @@
 <title>How to Stop AI-Driven Data Loss</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18695,7 +18697,7 @@
 <title>CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18704,7 +18706,7 @@
 <title>CrowdStrike Scales AI-Native Agents Across Falcon Exposure Management with NVIDIA</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18713,7 +18715,7 @@
 <title>Secure Shadow AI at the Control Plane with Falcon for IT</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18722,7 +18724,7 @@
 <title>CrowdStrike Named a Leader in 2026 Gartner® Magic Quadrant™ for Endpoint Protection for Seventh Consecutive Time</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18731,7 +18733,7 @@
 <title>Shadow AI: The Hidden Risk Expanding Across the Enterprise</title>
 <link>https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/shadow-ai-hidden-risk-expanding-across-the-enterprise/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18740,7 +18742,7 @@
 <title>CrowdStrike Named a Leader in Identity Threat Detection and Response</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-in-identity-threat-detection-and-response/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -18749,7 +18751,7 @@
 <title>Disrupting Glassworm: Inside CrowdStrike’s Takedown of a Developer-Targeting Botnet</title>
 <link>https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 07 Jun 2026 09:26:50 +0000</pubDate>
+<pubDate>Sun, 07 Jun 2026 11:55:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/inside-crowdstrike-takedown-of-a-developer-targeting-botnet/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
