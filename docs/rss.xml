@@ -6,9 +6,88 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 78 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 10 Jun 2026 19:41:03 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Jun 2026 22:11:11 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Path traversal flaw in AI dev platform Langflow exploited in attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/</link>
+<description><![CDATA[Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]<br/><br/><em>Tags: CVE-2026-5027</em>]]></description>
+<pubDate>Wed, 10 Jun 2026 21:23:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>CVE-2026-5027</category>
+</item>
+<item>
+<title>How to you manage Newsletters?</title>
+<link>https://www.reddit.com/r/sysadmin/comments/1u2e5u2/how_to_you_manage_newsletters/</link>
+<description><![CDATA[We’re on Microsoft 365 and our users receive around 2,000+ newsletter/marketing emails per day across 300 users. Most people never delete them, so it creates unnecessary Outlook/Exchange storage usage. It’s also a security concern, since phishing and malware emails are often disguised as newsletters. We also use Pistacchio for phishing training/reporting. The problem is that many users report regular newsletters through the phishing reporting tool, even when they’re legitimate marketing emails and they could simply unsubscribe using the link in the email. In the end, I often receive those reports and end up unsubscribing on their behalf. What tools or Microsoft 365 features do you recommend for centrally managing graymail/bulk email? Ideally something that can auto-unsubscribe, auto-delete, quarantine, or move these emails to Junk, while reducing unnecessary phishing reports from users. submitted by /u/BeyondRAM [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Wed, 10 Jun 2026 20:37:20 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1u2e5u2/how_to_you_manage_newsletters/</guid>
+<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
+<category>reddit_practitioner_osint</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>The ‘Miasma’ worm source code briefly leaked on GitHub</title>
+<link>https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/</link>
+<description><![CDATA[The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
+<pubDate>Wed, 10 Jun 2026 20:27:08 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>supply_chain</category>
+</item>
+<item>
+<title>Bug Bounty Research Triggers ServiceNow Security Alert</title>
+<link>https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert</link>
+<description><![CDATA[Bug bounty research inadvertently led organizations to believe they were being breached through their ServiceNow instances.]]></description>
+<pubDate>Wed, 10 Jun 2026 20:07:53 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Mid-30s, stuck in web pentesting, and wondering what to do ?</title>
+<link>https://www.reddit.com/r/cybersecurity/comments/1u2dbuz/mid30s_stuck_in_web_pentesting_and_wondering_what/</link>
+<description><![CDATA[I’m in my mid-30s. I have the eJPT and the Jr Penetration Tester path from TryHackMe. I’ve learned a lot, but sometimes I feel like I’m behind everyone else and started too late now days people start at 20 ich I’ve been feeling pretty frustrated lately and wanted to see if anyone else has been in a similar position. For the past 2 years I’ve been focusing almost exclusively on web penetration I find vulnerabilities, write reports, and generally do alright. The reports get accepted and people seem satisfied with them, but they’re probably not what you’d call highly polished or consultant-level professional. The thing that gets to me is when I read posts here and in other security communities. It feels like everyone is talking about malware development, reverse engineering, C2 frameworks, exploit development, kernel research, and all kinds of advanced topics. A lot of people seem incredibly well educated and technically deep compared to where I am. Meanwhile I’m sitting here finding lame]]></description>
+<pubDate>Wed, 10 Jun 2026 20:06:39 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1u2dbuz/mid30s_stuck_in_web_pentesting_and_wondering_what/</guid>
+<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
+<title>DiffusionGemma</title>
+<link>https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything</link>
+<description><![CDATA[DiffusionGemma Last May Google briefly released an experimental Gemini Diffusion model. I tried the preview at the time and recorded it running at 857 tokens/second. It was an exciting model, but Google made no further announcements about it. That research has returned in the best possible way: as a new open weight (Apache 2 licensed) Gemma model, google/diffusiongemma-26B-A4B-it . NVIDIA are currently hosting the model for free on their NIM cloud API. I used that API to generate this pelican , which took 4.4s (according to time uv run generate.py ) to return 2,409 tokens - so at least 500 tokens/second. Via Hacker News Tags: google , ai , generative-ai , llms , nvidia , pelican-riding-a-bicycle , gemma , llm-release , llm-performance]]></description>
+<pubDate>Wed, 10 Jun 2026 20:00:54 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/10/diffusiongemma/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>CISA to require federal agencies to patch some cyber vulnerabilities within 3 days</title>
+<link>https://therecord.media/cisa-to-require-federal-agencies-to-patch-3-days</link>
+<description><![CDATA[CISA is giving agencies 180 days to adopt the new patching time frame, according to a directive released Wednesday.]]></description>
+<pubDate>Wed, 10 Jun 2026 19:53:00 +0000</pubDate>
+<guid isPermaLink="true">https://therecord.media/cisa-to-require-federal-agencies-to-patch-3-days</guid>
+<source url="https://therecord.media/feed">The Record</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>GitHub announces npm security changes to tackle supply-chain attacks</title>
+<link>https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/</link>
+<description><![CDATA[GitHub has announced that npm v12, expected next month, will introduce several security-focused changes aimed at blocking supply-chain attacks abusing behaviors triggered by the &apos;npm install&apos; command. [...]<br/><br/><em>Tags: GitHub · npm · supply_chain</em>]]></description>
+<pubDate>Wed, 10 Jun 2026 19:41:44 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/github-announces-npm-security-changes-to-tackle-supply-chain-attacks/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+<category>npm</category>
+<category>supply_chain</category>
+</item>
 <item>
 <title>Looking for honest opinions on Cortex XSOAR War Room</title>
 <link>https://www.reddit.com/r/AskNetsec/comments/1u2bx00/looking_for_honest_opinions_on_cortex_xsoar_war/</link>
@@ -17,16 +96,6 @@
 <guid isPermaLink="true">https://www.reddit.com/r/AskNetsec/comments/1u2bx00/looking_for_honest_opinions_on_cortex_xsoar_war/</guid>
 <source url="https://www.reddit.com/r/AskNetsec/.rss">Reddit r/AskNetsec</source>
 <category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>N-Days to N-Hours: Claude Mythos Preview Turns Public Vulnerabilities into Working Exploits in Under an Hour</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1u2bwdq/ndays_to_nhours_claude_mythos_preview_turns/</link>
-<description><![CDATA[​ Anthropic&apos;s red team just published research showing that Claude Mythos Preview can weaponize publicly disclosed vulnerabilities into working exploits in under an hour — compressing a timeline that historically took human experts weeks. ​ Key findings: ​ • 8 working exploits in ~12 hours across 16 Windows security patches — first exploit in under 60 minutes • 8 for 18 on Firefox security patches — same success rate across a completely different codebase • Phase change in capability: Mythos Preview: 8 exploits. Opus 4.8: 2. Opus 4.6, Sonnet 4.6: 1. All other models: 0 • N-days only — no zero-days. Every vulnerability had already been patched. The &quot;safe&quot; category is no longer safe. • Context: Mandiant 2020 benchmark found 16 of 25 real-world vulnerabilities took a month or more for human attackers. Mythos compressed that to hours. ​ Why it matters: The average enterprise takes 60–90 days to patch. With Mythos-class models, the window between disclosure and weaponized exploit collapses <br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Wed, 10 Jun 2026 19:15:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1u2bwdq/ndays_to_nhours_claude_mythos_preview_turns/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Security Surprises</title>
@@ -71,16 +140,6 @@
 <category>ransomware_extortion</category>
 </item>
 <item>
-<title>ManageEngine ServiceDesk Plus technicians…</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1u2aovl/manageengine_servicedesk_plus_technicians/</link>
-<description><![CDATA[Thoughts on the system, process flows, and administration? Looking at for Supply Chain management requests, assets, and processes. Seems solid and checks all our requirements. submitted by /u/File_Unknown [link] [comments]<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Wed, 10 Jun 2026 18:31:43 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1u2aovl/manageengine_servicedesk_plus_technicians/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>8 Container Security Best Practices for 2026</title>
 <link>https://orca.security/resources/blog/container-security-best-practices/</link>
 <description><![CDATA[Container security programs often lose effectiveness when controls are implemented without connecting them to specific attack outcomes. For example, running a container as root can increase the impact of a container escape or privilege escalation path, while non-root execution reduces what an attacker can do with that foothold. This article connects each control to the […]<br/><br/><em>Tags: Kubernetes · active_exploitation</em>]]></description>
@@ -100,6 +159,17 @@
 <source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
 <category>reddit_practitioner_osint</category>
 <category>Fortinet</category>
+</item>
+<item>
+<title>Making the Business Case for Your CTI Budget</title>
+<link>https://www.intel471.com/blog/making-the-business-case-for-your-cti-budget</link>
+<description><![CDATA[The 2026 SANS Cyber Threat Intelligence Survey confirms that CTI is considered essential at the executive level. Can your CISO see how the CTI program is shaping decisions and measurably reducing risk?<br/><br/><em>Tags: TeamPCP · supply_chain</em>]]></description>
+<pubDate>Wed, 10 Jun 2026 17:34:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/making-the-business-case-for-your-cti-budget</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
+<category>TeamPCP</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Nee academic references for Hashcat&apos;s &apos;Next Big Bang&apos; log</title>
@@ -306,6 +376,15 @@
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/06/10/identity-theft-incidents-itrc-report/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Anyone in the Kansas City/MCI area interested in a standing up a ~25 seat satellite office?</title>
+<link>https://www.reddit.com/r/msp/comments/1u23fno/anyone_in_the_kansas_citymci_area_interested_in_a/</link>
+<description><![CDATA[Greetings, I have a client that&apos;s opening up an office in the Lenexa / Overland Park area. If you&apos;re interested in the project, check my post history for a brief sow. Great opportunity for a smaller organization :). Scope of Work Remote/General Work with remote team on implementation strategy Onsite/Desktops Deploy approximately 15 Mac Minis, 30 monitors Unbox any IT equipment, plug into power strips, set up monitors, connect accessories All machines are enrolled into Apple Business Manager, and Automatic Device Enrollment Onsite/Network Install 1u Router into Rack Install 1u Switch into Rack Install 1u UPS into Rack Install 1u Cable Management in Rack Connect patch cables into switch/router/patch panel Install approximately 10 WAPs Onsite/General Support Provide SLA for a monthly fixed rate on swapping out desktops/WAPs/Smart Hands Onsite/PoE Cameras Install/Connect PoE cameras throughout office space, connect to switch Onsite/Structured cabling TBD/Working on Landlords preference/req]]></description>
+<pubDate>Wed, 10 Jun 2026 14:15:06 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1u23fno/anyone_in_the_kansas_citymci_area_interested_in_a/</guid>
+<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>The 5 Best Practices for Secure Identity Verification</title>
@@ -590,15 +669,11 @@
 <item>
 <title>Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs</title>
 <link>https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html</link>
-<description><![CDATA[Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security<br/><br/><em>Tags: Microsoft Windows · Microsoft BitLocker · CVE-2025-10263 · CVE-2026-8863 · CVE-2026-45657 · CVE-2026-47291 · CVE-2026-44815 · zero_day</em>]]></description>
+<description><![CDATA[Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privilege escalation, 56 remote code execution, 30 information disclosure, 27 spoofing, 20 security]]></description>
 <pubDate>Wed, 10 Jun 2026 09:38:13 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
-<category>Microsoft BitLocker</category>
-<category>CVE-2025-10263</category>
-<category>CVE-2026-8863</category>
 </item>
 <item>
 <title>Rubrik launches Autonomous Business Recovery to rebuild cloud applications after cyberattacks</title>
@@ -864,15 +939,6 @@
 <category>Palo Alto Networks</category>
 </item>
 <item>
-<title>The Invisible Battlefield: How Cyber War Is Reshaping Everyday Life</title>
-<link>https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life</link>
-<description><![CDATA[Former National Cyber Director Chris Inglis warns that cyber attacks threaten hospitals, utilities and essential services.]]></description>
-<pubDate>Tue, 09 Jun 2026 21:57:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Blame AI: Patch Tuesday Hits Record 206 CVEs</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves</link>
 <description><![CDATA[Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.]]></description>
@@ -957,15 +1023,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>Chaotic Eclipse&apos;s new RoguePlanet</title>
-<link>https://www.reddit.com/r/sysadmin/comments/1u1gezk/chaotic_eclipses_new_rogueplanet/</link>
-<description><![CDATA[It seems Chaotic eclipse has release a new Windows Defender Vulnerability by the name RoguePlanet. It is worth mentioning today is Patch Tuesday. Found here: https://github.com/MSNightmare/RoguePlanet and backup https://git.projectnightcrawler.dev/NightmareEclipse submitted by /u/Overflow0X [link] [comments]]]></description>
-<pubDate>Tue, 09 Jun 2026 20:13:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/sysadmin/comments/1u1gezk/chaotic_eclipses_new_rogueplanet/</guid>
-<source url="https://www.reddit.com/r/sysadmin/.rss">Reddit r/sysadmin</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Microsoft breaks Patch Tuesday record with 206 vulnerabilities</title>
 <link>https://cyberscoop.com/microsoft-patch-tuesday-june-2026/</link>
 <description><![CDATA[Fears and warnings about a roaring flood of error-riddled software have materialized. And the disease is spreading. The post Microsoft breaks Patch Tuesday record with 206 vulnerabilities appeared first on CyberScoop .]]></description>
@@ -1013,16 +1070,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>Microsoft releases Windows 10 KB5094127 extended security update</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/</link>
-<description><![CDATA[Microsoft has released the Windows 10 KB5094127 extended security update, which fixes the June 2026 Patch Tuesday vulnerabilities and adds new functionality to monitor the rollout of updated Secure Boot certificates that replace those expiring this month. [...]<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
-<pubDate>Tue, 09 Jun 2026 18:35:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
-</item>
-<item>
 <title>Microsoft has released a patch for the bitlocker bypass</title>
 <link>https://www.reddit.com/r/sysadmin/comments/1u1dlpy/microsoft_has_released_a_patch_for_the_bitlocker/</link>
 <description><![CDATA[Says manual mitigation steps remain in effect ... I guess they were in no rush to release it before patch Tuesday. Still downplaying the severity of the yellowkey bypass lol ​ https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-45585 ​ submitted by /u/cspotme2 [link] [comments]<br/><br/><em>Tags: Microsoft BitLocker · CVE-2026-45585</em>]]></description>
@@ -1032,19 +1079,6 @@
 <category>reddit_practitioner_osint</category>
 <category>Microsoft BitLocker</category>
 <category>CVE-2026-45585</category>
-</item>
-<item>
-<title>Microsoft June 2026 Patch Tuesday fixes 6 zero-days, 200 flaws</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-6-zero-days-200-flaws/</link>
-<description><![CDATA[Today is Microsoft&apos;s June 2026 Patch Tuesday, with security updates for 200 flaws, including five publicly disclosed zero-day vulnerabilities and one actively exploited in attacks. [...]<br/><br/><em>Tags: Microsoft Windows · CVE-2026-45586 · CVE-2026-49160 · zero_day · ddos · vulnerability_disclosure · active_exploitation</em>]]></description>
-<pubDate>Tue, 09 Jun 2026 17:57:59 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-6-zero-days-200-flaws/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-45586</category>
-<category>CVE-2026-49160</category>
-<category>zero_day</category>
 </item>
 <item>
 <title>The Hidden Code Problem: How Unverified Smart Contracts Are Becoming a Preferred Target for Attackers</title>
@@ -1076,16 +1110,6 @@
 <guid isPermaLink="true">https://isc.sans.edu/diary/rss/33064</guid>
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
-</item>
-<item>
-<title>Windows 11 KB5094126 &amp; KB5093998 cumulative updates released</title>
-<link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/</link>
-<description><![CDATA[Microsoft has released Windows 11 KB5094126 and KB5093998 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]<br/><br/><em>Tags: Microsoft Windows</em>]]></description>
-<pubDate>Tue, 09 Jun 2026 17:32:32 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft Windows</category>
 </item>
 <item>
 <title>Authenticating ARP and NDP</title>
@@ -1169,15 +1193,15 @@
 <item>
 <title>Critical Jupyter Enterprise Gateway Vulnerabilities Enable Full Kubernetes Cluster Takeover</title>
 <link>https://orca.security/resources/blog/jupyter-enterprise-gateway-vulnerabilities/</link>
-<description><![CDATA[Three critical vulnerabilities (CVE-2026-44182, CVSS 10.0; CVE-2026-44181, CVSS 10.0; CVE-2026-44180, CVSS 9.8) were disclosed affecting Jupyter Enterprise Gateway, a widely used component for remote Jupyter kernel management on Kubernetes clusters, allowing attackers to achieve full remote code execution, create privileged pods, and compromise entire Kubernetes clusters via YAML injection and template injection in the manifest […]<br/><br/><em>Tags: Kubernetes · CVE-2026-44182 · CVE-2026-44181 · CVE-2026-44180 · data_breach · active_exploitation</em>]]></description>
+<description><![CDATA[Three critical vulnerabilities (CVE-2026-44182, CVSS 10.0; CVE-2026-44181, CVSS 10.0; CVE-2026-44180, CVSS 9.8) were disclosed affecting Jupyter Enterprise Gateway, a widely used component for remote Jupyter kernel management on Kubernetes clusters, allowing attackers to achieve full remote code execution, create privileged pods, and compromise entire Kubernetes clusters via YAML injection and template injection in the manifest […]<br/><br/><em>Tags: Kubernetes · AWS · CVE-2026-44182 · CVE-2026-44181 · CVE-2026-44180 · data_breach · active_exploitation</em>]]></description>
 <pubDate>Tue, 09 Jun 2026 15:27:41 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/jupyter-enterprise-gateway-vulnerabilities/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>Kubernetes</category>
+<category>AWS</category>
 <category>CVE-2026-44182</category>
 <category>CVE-2026-44181</category>
-<category>CVE-2026-44180</category>
 </item>
 <item>
 <title>Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257</title>
@@ -1228,15 +1252,6 @@
 <pubDate>Tue, 09 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/phpbb-authentication-bypass/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Hackers pose as women seeking romance to spy on Russian soldiers</title>
-<link>https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military</link>
-<description><![CDATA[The group, dubbed SiribClone by Russian cybersecurity firm F6, has been active since at least the summer of 2025 and has primarily targeted members of the Russian armed forces stationed in border regions and combat zones.]]></description>
-<pubDate>Tue, 09 Jun 2026 13:52:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/hackers-pose-as-women-seeking-romance-russian-military</guid>
-<source url="https://therecord.media/feed">The Record</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -1625,15 +1640,6 @@
 <category>reddit_practitioner_osint</category>
 </item>
 <item>
-<title>I am curious about pricing</title>
-<link>https://www.reddit.com/r/msp/comments/1u0d8e2/i_am_curious_about_pricing/</link>
-<description><![CDATA[Hello friends! 1 man MSP/MSSP, currently working on hiring help remotely, but I have been getting some pushback and mixed feelings about my pricing structure. currently, I charge per WS, per Server, per Network kit. Edit: 280/ws/month 575/server/month 50/switch or router not incl licensing fees Licensing is not upcharged. some businesses accept, others push back so I am not sure if my leads see the monthly price tag and run to the hills. disclosure, I provide the equipment for customers to use, workstations, networking and servers. baseline equipment, it costs close to 4k/mo (in CAD) for 1 server, 10 workstations, 1 switch and 1 firewall. everything is linux based, so there&apos;s no subscription towards MS, except things like firewall, switch licensing, ubuntu pro, or rhel. I have mixed feelings about it, and I think I&apos;m looking for reassurance. submitted by /u/VtheMan93 [link] [comments]]]></description>
-<pubDate>Mon, 08 Jun 2026 16:40:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/msp/comments/1u0d8e2/i_am_curious_about_pricing/</guid>
-<source url="https://www.reddit.com/r/msp/.rss">Reddit r/msp</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>&apos;Hades&apos; Campaign Against PyPI Puts New Spin on Shai-Hulud</title>
 <link>https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud</link>
 <description><![CDATA[The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat.<br/><br/><em>Tags: PyPI · supply_chain</em>]]></description>
@@ -1724,15 +1730,13 @@
 <item>
 <title>⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More</title>
 <link>https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html</link>
-<description><![CDATA[Monday again. The weekend was meant to be quiet. It wasn&apos;t. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and<br/><br/><em>Tags: GitHub · TeamPCP · CVE-2025-48595 · supply_chain · phishing_social_eng · zero_day</em>]]></description>
+<description><![CDATA[Monday again. The weekend was meant to be quiet. It wasn&apos;t. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and<br/><br/><em>Tags: GitHub · zero_day</em>]]></description>
 <pubDate>Mon, 08 Jun 2026 13:18:57 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitHub</category>
-<category>TeamPCP</category>
-<category>CVE-2025-48595</category>
-<category>supply_chain</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Turning Cloudflare’s threat indicators into real-time WAF rules</title>
@@ -2612,6 +2616,15 @@
 <guid isPermaLink="true">https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Season VI of the US Cyber Games launches TOMORROW!</title>
+<link>https://www.reddit.com/r/netsecstudents/comments/1tw0z2o/season_vi_of_the_us_cyber_games_launches_tomorrow/</link>
+<description><![CDATA[The speaker lineup is set, and the CTF challenges are ready... Register to join us for 10 days of programming designed to learn something new, test your skills, and network with the US Cyber Games community! This virtual series of events is FREE to attend, and open to everyone -- regardless of age, skill level, professional background, etc. June 4th-14th Virtual Season VI, US Cyber Open Series of Events : Kick-Off Celebration: June 4th Beginner&apos;s Game Room CTF: June 5th-14th Cyber Rush Week: June 8th-11th Competitive CTF: June 8th-14th submitted by /u/US_Cyber_Games [link] [comments]]]></description>
+<pubDate>Wed, 03 Jun 2026 20:04:21 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsecstudents/comments/1tw0z2o/season_vi_of_the_us_cyber_games_launches_tomorrow/</guid>
+<source url="https://www.reddit.com/r/netsecstudents/.rss">Reddit r/netsecstudents</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Tropical Blend: Cyber &amp; Politics Ramp Up Across Latin America</title>
@@ -3496,16 +3509,6 @@
 <category>Google/Gemini</category>
 </item>
 <item>
-<title>Introducing the GKE standby buffer: Improve node startup times without blowing your budget</title>
-<link>https://cloud.google.com/blog/products/containers-kubernetes/gke-standby-buffers-speed-up-autoscaling-for-less-spend/</link>
-<description><![CDATA[Application owners and platform engineers have long faced a difficult choice: spend excessively by over-provisioning to guarantee quick startups, or minimize costs but endure slow cold starts. We are excited to announce a solution to this compromise: Google Kubernetes Engine standby buffers. This builds on the launch of GKE active buffers earlier this year, a native version of the Kubernetes CapacityBuffers API that makes it easy to provision readily available capacity to handle traffic spikes, delivering near-zero startup latency for new pods. However, active buffers still impose a trade-off between performance and cost. New GKE standby buffers help by maintaining a low-cost, suspended capacity buffer for your GKE clusters. With a cost overhead in the low single-digit percent, GKE standby buffers help you achieve near-immediate scheduling for your workloads with negligible cost overhead. This is useful for all kinds of workloads — general-purpose, agentic, and everything in between. U<br/><br/><em>Tags: Kubernetes</em>]]></description>
-<pubDate>Mon, 01 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/containers-kubernetes/gke-standby-buffers-speed-up-autoscaling-for-less-spend/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Kubernetes</category>
-</item>
-<item>
 <title>Eliminate Critical API Attack Paths with Wiz API SPM</title>
 <link>https://www.wiz.io/blog/introducing-wiz-api-spm</link>
 <description><![CDATA[Wiz API SPM is now GA, enabling customers to discover APIs, assess APIs for exploitability, and prioritize remediation to mitigate the risk of an API-related breach.]]></description>
@@ -3830,15 +3833,6 @@
 <description><![CDATA[My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. — Daniel Jalkut , via John Gruber Tags: ai , john-gruber]]></description>
 <pubDate>Sat, 30 May 2026 17:29:55 +0000</pubDate>
 <guid isPermaLink="true">https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Running Python ASGI apps in the browser via Pyodide + a service worker</title>
-<link>https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything</link>
-<description><![CDATA[Research: Running Python ASGI apps in the browser via Pyodide + a service worker Datasette Lite is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly. When I first built it four years ago I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app. This worked, but had the disadvantage that any JavaScript in &lt;script&gt; tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins. This morning I set Claude Opus 4.8 the task (in Claude Code for web) of figuring out how to run Python ASGI apps in Pyodide using Service Workers instead, and it seems to work! Here&apos;s a basic ASGI FastCGI demo and here&apos;s a demo that runs Datasette 1.0a31 . I&apos;m still getting my head around exactly how it works, but once I&apos;ve done that I plan to upgrade Datasette Lite itself. Tags: javascript , python , datasette , asgi , webassembly , service-workers , pyodide , datasette-l]]></description>
-<pubDate>Sat, 30 May 2026 15:34:00 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
 </item>
@@ -4556,15 +4550,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>AI-Assisted Exploit Development Outpaces Scanner Detection</title>
-<link>https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection</link>
-<description><![CDATA[Attackers are using AI to dramatically reduce the time they need to develop a working exploit for a CVE, according to new research.]]></description>
-<pubDate>Wed, 27 May 2026 16:11:19 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Evidence at the Moment of Attack. Answers at AI Speed.</title>
 <link>https://www.wiz.io/blog/wiz-sensor-forensics-ga</link>
 <description><![CDATA[Wiz Sensor Forensics is now generally available - automatically capturing forensic artifacts at the moment of detection and using AI to accelerate investigation for SOC and IR teams.]]></description>
@@ -4657,15 +4642,6 @@
 <guid isPermaLink="true">https://redcanary.com/blog/threat-detection/entra-id-ai-workflows/</guid>
 <source url="https://redcanary.com/feed/">Red Canary</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Cybersecurity Evolution: How We Went From Perimeter Defense to AI-Native Security</title>
-<link>https://www.darkreading.com/cybersecurity-operations/cybersecurity-evolution-perimeter-defense-to-ai-native-security</link>
-<description><![CDATA[The cybersecurity industry of 2006 barely resembled today&apos;s billion-dollar behemoth. As part of Dark Reading&apos;s 20th anniversary celebration, we trace the industry&apos;s evolution through a technology lens.]]></description>
-<pubDate>Wed, 27 May 2026 12:11:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/cybersecurity-evolution-perimeter-defense-to-ai-native-security</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Defending at Machine-Speed: Building AI Threat Readiness with Wiz</title>
@@ -4840,16 +4816,6 @@
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
 <category>Kubernetes</category>
-</item>
-<item>
-<title>Feeding Frenzy: &apos;Megalodon&apos; Malware Infects Thousands of GitHub Repos</title>
-<link>https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos</link>
-<description><![CDATA[In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Tue, 26 May 2026 19:47:14 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Welcoming the AWS Customer Incident Response Team</title>
@@ -8687,15 +8653,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Edmonton Police Trial AI Facial Recognition Bodycams</title>
-<link>https://citizenlab.ca/edmonton-police-trial-ai-facial-recognition-bodycams/</link>
-<description><![CDATA[The Edmonton Police Service is trialing new bodycam facial recognition technology to identify what they have deemed “high-risk offenders.” Speaking to the CBC, senior research associate Kate Robertson says, “As someone who has been studying algorithmic policing technologies for nearly a decade, and [previously] a lawyer in Canada’s justice system, I have to say that […] The post Edmonton Police Trial AI Facial Recognition Bodycams appeared first on The Citizen Lab .]]></description>
-<pubDate>Thu, 23 Apr 2026 15:50:40 +0000</pubDate>
-<guid isPermaLink="true">https://citizenlab.ca/edmonton-police-trial-ai-facial-recognition-bodycams/</guid>
-<source url="https://citizenlab.ca/feed/">Citizen Lab</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[tl;dr sec] #325 - Dissecting Mythos, The $0 Security Stack, GitHub Action Red Team Framework</title>
 <link>https://tldrsec.com/p/tldr-sec-325</link>
 <description><![CDATA[Replicating Mythos bugs with public models and more, building a useful security program for free, new post-exploitation framework for CI/CD pipelines that can replicate the full TeamPCP attack kill chain<br/><br/><em>Tags: TeamPCP</em>]]></description>
@@ -11048,7 +11005,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff40c754a90&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f4fb3df6160&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -19599,15 +19556,6 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>Threat hunting case study: PsExec</title>
-<link>https://www.intel471.com/blog/threat-hunting-case-study-psexec</link>
-<description><![CDATA[PsExec, a command-line utility used for remotely managing Windows computers, is often abused by threat actors. Here&apos;s how to threat hunt for suspicious PsExec activity.]]></description>
-<pubDate>Tue, 21 Jan 2025 18:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/threat-hunting-case-study-psexec</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
 <title>Attack Tactics 9: Shadow Creds for PrivEsc w/ Kent &amp; Jordan</title>
 <link>https://www.blackhillsinfosec.com/attack-tactics-9-shadow-creds-for-privesc-wrapup/</link>
 <description><![CDATA[In this video, Kent Ickler and Jordan Drysdale discuss Attack Tactics 9: Shadow Credentials for Primaries, focusing on a specific technique used in penetration testing services at Black Hills Information Security The post Attack Tactics 9: Shadow Creds for PrivEsc w/ Kent &amp; Jordan appeared first on Black Hills Information Security, Inc. .]]></description>
@@ -21448,7 +21396,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21457,7 +21405,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21466,7 +21414,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21475,7 +21423,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21484,7 +21432,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21493,7 +21441,7 @@
 <title>How to Stop AI-Driven Data Loss</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21502,7 +21450,7 @@
 <title>CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21511,7 +21459,7 @@
 <title>CrowdStrike Scales AI-Native Agents Across Falcon Exposure Management with NVIDIA</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-collaborate-to-scale-ai-native-agents-across-falcon-exposure-management/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21520,7 +21468,7 @@
 <title>Secure Shadow AI at the Control Plane with Falcon for IT</title>
 <link>https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/secure-shadow-ai-at-the-control-plane-with-falcon-for-it/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -21529,7 +21477,7 @@
 <title>CrowdStrike Named a Leader in 2026 Gartner® Magic Quadrant™ for Endpoint Protection for Seventh Consecutive Time</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 10 Jun 2026 19:41:03 +0000</pubDate>
+<pubDate>Wed, 10 Jun 2026 22:11:11 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leader-in-2026-gartner-magic-quadrant-for-endpoint-protection/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
