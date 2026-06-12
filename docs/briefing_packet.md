@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-12T21:55:32.107992+00:00
+- Generated: 2026-06-12T23:25:02.851893+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 329
+- Total items in window: 331
 - Total clusters raw: 156
 - Total clusters in packet: 66
 - Dropped low score: 90
@@ -70,16 +70,26 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 5
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 4
+  - Item count: 10
+  - In window count: 3
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -90,31 +100,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -125,21 +130,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 6
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -150,11 +145,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -165,26 +155,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,6 +190,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 6
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -204,21 +204,21 @@
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
@@ -235,25 +235,25 @@
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
@@ -265,15 +265,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
@@ -305,16 +305,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -345,6 +345,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: parse_error
@@ -355,21 +360,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 21
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -400,23 +400,28 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,16 +430,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -528,13 +528,13 @@
   - https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html
   - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
 
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
+### CVE-2026-50752 exploitation activity
+- Anchor signal: CVE-2026-50752
+- Theme key: cve-2026-50752
 - Cluster count: 3
 - Article count: 7
 - Cohesion: 0.399
-- Shared strong signals: CVE-2026-50751
+- Shared strong signals: CVE-2026-50752
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -551,13 +551,13 @@
   - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
   - https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
 
-### CVE-2026-50752 exploitation activity
-- Anchor signal: CVE-2026-50752
-- Theme key: cve-2026-50752
+### CVE-2026-50751 exploitation activity
+- Anchor signal: CVE-2026-50751
+- Theme key: cve-2026-50751
 - Cluster count: 3
 - Article count: 7
 - Cohesion: 0.399
-- Shared strong signals: CVE-2026-50752
+- Shared strong signals: CVE-2026-50751
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -725,13 +725,13 @@
   - https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours
   - https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
 
-### Silent Ransom Group: ransomware extortion
-- Anchor signal: Silent Ransom Group
-- Theme key: silent-ransom-group
+### ransomware extortion targeting UNC3753
+- Anchor signal: UNC3753
+- Theme key: unc3753
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: Silent Ransom Group
+- Shared strong signals: UNC3753
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -1235,7 +1235,7 @@ CVE-2026-48558: SimpleHelp Authentication Bypass Indicators of Compromise Zach H
   - Link: https://horizon3.ai/attack-research/disclosures/cve-2026-48558-simplehelp-authentication-bypass-iocs/
   - Summary: Horizon3.ai details indicators of compromise, affected configurations, and mitigation guidance for CVE-2026-48558, a SimpleHelp OIDC authentication bypass vulnerability.
 
-### Cluster 886a4df09d — score 29
+### Cluster 886a4df09d — score 28
 
 - Title: Factoring "short-sleeve" RSA keys with polynomials
 - Source: Trail of Bits (offensive_vulnerability_research)
@@ -1393,14 +1393,14 @@ Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now  Ravie La
 #### Cluster taxonomy (union across members)
 - threat_categories: active_exploitation, data_breach
 - cve_ids: CVE-2026-34084, CVE-2026-45034
-- urgency_signals: actively_exploited, critical_cvss, poc_available, preauth_unauth
+- urgency_signals: actively_exploited, critical_cvss, poc_available
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
 - threat_categories: data_breach, active_exploitation
 - cve_ids: CVE-2026-45034, CVE-2026-34084
-- urgency_signals: actively_exploited, preauth_unauth, poc_available, critical_cvss
+- urgency_signals: actively_exploited, poc_available, critical_cvss
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -1413,7 +1413,7 @@ Executive Summary A critical vulnerability (CVE-2026-45034, CVSS 9.8) was disclo
 #### Full body
 
 ```
-Executive Summary A critical vulnerability ( CVE-2026-45034 , CVSS 9.8) was disclosed affecting PhpSpreadsheet, the widely-used PHP library with over 312 million downloads, allowing attackers to achieve remote code execution via a bypass of the previous wrapper protection mechanism. Due to the potential for full server compromise and data exposure, immediate patching is required. About the Vulnerability: CVE-2026-45034 The issue originates from the File::prohibitWrappers() function introduced to fix CVE-2026-34084 , where a quirk in PHP’s parse_url() function leads to a complete bypass of stream wrapper detection. When a path contains three or more slashes after the scheme (e.g., phar:///path/to/exploit.phar/dummy.csv), parse_url() returns false instead of the expected scheme string. This causes the is_string($scheme) check to be skipped entirely, while PHP’s stream layer still recognizes the path as a valid phar wrapper. By sending a specially crafted filename containing triple slashes to IOFactory::load(), attackers can trigger automatic phar metadata deserialization on PHP 7.x, potentially gaining full remote code execution. On PHP 8.x, the same technique yields a file read primitive, with RCE restored if the application later invokes Phar::getMetadata(). No authentication is required to exploit this issue when the filename argument is user-controlled. The following versions are affected: phpoffice/phpspreadsheet, all 1.x versions through 1.30.4 These components are used by thousands of PHP applications and frameworks that rely on PhpSpreadsheet for reading and writing Excel, CSV, and other spreadsheet formats, particularly when file upload or import functionality is enabled. Other frameworks or services relying on PhpSpreadsheet’s IOFactory::load() with user-supplied filenames may also be impacted. Risk Impact At the time of writing, a working proof-of-concept and full exploit chain (exploit.phar) are publicly available, disclosed by researcher @everping . While no confirmed exploitation in the wild has been reported yet, the public availability of the PoC significantly increases the likelihood of active exploitation. Organizations that previously patched against CVE-2026-34084 should be aware that the earlier patch was proven incomplete. Successful exploitation could allow attackers to execute arbitrary code on the server, read sensitive files from the filesystem, and potentially pivot to compromise additional infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. Mitigation Recommendations Upgrade to the following patched version immediately: PhpSpreadsheet 1.30.5, which addresses this bypass Additionally: Organizations that previously patched against CVE-2026-34084 should verify they have also applied this latest fix, as the earlier patch was proven incomplete Replace parse_url()-based wrapper detection with string containment checks (such as str_contains($filename, ‘://’)) in any custom validation code Ensure that IOFactory::load() never receives unsanitized user-controlled filenames How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of PhpSpreadsheet , understand their exposure in context, including internet accessibility, runtime reachability , and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning What Is NIST CSF? Framework 2.0 Explained Jun 12, 2026 Cloud Security Learning 7 Open Source Incident Response Tools by Category Jun 11, 2026 Research Critical Langflow Path Traversal Flaw Exploited for Unauthenticated RCE Jun 11, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data
+Executive Summary A critical vulnerability ( CVE-2026-45034 , CVSS 9.8) was disclosed affecting PhpSpreadsheet, the widely-used PHP library with over 312 million downloads, allowing attackers to achieve remote code execution via a bypass of the previous wrapper protection mechanism. Due to the potential for full server compromise and data exposure, immediate patching is required. About the Vulnerability: CVE-2026-45034 The issue originates from the File::prohibitWrappers() function introduced to fix CVE-2026-34084 , where a quirk in PHP’s parse_url() function leads to a complete bypass of stream wrapper detection. When a path contains three or more slashes after the scheme (e.g., phar:///path/to/exploit.phar/dummy.csv), parse_url() returns false instead of the expected scheme string. This causes the is_string($scheme) check to be skipped entirely, while PHP’s stream layer still recognizes the path as a valid phar wrapper. By sending a specially crafted filename containing triple slashes to IOFactory::load(), attackers can trigger automatic phar metadata deserialization on PHP 7.x, potentially gaining full remote code execution. On PHP 8.x, the same technique yields a file read primitive, with RCE restored if the application later invokes Phar::getMetadata(). No authentication is required to exploit this issue when the filename argument is user-controlled. The following versions are affected: phpoffice/phpspreadsheet, all 1.x versions through 1.30.4 These components are used by thousands of PHP applications and frameworks that rely on PhpSpreadsheet for reading and writing Excel, CSV, and other spreadsheet formats, particularly when file upload or import functionality is enabled. Other frameworks or services relying on PhpSpreadsheet’s IOFactory::load() with user-supplied filenames may also be impacted. Risk Impact At the time of writing, a working proof-of-concept and full exploit chain (exploit.phar) are publicly available, disclosed by researcher @everping . While no confirmed exploitation in the wild has been reported yet, the public availability of the PoC significantly increases the likelihood of active exploitation. Organizations that previously patched against CVE-2026-34084 should be aware that the earlier patch was proven incomplete. Successful exploitation could allow attackers to execute arbitrary code on the server, read sensitive files from the filesystem, and potentially pivot to compromise additional infrastructure, leading to service disruption, data exposure, or full infrastructure compromise. Mitigation Recommendations Upgrade to the following patched version immediately: PhpSpreadsheet 1.30.5, which addresses this bypass Additionally: Organizations that previously patched against CVE-2026-34084 should verify they have also applied this latest fix, as the earlier patch was proven incomplete Replace parse_url()-based wrapper detection with string containment checks (such as str_contains($filename, ‘://’)) in any custom validation code Ensure that IOFactory::load() never receives unsanitized user-controlled filenames How can Orca help? Orca enables customers to quickly identify assets running vulnerable versions of PhpSpreadsheet , understand their exposure in context, including internet accessibility, runtime reachability , and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first. Related articles Cloud Security Learning Cloud Application Security Best Practices for DevSecOps Jun 12, 2026 Cloud Security Learning Cloud Security Tools: 10 Types Explained for Teams Jun 12, 2026 Cloud Security Learning What Is NIST CSF? Framework 2.0 Explained Jun 12, 2026 Stay in the loop Keep up to date with everything you need to know about cloud security and our latest research By submitting my email address I agree to the use of my personal data
 ```
 
 #### Corroborating sources (1)
@@ -2422,53 +2422,6 @@ Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilit
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
   - Summary: Microsoft Patch Tuesday details for June 2026.
 
-### Cluster 16bbed6ebf — score 10
-
-- Title: May 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Ivanti, Microsoft Defender, Palo Alto Networks
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: Ivanti, Palo Alto Networks, Microsoft Defender
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-```
-
-#### Full body
-
-```
-May 2026 CVE Landscape In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation , all of which had a Very Critical Recorded Future Risk Score. This represents an 11% increase from last month. These vulnerabilities affected products from 20 vendors. 21 of the 41 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 19 were surfaced through honeypot data, and one was reported by a cybersecurity vendor. The 41 vulnerabilities in this report affected products from 20 vendors. Vercel accounted for approximately 27% of the vulnerabilities, driven by honeypot-sourced Next.js activity. The remaining exposure was concentrated across a range of enterprise software, security, networking, developer tooling, and cloud-related products. Quick Reference: May 2026 Vulnerability Table All 22 vulnerabilities below were actively exploited in May 2026. This table does not include the 19 CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly Report. The table below also provides examples of public PoCs identified by Insikt Group®. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2008-4250 99 Microsoft Windows ✓ ✓ ✓ Link 2 CVE-2009-1537 99 Microsoft DirectX ✓ 3 CVE-2009-3459 99 Adobe Acrobat and Reader ✓ 4 CVE-2010-0249 99 Microsoft Internet Explorer ✓ ✓ Link 5 CVE-2010-0806 99 Microsoft Internet Explorer ✓ ✓ (available to Recorded Future Customers) 6 CVE-2025-34291 99 Langflow ✓ ✓ Link 7 CVE-2026-0257 99 Palo Alto Networks PAN-OS, Cloud NGFW, and Prisma Access ✓ ✓ Link 8 CVE-2026-0300 99 Palo Alto Networks PAN-OS, Cloud NGFW, Prisma Access ✓ ✓ Link 9 CVE-2026-20182 99 Cisco Catalyst SD-WAN and SD-WAN Manager ✓ ✓ Link 10 CVE-2026-31431 99 Linux Kernel ✓ ✓ (available to Recorded Future Customers) ✓ Link 11 CVE-2026-34926 99 Trend Micro Apex One (On-Premise) ✓ 12 CVE-2026-41091 99 Microsoft Defender ✓ ✓ Link 13 CVE-2026-42208 99 BerriAI LiteLLM ✓ ✓ Link 14 CVE-2026-42897 99 Microsoft Exchange Server ✓ ✓ Link 15 CVE-2026-45321 99 TanStack (Multiple Packages) ✓ ✓ Link 16 CVE-2026-45498 99 Microsoft Defender ✓ 17 CVE-2026-48027 99 Nx Console ✓ 18 CVE-2026-48172 99 LiteSpeed cPanel Plugin ✓ ✓ Link 19 CVE-2026-6973 99 Ivanti Endpoint Manager Mobile (EPMM) ✓ ✓ 20 CVE-2026-8398 99 Daemon Tools Lite ✓ 21 CVE-2026-9082 99 Drupal Core ✓ ✓ Link 22 CVE-2026-26980 99 Ghost CMS ✓ (available to Recorded Future Customers) ✓ Link Table 1: List of vulnerabilities that were actively exploited in May, 2026 based on Recorded Future data (excluding honeypot-sourced CVEs). Key Trends: May 2026 In May 2026, threat actors exploited a Ghost CMS vulnerability in large-scale ClickFix and FakeCaptcha poisoning campaigns. The campaigns used compromised Ghost CMS websites to inject malicious JavaScript, redirect victims through social engineering lures, and stage dropper and loader payloads from attacker-controlled infrastructure. 12 of the 41 vulnerabilities enabled remote code execution (RCE), affecting products from 8 vendors: Microsoft, Adobe, Langflow, Palo Alto Networks, Apache, openDCIM, Fortinet, and Ivanti. Insikt Group identified public proof-of-concept (PoC) exploits for 32 of the 41 vulnerabilities in this report. The most commonly observed flaws this month were CWE-79 (Cross-site Scripting), CWE-506 (Embedded Malicious Code), and CWE-89 (SQL Injection), with three CVEs each. 5 of the 41 vulnerabilities in this month’s prominent vulnerabilities table were first disclosed between 2008 and 2010, making them at least 15 years old, with the oldest vulnerability being approximately 18 years old. This reinforces our finding that attackers continue to exploit long-known weaknesses in environments wh
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: May 2026 CVE Landscape
-  - Published: 2026-06-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-  - Summary: In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-
 ### Cluster b60f65219b — score 10
 
 - Title: Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Security Surprises
@@ -2554,6 +2507,53 @@ ESET Research OceanLotus: From external espionage to domestic targeting A shift 
   - Published: 2026-06-11T08:45:00+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
+
+### Cluster 16bbed6ebf — score 10
+
+- Title: May 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_products: Ivanti, Microsoft Defender, Palo Alto Networks
+- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_products: Ivanti, Palo Alto Networks, Microsoft Defender
+- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
+```
+
+#### Full body
+
+```
+May 2026 CVE Landscape In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation , all of which had a Very Critical Recorded Future Risk Score. This represents an 11% increase from last month. These vulnerabilities affected products from 20 vendors. 21 of the 41 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 19 were surfaced through honeypot data, and one was reported by a cybersecurity vendor. The 41 vulnerabilities in this report affected products from 20 vendors. Vercel accounted for approximately 27% of the vulnerabilities, driven by honeypot-sourced Next.js activity. The remaining exposure was concentrated across a range of enterprise software, security, networking, developer tooling, and cloud-related products. Quick Reference: May 2026 Vulnerability Table All 22 vulnerabilities below were actively exploited in May 2026. This table does not include the 19 CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly Report. The table below also provides examples of public PoCs identified by Insikt Group®. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2008-4250 99 Microsoft Windows ✓ ✓ ✓ Link 2 CVE-2009-1537 99 Microsoft DirectX ✓ 3 CVE-2009-3459 99 Adobe Acrobat and Reader ✓ 4 CVE-2010-0249 99 Microsoft Internet Explorer ✓ ✓ Link 5 CVE-2010-0806 99 Microsoft Internet Explorer ✓ ✓ (available to Recorded Future Customers) 6 CVE-2025-34291 99 Langflow ✓ ✓ Link 7 CVE-2026-0257 99 Palo Alto Networks PAN-OS, Cloud NGFW, and Prisma Access ✓ ✓ Link 8 CVE-2026-0300 99 Palo Alto Networks PAN-OS, Cloud NGFW, Prisma Access ✓ ✓ Link 9 CVE-2026-20182 99 Cisco Catalyst SD-WAN and SD-WAN Manager ✓ ✓ Link 10 CVE-2026-31431 99 Linux Kernel ✓ ✓ (available to Recorded Future Customers) ✓ Link 11 CVE-2026-34926 99 Trend Micro Apex One (On-Premise) ✓ 12 CVE-2026-41091 99 Microsoft Defender ✓ ✓ Link 13 CVE-2026-42208 99 BerriAI LiteLLM ✓ ✓ Link 14 CVE-2026-42897 99 Microsoft Exchange Server ✓ ✓ Link 15 CVE-2026-45321 99 TanStack (Multiple Packages) ✓ ✓ Link 16 CVE-2026-45498 99 Microsoft Defender ✓ 17 CVE-2026-48027 99 Nx Console ✓ 18 CVE-2026-48172 99 LiteSpeed cPanel Plugin ✓ ✓ Link 19 CVE-2026-6973 99 Ivanti Endpoint Manager Mobile (EPMM) ✓ ✓ 20 CVE-2026-8398 99 Daemon Tools Lite ✓ 21 CVE-2026-9082 99 Drupal Core ✓ ✓ Link 22 CVE-2026-26980 99 Ghost CMS ✓ (available to Recorded Future Customers) ✓ Link Table 1: List of vulnerabilities that were actively exploited in May, 2026 based on Recorded Future data (excluding honeypot-sourced CVEs). Key Trends: May 2026 In May 2026, threat actors exploited a Ghost CMS vulnerability in large-scale ClickFix and FakeCaptcha poisoning campaigns. The campaigns used compromised Ghost CMS websites to inject malicious JavaScript, redirect victims through social engineering lures, and stage dropper and loader payloads from attacker-controlled infrastructure. 12 of the 41 vulnerabilities enabled remote code execution (RCE), affecting products from 8 vendors: Microsoft, Adobe, Langflow, Palo Alto Networks, Apache, openDCIM, Fortinet, and Ivanti. Insikt Group identified public proof-of-concept (PoC) exploits for 32 of the 41 vulnerabilities in this report. The most commonly observed flaws this month were CWE-79 (Cross-site Scripting), CWE-506 (Embedded Malicious Code), and CWE-89 (SQL Injection), with three CVEs each. 5 of the 41 vulnerabilities in this month’s prominent vulnerabilities table were first disclosed between 2008 and 2010, making them at least 15 years old, with the oldest vulnerability being approximately 18 years old. This reinforces our finding that attackers continue to exploit long-known weaknesses in environments wh
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: May 2026 CVE Landscape
+  - Published: 2026-06-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
+  - Summary: In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
 
 ### Cluster 8215bd2034 — score 10
 
@@ -3145,47 +3145,6 @@ Inside Google Cloud What’s new with Google Cloud June 12, 2026 Google Cloud Co
   - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Jun 8 - Jun 12 Simplify Multi-Cloud Planning with Cloud Location Finder, now Generally Available Cloud Location Finder provides up-to-date data on public regions, zones, and Google Distributed Cloud Connected locations across Google Cloud, AWS, Azure, and OCI. You can now programmatically discover locations based on provider, proximity, territory, and carbon footprint to optimize your global infrastructure strategy for performance, compliance, and sustainability. Get started for free today Jun 1 - Jun 5 Modeling the physical world with BigQuery Graph Managing complex supply chains requires more than just spreadshee
 
-### Cluster d5c82b0f7f — score 9
-
-- Title: Maine breach portal abused to publish fake data breach disclosures
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-11T22:44:58+00:00
-- Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
-```
-
-#### Full body
-
-```
-Maine breach portal abused to publish fake data breach disclosures By Bill Toulas June 11, 2026 06:44 PM 0 In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine’s official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. A notice allegedly filed by multiplayer social virtual reality platform VRChat is the most recent entry in the state Attorney General's breach disclosure database. However, a company representative told BleepingComputer that the breach notification is fake and has been filed using the name of a fictitious employee. VRChat is a multiplayer social virtual reality platform built on Unity and originally released for Windows and Oculus Rift in 2014, where users interact as customizable avatars in user-created virtual worlds. The fake VRChat data breach entry notes that personal data of more than 2.4 million users was exposed to hackers after they gained access to the company's cloud environment. Whoever submitted the false information made the effort to draft a notification letter for affected individuals, which claimed that the hacking incident occurred between May 10 and 12 and impacted the following types of data: VRChat username Email address associated with a VRChat account VRChat+ subscription status Login history, including device, hardware identifiers, and IP addresses Steam or Meta user ID linked to a VRChat account At a cursory look, the false letter appears legitimate, filled with details about unauthorized access, results of a forensic investigation, actions taken after detecting the hack, claims that steps have been taken to increase security, and what users should do to increase protection for their account. Charles Tupper, Head of Community at VRChat, told BleepingComputer that the data breach notification in the database of the Maine Office of the Attorney General is fraudulent: "VRChat did not submit this Notice of Data Incident, and the employee/email cited does not exist. We have no reason to believe that our data or systems have been compromised." Tupper added that the company is "in the process of contacting the Maine Attorney General's office to have this removed." Graham Gaylor, the CEO and co-founder of VRChat, also confirmed the statement BleepingComputer received from Tupper. The Maine Office of the Attorney General also responded to our request for comments and said that "the notice will be coming down" and that they were "not aware of another example of intentional misrepresentation of the notice filings." Earlier this week, the Maine Attorney General's Office listed another suspicious data breach notification allegedly from Discord, which claimed that 10 million people were impacted by a data breach. Maine's Attorney General Office confirmed to BleepingComputer that anyone can submit a breach notification form and have it added to the portal without verification. "We don’t have any independent knowledge of the breaches, the submitting entity fills out the information and it goes directly onto the site. We will review the one you’ve flagged, thank you," Maine Attorney General's Office told BleepingComputer when asked about the validity of the Discord data breach submission. Unlike most formal data breach notifications, the Discord entry did not include a notification letter from the company informing consumers about the breach, disclosing what happened and how those impacted can protect themselves. Apart from the company address, the Discord entry included vague and unreliable information, starting with the name of the person submitting the notice, a Gmail contact, and a placeholder phone number. Furthermore, the details about the breach occurring on July 9, 2024, and being discovered on August 8, 2025, along with an inconsistent consumer notification date of January 1st, 2000, are clear indications of a false submission. Although a data breach did impact Discord in 2025 , it o
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Maine breach portal abused to publish fake data breach disclosures
-  - Published: 2026-06-11T22:44:58+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
-  - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
-
 ### Cluster 5da6b03ed1 — score 9
 
 - Title: Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code
@@ -3482,6 +3441,47 @@ Home Blog The Fake Download That Steals Everything: How Deceptive Installers Are
   - Published: 2026-06-10T14:00:00+00:00
   - Link: https://www.huntress.com/blog/deceptive-installers-macos-infostealers
   - Summary: Deceptive installers disguised as legit macOS software deliver infostealers that grab passwords, cookies, and crypto wallets. Learn how to detect them.
+
+### Cluster d5c82b0f7f — score 8
+
+- Title: Maine breach portal abused to publish fake data breach disclosures
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-11T22:44:58+00:00
+- Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
+```
+
+#### Full body
+
+```
+Maine breach portal abused to publish fake data breach disclosures By Bill Toulas June 11, 2026 06:44 PM 0 In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine’s official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. A notice allegedly filed by multiplayer social virtual reality platform VRChat is the most recent entry in the state Attorney General's breach disclosure database. However, a company representative told BleepingComputer that the breach notification is fake and has been filed using the name of a fictitious employee. VRChat is a multiplayer social virtual reality platform built on Unity and originally released for Windows and Oculus Rift in 2014, where users interact as customizable avatars in user-created virtual worlds. The fake VRChat data breach entry notes that personal data of more than 2.4 million users was exposed to hackers after they gained access to the company's cloud environment. Whoever submitted the false information made the effort to draft a notification letter for affected individuals, which claimed that the hacking incident occurred between May 10 and 12 and impacted the following types of data: VRChat username Email address associated with a VRChat account VRChat+ subscription status Login history, including device, hardware identifiers, and IP addresses Steam or Meta user ID linked to a VRChat account At a cursory look, the false letter appears legitimate, filled with details about unauthorized access, results of a forensic investigation, actions taken after detecting the hack, claims that steps have been taken to increase security, and what users should do to increase protection for their account. Charles Tupper, Head of Community at VRChat, told BleepingComputer that the data breach notification in the database of the Maine Office of the Attorney General is fraudulent: "VRChat did not submit this Notice of Data Incident, and the employee/email cited does not exist. We have no reason to believe that our data or systems have been compromised." Tupper added that the company is "in the process of contacting the Maine Attorney General's office to have this removed." Graham Gaylor, the CEO and co-founder of VRChat, also confirmed the statement BleepingComputer received from Tupper. The Maine Office of the Attorney General also responded to our request for comments and said that "the notice will be coming down" and that they were "not aware of another example of intentional misrepresentation of the notice filings." Earlier this week, the Maine Attorney General's Office listed another suspicious data breach notification allegedly from Discord, which claimed that 10 million people were impacted by a data breach. Maine's Attorney General Office confirmed to BleepingComputer that anyone can submit a breach notification form and have it added to the portal without verification. "We don’t have any independent knowledge of the breaches, the submitting entity fills out the information and it goes directly onto the site. We will review the one you’ve flagged, thank you," Maine Attorney General's Office told BleepingComputer when asked about the validity of the Discord data breach submission. Unlike most formal data breach notifications, the Discord entry did not include a notification letter from the company informing consumers about the breach, disclosing what happened and how those impacted can protect themselves. Apart from the company address, the Discord entry included vague and unreliable information, starting with the name of the person submitting the notice, a Gmail contact, and a placeholder phone number. Furthermore, the details about the breach occurring on July 9, 2024, and being discovered on August 8, 2025, along with an inconsistent consumer notification date of January 1st, 2000, are clear indications of a false submission. Although a data breach did impact Discord in 2025 , it o
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Maine breach portal abused to publish fake data breach disclosures
+  - Published: 2026-06-11T22:44:58+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
+  - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
 
 ### Cluster b6e1e5877f — score 8
 
