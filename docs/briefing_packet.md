@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-13T20:21:47.213096+00:00
+- Generated: 2026-06-13T22:12:27.390635+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 337
-- Total clusters raw: 157
+- Total items in window: 339
+- Total clusters raw: 156
 - Total clusters in packet: 63
-- Dropped low score: 94
+- Dropped low score: 93
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,58 +75,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
@@ -134,6 +114,26 @@
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -155,41 +155,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 78
-  - In window count: 0
+  - Item count: 10
+  - In window count: 1
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 78
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 6
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,56 +200,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -280,21 +280,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 15
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 100
+  - In window count: 6
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,16 +300,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -325,23 +330,18 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+  - Item count: 30
+  - In window count: 17
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,11 +350,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 17
+  - Item count: 100
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -370,16 +370,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -395,11 +400,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -425,16 +425,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 48
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 21
+  - In window count: 23
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -523,8 +523,8 @@
 - Links:
   - https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/
   - https://orca.security/resources/blog/cve-2026-20253-splunk-enterprise-rce-unauthenticated-file-operations/
-  - https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+  - https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
   - https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/
   - https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
   - https://trustedsec.com/blog/how-to-train-your-dragons-analysts
@@ -720,13 +720,13 @@
   - https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
   - https://www.reddit.com/r/netsec/comments/1u3y1zo/free_compromise_detection_for_github_repos/
 
-### ransomware extortion targeting UNC3753
-- Anchor signal: UNC3753
-- Theme key: unc3753
+### Silent Ransom Group: ransomware extortion
+- Anchor signal: Silent Ransom Group
+- Theme key: silent-ransom-group
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: UNC3753
+- Shared strong signals: Silent Ransom Group
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -738,13 +738,13 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks
   - https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html
 
-### Silent Ransom Group: ransomware extortion
-- Anchor signal: Silent Ransom Group
-- Theme key: silent-ransom-group
+### ransomware extortion targeting UNC3753
+- Anchor signal: UNC3753
+- Theme key: unc3753
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: Silent Ransom Group
+- Shared strong signals: UNC3753
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -972,7 +972,7 @@ Back to Blog Vulnerabilities and Exploits Active Exploitation of Oracle PeopleSo
   - Link: https://www.securityweek.com/google-confirms-exploitation-of-oracle-peoplesoft-zero-day-by-shinyhunters/
   - Summary: Oracle has mitigated CVE-2026-35273, but it has not publicly confirmed the vulnerability’s in-the-wild exploitation. The post Google Confirms Exploitation of Oracle PeopleSoft Zero-Day by ShinyHunters appeared first on SecurityWeek .
 
-### Cluster 643755a74a — score 49
+### Cluster 643755a74a — score 48
 
 - Title: Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE)
 - Source: watchTowr Labs (offensive_vulnerability_research)
@@ -1023,16 +1023,16 @@ Three posts? In three days? Are we insane? We're home alone, there's no one to s
   - Published: 2026-06-11T17:01:23+00:00
   - Link: https://orca.security/resources/blog/cve-2026-20253-splunk-enterprise-rce-unauthenticated-file-operations/
   - Summary: Executive Summary A critical vulnerability (CVE-2026-20253, CVSS 9.8) was disclosed alongside three additional high-severity flaws affecting Splunk Enterprise, Splunk Cloud Platform, and the Splunk Secure Gateway app, allowing attackers to perform unauthenticated arbitrary file creation/truncation, remote code execution, stored cross-site scripting, and server-side request forgery. Due to the potential for full infrastructure compromise in enterprise […]
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE) - watchTowr Labs
-  - Published: 2026-06-12T20:37:06+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
-  - Summary: submitted by /u/dx7r__ [link] [comments]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
   - Published: 2026-06-13T13:23:03+00:00
   - Link: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - Summary: Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. "In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE) - watchTowr Labs
+  - Published: 2026-06-12T20:37:06+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
+  - Summary: submitted by /u/dx7r__ [link] [comments]
 
 ### Cluster 0678a0cc99 — score 44
 
@@ -1263,6 +1263,49 @@ CVE-2026-48558: SimpleHelp Authentication Bypass Indicators of Compromise Zach H
   - Link: https://horizon3.ai/attack-research/disclosures/cve-2026-48558-simplehelp-authentication-bypass-iocs/
   - Summary: Horizon3.ai details indicators of compromise, affected configurations, and mitigation guidance for CVE-2026-48558, a SimpleHelp OIDC authentication bypass vulnerability.
 
+### Cluster 886a4df09d — score 27
+
+- Title: Factoring "short-sleeve" RSA keys with polynomials
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-06-12T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the Comple
+```
+
+#### Full body
+
+```
+Page content What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the CompleteFTP file transfer software. The CompleteFTP bug also generated vulnerable short-sleeve DSA keys, and we recovered 603 unique RSA private keys and 74 DSA keys from internet scans. If you used CompleteFTP to generate host keys between December 2016 and December 2023, CompleteFTP has released a tool to check whether your keys need to be regenerated. How we found the weak keys The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world keys from public sources, including Certificate Transparency logs, internet-wide TLS and SSH scans, PGP keys, and many others. By searching this dataset for unexpectedly sparse RSA moduli, we uncovered a large number of keys in the wild with the patterns in Figure 1. Both patterns include several regularly spaced blocks of all zeros interleaved with seemingly random data. Pattern 1 appears in CT logs for certificates issued to several large organizations, including Yahoo and Verizon , and on some devices running NetApp software. Fortunately, these certificates have already expired, but we still shared our findings with these companies. We wanted to learn more about which product could be responsible for generating these keys, but we did not hear back. Pattern 2 appears on SSH hosts running the CompleteFTP software from EnterpriseDT. The underlying vulnerability affects RSA keys generated using versions 10.0.0–12.0.0 (Dec 2016–Mar 2019) and DSA keys generated with v10.0.0–23.0.4 (Dec 2016–Dec 2023). These vulnerabilities affect a small minority of hosts on the internet, but the more interesting takeaway is that independent cryptographic implementations failed in similar ways. More implementations may include the same bugs, and so it’s worth tailoring cryptanalytic algorithms for this particular type of failure. Factoring with polynomials Cryptographic algorithms often need integers hundreds or thousands of bits long, and they represent these “big integers” using an array of smaller machine-sized values, called limbs . If we interpret pattern 1 as a sequence of 128-bit limbs, or 32-bit limbs in pattern 2, the repeated blocks of zeros correspond to a single block of zeros in each limb. Only a small contiguous subset of the limb is filled with random bits, and the rest of the limb is uncovered, hence the nickname “short-sleeve keys.” By exploiting this mathematical structure in the limbs of these moduli, we replace the hard problem of factoring integers with the easy problem of factoring polynomials. That is, we take the modulus $n$ with unknown factors $p$ and $q$, express it as a polynomial $f_n(x)$ with small coefficients, factor $f_n(x)$ into $f_p(x)$ and $f_q(x)$, and convert these factors into $p$ and $q$. The technique of converting between integers and polynomials is common, including doing fast polynomial multiplication , but sadly, few resources describe how to use it for fast integer fac
+```
+
+#### Corroborating sources (1)
+
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: Factoring "short-sleeve" RSA keys with polynomials
+  - Published: 2026-06-12T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/
+  - Summary: What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the Comple
+
 ### Cluster c1b5a1d701 — score 27
 
 - Title: Patch Tuesday - June 2026
@@ -1311,49 +1354,6 @@ Back to Blog Exposure Management Patch Tuesday - June 2026 Adam Barnett Jun 9, 2
   - Published: 2026-06-09T21:04:53+00:00
   - Link: https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026
   - Summary: Microsoft is publishing 200 vulnerabilities on June 2026 Patch Tuesday . Microsoft is not aware of exploitation in the wild for any of these vulnerabilities, and is aware of public disclosure for three. This is similar to last month’s Patch Tuesday, however several of last month’s vulnerabilities ended up on CISA KEV in the days following their publication. So far this month, Microsoft has provided patches to address 360 browser vulnerabilities, which is an order of magnitude more than has been typical in any given month over the past few years. As usual, browser vulns are not included in the Patch Tuesday count above. Indeed, the vast, and presumably sustained, uptick in the number of browser vulnerabilities has led to Microsoft no longer enumerating Chromium CVEs in the Security Update Guide. Other vulnerability categories, especially Linux kernel vulnerabilities, are seeing a similar increase in AI-assisted vulnerability reports. What's the opposite of coordinated disclosure? In rec
-
-### Cluster 886a4df09d — score 27
-
-- Title: Factoring "short-sleeve" RSA keys with polynomials
-- Source: Trail of Bits (offensive_vulnerability_research)
-- Published: 2026-06-12T11:00:00+00:00
-- Link: https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the Comple
-```
-
-#### Full body
-
-```
-Page content What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the CompleteFTP file transfer software. The CompleteFTP bug also generated vulnerable short-sleeve DSA keys, and we recovered 603 unique RSA private keys and 74 DSA keys from internet scans. If you used CompleteFTP to generate host keys between December 2016 and December 2023, CompleteFTP has released a tool to check whether your keys need to be regenerated. How we found the weak keys The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world keys from public sources, including Certificate Transparency logs, internet-wide TLS and SSH scans, PGP keys, and many others. By searching this dataset for unexpectedly sparse RSA moduli, we uncovered a large number of keys in the wild with the patterns in Figure 1. Both patterns include several regularly spaced blocks of all zeros interleaved with seemingly random data. Pattern 1 appears in CT logs for certificates issued to several large organizations, including Yahoo and Verizon , and on some devices running NetApp software. Fortunately, these certificates have already expired, but we still shared our findings with these companies. We wanted to learn more about which product could be responsible for generating these keys, but we did not hear back. Pattern 2 appears on SSH hosts running the CompleteFTP software from EnterpriseDT. The underlying vulnerability affects RSA keys generated using versions 10.0.0–12.0.0 (Dec 2016–Mar 2019) and DSA keys generated with v10.0.0–23.0.4 (Dec 2016–Dec 2023). These vulnerabilities affect a small minority of hosts on the internet, but the more interesting takeaway is that independent cryptographic implementations failed in similar ways. More implementations may include the same bugs, and so it’s worth tailoring cryptanalytic algorithms for this particular type of failure. Factoring with polynomials Cryptographic algorithms often need integers hundreds or thousands of bits long, and they represent these “big integers” using an array of smaller machine-sized values, called limbs . If we interpret pattern 1 as a sequence of 128-bit limbs, or 32-bit limbs in pattern 2, the repeated blocks of zeros correspond to a single block of zeros in each limb. Only a small contiguous subset of the limb is filled with random bits, and the rest of the limb is uncovered, hence the nickname “short-sleeve keys.” By exploiting this mathematical structure in the limbs of these moduli, we replace the hard problem of factoring integers with the easy problem of factoring polynomials. That is, we take the modulus $n$ with unknown factors $p$ and $q$, express it as a polynomial $f_n(x)$ with small coefficients, factor $f_n(x)$ into $f_p(x)$ and $f_q(x)$, and convert these factors into $p$ and $q$. The technique of converting between integers and polynomials is common, including doing fast polynomial multiplication , but sadly, few resources describe how to use it for fast integer fac
-```
-
-#### Corroborating sources (1)
-
-- **Trail of Bits** (offensive_vulnerability_research)
-  - Title: Factoring "short-sleeve" RSA keys with polynomials
-  - Published: 2026-06-12T11:00:00+00:00
-  - Link: https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/
-  - Summary: What happens when the bits of an RSA private key are heavily biased toward 0 instead of being randomly generated? The public key’s bits could be biased enough for us to detect these incorrectly generated keys in the wild. Together with Hanno Böck of the badkeys project, we found hundreds of unique keys that not only have this property, but can be quickly factored. We also found the bug that led to many of these keys and analyzed historical data to track the issue over time. Surprisingly, the pattern of 0 bits is often highly structured, allowing us to develop a powerful polynomial-based cryptanalytic technique that exploits the pattern. Figure 1: Two patterns of RSA moduli with repeated blocks of 0 bits seen in real-world examples. These “short-sleeve” keys, named for how the 0 bits don’t fully cover the limbs of the big integers, largely fell into two patterns. Pattern 1 remains unexplained, but we traced pattern 2 to a type mismatch in big-integer code from old versions of the Comple
 
 ### Cluster b9c17f29cd — score 24
 
@@ -1459,8 +1459,8 @@ Executive Summary A critical vulnerability ( CVE-2026-45034 , CVSS 9.8) was disc
 - Published: 2026-06-10T07:50:48+00:00
 - Link: https://horizon3.ai/intelligence/blogs/first-ai-state-sponsored-attack-threat-model/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 5
+- Member count: 8
+- Corroborating source count: 6
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
@@ -1468,7 +1468,7 @@ Executive Summary A critical vulnerability ( CVE-2026-45034 , CVSS 9.8) was disc
 - affected_industries: critical_infrastructure, financial_services, government, manufacturing_industrial
 - affected_products: Anthropic/Claude, GitHub
 - content_type: incident_report, news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_3_analysis, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: apt_espionage
@@ -1489,7 +1489,7 @@ In November 2025, Anthropic disclosed the first AI-orchestrated state-sponsored 
 The First AI State-Sponsored Attack: What It Means for Defenders Horizon3.ai June 10, 2026 Blogs On November 13, 2025, Anthropic disclosed what it called the first documented case of a large-scale cyberattack executed largely without human intervention. A Chinese state-sponsored group it tracks as GTG-1002 had manipulated its Claude model into running the majority of an espionage campaign against roughly 30 organizations — autonomously, with human operators stepping in only at a handful of decision points. The headline traveled fast. What most of the coverage skipped is the part that matters to defenders: what the AI actually did, how the attackers pulled it off, and why the answer doesn’t change your defensive priorities so much as compress the timeline for acting on them. This is a measured read of what the first AI-orchestrated state-sponsored attack does and doesn’t change, and what security teams should do about it now. What Was the First AI-Orchestrated State-Sponsored Attack? According to Anthropic’s report , the company detected the operation in mid-September 2025 and attributed it with high confidence to a Chinese state-sponsored group designated GTG-1002. The campaign targeted around 30 entities including large technology firms, financial institutions, chemical manufacturers, and government agencies, and a handful of intrusions succeeded before the activity was disrupted. The mechanics are the interesting part. The attackers didn’t ask the model for advice or for fragments of malware. They built an orchestration framework on top of the Model Context Protocol (MCP) that decomposed the intrusion into a sequence of small, individually benign-looking tasks, and they bypassed the model’s safety controls by social-engineering it into believing it was a cybersecurity firm performing authorized defensive testing. Under that framing, the AI handled an estimated 80–90% of the tactical work across the full kill chain: reconnaissance, vulnerability discovery, exploitation, lateral movement, credential harvesting, and data exfiltration. The pattern it executed was not exotic. In a closely related documented chain, an AI agent discovered a Server-Side Request Forgery (SSRF) vulnerability, stole cloud credentials, compromised a database, then pivoted through misconfigured GitHub Actions to reach remote code execution and repository takeover. No single critical CVE was required. The compromise came from connecting ordinary weaknesses in the right order. The novelty wasn’t the techniques. It was that an AI executed nearly the entire attack lifecycle with humans only at the decision gates. How Significant Was It, Really? It’s worth being honest about the controversy, because your board may have already read about it. Anthropic’s disclosure drew immediate skepticism from parts of the security community . Researchers questioned the absence of published indicators of compromise, argued the 80–90% autonomy figure was overstated, and noted that the operational impact was likely limited because existing detections already catch the open-source tooling involved. At least one prominent AI researcher dismissed the announcement as regulatory positioning. Those criticisms are fair, and a serious security leader should hold them. But they argue about the wrong variable. Whether the campaign was 90% autonomous or closer to 40%, the direction of travel is the same: the barrier that historically separated nation-state actors from less-resourced groups — the human cost of elite offensive research and operations — is the thing AI erodes. Reconnaissance, lure development, and attack-path mapping that once required dedicated analysts working for days become a concurrent, cheap process. Whether the attack was 90% autonomous or 40% is the wrong debate. The barrier that’s falling is the human cost of offensive expertise. Does AI Create New Vulnerability Classes, or Just Exploit Existing Ones Faster? It exploits the existing ones faster. AI-orchestrated att
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - Title: The First AI State-Sponsored Attack: What It Means for Defenders
@@ -1506,16 +1506,21 @@ The First AI State-Sponsored Attack: What It Means for Defenders Horizon3.ai Jun
   - Published: 2026-06-08T17:06:53+00:00
   - Link: https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html
   - Summary: If you’re a user—owner?—of this cryptocurrency, this is important: On May 29, the security researcher Taylor Hornby found a critical vulnerability in Zcash Orchard privacy pool using Claude Opus 4.8. The Zcash team hired Hornby specifically to look for this kind of issue. He found one fast enough to be embarrassing. The Orchard pool is the newest and most advanced shielded transaction system in the cryptocurrency Zcash. Introduced in 2022, it allows users to send and receive ZEC while keeping transaction details private. It uses zero-knowledge proofs to validate transactions without revealing amounts or participants. The bug: a specific check that was supposed to validate transaction inputs wasn’t actually enforcing the rules it appeared to enforce. An attacker could have exploited the flaw to feed false inputs into that check and generate ZEC from nothing, with the zero-knowledge proof system blessing the fraudulent transaction as valid...
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Anthropic disables new models after government calls them a national security concern
-  - Published: 2026-06-13T18:29:36+00:00
-  - Link: https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/
-  - Summary: The Commerce Department’s expert control decree led to the company shutting off access to Fable 5 and Mythos 5 worldwide, drawing sharp criticism from researchers and industry analysts. The post Anthropic disables new models after government calls them a national security concern appeared first on CyberScoop .
 - **Simon Willison** (ai_security_agentic_risk)
   - Title: asyncinject 0.7
   - Published: 2026-06-11T06:28:09+00:00
   - Link: https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything
   - Summary: Release: asyncinject 0.7 I built this utility library to support an asyncio dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model! Tags: async , projects , python , claude-mythos
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: Anthropic disables new models after government calls them a national security concern
+  - Published: 2026-06-13T18:29:36+00:00
+  - Link: https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/
+  - Summary: The Commerce Department’s expert control decree led to the company shutting off access to Fable 5 and Mythos 5 worldwide, drawing sharp criticism from researchers and industry analysts. The post Anthropic disables new models after government calls them a national security concern appeared first on CyberScoop .
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: MeshCentral: From XSS to RCE
+  - Published: 2026-06-13T20:34:17+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
+  - Summary: Using Claude Code to find and weaponise an XSS in MeshCentral using a rogue client, resulting in RCE. submitted by /u/kev-thehermit [link] [comments]
 
 ### Cluster d86e039c0c — score 20
 
@@ -2289,6 +2294,56 @@ Threat Research Center Insights General General When “Hi, This Is IT” Comes 
   - Link: https://unit42.paloaltonetworks.com/microsoft-teams-phishing/
   - Summary: Attackers are increasingly targeting collaboration platforms like Microsoft Teams. Learn the risks and key steps to strengthen your organization's security. The post When “Hi, This Is IT” Comes Through Microsoft Teams appeared first on Unit 42 .
 
+### Cluster ddb72e9e84 — score 10
+
+- Title: AI brands as bait: How threat actors are using the AI hype in social engineering
+- Source: Microsoft Threat Intelligence (threat_research_primary)
+- Published: 2026-06-08T16:00:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, mfa_bypass, phishing_social_eng
+- affected_industries: education, financial_services
+- affected_products: Anthropic/Claude, Microsoft Defender, OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, credential_theft, mfa_bypass
+- affected_industries: financial_services, education
+- affected_products: OpenAI/ChatGPT, Microsoft Defender, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Credential theft Threats intelligence AI threats Cybercrime Social engineering and phishing Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Microsoft Defender for Identity Microsoft Defender for Office 365 Microsoft Entra ID Protection Topics Actionable threat insights Threat intelligence As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. In recent months, Microsoft Threat Intelligence has observed a growing number of campaigns that impersonate the branding of popular AI platforms such as ChatGPT, Microsoft Copilot, DeepSeek, and Anthropic’s Claude as lures. These campaigns, which don’t represent compromise of services, span phishing, malvertising, and search engine optimization (SEO)-driven attacks that ultimately lead to credential theft, financial fraud, or malware infection. AI as TRADECRAFT How threat actors operationalize AI › Threat actors are quick to capitalize on highly anticipated launches or emerging trends, leveraging trusted branding and exploiting user curiosity to improve the success rates of their campaigns. Despite the AI-themed lures, however, these campaigns combine longstanding tactics, such as urgency-driven messaging, abuse of trusted services, and multi-stage redirection chains that require user interaction to evade detection. While traditional lures like invoices, payment notifications, or delivery alerts remain effective and continue to be widely used, AI-themed lures reflect a shift in social engineering that is likely to persist as a long-term tactic used by threat actors, from cybercriminal groups to nation states. Notably, Microsoft Threat Intelligence has observed the initial access broker Storm-3075 employing AI-themed malvertising to deliver payloads, including malware signed by the malware-signing-as-a-service (MSaaS) offering attributed to the financially motivated threat actor Fox Tempest , on behalf of multiple downstream actors. FOX TEMPEST Exposing a malware-signing service operation › This blog details several of the campaigns observed by Microsoft Threat Intelligence in the past few months that used AI brands and references as lures, and provides guidance to help users and organizations detect, mitigate, and respond to these threats. Importantly, Microsoft believes that the activity noted in this blog is purely abuse of AI brand names as lures, not reflecting a compromise of any referenced vendor. As threat actors scale their operations with AI, organizations should leverage AI-powered security capabilities to enhance visibility, automate detection, and accelerate response across email, identity, and endpoint surfaces. ChatGPT-themed lure leads to phishing kit collecting credit card data On May 5, 2026, Microsoft detected a ChatGPT-themed phishing attack that delivered malicious URLs leading to phishing pages that collected credit card and personal information such as names and addresses. This phishing activity, which consisted of 4,500 emails sent to targets in South Africa (97%), was part of a broader campaign using similar themes and infrastructure. We also observed this campaign delivering as much as 100,000 emails on a single day to targets in Switzerland, Austria, and South Africa affecting a broad range of industries, including higher education and professional services. The emails used the sender display name ChatGPT and the subject “To ensure your ChatGPT Plus continues to work – please update your payment method”. The emails posed as an urgent request to update the ChatGPT Plus subscription payment method. They warned the recipient that if a new payment method was not provided within seven days, the account would be downgraded to a free plan. A ChatGPT logo was prominently displayed at the top of the email body. Figure 1. Atta
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
+  - Published: 2026-06-08T16:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
+  - Summary: As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
+  - Published: 2026-06-08T16:00:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
+  - Summary: As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
+
 ### Cluster e002a0d5e1 — score 10
 
 - Title: Reconstructing AI activity in investigations
@@ -2331,56 +2386,6 @@ Share Link copied to clipboard! Content types Research Topics Actionable threat 
   - Published: 2026-06-09T17:35:06+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
   - Summary: Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
-
-### Cluster ddb72e9e84 — score 10
-
-- Title: AI brands as bait: How threat actors are using the AI hype in social engineering
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-08T16:00:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, mfa_bypass, phishing_social_eng
-- affected_industries: education, financial_services
-- affected_products: Anthropic/Claude, Microsoft Defender, OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, credential_theft, mfa_bypass
-- affected_industries: financial_services, education
-- affected_products: OpenAI/ChatGPT, Microsoft Defender, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Adversary-in-the-middle (AiTM) Credential theft Threats intelligence AI threats Cybercrime Social engineering and phishing Content types Research Products and services Microsoft Defender Microsoft Defender for Cloud Apps Microsoft Defender for Endpoint Microsoft Defender for Identity Microsoft Defender for Office 365 Microsoft Entra ID Protection Topics Actionable threat insights Threat intelligence As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. In recent months, Microsoft Threat Intelligence has observed a growing number of campaigns that impersonate the branding of popular AI platforms such as ChatGPT, Microsoft Copilot, DeepSeek, and Anthropic’s Claude as lures. These campaigns, which don’t represent compromise of services, span phishing, malvertising, and search engine optimization (SEO)-driven attacks that ultimately lead to credential theft, financial fraud, or malware infection. AI as TRADECRAFT How threat actors operationalize AI › Threat actors are quick to capitalize on highly anticipated launches or emerging trends, leveraging trusted branding and exploiting user curiosity to improve the success rates of their campaigns. Despite the AI-themed lures, however, these campaigns combine longstanding tactics, such as urgency-driven messaging, abuse of trusted services, and multi-stage redirection chains that require user interaction to evade detection. While traditional lures like invoices, payment notifications, or delivery alerts remain effective and continue to be widely used, AI-themed lures reflect a shift in social engineering that is likely to persist as a long-term tactic used by threat actors, from cybercriminal groups to nation states. Notably, Microsoft Threat Intelligence has observed the initial access broker Storm-3075 employing AI-themed malvertising to deliver payloads, including malware signed by the malware-signing-as-a-service (MSaaS) offering attributed to the financially motivated threat actor Fox Tempest , on behalf of multiple downstream actors. FOX TEMPEST Exposing a malware-signing service operation › This blog details several of the campaigns observed by Microsoft Threat Intelligence in the past few months that used AI brands and references as lures, and provides guidance to help users and organizations detect, mitigate, and respond to these threats. Importantly, Microsoft believes that the activity noted in this blog is purely abuse of AI brand names as lures, not reflecting a compromise of any referenced vendor. As threat actors scale their operations with AI, organizations should leverage AI-powered security capabilities to enhance visibility, automate detection, and accelerate response across email, identity, and endpoint surfaces. ChatGPT-themed lure leads to phishing kit collecting credit card data On May 5, 2026, Microsoft detected a ChatGPT-themed phishing attack that delivered malicious URLs leading to phishing pages that collected credit card and personal information such as names and addresses. This phishing activity, which consisted of 4,500 emails sent to targets in South Africa (97%), was part of a broader campaign using similar themes and infrastructure. We also observed this campaign delivering as much as 100,000 emails on a single day to targets in Switzerland, Austria, and South Africa affecting a broad range of industries, including higher education and professional services. The emails used the sender display name ChatGPT and the subject “To ensure your ChatGPT Plus continues to work – please update your payment method”. The emails posed as an urgent request to update the ChatGPT Plus subscription payment method. They warned the recipient that if a new payment method was not provided within seven days, the account would be downgraded to a free plan. A ChatGPT logo was prominently displayed at the top of the email body. Figure 1. Atta
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
-  - Published: 2026-06-08T16:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
-  - Summary: As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - Title: AI brands as bait: How threat actors are using the AI hype in social engineering
-  - Published: 2026-06-08T16:00:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/
-  - Summary: As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. The post AI brands as bait: How threat actors are using the AI hype in social engineering appeared first on Microsoft Security Blog .
 
 ### Cluster 655ad7f913 — score 10
 
@@ -3271,6 +3276,92 @@ Home Blog The Fake Download That Steals Everything: How Deceptive Installers Are
   - Link: https://www.huntress.com/blog/deceptive-installers-macos-infostealers
   - Summary: Deceptive installers disguised as legit macOS software deliver infostealers that grab passwords, cookies, and crypto wallets. Learn how to detect them.
 
+### Cluster 78faa8818c — score 8
+
+- Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-06-12T17:12:00+00:00
+- Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
+```
+
+#### Full body
+
+```
+Image: 23andMe via Facebook Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims A Missouri bankruptcy court administrator on Wednesday signed off on a deal that gives millions of victims of a 2023 data breach at 23andMe a cut of a $46.8 million settlement fund. About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web. Victims will be allotted $32.5 million while more than $14 million of the fund is being used to pay Kroll, the settlement and claims administrator in the case. The plaintiffs had sought $48 billion in damages, but the administrator determined that the lower amount should be levied given that the district court found a $30 million prepetition settlement would be “reasonable in light of the Company’s dire financial condition,” according to court documents. Even before the breach, 23andMe was in poor financial health, having seemingly already tapped the market of those interested in using its at-home, saliva-based DNA tests. The plan administrator also decided on the smaller settlement because litigating the larger amount would “expose the estates to protracted, high-stakes litigation lasting months, if not years, requiring extensive discovery and the expenditure of millions of dollars in professional fees and related costs — resources that would be far better preserved for the benefit of stakeholders,” according to court documents. Nearly 256,000 claims have been resolved, court documents say. Class members will recoup damages depending on the severity of the individual harms caused by the breach with awards of up to $10,000 for the most serious claims and as little as $50 for minor ones. After announcing the hack in October 2023, the company said the malicious actor obtained DNA Relatives profiles for about 5.5 million consumers. Data for another 14.1 million customers who used a product called Family Tree also was accessed. In March 2025, 23andMe, now named Chrome Holding Co., filed for bankruptcy and liquidated most of its assets. Anne Wojcicki, who founded the beleaguered firm, bought it back amid controversy. Cybercrime News News Briefs Privacy Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Suzanne Smalley is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
+  - Published: 2026-06-12T17:12:00+00:00
+  - Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
+  - Summary: About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
+
+### Cluster 934a475c00 — score 8
+
+- Title: South Korea hits Coupang with record $409 million fine over data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-06-12T15:56:00+00:00
+- Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
+```
+
+#### Full body
+
+```
+Image: Allison Saeng via Unsplash South Korea hits Coupang with record $409 million fine over data breach South Korea's data protection regulator has imposed a record 624.7 billion won ($409 million) fine on Coupang, the country's largest online retailer, after an investigation into a data breach that compromised the personal information of tens of millions of customers. The Personal Information Protection Commission (PIPC) voted at a plenary session on Wednesday to sanction Coupang and its logistics subsidiary, Coupang Fulfillment Services, concluding that the breach stemmed not from sophisticated hacking but from “deficiencies in basic safety management.” The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year. The breach first became public in November when Coupang said approximately 33.7 million customer accounts had been compromised — equivalent to around 65% of South Korea's entire population. The PIPC's investigation confirmed that 33,222,472 registered members were affected, but also identified a category of victims the company had not previously acknowledged: at least 4,338,368 non-members whose names, phone numbers and addresses had been stored as delivery recipients by other customers, and who had no way of knowing their data was held by Coupang at all. The regulator said it had formally urged the company four times, in December 2025 and January 2026, to notify those non-member victims. Coupang failed to do so each time. The perpetrator, an unnamed Chinese national and former employee who left the company at the end of 2024, had himself developed Coupang's alternative authentication system while still employed and had stolen the signing key that underpinned it before he left. He began with a test run in January 2025, using the stolen key on 95 accounts. From April, he systematically cycled through member ID numbers, hitting Coupang's delivery address page approximately 148 million times over two months to harvest names, phone numbers and addresses. He then turned to the account edit page, accessing it nearly 35 million times between June and October to collect names and email addresses. A final phase added apartment entry codes and order histories. The former employee later reassembled the data into individual customer profiles and sent two extortion emails — to members directly, and to Coupang — the second claiming to hold 120 million addresses, 560 million order records and more than 33 million email addresses, with sample data that included sensitive purchase histories. The PIPC found that throughout the seven-month attack, traffic on the affected pages had spiked to many times their normal levels, and that tens of millions of access attempts had used non-existent member IDs. Coupang detected none of it until a customer forwarded one of the extortion emails. The commission referred Coupang for criminal prosecution over the destruction of evidence. Regulators had ordered the preservation of access logs on November 21 — the day after Coupang filed its initial breach report, but six days later, the company manually deleted approximately six months of web access logs. Coupang also failed to pause its routine policy of automatically deleting logs after six months, allowing further records to be wiped. Roughly 13% of the logs covering the attack period were lost, making it impossible to identify all affected victims. Police separately recovered a smashed laptop from a river during the investigation — a MacBook Air the alleged perpetrator had weighted with bricks in an apparent attempt to destroy evidence — which forensic teams from Mandiant, Palo Alto Networks and Ernst & Young were able to document before it was handed to authorities. Additional violations uncovered The investigation, expanded in January 2026 following parliamentary hearings and media coverage, unearthed several violati
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: South Korea hits Coupang with record $409 million fine over data breach
+  - Published: 2026-06-12T15:56:00+00:00
+  - Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
+  - Summary: The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
+
 ### Cluster fa2566aa3e — score 8
 
 - Title: Maine disables data breach notification portal after fake disclosures
@@ -3442,92 +3533,6 @@ Maine breach portal abused to publish fake data breach disclosures By Bill Toula
   - Published: 2026-06-11T22:44:58+00:00
   - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
   - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
-
-### Cluster 78faa8818c — score 8
-
-- Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-06-12T17:12:00+00:00
-- Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
-```
-
-#### Full body
-
-```
-Image: 23andMe via Facebook Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims A Missouri bankruptcy court administrator on Wednesday signed off on a deal that gives millions of victims of a 2023 data breach at 23andMe a cut of a $46.8 million settlement fund. About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web. Victims will be allotted $32.5 million while more than $14 million of the fund is being used to pay Kroll, the settlement and claims administrator in the case. The plaintiffs had sought $48 billion in damages, but the administrator determined that the lower amount should be levied given that the district court found a $30 million prepetition settlement would be “reasonable in light of the Company’s dire financial condition,” according to court documents. Even before the breach, 23andMe was in poor financial health, having seemingly already tapped the market of those interested in using its at-home, saliva-based DNA tests. The plan administrator also decided on the smaller settlement because litigating the larger amount would “expose the estates to protracted, high-stakes litigation lasting months, if not years, requiring extensive discovery and the expenditure of millions of dollars in professional fees and related costs — resources that would be far better preserved for the benefit of stakeholders,” according to court documents. Nearly 256,000 claims have been resolved, court documents say. Class members will recoup damages depending on the severity of the individual harms caused by the breach with awards of up to $10,000 for the most serious claims and as little as $50 for minor ones. After announcing the hack in October 2023, the company said the malicious actor obtained DNA Relatives profiles for about 5.5 million consumers. Data for another 14.1 million customers who used a product called Family Tree also was accessed. In March 2025, 23andMe, now named Chrome Holding Co., filed for bankruptcy and liquidated most of its assets. Anne Wojcicki, who founded the beleaguered firm, bought it back amid controversy. Cybercrime News News Briefs Privacy Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Suzanne Smalley is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
-  - Published: 2026-06-12T17:12:00+00:00
-  - Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
-  - Summary: About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
-
-### Cluster 934a475c00 — score 8
-
-- Title: South Korea hits Coupang with record $409 million fine over data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-06-12T15:56:00+00:00
-- Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
-```
-
-#### Full body
-
-```
-Image: Allison Saeng via Unsplash South Korea hits Coupang with record $409 million fine over data breach South Korea's data protection regulator has imposed a record 624.7 billion won ($409 million) fine on Coupang, the country's largest online retailer, after an investigation into a data breach that compromised the personal information of tens of millions of customers. The Personal Information Protection Commission (PIPC) voted at a plenary session on Wednesday to sanction Coupang and its logistics subsidiary, Coupang Fulfillment Services, concluding that the breach stemmed not from sophisticated hacking but from “deficiencies in basic safety management.” The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year. The breach first became public in November when Coupang said approximately 33.7 million customer accounts had been compromised — equivalent to around 65% of South Korea's entire population. The PIPC's investigation confirmed that 33,222,472 registered members were affected, but also identified a category of victims the company had not previously acknowledged: at least 4,338,368 non-members whose names, phone numbers and addresses had been stored as delivery recipients by other customers, and who had no way of knowing their data was held by Coupang at all. The regulator said it had formally urged the company four times, in December 2025 and January 2026, to notify those non-member victims. Coupang failed to do so each time. The perpetrator, an unnamed Chinese national and former employee who left the company at the end of 2024, had himself developed Coupang's alternative authentication system while still employed and had stolen the signing key that underpinned it before he left. He began with a test run in January 2025, using the stolen key on 95 accounts. From April, he systematically cycled through member ID numbers, hitting Coupang's delivery address page approximately 148 million times over two months to harvest names, phone numbers and addresses. He then turned to the account edit page, accessing it nearly 35 million times between June and October to collect names and email addresses. A final phase added apartment entry codes and order histories. The former employee later reassembled the data into individual customer profiles and sent two extortion emails — to members directly, and to Coupang — the second claiming to hold 120 million addresses, 560 million order records and more than 33 million email addresses, with sample data that included sensitive purchase histories. The PIPC found that throughout the seven-month attack, traffic on the affected pages had spiked to many times their normal levels, and that tens of millions of access attempts had used non-existent member IDs. Coupang detected none of it until a customer forwarded one of the extortion emails. The commission referred Coupang for criminal prosecution over the destruction of evidence. Regulators had ordered the preservation of access logs on November 21 — the day after Coupang filed its initial breach report, but six days later, the company manually deleted approximately six months of web access logs. Coupang also failed to pause its routine policy of automatically deleting logs after six months, allowing further records to be wiped. Roughly 13% of the logs covering the attack period were lost, making it impossible to identify all affected victims. Police separately recovered a smashed laptop from a river during the investigation — a MacBook Air the alleged perpetrator had weighted with bricks in an apparent attempt to destroy evidence — which forensic teams from Mandiant, Palo Alto Networks and Ernst & Young were able to document before it was handed to authorities. Additional violations uncovered The investigation, expanded in January 2026 following parliamentary hearings and media coverage, unearthed several violati
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: South Korea hits Coupang with record $409 million fine over data breach
-  - Published: 2026-06-12T15:56:00+00:00
-  - Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
-  - Summary: The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
 
 ### Cluster 2442286632 — score 8
 
