@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T12:04:19.972601+00:00",
+  "generated_at": "2026-06-14T14:23:36.649588+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -18,6 +18,20 @@
       "item_count": 15,
       "in_window_count": 5
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 1
+    },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -32,26 +46,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 1
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
@@ -60,19 +60,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 5
+      "in_window_count": 1
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -88,12 +81,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
+      "item_count": 10,
+      "in_window_count": 5
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -102,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 6
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,6 +116,13 @@
       "item_count": 100,
       "in_window_count": 3
     },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "GitHub Security Lab": {
       "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -130,18 +130,11 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "item_count": 40,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -151,12 +144,12 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
@@ -165,12 +158,12 @@
       "item_count": 50,
       "in_window_count": 1
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 50,
+      "in_window_count": 6
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -178,6 +171,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
     },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
@@ -242,20 +242,6 @@
       "item_count": 20,
       "in_window_count": 8
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -268,6 +254,20 @@
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 2
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 2
     },
     "Protect AI": {
@@ -284,13 +284,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -298,12 +291,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -312,12 +305,19 @@
       "item_count": 100,
       "in_window_count": 6
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 15
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -333,12 +333,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
+      "in_window_count": 15
     },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
@@ -347,9 +347,16 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "The Record": {
+      "url": "https://therecord.media/feed",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 5,
+      "in_window_count": 5
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
@@ -361,19 +368,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "The Record": {
-      "url": "https://therecord.media/feed",
-      "cohort": "cyber_news_breach_reporting",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 5,
-      "in_window_count": 5
-    },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 20
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -381,6 +381,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -403,13 +410,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 20
-    },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
       "cohort": "cyber_news_breach_reporting",
@@ -423,13 +423,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 10
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -445,15 +438,15 @@
       "item_count": 15,
       "in_window_count": 1
     },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -466,12 +459,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -487,6 +480,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -494,12 +494,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 4
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -1155,9 +1155,9 @@
       ]
     },
     {
-      "label": "Silent Ransom Group: ransomware extortion",
-      "anchor_signal": "Silent Ransom Group",
-      "theme_key": "silent-ransom-group",
+      "label": "ransomware extortion targeting UNC3753",
+      "anchor_signal": "UNC3753",
+      "theme_key": "unc3753",
       "dominant_features": {
         "threat_categories": [
           "ransomware_extortion",
@@ -1177,7 +1177,7 @@
       "article_count": 2,
       "cohesion": 0.679,
       "shared_strong_signals": [
-        "Silent Ransom Group"
+        "UNC3753"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -1633,7 +1633,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -1665,7 +1665,7 @@
           "products": []
         }
       },
-      "score": 12
+      "score": 11
     },
     {
       "source": "Horizon3 Attack Research",
@@ -2326,7 +2326,7 @@
         }
       },
       "score": 8,
-      "full_body": "Over 400 Arch Linux packages compromised to push rootkit, infostealer By Bill Toulas June 12, 2026 01:03 PM 2 More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. A report from the open-source intelligence community Independent Federated Intelligence Network (IFIN) notes that a new maintainer is spoofing a trusted publisher on the AUR platform to push infected packages. The Arch Linux distribution is popular among power users and developers, using the AUR catalog to provide the latest versions for installed software, drivers, and the kernel. AUR is a community-maintained repository for the Arch distribution that contains package build scripts (PKGBUILDs) with instructions for downloading, compiling, and installing software not available in Arch’s official repositories. AUR is considered essential for any Arch-based distribution because it contains proprietary applications, beta/nightly versions of open-source software, niche utilities, and older versions of packages that retain functionality which may have been removed in later releases. However, it is not a vetted space, and threat actors can use it to push malware through packages that change ownership without anyone noticing. According to IFIN member Michael Taggart, the compromised packages are modified with preinstall scripts that download and execute a malicious npm package called atomic-lockfile. Independent security researcher Whanos notes that one sample of the atomic-lockfile included a Linux ELF payload named deps, which was a \"credential stealer with optional root-only eBPF [extended Berkeley Packet Filter] rootkit capabilities.\" \"It is designed for developer workstations and build environments. It targets browser and Electron application data, Slack, Microsoft Teams, Discord, GitHub, npm, Vault, Docker/Podman, SSH, VPN material, shell histories, and other local developer secrets,\" Whanos says in the report . With eBPF technology present, the malware can run inside the kernel with elevated privileges and hide local processes. Supply-chain management company Sonatype also published a report on a campaign targeting the AUR repository and delivering the malicious atomic-lockfile npm package, but using a different method. Sonatype researchers say that the threat actor hijacked at least 20 orphaned packages on AUR and pushed atomic-lockfile by modifying the PKGBUILD file - a Bash script with the build information needed by Arch Linux packages. According to the report, the attacker added a post-install script to invoke npm and retrieve the malicious package. \"The modified packages add a post-install script that invokes npm and installs atomic-lockfile during package installation,\" Sonatype says . However, analysis showed that the npm package installed a Linux executable with references to an eBPF rootkit that could hide processes, files, and network interfaces. Additionally, the Linux binary indicates that it has infostealer functionality, targeting the following types of sensitive information: GitHub credentials SSH artifacts HashiCorp Vault tokens Browser cookie databases Slack data Discord data Microsoft Teams data Telegram data Sonatype determined that the binary can archive data, handle multi-part files, and perform HTTP uploads, so the functionality for a typical exfiltration mechanism is present. AUR maintainers are working to identify and remove all malicious commits, and to ban the accounts pushing them. In a message to the community, Arch Linux package maintainer Jonathan Grotelüschen urged users to report any malicious package they find. As a general rule, it’s recommended to only trust projects with frequent updates and an active community around them. Arch users are advised to review the list of affected packages and look for the indicators of compromise provided in the report from Whanos . Michael Taggart also pointed to a script that checks for the atomic-",
+      "full_body": "Over 400 Arch Linux packages compromised to push rootkit, infostealer By Bill Toulas June 12, 2026 01:03 PM 3 More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. A report from the open-source intelligence community Independent Federated Intelligence Network (IFIN) notes that a new maintainer is spoofing a trusted publisher on the AUR platform to push infected packages. The Arch Linux distribution is popular among power users and developers, using the AUR catalog to provide the latest versions for installed software, drivers, and the kernel. AUR is a community-maintained repository for the Arch distribution that contains package build scripts (PKGBUILDs) with instructions for downloading, compiling, and installing software not available in Arch’s official repositories. AUR is considered essential for any Arch-based distribution because it contains proprietary applications, beta/nightly versions of open-source software, niche utilities, and older versions of packages that retain functionality which may have been removed in later releases. However, it is not a vetted space, and threat actors can use it to push malware through packages that change ownership without anyone noticing. According to IFIN member Michael Taggart, the compromised packages are modified with preinstall scripts that download and execute a malicious npm package called atomic-lockfile. Independent security researcher Whanos notes that one sample of the atomic-lockfile included a Linux ELF payload named deps, which was a \"credential stealer with optional root-only eBPF [extended Berkeley Packet Filter] rootkit capabilities.\" \"It is designed for developer workstations and build environments. It targets browser and Electron application data, Slack, Microsoft Teams, Discord, GitHub, npm, Vault, Docker/Podman, SSH, VPN material, shell histories, and other local developer secrets,\" Whanos says in the report . With eBPF technology present, the malware can run inside the kernel with elevated privileges and hide local processes. Supply-chain management company Sonatype also published a report on a campaign targeting the AUR repository and delivering the malicious atomic-lockfile npm package, but using a different method. Sonatype researchers say that the threat actor hijacked at least 20 orphaned packages on AUR and pushed atomic-lockfile by modifying the PKGBUILD file - a Bash script with the build information needed by Arch Linux packages. According to the report, the attacker added a post-install script to invoke npm and retrieve the malicious package. \"The modified packages add a post-install script that invokes npm and installs atomic-lockfile during package installation,\" Sonatype says . However, analysis showed that the npm package installed a Linux executable with references to an eBPF rootkit that could hide processes, files, and network interfaces. Additionally, the Linux binary indicates that it has infostealer functionality, targeting the following types of sensitive information: GitHub credentials SSH artifacts HashiCorp Vault tokens Browser cookie databases Slack data Discord data Microsoft Teams data Telegram data Sonatype determined that the binary can archive data, handle multi-part files, and perform HTTP uploads, so the functionality for a typical exfiltration mechanism is present. AUR maintainers are working to identify and remove all malicious commits, and to ban the accounts pushing them. In a message to the community, Arch Linux package maintainer Jonathan Grotelüschen urged users to report any malicious package they find. As a general rule, it’s recommended to only trust projects with frequent updates and an active community around them. Arch users are advised to review the list of affected packages and look for the indicators of compromise provided in the report from Whanos . Michael Taggart also pointed to a script that checks for the atomic-",
       "fetch_status": "ok"
     },
     {
@@ -4216,47 +4216,6 @@
       "fetch_status": "ok"
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
-      "published": "2026-06-11T14:00:00+00:00",
-      "summary": "Introduction Mandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273 , a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle's June 10, 2026 advisory, the vulnerability was exploited as a zero-day. Upon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subse",
-      "author": "Mandiant",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "zero_day"
-        ],
-        "actor_attribution": [
-          "ShinyHunters",
-          "UNC6240"
-        ],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-35273"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day",
-          "critical_cvss"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 31
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -4296,6 +4255,47 @@
         }
       },
       "score": 41
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "ShinyHunters Targets Education Sector with Oracle PeopleSoft Exploit",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/",
+      "published": "2026-06-11T14:00:00+00:00",
+      "summary": "Introduction Mandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273 , a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle's June 10, 2026 advisory, the vulnerability was exploited as a zero-day. Upon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subse",
+      "author": "Mandiant",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "zero_day"
+        ],
+        "actor_attribution": [
+          "ShinyHunters",
+          "UNC6240"
+        ],
+        "affected_industries": [
+          "education"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-35273"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day",
+          "critical_cvss"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 31
     },
     {
       "source": "Infosecurity Magazine",
@@ -8785,43 +8785,6 @@
       }
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/",
-      "published": "2026-06-05T14:00:00+00:00",
-      "summary": "Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as \"Luna Moth,\" “Chatty Spider,” and \"Silent Ransom Group\") targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their ",
-      "author": "Google Threat Intelligence Group",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [
-          "Silent Ransom Group",
-          "UNC3753"
-        ],
-        "affected_industries": [
-          "financial_services",
-          "critical_infrastructure",
-          "legal_professional"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -8852,6 +8815,43 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Seeking Counsel: Ongoing Targeted Campaign Against US Law Firms",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/",
+      "published": "2026-06-05T14:00:00+00:00",
+      "summary": "Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as \"Luna Moth,\" “Chatty Spider,” and \"Silent Ransom Group\") targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their ",
+      "author": "Google Threat Intelligence Group",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [
+          "Silent Ransom Group",
+          "UNC3753"
+        ],
+        "affected_industries": [
+          "financial_services",
+          "critical_infrastructure",
+          "legal_professional"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9140,33 +9140,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
-      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -9194,6 +9167,33 @@
         "role_map": {
           "WordPress": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage",
+      "link": "https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins",
+      "published": "2026-06-05T00:00:00+00:00",
+      "summary": "Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -9541,11 +9541,11 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "What’s new with Google Data Cloud",
-      "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
+      "title": "What's new for Managed Service for Apache Spark clusters",
+      "link": "https://cloud.google.com/blog/products/data-analytics/enhancements-to-managed-service-for-apache-spark-clusters/",
       "published": "2026-06-04T16:00:00+00:00",
-      "summary": "June 1 - June 5 Beyond the Query: Powering AI Agents with Bigtable, Firestore & Memorystore Discover the latest advancements in Google Cloud's NoSQL Database portfolio, including Bigtable, Firestore, and Memorystore. This series is designed for a broad audience: whether you are exploring these databases for the first time or are an existing user looking to leverage the new capabilities announced at Next '26. Register here to secure your spot! Cloud Engineer's AI Toolkit Workshops: Solve data-driven challenges with BigQuery, AlloyDB , Gemini and more. Hosted by Google Cloud Labs, this highly technical event is built specifically for Platform Engineers, SREs, and cloud infrastructure teams ready to bridge the gap between AI prototypes and production-grade deployments. Look out for more locations coming soon Toronto - June 25 (Data Cloud) | RSVP Here Chicago - June 30 (Data Cloud) | RSVP Here Start a 10-day Bigtable free trial with a 1 node SSD cluster and up to 500GB of storage capacity.",
-      "author": "The Google Cloud Data Analytics, BI, and Database teams",
+      "summary": "At Google Cloud, our goal is to let you run large-scale analytical and data science workloads with maximum efficiency so you can process big data pipelines, machine learning, and ETL tasks. We recently announced that the Dataproc service is now Managed Service for Apache Spark , reflecting our deep integration with the Agentic Data Cloud . To support the diverse architectural needs of today’s modern data teams, we offer the service in two distinct deployment modes: serverless and managed clusters. The serverless deployment mode completely abstracts infrastructure management for ephemeral or ad-hoc jobs, while the managed clusters deployment mode is designed for teams that require fine-grained infrastructure customization, persistent environments, long-running stateful processing, or native integration with custom Compute Engine hardware configurations. When it comes to managed cluster deployments, we’ve re-imagined the experience from the ground up, focusing on three core pillars: maki",
+      "author": "Qiqi Wu",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -9568,11 +9568,11 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "What's new for Managed Service for Apache Spark clusters",
-      "link": "https://cloud.google.com/blog/products/data-analytics/enhancements-to-managed-service-for-apache-spark-clusters/",
+      "title": "What’s new with Google Data Cloud",
+      "link": "https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/",
       "published": "2026-06-04T16:00:00+00:00",
-      "summary": "At Google Cloud, our goal is to let you run large-scale analytical and data science workloads with maximum efficiency so you can process big data pipelines, machine learning, and ETL tasks. We recently announced that the Dataproc service is now Managed Service for Apache Spark , reflecting our deep integration with the Agentic Data Cloud . To support the diverse architectural needs of today’s modern data teams, we offer the service in two distinct deployment modes: serverless and managed clusters. The serverless deployment mode completely abstracts infrastructure management for ephemeral or ad-hoc jobs, while the managed clusters deployment mode is designed for teams that require fine-grained infrastructure customization, persistent environments, long-running stateful processing, or native integration with custom Compute Engine hardware configurations. When it comes to managed cluster deployments, we’ve re-imagined the experience from the ground up, focusing on three core pillars: maki",
-      "author": "Qiqi Wu",
+      "summary": "June 1 - June 5 Beyond the Query: Powering AI Agents with Bigtable, Firestore & Memorystore Discover the latest advancements in Google Cloud's NoSQL Database portfolio, including Bigtable, Firestore, and Memorystore. This series is designed for a broad audience: whether you are exploring these databases for the first time or are an existing user looking to leverage the new capabilities announced at Next '26. Register here to secure your spot! Cloud Engineer's AI Toolkit Workshops: Solve data-driven challenges with BigQuery, AlloyDB , Gemini and more. Hosted by Google Cloud Labs, this highly technical event is built specifically for Platform Engineers, SREs, and cloud infrastructure teams ready to bridge the gap between AI prototypes and production-grade deployments. Look out for more locations coming soon Toronto - June 25 (Data Cloud) | RSVP Here Chicago - June 30 (Data Cloud) | RSVP Here Start a 10-day Bigtable free trial with a 1 node SSD cluster and up to 500GB of storage capacity.",
+      "author": "The Google Cloud Data Analytics, BI, and Database teams",
       "in_window": false,
       "taxonomy": {
         "threat_categories": [],
@@ -18041,33 +18041,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
-      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -18198,6 +18171,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "The Vulnerability Flood Is Now a Board Conversation. Here's How to Lead It.",
+      "link": "https://www.recordedfuture.com/blog/vulnerability-board-conversation",
+      "published": "2026-05-21T00:00:00+00:00",
+      "summary": "Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here's how to be one of them.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20608,33 +20608,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "April 2026 CVE Landscape",
-      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -20711,6 +20684,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "April 2026 CVE Landscape",
+      "link": "https://www.recordedfuture.com/blog/april-cve-landscape",
+      "published": "2026-05-15T00:00:00+00:00",
+      "summary": "In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -21283,60 +21283,6 @@
       }
     },
     {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
-      "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Recorded Future",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
-      "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Exploit-DB",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -21438,6 +21384,60 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_offensive_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals",
+      "link": "https://www.recordedfuture.com/blog/nist-nvd-enrichment",
+      "published": "2026-05-14T00:00:00+00:00",
+      "summary": "NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Recorded Future",
+      "cohort": "threat_research_primary",
+      "category": "threat_research_primary",
+      "title": "Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense",
+      "link": "https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense",
+      "published": "2026-05-14T00:00:00+00:00",
+      "summary": "The real question in modern cyber defense isn't who has more technology. It's who uses their resources more efficiently. Here's how AI fused with threat intelligence tips that balance.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -33687,7 +33687,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f93e9be4c70>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f17ab0b5910>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
@@ -35691,10 +35691,10 @@
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
-      "title": "C'est officiel : Wiz rejoint Google",
+      "title": "It’s Official: Wiz Joins Google",
       "link": "https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz",
       "published": "2026-03-11T12:41:21+00:00",
-      "summary": "Bienvenue dans une nouvelle ère de la sécurité du cloud et de l'IA.",
+      "summary": "Welcoming a new era of Cloud and AI Security.",
       "author": "Assaf Rappaport",
       "in_window": false,
       "taxonomy": {

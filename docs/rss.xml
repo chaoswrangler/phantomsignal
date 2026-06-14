@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 14 Jun 2026 12:04:20 +0000</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 14:23:36 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -898,8 +898,8 @@
 <description><![CDATA[Introduction Mandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273 , a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle&apos;s June 10, 2026 advisory, the vulnerability was exploited as a zero-day. Upon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subse<br/><br/><em>Tags: ShinyHunters · UNC6240 · CVE-2026-35273 · ransomware_extortion · zero_day</em>]]></description>
 <pubDate>Thu, 11 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 <category>ShinyHunters</category>
 <category>UNC6240</category>
 <category>CVE-2026-35273</category>
@@ -911,8 +911,8 @@
 <description><![CDATA[Introduction Mandiant and Google Threat Intelligence Group (GTIG) have identified an active compromise and extortion campaign attributed to UNC6240 (ShinyHunters) targeting Oracle PeopleSoft application infrastructure. The activity was observed between May 27, 2026, and June 9, 2026 and is consistent with the exploitation of CVE-2026-35273 , a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component. The exploitation of this vulnerability directly aligns with the observed targeting of Environment Management Hub (PSEMHUB) endpoints. Because this activity predates Oracle&apos;s June 10, 2026 advisory, the vulnerability was exploited as a zero-day. Upon becoming aware of active scanning and exploitation, we initiated notifications to over 100 global organizations whose IP addresses correlated with potentially vulnerable endpoints. Most of these organizations were based in the United States, and 68 percent operated within the higher education sector. Subse<br/><br/><em>Tags: ShinyHunters · UNC6240 · CVE-2026-35273 · ransomware_extortion · zero_day</em>]]></description>
 <pubDate>Thu, 11 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-targets-education-sector-oracle-exploit/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
 <category>ShinyHunters</category>
 <category>UNC6240</category>
 <category>CVE-2026-35273</category>
@@ -2298,8 +2298,8 @@
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 <category>Silent Ransom Group</category>
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
@@ -2311,8 +2311,8 @@
 <description><![CDATA[Written by: Chad Reams, Tufail Ahmed, Keith Knapp, Ashley Frazer, Tyler McLellan Introduction From January through May 2026, Mandiant identified a financially motivated data theft extortion campaign executed by the threat cluster UNC3753 (also tracked as &quot;Luna Moth,&quot; “Chatty Spider,” and &quot;Silent Ransom Group&quot;) targeting dozens of organizations across professional, legal, and financial services in the United States. UNC3753 leverages voice phishing (vishing) and social engineering deception techniques to achieve remote access into corporate environments. Using pretexts such as data migration or invoice related emails, the threat actors initiate phone conversations posing as IT support and convince targets to host screen-sharing sessions and download remote monitoring and management (RMM) utilities. Once inside the environment, the threat actors either directly conduct searches to locate and exfiltrate highly sensitive data, or manipulate the victim into executing these actions on their <br/><br/><em>Tags: Silent Ransom Group · UNC3753 · ransomware_extortion · phishing_social_eng</em>]]></description>
 <pubDate>Fri, 05 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/targeted-campaign-us-law-firms/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
 <category>Silent Ransom Group</category>
 <category>UNC3753</category>
 <category>ransomware_extortion</category>
@@ -2409,15 +2409,6 @@
 <category>government_authoritative</category>
 </item>
 <item>
-<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
-<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
-<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
 <link>https://www.exploit-db.com/exploits/52609</link>
 <description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
@@ -2426,6 +2417,15 @@
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
 <category>WordPress</category>
+</item>
+<item>
+<title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
+<link>https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</link>
+<description><![CDATA[Recorded Future’s Intelligence Graph® uses holistic sourcing across 1M+ sources for complete threat intelligence and proactive defense.]]></description>
+<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/recorded-future-holistic-sourcing-wins</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>AI enthusiasts are in a race against time, AI skeptics are in a race against entropy</title>
@@ -2541,20 +2541,20 @@
 <category>WordPress</category>
 </item>
 <item>
-<title>What’s new with Google Data Cloud</title>
-<link>https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/</link>
-<description><![CDATA[June 1 - June 5 Beyond the Query: Powering AI Agents with Bigtable, Firestore &amp; Memorystore Discover the latest advancements in Google Cloud&apos;s NoSQL Database portfolio, including Bigtable, Firestore, and Memorystore. This series is designed for a broad audience: whether you are exploring these databases for the first time or are an existing user looking to leverage the new capabilities announced at Next &apos;26. Register here to secure your spot! Cloud Engineer&apos;s AI Toolkit Workshops: Solve data-driven challenges with BigQuery, AlloyDB , Gemini and more. Hosted by Google Cloud Labs, this highly technical event is built specifically for Platform Engineers, SREs, and cloud infrastructure teams ready to bridge the gap between AI prototypes and production-grade deployments. Look out for more locations coming soon Toronto - June 25 (Data Cloud) | RSVP Here Chicago - June 30 (Data Cloud) | RSVP Here Start a 10-day Bigtable free trial with a 1 node SSD cluster and up to 500GB of storage capacity.]]></description>
-<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>What&apos;s new for Managed Service for Apache Spark clusters</title>
 <link>https://cloud.google.com/blog/products/data-analytics/enhancements-to-managed-service-for-apache-spark-clusters/</link>
 <description><![CDATA[At Google Cloud, our goal is to let you run large-scale analytical and data science workloads with maximum efficiency so you can process big data pipelines, machine learning, and ETL tasks. We recently announced that the Dataproc service is now Managed Service for Apache Spark , reflecting our deep integration with the Agentic Data Cloud . To support the diverse architectural needs of today’s modern data teams, we offer the service in two distinct deployment modes: serverless and managed clusters. The serverless deployment mode completely abstracts infrastructure management for ephemeral or ad-hoc jobs, while the managed clusters deployment mode is designed for teams that require fine-grained infrastructure customization, persistent environments, long-running stateful processing, or native integration with custom Compute Engine hardware configurations. When it comes to managed cluster deployments, we’ve re-imagined the experience from the ground up, focusing on three core pillars: maki]]></description>
 <pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/enhancements-to-managed-service-for-apache-spark-clusters/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>What’s new with Google Data Cloud</title>
+<link>https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/</link>
+<description><![CDATA[June 1 - June 5 Beyond the Query: Powering AI Agents with Bigtable, Firestore &amp; Memorystore Discover the latest advancements in Google Cloud&apos;s NoSQL Database portfolio, including Bigtable, Firestore, and Memorystore. This series is designed for a broad audience: whether you are exploring these databases for the first time or are an existing user looking to leverage the new capabilities announced at Next &apos;26. Register here to secure your spot! Cloud Engineer&apos;s AI Toolkit Workshops: Solve data-driven challenges with BigQuery, AlloyDB , Gemini and more. Hosted by Google Cloud Labs, this highly technical event is built specifically for Platform Engineers, SREs, and cloud infrastructure teams ready to bridge the gap between AI prototypes and production-grade deployments. Look out for more locations coming soon Toronto - June 25 (Data Cloud) | RSVP Here Chicago - June 30 (Data Cloud) | RSVP Here Start a 10-day Bigtable free trial with a 1 node SSD cluster and up to 500GB of storage capacity.]]></description>
+<pubDate>Thu, 04 Jun 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/data-analytics/whats-new-with-google-data-cloud/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
@@ -5359,15 +5359,6 @@
 <category>supply_chain</category>
 </item>
 <item>
-<title>The Vulnerability Flood Is Now a Board Conversation. Here&apos;s How to Lead It.</title>
-<link>https://www.recordedfuture.com/blog/vulnerability-board-conversation</link>
-<description><![CDATA[Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here&apos;s how to be one of them.]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/vulnerability-board-conversation</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] Cockpit 359 - RCE</title>
 <link>https://www.exploit-db.com/exploits/52572</link>
 <description><![CDATA[Cockpit 359 - RCE]]></description>
@@ -5412,6 +5403,15 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52568</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>The Vulnerability Flood Is Now a Board Conversation. Here&apos;s How to Lead It.</title>
+<link>https://www.recordedfuture.com/blog/vulnerability-board-conversation</link>
+<description><![CDATA[Boards are asking about AI-driven vulnerability discovery. The leaders who answer that question well will come out with more credibility and more resources. Here&apos;s how to be one of them.]]></description>
+<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/vulnerability-board-conversation</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Unpatchable Vulnerabilities of Kubernetes: CVE-2021-25740</title>
@@ -6204,15 +6204,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>April 2026 CVE Landscape</title>
-<link>https://www.recordedfuture.com/blog/april-cve-landscape</link>
-<description><![CDATA[In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.]]></description>
-<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/april-cve-landscape</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[local] Windows Snipping Tool - NTLMv2 Hash Hijack</title>
 <link>https://www.exploit-db.com/exploits/52567</link>
 <description><![CDATA[Windows Snipping Tool - NTLMv2 Hash Hijack]]></description>
@@ -6238,6 +6229,15 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52565</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>April 2026 CVE Landscape</title>
+<link>https://www.recordedfuture.com/blog/april-cve-landscape</link>
+<description><![CDATA[In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.]]></description>
+<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/april-cve-landscape</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Strong Stack. Strong Team. Real Security Resilience.</title>
@@ -6427,24 +6427,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals</title>
-<link>https://www.recordedfuture.com/blog/nist-nvd-enrichment</link>
-<description><![CDATA[NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/nist-nvd-enrichment</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense</title>
-<link>https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense</link>
-<description><![CDATA[The real question in modern cyber defense isn&apos;t who has more technology. It&apos;s who uses their resources more efficiently. Here&apos;s how AI fused with threat intelligence tips that balance.]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>[webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI</title>
 <link>https://www.exploit-db.com/exploits/52564</link>
 <description><![CDATA[WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI]]></description>
@@ -6479,6 +6461,24 @@
 <guid isPermaLink="true">https://www.exploit-db.com/exploits/52561</guid>
 <source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals</title>
+<link>https://www.recordedfuture.com/blog/nist-nvd-enrichment</link>
+<description><![CDATA[NVD enrichment now covers only 15–20% of CVEs. Learn how Recorded Future Vulnerability Intelligence prioritizes risk using real attacker behavior signals.]]></description>
+<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/nist-nvd-enrichment</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>Beyond Acceleration and Automation: How AI + Intelligence Changes Cyber Defense</title>
+<link>https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense</link>
+<description><![CDATA[The real question in modern cyber defense isn&apos;t who has more technology. It&apos;s who uses their resources more efficiently. Here&apos;s how AI fused with threat intelligence tips that balance.]]></description>
+<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/ai-intelligence-cyber-defense</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
 </item>
 <item>
 <title>Why AMOS matters: The macOS malware stealing data at scale</title>
@@ -10548,7 +10548,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f93e9be4c70&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f17ab0b5910&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -11203,9 +11203,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>C&apos;est officiel : Wiz rejoint Google</title>
+<title>It’s Official: Wiz Joins Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Bienvenue dans une nouvelle ère de la sécurité du cloud et de l&apos;IA.]]></description>
+<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -20523,7 +20523,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20532,7 +20532,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20541,7 +20541,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20550,7 +20550,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20559,7 +20559,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20568,7 +20568,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20577,7 +20577,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20586,7 +20586,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20595,7 +20595,7 @@
 <title>How to Stop AI-Driven Data Loss</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20604,7 +20604,7 @@
 <title>CrowdStrike Brings Enterprise-Grade Security to the AI Factory with NVIDIA Vera BlueField-4 STX</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 14 Jun 2026 12:04:20 +0000</pubDate>
+<pubDate>Sun, 14 Jun 2026 14:23:36 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-nvidia-bring-enterprise-grade-security-to-the-ai-factory/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

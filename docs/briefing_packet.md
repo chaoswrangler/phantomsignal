@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-14T12:04:19.966075+00:00
+- Generated: 2026-06-14T14:23:36.644069+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -80,6 +80,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 5
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -90,36 +100,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -130,21 +125,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 5
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 6
+  - Item count: 15
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,46 +150,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 40
-  - In window count: 0
+  - Item count: 10
+  - In window count: 2
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 1
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 3
+  - Item count: 50
+  - In window count: 6
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -240,16 +240,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -259,6 +249,16 @@
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -270,31 +270,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 100
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 15
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,18 +305,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
+  - In window count: 15
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -325,21 +330,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 20
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
@@ -355,11 +360,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 20
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -370,11 +370,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -385,13 +380,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -400,11 +395,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,16 +410,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -746,13 +746,13 @@
   - https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
   - https://www.reddit.com/r/netsec/comments/1u3y1zo/free_compromise_detection_for_github_repos/
 
-### Silent Ransom Group: ransomware extortion
-- Anchor signal: Silent Ransom Group
-- Theme key: silent-ransom-group
+### ransomware extortion targeting UNC3753
+- Anchor signal: UNC3753
+- Theme key: unc3753
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: Silent Ransom Group
+- Shared strong signals: UNC3753
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -2342,53 +2342,6 @@ Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilit
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
   - Summary: Microsoft Patch Tuesday details for June 2026.
 
-### Cluster 16bbed6ebf — score 10
-
-- Title: May 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Ivanti, Microsoft Defender, Palo Alto Networks
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: Ivanti, Palo Alto Networks, Microsoft Defender
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-```
-
-#### Full body
-
-```
-May 2026 CVE Landscape In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation , all of which had a Very Critical Recorded Future Risk Score. This represents an 11% increase from last month. These vulnerabilities affected products from 20 vendors. 21 of the 41 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 19 were surfaced through honeypot data, and one was reported by a cybersecurity vendor. The 41 vulnerabilities in this report affected products from 20 vendors. Vercel accounted for approximately 27% of the vulnerabilities, driven by honeypot-sourced Next.js activity. The remaining exposure was concentrated across a range of enterprise software, security, networking, developer tooling, and cloud-related products. Quick Reference: May 2026 Vulnerability Table All 22 vulnerabilities below were actively exploited in May 2026. This table does not include the 19 CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly Report. The table below also provides examples of public PoCs identified by Insikt Group®. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2008-4250 99 Microsoft Windows ✓ ✓ ✓ Link 2 CVE-2009-1537 99 Microsoft DirectX ✓ 3 CVE-2009-3459 99 Adobe Acrobat and Reader ✓ 4 CVE-2010-0249 99 Microsoft Internet Explorer ✓ ✓ Link 5 CVE-2010-0806 99 Microsoft Internet Explorer ✓ ✓ (available to Recorded Future Customers) 6 CVE-2025-34291 99 Langflow ✓ ✓ Link 7 CVE-2026-0257 99 Palo Alto Networks PAN-OS, Cloud NGFW, and Prisma Access ✓ ✓ Link 8 CVE-2026-0300 99 Palo Alto Networks PAN-OS, Cloud NGFW, Prisma Access ✓ ✓ Link 9 CVE-2026-20182 99 Cisco Catalyst SD-WAN and SD-WAN Manager ✓ ✓ Link 10 CVE-2026-31431 99 Linux Kernel ✓ ✓ (available to Recorded Future Customers) ✓ Link 11 CVE-2026-34926 99 Trend Micro Apex One (On-Premise) ✓ 12 CVE-2026-41091 99 Microsoft Defender ✓ ✓ Link 13 CVE-2026-42208 99 BerriAI LiteLLM ✓ ✓ Link 14 CVE-2026-42897 99 Microsoft Exchange Server ✓ ✓ Link 15 CVE-2026-45321 99 TanStack (Multiple Packages) ✓ ✓ Link 16 CVE-2026-45498 99 Microsoft Defender ✓ 17 CVE-2026-48027 99 Nx Console ✓ 18 CVE-2026-48172 99 LiteSpeed cPanel Plugin ✓ ✓ Link 19 CVE-2026-6973 99 Ivanti Endpoint Manager Mobile (EPMM) ✓ ✓ 20 CVE-2026-8398 99 Daemon Tools Lite ✓ 21 CVE-2026-9082 99 Drupal Core ✓ ✓ Link 22 CVE-2026-26980 99 Ghost CMS ✓ (available to Recorded Future Customers) ✓ Link Table 1: List of vulnerabilities that were actively exploited in May, 2026 based on Recorded Future data (excluding honeypot-sourced CVEs). Key Trends: May 2026 In May 2026, threat actors exploited a Ghost CMS vulnerability in large-scale ClickFix and FakeCaptcha poisoning campaigns. The campaigns used compromised Ghost CMS websites to inject malicious JavaScript, redirect victims through social engineering lures, and stage dropper and loader payloads from attacker-controlled infrastructure. 12 of the 41 vulnerabilities enabled remote code execution (RCE), affecting products from 8 vendors: Microsoft, Adobe, Langflow, Palo Alto Networks, Apache, openDCIM, Fortinet, and Ivanti. Insikt Group identified public proof-of-concept (PoC) exploits for 32 of the 41 vulnerabilities in this report. The most commonly observed flaws this month were CWE-79 (Cross-site Scripting), CWE-506 (Embedded Malicious Code), and CWE-89 (SQL Injection), with three CVEs each. 5 of the 41 vulnerabilities in this month’s prominent vulnerabilities table were first disclosed between 2008 and 2010, making them at least 15 years old, with the oldest vulnerability being approximately 18 years old. This reinforces our finding that attackers continue to exploit long-known weaknesses in environments wh
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: May 2026 CVE Landscape
-  - Published: 2026-06-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-  - Summary: In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-
 ### Cluster 13400d1a7f — score 10
 
 - Title: AI-Accelerated Exploitation: The Mythos-Era Threat Model
@@ -2556,6 +2509,53 @@ ESET Research OceanLotus: From external espionage to domestic targeting A shift 
   - Published: 2026-06-11T08:45:00+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
   - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
+
+### Cluster 16bbed6ebf — score 10
+
+- Title: May 2026 CVE Landscape
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-08T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_products: Ivanti, Microsoft Defender, Palo Alto Networks
+- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_products: Ivanti, Palo Alto Networks, Microsoft Defender
+- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
+- urgency_signals: actively_exploited, poc_available
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
+```
+
+#### Full body
+
+```
+May 2026 CVE Landscape In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation , all of which had a Very Critical Recorded Future Risk Score. This represents an 11% increase from last month. These vulnerabilities affected products from 20 vendors. 21 of the 41 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 19 were surfaced through honeypot data, and one was reported by a cybersecurity vendor. The 41 vulnerabilities in this report affected products from 20 vendors. Vercel accounted for approximately 27% of the vulnerabilities, driven by honeypot-sourced Next.js activity. The remaining exposure was concentrated across a range of enterprise software, security, networking, developer tooling, and cloud-related products. Quick Reference: May 2026 Vulnerability Table All 22 vulnerabilities below were actively exploited in May 2026. This table does not include the 19 CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly Report. The table below also provides examples of public PoCs identified by Insikt Group®. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2008-4250 99 Microsoft Windows ✓ ✓ ✓ Link 2 CVE-2009-1537 99 Microsoft DirectX ✓ 3 CVE-2009-3459 99 Adobe Acrobat and Reader ✓ 4 CVE-2010-0249 99 Microsoft Internet Explorer ✓ ✓ Link 5 CVE-2010-0806 99 Microsoft Internet Explorer ✓ ✓ (available to Recorded Future Customers) 6 CVE-2025-34291 99 Langflow ✓ ✓ Link 7 CVE-2026-0257 99 Palo Alto Networks PAN-OS, Cloud NGFW, and Prisma Access ✓ ✓ Link 8 CVE-2026-0300 99 Palo Alto Networks PAN-OS, Cloud NGFW, Prisma Access ✓ ✓ Link 9 CVE-2026-20182 99 Cisco Catalyst SD-WAN and SD-WAN Manager ✓ ✓ Link 10 CVE-2026-31431 99 Linux Kernel ✓ ✓ (available to Recorded Future Customers) ✓ Link 11 CVE-2026-34926 99 Trend Micro Apex One (On-Premise) ✓ 12 CVE-2026-41091 99 Microsoft Defender ✓ ✓ Link 13 CVE-2026-42208 99 BerriAI LiteLLM ✓ ✓ Link 14 CVE-2026-42897 99 Microsoft Exchange Server ✓ ✓ Link 15 CVE-2026-45321 99 TanStack (Multiple Packages) ✓ ✓ Link 16 CVE-2026-45498 99 Microsoft Defender ✓ 17 CVE-2026-48027 99 Nx Console ✓ 18 CVE-2026-48172 99 LiteSpeed cPanel Plugin ✓ ✓ Link 19 CVE-2026-6973 99 Ivanti Endpoint Manager Mobile (EPMM) ✓ ✓ 20 CVE-2026-8398 99 Daemon Tools Lite ✓ 21 CVE-2026-9082 99 Drupal Core ✓ ✓ Link 22 CVE-2026-26980 99 Ghost CMS ✓ (available to Recorded Future Customers) ✓ Link Table 1: List of vulnerabilities that were actively exploited in May, 2026 based on Recorded Future data (excluding honeypot-sourced CVEs). Key Trends: May 2026 In May 2026, threat actors exploited a Ghost CMS vulnerability in large-scale ClickFix and FakeCaptcha poisoning campaigns. The campaigns used compromised Ghost CMS websites to inject malicious JavaScript, redirect victims through social engineering lures, and stage dropper and loader payloads from attacker-controlled infrastructure. 12 of the 41 vulnerabilities enabled remote code execution (RCE), affecting products from 8 vendors: Microsoft, Adobe, Langflow, Palo Alto Networks, Apache, openDCIM, Fortinet, and Ivanti. Insikt Group identified public proof-of-concept (PoC) exploits for 32 of the 41 vulnerabilities in this report. The most commonly observed flaws this month were CWE-79 (Cross-site Scripting), CWE-506 (Embedded Malicious Code), and CWE-89 (SQL Injection), with three CVEs each. 5 of the 41 vulnerabilities in this month’s prominent vulnerabilities table were first disclosed between 2008 and 2010, making them at least 15 years old, with the oldest vulnerability being approximately 18 years old. This reinforces our finding that attackers continue to exploit long-known weaknesses in environments wh
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: May 2026 CVE Landscape
+  - Published: 2026-06-08T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
+  - Summary: In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
 
 ### Cluster 8215bd2034 — score 10
 
@@ -3324,6 +3324,92 @@ Home Blog The Fake Download That Steals Everything: How Deceptive Installers Are
   - Link: https://www.huntress.com/blog/deceptive-installers-macos-infostealers
   - Summary: Deceptive installers disguised as legit macOS software deliver infostealers that grab passwords, cookies, and crypto wallets. Learn how to detect them.
 
+### Cluster 78faa8818c — score 8
+
+- Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-06-12T17:12:00+00:00
+- Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: data_breach
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
+```
+
+#### Full body
+
+```
+Image: 23andMe via Facebook Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims A Missouri bankruptcy court administrator on Wednesday signed off on a deal that gives millions of victims of a 2023 data breach at 23andMe a cut of a $46.8 million settlement fund. About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web. Victims will be allotted $32.5 million while more than $14 million of the fund is being used to pay Kroll, the settlement and claims administrator in the case. The plaintiffs had sought $48 billion in damages, but the administrator determined that the lower amount should be levied given that the district court found a $30 million prepetition settlement would be “reasonable in light of the Company’s dire financial condition,” according to court documents. Even before the breach, 23andMe was in poor financial health, having seemingly already tapped the market of those interested in using its at-home, saliva-based DNA tests. The plan administrator also decided on the smaller settlement because litigating the larger amount would “expose the estates to protracted, high-stakes litigation lasting months, if not years, requiring extensive discovery and the expenditure of millions of dollars in professional fees and related costs — resources that would be far better preserved for the benefit of stakeholders,” according to court documents. Nearly 256,000 claims have been resolved, court documents say. Class members will recoup damages depending on the severity of the individual harms caused by the breach with awards of up to $10,000 for the most serious claims and as little as $50 for minor ones. After announcing the hack in October 2023, the company said the malicious actor obtained DNA Relatives profiles for about 5.5 million consumers. Data for another 14.1 million customers who used a product called Family Tree also was accessed. In March 2025, 23andMe, now named Chrome Holding Co., filed for bankruptcy and liquidated most of its assets. Anne Wojcicki, who founded the beleaguered firm, bought it back amid controversy. Cybercrime News News Briefs Privacy Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Suzanne Smalley is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
+  - Published: 2026-06-12T17:12:00+00:00
+  - Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
+  - Summary: About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
+
+### Cluster 934a475c00 — score 8
+
+- Title: South Korea hits Coupang with record $409 million fine over data breach
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-06-12T15:56:00+00:00
+- Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- affected_industries: telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- affected_industries: telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
+```
+
+#### Full body
+
+```
+Image: Allison Saeng via Unsplash South Korea hits Coupang with record $409 million fine over data breach South Korea's data protection regulator has imposed a record 624.7 billion won ($409 million) fine on Coupang, the country's largest online retailer, after an investigation into a data breach that compromised the personal information of tens of millions of customers. The Personal Information Protection Commission (PIPC) voted at a plenary session on Wednesday to sanction Coupang and its logistics subsidiary, Coupang Fulfillment Services, concluding that the breach stemmed not from sophisticated hacking but from “deficiencies in basic safety management.” The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year. The breach first became public in November when Coupang said approximately 33.7 million customer accounts had been compromised — equivalent to around 65% of South Korea's entire population. The PIPC's investigation confirmed that 33,222,472 registered members were affected, but also identified a category of victims the company had not previously acknowledged: at least 4,338,368 non-members whose names, phone numbers and addresses had been stored as delivery recipients by other customers, and who had no way of knowing their data was held by Coupang at all. The regulator said it had formally urged the company four times, in December 2025 and January 2026, to notify those non-member victims. Coupang failed to do so each time. The perpetrator, an unnamed Chinese national and former employee who left the company at the end of 2024, had himself developed Coupang's alternative authentication system while still employed and had stolen the signing key that underpinned it before he left. He began with a test run in January 2025, using the stolen key on 95 accounts. From April, he systematically cycled through member ID numbers, hitting Coupang's delivery address page approximately 148 million times over two months to harvest names, phone numbers and addresses. He then turned to the account edit page, accessing it nearly 35 million times between June and October to collect names and email addresses. A final phase added apartment entry codes and order histories. The former employee later reassembled the data into individual customer profiles and sent two extortion emails — to members directly, and to Coupang — the second claiming to hold 120 million addresses, 560 million order records and more than 33 million email addresses, with sample data that included sensitive purchase histories. The PIPC found that throughout the seven-month attack, traffic on the affected pages had spiked to many times their normal levels, and that tens of millions of access attempts had used non-existent member IDs. Coupang detected none of it until a customer forwarded one of the extortion emails. The commission referred Coupang for criminal prosecution over the destruction of evidence. Regulators had ordered the preservation of access logs on November 21 — the day after Coupang filed its initial breach report, but six days later, the company manually deleted approximately six months of web access logs. Coupang also failed to pause its routine policy of automatically deleting logs after six months, allowing further records to be wiped. Roughly 13% of the logs covering the attack period were lost, making it impossible to identify all affected victims. Police separately recovered a smashed laptop from a river during the investigation — a MacBook Air the alleged perpetrator had weighted with bricks in an apparent attempt to destroy evidence — which forensic teams from Mandiant, Palo Alto Networks and Ernst & Young were able to document before it was handed to authorities. Additional violations uncovered The investigation, expanded in January 2026 following parliamentary hearings and media coverage, unearthed several violati
+```
+
+#### Corroborating sources (1)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: South Korea hits Coupang with record $409 million fine over data breach
+  - Published: 2026-06-12T15:56:00+00:00
+  - Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
+  - Summary: The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
+
 ### Cluster fa2566aa3e — score 8
 
 - Title: Maine disables data breach notification portal after fake disclosures
@@ -3444,7 +3530,7 @@ More than 400 packages in the Arch User Repository (AUR) are distributing a Linu
 #### Full body
 
 ```
-Over 400 Arch Linux packages compromised to push rootkit, infostealer By Bill Toulas June 12, 2026 01:03 PM 2 More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. A report from the open-source intelligence community Independent Federated Intelligence Network (IFIN) notes that a new maintainer is spoofing a trusted publisher on the AUR platform to push infected packages. The Arch Linux distribution is popular among power users and developers, using the AUR catalog to provide the latest versions for installed software, drivers, and the kernel. AUR is a community-maintained repository for the Arch distribution that contains package build scripts (PKGBUILDs) with instructions for downloading, compiling, and installing software not available in Arch’s official repositories. AUR is considered essential for any Arch-based distribution because it contains proprietary applications, beta/nightly versions of open-source software, niche utilities, and older versions of packages that retain functionality which may have been removed in later releases. However, it is not a vetted space, and threat actors can use it to push malware through packages that change ownership without anyone noticing. According to IFIN member Michael Taggart, the compromised packages are modified with preinstall scripts that download and execute a malicious npm package called atomic-lockfile. Independent security researcher Whanos notes that one sample of the atomic-lockfile included a Linux ELF payload named deps, which was a "credential stealer with optional root-only eBPF [extended Berkeley Packet Filter] rootkit capabilities." "It is designed for developer workstations and build environments. It targets browser and Electron application data, Slack, Microsoft Teams, Discord, GitHub, npm, Vault, Docker/Podman, SSH, VPN material, shell histories, and other local developer secrets," Whanos says in the report . With eBPF technology present, the malware can run inside the kernel with elevated privileges and hide local processes. Supply-chain management company Sonatype also published a report on a campaign targeting the AUR repository and delivering the malicious atomic-lockfile npm package, but using a different method. Sonatype researchers say that the threat actor hijacked at least 20 orphaned packages on AUR and pushed atomic-lockfile by modifying the PKGBUILD file - a Bash script with the build information needed by Arch Linux packages. According to the report, the attacker added a post-install script to invoke npm and retrieve the malicious package. "The modified packages add a post-install script that invokes npm and installs atomic-lockfile during package installation," Sonatype says . However, analysis showed that the npm package installed a Linux executable with references to an eBPF rootkit that could hide processes, files, and network interfaces. Additionally, the Linux binary indicates that it has infostealer functionality, targeting the following types of sensitive information: GitHub credentials SSH artifacts HashiCorp Vault tokens Browser cookie databases Slack data Discord data Microsoft Teams data Telegram data Sonatype determined that the binary can archive data, handle multi-part files, and perform HTTP uploads, so the functionality for a typical exfiltration mechanism is present. AUR maintainers are working to identify and remove all malicious commits, and to ban the accounts pushing them. In a message to the community, Arch Linux package maintainer Jonathan Grotelüschen urged users to report any malicious package they find. As a general rule, it’s recommended to only trust projects with frequent updates and an active community around them. Arch users are advised to review the list of affected packages and look for the indicators of compromise provided in the report from Whanos . Michael Taggart also pointed to a script that checks for the atomic-
+Over 400 Arch Linux packages compromised to push rootkit, infostealer By Bill Toulas June 12, 2026 01:03 PM 3 More than 400 packages in the Arch User Repository (AUR) are distributing a Linux rootkit and infostealer malware targeting credentials and access tokens. A report from the open-source intelligence community Independent Federated Intelligence Network (IFIN) notes that a new maintainer is spoofing a trusted publisher on the AUR platform to push infected packages. The Arch Linux distribution is popular among power users and developers, using the AUR catalog to provide the latest versions for installed software, drivers, and the kernel. AUR is a community-maintained repository for the Arch distribution that contains package build scripts (PKGBUILDs) with instructions for downloading, compiling, and installing software not available in Arch’s official repositories. AUR is considered essential for any Arch-based distribution because it contains proprietary applications, beta/nightly versions of open-source software, niche utilities, and older versions of packages that retain functionality which may have been removed in later releases. However, it is not a vetted space, and threat actors can use it to push malware through packages that change ownership without anyone noticing. According to IFIN member Michael Taggart, the compromised packages are modified with preinstall scripts that download and execute a malicious npm package called atomic-lockfile. Independent security researcher Whanos notes that one sample of the atomic-lockfile included a Linux ELF payload named deps, which was a "credential stealer with optional root-only eBPF [extended Berkeley Packet Filter] rootkit capabilities." "It is designed for developer workstations and build environments. It targets browser and Electron application data, Slack, Microsoft Teams, Discord, GitHub, npm, Vault, Docker/Podman, SSH, VPN material, shell histories, and other local developer secrets," Whanos says in the report . With eBPF technology present, the malware can run inside the kernel with elevated privileges and hide local processes. Supply-chain management company Sonatype also published a report on a campaign targeting the AUR repository and delivering the malicious atomic-lockfile npm package, but using a different method. Sonatype researchers say that the threat actor hijacked at least 20 orphaned packages on AUR and pushed atomic-lockfile by modifying the PKGBUILD file - a Bash script with the build information needed by Arch Linux packages. According to the report, the attacker added a post-install script to invoke npm and retrieve the malicious package. "The modified packages add a post-install script that invokes npm and installs atomic-lockfile during package installation," Sonatype says . However, analysis showed that the npm package installed a Linux executable with references to an eBPF rootkit that could hide processes, files, and network interfaces. Additionally, the Linux binary indicates that it has infostealer functionality, targeting the following types of sensitive information: GitHub credentials SSH artifacts HashiCorp Vault tokens Browser cookie databases Slack data Discord data Microsoft Teams data Telegram data Sonatype determined that the binary can archive data, handle multi-part files, and perform HTTP uploads, so the functionality for a typical exfiltration mechanism is present. AUR maintainers are working to identify and remove all malicious commits, and to ban the accounts pushing them. In a message to the community, Arch Linux package maintainer Jonathan Grotelüschen urged users to report any malicious package they find. As a general rule, it’s recommended to only trust projects with frequent updates and an active community around them. Arch users are advised to review the list of affected packages and look for the indicators of compromise provided in the report from Whanos . Michael Taggart also pointed to a script that checks for the atomic-
 ```
 
 #### Corroborating sources (1)
@@ -3495,92 +3581,6 @@ Maine breach portal abused to publish fake data breach disclosures By Bill Toula
   - Published: 2026-06-11T22:44:58+00:00
   - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
   - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
-
-### Cluster 78faa8818c — score 8
-
-- Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-06-12T17:12:00+00:00
-- Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
-```
-
-#### Full body
-
-```
-Image: 23andMe via Facebook Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims A Missouri bankruptcy court administrator on Wednesday signed off on a deal that gives millions of victims of a 2023 data breach at 23andMe a cut of a $46.8 million settlement fund. About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web. Victims will be allotted $32.5 million while more than $14 million of the fund is being used to pay Kroll, the settlement and claims administrator in the case. The plaintiffs had sought $48 billion in damages, but the administrator determined that the lower amount should be levied given that the district court found a $30 million prepetition settlement would be “reasonable in light of the Company’s dire financial condition,” according to court documents. Even before the breach, 23andMe was in poor financial health, having seemingly already tapped the market of those interested in using its at-home, saliva-based DNA tests. The plan administrator also decided on the smaller settlement because litigating the larger amount would “expose the estates to protracted, high-stakes litigation lasting months, if not years, requiring extensive discovery and the expenditure of millions of dollars in professional fees and related costs — resources that would be far better preserved for the benefit of stakeholders,” according to court documents. Nearly 256,000 claims have been resolved, court documents say. Class members will recoup damages depending on the severity of the individual harms caused by the breach with awards of up to $10,000 for the most serious claims and as little as $50 for minor ones. After announcing the hack in October 2023, the company said the malicious actor obtained DNA Relatives profiles for about 5.5 million consumers. Data for another 14.1 million customers who used a product called Family Tree also was accessed. In March 2025, 23andMe, now named Chrome Holding Co., filed for bankruptcy and liquidated most of its assets. Anne Wojcicki, who founded the beleaguered firm, bought it back amid controversy. Cybercrime News News Briefs Privacy Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Suzanne Smalley is a reporter covering digital privacy, surveillance technologies and cybersecurity policy for The Record. She was previously a cybersecurity reporter at CyberScoop. Earlier in her career Suzanne covered the Boston Police Department for the Boston Globe and two presidential campaign cycles for Newsweek. She lives in Washington with her husband and three children.
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Bankruptcy admin approves settlement fund of $47 million for 23andMe data breach victims
-  - Published: 2026-06-12T17:12:00+00:00
-  - Link: https://therecord.media/bankruptcy-admin-approves-settlement-for-23andme-breach-victims
-  - Summary: About 7 million customers of the genetics testing company had their data stolen by hackers starting in April 2023, and many had their information posted on the dark web.
-
-### Cluster 934a475c00 — score 8
-
-- Title: South Korea hits Coupang with record $409 million fine over data breach
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-06-12T15:56:00+00:00
-- Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
-```
-
-#### Full body
-
-```
-Image: Allison Saeng via Unsplash South Korea hits Coupang with record $409 million fine over data breach South Korea's data protection regulator has imposed a record 624.7 billion won ($409 million) fine on Coupang, the country's largest online retailer, after an investigation into a data breach that compromised the personal information of tens of millions of customers. The Personal Information Protection Commission (PIPC) voted at a plenary session on Wednesday to sanction Coupang and its logistics subsidiary, Coupang Fulfillment Services, concluding that the breach stemmed not from sophisticated hacking but from “deficiencies in basic safety management.” The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year. The breach first became public in November when Coupang said approximately 33.7 million customer accounts had been compromised — equivalent to around 65% of South Korea's entire population. The PIPC's investigation confirmed that 33,222,472 registered members were affected, but also identified a category of victims the company had not previously acknowledged: at least 4,338,368 non-members whose names, phone numbers and addresses had been stored as delivery recipients by other customers, and who had no way of knowing their data was held by Coupang at all. The regulator said it had formally urged the company four times, in December 2025 and January 2026, to notify those non-member victims. Coupang failed to do so each time. The perpetrator, an unnamed Chinese national and former employee who left the company at the end of 2024, had himself developed Coupang's alternative authentication system while still employed and had stolen the signing key that underpinned it before he left. He began with a test run in January 2025, using the stolen key on 95 accounts. From April, he systematically cycled through member ID numbers, hitting Coupang's delivery address page approximately 148 million times over two months to harvest names, phone numbers and addresses. He then turned to the account edit page, accessing it nearly 35 million times between June and October to collect names and email addresses. A final phase added apartment entry codes and order histories. The former employee later reassembled the data into individual customer profiles and sent two extortion emails — to members directly, and to Coupang — the second claiming to hold 120 million addresses, 560 million order records and more than 33 million email addresses, with sample data that included sensitive purchase histories. The PIPC found that throughout the seven-month attack, traffic on the affected pages had spiked to many times their normal levels, and that tens of millions of access attempts had used non-existent member IDs. Coupang detected none of it until a customer forwarded one of the extortion emails. The commission referred Coupang for criminal prosecution over the destruction of evidence. Regulators had ordered the preservation of access logs on November 21 — the day after Coupang filed its initial breach report, but six days later, the company manually deleted approximately six months of web access logs. Coupang also failed to pause its routine policy of automatically deleting logs after six months, allowing further records to be wiped. Roughly 13% of the logs covering the attack period were lost, making it impossible to identify all affected victims. Police separately recovered a smashed laptop from a river during the investigation — a MacBook Air the alleged perpetrator had weighted with bricks in an apparent attempt to destroy evidence — which forensic teams from Mandiant, Palo Alto Networks and Ernst & Young were able to document before it was handed to authorities. Additional violations uncovered The investigation, expanded in January 2026 following parliamentary hearings and media coverage, unearthed several violati
-```
-
-#### Corroborating sources (1)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: South Korea hits Coupang with record $409 million fine over data breach
-  - Published: 2026-06-12T15:56:00+00:00
-  - Link: https://therecord.media/south-korea-data-breach-record-fine-coupang
-  - Summary: The penalty is the largest ever issued by the commission for a personal data breach, surpassing the record 134.8 billion won ($88.8 million) fine levied against SK Telecom earlier this year.
 
 ### Cluster 2442286632 — score 8
 
