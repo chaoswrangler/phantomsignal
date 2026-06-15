@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-14T22:18:17.140751+00:00
+- Generated: 2026-06-15T00:19:28.314003+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 344
+- Total items in window: 342
 - Total clusters raw: 157
 - Total clusters in packet: 63
 - Dropped low score: 94
@@ -70,120 +70,120 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 5
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
+  - In window count: 3
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 5
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 1
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 5
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 6
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 1
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -200,25 +200,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 0
+  - Item count: 10
+  - In window count: 3
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
@@ -230,21 +230,16 @@
   - Status: ok
   - Item count: 30
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 8
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 8
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -255,6 +250,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -265,21 +265,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 15
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -290,11 +295,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 15
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -315,6 +315,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,46 +330,41 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 20
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 30
+  - In window count: 20
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 21
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -380,16 +380,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,6 +405,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -420,21 +425,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 48
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -595,54 +595,6 @@
   - https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/
   - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
 
-### Palo Alto Networks active exploitation
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 5
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: Palo Alto Networks, Fortinet
-  - urgency_signals: actively_exploited, poc_available
-- Cluster IDs: 2974abda18, 56111b9aeb, 16bbed6ebf, fce5a342cc, 09b4827a59
-- Links:
-  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
-  - https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
-  - https://www.recordedfuture.com/blog/may-2026-cve-landscape
-  - https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/
-  - https://www.reddit.com/r/netsec/comments/1u4jjia/the_axios_npm_compromise_was_visible_in_registry/
-  - https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
-
-### Ivanti active exploitation
-- Anchor signal: Ivanti
-- Theme key: ivanti
-- Cluster count: 3
-- Article count: 10
-- Cohesion: 0.2
-- Shared strong signals: Ivanti
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation, phishing_social_eng
-  - affected_products: Ivanti
-  - urgency_signals: poc_available, actively_exploited
-- Cluster IDs: 0678a0cc99, 9f943550b8, 16bbed6ebf
-- Links:
-  - https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry
-  - https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-10520/
-  - https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/
-  - https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/
-  - https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
-  - https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/
-  - https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours
-  - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
-  - https://www.recordedfuture.com/blog/may-2026-cve-landscape
-
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -675,6 +627,25 @@
   - https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/
   - https://www.reddit.com/r/netsec/comments/1u4jjia/the_axios_npm_compromise_was_visible_in_registry/
   - https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/
+
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 4
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks, Fortinet
+- Cluster IDs: 2974abda18, 56111b9aeb, fce5a342cc, 09b4827a59
+- Links:
+  - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
+  - https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
+  - https://www.securityweek.com/npm-12-will-change-script-execution-behavior-to-prevent-supply-chain-attacks/
+  - https://www.reddit.com/r/netsec/comments/1u4jjia/the_axios_npm_compromise_was_visible_in_registry/
+  - https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/
 
 ### Fortinet vulnerability activity
 - Anchor signal: Fortinet
@@ -722,6 +693,30 @@
   - https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/
   - https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
 
+### active exploitation targeting Ivanti
+- Anchor signal: Ivanti
+- Theme key: ivanti
+- Cluster count: 2
+- Article count: 9
+- Cohesion: 0.2
+- Shared strong signals: Ivanti
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: Ivanti
+- Cluster IDs: 0678a0cc99, 9f943550b8
+- Links:
+  - https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry
+  - https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-10520/
+  - https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/
+  - https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/
+  - https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html
+  - https://www.securityweek.com/ivanti-sentry-exploitation-attempts-hitting-honeypots/
+  - https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours
+  - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
+
 ### TeamPCP: supply chain
 - Anchor signal: TeamPCP
 - Theme key: teampcp
@@ -746,13 +741,13 @@
   - https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
   - https://www.reddit.com/r/netsec/comments/1u3y1zo/free_compromise_detection_for_github_repos/
 
-### Silent Ransom Group: ransomware extortion
-- Anchor signal: Silent Ransom Group
-- Theme key: silent-ransom-group
+### ransomware extortion targeting UNC3753
+- Anchor signal: UNC3753
+- Theme key: unc3753
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: Silent Ransom Group
+- Shared strong signals: UNC3753
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -2500,53 +2495,6 @@ Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Securit
   - Link: https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-reducing-security-surprises/
   - Summary: A global investment firm used NodeZero® to reduce attack-path impacts from 251 to 0, eliminate compromised credentials, and build a continuous security validation program across 18 locations.
 
-### Cluster 16bbed6ebf — score 10
-
-- Title: May 2026 CVE Landscape
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-08T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Ivanti, Microsoft Defender, Palo Alto Networks
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: Ivanti, Palo Alto Networks, Microsoft Defender
-- cve_ids: CVE-2008-4250, CVE-2009-1537, CVE-2009-3459, CVE-2010-0249, CVE-2010-0806
-- urgency_signals: actively_exploited, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-```
-
-#### Full body
-
-```
-May 2026 CVE Landscape In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation , all of which had a Very Critical Recorded Future Risk Score. This represents an 11% increase from last month. These vulnerabilities affected products from 20 vendors. 21 of the 41 vulnerabilities were included in the US Cybersecurity and Infrastructure Security Agency (CISA)’s Known Exploited Vulnerabilities (KEV) catalog, 19 were surfaced through honeypot data, and one was reported by a cybersecurity vendor. The 41 vulnerabilities in this report affected products from 20 vendors. Vercel accounted for approximately 27% of the vulnerabilities, driven by honeypot-sourced Next.js activity. The remaining exposure was concentrated across a range of enterprise software, security, networking, developer tooling, and cloud-related products. Quick Reference: May 2026 Vulnerability Table All 22 vulnerabilities below were actively exploited in May 2026. This table does not include the 19 CVEs associated with honeypot activity, which are available to Recorded Future customers via the CVE Monthly Report. The table below also provides examples of public PoCs identified by Insikt Group®. These PoCs were not tested for accuracy or efficacy. Vulnerability management teams should exercise caution and verify the validity of PoCs before testing. # Vulnerability Risk Score Vendor/Product KEV Malware Analysis RCE PoC 1 CVE-2008-4250 99 Microsoft Windows ✓ ✓ ✓ Link 2 CVE-2009-1537 99 Microsoft DirectX ✓ 3 CVE-2009-3459 99 Adobe Acrobat and Reader ✓ 4 CVE-2010-0249 99 Microsoft Internet Explorer ✓ ✓ Link 5 CVE-2010-0806 99 Microsoft Internet Explorer ✓ ✓ (available to Recorded Future Customers) 6 CVE-2025-34291 99 Langflow ✓ ✓ Link 7 CVE-2026-0257 99 Palo Alto Networks PAN-OS, Cloud NGFW, and Prisma Access ✓ ✓ Link 8 CVE-2026-0300 99 Palo Alto Networks PAN-OS, Cloud NGFW, Prisma Access ✓ ✓ Link 9 CVE-2026-20182 99 Cisco Catalyst SD-WAN and SD-WAN Manager ✓ ✓ Link 10 CVE-2026-31431 99 Linux Kernel ✓ ✓ (available to Recorded Future Customers) ✓ Link 11 CVE-2026-34926 99 Trend Micro Apex One (On-Premise) ✓ 12 CVE-2026-41091 99 Microsoft Defender ✓ ✓ Link 13 CVE-2026-42208 99 BerriAI LiteLLM ✓ ✓ Link 14 CVE-2026-42897 99 Microsoft Exchange Server ✓ ✓ Link 15 CVE-2026-45321 99 TanStack (Multiple Packages) ✓ ✓ Link 16 CVE-2026-45498 99 Microsoft Defender ✓ 17 CVE-2026-48027 99 Nx Console ✓ 18 CVE-2026-48172 99 LiteSpeed cPanel Plugin ✓ ✓ Link 19 CVE-2026-6973 99 Ivanti Endpoint Manager Mobile (EPMM) ✓ ✓ 20 CVE-2026-8398 99 Daemon Tools Lite ✓ 21 CVE-2026-9082 99 Drupal Core ✓ ✓ Link 22 CVE-2026-26980 99 Ghost CMS ✓ (available to Recorded Future Customers) ✓ Link Table 1: List of vulnerabilities that were actively exploited in May, 2026 based on Recorded Future data (excluding honeypot-sourced CVEs). Key Trends: May 2026 In May 2026, threat actors exploited a Ghost CMS vulnerability in large-scale ClickFix and FakeCaptcha poisoning campaigns. The campaigns used compromised Ghost CMS websites to inject malicious JavaScript, redirect victims through social engineering lures, and stage dropper and loader payloads from attacker-controlled infrastructure. 12 of the 41 vulnerabilities enabled remote code execution (RCE), affecting products from 8 vendors: Microsoft, Adobe, Langflow, Palo Alto Networks, Apache, openDCIM, Fortinet, and Ivanti. Insikt Group identified public proof-of-concept (PoC) exploits for 32 of the 41 vulnerabilities in this report. The most commonly observed flaws this month were CWE-79 (Cross-site Scripting), CWE-506 (Embedded Malicious Code), and CWE-89 (SQL Injection), with three CVEs each. 5 of the 41 vulnerabilities in this month’s prominent vulnerabilities table were first disclosed between 2008 and 2010, making them at least 15 years old, with the oldest vulnerability being approximately 18 years old. This reinforces our finding that attackers continue to exploit long-known weaknesses in environments wh
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: May 2026 CVE Landscape
-  - Published: 2026-06-08T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/may-2026-cve-landscape
-  - Summary: In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.
-
 ### Cluster 8215bd2034 — score 10
 
 - Title: Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime
@@ -3536,6 +3484,45 @@ Maine breach portal abused to publish fake data breach disclosures By Bill Toula
   - Published: 2026-06-11T22:44:58+00:00
   - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
   - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
+
+### Cluster 7076177941 — score 8
+
+- Title: Why AI hasn’t replaced software engineers, and won’t
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-14T23:54:11+00:00
+- Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Teleport — Prevent access bottlenecks. Unify identity. Teleport replaces fragmented identity and access tooling with a single identity layer that security teams trust, and engineers want to use. 14th June 2026 - Link Blog Why AI hasn’t replaced software engineers, and won’t . Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck, what is? The task-breakdown surveys point at things like meetings or debugging. This just leads to more questions: what are developers doing in those meetings and why can’t it be done by AI? Won’t debugging get automated as capabilities improve? To understand the real bottlenecks, we have to get qualitative, and dig into software engineers’ own understanding of what it is they do that resists automation. When we did this analysis, it revealed three things as the real bottlenecks (1) deciding and specifying what to build, (2) verifying and being accountable for what is delivered, and (3) the deep human understanding — of the codebase, the business, and the environment — required to carry out both of these. I'm finding AI assistance also helps me with the deciding and verifying steps, but it's the "deep human understanding" that remains key to the value I provide. Give me all of the AI assistance in the world and the value I produce will still be reliant on how deeply I understand both the problems and the solutions that the agents are building for them. Posted 14th June 2026 at 11:54 pm Recent articles Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026 Claude Fable is relentlessly proactive - 11th June 2026 Initial impressions of Claude Fable 5 - 9th June 2026 This is a link post by Simon Willison, posted on 14th June 2026 . careers 78 ai 2,072 generative-ai 1,829 llms 1,797 arvind-narayanan 10 ai-ethics 316 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Why AI hasn’t replaced software engineers, and won’t
+  - Published: 2026-06-14T23:54:11+00:00
+  - Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
+  - Summary: Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
 
 ### Cluster 2442286632 — score 8
 
