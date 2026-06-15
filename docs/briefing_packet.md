@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-15T00:19:28.314003+00:00
+- Generated: 2026-06-15T06:31:56.006887+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 342
-- Total clusters raw: 157
-- Total clusters in packet: 63
-- Dropped low score: 94
+- Total items in window: 343
+- Total clusters raw: 156
+- Total clusters in packet: 64
+- Dropped low score: 92
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,101 +70,96 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 5
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+  - Item count: 15
+  - In window count: 5
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 5
+  - Item count: 10
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -175,90 +170,95 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 5
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 8
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
-  - Item count: 20
+  - Item count: 30
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 20
+  - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -270,56 +270,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 15
+  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - In window count: 15
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -335,8 +330,23 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -344,59 +354,49 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 20
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
   - In window count: 21
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,18 +405,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,21 +420,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 48
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 47
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -450,16 +450,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 7
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -504,35 +504,13 @@
   - https://www.reddit.com/r/netsec/comments/1u4jjia/the_axios_npm_compromise_was_visible_in_registry/
   - https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
 
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 5
-- Article count: 8
-- Cohesion: 0.242
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: AWS, Google Cloud
-- Cluster IDs: 643755a74a, 1714548889, 56111b9aeb, 1674209ab9, b9fc8f1b1a
-- Links:
-  - https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/
-  - https://orca.security/resources/blog/cve-2026-20253-splunk-enterprise-rce-unauthenticated-file-operations/
-  - https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
-  - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
-  - https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/
-  - https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
-  - https://trustedsec.com/blog/how-to-train-your-dragons-analysts
-  - https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
-
-### CVE-2026-50752 exploitation activity
-- Anchor signal: CVE-2026-50752
-- Theme key: cve-2026-50752
+### CVE-2026-50751 exploitation activity
+- Anchor signal: CVE-2026-50751
+- Theme key: cve-2026-50751
 - Cluster count: 3
 - Article count: 7
 - Cohesion: 0.399
-- Shared strong signals: CVE-2026-50752
+- Shared strong signals: CVE-2026-50751
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -549,13 +527,13 @@
   - https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
   - https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may
 
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
+### CVE-2026-50752 exploitation activity
+- Anchor signal: CVE-2026-50752
+- Theme key: cve-2026-50752
 - Cluster count: 3
 - Article count: 7
 - Cohesion: 0.399
-- Shared strong signals: CVE-2026-50751
+- Shared strong signals: CVE-2026-50752
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -594,6 +572,27 @@
   - https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/
   - https://research.checkpoint.com/2026/from-sqli-to-rce-exploiting-langgraphs-checkpointer/
   - https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html
+
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 4
+- Article count: 7
+- Cohesion: 0.262
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS, Google Cloud
+- Cluster IDs: 643755a74a, 1714548889, 56111b9aeb, 1674209ab9
+- Links:
+  - https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/
+  - https://orca.security/resources/blog/cve-2026-20253-splunk-enterprise-rce-unauthenticated-file-operations/
+  - https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
+  - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+  - https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/
+  - https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/
+  - https://trustedsec.com/blog/how-to-train-your-dragons-analysts
 
 ### supply chain targeting npm
 - Anchor signal: npm
@@ -741,13 +740,13 @@
   - https://openssf.org/blog/2026/06/10/mini-shai-hulud-where-slsas-boundaries-fall/
   - https://www.reddit.com/r/netsec/comments/1u3y1zo/free_compromise_detection_for_github_repos/
 
-### ransomware extortion targeting UNC3753
-- Anchor signal: UNC3753
-- Theme key: unc3753
+### Silent Ransom Group: ransomware extortion
+- Anchor signal: Silent Ransom Group
+- Theme key: silent-ransom-group
 - Cluster count: 2
 - Article count: 2
 - Cohesion: 0.679
-- Shared strong signals: UNC3753
+- Shared strong signals: Silent Ransom Group
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -1804,48 +1803,53 @@ Infosecurity Magazine Home » News » Check Point Warns Critical Auth Bypass Bug
   - Link: https://www.infosecurity-magazine.com/news/check-point-critical-auth-bypass/
   - Summary: Check Point says a critical vulnerability in its Remote Access VPN and Mobile Access solutions has been exploited by Qilin
 
-### Cluster 4ede2d4b48 — score 14
+### Cluster e002a0d5e1 — score 16
 
-- Title: Risky Bulletin: RubyGems adds dependency cooldowns to counter supply chain attacks
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-06-08T01:56:32+00:00
-- Link: https://risky.biz/RBNEWS574/
+- Title: Reconstructing AI activity in investigations
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-09T17:35:06+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Azure, Microsoft 365
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, zero_day
-- urgency_signals: zero_day
+- threat_categories: ai_security, data_breach, phishing_social_eng, supply_chain
+- affected_products: Anthropic/Claude, Azure, GitHub, GitLab
 - content_type: news_report
-- confidence_tier: tier_3_analysis
+- confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, zero_day
-- urgency_signals: zero_day
+- threat_categories: phishing_social_eng, data_breach, ai_security
+- affected_products: Anthropic/Claude, GitHub, Azure
 - content_type: news_report
-- confidence_tier: tier_3_analysis
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-RubyGems adds dependency-cooldowns to counter supply chain attacks, AT&T and IBM are accused of hiding foreign hacks, Cisco warns of a new SD-WAN zero-day, and Google layoffs hit security teams.
+Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
 ```
 
 #### Full body
 
 ```
-Risky Bulletin Podcast June 08, 2026 Risky Bulletin: RubyGems adds dependency cooldowns to counter supply chain attacks Presented by Catalin Cimpanu News Editor Claire Aird Newsreader RubyGems adds dependency-cooldowns to counter supply chain attacks, AT&T and IBM are accused of hiding foreign hacks, Cisco warns of a new SD-WAN zero-day, and Google layoffs hit security teams. Your browser does not support the audio element. Risky Bulletin: RubyGems adds dependency cooldowns to counter supply chain attacks â¶ 0:00 / 6:38 Subscribe Brought to you by SpecterOps Know Your Adversary Show notes Risky Bulletin: RubyGems adds dependency cooldowns to counter supply chain attacks
+Share Link copied to clipboard! Content types Research Topics Actionable threat insights AI and agents AI systems are now part of everyday work. Investigators need a consistent way to reconstruct what happened within them. Security teams are already investigating activity involving Microsoft 365 Copilot and Azure AI services—from prompt injection attempts to unexpected data access. Those signals are observable. Without structure, they do not form a coherent account of what occurred. AI interactions generate telemetry across Microsoft Purview, Defender, and Sentinel. That telemetry captures who initiated an interaction, when it occurred, and which resources were involved. It provides the foundation for reconstructing AI activity in enterprise environments. It’s turning those signals into an investigation. To help address that challenge, we’ve published a new investigator playbook for Microsoft 365 Copilot and Azure AI services. The playbook provides a structured approach for investigating AI-related activity using the telemetry already available across Microsoft security products. The methodology follows a scope–context–signal sequence. Investigations begin by identifying who interacted with AI systems, when the activity occurred, and which services were involved. From there, investigators expand into resource context: what the system accessed, what data may have been exposed, and how that activity aligns with expected behavior. Detection signals, including prompt injection attempts, anomalous usage patterns, or credential exposure alerts, are then evaluated within that broader chain of activity. AI telemetry is constructed metadata-first, providing identity, time, and resource context across interactions. That structure is what moves investigations from isolated signals to a coherent account of what occurred. When analyzed together, those elements allow investigators to establish what happened, understand the impact, and determine whether activity reflects normal usage, policy violations, or indicators of compromise. The playbook operationalizes this approach across Microsoft 365 Copilot and Azure AI services. It brings together the required configuration, queries, and detection patterns into a single working model — covering schema references, KQL queries, and detection logic — enabling investigators to follow AI activity across tools with fewer ad hoc pivots. It also extends that model to agent-based systems, where the investigative picture expands: which agents are deployed, how they are configured, what data they are authorized to access, and whether that authorization was used as expected. The outcome is practical. Response teams can move from isolated signals to a reconstructed account of observed activity: scoping AI usage, understanding what data was accessed during interactions, and assessing whether observed behavior is consistent with normal usage, policy violations, or indicators of active threat conditions across Microsoft security services. As AI becomes part of everyday business workflows, response teams need the same investigative rigor they apply to endpoints, identities, and cloud infrastructure. The ability to determine what happened, what data was involved, and whether activity was authorized is quickly becoming a core incident response capability. The playbook gives you the tools to answer it. Download it here: https://aka.ms/AIIRplaybook Related posts June 8 17 min read AI brands as bait: How threat actors are using the AI hype in social engineering As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. June 5 10 min read Securing CI/CD in an agentic world: Claude Code Github action case Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. June 4 6 min read Updating the taxonomy of failure modes i
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: RubyGems adds dependency cooldowns to counter supply chain attacks
-  - Published: 2026-06-08T01:56:32+00:00
-  - Link: https://risky.biz/RBNEWS574/
-  - Summary: RubyGems adds dependency-cooldowns to counter supply chain attacks, AT&T and IBM are accused of hiding foreign hacks, Cisco warns of a new SD-WAN zero-day, and Google layoffs hit security teams.
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Reconstructing AI activity in investigations
+  - Published: 2026-06-09T17:35:06+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
+  - Summary: Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Open-source CI/CD abuse detector guards against stolen credential attacks
+  - Published: 2026-06-15T05:30:53+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/15/ci-cd-abuse-detector-open-source/
+  - Summary: CI/CD Abuse Detector is an open-source project that uses a large language model to flag suspicious changes to continuous integration and continuous deployment pipelines, workflows, and automation configurations. The repository contains drop-in templates for GitHub Actions, GitLab CI, and Azure DevOps. The project targets a common attack chain in software supply chain compromises. Stolen developer credentials are used to push modifications to workflow files, which then harvest secrets stored in the CI environment. The detector … More → The post Open-source CI/CD abuse detector guards against stolen credential attacks appeared first on Help Net Security .
 
 ### Cluster 642ef55777 — score 13
 
@@ -2105,6 +2109,49 @@ Vulnerabilities & Threats Сloud Security Identity & Access Management Security 
   - Link: https://www.darkreading.com/vulnerabilities-threats/exchange-flaw-attackers-spoof-email-address
   - Summary: “Ghost-Sender" is the result of a widespread misconfiguration, according to researchers, and evidence indicates it's being actively abused in the wild.
 
+### Cluster 93df5bfc62 — score 11
+
+- Title: Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-06-15T05:53:18+00:00
+- Link: https://risky.biz/RBNEWS577/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: WordPress
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, supply_chain
+- affected_products: WordPress
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, phishing_social_eng
+- affected_products: WordPress
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem.
+```
+
+#### Full body
+
+```
+Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem. Your browser does not support the audio element. Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages â¶ 0:00 / 11:14 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Arch Linux supply chain attack spreads to 1,900+ AUR packages
+```
+
+#### Corroborating sources (1)
+
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages
+  - Published: 2026-06-15T05:53:18+00:00
+  - Link: https://risky.biz/RBNEWS577/
+  - Summary: Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem.
+
 ### Cluster 56111b9aeb — score 10
 
 - Title: Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility
@@ -2188,49 +2235,6 @@ Threat Research Center Insights General General When “Hi, This Is IT” Comes 
   - Published: 2026-06-08T23:00:45+00:00
   - Link: https://unit42.paloaltonetworks.com/microsoft-teams-phishing/
   - Summary: Attackers are increasingly targeting collaboration platforms like Microsoft Teams. Learn the risks and key steps to strengthen your organization's security. The post When “Hi, This Is IT” Comes Through Microsoft Teams appeared first on Unit 42 .
-
-### Cluster e002a0d5e1 — score 10
-
-- Title: Reconstructing AI activity in investigations
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-09T17:35:06+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Azure, Microsoft 365
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, data_breach, phishing_social_eng
-- affected_products: Anthropic/Claude, Azure, GitHub
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach, ai_security
-- affected_products: Anthropic/Claude, GitHub, Azure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Topics Actionable threat insights AI and agents AI systems are now part of everyday work. Investigators need a consistent way to reconstruct what happened within them. Security teams are already investigating activity involving Microsoft 365 Copilot and Azure AI services—from prompt injection attempts to unexpected data access. Those signals are observable. Without structure, they do not form a coherent account of what occurred. AI interactions generate telemetry across Microsoft Purview, Defender, and Sentinel. That telemetry captures who initiated an interaction, when it occurred, and which resources were involved. It provides the foundation for reconstructing AI activity in enterprise environments. It’s turning those signals into an investigation. To help address that challenge, we’ve published a new investigator playbook for Microsoft 365 Copilot and Azure AI services. The playbook provides a structured approach for investigating AI-related activity using the telemetry already available across Microsoft security products. The methodology follows a scope–context–signal sequence. Investigations begin by identifying who interacted with AI systems, when the activity occurred, and which services were involved. From there, investigators expand into resource context: what the system accessed, what data may have been exposed, and how that activity aligns with expected behavior. Detection signals, including prompt injection attempts, anomalous usage patterns, or credential exposure alerts, are then evaluated within that broader chain of activity. AI telemetry is constructed metadata-first, providing identity, time, and resource context across interactions. That structure is what moves investigations from isolated signals to a coherent account of what occurred. When analyzed together, those elements allow investigators to establish what happened, understand the impact, and determine whether activity reflects normal usage, policy violations, or indicators of compromise. The playbook operationalizes this approach across Microsoft 365 Copilot and Azure AI services. It brings together the required configuration, queries, and detection patterns into a single working model — covering schema references, KQL queries, and detection logic — enabling investigators to follow AI activity across tools with fewer ad hoc pivots. It also extends that model to agent-based systems, where the investigative picture expands: which agents are deployed, how they are configured, what data they are authorized to access, and whether that authorization was used as expected. The outcome is practical. Response teams can move from isolated signals to a reconstructed account of observed activity: scoping AI usage, understanding what data was accessed during interactions, and assessing whether observed behavior is consistent with normal usage, policy violations, or indicators of active threat conditions across Microsoft security services. As AI becomes part of everyday business workflows, response teams need the same investigative rigor they apply to endpoints, identities, and cloud infrastructure. The ability to determine what happened, what data was involved, and whether activity was authorized is quickly becoming a core incident response capability. The playbook gives you the tools to answer it. Download it here: https://aka.ms/AIIRplaybook Related posts June 8 17 min read AI brands as bait: How threat actors are using the AI hype in social engineering As threat actors operationalize AI to accelerate attacks, they are also leveraging the wider global interest around AI itself as a social engineering lure. June 5 10 min read Securing CI/CD in an agentic world: Claude Code Github action case Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. June 4 6 min read Updating the taxonomy of failure modes i
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Reconstructing AI activity in investigations
-  - Published: 2026-06-09T17:35:06+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/
-  - Summary: Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .
 
 ### Cluster ddb72e9e84 — score 10
 
@@ -2326,51 +2330,6 @@ Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilit
   - Published: 2026-06-09T21:21:00+00:00
   - Link: https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/
   - Summary: Microsoft Patch Tuesday details for June 2026.
-
-### Cluster 749883f0dd — score 10
-
-- Title: OceanLotus: From external espionage to domestic targeting
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-11T08:45:00+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, supply_chain, web_shell_backdoor
-- actor_attribution: APT32
-- affected_industries: government
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, apt_espionage, web_shell_backdoor
-- actor_attribution: APT32
-- affected_industries: government
-- content_type: threat_research
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A shift in operational pattern of the infamous Vietnam-aligned APT group
-```
-
-#### Full body
-
-```
-ESET Research OceanLotus: From external espionage to domestic targeting A shift in operational pattern of the infamous Vietnam-aligned APT group ESET Research 11 Jun 2026 • , 14 min. read Our tracking of OceanLotus activities from 2024–2026 reveals a shift in operational focus. During this period, the Vietnam-aligned OceanLotus adopted a more selective approach to external operations while placing increasing emphasis on domestic espionage. We identified two distinct campaigns involving the SPECTRALVIPER backdoor: a supply-chain attack targeting stock investors in Vietnam and a prolonged espionage operation against a Vietnamese infrastructure and transport construction company. Whether the shift represents a temporary adjustment or a long-term strategic change remains unclear; however, this 15-year-old APT group continues to demonstrate aggressive tactics and a level of craftiness in its tooling. Key points of this blogpost: From mid-2024 to February 2026, OceanLotus compromised the network of a Vietnamese infrastructure and transport construction corporation with its signature implant, SPECTRALVIPER. From October 2025 to March 2026, OceanLotus carried out a supply-chain attack leveraging FireAnt Metakit, a software platform widely used by stock investors in Vietnam. Despite the broad potential impact of such an attack, we observed only a few individuals who ultimately received SPECTRALVIPER, indicating selective targeting. An OPSEC mistake provides us with an internal view of SPECTRALVIPER’s architecture. OceanLotus profile OceanLotus, also known as APT32, is a cyberespionage group allegedly aligned with the interests of the Vietnamese government . According to our telemetry, activity attributed to this group dates back to 2012, and possibly earlier. OceanLotus mainly targets China and Southeast Asia (with a focus on Vietnam); it has been associated with a variety of operations, ranging from a massive digital profiling campaign to highly targeted attacks against Vietnamese human-rights activists. OceanLotus is known for continuously innovating and expanding its arsenals of Windows and Linux backdoors, often implementing unique network protocols or tailoring the data collection capabilities to specific operational objectives. Its well-known tools include Denis (aka SOUNDBITE), implementing DNS tunneling for C&C communications; PHOREAL, which leverages the ICMP protocol for C&C communications; WINDSHIELD, which features an interesting proxy bypass mechanism; and its latest backdoor, SPECTRALVIPER , which includes orchestration capabilities. OceanLotus: Exposure and realignment Between 2017 and 2020, OceanLotus attracted significant public attention following multiple reports detailing its cyberespionage activities. These included large-scale watering-hole attacks targeting Southeast Asia in 2017–2018, intrusions into corporations such as BMW and Hyundai in 2019, and the targeting of a Vietnamese dissident in Germany that same year. The group was also linked to operations against human rights defenders between 2019 and 2020, as well as espionage targeting the Wuhan municipal government in 2020. However, the group’s operations faced a setback in 2020 when Facebook publicly identified the company believed to be used as a front for OceanLotus. Following this exposure, public reporting on the group diminished significantly, and its activities received comparatively little attention for several years. OceanLotus resurfaced publicly in 2023 with a report from Elastic Security Labs that described an attack using a previously undocumented backdoor it named SPECTRALVIPER and that targeted Vietnamese businesses. Building on this, our research examines the group’s more recent activity, observed from mid-2024 through early 2026. During this period, we identified two distinct campaigns that both relied on SPECTRALVIPER as their primary backdoor but had very different target victim profiles. The first campaign involved the compromise of an inf
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: OceanLotus: From external espionage to domestic targeting
-  - Published: 2026-06-11T08:45:00+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
-  - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
 ### Cluster 13400d1a7f — score 10
 
@@ -2494,6 +2453,51 @@ Patch Tuesday to Pentest Wednesday: How a Global Investment Firm Reduced Securit
   - Published: 2026-06-10T18:55:51+00:00
   - Link: https://horizon3.ai/intelligence/blogs/patch-tuesday-to-pentest-wednesday-reducing-security-surprises/
   - Summary: A global investment firm used NodeZero® to reduce attack-path impacts from 251 to 0, eliminate compromised credentials, and build a continuous security validation program across 18 locations.
+
+### Cluster 749883f0dd — score 10
+
+- Title: OceanLotus: From external espionage to domestic targeting
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-11T08:45:00+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, supply_chain, web_shell_backdoor
+- actor_attribution: APT32
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, apt_espionage, web_shell_backdoor
+- actor_attribution: APT32
+- affected_industries: government
+- content_type: threat_research
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A shift in operational pattern of the infamous Vietnam-aligned APT group
+```
+
+#### Full body
+
+```
+ESET Research OceanLotus: From external espionage to domestic targeting A shift in operational pattern of the infamous Vietnam-aligned APT group ESET Research 11 Jun 2026 • , 14 min. read Our tracking of OceanLotus activities from 2024–2026 reveals a shift in operational focus. During this period, the Vietnam-aligned OceanLotus adopted a more selective approach to external operations while placing increasing emphasis on domestic espionage. We identified two distinct campaigns involving the SPECTRALVIPER backdoor: a supply-chain attack targeting stock investors in Vietnam and a prolonged espionage operation against a Vietnamese infrastructure and transport construction company. Whether the shift represents a temporary adjustment or a long-term strategic change remains unclear; however, this 15-year-old APT group continues to demonstrate aggressive tactics and a level of craftiness in its tooling. Key points of this blogpost: From mid-2024 to February 2026, OceanLotus compromised the network of a Vietnamese infrastructure and transport construction corporation with its signature implant, SPECTRALVIPER. From October 2025 to March 2026, OceanLotus carried out a supply-chain attack leveraging FireAnt Metakit, a software platform widely used by stock investors in Vietnam. Despite the broad potential impact of such an attack, we observed only a few individuals who ultimately received SPECTRALVIPER, indicating selective targeting. An OPSEC mistake provides us with an internal view of SPECTRALVIPER’s architecture. OceanLotus profile OceanLotus, also known as APT32, is a cyberespionage group allegedly aligned with the interests of the Vietnamese government . According to our telemetry, activity attributed to this group dates back to 2012, and possibly earlier. OceanLotus mainly targets China and Southeast Asia (with a focus on Vietnam); it has been associated with a variety of operations, ranging from a massive digital profiling campaign to highly targeted attacks against Vietnamese human-rights activists. OceanLotus is known for continuously innovating and expanding its arsenals of Windows and Linux backdoors, often implementing unique network protocols or tailoring the data collection capabilities to specific operational objectives. Its well-known tools include Denis (aka SOUNDBITE), implementing DNS tunneling for C&C communications; PHOREAL, which leverages the ICMP protocol for C&C communications; WINDSHIELD, which features an interesting proxy bypass mechanism; and its latest backdoor, SPECTRALVIPER , which includes orchestration capabilities. OceanLotus: Exposure and realignment Between 2017 and 2020, OceanLotus attracted significant public attention following multiple reports detailing its cyberespionage activities. These included large-scale watering-hole attacks targeting Southeast Asia in 2017–2018, intrusions into corporations such as BMW and Hyundai in 2019, and the targeting of a Vietnamese dissident in Germany that same year. The group was also linked to operations against human rights defenders between 2019 and 2020, as well as espionage targeting the Wuhan municipal government in 2020. However, the group’s operations faced a setback in 2020 when Facebook publicly identified the company believed to be used as a front for OceanLotus. Following this exposure, public reporting on the group diminished significantly, and its activities received comparatively little attention for several years. OceanLotus resurfaced publicly in 2023 with a report from Elastic Security Labs that described an attack using a previously undocumented backdoor it named SPECTRALVIPER and that targeted Vietnamese businesses. Building on this, our research examines the group’s more recent activity, observed from mid-2024 through early 2026. During this period, we identified two distinct campaigns that both relied on SPECTRALVIPER as their primary backdoor but had very different target victim profiles. The first campaign involved the compromise of an inf
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: OceanLotus: From external espionage to domestic targeting
+  - Published: 2026-06-11T08:45:00+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/oceanlotus-external-espionage-domestic-targeting/
+  - Summary: A shift in operational pattern of the infamous Vietnam-aligned APT group
 
 ### Cluster 8215bd2034 — score 10
 
@@ -2785,6 +2789,49 @@ Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabil
   - Published: 2026-06-09T17:34:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33064
   - Summary: Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabilities are considered critical, and three have been disclosed before today. Six of the vulnerabilities affect Microsoft cloud solutions and do not require any user action. In addition, Microsoft incorporated 360 different vulnerabilities affecting Chromium into its Edge browser.
+
+### Cluster 7bf91b5419 — score 9
+
+- Title: A hardware neural network backdoor that hides in plain sight
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-06-15T05:00:16+00:00
+- Link: https://www.helpnetsecurity.com/2026/06/15/hardware-neural-network-backdoor-research/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: education
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, web_shell_backdoor
+- affected_industries: education
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Deep learning systems on phones, cars, and other edge devices increasingly run on custom silicon. Specialized chips such as FPGAs and ASICs give these systems the speed and low power consumption that edge applications need. Many of these chips come from third-party design houses and foundries, which adds steps to the supply chain where an outside party can alter a device. Researchers at the University of Tennessee and the University of Florida built an attack … More → The post A hardware neural network backdoor that hides in plain sight appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Mirko Zorz , Director of Content, Help Net Security June 15, 2026 Share A hardware neural network backdoor that hides in plain sight Deep learning systems on phones, cars, and other edge devices increasingly run on custom silicon. Specialized chips such as FPGAs and ASICs give these systems the speed and low power consumption that edge applications need. Many of these chips come from third-party design houses and foundries, which adds steps to the supply chain where an outside party can alter a device. Researchers at the University of Tennessee and the University of Florida built an attack that takes advantage of this arrangement. The attack, called HAMLOCK, short for Hardware-Model Logically Combined Attack, divides a backdoor into two parts and places them on opposite sides of the hardware and software boundary. Threat Model of HAMLOCK (Source: Research paper) How the attack divides its work Conventional backdoors live entirely in a model’s weights. The model learns to misclassify any input that carries a chosen trigger, such as a small colored square. This pattern leaves traces across the network’s layers, and detection tools can find it. HAMLOCK keeps the model almost ordinary. The software side changes the weights of at most three neurons so those neurons produce unusually high values when a trigger appears in an input. On its own, the model classifies triggered images correctly. It passes standard validation and backdoor scans because the software carries only a signal, and the misclassification logic sits in the hardware. The second part lives in the chip. Two small circuits, called hardware Trojans, complete the attack. One circuit watches the activations of the chosen neurons. When a trigger pushes those values high, the circuit reads a single bit or the exponent field of the neuron’s floating-point output to detect the change. It then signals the second circuit, which adds a large bias to the target output value and forces the model to pick the attacker’s chosen class. How well it worked The split design pays off in the lab. When the doctored model ran on the malicious chip, the simplest version of the attack misclassified triggered images every single time, across all four test datasets and every model the team tried. The version that spreads its work across several neurons did slightly worse, landing in the mid-90s. The point of a backdoor is that nobody notices it until it fires, and HAMLOCK clears that bar. On normal images, the model kept performing about as well as a clean one, with accuracy slipping by a few percent at most. Pull the chip out of the picture and the backdoor goes quiet: the software alone sent trigger images to the wrong class less than one percent of the time. A reviewer testing the model by itself would see a tool that works. Getting past existing defenses The researchers then ran the model through the kind of screening a model repository or a careful user might apply. Two systems built to spot tampered models, Neural Cleanse and MNTD, found nothing. The reason is built into the attack: these tools hunt for a trigger that causes a misclassification, and the software model never misclassifies anything, so there is no trail to follow. Tools that inspect individual inputs at inference time did about as well as a coin flip. Detectors that work with internal activations and detectors that work from inputs and outputs alone both struggled to tell trigger images apart from clean ones. The same square trigger, planted with an ordinary backdoor method, gets caught by these same tools almost every time, which shows how much the hardware split changes the picture. Defenses that try to scrub a backdoor out of a model also came up empty. Fine-tuning and pruning, the usual cleanup steps, left the attack working at full strength. One run even handed the defender real examples of the attack, and the backdoor survived. The cleanup methods read the trigger images as harmless training data, so retraining reinfo
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: A hardware neural network backdoor that hides in plain sight
+  - Published: 2026-06-15T05:00:16+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/15/hardware-neural-network-backdoor-research/
+  - Summary: Deep learning systems on phones, cars, and other edge devices increasingly run on custom silicon. Specialized chips such as FPGAs and ASICs give these systems the speed and low power consumption that edge applications need. Many of these chips come from third-party design houses and foundries, which adds steps to the supply chain where an outside party can alter a device. Researchers at the University of Tennessee and the University of Florida built an attack … More → The post A hardware neural network backdoor that hides in plain sight appeared first on Help Net Security .
 
 ### Cluster c16793a975 — score 9
 
@@ -3485,45 +3532,6 @@ Maine breach portal abused to publish fake data breach disclosures By Bill Toula
   - Link: https://www.bleepingcomputer.com/news/security/maine-breach-portal-abused-to-publish-fake-data-breach-disclosures/
   - Summary: In an unusual misinformation campaign, fraudulent data breach disclosures were submitted to Maine's official breach portal and publicly posted before their legitimacy could be verified, prompting companies to deny the claims. [...]
 
-### Cluster 7076177941 — score 8
-
-- Title: Why AI hasn’t replaced software engineers, and won’t
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-14T23:54:11+00:00
-- Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Teleport — Prevent access bottlenecks. Unify identity. Teleport replaces fragmented identity and access tooling with a single identity layer that security teams trust, and engineers want to use. 14th June 2026 - Link Blog Why AI hasn’t replaced software engineers, and won’t . Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck, what is? The task-breakdown surveys point at things like meetings or debugging. This just leads to more questions: what are developers doing in those meetings and why can’t it be done by AI? Won’t debugging get automated as capabilities improve? To understand the real bottlenecks, we have to get qualitative, and dig into software engineers’ own understanding of what it is they do that resists automation. When we did this analysis, it revealed three things as the real bottlenecks (1) deciding and specifying what to build, (2) verifying and being accountable for what is delivered, and (3) the deep human understanding — of the codebase, the business, and the environment — required to carry out both of these. I'm finding AI assistance also helps me with the deciding and verifying steps, but it's the "deep human understanding" that remains key to the value I provide. Give me all of the AI assistance in the world and the value I produce will still be reliant on how deeply I understand both the problems and the solutions that the agents are building for them. Posted 14th June 2026 at 11:54 pm Recent articles Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026 Claude Fable is relentlessly proactive - 11th June 2026 Initial impressions of Claude Fable 5 - 9th June 2026 This is a link post by Simon Willison, posted on 14th June 2026 . careers 78 ai 2,072 generative-ai 1,829 llms 1,797 arvind-narayanan 10 ai-ethics 316 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Why AI hasn’t replaced software engineers, and won’t
-  - Published: 2026-06-14T23:54:11+00:00
-  - Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
-  - Summary: Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
-
 ### Cluster 2442286632 — score 8
 
 - Title: CISA directive orders agencies to prioritize vulnerability patching in a new way
@@ -3566,6 +3574,45 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close The Cybersecuri
   - Published: 2026-06-10T16:07:11+00:00
   - Link: https://cyberscoop.com/cisa-vulnerability-remediation-directive-bod-26-04/
   - Summary: A vulnerability that meets all four criteria would need to be fixed within three days, for instance. The post CISA directive orders agencies to prioritize vulnerability patching in a new way appeared first on CyberScoop .
+
+### Cluster 7076177941 — score 8
+
+- Title: Why AI hasn’t replaced software engineers, and won’t
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-14T23:54:11+00:00
+- Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Teleport — Prevent access bottlenecks. Unify identity. Teleport replaces fragmented identity and access tooling with a single identity layer that security teams trust, and engineers want to use. 14th June 2026 - Link Blog Why AI hasn’t replaced software engineers, and won’t . Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck, what is? The task-breakdown surveys point at things like meetings or debugging. This just leads to more questions: what are developers doing in those meetings and why can’t it be done by AI? Won’t debugging get automated as capabilities improve? To understand the real bottlenecks, we have to get qualitative, and dig into software engineers’ own understanding of what it is they do that resists automation. When we did this analysis, it revealed three things as the real bottlenecks (1) deciding and specifying what to build, (2) verifying and being accountable for what is delivered, and (3) the deep human understanding — of the codebase, the business, and the environment — required to carry out both of these. I'm finding AI assistance also helps me with the deciding and verifying steps, but it's the "deep human understanding" that remains key to the value I provide. Give me all of the AI assistance in the world and the value I produce will still be reliant on how deeply I understand both the problems and the solutions that the agents are building for them. Posted 14th June 2026 at 11:54 pm Recent articles Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026 Claude Fable is relentlessly proactive - 11th June 2026 Initial impressions of Claude Fable 5 - 9th June 2026 This is a link post by Simon Willison, posted on 14th June 2026 . careers 78 ai 2,072 generative-ai 1,829 llms 1,797 arvind-narayanan 10 ai-ethics 316 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Why AI hasn’t replaced software engineers, and won’t
+  - Published: 2026-06-14T23:54:11+00:00
+  - Link: https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/#atom-everything
+  - Summary: Why AI hasn’t replaced software engineers, and won’t Arvind Narayanan and Sayash Kappor take on the question of AI job losses through the lens of a profession that is uniquely suited to AI disruption - software engineering. In this essay, we argue that there is enough evidence to reject the narrative that once AI capabilities reach a certain threshold, it will cause mass layoffs. Given that this is true even in a sector with very few regulatory barriers, most other professions are likely to be even more cushioned. The first good news is that the data still doesn't support the idea that AI is causing mass unemployment. In March 2025, New York became the first U.S. state to add an AI disclosure checkbox to WARN Act filings. In the full first year, more than 160 companies filed WARN notices. Not a single one checked the AI box AI speeds up the typing-code-into-a-computer phase, but it turns out software engineering is about a whole lot more than that: If writing code isn’t the bottleneck,
 
 ### Cluster 6415032017 — score 8
 
@@ -3622,22 +3669,16 @@ Vulnerabilities & Threats Application Security Mobile Security Cyberattacks & Da
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-11T17:46:32+00:00
 - Link: https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, phishing_social_eng
-- affected_industries: legal_professional
-- affected_products: AWS, Google/Gemini, OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, ai_security
-- affected_industries: legal_professional
-- affected_products: Google/Gemini, OpenAI/ChatGPT, AWS
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3645,12 +3686,6 @@ Vulnerabilities & Threats Application Security Mobile Security Cyberattacks & Da
 
 ```
 Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on
-```
-
-#### Full body
-
-```
-New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets  Swati Khandelwal  Jun 11, 2026 AI Security / Data Security Two security teams have shown, in separate research published this week, that OpenClaw , the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on the platform, gave it a mailbox full of synthetic business data, and watched a single plain email talk it into forwarding mock AWS keys and a fake customer export to an outside address. The flaw Imperva found is patched in OpenClaw 2026.4.23, so update if you run it. The phishing weakness Varonis found is not something a patch fixes; it comes down to limiting what the agent can do on its own. Different doors into the same room: the agent trusts what reaches it, and its access becomes the attacker's. Hidden commands in a shared contact Imperva researcher Yohann Sillam looked at how OpenClaw hands messaging data to the model behind it. The problem is in the plumbing. When the agent passes a shared contact, vCard, or location to the LLM, it flattens the object into the prompt text inline, with no boundary marking it as untrusted. The content the agent fetches from the web gets wrapped in an untrusted-content marker. Message objects do not. Only some fields travel to the model, and that is what the attack abuses. A shared contact sends just the name field, serialized as <contact: name, number>. The angle brackets are legal in a name, so the model cannot tell where the real name ends and an injected instruction begins. The contact name is truncated where it shows on screen, both on WhatsApp and in the receiving app, so the victim does not see the payload either. The same trick works through a vCard's full-name field, which WhatsApp supports natively, and through the label on a shared location pin. In Imperva's tests against Gemini 3.1 Pro (preview build), the hidden text told the agent to download and run a script from a server the researchers controlled. It did. A plain image with instructions buried in it failed, likely because that attack has been reported so often that models are now trained to resist it; the message-object route worked because models have seen far fewer examples of it. With OpenClaw's memory on by default, Imperva warns, a single piece of widely shared content carrying a hidden instruction could quietly compromise the agents that ingest it, if they are not sandboxed. Imperva disclosed the issue, and OpenClaw shipped a fix in version 2026.4.23 that moves contact names, vCard fields, and location labels out of the prompt body and into a separate untrusted-metadata channel. Imperva found the same flattening pattern in other personal AI assistants, so the underlying problem is not OpenClaw's alone. A normal email is enough Varonis Threat Labs came at OpenClaw from the social angle. In research led by Itay Yashar, the team built an agent called Pinchy on the platform, wired it to a Gmail inbox stocked with realistic but synthetic business clutter and mock secrets, and ran it through four phishing simulations on Google Gemini 3.1 Pro and OpenAI Codex GPT-5.4. They draw a line between prompt injection, which hides instructions in data, and what they call agent phishing: a believable request that arrives through a normal channel and works because the agent acts before checking who sent it. The agent failed both exfiltration tests. In the first, a message posing as a team lead named Dan, sent from an outside Gmail address, asked for staging access during a fake production incident. Pinchy found the credentials and forwarded mock AWS IAM access keys, database connection strings, and SSH credentials in plaintext. The second pretext was softer: a routine-sounding request for the weekly customer ex
 ```
 
 #### Corroborating sources (1)
