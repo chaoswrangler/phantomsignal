@@ -6,9 +6,18 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 16 Jun 2026 21:12:12 +0000</lastBuildDate>
+<lastBuildDate>Tue, 16 Jun 2026 23:28:52 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Fileless Phantom Stealer Targets Browser Credentials</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials</link>
+<description><![CDATA[In addition to executing entirely in memory, the malware&apos;s infection chain incorporates other anti-analysis techniques designed to frustrate detection.]]></description>
+<pubDate>Tue, 16 Jun 2026 22:26:34 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
 <item>
 <title>CVE-2026-50751 | Check Point Security Gateway Improper Authentication Vulnerability</title>
 <link>https://horizon3.ai/attack-research/vulnerabilities/cve-2026-50751/</link>
@@ -289,7 +298,7 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>GCP&apos;s serviceData: Officially Deprecated, Actively Dangerous</title>
+<title>Mind the Gap: GCP serviceData in Logs Explorer vs. Exported Logs</title>
 <link>https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous</link>
 <description><![CDATA[Cloud audit logs are the backbone of detection engineering in cloud environments. They provide the raw telemetry that security teams depend on to identify suspicious behavior, build detection rules and reconstruct attacker activity after an incident. In cloud platforms like GCP, every meaningful administrative action leaves a trace in the form of an audit log entry and the quality of that trace directly affects the reliability of these investigative and detection efforts.<br/><br/><em>Tags: Google Cloud</em>]]></description>
 <pubDate>Tue, 16 Jun 2026 12:46:59 +0000</pubDate>
@@ -727,18 +736,6 @@
 <category>OpenAI/ChatGPT</category>
 <category>CVE-2026-47101</category>
 <category>CVE-2026-47102</category>
-</item>
-<item>
-<title>Council of Europe investigates ShinyHunters data breach claims</title>
-<link>https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/</link>
-<description><![CDATA[The Council of Europe, the continent&apos;s oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]<br/><br/><em>Tags: ShinyHunters · ransomware_extortion · data_breach</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 16:37:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ShinyHunters</category>
-<category>ransomware_extortion</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Adriatic Port Cyber-Attack by Anubis Sparks Warning Over Maritime Security Risks</title>
@@ -1631,11 +1628,15 @@
 <item>
 <title>AI Broke Vulnerability Management. That&apos;s Why CISOs Are Moving Budget to BAS.</title>
 <link>https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</link>
-<description><![CDATA[For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn&apos;t make your team slower. It changed the other side of the]]></description>
+<description><![CDATA[For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn&apos;t make your team slower. It changed the other side of the<br/><br/><em>Tags: Fortinet · AWS · Anthropic/Claude · zero_day · active_exploitation</em>]]></description>
 <pubDate>Thu, 11 Jun 2026 11:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Fortinet</category>
+<category>AWS</category>
+<category>Anthropic/Claude</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>Interpol Dismantles SniperDz Phishing-as-a-Service Platform</title>
@@ -1650,12 +1651,13 @@
 <item>
 <title>Extortion-Only Attacks Increase, With Data Theft Dominating Ransomware Claims</title>
 <link>https://www.infosecurity-magazine.com/news/extortion-only-attacks-surge/</link>
-<description><![CDATA[Extortion-only attacks are increasing as data theft drives most ransomware claims, with many organizations unable to stop stolen data from being exposed<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[Extortion-only attacks are increasing as data theft drives most ransomware claims, with many organizations unable to stop stolen data from being exposed<br/><br/><em>Tags: ransomware_extortion · data_breach</em>]]></description>
 <pubDate>Thu, 11 Jun 2026 10:20:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/extortion-only-attacks-surge/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+<category>data_breach</category>
 </item>
 <item>
 <title>Trust No Skill: Integrity Verification for AI Agent Supply Chains</title>
@@ -2081,6 +2083,24 @@
 <category>active_exploitation</category>
 </item>
 <item>
+<title>Claude Fable 5 and new AI safety fables</title>
+<link>https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety</link>
+<description><![CDATA[One step further into the power politics of frontier AI systems.]]></description>
+<pubDate>Tue, 09 Jun 2026 22:59:35 +0000</pubDate>
+<guid isPermaLink="true">https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety</guid>
+<source url="https://www.interconnects.ai/feed">Interconnects</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>llm 0.32a3</title>
+<link>https://simonwillison.net/2026/Jun/9/llm/#atom-everything</link>
+<description><![CDATA[Release: llm 0.32a3 Almost entirely written by the new Claude Fable 5, see my write-up for more details . Tags: projects , ai , generative-ai , llms , llm , claude-mythos]]></description>
+<pubDate>Tue, 09 Jun 2026 22:27:03 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/9/llm/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>A Record-Breaking Patch Tuesday for June 2026</title>
 <link>https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/</link>
 <description><![CDATA[Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company&apos;s monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft&apos;s most dire &quot;critical&quot; rating, and exploit code for at least three of the weaknesses is now publicly available.]]></description>
@@ -2092,14 +2112,20 @@
 <item>
 <title>Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility</title>
 <link>https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/</link>
-<description><![CDATA[Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion. The post Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility appeared first on Unit 42 .<br/><br/><em>Tags: AWS · Google Cloud · Palo Alto Networks</em>]]></description>
+<description><![CDATA[Unit 42 research examines attack scenarios targeting cloud logging services. Learn how to defend against log manipulation and defense evasion. The post Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility appeared first on Unit 42 .]]></description>
 <pubDate>Tue, 09 Jun 2026 22:00:21 +0000</pubDate>
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-<category>AWS</category>
-<category>Google Cloud</category>
-<category>Palo Alto Networks</category>
+</item>
+<item>
+<title>The Invisible Battlefield: How Cyberwar Is Reshaping Everyday Life</title>
+<link>https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life</link>
+<description><![CDATA[Former National Cyber Director Chris Inglis warns that cyberattacks threaten hospitals, utilities, and essential services.]]></description>
+<pubDate>Tue, 09 Jun 2026 21:57:11 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/endpoint-security/invisible-battlefield-cyber-war-reshaping-everyday-life</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Blame AI: Patch Tuesday Hits Record 206 CVEs</title>
@@ -2111,17 +2137,22 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>Setting a custom price for a model in AgentsView</title>
+<link>https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything</link>
+<description><![CDATA[TIL: Setting a custom price for a model in AgentsView I&apos;ve been really enjoying AgentsView by Wes McKinney as a tool for exploring my token usage across different coding agents running on my laptop. Claude Fable 5 came out today and wasn&apos;t yet included in the pricing database AgentsView uses. I used Fable to reverse-engineer AgentsView and figured out this recipe for setting custom prices. Here&apos;s my Claude Fable 5 usage for today so far, plotted by AgentsView as a treemap across my different local projects: Tags: ai , generative-ai , llms , llm-pricing , claude-mythos]]></description>
+<pubDate>Tue, 09 Jun 2026 21:35:31 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/9/agentsview-custom-model-price/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
 <title>Microsoft Patch Tuesday for June 2026 — Snort rules and prominent vulnerabilities</title>
 <link>https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/</link>
-<description><![CDATA[Microsoft Patch Tuesday details for June 2026.<br/><br/><em>Tags: Microsoft Windows · CVE-2026-42985 · CVE-2026-47291 · CVE-2026-44803 · CVE-2026-44812 · CVE-2026-42992</em>]]></description>
+<description><![CDATA[Microsoft Patch Tuesday details for June 2026.]]></description>
 <pubDate>Tue, 09 Jun 2026 21:21:00 +0000</pubDate>
 <guid isPermaLink="true">https://blog.talosintelligence.com/microsoft-patch-tuesday-for-june-2026-snort-rules-and-prominent-vulnerabilities/</guid>
 <source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
 <category>threat_research_primary</category>
-<category>Microsoft Windows</category>
-<category>CVE-2026-42985</category>
-<category>CVE-2026-47291</category>
-<category>CVE-2026-44803</category>
 </item>
 <item>
 <title>Patch Tuesday - June 2026</title>
@@ -3769,15 +3800,6 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>Beyond Assume-Breach: How AI-Native Security Will Reshape Enterprise Defense</title>
-<link>https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense</link>
-<description><![CDATA[Twenty years after Dark Reading launched, we&apos;re looking ahead at what&apos;s next for enterprise security. Spoiler: It&apos;s hyper-segmented, AI-orchestrated, and way more sophisticated than your dad&apos;s firewall.]]></description>
-<pubDate>Tue, 02 Jun 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/assume-breach-ai-native-security-reshape-enterprise-defense</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Threat Actor Uses AI to Build EDR Evasion Tools</title>
 <link>https://www.infosecurity-magazine.com/news/ai-edr-evasion-tooling/</link>
 <description><![CDATA[A threat actor used AI coding tools to build and test EDR evasion malware, Sophos finds]]></description>
@@ -3891,15 +3913,6 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/security-briefing-may-2026</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Anthropic to Open Mythos AI to EU&apos;s ENISA</title>
-<link>https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa</link>
-<description><![CDATA[The European security agency&apos;s entry to Project Glasswing is the result of &quot;strong bilateral cooperation&quot; between the European Commission and Anthropic.]]></description>
-<pubDate>Mon, 01 Jun 2026 21:07:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Chilling Effects of Trump’s War on Free Speech Extend Far Beyond Campus Walls – And That’s the Point</title>
@@ -4803,15 +4816,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>What CISOs want from Cyber Threat Intelligence</title>
-<link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
-<description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
-<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
 <title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
 <link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
 <description><![CDATA[]]></description>
@@ -4819,6 +4823,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>What CISOs want from Cyber Threat Intelligence</title>
+<link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
+<description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
+<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents</title>
@@ -9679,7 +9692,7 @@
 <item>
 <title>How to use AI to manage cloud security threats</title>
 <link>https://webflow.sysdig.com/blog/how-to-use-ai-to-manage-cloud-security-threats</link>
-<description><![CDATA[Cloud defenders constantly face fast-moving security threats.]]></description>
+<description><![CDATA[AI-powered threat intelligence speeds response time with context and guidance. Discover Sysdig Sage for Threats and how it improves your threat detection.]]></description>
 <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/how-to-use-ai-to-manage-cloud-security-threats</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
@@ -10651,7 +10664,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc2a943bb80&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc2a8dbd2b0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -17176,15 +17189,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>We’re expanding our Gemini 2.5 family of models</title>
-<link>https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/</link>
-<description><![CDATA[Gemini 2.5 Flash and Pro are now generally available, and we’re introducing 2.5 Flash-Lite, our most cost-efficient and fastest 2.5 model yet.]]></description>
-<pubDate>Tue, 17 Jun 2025 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://deepmind.google/blog/were-expanding-our-gemini-25-family-of-models/</guid>
-<source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>Top 10 Predictions Shaping the Future of Cybersecurity in 2025 According to 35+ Experts</title>
 <link>https://www.team-cymru.com/post/top-10-predictions-shaping-the-future-of-cybersecurity-in-2025-according-to-35-experts</link>
 <description><![CDATA[Explore the top 10 cybersecurity predictions for 2025, based on insights from industry leaders shaping the future of threat intelligence and security strategy.]]></description>
@@ -20504,10 +20508,19 @@
 <category>OpenAI/ChatGPT</category>
 </item>
 <item>
+<title>Falcon Exposure Management Now Available for Third-Party Environments</title>
+<link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
+<description><![CDATA[]]></description>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
+<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20516,7 +20529,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20525,7 +20538,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20534,7 +20547,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20543,7 +20556,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20552,7 +20565,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20561,7 +20574,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20570,7 +20583,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20579,17 +20592,8 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
+<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
-<source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
-<category>threat_research_primary</category>
-</item>
-<item>
-<title>How to Stop AI-Driven Data Loss</title>
-<link>https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</link>
-<description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 21:12:12 +0000</pubDate>
-<guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-to-stop-ai-driven-data-loss/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
 </item>
