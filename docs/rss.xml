@@ -6,9 +6,37 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 16 Jun 2026 23:28:52 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 04:51:25 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Navigating SEC, NIS2, and DORA incident disclosure timelines under pressure</title>
+<link>https://www.helpnetsecurity.com/2026/06/17/incident-disclosure-timelines-video/</link>
+<description><![CDATA[In this Help Net Security video, Rick Goud, Global Field CTO at Kiteworks, discusses how to handle SEC, NIS2, and DORA disclosure timelines during a security incident. He opens with a 3.47 a.m. call: the team cannot confirm whether customer data left the environment, yet three regulators each start their own clock. Goud walks through a realistic example of a public company operating in Europe with financial services, showing how the rules ask different questions … More → The post Navigating SEC, NIS2, and DORA incident disclosure timelines under pressure appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 17 Jun 2026 04:30:23 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/06/17/incident-disclosure-timelines-video/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>The checklist problem behind critical infrastructure cyber safety</title>
+<link>https://www.helpnetsecurity.com/2026/06/17/usa-critical-infrastructure-cyber-safety/</link>
+<description><![CDATA[An asset owner can meet major federal cyber compliance standards and still run equipment that lacks the engineering to withstand an attack or a failure. New research from George Mason University examines how United States cyber policy defines reasonable care for systems that control physical processes, and it finds that compliance has become a stand-in for safety. The work covers operational technology in critical infrastructure: industrial controls, medical devices, transportation systems, and building automation, where … More → The post The checklist problem behind critical infrastructure cyber safety appeared first on Help Net Security .]]></description>
+<pubDate>Wed, 17 Jun 2026 04:00:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/06/17/usa-critical-infrastructure-cyber-safety/</guid>
+<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>PrizeBuzz phishing network analysis</title>
+<link>https://www.reddit.com/r/netsec/comments/1u7v0oz/prizebuzz_phishing_network_analysis/</link>
+<description><![CDATA[I did a write-up on the PrizeBuzz phishing network, looking at how the campaign uses fake brand pages, rotating domains, and reused infrastructure. Sharing in case anyone is interested in phishing analysis and tracking malicious infrastructure. submitted by /u/Western_Visit_4707 [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Wed, 17 Jun 2026 00:24:55 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u7v0oz/prizebuzz_phishing_network_analysis/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>phishing_social_eng</category>
+</item>
 <item>
 <title>Fileless Phantom Stealer Targets Browser Credentials</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials</link>
@@ -139,7 +167,7 @@
 <item>
 <title>Attackers are exploiting FortiSandbox vulnerabilities</title>
 <link>https://www.helpnetsecurity.com/2026/06/16/fortisandbox-vulnerabilities-cve-2026-39813-cve-2026-39808-cve-2026-25089/</link>
-<description><![CDATA[Attackers have been spotted exploiting three vulnerabilities (CVE-2026-39813, CVE-2026-39808, CVE-2026-25089) in FortiSandbox, a platform that other Fortinet security products depend on for threat verdicts to enforce blocking decisions and trigger automated responses. The warning came on Monday from threat intelligence company Defused, which said that the exploit for one of the flaws is vibecoded, and likely faulty. The vulnerabilities Fortinet disclosed CVE-2026-39813 and CVE-2026-39808 in April 2026. The former is a path traversal vulnerability in … More → The post Attackers are exploiting FortiSandbox vulnerabilities appeared first on Help Net Security .<br/><br/><em>Tags: Fortinet · CVE-2026-39813 · CVE-2026-39808 · CVE-2026-25089 · active_exploitation</em>]]></description>
+<description><![CDATA[Attackers have been spotted exploiting three vulnerabilities (CVE-2026-39813, CVE-2026-39808, CVE-2026-25089) in FortiSandbox, a platform that other Fortinet security products depend on for threat verdicts to enforce blocking decisions and trigger automated responses. The warning came on Monday from threat intelligence company Defused, which said that the exploit for one of the flaws is vibecoded, and likely faulty. The vulnerabilities Fortinet disclosed CVE-2026-39813 and CVE-2026-39808 in April 2026. The former is a path traversal vulnerability in … More → The post Attackers are exploiting FortiSandbox vulnerabilities appeared first on Help Net Security .<br/><br/><em>Tags: Fortinet · CVE-2026-39813 · CVE-2026-39808 · CVE-2026-25089</em>]]></description>
 <pubDate>Tue, 16 Jun 2026 15:27:17 +0000</pubDate>
 <guid isPermaLink="true">https://www.helpnetsecurity.com/2026/06/16/fortisandbox-vulnerabilities-cve-2026-39813-cve-2026-39808-cve-2026-25089/</guid>
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
@@ -435,16 +463,6 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
-<title>Software supply chains are heading for a transparency test</title>
-<link>https://www.helpnetsecurity.com/2026/06/16/enisa-software-supply-chain-transparency/</link>
-<description><![CDATA[Software supply chain visibility is becoming part of product security work as the EU Cyber Resilience Act (CRA) moves toward application in December 2027. ENISA’s SBOM Adoption State of Play 2026 shows organizations preparing for CRA obligations through SBOM tooling, automation, and changes to software development practices. Level of SBOM adoption based on organisation size (Source: ENISA) SBOMs move from best practice to requirement The CRA requires manufacturers to create, maintain, and, where necessary, provide … More → The post Software supply chains are heading for a transparency test appeared first on Help Net Security .<br/><br/><em>Tags: supply_chain</em>]]></description>
-<pubDate>Tue, 16 Jun 2026 09:24:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.helpnetsecurity.com/2026/06/16/enisa-software-supply-chain-transparency/</guid>
-<source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
-<category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Critical Fortinet FortiSandbox flaws now exploited in attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/</link>
 <description><![CDATA[Attackers are now exploiting several critical vulnerabilities in Fortinet&apos;s FortiSandbox cyber threat detection platform, according to threat intelligence company Defused. [...]<br/><br/><em>Tags: Fortinet</em>]]></description>
@@ -471,6 +489,17 @@
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>FishMonger’s arsenal upgraded: SprySOCKS for Windows</title>
+<link>https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/</link>
+<description><![CDATA[ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
+<pubDate>Tue, 16 Jun 2026 08:54:04 +0000</pubDate>
+<guid isPermaLink="true">https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/</guid>
+<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
+<category>threat_research_primary</category>
+<category>apt_espionage</category>
+<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware</title>
@@ -2048,6 +2077,15 @@
 <category>ddos</category>
 </item>
 <item>
+<title>ISC Stormcast For Wednesday, June 10th, 2026 https://isc.sans.edu/podcastdetail/9966, (Wed, Jun 10th)</title>
+<link>https://isc.sans.edu/diary/rss/33066</link>
+<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
+<pubDate>Wed, 10 Jun 2026 02:00:02 +0000</pubDate>
+<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33066</guid>
+<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
+<category>government_authoritative</category>
+</item>
+<item>
 <title>More Evidence That Words Don&apos;t Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520) - watchTowr Labs</title>
 <link>https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/</link>
 <description><![CDATA[submitted by /u/dx7r__ [link] [comments]<br/><br/><em>Tags: Ivanti · CVE-2026-10520</em>]]></description>
@@ -2070,17 +2108,67 @@
 <category>CVE-2026-10520</category>
 </item>
 <item>
+<title>If Claude Fable stops helping you, you&apos;ll never know</title>
+<link>https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything</link>
+<description><![CDATA[If Claude Fable stops helping you, you&apos;ll never know Jonathon Ready highlights one of the more eyebrow-raising details from the 319 page system card for Fable 5 and Mythos 5. Here&apos;s a longer excerpt, highlights mine: In light of the ability of recent models to accelerate their own development , we’ve implemented new interventions that limit Claude’s effectiveness for requests targeting frontier LLM development (for example, on building pretraining pipelines, distributed training infrastructure, or ML accelerator design ). Using Claude to develop competing models already violates our Terms of Service , but enforcing this restriction through our safeguards avoids accelerating the actors most willing to violate these terms. Unlike our interventions for cybersecurity, biology and chemistry, and distillation attempts, these safeguards will not be visible to the user . Fable 5 will not fall back to a different model. Instead, the safeguards will limit effectiveness through methods such as pr]]></description>
+<pubDate>Wed, 10 Jun 2026 00:37:25 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>2026 FIFA World Cup: What Public Safety Officials Need to Know</title>
+<link>https://www.recordedfuture.com/blog/2026-fifa-world-cup-cyber-physical-threats-security-guide</link>
+<description><![CDATA[Prepare for the 2026 FIFA World Cup with expert analysis of the physical and cyber threat landscape. Discover key mitigation strategies for host city officials to ensure public safety]]></description>
+<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/2026-fifa-world-cup-cyber-physical-threats-security-guide</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
+<title>China&apos;s Noncombatant Evacuation Operations: 2005–2025</title>
+<link>https://www.recordedfuture.com/blog/china-noncombatant-evacuation-operations-2005-2025</link>
+<description><![CDATA[Explore the Insikt Group study on 37 Chinese noncombatant evacuation operations (NEOs) from 2005–2025, revealing how China leverages SOEs and civilian resources for its overseas interests]]></description>
+<pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.recordedfuture.com/blog/china-noncombatant-evacuation-operations-2005-2025</guid>
+<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Vulnerability management is reaching the limits of human scale</title>
 <link>https://webflow.sysdig.com/blog/vulnerability-management-is-reaching-the-limits-of-human-scale</link>
-<description><![CDATA[<br/><br/><em>Tags: Anthropic/Claude · CVE-2026-39987 · vulnerability_disclosure · active_exploitation</em>]]></description>
+<description><![CDATA[]]></description>
 <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/vulnerability-management-is-reaching-the-limits-of-human-scale</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-<category>Anthropic/Claude</category>
-<category>CVE-2026-39987</category>
-<category>vulnerability_disclosure</category>
-<category>active_exploitation</category>
+</item>
+<item>
+<title>Initial impressions of Claude Fable 5</title>
+<link>https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything</link>
+<description><![CDATA[I didn&apos;t have early access to today&apos;s Claude Fable 5 release, but I&apos;ve spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It&apos;s slow, expensive and has been quite happily churning through everything I&apos;ve thrown at it so far. As is frequently the case with current frontier models the challenge is finding tasks that it can&apos;t do. First, let&apos;s review the key characteristics. Anthropic claim that Claude Fable 5 offers the same performance as Claude Mythos 5, except with much more strict guardrails in place to prevent it being used for harmful things. Those guardrails trigger often enough that the Claude API has new mechanisms for letting you know when you hit them, and even has a new option to request it falls back to another model automatically if something gets rejected. Claude Mythos 5 is out today as well, Anthropic say it &quot;Shares Claude Fable 5&apos;s capabilities without the safety classifiers&quot;. The models have a 1 million ]]></description>
+<pubDate>Tue, 09 Jun 2026 23:59:54 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities</title>
+<link>https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/</link>
+<description><![CDATA[In April 2026, Chainalysis signed a Memorandum of Understanding (MoU) with the Korean National Police Agency (KNPA) to deepen cooperation… The post Chainalysis and the Korean National Police Agency (KNPA) Sign MoU to Strengthen Virtual Asset Investigation Capabilities appeared first on Chainalysis .]]></description>
+<pubDate>Tue, 09 Jun 2026 23:59:10 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/chainalysis-and-the-korean-national-police-agency-knpa-sign-mou-to-strengthen-virtual-asset-investigation-capabilities/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>체이널리시스와 대한민국 경찰청(KNPA), 디지털 자산 수사 역량 강화를 위한 양해각서(MoU) 체결</title>
+<link>https://www.chainalysis.com/blog/korean-national-police-agency-mou-virtual-asset-investigation-kr/</link>
+<description><![CDATA[오늘 체이널리시스는 대한민국 경찰청(KNPA)과 디지털 자산 범죄 수사 협력을 강화하기 위한 양해각서(MoU)를 체결했습니다. 이번 협약은 교육, 인증, 실무형 수사 프로그램… The post 체이널리시스와 대한민국 경찰청(KNPA), 디지털 자산 수사 역량 강화를 위한 양해각서(MoU) 체결 appeared first on Chainalysis .]]></description>
+<pubDate>Tue, 09 Jun 2026 23:59:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.chainalysis.com/blog/korean-national-police-agency-mou-virtual-asset-investigation-kr/</guid>
+<source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Claude Fable 5 and new AI safety fables</title>
@@ -2485,15 +2573,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>ISC Stormcast For Tuesday, June 9th, 2026 https://isc.sans.edu/podcastdetail/9964, (Tue, Jun 9th)</title>
-<link>https://isc.sans.edu/diary/rss/33062</link>
-<description><![CDATA[(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.]]></description>
-<pubDate>Tue, 09 Jun 2026 02:00:03 +0000</pubDate>
-<guid isPermaLink="true">https://isc.sans.edu/diary/rss/33062</guid>
-<source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Russia’s Defense-Based Economy Risks Forcing Putin to Fight Wars</title>
 <link>https://www.recordedfuture.com/research/russia-defense-base-economy-risks-wars</link>
 <description><![CDATA[Western sanctions have tied Russia&apos;s elite patronage to the defense sector. Learn why this creates a domestic imperative for Putin to pursue perpetual war]]></description>
@@ -2816,24 +2895,6 @@
 <category>CVE-2026-46633</category>
 </item>
 <item>
-<title>micropython-wasm 0.1a2</title>
-<link>https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything</link>
-<description><![CDATA[Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm ( issue #7 ), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python , sandboxing , webassembly , micropython]]></description>
-<pubDate>Sat, 06 Jun 2026 04:26:06 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Running Python code in a sandbox with MicroPython and WASM</title>
-<link>https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything</link>
-<description><![CDATA[I&apos;ve been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I&apos;ve been looking for. I&apos;ve released it as an alpha package called micropython-wasm , and I&apos;m using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . Why do I want a sandbox? What I want from a sandbox WebAssembly looks really promising here MicroPython in WebAssembly Building the first version Try it yourself Should you trust my vibe-coded sandbox? Why do I want a sandbox? My key open source projects - Datasette , LLM , even sqlite-utils - all support plugins. I absolutely love plugins as a mechanism for extending software. A carefully designed plugin system reduces the risk involved in trying new things to almost nothing - even the wildest ideas won&apos;t leave a lasting influence on the core application itself. My software can grow a new feature overnight and I]]></description>
-<pubDate>Sat, 06 Jun 2026 03:53:34 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>The “Skyway” to OSS Security: OpenSSF Community Day North America 2026 Recap</title>
 <link>https://openssf.org/blog/2026/06/05/the-skyway-to-oss-security-openssf-community-day-north-america-2026-recap/</link>
 <description><![CDATA[The open source community recently gathered in Minneapolis for Open Source Summit North America and OpenSSF Community Day North America 2026. Functioning as a collaborative “Skyway,” the Open Source Security Foundation (OpenSSF) successfully brought together diverse working groups, security researchers, and enterprise maintainers to unify tooling, address artificial intelligence security transitions, and fortify the global software supply chain.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -2904,15 +2965,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>Keeping Secrets Out of Logs</title>
-<link>https://www.reddit.com/r/netsec/comments/1txmr5f/keeping_secrets_out_of_logs/</link>
-<description><![CDATA[submitted by /u/fagnerbrack [link] [comments]]]></description>
-<pubDate>Fri, 05 Jun 2026 14:35:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1txmr5f/keeping_secrets_out_of_logs/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Why Huntress Doesn’t Need FedRAMP</title>
 <link>https://www.huntress.com/blog/fedramp-alternative-for-defense-contractors</link>
 <description><![CDATA[Defense contractors can achieve CMMC compliance without the expense or delays of FedRAMP-authorized cloud services. Discover how Huntress uses Sensitive Data Mode for logical separation and cost-effective security.]]></description>
@@ -2942,15 +2994,6 @@
 <guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Unauthenticated RCE as QSECOFR via IBM i Management Central — port 5555, client-controlled verify flag, no credentials required (V7R4 and earlier)</title>
-<link>https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/</link>
-<description><![CDATA[submitted by /u/dn3t [link] [comments]]]></description>
-<pubDate>Fri, 05 Jun 2026 11:35:56 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Infosecurity Europe: Practical Lessons From Lloyds&apos; Agentic AI Security Playbook</title>
@@ -4816,15 +4859,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
-<link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What CISOs want from Cyber Threat Intelligence</title>
 <link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
 <description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
@@ -4832,6 +4866,15 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
+<link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents</title>
@@ -10664,7 +10707,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fc2a8dbd2b0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f6573576220&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12406,19 +12449,6 @@
 <guid isPermaLink="true">https://blog.trailofbits.com/2026/02/18/carelessness-versus-craftsmanship-in-cryptography/</guid>
 <source url="https://blog.trailofbits.com/feed/">Trail of Bits</source>
 <category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>Risky Bulletin: Supply chain attack plants backdoor on Android tablets</title>
-<link>https://risky.biz/RBNEWS527/</link>
-<description><![CDATA[A supply chain attack plants backdoors on Android tablets, the EU blocks AI from lawmakers’ devices, Cellebrite was used against a Kenyan politician, and a Chinese APT is exploiting a Dell zero-day.<br/><br/><em>Tags: supply_chain · zero_day · apt_espionage · web_shell_backdoor</em>]]></description>
-<pubDate>Wed, 18 Feb 2026 03:24:51 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS527/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>supply_chain</category>
-<category>zero_day</category>
-<category>apt_espionage</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Real risks live at runtime: Why CISOs must care about deep telemetry in 2026</title>
@@ -15426,16 +15456,6 @@
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Cybersecurity Awareness Month 2025: Building resilience against ransomware</title>
-<link>https://www.welivesecurity.com/en/videos/cybersecurity-awareness-month-2025-resilience-ransomware/</link>
-<description><![CDATA[Ransomware rages on and no organization is too small to be targeted by cyber-extortionists. How can your business protect itself against the threat?<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Mon, 20 Oct 2025 14:11:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.welivesecurity.com/en/videos/cybersecurity-awareness-month-2025-resilience-ransomware/</guid>
-<source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
-<category>threat_research_primary</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Threat Actors Deploying New IPs Daily to Attack Microsoft RDP</title>
@@ -20511,7 +20531,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20520,7 +20540,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20529,7 +20549,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20538,7 +20558,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20547,7 +20567,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20556,7 +20576,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20565,7 +20585,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20574,7 +20594,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20583,7 +20603,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20592,7 +20612,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 16 Jun 2026 23:28:52 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 04:51:25 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
