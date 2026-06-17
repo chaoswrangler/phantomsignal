@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-17T20:23:21.634511+00:00
+- Generated: 2026-06-17T22:49:04.279421+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 336
-- Total clusters raw: 155
+- Feeds OK: 75
+- Total items in window: 332
+- Total clusters raw: 153
 - Total clusters in packet: 64
-- Dropped low score: 91
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -89,37 +84,42 @@
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
+  - In window count: 4
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 5
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -130,55 +130,55 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 40
+  - Item count: 50
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -225,6 +225,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -235,11 +240,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 1
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -255,26 +260,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
   - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,46 +290,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 3
+  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 3
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -340,58 +340,63 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 24
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 20
+  - Item count: 10
+  - In window count: 10
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 50
+  - In window count: 20
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,18 +410,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -430,16 +430,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 46
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -761,17 +761,12 @@
 - Pair: CVE-2026-10520 + Ivanti (cluster a114180ca5, first observation: True)
 - Pair: CVE-2026-20253 + Ivanti (cluster a114180ca5, first observation: True)
 
-### Drift (2)
+### Drift (1)
 - **ShinyHunters** (cluster a0d790eb01)
   - New industries: (none)
   - New products: Azure
   - Prior top industries: education, government, telecommunications
   - Prior top products: Google/Gemini, Palo Alto Networks, npm
-- **Volt Typhoon** (cluster 5110ebc25b)
-  - New industries: critical_infrastructure, government
-  - New products: (none)
-  - Prior top industries: (none)
-  - Prior top products: (none)
 
 ### Persistence (6)
 - actor_attribution: ShinyHunters (weeks observed: 3, cluster a0d790eb01)
@@ -922,7 +917,7 @@ Three posts? In three days? Are we insane? We're home alone, there's no one to s
   - Link: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - Summary: Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. "In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary
 
-### Cluster 03eea66307 — score 30
+### Cluster 03eea66307 — score 29
 
 - Title: CVE-2026-50751 | Check Point Security Gateway Improper Authentication Vulnerability
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
@@ -1273,7 +1268,7 @@ A critical supply chain attack was disclosed affecting the entire @mastra/* npm 
   - Link: https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/
   - Summary: I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is skl , a fast tool we use for managing Agent Skills, that launches in 2ms and uses only 11MB of memory. But how exactly did I do it? Simply, I set the architectural goals and audited the logic, while Antigravity handled the mechanical work of code translation, test generation, and platform path mappings for us. This post describes the step-by-step walkthrough of our migration workflow to help you build yours. Step 0: Seed personal learning goals Before writing any code, you start by defining the boundaries of your project. In our case, I wanted a zero-dependency core that used minimal external packages. I decided that our CLI tool needs to be fast, and our security model had to be zero-trust wherever appropriate. In the process, my agent added specific constraints: sanitizing all of our in
 
-### Cluster e0f9e6c6b9 — score 21
+### Cluster e0f9e6c6b9 — score 20
 
 - Title: CISA orders feds to patch max severity Joomla plugin flaw by Friday
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1542,6 +1537,53 @@ CISA warns of another cPanel plugin flaw exploited in attacks By Sergiu Gatlan J
   - Published: 2026-06-17T07:28:20+00:00
   - Link: https://www.securityweek.com/joomla-litespeed-vulnerabilities-exploited-in-attacks/
   - Summary: The flaws allow attackers to execute arbitrary PHP code and gain root privileges on shared hosting servers. The post Joomla, LiteSpeed Vulnerabilities Exploited in Attacks appeared first on SecurityWeek .
+
+### Cluster 75ea622200 — score 18
+
+- Title: Beyond the benchmark: Advancing security at AI speed
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T19:30:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_products: Azure, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender, Azure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types News Products and services Microsoft Defender Topics AI and agents Every vulnerability has two clocks running. One belongs to the defender racing to find it; the other to the cyberattacker hoping to find it first. For as long as software has existed, those clocks have favored the attacker, because modern code is vast, interconnected, and changing every day, while security reviews happen at fixed moments in time. The space between “code shipped” and “code reviewed” is where risk quietly accumulates. A few months ago, we set out to reshape that timing. We introduced codename MDASH , Microsoft Security’s multi-model agentic scanning system, built to discover, validate, and help remediate software vulnerabilities end-to-end. The goal was straightforward to articulate and hard to execute: take AI-powered vulnerability discovery and remediation capability from a research project and turn them into production-grade defense at enterprise scale. That meant going beyond pattern matching and building a system that could reason through the complexity of proprietary code and platforms like Windows, Hyper-V, Azure, and identity systems. Learn more about MDASH and sign up to join the preview Rather than rely on any single model, the system orchestrates a panel of specialized AI agents, each with its own role in a structured pipeline, so security teams can surface hard bugs quickly and systematically, expanding the reach of human-led review. Findings flow into Microsoft Defender workflows, where they can be prioritized alongside threat intelligence and runtime signals, and into GitHub and Azure DevOps pipelines, where they can be validated and remediated, a closed loop connecting discovery, validation, proof, and fix across the Microsoft stack. When we introduced the system, it topped a leading industry benchmark. That was the announcement, and the starting line. In the weeks since, the system has moved from early capability validation into active use by Microsoft engineering teams across Windows, Azure, and identity systems, applied as part of real security workflows rather than isolated testing environments. This post explores what we have built since, the lessons we’ve learned from turning research into a production-quality system, and the opportunities ahead as we focus on delivering real-world security impact. From the lab into the pipeline The most meaningful change since launch is where the system is being used. Engineering teams across Windows, Azure, and identity systems are now applying the system as part of their security workflows, running it alongside existing processes and reviews, targeting it at the surfaces that are hardest to audit manually and have historically required the most effort to cover. The goal is to use AI-driven analysis to go deeper, earlier, and across a broader set of targets than traditional approaches allow. The surfaces in scope are among the most complex Microsoft builds: Windows, the kernel, Hyper-V, and the networking stack Azure, virtualization and core infrastructure services Identity, Active Directory Domain Services These are not easy targets. They are the deep layers of the platform, components where reasoning about code requires understanding kernel calling conventions, object lifetime invariants, and trust boundaries that no language model encountered in its training data. A single overlooked flaw at this layer can have outsized consequences. The system is not replacing security teams working at this depth. It is giving them meaningful reach into territory they could not cover alone. Codename MDASH has enabled our security team to perform vulnerability hunting at the scale of Windows with a much higher depth of analysis than was previously possible.” —Windows security team (kernel, Hyper-V, networking stack) This is also where the system fits into Microsoft’s existing DevSecOps story. It is not a standalone scanner bolted onto the side of engineering—
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Beyond the benchmark: Advancing security at AI speed
+  - Published: 2026-06-17T19:30:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
+  - Summary: Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Holding blobs for ransom: Four methods for Azure Storage ransomware
+  - Published: 2026-06-15T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
+  - Summary: This post explores four vectors for threat actors to abuse Azure Storage to maliciously encrypt victim blobs, including step-by-step explanations and event codes for detection.
 
 ### Cluster f6709feff6 — score 17
 
@@ -1982,39 +2024,6 @@ Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development �
   - Link: https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/
   - Summary: GhostTree uses recursive NTFS junctions to generate vast numbers of valid Windows file paths. Varonis explains how the technique could cause Microsoft Defender folder scans to never complete, leaving malware undetected. [...]
 
-### Cluster 254cc405b8 — score 11
-
-- Title: From a VHDX File to a Remcos RAT, (Tue, Jun 16th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-16T07:09:13+00:00
-- Link: https://isc.sans.edu/diary/rss/33080
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: From a VHDX File to a Remcos RAT, (Tue, Jun 16th)
-  - Published: 2026-06-16T07:09:13+00:00
-  - Link: https://isc.sans.edu/diary/rss/33080
-  - Summary: Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
-
 ### Cluster 8ffac1c2f0 — score 11
 
 - Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
@@ -2055,6 +2064,39 @@ News Download & print article PDF Download & print article PDF NCSC CEO: Hostile
   - Published: 2026-06-17T12:00:00+00:00
   - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
   - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
+
+### Cluster 254cc405b8 — score 11
+
+- Title: From a VHDX File to a Remcos RAT, (Tue, Jun 16th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-16T07:09:13+00:00
+- Link: https://isc.sans.edu/diary/rss/33080
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: From a VHDX File to a Remcos RAT, (Tue, Jun 16th)
+  - Published: 2026-06-16T07:09:13+00:00
+  - Link: https://isc.sans.edu/diary/rss/33080
+  - Summary: Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
 
 ### Cluster 93df5bfc62 — score 11
 
@@ -2122,8 +2164,8 @@ Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain att
 - Published: 2026-06-12T04:28:07+00:00
 - Link: https://risky.biz/RBNEWSSI131/
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
+- Member count: 2
+- Corroborating source count: 2
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
@@ -2151,18 +2193,13 @@ In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson
 Risky Bulletin Podcast June 12, 2026 Sponsored: Understanding CI/CD attack paths Presented by James Wilson Technology Editor In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson about the central role that GitHub has played in recent supply chain compromises. GitHub is where code gets built, tested, and shipped to devices, cloud, and on-prem environments. Understanding the paths an attacker can use to get into GitHub, and where they can pivot to from there, is essential to securing your GitHub repos and CI/CD pipelines. Your browser does not support the audio element. Sponsored: Understanding CI/CD attack paths â¶ 0:00 / 15:48 Subscribe Brought to you by SpecterOps Know Your Adversary
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (2)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Sponsored: Understanding CI/CD attack paths
   - Published: 2026-06-12T04:28:07+00:00
   - Link: https://risky.biz/RBNEWSSI131/
   - Summary: In this sponsored episode, James Wilson chats with SpecterOps CTO Jared Atkinson about the central role that GitHub has played in recent supply chain compromises. GitHub is where code gets built, tested, and shipped to devices, cloud, and on-prem environments. Understanding the paths an attacker can use to get into GitHub, and where they can pivot to from there, is essential to securing your GitHub repos and CI/CD pipelines.
-- **The Record** (cyber_news_breach_reporting)
-  - Title: GitHub dismissed security reports on flaws now exploited by supply-chain worm, researchers say
-  - Published: 2026-06-16T23:00:00+00:00
-  - Link: https://therecord.media/github-dismissed-reports-shai-hulud-deep-specter
-  - Summary: GitHub rejected two formal vulnerability reports identifying design flaws that researchers say are enabling variants of the Shai-Hulud supply-chain worm to infect and compromise hundreds of software packages and developer accounts worldwide.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Serverless Phishing Kit on GitHub Targets Mexican Banks
   - Published: 2026-06-17T14:00:00+00:00
@@ -2601,100 +2638,6 @@ FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices. By Lawrence
   - Link: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
   - Summary: A newly discovered data leak dubbed "FortiBleed" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]
 
-### Cluster 3d2f96766d — score 10
-
-- Title: Microsoft working on Defender patch for RoguePlanet zero-day
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-17T08:32:29+00:00
-- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: vulnerability_disclosure, zero_day
-- affected_industries: legal_professional
-- affected_products: GitHub, Microsoft Defender, Microsoft Windows
-- cve_ids: CVE-2026-50656
-- urgency_signals: poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, vulnerability_disclosure
-- affected_industries: legal_professional
-- affected_products: Microsoft Windows, GitHub, Microsoft Defender
-- cve_ids: CVE-2026-50656
-- urgency_signals: zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. [...]
-```
-
-#### Full body
-
-```
-Microsoft working on Defender patch for RoguePlanet zero-day By Sergiu Gatlan June 17, 2026 04:32 AM 0 Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. The security researcher who published a RoguePlanet exploit during the June 2026 Patch Tuesday (known as Nightmare Eclipse) said it affects fully patched Windows 10 and Windows 11 devices and allows attackers to spawn command prompts with SYSTEM privileges via a Microsoft Defender race condition. He shared a proof-of-concept exploit in a self-hosted Git repository, claiming that Microsoft had previously targeted and removed their repos hosting exploits on GitHub and GitLab. "The exploit is a race condition, so it's a hit or miss. I have managed to get a 100% success rate on some machines while it struggled to work on others," Nightmare Eclipse said. "The PoC for RoguePlanet works regardless if real time protection is on or not," they added in a Tuesday update . "Microsoft is aware of the reported vulnerability and is actively investigating the validity and potential applicability of these claims. Microsoft is committed to investigating security issues and updating impacted products to protect customers as soon as possible," a Microsoft spokesperson told BleepingComputer when asked for a statement at the time. Now tracked as CVE-2026-50656, waiting for a patch On Tuesday, one week after the RoguePlanet flaw was disclosed, Microsoft assigned the CVE-2026-50656 ID to this security flaw and confirmed it's currently working on a patch, but didn't acknowledge that Nightmare Eclipse was the one who found the vulnerability. "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as 'RoguePlanet,' it said in an advisory published yesterday. "We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available." The RoguePlanet release is part of an ongoing dispute between Nightmare Eclipse and Microsoft over the latter's bug bounty and vulnerability disclosure practices. Over the past several months, the researcher has publicly leaked multiple Windows zero-day exploits, including for the BlueHammer , RedSun , GreenPlasma , MiniPlasma , YellowKey , and UnDefend flaws. Some of these zero-days affect Microsoft Defender, while others target BitLocker and Windows components. The company reacted to Nightmare Eclipse's disclosures by issuing warnings of legal action when people engage in "malicious activity causing real harm to our customers," leading cybersecurity experts and researchers to believe that Microsoft was threatening the researcher. Microsoft fixed the GreenPlasma, MiniPlasma, and YellowKey flaws last week as part of the June 2026 Patch Tuesday updates. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges Recently leaked Windows zero-days now exploited in attacks Microsoft warns of new Defender zero-days exploited in attacks Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Microsoft working on Defender patch for RoguePlanet zero-day
-  - Published: 2026-06-17T08:32:29+00:00
-  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/
-  - Summary: Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. [...]
-
-### Cluster f6417ab8b3 — score 10
-
-- Title: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-17T10:38:00+00:00
-- Link: https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, supply_chain, web_shell_backdoor
-- actor_attribution: RansomHub, ShinyHunters
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, web_shell_backdoor
-- actor_attribution: ShinyHunters, RansomHub
-- affected_industries: manufacturing_industrial
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The attackers deployed a new Go-based backdoor that uses Microsoft Teams servers for command-and-control. The post Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A new backdoor deployed as part of a recent DragonForce ransomware attack is using Microsoft Teams relay servers for command-and-control (C&C), according to Broadcom’s Symantec and Carbon Black threat hunter team. The DragonForce group has been active since 2023, operating as a cartel structure and adopting highly advanced techniques in recent months, suggesting organizational maturity and significant resource allocation. Tracked as Backdoor.Turn , the newly identified malware is written in Go and hides its C&C server communication as legitimate Microsoft Teams traffic in a sophisticated manner. “Backdoor.Turn obtains an anonymous Teams visitor token from Microsoft’s Skype-backed identity services, uses a legitimate Microsoft TURN relay to set up the connection, and then runs a QUIC session to the attacker’s real [C&C] server,” the threat hunters note. According to the researchers, this appears to be the first malware family to abuse the TURN relay infrastructure in this way. “It is relatively unusual to see ransomware attackers using their own custom tools, and it is particularly unusual to see them using a custom tool as sophisticated as Backdoor.Turn,” they note. Advertisement. Scroll to continue reading. The custom backdoor was used in an attack on a US services firm, which was likely compromised through an unknown vulnerability in an SQL or MSSQL server. DragonForce operators might have purchased access to the company from an access broker. According to Symantec and Carbon Black, the hackers accessed the victim network in December 2025, and relied on DLL sideloading to execute code that would fetch additional malware from remote servers. The hackers established persistence, secured access to the compromised environment, conducted reconnaissance, and employed a sophisticated BYOVD strategy to exploit known flaws in signed drivers, thereby obtaining kernel-level access and terminating security processes. They also deployed the DragonForce ransomware for data encryption and exfiltration, and the Backdoor.Turn malware to maintain persistence on the compromised systems after the ransomware is deployed. The backdoor enables threat actors to execute commands, create processes, perform network scanning and LDAP/AD mapping, move laterally using stolen credentials, and exfiltrate credentials from the browsers installed on the infected systems. “The attackers in this campaign use exceptionally sophisticated cyber tradecraft. The configuration of Backdoor.Turn means that security products only see C&C traffic going to legitimate Teams servers, leaving defenders unaware that data is being siphoned away by malicious actors,” the researchers note. Related: Ransomware Attack Shuts Down Mills of Australia’s Second-Largest Sugar Producer Related: Ukrainian Man Pleads Guilty in US to Conti Ransomware Charges Related: FBI: Cybercrime Losses Neared $21 Billion in 2025 Related: Threat Actor Connected to Play, RansomHub and DragonForce Ransomware Operations Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Magnitude Emerges From Stealth Mode With $10 Million in Funding Cybercrime Group Claims Novo Nordisk Hack White House Issues Memo to Bolster NSS Cybersecurity Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Tech Coalition ‘Athena’ Targets OSS Vulnerabilities Ahead of Disclosure NewCore Emerges From Stealth Mode With $66 Million in Funding Ukrainian Man Pleads Guilty in US to Conti Ransomware Charges ShinyHunters Claims Council of Europe Hack Latest News Webinar Today: How Modern Breaches Bypass MFA and Evade Detection 1Password Acquires Apono in Reported $250M-$300M Deal Tenet Security Emerges From Stealth With $6 Million Seed Funding Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Microsoft Working on Patch
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
-  - Published: 2026-06-17T10:38:00+00:00
-  - Link: https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/
-  - Summary: The attackers deployed a new Go-based backdoor that uses Microsoft Teams servers for command-and-control. The post Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack appeared first on SecurityWeek .
-
 ### Cluster 5aa7b25c38 — score 10
 
 - Title: Legit Security brings agentic AI to AppSec remediation and risk reduction
@@ -2735,49 +2678,6 @@ Industry News June 17, 2026 Share Legit Security brings agentic AI to AppSec rem
   - Published: 2026-06-17T12:13:53+00:00
   - Link: https://www.helpnetsecurity.com/2026/06/17/legit-security-remediation-agents/
   - Summary: Legit Security has launched new remediation agents that independently prioritize issues, generate fixes, open pull requests, and confirm results using context learned from each organization’s distinct codebase. As AI allows attackers to exploit vulnerabilities faster than ever, rapid remediation becomes critical. As part of Legit’s agentic AppSec platform, these agents offer parallel remediation across code bases, critical when a common authentication bypass vulnerability is introduced through reused code and propagated across multiple services, along with … More → The post Legit Security brings agentic AI to AppSec remediation and risk reduction appeared first on Help Net Security .
-
-### Cluster e8c9ef5f3a — score 10
-
-- Title: The Top 10 Attack Surface Exposures in 2026
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-17T10:30:00+00:00
-- Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
-```
-
-#### Full body
-
-```
-The Top 10 Attack Surface Exposures in 2026  The Hacker News  Jun 17, 2026 Attack Surface Management Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a single day, the question isn't just how fast you can patch. It's why the service was exposed in the first place. The team at Intruder analyzed 3,000 attack surfaces to find out how much of a typical organization's attack surface consists of services that have no reason to be there. We grouped what we found into four categories — HTTP panels, risky ports and services, databases, and publicly accessible files and information. The full findings, including breakdowns by company size and industry, are in our 2026 Attack Surface Management Index . How widespread is the problem? 60% of organizations had at least one HTTP panel exposed — admin consoles, management UIs, login pages for internal tools that have no business being publicly reachable. Nearly half (49%) had a risky port or service exposed. 42% had a database reachable directly from the internet. 30% had files or information publicly accessible that shouldn't be — API documentation, config files, data that was never intended to be discoverable. The ten most common exposures These are the most common attack surface exposures affecting organizations in the past 12 months. MySQL Database Exposed — 26% Postgres Database Exposed — 16% API Documentation Exposed — 15% WordPress Admin Panel Exposed — 15% Remote Desktop Service Exposed — 11% SNMP Service Exposed — 9% phpMyAdmin Admin Panel Exposed — 8% UPnP Service Exposed — 8% NTP Service Exposed — 7% RPC Portmapper Service Exposed — 7% Databases dominate the top two spots Exposed databases take the top two spots, with more than a quarter of organizations exposing MySQL and Postgres, affecting 1 in 6. Internet-facing databases have long been a target for opportunistic attackers. The PLEASE_READ_ME ransomware campaign in 2020 compromised more than 250,000 MySQL databases by brute-forcing weak credentials. MongoDB and Elasticsearch have faced the same. API documentation is more exposed than RDP API documentation ranked third — ahead of RDP, which surprised us. Some API docs are intentionally public, but organizations frequently overlook documentation tied to private or admin-side APIs that were never meant to be discoverable. Public API docs can turn otherwise hard-to-find vulnerabilities into documented attack paths. RDP remains a ransomware entry point RDP at number five is a concern given its history as an initial access vector in ransomware attacks. BlueKeep in 2019 left nearly a million systems immediately exploitable. Credential guessing against exposed RDP remains one of the most reliable ways ransomware operators get in. The rest of the list was never meant to be internet-facing The remainder of the list — SNMP, UPnP, NTP, RPC — are legacy services designed for internal networks that were never meant to be internet-facing. Get the full findings Most teams treat patching as the priority. But for a lot of what's on this list — databases, admin panels, legacy services — the better question is why they're reachable at all. That's where attack surface reduction comes in — and for most organizations, it's not getting the same attention as vulnerability management. The full findings, including breakdowns by company size and industry, are in the 2026 Attack Surface Management Index . Found this article interesting? This article is a contributed piece from one of our valued partners. Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Attack Surfa
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: The Top 10 Attack Surface Exposures in 2026
-  - Published: 2026-06-17T10:30:00+00:00
-  - Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
-  - Summary: Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
 
 ### Cluster 29fcf4633f — score 10
 
@@ -2992,6 +2892,100 @@ Back to Blog Security Operations NIS2 is raising the bar. Here’s how to turn r
   - Published: 2026-06-17T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools
 
+### Cluster 3d2f96766d — score 9
+
+- Title: Microsoft working on Defender patch for RoguePlanet zero-day
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-17T08:32:29+00:00
+- Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: legal_professional
+- affected_products: GitHub, Microsoft Defender, Microsoft Windows
+- cve_ids: CVE-2026-50656
+- urgency_signals: poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: legal_professional
+- affected_products: Microsoft Windows, GitHub, Microsoft Defender
+- cve_ids: CVE-2026-50656
+- urgency_signals: zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. [...]
+```
+
+#### Full body
+
+```
+Microsoft working on Defender patch for RoguePlanet zero-day By Sergiu Gatlan June 17, 2026 04:32 AM 0 Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. The security researcher who published a RoguePlanet exploit during the June 2026 Patch Tuesday (known as Nightmare Eclipse) said it affects fully patched Windows 10 and Windows 11 devices and allows attackers to spawn command prompts with SYSTEM privileges via a Microsoft Defender race condition. He shared a proof-of-concept exploit in a self-hosted Git repository, claiming that Microsoft had previously targeted and removed their repos hosting exploits on GitHub and GitLab. "The exploit is a race condition, so it's a hit or miss. I have managed to get a 100% success rate on some machines while it struggled to work on others," Nightmare Eclipse said. "The PoC for RoguePlanet works regardless if real time protection is on or not," they added in a Tuesday update . "Microsoft is aware of the reported vulnerability and is actively investigating the validity and potential applicability of these claims. Microsoft is committed to investigating security issues and updating impacted products to protect customers as soon as possible," a Microsoft spokesperson told BleepingComputer when asked for a statement at the time. Now tracked as CVE-2026-50656, waiting for a patch On Tuesday, one week after the RoguePlanet flaw was disclosed, Microsoft assigned the CVE-2026-50656 ID to this security flaw and confirmed it's currently working on a patch, but didn't acknowledge that Nightmare Eclipse was the one who found the vulnerability. "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender publicly referred to as 'RoguePlanet,' it said in an advisory published yesterday. "We are working to provide a high quality security update that addresses this vulnerability. We will provide information in this CVE when the update is available." The RoguePlanet release is part of an ongoing dispute between Nightmare Eclipse and Microsoft over the latter's bug bounty and vulnerability disclosure practices. Over the past several months, the researcher has publicly leaked multiple Windows zero-day exploits, including for the BlueHammer , RedSun , GreenPlasma , MiniPlasma , YellowKey , and UnDefend flaws. Some of these zero-days affect Microsoft Defender, while others target BitLocker and Windows components. The company reacted to Nightmare Eclipse's disclosures by issuing warnings of legal action when people engage in "malicious activity causing real harm to our customers," leading cybersecurity experts and researchers to believe that Microsoft was threatening the researcher. Microsoft fixed the GreenPlasma, MiniPlasma, and YellowKey flaws last week as part of the June 2026 Patch Tuesday updates. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges Recently leaked Windows zero-days now exploited in attacks Microsoft warns of new Defender zero-days exploited in attacks Microsoft patches YellowKey, GreenPlasma, MiniPlasma zero-days New Microsoft Defender “RedSun” zero-day PoC grants SYSTEM privileges
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Microsoft working on Defender patch for RoguePlanet zero-day
+  - Published: 2026-06-17T08:32:29+00:00
+  - Link: https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/
+  - Summary: Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named "RoguePlanet," disclosed one week ago. [...]
+
+### Cluster f6417ab8b3 — score 9
+
+- Title: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-17T10:38:00+00:00
+- Link: https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: RansomHub, ShinyHunters
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, web_shell_backdoor
+- actor_attribution: ShinyHunters, RansomHub
+- affected_industries: manufacturing_industrial
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The attackers deployed a new Go-based backdoor that uses Microsoft Teams servers for command-and-control. The post Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A new backdoor deployed as part of a recent DragonForce ransomware attack is using Microsoft Teams relay servers for command-and-control (C&C), according to Broadcom’s Symantec and Carbon Black threat hunter team. The DragonForce group has been active since 2023, operating as a cartel structure and adopting highly advanced techniques in recent months, suggesting organizational maturity and significant resource allocation. Tracked as Backdoor.Turn , the newly identified malware is written in Go and hides its C&C server communication as legitimate Microsoft Teams traffic in a sophisticated manner. “Backdoor.Turn obtains an anonymous Teams visitor token from Microsoft’s Skype-backed identity services, uses a legitimate Microsoft TURN relay to set up the connection, and then runs a QUIC session to the attacker’s real [C&C] server,” the threat hunters note. According to the researchers, this appears to be the first malware family to abuse the TURN relay infrastructure in this way. “It is relatively unusual to see ransomware attackers using their own custom tools, and it is particularly unusual to see them using a custom tool as sophisticated as Backdoor.Turn,” they note. Advertisement. Scroll to continue reading. The custom backdoor was used in an attack on a US services firm, which was likely compromised through an unknown vulnerability in an SQL or MSSQL server. DragonForce operators might have purchased access to the company from an access broker. According to Symantec and Carbon Black, the hackers accessed the victim network in December 2025, and relied on DLL sideloading to execute code that would fetch additional malware from remote servers. The hackers established persistence, secured access to the compromised environment, conducted reconnaissance, and employed a sophisticated BYOVD strategy to exploit known flaws in signed drivers, thereby obtaining kernel-level access and terminating security processes. They also deployed the DragonForce ransomware for data encryption and exfiltration, and the Backdoor.Turn malware to maintain persistence on the compromised systems after the ransomware is deployed. The backdoor enables threat actors to execute commands, create processes, perform network scanning and LDAP/AD mapping, move laterally using stolen credentials, and exfiltrate credentials from the browsers installed on the infected systems. “The attackers in this campaign use exceptionally sophisticated cyber tradecraft. The configuration of Backdoor.Turn means that security products only see C&C traffic going to legitimate Teams servers, leaving defenders unaware that data is being siphoned away by malicious actors,” the researchers note. Related: Ransomware Attack Shuts Down Mills of Australia’s Second-Largest Sugar Producer Related: Ukrainian Man Pleads Guilty in US to Conti Ransomware Charges Related: FBI: Cybercrime Losses Neared $21 Billion in 2025 Related: Threat Actor Connected to Play, RansomHub and DragonForce Ransomware Operations Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Magnitude Emerges From Stealth Mode With $10 Million in Funding Cybercrime Group Claims Novo Nordisk Hack White House Issues Memo to Bolster NSS Cybersecurity Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Tech Coalition ‘Athena’ Targets OSS Vulnerabilities Ahead of Disclosure NewCore Emerges From Stealth Mode With $66 Million in Funding Ukrainian Man Pleads Guilty in US to Conti Ransomware Charges ShinyHunters Claims Council of Europe Hack Latest News Webinar Today: How Modern Breaches Bypass MFA and Evade Detection 1Password Acquires Apono in Reported $250M-$300M Deal Tenet Security Emerges From Stealth With $6 Million Seed Funding Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Microsoft Working on Patch
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack
+  - Published: 2026-06-17T10:38:00+00:00
+  - Link: https://www.securityweek.com/microsoft-teams-relay-servers-abused-in-dragonforce-ransomware-attack/
+  - Summary: The attackers deployed a new Go-based backdoor that uses Microsoft Teams servers for command-and-control. The post Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack appeared first on SecurityWeek .
+
 ### Cluster e95ce78b9a — score 9
 
 - Title: Maine forced to take down data breach portal after fake notices filed with authorities
@@ -3073,6 +3067,49 @@ Industry News 2 min read Privacy own-goal: World Cup blunder leaks Lionel Messi'
   - Published: 2026-06-12T18:48:06+00:00
   - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/privacy-own-goal-world-cup-blunder-leaks-lionel-messis-passport-details
   - Summary: Argentina's World Cup squad had their passport numbers leaked before a ball was kicked - not by hackers, but by someone who failed to redact a document properly. document. It's a mistake that has been made many times in the past... Read more in my article on the Hot for Security blog.
+
+### Cluster e8c9ef5f3a — score 9
+
+- Title: The Top 10 Attack Surface Exposures in 2026
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-17T10:30:00+00:00
+- Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
+```
+
+#### Full body
+
+```
+The Top 10 Attack Surface Exposures in 2026  The Hacker News  Jun 17, 2026 Attack Surface Management Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a single day, the question isn't just how fast you can patch. It's why the service was exposed in the first place. The team at Intruder analyzed 3,000 attack surfaces to find out how much of a typical organization's attack surface consists of services that have no reason to be there. We grouped what we found into four categories — HTTP panels, risky ports and services, databases, and publicly accessible files and information. The full findings, including breakdowns by company size and industry, are in our 2026 Attack Surface Management Index . How widespread is the problem? 60% of organizations had at least one HTTP panel exposed — admin consoles, management UIs, login pages for internal tools that have no business being publicly reachable. Nearly half (49%) had a risky port or service exposed. 42% had a database reachable directly from the internet. 30% had files or information publicly accessible that shouldn't be — API documentation, config files, data that was never intended to be discoverable. The ten most common exposures These are the most common attack surface exposures affecting organizations in the past 12 months. MySQL Database Exposed — 26% Postgres Database Exposed — 16% API Documentation Exposed — 15% WordPress Admin Panel Exposed — 15% Remote Desktop Service Exposed — 11% SNMP Service Exposed — 9% phpMyAdmin Admin Panel Exposed — 8% UPnP Service Exposed — 8% NTP Service Exposed — 7% RPC Portmapper Service Exposed — 7% Databases dominate the top two spots Exposed databases take the top two spots, with more than a quarter of organizations exposing MySQL and Postgres, affecting 1 in 6. Internet-facing databases have long been a target for opportunistic attackers. The PLEASE_READ_ME ransomware campaign in 2020 compromised more than 250,000 MySQL databases by brute-forcing weak credentials. MongoDB and Elasticsearch have faced the same. API documentation is more exposed than RDP API documentation ranked third — ahead of RDP, which surprised us. Some API docs are intentionally public, but organizations frequently overlook documentation tied to private or admin-side APIs that were never meant to be discoverable. Public API docs can turn otherwise hard-to-find vulnerabilities into documented attack paths. RDP remains a ransomware entry point RDP at number five is a concern given its history as an initial access vector in ransomware attacks. BlueKeep in 2019 left nearly a million systems immediately exploitable. Credential guessing against exposed RDP remains one of the most reliable ways ransomware operators get in. The rest of the list was never meant to be internet-facing The remainder of the list — SNMP, UPnP, NTP, RPC — are legacy services designed for internal networks that were never meant to be internet-facing. Get the full findings Most teams treat patching as the priority. But for a lot of what's on this list — databases, admin panels, legacy services — the better question is why they're reachable at all. That's where attack surface reduction comes in — and for most organizations, it's not getting the same attention as vulnerability management. The full findings, including breakdowns by company size and industry, are in the 2026 Attack Surface Management Index . Found this article interesting? This article is a contributed piece from one of our valued partners. Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Attack Surfa
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: The Top 10 Attack Surface Exposures in 2026
+  - Published: 2026-06-17T10:30:00+00:00
+  - Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
+  - Summary: Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
 
 ### Cluster 7c21419055 — score 9
 
@@ -3414,50 +3451,48 @@ June Patch Tuesday smashes past 500-CVE mark 209 patches + 388 advisories = welc
   - Published: 2026-06-15T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
-### Cluster 5110ebc25b — score 8
+### Cluster ed6007361f — score 8
 
-- Title: Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-06-17T17:55:00+00:00
-- Link: https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi
+- Title: 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR
+- Source: GreyNoise (cloud_identity_infrastructure)
+- Published: 2026-06-17T00:00:00+00:00
+- Link: https://www.greynoise.io/blog/5-things-soar-greynoise-integration
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- actor_attribution: Volt Typhoon
-- affected_industries: critical_infrastructure, government
+- threat_categories: zero_day
+- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
-- actor_attribution: Volt Typhoon
-- affected_industries: government, critical_infrastructure
+- threat_categories: zero_day
+- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-NCSC CEO Richard Horne warned that “kinetic targeting in any conflict tomorrow will be based on intelligence gathered today” and that nation-state adversaries were “prepositioning” throughout British critical infrastructure.
+Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.
 ```
 
 #### Full body
 
 ```
-NCSC CEO Richard Horne speaks at the RUSI Annual Security Lecture in London on June 17, 2026. Image: NCSC Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns Britain is already fighting the opening exchanges of future conflicts in cyberspace, the country’s cyber chief warned Wednesday, as he disclosed that hostile states are responsible for three-quarters of the attacks striking the country's critical national infrastructure. Richard Horne, chief executive of the National Cyber Security Centre (NCSC), said his teams had handled more than 200 incidents affecting critical infrastructure and its supporting ecosystem in the year to May, of which about 75% were believed to be the work of state actors. The detail builds on Horne’s disclosure earlier this year that his agency was handling four nationally significant cyber incidents a week, with the majority traced back to what are believed to be hostile governments rather than criminal hackers. Delivering the annual security lecture at the Royal United Services Institute on Wednesday, Horne said his agency was “regularly finding and stopping breaches, before their intent becomes clear.” He warned that “kinetic targeting in any conflict tomorrow will be based on intelligence gathered today” and that adversaries were “prepositioning” throughout British critical infrastructure. Horne described these threats as “establishing footholds within technology that underpins critical national infrastructure that could enable rapid exploitation, to cause mass disruption in a time of conflict,” and cited Volt Typhoon, the Chinese state-linked campaign exposed against U.S. infrastructure , as the clearest example of the tactic. The announcement did not detail these breaches, but the reference is significant: British intelligence has tended to be much more guarded than Washington about naming such intrusions, partially on the basis that acknowledging them publicly may inadvertently assist the perpetrators. “In cyberspace, we are not preparing for tomorrow’s conflicts. To some degree we are fighting them today,” said Horne. Changing tone Horne’s speech notably departed from the vocabulary his own agency has long used when discussing cybersecurity. The issue, he argued, should no longer be treated as a “risk” to be managed and tolerated but as a “contest” to be fought. For a decade, the vocabulary of risk management has effectively been the house style of British cyber advice. The NCSC’s flagship guidance document, the Cyber Assessment Framework, opens with an objective titled “managing security risk” and existing guidance on the agency’s website walks practitioners through risk assessment, risk quantification and the setting of risk appetites. Horne’s speech places the NCSC’s vocabulary in step with a wider shift in how Western governments have come to describe cyberspace. NATO declared in its 2022 strategic concept that the domain is “contested at all times,” and in the years since, allied officials echoed the sentiment that cyberspace is best understood as a permanently contested environment . Senior figures at U.S. Cyber Command have made much the same case, warning that the steady pattern of attacks falling short of war is nonetheless having “strategically consequential effects” on Western states. “When executives ask ‘when will we be done investing in cyber security?’ the answer is: never,” said Horne. He warned that benchmarking defences against industry rivals, a staple of corporate risk management, was an inadequate approach. “The only benchmark that matters is how your capability and performance compares to that of your opponent,” he said. Horne’s earlier speeches dwelt on a “widening gap” between threats and defenses, warning that the country was dangerously underestimating the danger. On Wednesday, he repeated his recent call for a “full court press” across what he called the near, mid and far spaces of cyberspace. Artificial intelligence
+Now Live! P roject Swarm: Join the Collective. Defend the Edge Join the Swarm Login Search for free Get a demo Blog > Insights Follow us Insights 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR Mike Ernst, Head of Sales Engineering June 17, 2026 I spend a lot of my time in SOAR consoles with security teams, and the same pattern shows up almost every time. The automation is already there. Playbooks fire, tickets open, enrichment runs. However, the decisions underneath are still shaky. Automation moves fast; it doesn't move smart on its own. A playbook that auto-routes a case is only as good as the context it routes on. That's the gap GreyNoise fills. We don't replace your SOAR or your SIEM, we feed them. We tell your playbooks what not to worry about so the team can spend its hours on the activity that's actually aimed at them. Here are the five integrations I walk through in nearly every deployment. ‍ 1. IP enrichment that makes triage and response times faster This is where almost everyone starts, and for good reason. Most SOCs still have analysts manually looking up IPs to determine whether an alert matters. The process is slow, repetitive, and often leads to inconsistent triage decisions. We drop a /v3/ip lookup into the front of the playbook (single lookups or bulk, up to 10K at a time) so every alert gets enriched automatically with classification, tags, and threat level. Then you build your routing rules on top of that. The enrichment writes straight back to the case so the analyst sees the reasoning, not just the verdict. The payoff is what teams care about most: faster response times, more consistent triage decisions, and a 40–60% reduction in alert volume once routine internet noise is identified and filtered. ‍ 2. Early warning when your vendors' CVEs start getting hit Individual organizations often don’t see global exploitation spikes targeting their vendors until it’s too late. A surge in scanning or exploitation against a particular vendor's CVE can be an early sign of a zero-day or novel attack, but those patterns are difficult to detect when you're only looking at activity inside your own environment. By the time you hear about it after the vendor publishes an advisory, it may already be too late. GreyNoise Event Feeds push an alert into SOAR the moment scanning or exploitation activity against your vendors' CVEs spikes. The playbook takes it from there: assess benign versus malicious activity, enrich with CVE and IP context, open a case, create a VM ticket, update blocklists, and notify the team in ChatOps. The outcome is simple: detect rising exploitation activity days before vendors announce new vulnerabilities, patch and harden before attacks become widespread, and automatically separate real threats from benign scanning activity. ‍ 3. Detect compromised edge devices This one resonates with anyone who's been burned by a compromised firewall or VPN appliance. You can't run EDR on those boxes, so when one gets popped and starts scanning the internet or calling home to attacker-controlled C2 infrastructure , you typically don't find out until blacklisted or it’s reported by an external party. We run two feeds into the SOAR for this. First, a webhook fires when GreyNoise observes your IP ranges conducting unsolicited scanning, a strong signal something behind that address is compromised. Second, a callback IP feed alerts whenever we detect a new attacker callback destination, which the SOAR correlates against your outbound traffic. Either one triggers automatic case creation and a containment ticket. That means catching compromise before it leads to reputation damage, responding automatically in seconds, and keeping persistent issues tied together in a single case timeline. ‍ 4. Build high-trust blocklists Every team wants to automate blocklist updates. Almost none of them fully trust the automation, because the nightmare scenario is auto-blocking a business-critical IP and taking down a le
 ```
 
 #### Corroborating sources (1)
 
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Hostile states behind three-quarters of attacks on Britain's critical infrastructure, cyber chief warns
-  - Published: 2026-06-17T17:55:00+00:00
-  - Link: https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi
-  - Summary: NCSC CEO Richard Horne warned that “kinetic targeting in any conflict tomorrow will be based on intelligence gathered today” and that nation-state adversaries were “prepositioning” throughout British critical infrastructure.
+- **GreyNoise** (cloud_identity_infrastructure)
+  - Title: 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR
+  - Published: 2026-06-17T00:00:00+00:00
+  - Link: https://www.greynoise.io/blog/5-things-soar-greynoise-integration
+  - Summary: Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.
 
 ### Cluster a317344dbd — score 8
 
@@ -3507,49 +3542,6 @@ Fresh Chrome and Firefox updates are now rolling out with fixes for over 70 vuln
   - Published: 2026-06-17T08:21:05+00:00
   - Link: https://www.securityweek.com/chrome-and-firefox-updated-to-patch-critical-high-severity-vulnerabilities/
   - Summary: The browser updates address multiple memory safety bugs that could potentially lead to remote code execution. The post Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities appeared first on SecurityWeek .
-
-### Cluster ed6007361f — score 8
-
-- Title: 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR
-- Source: GreyNoise (cloud_identity_infrastructure)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://www.greynoise.io/blog/5-things-soar-greynoise-integration
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.
-```
-
-#### Full body
-
-```
-Now Live! P roject Swarm: Join the Collective. Defend the Edge Join the Swarm Login Search for free Get a demo Blog > Insights Follow us Insights 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR Mike Ernst, Head of Sales Engineering June 17, 2026 I spend a lot of my time in SOAR consoles with security teams, and the same pattern shows up almost every time. The automation is already there. Playbooks fire, tickets open, enrichment runs. However, the decisions underneath are still shaky. Automation moves fast; it doesn't move smart on its own. A playbook that auto-routes a case is only as good as the context it routes on. That's the gap GreyNoise fills. We don't replace your SOAR or your SIEM, we feed them. We tell your playbooks what not to worry about so the team can spend its hours on the activity that's actually aimed at them. Here are the five integrations I walk through in nearly every deployment. ‍ 1. IP enrichment that makes triage and response times faster This is where almost everyone starts, and for good reason. Most SOCs still have analysts manually looking up IPs to determine whether an alert matters. The process is slow, repetitive, and often leads to inconsistent triage decisions. We drop a /v3/ip lookup into the front of the playbook (single lookups or bulk, up to 10K at a time) so every alert gets enriched automatically with classification, tags, and threat level. Then you build your routing rules on top of that. The enrichment writes straight back to the case so the analyst sees the reasoning, not just the verdict. The payoff is what teams care about most: faster response times, more consistent triage decisions, and a 40–60% reduction in alert volume once routine internet noise is identified and filtered. ‍ 2. Early warning when your vendors' CVEs start getting hit Individual organizations often don’t see global exploitation spikes targeting their vendors until it’s too late. A surge in scanning or exploitation against a particular vendor's CVE can be an early sign of a zero-day or novel attack, but those patterns are difficult to detect when you're only looking at activity inside your own environment. By the time you hear about it after the vendor publishes an advisory, it may already be too late. GreyNoise Event Feeds push an alert into SOAR the moment scanning or exploitation activity against your vendors' CVEs spikes. The playbook takes it from there: assess benign versus malicious activity, enrich with CVE and IP context, open a case, create a VM ticket, update blocklists, and notify the team in ChatOps. The outcome is simple: detect rising exploitation activity days before vendors announce new vulnerabilities, patch and harden before attacks become widespread, and automatically separate real threats from benign scanning activity. ‍ 3. Detect compromised edge devices This one resonates with anyone who's been burned by a compromised firewall or VPN appliance. You can't run EDR on those boxes, so when one gets popped and starts scanning the internet or calling home to attacker-controlled C2 infrastructure , you typically don't find out until blacklisted or it’s reported by an external party. We run two feeds into the SOAR for this. First, a webhook fires when GreyNoise observes your IP ranges conducting unsolicited scanning, a strong signal something behind that address is compromised. Second, a callback IP feed alerts whenever we detect a new attacker callback destination, which the SOAR correlates against your outbound traffic. Either one triggers automatic case creation and a containment ticket. That means catching compromise before it leads to reputation damage, responding automatically in seconds, and keeping persistent issues tied together in a single case timeline. ‍ 4. Build high-trust blocklists Every team wants to automate blocklist updates. Almost none of them fully trust the automation, because the nightmare scenario is auto-blocking a business-critical IP and taking down a le
-```
-
-#### Corroborating sources (1)
-
-- **GreyNoise** (cloud_identity_infrastructure)
-  - Title: 5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://www.greynoise.io/blog/5-things-soar-greynoise-integration
-  - Summary: Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.
 
 ### Cluster 762c808fc9 — score 8
 

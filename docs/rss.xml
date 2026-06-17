@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 75 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Wed, 17 Jun 2026 20:23:21 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Jun 2026 22:49:04 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -20,6 +20,27 @@
 <category>credential_theft</category>
 </item>
 <item>
+<title>INC Ransomware Thrives by Mastering the Basics</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics</link>
+<description><![CDATA[And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Wed, 17 Jun 2026 19:46:25 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Beyond the benchmark: Advancing security at AI speed</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/</link>
+<description><![CDATA[Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft Defender · Azure</em>]]></description>
+<pubDate>Wed, 17 Jun 2026 19:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft Defender</category>
+<category>Azure</category>
+</item>
+<item>
 <title>Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments</title>
 <link>https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html</link>
 <description><![CDATA[An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a<br/><br/><em>Tags: WordPress · GitHub · phishing_social_eng</em>]]></description>
@@ -30,17 +51,6 @@
 <category>WordPress</category>
 <category>GitHub</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Hostile states behind three-quarters of attacks on Britain&apos;s critical infrastructure, cyber chief warns</title>
-<link>https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi</link>
-<description><![CDATA[NCSC CEO Richard Horne warned that “kinetic targeting in any conflict tomorrow will be based on intelligence gathered today” and that nation-state adversaries were “prepositioning” throughout British critical infrastructure.<br/><br/><em>Tags: Volt Typhoon · apt_espionage</em>]]></description>
-<pubDate>Wed, 17 Jun 2026 17:55:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>Volt Typhoon</category>
-<category>apt_espionage</category>
 </item>
 <item>
 <title>Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</title>
@@ -63,15 +73,6 @@
 <guid isPermaLink="true">https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592</guid>
 <source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>EU grants Ukraine access to cybersecurity reserve for major attacks</title>
-<link>https://therecord.media/ukraine-access-eu-cybersecurity-reserve</link>
-<description><![CDATA[As Kyiv takes steps toward formal accession to the EU, the bloc is integrating Ukraine with its pool of pre-approved cybersecurity incident response companies.]]></description>
-<pubDate>Wed, 17 Jun 2026 16:33:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/ukraine-access-eu-cybersecurity-reserve</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline</title>
@@ -545,17 +546,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>GitHub dismissed security reports on flaws now exploited by supply-chain worm, researchers say</title>
-<link>https://therecord.media/github-dismissed-reports-shai-hulud-deep-specter</link>
-<description><![CDATA[GitHub rejected two formal vulnerability reports identifying design flaws that researchers say are enabling variants of the Shai-Hulud supply-chain worm to infect and compromise hundreds of software packages and developer accounts worldwide.<br/><br/><em>Tags: GitHub · supply_chain</em>]]></description>
-<pubDate>Tue, 16 Jun 2026 23:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/github-dismissed-reports-shai-hulud-deep-specter</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>supply_chain</category>
-</item>
-<item>
 <title>Fileless Phantom Stealer Targets Browser Credentials</title>
 <link>https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials</link>
 <description><![CDATA[In addition to executing entirely in memory, the malware&apos;s infection chain incorporates other anti-analysis techniques designed to evade detection.]]></description>
@@ -822,17 +812,6 @@
 <category>CVE-2026-39813</category>
 <category>CVE-2026-39808</category>
 <category>CVE-2026-25089</category>
-</item>
-<item>
-<title>Ransomware gang abuses Microsoft Teams relays to hide malicious traffic</title>
-<link>https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/</link>
-<description><![CDATA[DragonForce ransomware used a custom malware named &apos;Backdoor.Turn&apos; to hide command-and-control traffic inside Microsoft Teams relay infrastructure. [...]<br/><br/><em>Tags: ransomware_extortion · web_shell_backdoor</em>]]></description>
-<pubDate>Tue, 16 Jun 2026 10:18:48 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
-<category>web_shell_backdoor</category>
 </item>
 <item>
 <title>Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE</title>
@@ -2066,6 +2045,24 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
+<title>CISA Rewrites Federal Patching Requirements for AI Threat Era</title>
+<link>https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era</link>
+<description><![CDATA[The new directive gives federal agencies three days to fix the most dangerous flaws, while less severe issues can be deferred.]]></description>
+<pubDate>Wed, 10 Jun 2026 21:17:12 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Ron Deibert Speaks About “Greek Watergate”</title>
+<link>https://citizenlab.ca/ron-deibert-speaks-about-greek-watergate/</link>
+<description><![CDATA[Citizen Lab director Ron Deibert gave a keynote speech about the Greek spyware scandal at an event hosted by Eteron think tank in Athens in May. The post Ron Deibert Speaks About “Greek Watergate” appeared first on The Citizen Lab .]]></description>
+<pubDate>Wed, 10 Jun 2026 20:32:28 +0000</pubDate>
+<guid isPermaLink="true">https://citizenlab.ca/ron-deibert-speaks-about-greek-watergate/</guid>
+<source url="https://citizenlab.ca/feed/">Citizen Lab</source>
+<category>threat_research_primary</category>
+</item>
+<item>
 <title>Bug Bounty Research Triggers ServiceNow Security Alert</title>
 <link>https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert</link>
 <description><![CDATA[Security research inadvertently led organizations to believe they were being breached through their ServiceNow instances.]]></description>
@@ -2226,16 +2223,6 @@
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-20245</category>
-</item>
-<item>
-<title>Who Runs the Ransomware Group ‘The Gentlemen?’</title>
-<link>https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</link>
-<description><![CDATA[A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointing to a real life identity for the administrator of The Gentlemen ransomware group.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Wed, 10 Jun 2026 14:03:44 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Deceptive Installers: How Fake Apps Target macOS</title>
@@ -2481,15 +2468,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jun/9/llm/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>A Record-Breaking Patch Tuesday for June 2026</title>
-<link>https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/</link>
-<description><![CDATA[Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company&apos;s monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft&apos;s most dire &quot;critical&quot; rating, and exploit code for at least three of the weaknesses is now publicly available.]]></description>
-<pubDate>Tue, 09 Jun 2026 22:07:28 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Blinding the Watchmen: Abusing Cloud Logging Services for Defense Evasion and Visibility</title>
@@ -3903,15 +3881,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks</link>
-<description><![CDATA[A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.]]></description>
-<pubDate>Tue, 02 Jun 2026 20:11:51 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>Identify unused AWS KMS keys and prevent accidental key deletions</title>
 <link>https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/</link>
 <description><![CDATA[As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet compliance requirements, evaluate your risk posture, and optimize key management costs. […]]]></description>
@@ -3930,15 +3899,6 @@
 <category>threat_research_primary</category>
 <category>npm</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Microsoft Build 2026: Securing code, agents, and models across the development lifecycle</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/</link>
-<description><![CDATA[Discover how Microsoft enables fast, secure AI development with MDASH and new security capabilities. The post Microsoft Build 2026: Securing code, agents, and models across the development lifecycle appeared first on Microsoft Security Blog .]]></description>
-<pubDate>Tue, 02 Jun 2026 17:15:18 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies</title>
@@ -4155,15 +4115,6 @@
 <guid isPermaLink="true">https://redcanary.com/blog/news-events/red-canary-cfp-tracker-june-2026/</guid>
 <source url="https://redcanary.com/feed/">Red Canary</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts</title>
-<link>https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</link>
-<description><![CDATA[The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta&apos;s &quot;AI support assistant&quot; bot into resetting account passwords.]]></description>
-<pubDate>Mon, 01 Jun 2026 17:32:50 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope</title>
@@ -4399,16 +4350,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>Malicious npm packages abuse dependency confusion to profile developer environments</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/</link>
-<description><![CDATA[A dependency confusion campaign leveraged 33 malicious npm packages to collect reconnaissance data from developer and build environments. This report details the attack chain, observed tradecraft, and detection opportunities to help organizations identify and disrupt related activity. The post Malicious npm packages abuse dependency confusion to profile developer environments appeared first on Microsoft Security Blog .<br/><br/><em>Tags: npm</em>]]></description>
-<pubDate>Sat, 30 May 2026 00:06:20 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>npm</category>
 </item>
 <item>
 <title>[remote] Notepad++ 8.9.6 - Arbitrary Code Execution</title>
@@ -5022,15 +4963,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
-<link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
-<description><![CDATA[]]></description>
-<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What CISOs want from Cyber Threat Intelligence</title>
 <link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
 <description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
@@ -5038,6 +4970,15 @@
 <guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
 <source url="https://intel471.com/blog/feed">Intel 471</source>
 <category>ransomware_ecrime_financial_crime</category>
+</item>
+<item>
+<title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
+<link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
+<description><![CDATA[]]></description>
+<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents</title>
@@ -5486,15 +5427,6 @@
 <category>credential_theft</category>
 </item>
 <item>
-<title>Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks</title>
-<link>https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</link>
-<description><![CDATA[Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecurity story about how their hosting companies had assumed control over the technical infrastructure of Stark Industries Solutions, an Internet service provider sanctioned last year by the EU as a frequent staging ground for cyber mischief from Russia&apos;s intelligence agencies.]]></description>
-<pubDate>Mon, 25 May 2026 13:21:49 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-</item>
-<item>
 <title>FBI Warns &apos;Kali365&apos; Phishing Kit Hijacks Microsoft 365 OAuth Tokens</title>
 <link>https://www.infosecurity-magazine.com/news/fbi-kali365-phishing-kit-m365/</link>
 <description><![CDATA[The Kali365 phishing-as-a-service platform lowers the barrier of entry for cybercriminals, said the FBI<br/><br/><em>Tags: Microsoft 365 · phishing_social_eng</em>]]></description>
@@ -5549,17 +5481,6 @@
 <guid isPermaLink="true">https://www.normaltech.ai/p/did-googles-ai-agents-really-build</guid>
 <source url="https://www.aisnakeoil.com/feed">AI Snake Oil</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Lawmakers Demand Answers as CISA Tries to Contain Data Leak</title>
-<link>https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</link>
-<description><![CDATA[Lawmakers in both houses of Congress are demanding answers from the U.S. Cybersecurity &amp; Infrastructure Security Agency (CISA) after KrebsOnSecurity reported this week that a CISA contractor intentionally published AWS GovCloud keys and a vast trove of other agency secrets on a public GitHub account. The inquiry comes as CISA is still struggling to contain the breach and invalidate the leaked credentials.<br/><br/><em>Tags: GitHub · data_breach</em>]]></description>
-<pubDate>Fri, 22 May 2026 16:34:24 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>GitHub</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Fast and Furious – Nimbus Manticore Operations During the Iranian Conflict</title>
@@ -5660,16 +5581,6 @@
 <guid isPermaLink="true">https://www.greynoise.io/blog/why-your-blocklist-missing-malicious-ips</guid>
 <source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada</title>
-<link>https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</link>
-<description><![CDATA[Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. KrebsOnSecurity publicly named the suspect in February 2026 after the accused launched a volley of DDoS, doxing and swatting campaigns against this author and a security researcher. He now faces criminal hacking charges in both Canada and the United States.<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Thu, 21 May 2026 21:50:25 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>ddos</category>
 </item>
 <item>
 <title>AWS KY3P report now available for third-party supplier due diligence</title>
@@ -6189,15 +6100,6 @@
 <guid isPermaLink="true">https://webflow.sysdig.com/blog/agentic-ai-tooling-why-runtime-security-is-the-missing-layer</guid>
 <source url="https://sysdig.com/feed/">Sysdig</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>CISA Admin Leaked AWS GovCloud Keys on Github</title>
-<link>https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/</link>
-<description><![CDATA[Until this past weekend, a contractor for the Cybersecurity &amp; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS GovCloud accounts and a large number of internal CISA systems. Security experts said the public archive included files detailing how CISA builds, tests and deploys software internally, and that it represents one of the most egregious government data leaks in recent history.]]></description>
-<pubDate>Mon, 18 May 2026 20:48:21 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
 </item>
 <item>
 <title>Fast-tracking genetic leads to reverse cellular aging</title>
@@ -6983,16 +6885,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Patch Tuesday, May 2026 Edition</title>
-<link>https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/</link>
-<description><![CDATA[Artificial intelligence platforms may be just as susceptible to social engineering as human beings, but they are proving remarkably good at finding security vulnerabilities in human-made computer code. That reality is on full display this month with some of the more widely-used software makers -- including Apple, Google, Microsoft, Mozilla and Oracle -- fixing near record volumes of security bugs, and/or quickening the tempo of their patch releases.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Tue, 12 May 2026 21:46:45 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
 <title>How open model ecosystems compound</title>
 <link>https://www.interconnects.ai/p/how-open-model-ecosystems-compound</link>
 <description><![CDATA[Further reflections on China&apos;s high-participation, open-first AI ecosystem.]]></description>
@@ -7307,16 +7199,6 @@
 <category>Linux kernel</category>
 <category>CVE-2026-43284</category>
 <category>CVE-2026-43500</category>
-</item>
-<item>
-<title>Canvas Breach Disrupts Schools &amp; Colleges Nationwide</title>
-<link>https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</link>
-<description><![CDATA[An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, after a cybercrime group defaced the service&apos;s login page with a ransom demand that threatened to leak data from 275 million students and faculty across nearly 9,000 educational institutions.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Fri, 08 May 2026 02:58:46 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Risky Bulletin: State sponsored group exploits Palo 0day</title>
@@ -7987,16 +7869,6 @@
 <source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
 <category>practitioner_analysis</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>Anti-DDoS Firm Heaped Attacks on Brazilian ISPs</title>
-<link>https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/</link>
-<description><![CDATA[A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in Brazil, KrebsOnSecurity has learned. The firm&apos;s chief executive says the malicious activity resulted from a security breach and was likely the work of a competitor trying to tarnish his company&apos;s public image.<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Thu, 30 Apr 2026 14:04:26 +0000</pubDate>
-<guid isPermaLink="true">https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/</guid>
-<source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
-<category>practitioner_analysis</category>
-<category>ddos</category>
 </item>
 <item>
 <title>Post-quantum encryption for Cloudflare IPsec is generally available</title>
@@ -10736,7 +10608,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f5611d614f0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f83a1fb75e0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -11363,9 +11235,9 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>It’s Official: Wiz Joins Google</title>
+<title>Es ist offiziell: Wiz wird Teil von Google</title>
 <link>https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</link>
-<description><![CDATA[Welcoming a new era of Cloud and AI Security.]]></description>
+<description><![CDATA[Wir begrüßen eine neue Ära der Cloud- und KI-Sicherheit.]]></description>
 <pubDate>Wed, 11 Mar 2026 12:41:21 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
@@ -20495,7 +20367,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20504,7 +20376,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20513,7 +20385,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20522,7 +20394,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20531,7 +20403,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20540,7 +20412,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20549,7 +20421,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20558,7 +20430,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20567,7 +20439,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20576,7 +20448,7 @@
 <title>ISO 42001:2023 and the New Reality of Cloud AI Data Risk</title>
 <link>https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</link>
 <description><![CDATA[]]></description>
-<pubDate>Wed, 17 Jun 2026 20:23:21 +0000</pubDate>
+<pubDate>Wed, 17 Jun 2026 22:49:04 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/iso-42001-2023-and-new-reality-of-cloud-ai-data-risk/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
