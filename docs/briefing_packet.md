@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-18T21:25:19.928514+00:00
+- Generated: 2026-06-18T23:51:09.570056+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 337
-- Total clusters raw: 145
-- Total clusters in packet: 59
-- Dropped low score: 86
+- Feeds OK: 76
+- Total items in window: 335
+- Total clusters raw: 147
+- Total clusters in packet: 58
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,16 +75,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -95,16 +95,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 7
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -120,30 +120,25 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
@@ -160,43 +155,38 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 100
+  - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 0
+  - Item count: 10
+  - In window count: 2
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +195,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -215,31 +215,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
-  - In window count: 4
+  - In window count: 1
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 3
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -249,11 +254,6 @@
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
@@ -265,61 +265,56 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 6
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - In window count: 3
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
+  - Item count: 100
+  - In window count: 5
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,6 +325,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -345,18 +345,13 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 21
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+  - In window count: 20
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,16 +360,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 23
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -385,33 +385,23 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 44
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -420,31 +410,41 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 44
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 16
+  - In window count: 15
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -507,7 +507,7 @@
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 4
-- Article count: 15
+- Article count: 13
 - Cohesion: 0.25
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -527,7 +527,6 @@
   - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
   - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
   - https://risky.biz/SRB171/
-  - https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/
   - https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
 
 ### Microsoft Defender vulnerability activity
@@ -591,44 +590,6 @@
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
-### CVE-2026-42055 exploitation activity
-- Anchor signal: CVE-2026-42055
-- Theme key: cve-2026-42055
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.367
-- Shared strong signals: CVE-2026-42055
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, ransomware_extortion, ddos
-  - cve_ids: CVE-2026-42055, CVE-2026-42530, CVE-2026-11311, CVE-2026-50107
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: bfe56aaca6, 9a570eb07a, 1660b1baf0
-- Links:
-  - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
-  - https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
-  - https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/
-
-### CVE-2026-42530 exploitation activity
-- Anchor signal: CVE-2026-42530
-- Theme key: cve-2026-42530
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.367
-- Shared strong signals: CVE-2026-42530
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, active_exploitation, ransomware_extortion, ddos
-  - cve_ids: CVE-2026-42055, CVE-2026-42530, CVE-2026-11311, CVE-2026-50107
-  - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: bfe56aaca6, 9a570eb07a, 1660b1baf0
-- Links:
-  - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
-  - https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
-  - https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/
-
 ### data breach targeting Fortinet
 - Anchor signal: Fortinet
 - Theme key: fortinet
@@ -691,24 +652,41 @@
   - https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
   - https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
 
-### LiteSpeed active exploitation
-- Anchor signal: LiteSpeed
-- Theme key: litespeed
+### CVE-2026-42055 exploitation activity
+- Anchor signal: CVE-2026-42055
+- Theme key: cve-2026-42055
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.5
-- Shared strong signals: LiteSpeed
+- Cohesion: 0.267
+- Shared strong signals: CVE-2026-42055
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, zero_day, ddos, active_exploitation
-  - affected_industries: financial_services
-  - affected_products: LiteSpeed
+  - threat_categories: zero_day, active_exploitation
+  - cve_ids: CVE-2026-42055, CVE-2026-42530
   - urgency_signals: actively_exploited, zero_day, preauth_unauth
-- Cluster IDs: 7b9eea63df, 1660b1baf0
+- Cluster IDs: bfe56aaca6, 9a570eb07a
 - Links:
-  - https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
-  - https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/
+  - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
+  - https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
+
+### CVE-2026-42530 exploitation activity
+- Anchor signal: CVE-2026-42530
+- Theme key: cve-2026-42530
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.267
+- Shared strong signals: CVE-2026-42530
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - cve_ids: CVE-2026-42055, CVE-2026-42530
+  - urgency_signals: actively_exploited, zero_day, preauth_unauth
+- Cluster IDs: bfe56aaca6, 9a570eb07a
+- Links:
+  - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
+  - https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
 
 ### Microsoft SharePoint vulnerability activity
 - Anchor signal: Microsoft SharePoint
@@ -1648,51 +1626,6 @@ Back to Blog Industry Trends Why Security Teams Need To Start Earlier Tom Caiazz
   - Link: https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier
   - Summary: Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more to
 
-### Cluster f4c821a558 — score 11
-
-- Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-17T23:11:43+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts for XDR Topics Actionable threat insights Microsoft Threat Intelligence and Microsoft Defender Experts identified a Windows-based cryptocurrency clipper that has affected users since February of 2026. Clipper malware relies on stealing clipboard data and parsing it for valuable assets. The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution. The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor. For defenders, the strongest signals are behavioral: script interpreters spawning suspicious child processes, localhost:9050 proxy usage, screen-capture commands in PowerShell, and signs of clipboard inspection or crypto-address replacement. Microsoft Defender for Endpoint detects multiple components of this threat such as Suspicious JavaScript process and Possible data exfiltration using Curl . Additionally, Microsoft Defender Antivirus detects this crypto clipper as Trojan: Win32/CryptoBandits.A . Attack chain overview Since February 2026, malicious shortcut (.lnk) payloads have infected devices with a cryptocurrency clipper. This malware comprises two components that it deploys on the compromised system: a worm component that ensures propagation and a clipper/stealer component that harvests and exfiltrates cryptocurrency wallet information. The worm functionality ensures propagation by creating additional malicious shortcuts of legitimate files it identifies on the device. It also delivers file-based payloads and excludes them from Defender scanning. It deploys scheduled tasks for execution and persistence for both the worm component and the stealer component. Figure 1 presents a high-level execution flow of the two components. The clipper runs as a script-based payload that interacts with the operating system through WScript and ActiveXObject. It includes an anti-analysis check that queries running processes and exits if Task Manager is detected. If the environment passes this gate, the malware launches a renamed Tor binary named ugate.exe in a hidden window, waits about 60 seconds for Tor to bootstrap, generates a victim GUID, and registers the infected device with a hidden-service C2. After registration, the malware enters a continuous loop. It polls the C2 for instructions and monitors the clipboard roughly every 500 milliseconds, extracting seed phrases and private keys that match wallet-related patterns. It also hijacks cryptocurrency addresses by replacing copied wallet values with attacker-controlled alternatives and uploads screenshots through Tor. If the C2 returns an EVAL response, the malware executes attacker-supplied code at runtime. Figure 1: High level execution flow. Behaviors and methodologies Initial access Initial access occurs from malicious .lnk files. In instances we analyzed, these .lnk shortcuts were distributed on USB storage devices. The .lnk shortcut stages a worm component in the form of an executable. The malicious script checks for an existing malicious payload and stops if the device is already infected. If the payload is not present, the malware fetches the payload from the C2 through Tor. The Figure below illustrates the functions that stage and decrypt the initial payload. Figure 2: Initial payload delivery. The .lnk payload scans the USB device for common document files like .doc, .xlsx, .pdf, hides the original files, and creates additional .lnk shortcut files with the same file names. The shortcut f
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
-  - Published: 2026-06-17T23:11:43+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
-  - Summary: Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
-
 ### Cluster 254cc405b8 — score 11
 
 - Title: From a VHDX File to a Remcos RAT, (Tue, Jun 16th)
@@ -1901,15 +1834,15 @@ Risky Bulletin Podcast June 12, 2026 Sponsored: Understanding CI/CD attack paths
 - Published: 2026-06-17T00:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 5
+- Member count: 4
+- Corroborating source count: 4
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - affected_industries: government
 - affected_products: Anthropic/Claude, Google Cloud, Kubernetes
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news, tier_5_chatter
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_5_chatter
 
 #### Primary article taxonomy
 - affected_products: Kubernetes, Google Cloud, Anthropic/Claude
@@ -1928,7 +1861,7 @@ Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context fr
 Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
@@ -1945,16 +1878,89 @@ Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Min
   - Published: 2026-06-18T06:17:55+00:00
   - Link: https://risky.biz/SRB171/
   - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: Anthropic disables new models after government calls them a national security concern
-  - Published: 2026-06-13T18:29:36+00:00
-  - Link: https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/
-  - Summary: The Commerce Department’s expert control decree led to the company shutting off access to Fable 5 and Mythos 5 worldwide, drawing sharp criticism from researchers and industry analysts. The post Anthropic disables new models after government calls them a national security concern appeared first on CyberScoop .
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - Title: MeshCentral: From XSS to RCE
   - Published: 2026-06-13T20:34:17+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
   - Summary: Using Claude Code to find and weaponise an XSS in MeshCentral using a rogue client, resulting in RCE. submitted by /u/kev-thehermit [link] [comments]
+
+### Cluster f4c821a558 — score 10
+
+- Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T23:11:43+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts for XDR Topics Actionable threat insights Microsoft Threat Intelligence and Microsoft Defender Experts identified a Windows-based cryptocurrency clipper that has affected users since February of 2026. Clipper malware relies on stealing clipboard data and parsing it for valuable assets. The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution. The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor. For defenders, the strongest signals are behavioral: script interpreters spawning suspicious child processes, localhost:9050 proxy usage, screen-capture commands in PowerShell, and signs of clipboard inspection or crypto-address replacement. Microsoft Defender for Endpoint detects multiple components of this threat such as Suspicious JavaScript process and Possible data exfiltration using Curl . Additionally, Microsoft Defender Antivirus detects this crypto clipper as Trojan: Win32/CryptoBandits.A . Attack chain overview Since February 2026, malicious shortcut (.lnk) payloads have infected devices with a cryptocurrency clipper. This malware comprises two components that it deploys on the compromised system: a worm component that ensures propagation and a clipper/stealer component that harvests and exfiltrates cryptocurrency wallet information. The worm functionality ensures propagation by creating additional malicious shortcuts of legitimate files it identifies on the device. It also delivers file-based payloads and excludes them from Defender scanning. It deploys scheduled tasks for execution and persistence for both the worm component and the stealer component. Figure 1 presents a high-level execution flow of the two components. The clipper runs as a script-based payload that interacts with the operating system through WScript and ActiveXObject. It includes an anti-analysis check that queries running processes and exits if Task Manager is detected. If the environment passes this gate, the malware launches a renamed Tor binary named ugate.exe in a hidden window, waits about 60 seconds for Tor to bootstrap, generates a victim GUID, and registers the infected device with a hidden-service C2. After registration, the malware enters a continuous loop. It polls the C2 for instructions and monitors the clipboard roughly every 500 milliseconds, extracting seed phrases and private keys that match wallet-related patterns. It also hijacks cryptocurrency addresses by replacing copied wallet values with attacker-controlled alternatives and uploads screenshots through Tor. If the C2 returns an EVAL response, the malware executes attacker-supplied code at runtime. Figure 1: High level execution flow. Behaviors and methodologies Initial access Initial access occurs from malicious .lnk files. In instances we analyzed, these .lnk shortcuts were distributed on USB storage devices. The .lnk shortcut stages a worm component in the form of an executable. The malicious script checks for an existing malicious payload and stops if the device is already infected. If the payload is not present, the malware fetches the payload from the C2 through Tor. The Figure below illustrates the functions that stage and decrypt the initial payload. Figure 2: Initial payload delivery. The .lnk payload scans the USB device for common document files like .doc, .xlsx, .pdf, hides the original files, and creates additional .lnk shortcut files with the same file names. The shortcut f
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
+  - Published: 2026-06-17T23:11:43+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
+  - Summary: Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
+
+### Cluster 76d7f3c3fb — score 10
+
+- Title: AI is accelerating cyberattacks—here’s how to stay ahead
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T17:00:00+00:00
+- Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: AI is accelerating cyberattacks—here’s how to stay ahead
+  - Published: 2026-06-17T17:00:00+00:00
+  - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
+  - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
 ### Cluster 18615ddbf5 — score 10
 
@@ -1998,39 +2004,6 @@ Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Insi
   - Published: 2026-06-15T23:00:19+00:00
   - Link: https://unit42.paloaltonetworks.com/soc-72-minute-race/
   - Summary: Attackers can move from access to exfiltration in 72 minutes. Learn how modern SOC teams close the speed gap with Unit 42's AI-driven automation, threat hunting, MDR and Managed XSIAM. The post Inside the Modern SOC: The 72-Minute Race appeared first on Unit 42 .
-
-### Cluster 76d7f3c3fb — score 10
-
-- Title: AI is accelerating cyberattacks—here’s how to stay ahead
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-17T17:00:00+00:00
-- Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: AI is accelerating cyberattacks—here’s how to stay ahead
-  - Published: 2026-06-17T17:00:00+00:00
-  - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-  - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
 ### Cluster d4997a90c8 — score 10
 
@@ -2105,94 +2078,6 @@ Table of Contents What is Wallpaper Engine? Application wallpapers: a built-in s
   - Published: 2026-06-18T01:49:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33086
   - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
-
-### Cluster 81b6680cce — score 10
-
-- Title: FishMonger’s arsenal upgraded: SprySOCKS for Windows
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-16T08:54:04+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: education, government
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: government, education
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness
-```
-
-#### Full body
-
-```
-ESET Research FishMonger’s arsenal upgraded: SprySOCKS for Windows ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness ESET Research 16 Jun 2026 • , 30 min. read ESET researchers have discovered two as-yet undocumented Windows variants of SprySOCKS , a previously Linux-only backdoor reportedly used by FishMonger, the group believed to be operated by a Chinese contractor named I‑SOON. While we initially discovered the malware samples on VirusTotal, ESET telemetry shows real activity between 2023 and 2024, with several victims in Honduras, Taiwan, Thailand, and Pakistan, targeting mostly government organizations. The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS . Both come with a hardcoded C&C configuration and support communication over TCP, UDP, and WebSocket protocols. The core backdoor functionality for both includes support for over 30 C&C commands, covering various functionalities including system information collection, process enumeration, as well as service management and file management functions such as listing, creating, deleting, and transferring files. In addition to the core backdoor functionality, the WIN_DRV version utilizes kernel drivers to hide the malware’s network connections, processes, files, and registry keys, and enables TCP traffic diversion allowing the malware operators to send commands to the backdoor through a random TCP port on the victim’s device without exposing the backdoor's real listening port in the network traffic. Based on ESET telemetry, there are limited indications that some SprySOCKS attack scenarios may involve a UEFI bootkit component, possibly exploiting CVE‑2023‑24932. The analysis provided in this report leads us to attribute these new, Windows variants to FishMonger with high confidence. Key points of this blogpost: We discovered two previously undocumented Windows variants of FishMonger’s SprySOCKS backdoor. ESET telemetry shows activity between 2023 and 2024, primarily targeting government organizations in Honduras, Taiwan, Thailand, and Pakistan. Both Windows variants support communication over TCP, UDP, and WebSocket protocols, and implement over 30 commands. The WIN_DRV variant creates a stealthy passive TCP backdoor, relying on a kernel driver to redirect traffic to the backdoor’s hidden TCP port whenever specially crafted data is detected inside a received TCP packet. FishMonger profile FishMonger – believed to be operated by a Chinese contractor named I‑SOON (see our Q4 2023–Q1 2024 APT Activity Report ) – is a cyberespionage group that falls under the Winnti Group umbrella and is most likely operating out of China, from the city of Chengdu. It is also known as Earth Lusca, TAG-22, Aquatic Panda, or Red Dev 10. We published an analysis of FishMonger in early 2020 when it heavily targeted universities in Hong Kong during the civic protests that started in June 2019. The group is also known to operate watering-hole attacks, as reported by Trend Micro . FishMonger’s toolset includes ShadowPad, Spyder, Cobalt Strike, FunnySwitch, SprySOCKS, and the BIOPASS RAT. Technical analysis In this section, we provide a technical analysis of these new, Windows variants of FishMonger’s SprySOCKS backdoor. The archive that led us to this discovery was uploaded to VirusTotal in April 2024 under the name klelam00007.zip ; its contents are shown in Figure 1. Figure 1. Contents of klelam00007.zip as displayed on VirusTotal This archive contains various files, including legitimate ones used to host DLL side-loading, and three suspicious-looking, encrypted files with .dat extensions. Our subsequent analysis revealed that these encrypted files contain a new, previously undocumented Windows variant of FishMonger’s SprySOCKS backdoor, labeled WIN_DRV by its developers. Further investigation revealed an additional backdoor version, labeled WIN_PLUS , in ESET Telemetry. Initial access FishMon
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: FishMonger’s arsenal upgraded: SprySOCKS for Windows
-  - Published: 2026-06-16T08:54:04+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/
-  - Summary: ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness
-
-### Cluster 24585c22c2 — score 10
-
-- Title: EvilTokens: A phishing attack that doesn’t steal your password
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-15T08:55:00+00:00
-- Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Microsoft SharePoint
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
-```
-
-#### Full body
-
-```
-Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages Christian Ali Bravo 15 Jun 2026 • , 5 min. read Much has been written about how the days of phishing emails laden with broken grammar and crude design are numbered, largely thanks to AI. Meanwhile, EvilTokens offers a somewhat different example of how far the phishing craft has moved. EvilTokens is a phishing-as-a-service (PhaaS) kit built to compromise Microsoft 365 accounts by abusing the OAuth 2.0 device authorization grant flow . As attacks that use the kit rely on device code phishing, they sidestep the need for convincing replicas of genuine login pages where the victims would hand over their passwords. Instead, attackers get the victim to complete a legitimate authentication process – including two-factor authentication (2FA) – on a real Microsoft login page. The toolkit has been advertised via Telegram channels and spotted in active attacks since at least February 2026. As documented by Sekoia and others, the kit appears to have been quickly adopted by cybercriminals and deployed in a number of account takeover and business email compromise (BEC) attacks, including for a campaign targeting more than 340 organizations in several countries in March 2026. Microsoft itself has also described an AI-enabled campaign that used dynamic device-code generation and bespoke lures to increase the success rate of EvilTokens attacks. The inner workings of EvilTokens Here’s a brief overview of how attacks leveraging EvilTokens unfold: The attack itself is preceded by ‘reconnaissance’ where the ne’er-do-wells first verify that the target account is active. Microsoft has seen this reconnaissance run 10 to 15 days ahead of the actual phishing attempt. The victim receives an email or message that’s often dressed up as an invoice, shared document, calendar invite, or SharePoint access request. The lure involves a decoy page impersonating a trusted brand or service, along with simple wording such as “Verify to view” or “Signature required.” When the victim clicks through, the page requests a device code from Microsoft. The code is valid only for 15 minutes, hence time and timing are of the essence here. The page shows the victim the code along and points them to Microsoft’s genuine microsoft.com/devicelogin login portal. The catch is that the code belongs to the attacker’s session, hence the victim unknowingly authorizes the attacker’s device, not their own. Seeing a valid sign-in, Microsoft issues access and refresh tokens to the session opened by the attacker. Once inside, the criminals can access corporate email, files, Teams, SharePoint, OneDrive, and other Microsoft 365 resources and exfiltrate data or prepare BEC attacks, which is why finance, HR, logistics, and sales accounts draw much of the attackers’ interest. What makes EvilTokens dangerous The OAuth device code flow was designed for devices that may be awkward to sign into directly, such as smart TVs or printers. The device displays a short code that the user enters on a Microsoft page on another device, often a smartphone, and completes authentication there. Microsoft then issues access tokens to the device that requested access. That separation is useful, but it leaves room for abuse. Attackers can generate the code and dupe the victim into entering it – all while Microsoft only sees a valid authentication flow. The company does warn users at the moment of sign-in via on-screen text telling them not to enter codes from sources that they don’t trust. However, a convincing decoy is sometimes enough to get the victim to read past any warnings. Speaking of which, EvilTokens strips out many of the red flags that people have been taught to notice over the years, including misspelled domain names and fake login pages. The login page is real and, from the
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: EvilTokens: A phishing attack that doesn’t steal your password
-  - Published: 2026-06-15T08:55:00+00:00
-  - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
-  - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
 
 ### Cluster ecad4b1a4b — score 10
 
@@ -2322,6 +2207,94 @@ AI-Powered Exploit Generation: Speed, Scale & Cyber Risk Horizon3.ai June 12, 20
   - Published: 2026-06-12T08:39:51+00:00
   - Link: https://horizon3.ai/intelligence/blogs/ai-exploit-speed-scale/
   - Summary: Learn how AI-powered exploit generation collapses the discovery-to-impact gap, accelerates attack chains, and why exploitability-first validation is now essential.
+
+### Cluster 81b6680cce — score 10
+
+- Title: FishMonger’s arsenal upgraded: SprySOCKS for Windows
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-16T08:54:04+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: education, government
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: government, education
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness
+```
+
+#### Full body
+
+```
+ESET Research FishMonger’s arsenal upgraded: SprySOCKS for Windows ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness ESET Research 16 Jun 2026 • , 30 min. read ESET researchers have discovered two as-yet undocumented Windows variants of SprySOCKS , a previously Linux-only backdoor reportedly used by FishMonger, the group believed to be operated by a Chinese contractor named I‑SOON. While we initially discovered the malware samples on VirusTotal, ESET telemetry shows real activity between 2023 and 2024, with several victims in Honduras, Taiwan, Thailand, and Pakistan, targeting mostly government organizations. The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS . Both come with a hardcoded C&C configuration and support communication over TCP, UDP, and WebSocket protocols. The core backdoor functionality for both includes support for over 30 C&C commands, covering various functionalities including system information collection, process enumeration, as well as service management and file management functions such as listing, creating, deleting, and transferring files. In addition to the core backdoor functionality, the WIN_DRV version utilizes kernel drivers to hide the malware’s network connections, processes, files, and registry keys, and enables TCP traffic diversion allowing the malware operators to send commands to the backdoor through a random TCP port on the victim’s device without exposing the backdoor's real listening port in the network traffic. Based on ESET telemetry, there are limited indications that some SprySOCKS attack scenarios may involve a UEFI bootkit component, possibly exploiting CVE‑2023‑24932. The analysis provided in this report leads us to attribute these new, Windows variants to FishMonger with high confidence. Key points of this blogpost: We discovered two previously undocumented Windows variants of FishMonger’s SprySOCKS backdoor. ESET telemetry shows activity between 2023 and 2024, primarily targeting government organizations in Honduras, Taiwan, Thailand, and Pakistan. Both Windows variants support communication over TCP, UDP, and WebSocket protocols, and implement over 30 commands. The WIN_DRV variant creates a stealthy passive TCP backdoor, relying on a kernel driver to redirect traffic to the backdoor’s hidden TCP port whenever specially crafted data is detected inside a received TCP packet. FishMonger profile FishMonger – believed to be operated by a Chinese contractor named I‑SOON (see our Q4 2023–Q1 2024 APT Activity Report ) – is a cyberespionage group that falls under the Winnti Group umbrella and is most likely operating out of China, from the city of Chengdu. It is also known as Earth Lusca, TAG-22, Aquatic Panda, or Red Dev 10. We published an analysis of FishMonger in early 2020 when it heavily targeted universities in Hong Kong during the civic protests that started in June 2019. The group is also known to operate watering-hole attacks, as reported by Trend Micro . FishMonger’s toolset includes ShadowPad, Spyder, Cobalt Strike, FunnySwitch, SprySOCKS, and the BIOPASS RAT. Technical analysis In this section, we provide a technical analysis of these new, Windows variants of FishMonger’s SprySOCKS backdoor. The archive that led us to this discovery was uploaded to VirusTotal in April 2024 under the name klelam00007.zip ; its contents are shown in Figure 1. Figure 1. Contents of klelam00007.zip as displayed on VirusTotal This archive contains various files, including legitimate ones used to host DLL side-loading, and three suspicious-looking, encrypted files with .dat extensions. Our subsequent analysis revealed that these encrypted files contain a new, previously undocumented Windows variant of FishMonger’s SprySOCKS backdoor, labeled WIN_DRV by its developers. Further investigation revealed an additional backdoor version, labeled WIN_PLUS , in ESET Telemetry. Initial access FishMon
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: FishMonger’s arsenal upgraded: SprySOCKS for Windows
+  - Published: 2026-06-16T08:54:04+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/fishmongers-arsenal-upgraded-sprysocks-windows/
+  - Summary: ESET researchers have discovered SprySOCKS for Windows, FishMonger’s backdoor weaponizing a kernel driver for advanced stealthiness
+
+### Cluster 24585c22c2 — score 10
+
+- Title: EvilTokens: A phishing attack that doesn’t steal your password
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-15T08:55:00+00:00
+- Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- affected_products: Microsoft 365, Microsoft SharePoint
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- affected_products: Microsoft 365, Microsoft SharePoint
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
+```
+
+#### Full body
+
+```
+Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages Christian Ali Bravo 15 Jun 2026 • , 5 min. read Much has been written about how the days of phishing emails laden with broken grammar and crude design are numbered, largely thanks to AI. Meanwhile, EvilTokens offers a somewhat different example of how far the phishing craft has moved. EvilTokens is a phishing-as-a-service (PhaaS) kit built to compromise Microsoft 365 accounts by abusing the OAuth 2.0 device authorization grant flow . As attacks that use the kit rely on device code phishing, they sidestep the need for convincing replicas of genuine login pages where the victims would hand over their passwords. Instead, attackers get the victim to complete a legitimate authentication process – including two-factor authentication (2FA) – on a real Microsoft login page. The toolkit has been advertised via Telegram channels and spotted in active attacks since at least February 2026. As documented by Sekoia and others, the kit appears to have been quickly adopted by cybercriminals and deployed in a number of account takeover and business email compromise (BEC) attacks, including for a campaign targeting more than 340 organizations in several countries in March 2026. Microsoft itself has also described an AI-enabled campaign that used dynamic device-code generation and bespoke lures to increase the success rate of EvilTokens attacks. The inner workings of EvilTokens Here’s a brief overview of how attacks leveraging EvilTokens unfold: The attack itself is preceded by ‘reconnaissance’ where the ne’er-do-wells first verify that the target account is active. Microsoft has seen this reconnaissance run 10 to 15 days ahead of the actual phishing attempt. The victim receives an email or message that’s often dressed up as an invoice, shared document, calendar invite, or SharePoint access request. The lure involves a decoy page impersonating a trusted brand or service, along with simple wording such as “Verify to view” or “Signature required.” When the victim clicks through, the page requests a device code from Microsoft. The code is valid only for 15 minutes, hence time and timing are of the essence here. The page shows the victim the code along and points them to Microsoft’s genuine microsoft.com/devicelogin login portal. The catch is that the code belongs to the attacker’s session, hence the victim unknowingly authorizes the attacker’s device, not their own. Seeing a valid sign-in, Microsoft issues access and refresh tokens to the session opened by the attacker. Once inside, the criminals can access corporate email, files, Teams, SharePoint, OneDrive, and other Microsoft 365 resources and exfiltrate data or prepare BEC attacks, which is why finance, HR, logistics, and sales accounts draw much of the attackers’ interest. What makes EvilTokens dangerous The OAuth device code flow was designed for devices that may be awkward to sign into directly, such as smart TVs or printers. The device displays a short code that the user enters on a Microsoft page on another device, often a smartphone, and completes authentication there. Microsoft then issues access tokens to the device that requested access. That separation is useful, but it leaves room for abuse. Attackers can generate the code and dupe the victim into entering it – all while Microsoft only sees a valid authentication flow. The company does warn users at the moment of sign-in via on-screen text telling them not to enter codes from sources that they don’t trust. However, a convincing decoy is sometimes enough to get the victim to read past any warnings. Speaking of which, EvilTokens strips out many of the red flags that people have been taught to notice over the years, including misspelled domain names and fake login pages. The login page is real and, from the
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: EvilTokens: A phishing attack that doesn’t steal your password
+  - Published: 2026-06-15T08:55:00+00:00
+  - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
+  - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
 
 ### Cluster 5dd3ebabf9 — score 10
 
@@ -2484,7 +2457,7 @@ A newly discovered data leak dubbed "FortiBleed" has exposed what appears to be 
 #### Full body
 
 ```
-FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices. By Lawrence Abrams June 18, 2026 08:54 AM 2 A newly discovered data leak dubbed "FortiBleed" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. The exposed data was first discovered by security researcher Bob Diachenko, who says he found a server containing what appeared to be valid Fortinet VPN credentials, including usernames, email addresses, and plaintext passwords. According to screenshots and information shared by Diachenko, the database contains entries for Chevron, Samsung, Foxconn, Comcast, AT&T, Mercedes-Benz, Toyota, Sinopec, State Grid, and many others. "Massive Fortinet/FortiGate bruteforce/active exploitation campaign uncovered in action," Diachenko posted on LinkedIn . "Thousands of top vendors instances are listed in the files like this (see screenshot). This one alone has 21,634 domain names - from Chevron to Fortinet itself. All - with potentially working passwords to the FortiGate appliances obtained through various menas." The exposed data also included comments listing each organization's industry, revenue, and number of employees, likely for planning attacks. Fortinet credentials found on an exposed server Source: Diachenko Diachenko later shared additional information that claimed the operation was conducted by a Russian-speaking multi-operator threat group that harvested credentials for FortiGate SSL VPN devices. According to Diachenko's investigation, the attackers allegedly conducted approximately 1.16 billion credential attempts against 320,777 FortiGate targets and an additional 2.1 billion attempts against 163,650 Microsoft SQL Server systems. He further claimed the threat actors intercepted SSL VPN authentication hashes, cracked them using a 45-GPU cluster managed through Hashtopolis, and used the recovered credentials to move laterally into internal Active Directory environments. Diachenko told BleepingComputer he obtained these details after analyzing additional files inadvertently exposed on the same server. "They accidentally left an open directory with artefacts, connection strings, tooling, scripts and data online. Analytics obtained via their cron jobs, bash histories, logs etc," Diachenko explained. The researcher also stated that multiple organizations across Japan, Taiwan, Vietnam, Iraq, and Turkey were fully compromised, including a Turkish NATO defense contractor from which classified documents were allegedly stolen. Threat intelligence company Hudson Rock has since published its own analysis of the exposed data after receiving the dataset from Diachenko. The company described the collection as one of the largest known troves of compromised Fortinet-related credentials. According to Hudson Rock, the dataset contains 73,932 unique firewall URLs across 194 countries and impacts 21,632 unique domains. The company says the attackers maintained detailed logs of successful compromises and assembled a database containing verified credentials for organizations across nearly every major industry sector. Among the organizations Hudson Rock says appear in the dataset are Foxconn, Samsung, Comcast, Siemens, Lenovo, PwC, Accenture, Oracle, and numerous government agencies and critical infrastructure operators. The company also released statistics showing that the highest number of affected devices was in India, the United States, Taiwan, Mexico, Turkey, Thailand, Colombia, Malaysia, Chile, and the United Arab Emirates. The most common sectors for the listed companies are telecommunications, IT services, financial services, government organizations, healthcare providers, educational institutions, and manufacturing. One strange aspect of the leak is that many of the exposed credentials were long, complex passwords that would ordinarily be considered difficult to crack. Believed to be extracted from Fortinet configs Cybersecurity researcher Kevin
+FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices. By Lawrence Abrams June 18, 2026 08:54 AM 3 A newly discovered data leak dubbed "FortiBleed" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. The exposed data was first discovered by security researcher Bob Diachenko, who says he found a server containing what appeared to be valid Fortinet VPN credentials, including usernames, email addresses, and plaintext passwords. According to screenshots and information shared by Diachenko, the database contains entries for Chevron, Samsung, Foxconn, Comcast, AT&T, Mercedes-Benz, Toyota, Sinopec, State Grid, and many others. "Massive Fortinet/FortiGate bruteforce/active exploitation campaign uncovered in action," Diachenko posted on LinkedIn . "Thousands of top vendors instances are listed in the files like this (see screenshot). This one alone has 21,634 domain names - from Chevron to Fortinet itself. All - with potentially working passwords to the FortiGate appliances obtained through various menas." The exposed data also included comments listing each organization's industry, revenue, and number of employees, likely for planning attacks. Fortinet credentials found on an exposed server Source: Diachenko Diachenko later shared additional information that claimed the operation was conducted by a Russian-speaking multi-operator threat group that harvested credentials for FortiGate SSL VPN devices. According to Diachenko's investigation, the attackers allegedly conducted approximately 1.16 billion credential attempts against 320,777 FortiGate targets and an additional 2.1 billion attempts against 163,650 Microsoft SQL Server systems. He further claimed the threat actors intercepted SSL VPN authentication hashes, cracked them using a 45-GPU cluster managed through Hashtopolis, and used the recovered credentials to move laterally into internal Active Directory environments. Diachenko told BleepingComputer he obtained these details after analyzing additional files inadvertently exposed on the same server. "They accidentally left an open directory with artefacts, connection strings, tooling, scripts and data online. Analytics obtained via their cron jobs, bash histories, logs etc," Diachenko explained. The researcher also stated that multiple organizations across Japan, Taiwan, Vietnam, Iraq, and Turkey were fully compromised, including a Turkish NATO defense contractor from which classified documents were allegedly stolen. Threat intelligence company Hudson Rock has since published its own analysis of the exposed data after receiving the dataset from Diachenko. The company described the collection as one of the largest known troves of compromised Fortinet-related credentials. According to Hudson Rock, the dataset contains 73,932 unique firewall URLs across 194 countries and impacts 21,632 unique domains. The company says the attackers maintained detailed logs of successful compromises and assembled a database containing verified credentials for organizations across nearly every major industry sector. Among the organizations Hudson Rock says appear in the dataset are Foxconn, Samsung, Comcast, Siemens, Lenovo, PwC, Accenture, Oracle, and numerous government agencies and critical infrastructure operators. The company also released statistics showing that the highest number of affected devices was in India, the United States, Taiwan, Mexico, Turkey, Thailand, Colombia, Malaysia, Chile, and the United Arab Emirates. The most common sectors for the listed companies are telecommunications, IT services, financial services, government organizations, healthcare providers, educational institutions, and manufacturing. One strange aspect of the leak is that many of the exposed credentials were long, complex passwords that would ordinarily be considered difficult to crack. Believed to be extracted from Fortinet configs Cybersecurity researcher Kevin
 ```
 
 #### Corroborating sources (1)
@@ -2494,102 +2467,6 @@ FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices. By Lawrence
   - Published: 2026-06-18T12:54:39+00:00
   - Link: https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/
   - Summary: A newly discovered data leak dubbed "FortiBleed" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]
-
-### Cluster 9a570eb07a — score 10
-
-- Title: F5 issues out-of-band patches for critical NGINX vulnerabilities
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-18T11:33:00+00:00
-- Link: https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, apt_espionage, ddos, ransomware_extortion, zero_day
-- affected_products: Gogs
-- cve_ids: CVE-2026-11311, CVE-2026-42055, CVE-2026-42530, CVE-2026-50107
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, ddos, apt_espionage, active_exploitation
-- affected_products: Gogs
-- cve_ids: CVE-2026-42530, CVE-2026-42055, CVE-2026-11311, CVE-2026-50107
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]
-```
-
-#### Full body
-
-```
-F5 issues out-of-band patches for critical NGINX vulnerabilities By Sergiu Gatlan June 18, 2026 07:33 AM 0 Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. The two critical vulnerabilities were found in the ngx_http_v3_module ( CVE-2026-42530 ) and the ngx_http_proxy_v2_module and ngx_http_grpc_module ( CVE-2026-42055 ), and can be exploited by unauthenticated remote attackers to trigger a denial-of-service (DoS) attack or code execution on NGINX systems with non-default configurations. Successful exploitation causes a use-after-free or heap-based buffer overflow in the NGINX worker process, leading to a restart. In both cases, they can also "execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR." F5 has released security fixes for multiple NGINX software products affected by these two vulnerabilities, including NGINX Plus and NGINX Open Source, NGINX Gateway Fabric, and NGINX Instance Manager. Admins who can't immediately install the security updates can mitigate CVE-2026-42530 by disabling HTTP/3 (removing quic from all listen directives) and CVE-2026-42055 by removing the ignore_invalid_headers off directive from the configuration and reducing the large_client_header_buffers directive size below 2 megabytes. The company also addressed two high-severity NGINX Gateway Fabric security flaws, tracked as CVE-2026-11311 and CVE-2026-50107, that can be exploited by authenticated attackers to inject arbitrary NGINX configuration directives. While F5 didn't flag any of these security issues as exploited in attacks, F5 vulnerabilities have often been exploited by both cybercrime and nation-state threat groups in recent years. For instance, hackers have targeted security flaws in F5 products to breach corporate networks , deploy data-wiping malware , map internal servers , hijack devices , and steal sensitive documents from victims worldwide. F5 also disclosed in October that state-backed attackers breached its systems in August 2025 and stole undisclosed BIG-IP security vulnerabilities and source code. Over the past several years, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged seven F5 vulnerabilities as actively exploited, with four of them targeted in ransomware attacks. F5 is a Fortune 500 technology company that provides cybersecurity, application delivery networking (ADN), and various other services to over 23,000 customers worldwide, including 48 of the Fortune 50 companies and 80% of the Fortune Global 500. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: 18-year-old NGINX vulnerability allows DoS, potential RCE CISA orders feds to patch max severity Joomla plugin flaw by Friday New Veeam vulnerability exposes backup servers to RCE attacks Gogs patches critical zero-day enabling remote code execution New Gogs zero-day flaw lets hackers get remote code execution
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: F5 issues out-of-band patches for critical NGINX vulnerabilities
-  - Published: 2026-06-18T11:33:00+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
-  - Summary: Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]
-
-### Cluster 7b9eea63df — score 10
-
-- Title: Critical Command Execution Vulnerability Patched in Cisco ISE
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-18T10:27:14+00:00
-- Link: https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, ransomware_extortion, supply_chain, zero_day
-- affected_industries: financial_services
-- affected_products: LiteSpeed
-- cve_ids: CVE-2026-20181, CVE-2026-20190
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day, ddos, active_exploitation
-- affected_industries: financial_services
-- affected_products: LiteSpeed
-- cve_ids: CVE-2026-20181, CVE-2026-20190
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Cisco has released fixes for a critical-severity command execution vulnerability in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC). Tracked as CVE-2026-20181 (CVSS score of 9.1), the issue exists because user-supplied input is improperly validated, allowing an attacker to send a crafted HTTP request and obtain user-level access to the underlying operating system. The attacker could then elevate their privileges to root. “A vulnerability in Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid administrative credentials,” Cisco explains . In single-node deployments, an attacker could exploit the flaw to cause a denial-of-service (DoS) condition, preventing endpoints that have not already authenticated from accessing the network until the node is restored. The bug was addressed with the release of ISE and ISE-PIC versions 3.3 Patch 11 and 3.4 Patch 6. A hotfix for ISE version 3.5 is also available and will be included in version 3.5 Patch 4 in August. The updates also address a high-severity information disclosure defect, tracked as CVE-2026-20190, which could allow unauthenticated attackers to access sensitive data, such as hashed credentials. Advertisement. Scroll to continue reading. On Wednesday, Cisco also released fixes for medium-severity vulnerabilities in the Webex App, the Umbrella Virtual Appliance, and the Crosswork Network Controller that could lead to malicious redirects, privilege escalation, and arbitrary command execution. The company says it is not aware of any of these security flaws being exploited in the wild. Additional information can be found on Cisco’s security advisories page. Related: Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Related: Tech Coalition ‘Athena’ Targets OSS Vulnerabilities Ahead of Disclosure Related: Juniper Networks PTX Routers Affected by Critical Vulnerability Related: Imunify360 Vulnerability Could Expose Millions of Sites to Hacking Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Magnitude Emerges From Stealth Mode With $10 Million in Funding Cybercrime Group Claims Novo Nordisk Hack White House Issues Memo to Bolster NSS Cybersecurity Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Latest News Majority of Internet-Accessible REDCap Servers Outdated Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 Billion OT Cybersecurity Push No Exploits Required Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Rokarolla Banking Trojan Targets 200 Applications F5 Patches Critical, High-Severity NGINX Vulnerabilities SailPoint to Acquire Entro in Reported $200 Million Deal Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities fast
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Critical Command Execution Vulnerability Patched in Cisco ISE
-  - Published: 2026-06-18T10:27:14+00:00
-  - Link: https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
-  - Summary: Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek .
 
 ### Cluster 6f5c02b68b — score 10
 
@@ -2888,6 +2765,102 @@ Back to Blog Security Operations NIS2 is raising the bar. Here’s how to turn r
   - Published: 2026-06-15T17:29:15+00:00
   - Link: https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience
   - Summary: The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be covered, raises expectations around management body accountability, introduces clearer and more enforceable requirements, and increases pressure on organizations to show that security is being managed in a consistent, defensible way. Reporting timelines are one of the most visible parts of that shift, with early warning required within 24 hours of awareness for significant incidents, incident notification within 72 hours, and a final report within one month. It also arrived in a landscape that is still uneven, with member states continuing to implement the directive in different ways across the EU. That combination has created a familiar challenge for CISOs and security teams, as the questions coming from boards and leadership are no longer just about whether the organization understands the re
+
+### Cluster 9a570eb07a — score 9
+
+- Title: F5 issues out-of-band patches for critical NGINX vulnerabilities
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-18T11:33:00+00:00
+- Link: https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, apt_espionage, ddos, ransomware_extortion, zero_day
+- affected_products: Gogs
+- cve_ids: CVE-2026-11311, CVE-2026-42055, CVE-2026-42530, CVE-2026-50107
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, ddos, apt_espionage, active_exploitation
+- affected_products: Gogs
+- cve_ids: CVE-2026-42530, CVE-2026-42055, CVE-2026-11311, CVE-2026-50107
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]
+```
+
+#### Full body
+
+```
+F5 issues out-of-band patches for critical NGINX vulnerabilities By Sergiu Gatlan June 18, 2026 07:33 AM 0 Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. The two critical vulnerabilities were found in the ngx_http_v3_module ( CVE-2026-42530 ) and the ngx_http_proxy_v2_module and ngx_http_grpc_module ( CVE-2026-42055 ), and can be exploited by unauthenticated remote attackers to trigger a denial-of-service (DoS) attack or code execution on NGINX systems with non-default configurations. Successful exploitation causes a use-after-free or heap-based buffer overflow in the NGINX worker process, leading to a restart. In both cases, they can also "execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR." F5 has released security fixes for multiple NGINX software products affected by these two vulnerabilities, including NGINX Plus and NGINX Open Source, NGINX Gateway Fabric, and NGINX Instance Manager. Admins who can't immediately install the security updates can mitigate CVE-2026-42530 by disabling HTTP/3 (removing quic from all listen directives) and CVE-2026-42055 by removing the ignore_invalid_headers off directive from the configuration and reducing the large_client_header_buffers directive size below 2 megabytes. The company also addressed two high-severity NGINX Gateway Fabric security flaws, tracked as CVE-2026-11311 and CVE-2026-50107, that can be exploited by authenticated attackers to inject arbitrary NGINX configuration directives. While F5 didn't flag any of these security issues as exploited in attacks, F5 vulnerabilities have often been exploited by both cybercrime and nation-state threat groups in recent years. For instance, hackers have targeted security flaws in F5 products to breach corporate networks , deploy data-wiping malware , map internal servers , hijack devices , and steal sensitive documents from victims worldwide. F5 also disclosed in October that state-backed attackers breached its systems in August 2025 and stole undisclosed BIG-IP security vulnerabilities and source code. Over the past several years, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged seven F5 vulnerabilities as actively exploited, with four of them targeted in ransomware attacks. F5 is a Fortune 500 technology company that provides cybersecurity, application delivery networking (ADN), and various other services to over 23,000 customers worldwide, including 48 of the Fortune 50 companies and 80% of the Fortune Global 500. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: 18-year-old NGINX vulnerability allows DoS, potential RCE CISA orders feds to patch max severity Joomla plugin flaw by Friday New Veeam vulnerability exposes backup servers to RCE attacks Gogs patches critical zero-day enabling remote code execution New Gogs zero-day flaw lets hackers get remote code execution
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: F5 issues out-of-band patches for critical NGINX vulnerabilities
+  - Published: 2026-06-18T11:33:00+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/
+  - Summary: Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]
+
+### Cluster 7b9eea63df — score 9
+
+- Title: Critical Command Execution Vulnerability Patched in Cisco ISE
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-18T10:27:14+00:00
+- Link: https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, ddos, ransomware_extortion, supply_chain, zero_day
+- affected_industries: financial_services
+- affected_products: LiteSpeed
+- cve_ids: CVE-2026-20181, CVE-2026-20190
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, zero_day, ddos, active_exploitation
+- affected_industries: financial_services
+- affected_products: LiteSpeed
+- cve_ids: CVE-2026-20181, CVE-2026-20190
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Cisco has released fixes for a critical-severity command execution vulnerability in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC). Tracked as CVE-2026-20181 (CVSS score of 9.1), the issue exists because user-supplied input is improperly validated, allowing an attacker to send a crafted HTTP request and obtain user-level access to the underlying operating system. The attacker could then elevate their privileges to root. “A vulnerability in Cisco ISE and ISE-PIC could allow an authenticated, remote attacker to execute arbitrary commands on the underlying operating system of an affected device. To exploit this vulnerability, the attacker must have valid administrative credentials,” Cisco explains . In single-node deployments, an attacker could exploit the flaw to cause a denial-of-service (DoS) condition, preventing endpoints that have not already authenticated from accessing the network until the node is restored. The bug was addressed with the release of ISE and ISE-PIC versions 3.3 Patch 11 and 3.4 Patch 6. A hotfix for ISE version 3.5 is also available and will be included in version 3.5 Patch 4 in August. The updates also address a high-severity information disclosure defect, tracked as CVE-2026-20190, which could allow unauthenticated attackers to access sensitive data, such as hashed credentials. Advertisement. Scroll to continue reading. On Wednesday, Cisco also released fixes for medium-severity vulnerabilities in the Webex App, the Umbrella Virtual Appliance, and the Crosswork Network Controller that could lead to malicious redirects, privilege escalation, and arbitrary command execution. The company says it is not aware of any of these security flaws being exploited in the wild. Additional information can be found on Cisco’s security advisories page. Related: Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Related: Tech Coalition ‘Athena’ Targets OSS Vulnerabilities Ahead of Disclosure Related: Juniper Networks PTX Routers Affected by Critical Vulnerability Related: Imunify360 Vulnerability Could Expose Millions of Sites to Hacking Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Magnitude Emerges From Stealth Mode With $10 Million in Funding Cybercrime Group Claims Novo Nordisk Hack White House Issues Memo to Bolster NSS Cybersecurity Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Latest News Majority of Internet-Accessible REDCap Servers Outdated Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 Billion OT Cybersecurity Push No Exploits Required Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Rokarolla Banking Trojan Targets 200 Applications F5 Patches Critical, High-Severity NGINX Vulnerabilities SailPoint to Acquire Entro in Reported $200 Million Deal Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities fast
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Critical Command Execution Vulnerability Patched in Cisco ISE
+  - Published: 2026-06-18T10:27:14+00:00
+  - Link: https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/
+  - Summary: Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek .
 
 ### Cluster e95ce78b9a — score 9
 
@@ -3224,55 +3197,6 @@ AI in the underground: Curiosity, claims, and concerns Amid discussions about ho
   - Published: 2026-06-15T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
-### Cluster 1660b1baf0 — score 8
-
-- Title: F5 Patches Critical, High-Severity NGINX Vulnerabilities
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-18T09:39:24+00:00
-- Link: https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos, ransomware_extortion, supply_chain, zero_day
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: LiteSpeed
-- cve_ids: CVE-2026-11311, CVE-2026-42055, CVE-2026-42530, CVE-2026-50107
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day, ddos, active_exploitation
-- affected_industries: financial_services, manufacturing_industrial
-- affected_products: LiteSpeed
-- cve_ids: CVE-2026-42530, CVE-2026-42055, CVE-2026-11311, CVE-2026-50107
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-F5 on Wednesday released out-of-band security updates to resolve multiple NGINX vulnerabilities, including critical flaws that could lead to code execution. The most severe are CVE-2026-42530 and CVE-2026-42055 (CVSS score of 9.2), two bugs affecting HTTP modules that could be exploited without authentication to trigger a use-after-free or a heap-based buffer overflow, respectively. Successful exploitation of these issues would result in the NGINX worker process restarting, causing a denial-of-service (DoS) condition. If Address Space Layout Randomization (ASLR) is disabled or can be bypassed, the attacker can execute arbitrary code. F5 has released updated versions of NGINX Plus, NGINX Open Source, and NGINX Gateway Fabric that address these security defects. The company also rolled out fixes for CVE-2026-11311 and CVE-2026-50107, two high-severity vulnerabilities in NGINX Gateway Fabric that could allow authenticated attackers to inject arbitrary NGINX configuration directives. “Successful exploitation may allow the attacker to expose sensitive data from the NGINX pod filesystem, proxy traffic to attacker-controlled endpoints, or cause a denial-of-service (DoS) condition by injecting configuration that prevents NGINX from reloading,” F5 explains. Advertisement. Scroll to continue reading. Additionally, the cybersecurity company announced patches for two medium-severity NGINX flaws that allow remote attackers to disclose memory contents or restart the NGINX worker process, or cause a DoS condition. F5 makes no mention of any of these vulnerabilities being exploited in the wild, but it’s important that users install the patches as NGINX has recently been targeted in attacks . Additional information can be found in the company’s security notification . Related: Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Related: Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Related: Oracle’s Second Monthly Security Updates Deliver 245 Patches Related: Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Magnitude Emerges From Stealth Mode With $10 Million in Funding Cybercrime Group Claims Novo Nordisk Hack White House Issues Memo to Bolster NSS Cybersecurity Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Latest News Majority of Internet-Accessible REDCap Servers Outdated Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 Billion OT Cybersecurity Push No Exploits Required Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Rokarolla Banking Trojan Targets 200 Applications Critical Command Execution Vulnerability Patched in Cisco ISE SailPoint to Acquire Entro in Reported $200 Million Deal Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities faster, while defenders are
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: F5 Patches Critical, High-Severity NGINX Vulnerabilities
-  - Published: 2026-06-18T09:39:24+00:00
-  - Link: https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/
-  - Summary: Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek .
-
 ### Cluster 413334a687 — score 8
 
 - Title: How software development’s speed obsession enabled TeamPCP’s chaos crusade
@@ -3307,7 +3231,7 @@ The threat group’s remarkable success targeting open-source software was inevi
 #### Full body
 
 ```
-Advertisement Subscribe to our daily newsletter. Subscribe Close TeamPCP is on a rampage through open-source software. In less than four months, the threat actor has compromised and injected malicious code into more than 1,000 software packages. The extraordinary spree has transformed how software developers and maintainers distribute and manage their code, as their dependencies and repositories have become one of the most effective and prevalent attack vectors this year. While there has been a host of technical exploits, TeamPCP’s greatest attack has been the uprooting of trust — repeatedly proving that most organizations fail to verify the code they ingest into their systems is legitimate, abusing a nearly blind faith that much of the software development industry relies on to power today’s modern economy. Starting with Trivy in February , TeamPCP’s attacks have shaken that trust many times over. Advertisement The scale of TeamPCP’s attacks lies partly in the automated systems companies use to deploy code, like CI/CD pipelines. It is also capitalizing on new security gaps created by developers’ increasing reliance on AI. Yet, with relatively low effort and unoriginal tactics, TeamPCP is wrecking open-source frameworks and underlying systems at levels the technology community has rarely reckoned with. “Developers didn’t do a great job of analyzing the security of their open-source dependencies before but, now with AI, there’s in some cases virtually no human in the loop or any kind of sanity check on what these tools are doing,” Feross Aboukhadijeh, founder and CEO at Socket, told CyberScoop. “You have agents installing packages that haven’t been vetted,” he said. “When an attacker gets in, the impact is even broader because there’s less checks and balances to stop it from affecting everybody.” TeamPCP hasn’t identified a new problem or proved anything novel. The crux of these attacks hinge on a central theme — defensive vulnerabilities the entire software industry has known about for years. Researchers and developers know the open source trust model is broken and susceptible to sabotage. Yet, the software industry has not fixed this problem. “The speed and scale of these attacks is what makes it most notable, not necessarily the methodology behind it, because at the core it is really about exploiting third-party trusts that we have,” said Kimberly Goody, senior manager at Google Threat Intelligence Group. Advertisement Software packages are typically subjected to intensive security monitoring to test for vulnerabilities and poisoned updates before they are released to live environments. Yet, the real vulnerability highlighted by TeamPCP lies further up the chain of the command with the organizations or individuals that publish these packages to the wider market, according to Nathaniel Quist, manager of cloud threat intelligence at Palo Alto Networks. “It is their responsibility to secure their credentials and not provide a jump off point to trigger a supply-chain event,” he said. “Everything that interacts with or crosses through that zone must be highly monitored and controlled to ensure a compromise can be contained quickly and easily.” TeamPCP’s motivation TeamPCP, like any prolific cybercriminal, has captured significant attention from threat hunters since it emerged in late 2025. Google attributes the activity to one core operator. Advertisement The company said it traced TeamPCP’s residential and mobile IP address connections to South Africa, indicating the primary operator was located there during at least some of its attacks. “We don’t believe that there’s an established core group, at least not yet, and that a lot of this has been conducted by an individual,” Goody said. Google declined to name the core operator or confirm it knows the person’s true identity. Palo Alto Networks said the core manager of TeamPCP uses the “ResoluteXBF” handle on multiple platforms. The cybersecurity firm is also tracking two additional
+Advertisement Subscribe to our daily newsletter. Subscribe Close TeamPCP is on a rampage through open-source software. In less than four months, the threat actor has compromised and injected malicious code into more than 1,000 software packages. The extraordinary spree has transformed how software developers and maintainers distribute and manage their code, as their dependencies and repositories have become one of the most effective and prevalent attack vectors this year. While there has been a host of technical exploits, TeamPCP’s greatest attack has been the uprooting of trust — repeatedly proving that most organizations fail to verify the code they ingest into their systems is legitimate, abusing a nearly blind faith that much of the software development industry relies on to power today’s modern economy. Starting with Trivy in February , TeamPCP’s attacks have shaken that trust many times over. Advertisement The scale of TeamPCP’s attacks lies partly in the automated systems companies use to deploy code, like CI/CD pipelines. It is also capitalizing on new security gaps created by developers’ increasing reliance on AI. Yet, with relatively low effort and unoriginal tactics, TeamPCP is wrecking open-source frameworks and underlying systems at levels the technology community has rarely reckoned with. “Developers didn’t do a great job of analyzing the security of their open-source dependencies before but, now with AI, there’s in some cases virtually no human in the loop or any kind of sanity check on what these tools are doing,” Feross Aboukhadijeh, founder and CEO at Socket, told CyberScoop. “You have agents installing packages that haven’t been vetted,” he said. “When an attacker gets in, the impact is even broader because there’s less checks and balances to stop it from affecting everybody.” TeamPCP hasn’t identified a new problem or proved anything novel. The crux of these attacks hinge on a central theme — defensive vulnerabilities the entire software industry has known about for years. Researchers and developers know the open source trust model is broken and susceptible to sabotage. Yet, the software industry has not fixed this problem. “The speed and scale of these attacks is what makes it most notable, not necessarily the methodology behind it, because at the core it is really about exploiting third-party trusts that we have,” said Kimberly Goody, senior manager at Google Threat Intelligence Group. Advertisement Software packages are typically subjected to intensive security monitoring to test for vulnerabilities and poisoned updates before they are released to live environments. Yet, the real vulnerability highlighted by TeamPCP lies further up the chain of command with the organizations or individuals that publish these packages to the wider market, according to Nathaniel Quist, manager of cloud threat intelligence at Palo Alto Networks. “It is their responsibility to secure their credentials and not provide a jump off point to trigger a supply-chain event,” he said. “Everything that interacts with or crosses through that zone must be highly monitored and controlled to ensure a compromise can be contained quickly and easily.” TeamPCP’s motivation TeamPCP, like any prolific cybercriminal, has captured significant attention from threat hunters since it emerged in late 2025. Google attributes the activity to one core operator. Advertisement The company said it traced TeamPCP’s residential and mobile IP address connections to South Africa, indicating the primary operator was located there during at least some of its attacks. “We don’t believe that there’s an established core group, at least not yet, and that a lot of this has been conducted by an individual,” Goody said. Google declined to name the core operator or confirm it knows the person’s true identity. Palo Alto Networks said the core manager of TeamPCP uses the “ResoluteXBF” handle on multiple platforms. The cybersecurity firm is also tracking two additional cor
 ```
 
 #### Corroborating sources (1)

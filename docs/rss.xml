@@ -4,9 +4,9 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 18 Jun 2026 21:25:20 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 23:51:09 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -18,6 +18,25 @@
 <source url="https://www.elastic.co/security-labs/rss/feed.xml">Elastic Security Labs</source>
 <category>detection_response_operations</category>
 <category>credential_theft</category>
+</item>
+<item>
+<title>Gentlemen ransomware uses multiple EDR killers to disable defenses</title>
+<link>https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/</link>
+<description><![CDATA[The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Thu, 18 Jun 2026 22:31:52 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
+<item>
+<title>Authorities disrupt Evil Corp’s SocGholish botnet</title>
+<link>https://cyberscoop.com/socgholish-malware-botnet-takedown-evilcorp/</link>
+<description><![CDATA[Cybersecurity firms, researchers and officials took down 106 servers and remediated nearly 15,000 sites that were infected with the malware. The post Authorities disrupt Evil Corp’s SocGholish botnet appeared first on CyberScoop .]]></description>
+<pubDate>Thu, 18 Jun 2026 22:03:32 +0000</pubDate>
+<guid isPermaLink="true">https://cyberscoop.com/socgholish-malware-botnet-takedown-evilcorp/</guid>
+<source url="https://cyberscoop.com/feed/">CyberScoop</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Novo Nordisk Breach Exposes Software Development Pipeline Risk</title>
@@ -419,15 +438,11 @@
 <item>
 <title>F5 Patches Critical, High-Severity NGINX Vulnerabilities</title>
 <link>https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/</link>
-<description><![CDATA[Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek .<br/><br/><em>Tags: LiteSpeed · CVE-2026-42530 · CVE-2026-42055 · CVE-2026-11311 · CVE-2026-50107 · ransomware_extortion · supply_chain · zero_day</em>]]></description>
+<description><![CDATA[Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek .]]></description>
 <pubDate>Thu, 18 Jun 2026 09:39:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
-<category>LiteSpeed</category>
-<category>CVE-2026-42530</category>
-<category>CVE-2026-42055</category>
-<category>CVE-2026-11311</category>
 </item>
 <item>
 <title>Hostile States Behind 75% of Cyber-Attacks on UK Critical Infrastructure, NCSC Warns</title>
@@ -533,16 +548,6 @@
 <category>cloud_identity_infrastructure</category>
 <category>Microsoft Entra</category>
 <category>APT29</category>
-</item>
-<item>
-<title>Claude Fable 5: the agent harness matters more than the frontier model</title>
-<link>https://www.reddit.com/r/netsec/comments/1u8qbbt/claude_fable_5_the_agent_harness_matters_more/</link>
-<description><![CDATA[Before it got yanked, Endor Labs ran Claude Fable 5 through two agent harnesses, Claude Code and Cursor, on 200 real-world vulnerability-fixing tasks inside actual projects. Cursor with Fable 5: 72.6% FuncPass 29.0% SecPass Claude Code with Fable 5: 59.8% FuncPass 19.0% SecPass Both harnesses produced working code. The gap came down to patch completeness. Cursor consistently steered the model to close every vulnerable sink. Claude Code produced working patches, just not always secure ones. Tons of hype around new model releases these days, but the takeaway seems to be that the agent harness matters much more than the model itself. submitted by /u/bugvader25 [link] [comments]<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Wed, 17 Jun 2026 23:35:52 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u8qbbt/claude_fable_5_the_agent_harness_matters_more/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Anthropic/Claude</category>
 </item>
 <item>
 <title>Crypto Clipper uses Tor and worm-like propagation for persistence and control</title>
@@ -1653,16 +1658,6 @@
 <category>Anthropic/Claude</category>
 </item>
 <item>
-<title>Anthropic disables new models after government calls them a national security concern</title>
-<link>https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/</link>
-<description><![CDATA[The Commerce Department’s expert control decree led to the company shutting off access to Fable 5 and Mythos 5 worldwide, drawing sharp criticism from researchers and industry analysts. The post Anthropic disables new models after government calls them a national security concern appeared first on CyberScoop .<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
-<pubDate>Sat, 13 Jun 2026 18:29:36 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/us-government-anthropic-fable-5-mythos-5-export-controls/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>Anthropic/Claude</category>
-</item>
-<item>
 <title>Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication</title>
 <link>https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html</link>
 <description><![CDATA[Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. &quot;In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary<br/><br/><em>Tags: CVE-2026-20253</em>]]></description>
@@ -1965,6 +1960,24 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
+</item>
+<item>
+<title>Claude Fable is relentlessly proactive</title>
+<link>https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything</link>
+<description><![CDATA[After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I&apos;ll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn&apos;t be there in the jump menu chat prompt. I snapped this screenshot: Then I started a fresh claude session in my datasette-agent checkout, dragged in the screenshot and told it: Look at dependencies to help figure out why there is a horizontal scrollbar here I had a hunch the cause was in a dependency of Datasette Agent (likely Datasette itself) and I knew Fable was good at digging into dependency code, either by inspecting installed files in its own virtual environment site-packages or by referencing a local checkout on disk. Telling it to start with dependencies felt like a good bet. I got distracted by a domestic task and wandered away from my c]]></description>
+<pubDate>Thu, 11 Jun 2026 23:35:17 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>AI Threat Readiness Pillar 3: Perform AI Code Analysis Natively in Wiz</title>
+<link>https://www.wiz.io/blog/ai-threat-readiness-pillar-3</link>
+<description><![CDATA[Your guide to operationalizing AI-powered code analysis with Wiz to stay ahead of AI driven development and adversaries]]></description>
+<pubDate>Thu, 11 Jun 2026 22:17:33 +0000</pubDate>
+<guid isPermaLink="true">https://www.wiz.io/blog/ai-threat-readiness-pillar-3</guid>
+<source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
+<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities</title>
@@ -3008,6 +3021,15 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
+<title>WinGet - Code Execution, Persistence and Detection Strategies</title>
+<link>https://www.reddit.com/r/netsec/comments/1u13ff7/winget_code_execution_persistence_and_detection/</link>
+<description><![CDATA[submitted by /u/netbiosX [link] [comments]]]></description>
+<pubDate>Tue, 09 Jun 2026 12:22:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u13ff7/winget_code_execution_persistence_and_detection/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Google Releases Patch for Chrome Vulnerability Exploited in the Wild</title>
 <link>https://www.infosecurity-magazine.com/news/google-patch-chrome-vulnerability/</link>
 <description><![CDATA[The flaw, CVE-2026-11645, can allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page<br/><br/><em>Tags: CVE-2026-11645 · active_exploitation</em>]]></description>
@@ -3348,15 +3370,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>[webapps] OpenEMR 7.0.2 - Arbitrary File Read</title>
-<link>https://www.exploit-db.com/exploits/52610</link>
-<description><![CDATA[OpenEMR 7.0.2 - Arbitrary File Read]]></description>
-<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52610</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>May 2026 CVE Landscape</title>
 <link>https://www.recordedfuture.com/blog/may-2026-cve-landscape</link>
 <description><![CDATA[In May 2026, Insikt Group® identified 41 high-impact vulnerabilities that should be prioritized for remediation, all of which had a Very Critical Recorded Future Risk Score. This represents a 11% increase from last month.]]></description>
@@ -3498,16 +3511,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS573/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection</title>
-<link>https://www.exploit-db.com/exploits/52609</link>
-<description><![CDATA[WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52609</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>WordPress</category>
 </item>
 <item>
 <title>Why Holistic Sourcing Wins: The Numbers Behind the Recorded Future Advantage</title>
@@ -4501,26 +4504,6 @@
 <category>active_exploitation</category>
 </item>
 <item>
-<title>[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection</title>
-<link>https://www.exploit-db.com/exploits/52608</link>
-<description><![CDATA[Drupal Core 10.5.5 - Error-Based SQL Injection<br/><br/><em>Tags: Drupal</em>]]></description>
-<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52608</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>Drupal</category>
-</item>
-<item>
-<title>[webapps] WordPress OrderConvo 14 - Path Traversal</title>
-<link>https://www.exploit-db.com/exploits/52607</link>
-<description><![CDATA[WordPress OrderConvo 14 - Path Traversal<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52607</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>WordPress</category>
-</item>
-<item>
 <title>Sponsored: Inside CISA&apos;s disastrous secrets leak</title>
 <link>https://risky.biz/RBNEWSSI130/</link>
 <description><![CDATA[In this sponsored interview Casey Ellis chats with Truffle Security’s founder and CEO Dylan Ayrey about the recent CISA secrets leak. Days after Brian Krebs ran the story, plenty of the exposed credentials were still live, including an admin-level GitHub app key with full rights over CISA’s org. Dylan walks through why deleting the repo doesn’t fix anything, why most cloud vendors won’t hard-revoke exposed keys (OpenAI and Slack will; AWS, Google and friends mostly won’t), why Hugging Face datasets now hold more secrets than GitHub itself, and what the next generation of multi-provider credential-harvesting supply chain worms is going to look like.<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -4529,42 +4512,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>[remote] Notepad++ 8.9.6 - Arbitrary Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52606</link>
-<description><![CDATA[Notepad++ 8.9.6 - Arbitrary Code Execution]]></description>
-<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52606</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] YAMCS yamcs-core 5.12.7 - No Rate Limiting</title>
-<link>https://www.exploit-db.com/exploits/52605</link>
-<description><![CDATA[YAMCS yamcs-core 5.12.7 - No Rate Limiting]]></description>
-<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52605</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] YAMCS yamcs-core 5.12.7 - User Enumeration</title>
-<link>https://www.exploit-db.com/exploits/52604</link>
-<description><![CDATA[YAMCS yamcs-core 5.12.7 - User Enumeration]]></description>
-<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52604</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] YAMCS yamcs-core 5.12.7 - LDAP Injection</title>
-<link>https://www.exploit-db.com/exploits/52603</link>
-<description><![CDATA[YAMCS yamcs-core 5.12.7 - LDAP Injection]]></description>
-<pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52603</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Metasploit Wrap Up 05/29/2026</title>
@@ -4696,143 +4643,6 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>Gogs</category>
-</item>
-<item>
-<title>[remote] Microsoft - NTLMv2 Hash Capture</title>
-<link>https://www.exploit-db.com/exploits/52601</link>
-<description><![CDATA[Microsoft - NTLMv2 Hash Capture]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52601</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] MikroORM 7.0.13 - SQL Injection</title>
-<link>https://www.exploit-db.com/exploits/52600</link>
-<description><![CDATA[MikroORM 7.0.13 - SQL Injection]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52600</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Prodigy Commerce 3.3.0 - Local File Inclusion</title>
-<link>https://www.exploit-db.com/exploits/52598</link>
-<description><![CDATA[Prodigy Commerce 3.3.0 - Local File Inclusion]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52598</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Langflow 1.3.0 - Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52597</link>
-<description><![CDATA[Langflow 1.3.0 - Remote Code Execution]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52597</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52596</link>
-<description><![CDATA[Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52596</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion</title>
-<link>https://www.exploit-db.com/exploits/52595</link>
-<description><![CDATA[ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52595</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] ZTE Routers - Unauthenticated Denial of Service</title>
-<link>https://www.exploit-db.com/exploits/52594</link>
-<description><![CDATA[ZTE Routers - Unauthenticated Denial of Service<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52594</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>ddos</category>
-</item>
-<item>
-<title>[local] ZTE ZXHN H188A V6 - Authentication Bypass</title>
-<link>https://www.exploit-db.com/exploits/52593</link>
-<description><![CDATA[ZTE ZXHN H188A V6 - Authentication Bypass]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52593</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] ZTE H298A / H108N - Unauthenticated Credential Exposure</title>
-<link>https://www.exploit-db.com/exploits/52592</link>
-<description><![CDATA[ZTE H298A / H108N - Unauthenticated Credential Exposure]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52592</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] Linux Kernel - Local Privilege Escalation</title>
-<link>https://www.exploit-db.com/exploits/52591</link>
-<description><![CDATA[Linux Kernel - Local Privilege Escalation<br/><br/><em>Tags: Linux kernel</em>]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52591</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>Linux kernel</category>
-</item>
-<item>
-<title>[webapps] MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52590</link>
-<description><![CDATA[MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52590</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[remote] Wing FTP Server 8.1.3 - Authenticated Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52589</link>
-<description><![CDATA[Wing FTP Server 8.1.3 - Authenticated Remote Code Execution]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52589</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] CubeCart &lt; 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)</title>
-<link>https://www.exploit-db.com/exploits/52588</link>
-<description><![CDATA[CubeCart &lt; 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52588</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[remote] strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow</title>
-<link>https://www.exploit-db.com/exploits/52587</link>
-<description><![CDATA[strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52587</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[dos] strongSwan 5.9.13 - DoS</title>
-<link>https://www.exploit-db.com/exploits/52586</link>
-<description><![CDATA[strongSwan 5.9.13 - DoS]]></description>
-<pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52586</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Why and how to migrate to a Transit Gateway-attached AWS Network Firewall</title>
@@ -5131,15 +4941,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>What CISOs want from Cyber Threat Intelligence</title>
-<link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
-<description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
-<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
-<source url="https://intel471.com/blog/feed">Intel 471</source>
-<category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
 <title>All Major LLMs Exposed to Multi-Turn Manipulation, Warn Researchers</title>
 <link>https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</link>
 <description><![CDATA[]]></description>
@@ -5147,6 +4948,15 @@
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/all-major-llms-exposed-to-multi/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>What CISOs want from Cyber Threat Intelligence</title>
+<link>https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</link>
+<description><![CDATA[The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.]]></description>
+<pubDate>Wed, 27 May 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence</guid>
+<source url="https://intel471.com/blog/feed">Intel 471</source>
+<category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
 <title>Investigating suspicious AI workflows in Microsoft Entra Agent ID: Autonomous agents</title>
@@ -5238,70 +5048,6 @@
 <guid isPermaLink="true">https://risky.biz/RBNEWS569/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>[local] Linux Kernel - Local Privilege Escalation</title>
-<link>https://www.exploit-db.com/exploits/52585</link>
-<description><![CDATA[Linux Kernel - Local Privilege Escalation<br/><br/><em>Tags: Linux kernel</em>]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52585</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>Linux kernel</category>
-</item>
-<item>
-<title>[webapps] Casdoor 3.54.1 - Arbitrary File Write via Path Traversal</title>
-<link>https://www.exploit-db.com/exploits/52584</link>
-<description><![CDATA[Casdoor 3.54.1 - Arbitrary File Write via Path Traversal]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52584</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] EspoCRM 9.3.3 - SSRF</title>
-<link>https://www.exploit-db.com/exploits/52583</link>
-<description><![CDATA[EspoCRM 9.3.3 - SSRF]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52583</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] scramble - Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52582</link>
-<description><![CDATA[scramble - Remote Code Execution]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52582</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[hardware] MeiG Smart FORGE_SLT711 - OS Command Injection</title>
-<link>https://www.exploit-db.com/exploits/52581</link>
-<description><![CDATA[MeiG Smart FORGE_SLT711 - OS Command Injection]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52581</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] Realtek rtl819x - Local Privilege</title>
-<link>https://www.exploit-db.com/exploits/52580</link>
-<description><![CDATA[Realtek rtl819x - Local Privilege]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52580</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] OpenCATS 0.9.7.4 - SQL Injection</title>
-<link>https://www.exploit-db.com/exploits/52579</link>
-<description><![CDATA[OpenCATS 0.9.7.4 - SQL Injection]]></description>
-<pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52579</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>Runtime security without privileged containers: Fast-tracking compliance with least privilege controls</title>
@@ -5412,64 +5158,6 @@
 <guid isPermaLink="true">https://trustedsec.com/blog/pci-dss-telephone-payments-and-the-problems-with-voip</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>[webapps] Grav CMS 2.0.0-beta.2 - Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52578</link>
-<description><![CDATA[Grav CMS 2.0.0-beta.2 - Remote Code Execution]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52578</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Apache HTTP Server 2.4.66 - &apos;mod_http2&apos; Double-Free Denial of Service</title>
-<link>https://www.exploit-db.com/exploits/52577</link>
-<description><![CDATA[Apache HTTP Server 2.4.66 - &apos;mod_http2&apos; Double-Free Denial of Service<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52577</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>ddos</category>
-</item>
-<item>
-<title>[hardware] D-Link DSL2600U - &apos;rom-0&apos; Admin Password Disclosure</title>
-<link>https://www.exploit-db.com/exploits/52576</link>
-<description><![CDATA[D-Link DSL2600U - &apos;rom-0&apos; Admin Password Disclosure]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52576</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Wordpress Temporary Login Plugin 1.0.0 - &apos;temp-login-token&apos; Authentication Bypass to Account Takeover</title>
-<link>https://www.exploit-db.com/exploits/52575</link>
-<description><![CDATA[Wordpress Temporary Login Plugin 1.0.0 - &apos;temp-login-token&apos; Authentication Bypass to Account Takeover<br/><br/><em>Tags: WordPress</em>]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52575</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>WordPress</category>
-</item>
-<item>
-<title>[webapps] cPanel - CRLF Injection</title>
-<link>https://www.exploit-db.com/exploits/52574</link>
-<description><![CDATA[cPanel - CRLF Injection<br/><br/><em>Tags: cPanel</em>]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52574</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>cPanel</category>
-</item>
-<item>
-<title>[local] Linux Kernel 6.8 - Local Privilege Escalation</title>
-<link>https://www.exploit-db.com/exploits/52573</link>
-<description><![CDATA[Linux Kernel 6.8 - Local Privilege Escalation<br/><br/><em>Tags: Linux kernel</em>]]></description>
-<pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52573</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>Linux kernel</category>
 </item>
 <item>
 <title>Detecting Tycoon 2FA AiTM attacks across Entra ID and Google Workspace</title>
@@ -5859,52 +5547,6 @@
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
 <category>detection_response_operations</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>[webapps] Cockpit 359 - RCE</title>
-<link>https://www.exploit-db.com/exploits/52572</link>
-<description><![CDATA[Cockpit 359 - RCE]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52572</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] BookStack 25.12.1 - Denial of Service</title>
-<link>https://www.exploit-db.com/exploits/52571</link>
-<description><![CDATA[BookStack 25.12.1 - Denial of Service<br/><br/><em>Tags: ddos</em>]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52571</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-<category>ddos</category>
-</item>
-<item>
-<title>[local] Lenovo LegionSpace 1.7.11.2 - &apos;DAService&apos; Unquoted Service Path</title>
-<link>https://www.exploit-db.com/exploits/52570</link>
-<description><![CDATA[Lenovo LegionSpace 1.7.11.2 - &apos;DAService&apos; Unquoted Service Path]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52570</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] solaredge - (CSRF-OOB-Injection)</title>
-<link>https://www.exploit-db.com/exploits/52569</link>
-<description><![CDATA[solaredge - (CSRF-OOB-Injection)]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52569</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] FUXA 1.2.9 - RCE</title>
-<link>https://www.exploit-db.com/exploits/52568</link>
-<description><![CDATA[FUXA 1.2.9 - RCE]]></description>
-<pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52568</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>The Vulnerability Flood Is Now a Board Conversation. Here&apos;s How to Lead It.</title>
@@ -6555,33 +6197,6 @@
 <category>practitioner_analysis</category>
 </item>
 <item>
-<title>[local] Windows Snipping Tool - NTLMv2 Hash Hijack</title>
-<link>https://www.exploit-db.com/exploits/52567</link>
-<description><![CDATA[Windows Snipping Tool - NTLMv2 Hash Hijack]]></description>
-<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52567</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing</title>
-<link>https://www.exploit-db.com/exploits/52566</link>
-<description><![CDATA[Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing]]></description>
-<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52566</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52565</link>
-<description><![CDATA[Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution]]></description>
-<pubDate>Fri, 15 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52565</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
 <title>April 2026 CVE Landscape</title>
 <link>https://www.recordedfuture.com/blog/april-cve-landscape</link>
 <description><![CDATA[In April 2026, Insikt Group® identified 37 high-impact vulnerabilities that should be prioritized for remediation, 35 of which had a Very Critical Recorded Future Risk Score. This represents a 19% increase from last month.]]></description>
@@ -6737,42 +6352,6 @@
 <guid isPermaLink="true">https://www.troyhunt.com/welcoming-the-bahamian-government-to-have-i-been-pwned/</guid>
 <source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>[webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI</title>
-<link>https://www.exploit-db.com/exploits/52564</link>
-<description><![CDATA[WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52564</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] Apache HertzBeat 1.8.0 - Remote Code Execution</title>
-<link>https://www.exploit-db.com/exploits/52563</link>
-<description><![CDATA[Apache HertzBeat 1.8.0 - Remote Code Execution]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52563</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] ePati Antikor NGFW 2.0.1301 - Authentication Bypass</title>
-<link>https://www.exploit-db.com/exploits/52562</link>
-<description><![CDATA[ePati Antikor NGFW 2.0.1301 - Authentication Bypass]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52562</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] PJPROJECT 2.16 - Heap Bufferoverflow</title>
-<link>https://www.exploit-db.com/exploits/52561</link>
-<description><![CDATA[PJPROJECT 2.16 - Heap Bufferoverflow]]></description>
-<pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52561</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>NIST NVD Enrichment Policy Change: Prioritizing Vulnerabilities with Attacker Behavior Signals</title>
@@ -6935,24 +6514,6 @@
 <category>npm</category>
 <category>ransomware_extortion</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>[webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload</title>
-<link>https://www.exploit-db.com/exploits/52560</link>
-<description><![CDATA[Ninja Forms Uploads - Unauthenticated PHP File Upload]]></description>
-<pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52560</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
-</item>
-<item>
-<title>[webapps] glances 4.5.2 - command injection</title>
-<link>https://www.exploit-db.com/exploits/52559</link>
-<description><![CDATA[glances 4.5.2 - command injection]]></description>
-<pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.exploit-db.com/exploits/52559</guid>
-<source url="https://www.exploit-db.com/rss.xml">Exploit-DB</source>
-<category>offensive_vulnerability_research</category>
 </item>
 <item>
 <title>May’s Patch Tuesday hauls out 132 CVEs</title>
@@ -10680,7 +10241,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f83a1c43160&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f73a0431e50&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -10909,15 +10470,6 @@
 <guid isPermaLink="true">https://risky.biz/SRB159/</guid>
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>2025 Year in Review: Malicious, Infrastructure</title>
-<link>https://www.recordedfuture.com/research/2025-year-in-review-malicious-infrastructure</link>
-<description><![CDATA[Explore Insikt Group’s 2025 Malicious Infrastructure Report. Gain insights into Cobalt Strike, Vidar infostealers, and AI-driven threats to secure your 2026 strategy.]]></description>
-<pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.recordedfuture.com/research/2025-year-in-review-malicious-infrastructure</guid>
-<source url="https://www.recordedfuture.com/feed">Recorded Future</source>
-<category>threat_research_primary</category>
 </item>
 <item>
 <title>CVE-2026-33017: How attackers compromised Langflow AI pipelines in 20 hours</title>
@@ -20374,7 +19926,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20383,7 +19935,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20392,7 +19944,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20401,7 +19953,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20410,7 +19962,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20419,7 +19971,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20428,7 +19980,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20437,7 +19989,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20446,7 +19998,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20455,7 +20007,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 23:51:09 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
