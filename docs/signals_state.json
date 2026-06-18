@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-18T10:42:10.445717+00:00",
+  "last_run": "2026-06-18T14:16:08.957711+00:00",
   "observations": {
     "cve_ids": {
       "CVE-2026-0257": [
@@ -3313,6 +3313,16 @@
           "tier": "tier_4_news",
           "industries": [],
           "products": [
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-16T19:05:41+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud",
             "Palo Alto Networks"
           ]
         },
@@ -7105,6 +7115,15 @@
           "products": [
             "AWS"
           ]
+        },
+        {
+          "ts": "2026-06-15T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
         }
       ],
       "CVE-2026-48710": [
@@ -9105,6 +9124,17 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "CVE-2026-20128": [
@@ -10882,6 +10912,17 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "CVE-2026-20245": [
@@ -11540,6 +11581,17 @@
         },
         {
           "ts": "2026-06-06T04:19:28+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
+          ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
@@ -29702,6 +29754,17 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "CVE-2026-28318": [
@@ -34409,6 +34472,37 @@
           "industries": [],
           "products": [
             "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-06-16T20:34:54+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": []
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
+            "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
           ]
         }
       ],
@@ -43657,6 +43751,20 @@
             "GitHub",
             "Microsoft BitLocker"
           ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "CVE-2026-45498": [
@@ -47569,6 +47677,16 @@
           "products": [
             "Ivanti"
           ]
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
+            "Ivanti"
+          ]
         }
       ],
       "CVE-2026-10523": [
@@ -49746,6 +49864,20 @@
             "GitHub",
             "Microsoft BitLocker",
             "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
           ]
         },
         {
@@ -53881,6 +54013,32 @@
             "Azure",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "CVE-2025-67644": [
@@ -55193,6 +55351,20 @@
             "Android",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
         }
       ],
       "CVE-2026-28277": [
@@ -56321,6 +56493,25 @@
           "products": [
             "Ivanti"
           ]
+        },
+        {
+          "ts": "2026-06-12T20:35:13+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
+            "Ivanti"
+          ]
         }
       ],
       "CVE-2026-20258": [
@@ -57391,9 +57582,33 @@
           "products": [
             "Azure"
           ]
+        },
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
         }
       ],
       "CVE-2017-3548": [
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
+        },
         {
           "ts": "2026-06-12T13:43:04+00:00",
           "cohort": "offensive_vulnerability_research",
@@ -58291,6 +58506,25 @@
           "tier": "tier_1_offensive_research",
           "industries": [],
           "products": [
+            "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-06-15T16:05:47+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Microsoft Entra"
+          ]
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
             "Ivanti"
           ]
         }
@@ -59651,9 +59885,30 @@
           "products": [
             "Cisco"
           ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
+          ]
         }
       ],
       "CVE-2026-40217": [
+        {
+          "ts": "2026-06-15T16:39:01+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
         {
           "ts": "2026-06-15T16:39:01+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -59995,9 +60250,29 @@
             "Anthropic/Claude",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-06-15T16:39:01+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "CVE-2026-47102": [
+        {
+          "ts": "2026-06-15T16:39:01+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
         {
           "ts": "2026-06-15T16:39:01+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -60286,6 +60561,15 @@
           "products": [
             "AWS"
           ]
+        },
+        {
+          "ts": "2026-06-15T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
         }
       ],
       "CVE-2026-44336": [
@@ -60405,9 +60689,29 @@
           "products": [
             "AWS"
           ]
+        },
+        {
+          "ts": "2026-06-15T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
         }
       ],
       "CVE-2026-42824": [
+        {
+          "ts": "2026-06-15T19:27:48+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint",
+            "Microsoft/Copilot",
+            "PyPI"
+          ]
+        },
         {
           "ts": "2026-06-15T19:27:48+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -61124,6 +61428,16 @@
             "Google Cloud",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-06-16T19:05:41+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "CVE-2026-48907": [
@@ -61137,6 +61451,30 @@
           "products": [
             "Anthropic/Claude",
             "Microsoft Defender",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-06-17T10:09:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gogs",
+            "Ivanti",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-17T05:50:46+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
             "WordPress"
           ]
         },
@@ -61512,6 +61850,34 @@
             "Microsoft Defender",
             "Microsoft Windows"
           ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-17T08:32:29+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "CVE-2026-20181": [
@@ -61521,6 +61887,17 @@
           "tier": "tier_4_news",
           "industries": [
             "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T10:27:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
           ],
           "products": [
             "LiteSpeed"
@@ -61538,6 +61915,17 @@
           "products": [
             "LiteSpeed"
           ]
+        },
+        {
+          "ts": "2026-06-18T10:27:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
         }
       ],
       "CVE-2026-11311": [
@@ -61546,6 +61934,27 @@
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T11:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Gogs"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
             "manufacturing_industrial"
           ],
           "products": [
@@ -61564,6 +61973,27 @@
           "products": [
             "LiteSpeed"
           ]
+        },
+        {
+          "ts": "2026-06-18T11:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Gogs"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
         }
       ],
       "CVE-2026-42530": [
@@ -61572,6 +62002,27 @@
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T11:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Gogs"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
             "manufacturing_industrial"
           ],
           "products": [
@@ -61589,6 +62040,55 @@
           ],
           "products": [
             "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T11:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Gogs"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        }
+      ],
+      "CVE-2026-10735": [
+        {
+          "ts": "2026-06-18T12:55:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "GitHub",
+            "WordPress"
+          ]
+        }
+      ],
+      "CVE-2026-49777": [
+        {
+          "ts": "2026-06-18T12:55:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "GitHub",
+            "WordPress"
           ]
         }
       ]
@@ -70174,6 +70674,70 @@
           "products": [
             "LiteSpeed"
           ]
+        },
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-06-18T10:27:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
         }
       ],
       "UNC5221": [
@@ -71882,6 +72446,15 @@
           "tier": "tier_1_primary_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-06-18T00:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "Microsoft Entra"
+          ]
         }
       ],
       "UNC6692": [
@@ -73666,6 +74239,18 @@
             "Azure",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
         }
       ],
       "APT32": [
@@ -74235,6 +74820,17 @@
           "products": [
             "Google Cloud"
           ]
+        },
+        {
+          "ts": "2026-06-15T14:00:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "healthcare"
+          ],
+          "products": [
+            "Google Cloud"
+          ]
         }
       ],
       "RansomHub": [
@@ -74405,6 +75001,13 @@
           "products": [
             "LiteSpeed"
           ]
+        },
+        {
+          "ts": "2026-06-15T23:00:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
         }
       ],
       "Scattered Spider": [
@@ -74512,9 +75115,23 @@
           "tier": "tier_1_primary_research",
           "industries": [],
           "products": []
+        },
+        {
+          "ts": "2026-06-15T23:00:19+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": []
         }
       ],
       "APT37": [
+        {
+          "ts": "2026-06-16T08:14:55+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": []
+        },
         {
           "ts": "2026-06-16T08:14:55+00:00",
           "cohort": "cyber_news_breach_reporting",
@@ -81590,6 +82207,29 @@
           "industries": [],
           "products": [
             "Google Cloud",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-16T19:05:41+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-17T10:09:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gogs",
+            "Ivanti",
             "Palo Alto Networks"
           ]
         },
@@ -89303,6 +89943,52 @@
             "Anthropic/Claude",
             "Fortinet"
           ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-06-17T00:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Google Cloud",
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-06-12T08:39:51+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude"
+          ]
+        },
+        {
+          "ts": "2026-06-15T16:39:01+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Microsoft Windows": [
@@ -92419,6 +93105,19 @@
             "Microsoft Defender",
             "Microsoft Windows"
           ]
+        },
+        {
+          "ts": "2026-06-17T08:32:29+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "Gitea": [
@@ -94940,6 +95639,17 @@
           "products": [
             "Cisco",
             "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-06-16T06:05:58+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Cisco"
           ]
         },
         {
@@ -98195,6 +98905,49 @@
             "Google Cloud",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-06-15T14:00:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "healthcare"
+          ],
+          "products": [
+            "Google Cloud"
+          ]
+        },
+        {
+          "ts": "2026-06-16T10:00:29+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Google Cloud"
+          ]
+        },
+        {
+          "ts": "2026-06-16T19:05:41+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Google Cloud",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-17T00:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "Google Cloud",
+            "Kubernetes"
+          ]
         }
       ],
       "WordPress": [
@@ -99593,6 +100346,29 @@
           "ts": "2026-06-15T05:53:18+00:00",
           "cohort": "practitioner_analysis",
           "tier": "tier_3_analysis",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "GitHub",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-06-17T05:50:46+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-06-18T12:55:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
           "industries": [
             "financial_services"
           ],
@@ -108996,6 +109772,92 @@
             "Microsoft Defender",
             "Microsoft Windows"
           ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-06-18T12:55:36+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "GitHub",
+            "WordPress"
+          ]
+        },
+        {
+          "ts": "2026-06-12T04:28:07+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-06-18T04:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "GitHub"
+          ]
+        },
+        {
+          "ts": "2026-06-11T14:30:00+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-06-17T08:32:29+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "OpenAI/ChatGPT": [
@@ -114167,6 +115029,41 @@
             "Google/Gemini",
             "OpenAI/ChatGPT"
           ]
+        },
+        {
+          "ts": "2026-06-15T16:39:01+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Anthropic/Claude",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-06-11T14:30:00+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [
+            "critical_infrastructure"
+          ],
+          "products": [
+            "GitHub",
+            "OpenAI/ChatGPT"
+          ]
+        },
+        {
+          "ts": "2026-06-11T17:46:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "AWS",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "npm": [
@@ -117533,6 +118430,21 @@
             "Microsoft Defender",
             "npm"
           ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
+          ]
         }
       ],
       "Atlassian Jira": [
@@ -119873,6 +120785,29 @@
           "products": [
             "Microsoft 365",
             "Microsoft SharePoint"
+          ]
+        },
+        {
+          "ts": "2026-06-15T08:55:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint"
+          ]
+        },
+        {
+          "ts": "2026-06-15T19:27:48+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint",
+            "Microsoft/Copilot",
+            "PyPI"
           ]
         },
         {
@@ -122317,6 +123252,55 @@
             "Microsoft Defender",
             "Microsoft Windows"
           ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-17T19:30:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Azure",
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-06-17T23:11:43+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Microsoft Defender"
+          ]
+        },
+        {
+          "ts": "2026-06-17T08:32:29+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "Microsoft Windows"
+          ]
         }
       ],
       "Docker": [
@@ -123940,6 +124924,19 @@
           "industries": [],
           "products": [
             "Azure",
+            "Google Cloud",
+            "Kubernetes"
+          ]
+        },
+        {
+          "ts": "2026-06-17T00:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Anthropic/Claude",
             "Google Cloud",
             "Kubernetes"
           ]
@@ -126191,6 +127188,32 @@
             "Microsoft SharePoint",
             "Microsoft/Copilot",
             "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-06-15T19:27:48+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint",
+            "Microsoft/Copilot",
+            "PyPI"
+          ]
+        },
+        {
+          "ts": "2026-06-18T03:43:04+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services",
+            "government"
+          ],
+          "products": [
+            "GitHub",
+            "Microsoft Defender",
+            "PyPI",
+            "npm"
           ]
         },
         {
@@ -129923,6 +130946,37 @@
             "Anthropic/Claude",
             "Fortinet"
           ]
+        },
+        {
+          "ts": "2026-06-12T20:35:13+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
+        },
+        {
+          "ts": "2026-06-15T00:00:00+00:00",
+          "cohort": "detection_response_operations",
+          "tier": "tier_2_operator",
+          "industries": [],
+          "products": [
+            "AWS"
+          ]
+        },
+        {
+          "ts": "2026-06-11T17:46:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "AWS",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
+          ]
         }
       ],
       "Azure": [
@@ -132629,6 +133683,28 @@
             "Azure",
             "Microsoft Defender"
           ]
+        },
+        {
+          "ts": "2026-06-12T13:43:04+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "education",
+            "telecommunications"
+          ],
+          "products": [
+            "Azure"
+          ]
+        },
+        {
+          "ts": "2026-06-17T19:30:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [],
+          "products": [
+            "Azure",
+            "Microsoft Defender"
+          ]
         }
       ],
       "Google/Gemini": [
@@ -134904,6 +135980,19 @@
             "Salesforce",
             "SolarWinds",
             "npm"
+          ]
+        },
+        {
+          "ts": "2026-06-11T17:46:32+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "legal_professional"
+          ],
+          "products": [
+            "AWS",
+            "Google/Gemini",
+            "OpenAI/ChatGPT"
           ]
         },
         {
@@ -138736,6 +139825,28 @@
             "Ivanti",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-06-17T10:09:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gogs",
+            "Ivanti",
+            "Palo Alto Networks"
+          ]
+        },
+        {
+          "ts": "2026-06-18T11:33:00+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Gogs"
+          ]
         }
       ],
       "Microsoft 365": [
@@ -141773,6 +142884,18 @@
             "Azure",
             "GitHub",
             "Microsoft 365"
+          ]
+        },
+        {
+          "ts": "2026-06-15T08:55:00+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "Microsoft 365",
+            "Microsoft SharePoint"
           ]
         },
         {
@@ -146776,6 +147899,29 @@
             "Ivanti",
             "Palo Alto Networks"
           ]
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
+            "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-06-17T10:09:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "government"
+          ],
+          "products": [
+            "Gogs",
+            "Ivanti",
+            "Palo Alto Networks"
+          ]
         }
       ],
       "ChromaDB": [
@@ -147421,6 +148567,29 @@
           "tier": "tier_3_analysis",
           "industries": [],
           "products": [
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-06-17T23:10:17+00:00",
+          "cohort": "practitioner_analysis",
+          "tier": "tier_3_analysis",
+          "industries": [],
+          "products": [
+            "Microsoft BitLocker"
+          ]
+        },
+        {
+          "ts": "2026-06-15T13:40:44+00:00",
+          "cohort": "threat_research_primary",
+          "tier": "tier_1_primary_research",
+          "industries": [
+            "education",
+            "healthcare"
+          ],
+          "products": [
+            "Anthropic/Claude",
+            "GitHub",
             "Microsoft BitLocker"
           ]
         },
@@ -149559,6 +150728,43 @@
             "Anthropic/Claude",
             "Fortinet"
           ]
+        },
+        {
+          "ts": "2026-06-11T15:35:02+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Fortinet",
+            "Ivanti"
+          ]
+        },
+        {
+          "ts": "2026-06-18T12:54:39+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "government",
+            "healthcare"
+          ],
+          "products": [
+            "Fortinet"
+          ]
+        },
+        {
+          "ts": "2026-06-18T12:10:49+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "aviation_defense",
+            "critical_infrastructure",
+            "government"
+          ],
+          "products": [
+            "Fortinet"
+          ]
         }
       ],
       "Microsoft Entra": [
@@ -150010,6 +151216,38 @@
           "ts": "2026-06-15T16:05:47+00:00",
           "cohort": "offensive_vulnerability_research",
           "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Microsoft Entra"
+          ]
+        },
+        {
+          "ts": "2026-06-17T13:17:00+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [
+            "critical_infrastructure",
+            "financial_services",
+            "healthcare",
+            "manufacturing_industrial"
+          ],
+          "products": [
+            "Microsoft Entra"
+          ]
+        },
+        {
+          "ts": "2026-06-15T16:05:47+00:00",
+          "cohort": "offensive_vulnerability_research",
+          "tier": "tier_1_offensive_research",
+          "industries": [],
+          "products": [
+            "Microsoft Entra"
+          ]
+        },
+        {
+          "ts": "2026-06-18T00:00:00+00:00",
+          "cohort": "cloud_identity_infrastructure",
+          "tier": "tier_2_operator",
           "industries": [],
           "products": [
             "Microsoft Entra"
@@ -150621,6 +151859,17 @@
             "Microsoft/Copilot",
             "PyPI"
           ]
+        },
+        {
+          "ts": "2026-06-15T19:27:48+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [],
+          "products": [
+            "Microsoft SharePoint",
+            "Microsoft/Copilot",
+            "PyPI"
+          ]
         }
       ],
       "LiteSpeed": [
@@ -150909,6 +152158,29 @@
           "cohort": "cyber_news_breach_reporting",
           "tier": "tier_4_news",
           "industries": [],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T10:27:14+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services"
+          ],
+          "products": [
+            "LiteSpeed"
+          ]
+        },
+        {
+          "ts": "2026-06-18T09:39:24+00:00",
+          "cohort": "cyber_news_breach_reporting",
+          "tier": "tier_4_news",
+          "industries": [
+            "financial_services",
+            "manufacturing_industrial"
+          ],
           "products": [
             "LiteSpeed"
           ]
@@ -151392,6 +152664,7 @@
       "2026-06-09T14:05:42+00:00",
       "2026-06-09T14:05:42+00:00",
       "2026-06-15T06:17:32+00:00",
+      "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
@@ -151898,6 +153171,7 @@
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
+      "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00"
     ],
     "cve_ids:CVE-2026-20127|affected_products:Google Cloud": [
@@ -152119,6 +153393,7 @@
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
+      "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00"
     ],
     "cve_ids:CVE-2026-20182|affected_products:Google Cloud": [
@@ -152199,6 +153474,7 @@
       "2026-06-06T04:19:28+00:00",
       "2026-06-06T04:19:28+00:00",
       "2026-06-06T04:19:28+00:00",
+      "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
@@ -156332,6 +157608,7 @@
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
+      "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00"
     ],
     "actor_attribution:TeamPCP|affected_products:Azure": [
@@ -158329,6 +159606,7 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-50751|affected_products:Cisco": [
@@ -158420,6 +159698,7 @@
       "2026-06-09T09:30:00+00:00",
       "2026-06-09T09:30:00+00:00",
       "2026-06-09T09:30:00+00:00",
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
@@ -160148,6 +161427,7 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-45498|affected_products:GitHub": [
@@ -160568,6 +161848,7 @@
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-10523|affected_products:Ivanti": [
@@ -160721,6 +162002,7 @@
       "2026-06-10T10:21:07+00:00",
       "2026-06-10T10:21:07+00:00",
       "2026-06-10T10:21:07+00:00",
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-10523|affected_products:Fortinet": [
@@ -161940,6 +163222,7 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-45657|affected_products:Microsoft Windows": [
@@ -162983,6 +164266,7 @@
       "2026-06-17T17:36:28+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-17T17:36:28+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-45498|affected_products:Anthropic/Claude": [
@@ -163031,11 +164315,13 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "actor_attribution:ShinyHunters|affected_products:Microsoft BitLocker": [
       "2026-06-11T08:30:02+00:00",
       "2026-06-11T11:52:59+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -163115,7 +164401,9 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-15T13:40:44+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-12T13:43:04+00:00",
+      "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-35273|affected_products:AWS": [
       "2026-06-11T12:41:37+00:00",
@@ -163169,7 +164457,8 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-12T13:43:04+00:00"
     ],
     "cve_ids:CVE-2026-35273|affected_products:Google Cloud": [
       "2026-06-11T12:41:37+00:00",
@@ -163230,7 +164519,8 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-12T13:43:04+00:00"
     ],
     "actor_attribution:ShinyHunters|affected_products:Google Cloud": [
       "2026-06-11T12:41:37+00:00",
@@ -163649,7 +164939,8 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-12T13:43:04+00:00"
     ],
     "actor_attribution:UNC6240|affected_products:Azure": [
       "2026-06-11T14:00:00+00:00",
@@ -163697,7 +164988,8 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-12T13:43:04+00:00"
     ],
     "actor_attribution:UNC6240|affected_products:Google Cloud": [
       "2026-06-11T14:00:00+00:00",
@@ -163792,7 +165084,8 @@
       "2026-06-17T15:31:39+00:00",
       "2026-06-17T15:31:39+00:00",
       "2026-06-18T03:43:04+00:00",
-      "2026-06-11T14:00:00+00:00"
+      "2026-06-11T14:00:00+00:00",
+      "2026-06-18T03:43:04+00:00"
     ],
     "actor_attribution:UNC6240|affected_products:npm": [
       "2026-06-11T14:00:00+00:00",
@@ -163916,9 +165209,11 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00"
     ],
     "cve_ids:CVE-2013-3821|actor_attribution:UNC6240": [
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
@@ -163992,9 +165287,11 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00"
     ],
     "cve_ids:CVE-2017-3548|actor_attribution:ShinyHunters": [
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
@@ -164068,9 +165365,11 @@
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00"
     ],
     "cve_ids:CVE-2017-3548|affected_products:Azure": [
+      "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
       "2026-06-12T13:43:04+00:00",
@@ -164137,6 +165436,7 @@
       "2026-06-12T15:38:26+00:00",
       "2026-06-12T15:38:26+00:00",
       "2026-06-12T15:38:26+00:00",
+      "2026-06-15T16:05:47+00:00",
       "2026-06-15T16:05:47+00:00",
       "2026-06-15T16:05:47+00:00",
       "2026-06-15T16:05:47+00:00",
@@ -164644,6 +165944,7 @@
       "2026-06-12T20:35:13+00:00",
       "2026-06-12T20:35:13+00:00",
       "2026-06-12T20:35:13+00:00",
+      "2026-06-12T20:35:13+00:00",
       "2026-06-12T20:35:13+00:00"
     ],
     "cve_ids:CVE-2026-50751|actor_attribution:ShinyHunters": [
@@ -164665,6 +165966,7 @@
       "2026-06-08T20:28:35+00:00",
       "2026-06-08T20:28:35+00:00",
       "2026-06-08T20:28:35+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -164815,7 +166117,9 @@
       "2026-06-17T08:21:05+00:00",
       "2026-06-18T03:43:04+00:00",
       "2026-06-15T13:40:44+00:00",
-      "2026-06-17T08:21:05+00:00"
+      "2026-06-17T08:21:05+00:00",
+      "2026-06-18T03:43:04+00:00",
+      "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2025-34291|affected_products:Anthropic/Claude": [
       "2026-06-10T15:00:59+00:00",
@@ -165178,9 +166482,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-27022|affected_products:Anthropic/Claude": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165212,9 +166518,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-27022|affected_products:Microsoft BitLocker": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165264,6 +166572,7 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-35273|affected_products:GitHub": [
@@ -165281,9 +166590,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-35273|affected_products:Microsoft BitLocker": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165324,9 +166635,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-41091|affected_products:Microsoft BitLocker": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165376,6 +166689,7 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-45657|affected_products:Anthropic/Claude": [
@@ -165393,9 +166707,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-45657|affected_products:GitHub": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165445,9 +166761,11 @@
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00"
     ],
     "cve_ids:CVE-2026-50751|affected_products:Microsoft BitLocker": [
+      "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
       "2026-06-15T13:40:44+00:00",
@@ -165483,6 +166801,7 @@
       "2026-06-15T13:40:44+00:00"
     ],
     "actor_attribution:UNC6508|affected_products:Google Cloud": [
+      "2026-06-15T14:00:00+00:00",
       "2026-06-15T14:00:00+00:00",
       "2026-06-15T14:00:00+00:00",
       "2026-06-15T14:00:00+00:00",
@@ -165542,6 +166861,7 @@
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00",
+      "2026-06-16T06:05:58+00:00",
       "2026-06-16T06:05:58+00:00"
     ],
     "cve_ids:CVE-2026-20262|affected_products:Microsoft Defender": [
@@ -165551,6 +166871,7 @@
       "2026-06-15T17:12:42+00:00"
     ],
     "cve_ids:CVE-2026-40217|affected_products:Anthropic/Claude": [
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
@@ -165586,9 +166907,11 @@
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00"
     ],
     "cve_ids:CVE-2026-47101|affected_products:Anthropic/Claude": [
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
@@ -165624,9 +166947,11 @@
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00"
     ],
     "cve_ids:CVE-2026-47102|affected_products:Anthropic/Claude": [
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
@@ -165662,9 +166987,11 @@
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00",
+      "2026-06-15T16:39:01+00:00",
       "2026-06-15T16:39:01+00:00"
     ],
     "cve_ids:CVE-2026-42271|affected_products:AWS": [
+      "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
@@ -165692,9 +167019,11 @@
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
+      "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00"
     ],
     "cve_ids:CVE-2026-44336|affected_products:AWS": [
+      "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
       "2026-06-15T00:00:00+00:00",
@@ -165727,9 +167056,11 @@
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
+      "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00"
     ],
     "cve_ids:CVE-2026-42824|affected_products:Microsoft/Copilot": [
+      "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
@@ -165761,12 +167092,14 @@
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00",
+      "2026-06-15T19:27:48+00:00",
       "2026-06-15T19:27:48+00:00"
     ],
     "cve_ids:CVE-2026-48558|affected_products:Fortinet": [
       "2026-06-15T20:06:52+00:00",
       "2026-06-15T20:06:52+00:00",
       "2026-06-15T20:06:52+00:00",
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-48558|affected_products:Palo Alto Networks": [
@@ -165870,6 +167203,7 @@
       "2026-06-16T10:51:49+00:00",
       "2026-06-16T10:51:49+00:00",
       "2026-06-16T10:51:49+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-18T03:43:04+00:00"
     ],
     "cve_ids:CVE-2026-39808|affected_products:Fortinet": [
@@ -165895,6 +167229,7 @@
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
+      "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00"
     ],
     "cve_ids:CVE-2026-2473|affected_products:Google Cloud": [
@@ -165908,9 +167243,11 @@
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
+      "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00"
     ],
     "cve_ids:CVE-2026-2473|affected_products:Palo Alto Networks": [
+      "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
       "2026-06-16T19:05:41+00:00",
@@ -165937,6 +167274,7 @@
       "2026-06-17T05:50:46+00:00",
       "2026-06-17T05:50:46+00:00",
       "2026-06-17T05:50:46+00:00",
+      "2026-06-17T05:50:46+00:00",
       "2026-06-17T05:50:46+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:GitHub": [
@@ -165948,6 +167286,8 @@
       "2026-06-17T08:32:29+00:00",
       "2026-06-18T03:43:04+00:00",
       "2026-06-17T08:32:29+00:00",
+      "2026-06-17T08:32:29+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-17T08:32:29+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:Microsoft Defender": [
@@ -165966,6 +167306,8 @@
       "2026-06-18T03:43:04+00:00",
       "2026-06-17T08:32:29+00:00",
       "2026-06-18T03:43:04+00:00",
+      "2026-06-17T08:32:29+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-17T08:32:29+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:Microsoft Windows": [
@@ -165974,6 +167316,7 @@
       "2026-06-17T08:32:29+00:00",
       "2026-06-17T08:32:29+00:00",
       "2026-06-17T09:41:07+00:00",
+      "2026-06-17T08:32:29+00:00",
       "2026-06-17T08:32:29+00:00",
       "2026-06-17T08:32:29+00:00",
       "2026-06-17T08:32:29+00:00",
@@ -166011,6 +167354,7 @@
     "cve_ids:CVE-2026-50656|actor_attribution:ShinyHunters": [
       "2026-06-17T09:41:07+00:00",
       "2026-06-17T09:41:07+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-18T03:43:04+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:Fortinet": [
@@ -166033,17 +167377,22 @@
       "2026-06-17T08:21:05+00:00",
       "2026-06-18T10:27:14+00:00",
       "2026-06-18T09:39:24+00:00",
-      "2026-06-17T10:38:00+00:00"
+      "2026-06-17T10:38:00+00:00",
+      "2026-06-18T10:27:14+00:00",
+      "2026-06-18T09:39:24+00:00"
     ],
     "actor_attribution:ShinyHunters|affected_products:Microsoft Defender": [
       "2026-06-17T09:41:07+00:00",
       "2026-06-17T09:41:07+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-18T03:43:04+00:00"
     ],
     "cve_ids:CVE-2026-20253|affected_products:Fortinet": [
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-20253|affected_products:Ivanti": [
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
@@ -166059,12 +167408,15 @@
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00",
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-50751|affected_products:Fortinet": [
+      "2026-06-11T15:35:02+00:00",
       "2026-06-11T15:35:02+00:00"
     ],
     "cve_ids:CVE-2026-48907|affected_products:Gogs": [
+      "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
@@ -166080,9 +167432,11 @@
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
+      "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00"
     ],
     "cve_ids:CVE-2026-48907|affected_products:Palo Alto Networks": [
+      "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
       "2026-06-17T10:09:24+00:00",
@@ -166152,50 +167506,91 @@
       "2026-06-17T17:36:28+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:PyPI": [
+      "2026-06-18T03:43:04+00:00",
       "2026-06-18T03:43:04+00:00"
     ],
     "cve_ids:CVE-2026-50656|affected_products:npm": [
       "2026-06-18T03:43:04+00:00",
+      "2026-06-18T03:43:04+00:00",
       "2026-06-18T03:43:04+00:00"
     ],
     "cve_ids:CVE-2026-20181|actor_attribution:ShinyHunters": [
+      "2026-06-18T10:27:14+00:00",
       "2026-06-18T10:27:14+00:00"
     ],
     "cve_ids:CVE-2026-20181|affected_products:LiteSpeed": [
+      "2026-06-18T10:27:14+00:00",
       "2026-06-18T10:27:14+00:00"
     ],
     "cve_ids:CVE-2026-20190|actor_attribution:ShinyHunters": [
+      "2026-06-18T10:27:14+00:00",
       "2026-06-18T10:27:14+00:00"
     ],
     "cve_ids:CVE-2026-20190|affected_products:LiteSpeed": [
+      "2026-06-18T10:27:14+00:00",
       "2026-06-18T10:27:14+00:00"
     ],
     "cve_ids:CVE-2026-11311|actor_attribution:ShinyHunters": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-11311|affected_products:LiteSpeed": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-42055|actor_attribution:ShinyHunters": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-42055|affected_products:LiteSpeed": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-42530|actor_attribution:ShinyHunters": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-42530|affected_products:LiteSpeed": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-50107|actor_attribution:ShinyHunters": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "cve_ids:CVE-2026-50107|affected_products:LiteSpeed": [
+      "2026-06-18T09:39:24+00:00",
       "2026-06-18T09:39:24+00:00"
     ],
     "actor_attribution:RansomHub|affected_products:LiteSpeed": [
       "2026-06-17T10:38:00+00:00"
+    ],
+    "actor_attribution:APT29|affected_products:Microsoft Entra": [
+      "2026-06-18T00:00:00+00:00"
+    ],
+    "cve_ids:CVE-2026-10735|affected_products:GitHub": [
+      "2026-06-18T12:55:36+00:00"
+    ],
+    "cve_ids:CVE-2026-10735|affected_products:WordPress": [
+      "2026-06-18T12:55:36+00:00"
+    ],
+    "cve_ids:CVE-2026-49777|affected_products:GitHub": [
+      "2026-06-18T12:55:36+00:00"
+    ],
+    "cve_ids:CVE-2026-49777|affected_products:WordPress": [
+      "2026-06-18T12:55:36+00:00"
+    ],
+    "cve_ids:CVE-2026-11311|affected_products:Gogs": [
+      "2026-06-18T11:33:00+00:00"
+    ],
+    "cve_ids:CVE-2026-42055|affected_products:Gogs": [
+      "2026-06-18T11:33:00+00:00"
+    ],
+    "cve_ids:CVE-2026-42530|affected_products:Gogs": [
+      "2026-06-18T11:33:00+00:00"
+    ],
+    "cve_ids:CVE-2026-50107|affected_products:Gogs": [
+      "2026-06-18T11:33:00+00:00"
     ]
   }
 }
