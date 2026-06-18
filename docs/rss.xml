@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Thu, 18 Jun 2026 18:09:41 +0000</lastBuildDate>
+<lastBuildDate>Thu, 18 Jun 2026 21:25:20 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -20,6 +20,34 @@
 <category>credential_theft</category>
 </item>
 <item>
+<title>Novo Nordisk Breach Exposes Software Development Pipeline Risk</title>
+<link>https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk</link>
+<description><![CDATA[A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.<br/><br/><em>Tags: GitHub</em>]]></description>
+<pubDate>Thu, 18 Jun 2026 20:05:47 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>GitHub</category>
+</item>
+<item>
+<title>Nintendo confirms data stolen in WebMD subsidiary cyberattack</title>
+<link>https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/</link>
+<description><![CDATA[Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]]]></description>
+<pubDate>Thu, 18 Jun 2026 18:31:36 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>FIFA Bug Exposes World Cup Streams to Remote Takeover</title>
+<link>https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover</link>
+<description><![CDATA[A hacker could have &quot;Rickrolled&quot; the World Cup — or worse — thanks to FIFA&apos;s unenforced Entra access controls.]]></description>
+<pubDate>Thu, 18 Jun 2026 18:20:07 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance</title>
 <link>https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/</link>
 <description><![CDATA[submitted by /u/Ecstatic_Priority514 [link] [comments]<br/><br/><em>Tags: CVE-2026-5667</em>]]></description>
@@ -30,6 +58,15 @@
 <category>CVE-2026-5667</category>
 </item>
 <item>
+<title>Build your own vulnerability harness</title>
+<link>https://blog.cloudflare.com/build-your-own-vulnerability-harness/</link>
+<description><![CDATA[We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.]]></description>
+<pubDate>Thu, 18 Jun 2026 17:59:40 +0000</pubDate>
+<guid isPermaLink="true">https://blog.cloudflare.com/build-your-own-vulnerability-harness/</guid>
+<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm</title>
 <link>https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</link>
 <description><![CDATA[For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet is linked to NetNut, a &quot;residential proxy&quot; provider operated by the publicly-traded Israeli firm Alarum Technologies Ltd [NASDAQ: ALAR].]]></description>
@@ -37,6 +74,19 @@
 <guid isPermaLink="true">https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/</guid>
 <source url="https://krebsonsecurity.com/feed/">Krebs on Security</source>
 <category>practitioner_analysis</category>
+</item>
+<item>
+<title>F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution</title>
+<link>https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html</link>
+<description><![CDATA[F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed below - CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is<br/><br/><em>Tags: Anthropic/Claude · Ivanti · Microsoft Defender · CVE-2026-42530 · CVE-2026-42055 · CVE-2026-42945 · CVE-2026-11645 · phishing_social_eng</em>]]></description>
+<pubDate>Thu, 18 Jun 2026 17:32:14 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>Ivanti</category>
+<category>Microsoft Defender</category>
+<category>CVE-2026-42530</category>
 </item>
 <item>
 <title>Majority of Internet-Accessible REDCap Servers Outdated</title>
@@ -1268,15 +1318,15 @@
 <item>
 <title>Copilot &apos;SearchLeak&apos; Attack Allows 1-Click Data Theft</title>
 <link>https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft</link>
-<description><![CDATA[The critical, three-stage attack is now patched, but it&apos;s part of a new group of AI prompt-injection issues that use hidden URLs and other variables.<br/><br/><em>Tags: Microsoft/Copilot · PyPI · Microsoft SharePoint · CVE-2026-42824 · supply_chain · ai_security</em>]]></description>
+<description><![CDATA[The critical, three-stage attack is now patched, but it&apos;s part of a new group of AI prompt-injection issues that use hidden URLs and other variables.<br/><br/><em>Tags: Microsoft/Copilot · Microsoft SharePoint · CVE-2026-42824 · supply_chain · ai_security</em>]]></description>
 <pubDate>Mon, 15 Jun 2026 19:27:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>Microsoft/Copilot</category>
-<category>PyPI</category>
 <category>Microsoft SharePoint</category>
 <category>CVE-2026-42824</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>NIS2 is raising the bar. Here’s how to turn readiness into resilience.</title>
@@ -1394,6 +1444,16 @@
 <item>
 <title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
+<description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: UNC6508</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>UNC6508</category>
+</item>
+<item>
+<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
 <description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: Google Cloud · UNC6508 · phishing_social_eng</em>]]></description>
 <pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
@@ -1402,16 +1462,6 @@
 <category>Google Cloud</category>
 <category>UNC6508</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
-<description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: UNC6508</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>UNC6508</category>
 </item>
 <item>
 <title>⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More</title>
@@ -1639,16 +1689,6 @@
 <guid isPermaLink="true">https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything</guid>
 <source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>FBI takes down massive China-based cybercrime network that caused $1.9B in losses</title>
-<link>https://cyberscoop.com/outsider-cybercrime-network-takedown-china-fbi-google-lumen/</link>
-<description><![CDATA[Outsider provided phishing kits and infrastructure for cybercriminals to scam victims with lures claiming they missed packages, had unpaid tolls or parking violations. The post FBI takes down massive China-based cybercrime network that caused $1.9B in losses appeared first on CyberScoop .<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Fri, 12 Jun 2026 21:56:29 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/outsider-cybercrime-network-takedown-china-fbi-google-lumen/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Why Use App-Level Auth When Every Database Has Auth? (Splunk Enterprise CVE-2026-20253 Pre-Auth RCE) - watchTowr Labs</title>
@@ -2170,15 +2210,6 @@
 <pubDate>Thu, 11 Jun 2026 12:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/cybersecurity-training-time/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>AI Broke Vulnerability Management. That&apos;s Why CISOs Are Moving Budget to BAS.</title>
-<link>https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</link>
-<description><![CDATA[For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn&apos;t make your team slower. It changed the other side of the]]></description>
-<pubDate>Thu, 11 Jun 2026 11:30:00 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
@@ -3384,18 +3415,6 @@
 <category>CVE-2026-34197</category>
 </item>
 <item>
-<title>Securing CI/CD in an agentic world: Claude Code Github action case</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/</link>
-<description><![CDATA[Microsoft Threat Intelligence identified a prompt injection pathway in Claude Code GitHub Action that allowed access to workflow secrets under specific conditions. This research examines the attack chain, responsible disclosure process, Anthropic&apos;s mitigation, and guidance for securing AI-powered CI/CD workflows. The post Securing CI/CD in an agentic world: Claude Code Github action case appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Anthropic/Claude · GitHub · ai_security</em>]]></description>
-<pubDate>Fri, 05 Jun 2026 16:46:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>Anthropic/Claude</category>
-<category>GitHub</category>
-<category>ai_security</category>
-</item>
-<item>
 <title>Adaptive, Agentic AI Worms Loom as Next Enterprise Threat</title>
 <link>https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat</link>
 <description><![CDATA[AI worms, or &quot;viruses with wings and brains,&quot; adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.]]></description>
@@ -3846,26 +3865,6 @@
 <category>apt_espionage</category>
 </item>
 <item>
-<title>Cyber Insurance Rates Are Dropping, but Exclusions Widen</title>
-<link>https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen</link>
-<description><![CDATA[Cyber insurance coverage is slowly changing, and some policies may not provide coverage for social engineering attacks like ClickFix.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 03 Jun 2026 19:10:58 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Coding Gaffe Exposes Microsoft 365 Accounts to Widespread Takeover</title>
-<link>https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover</link>
-<description><![CDATA[A disabled security setting meant to protect authentication across Android versions of key apps like Word, PowerPoint, and Excel paved the way for attackers to steal logins and data.<br/><br/><em>Tags: Microsoft 365</em>]]></description>
-<pubDate>Wed, 03 Jun 2026 19:00:41 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/coding-gaffe-exposes-microsoft-365-accounts-takeover</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Microsoft 365</category>
-</item>
-<item>
 <title>Enforcing the First AS in BGP AS_PATHs</title>
 <link>https://blog.cloudflare.com/enforce-first-as-bgp/</link>
 <description><![CDATA[BGP is vulnerable to routing hijacks and path leaks that negatively impact traffic on the Internet. RPKI helps solve some of these problems, but for some forged paths, we need to rely on a simpler mechanism: First AS enforcement in BGP.]]></description>
@@ -3927,18 +3926,6 @@
 <guid isPermaLink="true">https://research.checkpoint.com/2026/impersonation-click-hijacking-and-tds-inside-a-malware-distribution-ecosystem/</guid>
 <source url="https://research.checkpoint.com/feed/">Check Point Research</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Malicious Notifications Could Trick Google Gemini Users</title>
-<link>https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users</link>
-<description><![CDATA[A prompt injection flaw in Google Gemini&apos;s voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.<br/><br/><em>Tags: Google/Gemini · phishing_social_eng · ai_security</em>]]></description>
-<pubDate>Wed, 03 Jun 2026 12:01:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-<category>Google/Gemini</category>
-<category>phishing_social_eng</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Auditing GitLab: The CI/CD Kill Chain</title>
@@ -5997,15 +5984,6 @@
 <category>ai_security</category>
 </item>
 <item>
-<title>AWS Security Hub Extended: Why enterprise security products should sell themselves</title>
-<link>https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/</link>
-<description><![CDATA[Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a […]]]></description>
-<pubDate>Wed, 20 May 2026 17:32:58 +0000</pubDate>
-<guid isPermaLink="true">https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/</guid>
-<source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
 <title>Detecting Malicious Packages using the OSV API</title>
 <link>https://openssf.org/blog/2026/05/20/detecting-malicious-packages-using-the-osv-api/</link>
 <description><![CDATA[]]></description>
@@ -6656,17 +6634,6 @@
 <guid isPermaLink="true">https://www.huntress.com/blog/cybersecurity-frameworks</guid>
 <source url="https://www.huntress.com/blog/rss.xml">Huntress</source>
 <category>detection_response_operations</category>
-</item>
-<item>
-<title>Ongoing exploitation of Cisco Catalyst SD-WAN vulnerabilities</title>
-<link>https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/</link>
-<description><![CDATA[Cisco Talos is tracking the active exploitation of CVE-2026-20182, an authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage.<br/><br/><em>Tags: Cisco · CVE-2026-20182</em>]]></description>
-<pubDate>Thu, 14 May 2026 16:02:36 +0000</pubDate>
-<guid isPermaLink="true">https://blog.talosintelligence.com/sd-wan-ongoing-exploitation/</guid>
-<source url="https://feeds.feedburner.com/feedburner/Talos">Cisco Talos</source>
-<category>threat_research_primary</category>
-<category>Cisco</category>
-<category>CVE-2026-20182</category>
 </item>
 <item>
 <title>Kazuar: Anatomy of a nation-state botnet</title>
@@ -8758,20 +8725,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>New cross domain guidance for government, industry and the wider security community</title>
-<link>https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</link>
-<description><![CDATA[Ensuring cross domain technologies are better understood - and more easily deployed - across sectors.]]></description>
-<pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Cyber chief: UK faces &quot;perfect storm&quot; for cyber security</title>
 <link>https://www.ncsc.gov.uk/news/cyber-chief-uk-faces-perfect-storm-for-cyber-security</link>
 <description><![CDATA[As the technology landscape develops, the definition of cyber security is expanding with it.]]></description>
 <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/cyber-chief-uk-faces-perfect-storm-for-cyber-security</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>New cross domain guidance for government, industry and the wider security community</title>
+<link>https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</link>
+<description><![CDATA[Ensuring cross domain technologies are better understood - and more easily deployed - across sectors.]]></description>
+<pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -10713,7 +10680,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f738185d040&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f83a1c43160&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -13264,15 +13231,6 @@
 <pubDate>Tue, 27 Jan 2026 14:12:01 +0000</pubDate>
 <guid isPermaLink="true">https://www.wiz.io/blog/ai-powered-wiz-forensics</guid>
 <source url="https://www.wiz.io/feed/rss.xml">Wiz Research</source>
-<category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Building a serverless, post-quantum Matrix homeserver</title>
-<link>https://blog.cloudflare.com/serverless-matrix-homeserver-workers/</link>
-<description><![CDATA[As a proof of concept, we built a Matrix homeserver to Cloudflare Workers — delivering encrypted messaging at the edge with automatic post-quantum cryptography.]]></description>
-<pubDate>Tue, 27 Jan 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://blog.cloudflare.com/serverless-matrix-homeserver-workers/</guid>
-<source url="https://blog.cloudflare.com/tag/security/rss/">Cloudflare Security</source>
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
@@ -20416,7 +20374,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20425,7 +20383,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20434,7 +20392,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20443,7 +20401,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20452,7 +20410,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20461,7 +20419,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20470,7 +20428,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20479,7 +20437,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20488,7 +20446,7 @@
 <title>CrowdStrike and Zscaler Bring Continuous Identity to Zero Trust Access</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-zscaler-bring-continuous-identity-security-to-zero-trust-access/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20497,7 +20455,7 @@
 <title>3 Principles to Safely Scale Agentic AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Thu, 18 Jun 2026 18:09:41 +0000</pubDate>
+<pubDate>Thu, 18 Jun 2026 21:25:20 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/three-principles-to-safely-scale-agentic-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
