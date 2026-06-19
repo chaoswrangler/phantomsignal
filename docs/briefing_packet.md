@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-19T13:39:56.688942+00:00
+- Generated: 2026-06-19T16:35:49.035370+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 337
-- Total clusters raw: 145
+- Total items in window: 334
+- Total clusters raw: 144
 - Total clusters in packet: 62
-- Dropped low score: 83
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,81 +80,86 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
+  - Item count: 15
+  - In window count: 2
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
+  - Item count: 25
+  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 7
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -175,101 +180,91 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 3
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 1
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 7
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 3
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 4
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,65 +275,65 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 20
+  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 4
+  - In window count: 19
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
-  - In window count: 20
+  - In window count: 4
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
   - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
@@ -350,56 +345,61 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 22
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,36 +415,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
-  - Item count: 50
-  - In window count: 43
+  - Item count: 0
+  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
+  - In window count: 5
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 45
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 28
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 17
+  - In window count: 15
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -473,6 +473,38 @@
 
 ## Affinity groups (themes)
 
+### Google Cloud vulnerability activity
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 5
+- Article count: 18
+- Cohesion: 0.228
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Google Cloud
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 1b1b76f133, e90454cc0b, f6709feff6, f05cf21728, 512ea8982c
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
+  - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
+  - https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
+  - https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
+  - https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/
+  - https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
+  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+  - https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
+  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
+  - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
+  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
+  - https://risky.biz/SRB171/
+  - https://www.reddit.com/r/netsec/comments/1u9ybfu/monitoring_the_claude_execution_layer_with/
+
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
@@ -496,73 +528,20 @@
   - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 3
-- Article count: 10
-- Cohesion: 0.242
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, data_breach, zero_day, active_exploitation
-  - actor_attribution: ShinyHunters
-  - affected_industries: education
-  - cve_ids: CVE-2026-35273
-  - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: a0d790eb01, d1241978fa, 20bb6721fd
-- Links:
-  - https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
-  - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
-  - https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
-  - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
-  - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
-  - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
-  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-
-### phishing social eng targeting Google Cloud
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 4
-- Article count: 14
-- Cohesion: 0.25
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Google Cloud
-- Cluster IDs: e90454cc0b, f6709feff6, 7f890872ef, 512ea8982c
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
-  - https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/
-  - https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
-  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
-  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
-  - https://www.wiz.io/blog/red-agent-pov-ssrf
-  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
-  - https://risky.biz/SRB171/
-  - https://www.reddit.com/r/netsec/comments/1u9ybfu/monitoring_the_claude_execution_layer_with/
-
 ### active exploitation targeting AWS
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 9
-- Cohesion: 0.321
+- Article count: 13
+- Cohesion: 0.304
 - Shared strong signals: AWS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
   - affected_products: AWS
-- Cluster IDs: 643755a74a, 799ac6a482, b6bc3df279
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 643755a74a, f05cf21728, b6bc3df279
 - Links:
   - https://labs.watchtowr.com/why-use-app-level-auth-when-every-database-has-auth-splunk-enterprise-cve-2026-20253-pre-auth-rce/
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
@@ -570,9 +549,44 @@
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
   - https://www.reddit.com/r/netsec/comments/1u46wbb/why_use_applevel_auth_when_every_database_has/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
+  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
   - https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
+  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
+  - https://www.wiz.io/blog/red-agent-pov-ssrf
   - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
   - https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
+
+### supply chain targeting WordPress
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 4
+- Article count: 17
+- Cohesion: 0.229
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain, web_shell_backdoor, credential_theft
+  - affected_industries: government, financial_services
+  - affected_products: WordPress
+  - urgency_signals: preauth_unauth
+- Cluster IDs: d1df71d8fb, f05cf21728, 93df5bfc62, c220c2d05e
+- Links:
+  - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
+  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+  - https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
+  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
+  - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
+  - https://risky.biz/RBNEWS577/
+  - https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/
+  - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
+  - https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
+  - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
+  - https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
+  - https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
 
 ### CVE-2026-20253 exploitation activity
 - Anchor signal: CVE-2026-20253
@@ -625,7 +639,7 @@
 - Anchor signal: Microsoft Entra
 - Theme key: microsoft-entra
 - Cluster count: 3
-- Article count: 4
+- Article count: 3
 - Cohesion: 0.271
 - Shared strong signals: Microsoft Entra
 - Member CVEs: (none)
@@ -662,47 +676,48 @@
   - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
 
-### supply chain targeting WordPress
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 3
-- Article count: 10
-- Cohesion: 0.2
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, web_shell_backdoor
-  - affected_products: WordPress
-- Cluster IDs: d1df71d8fb, 93df5bfc62, c220c2d05e
-- Links:
-  - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
-  - https://risky.biz/RBNEWS577/
-  - https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/
-  - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
-  - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
-  - https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
-  - https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
-  - https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
-
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
+### CVE-2026-48558 exploitation activity
+- Anchor signal: CVE-2026-48558
+- Theme key: cve-2026-48558
 - Cluster count: 2
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.2
-- Shared strong signals: CVE-2026-50751
+- Shared strong signals: CVE-2026-48558
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, active_exploitation
-  - cve_ids: CVE-2026-50751
-  - urgency_signals: actively_exploited
-- Cluster IDs: 03eea66307, d1241978fa
+  - cve_ids: CVE-2026-48558
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 1b1b76f133, 62e6b1535e
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-50751/
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
   - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
   - https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48558/
+
+### ShinyHunters: ransomware extortion
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 2
+- Article count: 9
+- Cohesion: 0.2
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion
+  - actor_attribution: ShinyHunters
+- Cluster IDs: 1b1b76f133, 20bb6721fd
+- Links:
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
+  - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
+  - https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
+  - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
+  - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+  - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
+  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
 
 ### supply chain targeting Microsoft SharePoint
 - Anchor signal: Microsoft SharePoint
@@ -722,8 +737,8 @@
   - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
   - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft
 
@@ -749,15 +764,13 @@
   - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
   - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2026-47729 (first seen via Reddit r/netsec at 2026-06-19T10:21:41+00:00, cluster 5b5787f3bd)
-  - CVE-2026-56099 (first seen via Reddit r/netsec at 2026-06-19T13:27:18+00:00, cluster 5e1e9d778f)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -771,29 +784,39 @@
 ### Leading edge (0)
 
 ### Convergence (15)
-- Pair: CVE-2013-3821 + ShinyHunters (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2013-3821 + UNC6240 (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2013-3821 + Azure (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2017-3548 + ShinyHunters (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2017-3548 + UNC6240 (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2017-3548 + Azure (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2026-35273 + ShinyHunters (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2026-35273 + UNC6240 (cluster a0d790eb01, first observation: True)
-- Pair: CVE-2026-35273 + Azure (cluster a0d790eb01, first observation: True)
-- Pair: ShinyHunters + Azure (cluster a0d790eb01, first observation: True)
-- Pair: UNC6240 + Azure (cluster a0d790eb01, first observation: True)
 - Pair: CVE-2026-20253 + AWS (cluster 643755a74a, first observation: True)
+- Pair: CVE-2026-35273 + ShinyHunters (cluster 1b1b76f133, first observation: True)
+- Pair: CVE-2026-35273 + UNC6240 (cluster 1b1b76f133, first observation: True)
+- Pair: CVE-2026-35273 + Google Cloud (cluster 1b1b76f133, first observation: True)
+- Pair: CVE-2026-48558 + ShinyHunters (cluster 1b1b76f133, first observation: True)
+- Pair: CVE-2026-48558 + UNC6240 (cluster 1b1b76f133, first observation: True)
+- Pair: CVE-2026-48558 + Google Cloud (cluster 1b1b76f133, first observation: True)
+- Pair: ShinyHunters + Google Cloud (cluster 1b1b76f133, first observation: True)
+- Pair: UNC6240 + Google Cloud (cluster 1b1b76f133, first observation: True)
 - Pair: CVE-2026-48558 + Microsoft Entra (cluster 62e6b1535e, first observation: True)
 - Pair: CVE-2026-50656 + Anthropic/Claude (cluster ba048c19c8, first observation: True)
 - Pair: CVE-2026-50656 + Apple iOS/macOS (cluster ba048c19c8, first observation: True)
+- Pair: CVE-2026-50656 + Microsoft Defender (cluster ba048c19c8, first observation: True)
+- Pair: CVE-2026-50656 + npm (cluster ba048c19c8, first observation: True)
+- Pair: CVE-2026-20122 + Cisco (cluster 2d5c32428f, first observation: True)
 
-### Drift (0)
+### Drift (2)
+- **ShinyHunters** (cluster 1b1b76f133)
+  - New industries: financial_services
+  - New products: Google Cloud
+  - Prior top industries: education, government, telecommunications
+  - Prior top products: Azure, Google/Gemini, npm
+- **UNC6240** (cluster 1b1b76f133)
+  - New industries: financial_services
+  - New products: (none)
+  - Prior top industries: education, government, telecommunications
+  - Prior top products: Azure, Google Cloud, npm
 
 ### Persistence (5)
-- actor_attribution: ShinyHunters (weeks observed: 3, cluster a0d790eb01)
+- actor_attribution: ShinyHunters (weeks observed: 3, cluster 1b1b76f133)
 - cve_ids: CVE-2026-20245 (weeks observed: 3, cluster 2d5c32428f)
-- cve_ids: CVE-2026-0257 (weeks observed: 3, cluster 7f890872ef)
 - cve_ids: CVE-2026-11645 (weeks observed: 3, cluster bfe56aaca6)
+- cve_ids: CVE-2026-0257 (weeks observed: 3, cluster 39e22586b8)
 - cve_ids: CVE-2026-42271 (weeks observed: 3, cluster b6bc3df279)
 
 ### Tier inversion (4)
@@ -815,62 +838,6 @@
   - Strong signals: CVE-2026-5667
 
 ## Clusters
-
-### Cluster a0d790eb01 — score 63
-
-- Title: Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-06-12T13:43:04+00:00
-- Link: https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-35273
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-- actor_attribution: ShinyHunters, UNC6240
-- affected_industries: education, telecommunications
-- affected_products: Azure
-- cve_ids: CVE-2013-3821, CVE-2017-3548, CVE-2026-35273
-- urgency_signals: actively_exploited, emergency_patch, preauth_unauth, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
-- actor_attribution: ShinyHunters, UNC6240
-- affected_industries: telecommunications, education
-- affected_products: Azure
-- cve_ids: CVE-2026-35273, CVE-2013-3821, CVE-2017-3548
-- urgency_signals: actively_exploited, zero_day, emergency_patch
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Overview On June 10, 2026, Oracle published a security alert for CVE-2026-35273 , a critical vulnerability in the Updates Environment Management component of PeopleSoft Enterprise PeopleTools. Oracle released an out-of-band patch the same day as the advisory, underscoring the urgency of remediation. The vulnerability has a CVSSv3.1 score of 9.8 and is remotely exploitable without authentication. Per the vendor advisory, successful exploitation may result in remote code execution (RCE). TrendAI has classified the underlying flaw as a server-side request forgery ( CWE-918 ). PeopleTools versions 8.61 and 8.62 are affected. CVE-2026-35273 was reported to Oracle through TrendAI's Zero Day Initiative. According to a report published by Mandiant on June 11, 2026, this vulnerability has been exploited in the wild as a zero-day prior to the vendor security alert , with active exploitation observed between May 27 and June 9, 2026, predating Oracle's advisory by two weeks. The vulnerability was
-```
-
-#### Full body
-
-```
-Back to Blog Vulnerabilities and Exploits Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273) Jonah Burgess Jun 12, 2026 | Last updated on Jun 12, 2026 | 5 min read Overview On June 10, 2026, Oracle published a security alert for CVE-2026-35273 , a critical vulnerability in the Updates Environment Management component of PeopleSoft Enterprise PeopleTools. Oracle released an out-of-band patch the same day as the advisory, underscoring the urgency of remediation. The vulnerability has a CVSSv3.1 score of 9.8 and is remotely exploitable without authentication. Per the vendor advisory, successful exploitation may result in remote code execution (RCE). TrendAI has classified the underlying flaw as a server-side request forgery ( CWE-918 ). PeopleTools versions 8.61 and 8.62 are affected. CVE-2026-35273 was reported to Oracle through TrendAI's Zero Day Initiative. According to a report published by Mandiant on June 11, 2026, this vulnerability has been exploited in the wild as a zero-day prior to the vendor security alert , with active exploitation observed between May 27 and June 9, 2026, predating Oracle's advisory by two weeks. The vulnerability was added to the CISA KEV on June 12, 2026. Mandiant has attributed the campaign to UNC6240 (ShinyHunters), a financially motivated cybercriminal collective known for data theft and extortion. ShinyHunters has been linked to breaches across cloud services, SaaS platforms, and telecommunications providers, frequently exploiting weak authentication controls, stolen credentials, and cloud misconfigurations rather than deploying sophisticated malware. Based on information published by Mandiant, the campaign heavily targeted the higher education sector; 68 percent of the more than 100 notified organizations were universities and colleges. The observed exploitation targeted PeopleSoft's Environment Management Hub (PSEMHUB) endpoints, and data stolen during the campaign was published on the ShinyHunters Data Leak Site (DLS) on June 9, 2026. The /PSIGW/HttpListeningConnector URI path appears in both the indicators of compromise for this campaign and in a PeopleSoft exploit chain for CVE-2013-3821 , detailed by Lexfo in 2017 . A related XML External Entity (XXE) vulnerability, CVE-2017-3548 , targeted a different Integration Gateway connector ( PeopleSoftServiceListeningConnector ) under the same /PSIGW/ path. Technical overview TrendAI's detection signatures for CVE-2026-35273 classify the underlying vulnerability as an SSRF. These include IPS Rule 1012580 ("Oracle Peoplesoft PeopleTools SSRF Vulnerability") and DDI Rule 5855 ("Peoplesoft PeopleTools Environment Management Hub (PSEMHUB) SSRF Exploit"). Mandiant describes CVE-2026-35273 as a critical remote code execution vulnerability, indicating that the SSRF serves as the mechanism through which code execution is achieved. Based on Mandiant's analysis, two endpoints are involved in exploitation: /PSEMHUB/hub and /PSIGW/HttpListeningConnector . The exploit chain may also cause the target system to make outbound SMB connections (TCP port 445) to external destinations, potentially allowing attackers to capture Windows machine-account NetNTLM hashes. Post-exploitation activity observed by Mandiant included the deployment of MeshCentral (an open-source, and self-hosted web-based remote monitoring and management platform) remote management agents configured to masquerade as Microsoft Azure services (e.g., meshagent64-azure-ops.exe ), with C2 communications directed to wss://azurenetfiles[.]net:443/agent.ashx . The attackers performed internal reconnaissance of PeopleSoft configurations, deployed lateral movement scripts, and exfiltrated data using zstd compression. Mitigation guidance Organizations running PeopleTools versions 8.61 or 8.62 should apply the vendor-supplied patch on an emergency basis, without waiting for a regular patch cycle to occur. Oracle has characterized this as a high-priority risk reduction measure. In addition
-```
-
-#### Corroborating sources (2)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)
-  - Published: 2026-06-12T13:43:04+00:00
-  - Link: https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273
-  - Summary: Overview On June 10, 2026, Oracle published a security alert for CVE-2026-35273 , a critical vulnerability in the Updates Environment Management component of PeopleSoft Enterprise PeopleTools. Oracle released an out-of-band patch the same day as the advisory, underscoring the urgency of remediation. The vulnerability has a CVSSv3.1 score of 9.8 and is remotely exploitable without authentication. Per the vendor advisory, successful exploitation may result in remote code execution (RCE). TrendAI has classified the underlying flaw as a server-side request forgery ( CWE-918 ). PeopleTools versions 8.61 and 8.62 are affected. CVE-2026-35273 was reported to Oracle through TrendAI's Zero Day Initiative. According to a report published by Mandiant on June 11, 2026, this vulnerability has been exploited in the wild as a zero-day prior to the vendor security alert , with active exploitation observed between May 27 and June 9, 2026, predating Oracle's advisory by two weeks. The vulnerability was
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-35273 | Oracle PeopleSoft PeopleTools Unauthenticated Remote Code Execution Vulnerability | Active Exploitation
-  - Published: 2026-06-12T20:04:24+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
-  - Summary: CVE-2026-35273 is a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft PeopleTools. Threat intelligence confirms active exploitation by ShinyHunters prior to disclosure.
 
 ### Cluster 643755a74a — score 48
 
@@ -945,6 +912,67 @@ Three posts? In three days? Are we insane? We're home alone, there's no one to s
   - Link: https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - Summary: Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. "In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary
 
+### Cluster 1b1b76f133 — score 41
+
+- Title: CVE-2026-35273 | Oracle PeopleSoft PeopleTools Unauthenticated Remote Code Execution Vulnerability | Active Exploitation
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-12T20:04:24+00:00
+- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: CVE-2026-35273, ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
+- actor_attribution: ShinyHunters, UNC6240
+- affected_industries: education, financial_services
+- affected_products: Google Cloud
+- cve_ids: CVE-2026-35273, CVE-2026-48558
+- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research, tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, zero_day, active_exploitation
+- actor_attribution: ShinyHunters, UNC6240
+- affected_industries: financial_services, education
+- affected_products: Google Cloud
+- cve_ids: CVE-2026-35273, CVE-2026-48558
+- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+CVE-2026-35273 is a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft PeopleTools. Threat intelligence confirms active exploitation by ShinyHunters prior to disclosure.
+```
+
+#### Full body
+
+```
+CVE-2026-35273 Oracle PeopleSoft PeopleTools Unauthenticated Remote Code Execution Vulnerability | Active Exploitation SimpleHelp has released patches for CVE-2026-48558, an authentication bypass vulnerability affecting deployments configured to use OpenID Connect (OIDC) authentication. The issue stems from how SimpleHelp validates identity provider assertions, Oracle has disclosed CVE-2026-35273, a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft Enterprise PeopleTools versions 8.61 and 8.62. The flaw exists within the Updates Environment Management component and can be exploited remotely over HTTP without valid credentials. Successful exploitation may allow attackers to execute arbitrary code, take control of affected servers, access sensitive enterprise data, modify application logic, and disrupt critical business operations. Public reporting and threat intelligence indicate the vulnerability has already been exploited in the wild as a zero-day by the ShinyHunters threat group prior to Oracle’s advisory. Technical Details CVE-2026-35273 affects the Updates Environment Management component of Oracle PeopleSoft Enterprise PeopleTools. Key characteristics include: Unauthenticated remote code execution Network exploitable over HTTP No user interaction required Low attack complexity Affects PeopleTools 8.61 and 8.62 Can lead to complete server compromise According to Oracle and threat intelligence reporting, exploitation allows attackers to gain control of vulnerable PeopleSoft environments, potentially exposing HR, payroll, financial, student, and operational data. The vulnerability requires only network access to a reachable PeopleSoft endpoint. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this remote code execution vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether vulnerable PeopleSoft endpoints can be exploited. Patch immediately: Apply Oracle’s recommended mitigations and security updates for supported PeopleTools versions. Re-run the test: Confirm the vulnerability is no longer exploitable after remediation. Indicators of Compromise Indicator Type Description 142.11.200[.]186-190 IP Address Known attacker infrastructure associated with observed exploitation activity 108.174.202[.]99 IP Address Known attacker infrastructure associated with observed exploitation activity 176.120.22[.]24 IP Address Known attacker infrastructure associated with observed exploitation activity UNC6240 (ShinyHunters) Threat Actor Group attributed to active exploitation campaign May 27 – June 9, 2026 Activity Window Period during which exploitation activity was observed Threat intelligence from Google Cloud and Mandiant identified active compromise and extortion campaigns targeting Oracle PeopleSoft environments. Researchers observed exploitation activity prior to Oracle’s June 10, 2026 disclosure, confirming zero-day exploitation in the wild. ShinyHunters reportedly targeted approximately 300 PeopleSoft instances across more than 100 organizations. A publicly acknowledged victim was the University of Nottingham. Affected versions & patch Affected: Oracle PeopleSoft Enterprise PeopleTools 8.61 Oracle PeopleSoft Enterprise PeopleTools 8.62 Patch: Apply Oracle’s security update and recommended mitigations immediately. Oracle advises customers running unsupported PeopleTools versions to upgrade to a supported release as soon as possible. Restrict access to Environment Management Hub (PSEMHUB) endpoints and ensure they are not exposed externally wherever possible. Timeline May 27, 2026 – Earliest observed exploitation activity attributed to UNC6240 (ShinyHunters). June 9, 2026 – Latest date
+```
+
+#### Corroborating sources (3)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CVE-2026-35273 | Oracle PeopleSoft PeopleTools Unauthenticated Remote Code Execution Vulnerability | Active Exploitation
+  - Published: 2026-06-12T20:04:24+00:00
+  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-35273/
+  - Summary: CVE-2026-35273 is a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft PeopleTools. Threat intelligence confirms active exploitation by ShinyHunters prior to disclosure.
+- **Check Point Research** (threat_research_primary)
+  - Title: 15th June – Threat Intelligence Report
+  - Published: 2026-06-15T13:40:44+00:00
+  - Link: https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 15th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The University of Nottingham, a UK research university, has suffered a data breach after ShinyHunters accessed its student records system. The incident affected about 454,600 current and former students and exposed contact details, […] The post 15th June – Threat Intelligence Report appeared first on Check Point Research .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed
+  - Published: 2026-06-12T20:26:32+00:00
+  - Link: https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
+  - Summary: A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.
+
 ### Cluster 03eea66307 — score 27
 
 - Title: CVE-2026-50751 | Check Point Security Gateway Improper Authentication Vulnerability
@@ -997,7 +1025,7 @@ CVE-2026-50751 Check Point Security Gateway Improper Authentication Vulnerabilit
 - Published: 2026-06-15T16:05:47+00:00
 - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48558/
 - Fetch status: ok
-- Member count: 2
+- Member count: 1
 - Corroborating source count: 1
 - Strong signals: CVE-2026-48558
 
@@ -1187,62 +1215,6 @@ Wiz Pricing Get a demo Get a demo Malicious actors are actively weaponizing AI t
   - Published: 2026-06-17T14:33:41+00:00
   - Link: https://www.wiz.io/blog/red-agent-pov-series
   - Summary: An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild
-
-### Cluster d1241978fa — score 20
-
-- Title: 15th June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-06-15T13:40:44+00:00
-- Link: https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: ShinyHunters
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: ShinyHunters
-- affected_industries: education, healthcare
-- affected_products: Anthropic/Claude, GitHub, Microsoft BitLocker
-- cve_ids: CVE-2026-27022, CVE-2026-35273, CVE-2026-41091, CVE-2026-45657, CVE-2026-50751
-- urgency_signals: actively_exploited, poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
-- actor_attribution: ShinyHunters
-- affected_industries: healthcare, education
-- affected_products: Microsoft BitLocker, Anthropic/Claude, GitHub
-- cve_ids: CVE-2026-35273, CVE-2026-27022, CVE-2026-50751, CVE-2026-45657, CVE-2026-41091
-- urgency_signals: actively_exploited, zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 15th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The University of Nottingham, a UK research university, has suffered a data breach after ShinyHunters accessed its student records system. The incident affected about 454,600 current and former students and exposed contact details, […] The post 15th June – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 15th June – Threat Intelligence Report June 15, 2026 https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 15th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The University of Nottingham, a UK research university, has suffered a data breach after ShinyHunters accessed its student records system. The incident affected about 454,600 current and former students and exposed contact details, passport numbers, enrollment information, and fee payment records later appeared online. According to analysts, this breach is part of a larger wave of attacks targeting more than 100 organizations by ShinyHunters, exploiting CVE-2026-35273, a critical zero-day vulnerability in Oracle PeopleSoft that allows remote code execution. Check Point IPS provides protection against this threat (Oracle PeopleSoft Enterprise PeopleTools Server-Side Request Forgery (CVE-2026-35273)) Mackay Sugar, Australia’s second-largest sugar producer, has been hit by a cyberattack that disrupted operations and shut down its Farleigh and Racecourse mills in Queensland. The company instructed growers to stop harvesting and suspended cane haulage while temporary measures were deployed to maintain essential operations. Danish pharmaceutical giant Novo Nordisk has disclosed a breach after attackers accessed internal IT systems and copied pseudonymized clinical trial data from research systems. The exposed information included patient IDs, trial participation details, limited health data, and some healthcare professionals’ contact information. AI THREATS Check Point Research has demonstrated exploitable flaws in LangGraph, an open-source framework for stateful AI agents. Researchers chained SQL injection and unsafe deserialization issues to achieve remote code execution, with patches issued for SQLite, core, and Redis checkpointer components in affected deployments. Check Point IPS provides protection against this threat (LangChain LangGraph SQL Injection (CVE-2026-27022)) Researchers highlighted a China-based phishing-as-a-service network, Outsider, that allegedly used Gemini to generate fake websites and support SMS phishing campaigns. Google filed a lawsuit after linking the operation to thousands of phishing sites, more than 1.5 million URLs, and large-scale victim targeting. Researchers warned that prompt-injection attacks against Anthropic’s Claude Code GitHub Action could leak CI/CD workflow secrets. Malicious issue or pull request text can instruct the agent to read environment variables and expose API keys, enabling workflow abuse and impersonation inside software repositories. VULNERABILITIES AND PATCHES Check Point Research has identified active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability affecting Check Point Remote Access VPN and Mobile Access deployments configured to use the deprecated IKEv1 key exchange protocol. Attacks began in May and increased in early June, affecting a limited number of organizations, with one case tied to Qilin ransomware activity. Check Point IPS provides protection against this threat (IKEv1 Remote Access Authentication Bypass PoC Exploit (CVE-2026-50751)) Microsoft released its largest Patch Tuesday update to date, addressing more than 200 Windows and Defender vulnerabilities amid an AI-driven surge in vulnerability discovery. The fixes include CVE-2026-45657, a critical Windows flaw with a CVSS score of 9.8 that could enable network-based propagation, CVE-2026-41091, which has been actively exploited to gain full system control, and CVE-2026-50507, a BitLocker bypass vulnerability. Veeam has released security updates to fix a critical flaw affecting Backup & Replication. The vulnerability allows an authenticated domain user to execute code remotely on a domain-joined backup server, exposing sensitive backup infrast
-```
-
-#### Corroborating sources (2)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 15th June – Threat Intelligence Report
-  - Published: 2026-06-15T13:40:44+00:00
-  - Link: https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 15th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The University of Nottingham, a UK research university, has suffered a data breach after ShinyHunters accessed its student records system. The incident affected about 454,600 current and former students and exposed contact details, […] The post 15th June – Threat Intelligence Report appeared first on Check Point Research .
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed
-  - Published: 2026-06-12T20:26:32+00:00
-  - Link: https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed
-  - Summary: A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.
 
 ### Cluster e90454cc0b — score 20
 
@@ -1597,52 +1569,62 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
   - Summary: This post explores four vectors for threat actors to abuse Azure Storage to maliciously encrypt victim blobs, including step-by-step explanations and event codes for detection.
 
-### Cluster 7f890872ef — score 14
+### Cluster f05cf21728 — score 14
 
-- Title: Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-16T19:05:41+00:00
-- Link: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+- Title: In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-19T15:23:36+00:00
+- Link: https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
-- Strong signals: Google Cloud, Palo Alto Networks
+- Member count: 6
+- Corroborating source count: 6
+- Strong signals: AWS, Google Cloud
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_products: Google Cloud, Palo Alto Networks
-- cve_ids: CVE-2026-0257, CVE-2026-2473
-- urgency_signals: actively_exploited
-- content_type: news_report
+- threat_categories: active_exploitation, credential_theft, supply_chain, vulnerability_disclosure, web_shell_backdoor
+- affected_industries: aviation_defense, critical_infrastructure, financial_services, government
+- affected_products: AWS, Google Cloud, Palo Alto Networks, WordPress
+- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
+- content_type: news_report, vendor_announcement
 - confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_products: Google Cloud, Palo Alto Networks
-- cve_ids: CVE-2026-2473
-- urgency_signals: actively_exploited
+- threat_categories: supply_chain, credential_theft, web_shell_backdoor, vulnerability_disclosure
+- affected_industries: financial_services, government, critical_infrastructure, aviation_defense
+- affected_products: AWS, Google Cloud, WordPress
+- urgency_signals: preauth_unauth, no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique "Pickle in the Middle" and said it saw no exploitation in the wild.
+Other noteworthy stories that might have slipped under the radar: Android TV botnet Popa linked to Israeli firm, Velvet Ant maintained decade-long stealth, unpatched GCP Config Connector flaw enables takeover. The post In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting  Swati Khandelwal  Jun 16, 2026 Machine Learning / Cloud Security A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique " Pickle in the Middle " and said it saw no exploitation in the wild. Google has patched it; if you use the SDK, update to version 1.148.0 or later. The attacker needed only a Google Cloud project of their own and the victim's project ID, which is often public. No credentials, no phishing, no foothold in the target. The flaw was in how the SDK chose a temporary Cloud Storage bucket for model uploads. If a user did not set a bucket, the SDK generated a predictable name from the project ID and region, such as project-vertex-staging-region . It checked whether that bucket existed, but not whether the victim owned it. Because bucket names are globally unique, an attacker could create the expected bucket first in their own project. The victim's SDK would then upload the model files to the attacker's bucket. The attacker could then replace the uploaded model with a malicious one. Many Python ML models are saved with pickle or joblib , which can run code when a file is loaded. When Vertex AI later loaded the swapped model, the attacker's code executed inside the serving container. The attack depended on speed. Unit 42 measured about 2.5 seconds between the victim's upload and Vertex AI reading the file. In its proof of concept, the attacker used a Cloud Function that triggered after upload and replaced the model in 1.4 seconds, before Vertex AI read it. The payload then stole an OAuth token from the serving container's metadata server and sent it to the attacker. In Unit 42's test environment, that token was not limited to the compromised deployment. It could access other model artifacts in the same Google-managed tenant project, including a full TensorFlow model with trained weights, as well as BigQuery metadata, access lists, tenant logs, GKE cluster names, and internal container image paths. The attack worked only under specific conditions: the victim's default staging bucket did not already exist in that region, and the victim left the staging_bucket parameter unset. The first is common for a new project in Vertex AI in a region. The second depends on the developer relying on the SDK's default rather than naming their own bucket. Unit 42 reported the flaw through Google's Vulnerability Reward Program on March 5, 2026. It tested versions 1.139.0 and 1.140.0, the latest available at the time, and found both vulnerable. Google shipped an initial fix in v1.144.0 on March 31, adding a random uuid4 to the bucket name. It completed the fix in v1.148.0 on April 15, adding bucket ownership verification to block bucket squatting in Model.upload(). As of publication, neither Unit 42 nor Google's Vertex AI security bulletins list a CVE for the issue. Update to 1.148.0 or later so the ownership check is active. Also, set an explicit staging_bucket to a Cloud Storage location you control when uploading models. Because the flawed logic lives in the client SDK, check the google-cloud-aiplatform version wherever it runs, including notebooks, CI jobs, and training pipelines, not only production services. It is the second predictable-bucket-name flaw to surface in Vertex AI this year. Google patched CVE-2026-2473 in February, a separate bucket-squatting bug in Vertex AI Experiments that also allowed cross-tenant code execution, model theft, and poisoning. Unit 42's earlier work on Vertex AI's default service-agent permissions traced a related path from a deployed AI agent into customer and tenant data. Found this article interesting? Follow us on Google News , Twitter and LinkedIn
+SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage but remain relevant to the broader threat landscape. This curated summary highlights key stories across vulnerability disclosures, emerging attack methods, policy updates, industry reports, and other noteworthy events to help readers maintain a well-rounded awareness of the evolving cybersecurity environment. Here are this week’s highlights: 10-year-old phpBB flaw enables session hijacking Researchers uncovered a critical authentication bypass in phpBB versions up to 3.3.16 and 4.0.0-a2. A single unauthenticated HTTP request can impersonate any user, including admins, exposing private messages and forum content, and providing full administrative control. phpBB users should upgrade immediately to 3.3.17 or the latest master branch. The issue, reported via HackerOne, received a patch within days, but thousands of active forums remain exposed. Advertisement. Scroll to continue reading. Velvet Ant maintained decade-long stealth in air-gapped critical infrastructure China-nexus actor Velvet Ant compromised an organization’s segregated network starting around 2016. It chained internet-facing footholds, Nginx/FastCGI proxies, and backdoored PAM/OpenSSH components for credential theft and persistent access. The group deployed variants of GS-Netcat, SOCKS5 proxies, and nine pam_unix.so backdoors across hosts. Remediation proved complex. MaXSS and Spyder flaws expose 10 million Chrome users to hacking Critical vulnerabilities in SiderAI (Spyder) and MaxAI (MaXSS) agentic side-panel Chrome extensions can allow malicious websites to trigger arbitrary extension actions, including hidden tab screenshots, AI memory dumps, and potential file access. With over 10 million combined installs and no vendor response, the issues enable full browser session compromise and account takeovers without user interaction. Users should remove the extensions until fixed. AWS unveils Continuum AWS has announced a new AI-powered tool designed to help organizations discover, prioritize, validate, and resolve vulnerabilities. Available in gated preview, Continuum takes findings from existing tools and its own scanning, prioritizing them based on exploitability in the user’s own environment. 1.2 million WordPress sites compromised in OptinMonster supply chain attack Attackers injected malicious JavaScript into Awesome Motive’s OptinMonster, TrustPulse, and PushEngage WordPress plugin CDN scripts. The payload activates for logged-in admins, creating rogue administrator accounts and a hidden backdoor plugin. The breach stemmed from a compromised UpdraftPlus instance and CDN key. The supply chain attack is believed to have hit more than 1.2 million WordPress sites. FTC says imposter scams cost Americans $3.5 billion in 2025 The FTC reported imposter scams as the most common fraud category, with losses nearly tripling since 2020. Bank and government impersonation schemes drove the bulk of the damage, often via fake security alerts urging money transfers. Overall fraud losses hit a record $16 billion. The agency continues enforcement under its Impersonation Rule and supports public awareness campaigns. US DOT closes investigation into Delta’s 2024 CrowdStrike outage response The Department of Transportation ended its probe into Delta’s prolonged recovery from the global CrowdStrike incident without penalties. Investigators found the airline provided adequate refunds, baggage help, and support for passengers with disabilities. This aligns with the current administration’s shift away from certain Biden-era consumer protection enforcement approaches. JetBrains Marketplace plugins steal developer AI keys At least 15 malicious AI coding assistant plugins , published in the JetBrains Marketplace under various vendor accounts, exfiltrate OpenAI, DeepSeek, and similar API keys. The plugins have racked up nearly 70,000 installs while
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (6)
 
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum
+  - Published: 2026-06-19T15:23:36+00:00
+  - Link: https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - Summary: Other noteworthy stories that might have slipped under the radar: Android TV botnet Popa linked to Israeli firm, Velvet Ant maintained decade-long stealth, unpatched GCP Config Connector flaw enables takeover. The post In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
   - Published: 2026-06-16T19:05:41+00:00
   - Link: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
   - Summary: A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique "Pickle in the Middle" and said it saw no exploitation in the wild.
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - Title: Threat tactic spotlight: Subdomain takeover
+  - Published: 2026-06-16T17:53:20+00:00
+  - Link: https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
+  - Summary: In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can use various AWS features and services to help mitigate the impact of this tactic. […]
 - **Permiso Security** (cloud_identity_infrastructure)
   - Title: Mind the Gap: GCP serviceData in Logs Explorer vs. Exported Logs
   - Published: 2026-06-16T12:46:59+00:00
@@ -1653,11 +1635,11 @@ Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squattin
   - Published: 2026-06-17T14:33:51+00:00
   - Link: https://www.wiz.io/blog/red-agent-pov-ssrf
   - Summary: Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: What’s new with Google Cloud
-  - Published: 2026-06-12T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
-  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Jun 8 - Jun 12 Simplify Multi-Cloud Planning with Cloud Location Finder, now Generally Available Cloud Location Finder provides up-to-date data on public regions, zones, and Google Distributed Cloud Connected locations across Google Cloud, AWS, Azure, and OCI. You can now programmatically discover locations based on provider, proximity, territory, and carbon footprint to optimize your global infrastructure strategy for performance, compliance, and sustainability. Get started for free today Jun 1 - Jun 5 Modeling the physical world with BigQuery Graph Managing complex supply chains requires more than just spreadshee
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: AWS Unveils 'Continuum,' an AI-Powered Vulnerability Management Platform
+  - Published: 2026-06-19T11:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
+  - Summary: Working with frontier AI models, this new platform aims to help discovering, prioritizing, validating and remediating code vulnerabilities
 
 ### Cluster 2ae6e90456 — score 12
 
@@ -1860,45 +1842,6 @@ Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d3
   - Link: https://isc.sans.edu/diary/rss/33080
   - Summary: Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
 
-### Cluster d897bb4cf8 — score 11
-
-- Title: Why Security Teams Need To Start Earlier
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-06-18T14:45:55+00:00
-- Link: https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more to
-```
-
-#### Full body
-
-```
-Back to Blog Industry Trends Why Security Teams Need To Start Earlier Tom Caiazza Jun 18, 2026 | Last updated on Jun 18, 2026 | 5 min read GET THE NEW EBOOK Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more tools and more telemetry. This has resulted in more fragmentation, more dashboards, and more opportunities for important information to slip through the cracks. Teams are spending more time stitching context together than they are effectively reducing risk. This shows up in daily operations with analysts moving between multiple systems to validate alerts, and leaders lacking the clear picture to explain risk to the business. In a time when exposure management and detection & response can live on one platform, that level of fragmentation makes no sense. Reactive security creates operational drag The traditional model still dominates most security programs. It goes like this (stop us if you’ve heard this before): 1) Detect an alert. 2) Investigate. 3) Contain. 4) Recover. 5) Repeat, forever. Sounds simple, right? And it worked great when environments were simpler and attackers moved slower. That is no longer the case. Today, initial access often happens quietly through identity abuse or misconfiguration. Attack paths form before an alert even fires. By the time a signal reaches the security team, attackers may already be moving laterally or accessing sensitive systems. This creates a cycle of constant response without consistent risk reduction. Teams get better at handling incidents but struggle to remove the conditions that enable them. Security operations centers can receive thousands of alerts per day, many of which are low value or false positives. This leaves analysts spending hours triaging signals instead of focusing on the exposures most likely to lead to impact. More alerts do not make you safer. They create drag. Better context creates better outcomes. The issue is prioritization, not visibility Most organizations are not lacking data. They are lacking the clarity needed to understand the data they have and contextualize it as it relates to their business. Telemetry alone does not answer the question that matters most: what should we do first? Attackers look for the most effective path into an environment, often combining smaller weaknesses across assets, identities, and systems until they create meaningful access. Security teams need a similarly connected view, one that helps them understand which exposures are exploitable, which assets are most critical, and how those risks relate across the environment. When teams can see that full picture, they can focus remediation on the issues most likely to be used in a real attack, making risk reduction more targeted, efficient, and defensible. The result is effort without impact. Why security needs to start earlier The summit’s keynote message is direct: meaningful action must move earlier in the lifecycle. Preemptive Security introduces an operating model designed for that shift. It connects four core elements: Exposure management to identify
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: Why Security Teams Need To Start Earlier
-  - Published: 2026-06-18T14:45:55+00:00
-  - Link: https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier
-  - Summary: Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more to
-
 ### Cluster 20bb6721fd — score 11
 
 - Title: Cybersecurity Firms Impacted by Klue Supply Chain Attack
@@ -1958,16 +1901,16 @@ Cybersecurity firms Huntress and Recorded Future have disclosed the impact of a 
   - Published: 2026-06-19T09:03:57+00:00
   - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
   - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks
-  - Published: 2026-06-18T14:19:50+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
-  - Summary: Market intelligence platform Klue suffered a OAuth breach that enabled the "Icarus" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Salesforce Data Thefts Continue via Klue App Compromise
   - Published: 2026-06-18T16:49:04+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
   - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks
+  - Published: 2026-06-18T14:19:50+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
+  - Summary: Market intelligence platform Klue suffered a OAuth breach that enabled the "Icarus" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]
 
 ### Cluster 93df5bfc62 — score 11
 
@@ -1976,7 +1919,7 @@ Cybersecurity firms Huntress and Recorded Future have disclosed the impact of a 
 - Published: 2026-06-15T05:53:18+00:00
 - Link: https://risky.biz/RBNEWS577/
 - Fetch status: ok
-- Member count: 8
+- Member count: 9
 - Corroborating source count: 6
 - Strong signals: WordPress
 
@@ -2022,16 +1965,16 @@ Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain att
   - Published: 2026-06-19T06:46:44+00:00
   - Link: https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
   - Summary: Law enforcement and private partners took down 106 SocGholish C&C servers and domains as part of Operation Endgame. The post 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
+  - Published: 2026-06-19T15:07:54+00:00
+  - Link: https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
+  - Summary: Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. "With these actions we deprive cybercriminals of access to infected computer systems," Maikel Rollman of the Netherlands National High Tech Crime Unit said. "This prevents
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'Lorem Ipsum' Malware Pivots to ClickFix Delivery
   - Published: 2026-06-16T15:10:48+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
   - Summary: New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments
-  - Published: 2026-06-17T18:14:24+00:00
-  - Link: https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html
-  - Summary: An unknown threat actor has been observed leveraging paid or promoted posts on legitimate news websites to drum up buzz for their warez, according to new findings from Check Point Research. The threat actor also has at their disposal a dedicated WordPress phishing page that acts as the central hub, alongside GitHub and SourceForge projects promoted by fake accounts, a YouTube channel, and a
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Attackers Hijack Popular WordPress Plugins to Deploy Backdoors
   - Published: 2026-06-15T17:00:00+00:00
@@ -2472,6 +2415,88 @@ Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A ph
   - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
 
+### Cluster e2ef0ac5b5 — score 10
+
+- Title: Entra Agent ID: Inside a cross-tenant agent compromise
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-18T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: APT29
+
+#### Cluster taxonomy (union across members)
+- actor_attribution: APT29
+- affected_products: Microsoft Entra
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- actor_attribution: APT29
+- affected_products: Microsoft Entra
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+```
+
+#### Full body
+
+```
+Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
+```
+
+#### Corroborating sources (1)
+
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
+  - Published: 2026-06-18T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+
+### Cluster d897bb4cf8 — score 10
+
+- Title: Why Security Teams Need To Start Earlier
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-06-18T14:45:55+00:00
+- Link: https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more to
+```
+
+#### Full body
+
+```
+Back to Blog Industry Trends Why Security Teams Need To Start Earlier Tom Caiazza Jun 18, 2026 | Last updated on Jun 18, 2026 | 5 min read GET THE NEW EBOOK Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more tools and more telemetry. This has resulted in more fragmentation, more dashboards, and more opportunities for important information to slip through the cracks. Teams are spending more time stitching context together than they are effectively reducing risk. This shows up in daily operations with analysts moving between multiple systems to validate alerts, and leaders lacking the clear picture to explain risk to the business. In a time when exposure management and detection & response can live on one platform, that level of fragmentation makes no sense. Reactive security creates operational drag The traditional model still dominates most security programs. It goes like this (stop us if you’ve heard this before): 1) Detect an alert. 2) Investigate. 3) Contain. 4) Recover. 5) Repeat, forever. Sounds simple, right? And it worked great when environments were simpler and attackers moved slower. That is no longer the case. Today, initial access often happens quietly through identity abuse or misconfiguration. Attack paths form before an alert even fires. By the time a signal reaches the security team, attackers may already be moving laterally or accessing sensitive systems. This creates a cycle of constant response without consistent risk reduction. Teams get better at handling incidents but struggle to remove the conditions that enable them. Security operations centers can receive thousands of alerts per day, many of which are low value or false positives. This leaves analysts spending hours triaging signals instead of focusing on the exposures most likely to lead to impact. More alerts do not make you safer. They create drag. Better context creates better outcomes. The issue is prioritization, not visibility Most organizations are not lacking data. They are lacking the clarity needed to understand the data they have and contextualize it as it relates to their business. Telemetry alone does not answer the question that matters most: what should we do first? Attackers look for the most effective path into an environment, often combining smaller weaknesses across assets, identities, and systems until they create meaningful access. Security teams need a similarly connected view, one that helps them understand which exposures are exploitable, which assets are most critical, and how those risks relate across the environment. When teams can see that full picture, they can focus remediation on the issues most likely to be used in a real attack, making risk reduction more targeted, efficient, and defensible. The result is effort without impact. Why security needs to start earlier The summit’s keynote message is direct: meaningful action must move earlier in the lifecycle. Preemptive Security introduces an operating model designed for that shift. It connects four core elements: Exposure management to identify
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Why Security Teams Need To Start Earlier
+  - Published: 2026-06-18T14:45:55+00:00
+  - Link: https://www.rapid7.com/blog/post/it-why-security-teams-need-to-start-earlier
+  - Summary: Security leaders are facing an unusual set of circumstances. The drumbeat for better security prioritization has been rising for years in boardrooms around the world. The desire is there, but the processes of the past aren’t meeting the needs of the new moment we find ourselves in. That gap is not a technology problem. It's an operating model problem. At the opening keynote of Rapid7’s 2026 Global Cybersecurity Summit, Craig Adams, Chief Product Officer, Rapid7, Brian Castagna, CSO, Rapid7 and IDC’s Research VP, Craig Robinson framed a simple idea: cyber defense needs to start earlier. For more on this, download our new ebook, Preemptive Security: From Resilience to Action . Complexity is outpacing control Security environments have never been more connected or more difficult to manage. Cloud adoption, SaaS sprawl, third-party dependencies, and identity growth have expanded the attack surface in ways most programs were not designed to handle. Many teams have responded by adding more to
+
 ### Cluster 40492143b3 — score 10
 
 - Title: Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain
@@ -2558,48 +2583,48 @@ Back to Blog Artificial Intelligence Beyond the Score: Using AI to Translate CVE
   - Link: https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk
   - Summary: Security leaders rarely struggle to gather data, but they often struggle to turn that data into something clear and meaningful for the business. In a typical week, a CISO might receive a report listing hundreds or even thousands of vulnerabilities, most of them accompanied by CVSS scores that make the entire list look urgent, while also managing the wider set of operational, regulatory, and strategic demands that already come with the role. That difficulty becomes more obvious when the same information has to be carried into the boardroom, where the questions are rarely about CVE IDs or exploit counts in isolation. What leadership wants to understand is whether the organization’s revenue, uptime, legal exposure, or broader resilience could be affected, and how quickly those risks need to be addressed. This is where many security programs lose momentum, because the technical view of severity does not always line up neatly with the business view of consequence. Bridging that gap has trad
 
-### Cluster e2ef0ac5b5 — score 10
+### Cluster d8706917f4 — score 10
 
-- Title: Entra Agent ID: Inside a cross-tenant agent compromise
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-18T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+- Title: Texas govt data breach exposes over 3 million driver’s licenses
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-19T16:12:41+00:00
+- Link: https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: APT29
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: financial_services, government
+- content_type: incident_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]
 ```
 
 #### Full body
 
 ```
-Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
+Texas govt data breach exposes over 3 million driver’s licenses By Bill Toulas June 19, 2026 12:12 PM 0 The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. The Texas Cyber Command discovered the intrusion and launched an investigation to determine the extent and impact of the unauthorized access. The state authority found that Social Security Numbers (SSNs), dates of birth, or any financial information, such as credit cards, have not been impacted. However, the threat actor may have obtained personally identifiable information that includes the following data types associated with 3,087,721 Texas hunting and fishing license customers: Driver’s license information Passport numbers Email addresses Phone numbers Residential addresses The exposed data set is sufficient for hackers to target impacted individuals in phishing and social engineering attacks that lead to web pages distributing malware or seeking more sensitive information. "There is no evidence that customers under the age of 18 were involved or that any specific group was targeted," TPWD says in the data breach notification . TPWD is the Texas state agency responsible for managing wildlife and fisheries, state parks, conservation programs, hunting and fishing regulations, boating registration, and enforcement by Texas Game Wardens. The Texas state agency also issues hunting and fishing licenses and permits, which are sold through an external vendor. BleepingComputer contacted TPWD for more information about the incident and the name of the third-party service provider, but we have not yet received a statement. The agency says that it is "working closely with the license system vendor to implement new safeguards and enhanced monitoring services." TPWD advises customers to monitor their credit reports and financial statements. Impacted individuals are eligible for one year of free credit monitoring and should consider placing a credit freeze or fraud alert with major credit bureaus as an added protection against identity thieves. It is also strongly recommended to remain vigilant for phishing and impersonation scams, as threat actors may try to send communication posing as a company or an official. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Nintendo confirms data stolen in WebMD subsidiary cyberattack SoFi confirms third-party data breach at Hong Kong subsidiary 15-year-old detained over French govt agency data breach French govt agency confirms breach as hacker offers to sell data Video service Vimeo confirms Anodot breach exposed user data
 ```
 
 #### Corroborating sources (1)
 
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
-  - Published: 2026-06-18T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
-  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Texas govt data breach exposes over 3 million driver’s licenses
+  - Published: 2026-06-19T16:12:41+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
+  - Summary: The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]
 
 ### Cluster 6bc465fddb — score 10
 
@@ -2645,6 +2670,55 @@ CISA warns Fortinet users to secure devices after FortiBleed leak By Sergiu Gatl
   - Published: 2026-06-19T06:47:55+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
+
+### Cluster 39e22586b8 — score 10
+
+- Title: Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-15T06:17:32+00:00
+- Link: https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-0257, Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, credential_theft, phishing_social_eng, zero_day
+- affected_industries: government
+- affected_products: Anthropic/Claude, Palo Alto Networks, Ubiquiti UniFi
+- cve_ids: CVE-2026-0257, CVE-2026-11645
+- urgency_signals: actively_exploited, poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, credential_theft, zero_day, active_exploitation
+- affected_industries: government
+- affected_products: Palo Alto Networks, Anthropic/Claude, Ubiquiti UniFi
+- cve_ids: CVE-2026-0257, CVE-2026-11645
+- urgency_signals: actively_exploited, zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Palo Alto Networks has revealed that it has observed "active exploitation" of a recently disclosed PAN-OS vulnerability by an unknown threat actor to obtain unauthorized access to GlobalProtect portals. The vulnerability in question is CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software that could be exploited by bad
+```
+
+#### Full body
+
+```
+Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw  Ravie Lakshmanan  Jun 15, 2026 Vulnerability / VPN Security Palo Alto Networks has revealed that it has observed "active exploitation" of a recently disclosed PAN-OS vulnerability by an unknown threat actor to obtain unauthorized access to GlobalProtect portals. The vulnerability in question is CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software that could be exploited by bad actors to set up VPN connections. According to the network security company, the security defect could be exploited by a bad actor to bypass security controls and initiate VPN connections. The vulnerability has been exploited in the wild in limited attacks, with initial activity observed on May 17, 2026. It's currently unknown who is behind the exploitation efforts. "No post-access behavior or lateral movement has been identified as of this time," Palo Alto Networks said . "Only a small portion of the probed devices actually established VPN sessions, resulting in gateway-connected events." The company has also released indicators of compromise (IoCs) associated with the activity - IP addresses - 23.128.228[.]6 104.207.144[.]154 146.19.216[.]119 146.19.216[.]120 146.19.216[.]125 179.43.172[.]213 185.195.232[.]139 198.12.106[.]60 202.144.192[.]47 Host Names and MAC Addresses - aa:bb:cc:dd:ee:ff 00:11:22:33:44:55 WINDOWS-LAPTOP-001 DESKTOP-GP01 GP-CLIENT Palo Alto Networks is also urging customers to search GlobalProtect logs for successful gateway-connected events that match the following hard-coded client configuration values from a proof-of-concept (PoC) exploit - endpoint_os_version : Microsoft Windows 10 Pro 64-bit source_user_info.domain : empty Late last month, the U.S. Cybersecurity and Infrastructure Security Agency (CSIA) added CVE-2026-0257 to its Known Exploited Vulnerabilities (KEV) catalog, ordering Federal Civilian Executive Branch (FCEB) agencies to mitigate the flaw by June 1, 2026. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication bypass , CISA , cybersecurity , GlobalProtect , network security , Palo Alto Networks , PAN-OS , VPN Security , Vulnerability ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw ⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More ⭐ Featured Resources Get the 2026 Guide to Govern and Secure Enterprise AI Agents at Scale [Watch Demo] See Which Security Gaps Attackers Could Exploit First AI Can’t Stop Every Attack. Learn How Zero Trust Can Block What’s Unknown Have You Outgrown Your MDR? 7 Warning Signs Every CISO Should Check
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw
+  - Published: 2026-06-15T06:17:32+00:00
+  - Link: https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html
+  - Summary: Palo Alto Networks has revealed that it has observed "active exploitation" of a recently disclosed PAN-OS vulnerability by an unknown threat actor to obtain unauthorized access to GlobalProtect portals. The vulnerability in question is CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw affecting the portal and gateway components of PAN-OS software that could be exploited by bad
 
 ### Cluster 29fcf4633f — score 10
 
@@ -2813,6 +2887,88 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
 
+### Cluster 5fb153b4fa — score 9
+
+- Title: What Is Application Security Testing? Tools and Types
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-06-19T15:50:00+00:00
+- Link: https://orca.security/resources/blog/what-is-application-security-testing/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: government
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key takeaways Application security testing (AST) is how organizations identify security weaknesses before attackers can exploit them. It includes activities such as threat modeling and automated techniques like SAST, SCA, DAST, and IAST. AST belongs in the same program as shift-left security, while DevSecOps practices help route findings to the right owners for remediation. AST […]
+```
+
+#### Full body
+
+```
+Table of contents Key takeaways Why AST Matters: The Importance of Shift Left Security Threat Modeling Static Application Security Testing (SAST) Software Composition Analysis (SCA) Dynamic Application Security Testing (DAST) Interactive Application Security Testing (IAST) How Orca Security Fits Application Security Testing Programs Adding Cloud Context to AST Findings Operationalizing AST in Cloud Environments Application Security Testing Frequently Asked Questions Key takeaways Application security testing (AST) is the set of processes and tools used to find and fix security defects throughout the software development lifecycle. Common AST techniques include threat modeling, SAST, SCA, DAST, and IAST. Each identifies different classes of risk. Shift-left AST helps teams find issues earlier, when fixes are faster and less disruptive. Combining AST findings with cloud and runtime context helps teams prioritize the vulnerabilities that present real business risk. Application security testing (AST) is how organizations identify security weaknesses before attackers can exploit them. It includes activities such as threat modeling and automated techniques like SAST, SCA, DAST, and IAST. AST belongs in the same program as shift-left security , while DevSecOps practices help route findings to the right owners for remediation. AST is not a single tool. It is a program that combines testing, remediation workflows, and governance across the software development lifecycle. The goal is to reduce the chance that design flaws, vulnerable dependencies, or insecure defaults reach production. NIST SP 800-218 (Secure Software Development Framework) provides a widely used framework for integrating security into software delivery. Organizations do not need every control on day one, but they should define a clear scope covering languages, pipelines, environments, and risk owners. Why AST Matters: The Importance of Shift Left Security Fix issues earlier. Fixing a defect after release costs more than fixing it during design or code review. That is the core idea behind shift-left security: finding issues when developers still have context and remediation is straightforward. Security does not stop at deployment. Runtime abuse, supply-chain incidents, and cloud misconfigurations still emerge after release. Programs that only scan repositories can miss exposed admin interfaces, unsafe cloud defaults, and risks introduced during deployment. Pair AST with application security governance so scope covers APIs, batch jobs, and integrations, not only user-facing web apps. Modern APIs also expand the attack surface, making API security testing an important part of AST. Support secure software delivery. Supply-chain incidents highlight the importance of composition analysis and software integrity. AST programs that include SCA and dependency governance are better equipped to identify risk when upstream packages change. OWASP maintains testing guidance that maps closely to AST programs. The Application Security Verification Standard helps teams translate security requirements into practical test cases for SAST, DAST, and manual review. Types of Application Security Testing AST types differ by what they analyze (source, binaries, running systems), when they run (build, test, prod), and what classes of bugs they target. Teams combine them because no single technique finds everything. The table below summarizes common differences. Your toolchain labels may vary by vendor. Technique Typical inputs Strengths Blind spots Threat modeling Architecture, data flows Finds design flaws early Depends on accurate diagrams SAST Source or bytecode Fast feedback in CI False positives; needs tuning SCA Manifests, lockfiles, images Supply-chain and license risk Transitive dependency noise DAST Running app URLs Realistic HTTP attack surface Auth and workflow coverage IAST Instrumented runtime + code paths Taint-style precision Operational cost and support Penetration testing and re
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: What Is Application Security Testing? Tools and Types
+  - Published: 2026-06-19T15:50:00+00:00
+  - Link: https://orca.security/resources/blog/what-is-application-security-testing/
+  - Summary: Key takeaways Application security testing (AST) is how organizations identify security weaknesses before attackers can exploit them. It includes activities such as threat modeling and automated techniques like SAST, SCA, DAST, and IAST. AST belongs in the same program as shift-left security, while DevSecOps practices help route findings to the right owners for remediation. AST […]
+
+### Cluster bebf48718b — score 9
+
+- Title: What Is Managed Cloud Security? A Practical Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-06-19T12:50:00+00:00
+- Link: https://orca.security/resources/blog/what-is-managed-cloud-security/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is Managed Cloud Security? Core Functions of Managed Cloud Security 24/7 Threat Detection and Response Vulnerability and Patch Management Compliance and Reporting Security Architecture Design and Hardening Toolchain Integration and Platform Coverage MDR vs. CNAPP vs. Managed Cloud Security Fully Managed vs. Co-Managed Security Models Who Should Use Which Model? Fully Managed Model Co-Managed Model Evaluating and Selecting a Managed Security Provider How Orca Security Supports Managed Cloud Security Frequently asked questions about Managed Cloud Security Key Takeaways Managed cloud security is an operating model where you contract a provider to run parts of cloud detection, response, posture management, and compliance workflows against your accounts and workloads. Core delivery patterns include 24/7 monitoring, vulnerability and patch coordination, compliance evidence collection, architecture hardening guidance, and integration with your existing CNAPP, CSPM, and DevSecOps toolchain. MDR, CNAPP, and managed cloud security solve different problems; the right stack often combines platform visibility with human-led operations where your risk and staffing gaps require it. Choosing a provider requires clear SLAs, transparency into how alerts are triaged, multi-cloud coverage that matches your estate, and honest limits on what outsourced teams can see without your IAM and logging foundations. Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are not limited to business hours. This guide explains the core functions of managed cloud security, compares MDR and CNAPP to managed services, contrasts fully managed and co-managed models, and outlines key evaluation criteria. Organizations often adopt the model when footprint, alert volume, or regulatory requirements outpace the team’s ability to maintain 24/7 coverage across AWS, Azure, GCP, and Kubernetes. What Is Managed Cloud Security? Managed cloud security is contracted security operations and posture work for public and hybrid cloud environments. The scope typically includes continuous monitoring of control-plane and workload signals, coordination with your identity and logging pipelines, and reporting aligned to frameworks such as CIS Benchmarks and NIST SP 800-53 controls. It is not a single product category. Rather, it is a service layer that sits on top of cloud security posture management (CSPM) , workload and vulnerability data, and often a cloud-native application protection platform (CNAPP) that unifies those views. Core Functions of Managed Cloud Security Core functions span detection and response, vulnerability and patch management, compliance and reporting, architecture and hardening guidance, and toolchain integration. Each function should have a written scope: which clouds, which log sources, which severity thresholds trigger human action, and which actions sit with the vendor versus your internal team. 24/7 Threat Detection and Response 24/7 threat detection and response means analysts and automation review alerts from your SIEM, CNAPP, CSPM, identity systems, and cloud provider APIs outside business hours. Effective programs map alerts to MITRE ATT&CK® tactics where possible, tune noisy rules with your change calendar, and document escalation paths to your incident commander. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation; findings that overlap with KEV should rank high in prioritization. Vulnerability and Patch Management Vulnerability and patch management in this context is workflow coordination. Teams validate scanner output from agent-based or agentless security approa
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: What Is Managed Cloud Security? A Practical Guide
+  - Published: 2026-06-19T12:50:00+00:00
+  - Link: https://orca.security/resources/blog/what-is-managed-cloud-security/
+  - Summary: Key Takeaways Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are […]
+
 ### Cluster f99fcc5f45 — score 9
 
 - Title: NIS2 is raising the bar. Here’s how to turn readiness into resilience.
@@ -2856,45 +3012,6 @@ Back to Blog Security Operations NIS2 is raising the bar. Here’s how to turn r
   - Link: https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience
   - Summary: The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be covered, raises expectations around management body accountability, introduces clearer and more enforceable requirements, and increases pressure on organizations to show that security is being managed in a consistent, defensible way. Reporting timelines are one of the most visible parts of that shift, with early warning required within 24 hours of awareness for significant incidents, incident notification within 72 hours, and a final report within one month. It also arrived in a landscape that is still uneven, with member states continuing to implement the directive in different ways across the EU. That combination has created a familiar challenge for CISOs and security teams, as the questions coming from boards and leadership are no longer just about whether the organization understands the re
 
-### Cluster bebf48718b — score 9
-
-- Title: What Is Managed Cloud Security? A Practical Guide
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-19T12:50:00+00:00
-- Link: https://orca.security/resources/blog/what-is-managed-cloud-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is Managed Cloud Security? Core Functions of Managed Cloud Security 24/7 Threat Detection and Response Vulnerability and Patch Management Compliance and Reporting Security Architecture Design and Hardening Toolchain Integration and Platform Coverage MDR vs. CNAPP vs. Managed Cloud Security Fully Managed vs. Co-Managed Security Models Who Should Use Which Model? Fully Managed Model Co-Managed Model Evaluating and Selecting a Managed Security Provider How Orca Security Supports Managed Cloud Security Frequently asked questions about Managed Cloud Security Key Takeaways Managed cloud security is an operating model where you contract a provider to run parts of cloud detection, response, posture management, and compliance workflows against your accounts and workloads. Core delivery patterns include 24/7 monitoring, vulnerability and patch coordination, compliance evidence collection, architecture hardening guidance, and integration with your existing CNAPP, CSPM, and DevSecOps toolchain. MDR, CNAPP, and managed cloud security solve different problems; the right stack often combines platform visibility with human-led operations where your risk and staffing gaps require it. Choosing a provider requires clear SLAs, transparency into how alerts are triaged, multi-cloud coverage that matches your estate, and honest limits on what outsourced teams can see without your IAM and logging foundations. Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are not limited to business hours. This guide explains the core functions of managed cloud security, compares MDR and CNAPP to managed services, contrasts fully managed and co-managed models, and outlines key evaluation criteria. Organizations often adopt the model when footprint, alert volume, or regulatory requirements outpace the team’s ability to maintain 24/7 coverage across AWS, Azure, GCP, and Kubernetes. What Is Managed Cloud Security? Managed cloud security is contracted security operations and posture work for public and hybrid cloud environments. The scope typically includes continuous monitoring of control-plane and workload signals, coordination with your identity and logging pipelines, and reporting aligned to frameworks such as CIS Benchmarks and NIST SP 800-53 controls. It is not a single product category. Rather, it is a service layer that sits on top of cloud security posture management (CSPM) , workload and vulnerability data, and often a cloud-native application protection platform (CNAPP) that unifies those views. Core Functions of Managed Cloud Security Core functions span detection and response, vulnerability and patch management, compliance and reporting, architecture and hardening guidance, and toolchain integration. Each function should have a written scope: which clouds, which log sources, which severity thresholds trigger human action, and which actions sit with the vendor versus your internal team. 24/7 Threat Detection and Response 24/7 threat detection and response means analysts and automation review alerts from your SIEM, CNAPP, CSPM, identity systems, and cloud provider APIs outside business hours. Effective programs map alerts to MITRE ATT&CK® tactics where possible, tune noisy rules with your change calendar, and document escalation paths to your incident commander. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation; findings that overlap with KEV should rank high in prioritization. Vulnerability and Patch Management Vulnerability and patch management in this context is workflow coordination. Teams validate scanner output from agent-based or agentless security approa
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: What Is Managed Cloud Security? A Practical Guide
-  - Published: 2026-06-19T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/what-is-managed-cloud-security/
-  - Summary: Key Takeaways Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are […]
-
 ### Cluster c220c2d05e — score 9
 
 - Title: CryptoBandits Malware Doubles as a Backdoor, Abuses Tor
@@ -2931,7 +3048,7 @@ CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft
 #### Full body
 
 ```
-Microsoft warns of a Windows-based cryptocurrency clipper that establishes a lightweight backdoor blending data exfiltration and remote code execution (RCE) capabilities. Dubbed CryptoBandits , the malware has been used in attacks since February 2026, deploying a portable Tor client on the infected systems and routing traffic through a local SOCKS5 proxy. “The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C&C server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution,” Microsoft explains. CryptoBandits is distributed through malicious shortcut (.lnk) payloads. On the infected systems, it deploys two components: a worm for propagation and a clipper/stealer to steal cryptocurrency wallet information. For propagation, the malware scans connected USB devices and creates additional malicious shortcuts of legitimate files. It can also deliver file-based payloads that it excludes from Defender scanning. The clipper is a script that interacts with the system via WScript and ActiveXObject, and checks whether Task Manager is running as an anti-analysis defense. Persistence is achieved through scheduled tasks. Advertisement. Scroll to continue reading. CryptoBandits launches a renamed Tor binary to establish command-and-control (C&C) communication and register the victim device, and then enters a continuous loop, polling the C&C for instructions every 500 milliseconds. The malware can extract seed phrases and private keys associated with cryptocurrency wallets, and can replace cryptocurrency addresses in the clipboard with attacker-provided ones to hijack them. According to Microsoft, the malware employs multi-layered obfuscation, decrypting all components at runtime. Both the Python script that handles installation and its JavaScript payloads are also obfuscated. The central component of the threat is the bundled Tor client, which routes communication over localhost:9050 and resolves destination domains to reduce DNS visibility and hide its C&C location. “This malware family shows how lightweight, script-based stealers can deliver outsized impact when paired with anonymized communications and runtime tasking. Organizations should focus on hardening script execution paths, monitoring local SOCKS proxy abuse, and using behavioral hunting to connect script activity with network, clipboard, and process signals,” Microsoft notes. Related: Rokarolla Banking Trojan Targets 200 Applications Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month Related: Infostealers Turn Millions of Devices Into Credential Theft Machines Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Critical Command Execution Vulnerability Patched in Cisco ISE F5 Patches Critical, High-Severity NGINX Vulnerabilities Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Latest News FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Majority of Internet-Accessible REDCap Servers Outdated Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 B
+Microsoft warns of a Windows-based cryptocurrency clipper that establishes a lightweight backdoor blending data exfiltration and remote code execution (RCE) capabilities. Dubbed CryptoBandits , the malware has been used in attacks since February 2026, deploying a portable Tor client on the infected systems and routing traffic through a local SOCKS5 proxy. “The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C&C server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution,” Microsoft explains. CryptoBandits is distributed through malicious shortcut (.lnk) payloads. On the infected systems, it deploys two components: a worm for propagation and a clipper/stealer to steal cryptocurrency wallet information. For propagation, the malware scans connected USB devices and creates additional malicious shortcuts of legitimate files. It can also deliver file-based payloads that it excludes from Defender scanning. The clipper is a script that interacts with the system via WScript and ActiveXObject, and checks whether Task Manager is running as an anti-analysis defense. Persistence is achieved through scheduled tasks. Advertisement. Scroll to continue reading. CryptoBandits launches a renamed Tor binary to establish command-and-control (C&C) communication and register the victim device, and then enters a continuous loop, polling the C&C for instructions every 500 milliseconds. The malware can extract seed phrases and private keys associated with cryptocurrency wallets, and can replace cryptocurrency addresses in the clipboard with attacker-provided ones to hijack them. According to Microsoft, the malware employs multi-layered obfuscation, decrypting all components at runtime. Both the Python script that handles installation and its JavaScript payloads are also obfuscated. The central component of the threat is the bundled Tor client, which routes communication over localhost:9050 and resolves destination domains to reduce DNS visibility and hide its C&C location. “This malware family shows how lightweight, script-based stealers can deliver outsized impact when paired with anonymized communications and runtime tasking. Organizations should focus on hardening script execution paths, monitoring local SOCKS proxy abuse, and using behavioral hunting to connect script activity with network, clipboard, and process signals,” Microsoft notes. Related: Rokarolla Banking Trojan Targets 200 Applications Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month Related: Infostealers Turn Millions of Devices Into Credential Theft Machines Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Critical Command Execution Vulnerability Patched in Cisco ISE F5 Patches Critical, High-Severity NGINX Vulnerabilities Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Latest News In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Majority of Internet-Accessible
 ```
 
 #### Corroborating sources (1)
@@ -3131,54 +3248,6 @@ submitted by /u/Ecstatic_Priority514 [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/
   - Summary: submitted by /u/Ecstatic_Priority514 [link] [comments]
 
-### Cluster 799ac6a482 — score 9
-
-- Title: Threat tactic spotlight: Subdomain takeover
-- Source: AWS Security Blog (cloud_identity_infrastructure)
-- Published: 2026-06-16T17:53:20+00:00
-- Link: https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: AWS
-
-#### Cluster taxonomy (union across members)
-- affected_products: AWS
-- attack_techniques: T1584.001
-- content_type: news_report, vendor_announcement
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: AWS
-- attack_techniques: T1584.001
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can use various AWS features and services to help mitigate the impact of this tactic. […]
-```
-
-#### Full body
-
-```
-AWS Security Blog Threat tactic spotlight: Subdomain takeover In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can use various AWS features and services to help mitigate the impact of this tactic. Under the shared responsibility model , securing configurations in the cloud is your responsibility. AWS supports you through strong defaults, guidance in the Security Pillar of the Well-Architected Framework , and security services to help you meet that responsibility. The AWS Customer Incident Response Team (AWS CIRT) also monitors for new and trending tactics that threat actors use to exploit specific customer configurations, so that you can make informed design decisions and improve your response plans. AWS CIRT has observed threat actors actively scanning for public DNS CNAME records that point to resources that no longer exist, looking for subdomain takeover opportunities. Note: The subdomain takeover tactic does not leverage vulnerabilities of AWS services. It exploits a dangling DNS record to redirect traffic to an attacker-controlled resource. Quick DNS Primer CNAME Records: A CNAME (Canonical Name) record is a DNS entry that points one domain name to another. For example, api.example.com can be configured to point to api.example.s3-website-us-east-1.amazonaws.com. This feature of DNS enables users to configure a memorable, human-friendly domain name while the actual resource lives at a longer, machine-generated AWS hostname. A security issue emerges when the target resource is deleted but the CNAME record pointing to it remains – creating a “dangling” record. Dangling Records: When a resource (like an S3 bucket) is deleted but the DNS record pointing to it is left behind, that DNS record becomes “dangling”, pointing to a resource that no longer exists. For resources in globally shared namespaces, threat actors can potentially reclaim the name of your deleted resource and serve malicious content through your DNS record. What is subdomain takeover? A subdomain is a prefix added to a domain that allows you to organize access to your resources. A subdomain takeover occurs when you delete the underlying resource and a threat actor creates a new resource with the same name to take advantage of the DNS records still pointing to it. A subdomain takeover is possible when a CNAME record points to an AWS resource that uses a globally shared DNS namespace where the resource name can be chosen by any AWS customer. The following AWS resources meet these criteria: Amazon S3 (global namespace): Bucket names like mybucket.s3.amazonaws.com are globally unique and can be claimed by any account if the bucket is deleted. Note: S3 buckets created with account regional namespaces (launched March 2026) are scoped to your account and are not subject to this issue. Amazon CloudFront: Distribution domain names like d111111abcdef8.cloudfront.net are assigned by AWS and cannot be chosen by an attacker. However, if you delete a distribution and another customer creates one that happens to receive the same domain name, a dangling CNAME could resolve to their content. AWS Elastic Beanstalk: Environment names like myapp.elasticbeanstalk.com are globally unique and can be claimed by any account if the environment is terminated. Resources like Amazon VPC, Amazon EC2 instances, or private hosted zones are not subject to this tactic because they do not expose globally claimable DNS namespaces. MITRE ATT&CK classifies this technique under T1584.001: Compromise Infrastructure – Domains . Analyzing an example scenario Consider the following scenario: You create a DNS CNAME record pointing to your S3 website endpoint. The subdomain subdomain.example.com now resolves to subdomain.example.s3-website-us-east-1.amazonaws.com, which serves content from the S3 bucket na
-```
-
-#### Corroborating sources (2)
-
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - Title: Threat tactic spotlight: Subdomain takeover
-  - Published: 2026-06-16T17:53:20+00:00
-  - Link: https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
-  - Summary: In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can use various AWS features and services to help mitigate the impact of this tactic. […]
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: AWS Unveils 'Continuum,' an AI-Powered Vulnerability Management Platform
-  - Published: 2026-06-19T11:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
-  - Summary: Working with frontier AI models, this new platform aims to help discovering, prioritizing, validating and remediating code vulnerabilities
-
 ### Cluster 33472b1f9c — score 8
 
 - Title: Modern Web Application Content Discovery
@@ -3303,45 +3372,6 @@ AI in the underground: Curiosity, claims, and concerns Amid discussions about ho
   - Published: 2026-06-17T00:00:00+00:00
   - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
   - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
-
-### Cluster 7d9b344aa0 — score 8
-
-- Title: AI Agents vs. Agentless Security vs. Agent-based Security
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-18T13:41:48+00:00
-- Link: https://orca.security/resources/blog/ai-agents-vs-agentless-vs-agent-based-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Demystifying AI Agents vs. Security Agents Few terms in cybersecurity have become more overloaded than “agent.” On one side, vendors are racing to introduce AI agents capable of investigating alerts, prioritizing vulnerabilities, generating remediation guidance, and automating security operations. On the other, organizations continue to evaluate agentless and agent-based security platforms for protecting […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways Demystifying AI Agents vs. Security Agents Why Are Security Teams Shifting to Agentless Approaches and AI Automation? What Is an AI Agent in Cybersecurity? Key Characteristics of AI Agents Key Characteristics of Security Agents What Is Agentless Security for Cloud Assets? Key Characteristics of Agentless Security What Is the Difference Between AI Agents, Security Agents, and Agentless Security? How These Technologies Work Together Looking Beyond the Buzzwords How Orca Helps Frequently Asked Questions Key Takeaways AI agents and security agents are fundamentally different technologies that solve different problems. AI agents use artificial intelligence to investigate issues, make decisions, and automate tasks. Security agents are software components installed on systems to collect telemetry and enforce controls. Agentless security provides visibility and risk detection without requiring software deployment across cloud assets. AI agents, security agents, and agentless security are not competing approaches. Many organizations use all three together. Security teams should focus less on whether a solution uses “agents” and more on whether it provides the visibility, context, and automation needed to reduce risk. Demystifying AI Agents vs. Security Agents Few terms in cybersecurity have become more overloaded than “agent.” On one side, vendors are racing to introduce AI agents capable of investigating alerts, prioritizing vulnerabilities , generating remediation guidance, and automating security operations. On the other, organizations continue to evaluate agentless and agent-based security platforms for protecting cloud environments, applications, identities, and infrastructure. Because both conversations involve the word “agent,” many buyers assume they are discussing the same technology. Some even wonder whether AI agents and agentless security are competing approaches. They are not. AI agents and security agents serve entirely different purposes. One is focused on intelligence and automation. The other is focused on data collection and enforcement. Agentless security represents yet another approach, providing visibility without requiring software installation across workloads. Understanding these distinctions is becoming increasingly important as organizations adopt AI-powered security capabilities while continuing to modernize their cloud security programs. Why Are Security Teams Shifting to Agentless Approaches and AI Automation? The cybersecurity industry is currently experiencing two major shifts. The first is the rapid adoption of AI. Security teams are being asked to manage growing volumes of alerts, vulnerabilities, cloud assets, applications, and AI technologies without a corresponding increase in staffing. As a result, vendors are introducing AI agents that can assist with investigations, triage findings, answer security questions, and automate workflows. The second shift is the continued movement toward cloud-native architectures. Organizations now operate thousands of cloud resources across multiple environments . Deploying and maintaining software agents across every asset can create operational challenges, coverage gaps, and administrative overhead. This has increased demand for agentless approaches that provide visibility without requiring software installation on every workload through APIs and integrations. These trends are happening simultaneously, leading many security professionals to ask: “What exactly is the difference between AI agents, security agents, and agentless security?” Let’s break it down here. What Is an AI Agent in Cybersecurity? An AI agent is a software system that uses artificial intelligence to perform tasks with varying degrees of autonomy. Unlike traditional automation tools that follow predefined workflows, AI agents can reason through problems, analyze context, make decisions, and take action based on the information available to them. In cybersecurity, AI
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: AI Agents vs. Agentless Security vs. Agent-based Security
-  - Published: 2026-06-18T13:41:48+00:00
-  - Link: https://orca.security/resources/blog/ai-agents-vs-agentless-vs-agent-based-security/
-  - Summary: Key Takeaways Demystifying AI Agents vs. Security Agents Few terms in cybersecurity have become more overloaded than “agent.” On one side, vendors are racing to introduce AI agents capable of investigating alerts, prioritizing vulnerabilities, generating remediation guidance, and automating security operations. On the other, organizations continue to evaluate agentless and agent-based security platforms for protecting […]
 
 ### Cluster f90c59f1e6 — score 8
 
