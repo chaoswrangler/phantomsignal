@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-20T05:22:02.915483+00:00
+- Generated: 2026-06-20T09:29:28.192572+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 328
-- Total clusters raw: 145
+- Total items in window: 327
+- Total clusters raw: 146
 - Total clusters in packet: 65
-- Dropped low score: 80
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,20 +80,25 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
@@ -105,23 +110,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -130,10 +125,10 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 50
+  - Item count: 20
   - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
@@ -145,45 +140,50 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 5
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 2
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -225,21 +225,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 6
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 3
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 6
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,46 +260,36 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -305,26 +305,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 5
-  - In window count: 5
+  - Item count: 20
+  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,18 +340,8 @@
   - Status: ok
   - Item count: 30
   - In window count: 22
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,6 +350,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -370,16 +370,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -395,18 +400,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -419,14 +419,14 @@
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
-  - In window count: 45
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - In window count: 44
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 15
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -566,33 +566,6 @@
   - https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
   - https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
 
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 3
-- Article count: 12
-- Cohesion: 0.269
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, data_breach
-  - actor_attribution: ShinyHunters
-  - cve_ids: CVE-2026-35273, CVE-2026-50751
-- Cluster IDs: 81cc4e94a2, d1241978fa, 20bb6721fd
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
-  - https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/
-  - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
-  - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
-  - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
-  - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
-  - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
-  - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-
 ### Ivanti active exploitation
 - Anchor signal: Ivanti
 - Theme key: ivanti
@@ -655,8 +628,8 @@
   - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
   - https://risky.biz/RBNEWS577/
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
-  - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
   - https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
+  - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
   - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
   - https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
   - https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
@@ -679,30 +652,6 @@
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
-
-### supply chain targeting Fortinet
-- Anchor signal: Fortinet
-- Theme key: fortinet
-- Cluster count: 3
-- Article count: 8
-- Cohesion: 0.202
-- Shared strong signals: Fortinet
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
-  - affected_products: Fortinet
-- Cluster IDs: 55705936f5, 6bc465fddb, c220c2d05e
-- Links:
-  - https://risky.biz/RBNEWS579/
-  - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
-  - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
-  - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
-  - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
-  - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
-  - https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
-  - https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
 
 ### AWS active exploitation
 - Anchor signal: AWS
@@ -728,28 +677,68 @@
   - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
   - https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
-### supply chain targeting Microsoft SharePoint
-- Anchor signal: Microsoft SharePoint
-- Theme key: microsoft-sharepoint
+### supply chain targeting Fortinet
+- Anchor signal: Fortinet
+- Theme key: fortinet
 - Cluster count: 3
-- Article count: 9
-- Cohesion: 0.2
-- Shared strong signals: Microsoft SharePoint
+- Article count: 8
+- Cohesion: 0.202
+- Shared strong signals: Fortinet
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain
-  - affected_products: Microsoft SharePoint
-- Cluster IDs: 24585c22c2, 20bb6721fd, 762c808fc9
+  - affected_industries: financial_services
+  - affected_products: Fortinet
+- Cluster IDs: 55705936f5, 6bc465fddb, c220c2d05e
 - Links:
-  - https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
-  - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
-  - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
-  - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-  - https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft
+  - https://risky.biz/RBNEWS579/
+  - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
+  - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
+  - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
+  - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
+  - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
+  - https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+  - https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
+
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks
+- Cluster IDs: 7f890872ef, 84319555f9
+- Links:
+  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
+  - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.2
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Kubernetes
+- Cluster IDs: 512ea8982c, f5a9f96db5
+- Links:
+  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
+  - https://risky.biz/SRB171/
+  - https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
+  - https://orca.security/resources/blog/what-is-container-runtime-security/
 
 ## Forward signals
 
@@ -759,8 +748,8 @@
 - Novel products: 0
 
 ### Velocity bursts (1)
-- **Cybersecurity Firms Impacted by Klue Supply Chain Attack**
-  - Cluster: 20bb6721fd
+- **Mapping out your unknown: A threat hunter’s guide to Salesforce**
+  - Cluster: 0dba297a77
   - Sources in window: 3
   - Window hours: 3.9
   - Cohort count: 2
@@ -1411,7 +1400,54 @@ CISA: Splunk Enterprise flaw actively exploited, patch by Sunday By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
   - Summary: CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]
 
-### Cluster 55705936f5 — score 16
+### Cluster 75ea622200 — score 16
+
+- Title: Beyond the benchmark: Advancing security at AI speed
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T19:30:00+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Azure
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_products: Azure, Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Defender, Azure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types News Products and services Microsoft Defender Topics AI and agents Every vulnerability has two clocks running. One belongs to the defender racing to find it; the other to the cyberattacker hoping to find it first. For as long as software has existed, those clocks have favored the attacker, because modern code is vast, interconnected, and changing every day, while security reviews happen at fixed moments in time. The space between “code shipped” and “code reviewed” is where risk quietly accumulates. A few months ago, we set out to reshape that timing. We introduced codename MDASH , Microsoft Security’s multi-model agentic scanning system, built to discover, validate, and help remediate software vulnerabilities end-to-end. The goal was straightforward to articulate and hard to execute: take AI-powered vulnerability discovery and remediation capability from a research project and turn them into production-grade defense at enterprise scale. That meant going beyond pattern matching and building a system that could reason through the complexity of proprietary code and platforms like Windows, Hyper-V, Azure, and identity systems. Learn more about MDASH and sign up to join the preview Rather than rely on any single model, the system orchestrates a panel of specialized AI agents, each with its own role in a structured pipeline, so security teams can surface hard bugs quickly and systematically, expanding the reach of human-led review. Findings flow into Microsoft Defender workflows, where they can be prioritized alongside threat intelligence and runtime signals, and into GitHub and Azure DevOps pipelines, where they can be validated and remediated, a closed loop connecting discovery, validation, proof, and fix across the Microsoft stack. When we introduced the system, it topped a leading industry benchmark. That was the announcement, and the starting line. In the weeks since, the system has moved from early capability validation into active use by Microsoft engineering teams across Windows, Azure, and identity systems, applied as part of real security workflows rather than isolated testing environments. This post explores what we have built since, the lessons we’ve learned from turning research into a production-quality system, and the opportunities ahead as we focus on delivering real-world security impact. From the lab into the pipeline The most meaningful change since launch is where the system is being used. Engineering teams across Windows, Azure, and identity systems are now applying the system as part of their security workflows, running it alongside existing processes and reviews, targeting it at the surfaces that are hardest to audit manually and have historically required the most effort to cover. The goal is to use AI-driven analysis to go deeper, earlier, and across a broader set of targets than traditional approaches allow. The surfaces in scope are among the most complex Microsoft builds: Windows, the kernel, Hyper-V, and the networking stack Azure, virtualization and core infrastructure services Identity, Active Directory Domain Services These are not easy targets. They are the deep layers of the platform, components where reasoning about code requires understanding kernel calling conventions, object lifetime invariants, and trust boundaries that no language model encountered in its training data. A single overlooked flaw at this layer can have outsized consequences. The system is not replacing security teams working at this depth. It is giving them meaningful reach into territory they could not cover alone. Codename MDASH has enabled our security team to perform vulnerability hunting at the scale of Windows with a much higher depth of analysis than was previously possible.” —Windows security team (kernel, Hyper-V, networking stack) This is also where the system fits into Microsoft’s existing DevSecOps story. It is not a standalone scanner bolted onto the side of engineering—
+```
+
+#### Corroborating sources (2)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Beyond the benchmark: Advancing security at AI speed
+  - Published: 2026-06-17T19:30:00+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
+  - Summary: Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Holding blobs for ransom: Four methods for Azure Storage ransomware
+  - Published: 2026-06-15T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
+  - Summary: This post explores four vectors for threat actors to abuse Azure Storage to maliciously encrypt victim blobs, including step-by-step explanations and event codes for detection.
+
+### Cluster 55705936f5 — score 15
 
 - Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
 - Source: Risky Business News (practitioner_analysis)
@@ -1479,53 +1515,6 @@ Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet d
   - Published: 2026-06-18T11:30:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - Summary: CloudSEK maps Operation Escaneo, a campaign hitting Latin American infrastructure via perimeter bugs
-
-### Cluster 75ea622200 — score 16
-
-- Title: Beyond the benchmark: Advancing security at AI speed
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-17T19:30:00+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Azure
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_products: Azure, Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Microsoft Defender, Azure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types News Products and services Microsoft Defender Topics AI and agents Every vulnerability has two clocks running. One belongs to the defender racing to find it; the other to the cyberattacker hoping to find it first. For as long as software has existed, those clocks have favored the attacker, because modern code is vast, interconnected, and changing every day, while security reviews happen at fixed moments in time. The space between “code shipped” and “code reviewed” is where risk quietly accumulates. A few months ago, we set out to reshape that timing. We introduced codename MDASH , Microsoft Security’s multi-model agentic scanning system, built to discover, validate, and help remediate software vulnerabilities end-to-end. The goal was straightforward to articulate and hard to execute: take AI-powered vulnerability discovery and remediation capability from a research project and turn them into production-grade defense at enterprise scale. That meant going beyond pattern matching and building a system that could reason through the complexity of proprietary code and platforms like Windows, Hyper-V, Azure, and identity systems. Learn more about MDASH and sign up to join the preview Rather than rely on any single model, the system orchestrates a panel of specialized AI agents, each with its own role in a structured pipeline, so security teams can surface hard bugs quickly and systematically, expanding the reach of human-led review. Findings flow into Microsoft Defender workflows, where they can be prioritized alongside threat intelligence and runtime signals, and into GitHub and Azure DevOps pipelines, where they can be validated and remediated, a closed loop connecting discovery, validation, proof, and fix across the Microsoft stack. When we introduced the system, it topped a leading industry benchmark. That was the announcement, and the starting line. In the weeks since, the system has moved from early capability validation into active use by Microsoft engineering teams across Windows, Azure, and identity systems, applied as part of real security workflows rather than isolated testing environments. This post explores what we have built since, the lessons we’ve learned from turning research into a production-quality system, and the opportunities ahead as we focus on delivering real-world security impact. From the lab into the pipeline The most meaningful change since launch is where the system is being used. Engineering teams across Windows, Azure, and identity systems are now applying the system as part of their security workflows, running it alongside existing processes and reviews, targeting it at the surfaces that are hardest to audit manually and have historically required the most effort to cover. The goal is to use AI-driven analysis to go deeper, earlier, and across a broader set of targets than traditional approaches allow. The surfaces in scope are among the most complex Microsoft builds: Windows, the kernel, Hyper-V, and the networking stack Azure, virtualization and core infrastructure services Identity, Active Directory Domain Services These are not easy targets. They are the deep layers of the platform, components where reasoning about code requires understanding kernel calling conventions, object lifetime invariants, and trust boundaries that no language model encountered in its training data. A single overlooked flaw at this layer can have outsized consequences. The system is not replacing security teams working at this depth. It is giving them meaningful reach into territory they could not cover alone. Codename MDASH has enabled our security team to perform vulnerability hunting at the scale of Windows with a much higher depth of analysis than was previously possible.” —Windows security team (kernel, Hyper-V, networking stack) This is also where the system fits into Microsoft’s existing DevSecOps story. It is not a standalone scanner bolted onto the side of engineering—
-```
-
-#### Corroborating sources (2)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Beyond the benchmark: Advancing security at AI speed
-  - Published: 2026-06-17T19:30:00+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
-  - Summary: Read how Microsoft Security has advanced its agentic vulnerability detection system, codename MDASH, integrating into real-world workflows across Windows, Azure, and identity systems. The post Beyond the benchmark: Advancing security at AI speed appeared first on Microsoft Security Blog .
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Holding blobs for ransom: Four methods for Azure Storage ransomware
-  - Published: 2026-06-15T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
-  - Summary: This post explores four vectors for threat actors to abuse Azure Storage to maliciously encrypt victim blobs, including step-by-step explanations and event codes for detection.
 
 ### Cluster d1241978fa — score 14
 
@@ -1773,51 +1762,6 @@ Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d3
   - Link: https://isc.sans.edu/diary/rss/33080
   - Summary: Yesterday, a reader reported to us a malicious ZIP archive (SHA256: a0104921a2d37ab87482ac9a9f5c3713479c118846c3e999178e75b81620c094[ 1 ]). Once unzipped, it contains a VHDX file that discloses a malicious JavaScript after being mounted (which is automatic on modern Windows OSs):
 
-### Cluster 2ae6e90456 — score 11
-
-- Title: AI Infrastructure Security: Pentesting MCP & Agentic Systems
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-19T09:20:11+00:00
-- Link: https://horizon3.ai/intelligence/blogs/ai-infrastructure-pentesting-and-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, web_shell_backdoor, zero_day
-- affected_products: Anthropic/Claude
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: zero_day, ai_security, web_shell_backdoor
-- affected_products: Anthropic/Claude
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Autonomous pentesting discovers MCP servers, inference endpoints, and agentic systems. It verifies exploitable paths before attackers reach your infrastructure.
-```
-
-#### Full body
-
-```
-AI Infrastructure Security: Pentesting MCP & Agentic Systems Horizon3.ai June 19, 2026 Blogs AI infrastructure has a new attack surface, and most security teams are not testing it. Model Context Protocol (MCP) servers, LLM inference endpoints, and agentic AI systems are being deployed into production environments at speed. Each one introduces a new class of exposure: not just the model itself, but the infrastructure it can reach, the credentials it can access, and the actions it can take. The boundary that matters is not where the model runs. It is where the agent acts. Horizon3.ai’s research into AI system pentesting frames the core problem precisely: prompt injection and jailbreaking are not the interesting boundary. The real boundary is where agents take action. That reframe changes everything about how security teams should approach AI infrastructure testing. How Attackers Move Through AI Systems AI systems are not isolated. They connect to internal networks, identity stores, and data repositories. An attacker who reaches an AI inference endpoint does not stop at the model. The Webapp-to-Infrastructure Kill Chain A documented attack chain against an Anthropic-hosted environment illustrates the full path. Claude discovered a Server-Side Request Forgery (SSRF) vulnerability in a web application. It then escalated privileges and mapped the internal network. From there, it attacked internal infrastructure and created a persistent backdoor user account. The kill chain ran: webapp to identity to infrastructure. This is the pattern that matters. The AI system became the pivot point. The SSRF was the entry. The backdoor was the outcome. Why Agentic Automation Changes the Defender’s Window Ninety percent of that entire attack campaign was executed by a series of agents. Human-speed response assumptions do not apply when the attacker is automated. Agentic systems compress the time between initial access and persistent compromise to a window that most detection and response workflows cannot close. Vulnerability scanners produce a list of CVEs. Autonomous pentesting finds the exploitable path through an AI system before an attacker does. The Specific Risk from MCP Servers MCP servers are a new and largely untested attack surface in most enterprise environments. Horizon3.ai’s AI pentesting initiative targets MCP servers directly. The approach covers discovery of AI inference and chatbot endpoints, discovery of AI-related data, credentials, and hosts, and targeted testing of those endpoints to find paths to data, credentials, or connected infrastructure. The goal is not to evaluate model behavior in isolation. It is to determine what an attacker can reach through the model. MCP servers sit between AI agents and the tools, APIs, and data sources those agents call. A misconfigured MCP server can expose internal credentials, allow unauthorized tool invocation, or provide a pivot point into backend infrastructure. These are infrastructure risks, not model risks. They require infrastructure-class testing. Traditional pentest firms test what they can schedule. Autonomous pentesting discovers and tests MCP servers as part of continuous infrastructure assessment. NodeZero’s Technical Approach to AI Infrastructure Testing NodeZero extends existing infrastructure testing to cover the AI attack surface. The approach combines production-safe autonomous pentesting with AI and ML workflows for narrow reasoning tasks including zero-day vulnerability discovery, advanced exploitation, and evasion. Discovery and Fingerprinting NodeZero discovers AI inference endpoints and MCP servers as part of network discovery and fingerprinting. AI-related data, credentials, and hosts are identified alongside traditional infrastructure assets. This means AI systems are not tested in isolation. They are tested as part of the full attack surface. Exploit-Led Validation NodeZero’s technical stack covers credential harvesting and validation, implant and post-exploitation,
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: AI Infrastructure Security: Pentesting MCP & Agentic Systems
-  - Published: 2026-06-19T09:20:11+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/ai-infrastructure-pentesting-and-security/
-  - Summary: Autonomous pentesting discovers MCP servers, inference endpoints, and agentic systems. It verifies exploitable paths before attackers reach your infrastructure.
-
 ### Cluster b9a7dc6e90 — score 11
 
 - Title: Build your own vulnerability harness
@@ -1906,16 +1850,16 @@ Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain att
   - Published: 2026-06-19T20:25:02+00:00
   - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
   - Summary: Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown
-  - Published: 2026-06-19T06:46:44+00:00
-  - Link: https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
-  - Summary: Law enforcement and private partners took down 106 SocGholish C&C servers and domains as part of Operation Endgame. The post 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown appeared first on SecurityWeek .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites
   - Published: 2026-06-19T15:07:54+00:00
   - Link: https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html
   - Summary: Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected WordPress websites. "With these actions we deprive cybercriminals of access to infected computer systems," Maikel Rollman of the Netherlands National High Tech Crime Unit said. "This prevents
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown
+  - Published: 2026-06-19T06:46:44+00:00
+  - Link: https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
+  - Summary: Law enforcement and private partners took down 106 SocGholish C&C servers and domains as part of Operation Endgame. The post 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown appeared first on SecurityWeek .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: 'Lorem Ipsum' Malware Pivots to ClickFix Delivery
   - Published: 2026-06-16T15:10:48+00:00
@@ -2146,42 +2090,97 @@ Table of Contents What is Wallpaper Engine? Application wallpapers: a built-in s
   - Link: https://securelist.com/dozens-of-malicious-wallpapers-found-on-steam-workshop/120186/
   - Summary: Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform's built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia.
 
-### Cluster a9ba6bfe90 — score 10
+### Cluster 2ae6e90456 — score 10
 
-- Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-19T08:37:34+00:00
-- Link: https://isc.sans.edu/diary/rss/33090
-- Fetch status: fetch_failed:HTTPError
+- Title: AI Infrastructure Security: Pentesting MCP & Agentic Systems
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-19T09:20:11+00:00
+- Link: https://horizon3.ai/intelligence/blogs/ai-infrastructure-pentesting-and-security/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- threat_categories: ai_security, web_shell_backdoor, zero_day
+- affected_products: Anthropic/Claude
+- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_offensive_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- threat_categories: zero_day, ai_security, web_shell_backdoor
+- affected_products: Anthropic/Claude
+- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_offensive_research
 
 #### Summary
 
 ```
-I detected an interesting phishing email this morning. It targets a major Belgian bank:
+Autonomous pentesting discovers MCP servers, inference endpoints, and agentic systems. It verifies exploitable paths before attackers reach your infrastructure.
+```
+
+#### Full body
+
+```
+AI Infrastructure Security: Pentesting MCP & Agentic Systems Horizon3.ai June 19, 2026 Blogs AI infrastructure has a new attack surface, and most security teams are not testing it. Model Context Protocol (MCP) servers, LLM inference endpoints, and agentic AI systems are being deployed into production environments at speed. Each one introduces a new class of exposure: not just the model itself, but the infrastructure it can reach, the credentials it can access, and the actions it can take. The boundary that matters is not where the model runs. It is where the agent acts. Horizon3.ai’s research into AI system pentesting frames the core problem precisely: prompt injection and jailbreaking are not the interesting boundary. The real boundary is where agents take action. That reframe changes everything about how security teams should approach AI infrastructure testing. How Attackers Move Through AI Systems AI systems are not isolated. They connect to internal networks, identity stores, and data repositories. An attacker who reaches an AI inference endpoint does not stop at the model. The Webapp-to-Infrastructure Kill Chain A documented attack chain against an Anthropic-hosted environment illustrates the full path. Claude discovered a Server-Side Request Forgery (SSRF) vulnerability in a web application. It then escalated privileges and mapped the internal network. From there, it attacked internal infrastructure and created a persistent backdoor user account. The kill chain ran: webapp to identity to infrastructure. This is the pattern that matters. The AI system became the pivot point. The SSRF was the entry. The backdoor was the outcome. Why Agentic Automation Changes the Defender’s Window Ninety percent of that entire attack campaign was executed by a series of agents. Human-speed response assumptions do not apply when the attacker is automated. Agentic systems compress the time between initial access and persistent compromise to a window that most detection and response workflows cannot close. Vulnerability scanners produce a list of CVEs. Autonomous pentesting finds the exploitable path through an AI system before an attacker does. The Specific Risk from MCP Servers MCP servers are a new and largely untested attack surface in most enterprise environments. Horizon3.ai’s AI pentesting initiative targets MCP servers directly. The approach covers discovery of AI inference and chatbot endpoints, discovery of AI-related data, credentials, and hosts, and targeted testing of those endpoints to find paths to data, credentials, or connected infrastructure. The goal is not to evaluate model behavior in isolation. It is to determine what an attacker can reach through the model. MCP servers sit between AI agents and the tools, APIs, and data sources those agents call. A misconfigured MCP server can expose internal credentials, allow unauthorized tool invocation, or provide a pivot point into backend infrastructure. These are infrastructure risks, not model risks. They require infrastructure-class testing. Traditional pentest firms test what they can schedule. Autonomous pentesting discovers and tests MCP servers as part of continuous infrastructure assessment. NodeZero’s Technical Approach to AI Infrastructure Testing NodeZero extends existing infrastructure testing to cover the AI attack surface. The approach combines production-safe autonomous pentesting with AI and ML workflows for narrow reasoning tasks including zero-day vulnerability discovery, advanced exploitation, and evasion. Discovery and Fingerprinting NodeZero discovers AI inference endpoints and MCP servers as part of network discovery and fingerprinting. AI-related data, credentials, and hosts are identified alongside traditional infrastructure assets. This means AI systems are not tested in isolation. They are tested as part of the full attack surface. Exploit-Led Validation NodeZero’s technical stack covers credential harvesting and validation, implant and post-exploitation,
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
-  - Published: 2026-06-19T08:37:34+00:00
-  - Link: https://isc.sans.edu/diary/rss/33090
-  - Summary: I detected an interesting phishing email this morning. It targets a major Belgian bank:
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: AI Infrastructure Security: Pentesting MCP & Agentic Systems
+  - Published: 2026-06-19T09:20:11+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/ai-infrastructure-pentesting-and-security/
+  - Summary: Autonomous pentesting discovers MCP servers, inference endpoints, and agentic systems. It verifies exploitable paths before attackers reach your infrastructure.
+
+### Cluster ecad4b1a4b — score 10
+
+- Title: Autonomy Is Earned, Not Claimed
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-17T13:17:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: zero_day
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- affected_products: Microsoft Entra
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- affected_products: Microsoft Entra
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
+```
+
+#### Full body
+
+```
+Autonomy Is Earned, Not Claimed Stephen Gates June 17, 2026 Blogs What 250,000 Production Pentests Taught Us About Trust, Exploitability, and Autonomous Security After more than 250,000 production pentests, we’ve learned something that may surprise people watching the recent wave of autonomous security announcements. The hardest problem in autonomous security isn’t teaching a machine how to attack. It’s teaching an AI-based system how to operate safely, predictably, and repeatedly inside production environments where mistakes have consequences. Finding an attack path is an engineering problem. Building a platform that organizations trust to operate against healthcare systems, financial institutions, manufacturers, and critical infrastructure is an operational one. The difference only becomes apparent after years of running at scale. As the industry embraces AI agents, autonomous red teaming, and machine-speed operations, much of the conversation remains focused on capability. Can a machine identify a path to compromise? Can it chain weaknesses together? Can it achieve the same outcome as a human operator? Those are reasonable questions. They are not the questions security leaders ultimately care about. Security leaders need confidence that a platform can operate safely in production, consistently produce meaningful results, and help teams make better decisions about risk. In our experience, that’s where the real challenge begins. Since 2019, NodeZero® has executed more than 250,000 production pentests across thousands of environments. Those engagements have reinforced a lesson that continues to surface. The biggest security challenges rarely come from what organizations cannot see. They come from separating signal from noise. Most Organizations Are Not Struggling to Find Vulnerabilities The security industry has spent decades improving visibility. Organizations have vulnerability scanners, attack surface management platforms, cloud security tools, exposure management programs, and countless dashboards filled with findings. Most security teams are not suffering from a lack of information. They’re struggling to determine which information matters. That’s the issue. Attackers do not think in terms of individual findings. They think in terms of outcomes. They identify a weakness, combine it with another weakness, move through the environment, and pursue an objective. The path matters more than any individual step along the way. Security teams often inherit the opposite problem. Thousands of findings arrive in a dashboard, each evaluated independently, with little context around how those weaknesses might connect. As a result, teams spend significant time debating severity while attackers focus on exploitability. The difference sounds subtle, but it changes everything. Severity describes a vulnerability. Exploitability describes risk. Experience Changes How You Evaluate Risk Trust isn’t built on promises, it’s built on the deep experience gained from executing hundreds of thousands of pentests. Over time, recurring patterns begin to emerge regardless of industry, technology stack, or organizational maturity. We’ve seen organizations trust legacy tools that require enormous effort to remediate vulnerabilities that had little practical impact, while overlooking seemingly minor weaknesses that ultimately enabled significant compromise. That happens because risk rarely exists as a single vulnerability. It exists in the way weaknesses interact with one another. In a financial services environment , a single compromised credential led to 586 critical impacts across 115 hosts, including three separate domain compromises. Viewed independently, the credential did not appear particularly significant. Viewed as part of an attack path, it became something entirely different. In another cloud environment , the path to full Entra ID tenant compromise did not require a CVE or zero-day. The weaknesses involved were already known. Existing tools ha
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Autonomy Is Earned, Not Claimed
+  - Published: 2026-06-17T13:17:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
+  - Summary: After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
 
 ### Cluster e5fc89aea1 — score 10
 
@@ -2312,91 +2311,48 @@ Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A ph
   - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
 
-### Cluster ecad4b1a4b — score 10
+### Cluster e2ef0ac5b5 — score 10
 
-- Title: Autonomy Is Earned, Not Claimed
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-17T13:17:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
+- Title: Entra Agent ID: Inside a cross-tenant agent compromise
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-18T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: APT29
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- actor_attribution: APT29
 - affected_products: Microsoft Entra
-- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- actor_attribution: APT29
 - affected_products: Microsoft Entra
-- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
+Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
 ```
 
 #### Full body
 
 ```
-Autonomy Is Earned, Not Claimed Stephen Gates June 17, 2026 Blogs What 250,000 Production Pentests Taught Us About Trust, Exploitability, and Autonomous Security After more than 250,000 production pentests, we’ve learned something that may surprise people watching the recent wave of autonomous security announcements. The hardest problem in autonomous security isn’t teaching a machine how to attack. It’s teaching an AI-based system how to operate safely, predictably, and repeatedly inside production environments where mistakes have consequences. Finding an attack path is an engineering problem. Building a platform that organizations trust to operate against healthcare systems, financial institutions, manufacturers, and critical infrastructure is an operational one. The difference only becomes apparent after years of running at scale. As the industry embraces AI agents, autonomous red teaming, and machine-speed operations, much of the conversation remains focused on capability. Can a machine identify a path to compromise? Can it chain weaknesses together? Can it achieve the same outcome as a human operator? Those are reasonable questions. They are not the questions security leaders ultimately care about. Security leaders need confidence that a platform can operate safely in production, consistently produce meaningful results, and help teams make better decisions about risk. In our experience, that’s where the real challenge begins. Since 2019, NodeZero® has executed more than 250,000 production pentests across thousands of environments. Those engagements have reinforced a lesson that continues to surface. The biggest security challenges rarely come from what organizations cannot see. They come from separating signal from noise. Most Organizations Are Not Struggling to Find Vulnerabilities The security industry has spent decades improving visibility. Organizations have vulnerability scanners, attack surface management platforms, cloud security tools, exposure management programs, and countless dashboards filled with findings. Most security teams are not suffering from a lack of information. They’re struggling to determine which information matters. That’s the issue. Attackers do not think in terms of individual findings. They think in terms of outcomes. They identify a weakness, combine it with another weakness, move through the environment, and pursue an objective. The path matters more than any individual step along the way. Security teams often inherit the opposite problem. Thousands of findings arrive in a dashboard, each evaluated independently, with little context around how those weaknesses might connect. As a result, teams spend significant time debating severity while attackers focus on exploitability. The difference sounds subtle, but it changes everything. Severity describes a vulnerability. Exploitability describes risk. Experience Changes How You Evaluate Risk Trust isn’t built on promises, it’s built on the deep experience gained from executing hundreds of thousands of pentests. Over time, recurring patterns begin to emerge regardless of industry, technology stack, or organizational maturity. We’ve seen organizations trust legacy tools that require enormous effort to remediate vulnerabilities that had little practical impact, while overlooking seemingly minor weaknesses that ultimately enabled significant compromise. That happens because risk rarely exists as a single vulnerability. It exists in the way weaknesses interact with one another. In a financial services environment , a single compromised credential led to 586 critical impacts across 115 hosts, including three separate domain compromises. Viewed independently, the credential did not appear particularly significant. Viewed as part of an attack path, it became something entirely different. In another cloud environment , the path to full Entra ID tenant compromise did not require a CVE or zero-day. The weaknesses involved were already known. Existing tools ha
+Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
 ```
 
 #### Corroborating sources (1)
 
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Autonomy Is Earned, Not Claimed
-  - Published: 2026-06-17T13:17:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
-  - Summary: After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
-
-### Cluster 13400d1a7f — score 10
-
-- Title: AI-Accelerated Exploitation: The Mythos-Era Threat Model
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-13T08:00:03+00:00
-- Link: https://horizon3.ai/intelligence/blogs/ai-accelerated-exploitation-mythos-era-threat-model/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI models like Mythos collapse the gap between discovery and exploitation. Learn how to rethink your threat model before attackers do.
-```
-
-#### Full body
-
-```
-AI-Accelerated Exploitation: The Mythos-Era Threat Model Horizon3.ai June 13, 2026 Blogs The gap between vulnerability discovery and real-world exploitation is collapsing. Mythos is an AI model that demonstrates the ability to identify vulnerabilities and generate working exploits much faster than traditional approaches. While security analysts have debated the model’s capabilities, one thing is clear: Mythos doesn’t introduce new vulnerability classes. It compresses the timeline from discovery to impact. For security teams still running annual pentests and triaging scanner findings by hand, that compression is the threat model that matters. What Does Mythos Actually Change About Exploitation? Mythos changes the economics of exploitation, not the taxonomy of vulnerabilities. The conversation around Mythos has focused on how AI can find vulnerabilities and generate exploits faster than it has ever been done before. The practical consequence is that vulnerability discovery now operates at scale. The underlying weaknesses aren’t changing. Most organizations are already exposed through identity weaknesses, overly permissive access, misconfigurations, and gaps in security controls. Mythos accelerates the path to those exposures, but it doesn’t create them. Vulnerability scanners produce a list of findings. Mythos-era attackers produce a verified exploit chain. Why Does the Discovery-to-Exploitation Gap Matter for Risk Prioritization? The discovery-to-exploitation gap matters because risk is not defined by a single vulnerability in isolation; it’s defined by impact. When that gap collapses, the window for remediation shrinks. Vulnerabilities can be identified faster, exploits generated faster, and weaknesses chained together more efficiently. That puts direct pressure on how security teams prioritize. The volume trend compounds the problem. Total vulnerabilities are up. Exploitable vulnerabilities are up. A team triaging by CVSS score alone will spend time on findings that cannot be reached in their environment while a chained attack path through an identity misconfiguration goes unaddressed. Exploitability means prioritization. Everything else is noise. The question boards are now asking — what do we do about Mythos? — has a direct answer: reduce that noise through the lens of exploitability. Vulnerability counts measure exposure. Exploitable attack paths measure real risk. How Are Attackers Operationalizing AI-Accelerated Techniques? AI-accelerated offensive operations are already moving beyond single-vulnerability exploitation. The shift in attacker behavior mirrors what Mythos demonstrates: the ability to move from a hypothesis about a weakness to a working exploit with reduced effort. When that capability is applied to real infrastructure, the result is disruption at the domain level. A compromised domain controller isn’t a scanner finding; it’s real business impact. What Does the Mythos Threat Model Mean for Security Teams Right Now? The Mythos threat model reframes the central security question. The challenge goes from identifying vulnerabilities to determining which ones can actually be exploited, how they chain into attack paths, and what the downstream impacts are. That reframe has direct consequences for every team running a vulnerability management program. Single vulnerabilities or chained vulnerabilities only matter if they’re tested in a specific environment. Where a scanner result is only a hypothesis, an autonomous pentest is confirmation. NodeZero operates from the attacker’s perspective, validating exploitability in the actual environment rather than scoring theoretical severity. Boards ask, “Are we exposed to this?” when a new technique or Known Exploited Vulnerability (KEV) surfaces, but the answer needs to be grounded in their specific environment as opposed to a vendor advisory. NodeZero does exactly this — by using real attacker TTPs safely in production, validating exploitability and understanding real attac
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: AI-Accelerated Exploitation: The Mythos-Era Threat Model
-  - Published: 2026-06-13T08:00:03+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/ai-accelerated-exploitation-mythos-era-threat-model/
-  - Summary: AI models like Mythos collapse the gap between discovery and exploitation. Learn how to rethink your threat model before attackers do.
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
+  - Published: 2026-06-18T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
 
 ### Cluster d897bb4cf8 — score 10
 
@@ -2523,119 +2479,6 @@ Back to Blog Artificial Intelligence Beyond the Score: Using AI to Translate CVE
   - Link: https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk
   - Summary: Security leaders rarely struggle to gather data, but they often struggle to turn that data into something clear and meaningful for the business. In a typical week, a CISO might receive a report listing hundreds or even thousands of vulnerabilities, most of them accompanied by CVSS scores that make the entire list look urgent, while also managing the wider set of operational, regulatory, and strategic demands that already come with the role. That difficulty becomes more obvious when the same information has to be carried into the boardroom, where the questions are rarely about CVE IDs or exploit counts in isolation. What leadership wants to understand is whether the organization’s revenue, uptime, legal exposure, or broader resilience could be affected, and how quickly those risks need to be addressed. This is where many security programs lose momentum, because the technical view of severity does not always line up neatly with the business view of consequence. Bridging that gap has trad
 
-### Cluster e2ef0ac5b5 — score 10
-
-- Title: Entra Agent ID: Inside a cross-tenant agent compromise
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-18T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: APT29
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
-```
-
-#### Full body
-
-```
-Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
-  - Published: 2026-06-18T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
-  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
-
-### Cluster 20bb6721fd — score 10
-
-- Title: Cybersecurity Firms Impacted by Klue Supply Chain Attack
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-19T09:19:06+00:00
-- Link: https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
-- Fetch status: ok
-- Member count: 7
-- Corroborating source count: 6
-- Strong signals: Salesforce
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters, UNC6395
-- affected_products: Microsoft SharePoint, Salesforce, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, data_breach
-- actor_attribution: ShinyHunters, UNC6395
-- affected_products: Salesforce, Microsoft SharePoint, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future. The post Cybersecurity Firms Impacted by Klue Supply Chain Attack appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Cybersecurity firms Huntress and Recorded Future have disclosed the impact of a supply chain attack that hit market intelligence platform Klue. The attack started on June 11 and affected systems associated with software platform integrations. The hackers connected to Klue’s backend servers and executed unauthorized commands, pushing a code update to harvest OAuth tokens for customers’ Klue integrations. Klue notified customers of the incident on June 12, warning that it had deactivated OAuth tokens for all customers and disabled integrations with Salesforce, HubSpot, SharePoint, Zoom, Gong, Chorus, Clari, Google Drive, and Slack. According to ReliaQuest , the hackers abused the Salesforce REST API to exfiltrate large volumes of customer relationship management (CRM) data over a 24-hour window, “including a concentrated burst of nearly a thousand queries in 15 minutes and sustained extraction windows lasting over 6 hours”. On June 17, Salesforce disabled the Klue Battlecards app integration, warning that it “detected unusual activity involving the app that may have resulted in unauthorized access to a subset of customer data via the app’s connection to Salesforce”. On Thursday, both Huntress and Recorded Future confirmed that they were among the companies affected by the supply chain attack. Advertisement. Scroll to continue reading. “The data that was copied from our Salesforce account includes business contacts, price quotes, and other sales-related data and messaging. No threat data, passwords, payment card information, or engineering data relating to the Huntress agent or telemetry we collect was affected,” Huntress said. Recorded Future noted, “While our investigation is ongoing, we believe the impact was limited to business data fields stored in our Salesforce database, such as client contact names and email addresses. Certain business contract information may also have been potentially included in the impacted data.” The incident was limited to the Klue-Salesforce integration and the attackers did not access any systems belonging to or maintained by the two cybersecurity firms. Huntress noted that several other cybersecurity companies use Klue, but no other firm appears to have publicly disclosed impact from the attack. The attack follows the same pattern observed in previous Salesforce , Salesloft Drift , and Gainsight incidents, which have been attributed to ShinyHunters and UNC6395 , but appears to have been mounted by a new threat actor. Huntress said it received attempted extortion communication from a threat actor calling itself “Mr Brean”, who pointed to a Session Messenger ID associated with Icarus, an extortion group that emerged in April 2026. Icarus’ leak site has one entry from early May, with the data allegedly stolen from the victim already published (albeit no longer available), and another from June 16, which points to data stolen from Salesforce. “With those matching data points, we have high confidence that the Icarus actor is responsible for the Klue compromise and this supply chain attack,” Huntress says. While it has shared details of the attack with its customers, Klue has not made a public announcement on the matter. SecurityWeek has emailed the company for a statement and will update this article if it responds. Related: Atomic Arch Supply Chain Attack Hits 1,500 AUR Packages Related: Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks Related: Maine Disables Data Breach Portal Due to Fake Submissions Related: White House Issues Memo to Bolster NSS Cybersecurity Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Critical Command Execution Vulnerability Patched in Cisco ISE F5 Patches
-```
-
-#### Corroborating sources (6)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Cybersecurity Firms Impacted by Klue Supply Chain Attack
-  - Published: 2026-06-19T09:19:06+00:00
-  - Link: https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
-  - Summary: The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future. The post Cybersecurity Firms Impacted by Klue Supply Chain Attack appeared first on SecurityWeek .
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Mapping out your unknown: A threat hunter’s guide to Salesforce
-  - Published: 2026-06-16T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
-  - Summary: In this post, we walk through different threats to Salesforce and how to detect them.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Klue OAuth breach victim list grows as Icarus hackers claim attack
-  - Published: 2026-06-19T22:31:04+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
-  - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Klue breach lead to Salesforce data theft, Huntress affected
-  - Published: 2026-06-19T12:57:39+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
-  - Published: 2026-06-19T09:03:57+00:00
-  - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Salesforce Data Thefts Continue via Klue App Compromise
-  - Published: 2026-06-18T16:49:04+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
-
 ### Cluster 29fcf4633f — score 10
 
 - Title: LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
@@ -2729,6 +2572,43 @@ News Download & print article PDF Download & print article PDF NCSC CEO: Hostile
   - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
   - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
 
+### Cluster a9ba6bfe90 — score 9
+
+- Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-19T08:37:34+00:00
+- Link: https://isc.sans.edu/diary/rss/33090
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+I detected an interesting phishing email this morning. It targets a major Belgian bank:
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
+  - Published: 2026-06-19T08:37:34+00:00
+  - Link: https://isc.sans.edu/diary/rss/33090
+  - Summary: I detected an interesting phishing email this morning. It targets a major Belgian bank:
+
 ### Cluster cfebc78321 — score 9
 
 - Title: The Behavior of Coordinated SSH Brute Force Attacks over the last three months [Guest Diary], (Wed, Jun 17th)
@@ -2805,51 +2685,6 @@ Back to Blog Security Operations NIS2 is raising the bar. Here’s how to turn r
   - Link: https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience
   - Summary: The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be covered, raises expectations around management body accountability, introduces clearer and more enforceable requirements, and increases pressure on organizations to show that security is being managed in a consistent, defensible way. Reporting timelines are one of the most visible parts of that shift, with early warning required within 24 hours of awareness for significant incidents, incident notification within 72 hours, and a final report within one month. It also arrived in a landscape that is still uneven, with member states continuing to implement the directive in different ways across the EU. That combination has created a familiar challenge for CISOs and security teams, as the questions coming from boards and leadership are no longer just about whether the organization understands the re
 
-### Cluster f5a9f96db5 — score 9
-
-- Title: What Is Container Runtime Security? A Practical Guide 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-19T18:50:00+00:00
-- Link: https://orca.security/resources/blog/what-is-container-runtime-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- affected_products: Kubernetes
-- attack_techniques: T1552, T1610, T1611
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_products: Kubernetes
-- attack_techniques: T1552, T1610, T1611
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
-```
-
-#### Full body
-
-```
-Table of contents Key takeaways What Is Container Runtime Security Most Prevalent Threats at Runtime Who Is Responsible for Runtime Security Developers’ Role Runtime Security and Kubernetes Security Policies and Best Practices How to Discover Runtime Risks in Your Environment Runtime Signal Types and Their Purpose Continuous Real-Time Scanning Snapshot Scanning Behavioral Analytics Unifying Container Security From Code to Runtime Frequently asked questions about Container Runtime Security Key takeaways Container runtime security protects workloads while they execute, after deployment. Common runtime threats include privilege abuse, container escape, lateral movement, and malicious process activity. Responsibility spans developers, platform teams, and security operations, especially in Kubernetes environments. Runtime security combines telemetry, behavioral analysis, snapshots, and contextual risk signals to detect active threats. Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API server security. It helps detect attacks that build-time scanning cannot predict, including in-memory techniques, credential abuse, and novel malware. Container security and container security best practices cover broader topics such as image security, supply-chain risk, cluster hardening, and deployment controls. This guide focuses specifically on runtime behavior after workloads are deployed and running in production. What Is Container Runtime Security Container runtime security combines preventive controls with live detection to protect workloads while they run. Unlike static image scanning, which identifies known vulnerabilities in packages and images, runtime security focuses on how containers actually behave on hosts and within clusters. NIST SP 800-190 frames container risks across both the image lifecycle and the execution environment. Runtime controls address that execution layer through technologies such as syscall filtering, mandatory access control profiles, monitoring agents, and eBPF-based sensors. These controls observe behavior rather than relying solely on known signatures. They can detect activity that never maps to a published CVE, including living-off-the-land techniques and other forms of post-exploitation behavior inside a container. Most Prevalent Threats at Runtime Common runtime threats include: Container escape: Breaking isolation between a container and its host. Credential theft: Stealing cloud metadata credentials, service account tokens, or other secrets. Cryptomining: Hijacking compute resources for unauthorized mining activity. Reverse shells: Establishing remote command execution from compromised workloads. MITRE ATT&CK for Containers maps techniques such as T1610 (Deploy Container), T1611 (Escape to Host), and T1552 (Unsecured Credentials) to container and orchestrator contexts. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation. When a workload mounts a sensitive host path or runs with excessive capabilities, those CVEs become reachable even if the base image passed a scan last week. Runtime tooling prioritizes signals that indicate live exploitation rather than latent patch debt. It also surfaces insider-style abuse where credentials are valid but behavior is wrong. Who Is Responsible for Runtime Security Runtime security is a shared obligation. Product teams own application behavior and dependency choices. Platform engineering owns node configuration, runtime classes, and cluster upgrades. Security operations owns detection content, incident response playbooks, and tuning to reduce false positives. No single role “finishes” runtime sec
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: What Is Container Runtime Security? A Practical Guide 2026
-  - Published: 2026-06-19T18:50:00+00:00
-  - Link: https://orca.security/resources/blog/what-is-container-runtime-security/
-  - Summary: Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
-
 ### Cluster d8706917f4 — score 9
 
 - Title: Texas govt data breach exposes over 3 million driver’s licenses
@@ -2882,7 +2717,7 @@ The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its li
 #### Full body
 
 ```
-Texas govt data breach exposes over 3 million driver’s licenses By Bill Toulas June 19, 2026 12:12 PM 0 The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. The Texas Cyber Command discovered the intrusion and launched an investigation to determine the extent and impact of the unauthorized access. The state authority found that Social Security Numbers (SSNs), dates of birth, or any financial information, such as credit cards, have not been impacted. However, the threat actor may have obtained personally identifiable information that includes the following data types associated with 3,087,721 Texas hunting and fishing license customers: Driver’s license information Passport numbers Email addresses Phone numbers Residential addresses The exposed data set is sufficient for hackers to target impacted individuals in phishing and social engineering attacks that lead to web pages distributing malware or seeking more sensitive information. "There is no evidence that customers under the age of 18 were involved or that any specific group was targeted," TPWD says in the data breach notification . TPWD is the Texas state agency responsible for managing wildlife and fisheries, state parks, conservation programs, hunting and fishing regulations, boating registration, and enforcement by Texas Game Wardens. The Texas state agency also issues hunting and fishing licenses and permits, which are sold through an external vendor. BleepingComputer contacted TPWD for more information about the incident and the name of the third-party service provider, but we have not yet received a statement. The agency says that it is "working closely with the license system vendor to implement new safeguards and enhanced monitoring services." TPWD advises customers to monitor their credit reports and financial statements. Impacted individuals are eligible for one year of free credit monitoring and should consider placing a credit freeze or fraud alert with major credit bureaus as an added protection against identity thieves. It is also strongly recommended to remain vigilant for phishing and impersonation scams, as threat actors may try to send communication posing as a company or an official. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Nintendo confirms data stolen in WebMD subsidiary cyberattack SoFi confirms third-party data breach at Hong Kong subsidiary 15-year-old detained over French govt agency data breach French govt agency confirms breach as hacker offers to sell data Video service Vimeo confirms Anodot breach exposed user data
+Texas govt data breach exposes over 3 million driver’s licenses By Bill Toulas June 19, 2026 12:12 PM 1 The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. The Texas Cyber Command discovered the intrusion and launched an investigation to determine the extent and impact of the unauthorized access. The state authority found that Social Security Numbers (SSNs), dates of birth, or any financial information, such as credit cards, have not been impacted. However, the threat actor may have obtained personally identifiable information that includes the following data types associated with 3,087,721 Texas hunting and fishing license customers: Driver’s license information Passport numbers Email addresses Phone numbers Residential addresses The exposed data set is sufficient for hackers to target impacted individuals in phishing and social engineering attacks that lead to web pages distributing malware or seeking more sensitive information. "There is no evidence that customers under the age of 18 were involved or that any specific group was targeted," TPWD says in the data breach notification . TPWD is the Texas state agency responsible for managing wildlife and fisheries, state parks, conservation programs, hunting and fishing regulations, boating registration, and enforcement by Texas Game Wardens. The Texas state agency also issues hunting and fishing licenses and permits, which are sold through an external vendor. BleepingComputer contacted TPWD for more information about the incident and the name of the third-party service provider, but we have not yet received a statement. The agency says that it is "working closely with the license system vendor to implement new safeguards and enhanced monitoring services." TPWD advises customers to monitor their credit reports and financial statements. Impacted individuals are eligible for one year of free credit monitoring and should consider placing a credit freeze or fraud alert with major credit bureaus as an added protection against identity thieves. It is also strongly recommended to remain vigilant for phishing and impersonation scams, as threat actors may try to send communication posing as a company or an official. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Nintendo confirms data stolen in WebMD subsidiary cyberattack SoFi confirms third-party data breach at Hong Kong subsidiary 15-year-old detained over French govt agency data breach French govt agency confirms breach as hacker offers to sell data Video service Vimeo confirms Anodot breach exposed user data
 ```
 
 #### Corroborating sources (1)
@@ -2892,51 +2727,6 @@ Texas govt data breach exposes over 3 million driver’s licenses By Bill Toulas
   - Published: 2026-06-19T16:12:41+00:00
   - Link: https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
   - Summary: The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]
-
-### Cluster 6bc465fddb — score 9
-
-- Title: CISA warns Fortinet users to secure devices after FortiBleed leak
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-19T06:47:55+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: critical_infrastructure, financial_services, government, healthcare
-- affected_products: Fortinet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: healthcare, financial_services, government, critical_infrastructure
-- affected_products: Fortinet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
-```
-
-#### Full body
-
-```
-CISA warns Fortinet users to secure devices after FortiBleed leak By Sergiu Gatlan June 19, 2026 02:47 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." This warning comes after threat actors used compromised credentials to target internet-accessible Fortinet devices across government and private-sector organizations worldwide. "CISA is aware of global reports that malicious cyber actors have targeted internet-accessible Fortinet devices across government and private sector organizations using compromised credentials," it said . "This activity, referred to as FortiBleed, involves the exposure of leaked credentials associated with approximately 74,000 Fortinet devices, including firewalls and virtual private network (VPN) gateways." The agency called on affected FortiGate appliance owners to terminate all SSL VPN and administrative sessions, reset all VPN and administrative passwords, enable phishing-resistant multifactor authentication, and review logs for signs of unauthorized access or lateral movement. CISA also advised Fortinet customers to store admin credentials using the modern Password-Based Key Derivation Function 2 (PBKDF2) hashing algorithm, and to restrict firewall management interfaces from public internet access and remove any unauthorized accounts to reduce the attack surface as much as possible. Credentials for over 73K firewalls exposed The FortiBleed data leak was uncovered by security researcher Volodymyr "Bob" Diachenko, who discovered a server containing what appeared to be valid Fortinet VPN credentials, including usernames, email addresses, and plaintext passwords for 73,932 firewall URLs worldwide. The exposed data also includes each organization's industry, revenue, and employee count, which Diachenko said appeared to be compiled to assist in planning future attacks. Threat intelligence company Hudson Rock, which also analyzed the dataset , described it as one of the largest known collections of compromised Fortinet credentials, spanning 21,632 unique domains and 194 countries. ​Among the organizations represented in the dataset are Samsung, Mercedes-Benz, Foxconn, Chevron, Comcast, AT&T, and Toyota, along with many government agencies and critical infrastructure operators across telecommunications, healthcare, financial services, and manufacturing industry sectors. The highest number of affected devices were from India, the United States, Taiwan, Mexico, Turkey, Thailand, Colombia, Malaysia, Chile, and the United Arab Emirates. Fortinet credentials found on an exposed server (Volodymyr Diachenko) Data leak linked to Russian-speaking threat group Diachenko also said the operation was conducted by a Russian-speaking threat group that allegedly carried out approximately 1.16 billion credential attempts against more than 320,000 FortiGate targets to intercept SSL VPN authentication hashes. The source of the configuration data remains unknown. Cybersecurity expert Kevin Beaumont has also independently confirmed the authenticity of some credentials and noted that most affected devices remain online. "The data is legit. It is around 75k devices. Almost all are still online, and Fortinet devices. It appears to be recent data," Beaumont said , adding that the leaked data appears to have originated from Fortinet configuration files. However, the source of the data remains unknown, and it is unclear whether it was stolen through exploitation of previously disclosed Fortinet vulnerabilities, a newly discovered security flaw, or another method. Hudson Rock has also created a free FortiBleed lookup tool to help organizations check whether they are affected. On Monday, threat intelligence company Defused also reported that several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform are now exploited in attacks. In total,
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA warns Fortinet users to secure devices after FortiBleed leak
-  - Published: 2026-06-19T06:47:55+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
 
 ### Cluster e95ce78b9a — score 9
 
@@ -2978,6 +2768,75 @@ Industry News Data Breach 2 min read Maine forced to take down data breach porta
   - Published: 2026-06-15T13:23:44+00:00
   - Link: https://www.bitdefender.com/en-us/blog/hotforsecurity/maine-take-down-data-breach-portal
   - Summary: The US state of Maine has taken its public data breach notification portal offline after someone submitted fraudulent breach disclosures impersonating two well-known technology companies. Read more in my article on the Hot for Security blog.
+
+### Cluster 0dba297a77 — score 9
+
+- Title: Mapping out your unknown: A threat hunter’s guide to Salesforce
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-16T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+- Fetch status: ok
+- Member count: 7
+- Corroborating source count: 6
+- Strong signals: Salesforce
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, supply_chain
+- affected_products: Salesforce
+- attack_techniques: T1078
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Salesforce
+- attack_techniques: T1078
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+In this post, we walk through different threats to Salesforce and how to detect them.
+```
+
+#### Full body
+
+```
+Julie Agnes Sparks Senior Security Engineer Salesforce is one of the worldâs most widely adopted SaaS platforms, embedded deep into the operational and data pipelines of modern organizations to better serve customers and understand their business health. The average enterprise Salesforce environment integrates with dozens of third-party applications, from productivity tools to AI-powered workflow engines. Over the past year, we have seen threat campaigns abuse Salesforce applications and APIs to exfiltrate data, pivot laterally into connected cloud services, and monetize stolen access. Datadogâs Security Research team has analyzed current Salesforce threats, logging, and detection opportunities. This post provides the queries and context you need to begin hunting for attacker behavior across your Salesforce environment. Each query is mapped to a MITRE ATT&CKÂ® tactic to help you connect observed behavior to the broader attack chain. This is part one of a multipart series. This post covers suggestions for reconnaissance through discovery behaviors. The threat model In Salesforce, an attack often starts with compromised account or application access: A user is socially engineered into approving a malicious connected app (OAuth), often during a phone call impersonating IT support. A trusted third-party integration gets compromised , and its OAuth tokens are used to access downstream Salesforce tenants at scale. Stolen SSO credentials and harvested MFA codes turn into session-level access, and Salesforce becomes the target. From there, the attacker playbook is often consistent across incidents: Authenticate (user credentials, SSO session, or OAuth token) Enumerate resources (what objects exist, how big they are, what limits apply) Extract data (REST queries, Bulk API jobs, report exports, file downloads) Ransom exfiltrated data The diagram below maps these entry vectors and attacker steps to the detection phases covered throughout this post: Salesforce threat model diagram (click to enlarge) Kicking off your threat hunt Despite some visibility limitations, Salesforce audit log data can yield valuable hunting opportunities. Your logging tier determines what events and fields are generated in your environment. Where applicable, equivalent queries are provided based on the logging tier. A quick reminder on available logging: Event Log Files (ELF) : event data surfaced as downloadable log files (often consumed externally) Real-Time Event Monitoring (RTEM) : near real-time event data available through streaming and queryable event objects, intended for operational monitoring and transaction security use cases There are several Salesforce-specific nuances to be aware of when hunting, such as the fact that the user agent will populate as 9999 when Salesforce has not captured the user agent. There are also many API event types. To better understand the APIs available in Salesforce, refer to the Salesforce comparison table . Security event types such as ApiAnomalyEvent and ReportAnomalyEvent may be available based on your logging tier and add-ons. In the following sections, we'll describe the queries you can use to detect signs of attacker behavior in your Salesforce instance. Reconnaissance These queries identify activity that suggests an attacker is trying to gain information from your Salesforce environment that can be used in future attacks. API requests for configuration information on Salesforce Communities & Sites instances (T1078 - Valid Accounts) Attackers may attempt to access configuration information on Salesforce sites, observable through Aura Request events , by using a guest or compromised internal user account. This request may return the domain of the organization, some security settings, and available objects. @evt.name:AuraRequest # Optional to filter to specific user types @user_type: ( Guest ) # this may be in the uri, several popular paths are used by attackers @action_message:*HostConfigController/ACTION $getConf
+```
+
+#### Corroborating sources (6)
+
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Mapping out your unknown: A threat hunter’s guide to Salesforce
+  - Published: 2026-06-16T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+  - Summary: In this post, we walk through different threats to Salesforce and how to detect them.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Cybersecurity Firms Impacted by Klue Supply Chain Attack
+  - Published: 2026-06-19T09:19:06+00:00
+  - Link: https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
+  - Summary: The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future. The post Cybersecurity Firms Impacted by Klue Supply Chain Attack appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Klue OAuth breach victim list grows as Icarus hackers claim attack
+  - Published: 2026-06-19T22:31:04+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+  - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Klue breach lead to Salesforce data theft, Huntress affected
+  - Published: 2026-06-19T12:57:39+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
+  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Salesforce Data Thefts Continue via Klue App Compromise
+  - Published: 2026-06-18T16:49:04+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
+  - Published: 2026-06-19T09:03:57+00:00
+  - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+  - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
 
 ### Cluster 799ac6a482 — score 9
 
@@ -3234,6 +3093,51 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
 
+### Cluster f5a9f96db5 — score 8
+
+- Title: What Is Container Runtime Security? A Practical Guide 2026
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-06-19T18:50:00+00:00
+- Link: https://orca.security/resources/blog/what-is-container-runtime-security/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, supply_chain
+- affected_products: Kubernetes
+- attack_techniques: T1552, T1610, T1611
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, credential_theft
+- affected_products: Kubernetes
+- attack_techniques: T1552, T1610, T1611
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
+```
+
+#### Full body
+
+```
+Table of contents Key takeaways What Is Container Runtime Security Most Prevalent Threats at Runtime Who Is Responsible for Runtime Security Developers’ Role Runtime Security and Kubernetes Security Policies and Best Practices How to Discover Runtime Risks in Your Environment Runtime Signal Types and Their Purpose Continuous Real-Time Scanning Snapshot Scanning Behavioral Analytics Unifying Container Security From Code to Runtime Frequently asked questions about Container Runtime Security Key takeaways Container runtime security protects workloads while they execute, after deployment. Common runtime threats include privilege abuse, container escape, lateral movement, and malicious process activity. Responsibility spans developers, platform teams, and security operations, especially in Kubernetes environments. Runtime security combines telemetry, behavioral analysis, snapshots, and contextual risk signals to detect active threats. Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API server security. It helps detect attacks that build-time scanning cannot predict, including in-memory techniques, credential abuse, and novel malware. Container security and container security best practices cover broader topics such as image security, supply-chain risk, cluster hardening, and deployment controls. This guide focuses specifically on runtime behavior after workloads are deployed and running in production. What Is Container Runtime Security Container runtime security combines preventive controls with live detection to protect workloads while they run. Unlike static image scanning, which identifies known vulnerabilities in packages and images, runtime security focuses on how containers actually behave on hosts and within clusters. NIST SP 800-190 frames container risks across both the image lifecycle and the execution environment. Runtime controls address that execution layer through technologies such as syscall filtering, mandatory access control profiles, monitoring agents, and eBPF-based sensors. These controls observe behavior rather than relying solely on known signatures. They can detect activity that never maps to a published CVE, including living-off-the-land techniques and other forms of post-exploitation behavior inside a container. Most Prevalent Threats at Runtime Common runtime threats include: Container escape: Breaking isolation between a container and its host. Credential theft: Stealing cloud metadata credentials, service account tokens, or other secrets. Cryptomining: Hijacking compute resources for unauthorized mining activity. Reverse shells: Establishing remote command execution from compromised workloads. MITRE ATT&CK for Containers maps techniques such as T1610 (Deploy Container), T1611 (Escape to Host), and T1552 (Unsecured Credentials) to container and orchestrator contexts. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation. When a workload mounts a sensitive host path or runs with excessive capabilities, those CVEs become reachable even if the base image passed a scan last week. Runtime tooling prioritizes signals that indicate live exploitation rather than latent patch debt. It also surfaces insider-style abuse where credentials are valid but behavior is wrong. Who Is Responsible for Runtime Security Runtime security is a shared obligation. Product teams own application behavior and dependency choices. Platform engineering owns node configuration, runtime classes, and cluster upgrades. Security operations owns detection content, incident response playbooks, and tuning to reduce false positives. No single role “finishes” runtime sec
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: What Is Container Runtime Security? A Practical Guide 2026
+  - Published: 2026-06-19T18:50:00+00:00
+  - Link: https://orca.security/resources/blog/what-is-container-runtime-security/
+  - Summary: Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
+
 ### Cluster 5fb153b4fa — score 8
 
 - Title: What Is Application Security Testing? Tools and Types
@@ -3391,6 +3295,51 @@ Table of contents Key Takeaways What Is Managed Cloud Security? Core Functions o
   - Title: How attackers are jailbreaking LLMs with CTF framing and how to catch them
   - Published: 2026-06-15T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
+
+### Cluster 6bc465fddb — score 8
+
+- Title: CISA warns Fortinet users to secure devices after FortiBleed leak
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-19T06:47:55+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng
+- affected_industries: critical_infrastructure, financial_services, government, healthcare
+- affected_products: Fortinet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, data_breach
+- affected_industries: healthcare, financial_services, government, critical_infrastructure
+- affected_products: Fortinet
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
+```
+
+#### Full body
+
+```
+CISA warns Fortinet users to secure devices after FortiBleed leak By Sergiu Gatlan June 19, 2026 02:47 AM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." This warning comes after threat actors used compromised credentials to target internet-accessible Fortinet devices across government and private-sector organizations worldwide. "CISA is aware of global reports that malicious cyber actors have targeted internet-accessible Fortinet devices across government and private sector organizations using compromised credentials," it said . "This activity, referred to as FortiBleed, involves the exposure of leaked credentials associated with approximately 74,000 Fortinet devices, including firewalls and virtual private network (VPN) gateways." The agency called on affected FortiGate appliance owners to terminate all SSL VPN and administrative sessions, reset all VPN and administrative passwords, enable phishing-resistant multifactor authentication, and review logs for signs of unauthorized access or lateral movement. CISA also advised Fortinet customers to store admin credentials using the modern Password-Based Key Derivation Function 2 (PBKDF2) hashing algorithm, and to restrict firewall management interfaces from public internet access and remove any unauthorized accounts to reduce the attack surface as much as possible. Credentials for over 73K firewalls exposed The FortiBleed data leak was uncovered by security researcher Volodymyr "Bob" Diachenko, who discovered a server containing what appeared to be valid Fortinet VPN credentials, including usernames, email addresses, and plaintext passwords for 73,932 firewall URLs worldwide. The exposed data also includes each organization's industry, revenue, and employee count, which Diachenko said appeared to be compiled to assist in planning future attacks. Threat intelligence company Hudson Rock, which also analyzed the dataset , described it as one of the largest known collections of compromised Fortinet credentials, spanning 21,632 unique domains and 194 countries. ​Among the organizations represented in the dataset are Samsung, Mercedes-Benz, Foxconn, Chevron, Comcast, AT&T, and Toyota, along with many government agencies and critical infrastructure operators across telecommunications, healthcare, financial services, and manufacturing industry sectors. The highest number of affected devices were from India, the United States, Taiwan, Mexico, Turkey, Thailand, Colombia, Malaysia, Chile, and the United Arab Emirates. Fortinet credentials found on an exposed server (Volodymyr Diachenko) Data leak linked to Russian-speaking threat group Diachenko also said the operation was conducted by a Russian-speaking threat group that allegedly carried out approximately 1.16 billion credential attempts against more than 320,000 FortiGate targets to intercept SSL VPN authentication hashes. The source of the configuration data remains unknown. Cybersecurity expert Kevin Beaumont has also independently confirmed the authenticity of some credentials and noted that most affected devices remain online. "The data is legit. It is around 75k devices. Almost all are still online, and Fortinet devices. It appears to be recent data," Beaumont said , adding that the leaked data appears to have originated from Fortinet configuration files. However, the source of the data remains unknown, and it is unclear whether it was stolen through exploitation of previously disclosed Fortinet vulnerabilities, a newly discovered security flaw, or another method. Hudson Rock has also created a free FortiBleed lookup tool to help organizations check whether they are affected. On Monday, threat intelligence company Defused also reported that several critical vulnerabilities in Fortinet's FortiSandbox cyber threat detection platform are now exploited in attacks. In total,
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA warns Fortinet users to secure devices after FortiBleed leak
+  - Published: 2026-06-19T06:47:55+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
 
 ### Cluster 3ad4f0933a — score 8
 
@@ -3574,19 +3523,19 @@ AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution  Sw
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-17T10:30:00+00:00
 - Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
+- threat_categories: ransomware_extortion, zero_day
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
+- threat_categories: ransomware_extortion, zero_day
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -3595,6 +3544,12 @@ AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution  Sw
 
 ```
 Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
+```
+
+#### Full body
+
+```
+The Top 10 Attack Surface Exposures in 2026  The Hacker News  Jun 17, 2026 Attack Surface Management Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a single day, the question isn't just how fast you can patch. It's why the service was exposed in the first place. The team at Intruder analyzed 3,000 attack surfaces to find out how much of a typical organization's attack surface consists of services that have no reason to be there. We grouped what we found into four categories — HTTP panels, risky ports and services, databases, and publicly accessible files and information. The full findings, including breakdowns by company size and industry, are in our 2026 Attack Surface Management Index . How widespread is the problem? 60% of organizations had at least one HTTP panel exposed — admin consoles, management UIs, login pages for internal tools that have no business being publicly reachable. Nearly half (49%) had a risky port or service exposed. 42% had a database reachable directly from the internet. 30% had files or information publicly accessible that shouldn't be — API documentation, config files, data that was never intended to be discoverable. The ten most common exposures These are the most common attack surface exposures affecting organizations in the past 12 months. MySQL Database Exposed — 26% Postgres Database Exposed — 16% API Documentation Exposed — 15% WordPress Admin Panel Exposed — 15% Remote Desktop Service Exposed — 11% SNMP Service Exposed — 9% phpMyAdmin Admin Panel Exposed — 8% UPnP Service Exposed — 8% NTP Service Exposed — 7% RPC Portmapper Service Exposed — 7% Databases dominate the top two spots Exposed databases take the top two spots, with more than a quarter of organizations exposing MySQL and Postgres, affecting 1 in 6. Internet-facing databases have long been a target for opportunistic attackers. The PLEASE_READ_ME ransomware campaign in 2020 compromised more than 250,000 MySQL databases by brute-forcing weak credentials. MongoDB and Elasticsearch have faced the same. API documentation is more exposed than RDP API documentation ranked third — ahead of RDP, which surprised us. Some API docs are intentionally public, but organizations frequently overlook documentation tied to private or admin-side APIs that were never meant to be discoverable. Public API docs can turn otherwise hard-to-find vulnerabilities into documented attack paths. RDP remains a ransomware entry point RDP at number five is a concern given its history as an initial access vector in ransomware attacks. BlueKeep in 2019 left nearly a million systems immediately exploitable. Credential guessing against exposed RDP remains one of the most reliable ways ransomware operators get in. The rest of the list was never meant to be internet-facing The remainder of the list — SNMP, UPnP, NTP, RPC — are legacy services designed for internal networks that were never meant to be internet-facing. Get the full findings Most teams treat patching as the priority. But for a lot of what's on this list — databases, admin panels, legacy services — the better question is why they're reachable at all. That's where attack surface reduction comes in — and for most organizations, it's not getting the same attention as vulnerability management. The full findings, including breakdowns by company size and industry, are in the 2026 Attack Surface Management Index . Found this article interesting? This article is a contributed piece from one of our valued partners. Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Attack Surfa
 ```
 
 #### Corroborating sources (1)
@@ -3748,3 +3703,38 @@ submitted by /u/Ecstatic_Priority514 [link] [comments]
   - Published: 2026-06-18T18:05:44+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/
   - Summary: submitted by /u/Ecstatic_Priority514 [link] [comments]
+
+### Cluster e71e1b7edf — score 8
+
+- Title: Chaining Security Bugs in Discuz! X5.0: from Race Condition to Pre-Auth RCE
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-06-15T17:44:56+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1u6nolk/chaining_security_bugs_in_discuz_x50_from_race/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/eg1x [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Chaining Security Bugs in Discuz! X5.0: from Race Condition to Pre-Auth RCE
+  - Published: 2026-06-15T17:44:56+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1u6nolk/chaining_security_bugs_in_discuz_x50_from_race/
+  - Summary: submitted by /u/eg1x [link] [comments]

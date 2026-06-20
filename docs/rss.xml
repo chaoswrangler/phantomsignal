@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 20 Jun 2026 05:22:03 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 09:29:28 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -339,15 +339,13 @@
 <item>
 <title>Cybersecurity Firms Impacted by Klue Supply Chain Attack</title>
 <link>https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/</link>
-<description><![CDATA[The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future. The post Cybersecurity Firms Impacted by Klue Supply Chain Attack appeared first on SecurityWeek .<br/><br/><em>Tags: Salesforce · Microsoft SharePoint · npm · ShinyHunters · UNC6395 · ransomware_extortion · supply_chain · data_breach</em>]]></description>
+<description><![CDATA[The hackers exfiltrated data from Salesforce instances of Klue customers, such as Huntress and Recorded Future. The post Cybersecurity Firms Impacted by Klue Supply Chain Attack appeared first on SecurityWeek .<br/><br/><em>Tags: Salesforce · supply_chain</em>]]></description>
 <pubDate>Fri, 19 Jun 2026 09:19:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/</guid>
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>Salesforce</category>
-<category>Microsoft SharePoint</category>
-<category>npm</category>
-<category>ShinyHunters</category>
+<category>supply_chain</category>
 </item>
 <item>
 <title>Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data</title>
@@ -778,6 +776,15 @@
 <category>Ivanti</category>
 </item>
 <item>
+<title>Would you like some malware served at the very top of DuckDuckGo?</title>
+<link>https://www.reddit.com/r/netsec/comments/1u93j1m/would_you_like_some_malware_served_at_the_very/</link>
+<description><![CDATA[submitted by /u/WesternBest [link] [comments]]]></description>
+<pubDate>Thu, 18 Jun 2026 11:20:15 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u93j1m/would_you_like_some_malware_served_at_the_very/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Embedding Forbidden Text in Spyware to Discourage AI Analysis</title>
 <link>https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html</link>
 <description><![CDATA[At least one malware developer is adding text about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis. Details : The _index.js payload begins with a large JavaScript block comment containing fake system instructions and policy-triggering content. Because it is inside a comment, it does not affect JavaScript execution. The runtime skips it. The real malware begins after the comment with a try{eval(…)} wrapper around a large character-code array and a ROT-style substitution function. This header appears designed for AI-mediated analysis, not for Node, Bun, or Python. It attempts to derail scanners or analyst copilots that feed the beginning of a file to a language model without clearly isolating the content as untrusted data. In weak pipelines, this can cause refusal behavior, prompt confusion, context pollution, or premature classification before the scanner reaches the actual malware...]]></description>
@@ -1108,11 +1115,12 @@
 <item>
 <title>The Top 10 Attack Surface Exposures in 2026</title>
 <link>https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html</link>
-<description><![CDATA[Breaches don&apos;t always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[Breaches don&apos;t always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a<br/><br/><em>Tags: ransomware_extortion · zero_day</em>]]></description>
 <pubDate>Wed, 17 Jun 2026 10:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
 <category>zero_day</category>
 </item>
 <item>
@@ -1619,6 +1627,15 @@
 <category>supply_chain</category>
 </item>
 <item>
+<title>Chaining Security Bugs in Discuz! X5.0: from Race Condition to Pre-Auth RCE</title>
+<link>https://www.reddit.com/r/netsec/comments/1u6nolk/chaining_security_bugs_in_discuz_x50_from_race/</link>
+<description><![CDATA[submitted by /u/eg1x [link] [comments]]]></description>
+<pubDate>Mon, 15 Jun 2026 17:44:56 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u6nolk/chaining_security_bugs_in_discuz_x50_from_race/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>NIS2 is raising the bar. Here’s how to turn readiness into resilience.</title>
 <link>https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience</link>
 <description><![CDATA[The NIS2 directive asks covered organizations to take a more structured approach to risk management, governance, supply chain security, and incident reporting. It expands the scope of who may be covered, raises expectations around management body accountability, introduces clearer and more enforceable requirements, and increases pressure on organizations to show that security is being managed in a consistent, defensible way. Reporting timelines are one of the most visible parts of that shift, with early warning required within 24 hours of awareness for significant incidents, incident notification within 72 hours, and a final report within one month. It also arrived in a landscape that is still uneven, with member states continuing to implement the directive in different ways across the EU. That combination has created a familiar challenge for CISOs and security teams, as the questions coming from boards and leadership are no longer just about whether the organization understands the re<br/><br/><em>Tags: supply_chain</em>]]></description>
@@ -1953,6 +1970,15 @@
 <category>CVE-2026-20253</category>
 </item>
 <item>
+<title>Getting the PID from random numbers in PHP</title>
+<link>https://www.reddit.com/r/netsec/comments/1u4lqa8/getting_the_pid_from_random_numbers_in_php/</link>
+<description><![CDATA[In my blog article I analyze how random numbers in older PHP versions were generated. It turns out you can, under certain circumstances, derive the id of the process which generated a random number! While it has exactly 0 practical application, it was super fun to dig into the php&apos;s source code. submitted by /u/DrAdalbbert [link] [comments]]]></description>
+<pubDate>Sat, 13 Jun 2026 08:44:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u4lqa8/getting_the_pid_from_random_numbers_in_php/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>AI-Accelerated Exploitation: The Mythos-Era Threat Model</title>
 <link>https://horizon3.ai/intelligence/blogs/ai-accelerated-exploitation-mythos-era-threat-model/</link>
 <description><![CDATA[AI models like Mythos collapse the gap between discovery and exploitation. Learn how to rethink your threat model before attackers do.]]></description>
@@ -1960,6 +1986,15 @@
 <guid isPermaLink="true">https://horizon3.ai/intelligence/blogs/ai-accelerated-exploitation-mythos-era-threat-model/</guid>
 <source url="https://horizon3.ai/feed/">Horizon3 Attack Research</source>
 <category>offensive_vulnerability_research</category>
+</item>
+<item>
+<title>U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</title>
+<link>https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html</link>
+<description><![CDATA[Anthropic said on Friday it will &quot;abruptly disable&quot; its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national security concerns. The AI company said it received an order at 5:21 p.m. ET, instructing it to suspend]]></description>
+<pubDate>Sat, 13 Jun 2026 05:42:50 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
@@ -2547,6 +2582,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>BUMSRAKETE™ — The Most Beautiful, Most Tremendous FreeBSD Vulnerability In The History Of Computing. BELIEVE ME.</title>
+<link>https://www.reddit.com/r/netsec/comments/1u2xoae/bumsrakete_the_most_beautiful_most_tremendous/</link>
+<description><![CDATA[submitted by /u/moviuro [link] [comments]]]></description>
+<pubDate>Thu, 11 Jun 2026 12:28:28 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u2xoae/bumsrakete_the_most_beautiful_most_tremendous/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Interpol Dismantles SniperDz Phishing-as-a-Service Platform</title>
 <link>https://www.infosecurity-magazine.com/news/interpol-dismantles-sniperdz/</link>
 <description><![CDATA[New revelations by Group-IB expose the full scale of the decade-old SniperDz phishing operation<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
@@ -2949,15 +2993,6 @@
 <category>zero_day</category>
 </item>
 <item>
-<title>Jupyter Enterprise Gateway - From Notebook to Kubernetes Cluster Admin - elttam</title>
-<link>https://www.reddit.com/r/netsec/comments/1u1u6lh/jupyter_enterprise_gateway_from_notebook_to/</link>
-<description><![CDATA[submitted by /u/AnimalStrange [link] [comments]]]></description>
-<pubDate>Wed, 10 Jun 2026 06:30:38 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u1u6lh/jupyter_enterprise_gateway_from_notebook_to/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Weekly Update 507</title>
 <link>https://www.troyhunt.com/weekly-update-507/</link>
 <description><![CDATA[1,000 breaches is one hell of a milestone. It&apos;s not just the process of getting data, verifying it, loading it, sending notifications etc, it&apos;s all the other stuff that goes into keeping the whole thing afloat. Legal docs. Trademarks. Accounting. Agreements. The most mind-numbingly]]></description>
@@ -2965,17 +3000,6 @@
 <guid isPermaLink="true">https://www.troyhunt.com/weekly-update-507/</guid>
 <source url="https://www.troyhunt.com/rss/">Troy Hunt</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>More Evidence That Words Don&apos;t Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520) - watchTowr Labs</title>
-<link>https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/</link>
-<description><![CDATA[submitted by /u/dx7r__ [link] [comments]<br/><br/><em>Tags: Ivanti · CVE-2026-10520</em>]]></description>
-<pubDate>Wed, 10 Jun 2026 00:54:34 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>Ivanti</category>
-<category>CVE-2026-10520</category>
 </item>
 <item>
 <title>More Evidence That Words Don&apos;t Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)</title>
@@ -3260,15 +3284,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-11645</category>
 <category>active_exploitation</category>
-</item>
-<item>
-<title>I found 23 Chrome extensions hijacking 758,000 users&apos; searches for affiliate revenue</title>
-<link>https://www.reddit.com/r/netsec/comments/1u10g5c/i_found_23_chrome_extensions_hijacking_758000/</link>
-<description><![CDATA[I scanned Chrome extension manifests for chrome_settings_overrides and found 23 extensions silently routing 758,000 users&apos; searches through hidden monetization networks. The pattern: install a free extension (satellite imagery, maps, news reader), your default search gets quietly replaced and every query goes through the operator&apos;s middleware before reaching a search network, generating affiliate revenue you never consented to. Key findings: 8 distinct brokers behind these extensions. If one extension gets pulled, another goes up under a different name. Several extensions have zero functionality beyond the search override One extension affirmatively claims &quot;We don&apos;t track your searches&quot; while its own privacy policy says otherwise One uses runtime declarativeNetRequest injection so the real behavior is invisible to static analysis The `hspart` parameter in the final search redirect URL is the clustering key. One value maps an entire broker network regardless of extension name, domain, o]]></description>
-<pubDate>Tue, 09 Jun 2026 09:50:47 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u10g5c/i_found_23_chrome_extensions_hijacking_758000/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Check Point Warns Critical Auth Bypass Bug Exploited in the Wild</title>
@@ -10794,7 +10809,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f6b111c0400&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff2f13e16a0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20450,7 +20465,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20459,7 +20474,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20468,7 +20483,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20477,7 +20492,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20486,7 +20501,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20495,7 +20510,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20504,7 +20519,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20513,7 +20528,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20522,7 +20537,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20531,7 +20546,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 05:22:03 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 09:29:28 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
