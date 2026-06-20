@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-20T18:18:39.813913+00:00",
+  "generated_at": "2026-06-20T20:20:33.572121+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
   "total_items_in_window": 327,
   "total_clusters_raw": 146,
-  "total_clusters_in_packet": 58,
-  "dropped_low_score": 88,
+  "total_clusters_in_packet": 57,
+  "dropped_low_score": 89,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -81,11 +81,11 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
+      "status": "parse_error",
+      "item_count": 0,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -95,13 +95,6 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
@@ -109,40 +102,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -151,12 +116,40 @@
       "item_count": 15,
       "in_window_count": 2
     },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Microsoft Threat Intelligence": {
       "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -165,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 3
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -179,13 +172,6 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -193,11 +179,18 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 78,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -207,11 +200,11 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 78,
       "in_window_count": 0
     },
     "PortSwigger Research": {
@@ -221,13 +214,6 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -235,15 +221,22 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 50,
+      "in_window_count": 3
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -255,6 +248,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -284,12 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
@@ -305,6 +305,13 @@
       "item_count": 20,
       "in_window_count": 6
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -312,26 +319,19 @@
       "item_count": 20,
       "in_window_count": 4
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 0
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -360,6 +360,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
@@ -396,13 +403,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -424,11 +424,32 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
+      "in_window_count": 4
+    },
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
       "in_window_count": 1
     },
     "Simon Willison": {
@@ -438,36 +459,8 @@
       "item_count": 30,
       "in_window_count": 22
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -480,19 +473,26 @@
       "item_count": 50,
       "in_window_count": 21
     },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -501,18 +501,11 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
+      "item_count": 15,
       "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
@@ -529,12 +522,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -549,6 +542,13 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 44
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -571,12 +571,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 44
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -5759,12 +5759,12 @@
           }
         },
         {
-          "source": "Help Net Security",
+          "source": "Dark Reading",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Klue breach lead to Salesforce data theft, Huntress affected",
-          "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
-          "published": "2026-06-19T12:57:39+00:00",
-          "summary": "Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .",
+          "title": "Salesforce Data Thefts Continue via Klue App Compromise",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
+          "published": "2026-06-18T16:49:04+00:00",
+          "summary": "Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -5787,12 +5787,12 @@
           }
         },
         {
-          "source": "Dark Reading",
+          "source": "Help Net Security",
           "cohort": "cyber_news_breach_reporting",
-          "title": "Salesforce Data Thefts Continue via Klue App Compromise",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
-          "published": "2026-06-18T16:49:04+00:00",
-          "summary": "Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.",
+          "title": "Klue breach lead to Salesforce data theft, Huntress affected",
+          "link": "https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/",
+          "published": "2026-06-19T12:57:39+00:00",
+          "summary": "Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -6386,114 +6386,6 @@
             "content_type": "news_report",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "f5a9f96db5",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [
-        "Kubernetes"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Kubernetes"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [
-          "T1552",
-          "T1610",
-          "T1611"
-        ],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Orca Security Research",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "What Is Container Runtime Security? A Practical Guide 2026",
-        "link": "https://orca.security/resources/blog/what-is-container-runtime-security/",
-        "published": "2026-06-19T18:50:00+00:00",
-        "summary": "Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]",
-        "full_body": "Table of contents Key takeaways What Is Container Runtime Security Most Prevalent Threats at Runtime Who Is Responsible for Runtime Security Developers’ Role Runtime Security and Kubernetes Security Policies and Best Practices How to Discover Runtime Risks in Your Environment Runtime Signal Types and Their Purpose Continuous Real-Time Scanning Snapshot Scanning Behavioral Analytics Unifying Container Security From Code to Runtime Frequently asked questions about Container Runtime Security Key takeaways Container runtime security protects workloads while they execute, after deployment. Common runtime threats include privilege abuse, container escape, lateral movement, and malicious process activity. Responsibility spans developers, platform teams, and security operations, especially in Kubernetes environments. Runtime security combines telemetry, behavioral analysis, snapshots, and contextual risk signals to detect active threats. Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API server security. It helps detect attacks that build-time scanning cannot predict, including in-memory techniques, credential abuse, and novel malware. Container security and container security best practices cover broader topics such as image security, supply-chain risk, cluster hardening, and deployment controls. This guide focuses specifically on runtime behavior after workloads are deployed and running in production. What Is Container Runtime Security Container runtime security combines preventive controls with live detection to protect workloads while they run. Unlike static image scanning, which identifies known vulnerabilities in packages and images, runtime security focuses on how containers actually behave on hosts and within clusters. NIST SP 800-190 frames container risks across both the image lifecycle and the execution environment. Runtime controls address that execution layer through technologies such as syscall filtering, mandatory access control profiles, monitoring agents, and eBPF-based sensors. These controls observe behavior rather than relying solely on known signatures. They can detect activity that never maps to a published CVE, including living-off-the-land techniques and other forms of post-exploitation behavior inside a container. Most Prevalent Threats at Runtime Common runtime threats include: Container escape: Breaking isolation between a container and its host. Credential theft: Stealing cloud metadata credentials, service account tokens, or other secrets. Cryptomining: Hijacking compute resources for unauthorized mining activity. Reverse shells: Establishing remote command execution from compromised workloads. MITRE ATT&CK for Containers maps techniques such as T1610 (Deploy Container), T1611 (Escape to Host), and T1552 (Unsecured Credentials) to container and orchestrator contexts. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation. When a workload mounts a sensitive host path or runs with excessive capabilities, those CVEs become reachable even if the base image passed a scan last week. Runtime tooling prioritizes signals that indicate live exploitation rather than latent patch debt. It also surfaces insider-style abuse where credentials are valid but behavior is wrong. Who Is Responsible for Runtime Security Runtime security is a shared obligation. Product teams own application behavior and dependency choices. Platform engineering owns node configuration, runtime classes, and cluster upgrades. Security operations owns detection content, incident response playbooks, and tuning to reduce false positives. No single role “finishes” runtime sec",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "supply_chain",
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Kubernetes"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [
-            "T1552",
-            "T1610",
-            "T1611"
-          ],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Kubernetes": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Orca Security Research",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "What Is Container Runtime Security? A Practical Guide 2026",
-          "link": "https://orca.security/resources/blog/what-is-container-runtime-security/",
-          "published": "2026-06-19T18:50:00+00:00",
-          "summary": "Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]",
-          "taxonomy": {
-            "threat_categories": [
-              "supply_chain",
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Kubernetes"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [
-              "T1552",
-              "T1610",
-              "T1611"
-            ],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Kubernetes": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -7783,32 +7675,29 @@
       ]
     },
     {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
+      "label": "Microsoft SharePoint vulnerability activity",
+      "anchor_signal": "Microsoft SharePoint",
+      "theme_key": "microsoft-sharepoint",
       "dominant_features": {
         "affected_products": [
-          "Kubernetes"
+          "Microsoft SharePoint"
         ]
       },
       "cluster_count": 2,
-      "article_count": 5,
+      "article_count": 2,
       "cohesion": 0.2,
       "shared_strong_signals": [
-        "Kubernetes"
+        "Microsoft SharePoint"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "512ea8982c",
-        "f5a9f96db5"
+        "24585c22c2",
+        "762c808fc9"
       ],
       "links": [
-        "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/",
-        "https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything",
-        "https://risky.biz/SRB171/",
-        "https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/",
-        "https://orca.security/resources/blog/what-is-container-runtime-security/"
+        "https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/",
+        "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft"
       ]
     }
   ],

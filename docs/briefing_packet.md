@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-20T18:18:39.813913+00:00
+- Generated: 2026-06-20T20:20:33.572121+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
 - Total items in window: 327
 - Total clusters raw: 146
-- Total clusters in packet: 58
-- Dropped low score: 88
+- Total clusters in packet: 57
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,123 +80,118 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 15
+  - In window count: 2
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 78
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -205,6 +200,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -225,11 +225,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 0
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
@@ -240,26 +240,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -280,6 +280,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -305,11 +310,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -325,38 +325,33 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
+  - In window count: 4
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 22
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,30 +360,30 @@
   - Status: ok
   - Item count: 50
   - In window count: 21
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
+  - Item count: 15
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -400,11 +395,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,6 +410,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 44
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -430,11 +430,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 44
+  - Item count: 20
+  - In window count: 4
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -721,24 +721,21 @@
   - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
 
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
+### Microsoft SharePoint vulnerability activity
+- Anchor signal: Microsoft SharePoint
+- Theme key: microsoft-sharepoint
 - Cluster count: 2
-- Article count: 5
+- Article count: 2
 - Cohesion: 0.2
-- Shared strong signals: Kubernetes
+- Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: 512ea8982c, f5a9f96db5
+  - affected_products: Microsoft SharePoint
+- Cluster IDs: 24585c22c2, 762c808fc9
 - Links:
-  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
-  - https://risky.biz/SRB171/
-  - https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
-  - https://orca.security/resources/blog/what-is-container-runtime-security/
+  - https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
+  - https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft
 
 ## Forward signals
 
@@ -2774,16 +2771,16 @@ Julie Agnes Sparks Senior Security Engineer Salesforce is one of the worldâ
   - Published: 2026-06-19T22:31:04+00:00
   - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Klue breach lead to Salesforce data theft, Huntress affected
-  - Published: 2026-06-19T12:57:39+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Salesforce Data Thefts Continue via Klue App Compromise
   - Published: 2026-06-18T16:49:04+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
   - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Klue breach lead to Salesforce data theft, Huntress affected
+  - Published: 2026-06-19T12:57:39+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
+  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
   - Published: 2026-06-19T09:03:57+00:00
@@ -3044,51 +3041,6 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Published: 2026-06-19T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
-
-### Cluster f5a9f96db5 — score 8
-
-- Title: What Is Container Runtime Security? A Practical Guide 2026
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-19T18:50:00+00:00
-- Link: https://orca.security/resources/blog/what-is-container-runtime-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- affected_products: Kubernetes
-- attack_techniques: T1552, T1610, T1611
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_products: Kubernetes
-- attack_techniques: T1552, T1610, T1611
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
-```
-
-#### Full body
-
-```
-Table of contents Key takeaways What Is Container Runtime Security Most Prevalent Threats at Runtime Who Is Responsible for Runtime Security Developers’ Role Runtime Security and Kubernetes Security Policies and Best Practices How to Discover Runtime Risks in Your Environment Runtime Signal Types and Their Purpose Continuous Real-Time Scanning Snapshot Scanning Behavioral Analytics Unifying Container Security From Code to Runtime Frequently asked questions about Container Runtime Security Key takeaways Container runtime security protects workloads while they execute, after deployment. Common runtime threats include privilege abuse, container escape, lateral movement, and malicious process activity. Responsibility spans developers, platform teams, and security operations, especially in Kubernetes environments. Runtime security combines telemetry, behavioral analysis, snapshots, and contextual risk signals to detect active threats. Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API server security. It helps detect attacks that build-time scanning cannot predict, including in-memory techniques, credential abuse, and novel malware. Container security and container security best practices cover broader topics such as image security, supply-chain risk, cluster hardening, and deployment controls. This guide focuses specifically on runtime behavior after workloads are deployed and running in production. What Is Container Runtime Security Container runtime security combines preventive controls with live detection to protect workloads while they run. Unlike static image scanning, which identifies known vulnerabilities in packages and images, runtime security focuses on how containers actually behave on hosts and within clusters. NIST SP 800-190 frames container risks across both the image lifecycle and the execution environment. Runtime controls address that execution layer through technologies such as syscall filtering, mandatory access control profiles, monitoring agents, and eBPF-based sensors. These controls observe behavior rather than relying solely on known signatures. They can detect activity that never maps to a published CVE, including living-off-the-land techniques and other forms of post-exploitation behavior inside a container. Most Prevalent Threats at Runtime Common runtime threats include: Container escape: Breaking isolation between a container and its host. Credential theft: Stealing cloud metadata credentials, service account tokens, or other secrets. Cryptomining: Hijacking compute resources for unauthorized mining activity. Reverse shells: Establishing remote command execution from compromised workloads. MITRE ATT&CK for Containers maps techniques such as T1610 (Deploy Container), T1611 (Escape to Host), and T1552 (Unsecured Credentials) to container and orchestrator contexts. The CISA Known Exploited Vulnerabilities catalog lists CVEs under active exploitation. When a workload mounts a sensitive host path or runs with excessive capabilities, those CVEs become reachable even if the base image passed a scan last week. Runtime tooling prioritizes signals that indicate live exploitation rather than latent patch debt. It also surfaces insider-style abuse where credentials are valid but behavior is wrong. Who Is Responsible for Runtime Security Runtime security is a shared obligation. Product teams own application behavior and dependency choices. Platform engineering owns node configuration, runtime classes, and cluster upgrades. Security operations owns detection content, incident response playbooks, and tuning to reduce false positives. No single role “finishes” runtime sec
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: What Is Container Runtime Security? A Practical Guide 2026
-  - Published: 2026-06-19T18:50:00+00:00
-  - Link: https://orca.security/resources/blog/what-is-container-runtime-security/
-  - Summary: Key takeaways Container runtime security is the practice of detecting and limiting attacks against containerized workloads while they run. Runtime controls monitor process activity, file access, and network connections, then enforce policies when workloads deviate from expected behavior. In Kubernetes environments, runtime security also depends on controls such as admission policies, network segmentation, and API […]
 
 ### Cluster f90c59f1e6 — score 8
 
