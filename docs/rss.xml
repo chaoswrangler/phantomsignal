@@ -4,20 +4,20 @@
 <title>PHANTOMSignal Feed</title>
 <link>https://chaoswrangler.github.io/phantomsignal/</link>
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
-<description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
+<description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sat, 20 Jun 2026 14:25:23 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Jun 2026 16:25:24 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
-<title>Rolling out Copilot - How worried should i be about Indirect Prompt Injection?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1uaxq9e/rolling_out_copilot_how_worried_should_i_be_about/</link>
-<description><![CDATA[My small company is trying to get better Copilot adoption among staff, but as we start looking into how it can help us improve our workflows, I am curious how concerned we need to be about indirect prompt injection from documents and PDFs that we may load into our Copilots chats to have it help us review. I&apos;ve seen people vary on this one from running docs through multiple stages to stating that this type of prompt injection isn&apos;t a concern with Copilot(?!?). Hoping to get some insight from some in the Cybersecurity area to make sure we are protecting our companies data... Really appreciate any help that can be provided... submitted by /u/panamakevin [link] [comments]<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Sat, 20 Jun 2026 14:16:49 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1uaxq9e/rolling_out_copilot_how_worried_should_i_be_about/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>ai_security</category>
+<title>New Prinz Eugen ransomware prioritizes recent files for encryption</title>
+<link>https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/</link>
+<description><![CDATA[A new ransomware operation named &apos;Prinz Eugen&apos; prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Sat, 20 Jun 2026 15:23:46 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Microsoft links Mastra AI supply chain attack to North Korean hackers</title>
@@ -29,15 +29,6 @@
 <category>cyber_news_breach_reporting</category>
 <category>npm</category>
 <category>supply_chain</category>
-</item>
-<item>
-<title>AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution.</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1uasud2/autojack_attack_lets_one_web_page_hijack_ai_agent/</link>
-<description><![CDATA[submitted by /u/WorldlyClothes9256 [link] [comments]]]></description>
-<pubDate>Sat, 20 Jun 2026 10:07:53 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1uasud2/autojack_attack_lets_one_web_page_hijack_ai_agent/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</title>
@@ -62,24 +53,6 @@
 <category>threat_research_primary</category>
 <category>Palo Alto Networks</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>Cybersecurity Dissertation: Looking for a unique idea to add to a Splunk vs Wazuh threat detection framework 🫠</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1uaj08x/cybersecurity_dissertation_looking_for_a_unique/</link>
-<description><![CDATA[​ Hello everyone, hope you&apos;re good. This is my title - Design and Evaluation of a Threat Detection Framework Using Splunk and MITRE ATT&amp;CK: A Comparative Study with Wazuh. ​ LLM-Based SOC Analyst for Intelligent Alert Explanation and Incident Response Recommendations planning to add this for novelty. ​ My approved dissertation title is: ​ - Splunk Enterprise - Wazuh - Sysmon - MITRE ATT&amp;CK mapping - Windows endpoints - Kali Linux for attack simulation ​ I plan to compare both SIEMs in terms of detection capability, alert quality, MITRE ATT&amp;CK coverage, response time, and usability. ​ I&apos;m looking for a unique contribution that would make the project stand out beyond a standard comparison study. ​ If you were reviewing or supervising this project, or if you work in a SOC, what feature or research direction would you consider genuinely useful and interesting? ​ I&apos;d especially appreciate suggestions that are practical and relevant to industry rather than purely academic. ​ Thanks! submitte]]></description>
-<pubDate>Sat, 20 Jun 2026 01:00:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1uaj08x/cybersecurity_dissertation_looking_for_a_unique/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
-<title>Is Google SecOps (Chronicle) a decent SIEM for high-volume environments? (15TB/day, 40+ log sources)</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1uag9yh/is_google_secops_chronicle_a_decent_siem_for/</link>
-<description><![CDATA[Hi everyone, We’re currently evaluating Google SecOps (formerly Chronicle) as a potential SIEM solution and I wanted to get real-world feedback from people who are using it. Our environment: • ~15 TB of log ingestion per day • 40+ different log sources • 4-5 sources don’t have built-in parsers (we’d need to create custom ones) • Heavy focus on both detection and response Questions: 1. Is Google SecOps actually a good/decent SIEM in production at this scale? 2. How is the SOAR part? (playbooks, automation, case management, etc.) 3. For those who have it: Was the migration effort worth it? 4. Any major limitations or gotchas, especially around custom parsers and detection content? 5. Are there any significant new features or roadmap improvements coming in 2026/2027 that we should know about? Overall I have somewhat negative impressions of it so far (mainly around maturity of detections and SOAR), but the scalability and pricing at high volume look attractive. Would love honest opinions e]]></description>
-<pubDate>Fri, 19 Jun 2026 22:53:28 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1uag9yh/is_google_secops_chronicle_a_decent_siem_for/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Quoting Sean Lynch</title>
@@ -110,16 +83,6 @@
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
-</item>
-<item>
-<title>Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1uab93o/useafterfree_in_the_qpack_encoder_of_nginx_http3/</link>
-<description><![CDATA[submitted by /u/everping [link] [comments]<br/><br/><em>Tags: CVE-2026-42530</em>]]></description>
-<pubDate>Fri, 19 Jun 2026 19:25:08 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1uab93o/useafterfree_in_the_qpack_encoder_of_nginx_http3/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-42530</category>
 </item>
 <item>
 <title>Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530</title>
@@ -199,25 +162,20 @@
 <item>
 <title>What Is Application Security Testing? Tools and Types</title>
 <link>https://orca.security/resources/blog/what-is-application-security-testing/</link>
-<description><![CDATA[Key takeaways Application security testing (AST) is how organizations identify security weaknesses before attackers can exploit them. It includes activities such as threat modeling and automated techniques like SAST, SCA, DAST, and IAST. AST belongs in the same program as shift-left security, while DevSecOps practices help route findings to the right owners for remediation. AST […]<br/><br/><em>Tags: supply_chain</em>]]></description>
+<description><![CDATA[Key takeaways Application security testing (AST) is how organizations identify security weaknesses before attackers can exploit them. It includes activities such as threat modeling and automated techniques like SAST, SCA, DAST, and IAST. AST belongs in the same program as shift-left security, while DevSecOps practices help route findings to the right owners for remediation. AST […]]]></description>
 <pubDate>Fri, 19 Jun 2026 15:50:00 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/what-is-application-security-testing/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</title>
 <link>https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</link>
-<description><![CDATA[Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker&apos;s web page, and that page&apos;s JavaScript can reach a privileged local service on the same machine and spawn a process on the host. No credentials, no sign-in screen, and no further user interaction once<br/><br/><em>Tags: PyPI · GitHub · supply_chain · ai_security · active_exploitation</em>]]></description>
+<description><![CDATA[Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker&apos;s web page, and that page&apos;s JavaScript can reach a privileged local service on the same machine and spawn a process on the host. No credentials, no sign-in screen, and no further user interaction once]]></description>
 <pubDate>Fri, 19 Jun 2026 15:30:47 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>PyPI</category>
-<category>GitHub</category>
-<category>supply_chain</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum</title>
@@ -241,16 +199,6 @@
 <category>WordPress</category>
 </item>
 <item>
-<title>CISA Adds Splunk Enterprise RCE (CVE-2026-20253) to KEV - CVSS 9.8. How are your SOCs handling the PostgreSQL sidecar mitigation?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/</link>
-<description><![CDATA[Hey everyone, Just saw that CISA dropped the hammer and added the new Splunk Enterprise RCE (CVE-2026-20253) to the KEV catalog, mandating federal agencies to patch immediately. The CVSS is 9.8 because the PostgreSQL sidecar service lacks authentication and allows unauthenticated attackers to abuse the COPY FROM PROGRAM feature to drop payloads. Since Splunk requires heavy system privileges, it&apos;s essentially an instant root/SYSTEM compromise if the sidecar is exposed to the network. For those of you running on-prem Splunk, are you seeing any active scanning for this yet? If you can&apos;t patch immediately, I highly recommend firewalling that sidecar port so it only accepts localhost traffic. (Note: I did a deep-dive technical breakdown on the exploit chain and mitigation strategies for my team. I&apos;ll drop the link in the comments below if anyone wants to read the full guide.) submitted by /u/Impressive_Emu5708 [link] [comments]<br/><br/><em>Tags: CVE-2026-20253</em>]]></description>
-<pubDate>Fri, 19 Jun 2026 14:34:28 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-20253</category>
-</item>
-<item>
 <title>CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices</title>
 <link>https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html</link>
 <description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thousands of internet-accessible devices. The sweeping campaign, believed to be the work of Russian-speaking threat actors, has been codenamed FortiBleed. The number of compromised devices stands at]]></description>
@@ -258,15 +206,6 @@
 <guid isPermaLink="true">https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>Apple patches eavesdropping vulnerability in Beats Studio Buds</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1ua2faw/apple_patches_eavesdropping_vulnerability_in/</link>
-<description><![CDATA[submitted by /u/rkhunter_ [link] [comments]]]></description>
-<pubDate>Fri, 19 Jun 2026 13:44:50 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1ua2faw/apple_patches_eavesdropping_vulnerability_in/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)</title>
@@ -289,15 +228,6 @@
 <category>Salesforce</category>
 </item>
 <item>
-<title>Police raid malware network tied to Russia&apos;s Evil Corp hacker group</title>
-<link>https://therecord.media/socgholish-botnet-disrupted</link>
-<description><![CDATA[An international operation targeted the SocGholish botnet, which has been linked to the Russia-based cybercrime group Evil Corp.]]></description>
-<pubDate>Fri, 19 Jun 2026 12:57:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/socgholish-botnet-disrupted</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>What Is Managed Cloud Security? A Practical Guide</title>
 <link>https://orca.security/resources/blog/what-is-managed-cloud-security/</link>
 <description><![CDATA[Key Takeaways Managed cloud security is contracted operations work: a provider runs all or part of monitoring, triage, incident coordination, vulnerability workflows, compliance reporting, and sometimes architecture review using your cloud accounts and tools. You keep ownership of accounts, data, and policy. The vendor supplies staffing, runbooks, and integrations so alerts and posture gaps are […]]]></description>
@@ -305,16 +235,6 @@
 <guid isPermaLink="true">https://orca.security/resources/blog/what-is-managed-cloud-security/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Cybercriminals abused GitHub, YouTube and VirusTotal to push crypto-stealing malware</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1ua12v7/cybercriminals_abused_github_youtube_and/</link>
-<description><![CDATA[https://www.helpnetsecurity.com/2026/06/19/fake-github-stars-crypto-stealing-malware/ submitted by /u/sunychoudhary [link] [comments]<br/><br/><em>Tags: GitHub</em>]]></description>
-<pubDate>Fri, 19 Jun 2026 12:47:03 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1ua12v7/cybercriminals_abused_github_youtube_and/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>GitHub</category>
 </item>
 <item>
 <title>Webinar: How attackers bypass MFA and how defenders can respond</title>
@@ -335,15 +255,6 @@
 <source url="https://www.helpnetsecurity.com/feed/">Help Net Security</source>
 <category>cyber_news_breach_reporting</category>
 <category>GitHub</category>
-</item>
-<item>
-<title>Local or vm?</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1ua07v0/local_or_vm/</link>
-<description><![CDATA[guys do you use virtual machine to use kali or parrot os or dual boot or single boot on system? currently i&apos;m using it on vmware but i was thinking to shift from windows to linux for my daily so i was thinking to install kali and use it for both but the biggest concern is privacy as i need to use virtual environment to perform any attack i just want professional opinons that what os they use for daily work and what environment do u use to perform attack is it a seperate laptop with only linux installed or kali on vmware on a linux os or kali on vmware on windows and use windows for daily work submitted by /u/franzbonaparta2 [link] [comments]]]></description>
-<pubDate>Fri, 19 Jun 2026 12:06:17 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1ua07v0/local_or_vm/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>From Assistive to Agentic: The AI Shift That&apos;s Redefining Threat Management</title>
@@ -534,15 +445,6 @@
 <category>CVE-2025-20701</category>
 </item>
 <item>
-<title>The first unpatchable iPhone exploit in six years targets chips still running Apple&apos;s latest iOS</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1u9tqbl/the_first_unpatchable_iphone_exploit_in_six_years/</link>
-<description><![CDATA[submitted by /u/rkhunter_ [link] [comments]]]></description>
-<pubDate>Fri, 19 Jun 2026 05:56:40 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1u9tqbl/the_first_unpatchable_iphone_exploit_in_six_years/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-</item>
-<item>
 <title>Risky Bulletin: Creds for 74,000 Fortinet devices leaked</title>
 <link>https://risky.biz/RBNEWS579/</link>
 <description><![CDATA[A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.<br/><br/><em>Tags: Fortinet · supply_chain</em>]]></description>
@@ -571,16 +473,6 @@
 <source url="https://www.securityweek.com/feed/">SecurityWeek</source>
 <category>cyber_news_breach_reporting</category>
 <category>CVE-2026-20253</category>
-</item>
-<item>
-<title>Texas government data breach allowed hackers to steal 3 million driver&apos;s licenses and passports | TechCrunch</title>
-<link>https://www.reddit.com/r/cybersecurity/comments/1u9pco3/texas_government_data_breach_allowed_hackers_to/</link>
-<description><![CDATA[submitted by /u/Dash-Courageous [link] [comments]<br/><br/><em>Tags: data_breach</em>]]></description>
-<pubDate>Fri, 19 Jun 2026 02:12:39 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/cybersecurity/comments/1u9pco3/texas_government_data_breach_allowed_hackers_to/</guid>
-<source url="https://www.reddit.com/r/cybersecurity/.rss">Reddit r/cybersecurity</source>
-<category>reddit_practitioner_osint</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>AutoJack: How a single page can RCE the host running your AI agent</title>
@@ -691,11 +583,14 @@
 <item>
 <title>F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution</title>
 <link>https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html</link>
-<description><![CDATA[F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed below - CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is<br/><br/><em>Tags: CVE-2026-42530</em>]]></description>
+<description><![CDATA[F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed below - CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is<br/><br/><em>Tags: Anthropic/Claude · Ivanti · Microsoft Defender · CVE-2026-42530 · CVE-2026-42055 · CVE-2026-42945 · CVE-2026-11645 · phishing_social_eng</em>]]></description>
 <pubDate>Thu, 18 Jun 2026 17:32:14 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Anthropic/Claude</category>
+<category>Ivanti</category>
+<category>Microsoft Defender</category>
 <category>CVE-2026-42530</category>
 </item>
 <item>
@@ -786,16 +681,6 @@
 <guid isPermaLink="true">https://tldrsec.com/p/tldr-sec-333</guid>
 <source url="https://tldrsec.com/feed.xml">tl;dr sec</source>
 <category>practitioner_analysis</category>
-</item>
-<item>
-<title>Australian sugar producer works to restore operations as ransomware group claims attack</title>
-<link>https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen</link>
-<description><![CDATA[Mackay Sugar said it was &quot;working urgently&quot; to verify claims that a highly active ransomware group was behind a cyberattack that shut down harvesting and milling operations.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
-<pubDate>Thu, 18 Jun 2026 14:20:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/mackay-sugar-cyberattack-claimed-gentlemen</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>ransomware_extortion</category>
 </item>
 <item>
 <title>Klue OAuth breach linked to &apos;Icarus&apos; Salesforce data theft attacks</title>
@@ -1047,16 +932,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Hostile states behind three-quarters of attacks on Britain&apos;s critical infrastructure, cyber chief warns</title>
-<link>https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi</link>
-<description><![CDATA[NCSC CEO Richard Horne warned that “kinetic targeting in any conflict tomorrow will be based on intelligence gathered today” and that nation-state adversaries were “prepositioning” throughout British critical infrastructure.<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Wed, 17 Jun 2026 17:55:00 +0000</pubDate>
-<guid isPermaLink="true">https://therecord.media/britain-nation-state-cyberattacks-richard-horne-rusi</guid>
-<source url="https://therecord.media/feed">The Record</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
-</item>
-<item>
 <title>Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development</title>
 <link>https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html</link>
 <description><![CDATA[Microsoft has formally disclosed that it&apos;s working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. &quot;Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender<br/><br/><em>Tags: Microsoft Defender · CVE-2026-50656 · zero_day</em>]]></description>
@@ -1218,11 +1093,12 @@
 <item>
 <title>The Top 10 Attack Surface Exposures in 2026</title>
 <link>https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html</link>
-<description><![CDATA[Breaches don&apos;t always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a<br/><br/><em>Tags: zero_day</em>]]></description>
+<description><![CDATA[Breaches don&apos;t always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a<br/><br/><em>Tags: ransomware_extortion · zero_day</em>]]></description>
 <pubDate>Wed, 17 Jun 2026 10:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
 <category>zero_day</category>
 </item>
 <item>
@@ -1853,6 +1729,16 @@
 <item>
 <title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
+<description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: UNC6508</em>]]></description>
+<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>UNC6508</category>
+</item>
+<item>
+<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
 <description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: Google Cloud · UNC6508 · phishing_social_eng</em>]]></description>
 <pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
@@ -1861,16 +1747,6 @@
 <category>Google Cloud</category>
 <category>UNC6508</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</link>
-<description><![CDATA[Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People&apos;s Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with <br/><br/><em>Tags: UNC6508</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>UNC6508</category>
 </item>
 <item>
 <title>⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More</title>
@@ -10902,7 +10778,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff2de55fd60&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff8ac4c3700&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20558,7 +20434,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20567,7 +20443,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20576,7 +20452,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20585,7 +20461,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20594,7 +20470,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20603,7 +20479,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20612,7 +20488,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20621,7 +20497,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20630,7 +20506,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20639,7 +20515,7 @@
 <title>June 2026 Patch Tuesday: Microsoft Patches 206 Vulnerabilities Including Three Publicly Disclosed Zero-Days</title>
 <link>https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sat, 20 Jun 2026 14:25:23 +0000</pubDate>
+<pubDate>Sat, 20 Jun 2026 16:25:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-june-2026/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
