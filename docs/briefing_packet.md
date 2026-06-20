@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-19T22:10:38.610276+00:00
+- Generated: 2026-06-20T00:16:22.761365+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 329
-- Total clusters raw: 144
-- Total clusters in packet: 63
-- Dropped low score: 81
+- Total items in window: 340
+- Total clusters raw: 149
+- Total clusters in packet: 62
+- Dropped low score: 87
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -115,6 +115,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -125,21 +135,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -150,16 +155,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
+  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -170,21 +170,21 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 50
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 3
+  - Item count: 10
+  - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -225,11 +225,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 3
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
@@ -240,6 +235,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 3
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -250,15 +250,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -280,6 +280,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -290,45 +295,40 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
@@ -345,58 +345,58 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 23
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 23
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 21
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
+  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 10
   - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - In window count: 7
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,16 +410,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -430,21 +430,21 @@
   - Status: ok
   - Item count: 50
   - In window count: 45
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 25
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -495,14 +495,14 @@
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
   - https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
   - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
-  - https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
+  - https://www.reddit.com/r/cybersecurity/comments/1uab93o/useafterfree_in_the_qpack_encoder_of_nginx_http3/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
 
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 4
-- Article count: 15
+- Article count: 14
 - Cohesion: 0.25
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -524,13 +524,12 @@
   - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
   - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
   - https://risky.biz/SRB171/
-  - https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
 
 ### CVE-2026-50751 exploitation activity
 - Anchor signal: CVE-2026-50751
 - Theme key: cve-2026-50751
 - Cluster count: 3
-- Article count: 6
+- Article count: 8
 - Cohesion: 0.254
 - Shared strong signals: CVE-2026-50751
 - Member CVEs: (none)
@@ -545,6 +544,7 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
   - https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
+  - https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-50751/
   - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
@@ -571,7 +571,7 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 4
-- Article count: 19
+- Article count: 18
 - Cohesion: 0.229
 - Shared strong signals: WordPress
 - Member CVEs: (none)
@@ -603,7 +603,7 @@
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 3
-- Article count: 11
+- Article count: 14
 - Cohesion: 0.269
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
@@ -617,13 +617,14 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
   - https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
+  - https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://research.checkpoint.com/2026/15th-june-threat-intelligence-report/
   - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
   - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
 
 ### Ivanti active exploitation
@@ -649,13 +650,13 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
   - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
-  - https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
+  - https://www.reddit.com/r/cybersecurity/comments/1uab93o/useafterfree_in_the_qpack_encoder_of_nginx_http3/
 
 ### CVE-2026-48558 exploitation activity
 - Anchor signal: CVE-2026-48558
 - Theme key: cve-2026-48558
 - Cluster count: 2
-- Article count: 5
+- Article count: 7
 - Cohesion: 0.2
 - Shared strong signals: CVE-2026-48558
 - Member CVEs: (none)
@@ -668,6 +669,7 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
   - https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
+  - https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-48558/
 
@@ -675,7 +677,7 @@
 - Anchor signal: CVE-2026-20253
 - Theme key: cve-2026-20253
 - Cluster count: 2
-- Article count: 5
+- Article count: 7
 - Cohesion: 0.2
 - Shared strong signals: CVE-2026-20253
 - Member CVEs: (none)
@@ -687,6 +689,7 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
   - https://www.helpnetsecurity.com/2026/06/19/splunk-vulnerability-cve-2026-20253-exploited/
   - https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
+  - https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/
   - https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html
   - https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
 
@@ -718,7 +721,7 @@
 - Anchor signal: Microsoft SharePoint
 - Theme key: microsoft-sharepoint
 - Cluster count: 3
-- Article count: 8
+- Article count: 9
 - Cohesion: 0.2
 - Shared strong signals: Microsoft SharePoint
 - Member CVEs: (none)
@@ -731,9 +734,9 @@
   - https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
   - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
   - https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft
 
@@ -741,7 +744,7 @@
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 2
-- Article count: 13
+- Article count: 14
 - Cohesion: 0.2
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -757,9 +760,9 @@
   - https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/
   - https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
   - https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
+  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
   - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
 
 ## Forward signals
@@ -809,27 +812,11 @@
 - cve_ids: CVE-2026-0257 (weeks observed: 3, cluster 39e22586b8)
 - cve_ids: CVE-2026-42271 (weeks observed: 3, cluster b6bc3df279)
 
-### Tier inversion (5)
+### Tier inversion (1)
 - **F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution**
   - Cluster: bfe56aaca6
   - Primary source: The Hacker News
   - Strong signals: CVE-2026-11645, CVE-2026-42055, CVE-2026-42530, CVE-2026-42945
-- **LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers**
-  - Cluster: 29fcf4633f
-  - Primary source: The Hacker News
-  - Strong signals: CVE-2026-40217, CVE-2026-47101, CVE-2026-47102
-- **Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration**
-  - Cluster: 5b5787f3bd
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-47729
-- **OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)**
-  - Cluster: 5e1e9d778f
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-56099
-- **CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance**
-  - Cluster: 41256d55c8
-  - Primary source: Reddit r/netsec
-  - Strong signals: CVE-2026-5667
 
 ## Clusters
 
@@ -885,8 +872,8 @@ Back to Blog Products and Tools Weekly Metasploit Update: NTLM Relay Priv Esc, M
 - Published: 2026-06-16T15:23:54+00:00
 - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: CVE-2026-20253
 
 #### Cluster taxonomy (union across members)
@@ -894,9 +881,9 @@ Back to Blog Products and Tools Weekly Metasploit Update: NTLM Relay Priv Esc, M
 - actor_attribution: ShinyHunters
 - affected_industries: government
 - cve_ids: CVE-2026-20253, CVE-2026-35273, CVE-2026-48558, CVE-2026-50751
-- urgency_signals: preauth_unauth
+- urgency_signals: critical_cvss, preauth_unauth
 - content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: ddos
@@ -918,7 +905,7 @@ CVE-2026-20253 is a critical unauthenticated arbitrary file write vulnerability 
 CVE-2026-20253 Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write Vulnerability Splunk has disclosed CVE-2026-20253, a critical unauthenticated arbitrary file write vulnerability affecting Splunk Enterprise. The flaw exists in a PostgreSQL sidecar service endpoint that lacks authentication controls, allowing a network-reachable attacker to create or truncate arbitrary files on the underlying host without credentials. The vulnerability carries a CVSS v3.1 score of 9.8 and could lead to denial of service, loss of log integrity, or, under certain conditions, remote code execution. Technical Details CVE-2026-20253 is caused by missing authentication on PostgreSQL sidecar service endpoints within affected Splunk Enterprise deployments. An attacker who can reach the service over the network can invoke file operations without supplying valid credentials. Key facts: CVSS v3.1: 9.8 (Critical) CWE-306: Missing Authentication for Critical Function No authentication required Network exploitable User interaction not required Successful exploitation allows arbitrary file creation or truncation on the host system Researchers have demonstrated that the file write primitive may be chained into remote code execution by overwriting files that are later executed by Splunk services. Organizations relying on Splunk for SIEM, threat detection, compliance reporting, and log retention should treat this vulnerability as high priority because compromise of the logging platform can directly impact detection, investigation, and audit capabilities. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this arbitrary file write vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether the PostgreSQL sidecar service can be abused by an unauthenticated attacker Patch immediately: Upgrade to a fixed version of Splunk Enterprise Re-run the test: Confirm the vulnerability is no longer exploitable after remediation Affected versions & patch Affected Splunk Enterprise 10.0.0 through 10.0.6 Splunk Enterprise 10.2.0 through 10.2.3 Not Affected Splunk Enterprise 10.4.x Splunk Cloud Platform (Splunk later clarified that PostgreSQL sidecars are not used in Splunk Cloud) Patch Upgrade to one of the following versions: Splunk Enterprise 10.0.7 or later Splunk Enterprise 10.2.4 or later Splunk Enterprise 10.4.x If immediate patching is not possible: Restrict network access to the PostgreSQL sidecar service Ensure the service is not reachable from untrusted networks or user segments Splunk has not published an alternative workaround beyond upgrading and limiting exposure. Timeline June 10, 2026 – Splunk published advisory SVD-2026-0603 and disclosed CVE-2026-20253. June 13, 2026 – Public technical analysis and exploit details were released. June 15, 2026 – Horizon3.ai released a Rapid Response test. References Splunk Security Advisory SVD-2026-0603 CVE-2026-20253 (CVE Record) The Hacker News Coverage Read about other CVEs CVE-2026-50751 CVE-2026-50751 is an authentication bypass vulnerability affecting Check Point Security Gateway VPN services. Check Point has confirmed active exploitation against… Read more CVE-2026-48558 CVE-2026-48558 is an authentication bypass vulnerability affecting SimpleHelp OIDC deployments. The flaw may allow attackers to create unauthorized Technician accounts… Read more CVE-2026-35273 CVE-2026-35273 is a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft PeopleTools. Threat intelligence confirms active exploitation by ShinyHunters… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - Title: CVE-2026-20253 | Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write Vulnerability
@@ -935,6 +922,11 @@ CVE-2026-20253 Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write
   - Published: 2026-06-19T04:10:34+00:00
   - Link: https://www.securityweek.com/splunk-enterprise-vulnerability-exploited-in-attacks-days-after-disclosure/
   - Summary: CISA has given federal agencies only three days to patch CVE-2026-20253, which can be exploited for unauthenticated remote code execution. The post Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure appeared first on SecurityWeek .
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: CISA Adds Splunk Enterprise RCE (CVE-2026-20253) to KEV - CVSS 9.8. How are your SOCs handling the PostgreSQL sidecar mitigation?
+  - Published: 2026-06-19T14:34:28+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1ua3npz/cisa_adds_splunk_enterprise_rce_cve202620253_to/
+  - Summary: Hey everyone, Just saw that CISA dropped the hammer and added the new Splunk Enterprise RCE (CVE-2026-20253) to the KEV catalog, mandating federal agencies to patch immediately. The CVSS is 9.8 because the PostgreSQL sidecar service lacks authentication and allows unauthenticated attackers to abuse the COPY FROM PROGRAM feature to drop payloads. Since Splunk requires heavy system privileges, it's essentially an instant root/SYSTEM compromise if the sidecar is exposed to the network. For those of you running on-prem Splunk, are you seeing any active scanning for this yet? If you can't patch immediately, I highly recommend firewalling that sidecar port so it only accepts localhost traffic. (Note: I did a deep-dive technical breakdown on the exploit chain and mitigation strategies for my team. I'll drop the link in the comments below if anyone wants to read the full guide.) submitted by /u/Impressive_Emu5708 [link] [comments]
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication
   - Published: 2026-06-13T13:23:03+00:00
@@ -1378,7 +1370,7 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Link: https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
   - Summary: Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. The post Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE appeared first on Unit 42 .
 
-### Cluster bffa610f21 — score 17
+### Cluster bffa610f21 — score 16
 
 - Title: CISA: Splunk Enterprise flaw actively exploited, patch by Sunday
 - Source: BleepingComputer (cyber_news_breach_reporting)
@@ -1717,10 +1709,10 @@ F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution �
   - Published: 2026-06-18T17:32:14+00:00
   - Link: https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
   - Summary: F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed below - CVE-2026-42530 (CVSS v4 score: 9.2) - A use-after-free vulnerability in the ngx_http_v3_module that could be triggered by a remote unauthenticated attacker when NGINX Open Source is
-- **Reddit r/netsec** (reddit_practitioner_osint)
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - Title: Use-after-free in the QPACK encoder of nginx HTTP/3 - CVE-2026-42530
-  - Published: 2026-06-19T19:15:45+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
+  - Published: 2026-06-19T19:25:08+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1uab93o/useafterfree_in_the_qpack_encoder_of_nginx_http3/
   - Summary: submitted by /u/everping [link] [comments]
 
 ### Cluster 254cc405b8 — score 11
@@ -1847,7 +1839,7 @@ Build your own vulnerability harness 2026-06-18 Dan Jones Alexandra Godoi Grant 
 - Published: 2026-06-15T05:53:18+00:00
 - Link: https://risky.biz/RBNEWS577/
 - Fetch status: ok
-- Member count: 10
+- Member count: 9
 - Corroborating source count: 6
 - Strong signals: WordPress
 
@@ -1917,15 +1909,15 @@ Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain att
 - Published: 2026-06-17T00:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
 - affected_industries: government
 - affected_products: Anthropic/Claude, Google Cloud, Kubernetes
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_5_chatter
+- confidence_tier: tier_2_operator, tier_3_analysis
 
 #### Primary article taxonomy
 - affected_products: Kubernetes, Google Cloud, Anthropic/Claude
@@ -1944,7 +1936,7 @@ Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context fr
 Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
@@ -1961,11 +1953,6 @@ Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Min
   - Published: 2026-06-18T06:17:55+00:00
   - Link: https://risky.biz/SRB171/
   - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: MeshCentral: From XSS to RCE
-  - Published: 2026-06-13T20:34:17+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/
-  - Summary: Using Claude Code to find and weaponise an XSS in MeshCentral using a rogue client, resulting in RCE. submitted by /u/kev-thehermit [link] [comments]
 
 ### Cluster 18615ddbf5 — score 10
 
@@ -2061,7 +2048,7 @@ Share Link copied to clipboard! Content types Research Products and services Mic
 - Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-06-17T17:00:00+00:00
 - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -2648,7 +2635,7 @@ Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw  Ravi
 - Published: 2026-06-19T09:19:06+00:00
 - Link: https://www.securityweek.com/cybersecurity-firms-impacted-by-klue-supply-chain-attack/
 - Fetch status: ok
-- Member count: 6
+- Member count: 7
 - Corroborating source count: 6
 - Strong signals: Salesforce
 
@@ -2690,6 +2677,11 @@ Cybersecurity firms Huntress and Recorded Future have disclosed the impact of a 
   - Published: 2026-06-16T00:00:00+00:00
   - Link: https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/
   - Summary: In this post, we walk through different threats to Salesforce and how to detect them.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Klue OAuth breach victim list grows as Icarus hackers claim attack
+  - Published: 2026-06-19T22:31:04+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
+  - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Klue breach lead to Salesforce data theft, Huntress affected
   - Published: 2026-06-19T12:57:39+00:00
@@ -2700,68 +2692,11 @@ Cybersecurity firms Huntress and Recorded Future have disclosed the impact of a 
   - Published: 2026-06-19T09:03:57+00:00
   - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
   - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks
-  - Published: 2026-06-18T14:19:50+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/
-  - Summary: Market intelligence platform Klue suffered a OAuth breach that enabled the "Icarus" threat actors to steal Salesforce CRM data from multiple organizations in an ongoing extortion campaign. [...]
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Salesforce Data Thefts Continue via Klue App Compromise
   - Published: 2026-06-18T16:49:04+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
   - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
-
-### Cluster 29fcf4633f — score 10
-
-- Title: LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-15T16:39:01+00:00
-- Link: https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: OpenAI/ChatGPT
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2026-40217, CVE-2026-47101, CVE-2026-47102
-- urgency_signals: critical_cvss
-- content_type: news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news, tier_5_chatter
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- cve_ids: CVE-2026-47101, CVE-2026-47102, CVE-2026-40217
-- urgency_signals: critical_cvss
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that
-```
-
-#### Full body
-
-```
-LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers  Swati Khandelwal  Jun 15, 2026 Artificial Intelligence / Vulnerability A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that decrypt its stored credentials, and every prompt and response passing through it. Obsidian rates the full chain CVSS 9.9, in the Critical range. BerriAI , the maintainer, included the complete fix set in LiteLLM v1.83.14-stable, which GitHub lists as released May 2. Upgrade to that release or later to close the three-CVE chain. The three bugs The first link is CVE-2026-47101 , an authorization bypass. When a regular user (an internal_user) generates a virtual API key, LiteLLM stores the caller-supplied allowed_routes field without checking it against the user's role. The field is supposed to narrow what a key can do. Instead, the proxy also treats it as a fallback grant, so a non-admin can mint a key with allowed_routes: ["/*"], a wildcard that reaches every route, including admin-only ones. The same unchecked write shows up on the other key-management endpoints, which is why the fix took three pull requests to land. With the route gate bypassed, the handlers behind it become reachable. Several of them assume the gate has already done the screening, which opens two paths. One is CVE-2026-47102 , privilege escalation. The /user/update endpoint lets a user edit their own record, but does not restrict which fields they can write. A self-update with user_role: "proxy_admin" is accepted and saved, promoting the caller to full proxy admin. An org_admin can hit this endpoint through a legitimate, intended code path with no bypass required; a default internal_user reaches it after CVE-2026-47101. VulnCheck, which assigned the CVE, scores it 8.7 under CVSS 4.0, 8.8 under 3.1. The other is CVE-2026-40217 , a sandbox escape in the Custom Code Guardrail, which compiles and runs admin-supplied Python. The production endpoints ran the code through exec() with no source-level filtering. When exec() gets a globals dict without __builtins__, Python silently injects the full builtins module, which hands the code __import__, open, and eval. A plain payload calling os.system was then enough for a reverse shell. A separate path on the /guardrails/test_custom_code playground endpoint, found independently by X41 D-Sec , defeated a regex deny-list through runtime bytecode rewriting. Both ended in server-side code execution. What an attacker gets LiteLLM sits at a chokepoint, so the reach is wide. A full chain exposes the master key, the salt key that decrypts stored credentials, and the database URL. It also exposes every configured provider key, for OpenAI, Anthropic, Gemini, Bedrock, Azure, and the rest. Keys in config or environment are plaintext; keys in the database are encrypted but recoverable with the salt key. Everything sent through the gateway, prompts and responses, becomes readable, which in real deployments is where PII, source code, internal tickets, and pasted secrets end up. If the proxy also runs as a Model Context Protocol (MCP) or agent gateway, OAuth tokens and tool credentials are in scope too. The sharper risk is not what an attacker reads but what they can rewrite. The gateway sits on the wire between an AI agent and the model, so a compromise lets it alter responses in transit. Obsidian demonstrated this against Claude Code routed through a compromised proxy. This is not prompt injection . Instead of persuading the model to misbehave, the attacker uses LiteLLM's built-in callback mechanism, an extension point that fires on every request and never shows up in the admin UI. The callback
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
-  - Published: 2026-06-15T16:39:01+00:00
-  - Link: https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
-  - Summary: A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: PromptSnatcher: AdBlocker stealing Ai Chats - 90k installs
-  - Published: 2026-06-13T22:11:13+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1u53o6l/promptsnatcher_adblocker_stealing_ai_chats_90k/
-  - Summary: Two Chrome extensions presenting as adblockers also intercept every prompt and response on ChatGPT, Claude, Gemini, Copilot, Grok, Perplexity, DeepSeek, and Meta AI, exfiltrating them to operator-controlled servers. They also check whether you're a paid user on 5 of the 8 platforms (ChatGPT, Claude, Perplexity, Copilot, Gemini). Both share the same capture engine, payload format, and partnerId. Two brands, one operation . Smart Adblocker - Chrome Web Store ` iojpcjjdfhlcbgjnpngcmaojmlokmeii `, 80k users Adblock for Browser - Chrome Web Store ` jcbjcocinigpbgfpnhlpagidbmlngnnn `, 10k users Report covers the IOCs, live remote config, reproduction curl, and full target breakdown. Full write-up: MalExt Sentry - Malicious Browser Extension Tracker Chrome Web Store abuse reports filed. submitted by /u/Huge-Skirt-6990 [link] [comments]
 
 ### Cluster 8ffac1c2f0 — score 9
 
@@ -2836,88 +2771,6 @@ News Download & print article PDF Download & print article PDF NCSC CEO: Hostile
   - Published: 2026-06-18T01:49:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33086
   - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
-
-### Cluster 41719728a2 — score 9
-
-- Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-06-19T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Microsoft Entra
-
-#### Cluster taxonomy (union across members)
-- affected_products: Azure, Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: Microsoft Entra, Azure
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.
-```
-
-#### Full body
-
-```
-19 June 2026 • Terrance DeJesus Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules. 11 min read Detection Engineering AAD Graph Activity Logs are now ingestible into Elastic and usable for threat detection within the SIEM/XDR solution . That sentence shouldn't be exciting, but it is. For most of the past decade, this slice of telemetry simply didn't exist as a customer-accessible log stream. Microsoft Graph Activity Logs (the modern graph.microsoft.com surface) went GA in April 2024. The legacy graph.windows.net surface, the one adversary tooling actually hits, stayed dark until early 2026. This post walks the loop end-to-end. Why visibility matters, how to ingest the logs into Elastic, how to generate realistic recon manually and with ROADrecon, and how to hunt the result in ES|QL. Everything below was validated against a live tenant. Key takeaways AAD Graph Activity Logs ride into Elastic through the Azure integration and land in logs-azure.aadgraphactivitylogs-* with full ECS extraction. ROADtools, AADInternals, and friends have been operating in a visibility gap for years. Defenders weren't capturing the calls. AAD Graph is "deprecated" but still queryable in most tenants. The 1.61-internal API version still returns data that Microsoft Graph won't. ECS fields land typed ( event.action , event.outcome , http.request.method , source.ip , user.id , user_agent.original ). Dataset extras stay queryable under azure.aadgraphactivitylogs.properties.* . Five hunts reliably catch the activity: tooling user-agents, endpoint breadth, *-internal API misuse, FOCI client-ID mismatches, and 4xx surges. A short history of defender visibility Defenders have spent years on sign-ins, conditional access, role assignments, and OAuth consent grants. Very little content covers the underlying directory APIs that adversary tooling actually hits. The reason is structural: customer-accessible logs for those APIs didn't exist. Microsoft Graph Activity Logs landed first (preview October 2023, GA April 2024). AzureADGraphActivityLogs finally showed up in early 2026. For most of the past decade, AAD Graph enumeration was invisible to SOCs, not because the telemetry was hidden, but because it didn't exist. ROADtools, AADInternals, MSOLSpray, Microburst. None of them produced data that anyone could capture, even with a perfect logging configuration. That changes the day AzureADGraphActivityLogs start landing in your platform-logs index. AAD Graph is “deprecated” but still very much alive Quick refresher. Azure AD Graph is the legacy REST API for Entra ID directory objects, hosted at https://graph.windows.net/{tenantId}/{objecttype} with API versions like 1.5 , 1.6 , and 1.61-internal . Microsoft has been telling everyone to migrate to Microsoft Graph since 2019, and the retirement date has slipped several times. Deprecation isn’t gone. In 2026, AAD Graph can still answer requests in environments where legacy access paths remain available or where applications have not been explicitly blocked from using it. A few reasons it sticks around as an attacker target: Adversary tooling hasn't been ported. ROADrecon still uses it for gather . AADInternals has dozens of cmdlets wrapping it. The *-internal API versions return more data. 1.61-internal exposes strongAuthenticationDetail inline on the user object during a normal directory walk. The Microsoft Graph equivalent lives behind a separate /authentication/methods endpoint gated by UserAuthenticationMethod.Read.All . That asymmetry is exactly what bulk enumeration tooling exploits. The block isn't a single toggle. The blockAzureADGraphAccess control lives per-app on application.authenticationBehaviors , so blocking tenant-wide means iterating every app registration. Most environments haven't done that because some legacy automatio
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
-  - Published: 2026-06-19T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
-  - Summary: Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.
-
-### Cluster 5dd3ebabf9 — score 9
-
-- Title: Lost in relocation: analysis of a new loader distributing CASTLESTEALER
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-06-19T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
-```
-
-#### Full body
-
-```
-19 June 2026 • Daniel Stepanic • Jia Yu Chan Lost in relocation: analysis of a new loader distributing CASTLESTEALER Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads. 8 min read Malware Analysis A previously undocumented Windows loader tracked as OXLOADER is delivering the CASTLESTEALER infostealer via malicious Google Ads, with low detection rates across static engines and sandbox detonations. The loader uses several obfuscation layers (control-flow flattening, opaque predicates, mixed Boolean-Arithmetic), self-modifying decryption stubs, and abuses the Windows .reloc section to stage shellcode. Elastic Security Labs identified OXLOADER in an active campaign targeting one of our customers; CIS-region and Russian-language exclusions point to a financially motivated, Russian-speaking threat actor. We have found no prior public reporting on this family. Key takeaways Elastic Security Labs discovers new loader (OXLOADER) OXLOADER observed in campaigns distributing CASTLESTEALER via malicious Google Ads CIS-region exclusion and Russian language checks suggest a Russian-speaking, financially motivated threat actor Low detection rates across static engines and sandbox detonations Elastic Defend stops the entire attack chain using advanced prevention capabilities How malvertising delivered OXLOADER to victims OXLOADER is distributed via malicious Google Ads impersonating Node.js. Victims are redirected through an intermediary domain to a Storj-hosted batch script, which downloads and executes OXLOADER. The infection began when the user searched for an lts version of node.js and clicked a sponsored result leading to node-js[.]prentiva99[.]info , a malicious landing page designed to impersonate a legitimate Node.js deployment platform. The threat actor operated a Google Ads campaign targeting US-based victims; the ad was last shown on Apr 23, 2026, and the site is now offline. The advertiser was registered under the verified name ВОЛОДИМИР ТЕРЕЩЕНКО , based in Ukraine. Whether this reflects the actual operator, a front account, or a purchased identity remains unclear. On May 14, 2026, the advertiser along with their associated ad campaigns were removed from Google entirely. Upon interaction, the user was redirected through app[.]miloyannopoulos[.]com/download?subid1=download , which responded with a 302 Found to the payload URL link[.]storjshare[.]io/raw/jux4e4ky5mruo4jkxsssp42sau4q/ruslan/BATPackageBuilderSetup.bat . This delivered a Windows batch script, hosted on Storj’s legitimate link-sharing service, which the threat actor abused to evade domain-based reputation filtering. The batch script displays a fake software installation wizard UI, immediately downloads the next-stage executable from the Storj URL link.storjshare[.]io/raw/jwwvr4oskkkjsgevt774ta62ehya/ruslan/aBsvwbdas.exe via PowerShell, and launches it with -Verb RunAs to trigger a UAC elevation prompt. Following execution of the Batch script, Elastic Defend detected malicious behavior (policy was set to detect only), triggering multiple behavioral rules including Microsoft Common Language Runtime Loaded from Suspicious Memory , hinting at a .NET-based payload consistent with CASTLESTEALER . The following is the execution graph of the attack chain from payload download to CASTLESTEALER deployment. OXLOADER malware loader: technical analysis The first OXLOADER sample our team analyzed masquerades as the popular tool, API Monitor from rohitab.com . Due to the heavy presence of legitimate code and code-hiding techniques, this loader is able to fly under the radar against static file analyzers. How OXLOADER unpacks itself at runtime The malware begins executing during the CRT initializer phase, before any user code is run. The CRT function cinit() invokes initterm() , which walks the C++ initializer table ( __xc_a → __xc_z ) calling each entry.
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: Lost in relocation: analysis of a new loader distributing CASTLESTEALER
-  - Published: 2026-06-19T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
-  - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
 
 ### Cluster f5a9f96db5 — score 9
 
@@ -3134,53 +2987,6 @@ CISA warns Fortinet users to secure devices after FortiBleed leak By Sergiu Gatl
   - Link: https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed "FortiBleed." [...]
 
-### Cluster c220c2d05e — score 9
-
-- Title: CryptoBandits Malware Doubles as a Backdoor, Abuses Tor
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-19T11:19:41+00:00
-- Link: https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, ransomware_extortion, supply_chain, web_shell_backdoor, zero_day
-- affected_industries: financial_services
-- affected_products: Fortinet, LiteSpeed, WordPress
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, credential_theft, zero_day, web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: LiteSpeed, Fortinet, WordPress
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft with remote code execution. The post CryptoBandits Malware Doubles as a Backdoor, Abuses Tor appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Microsoft warns of a Windows-based cryptocurrency clipper that establishes a lightweight backdoor blending data exfiltration and remote code execution (RCE) capabilities. Dubbed CryptoBandits , the malware has been used in attacks since February 2026, deploying a portable Tor client on the infected systems and routing traffic through a local SOCKS5 proxy. “The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C&C server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution,” Microsoft explains. CryptoBandits is distributed through malicious shortcut (.lnk) payloads. On the infected systems, it deploys two components: a worm for propagation and a clipper/stealer to steal cryptocurrency wallet information. For propagation, the malware scans connected USB devices and creates additional malicious shortcuts of legitimate files. It can also deliver file-based payloads that it excludes from Defender scanning. The clipper is a script that interacts with the system via WScript and ActiveXObject, and checks whether Task Manager is running as an anti-analysis defense. Persistence is achieved through scheduled tasks. Advertisement. Scroll to continue reading. CryptoBandits launches a renamed Tor binary to establish command-and-control (C&C) communication and register the victim device, and then enters a continuous loop, polling the C&C for instructions every 500 milliseconds. The malware can extract seed phrases and private keys associated with cryptocurrency wallets, and can replace cryptocurrency addresses in the clipboard with attacker-provided ones to hijack them. According to Microsoft, the malware employs multi-layered obfuscation, decrypting all components at runtime. Both the Python script that handles installation and its JavaScript payloads are also obfuscated. The central component of the threat is the bundled Tor client, which routes communication over localhost:9050 and resolves destination domains to reduce DNS visibility and hide its C&C location. “This malware family shows how lightweight, script-based stealers can deliver outsized impact when paired with anonymized communications and runtime tasking. Organizations should focus on hardening script execution paths, monitoring local SOCKS proxy abuse, and using behavioral hunting to connect script activity with network, clipboard, and process signals,” Microsoft notes. Related: Rokarolla Banking Trojan Targets 200 Applications Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month Related: Infostealers Turn Millions of Devices Into Credential Theft Machines Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Critical Command Execution Vulnerability Patched in Cisco ISE F5 Patches Critical, High-Severity NGINX Vulnerabilities Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Latest News In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Majority of Internet-Accessible
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: CryptoBandits Malware Doubles as a Backdoor, Abuses Tor
-  - Published: 2026-06-19T11:19:41+00:00
-  - Link: https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
-  - Summary: CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft with remote code execution. The post CryptoBandits Malware Doubles as a Backdoor, Abuses Tor appeared first on SecurityWeek .
-
 ### Cluster e95ce78b9a — score 9
 
 - Title: Maine forced to take down data breach portal after fake notices filed with authorities
@@ -3266,76 +3072,6 @@ AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution  Sw
   - Published: 2026-06-19T15:30:47+00:00
   - Link: https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html
   - Summary: Microsoft researchers have detailed an exploit chain, named AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web page, and that page's JavaScript can reach a privileged local service on the same machine and spawn a process on the host. No credentials, no sign-in screen, and no further user interaction once
-
-### Cluster 5b5787f3bd — score 9
-
-- Title: Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-06-19T10:21:41+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-47729
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-47729
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-47729
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/qwerty0x41 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Squidbleed (CVE-2026-47729) - Heartbleed-style vulnerability that leaks internal memory from every version of Squid Proxy, in its default configuration
-  - Published: 2026-06-19T10:21:41+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1u9y7yw/squidbleed_cve202647729_heartbleedstyle/
-  - Summary: submitted by /u/qwerty0x41 [link] [comments]
-
-### Cluster 5e1e9d778f — score 9
-
-- Title: OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-06-19T13:27:18+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-56099
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-56099
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-56099
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-A crafted MPLS packet can trigger an out-of-bounds read in mpls_do_error, leaking 4 bytes of adjacent kernel stack memory back in an ICMP/MPLS error response. It requires MPLS enabled, but the leak is remote and repeatable. Fixed in OpenBSD-current on 2026-06-18. submitted by /u/Emergency_Stable_923 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: OpenBSD MPLS kernel stack leaks remotely (CVE-2026-56099)
-  - Published: 2026-06-19T13:27:18+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1ua20fg/openbsd_mpls_kernel_stack_leaks_remotely/
-  - Summary: A crafted MPLS packet can trigger an out-of-bounds read in mpls_do_error, leaking 4 bytes of adjacent kernel stack memory back in an ICMP/MPLS error response. It requires MPLS enabled, but the leak is remote and repeatable. Fixed in OpenBSD-current on 2026-06-18. submitted by /u/Emergency_Stable_923 [link] [comments]
 
 ### Cluster 33472b1f9c — score 8
 
@@ -3462,6 +3198,88 @@ AI in the underground: Curiosity, claims, and concerns Amid discussions about ho
   - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
   - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
 
+### Cluster 41719728a2 — score 8
+
+- Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-06-19T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Microsoft Entra
+
+#### Cluster taxonomy (union across members)
+- affected_products: Azure, Microsoft Entra
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Microsoft Entra, Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.
+```
+
+#### Full body
+
+```
+19 June 2026 • Terrance DeJesus Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules. 11 min read Detection Engineering AAD Graph Activity Logs are now ingestible into Elastic and usable for threat detection within the SIEM/XDR solution . That sentence shouldn't be exciting, but it is. For most of the past decade, this slice of telemetry simply didn't exist as a customer-accessible log stream. Microsoft Graph Activity Logs (the modern graph.microsoft.com surface) went GA in April 2024. The legacy graph.windows.net surface, the one adversary tooling actually hits, stayed dark until early 2026. This post walks the loop end-to-end. Why visibility matters, how to ingest the logs into Elastic, how to generate realistic recon manually and with ROADrecon, and how to hunt the result in ES|QL. Everything below was validated against a live tenant. Key takeaways AAD Graph Activity Logs ride into Elastic through the Azure integration and land in logs-azure.aadgraphactivitylogs-* with full ECS extraction. ROADtools, AADInternals, and friends have been operating in a visibility gap for years. Defenders weren't capturing the calls. AAD Graph is "deprecated" but still queryable in most tenants. The 1.61-internal API version still returns data that Microsoft Graph won't. ECS fields land typed ( event.action , event.outcome , http.request.method , source.ip , user.id , user_agent.original ). Dataset extras stay queryable under azure.aadgraphactivitylogs.properties.* . Five hunts reliably catch the activity: tooling user-agents, endpoint breadth, *-internal API misuse, FOCI client-ID mismatches, and 4xx surges. A short history of defender visibility Defenders have spent years on sign-ins, conditional access, role assignments, and OAuth consent grants. Very little content covers the underlying directory APIs that adversary tooling actually hits. The reason is structural: customer-accessible logs for those APIs didn't exist. Microsoft Graph Activity Logs landed first (preview October 2023, GA April 2024). AzureADGraphActivityLogs finally showed up in early 2026. For most of the past decade, AAD Graph enumeration was invisible to SOCs, not because the telemetry was hidden, but because it didn't exist. ROADtools, AADInternals, MSOLSpray, Microburst. None of them produced data that anyone could capture, even with a perfect logging configuration. That changes the day AzureADGraphActivityLogs start landing in your platform-logs index. AAD Graph is “deprecated” but still very much alive Quick refresher. Azure AD Graph is the legacy REST API for Entra ID directory objects, hosted at https://graph.windows.net/{tenantId}/{objecttype} with API versions like 1.5 , 1.6 , and 1.61-internal . Microsoft has been telling everyone to migrate to Microsoft Graph since 2019, and the retirement date has slipped several times. Deprecation isn’t gone. In 2026, AAD Graph can still answer requests in environments where legacy access paths remain available or where applications have not been explicitly blocked from using it. A few reasons it sticks around as an attacker target: Adversary tooling hasn't been ported. ROADrecon still uses it for gather . AADInternals has dozens of cmdlets wrapping it. The *-internal API versions return more data. 1.61-internal exposes strongAuthenticationDetail inline on the user object during a normal directory walk. The Microsoft Graph equivalent lives behind a separate /authentication/methods endpoint gated by UserAuthenticationMethod.Read.All . That asymmetry is exactly what bulk enumeration tooling exploits. The block isn't a single toggle. The blockAzureADGraphAccess control lives per-app on application.authenticationBehaviors , so blocking tenant-wide means iterating every app registration. Most environments haven't done that because some legacy automatio
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
+  - Published: 2026-06-19T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
+  - Summary: Azure AD Graph Activity Logs land in Elastic with full ECS parsing. Detect ROADrecon and AADInternals enumeration with ready-to-use detection rules.
+
+### Cluster 5dd3ebabf9 — score 8
+
+- Title: Lost in relocation: analysis of a new loader distributing CASTLESTEALER
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-06-19T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
+```
+
+#### Full body
+
+```
+19 June 2026 • Daniel Stepanic • Jia Yu Chan Lost in relocation: analysis of a new loader distributing CASTLESTEALER Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads. 8 min read Malware Analysis A previously undocumented Windows loader tracked as OXLOADER is delivering the CASTLESTEALER infostealer via malicious Google Ads, with low detection rates across static engines and sandbox detonations. The loader uses several obfuscation layers (control-flow flattening, opaque predicates, mixed Boolean-Arithmetic), self-modifying decryption stubs, and abuses the Windows .reloc section to stage shellcode. Elastic Security Labs identified OXLOADER in an active campaign targeting one of our customers; CIS-region and Russian-language exclusions point to a financially motivated, Russian-speaking threat actor. We have found no prior public reporting on this family. Key takeaways Elastic Security Labs discovers new loader (OXLOADER) OXLOADER observed in campaigns distributing CASTLESTEALER via malicious Google Ads CIS-region exclusion and Russian language checks suggest a Russian-speaking, financially motivated threat actor Low detection rates across static engines and sandbox detonations Elastic Defend stops the entire attack chain using advanced prevention capabilities How malvertising delivered OXLOADER to victims OXLOADER is distributed via malicious Google Ads impersonating Node.js. Victims are redirected through an intermediary domain to a Storj-hosted batch script, which downloads and executes OXLOADER. The infection began when the user searched for an lts version of node.js and clicked a sponsored result leading to node-js[.]prentiva99[.]info , a malicious landing page designed to impersonate a legitimate Node.js deployment platform. The threat actor operated a Google Ads campaign targeting US-based victims; the ad was last shown on Apr 23, 2026, and the site is now offline. The advertiser was registered under the verified name ВОЛОДИМИР ТЕРЕЩЕНКО , based in Ukraine. Whether this reflects the actual operator, a front account, or a purchased identity remains unclear. On May 14, 2026, the advertiser along with their associated ad campaigns were removed from Google entirely. Upon interaction, the user was redirected through app[.]miloyannopoulos[.]com/download?subid1=download , which responded with a 302 Found to the payload URL link[.]storjshare[.]io/raw/jux4e4ky5mruo4jkxsssp42sau4q/ruslan/BATPackageBuilderSetup.bat . This delivered a Windows batch script, hosted on Storj’s legitimate link-sharing service, which the threat actor abused to evade domain-based reputation filtering. The batch script displays a fake software installation wizard UI, immediately downloads the next-stage executable from the Storj URL link.storjshare[.]io/raw/jwwvr4oskkkjsgevt774ta62ehya/ruslan/aBsvwbdas.exe via PowerShell, and launches it with -Verb RunAs to trigger a UAC elevation prompt. Following execution of the Batch script, Elastic Defend detected malicious behavior (policy was set to detect only), triggering multiple behavioral rules including Microsoft Common Language Runtime Loaded from Suspicious Memory , hinting at a .NET-based payload consistent with CASTLESTEALER . The following is the execution graph of the attack chain from payload download to CASTLESTEALER deployment. OXLOADER malware loader: technical analysis The first OXLOADER sample our team analyzed masquerades as the popular tool, API Monitor from rohitab.com . Due to the heavy presence of legitimate code and code-hiding techniques, this loader is able to fly under the radar against static file analyzers. How OXLOADER unpacks itself at runtime The malware begins executing during the CRT initializer phase, before any user code is run. The CRT function cinit() invokes initterm() , which walks the C++ initializer table ( __xc_a → __xc_z ) calling each entry.
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: Lost in relocation: analysis of a new loader distributing CASTLESTEALER
+  - Published: 2026-06-19T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
+  - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
+
 ### Cluster f90c59f1e6 — score 8
 
 - Title: LLMjacking evolved: Attackers are using stolen AI compute to build offensive agentic tools
@@ -3538,6 +3356,92 @@ AI in the underground: Curiosity, claims, and concerns Amid discussions about ho
   - Published: 2026-06-15T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
+### Cluster c220c2d05e — score 8
+
+- Title: CryptoBandits Malware Doubles as a Backdoor, Abuses Tor
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-19T11:19:41+00:00
+- Link: https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft, ransomware_extortion, supply_chain, web_shell_backdoor, zero_day
+- affected_industries: financial_services
+- affected_products: Fortinet, LiteSpeed, WordPress
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, credential_theft, zero_day, web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: LiteSpeed, Fortinet, WordPress
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft with remote code execution. The post CryptoBandits Malware Doubles as a Backdoor, Abuses Tor appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Microsoft warns of a Windows-based cryptocurrency clipper that establishes a lightweight backdoor blending data exfiltration and remote code execution (RCE) capabilities. Dubbed CryptoBandits , the malware has been used in attacks since February 2026, deploying a portable Tor client on the infected systems and routing traffic through a local SOCKS5 proxy. “The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C&C server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution,” Microsoft explains. CryptoBandits is distributed through malicious shortcut (.lnk) payloads. On the infected systems, it deploys two components: a worm for propagation and a clipper/stealer to steal cryptocurrency wallet information. For propagation, the malware scans connected USB devices and creates additional malicious shortcuts of legitimate files. It can also deliver file-based payloads that it excludes from Defender scanning. The clipper is a script that interacts with the system via WScript and ActiveXObject, and checks whether Task Manager is running as an anti-analysis defense. Persistence is achieved through scheduled tasks. Advertisement. Scroll to continue reading. CryptoBandits launches a renamed Tor binary to establish command-and-control (C&C) communication and register the victim device, and then enters a continuous loop, polling the C&C for instructions every 500 milliseconds. The malware can extract seed phrases and private keys associated with cryptocurrency wallets, and can replace cryptocurrency addresses in the clipboard with attacker-provided ones to hijack them. According to Microsoft, the malware employs multi-layered obfuscation, decrypting all components at runtime. Both the Python script that handles installation and its JavaScript payloads are also obfuscated. The central component of the threat is the bundled Tor client, which routes communication over localhost:9050 and resolves destination domains to reduce DNS visibility and hide its C&C location. “This malware family shows how lightweight, script-based stealers can deliver outsized impact when paired with anonymized communications and runtime tasking. Organizations should focus on hardening script execution paths, monitoring local SOCKS proxy abuse, and using behavioral hunting to connect script activity with network, clipboard, and process signals,” Microsoft notes. Related: Rokarolla Banking Trojan Targets 200 Applications Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: OnyxC2 Stealer Offers Cybercriminals Enterprise-Grade Theft for $250 a Month Related: Infostealers Turn Millions of Devices Into Credential Theft Machines Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Dream Raises $260 Million at $3 Billion Valuation Atlassian, Splunk Patch Critical Vulnerabilities Critical Command Execution Vulnerability Patched in Cisco ISE F5 Patches Critical, High-Severity NGINX Vulnerabilities Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Microsoft Working on Patch for ‘RoguePlanet’ Zero-Day Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Joomla, LiteSpeed Vulnerabilities Exploited in Attacks Latest News In Other News: Apple Patches Beats Eavesdropping Flaw, DOT Closes Delta CrowdStrike Probe, AWS Continuum FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Majority of Internet-Accessible
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: CryptoBandits Malware Doubles as a Backdoor, Abuses Tor
+  - Published: 2026-06-19T11:19:41+00:00
+  - Link: https://www.securityweek.com/cryptobandits-malware-doubles-as-a-backdoor-abuses-tor/
+  - Summary: CryptoBandits uses a local SOCKS5 proxy for traffic routing, blending data theft with remote code execution. The post CryptoBandits Malware Doubles as a Backdoor, Abuses Tor appeared first on SecurityWeek .
+
+### Cluster 3ad4f0933a — score 8
+
+- Title: Quoting Sean Lynch
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-19T22:45:49+00:00
+- Link: https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch , comment on Hacker News Tags: model-context-protocol , llms , ai , generative-ai , skills
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Microsoft — Agent projects stall between demo and production. Microsoft's MVP checklist closes that gap. Try it 19th June 2026 The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch , comment on Hacker News Posted 19th June 2026 at 10:45 pm Recent articles Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 GLM-5.2 is probably the most powerful text-only open weights LLM - 17th June 2026 Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026 This is a quotation collected by Simon Willison, posted on 19th June 2026 . ai 2,081 generative-ai 1,838 llms 1,806 model-context-protocol 27 skills 13 Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Sean Lynch
+  - Published: 2026-06-19T22:45:49+00:00
+  - Link: https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything
+  - Summary: The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an auth gateway for the API and nothing else. That’d still be a win. — Sean Lynch , comment on Hacker News Tags: model-context-protocol , llms , ai , generative-ai , skills
+
 ### Cluster 762c808fc9 — score 8
 
 - Title: Copilot 'SearchLeak' Attack Allows 1-Click Data Theft
@@ -3589,19 +3493,19 @@ Application Security Vulnerabilities & Threats Сloud Security Data Privacy News
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-17T10:30:00+00:00
 - Link: https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
+- threat_categories: ransomware_extortion, zero_day
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
+- threat_categories: ransomware_extortion, zero_day
 - urgency_signals: zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -3610,6 +3514,12 @@ Application Security Vulnerabilities & Threats Сloud Security Data Privacy News
 
 ```
 Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a
+```
+
+#### Full body
+
+```
+The Top 10 Attack Surface Exposures in 2026  The Hacker News  Jun 17, 2026 Attack Surface Management Breaches don't always start with a zero-day. An exposed admin panel can get brute-forced, or credentials reused from a previous attack. But when a vulnerability does drop — like MongoBleed earlier this year, which let attackers pull credentials and session tokens from server memory without authentication — anything internet-facing is immediately at risk. With time-to-exploit now down to a single day, the question isn't just how fast you can patch. It's why the service was exposed in the first place. The team at Intruder analyzed 3,000 attack surfaces to find out how much of a typical organization's attack surface consists of services that have no reason to be there. We grouped what we found into four categories — HTTP panels, risky ports and services, databases, and publicly accessible files and information. The full findings, including breakdowns by company size and industry, are in our 2026 Attack Surface Management Index . How widespread is the problem? 60% of organizations had at least one HTTP panel exposed — admin consoles, management UIs, login pages for internal tools that have no business being publicly reachable. Nearly half (49%) had a risky port or service exposed. 42% had a database reachable directly from the internet. 30% had files or information publicly accessible that shouldn't be — API documentation, config files, data that was never intended to be discoverable. The ten most common exposures These are the most common attack surface exposures affecting organizations in the past 12 months. MySQL Database Exposed — 26% Postgres Database Exposed — 16% API Documentation Exposed — 15% WordPress Admin Panel Exposed — 15% Remote Desktop Service Exposed — 11% SNMP Service Exposed — 9% phpMyAdmin Admin Panel Exposed — 8% UPnP Service Exposed — 8% NTP Service Exposed — 7% RPC Portmapper Service Exposed — 7% Databases dominate the top two spots Exposed databases take the top two spots, with more than a quarter of organizations exposing MySQL and Postgres, affecting 1 in 6. Internet-facing databases have long been a target for opportunistic attackers. The PLEASE_READ_ME ransomware campaign in 2020 compromised more than 250,000 MySQL databases by brute-forcing weak credentials. MongoDB and Elasticsearch have faced the same. API documentation is more exposed than RDP API documentation ranked third — ahead of RDP, which surprised us. Some API docs are intentionally public, but organizations frequently overlook documentation tied to private or admin-side APIs that were never meant to be discoverable. Public API docs can turn otherwise hard-to-find vulnerabilities into documented attack paths. RDP remains a ransomware entry point RDP at number five is a concern given its history as an initial access vector in ransomware attacks. BlueKeep in 2019 left nearly a million systems immediately exploitable. Credential guessing against exposed RDP remains one of the most reliable ways ransomware operators get in. The rest of the list was never meant to be internet-facing The remainder of the list — SNMP, UPnP, NTP, RPC — are legacy services designed for internal networks that were never meant to be internet-facing. Get the full findings Most teams treat patching as the priority. But for a lot of what's on this list — databases, admin panels, legacy services — the better question is why they're reachable at all. That's where attack surface reduction comes in — and for most organizations, it's not getting the same attention as vulnerability management. The full findings, including breakdowns by company size and industry, are in the 2026 Attack Surface Management Index . Found this article interesting? This article is a contributed piece from one of our valued partners. Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , Attack Surfa
 ```
 
 #### Corroborating sources (1)
@@ -3626,7 +3536,7 @@ Breaches don't always start with a zero-day. An exposed admin panel can get brut
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-16T08:14:55+00:00
 - Link: https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: APT37
@@ -3649,6 +3559,12 @@ Breaches don't always start with a zero-day. An exposed admin panel can get brut
 The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver a new malware called NarwhalRAT. "The attack email contained a message impersonating an MS account security alert," the Genians Security Center (GSC) said. "It was designed to create concern over possible
 ```
 
+#### Full body
+
+```
+Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware  Ravie Lakshmanan  Jun 16, 2026 Malware / Cyber Attack The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver a new malware called NarwhalRAT . "The attack email contained a message impersonating an MS account security alert," the Genians Security Center (GSC) said . "It was designed to create concern over possible account compromise and OTP abuse, thereby inducing the recipient to execute the attachment." "The email body instructed the recipient to refer to the attached advisory. However, the actual attachment was not an HWP [Hangul Word Processor] document, but a ZIP archive that contained a malicious LNK file." The email message claims "abnormal activity" related to repeated generation of one-time passwords, passing it off as a phishing attempt aimed at the target's Microsoft Account by a third-party, and urging them to change their password. The end goal of the phishing message is to induce a false sense of urgency and deceive the victim into interpreting the email as a legitimate security alert. The LNK file, once launched, initiates a multi-stage infection chain that employs intermediary batch scripts to download and install NarwhalRAT, along with retrieving the legitimate Python executable from the official website and a Windows security catalog (CAT) file. Persistence is achieved via a scheduled task, which is configured to launch the CAT file responsible for fetching and running the main payload in memory without leaving any artifacts on disk. The Python-based malware is equipped to log keystrokes, capture screenshots (with support for high-resolution images), record ambient audio, upload directory contents, collect active window details, gather data from USB media, execute instructions issued by a command-and-control (C2) server, and switch C2 servers. The moniker NarwhalRAT is a reference to the malware's use of a hidden directory called "%APPDATA%\naverwhale" to stage the harvested information on the compromised host. The directory name is an attempt to evade detection by masquerading as Naver Whale, a web browser developed by South Korean tech company Naver Corporation. APT37's deployment of NarwhalRAT is noteworthy as it marks a departure from RokRAT, a malware family exclusively attributed to the hacking group. "From a C2 infrastructure perspective, the malware uses Korean websites, including 'daehoat[.]com' and 'novel21[.]co.kr,' as primary communication relays, while also implementing communication functionality based on the pCloud cloud storage API," the South Korean cybersecurity company said. "In particular, pCloud-specific routines that process the 'folderid' and 'auth' parameters were identified within the code. This indicates that the malware was designed to use a legitimate cloud service as a secondary C2 channel in the form of a dead drop resolver ." Genians said the activity shares "multiple similarities" with prior Python-based attacks orchestrated by ScarCruft, including a spear-phishing campaign that has used ticket confirmation and event invites lures to trick potential targets into opening ZIP archives containing LNK files. The attack chain plays out in a similar fashion in that the LNK file acts as a conduit for an obfuscated batch script downloaded from a remote C2 server, which then downloads the Python binary and a CAT file, ultimately resulting in the deployment of a compiled Python script capable of remote command execution and sending the results back to the C2 server. Interestingly, the scheduled task names used to set up persistence follow a similar naming convention. While the NarwhalRAT infection creates a scheduled task called "MicrosoftUserInterfacePicturesUpdateTackMachine," the second chain uses the name "MicrosoftMusicLibrariesPackageTaskMachine." "Overall, NarwhalRAT is asses
+```
+
 #### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
@@ -3657,39 +3573,70 @@ The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) ha
   - Link: https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html
   - Summary: The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver a new malware called NarwhalRAT. "The attack email contained a message impersonating an MS account security alert," the Genians Security Center (GSC) said. "It was designed to create concern over possible
 
-### Cluster 41256d55c8 — score 8
+### Cluster 29fcf4633f — score 8
 
-- Title: CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-06-18T18:05:44+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/
+- Title: LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-15T16:39:01+00:00
+- Link: https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-5667
+- Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-5667
-- urgency_signals: preauth_unauth
+- affected_products: OpenAI/ChatGPT
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers
+  - Published: 2026-06-15T16:39:01+00:00
+  - Link: https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html
+  - Summary: A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that
+
+### Cluster e0196b3426 — score 8
+
+- Title: Apple patches eavesdropping vulnerability in Beats Studio Buds
+- Source: Reddit r/cybersecurity (reddit_practitioner_osint)
+- Published: 2026-06-19T13:44:50+00:00
+- Link: https://www.reddit.com/r/cybersecurity/comments/1ua2faw/apple_patches_eavesdropping_vulnerability_in/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_5_chatter
 
 #### Primary article taxonomy
-- cve_ids: CVE-2026-5667
-- urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_5_chatter
 
 #### Summary
 
 ```
-submitted by /u/Ecstatic_Priority514 [link] [comments]
+submitted by /u/rkhunter_ [link] [comments]
 ```
 
 #### Corroborating sources (1)
 
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance
-  - Published: 2026-06-18T18:05:44+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1u9dncq/cve20265667_unauthenticated_remote_control_of/
-  - Summary: submitted by /u/Ecstatic_Priority514 [link] [comments]
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - Title: Apple patches eavesdropping vulnerability in Beats Studio Buds
+  - Published: 2026-06-19T13:44:50+00:00
+  - Link: https://www.reddit.com/r/cybersecurity/comments/1ua2faw/apple_patches_eavesdropping_vulnerability_in/
+  - Summary: submitted by /u/rkhunter_ [link] [comments]
