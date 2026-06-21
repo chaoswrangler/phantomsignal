@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-21T15:59:26.398010+00:00
+- Generated: 2026-06-21T17:45:28.688714+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 323
+- Total items in window: 322
 - Total clusters raw: 145
 - Total clusters in packet: 57
 - Dropped low score: 88
@@ -70,23 +70,13 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -100,16 +90,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 15
+  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -125,26 +125,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -160,10 +160,10 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -175,21 +175,21 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
+  - Item count: 50
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -210,16 +210,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -240,21 +240,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -270,26 +270,31 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 100
+  - In window count: 4
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -305,31 +310,26 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 20
+  - In window count: 3
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 15
+  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -345,13 +345,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 21
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -360,31 +370,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,11 +395,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -410,28 +415,18 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -440,11 +435,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 14
+  - In window count: 15
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -2713,16 +2713,16 @@ Julie Agnes Sparks Senior Security Engineer Salesforce is one of the worldâ
   - Published: 2026-06-19T22:31:04+00:00
   - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Klue breach lead to Salesforce data theft, Huntress affected
-  - Published: 2026-06-19T12:57:39+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
-  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Salesforce Data Thefts Continue via Klue App Compromise
   - Published: 2026-06-18T16:49:04+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
   - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Klue breach lead to Salesforce data theft, Huntress affected
+  - Published: 2026-06-19T12:57:39+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
+  - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
   - Published: 2026-06-19T09:03:57+00:00
@@ -2859,6 +2859,49 @@ Blog JQ for Hackers June 16, 2026 JQ for Hackers Written by Justin Bollinger Pen
   - Link: https://trustedsec.com/blog/jq-for-hackers
   - Summary: <p>When I was first introduced to jq, it was overwhelming and confusing. I tried to just wing it, not realizing it was a very complex and powerful program. With more and more tools outputting JSON, I figured it was time to…</p>
 
+### Cluster 12d52f8aef — score 8
+
+- Title: AI in the underground: Curiosity, claims, and concerns
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-06-17T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+```
+
+#### Full body
+
+```
+AI in the underground: Curiosity, claims, and concerns Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Written by Sophos Counter Threat Unit Research Team Threat Research AI Dark Web underground Share This Link Copied Counter Threat Unit™ (CTU) researchers have observed artificial intelligence (AI) emerging into a prominent topic in underground communities, with threat actors discussing its potential, claiming its use for malware and tool development, and expressing concerns. Many claims have not been validated, but the posts reveal perceptions about generative AI and examples of how it may be used in cybercriminal activity. In some respect, threat actors are facing the same challenge as everyone else — seeking to preserve economic viability during a technological transition while trying to identify how and when to embrace AI. Access and knowledge sharing Defenders and threat actors test and experiment with AI-enabled capabilities, but from very different positions. Defenders typically benefit from greater access to commercial tooling, dedicated engineering support, and the financial freedom to trial emerging technologies at scale. In contrast, resource-constrained threat actors are looking for practical ways to gain access. CTU™ researchers have observed API keys for generative AI tools being sold via shared accounts, brokered access, and alternative platforms. In one thread, the "CyberThreat" persona offered brokered API keys for tools such as ChatGPT, Claude, and Grok (see Figure 1). In another post, “VOLTIC” advertised access to multiple AI models as a cost-effective solution for buyers who need AI capabilities (see Figure 2). Although both personas were new to the underground marketplaces, the posts quickly attracted interest and other personas endorsed the services. Figure 1: CyberThreat selling brokered API keys Figure 2: VOLTIC advertising an unlimited AI tool While API keys and associated generative AI chatbots are available for sale across underground forums, there appears to be a knowledge gap. Personas turn to each other for guidance ranging from basic setup and access through to practical tradecraft. New channels focused on AI and large language models (LLMs) and their use continually emerge on underground forums (see Figure 3). Threads include discussions about “jailbreaking” public AI models, including efforts to bypass censorship and other safeguards imposed by AI vendors. Personas frequently reference experimentation with prompt‑based techniques to circumvent content controls, including role‑play framing, multi‑stage prompting, contextual manipulation, and iterative refinement. CTU researchers have also observed self-described “experienced AI users” sharing examples and lessons learned, including prompt templates, workflows, examples of LLM experimentation, and purported best practices for operationalizing AI in malicious scripting and automation. Figure 3: Sample of posts on a channel dedicated to AI and machine learning (ML) questions Since January 1, 2026, CTU researchers have noted an increase in offers to hire, or partner with, specialists who can operationalize AI on others’ behalf. Multiple personas known for recruiting various roles (e.g., blockchain developers, coders, social engineers) advertised for AI prompt engineers (see Figure 4). The offering of specialized services is common within underground communities, enabling threat actors to monetize their skills and giving cybercriminals access to expertise and capabilities they lack. Figure 4: Recruitment post for an OpenAI prompt engineer Social engineering and deception Threat actors are exploring AI to enhance social engineering and deception techniques, although only a limited number currently incorporate generative AI into their toolkits. Forum posts suggest that generative AI models can be integrated into common fraud and intrusion workflows to help threat actors overcome language
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: AI in the underground: Curiosity, claims, and concerns
+  - Published: 2026-06-17T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
+  - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+
 ### Cluster 41719728a2 — score 8
 
 - Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
@@ -2940,49 +2983,6 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Published: 2026-06-19T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
-
-### Cluster 12d52f8aef — score 8
-
-- Title: AI in the underground: Curiosity, claims, and concerns
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
-```
-
-#### Full body
-
-```
-AI in the underground: Curiosity, claims, and concerns Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Written by Sophos Counter Threat Unit Research Team Threat Research AI Dark Web underground Share This Link Copied Counter Threat Unit™ (CTU) researchers have observed artificial intelligence (AI) emerging into a prominent topic in underground communities, with threat actors discussing its potential, claiming its use for malware and tool development, and expressing concerns. Many claims have not been validated, but the posts reveal perceptions about generative AI and examples of how it may be used in cybercriminal activity. In some respect, threat actors are facing the same challenge as everyone else — seeking to preserve economic viability during a technological transition while trying to identify how and when to embrace AI. Access and knowledge sharing Defenders and threat actors test and experiment with AI-enabled capabilities, but from very different positions. Defenders typically benefit from greater access to commercial tooling, dedicated engineering support, and the financial freedom to trial emerging technologies at scale. In contrast, resource-constrained threat actors are looking for practical ways to gain access. CTU™ researchers have observed API keys for generative AI tools being sold via shared accounts, brokered access, and alternative platforms. In one thread, the "CyberThreat" persona offered brokered API keys for tools such as ChatGPT, Claude, and Grok (see Figure 1). In another post, “VOLTIC” advertised access to multiple AI models as a cost-effective solution for buyers who need AI capabilities (see Figure 2). Although both personas were new to the underground marketplaces, the posts quickly attracted interest and other personas endorsed the services. Figure 1: CyberThreat selling brokered API keys Figure 2: VOLTIC advertising an unlimited AI tool While API keys and associated generative AI chatbots are available for sale across underground forums, there appears to be a knowledge gap. Personas turn to each other for guidance ranging from basic setup and access through to practical tradecraft. New channels focused on AI and large language models (LLMs) and their use continually emerge on underground forums (see Figure 3). Threads include discussions about “jailbreaking” public AI models, including efforts to bypass censorship and other safeguards imposed by AI vendors. Personas frequently reference experimentation with prompt‑based techniques to circumvent content controls, including role‑play framing, multi‑stage prompting, contextual manipulation, and iterative refinement. CTU researchers have also observed self-described “experienced AI users” sharing examples and lessons learned, including prompt templates, workflows, examples of LLM experimentation, and purported best practices for operationalizing AI in malicious scripting and automation. Figure 3: Sample of posts on a channel dedicated to AI and machine learning (ML) questions Since January 1, 2026, CTU researchers have noted an increase in offers to hire, or partner with, specialists who can operationalize AI on others’ behalf. Multiple personas known for recruiting various roles (e.g., blockchain developers, coders, social engineers) advertised for AI prompt engineers (see Figure 4). The offering of specialized services is common within underground communities, enabling threat actors to monetize their skills and giving cybercriminals access to expertise and capabilities they lack. Figure 4: Recruitment post for an OpenAI prompt engineer Social engineering and deception Threat actors are exploring AI to enhance social engineering and deception techniques, although only a limited number currently incorporate generative AI into their toolkits. Forum posts suggest that generative AI models can be integrated into common fraud and intrusion workflows to help threat actors overcome language
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: AI in the underground: Curiosity, claims, and concerns
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
-  - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
 
 ### Cluster f90c59f1e6 — score 8
 

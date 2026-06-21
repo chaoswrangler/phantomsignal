@@ -1,16 +1,9 @@
 {
-  "generated_at": "2026-06-21T15:59:26.404434+00:00",
+  "generated_at": "2026-06-21T17:45:28.696474+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -18,15 +11,8 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
@@ -46,6 +32,13 @@
       "item_count": 10,
       "in_window_count": 8
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Trend Micro Research": {
       "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
@@ -53,12 +46,19 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 2
+    },
+    "Sekoia": {
+      "url": "https://blog.sekoia.io/feed/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -81,13 +81,6 @@
       "item_count": 20,
       "in_window_count": 3
     },
-    "Sekoia": {
-      "url": "https://blog.sekoia.io/feed/",
-      "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -95,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 1
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -108,6 +101,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 9
+    },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -130,11 +130,11 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -151,18 +151,11 @@
       "item_count": 40,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
+      "item_count": 50,
       "in_window_count": 0
     },
     "Recorded Future": {
@@ -171,6 +164,13 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 3
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -200,19 +200,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Elastic Security Labs": {
-      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Elastic Security Labs": {
+      "url": "https://www.elastic.co/security-labs/rss/feed.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
@@ -242,12 +242,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Trail of Bits": {
-      "url": "https://blog.trailofbits.com/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 4
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -256,12 +256,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
+    "Trail of Bits": {
+      "url": "https://blog.trailofbits.com/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 4
+      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -284,6 +284,13 @@
       "item_count": 100,
       "in_window_count": 2
     },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -291,12 +298,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 100,
+      "in_window_count": 2
     },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
@@ -305,12 +312,12 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
+      "item_count": 20,
+      "in_window_count": 20
     },
     "Google Cloud Threat Intelligence": {
       "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
@@ -333,13 +340,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -347,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
+      "item_count": 20,
+      "in_window_count": 3
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -361,12 +361,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 15,
+      "in_window_count": 15
     },
     "GreyNoise": {
       "url": "https://www.greynoise.io/blog/rss.xml",
@@ -389,6 +389,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
@@ -396,8 +403,15 @@
       "item_count": 20,
       "in_window_count": 0
     },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 21
+    },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -410,20 +424,6 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 21
-    },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -431,19 +431,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
-    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 15,
       "in_window_count": 1
+    },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -459,12 +459,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -480,36 +487,22 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -522,12 +515,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 14
+      "in_window_count": 15
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -6921,6 +6921,38 @@
       "fetch_status": "ok"
     },
     {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
+      "published": "2026-06-15T14:00:00+00:00",
+      "summary": "Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with ",
+      "author": "Google Threat Intelligence Group",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [
+          "UNC6508"
+        ],
+        "affected_industries": [
+          "healthcare"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 10
+    },
+    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -6959,38 +6991,6 @@
       "score": 14,
       "full_body": "Threat Intelligence Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research June 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with remediation. We have updated Google Security Operations (SecOps) with relevant intelligence, enabling defenders to identify indicators of compromise (IOCs) within their networks. We encourage all users and customers to follow recommended best practices for third-party Identity Providers (IdP) and ensure 2-Step Verification (2SV) is enabled across all accounts. Campaign Overview The campaign targeted a diverse set of national, state, and private medical entities. These organizations comprise world-renowned clinical providers, premier academic centers, North American military health institutions, professional advocacy groups, and health regulatory bodies. Their research areas span a broad spectrum of modern medicine, from molecular discovery and clinical drug trials to state-level public health policy and military readiness. They employ thousands of people with a combined research budget in the billions of dollars. The earliest known compromise occurred in September 2023, after which GTIG observed a consistent operational pattern. The threat actor exploited externally facing REDCap (Research Electronic Data Capture) servers and deployed custom malware named INFINITERED to capture legitimate REDCap login credentials. Then, after remaining undetected for more than a year, UNC6508 used the captured credentials to access the victim’s internal network. The threat actor was also observed using the novel technique of manipulating domain content compliance rules for data exfiltration. Lastly, UNC6508 used sophisticated operations security (OpSec) techniques to conceal and obfuscate their activity. GTIG collaborated closely with Mandiant Consulting, the FLARE team, and Workspace Security on this effort to combine our threat intelligence, incident response, and reverse engineering expertise across Google Cloud. This enabled us to develop a complete picture of the attack lifecycle from initial compromise to complete mission. GTIG also extends thanks to the affected organizations for their cooperation and the valuable post-exploitation insights they shared. Prevention, Detection, and Remediation GTIG recommends defenders implement the following security measures, across all Cloud enterprise platforms, to mitigate this threat: Secure Admin Accounts : Enforce phishing-resistant 2-Step Verification (2SV) for enterprise administrator accounts, including through third-party Identity Providers. Advanced Protection : Consider enrolling highly sensitive accounts in our Advanced Protection Program for additional safeguards against malware and phishing attacks. Prevent Cookie Theft : Enforce Device Bound Session Credentials (DBSC) with CAA for high",
       "fetch_status": "ok"
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/",
-      "published": "2026-06-15T14:00:00+00:00",
-      "summary": "Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with ",
-      "author": "Google Threat Intelligence Group",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [
-          "UNC6508"
-        ],
-        "affected_industries": [
-          "healthcare"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 10
     },
     {
       "source": "The Hacker News",
@@ -7487,6 +7487,62 @@
         }
       },
       "score": 6
+    },
+    {
+      "source": "Interconnects",
+      "cohort": "ai_security_agentic_risk",
+      "category": "ai_security_agentic_risk",
+      "title": "Welcome to the AGI era of AI governance",
+      "link": "https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance",
+      "published": "2026-06-14T17:43:42+00:00",
+      "summary": "It's a one-way door and we weren't ready for it.",
+      "author": "Nathan Lambert",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Schneier on Security",
+      "cohort": "practitioner_analysis",
+      "category": "practitioner_analysis",
+      "title": "Upcoming Speaking Engagements",
+      "link": "https://www.schneier.com/blog/archives/2026/06/upcoming-speaking-engagements-57.html",
+      "published": "2026-06-14T16:07:31+00:00",
+      "summary": "This is a current list of where and when I am scheduled to speak: I’m giving a keynote at Cybernation 2026 in Berlin, Germany, on June 24, 2026. I’m speaking at the Potsdam Conference on National Cybersecurity at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, and my talk will be the evening of June 24. I’m participating in a panel discussion at the Austrian Institute for International Affairs in Vienna on Thursday, June 25, 2026. I’m speaking at the Digital Humanism Conference in Vienna, Austria, on Friday, June 26, 2026...",
+      "author": "Bruce Schneier",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_3_analysis",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
     },
     {
       "source": "Reddit r/netsec",
@@ -9078,33 +9134,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Claude Fable 5: mid-tier results on coding tasks",
-      "link": "https://www.reddit.com/r/netsec/comments/1u33dor/claude_fable_5_midtier_results_on_coding_tasks/",
-      "published": "2026-06-11T16:08:52+00:00",
-      "summary": "Despite all the hype around Mythos, Claude Fable 5 returned pretty mid-tier results on coding tasks: 59.8% passing functional solves and just 19.0% passing security solves on a benchmark of 200 real-world tasks. submitted by /u/bugvader25 [link] [comments]",
-      "author": "/u/bugvader25",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -15130,13 +15159,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence",
-      "link": "https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence",
+      "title": "Pointing a Cursor at evading detection",
+      "link": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection",
       "published": "2026-06-02T00:00:00+00:00",
-      "summary": "Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.",
+      "summary": "AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -15157,13 +15186,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Pointing a Cursor at evading detection",
-      "link": "https://www.sophos.com/en-us/blog/pointing-a-cursor-at-evading-detection",
+      "title": "From API key to live threat detections in minutes: how Elastic Security ingests Google Threat Intelligence",
+      "link": "https://www.elastic.co/security-labs/elastic-security-google-threat-intelligence",
       "published": "2026-06-02T00:00:00+00:00",
-      "summary": "AI accelerated tool development and testing, but humans drove the workflow Categories: Threat Research Tags: AI, EDR",
+      "summary": "Find out how Elastic Security ingests Google Threat Intelligence for continuous detection and uses AI-driven workflows to enrich alerts in real time, from API key to live detections in minutes.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -23491,13 +23520,13 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
+      "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
-      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
+      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
+      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
+      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -23518,13 +23547,13 @@
       }
     },
     {
-      "source": "Sophos X-Ops",
+      "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
-      "title": "Inside the lethal trifecta: Blast radius reduction in AI agent deployments",
-      "link": "https://www.sophos.com/en-us/blog/inside-the-lethal-trifecta-blast-radius-reduction-in-ai-agent-deployments",
+      "title": "Elastic Security MCP App: Interactive security operations inside your AI Tools",
+      "link": "https://www.elastic.co/security-labs/elastic-security-mcp-app",
       "published": "2026-05-12T00:00:00+00:00",
-      "summary": "<p>Seven things security teams can start doing today to reduce risk</p> Categories: Threat Research Tags: AI, CISO, risk",
+      "summary": "Elastic Security is the first security vendor to ship an interactive UI in AI tools. Triage alerts, hunt threats, correlate attack chains, and open cases, all from inside your AI conversation.",
       "author": "",
       "in_window": false,
       "taxonomy": {
@@ -24456,33 +24485,6 @@
       }
     },
     {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -24508,6 +24510,33 @@
         "role_map": {
           "Linux kernel": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -24685,35 +24714,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
-      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
-      "published": "2026-05-07T00:00:00+00:00",
-      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -24741,6 +24741,35 @@
         "role_map": {
           "Anthropic/Claude": "target"
         },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "TCLBANKER: Brazilian Banking Trojan Spreading via WhatsApp and Outlook",
+      "link": "https://www.elastic.co/security-labs/tclbanker-brazilian-banking-trojan",
+      "published": "2026-05-07T00:00:00+00:00",
+      "summary": "REF3076 uses a trojanized Logitech installer to deploy TCLBANKER, a Brazilian banking trojan with environment-gated payloads, WPF fraud overlays, and self-propagating WhatsApp and Outlook worm modules.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -25996,33 +26025,6 @@
       }
     },
     {
-      "source": "Elastic Security Labs",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
-      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
-      "published": "2026-05-01T00:00:00+00:00",
-      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sophos X-Ops",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -26046,6 +26048,33 @@
           "poc_available"
         ],
         "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Elastic Security Labs",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "DFIR: From alert to root cause using Osquery without leaving Elastic Security",
+      "link": "https://www.elastic.co/security-labs/dfir-osquery-elastic-security",
+      "published": "2026-05-01T00:00:00+00:00",
+      "summary": "Learn how to perform distributed, real-time Digital Forensics and Incident Response (DFIR) using Osquery and Elastic to investigate threats at scale without relying on disk imaging.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
@@ -26752,6 +26781,39 @@
       }
     },
     {
+      "source": "Sophos X-Ops",
+      "cohort": "detection_response_operations",
+      "category": "detection_response_operations",
+      "title": "'Mini Shai-Hulud' supply chain attack targets SAP npm packages",
+      "link": "https://www.sophos.com/en-us/blog/-mini-shai-hulud-supply-chain-attack-targets-sap-npm-packages",
+      "published": "2026-04-29T00:00:00+00:00",
+      "summary": "Categories: Threat Research Tags: advisory, NPM, SAP",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "npm": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Elastic Security Labs",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -26788,39 +26850,6 @@
               0.3
             ]
           ]
-        }
-      }
-    },
-    {
-      "source": "Sophos X-Ops",
-      "cohort": "detection_response_operations",
-      "category": "detection_response_operations",
-      "title": "'Mini Shai-Hulud' supply chain attack targets SAP npm packages",
-      "link": "https://www.sophos.com/en-us/blog/-mini-shai-hulud-supply-chain-attack-targets-sap-npm-packages",
-      "published": "2026-04-29T00:00:00+00:00",
-      "summary": "Categories: Threat Research Tags: advisory, NPM, SAP",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "npm": "target"
-        },
-        "weak_tags": {
-          "products": []
         }
       }
     },
@@ -34277,7 +34306,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7ff2dddff940>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f6a081ca310>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
