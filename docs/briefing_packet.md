@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-21T06:09:49.760447+00:00
+- Generated: 2026-06-21T10:35:55.972395+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 302
-- Total clusters raw: 144
+- Feeds OK: 77
+- Total items in window: 321
+- Total clusters raw: 143
 - Total clusters in packet: 57
-- Dropped low score: 87
+- Dropped low score: 86
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,16 +70,16 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
@@ -90,105 +90,105 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 78
+  - Item count: 10
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
   - Item count: 50
   - In window count: 3
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 50
+  - Item count: 10
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -200,16 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -230,36 +230,36 @@
   - Status: ok
   - Item count: 30
   - In window count: 3
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
+  - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -270,16 +270,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,11 +280,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -305,21 +310,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,23 +335,13 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 19
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,26 +350,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 21
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 21
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
@@ -400,31 +395,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -435,31 +405,61 @@
   - Status: ok
   - Item count: 50
   - In window count: 44
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsec/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 25
-  - In window count: 13
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 25
+  - In window count: 12
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -476,32 +476,54 @@
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
-- Cluster count: 6
-- Article count: 22
-- Cohesion: 0.295
+- Cluster count: 5
+- Article count: 14
+- Cohesion: 0.32
 - Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
+  - affected_industries: financial_services
   - affected_products: Microsoft Defender
-- Cluster IDs: 63edb37821, 165b535ec0, 75ea622200, bfe56aaca6, bc04521832, f4c821a558
+- Cluster IDs: 63edb37821, 165b535ec0, 75ea622200, bfe56aaca6, f4c821a558
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
   - https://orca.security/resources/blog/mastra-npm-supply-chain-attack/
   - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
   - https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
+  - https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/
   - https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
   - https://securitylabs.datadoghq.com/articles/azure-blob-storage-ransomware-four-methods/
   - https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html
   - https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
-  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
-  - https://risky.biz/RBNEWS577/
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
-  - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
-  - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
-  - https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
+
+### phishing social eng targeting Google Cloud
+- Anchor signal: Google Cloud
+- Theme key: google-cloud
+- Cluster count: 4
+- Article count: 13
+- Cohesion: 0.25
+- Shared strong signals: Google Cloud
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng
+  - affected_products: Google Cloud
+- Cluster IDs: e90454cc0b, f6709feff6, 7f890872ef, 512ea8982c
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
+  - https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/
+  - https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
+  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
+  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
+  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
+  - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
+  - https://risky.biz/SRB171/
 
 ### CVE-2026-50751 exploitation activity
 - Anchor signal: CVE-2026-50751
@@ -543,44 +565,24 @@
   - https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
   - https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
 
-### phishing social eng targeting Google Cloud
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 3
-- Article count: 8
-- Cohesion: 0.249
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_products: Google Cloud
-- Cluster IDs: e90454cc0b, f6709feff6, 7f890872ef
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
-  - https://www.securityweek.com/majority-of-internet-accessible-redcap-servers-outdated/
-  - https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
-  - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
-  - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
-  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
-  - https://www.wiz.io/blog/red-agent-pov-ssrf
-
 ### Ivanti active exploitation
 - Anchor signal: Ivanti
 - Theme key: ivanti
 - Cluster count: 3
-- Article count: 9
+- Article count: 10
 - Cohesion: 0.2
 - Shared strong signals: Ivanti
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
+  - threat_categories: active_exploitation, phishing_social_eng
+  - affected_industries: government
   - affected_products: Ivanti
   - urgency_signals: actively_exploited
-- Cluster IDs: bffa610f21, 55705936f5, bfe56aaca6
+- Cluster IDs: bffa610f21, 4e8b9974a0, bfe56aaca6
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
+  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://risky.biz/RBNEWS579/
   - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
   - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
@@ -631,7 +633,7 @@
 - Anchor signal: AWS
 - Theme key: aws
 - Cluster count: 3
-- Article count: 8
+- Article count: 9
 - Cohesion: 0.228
 - Shared strong signals: AWS
 - Member CVEs: (none)
@@ -646,28 +648,28 @@
   - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
   - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
   - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
   - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
   - https://webflow.sysdig.com/blog/how-attackers-are-jailbreaking-llms-with-ctf-framing-and-how-to-catch-them
 
-### WordPress active exploitation
+### supply chain targeting WordPress
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 2
 - Article count: 10
-- Cohesion: 0.2
+- Cohesion: 0.307
 - Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation
+  - threat_categories: supply_chain
   - affected_products: WordPress
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: d1df71d8fb, bc04521832
+- Cluster IDs: d1df71d8fb, 93df5bfc62
 - Links:
   - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
-  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
   - https://risky.biz/RBNEWS577/
+  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
   - https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
   - https://www.securityweek.com/15000-wordpress-websites-cleaned-up-in-socgholish-botnet-takedown/
   - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
@@ -677,7 +679,7 @@
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 2
-- Article count: 6
+- Article count: 7
 - Cohesion: 0.2
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
@@ -690,21 +692,25 @@
   - https://www.securityweek.com/in-other-news-apple-patches-beats-eavesdropping-flaw-dot-closes-delta-crowdstrike-probe-aws-continuum/
   - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
   - https://www.wiz.io/blog/red-agent-pov-ssrf
+  - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
 
-### Fortinet vulnerability activity
+### phishing social eng targeting Fortinet
 - Anchor signal: Fortinet
 - Theme key: fortinet
 - Cluster count: 2
-- Article count: 7
+- Article count: 8
 - Cohesion: 0.2
 - Shared strong signals: Fortinet
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
+  - threat_categories: phishing_social_eng
+  - affected_industries: government
   - affected_products: Fortinet
-- Cluster IDs: 55705936f5, 6bc465fddb
+- Cluster IDs: 4e8b9974a0, 6bc465fddb
 - Links:
+  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://risky.biz/RBNEWS579/
   - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
   - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
@@ -983,8 +989,8 @@ CVE-2026-48558 SimpleHelp OIDC Authentication Bypass Vulnerability SimpleHelp ha
 - Published: 2026-06-18T03:43:04+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 5
+- Member count: 8
+- Corroborating source count: 6
 - Strong signals: Microsoft Defender, npm
 
 #### Cluster taxonomy (union across members)
@@ -1015,7 +1021,7 @@ A poisoned npm package infected 140+ projects with a hidden payload. This report
 Share Link copied to clipboard! Tags Malware npm Content types Research Products and services Microsoft Defender Topics Actionable threat insights Threat intelligence June 19, 2026 update: Microsoft assesses with high confidence that this activity is attributable to Sapphire Sleet , a North Korean state actor that primarily targets the financial sector. The infrastructure and post-compromise TTPs observed in this campaign are consistent with previously documented Sapphire Sleet activity. Sapphire Sleet also conducted a separate npm supply chain compromise affecting Axios , a popular JavaScript HTTP client, in April 2026 . Microsoft Threat Intelligence observed a large-scale npm supply chain attack affecting 140+ packages across the mastra and @mastra scopes on the npm registry. Microsoft shared its findings with the npm security team, the compromised packages have been removed and the attacker’s publish access to the @mastra scope has been revoked. The compromise originated from the takeover of the ehindero npm maintainer account, which had publish rights across the Mastra ecosystem and was used to publish poisoned package versions that introduced easy-day-js, a malicious typosquat of the popular dayjs library. Microsoft assesses with high confidence that this activity is attributable to Sapphire Sleet . Once installed, easy-day-js triggered a postinstall hook that executed an obfuscated dropper script, disabled Transport Layer Security (TLS) certificate verification, contacted attacker-controlled command-and-control (C2) infrastructure, downloaded a second-stage payload, and executed the payload as a detached hidden process. The activity followed a coordinated staged delivery pattern, with a clean bait version published first, followed by a weaponized version and rapid publication of the compromised Mastra packages. Because the payload executes during installation, any developer workstation or continuous integration and continuous delivery (CI/CD) pipeline that ran npm install or npm update after the compromised versions were published was potentially exposed, regardless of whether the package was imported in application code. This created risk to credentials, tokens, build environments, and downstream software integrity. Microsoft Defender Antivirus, Microsoft Defender for Endpoint, and Microsoft Defender XDR provide detections and hunting coverage for suspicious Node.js execution, malicious package behavior, reflective code loading, persistence activity and command-and-control communication. Attack chain overview Figure 1. End-to-end attack chain from npm account takeover through mass dependency injection to second-stage payload execution. At a high level, the attack progressed through seven phases: Account compromise: The threat actor gained control of the ehindero npm account, a listed maintainer with publish rights across the entire @mastra scope. Typosquat creation: The threat actor published easy-day-js , a package impersonating the legitimate dayjs library (57M+ weekly downloads), using a coordinating anonymous email account). Mass poisoning: Using the compromised account, the threat actor published new versions of 140+packages across the @mastra scope, each injected with easy-day-js@^1.11.21 as a new dependency. All poisoned versions were tagged as latest. Delivery: Developers and CI/CD pipelines running npm install automatically resolved to the compromised versions. The semantic versioning (SemVer) range ^1.11.21 resolved to 1.11.22, the version containing the malicious postinstall hook. Execution: The postinstall hook executed an obfuscated 4,572-byte dropper that disabled TLS verification, dropped tracking markers, and contacted the C2 server. Second-stage payload: The dropper fetched executable code from the C2 server, wrote it as a randomly named .js file, and spawned it as a fully detached, window-hidden Node.js process. Post-compromise tradecraft: On systems where the implant established C2 communication, Sapp
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **Microsoft Security Blog** (threat_research_primary)
   - Title: From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet
@@ -1042,6 +1048,11 @@ Share Link copied to clipboard! Tags Malware npm Content types Research Products
   - Published: 2026-06-20T14:09:19+00:00
   - Link: https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
   - Summary: Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: How I learned Go in a Day with Antigravity 2.0 and How You Can Do the Same
+  - Published: 2026-06-15T09:29:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/how-i-learned-go-in-a-day-with-antigravity-20-and-how-you-can-do-the-same/
+  - Summary: I have been exploring how to reclaim my software stack from NPM dependency overhead and replace my resource-intensive Node.js runtime with a compiled, single-binary Go CLI. The result of my efforts is skl , a fast tool we use for managing Agent Skills, that launches in 2ms and uses only 11MB of memory. But how exactly did I do it? Simply, I set the architectural goals and audited the logic, while Antigravity handled the mechanical work of code translation, test generation, and platform path mappings for us. This post describes the step-by-step walkthrough of our migration workflow to help you build yours. Step 0: Seed personal learning goals Before writing any code, you start by defining the boundaries of your project. In our case, I wanted a zero-dependency core that used minimal external packages. I decided that our CLI tool needs to be fast, and our security model had to be zero-trust wherever appropriate. In the process, my agent added specific constraints: sanitizing all of our in
 
 ### Cluster 2d5c32428f — score 22
 
@@ -1142,8 +1153,8 @@ Wiz Pricing Get a demo Get a demo Malicious actors are actively weaponizing AI t
 - Published: 2026-06-15T14:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
 - Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: UNC6508
 
 #### Cluster taxonomy (union across members)
@@ -1152,7 +1163,7 @@ Wiz Pricing Get a demo Get a demo Malicious actors are actively weaponizing AI t
 - affected_industries: healthcare
 - affected_products: Google Cloud
 - content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_4_news
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: phishing_social_eng
@@ -1174,9 +1185,14 @@ Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (G
 Threat Intelligence Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research June 15, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with remediation. We have updated Google Security Operations (SecOps) with relevant intelligence, enabling defenders to identify indicators of compromise (IOCs) within their networks. We encourage all users and customers to follow recommended best practices for third-party Identity Providers (IdP) and ensure 2-Step Verification (2SV) is enabled across all accounts. Campaign Overview The campaign targeted a diverse set of national, state, and private medical entities. These organizations comprise world-renowned clinical providers, premier academic centers, North American military health institutions, professional advocacy groups, and health regulatory bodies. Their research areas span a broad spectrum of modern medicine, from molecular discovery and clinical drug trials to state-level public health policy and military readiness. They employ thousands of people with a combined research budget in the billions of dollars. The earliest known compromise occurred in September 2023, after which GTIG observed a consistent operational pattern. The threat actor exploited externally facing REDCap (Research Electronic Data Capture) servers and deployed custom malware named INFINITERED to capture legitimate REDCap login credentials. Then, after remaining undetected for more than a year, UNC6508 used the captured credentials to access the victim’s internal network. The threat actor was also observed using the novel technique of manipulating domain content compliance rules for data exfiltration. Lastly, UNC6508 used sophisticated operations security (OpSec) techniques to conceal and obfuscate their activity. GTIG collaborated closely with Mandiant Consulting, the FLARE team, and Workspace Security on this effort to combine our threat intelligence, incident response, and reverse engineering expertise across Google Cloud. This enabled us to develop a complete picture of the attack lifecycle from initial compromise to complete mission. GTIG also extends thanks to the affected organizations for their cooperation and the valuable post-exploitation insights they shared. Prevention, Detection, and Remediation GTIG recommends defenders implement the following security measures, across all Cloud enterprise platforms, to mitigate this threat: Secure Admin Accounts : Enforce phishing-resistant 2-Step Verification (2SV) for enterprise administrator accounts, including through third-party Identity Providers. Advanced Protection : Consider enrolling highly sensitive accounts in our Advanced Protection Program for additional safeguards against malware and phishing attacks. Prevent Cookie Theft : Enforce Device Bound Session Credentials (DBSC) with CAA for high
 ```
 
-#### Corroborating sources (2)
+#### Corroborating sources (3)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
+  - Title: Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research
+  - Published: 2026-06-15T14:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
+  - Summary: Written by: Patrick Whitsell, John McGuiness Google Threat Intelligence Group (GTIG) has identified a sophisticated campaign attributed to UNC6508, a People's Republic of China (PRC)-nexus threat actor, targeting institutions in the North American academic, medical, and military research community. While remaining undetected for over a year, the threat actor compromised externally facing web applications, deployed bespoke malware, pivoted to sensitive internal systems, and abused enterprise administrative tools for covert data exfiltration. The threat actor had broad collection aspirations, including sensitive defense intelligence related to national security, Indo-Pacific command operations, artificial intelligence, uncrewed vehicle systems, cyber offensive programs, and medical research. GTIG disrupted the malicious infrastructure associated with this threat actor. Working with Mandiant Consulting, we notified the affected organizations upon detection and offered our assistance with
+- **Google Cloud Security** (cloud_identity_infrastructure)
   - Title: Public and Private Medical Community Targeted by China-Nexus Threat Actor Pursuing Artificial Intelligence, Cyber, Medical, and National Defense Research
   - Published: 2026-06-15T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/prc-targets-us-medical-research/
@@ -1414,44 +1430,51 @@ CISA: Splunk Enterprise flaw actively exploited, patch by Sunday By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
   - Summary: CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]
 
-### Cluster 55705936f5 — score 15
+### Cluster 4e8b9974a0 — score 15
 
-- Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-06-19T05:23:40+00:00
-- Link: https://risky.biz/RBNEWS579/
+- Title: Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-06-21T08:00:25+00:00
+- Link: https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 7
+- Corroborating source count: 7
 - Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
+- threat_categories: credential_theft, phishing_social_eng, supply_chain, vulnerability_disclosure, web_shell_backdoor
+- affected_industries: education, government
 - affected_products: Fortinet, Ivanti
 - cve_ids: CVE-2026-25089, CVE-2026-39808, CVE-2026-39813
 - content_type: incident_report, news_report
 - confidence_tier: tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
+- threat_categories: supply_chain, phishing_social_eng, web_shell_backdoor, vulnerability_disclosure
+- affected_industries: government, education
 - affected_products: Fortinet
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
+- content_type: news_report
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
+Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring … More → The post Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack appeared first on Help Net Security .
 ```
 
 #### Full body
 
 ```
-Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet devices leaked Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A LOT of Fortinet creds have leaked online, Canadaâs spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish. Your browser does not support the audio element. Risky Bulletin: Creds for 74,000 Fortinet devices leaked â¶ 0:00 / 11:00 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Canadaâs spy agency allowed to remove a botnet from Canadian devices
+Help Net Security June 21, 2026 Share Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring CISO on where automated GRC systems fall short In this interview with Help Net Security, Nichole Windholz, CISO at Onspring, talks about the limits of automated GRC systems and continuous control monitoring. She explains why color-coded dashboards can hide nuance, how teams can check the data feeding their tools, and which risks resist measurement, such as insider behavior and vendor concentration. AI vulnerability discovery is pushing 2026 CVEs toward 66,000 Vulnerability disclosures are piling up faster in 2026 than anyone expected at the start of the year. The running count for the first few months sits well above the original projection, and the Forum of Incident Response and Security Teams (FIRST) now expects the year to land near 66,000 CVEs. Reachability makes AI threat modeling worth the trust In this interview with Help Net Security, Oscar Andersson, CTO at Oplane, explains why most scanning tools fail. They cry wolf, flagging threats that cannot run in real code. The argument centers on reachability. A finding counts only when someone walks the path to impact on a working build. The SOC’s visibility gap comes down to staffing AI has settled into security operations centers faster than any earlier wave of technology. Around four in five practitioners report reaching for AI or machine learning tools in their daily work. The catch shows up one layer down. Roughly a third of those same teams have built these tools into a defined workflow with structure, governance, and consistent validation. The rest pick up AI on their own, case by case, with no shared playbook for how it gets used or checked. The Chainguard Athena coalition already shipped 2,000 patches across 500 open source projects Chainguard launched Athena, an industry coalition that pools open source vulnerability findings and remediates them under embargo before public disclosure. The group went live with more than two dozen member organizations. Founding members include BNY, Chainguard, Cisco, Cloudflare, Corridor, DepthFirst, Docker, JPMorganChase, Kyndryl, LTIMindtree, and PwC. What happens to oversight when AI agents write a lab’s own code Inside the labs building frontier AI, a growing share of the coding gets done by the AI itself. These agents write, edit, and run software with light human oversight between steps, and they reach into production infrastructure, research pipelines, and potentially the systems that train and evaluate future models. Securing digital keys when your phone unlocks the car In this interview with Help Net Security, Alysia Johnson, President of the Car Connectivity Consortium (CCC), explains how the CCC Digital Key has grown from a single-brand feature into a standard meant to work across phones, automakers, and suppliers. Your browser tab could become encrypted storage for someone else’s files Decentralized storage networks already hand pieces of people’s data to strangers’ machines. The lasting question across these networks is whether the machine holding the data can read it. A research paper by Gregory Magarshak, a professor at IENYC, describes a system called Safecloud built on one design rule: the nodes that store data see only ciphertext, and the nodes that route data hold no keys. PhishLumos: Exposing phishing campaigns that evade detection by hiding content Phishing r
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack
+  - Published: 2026-06-21T08:00:25+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
+  - Summary: Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring … More → The post Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack appeared first on Help Net Security .
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
   - Published: 2026-06-19T05:23:40+00:00
@@ -1541,8 +1564,8 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 15th June 
 - Published: 2026-06-16T19:05:41+00:00
 - Link: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 6
+- Corroborating source count: 5
 - Strong signals: Google Cloud, Palo Alto Networks
 
 #### Cluster taxonomy (union across members)
@@ -1573,7 +1596,7 @@ A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no acce
 Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting  Swati Khandelwal  Jun 16, 2026 Machine Learning / Cloud Security A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique " Pickle in the Middle " and said it saw no exploitation in the wild. Google has patched it; if you use the SDK, update to version 1.148.0 or later. The attacker needed only a Google Cloud project of their own and the victim's project ID, which is often public. No credentials, no phishing, no foothold in the target. The flaw was in how the SDK chose a temporary Cloud Storage bucket for model uploads. If a user did not set a bucket, the SDK generated a predictable name from the project ID and region, such as project-vertex-staging-region . It checked whether that bucket existed, but not whether the victim owned it. Because bucket names are globally unique, an attacker could create the expected bucket first in their own project. The victim's SDK would then upload the model files to the attacker's bucket. The attacker could then replace the uploaded model with a malicious one. Many Python ML models are saved with pickle or joblib , which can run code when a file is loaded. When Vertex AI later loaded the swapped model, the attacker's code executed inside the serving container. The attack depended on speed. Unit 42 measured about 2.5 seconds between the victim's upload and Vertex AI reading the file. In its proof of concept, the attacker used a Cloud Function that triggered after upload and replaced the model in 1.4 seconds, before Vertex AI read it. The payload then stole an OAuth token from the serving container's metadata server and sent it to the attacker. In Unit 42's test environment, that token was not limited to the compromised deployment. It could access other model artifacts in the same Google-managed tenant project, including a full TensorFlow model with trained weights, as well as BigQuery metadata, access lists, tenant logs, GKE cluster names, and internal container image paths. The attack worked only under specific conditions: the victim's default staging bucket did not already exist in that region, and the victim left the staging_bucket parameter unset. The first is common for a new project in Vertex AI in a region. The second depends on the developer relying on the SDK's default rather than naming their own bucket. Unit 42 reported the flaw through Google's Vulnerability Reward Program on March 5, 2026. It tested versions 1.139.0 and 1.140.0, the latest available at the time, and found both vulnerable. Google shipped an initial fix in v1.144.0 on March 31, adding a random uuid4 to the bucket name. It completed the fix in v1.148.0 on April 15, adding bucket ownership verification to block bucket squatting in Model.upload(). As of publication, neither Unit 42 nor Google's Vertex AI security bulletins list a CVE for the issue. Update to 1.148.0 or later so the ownership check is active. Also, set an explicit staging_bucket to a Cloud Storage location you control when uploading models. Because the flawed logic lives in the client SDK, check the google-cloud-aiplatform version wherever it runs, including notebooks, CI jobs, and training pipelines, not only production services. It is the second predictable-bucket-name flaw to surface in Vertex AI this year. Google patched CVE-2026-2473 in February, a separate bucket-squatting bug in Vertex AI Experiments that also allowed cross-tenant code execution, model theft, and poisoning. Unit 42's earlier work on Vertex AI's default service-agent permissions traced a related path from a deployed AI agent into customer and tenant data. Found this article interesting? Follow us on Google News , Twitter and LinkedIn
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (5)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
@@ -1595,6 +1618,11 @@ Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squattin
   - Published: 2026-06-17T14:33:51+00:00
   - Link: https://www.wiz.io/blog/red-agent-pov-ssrf
   - Summary: Part 1: How the Red Agent uncovered a multi-step attack chain allowing SSRF-to-Local-File-Read on a GCP Cloud Run API
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: What’s new with Google Cloud
+  - Published: 2026-06-19T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
+  - Summary: Want to know the latest from Google Cloud? Find it here in one handy location. Check back regularly for our newest updates, announcements, resources, events, learning opportunities, and more. Tip : Not sure where to find what you’re looking for on the Google Cloud blog? Start here: Google Cloud blog 101: Full list of topics, links, and resources . aside_block <ListValue: []> Jun 15 - Jun 19 Join us for a deep dive into agentic AI control with AppyThings Your integrations aren’t failing—they are evolving. When users interact with AI agents, they no longer arrive directly at your site, resulting in experiences stripped of your context, expertise, and intended experience. Join us on Thursday, June 25, for a community tech talk in partnership with AppyThings to learn how to solve this new gateway challenge. We will explore how MTN laid an integration foundation with the Model Context Protocol (MCP) to deliver accurate, consistent experiences. Our technical experts will demonstrate how to l
 
 ### Cluster bfe56aaca6 — score 13
 
@@ -1720,58 +1748,56 @@ Build your own vulnerability harness 2026-06-18 Dan Jones Alexandra Godoi Grant 
   - Link: https://blog.cloudflare.com/build-your-own-vulnerability-harness/
   - Summary: We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.
 
-### Cluster bc04521832 — score 11
+### Cluster 93df5bfc62 — score 11
 
-- Title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-20T09:56:04+00:00
-- Link: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
+- Title: Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-06-15T05:53:18+00:00
+- Link: https://risky.biz/RBNEWS577/
 - Fetch status: ok
 - Member count: 9
 - Corroborating source count: 6
-- Strong signals: CVE-2026-4020, WordPress
+- Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- threat_categories: phishing_social_eng, ransomware_extortion, supply_chain
 - affected_industries: financial_services
-- affected_products: Anthropic/Claude, GitHub, Microsoft Defender, WordPress
-- cve_ids: CVE-2026-11645, CVE-2026-4020
-- urgency_signals: actively_exploited, preauth_unauth, zero_day
+- affected_products: GitHub, WordPress
+- cve_ids: CVE-2026-4020
+- urgency_signals: preauth_unauth
 - content_type: news_report
 - confidence_tier: tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_products: WordPress, Microsoft Defender, Anthropic/Claude
-- cve_ids: CVE-2026-4020, CVE-2026-11645
-- urgency_signals: actively_exploited, zero_day, preauth_unauth
+- threat_categories: supply_chain, phishing_social_eng
+- affected_products: WordPress
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens
+Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem.
 ```
 
 #### Full body
 
 ```
-Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys  Ravie Lakshmanan  Jun 20, 2026 Vulnerability / Web Security Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens configured for the plugin's email integrations. "This is due to a REST API endpoint registered at /wp-json/gravitysmtp/v1/tests/mock-data with a permission_callback that unconditionally returns true, allowing any unauthenticated visitor to access it," Wordfence said . "When the ?page=gravitysmtp-settings query parameter is appended, the plugin's register_connector_data() method populates internal connector data, causing the endpoint to return approximately 365 KB of JSON containing the full System Report." As a result, an unauthenticated attacker can weaponize this issue to retrieve a wide range of information, including - PHP version Loaded extensions Web server version Document root path Database server type and version WordPress version All active plugins with versions Active theme WordPress configuration details Database table names API keys/tokens configured in the plugin, such as Amazon SES, Google, Mailjet, Resend, and Zoho Attackers could then leverage this exposure to harvest credentials that could be abused to send email on behalf of the site, as well as glean extensive details of the site's software stack, which could act as a foundation for follow-on attacks. "As with all sensitive information exposure vulnerabilities, the impact depends on what data is exposed," Wordfence added. "In this case, the exposure of live third-party API credentials means an attacker could abuse the site's connected email services, while the detailed system report significantly lowers the effort required to plan further attacks against the site." A patch for the vulnerability has been released in version 2.1.5 of the plugin. Bad actors have already pounced on the defect by sending unauthenticated HTTP GET requests to the vulnerable REST API endpoint with the "?page=gravitysmtp-settings" query parameter, causing the server to return valuable information about the site without requiring any authentication. Wordfence has blocked more than 17 million exploit attempts targeting CVE-2026-4020 to date, with initial activity commencing at the start of May 2026 before spiking up dramatically around June 6, 2026, touching a high of over 4,000,000 requests a day later. The exploit efforts have originated from the following IP addresses - 45.148.10.95 193.32.162.60 176.65.148.139 173.199.90.188 45.148.10.120 185.8.107.155 185.8.106.37 185.8.106.92 185.8.106.145 176.65.148.30 Site owners running a vulnerable version of the Gravity SMTP plugin and have configured third-party email integrations should assume compromise, and rotate the credentials after updating the plugin to the latest version as soon as possible. It's also advised to review server log files for requests originating from the aforementioned IP addresses for any suspicious requests to the API endpoint. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  API Security , email security , information disclosure , OAuth , Plugin Security , Vulnerability , Wordfence , WordPress ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards Microsoft Patches Record 206 Flaws, Includ
+Risky Bulletin Podcast June 15, 2026 Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages Presented by Catalin Cimpanu News Editor Claire Aird Newsreader Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem. Your browser does not support the audio element. Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages â¶ 0:00 / 11:14 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Arch Linux supply chain attack spreads to 1,900+ AUR packages
 ```
 
 #### Corroborating sources (6)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
-  - Published: 2026-06-20T09:56:04+00:00
-  - Link: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
-  - Summary: Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Arch Linux supply chain attack hits 1,900 packages
   - Published: 2026-06-15T05:53:18+00:00
   - Link: https://risky.biz/RBNEWS577/
   - Summary: Almost 2,000 Arch Linux packages have been infected with malware in a supply chain attack, FISA surveillance powers expire for the first time since 2008, the FBI takes down a Chinese phishing service, and a major supply chain attack hits the WordPress ecosystem.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
+  - Published: 2026-06-20T09:56:04+00:00
+  - Link: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
+  - Summary: Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin
   - Published: 2026-06-19T20:25:02+00:00
@@ -1792,6 +1818,58 @@ Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys  Ravie L
   - Published: 2026-06-15T17:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/wordpress-plugin-supply-chain/
   - Summary: Tampered OptinMonster and sister plugins plant hidden backdoors on 1.2 million WordPress sites
+
+### Cluster 512ea8982c — score 11
+
+- Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-06-17T00:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Anthropic/Claude, Google Cloud, Kubernetes
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_3_analysis
+
+#### Primary article taxonomy
+- affected_products: Kubernetes, Google Cloud, Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
+```
+
+#### Full body
+
+```
+Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
+```
+
+#### Corroborating sources (3)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
+  - Published: 2026-06-17T00:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - Summary: Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: "They screwed us": Personality clashes sent Anthropic's models offline
+  - Published: 2026-06-15T14:57:33+00:00
+  - Link: https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
+  - Summary: "They screwed us": Personality clashes sent Anthropic's models offline Lots of "source familiar with the administration's thinking" and "source close to Anthropic" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far. Logan Graham ( I lead the Frontier Red Team at Anthropic ), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them! (I just noticed Logan was "Special Adviser to the Prime Minister" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.) This closing note doesn't give me much optimism that we'll be getting Fable back any time soon: The bottom line : One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossibl
+- **Risky Business News** (practitioner_analysis)
+  - Title: Srsly Risky Biz: Anthropic has artificial, but not emotional, intelligence
+  - Published: 2026-06-18T06:17:55+00:00
+  - Link: https://risky.biz/SRB171/
+  - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
 
 ### Cluster 84319555f9 — score 10
 
@@ -1957,47 +2035,6 @@ See how Microsoft unifies identity and security signals to help teams prevent, d
   - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
   - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
-### Cluster d4997a90c8 — score 10
-
-- Title: Dozens of malicious wallpapers found on Steam Workshop: gamers’ accounts at risk
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-16T09:00:11+00:00
-- Link: https://securelist.com/dozens-of-malicious-wallpapers-found-on-steam-workshop/120186/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform's built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia.
-```
-
-#### Full body
-
-```
-Table of Contents What is Wallpaper Engine? Application wallpapers: a built-in security risk Inside an infected game wallpaper Attribution and victims How to stay safe Indicators of compromise Update, June 17 Authors Maxim Starodubov Denis Brylev Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform’s built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia, aiming to hijack their accounts. To pull this off, they are exploiting Wallpaper Engine – a popular live wallpaper app available on Steam – specifically leveraging its Workshop sharing feature. The malware is hidden inside the wallpaper packages users share with one another. Running one of these compromised wallpapers can lead to a stolen Steam account or leave the victim’s system infected with backdoors or crypto miners. What is Wallpaper Engine? Wallpaper Engine is an app that allows you to put animated wallpapers on your desktop. It’s available for both Windows and Android, though our investigation focused strictly on the Windows version. Thanks to a massive Steam community, the app is quite popular , boasting around 100,000 daily active users and nearly a million reviews. It comes with a built-in editor so users can create their own designs, and it supports a few different wallpaper types: Videos: MP4, WebM, and other common video formats Scenes: interactive wallpapers built inside the app’s own editor Web pages: HTML pages powered by JavaScript and CSS, which can also include audio and video elements Applications: active windows from third-party Windows-compatible software that Wallpaper Engine sets as the user’s desktop background That last type, application wallpapers, is where things get risky, because these are essentially standalone programs. They can be anything from mini-games you play right on your desktop, to planners, calendars, system monitors, or widgets tracking your CPU or GPU usage. Application wallpapers: a built-in security risk The whole concept of “application wallpapers” essentially allows foreign code to be run directly on your computer. Cybercriminals took note of this feature and started embedding malware right into these types of wallpapers. Because Wallpaper Engine relies on Steam Workshop for content sharing, anyone can create a wallpaper and publish it for the community to download and install for free. Naturally, this setup is a magnet for bad actors. We discovered dozens of these malicious application wallpapers floating around Steam Workshop, and each one had already been downloaded thousands – or even tens of thousands – of times. When we analyzed them, we caught two different methods the attackers were using to spread their malware: An archive containing the executable wallpaper alongside the malicious files. This payload usually consisted of compromised EXE files, DLLs, or malicious scripts. In other cases, attackers threw a curveball by hiding the malware inside a password-protected archive. Either the victim was tricked into typing the password, or a script handled it automatically. The attackers would hide the password in plain sight – either right in the archive’s name or inside a JSON configuration installed along with other wallpaper files. For all the other variations, the payload triggered automatically when the user selected and applied the wallpaper. Inside an infected game wallpaper Main screen of the wallpaper application On the surface, this wallpaper sample (above) we uncovered in December 2025 looks completely harmless. Once launched, there’s absolutely nothing to trigger your suspicion. The built-in game boots up flawlessly, runs smoothly, and the desktop controls work exactly as they should. But behind the scenes, a full-blown infection is underway. Within just a few minutes, a user might suddenly realize their Steam account has been hijacked, or find their computer crippled by malware, with their file
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Dozens of malicious wallpapers found on Steam Workshop: gamers’ accounts at risk
-  - Published: 2026-06-16T09:00:11+00:00
-  - Link: https://securelist.com/dozens-of-malicious-wallpapers-found-on-steam-workshop/120186/
-  - Summary: Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform's built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia.
-
 ### Cluster e5fc89aea1 — score 10
 
 - Title: Killing me gently: Inside Gentlemen’s EDR killer framework
@@ -2126,6 +2163,47 @@ Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A ph
   - Published: 2026-06-15T08:55:00+00:00
   - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
+
+### Cluster d4997a90c8 — score 10
+
+- Title: Dozens of malicious wallpapers found on Steam Workshop: gamers’ accounts at risk
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-16T09:00:11+00:00
+- Link: https://securelist.com/dozens-of-malicious-wallpapers-found-on-steam-workshop/120186/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform's built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia.
+```
+
+#### Full body
+
+```
+Table of Contents What is Wallpaper Engine? Application wallpapers: a built-in security risk Inside an infected game wallpaper Attribution and victims How to stay safe Indicators of compromise Update, June 17 Authors Maxim Starodubov Denis Brylev Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform’s built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia, aiming to hijack their accounts. To pull this off, they are exploiting Wallpaper Engine – a popular live wallpaper app available on Steam – specifically leveraging its Workshop sharing feature. The malware is hidden inside the wallpaper packages users share with one another. Running one of these compromised wallpapers can lead to a stolen Steam account or leave the victim’s system infected with backdoors or crypto miners. What is Wallpaper Engine? Wallpaper Engine is an app that allows you to put animated wallpapers on your desktop. It’s available for both Windows and Android, though our investigation focused strictly on the Windows version. Thanks to a massive Steam community, the app is quite popular , boasting around 100,000 daily active users and nearly a million reviews. It comes with a built-in editor so users can create their own designs, and it supports a few different wallpaper types: Videos: MP4, WebM, and other common video formats Scenes: interactive wallpapers built inside the app’s own editor Web pages: HTML pages powered by JavaScript and CSS, which can also include audio and video elements Applications: active windows from third-party Windows-compatible software that Wallpaper Engine sets as the user’s desktop background That last type, application wallpapers, is where things get risky, because these are essentially standalone programs. They can be anything from mini-games you play right on your desktop, to planners, calendars, system monitors, or widgets tracking your CPU or GPU usage. Application wallpapers: a built-in security risk The whole concept of “application wallpapers” essentially allows foreign code to be run directly on your computer. Cybercriminals took note of this feature and started embedding malware right into these types of wallpapers. Because Wallpaper Engine relies on Steam Workshop for content sharing, anyone can create a wallpaper and publish it for the community to download and install for free. Naturally, this setup is a magnet for bad actors. We discovered dozens of these malicious application wallpapers floating around Steam Workshop, and each one had already been downloaded thousands – or even tens of thousands – of times. When we analyzed them, we caught two different methods the attackers were using to spread their malware: An archive containing the executable wallpaper alongside the malicious files. This payload usually consisted of compromised EXE files, DLLs, or malicious scripts. In other cases, attackers threw a curveball by hiding the malware inside a password-protected archive. Either the victim was tricked into typing the password, or a script handled it automatically. The attackers would hide the password in plain sight – either right in the archive’s name or inside a JSON configuration installed along with other wallpaper files. For all the other variations, the payload triggered automatically when the user selected and applied the wallpaper. Inside an infected game wallpaper Main screen of the wallpaper application On the surface, this wallpaper sample (above) we uncovered in December 2025 looks completely harmless. Once launched, there’s absolutely nothing to trigger your suspicion. The built-in game boots up flawlessly, runs smoothly, and the desktop controls work exactly as they should. But behind the scenes, a full-blown infection is underway. Within just a few minutes, a user might suddenly realize their Steam account has been hijacked, or find their computer crippled by malware, with their file
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Dozens of malicious wallpapers found on Steam Workshop: gamers’ accounts at risk
+  - Published: 2026-06-16T09:00:11+00:00
+  - Link: https://securelist.com/dozens-of-malicious-wallpapers-found-on-steam-workshop/120186/
+  - Summary: Since late 2025, malware has been spreading rapidly through the Steam Workshop, the gaming platform's built-in service for players to create and share custom content. The attackers are primarily targeting gamers in China and Russia.
 
 ### Cluster 2ae6e90456 — score 10
 
@@ -2635,16 +2713,16 @@ Julie Agnes Sparks Senior Security Engineer Salesforce is one of the worldâ
   - Published: 2026-06-19T22:31:04+00:00
   - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
   - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Salesforce Data Thefts Continue via Klue App Compromise
-  - Published: 2026-06-18T16:49:04+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: Klue breach lead to Salesforce data theft, Huntress affected
   - Published: 2026-06-19T12:57:39+00:00
   - Link: https://www.helpnetsecurity.com/2026/06/19/klue-salesforce-data-breach-huntress/
   - Summary: Cybersecurity vendor Huntress was among multiple companies hit by a breach originating at Klue, a market intelligence platform used to integrate CRM and sales data across various business tools. Huntress published a detailed account of the incident on June 18, framing it as a “security domino effect” that began with one compromised integration credential and cascaded into theft of customer data across several connected platforms, including Salesforce. Attack timeline According to Huntress’s writeup, the attackers … More → The post Klue breach lead to Salesforce data theft, Huntress affected appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Salesforce Data Thefts Continue via Klue App Compromise
+  - Published: 2026-06-18T16:49:04+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
   - Published: 2026-06-19T09:03:57+00:00
@@ -3319,51 +3397,3 @@ submitted by /u/eg1x [link] [comments]
   - Published: 2026-06-15T17:44:56+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1u6nolk/chaining_security_bugs_in_discuz_x50_from_race/
   - Summary: submitted by /u/eg1x [link] [comments]
-
-### Cluster c7a6dd20f0 — score 8
-
-- Title: "They screwed us": Personality clashes sent Anthropic's models offline
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-15T14:57:33+00:00
-- Link: https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-"They screwed us": Personality clashes sent Anthropic's models offline Lots of "source familiar with the administration's thinking" and "source close to Anthropic" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far. Logan Graham ( I lead the Frontier Red Team at Anthropic ), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them! (I just noticed Logan was "Special Adviser to the Prime Minister" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.) This closing note doesn't give me much optimism that we'll be getting Fable back any time soon: The bottom line : One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossibl
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Microsoft — Agent projects stall between demo and production. Microsoft's MVP checklist closes that gap. Try it 15th June 2026 - Link Blog "They screwed us": Personality clashes sent Anthropic's models offline . Lots of "source familiar with the administration's thinking" and "source close to Anthropic" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far. Logan Graham ( I lead the Frontier Red Team at Anthropic ), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them! (I just noticed Logan was "Special Adviser to the Prime Minister" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.) This closing note doesn't give me much optimism that we'll be getting Fable back any time soon: The bottom line : One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossible. Absent that, a source familiar with the administration's thinking said it may simply come down to an attitude fix where, instead of feeling dismissed, "everyone feels safe, secure and happy." This made me wonder if Anthropic ever successfully addressed the class of attacks described in the Universal and Transferable Adversarial Attacks on Aligned Language Models paper from 2023. It looks like their Constitutional Classifiers work (that post is from January this year) is relevant to that. They continue to claim that no "universal jailbreak" has been found against Claude Mythos, classifying the jailbreak that triggered the US government response as "a potential narrow, non-universal jailbreak". Posted 15th June 2026 at 2:57 pm Recent articles Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 GLM-5.2 is probably the most powerful text-only open weights LLM - 17th June 2026 Publishing WASM wheels to PyPI for use with Pyodide - 13th June 2026 This is a link post by Simon Willison, posted on 15th June 2026 . jailbreaking 14 ai 2,081 generative-ai 1,838 llms 1,806 anthropic 299 claude 284 nicholas-carlini 12 ai-ethics 318 claude-mythos 17 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (2)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: "They screwed us": Personality clashes sent Anthropic's models offline
-  - Published: 2026-06-15T14:57:33+00:00
-  - Link: https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything
-  - Summary: "They screwed us": Personality clashes sent Anthropic's models offline Lots of "source familiar with the administration's thinking" and "source close to Anthropic" in this Axios piece, which is the best collection of behind-the-scenes gossip I've seen about the US government export control Mythos/Fable story so far. Logan Graham ( I lead the Frontier Red Team at Anthropic ), Dave Orr (Head of Safeguards, previously a Director of Engineering at Google DeepMind), and blog favorite Nicholas Carlini are reported to be meeting with the Commerce Department today in D.C. Good luck to them! (I just noticed Logan was "Special Adviser to the Prime Minister" in the Boris Johnson era, covering AI, science, and technology policy - so significant political experience.) This closing note doesn't give me much optimism that we'll be getting Fable back any time soon: The bottom line : One option is to make sure Anthropic's models can't be jailbroken — though perfect jailbreak resistance may be impossibl
-- **Risky Business News** (practitioner_analysis)
-  - Title: Srsly Risky Biz: Anthropic has artificial, but not emotional, intelligence
-  - Published: 2026-06-18T06:17:55+00:00
-  - Link: https://risky.biz/SRB171/
-  - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
