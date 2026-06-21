@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-21T19:53:25.500569+00:00
+- Generated: 2026-06-21T21:22:17.430175+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 321
+- Total items in window: 322
 - Total clusters raw: 145
 - Total clusters in packet: 57
 - Dropped low score: 88
@@ -70,41 +70,36 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 2
+  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -115,31 +110,36 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,26 +155,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -185,26 +180,31 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 15
+  - Item count: 40
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
   - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
@@ -230,21 +230,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 3
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 6
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -255,11 +260,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -280,36 +280,41 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -320,11 +325,6 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
@@ -335,18 +335,8 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,6 +345,16 @@
   - Status: ok
   - Item count: 30
   - In window count: 19
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
@@ -375,6 +375,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,18 +395,18 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,41 +415,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 44
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 15
+  - In window count: 16
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -575,15 +575,14 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: active_exploitation, phishing_social_eng
-  - affected_industries: government
+  - threat_categories: active_exploitation
   - affected_products: Ivanti
   - urgency_signals: actively_exploited
-- Cluster IDs: bffa610f21, 4e8b9974a0, bfe56aaca6
+- Cluster IDs: bffa610f21, 55705936f5, bfe56aaca6
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
-  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://risky.biz/RBNEWS579/
+  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
   - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
   - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
@@ -695,7 +694,7 @@
   - https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
 
-### phishing social eng targeting Fortinet
+### Fortinet vulnerability activity
 - Anchor signal: Fortinet
 - Theme key: fortinet
 - Cluster count: 2
@@ -705,13 +704,11 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: phishing_social_eng
-  - affected_industries: government
   - affected_products: Fortinet
-- Cluster IDs: 4e8b9974a0, 6bc465fddb
+- Cluster IDs: 55705936f5, 6bc465fddb
 - Links:
-  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://risky.biz/RBNEWS579/
+  - https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
   - https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/
   - https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html
   - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
@@ -1252,47 +1249,6 @@ CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution 
   - Link: https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary
 
-### Cluster f6709feff6 — score 17
-
-- Title: Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-16T10:00:29+00:00
-- Link: https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. The post Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE 11 min read Related Products Cortex Cortex Cloud Unit 42 AI Security Assessment Unit 42 Incident Response By: Ori Hadad Published: June 16, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: Bucket squatting Google Cloud Joblib Python RCE SDKs Vertex AI Vulnerability Share Executive Summary We discovered a vulnerability in the Google Cloud Vertex AI software development kit (SDK) for Python, and responsibly disclosed it to Google. Before Google’s fix, the vulnerability would have allowed an attacker operating entirely from their own Google Cloud project to hijack a victim's model upload and poison it. By exploiting this flaw in vulnerable versions of the SDK, an attacker can achieve remote code execution (RCE) within a target’s Vertex AI serving infrastructure, with zero initial access to the victim's project. The root enabler of this attack is a predictable default bucket name, combined with a missing ownership check in the SDK's staging logic. When a Vertex AI user uploads a model without specifying a custom staging bucket, the SDK constructs a bucket name using a deterministic pattern based on the project ID and region. An attacker who knows the victim's project ID can preemptively create this bucket in their own project, a technique known as bucket squatting. The SDK then silently uploads the victim's model artifacts to the attacker-controlled bucket. Subsequently, within a narrow window of opportunity, the attacker replaces the legitimate model with one that carries a malicious payload. Once the victim deploys the compromised model, the attacker's code executes. In vulnerable SDK versions, this can lead to data exfiltration, lateral movement and further compromise of the victim's cloud environment. We refer to the process of exploiting this vulnerability as Pickle in the Middle because it relies in part on deserializing a built-in module called pickle , as explained below in Pickle Deserialization as Attack Vector. We reported the vulnerability to the Google security team, and they accepted our findings. The issue affected google-cloud-aiplatform SDK versions 1.139.0 and 1.140.0, which was the latest at the time of testing. Google completed the fixes to address this issue in v1.148.0, which was released April 15, 2026. We recommend that developers upgrade to fixed versions of the SDK. Cortex Cloud Cortex AI-SPM The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-specific risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Vertex AI , RCE , Google Cloud , SDKs, Python Background and Terminology Vertex AI is a machine learning platform for training and deploying ML models and AI applications. The Vertex AI SDK for Python is the primary client library that developers use to interact with the platform programmatically. We focused our research on the Vertex AI SDK for Python ( google-cloud-aiplatform ), as many enterprises rely on it to create and manage their AI/ML pipelines, applications and models. The Vertex AI Model Registry is a centralized repository within Vertex AI where users store, version and manage their ML models. When a user uploads a model to the Model Registry via the SDK, the SDK first stages the model artifacts in a Google Cloud Service (GCS) bucket before registering them with the service. The Model Registry then references these staged artifacts. When the model is deployed to an endpoint, Google's internal infrastructure (specifically, a Per-Product, Per-Project Service Account or P4SA) loads them into a serving container. Figure 1 shows the intended model upload flow. Figure 1. Uploading a model to Model Registry. Bucket Squatting Bucket squatting is a class of
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE
-  - Published: 2026-06-16T10:00:29+00:00
-  - Link: https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
-  - Summary: Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. The post Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE appeared first on Unit 42 .
-
 ### Cluster 165b535ec0 — score 17
 
 - Title: AutoJack: How a single page can RCE the host running your AI agent
@@ -1333,6 +1289,47 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Published: 2026-06-19T00:17:54+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
   - Summary: AutoJack is a novel exploit chain showing how a single malicious webpage can turn an AI browsing agent into a remote code execution vector on the host machine. By abusing trust in localhost, missing authentication, and unsafe parameter handling, attackers can trigger arbitrary process execution through AutoGen Studio’s MCP WebSocket. The research highlights a broader pattern - when agents can browse untrusted content and access local services, traditional boundaries like localhost are no longer secure. The post AutoJack: How a single page can RCE the host running your AI agent appeared first on Microsoft Security Blog .
+
+### Cluster f6709feff6 — score 17
+
+- Title: Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-16T10:00:29+00:00
+- Link: https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. The post Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE 11 min read Related Products Cortex Cortex Cloud Unit 42 AI Security Assessment Unit 42 Incident Response By: Ori Hadad Published: June 16, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: Bucket squatting Google Cloud Joblib Python RCE SDKs Vertex AI Vulnerability Share Executive Summary We discovered a vulnerability in the Google Cloud Vertex AI software development kit (SDK) for Python, and responsibly disclosed it to Google. Before Google’s fix, the vulnerability would have allowed an attacker operating entirely from their own Google Cloud project to hijack a victim's model upload and poison it. By exploiting this flaw in vulnerable versions of the SDK, an attacker can achieve remote code execution (RCE) within a target’s Vertex AI serving infrastructure, with zero initial access to the victim's project. The root enabler of this attack is a predictable default bucket name, combined with a missing ownership check in the SDK's staging logic. When a Vertex AI user uploads a model without specifying a custom staging bucket, the SDK constructs a bucket name using a deterministic pattern based on the project ID and region. An attacker who knows the victim's project ID can preemptively create this bucket in their own project, a technique known as bucket squatting. The SDK then silently uploads the victim's model artifacts to the attacker-controlled bucket. Subsequently, within a narrow window of opportunity, the attacker replaces the legitimate model with one that carries a malicious payload. Once the victim deploys the compromised model, the attacker's code executes. In vulnerable SDK versions, this can lead to data exfiltration, lateral movement and further compromise of the victim's cloud environment. We refer to the process of exploiting this vulnerability as Pickle in the Middle because it relies in part on deserializing a built-in module called pickle , as explained below in Pickle Deserialization as Attack Vector. We reported the vulnerability to the Google security team, and they accepted our findings. The issue affected google-cloud-aiplatform SDK versions 1.139.0 and 1.140.0, which was the latest at the time of testing. Google completed the fixes to address this issue in v1.148.0, which was released April 15, 2026. We recommend that developers upgrade to fixed versions of the SDK. Cortex Cloud Cortex AI-SPM The Unit 42 AI Security Assessment and Unit 42 Frontier AI Defense service can help identify and mitigate complex AI-specific risks. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Vertex AI , RCE , Google Cloud , SDKs, Python Background and Terminology Vertex AI is a machine learning platform for training and deploying ML models and AI applications. The Vertex AI SDK for Python is the primary client library that developers use to interact with the platform programmatically. We focused our research on the Vertex AI SDK for Python ( google-cloud-aiplatform ), as many enterprises rely on it to create and manage their AI/ML pipelines, applications and models. The Vertex AI Model Registry is a centralized repository within Vertex AI where users store, version and manage their ML models. When a user uploads a model to the Model Registry via the SDK, the SDK first stages the model artifacts in a Google Cloud Service (GCS) bucket before registering them with the service. The Model Registry then references these staged artifacts. When the model is deployed to an endpoint, Google's internal infrastructure (specifically, a Per-Product, Per-Project Service Account or P4SA) loads them into a serving container. Figure 1 shows the intended model upload flow. Figure 1. Uploading a model to Model Registry. Bucket Squatting Bucket squatting is a class of
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE
+  - Published: 2026-06-16T10:00:29+00:00
+  - Link: https://unit42.paloaltonetworks.com/hijacking-vertex-ai-model/
+  - Summary: Unit 42 discovered a Vertex AI Python SDK vulnerability that allows remote code execution via bucket squatting. Read the article for more. The post Pickle in the Middle – Hijacking Vertex AI Model Uploads for Cross-Tenant RCE appeared first on Unit 42 .
 
 ### Cluster 75ea622200 — score 16
 
@@ -1430,56 +1427,55 @@ CISA: Splunk Enterprise flaw actively exploited, patch by Sunday By Sergiu Gatla
   - Link: https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/
   - Summary: CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]
 
-### Cluster 4e8b9974a0 — score 15
+### Cluster 55705936f5 — score 15
 
-- Title: Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-06-21T08:00:25+00:00
-- Link: https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
+- Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-06-19T05:23:40+00:00
+- Link: https://risky.biz/RBNEWS579/
 - Fetch status: ok
 - Member count: 7
 - Corroborating source count: 7
 - Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, phishing_social_eng, supply_chain, vulnerability_disclosure, web_shell_backdoor
-- affected_industries: education, government
+- threat_categories: credential_theft, supply_chain, web_shell_backdoor
+- affected_industries: education
 - affected_products: Fortinet, Ivanti
 - cve_ids: CVE-2026-25089, CVE-2026-39808, CVE-2026-39813
 - content_type: incident_report, news_report
 - confidence_tier: tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, web_shell_backdoor, vulnerability_disclosure
-- affected_industries: government, education
+- threat_categories: supply_chain
 - affected_products: Fortinet
-- content_type: news_report
-- confidence_tier: tier_4_news
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
 
 #### Summary
 
 ```
-Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring … More → The post Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack appeared first on Help Net Security .
+A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
 ```
 
 #### Full body
 
 ```
-Help Net Security June 21, 2026 Share Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring CISO on where automated GRC systems fall short In this interview with Help Net Security, Nichole Windholz, CISO at Onspring, talks about the limits of automated GRC systems and continuous control monitoring. She explains why color-coded dashboards can hide nuance, how teams can check the data feeding their tools, and which risks resist measurement, such as insider behavior and vendor concentration. AI vulnerability discovery is pushing 2026 CVEs toward 66,000 Vulnerability disclosures are piling up faster in 2026 than anyone expected at the start of the year. The running count for the first few months sits well above the original projection, and the Forum of Incident Response and Security Teams (FIRST) now expects the year to land near 66,000 CVEs. Reachability makes AI threat modeling worth the trust In this interview with Help Net Security, Oscar Andersson, CTO at Oplane, explains why most scanning tools fail. They cry wolf, flagging threats that cannot run in real code. The argument centers on reachability. A finding counts only when someone walks the path to impact on a working build. The SOC’s visibility gap comes down to staffing AI has settled into security operations centers faster than any earlier wave of technology. Around four in five practitioners report reaching for AI or machine learning tools in their daily work. The catch shows up one layer down. Roughly a third of those same teams have built these tools into a defined workflow with structure, governance, and consistent validation. The rest pick up AI on their own, case by case, with no shared playbook for how it gets used or checked. The Chainguard Athena coalition already shipped 2,000 patches across 500 open source projects Chainguard launched Athena, an industry coalition that pools open source vulnerability findings and remediates them under embargo before public disclosure. The group went live with more than two dozen member organizations. Founding members include BNY, Chainguard, Cisco, Cloudflare, Corridor, DepthFirst, Docker, JPMorganChase, Kyndryl, LTIMindtree, and PwC. What happens to oversight when AI agents write a lab’s own code Inside the labs building frontier AI, a growing share of the coding gets done by the AI itself. These agents write, edit, and run software with light human oversight between steps, and they reach into production infrastructure, research pipelines, and potentially the systems that train and evaluate future models. Securing digital keys when your phone unlocks the car In this interview with Help Net Security, Alysia Johnson, President of the Car Connectivity Consortium (CCC), explains how the CCC Digital Key has grown from a single-brand feature into a standard meant to work across phones, automakers, and suppliers. Your browser tab could become encrypted storage for someone else’s files Decentralized storage networks already hand pieces of people’s data to strangers’ machines. The lasting question across these networks is whether the machine holding the data can read it. A research paper by Gregory Magarshak, a professor at IENYC, describes a system called Safecloud built on one design rule: the nodes that store data see only ciphertext, and the nodes that route data hold no keys. PhishLumos: Exposing phishing campaigns that evade detection by hiding content Phishing r
+Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet devices leaked Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A LOT of Fortinet creds have leaked online, Canadaâs spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish. Your browser does not support the audio element. Risky Bulletin: Creds for 74,000 Fortinet devices leaked â¶ 0:00 / 11:00 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Canadaâs spy agency allowed to remove a botnet from Canadian devices
 ```
 
 #### Corroborating sources (7)
 
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack
-  - Published: 2026-06-21T08:00:25+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
-  - Summary: Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring … More → The post Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack appeared first on Help Net Security .
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
   - Published: 2026-06-19T05:23:40+00:00
   - Link: https://risky.biz/RBNEWS579/
   - Summary: A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack
+  - Published: 2026-06-21T08:00:25+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/
+  - Summary: Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring … More → The post Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack appeared first on Help Net Security .
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: FortiBleed: 86,000 Fortinet Device Credentials Compromised
   - Published: 2026-06-19T10:48:08+00:00
@@ -1871,6 +1867,84 @@ Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Min
   - Link: https://risky.biz/SRB171/
   - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
 
+### Cluster f4c821a558 — score 10
+
+- Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T23:11:43+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- affected_industries: financial_services
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts for XDR Topics Actionable threat insights Microsoft Threat Intelligence and Microsoft Defender Experts identified a Windows-based cryptocurrency clipper that has affected users since February of 2026. Clipper malware relies on stealing clipboard data and parsing it for valuable assets. The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution. The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor. For defenders, the strongest signals are behavioral: script interpreters spawning suspicious child processes, localhost:9050 proxy usage, screen-capture commands in PowerShell, and signs of clipboard inspection or crypto-address replacement. Microsoft Defender for Endpoint detects multiple components of this threat such as Suspicious JavaScript process and Possible data exfiltration using Curl . Additionally, Microsoft Defender Antivirus detects this crypto clipper as Trojan: Win32/CryptoBandits.A . Attack chain overview Since February 2026, malicious shortcut (.lnk) payloads have infected devices with a cryptocurrency clipper. This malware comprises two components that it deploys on the compromised system: a worm component that ensures propagation and a clipper/stealer component that harvests and exfiltrates cryptocurrency wallet information. The worm functionality ensures propagation by creating additional malicious shortcuts of legitimate files it identifies on the device. It also delivers file-based payloads and excludes them from Defender scanning. It deploys scheduled tasks for execution and persistence for both the worm component and the stealer component. Figure 1 presents a high-level execution flow of the two components. The clipper runs as a script-based payload that interacts with the operating system through WScript and ActiveXObject. It includes an anti-analysis check that queries running processes and exits if Task Manager is detected. If the environment passes this gate, the malware launches a renamed Tor binary named ugate.exe in a hidden window, waits about 60 seconds for Tor to bootstrap, generates a victim GUID, and registers the infected device with a hidden-service C2. After registration, the malware enters a continuous loop. It polls the C2 for instructions and monitors the clipboard roughly every 500 milliseconds, extracting seed phrases and private keys that match wallet-related patterns. It also hijacks cryptocurrency addresses by replacing copied wallet values with attacker-controlled alternatives and uploads screenshots through Tor. If the C2 returns an EVAL response, the malware executes attacker-supplied code at runtime. Figure 1: High level execution flow. Behaviors and methodologies Initial access Initial access occurs from malicious .lnk files. In instances we analyzed, these .lnk shortcuts were distributed on USB storage devices. The .lnk shortcut stages a worm component in the form of an executable. The malicious script checks for an existing malicious payload and stops if the device is already infected. If the payload is not present, the malware fetches the payload from the C2 through Tor. The Figure below illustrates the functions that stage and decrypt the initial payload. Figure 2: Initial payload delivery. The .lnk payload scans the USB device for common document files like .doc, .xlsx, .pdf, hides the original files, and creates additional .lnk shortcut files with the same file names. The shortcut f
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
+  - Published: 2026-06-17T23:11:43+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
+  - Summary: Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
+
+### Cluster 76d7f3c3fb — score 10
+
+- Title: AI is accelerating cyberattacks—here’s how to stay ahead
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-17T17:00:00+00:00
+- Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: AI is accelerating cyberattacks—here’s how to stay ahead
+  - Published: 2026-06-17T17:00:00+00:00
+  - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
+  - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
+
 ### Cluster 84319555f9 — score 10
 
 - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
@@ -1956,84 +2030,6 @@ Threat Research Center Insights Inside the Modern SOC Inside the Modern SOC Insi
   - Published: 2026-06-15T23:00:19+00:00
   - Link: https://unit42.paloaltonetworks.com/soc-72-minute-race/
   - Summary: Attackers can move from access to exfiltration in 72 minutes. Learn how modern SOC teams close the speed gap with Unit 42's AI-driven automation, threat hunting, MDR and Managed XSIAM. The post Inside the Modern SOC: The 72-Minute Race appeared first on Unit 42 .
-
-### Cluster f4c821a558 — score 10
-
-- Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-17T23:11:43+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- affected_industries: financial_services
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Microsoft Defender Experts for XDR Topics Actionable threat insights Microsoft Threat Intelligence and Microsoft Defender Experts identified a Windows-based cryptocurrency clipper that has affected users since February of 2026. Clipper malware relies on stealing clipboard data and parsing it for valuable assets. The clipper in this campaign relies on Windows Script Host and ActiveX-driven logic to launch a bundled Tor proxy and poll a hidden-service C2 server. It carries out high-frequency clipboard theft, screenshot exfiltration, and wallet-address substitution. The execution of this clipper is notable because it does not depend on a traditional installer or exposed IP-based C2 infrastructure. Instead, it deploys a portable Tor client, routes traffic through a local SOCKS5 proxy, and blends data theft with remote code execution, turning a financially motivated stealer into a lightweight backdoor. For defenders, the strongest signals are behavioral: script interpreters spawning suspicious child processes, localhost:9050 proxy usage, screen-capture commands in PowerShell, and signs of clipboard inspection or crypto-address replacement. Microsoft Defender for Endpoint detects multiple components of this threat such as Suspicious JavaScript process and Possible data exfiltration using Curl . Additionally, Microsoft Defender Antivirus detects this crypto clipper as Trojan: Win32/CryptoBandits.A . Attack chain overview Since February 2026, malicious shortcut (.lnk) payloads have infected devices with a cryptocurrency clipper. This malware comprises two components that it deploys on the compromised system: a worm component that ensures propagation and a clipper/stealer component that harvests and exfiltrates cryptocurrency wallet information. The worm functionality ensures propagation by creating additional malicious shortcuts of legitimate files it identifies on the device. It also delivers file-based payloads and excludes them from Defender scanning. It deploys scheduled tasks for execution and persistence for both the worm component and the stealer component. Figure 1 presents a high-level execution flow of the two components. The clipper runs as a script-based payload that interacts with the operating system through WScript and ActiveXObject. It includes an anti-analysis check that queries running processes and exits if Task Manager is detected. If the environment passes this gate, the malware launches a renamed Tor binary named ugate.exe in a hidden window, waits about 60 seconds for Tor to bootstrap, generates a victim GUID, and registers the infected device with a hidden-service C2. After registration, the malware enters a continuous loop. It polls the C2 for instructions and monitors the clipboard roughly every 500 milliseconds, extracting seed phrases and private keys that match wallet-related patterns. It also hijacks cryptocurrency addresses by replacing copied wallet values with attacker-controlled alternatives and uploads screenshots through Tor. If the C2 returns an EVAL response, the malware executes attacker-supplied code at runtime. Figure 1: High level execution flow. Behaviors and methodologies Initial access Initial access occurs from malicious .lnk files. In instances we analyzed, these .lnk shortcuts were distributed on USB storage devices. The .lnk shortcut stages a worm component in the form of an executable. The malicious script checks for an existing malicious payload and stops if the device is already infected. If the payload is not present, the malware fetches the payload from the C2 through Tor. The Figure below illustrates the functions that stage and decrypt the initial payload. Figure 2: Initial payload delivery. The .lnk payload scans the USB device for common document files like .doc, .xlsx, .pdf, hides the original files, and creates additional .lnk shortcut files with the same file names. The shortcut f
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Crypto Clipper uses Tor and worm-like propagation for persistence and control
-  - Published: 2026-06-17T23:11:43+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
-  - Summary: Microsoft Threat Intelligence analyzed a cryptocurrency clipper campaign that combines clipboard theft, wallet replacement, Tor-based communications, and worm-like propagation. Beyond stealing cryptocurrency transactions, the malware establishes persistent access and enables follow-on activity through a lightweight backdoor capability. The post Crypto Clipper uses Tor and worm-like propagation for persistence and control appeared first on Microsoft Security Blog .
-
-### Cluster 76d7f3c3fb — score 10
-
-- Title: AI is accelerating cyberattacks—here’s how to stay ahead
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-17T17:00:00+00:00
-- Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: AI is accelerating cyberattacks—here’s how to stay ahead
-  - Published: 2026-06-17T17:00:00+00:00
-  - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-  - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
 ### Cluster d4997a90c8 — score 10
 
@@ -2297,49 +2293,6 @@ Cybercrime EvilTokens: A phishing attack that doesn’t steal your password A ph
   - Link: https://www.welivesecurity.com/en/cybercrime/eviltokens-phishing-doesnt-steal-password/
   - Summary: A phishing kit subverting Microsoft’s legitimate authentication flow lets attackers break into accounts without stealing passwords or creating fake login pages
 
-### Cluster e2ef0ac5b5 — score 10
-
-- Title: Entra Agent ID: Inside a cross-tenant agent compromise
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-18T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: APT29
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- actor_attribution: APT29
-- affected_products: Microsoft Entra
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
-```
-
-#### Full body
-
-```
-Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
-  - Published: 2026-06-18T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
-  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
-
 ### Cluster d897bb4cf8 — score 10
 
 - Title: Why Security Teams Need To Start Earlier
@@ -2465,6 +2418,90 @@ Back to Blog Artificial Intelligence Beyond the Score: Using AI to Translate CVE
   - Link: https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk
   - Summary: Security leaders rarely struggle to gather data, but they often struggle to turn that data into something clear and meaningful for the business. In a typical week, a CISO might receive a report listing hundreds or even thousands of vulnerabilities, most of them accompanied by CVSS scores that make the entire list look urgent, while also managing the wider set of operational, regulatory, and strategic demands that already come with the role. That difficulty becomes more obvious when the same information has to be carried into the boardroom, where the questions are rarely about CVE IDs or exploit counts in isolation. What leadership wants to understand is whether the organization’s revenue, uptime, legal exposure, or broader resilience could be affected, and how quickly those risks need to be addressed. This is where many security programs lose momentum, because the technical view of severity does not always line up neatly with the business view of consequence. Bridging that gap has trad
 
+### Cluster e2ef0ac5b5 — score 10
+
+- Title: Entra Agent ID: Inside a cross-tenant agent compromise
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-18T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: APT29
+
+#### Cluster taxonomy (union across members)
+- actor_attribution: APT29
+- affected_products: Microsoft Entra
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- actor_attribution: APT29
+- affected_products: Microsoft Entra
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+```
+
+#### Full body
+
+```
+Katie Knowles Senior Security Researcher Key points In the previous post of this series, we shared how Entra's agent identity model works, and how it can expand the blast radius of an attack compared to the traditional application model. Building on part 1, this post demonstrates a compromise of a privileged agent through a third-party blueprint. This leads to a cross-tenant compromise similar to Midnight Blizzard . As with the application model, an attacker with control over an agent blueprint in Entra's agent identity model can add a credential to that blueprint. They can then use that credential to authenticate as any agent associated with that blueprint, in any Entra tenant. In our next post, we'll cover security considerations for working with agent identities. Introduction This post will pick up where our last post left off by demonstrating the impact of an Entra agent identity compromise. In this post, we'll show how a compromised blueprint in an initial Entra tenant can be used to access agents created from that blueprint in a second Entra tenant. This is similar to cross-tenant attacks seen in incidents like Midnight Blizzard . In this type of compromise, the attacker adds a credential to the compromised blueprint. The attacker can use this credential to authenticate as all agent blueprint service principals (SPs), agent identities, and agent users associated with that blueprint, regardless of which Entra tenant they reside in. Third-party blueprints , especially "agent factory"âtype solutions, can create multiple agents with many different permission contexts. By demonstrating this type of attack, we hope to highlight the risk of trusting agent identities, especially those from third-party sources, with high-risk permissions. It's also important to remember that, to an extent even beyond what we demonstrate in this blog post, many agent identities with different permissions can be associated with a single blueprint. Depending on how agents are configured, this shared blueprint could enable a single compromise to expose numerous identities across multiple permission contexts. Compromising a tenant with a third-party blueprint In our scenario, an attacker has compromised a user with the Agent ID Administrator role in a target corporate Entra ID tenant. They've identified a solution, called People Team Agents, that the tenant uses to provide useful agents for the People Team across its other Entra tenants. The People Team Agents blueprint and blueprint principal were created in the corporate tenant. That blueprint was then used to create an agent in one of the company's subsidiary tenants. Only an administrator's consent was required to create an agent from this blueprint in the second tenant. No tenant-level relationship is required: The corporate tenant publishes the People Team Agents blueprint, which is used to create an agent identity with permissions in the subsidiary tenant (click to enlarge). The subsidiary tenant's agent, Temporary Access Agent, is granted the ability to fetch user details and update user passwords with Microsoft Graph permissions ( UserAuthMethod-TAP.ReadWrite.All , User.Read.All ). These privileges are intended to help users regain access to their accounts to reconfigure multi-factor authentication (MFA). But in the wrong hands, they can be abused to gain access to any Entra user account. Note: Several steps in the scenario below use Microsoft Graph to modify and work with agents. This is due to limited support for agents in the Entra Portal at this time. 1. Compromising a blueprint by adding a credential An attacker has compromised an Agent ID Administrator in the corporate Entra tenant. This role grants them permissions to manage all agents, including adding a credential to take actions as an agent through its blueprint. An attacker with the Agent ID Administrator role is able to add a credential to the People Team Agents blueprint (click to enlarge). Searching the tenant's Entra director
+```
+
+#### Corroborating sources (1)
+
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Entra Agent ID: Inside a cross-tenant agent compromise
+  - Published: 2026-06-18T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
+  - Summary: Continuing our Agent ID series, this post demonstrates how a privileged agent could be compromised through its third-party blueprint. This leads to a cross-tenant incident similar to Midnight Blizzard, since an attacker with control over an agent blueprint can authenticate as any agent associated with that blueprint.
+
+### Cluster 8ffac1c2f0 — score 9
+
+- Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
+- Source: NCSC UK (government_authoritative)
+- Published: 2026-06-17T12:00:00+00:00
+- Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, government
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- affected_industries: government, critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
+```
+
+#### Full body
+
+```
+News Download & print article PDF Download & print article PDF NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture. sarayut Thaneerat via Getty Images Three-quarters of cyber attacks impacting organisations within the UK’s critical infrastructure over the past year can be linked back to hostile state actors, the head of the National Cyber Security Centre (NCSC) has revealed. In a major speech today, the CEO of the NCSC Dr Richard Horne said more than 200 cyber incidents affecting the UK’s critical national infrastructure and its supporting ecosystem were managed by the NCSC in the year to May 2026, with around 75% of those believed to be linked to state actors. Speaking at the Royal United Services Institute’s (RUSI) Annual Security Lecture, Dr Horne, warned that hostile states, such as Russia, China and Iran, are increasingly targeting the systems that underpin the UK’s essential services, arguing that cyber security should not be treated simply as a risk to be managed, but as an ongoing contest with capable adversaries. In his speech, Dr Horne said: ...this contest is not confined to a compact space. It is not like a wrestling match in a closely defined territory as some have suggested. It is far more akin to a football or basketball game, played across a large field of play, where success depends on how you operate across the entire pitch. He outlined the need for coordinated action across the “near, mid and far” cyber spaces, “the different parts of the environment where we come into contact with our adversaries, with different approaches in each.” Dr Horne called on “every board member and every executive, in every organisation” to strengthen cyber resilience by focusing on three core capabilities: understanding their exposure to threats, building stronger defences based on proven security fundamentals, and ensuring they can continue operating and recover quickly after an attack. In his lecture, he said: We still see far too many significant incidents today that are possible because the fundamentals are not in place.... “The truth is that in this great contest there are no spectators, we are all on the pitch. From boardrooms to IT help desks, to sofas at home, the contest is everywhere. “If we collectively embrace the contest, understand the urgency and believe we can be a match for any opponent, then we can and will prevail. Speaking about the cyber threat in future conflict scenarios, Dr Horne emphasised the urgency of organisations acting now for their own protection, arguing: …the many vulnerabilities that organisations tolerate today will be exploited in conflict tomorrow. If they are too expensive or hard to fix in peacetime, then they certainly will be in war… “In cyberspace, we are not preparing for tomorrow’s conflicts, to some degree we are fighting them today. NCSC CEO also warned that advances in artificial intelligence are likely to accelerate the threat, with the NCSC assessing that by 2028 AI-enabled cyber capabilities will likely be used by attackers to exploit known vulnerabilities in legacy technology at scale across critical national infrastructure. The NCSC has published a range of resources and guidance to help organisations counter AI-powered attacks by acting now to improve their cyber security foundations. For more information, visit ncsc.gov.uk/frontier-ai . Frontier AI: what you need to know Organisations need to be ready to counter the enhanced capabilities of AI-powered attacks. Share and print this article Download & print article PDF Download & print article PDF Share Share Close share options Share on Facebook Share on LinkedIn Share on X Copy Link Published Publish date 17 June 2026 Written for Written for Cyber security professionals Large organisations Public sector News type General news Was this article helpful?
+```
+
+#### Corroborating sources (1)
+
+- **NCSC UK** (government_authoritative)
+  - Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
+  - Published: 2026-06-17T12:00:00+00:00
+  - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
+  - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
+
 ### Cluster a9ba6bfe90 — score 9
 
 - Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
@@ -2534,47 +2571,6 @@ I detected an interesting phishing email this morning. It targets a major Belgia
   - Published: 2026-06-18T01:49:29+00:00
   - Link: https://isc.sans.edu/diary/rss/33086
   - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
-
-### Cluster 8ffac1c2f0 — score 9
-
-- Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
-- Source: NCSC UK (government_authoritative)
-- Published: 2026-06-17T12:00:00+00:00
-- Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, government
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- affected_industries: government, critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
-```
-
-#### Full body
-
-```
-News Download & print article PDF Download & print article PDF NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture. sarayut Thaneerat via Getty Images Three-quarters of cyber attacks impacting organisations within the UK’s critical infrastructure over the past year can be linked back to hostile state actors, the head of the National Cyber Security Centre (NCSC) has revealed. In a major speech today, the CEO of the NCSC Dr Richard Horne said more than 200 cyber incidents affecting the UK’s critical national infrastructure and its supporting ecosystem were managed by the NCSC in the year to May 2026, with around 75% of those believed to be linked to state actors. Speaking at the Royal United Services Institute’s (RUSI) Annual Security Lecture, Dr Horne, warned that hostile states, such as Russia, China and Iran, are increasingly targeting the systems that underpin the UK’s essential services, arguing that cyber security should not be treated simply as a risk to be managed, but as an ongoing contest with capable adversaries. In his speech, Dr Horne said: ...this contest is not confined to a compact space. It is not like a wrestling match in a closely defined territory as some have suggested. It is far more akin to a football or basketball game, played across a large field of play, where success depends on how you operate across the entire pitch. He outlined the need for coordinated action across the “near, mid and far” cyber spaces, “the different parts of the environment where we come into contact with our adversaries, with different approaches in each.” Dr Horne called on “every board member and every executive, in every organisation” to strengthen cyber resilience by focusing on three core capabilities: understanding their exposure to threats, building stronger defences based on proven security fundamentals, and ensuring they can continue operating and recover quickly after an attack. In his lecture, he said: We still see far too many significant incidents today that are possible because the fundamentals are not in place.... “The truth is that in this great contest there are no spectators, we are all on the pitch. From boardrooms to IT help desks, to sofas at home, the contest is everywhere. “If we collectively embrace the contest, understand the urgency and believe we can be a match for any opponent, then we can and will prevail. Speaking about the cyber threat in future conflict scenarios, Dr Horne emphasised the urgency of organisations acting now for their own protection, arguing: …the many vulnerabilities that organisations tolerate today will be exploited in conflict tomorrow. If they are too expensive or hard to fix in peacetime, then they certainly will be in war… “In cyberspace, we are not preparing for tomorrow’s conflicts, to some degree we are fighting them today. NCSC CEO also warned that advances in artificial intelligence are likely to accelerate the threat, with the NCSC assessing that by 2028 AI-enabled cyber capabilities will likely be used by attackers to exploit known vulnerabilities in legacy technology at scale across critical national infrastructure. The NCSC has published a range of resources and guidance to help organisations counter AI-powered attacks by acting now to improve their cyber security foundations. For more information, visit ncsc.gov.uk/frontier-ai . Frontier AI: what you need to know Organisations need to be ready to counter the enhanced capabilities of AI-powered attacks. Share and print this article Download & print article PDF Download & print article PDF Share Share Close share options Share on Facebook Share on LinkedIn Share on X Copy Link Published Publish date 17 June 2026 Written for Written for Cyber security professionals Large organisations Public sector News type General news Was this article helpful?
-```
-
-#### Corroborating sources (1)
-
-- **NCSC UK** (government_authoritative)
-  - Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
-  - Published: 2026-06-17T12:00:00+00:00
-  - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
-  - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
 
 ### Cluster f99fcc5f45 — score 9
 

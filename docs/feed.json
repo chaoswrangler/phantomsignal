@@ -1,30 +1,9 @@
 {
-  "generated_at": "2026-06-21T19:53:25.508363+00:00",
+  "generated_at": "2026-06-21T21:22:17.437856+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
   "feed_status": {
-    "CrowdStrike": {
-      "url": "https://www.crowdstrike.com/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 8
-    },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
@@ -32,11 +11,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "CrowdStrike": {
+      "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Trend Micro Research": {
@@ -46,12 +25,26 @@
       "item_count": 25,
       "in_window_count": 0
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
+      "cohort": "threat_research_primary",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 15,
-      "in_window_count": 2
+      "in_window_count": 3
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -67,12 +60,26 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
+      "in_window_count": 3
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
     },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
@@ -81,13 +88,6 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -95,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 9
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -123,18 +123,18 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 78,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -143,13 +143,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
-    },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -165,11 +158,11 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 15,
+      "item_count": 40,
       "in_window_count": 0
     },
     "The DFIR Report": {
@@ -179,11 +172,11 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
       "in_window_count": 0
     },
     "TrustedSec": {
@@ -192,6 +185,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -228,13 +228,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 3
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,12 +235,26 @@
       "item_count": 20,
       "in_window_count": 6
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 3
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 4
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -262,13 +269,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -298,33 +298,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 2
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
-    },
-    "Coveware": {
-      "url": "https://www.coveware.com/blog?format=rss",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
@@ -333,12 +312,40 @@
       "item_count": 20,
       "in_window_count": 20
     },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 2
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
+    "Coveware": {
+      "url": "https://www.coveware.com/blog?format=rss",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Chainalysis": {
       "url": "https://www.chainalysis.com/blog/feed/",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 6
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -354,13 +361,6 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -375,22 +375,8 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -402,6 +388,20 @@
       "status": "ok",
       "item_count": 30,
       "in_window_count": 19
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -431,6 +431,13 @@
       "item_count": 10,
       "in_window_count": 6
     },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
       "cohort": "practitioner_analysis",
@@ -452,11 +459,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Reddit r/sysadmin": {
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 0,
       "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
@@ -466,8 +473,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/sysadmin": {
-      "url": "https://www.reddit.com/r/sysadmin/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -480,26 +487,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 4
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -508,13 +508,6 @@
       "item_count": 50,
       "in_window_count": 44
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
       "cohort": "cyber_news_breach_reporting",
@@ -522,12 +515,19 @@
       "item_count": 100,
       "in_window_count": 27
     },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 15
+      "in_window_count": 16
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -838,11 +838,7 @@
       "theme_key": "ivanti",
       "dominant_features": {
         "threat_categories": [
-          "active_exploitation",
-          "phishing_social_eng"
-        ],
-        "affected_industries": [
-          "government"
+          "active_exploitation"
         ],
         "affected_products": [
           "Ivanti"
@@ -861,13 +857,13 @@
       "also_targets": [],
       "cluster_ids": [
         "bffa610f21",
-        "4e8b9974a0",
+        "55705936f5",
         "bfe56aaca6"
       ],
       "links": [
         "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-        "https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/",
         "https://risky.biz/RBNEWS579/",
+        "https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/",
         "https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/",
         "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
         "https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/",
@@ -1040,16 +1036,10 @@
       ]
     },
     {
-      "label": "phishing social eng targeting Fortinet",
+      "label": "Fortinet vulnerability activity",
       "anchor_signal": "Fortinet",
       "theme_key": "fortinet",
       "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "affected_industries": [
-          "government"
-        ],
         "affected_products": [
           "Fortinet"
         ]
@@ -1063,12 +1053,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "4e8b9974a0",
+        "55705936f5",
         "6bc465fddb"
       ],
       "links": [
-        "https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/",
         "https://risky.biz/RBNEWS579/",
+        "https://www.helpnetsecurity.com/2026/06/21/week-in-review-74k-fortinet-firewall-credentials-stolen-splunk-enterprise-rce-under-active-attack/",
         "https://www.securityweek.com/fortibleed-86000-fortinet-device-credentials-compromised/",
         "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
         "https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/",
@@ -1322,13 +1312,10 @@
       "taxonomy": {
         "threat_categories": [
           "supply_chain",
-          "phishing_social_eng",
-          "web_shell_backdoor",
-          "vulnerability_disclosure"
+          "web_shell_backdoor"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "government",
           "education"
         ],
         "affected_products": [
@@ -1347,9 +1334,7 @@
           "products": []
         }
       },
-      "score": 13,
-      "full_body": "Help Net Security June 21, 2026 Share Week in review: 74k Fortinet firewall credentials stolen, Splunk Enterprise RCE under active attack Here’s an overview of some of last week’s most interesting news, articles, interviews and videos: A hardware neural network backdoor that hides in plain sight Deep learning systems on edge devices often rely on third-party-designed FPGAs and ASICs for performance and efficiency, creating supply chain risks. Researchers from the University of Tennessee and the University of Florida developed HAMLOCK, a backdoor attack that splits malicious functionality between hardware and software, making detection more difficult. Onspring CISO on where automated GRC systems fall short In this interview with Help Net Security, Nichole Windholz, CISO at Onspring, talks about the limits of automated GRC systems and continuous control monitoring. She explains why color-coded dashboards can hide nuance, how teams can check the data feeding their tools, and which risks resist measurement, such as insider behavior and vendor concentration. AI vulnerability discovery is pushing 2026 CVEs toward 66,000 Vulnerability disclosures are piling up faster in 2026 than anyone expected at the start of the year. The running count for the first few months sits well above the original projection, and the Forum of Incident Response and Security Teams (FIRST) now expects the year to land near 66,000 CVEs. Reachability makes AI threat modeling worth the trust In this interview with Help Net Security, Oscar Andersson, CTO at Oplane, explains why most scanning tools fail. They cry wolf, flagging threats that cannot run in real code. The argument centers on reachability. A finding counts only when someone walks the path to impact on a working build. The SOC’s visibility gap comes down to staffing AI has settled into security operations centers faster than any earlier wave of technology. Around four in five practitioners report reaching for AI or machine learning tools in their daily work. The catch shows up one layer down. Roughly a third of those same teams have built these tools into a defined workflow with structure, governance, and consistent validation. The rest pick up AI on their own, case by case, with no shared playbook for how it gets used or checked. The Chainguard Athena coalition already shipped 2,000 patches across 500 open source projects Chainguard launched Athena, an industry coalition that pools open source vulnerability findings and remediates them under embargo before public disclosure. The group went live with more than two dozen member organizations. Founding members include BNY, Chainguard, Cisco, Cloudflare, Corridor, DepthFirst, Docker, JPMorganChase, Kyndryl, LTIMindtree, and PwC. What happens to oversight when AI agents write a lab’s own code Inside the labs building frontier AI, a growing share of the coding gets done by the AI itself. These agents write, edit, and run software with light human oversight between steps, and they reach into production infrastructure, research pipelines, and potentially the systems that train and evaluate future models. Securing digital keys when your phone unlocks the car In this interview with Help Net Security, Alysia Johnson, President of the Car Connectivity Consortium (CCC), explains how the CCC Digital Key has grown from a single-brand feature into a standard meant to work across phones, automakers, and suppliers. Your browser tab could become encrypted storage for someone else’s files Decentralized storage networks already hand pieces of people’s data to strangers’ machines. The lasting question across these networks is whether the machine holding the data can read it. A research paper by Gregory Magarshak, a professor at IENYC, describes a system called Safecloud built on one design rule: the nodes that store data see only ciphertext, and the nodes that route data hold no keys. PhishLumos: Exposing phishing campaigns that evade detection by hiding content Phishing r",
-      "fetch_status": "ok"
+      "score": 12
     },
     {
       "source": "BleepingComputer",
@@ -2787,7 +2772,9 @@
           "products": []
         }
       },
-      "score": 13
+      "score": 13,
+      "full_body": "Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet devices leaked Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A LOT of Fortinet creds have leaked online, Canadaâs spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish. Your browser does not support the audio element. Risky Bulletin: Creds for 74,000 Fortinet devices leaked â¶ 0:00 / 11:00 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Canadaâs spy agency allowed to remove a botnet from Canadian devices",
+      "fetch_status": "ok"
     },
     {
       "source": "SecurityWeek",
@@ -8782,35 +8769,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751) - watchTowr Labs",
-      "link": "https://www.reddit.com/r/netsec/comments/1u3m7yj/marking_your_own_homework_check_point_remote/",
-      "published": "2026-06-12T05:23:23+00:00",
-      "summary": "submitted by /u/dx7r__ [link] [comments]",
-      "author": "/u/dx7r__",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-50751"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_5_chatter",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -17872,33 +17830,6 @@
       }
     },
     {
-      "source": "Intel 471",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "category": "ransomware_ecrime_financial_crime",
-      "title": "What CISOs want from Cyber Threat Intelligence",
-      "link": "https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence",
-      "published": "2026-05-27T13:00:00+00:00",
-      "summary": "The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -17919,6 +17850,33 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_4_news",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
+      "source": "Intel 471",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "category": "ransomware_ecrime_financial_crime",
+      "title": "What CISOs want from Cyber Threat Intelligence",
+      "link": "https://www.intel471.com/blog/what-cisos-want-from-cyber-threat-intelligence",
+      "published": "2026-05-27T13:00:00+00:00",
+      "summary": "The 2026 Cyber Threat Intelligence (CTI) Survey delivered a finding that should make every threat intelligence practitioner stop and think: 91% of CISOs value CTI, but only 26% say it significantly influences their decisions.",
+      "author": "",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -34333,7 +34291,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7ff2de5ae370>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f5495cd6940>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
