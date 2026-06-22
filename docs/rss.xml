@@ -6,9 +6,63 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 22 Jun 2026 17:44:13 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Jun 2026 20:57:06 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>FortiBleed campaign used custom FortiGate sniffer to steal credentials</title>
+<link>https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/</link>
+<description><![CDATA[Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credentials. [...]<br/><br/><em>Tags: Fortinet</em>]]></description>
+<pubDate>Mon, 22 Jun 2026 20:01:02 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Fortinet</category>
+</item>
+<item>
+<title>Guarding AI memory</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/</link>
+<description><![CDATA[What happens when threat actors target what AI remembers? Microsoft breaks down the risks and the defenses. The post Guarding AI memory appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft/Copilot · Microsoft 365 · ai_security</em>]]></description>
+<pubDate>Mon, 22 Jun 2026 19:07:28 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft/Copilot</category>
+<category>Microsoft 365</category>
+<category>ai_security</category>
+</item>
+<item>
+<title>CVE-2026-25860 turn XSS to RCE</title>
+<link>https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/</link>
+<description><![CDATA[submitted by /u/AlbatrossMaximum4489 [link] [comments]<br/><br/><em>Tags: CVE-2026-25860</em>]]></description>
+<pubDate>Mon, 22 Jun 2026 18:31:27 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/</guid>
+<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2026-25860</category>
+</item>
+<item>
+<title>CNAPP Tools That Reduce Security Tool Sprawl: CNAPP vs. Dedicated Solutions</title>
+<link>https://orca.security/resources/blog/cnapp-tools-to-reduce-security-tool-sprawl/</link>
+<description><![CDATA[CNAPP tools that reduce security tool sprawl are unified cloud-native application protection platforms that consolidate CSPM, CWPP, CIEM, and DSPM capabilities into a single platform with a shared data model. Instead of managing five or more disconnected dashboards, security teams get correlated findings, contextual attack paths, and a single prioritized alert stream, cutting duplicate alerts […]]]></description>
+<pubDate>Mon, 22 Jun 2026 18:15:48 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/cnapp-tools-to-reduce-security-tool-sprawl/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
+<title>ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack</title>
+<link>https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html</link>
+<description><![CDATA[Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. &quot;Attackers compromised the vendor&apos;s build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels,&quot; Wordfence said in an analysis<br/><br/><em>Tags: WordPress · CVE-2026-49777 · CVE-2026-10735 · CVE-2026-11645 · supply_chain · zero_day · web_shell_backdoor · active_exploitation</em>]]></description>
+<pubDate>Mon, 22 Jun 2026 18:00:48 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>WordPress</category>
+<category>CVE-2026-49777</category>
+<category>CVE-2026-10735</category>
+<category>CVE-2026-11645</category>
+</item>
 <item>
 <title>Microsoft fixes AutoGen Studio flaw that enabled code execution</title>
 <link>https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/</link>
@@ -62,6 +116,17 @@
 <category>Fortinet</category>
 <category>Microsoft 365</category>
 <category>CVE-2026-42824</category>
+</item>
+<item>
+<title>One intrusion, two cyberattackers: Uncovering parallel threat activity</title>
+<link>https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/</link>
+<description><![CDATA[Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Microsoft SharePoint · ransomware_extortion</em>]]></description>
+<pubDate>Mon, 22 Jun 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/</guid>
+<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
+<category>threat_research_primary</category>
+<category>Microsoft SharePoint</category>
+<category>ransomware_extortion</category>
 </item>
 <item>
 <title>GentleKiller Framework Disables Victims&apos; Security Software</title>
@@ -402,14 +467,12 @@
 <item>
 <title>Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys</title>
 <link>https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html</link>
-<description><![CDATA[Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that&apos;s installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens<br/><br/><em>Tags: WordPress · Microsoft Defender · Anthropic/Claude · CVE-2026-4020 · CVE-2026-11645 · zero_day · active_exploitation</em>]]></description>
+<description><![CDATA[Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that&apos;s installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens<br/><br/><em>Tags: WordPress · CVE-2026-4020</em>]]></description>
 <pubDate>Sat, 20 Jun 2026 09:56:04 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 <category>WordPress</category>
-<category>Microsoft Defender</category>
-<category>Anthropic/Claude</category>
 <category>CVE-2026-4020</category>
 </item>
 <item>
@@ -712,18 +775,6 @@
 <source url="https://isc.sans.edu/rssfeed_full.xml">SANS Internet Storm Center</source>
 <category>government_authoritative</category>
 <category>phishing_social_eng</category>
-</item>
-<item>
-<title>CISA warns Fortinet users to secure devices after FortiBleed leak</title>
-<link>https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed &quot;FortiBleed.&quot; [...]<br/><br/><em>Tags: Fortinet · phishing_social_eng · data_breach</em>]]></description>
-<pubDate>Fri, 19 Jun 2026 06:47:55 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
-<category>cyber_news_breach_reporting</category>
-<category>Fortinet</category>
-<category>phishing_social_eng</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone</title>
@@ -1047,7 +1098,7 @@
 <item>
 <title>Modern Web Application Content Discovery</title>
 <link>https://trustedsec.com/blog/modern-web-application-content-discovery</link>
-<description><![CDATA[&lt;p&gt;When testing web applications, discovering what functionality is available is key to finding vulnerabilities. Ideally you want to find as many application pages as possible. You can do this by using web‑crawling or…&lt;/p&gt;<br/><br/><em>Tags: GitHub</em>]]></description>
+<description><![CDATA[&lt;p&gt;Staring at a web app with no links and no navigation? In this blog, we break down modern content discovery, from forced browsing and web crawling to Google dorking and GitHub recon.&lt;/p&gt;<br/><br/><em>Tags: GitHub</em>]]></description>
 <pubDate>Thu, 18 Jun 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/modern-web-application-content-discovery</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
@@ -1734,7 +1785,7 @@
 <item>
 <title>JQ for Hackers</title>
 <link>https://trustedsec.com/blog/jq-for-hackers</link>
-<description><![CDATA[&lt;p&gt;When I was first introduced to jq, it was overwhelming and confusing. I tried to just wing it, not realizing it was a very complex and powerful program. With more and more tools outputting JSON, I figured it was time to…&lt;/p&gt;]]></description>
+<description><![CDATA[&lt;p&gt;Grey-bearded hackers and sysadmins still reaching for cut and CSV files, this one&apos;s for you. In this blog, we break down jq and why it&apos;s time to embrace JSON.&lt;/p&gt;]]></description>
 <pubDate>Tue, 16 Jun 2026 04:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://trustedsec.com/blog/jq-for-hackers</guid>
 <source url="https://www.trustedsec.com/feed/">TrustedSec</source>
@@ -1782,14 +1833,13 @@
 <category>ddos</category>
 </item>
 <item>
-<title>Google exposes China espionage group that’s been lurking in networks undetected since 2023</title>
-<link>https://cyberscoop.com/google-unc6508-china-espionage-threat/</link>
-<description><![CDATA[The revelation mirrors an alarming pattern of Chinese espionage groups dropping backdoors into critical infrastructure to intercept research and steal data with national security implications. The post Google exposes China espionage group that’s been lurking in networks undetected since 2023 appeared first on CyberScoop .<br/><br/><em>Tags: apt_espionage</em>]]></description>
-<pubDate>Mon, 15 Jun 2026 20:11:48 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/google-unc6508-china-espionage-threat/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>apt_espionage</category>
+<title>datasette-apps 0.1a3</title>
+<link>https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything</link>
+<description><![CDATA[Release: datasette-apps 0.1a3 Fixed a bug where users without the create-app permission could still create apps. #27 Fixed a bug where it was impossible to grant permission to edit an app to users who were not the app&apos;s owner. The rules for edit/delete are now the same as view: if the app is private only the owner can modify it, otherwise permission is controlled by Datasette&apos;s regular permission system. #29 Tags: datasette]]></description>
+<pubDate>Mon, 15 Jun 2026 20:25:07 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails</title>
@@ -1826,15 +1876,11 @@
 <item>
 <title>Copilot &apos;SearchLeak&apos; Attack Allows 1-Click Data Theft</title>
 <link>https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft</link>
-<description><![CDATA[The critical, three-stage attack is now patched, but it&apos;s part of a new group of AI prompt-injection issues that use hidden URLs and other variables.<br/><br/><em>Tags: Microsoft/Copilot · Microsoft SharePoint · CVE-2026-42824 · supply_chain · ai_security</em>]]></description>
+<description><![CDATA[The critical, three-stage attack is now patched, but it&apos;s part of a new group of AI prompt-injection issues that use hidden URLs and other variables.]]></description>
 <pubDate>Mon, 15 Jun 2026 19:27:48 +0000</pubDate>
 <guid isPermaLink="true">https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
-<category>Microsoft/Copilot</category>
-<category>Microsoft SharePoint</category>
-<category>CVE-2026-42824</category>
-<category>supply_chain</category>
 </item>
 <item>
 <title>Chaining Security Bugs in Discuz! X5.0: from Race Condition to Pre-Auth RCE</title>
@@ -1970,7 +2016,7 @@
 <item>
 <title>Cloud CISO Perspectives: The 4 lessons that guided AI Threat Defense</title>
 <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/</link>
-<description><![CDATA[Welcome to the first Cloud CISO Perspectives for June 2026. Today, we introduce Chris Betz as the new CISO of Google Cloud. For his first Cloud CISO Perspectives, Chris shares four key lessons we learned about using AI to the defender’s advantage while building AI Threat Defense. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f9166cbf3d0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; Cloud CISO Perspectives: The 4 lessons that guided AI Threa]]></description>
+<description><![CDATA[Welcome to the first Cloud CISO Perspectives for June 2026. Today, we introduce Chris Betz as the new CISO of Google Cloud. For his first Cloud CISO Perspectives, Chris shares four key lessons we learned about using AI to the defender’s advantage while building AI Threat Defense. As with all Cloud CISO Perspectives, the contents of this newsletter are posted to the Google Cloud blog . If you’re reading this on the website and you’d like to receive the email version, you can subscribe here . aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;Get vital board insights with Google Cloud&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f831d6eabe0&gt;), (&apos;btn_text&apos;, &apos;Visit the hub&apos;), (&apos;href&apos;, &apos;https://cloud.google.com/solutions/security/board-of-directors?utm_source=cgc-site&amp;utm_medium=et&amp;utm_campaign=FY26-Q2-GLOBAL-GCP39634-email-dl-dgcsm-CISOP-NL-177159&amp;utm_content=-&amp;utm_term=-&apos;), (&apos;image&apos;, &lt;GAEImage: GCAT-replacement-logo-A&gt;)])]&gt; Cloud CISO Perspectives: The 4 lessons that guided AI Threa]]></description>
 <pubDate>Mon, 15 Jun 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-the-4-lessons-that-guided-ai-threat-defense/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
@@ -2092,15 +2138,6 @@
 <description><![CDATA[Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means sharing a temporary &quot;first-day&quot; password so employees can access systems for the first time. The issue is that these passwords don&apos;t always stay temporary. They may be sent over email or SMS, reused across accounts,]]></description>
 <pubDate>Mon, 15 Jun 2026 11:30:00 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
-<title>152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic</title>
-<link>https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html</link>
-<description><![CDATA[Cybersecurity researchers have discovered a network of 152 Google Chrome extensions that act as new tab live wallpaper add-ons to distribute a potentially unwanted program (PUP) family. The cluster spans 38 separate Chrome Web Store publisher accounts and three brand backends: tabplugins[.]com, yowgames[.]com, and chromewallpaper[.]com. They have been collectively installed 105,000 times. The]]></description>
-<pubDate>Mon, 15 Jun 2026 11:07:50 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
 </item>
@@ -2579,16 +2616,6 @@
 <category>offensive_vulnerability_research</category>
 </item>
 <item>
-<title>Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751) - watchTowr Labs</title>
-<link>https://www.reddit.com/r/netsec/comments/1u3m7yj/marking_your_own_homework_check_point_remote/</link>
-<description><![CDATA[submitted by /u/dx7r__ [link] [comments]<br/><br/><em>Tags: CVE-2026-50751</em>]]></description>
-<pubDate>Fri, 12 Jun 2026 05:23:23 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u3m7yj/marking_your_own_homework_check_point_remote/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>CVE-2026-50751</category>
-</item>
-<item>
 <title>Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751)</title>
 <link>https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/</link>
 <description><![CDATA[It is yet another day in this parallel universe of security, where the devices we bolt onto the edge of our networks to keep the bad people out are, with remarkable consistency, the exact thing that let the bad people in. While we’ve seemingly had a breather from<br/><br/><em>Tags: CVE-2026-50751</em>]]></description>
@@ -3062,15 +3089,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Turn specs into evals for any agent with ASSERT</title>
-<link>https://commandline.microsoft.com/assert-written-intent-executable-evals/</link>
-<description><![CDATA[Adaptive Spec-driven Scoring for Evaluation and Regression Testing (ASSERT) is an open-source framework for converting natural language behavior requirements into executable evaluations of AI models and agents. The post Turn specs into evals for any agent with ASSERT appeared first on Microsoft Security Blog .]]></description>
-<pubDate>Wed, 10 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://commandline.microsoft.com/assert-written-intent-executable-evals/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-</item>
-<item>
 <title>Fake Software Tutorials on TikTok Spread Vidar Stealer</title>
 <link>https://www.infosecurity-magazine.com/news/fake-software-videos-tiktok-vidar/</link>
 <description><![CDATA[Threat actors push fake free-software tutorials on TikTok and Instagram to spread Vidar stealer]]></description>
@@ -3371,18 +3389,6 @@
 <guid isPermaLink="true">https://www.chainalysis.com/blog/attackers-exploiting-unverified-smart-contracts/</guid>
 <source url="https://www.chainalysis.com/blog/feed/">Chainalysis</source>
 <category>ransomware_ecrime_financial_crime</category>
-</item>
-<item>
-<title>Reconstructing AI activity in investigations</title>
-<link>https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/</link>
-<description><![CDATA[Learn how to investigate AI activity in Microsoft 365 Copilot and Azure AI services using a structured, telemetry-driven approach. This playbook helps security teams reconstruct events, assess data exposure, and detect potential threats faster. The post Reconstructing AI activity in investigations appeared first on Microsoft Security Blog .<br/><br/><em>Tags: Azure · Microsoft 365 · data_breach</em>]]></description>
-<pubDate>Tue, 09 Jun 2026 17:35:06 +0000</pubDate>
-<guid isPermaLink="true">https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/</guid>
-<source url="https://www.microsoft.com/en-us/security/blog/feed/">Microsoft Security Blog</source>
-<category>threat_research_primary</category>
-<category>Azure</category>
-<category>Microsoft 365</category>
-<category>data_breach</category>
 </item>
 <item>
 <title>Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs</title>
@@ -10906,7 +10912,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f694b8b1970&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f917663b340&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12392,18 +12398,6 @@
 <guid isPermaLink="true">https://www.welivesecurity.com/en/business-security/faking-it-phone-how-tell-voice-call-ai/</guid>
 <source url="https://www.welivesecurity.com/en/rss/feed/">ESET WeLiveSecurity</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>Risky Bulletin: AI-driven hacking campaign breaches 600+ Fortinet devices</title>
-<link>https://risky.biz/RBNEWS529/</link>
-<description><![CDATA[An AI-driven hacking campaign breached 600 Fortinet devices, Ivanti was hacked via its own product, Wikipedia bans Archive-dot-Today for DDoS attacks, and Chinese hackers breached Italy’s police force.<br/><br/><em>Tags: Fortinet · Ivanti · ddos</em>]]></description>
-<pubDate>Mon, 23 Feb 2026 00:48:53 +0000</pubDate>
-<guid isPermaLink="true">https://risky.biz/RBNEWS529/</guid>
-<source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
-<category>practitioner_analysis</category>
-<category>Fortinet</category>
-<category>Ivanti</category>
-<category>ddos</category>
 </item>
 <item>
 <title>Building an Agentic Cloud Security Ecosystem: A Reference Architecture with Wiz MCP and Infosys Cyber Next</title>
@@ -20503,7 +20497,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20512,7 +20506,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20521,7 +20515,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20530,7 +20524,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20539,7 +20533,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20548,7 +20542,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20557,7 +20551,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20566,7 +20560,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20575,7 +20569,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20584,7 +20578,7 @@
 <title>CrowdStrike 2026 Technology Threat Landscape Report: China’s Ambitions Fuel Attacks</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</link>
 <description><![CDATA[]]></description>
-<pubDate>Mon, 22 Jun 2026 17:44:13 +0000</pubDate>
+<pubDate>Mon, 22 Jun 2026 20:57:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-technology-threat-landscape-report/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
