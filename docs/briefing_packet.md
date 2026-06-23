@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-23T12:40:04.637252+00:00
+- Generated: 2026-06-23T15:56:23.889368+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 298
-- Total clusters raw: 133
+- Total items in window: 299
+- Total clusters raw: 134
 - Total clusters in packet: 52
-- Dropped low score: 81
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,6 +75,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -85,26 +90,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 9
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -115,26 +115,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -144,21 +144,26 @@
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 2
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -169,11 +174,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -195,6 +195,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
@@ -205,36 +210,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 20
+  - In window count: 3
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 5
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -244,17 +254,7 @@
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 5
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -279,17 +279,17 @@
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 17
+  - In window count: 16
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
@@ -305,11 +305,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -320,33 +315,28 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 15
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,40 +345,50 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 17
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 15
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 19
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
@@ -400,16 +400,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -419,6 +419,11 @@
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
@@ -430,16 +435,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 42
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
-  - In window count: 26
+  - In window count: 28
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -450,16 +450,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
   - In window count: 6
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -477,27 +477,27 @@
 - Anchor signal: WordPress
 - Theme key: wordpress
 - Cluster count: 5
-- Article count: 10
-- Cohesion: 0.264
+- Article count: 12
+- Cohesion: 0.236
 - Shared strong signals: WordPress
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain, web_shell_backdoor, active_exploitation, phishing_social_eng, data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: government, financial_services, manufacturing_industrial
-  - affected_products: WordPress, Fortinet, npm
+  - affected_industries: government
+  - affected_products: WordPress
   - urgency_signals: actively_exploited
-- Cluster IDs: d1df71d8fb, 8a24d06359, f1bb677bf5, e293ff297b, 22bf188705
+- Cluster IDs: d1df71d8fb, 5858b86279, 8a24d06359, e293ff297b, 22bf188705
 - Links:
   - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
+  - https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+  - https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
+  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+  - https://www.infosecurity-magazine.com/news/klue-breach-compromise/
   - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-  - https://www.securityweek.com/xsolis-data-breach-affects-1-4-million-individuals/
   - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
   - https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
-  - https://www.securityweek.com/attackers-exploit-gravity-smtp-plugin-flaw-to-harvest-valuable-wordpress-data/
-  - https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -517,7 +517,7 @@
   - https://orca.security/resources/blog/mastra-npm-supply-chain-attack/
   - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
   - https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
-  - https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/
+  - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
   - https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
@@ -525,90 +525,31 @@
 ### supply chain targeting Fortinet
 - Anchor signal: Fortinet
 - Theme key: fortinet
-- Cluster count: 4
+- Cluster count: 3
 - Article count: 8
-- Cohesion: 0.208
+- Cohesion: 0.2
 - Shared strong signals: Fortinet
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain, phishing_social_eng, data_breach
-  - affected_products: Fortinet, WordPress, npm
-- Cluster IDs: 55705936f5, f2b3bd6ba4, 8a24d06359, e293ff297b
+  - affected_products: Fortinet
+- Cluster IDs: 55705936f5, f2b3bd6ba4, 8a24d06359
 - Links:
   - https://risky.biz/RBNEWS579/
+  - https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/
   - https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/
   - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
   - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
   - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
   - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
-
-### ShinyHunters targeting WordPress
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.339
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: financial_services, manufacturing_industrial
-  - affected_products: WordPress
-- Cluster IDs: 81cc4e94a2, 8a24d06359, f1bb677bf5
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
-  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-  - https://www.securityweek.com/xsolis-data-breach-affects-1-4-million-individuals/
-
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 3
-- Article count: 11
-- Cohesion: 0.212
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
-  - affected_products: npm, Fortinet, WordPress
-- Cluster IDs: 63edb37821, 8a24d06359, e293ff297b
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
-  - https://orca.security/resources/blog/mastra-npm-supply-chain-attack/
-  - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
-  - https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
-  - https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/
-  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
-
-### CVE-2026-50751 exploitation activity
-- Anchor signal: CVE-2026-50751
-- Theme key: cve-2026-50751
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: CVE-2026-50751
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - cve_ids: CVE-2026-50751
-- Cluster IDs: 81cc4e94a2, 03eea66307
-- Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-50751/
 
 ### Google Cloud vulnerability activity
 - Anchor signal: Google Cloud
 - Theme key: google-cloud
 - Cluster count: 3
-- Article count: 9
+- Article count: 7
 - Cohesion: 0.2
 - Shared strong signals: Google Cloud
 - Member CVEs: (none)
@@ -618,12 +559,10 @@
 - Cluster IDs: 7f890872ef, 115f04b624, 512ea8982c
 - Links:
   - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
-  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
   - https://www.wiz.io/blog/red-agent-pov-ssrf
   - https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/
   - https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
   - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - https://www.securityweek.com/decades-old-squid-proxy-flaw-squidbleed-can-expose-user-data/
   - https://risky.biz/SRB171/
 
 ### Microsoft Entra vulnerability activity
@@ -643,49 +582,70 @@
   - https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
   - https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
 
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 2
+- Article count: 10
+- Cohesion: 0.2
+- Shared strong signals: npm
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: supply_chain
+  - affected_industries: financial_services
+  - affected_products: npm
+- Cluster IDs: 63edb37821, 8a24d06359
+- Links:
+  - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
+  - https://orca.security/resources/blog/mastra-npm-supply-chain-attack/
+  - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
+  - https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
+  - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
+  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
+
+### ransomware extortion targeting Salesforce
+- Anchor signal: Salesforce
+- Theme key: salesforce
+- Cluster count: 2
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: Salesforce
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach
+  - affected_products: Salesforce
+- Cluster IDs: 5858b86279, f2b3bd6ba4
+- Links:
+  - https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+  - https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
+  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+  - https://www.infosecurity-magazine.com/news/klue-breach-compromise/
+  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+
 ### CVE-2026-8461 exploitation activity
 - Anchor signal: CVE-2026-8461
 - Theme key: cve-2026-8461
 - Cluster count: 2
 - Article count: 2
-- Cohesion: 0.605
+- Cohesion: 0.526
 - Shared strong signals: CVE-2026-8461
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: supply_chain
   - cve_ids: CVE-2026-8461
 - Cluster IDs: e293ff297b, 531d8dfe1d
 - Links:
   - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
   - https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
 
-### ransomware extortion targeting Salesforce
-- Anchor signal: Salesforce
-- Theme key: salesforce
-- Cluster count: 2
-- Article count: 6
-- Cohesion: 0.2
-- Shared strong signals: Salesforce
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, supply_chain, phishing_social_eng
-  - affected_products: Salesforce
-- Cluster IDs: 3bbc834ec2, f2b3bd6ba4
-- Links:
-  - https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
-  - https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
-  - https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-  - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - https://www.infosecurity-magazine.com/news/klue-breach-compromise/
-  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 2
-- Article count: 6
+- Article count: 5
 - Cohesion: 0.2
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
@@ -695,7 +655,6 @@
 - Cluster IDs: 7f890872ef, 84319555f9
 - Links:
   - https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
-  - https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
   - https://www.wiz.io/blog/red-agent-pov-ssrf
   - https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
@@ -717,6 +676,43 @@
   - https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/
   - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
 
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 2
+- Article count: 3
+- Cohesion: 0.2
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS
+- Cluster IDs: 115f04b624, 799ac6a482
+- Links:
+  - https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+  - https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/
+  - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
+
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
+- Cluster count: 2
+- Article count: 9
+- Cohesion: 0.2
+- Shared strong signals: Kubernetes
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Kubernetes
+- Cluster IDs: b8988e5561, 512ea8982c
+- Links:
+  - https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
+  - https://trustedsec.com/blog/modern-web-application-content-discovery
+  - https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
+  - https://www.infosecurity-magazine.com/news/gitbait-github-pages-sheetbest/
+  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - https://risky.biz/SRB171/
+
 ## Forward signals
 
 ### Novelty
@@ -724,12 +720,17 @@
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (1)
+### Velocity bursts (2)
 - **Introducing Patch the Planet**
   - Cluster: 9a4b23feba
   - Sources in window: 3
   - Window hours: 4.9
   - Cohort count: 3
+- **Two Scattered Spider members plead guilty over cyberattack that crippled London transit**
+  - Cluster: 9240f2c5c0
+  - Sources in window: 3
+  - Window hours: 3.5
+  - Cohort count: 1
 
 ### Leading edge (0)
 
@@ -739,26 +740,31 @@
 - Pair: CVE-2026-34415 + Linux kernel (cluster 77122429c6, first observation: True)
 - Pair: CVE-2026-41459 + Linux kernel (cluster 77122429c6, first observation: True)
 - Pair: CVE-2026-41679 + Linux kernel (cluster 77122429c6, first observation: True)
-- Pair: CVE-2026-20253 + ShinyHunters (cluster 81cc4e94a2, first observation: True)
-- Pair: CVE-2026-35273 + ShinyHunters (cluster 81cc4e94a2, first observation: True)
-- Pair: CVE-2026-48558 + ShinyHunters (cluster 81cc4e94a2, first observation: True)
-- Pair: CVE-2026-50751 + ShinyHunters (cluster 81cc4e94a2, first observation: True)
 - Pair: CVE-2026-50656 + Anthropic/Claude (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-50656 + Apple iOS/macOS (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-50656 + Microsoft Defender (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-50656 + npm (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-48907 + WordPress (cluster d1df71d8fb, first observation: True)
 - Pair: CVE-2026-2473 + Google Cloud (cluster 7f890872ef, first observation: True)
+- Pair: CVE-2026-2473 + Palo Alto Networks (cluster 7f890872ef, first observation: True)
+- Pair: CVE-2026-25089 + Fortinet (cluster f2b3bd6ba4, first observation: True)
+- Pair: CVE-2026-25089 + Microsoft 365 (cluster f2b3bd6ba4, first observation: True)
+- Pair: CVE-2026-25089 + Salesforce (cluster f2b3bd6ba4, first observation: True)
 
-### Drift (1)
-- **Scattered Spider** (cluster 40ff9634d2)
-  - New industries: financial_services
+### Drift (2)
+- **ShinyHunters** (cluster 8a24d06359)
+  - New industries: financial_services, manufacturing_industrial
+  - New products: Fortinet, WordPress
+  - Prior top industries: education, government, healthcare
+  - Prior top products: Anthropic/Claude, GitHub, npm
+- **Scattered Spider** (cluster 9240f2c5c0)
+  - New industries: aviation_defense, retail_ecommerce
   - New products: (none)
-  - Prior top industries: healthcare
+  - Prior top industries: financial_services, healthcare
   - Prior top products: AWS, Fortinet, Ivanti
 
 ### Persistence (3)
-- actor_attribution: ShinyHunters (weeks observed: 4, cluster 81cc4e94a2)
+- actor_attribution: ShinyHunters (weeks observed: 4, cluster 8a24d06359)
 - cve_ids: CVE-2026-11645 (weeks observed: 4, cluster 22bf188705)
 - cve_ids: CVE-2026-25089 (weeks observed: 3, cluster f2b3bd6ba4)
 
@@ -822,53 +828,6 @@ Back to Blog Products and Tools Weekly Metasploit Update: NTLM Relay Priv Esc, M
   - Published: 2026-06-19T17:08:23+00:00
   - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026
   - Summary: This week's release includes five new modules, including a full unauthenticated RCE chain for Paperclip AI and a VS Code extension persistence technique. On the post-exploitation side, the new windows/local/ntlm_relay_2_self module coerces the local machine account to authenticate via OpenEncryptedFileRaw (WebDAV), relays that NTLM authentication to a Domain Controller's LDAP service, then uses the resulting LDAP session to write Shadow Credentials and obtain a Kerberos service ticket as Administrator via S4U2Proxy, enabling PsExec back to itself for SYSTEM access. On the enhancement side, the new MCP server plugin lets AI tools assist operators directly within a running msfconsole instance, and module check codes now return richer detail for users. New module content (5) Paperclip AI RCE using a chain of six API calls (CVE-2026-41679) Authors: Sagilayani https://github.com/sagilayani and h00die-gr3y h00die.gr3y@gmail.com Type: Exploit Pull request: #21547 contributed by h00die-gr3y Pa
-
-### Cluster 81cc4e94a2 — score 30
-
-- Title: CVE-2026-20253 | Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write Vulnerability
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-16T15:23:54+00:00
-- Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-20253
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ddos
-- actor_attribution: ShinyHunters
-- cve_ids: CVE-2026-20253, CVE-2026-35273, CVE-2026-48558, CVE-2026-50751
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- threat_categories: ddos
-- actor_attribution: ShinyHunters
-- cve_ids: CVE-2026-20253, CVE-2026-50751, CVE-2026-48558, CVE-2026-35273
-- urgency_signals: preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-CVE-2026-20253 is a critical unauthenticated arbitrary file write vulnerability affecting Splunk Enterprise. The flaw may allow attackers to create or truncate files and potentially achieve remote code execution.
-```
-
-#### Full body
-
-```
-CVE-2026-20253 Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write Vulnerability Splunk has disclosed CVE-2026-20253, a critical unauthenticated arbitrary file write vulnerability affecting Splunk Enterprise. The flaw exists in a PostgreSQL sidecar service endpoint that lacks authentication controls, allowing a network-reachable attacker to create or truncate arbitrary files on the underlying host without credentials. The vulnerability carries a CVSS v3.1 score of 9.8 and could lead to denial of service, loss of log integrity, or, under certain conditions, remote code execution. Technical Details CVE-2026-20253 is caused by missing authentication on PostgreSQL sidecar service endpoints within affected Splunk Enterprise deployments. An attacker who can reach the service over the network can invoke file operations without supplying valid credentials. Key facts: CVSS v3.1: 9.8 (Critical) CWE-306: Missing Authentication for Critical Function No authentication required Network exploitable User interaction not required Successful exploitation allows arbitrary file creation or truncation on the host system Researchers have demonstrated that the file write primitive may be chained into remote code execution by overwriting files that are later executed by Splunk services. Organizations relying on Splunk for SIEM, threat detection, compliance reporting, and log retention should treat this vulnerability as high priority because compromise of the logging platform can directly impact detection, investigation, and audit capabilities. Stop Guessing, Start Proving Schedule a demo NodeZero® Proactive Security Platform — Rapid Response A NodeZero Rapid Response test has been developed to safely validate whether this arbitrary file write vulnerability can be exploited in your environment. The test executes real attack techniques without causing damage, giving teams immediate clarity on exposure. Run the Rapid Response test: Launch from the NodeZero platform to determine whether the PostgreSQL sidecar service can be abused by an unauthenticated attacker Patch immediately: Upgrade to a fixed version of Splunk Enterprise Re-run the test: Confirm the vulnerability is no longer exploitable after remediation Affected versions & patch Affected Splunk Enterprise 10.0.0 through 10.0.6 Splunk Enterprise 10.2.0 through 10.2.3 Not Affected Splunk Enterprise 10.4.x Splunk Cloud Platform (Splunk later clarified that PostgreSQL sidecars are not used in Splunk Cloud) Patch Upgrade to one of the following versions: Splunk Enterprise 10.0.7 or later Splunk Enterprise 10.2.4 or later Splunk Enterprise 10.4.x If immediate patching is not possible: Restrict network access to the PostgreSQL sidecar service Ensure the service is not reachable from untrusted networks or user segments Splunk has not published an alternative workaround beyond upgrading and limiting exposure. Timeline June 10, 2026 – Splunk published advisory SVD-2026-0603 and disclosed CVE-2026-20253. June 13, 2026 – Public technical analysis and exploit details were released. June 15, 2026 – Horizon3.ai released a Rapid Response test. References Splunk Security Advisory SVD-2026-0603 CVE-2026-20253 (CVE Record) The Hacker News Coverage Read about other CVEs CVE-2026-50751 CVE-2026-50751 is an authentication bypass vulnerability affecting Check Point Security Gateway VPN services. Check Point has confirmed active exploitation against… Read more CVE-2026-48558 CVE-2026-48558 is an authentication bypass vulnerability affecting SimpleHelp OIDC deployments. The flaw may allow attackers to create unauthorized Technician accounts… Read more CVE-2026-35273 CVE-2026-35273 is a critical unauthenticated remote code execution vulnerability affecting Oracle PeopleSoft PeopleTools. Threat intelligence confirms active exploitation by ShinyHunters… Read more NodeZero ® Platform Implement a continuous find, fix, and verify loop with NodeZero The NodeZero ® platform empowers your organization to reduce your
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CVE-2026-20253 | Splunk Enterprise PostgreSQL Sidecar Service Arbitrary File Write Vulnerability
-  - Published: 2026-06-16T15:23:54+00:00
-  - Link: https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20253/
-  - Summary: CVE-2026-20253 is a critical unauthenticated arbitrary file write vulnerability affecting Splunk Enterprise. The flaw may allow attackers to create or truncate files and potentially achieve remote code execution.
 
 ### Cluster 03eea66307 — score 27
 
@@ -981,46 +940,11 @@ Share Link copied to clipboard! Tags Malware npm Content types Research Products
   - Published: 2026-06-20T14:09:19+00:00
   - Link: https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/
   - Summary: Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack
-  - Published: 2026-06-22T11:10:06+00:00
-  - Link: https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/
-  - Summary: A malicious dependency the attackers added to over 140 Mastra packages fetches a payload targeting cryptocurrency extensions. The post North Korean Hackers Blamed for Mastra NPM Supply Chain Attack appeared first on SecurityWeek .
-
-### Cluster f8c213c0bd — score 20
-
-- Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-23T03:02:34+00:00
-- Link: https://isc.sans.edu/diary/rss/33094
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2024-40766
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2024-40766
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- cve_ids: CVE-2024-40766
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The vulnerability
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
-  - Published: 2026-06-23T03:02:34+00:00
-  - Link: https://isc.sans.edu/diary/rss/33094
-  - Summary: The vulnerability
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Lookalike npm Package Hides a Multi-Stage Windows RAT
+  - Published: 2026-06-23T15:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
+  - Summary: JFrog found an npm package impersonating postcss-selector-parser to drop a multi-stage Windows RAT
 
 ### Cluster cacd9474df — score 20
 
@@ -1064,6 +988,41 @@ Wiz Pricing Get a demo Get a demo Malicious actors are actively weaponizing AI t
   - Published: 2026-06-17T14:33:41+00:00
   - Link: https://www.wiz.io/blog/red-agent-pov-series
   - Summary: An inside look at how the Red Agent, our AI-Powered Attacker, uncovers complex, exploitable risks in the wild
+
+### Cluster f8c213c0bd — score 19
+
+- Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-23T03:02:34+00:00
+- Link: https://isc.sans.edu/diary/rss/33094
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2024-40766
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2024-40766
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- cve_ids: CVE-2024-40766
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+The vulnerability
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
+  - Published: 2026-06-23T03:02:34+00:00
+  - Link: https://isc.sans.edu/diary/rss/33094
+  - Summary: The vulnerability
 
 ### Cluster d1df71d8fb — score 18
 
@@ -1163,7 +1122,7 @@ Share Link copied to clipboard! Content types Research Products and services Mic
 - Link: https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/
 - Fetch status: ok
 - Member count: 6
-- Corroborating source count: 5
+- Corroborating source count: 6
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
@@ -1190,7 +1149,7 @@ What happens when you clear dozens of Trail of Bits engineers’ schedules, pair
 Page content What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networking, language infrastructure, and software supply chain. Among these 19 projects were cURL, NATS, pyca, Sigstore, aiohttp, the Go project, freenginx, Python and python.org, urllib3, PyPI, SimpleX, Valkey, and RustCrypto. Over 30 projects have joined the initiative so far, and we’re rapidly expanding it to include more; if you maintain an open-source project, apply to join ! Live look at the Trail of Bits engineering teams Anyone can file an issue, flex, and walk away. We showed up with the patches: 37 are already merged, and many more are in flight. These merges go beyond just fixing bugs: we’re adding new tests and fuzzing harnesses, CI security scanning, supply-chain tooling, correctness fixes, and features maintainers had been meaning to get to. The goal of Patch the Planet is to leave essential open-source projects measurably better off. We brought patches, not just bug reports We’re reporting public findings on GitHub , including 64 total pull requests. We also filed 51 issues, 19 of which are already closed with a fix. This public tally undercounts the work, since several projects take reports through private channels like HackerOne, GitHub security advisories, mailing lists, and private forks, and most of these have not been released publicly yet. What’s in those pull requests matters more than the count. At python.org, we added a CI workflow built on zizmor , an open-source GitHub Actions static analyzer, fixed all of the issues it flagged, and integrated it into their CI. In RustCrypto, we contributed correctness fixes to the big-integer library that higher-level cryptography is built on, alongside genuine feature work in review: serde encoding support and HPKE DHKEM suite IDs. Other patches were plain engineering help: storage-accounting and service-restart fixes in SimpleX, a clearer admin-quarantine confirmation in PyPI’s Warehouse, and supply-chain improvements like SBOM sidecars for Python’s Windows artifacts. We will also be upstreaming many testing improvements and new testing campaigns. Arguably, our best contributions are not even bug or security fixes. Keeping track of all of this is a bot we call Patchy. Patchy monitors every project, posts each new finding and merged patch to our Slack, and, for reasons we consider scientifically sound, reintroduces the common use of goblins, gremlins, and assorted creatures . Here’s Patchy’s description of an issue that has been patched : Patchy’s description of an issue that has been patched When a patch lands, Patchy celebrates with a triumphant PATCHY HAPPY . Making Patchy happy is really what drives us. Bug patched, Patchy happy A few highlights from the week The week produced more than we can fit in this post, but here are some quick highlights. A fuzzing lab built in a day. Given a narrow goal (find remotely exploitable bugs) and no instructions on how, GPT-5.5-Cyber decided that reading the source of one of the most-reviewed C libraries in existence was a poor use of tokens
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **Trail of Bits** (offensive_vulnerability_research)
   - Title: Introducing Patch the Planet
@@ -1217,6 +1176,74 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-23T03:56:58+00:00
   - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
   - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: OpenAI Expands Daybreak to Help Defenders Patch Flaws
+  - Published: 2026-06-23T14:15:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/
+  - Summary: OpenAI expanded Daybreak with a full GPT-5.5-Cyber release to help defenders patch software flaws
+
+### Cluster 5858b86279 — score 15
+
+- Title: LastPass confirms data breach in Klue supply chain attack
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-23T13:58:25+00:00
+- Link: https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+- Fetch status: ok
+- Member count: 6
+- Corroborating source count: 5
+- Strong signals: Salesforce
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- affected_products: Salesforce, WordPress
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach
+- affected_products: Salesforce, WordPress
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. [...]
+```
+
+#### Full body
+
+```
+LastPass confirms data breach in Klue supply chain attack By Bill Toulas June 23, 2026 09:58 AM 0 LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. The password management platform says its products, services, and infrastructure were not affected by the incident and that customer vaults remained secure. “On June 12th, LastPass was made aware of an incident that occurred at Klue (klue.com), a third-party market intelligence platform utilized by our go-to-market teams, which integrates with our Salesforce and Gong systems,” LastPass says . "We immediately launched an investigation and learned that, as part of this incident, an unauthorized actor was able to obtain OAuth tokens Klue held for many of its customers, including LastPass.” “The threat actor then used these credentials to access LastPass customer data within our Salesforce environment.” The investigation into the incident did not reveal any evidence that the attacker accessed Gong-related data, which typically includes customer calls and emails. According to LastPass, the following data may have been exposed: Customer names Phone numbers Email addresses Physical addresses Support case information Sales/CRM-related data Attackers may leverage the above information in phishing and social engineering attacks. The general recommendation for users is to be cautious of unsolicited communications over the phone or email, especially those that request sensitive details. The master password should not be shared with anyone. The Klue supply chain attack was claimed by the Icarus extortion group , who compromised the infrastructure of the AI-powered market intelligence platform and stole OAuth tokens that connected customers' Salesforce environments. Icarus hackers gained access to Klue's infrastructure using compromised legacy credentials for an integration service. This gave them access to OAuth tokens that connected Klue to various third-party services. The incident impacted multiple organizations , including Recorded Future, Tanium, Jamf, Sprout Social, Gong, and Insurity. The threat actor exfiltrated Customer Relationship Management (CRM) data and launched an extortion campaign. LastPass has disabled employee access to Klue, rotated the exposed API/OAuth tokens, and notified law enforcement while the investigation is underway. The company also warned about the threat actors using the sender domains baccarat.com[.]au, robinskitchen.com[.]au, house[.]com.au, noting that only communications from the official support channels should be trusted. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Klue OAuth breach victim list grows as Icarus hackers claim attack Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks ShapedPlugin update flow hacked to infect WordPress sites OptinMonster WordPress plugin hacked in CDN supply-chain attack Infinite Campus data breach affects 137,000 school staff accounts
+```
+
+#### Corroborating sources (5)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: LastPass confirms data breach in Klue supply chain attack
+  - Published: 2026-06-23T13:58:25+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
+  - Summary: LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. [...]
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Detecting the Klue supply chain attack in Salesforce instances
+  - Published: 2026-06-22T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
+  - Summary: We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Salesforce Data Thefts Continue via Klue App Compromise
+  - Published: 2026-06-18T16:49:04+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
+  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
+  - Published: 2026-06-19T09:03:57+00:00
+  - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
+  - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens
+  - Published: 2026-06-22T10:15:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
+  - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
 
 ### Cluster 55705936f5 — score 15
 
@@ -1225,8 +1252,8 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
 - Published: 2026-06-19T05:23:40+00:00
 - Link: https://risky.biz/RBNEWS579/
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
+- Member count: 6
+- Corroborating source count: 6
 - Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
@@ -1253,13 +1280,18 @@ A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to rem
 Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet devices leaked Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A LOT of Fortinet creds have leaked online, Canadaâs spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish. Your browser does not support the audio element. Risky Bulletin: Creds for 74,000 Fortinet devices leaked â¶ 0:00 / 11:00 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Canadaâs spy agency allowed to remove a botnet from Canadian devices
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (6)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
   - Published: 2026-06-19T05:23:40+00:00
   - Link: https://risky.biz/RBNEWS579/
   - Summary: A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: What the Fortibleed campaign means for organizations running FortiGate firewalls
+  - Published: 2026-06-23T14:46:57+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/
+  - Summary: A massive credential-harvesting campaign targeting FortiGate firewalls has exposed thousands of organizations to potential network compromise, and a trove of attacker tools, scripts, and credentials left inadvertently exposed on a server has given researchers an unusually detailed look at how the operation worked. Analysts from ZenoX and CloudSEK have pieced together the full attack chain from the FortiBleed leak, revealing a sophisticated, highly automated pipeline that in some cases achieved full domain-level control of victim … More → The post What the Fortibleed campaign means for organizations running FortiGate firewalls appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: FortiBleed campaign used custom FortiGate sniffer to steal credentials
   - Published: 2026-06-22T20:01:02+00:00
@@ -1281,69 +1313,6 @@ Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet d
   - Link: https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - Summary: CloudSEK maps Operation Escaneo, a campaign hitting Latin American infrastructure via perimeter bugs
 
-### Cluster 3bbc834ec2 — score 14
-
-- Title: Detecting the Klue supply chain attack in Salesforce instances
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-22T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 5
-- Strong signals: Salesforce
-
-#### Cluster taxonomy (union across members)
-- threat_categories: cloud_abuse, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_products: Salesforce
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, cloud_abuse
-- affected_products: Salesforce
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.
-```
-
-#### Full body
-
-```
-Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat actor compromised backend systems at Klue, a market intelligence platform that hundreds of enterprise organizations use to sync competitive battlecard data with their CRM environments. By the time Klue alerted customers on June 13, the threat actor had already harvested OAuth tokens for Salesforce and Gong, and had begun querying those environments through automated API calls. The group behind the attack, which self-identifies as "Icarus" and has been active since at least April 28, 2026, has since run an extortion campaign against multiple victims. One victim, Huntress, published a detailed incident report confirming the compromise of CRM data: business contacts, price quotes, and sales communications. This post summarizes what is known about the attack chain, then provides detection guidance for Salesforce environments monitored by Datadog Cloud SIEM. If you are working through a broader Salesforce threat hunt, our recently published threat hunter's guide to Salesforce covers the many of the threat actor's behaviors and log sources to consider. The Klue attack chain: a single compromised integration gave the threat actor OAuth access to fan out across multiple customer Salesforce orgs and exfiltrate CRM data (click to enlarge). What happened According to Huntress, the compromise followed a pattern common in third-party OAuth abuse campaigns. The threat actor gained initial access through a dormant credential rather than a phishing campaign or a vulnerability exploit. Klue had created the credential for a prototype integration and never decommissioned it. We reconstructed the following timeline from our investigation, Huntress's report, and Klue's disclosures: June 11 : Anomalous behavior begins in Klue's integration infrastructure. Datadog observes the earliest activity at 12:56 UTC. June 12 : Klue identifies unusual network connections from external IP addresses and removes Salesforce access to stop further exfiltration. June 13 : Klue revokes OAuth credentials for all customers, disables integrations, and issues a general customer alert. June 16 : Extortion emails begin arriving at affected organizations, with the subject line "top secret email" and a 48-hour deadline to contact the actor through Session Messenger. Timeline of the Klue supply chain attack, from the first anomalous activity on June 11 to Klue's listing on the Icarus leak site on June 19 (click to enlarge). The threat actor ran scripts to issue REST API queries against connected Salesforce instances. The observed user-agent strings suggest the scripts were written in Python. Huntress observed three primary user-agent strings across logs, which align with Datadog's findings. Python-urllib/3.12 Python-urllib/3.14 5238 These user agents made malicious requests against the /services/data/v59.0/query/* endpoint to exfiltrate data quickly. What we found Our analysis of Salesforce event logs surfaced additional detection opportunities for teams responding to this incident or hunting for evidence of Klue-related activity. Identifying the compromised connected application The Klue Battlecards integration will appear in Salesforce logs under different field names depending on the event type. In LoginEvent logs, look for: application : "Klue Battlecards" In API events and other event types, the application may surface in the connected app name field: connected_app_name : "Klue Battlecards" Detecting OAuth refresh token usage In some instances, the threat actor used OAuth refresh tokens to maintain API access if needed. This behavior appeared in only a subset of affected environments, so treat it as a supplementary indicator rather than a primary detection signal. Where it appears, Salesforce surfaces it differently depending on which event log you have access to. In the Login object this is reflected through: login_sub_type : oauthrefreshtoken And in the LoginEvent object: login_sub_type :
-```
-
-#### Corroborating sources (5)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Detecting the Klue supply chain attack in Salesforce instances
-  - Published: 2026-06-22T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
-  - Summary: We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Klue OAuth breach victim list grows as Icarus hackers claim attack
-  - Published: 2026-06-19T22:31:04+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/
-  - Summary: Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new "Icarus" extortion group publicly claims the attack. [...]
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Salesforce Data Thefts Continue via Klue App Compromise
-  - Published: 2026-06-18T16:49:04+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise
-  - Summary: Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data
-  - Published: 2026-06-19T09:03:57+00:00
-  - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
-  - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens
-  - Published: 2026-06-22T10:15:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
-  - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
-
 ### Cluster 7f890872ef — score 14
 
 - Title: Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
@@ -1351,8 +1320,8 @@ Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat 
 - Published: 2026-06-16T19:05:41+00:00
 - Link: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
 - Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
+- Member count: 4
+- Corroborating source count: 3
 - Strong signals: Google Cloud, Palo Alto Networks
 
 #### Cluster taxonomy (union across members)
@@ -1383,18 +1352,13 @@ A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no acce
 Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting  Swati Khandelwal  Jun 16, 2026 Machine Learning / Cloud Security A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique " Pickle in the Middle " and said it saw no exploitation in the wild. Google has patched it; if you use the SDK, update to version 1.148.0 or later. The attacker needed only a Google Cloud project of their own and the victim's project ID, which is often public. No credentials, no phishing, no foothold in the target. The flaw was in how the SDK chose a temporary Cloud Storage bucket for model uploads. If a user did not set a bucket, the SDK generated a predictable name from the project ID and region, such as project-vertex-staging-region . It checked whether that bucket existed, but not whether the victim owned it. Because bucket names are globally unique, an attacker could create the expected bucket first in their own project. The victim's SDK would then upload the model files to the attacker's bucket. The attacker could then replace the uploaded model with a malicious one. Many Python ML models are saved with pickle or joblib , which can run code when a file is loaded. When Vertex AI later loaded the swapped model, the attacker's code executed inside the serving container. The attack depended on speed. Unit 42 measured about 2.5 seconds between the victim's upload and Vertex AI reading the file. In its proof of concept, the attacker used a Cloud Function that triggered after upload and replaced the model in 1.4 seconds, before Vertex AI read it. The payload then stole an OAuth token from the serving container's metadata server and sent it to the attacker. In Unit 42's test environment, that token was not limited to the compromised deployment. It could access other model artifacts in the same Google-managed tenant project, including a full TensorFlow model with trained weights, as well as BigQuery metadata, access lists, tenant logs, GKE cluster names, and internal container image paths. The attack worked only under specific conditions: the victim's default staging bucket did not already exist in that region, and the victim left the staging_bucket parameter unset. The first is common for a new project in Vertex AI in a region. The second depends on the developer relying on the SDK's default rather than naming their own bucket. Unit 42 reported the flaw through Google's Vulnerability Reward Program on March 5, 2026. It tested versions 1.139.0 and 1.140.0, the latest available at the time, and found both vulnerable. Google shipped an initial fix in v1.144.0 on March 31, adding a random uuid4 to the bucket name. It completed the fix in v1.148.0 on April 15, adding bucket ownership verification to block bucket squatting in Model.upload(). As of publication, neither Unit 42 nor Google's Vertex AI security bulletins list a CVE for the issue. Update to 1.148.0 or later so the ownership check is active. Also, set an explicit staging_bucket to a Cloud Storage location you control when uploading models. Because the flawed logic lives in the client SDK, check the google-cloud-aiplatform version wherever it runs, including notebooks, CI jobs, and training pipelines, not only production services. It is the second predictable-bucket-name flaw to surface in Vertex AI this year. Google patched CVE-2026-2473 in February, a separate bucket-squatting bug in Vertex AI Experiments that also allowed cross-tenant code execution, model theft, and poisoning. Unit 42's earlier work on Vertex AI's default service-agent permissions traced a related path from a deployed AI agent into customer and tenant data. Found this article interesting? Follow us on Google News , Twitter and LinkedIn
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting
   - Published: 2026-06-16T19:05:41+00:00
   - Link: https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html
   - Summary: A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no access to a victim's project hijack the victim's machine learning model upload and run code inside Google's serving infrastructure. Palo Alto Networks Unit 42, which found and reported the bug through Google's bug bounty program, calls the technique "Pickle in the Middle" and said it saw no exploitation in the wild.
-- **Permiso Security** (cloud_identity_infrastructure)
-  - Title: Mind the Gap: GCP serviceData in Logs Explorer vs. Exported Logs
-  - Published: 2026-06-16T12:46:59+00:00
-  - Link: https://permiso.io/blog/gcp-servicedata-officially-deprecated-actively-dangerous
-  - Summary: Cloud audit logs are the backbone of detection engineering in cloud environments. They provide the raw telemetry that security teams depend on to identify suspicious behavior, build detection rules and reconstruct attacker activity after an incident. In cloud platforms like GCP, every meaningful administrative action leaves a trace in the form of an audit log entry and the quality of that trace directly affects the reliability of these investigative and detection efforts.
 - **Wiz Research** (cloud_identity_infrastructure)
   - Title: The Red Agent POV: How it Reasoned its Way to SSRF
   - Published: 2026-06-17T14:33:51+00:00
@@ -1405,6 +1369,45 @@ Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squattin
   - Published: 2026-06-22T07:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/developers-practitioners/the-starter-tier-for-google-ai-studio-explained/
   - Summary: You've got a working prototype in Google AI Studio . A React frontend, a Node.js backend, maybe a database. Now you want a live URL to share with your team, your users, or a friend who wants to try it. Google Cloud gives you a full platform for deploying production applications, with fine-grained IAM controls, billing management, and region selection. That's exactly what you want when you're building something serious. But when you just need to get a prototype online in the next ten minutes, there's now a faster path. Google Cloud Starter Tier resources like Cloud Run , Cloud Firestore , Cloud SQL for PostgreSQL , and Firebase Authentication are provisioned in a fully-managed project. You can get started with using them without a payment method (like a credit card) or a billing account. Your Google Account is enough to go from prompt to live URL, with a database and auth all baked in. What the Starter Tier actually is When you set up any of the Starter Tier services within Google AI St
+
+### Cluster a5fdf7dc6d — score 13
+
+- Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-06-23T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
+```
+
+#### Full body
+
+```
+23 June 2026 • Paul McCann From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs. 11 min read Generative AI Elastic's InfoSec Product Security Team built a generative AI agent using Elastic Agent Builder that drafts complete CVE security advisories (CWE classification, CAPEC methodology, CVSS scoring, and mitigation guidance) directly from raw vulnerability reports. The agent uses RAG against the MITRE CWE and CAPEC catalogues indexed in Elasticsearch, which grounds its output in authoritative data and prevents hallucinated classification IDs. ESA-2026-01 is already in production as an example of output that went through this pipeline. Here's how we built it. How security advisories are drafted manually (and why it's slow) At Elastic, we manage the lifecycle of product vulnerabilities using the PSIRT Service Framework , which defines four stages: discovery, triage, remediation, and disclosure. Each security advisory starts from a vulnerability report received during the discovery phase, and those reports vary widely in quality — translating them into something customers can consume is time-consuming. We draft the security advisory during the disclosure phase, ahead of a planned product release that contains the fix. The advisory is then published as an Elastic Security Advisory (ESA) , with an assigned CVE ID, in the Elastic Security Announcements forum, where anyone can review the disclosed vulnerabilities and the associated mitigations. Each disclosure also gets published into the CVE Program , from which downstream national and regional databases ingest it automatically, including the US National Vulnerability Database (NIST), the EU's European Vulnerability Database (ENISA), and Japan's Japan Vulnerability Notes (JPCERT/CC). To keep our output consistent, we follow the standard Common Vulnerabilities and Exposures (CVE) description template: [PROBLEMTYPE] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [VECTOR] The PROBLEMTYPE is identified using a Common Weakness Enumeration (CWE) entry, and the Vector is described using a Common Attack Pattern Enumeration and Classification (CAPEC) entry. Substituting the correct CWE and CAPEC for each vulnerability, the template becomes: [Common Weakness Enumeration] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [Common Attack Pattern Enumeration and Classification] The bulk of the manual effort goes into distilling a long, often technically dense vulnerability report into a concise, accurate advisory with a clear impact assessment for customers. Identifying the correct CWE and CAPEC classifications on top of that makes the process convoluted and drawn-out. This is where automation has the most to offer. Automating security advisory drafts with Elastic Agent Builder and RAG To streamline this process, our InfoSec Product Security Team developed a solution that uses an LLM to automatically generate the standardized sentence for security advisories. This solution involves two key steps: Ingesting vulnerability categorization data: Hallucination is a well-documented failure mode for LLMs operating without authoritative grounding. The OWASP Top 10 for LLM Applications (LLM09) lists it as a top risk category, and it was the original motivation for Retrieval-Augmented Generation. We saw it directly in our early experiments: when asked to assign CWE and CAPEC IDs unaided, the model frequently produced plausible-looking but non-existent entries. To prevent this, we used the Elastic Crawler to scrape the CWE and CAPEC websites and ingest the data into two Elasticsearch indices: web-crawl-mitre-cwe-software and web-crawl-mitre-capec-software . Building the gen
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
+  - Published: 2026-06-23T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
+  - Summary: How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
 
 ### Cluster bfe56aaca6 — score 13
 
@@ -1455,47 +1458,6 @@ F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution �
   - Published: 2026-06-19T19:15:45+00:00
   - Link: https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
   - Summary: submitted by /u/everping [link] [comments]
-
-### Cluster 115f04b624 — score 11
-
-- Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-22T22:00:04+00:00
-- Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: AWS, Azure, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Azure, AWS, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration 13 min read Related Products Cortex Cortex Cloud Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Yahav Festinger Published: June 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: AWS Bucket hijacking Cloud data exfiltration Cloud logging CSPs Google Cloud IAM Microsoft Azure Privilege escalation Share Executive Summary We recently identified a bucket hijacking technique impacting multiple services across major cloud service providers (CSPs). The attack technique exploits a fundamental architectural flaw that is common across cloud providers and could potentially affect other cloud providers as well. Our research reveals that an attacker can silently compromise an organization's active data streams by rerouting data into an external storage bucket. Because a storage bucket name is globally unique, an attacker can simply delete the bucket and then recreate it under the attacker's own account using the same name. This therefore creates a global namespace risk. This bucket hijacking reroutes critical logs and sensitive data directly to the attacker’s environment. We have shared these findings with Google Cloud, Amazon Web Services (AWS), and Microsoft Azure. We have not yet identified a real-world threat actor using this attack technique. However, we recommend organizations take steps now to head off the potential impact, particularly since we anticipate that real-world attempts to use this attack technique would be difficult to detect. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex Cloud Unit 42 Cloud Security Assessment can help turn cloud complexity into actionable security insights. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Cloud Logging , Google Cloud , AWS , Microsoft Azure Key Architectural Elements Enabling the Attack Before detailing the attack methodology, it’s important to understand several architectural elements that, when combined, make bucket hijacking possible. Data Stream Overview A data stream is an automated, continuous pipeline designed for high-volume data movement between services. Once configured, these streams operate autonomously in the background to push telemetry, audit logs or objects from a source environment to a designated storage destination for processing and long-term retention. Major CSPs facilitate automated data streams. These streams serve as critical nodes for routing, processing and backing up data within an organization's infrastructure, such as: A cloud logging sink in Google Cloud acts as a router for log entries, directing them to a chosen destination. While primarily used to route and store logs in centralized log buckets for purposes like analysis and retention, a sink can also export logs to a Google Cloud Storage (GCS) bucket. Bucket replication in AWS is a feature that automatically duplicates data from a source S3 bucket to a designated destination S3 bucket. Global Uniqueness of Bucket Names Cloud environments often stream data into buckets such as an S3 bucket in AWS or a GCS bucket in Google Cloud. Because bucket names are typically unique across the entire cloud provider, no two users can have the same bucket name. This design simplifies data stream establishment by providing a single, predictable target. However, it also creates a shared namespace where a destination's identity is tied solely to its name, rather than to a specific, immutable account owner. This characteristic is the foundational logic behind our discovery. Permissions to Modify Data Stream Destinations The data stream is frequently defined by a routing resource that is configured with a specific destinatio
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
-  - Published: 2026-06-22T22:00:04+00:00
-  - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-  - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
 
 ### Cluster 5362786b4f — score 11
 
@@ -1585,6 +1547,47 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/
   - Summary: Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .
 
+### Cluster 115f04b624 — score 11
+
+- Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-22T22:00:04+00:00
+- Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: AWS, Azure, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Azure, AWS, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration 13 min read Related Products Cortex Cortex Cloud Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Yahav Festinger Published: June 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: AWS Bucket hijacking Cloud data exfiltration Cloud logging CSPs Google Cloud IAM Microsoft Azure Privilege escalation Share Executive Summary We recently identified a bucket hijacking technique impacting multiple services across major cloud service providers (CSPs). The attack technique exploits a fundamental architectural flaw that is common across cloud providers and could potentially affect other cloud providers as well. Our research reveals that an attacker can silently compromise an organization's active data streams by rerouting data into an external storage bucket. Because a storage bucket name is globally unique, an attacker can simply delete the bucket and then recreate it under the attacker's own account using the same name. This therefore creates a global namespace risk. This bucket hijacking reroutes critical logs and sensitive data directly to the attacker’s environment. We have shared these findings with Google Cloud, Amazon Web Services (AWS), and Microsoft Azure. We have not yet identified a real-world threat actor using this attack technique. However, we recommend organizations take steps now to head off the potential impact, particularly since we anticipate that real-world attempts to use this attack technique would be difficult to detect. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex Cloud Unit 42 Cloud Security Assessment can help turn cloud complexity into actionable security insights. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Cloud Logging , Google Cloud , AWS , Microsoft Azure Key Architectural Elements Enabling the Attack Before detailing the attack methodology, it’s important to understand several architectural elements that, when combined, make bucket hijacking possible. Data Stream Overview A data stream is an automated, continuous pipeline designed for high-volume data movement between services. Once configured, these streams operate autonomously in the background to push telemetry, audit logs or objects from a source environment to a designated storage destination for processing and long-term retention. Major CSPs facilitate automated data streams. These streams serve as critical nodes for routing, processing and backing up data within an organization's infrastructure, such as: A cloud logging sink in Google Cloud acts as a router for log entries, directing them to a chosen destination. While primarily used to route and store logs in centralized log buckets for purposes like analysis and retention, a sink can also export logs to a Google Cloud Storage (GCS) bucket. Bucket replication in AWS is a feature that automatically duplicates data from a source S3 bucket to a designated destination S3 bucket. Global Uniqueness of Bucket Names Cloud environments often stream data into buckets such as an S3 bucket in AWS or a GCS bucket in Google Cloud. Because bucket names are typically unique across the entire cloud provider, no two users can have the same bucket name. This design simplifies data stream establishment by providing a single, predictable target. However, it also creates a shared namespace where a destination's identity is tied solely to its name, rather than to a specific, immutable account owner. This characteristic is the foundational logic behind our discovery. Permissions to Modify Data Stream Destinations The data stream is frequently defined by a routing resource that is configured with a specific destinatio
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
+  - Published: 2026-06-22T22:00:04+00:00
+  - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+  - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
+
 ### Cluster f2b3bd6ba4 — score 11
 
 - Title: 22nd June – Threat Intelligence Report
@@ -1671,100 +1674,64 @@ Build your own vulnerability harness 2026-06-18 Dan Jones Alexandra Godoi Grant 
   - Link: https://blog.cloudflare.com/build-your-own-vulnerability-harness/
   - Summary: We break down the technical architecture behind our multi-stage vulnerability discovery harness and automated triage loop. Learn how we manage state controls, squash false positives through adversarial review, and route around LLM context limits.
 
-### Cluster 512ea8982c — score 11
+### Cluster b8988e5561 — score 11
 
-- Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+- Title: GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-23T14:22:03+00:00
+- Link: https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
 - Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Anthropic/Claude
+- Member count: 7
+- Corroborating source count: 4
+- Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Anthropic/Claude, Google Cloud, Kubernetes
+- threat_categories: phishing_social_eng, supply_chain
+- affected_industries: financial_services
+- affected_products: GitHub, Kubernetes, WordPress
 - content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+- confidence_tier: tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
-- affected_products: Kubernetes, Google Cloud, Anthropic/Claude
+- threat_categories: supply_chain
+- affected_products: GitHub, Kubernetes
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
+GitHub is moving to strengthen software supply chain security by updating "actions/checkout" to block pwn request attacks that exploit the risky use of the "pull_request_target workflow" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of "actions/checkout," the official GitHub action for checking out a repository into the
 ```
 
 #### Full body
 
 ```
-Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
+GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns  Ravie Lakshmanan  Jun 23, 2026 Workflow Security / Software Supply Chain GitHub is moving to strengthen software supply chain security by updating " actions/checkout " to block pwn request attacks that exploit the risky use of the "pull_request_target workflow" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of "actions/checkout," the official GitHub action for checking out a repository into the workflow's runner, refuses common pwn request patterns by default. The change is expected to be backported to all currently supported major versions on July 16, 2026. "Actions/checkout v7 refuses to fetch fork pull request code in pull_request_target and workflow_run workflows (the latter only when workflow_run.event is a pull_request* event)," it added . The refusal occurs when the pull request is from a fork, and any of the following criteria is met, unless workflow authors explicitly opt out of it by setting the " allow-unsafe-pr-checkout " flag to "true" in "actions/checkout" - repository: resolves to the fork pull request' repository ref: matches refs/pull/number/head or refs/pull/number/merge ref: resolves to a fork pull request's head or merge commit SHA The change is aimed at preventing the most common form of pwn requests in the Actions ecosystem. As a result, "actions/checkout" will fail for "pull_request_target events" from forks with insecure inputs. "Pull_request_target" is a workflow trigger that's automatically run without requiring manual approval when a pull request is opened or reopened, or when the head branch of the pull request is updated. It's important to note that the event runs in the context of the default branch of the base repository, potentially exposing secrets and a privileged GITHUB_TOKEN with both read and write permissions. "Running untrusted code on the pull_request_target trigger may lead to security vulnerabilities," GitHub notes in its documentation. "These vulnerabilities include cache poisoning and granting unintended access to write privileges or secrets." The danger arises when a "pull_request_target" is combined with "actions/checkout" to download and execute code submitted by an untrusted fork. Should a bad actor submit a pull request containing malicious scripts and the workflow checks out and runs the code, it can allow the attacker to steal the GITHUB_TOKEN and other secrets, leading to what's called a pwn request attack . "Workflows triggered by pull_request_target run with the base repository's GITHUB_TOKEN, secrets, and default-branch cache access," GitHub said. "Checking out the head of an unreviewed pull request from a fork inside one of these workflows typically lets attacker-controlled code execute with the workflow's full privileges." In recent months, a number of software chain attacks have weaponized this behavior. The most severe of them was the compromise of multiple packages associated with the Nx build system as part of a campaign codenamed s1ngularity, as well as the breach of PostHog , TanStack , and the popular Emacs package, " kubernetes-el/kubernetes-el ." "Pull_request_target was designed for trusted automation around pull requests, such as labeling, commenting, or applying project metadata," Socket said. "But the checkout step controls which code actually lands in the runner workspace. If it pulls code from a forked pull request, the workflow can end up running attacker-controlled code with the base repository's privileges." That said, the Microsoft-owned subsidiary emphasized that pwn requests triggered via other event types besides pull_request_target (e.g., issue_comment) or through other means, such as git or the GitHub CLI, are out of scope of this change. "This change only blocks checkouts of the fork pull request head and merge commits," it added. "It does not block checkouts of other untrusted repositories. For example, s
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - Summary: Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data
-  - Published: 2026-06-22T13:22:31+00:00
-  - Link: https://www.securityweek.com/decades-old-squid-proxy-flaw-squidbleed-can-expose-user-data/
-  - Summary: Squidbleed, discovered with the aid of Claude Mythos Preview, has been described as a Heartbleed-style vulnerability. The post Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data appeared first on SecurityWeek .
-- **Risky Business News** (practitioner_analysis)
-  - Title: Srsly Risky Biz: Anthropic has artificial, but not emotional, intelligence
-  - Published: 2026-06-18T06:17:55+00:00
-  - Link: https://risky.biz/SRB171/
-  - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
-
-### Cluster 84319555f9 — score 10
-
-- Title: Threat Brief: Mitigating Large-Scale Credential Attacks
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-20T02:05:33+00:00
-- Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 4 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 19, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Change the credentials for default accounts, ensuring long, complex p
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
-  - Published: 2026-06-20T02:05:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns
+  - Published: 2026-06-23T14:22:03+00:00
+  - Link: https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
+  - Summary: GitHub is moving to strengthen software supply chain security by updating "actions/checkout" to block pwn request attacks that exploit the risky use of the "pull_request_target workflow" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of "actions/checkout," the official GitHub action for checking out a repository into the
+- **TrustedSec** (detection_response_operations)
+  - Title: Modern Web Application Content Discovery
+  - Published: 2026-06-18T04:00:00+00:00
+  - Link: https://trustedsec.com/blog/modern-web-application-content-discovery
+  - Summary: <p>Staring at a web app with no links and no navigation? In this blog, we break down modern content discovery, from forced browsing and web crawling to Google dorking and GitHub recon.</p>
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign
+  - Published: 2026-06-22T16:10:10+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
+  - Summary: Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Serverless Phishing Kit on GitHub Targets Mexican Banks
+  - Published: 2026-06-17T14:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/gitbait-github-pages-sheetbest/
+  - Summary: GitBait phishing kit abuses GitHub Pages and the SheetBest API to steal Mexican banking credentials
 
 ### Cluster f4c821a558 — score 10
 
@@ -1885,38 +1852,48 @@ See how Microsoft unifies identity and security signals to help teams prevent, d
   - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
   - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
-### Cluster 19ebe22969 — score 10
+### Cluster 84319555f9 — score 10
 
-- Title: Webshells Remain Popular, (Mon, Jun 22nd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-22T14:10:27+00:00
-- Link: https://isc.sans.edu/diary/rss/33096
-- Fetch status: fetch_failed:HTTPError
+- Title: Threat Brief: Mitigating Large-Scale Credential Attacks
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-20T02:05:33+00:00
+- Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_products: Palo Alto Networks
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_products: Palo Alto Networks
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
+We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 4 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 19, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Change the credentials for default accounts, ensuring long, complex p
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Webshells Remain Popular, (Mon, Jun 22nd)
-  - Published: 2026-06-22T14:10:27+00:00
-  - Link: https://isc.sans.edu/diary/rss/33096
-  - Summary: Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
+- **Unit 42** (threat_research_primary)
+  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
+  - Published: 2026-06-20T02:05:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
 
 ### Cluster ecad4b1a4b — score 10
 
@@ -2165,7 +2142,7 @@ Hackers stole customers’ names, addresses, email addresses, phone numbers, and
 #### Full body
 
 ```
-Canadian electricity provider London Hydro is investigating a data breach that potentially impacted the personal and account information of its customers. London Hydro is a local distribution company serving the City of London, Ontario. It serves roughly 170,000 residential, institutional, commercial, and industrial customers. On June 20, the electricity provider announced that hackers had broken into its systems and that customers’ data was likely accessed. “London Hydro and the appropriate authorities are currently investigating a data security incident which may have impacted a portion of personal information on some accounts,” the company said . The potentially affected data includes personal information such as names, addresses, email addresses, and phone numbers. Account information, including account and billing numbers, service addresses, pricing plans, contract dates, and meter numbers and types, might have been impacted as well. Advertisement. Scroll to continue reading. According to London Hydro, no financial or other sensitive information might have been compromised in the data breach. “The incident did not involve access to financial information or other sensitive categories of information, such as your date of birth, government identification numbers, payment card details, or banking information,” the company said. London Hydro urges customers to be wary of suspicious activity related to their accounts and personal information, including phishing messages, emails, or phone calls. It’s unclear who is responsible for the attack. No known cybercrime group appears to have taken credit for hacking London Hydro. Related: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Related: More Cybersecurity Firms Disclose Impact From Klue Hack Related: What the Latest ShinyHunters Breaches Reveal About Modern Cyberattacks Related: Texas Parks & Wildlife Data Breach Affects 3 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Fortinet Responds to FortiBleed Campaign More Cybersecurity Firms Disclose Impact From Klue Hack CryptoBandits Malware Doubles as a Backdoor, Abuses Tor FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Majority of Internet-Accessible REDCap Servers Outdated Latest News Algerian Man Extradited to US for Running Cybercrime Marketplaces FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration Xsolis Data Breach Affects 1.4 Million Individuals Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities faster, while defenders are racing to ship detections and configurations. Join this live webinar as we
+Canadian electricity provider London Hydro is investigating a data breach that potentially impacted the personal and account information of its customers. London Hydro is a local distribution company serving the City of London, Ontario. It serves roughly 170,000 residential, institutional, commercial, and industrial customers. On June 20, the electricity provider announced that hackers had broken into its systems and that customers’ data was likely accessed. “London Hydro and the appropriate authorities are currently investigating a data security incident which may have impacted a portion of personal information on some accounts,” the company said . The potentially affected data includes personal information such as names, addresses, email addresses, and phone numbers. Account information, including account and billing numbers, service addresses, pricing plans, contract dates, and meter numbers and types, might have been impacted as well. Advertisement. Scroll to continue reading. According to London Hydro, no financial or other sensitive information might have been compromised in the data breach. “The incident did not involve access to financial information or other sensitive categories of information, such as your date of birth, government identification numbers, payment card details, or banking information,” the company said. London Hydro urges customers to be wary of suspicious activity related to their accounts and personal information, including phishing messages, emails, or phone calls. It’s unclear who is responsible for the attack. No known cybercrime group appears to have taken credit for hacking London Hydro. Related: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Related: More Cybersecurity Firms Disclose Impact From Klue Hack Related: What the Latest ShinyHunters Breaches Reveal About Modern Cyberattacks Related: Texas Parks & Wildlife Data Breach Affects 3 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Fortinet Responds to FortiBleed Campaign More Cybersecurity Firms Disclose Impact From Klue Hack CryptoBandits Malware Doubles as a Backdoor, Abuses Tor FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Latest News Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct Algerian Man Extradited to US for Running Cybercrime Marketplaces FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities faster, while defenders are racing to shi
 ```
 
 #### Corroborating sources (1)
@@ -2189,17 +2166,15 @@ Canadian electricity provider London Hydro is investigating a data breach that p
 
 #### Cluster taxonomy (union across members)
 - threat_categories: data_breach, phishing_social_eng, ransomware_extortion
-- actor_attribution: ShinyHunters
 - affected_industries: financial_services, healthcare, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, WordPress
+- affected_products: OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
 - affected_industries: healthcare, financial_services, manufacturing_industrial
-- affected_products: OpenAI/ChatGPT, WordPress
+- affected_products: OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -2212,7 +2187,7 @@ Threat actors gained access to personal and protected health information that Xs
 #### Full body
 
 ```
-Healthcare technology company Xsolis, Inc. has disclosed a data breach affecting nearly 1.4 million individuals. Tennessee-based Xsolis provides utilization management and revenue cycle solutions for hospitals, health systems, and payers. The company published a data security notice in early June, revealing that unauthorized activity was detected on its systems on January 22. The intrusion resulted from a targeted phishing attack carried out two days earlier. According to Xsolis, the hackers gained access to files storing personal and protected health information received by the company from its clients, including names, dates of birth, addresses, SSNs, health insurance information, and medical treatment information. While the data breach was disclosed two weeks ago, the US Department of Health and Human Services (HHS) has now disclosed the number of affected individuals. The Xsolis cybersecurity incident was added to the HHS data breach tracker on Monday, with the number of affected individuals listed as 1,396,519. Advertisement. Scroll to continue reading. No known ransomware group appears to have taken credit for the attack on the healthcare tech company. SecurityWeek has asked Xsolis whether it was targeted in an extortion attempt and, if so, whether a ransom has been paid. The company’s disclosure indicates that it’s “not aware of any actual or attempted misuse of information because of this incident”. It’s not uncommon for healthcare-related data breaches to affect millions of people. One recent example is the incident involving the dental benefits administrator DentaQuest , in which hackers stole information from 2.6 million accounts. Related : Millions Impacted Across Several US Healthcare Data Breaches Related : 266,000 Affected by Data Breach at Radiology Associates of Richmond Related : Oncology Institute Discloses Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Texas Parks & Wildlife Data Breach Affects 3 Million Individuals Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 Billion OT Cybersecurity Push Rokarolla Banking Trojan Targets 200 Applications SailPoint to Acquire Entro in Reported $200 Million Deal Kodak Admits Data Breach After ShinyHunters Hack Claims Latest News Algerian Man Extradited to US for Running Cybercrime Marketplaces FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Canadian Electricity Provider London Hydro Discloses Data Breach Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management pr
+Healthcare technology company Xsolis, Inc. has disclosed a data breach affecting nearly 1.4 million individuals. Tennessee-based Xsolis provides utilization management and revenue cycle solutions for hospitals, health systems, and payers. The company published a data security notice in early June, revealing that unauthorized activity was detected on its systems on January 22. The intrusion resulted from a targeted phishing attack carried out two days earlier. According to Xsolis, the hackers gained access to files storing personal and protected health information received by the company from its clients, including names, dates of birth, addresses, SSNs, health insurance information, and medical treatment information. While the data breach was disclosed two weeks ago, the US Department of Health and Human Services (HHS) has now disclosed the number of affected individuals. The Xsolis cybersecurity incident was added to the HHS data breach tracker on Monday, with the number of affected individuals listed as 1,396,519. Advertisement. Scroll to continue reading. No known ransomware group appears to have taken credit for the attack on the healthcare tech company. SecurityWeek has asked Xsolis whether it was targeted in an extortion attempt and, if so, whether a ransom has been paid. The company’s disclosure indicates that it’s “not aware of any actual or attempted misuse of information because of this incident”. It’s not uncommon for healthcare-related data breaches to affect millions of people. One recent example is the incident involving the dental benefits administrator DentaQuest , in which hackers stole information from 2.6 million accounts. Related : Millions Impacted Across Several US Healthcare Data Breaches Related : 266,000 Affected by Data Breach at Radiology Associates of Richmond Related : Oncology Institute Discloses Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Trump Signs Executive Order Accelerating Post-Quantum Cryptography Migration Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Texas Parks & Wildlife Data Breach Affects 3 Million Individuals Cisco to Acquire WideField Security to Boost Splunk’s Agentic SOC Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Accenture to Acquire Majority Stake in Dragos, All of runZero, NetRise in $4.1 Billion OT Cybersecurity Push Rokarolla Banking Trojan Targets 200 Applications Latest News Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct Algerian Man Extradited to US for Running Cybercrime Marketplaces FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Canadian Electricity Provider London Hydro Discloses Data Breach Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identit
 ```
 
 #### Corroborating sources (1)
@@ -2258,97 +2233,6 @@ submitted by /u/AlbatrossMaximum4489 [link] [comments]
   - Link: https://www.reddit.com/r/netsec/comments/1ucsrw0/cve202625860_turn_xss_to_rce/
   - Summary: submitted by /u/AlbatrossMaximum4489 [link] [comments]
 
-### Cluster e43c5524f0 — score 10
-
-- Title: The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral
-- Source: Just Security (policy_strategy_geopolitics)
-- Published: 2026-06-22T12:50:24+00:00
-- Link: https://www.justsecurity.org/143438/attack-kyiv-monastery-caves-loac/?utm_source=rss&utm_medium=rss&utm_campaign=attack-kyiv-monastery-caves-loac
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-The strike illustrates a grim pattern in Russia’s conduct of the war – the systematic destruction of Ukrainian religious and cultural sites. The post The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral appeared first on Just Security .
-```
-
-#### Corroborating sources (1)
-
-- **Just Security** (policy_strategy_geopolitics)
-  - Title: The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral
-  - Published: 2026-06-22T12:50:24+00:00
-  - Link: https://www.justsecurity.org/143438/attack-kyiv-monastery-caves-loac/?utm_source=rss&utm_medium=rss&utm_campaign=attack-kyiv-monastery-caves-loac
-  - Summary: The strike illustrates a grim pattern in Russia’s conduct of the war – the systematic destruction of Ukrainian religious and cultural sites. The post The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral appeared first on Just Security .
-
-### Cluster 33472b1f9c — score 10
-
-- Title: Modern Web Application Content Discovery
-- Source: TrustedSec (detection_response_operations)
-- Published: 2026-06-18T04:00:00+00:00
-- Link: https://trustedsec.com/blog/modern-web-application-content-discovery
-- Fetch status: ok
-- Member count: 6
-- Corroborating source count: 4
-- Strong signals: GitHub
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- affected_products: GitHub, WordPress
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: GitHub
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-<p>Staring at a web app with no links and no navigation? In this blog, we break down modern content discovery, from forced browsing and web crawling to Google dorking and GitHub recon.</p>
-```
-
-#### Full body
-
-```
-Blog Modern Web Application Content Discovery June 18, 2026 Modern Web Application Content Discovery Written by Luke Bremer Application Security Assessment Table of contents FORCED BROWSING WEB CRAWLERS OSINT GOOGLE OSINT GITHUB WRAP-UP PREVENTION When testing web applications, discovering what functionality is available is key to finding vulnerabilities. Ideally you want to find as many application pages as possible. You can do this by using web‑crawling or spidering tools to uncover indexed pages, as well as employing forced‑browsing techniques. When doing forced browsing you are looking for pages that are not indexed on the site but still available. Forced-browsing is more useful when the applications user interface (UI) is limited, but even on applications with a large UI, forced-browsing can return webpages that would otherwise not be known. Recently, I got this question: "I found a URL that is returning a default homepage, but it has no links or navigation. How do I find out if the application has functionality?” So, I figured I would write up a quick guide on how I find content in modern web applications. FORCED BROWSING To start we can try to guess page names that are present in an application. A common way to browse for un-indexed pages is to run though a list of common page names. For example, we can grab a HTTP request with a proxy like Burp Suite and send the request to intruder which makes repeated requests with different page names. Figure 1 - Burp Suite Intruder Then, we can review the results to see what response codes are returned by the application. Figure 2 - Intruder Results If a page exists, the application could return a 200 response code or sometimes a redirect code like a 302. Forced browsing typically sends a lot of requests, and the results depends on how good of a wordlist you use. Seclists is still a pretty good baseline to get common lists: https://github.com/danielmiessler/SecLists/tree/master/Discovery/Web-Content But a lot of tools, such as Burp Suite , have common lists built in as well. Burp Suite does restrict how fast requests can be sent in the community version, so using command line tools such as FFuF is also common and in some cases can return results faster. Figure 3 - FFuF Output It is important to note that by default FFuF sends 40 requests at a time where Burp Suite only sends 10 requests at a time. The -t parameter in FFuF can set the number of requests send each iteration. To ensure you don't overwhelm a site, or get blocked by rate limits, you may want to decrease the threads being used. Typically, if a page returns a response code that is not a 404 (Not found) that page might be part of a valid URL path and we can then start re-searching any paths that seem to get a valid response code like a 200. If we find a valid page, we can then navigate to the page in our browser and review what functionality is available. Figure 4 - FFuF Recursive Output It should be noted that depending on the website, the application may require pages to contain an extension such as .html , or .php . So, when looking for a URL path like /blog different sites will return different response codes for example.com/blog and example.com/blog.html Figure 5 - FFuF Output With File Extensions To make forced browsing a little more targeted, we can review application response headers or common fingerprinting tools like Wappalyzer to identify what server or software is being used in the application. Figure 6a - Wappalyzer Output Figure 6b - Server Response Header Then, we can ask an AI model to create a list of common URL paths, or common file paths that you can use with FFuF or Burp Suite . Figure 7 - AI Generated List for Forced Browsing WEB CRAWLERS It's worth mentioning there may not be many un-indexed pages on a site. In those cases, web crawling would be better suited for enumeration. You can use Burp Suite ’s Content Discovery function by right clicking a target and selecting Engagement Tools/Discover Content
-```
-
-#### Corroborating sources (4)
-
-- **TrustedSec** (detection_response_operations)
-  - Title: Modern Web Application Content Discovery
-  - Published: 2026-06-18T04:00:00+00:00
-  - Link: https://trustedsec.com/blog/modern-web-application-content-discovery
-  - Summary: <p>Staring at a web app with no links and no navigation? In this blog, we break down modern content discovery, from forced browsing and web crawling to Google dorking and GitHub recon.</p>
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign
-  - Published: 2026-06-22T16:10:10+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
-  - Summary: Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants
-  - Published: 2026-06-22T16:13:28+00:00
-  - Link: https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html
-  - Summary: Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Serverless Phishing Kit on GitHub Targets Mexican Banks
-  - Published: 2026-06-17T14:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/gitbait-github-pages-sheetbest/
-  - Summary: GitBait phishing kit abuses GitHub Pages and the SheetBest API to steal Mexican banking credentials
-
 ### Cluster 8ffac1c2f0 — score 9
 
 - Title: NCSC CEO: Hostile states linked to three-quarters of cyber attacks affecting UK's critical systems
@@ -2389,6 +2273,39 @@ News Download & print article PDF Download & print article PDF NCSC CEO: Hostile
   - Published: 2026-06-17T12:00:00+00:00
   - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
   - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
+
+### Cluster 19ebe22969 — score 9
+
+- Title: Webshells Remain Popular, (Mon, Jun 22nd)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-22T14:10:27+00:00
+- Link: https://isc.sans.edu/diary/rss/33096
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Webshells Remain Popular, (Mon, Jun 22nd)
+  - Published: 2026-06-22T14:10:27+00:00
+  - Link: https://isc.sans.edu/diary/rss/33096
+  - Summary: Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
 
 ### Cluster a9ba6bfe90 — score 9
 
@@ -2460,6 +2377,49 @@ I detected an interesting phishing email this morning. It targets a major Belgia
   - Link: https://isc.sans.edu/diary/rss/33086
   - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
 
+### Cluster 0d62ef055b — score 9
+
+- Title: AI Threat Readiness Pillar 4: Detect and contain threats in real-time
+- Source: Wiz Research (cloud_identity_infrastructure)
+- Published: 2026-06-23T12:33:11+00:00
+- Link: https://www.wiz.io/blog/ai-threat-readiness-pillar-4
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, supply_chain
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, ai_security
+- affected_products: Azure
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.
+```
+
+#### Full body
+
+```
+Wiz Pricing Get a demo Get a demo So far in this series, we’ve covered how to reduce critical exposure , accelerate patching , and analyze code before attackers do with Wiz to help you get your systems ready for AI threats. But prevention can only take you so far. Even with a hardened posture, some risk will still materialize into an active threat at runtime. And in the AI era, detection and response face two compounding challenges: the speed of exploitation is accelerating, and the threat landscape itself has fundamentally changed. AI-powered attacks, prompt injection, supply chain risks as coding agents gain broader access to codebases and pipelines, and abuse of cloud-native AI services are creating new attack surfaces that traditional detection tools were never built to cover. The old model - alert fires, analyst reviews, investigation starts from scratch - won’t hold up when the window between initial access and impact shrinks to minutes . What’s needed is a fundamentally different approach: one where telemetry is comprehensive across all layers, investigation is automated, and containment doesn’t wait for a human to start the clock. Today, we are diving into Pillar 4: Detect and contain threats in real time. We will explore why manual investigation can no longer keep pace with AI-driven threats, how to achieve full-context visibility into threats across your environment, and how Wiz uses AI-driven investigation and automated containment playbooks to ensure that responding to threats is finally as fast as they arrive. Why detecting and containing threats in real time is crucial for AI Threat Readiness Traditional detection and response wasn’t built for today’s AI threat landscape. Alert volumes are growing, attack surfaces have expanded across cloud infrastructure, workloads, identities, APIs, and AI services - and when a threat does materialize, investigation still depends on analysts manually correlating signals across disconnected tools. In the AI era, that model breaks down. Attackers operating with AI assistance are compressing the time between initial access and lateral movement - leaving defenders a shrinking window to detect, investigate, and contain before the blast radius grows. The security perimeter has expanded too. As coding agents gain broader access to codebases and pipelines, a single compromise can become a path across the entire environment - from codebase to production infrastructure, turning supply chain risk into a runtime detection problem. AI workloads also introduce an entirely new threat landscape that existing detection tools weren’t built to cover. Unlike traditional workloads, AI agents and models behave non-deterministically - harder to baseline, harder to monitor, and harder to detect when compromised. This creates three new requirements for detection and response: New context - Understanding what your AI workloads actually do at runtime requires attributing activity to specific agents, MCPs, tools, and models. Without that attribution, anomalous behavior is invisible. New telemetry - AI workloads generate inputs and outputs that must be monitored specifically for prompt injection, data leakage, and model misuse - signals that don’t appear in cloud logs or workload telemetry alone. New resources - Cloud-native AI services like Amazon Bedrock, Azure AI, Vertex AI are now first-class attack surfaces that require the same security monitoring as any other cloud resources. Together, these forces surface five interconnected challenges that existing tools and processes weren’t designed to solve: Incomplete visibility: Without broad telemetry spanning workload, cloud, identity, network, and data layers - including AI invocation logs - gaps in coverage mean threats go undetected entirely. Teams can only investigate what they can see. False positive fatigue: High alert volumes with low signal-to-noise ratios erode analyst trust in the tooling. Without AI-established behavioral baselines and continuous
+```
+
+#### Corroborating sources (1)
+
+- **Wiz Research** (cloud_identity_infrastructure)
+  - Title: AI Threat Readiness Pillar 4: Detect and contain threats in real-time
+  - Published: 2026-06-23T12:33:11+00:00
+  - Link: https://www.wiz.io/blog/ai-threat-readiness-pillar-4
+  - Summary: Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.
+
 ### Cluster e293ff297b — score 9
 
 - Title: FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances
@@ -2472,15 +2432,13 @@ I detected an interesting phishing email this morning. It targets a major Belgia
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_products: Fortinet, WordPress, npm
+- affected_products: WordPress
 - cve_ids: CVE-2026-8461
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: Fortinet, npm, WordPress
+- affected_products: WordPress
 - cve_ids: CVE-2026-8461
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -2494,7 +2452,7 @@ Attackers can send crafted media files to execute code in any application that u
 #### Full body
 
 ```
-A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Fortinet Responds t
+A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Nort
 ```
 
 #### Corroborating sources (1)
@@ -2591,6 +2549,39 @@ Risky Bulletin Podcast June 22, 2026 Risky Bulletin: Klue breach impacts securit
   - Link: https://risky.biz/RBNEWS580/
   - Summary: A data breach at business analytics platform Klue spreads to security firms, a hacker breaches Brazil’s national alert system, North Koreans are behind the Mastra supply chain attack, and a new, unfixable vulnerability has been found in Apple’s A12 and A13 chips.
 
+### Cluster e43c5524f0 — score 9
+
+- Title: The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral
+- Source: Just Security (policy_strategy_geopolitics)
+- Published: 2026-06-22T12:50:24+00:00
+- Link: https://www.justsecurity.org/143438/attack-kyiv-monastery-caves-loac/?utm_source=rss&utm_medium=rss&utm_campaign=attack-kyiv-monastery-caves-loac
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+The strike illustrates a grim pattern in Russia’s conduct of the war – the systematic destruction of Ukrainian religious and cultural sites. The post The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral appeared first on Just Security .
+```
+
+#### Corroborating sources (1)
+
+- **Just Security** (policy_strategy_geopolitics)
+  - Title: The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral
+  - Published: 2026-06-22T12:50:24+00:00
+  - Link: https://www.justsecurity.org/143438/attack-kyiv-monastery-caves-loac/?utm_source=rss&utm_medium=rss&utm_campaign=attack-kyiv-monastery-caves-loac
+  - Summary: The strike illustrates a grim pattern in Russia’s conduct of the war – the systematic destruction of Ukrainian religious and cultural sites. The post The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral appeared first on Just Security .
+
 ### Cluster 799ac6a482 — score 9
 
 - Title: Threat tactic spotlight: Subdomain takeover
@@ -2639,48 +2630,52 @@ AWS Security Blog Threat tactic spotlight: Subdomain takeover In this blog post 
   - Link: https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
   - Summary: Working with frontier AI models, this new platform aims to help discovering, prioritizing, validating and remediating code vulnerabilities
 
-### Cluster 12d52f8aef — score 8
+### Cluster 512ea8982c — score 9
 
-- Title: AI in the underground: Curiosity, claims, and concerns
-- Source: Sophos X-Ops (detection_response_operations)
+- Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
+- Source: Google Cloud Security (cloud_identity_infrastructure)
 - Published: 2026-06-17T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
 - Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Anthropic/Claude
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- affected_industries: government
+- affected_products: Anthropic/Claude, Google Cloud, Kubernetes
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_2_operator, tier_3_analysis
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- affected_products: Kubernetes, Google Cloud, Anthropic/Claude
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
 ```
 
 #### Full body
 
 ```
-AI in the underground: Curiosity, claims, and concerns Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Written by Sophos Counter Threat Unit Research Team Threat Research AI Dark Web underground Share This Link Copied Counter Threat Unit™ (CTU) researchers have observed artificial intelligence (AI) emerging into a prominent topic in underground communities, with threat actors discussing its potential, claiming its use for malware and tool development, and expressing concerns. Many claims have not been validated, but the posts reveal perceptions about generative AI and examples of how it may be used in cybercriminal activity. In some respect, threat actors are facing the same challenge as everyone else — seeking to preserve economic viability during a technological transition while trying to identify how and when to embrace AI. Access and knowledge sharing Defenders and threat actors test and experiment with AI-enabled capabilities, but from very different positions. Defenders typically benefit from greater access to commercial tooling, dedicated engineering support, and the financial freedom to trial emerging technologies at scale. In contrast, resource-constrained threat actors are looking for practical ways to gain access. CTU™ researchers have observed API keys for generative AI tools being sold via shared accounts, brokered access, and alternative platforms. In one thread, the "CyberThreat" persona offered brokered API keys for tools such as ChatGPT, Claude, and Grok (see Figure 1). In another post, “VOLTIC” advertised access to multiple AI models as a cost-effective solution for buyers who need AI capabilities (see Figure 2). Although both personas were new to the underground marketplaces, the posts quickly attracted interest and other personas endorsed the services. Figure 1: CyberThreat selling brokered API keys Figure 2: VOLTIC advertising an unlimited AI tool While API keys and associated generative AI chatbots are available for sale across underground forums, there appears to be a knowledge gap. Personas turn to each other for guidance ranging from basic setup and access through to practical tradecraft. New channels focused on AI and large language models (LLMs) and their use continually emerge on underground forums (see Figure 3). Threads include discussions about “jailbreaking” public AI models, including efforts to bypass censorship and other safeguards imposed by AI vendors. Personas frequently reference experimentation with prompt‑based techniques to circumvent content controls, including role‑play framing, multi‑stage prompting, contextual manipulation, and iterative refinement. CTU researchers have also observed self-described “experienced AI users” sharing examples and lessons learned, including prompt templates, workflows, examples of LLM experimentation, and purported best practices for operationalizing AI in malicious scripting and automation. Figure 3: Sample of posts on a channel dedicated to AI and machine learning (ML) questions Since January 1, 2026, CTU researchers have noted an increase in offers to hire, or partner with, specialists who can operationalize AI on others’ behalf. Multiple personas known for recruiting various roles (e.g., blockchain developers, coders, social engineers) advertised for AI prompt engineers (see Figure 4). The offering of specialized services is common within underground communities, enabling threat actors to monetize their skills and giving cybercriminals access to expertise and capabilities they lack. Figure 4: Recruitment post for an OpenAI prompt engineer Social engineering and deception Threat actors are exploring AI to enhance social engineering and deception techniques, although only a limited number currently incorporate generative AI into their toolkits. Forum posts suggest that generative AI models can be integrated into common fraud and intrusion workflows to help threat actors overcome language
+Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
 ```
 
-#### Corroborating sources (1)
+#### Corroborating sources (2)
 
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: AI in the underground: Curiosity, claims, and concerns
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
   - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
-  - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
+  - Summary: Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
+- **Risky Business News** (practitioner_analysis)
+  - Title: Srsly Risky Biz: Anthropic has artificial, but not emotional, intelligence
+  - Published: 2026-06-18T06:17:55+00:00
+  - Link: https://risky.biz/SRB171/
+  - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
 
 ### Cluster 41719728a2 — score 8
 
@@ -2764,6 +2759,49 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
 
+### Cluster 12d52f8aef — score 8
+
+- Title: AI in the underground: Curiosity, claims, and concerns
+- Source: Sophos X-Ops (detection_response_operations)
+- Published: 2026-06-17T00:00:00+00:00
+- Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+```
+
+#### Full body
+
+```
+AI in the underground: Curiosity, claims, and concerns Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Written by Sophos Counter Threat Unit Research Team Threat Research AI Dark Web underground Share This Link Copied Counter Threat Unit™ (CTU) researchers have observed artificial intelligence (AI) emerging into a prominent topic in underground communities, with threat actors discussing its potential, claiming its use for malware and tool development, and expressing concerns. Many claims have not been validated, but the posts reveal perceptions about generative AI and examples of how it may be used in cybercriminal activity. In some respect, threat actors are facing the same challenge as everyone else — seeking to preserve economic viability during a technological transition while trying to identify how and when to embrace AI. Access and knowledge sharing Defenders and threat actors test and experiment with AI-enabled capabilities, but from very different positions. Defenders typically benefit from greater access to commercial tooling, dedicated engineering support, and the financial freedom to trial emerging technologies at scale. In contrast, resource-constrained threat actors are looking for practical ways to gain access. CTU™ researchers have observed API keys for generative AI tools being sold via shared accounts, brokered access, and alternative platforms. In one thread, the "CyberThreat" persona offered brokered API keys for tools such as ChatGPT, Claude, and Grok (see Figure 1). In another post, “VOLTIC” advertised access to multiple AI models as a cost-effective solution for buyers who need AI capabilities (see Figure 2). Although both personas were new to the underground marketplaces, the posts quickly attracted interest and other personas endorsed the services. Figure 1: CyberThreat selling brokered API keys Figure 2: VOLTIC advertising an unlimited AI tool While API keys and associated generative AI chatbots are available for sale across underground forums, there appears to be a knowledge gap. Personas turn to each other for guidance ranging from basic setup and access through to practical tradecraft. New channels focused on AI and large language models (LLMs) and their use continually emerge on underground forums (see Figure 3). Threads include discussions about “jailbreaking” public AI models, including efforts to bypass censorship and other safeguards imposed by AI vendors. Personas frequently reference experimentation with prompt‑based techniques to circumvent content controls, including role‑play framing, multi‑stage prompting, contextual manipulation, and iterative refinement. CTU researchers have also observed self-described “experienced AI users” sharing examples and lessons learned, including prompt templates, workflows, examples of LLM experimentation, and purported best practices for operationalizing AI in malicious scripting and automation. Figure 3: Sample of posts on a channel dedicated to AI and machine learning (ML) questions Since January 1, 2026, CTU researchers have noted an increase in offers to hire, or partner with, specialists who can operationalize AI on others’ behalf. Multiple personas known for recruiting various roles (e.g., blockchain developers, coders, social engineers) advertised for AI prompt engineers (see Figure 4). The offering of specialized services is common within underground communities, enabling threat actors to monetize their skills and giving cybercriminals access to expertise and capabilities they lack. Figure 4: Recruitment post for an OpenAI prompt engineer Social engineering and deception Threat actors are exploring AI to enhance social engineering and deception techniques, although only a limited number currently incorporate generative AI into their toolkits. Forum posts suggest that generative AI models can be integrated into common fraud and intrusion workflows to help threat actors overcome language
+```
+
+#### Corroborating sources (1)
+
+- **Sophos X-Ops** (detection_response_operations)
+  - Title: AI in the underground: Curiosity, claims, and concerns
+  - Published: 2026-06-17T00:00:00+00:00
+  - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
+  - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
+
 ### Cluster 4e0e6a8779 — score 8
 
 - Title: CNAPP Tools That Reduce Security Tool Sprawl: CNAPP vs. Dedicated Solutions
@@ -2839,6 +2877,59 @@ Table of contents The Security Stack Crisis: How Tool Sprawl Creates Blind Spots
   - Published: 2026-06-17T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools
 
+### Cluster 9240f2c5c0 — score 8
+
+- Title: Two Scattered Spider members plead guilty over cyberattack that crippled London transit
+- Source: The Record (cyber_news_breach_reporting)
+- Published: 2026-06-23T13:00:00+00:00
+- Link: https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Scattered Spider
+
+#### Cluster taxonomy (union across members)
+- actor_attribution: Scattered Spider
+- affected_industries: aviation_defense, healthcare, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, aviation_defense, retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.
+```
+
+#### Full body
+
+```
+Train cars in the London Underground. Image: Ahmed via Unsplash Two Scattered Spider members plead guilty over cyberattack that crippled London transit Two alleged members of the cybercrime gang Scattered Spider pleaded guilty Monday to carrying out a cyberattack against London's transport authority that disrupted services for months, exposed customer data and cost the organization tens of millions of pounds. The U.K.'s National Crime Agency (NCA) said Thalha Jubair, 20, from East London, and Owen Flowers, 18, from England's West Midlands, admitted infiltrating the network of Transport for London in September 2024. Both men had been scheduled to stand trial on Monday but changed their pleas on the first day of proceedings. Sentencing is scheduled for July 16. Authorities said the pair were members of Scattered Spider, a loosely organized network of predominantly English-speaking cybercriminals linked to a series of high-profile intrusions targeting major U.S. and European companies across sectors including aviation, insurance and retail. U.S. prosecutors have previously alleged that the group extorted at least $115 million from victims over a three-year period. The attack forced all 28,000 TfL employees to reset their passwords in person and resulted in about 29 million pounds ($38 million) in losses and recovery costs, according to the NCA. Disruptions continued for several months after the initial intrusion. The breach also affected TfL's customer refund services and exposed data held in the refund system for Oyster, the smart-ticketing platform used across London's public transportation network. The incident also disrupted applications for discounted Oyster photocards used by children and young people. Flowers was arrested shortly after the attack in September 2024. Investigators searching his home seized laptops, desktop computers, hard drives and USB devices, the NCA said. One laptop contained a screenshot showing connections to TfL infrastructure and evidence that Flowers had accessed an online marketplace selling stolen credentials, the NCA said. Investigators also recovered videos allegedly showing Jubair accessing TfL systems during the intrusion. According to the NCA, the pair communicated via Telegram and collaborated through a shared online workspace while carrying out the attack. Authorities said evidence uncovered during the investigation also indicated that the networks of U.S. healthcare providers SSM Health Care Corporation and Sutter Health had been infiltrated and damaged. The NCA did not provide further details, but both companies reported large data breaches in 2023. Flowers later breached his bail conditions on two occasions, while Jubair faced an additional charge for failing to disclose passwords or PINs for seized devices. The defendants faced some of the most serious charges available under British cybercrime legislation, including conspiracy to commit unauthorized computer acts that create a risk of serious damage to human welfare or national security — offenses that carry a maximum sentence of life imprisonment. "This has been a lengthy, highly complex and painstaking investigation," Paul Foster, head of the NCA's National Cyber Crime Unit, said in a statement. News Cybercrime Get more insights with the Recorded Future Intelligence Cloud. Learn more. No previous article No new articles Daryna Antoniuk is a reporter for Recorded Future News based in Ukraine. She writes about cybersecurity startups, cyberattacks in Eastern Europe and the state of the cyberwar between Ukraine and Russia. She previously was a tech reporter for Forbes Ukraine. Her work has also been published at Sifted, The Kyiv Independent and The Kyiv Post.
+```
+
+#### Corroborating sources (3)
+
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Two Scattered Spider members plead guilty over cyberattack that crippled London transit
+  - Published: 2026-06-23T13:00:00+00:00
+  - Link: https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members
+  - Summary: A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Two Scattered Spider hackers plead guilty over Transport for London cyberattack
+  - Published: 2026-06-23T09:59:48+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/23/transport-london-cyberattack-scattered-spider-members-plead-guilty/
+  - Summary: Two members of the notorious hacker group Scattered Spider have pleaded guilty to charges related to a 2024 cyberattack on Transport for London (TfL) that resulted in £29 million in loss and recovery costs. Thalha Jubair, 20, from London, and Owen Flowers, 18, from Walsall, pleaded guilty at a court hearing in London to offences under the UK’s Computer Misuse Act and will be sentenced on July 16. TfL, the public body responsible for much … More → The post Two Scattered Spider hackers plead guilty over Transport for London cyberattack appeared first on Help Net Security .
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Scattered Spider Teens Convicted of TfL Cyber-Attack
+  - Published: 2026-06-23T09:29:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
+  - Summary: Two young British men have pleaded guilty to hacking Transport for London as part of a Scattered Spider plot
+
 ### Cluster 531d8dfe1d — score 8
 
 - Title: FFmpeg fixes PixelSmash flaw in widely used video decoder
@@ -2882,97 +2973,6 @@ FFmpeg fixes PixelSmash flaw in widely used video decoder By Bill Toulas June 22
   - Link: https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/
   - Summary: A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in applications like Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. [...]
 
-### Cluster d8706917f4 — score 8
-
-- Title: Texas govt data breach exposes over 3 million driver’s licenses
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-19T16:12:41+00:00
-- Link: https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, data_breach
-- affected_industries: financial_services, government
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]
-```
-
-#### Full body
-
-```
-Texas govt data breach exposes over 3 million driver’s licenses By Bill Toulas June 19, 2026 12:12 PM 1 The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. The Texas Cyber Command discovered the intrusion and launched an investigation to determine the extent and impact of the unauthorized access. The state authority found that Social Security Numbers (SSNs), dates of birth, or any financial information, such as credit cards, have not been impacted. However, the threat actor may have obtained personally identifiable information that includes the following data types associated with 3,087,721 Texas hunting and fishing license customers: Driver’s license information Passport numbers Email addresses Phone numbers Residential addresses The exposed data set is sufficient for hackers to target impacted individuals in phishing and social engineering attacks that lead to web pages distributing malware or seeking more sensitive information. "There is no evidence that customers under the age of 18 were involved or that any specific group was targeted," TPWD says in the data breach notification . TPWD is the Texas state agency responsible for managing wildlife and fisheries, state parks, conservation programs, hunting and fishing regulations, boating registration, and enforcement by Texas Game Wardens. The Texas state agency also issues hunting and fishing licenses and permits, which are sold through an external vendor. BleepingComputer contacted TPWD for more information about the incident and the name of the third-party service provider, but we have not yet received a statement. The agency says that it is "working closely with the license system vendor to implement new safeguards and enhanced monitoring services." TPWD advises customers to monitor their credit reports and financial statements. Impacted individuals are eligible for one year of free credit monitoring and should consider placing a credit freeze or fraud alert with major credit bureaus as an added protection against identity thieves. It is also strongly recommended to remain vigilant for phishing and impersonation scams, as threat actors may try to send communication posing as a company or an official. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Nintendo confirms data stolen in WebMD subsidiary cyberattack SoFi confirms third-party data breach at Hong Kong subsidiary 15-year-old detained over French govt agency data breach French govt agency confirms breach as hacker offers to sell data Video service Vimeo confirms Anodot breach exposed user data
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Texas govt data breach exposes over 3 million driver’s licenses
-  - Published: 2026-06-19T16:12:41+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/
-  - Summary: The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]
-
-### Cluster 40ff9634d2 — score 8
-
-- Title: Two Scattered Spider hackers plead guilty over Transport for London cyberattack
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-06-23T09:59:48+00:00
-- Link: https://www.helpnetsecurity.com/2026/06/23/transport-london-cyberattack-scattered-spider-members-plead-guilty/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Scattered Spider
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services, healthcare
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- actor_attribution: Scattered Spider
-- affected_industries: healthcare, financial_services
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Two members of the notorious hacker group Scattered Spider have pleaded guilty to charges related to a 2024 cyberattack on Transport for London (TfL) that resulted in £29 million in loss and recovery costs. Thalha Jubair, 20, from London, and Owen Flowers, 18, from Walsall, pleaded guilty at a court hearing in London to offences under the UK’s Computer Misuse Act and will be sentenced on July 16. TfL, the public body responsible for much … More → The post Two Scattered Spider hackers plead guilty over Transport for London cyberattack appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security June 23, 2026 Share Two Scattered Spider hackers plead guilty over Transport for London cyberattack Two members of the notorious hacker group Scattered Spider have pleaded guilty to charges related to a 2024 cyberattack on Transport for London (TfL) that resulted in £29 million in loss and recovery costs. Thalha Jubair, 20, from London, and Owen Flowers, 18, from Walsall, pleaded guilty at a court hearing in London to offences under the UK’s Computer Misuse Act and will be sentenced on July 16. TfL, the public body responsible for much of the capital’s transport network, handles up to 5 million passenger journeys a day on the London Underground alone. The attack targeted TfL’s computer network between 31 August and 3 September 2024. “Data from TfL’s Oyster refunds system was accessed and the incident also affected TfL’s customer refund system, leaving some out of pocket for much longer than usual. It also closed down the application system for Oyster photocards for children and young people,” the National Crime Agency (NCA) said. Following the compromise of its network, TfL required all 28,000 employees to attend an office in person to reset their passwords. Jubair and Flowers were arrested at their home addresses on 16 September 2025 by officers from the NCA and the City of London Police. Flowers was first arrested on September 6, 2024, as part of the TfL investigation. Investigators uncovered evidence linking Flowers to intrusions targeting U.S. healthcare providers SSM Health and Sutter Health. Officers seized several devices from his home, including laptops, desktop computers, hard drives and USB storage devices. One laptop contained a screenshot showing connectivity to TfL infrastructure, while another contained videos recorded by Flowers that showed Jubair accessing TfL systems during the attack. The evidence showed the pair communicating via Telegram and an online collaboration platform used to share access and information. Flowers later breached his bail conditions on two occasions in 2025. “This has been a lengthy, highly complex and painstaking investigation,” said Deputy Director Paul Foster, head of the NCA’s National Cyber Crime Unit. “Cyber crime may appear faceless and distant compared to other crime types, but the infiltration of TfL’s systems shows it has real-world consequences and impacts hugely on the public. “The attack caused millions of pounds in losses to a key part of the UK’s critical national infrastructure, and was a significant inconvenience for customers,” Foster added. “Those who target critical organisations, cause substantial financial harm, and disrupt the daily lives of the public will not do so without consequence,” noted Deputy Commissioner Nik Adams of the City of London Police. More about cybercrime EU law enforcement National Crime Agency transportation UK Share
-```
-
-#### Corroborating sources (2)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Two Scattered Spider hackers plead guilty over Transport for London cyberattack
-  - Published: 2026-06-23T09:59:48+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/23/transport-london-cyberattack-scattered-spider-members-plead-guilty/
-  - Summary: Two members of the notorious hacker group Scattered Spider have pleaded guilty to charges related to a 2024 cyberattack on Transport for London (TfL) that resulted in £29 million in loss and recovery costs. Thalha Jubair, 20, from London, and Owen Flowers, 18, from Walsall, pleaded guilty at a court hearing in London to offences under the UK’s Computer Misuse Act and will be sentenced on July 16. TfL, the public body responsible for much … More → The post Two Scattered Spider hackers plead guilty over Transport for London cyberattack appeared first on Help Net Security .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Scattered Spider Teens Convicted of TfL Cyber-Attack
-  - Published: 2026-06-23T09:29:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
-  - Summary: Two young British men have pleaded guilty to hacking Transport for London as part of a Scattered Spider plot
-
 ### Cluster 22bf188705 — score 8
 
 - Title: ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack
@@ -2980,12 +2980,12 @@ Sinisa Markovic , Managing Editor, Help Net Security June 23, 2026 Share Two Sca
 - Published: 2026-06-22T18:00:48+00:00
 - Link: https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 1
 - Strong signals: WordPress
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ransomware_extortion, supply_chain, web_shell_backdoor, zero_day
+- threat_categories: active_exploitation, supply_chain, web_shell_backdoor, zero_day
 - affected_products: WordPress
 - cve_ids: CVE-2026-10735, CVE-2026-11645, CVE-2026-4020, CVE-2026-49777
 - urgency_signals: actively_exploited, preauth_unauth, zero_day
@@ -3012,28 +3012,13 @@ Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain 
 ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack  Ravie Lakshmanan  Jun 22, 2026 Supply Chain Attack / Malware Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. "Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels," Wordfence said in an analysis published last week. The incident affects the following plugins - Product Slider Pro for WooCommerce (versions before 3.5.4) Real Testimonials Pro (version 3.2.5) Smart Post Show Pro (versions before 4.0.2) As mentioned above, it's worth emphasizing that the compromise only affects Pro plugin builds distributed through the vendor's Easy Digital Downloads (EDD) infrastructure via account.shapedplugin[.]com. The free versions of the plugins on WordPress.org are not impacted. The supply chain compromise associated with Product Slider Pro for WooCommerce has been assigned the CVE identifier CVE-2026-49777 , along with a CVSS score of 10.0, indicating maximum severity. CVE-2026-10735 (CVSS score: 9.8) is the CVE identifier for the entire incident. The WordPress security company said the compromised versions of the plugins incorporate a loader that's triggered on every admin page, causing it to fetch a payload from a remote server ("194.76.217[.]28:2871"), install it, and activate it as a fake plugin. Once it's activated, the malware reports the victim domain back to the server and erases itself to cover up the tracks and complicate incident response efforts. The counterfeit plugin, for its part, hides itself from the WordPress admin plugin list and is capable of capturing credentials in plaintext and two-factor authentication (2FA) codes. It also establishes multiple persistence methods that enable arbitrary file writes via a custom REST endpoint when provided a specific authentication token, as well as drop a web shell with command execution features. Lastly, it makes use of a PHP file named "install-persistent.php," which is bundled as part of the plugin, to extract the below data - Full contents of wp-config.php, including database credentials, authentication keys, and debug settings All administrator accounts with registration dates Mail plugin credentials from WP Mail SMTP, Post SMTP, and Easy WP SMTP WooCommerce order data from the last 3 months with payment method breakdown Once this information is displayed, the file is deleted. Evidence indicates that the attack could be a compromise of the build pipeline, as opposed to a direct poisoning of the packages. What's particularly dangerous about this attack is that it exposes site owners who purchased legitimate licenses and installed updates directly from the vendor's official update system to malware. Upon being notified of the issue, ShapedPlugin has confirmed the incident, adding that it's reviewing the distribution and release processes to ensure the integrity of its products going forward. New versions of the impacted plugins are expected to be released pending comprehensive security reviews and validation tests. Site owners who have installed the malicious versions are recommended to reset all passwords, revoke and regenerate 2FA secrets for all users, review administrator accounts for unauthorized additions, and check mail plugin configurations for modified SMTP credentials. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Malware , Supply Chain Attack , Two-Factor Authentication , Web Shell , WooCommerce , Wordfence , WordPress ⚡ Top Stories This Week Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models Microsoft Defend
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (1)
 
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack
   - Published: 2026-06-22T18:00:48+00:00
   - Link: https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html
   - Summary: Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. "Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels," Wordfence said in an analysis
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin
-  - Published: 2026-06-19T20:25:02+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/
-  - Summary: Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data
-  - Published: 2026-06-22T11:45:43+00:00
-  - Link: https://www.securityweek.com/attackers-exploit-gravity-smtp-plugin-flaw-to-harvest-valuable-wordpress-data/
-  - Summary: Vulnerable WordPress plugin iterations leak API keys, secrets, tokens, server information, and other data. The post Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data appeared first on SecurityWeek .
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'Lorem Ipsum' Malware Pivots to ClickFix Delivery
-  - Published: 2026-06-16T15:10:48+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery
-  - Summary: New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.
 
 ### Cluster e8c9ef5f3a — score 8
 
