@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-23T22:20:02.801008+00:00
+- Generated: 2026-06-24T00:04:30.338214+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 296
-- Total clusters raw: 129
-- Total clusters in packet: 53
-- Dropped low score: 76
+- Feeds OK: 76
+- Total items in window: 283
+- Total clusters raw: 121
+- Total clusters in packet: 46
+- Dropped low score: 75
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -90,31 +85,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 20
-  - In window count: 4
+  - Item count: 25
+  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -122,9 +122,14 @@
   - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
@@ -134,11 +139,6 @@
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
-  - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
@@ -150,11 +150,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -165,31 +160,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -210,31 +210,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -245,16 +255,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -269,7 +269,7 @@
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
-  - In window count: 1
+  - In window count: 0
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -280,16 +280,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 13
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 14
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -300,50 +300,50 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 20
+  - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 13
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 14
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 15
+  - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
@@ -355,26 +355,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 18
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - In window count: 2
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -385,38 +380,33 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
-  - Item count: 0
+  - Item count: 10
+  - In window count: 6
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 10
-  - In window count: 2
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,6 +415,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 13
+  - In window count: 14
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -486,7 +486,7 @@
   - threat_categories: supply_chain, active_exploitation
   - affected_products: WordPress
   - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: d1df71d8fb, 5858b86279, 5d3bf28534, e293ff297b, 8a24d06359, bc04521832
+- Cluster IDs: d1df71d8fb, 5858b86279, 5d3bf28534, 8a24d06359, e293ff297b, bc04521832
 - Links:
   - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
   - https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/
@@ -495,8 +495,8 @@
   - https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
   - https://www.infosecurity-magazine.com/news/klue-breach-compromise/
   - https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
-  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
   - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
+  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
   - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
 
 ### Microsoft Defender vulnerability activity
@@ -634,43 +634,6 @@
   - https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
 
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 2
-- Article count: 9
-- Cohesion: 0.2
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: b8988e5561, 512ea8982c
-- Links:
-  - https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html
-  - https://trustedsec.com/blog/modern-web-application-content-discovery
-  - https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
-  - https://www.infosecurity-magazine.com/news/gitbait-github-pages-sheetbest/
-  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - https://risky.biz/SRB171/
-
-### Google Cloud vulnerability activity
-- Anchor signal: Google Cloud
-- Theme key: google-cloud
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.2
-- Shared strong signals: Google Cloud
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Google Cloud
-- Cluster IDs: 115f04b624, 512ea8982c
-- Links:
-  - https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-  - https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - https://risky.biz/SRB171/
-
 ## Forward signals
 
 ### Novelty
@@ -683,7 +646,7 @@
   - Cluster: 9a4b23feba
   - Sources in window: 3
   - Window hours: 4.9
-  - Cohort count: 3
+  - Cohort count: 4
 - **Scattered Spider Hackers Plead Guilty on Day 1 of Trial**
   - Cluster: d29e7e479c
   - Sources in window: 3
@@ -706,8 +669,8 @@
 - Pair: CVE-2026-20230 + WordPress (cluster 5d3bf28534, first observation: True)
 - Pair: APT29 + Microsoft Entra (cluster e2ef0ac5b5, first observation: True)
 - Pair: ShinyHunters + Apple iOS/macOS (cluster 6c7d4b18ea, first observation: True)
-- Pair: CVE-2026-8461 + WordPress (cluster e293ff297b, first observation: True)
 - Pair: ShinyHunters + Fortinet (cluster 8a24d06359, first observation: True)
+- Pair: ShinyHunters + WordPress (cluster 8a24d06359, first observation: True)
 
 ### Drift (1)
 - **ShinyHunters** (cluster 6c7d4b18ea)
@@ -716,9 +679,10 @@
   - Prior top industries: education, government, healthcare
   - Prior top products: Anthropic/Claude, GitHub, npm
 
-### Persistence (2)
+### Persistence (3)
 - actor_attribution: ShinyHunters (weeks observed: 4, cluster 6c7d4b18ea)
 - cve_ids: CVE-2026-11645 (weeks observed: 4, cluster bc04521832)
+- cve_ids: CVE-2026-20230 (weeks observed: 3, cluster 5d3bf28534)
 
 ### Tier inversion (3)
 - **F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution**
@@ -931,41 +895,6 @@ Threat Research Center Threat Research Malware Malware OpenClaw’s Skill Market
   - Link: https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
   - Summary: Unit 42's analysis of ClawHub revealed evasive malicious skills bypassing automated scanners to deploy infostealers and execute agentic financial fraud. The post OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat appeared first on Unit 42 .
 
-### Cluster f8c213c0bd — score 19
-
-- Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-23T03:02:34+00:00
-- Link: https://isc.sans.edu/diary/rss/33094
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2024-40766
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2024-40766
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- cve_ids: CVE-2024-40766
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-The vulnerability
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: CVE-2024-40766: The Patch Fixed the Bug. Nobody Fixed the Configuration., (Tue, Jun 23rd)
-  - Published: 2026-06-23T03:02:34+00:00
-  - Link: https://isc.sans.edu/diary/rss/33094
-  - Summary: The vulnerability
-
 ### Cluster d1df71d8fb — score 18
 
 - Title: CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
@@ -1111,15 +1040,15 @@ Share Link copied to clipboard! Content types Research Products and services Mic
 - Published: 2026-06-22T16:50:00+00:00
 - Link: https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 7
+- Corroborating source count: 7
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
 - threat_categories: supply_chain
-- affected_products: GitHub, OpenAI/ChatGPT
+- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_3_analysis, tier_4_news
+- confidence_tier: tier_1_offensive_research, tier_3_analysis, tier_4_news, tier_5_chatter
 
 #### Primary article taxonomy
 - threat_categories: supply_chain
@@ -1139,18 +1068,13 @@ What happens when you clear dozens of Trail of Bits engineers’ schedules, pair
 Page content What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networking, language infrastructure, and software supply chain. Among these 19 projects were cURL, NATS, pyca, Sigstore, aiohttp, the Go project, freenginx, Python and python.org, urllib3, PyPI, SimpleX, Valkey, and RustCrypto. Over 30 projects have joined the initiative so far, and we’re rapidly expanding it to include more; if you maintain an open-source project, apply to join ! Live look at the Trail of Bits engineering teams Anyone can file an issue, flex, and walk away. We showed up with the patches: 37 are already merged, and many more are in flight. These merges go beyond just fixing bugs: we’re adding new tests and fuzzing harnesses, CI security scanning, supply-chain tooling, correctness fixes, and features maintainers had been meaning to get to. The goal of Patch the Planet is to leave essential open-source projects measurably better off. We brought patches, not just bug reports We’re reporting public findings on GitHub , including 64 total pull requests. We also filed 51 issues, 19 of which are already closed with a fix. This public tally undercounts the work, since several projects take reports through private channels like HackerOne, GitHub security advisories, mailing lists, and private forks, and most of these have not been released publicly yet. What’s in those pull requests matters more than the count. At python.org, we added a CI workflow built on zizmor , an open-source GitHub Actions static analyzer, fixed all of the issues it flagged, and integrated it into their CI. In RustCrypto, we contributed correctness fixes to the big-integer library that higher-level cryptography is built on, alongside genuine feature work in review: serde encoding support and HPKE DHKEM suite IDs. Other patches were plain engineering help: storage-accounting and service-restart fixes in SimpleX, a clearer admin-quarantine confirmation in PyPI’s Warehouse, and supply-chain improvements like SBOM sidecars for Python’s Windows artifacts. We will also be upstreaming many testing improvements and new testing campaigns. Arguably, our best contributions are not even bug or security fixes. Keeping track of all of this is a bot we call Patchy. Patchy monitors every project, posts each new finding and merged patch to our Slack, and, for reasons we consider scientifically sound, reintroduces the common use of goblins, gremlins, and assorted creatures . Here’s Patchy’s description of an issue that has been patched : Patchy’s description of an issue that has been patched When a patch lands, Patchy celebrates with a triumphant PATCHY HAPPY . Making Patchy happy is really what drives us. Bug patched, Patchy happy A few highlights from the week The week produced more than we can fit in this post, but here are some quick highlights. A fuzzing lab built in a day. Given a narrow goal (find remotely exploitable bugs) and no instructions on how, GPT-5.5-Cyber decided that reading the source of one of the most-reviewed C libraries in existence was a poor use of tokens
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (7)
 
 - **Trail of Bits** (offensive_vulnerability_research)
   - Title: Introducing Patch the Planet
   - Published: 2026-06-22T16:50:00+00:00
   - Link: https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/
   - Summary: What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networkin
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery
-  - Published: 2026-06-23T11:07:02+00:00
-  - Link: https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/
-  - Summary: OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on SecurityWeek .
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: OpenAI Expands Daybreak to Help Defenders Patch Flaws
   - Published: 2026-06-23T14:15:00+00:00
@@ -1161,6 +1085,11 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-23T04:17:44+00:00
   - Link: https://risky.biz/RBNEWSSI133/
   - Summary: In this sponsored interview James Wilson chats with Trail of Bits founder and CEO Dan Guido about its newly announced partnership with OpenAI. Together, they’ve started a new initiative called “Patch the Planet” to support open source maintainers. Being an open source maintainer is more difficult than ever. Just using frontier models to keep up with all the bug reports isn’t enough. Trail of Bits wants to help maintainers by combining its deep cybersecurity expertise with OpenAI’s GPT 5.5 Cyber. As Dan points out in this interview, this isn’t just about helping maintainers find and fix bugs. They’re spending just as much time on SDLC improvements, architecture changes, and the foundations needed to make open source sustainable in the AI era.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery
+  - Published: 2026-06-23T11:07:02+00:00
+  - Link: https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/
+  - Summary: OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on SecurityWeek .
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: OpenAI wants AI to fix vulnerabilities, not just find them
   - Published: 2026-06-23T08:49:01+00:00
@@ -1171,6 +1100,11 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-23T03:56:58+00:00
   - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
   - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: I compiled a unified LLM-CTF benchmark – 2,639 real data points from NeurIPS 2024 + original multi-agent runs
+  - Published: 2026-06-23T23:18:42+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1udwtzp/i_compiled_a_unified_llmctf_benchmark_2639_real/
+  - Summary: I built BORFOLI, a multi-agent AI system that routes queries across 6 LLMs simultaneously. I used it to benchmark LLM performance on real CTF cybersecurity challenges, then compiled those results with published data from the NYU CTF Bench (NeurIPS 2024) into a single unified dataset. The dataset covers 194 challenges across 5 categories (cryptography, web exploitation, forensics, reverse engineering, binary exploitation) tested against 10 model configurations including GPT-4o, Claude 3.5 Sonnet, and Claude 3.7 Sonnet. Key finding: even the best frontier models solve only a small fraction of professional CTF challenges. Claude 3.5 Sonnet performed best at 20% overall. Binary exploitation was hardest across all models. Full dataset, visualizations, and methodology in the Kaggle link. Any Feedback at all is greatly appreciated. if you guys use this data set for any project, please tell me I don't even need credits. submitted by /u/TargetConnect891 [link] [comments]
 
 ### Cluster 5858b86279 — score 15
 
@@ -1303,45 +1237,6 @@ Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet d
   - Link: https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
   - Summary: CloudSEK maps Operation Escaneo, a campaign hitting Latin American infrastructure via perimeter bugs
 
-### Cluster a5fdf7dc6d — score 13
-
-- Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
-- Source: Elastic Security Labs (detection_response_operations)
-- Published: 2026-06-23T00:00:00+00:00
-- Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
-```
-
-#### Full body
-
-```
-23 June 2026 • Paul McCann From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs. 11 min read Generative AI Elastic's InfoSec Product Security Team built a generative AI agent using Elastic Agent Builder that drafts complete CVE security advisories (CWE classification, CAPEC methodology, CVSS scoring, and mitigation guidance) directly from raw vulnerability reports. The agent uses RAG against the MITRE CWE and CAPEC catalogues indexed in Elasticsearch, which grounds its output in authoritative data and prevents hallucinated classification IDs. ESA-2026-01 is already in production as an example of output that went through this pipeline. Here's how we built it. How security advisories are drafted manually (and why it's slow) At Elastic, we manage the lifecycle of product vulnerabilities using the PSIRT Service Framework , which defines four stages: discovery, triage, remediation, and disclosure. Each security advisory starts from a vulnerability report received during the discovery phase, and those reports vary widely in quality — translating them into something customers can consume is time-consuming. We draft the security advisory during the disclosure phase, ahead of a planned product release that contains the fix. The advisory is then published as an Elastic Security Advisory (ESA) , with an assigned CVE ID, in the Elastic Security Announcements forum, where anyone can review the disclosed vulnerabilities and the associated mitigations. Each disclosure also gets published into the CVE Program , from which downstream national and regional databases ingest it automatically, including the US National Vulnerability Database (NIST), the EU's European Vulnerability Database (ENISA), and Japan's Japan Vulnerability Notes (JPCERT/CC). To keep our output consistent, we follow the standard Common Vulnerabilities and Exposures (CVE) description template: [PROBLEMTYPE] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [VECTOR] The PROBLEMTYPE is identified using a Common Weakness Enumeration (CWE) entry, and the Vector is described using a Common Attack Pattern Enumeration and Classification (CAPEC) entry. Substituting the correct CWE and CAPEC for each vulnerability, the template becomes: [Common Weakness Enumeration] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [Common Attack Pattern Enumeration and Classification] The bulk of the manual effort goes into distilling a long, often technically dense vulnerability report into a concise, accurate advisory with a clear impact assessment for customers. Identifying the correct CWE and CAPEC classifications on top of that makes the process convoluted and drawn-out. This is where automation has the most to offer. Automating security advisory drafts with Elastic Agent Builder and RAG To streamline this process, our InfoSec Product Security Team developed a solution that uses an LLM to automatically generate the standardized sentence for security advisories. This solution involves two key steps: Ingesting vulnerability categorization data: Hallucination is a well-documented failure mode for LLMs operating without authoritative grounding. The OWASP Top 10 for LLM Applications (LLM09) lists it as a top risk category, and it was the original motivation for Retrieval-Augmented Generation. We saw it directly in our early experiments: when asked to assign CWE and CAPEC IDs unaided, the model frequently produced plausible-looking but non-existent entries. To prevent this, we used the Elastic Crawler to scrape the CWE and CAPEC websites and ingest the data into two Elasticsearch indices: web-crawl-mitre-cwe-software and web-crawl-mitre-capec-software . Building the gen
-```
-
-#### Corroborating sources (1)
-
-- **Elastic Security Labs** (detection_response_operations)
-  - Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
-  - Published: 2026-06-23T00:00:00+00:00
-  - Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
-  - Summary: How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
-
 ### Cluster a009d3696a — score 13
 
 - Title: Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security
@@ -1435,6 +1330,45 @@ F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution �
   - Link: https://www.reddit.com/r/netsec/comments/1uab0j6/useafterfree_in_the_qpack_encoder_of_nginx_http3/
   - Summary: submitted by /u/everping [link] [comments]
 
+### Cluster a5fdf7dc6d — score 12
+
+- Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
+- Source: Elastic Security Labs (detection_response_operations)
+- Published: 2026-06-23T00:00:00+00:00
+- Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
+```
+
+#### Full body
+
+```
+23 June 2026 • Paul McCann From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs. 11 min read Generative AI Elastic's InfoSec Product Security Team built a generative AI agent using Elastic Agent Builder that drafts complete CVE security advisories (CWE classification, CAPEC methodology, CVSS scoring, and mitigation guidance) directly from raw vulnerability reports. The agent uses RAG against the MITRE CWE and CAPEC catalogues indexed in Elasticsearch, which grounds its output in authoritative data and prevents hallucinated classification IDs. ESA-2026-01 is already in production as an example of output that went through this pipeline. Here's how we built it. How security advisories are drafted manually (and why it's slow) At Elastic, we manage the lifecycle of product vulnerabilities using the PSIRT Service Framework , which defines four stages: discovery, triage, remediation, and disclosure. Each security advisory starts from a vulnerability report received during the discovery phase, and those reports vary widely in quality — translating them into something customers can consume is time-consuming. We draft the security advisory during the disclosure phase, ahead of a planned product release that contains the fix. The advisory is then published as an Elastic Security Advisory (ESA) , with an assigned CVE ID, in the Elastic Security Announcements forum, where anyone can review the disclosed vulnerabilities and the associated mitigations. Each disclosure also gets published into the CVE Program , from which downstream national and regional databases ingest it automatically, including the US National Vulnerability Database (NIST), the EU's European Vulnerability Database (ENISA), and Japan's Japan Vulnerability Notes (JPCERT/CC). To keep our output consistent, we follow the standard Common Vulnerabilities and Exposures (CVE) description template: [PROBLEMTYPE] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [VECTOR] The PROBLEMTYPE is identified using a Common Weakness Enumeration (CWE) entry, and the Vector is described using a Common Attack Pattern Enumeration and Classification (CAPEC) entry. Substituting the correct CWE and CAPEC for each vulnerability, the template becomes: [Common Weakness Enumeration] in [COMPONENT] in [VENDOR] [PRODUCT] [VERSION] on [PLATFORMS] allows [ATTACKER] to [IMPACT] via [Common Attack Pattern Enumeration and Classification] The bulk of the manual effort goes into distilling a long, often technically dense vulnerability report into a concise, accurate advisory with a clear impact assessment for customers. Identifying the correct CWE and CAPEC classifications on top of that makes the process convoluted and drawn-out. This is where automation has the most to offer. Automating security advisory drafts with Elastic Agent Builder and RAG To streamline this process, our InfoSec Product Security Team developed a solution that uses an LLM to automatically generate the standardized sentence for security advisories. This solution involves two key steps: Ingesting vulnerability categorization data: Hallucination is a well-documented failure mode for LLMs operating without authoritative grounding. The OWASP Top 10 for LLM Applications (LLM09) lists it as a top risk category, and it was the original motivation for Retrieval-Augmented Generation. We saw it directly in our early experiments: when asked to assign CWE and CAPEC IDs unaided, the model frequently produced plausible-looking but non-existent entries. To prevent this, we used the Elastic Crawler to scrape the CWE and CAPEC websites and ingest the data into two Elasticsearch indices: web-crawl-mitre-cwe-software and web-crawl-mitre-capec-software . Building the gen
+```
+
+#### Corroborating sources (1)
+
+- **Elastic Security Labs** (detection_response_operations)
+  - Title: From vulnerability report to CVE draft in minutes: how Elastic automated security advisories with AI
+  - Published: 2026-06-23T00:00:00+00:00
+  - Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
+  - Summary: How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
+
 ### Cluster 61b6596951 — score 12
 
 - Title: Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape
@@ -1520,47 +1454,6 @@ Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks By Lawrence Abrams
   - Published: 2026-06-23T21:48:32+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
   - Summary: A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]
-
-### Cluster f371ac3a1c — score 11
-
-- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-23T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
-```
-
-#### Full body
-
-```
-The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-  - Published: 2026-06-23T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
 ### Cluster b9a7dc6e90 — score 11
 
@@ -1719,90 +1612,6 @@ GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns  
   - Published: 2026-06-17T14:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/gitbait-github-pages-sheetbest/
   - Summary: GitBait phishing kit abuses GitHub Pages and the SheetBest API to steal Mexican banking credentials
-
-### Cluster 115f04b624 — score 10
-
-- Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-22T22:00:04+00:00
-- Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: AWS, Azure, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: Azure, AWS, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration 13 min read Related Products Cortex Cortex Cloud Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Yahav Festinger Published: June 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: AWS Bucket hijacking Cloud data exfiltration Cloud logging CSPs Google Cloud IAM Microsoft Azure Privilege escalation Share Executive Summary We recently identified a bucket hijacking technique impacting multiple services across major cloud service providers (CSPs). The attack technique exploits a fundamental architectural flaw that is common across cloud providers and could potentially affect other cloud providers as well. Our research reveals that an attacker can silently compromise an organization's active data streams by rerouting data into an external storage bucket. Because a storage bucket name is globally unique, an attacker can simply delete the bucket and then recreate it under the attacker's own account using the same name. This therefore creates a global namespace risk. This bucket hijacking reroutes critical logs and sensitive data directly to the attacker’s environment. We have shared these findings with Google Cloud, Amazon Web Services (AWS), and Microsoft Azure. We have not yet identified a real-world threat actor using this attack technique. However, we recommend organizations take steps now to head off the potential impact, particularly since we anticipate that real-world attempts to use this attack technique would be difficult to detect. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex Cloud Unit 42 Cloud Security Assessment can help turn cloud complexity into actionable security insights. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Cloud Logging , Google Cloud , AWS , Microsoft Azure Key Architectural Elements Enabling the Attack Before detailing the attack methodology, it’s important to understand several architectural elements that, when combined, make bucket hijacking possible. Data Stream Overview A data stream is an automated, continuous pipeline designed for high-volume data movement between services. Once configured, these streams operate autonomously in the background to push telemetry, audit logs or objects from a source environment to a designated storage destination for processing and long-term retention. Major CSPs facilitate automated data streams. These streams serve as critical nodes for routing, processing and backing up data within an organization's infrastructure, such as: A cloud logging sink in Google Cloud acts as a router for log entries, directing them to a chosen destination. While primarily used to route and store logs in centralized log buckets for purposes like analysis and retention, a sink can also export logs to a Google Cloud Storage (GCS) bucket. Bucket replication in AWS is a feature that automatically duplicates data from a source S3 bucket to a designated destination S3 bucket. Global Uniqueness of Bucket Names Cloud environments often stream data into buckets such as an S3 bucket in AWS or a GCS bucket in Google Cloud. Because bucket names are typically unique across the entire cloud provider, no two users can have the same bucket name. This design simplifies data stream establishment by providing a single, predictable target. However, it also creates a shared namespace where a destination's identity is tied solely to its name, rather than to a specific, immutable account owner. This characteristic is the foundational logic behind our discovery. Permissions to Modify Data Stream Destinations The data stream is frequently defined by a routing resource that is configured with a specific destinatio
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
-  - Published: 2026-06-22T22:00:04+00:00
-  - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-  - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
-
-### Cluster 84319555f9 — score 10
-
-- Title: Threat Brief: Mitigating Large-Scale Credential Attacks
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-20T02:05:33+00:00
-- Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 4 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 19, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Change the credentials for default accounts, ensuring long, complex p
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
-  - Published: 2026-06-20T02:05:33+00:00
-  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
 
 ### Cluster 5362786b4f — score 10
 
@@ -2011,6 +1820,90 @@ See how Microsoft unifies identity and security signals to help teams prevent, d
   - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
   - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
 
+### Cluster 115f04b624 — score 10
+
+- Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-22T22:00:04+00:00
+- Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: AWS, Azure, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: Azure, AWS, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybersecurity Research The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration 13 min read Related Products Cortex Cortex Cloud Unit 42 Cloud Security Assessment Unit 42 Incident Response By: Yahav Festinger Published: June 22, 2026 Categories: Cloud Cybersecurity Research Threat Research Tags: AWS Bucket hijacking Cloud data exfiltration Cloud logging CSPs Google Cloud IAM Microsoft Azure Privilege escalation Share Executive Summary We recently identified a bucket hijacking technique impacting multiple services across major cloud service providers (CSPs). The attack technique exploits a fundamental architectural flaw that is common across cloud providers and could potentially affect other cloud providers as well. Our research reveals that an attacker can silently compromise an organization's active data streams by rerouting data into an external storage bucket. Because a storage bucket name is globally unique, an attacker can simply delete the bucket and then recreate it under the attacker's own account using the same name. This therefore creates a global namespace risk. This bucket hijacking reroutes critical logs and sensitive data directly to the attacker’s environment. We have shared these findings with Google Cloud, Amazon Web Services (AWS), and Microsoft Azure. We have not yet identified a real-world threat actor using this attack technique. However, we recommend organizations take steps now to head off the potential impact, particularly since we anticipate that real-world attempts to use this attack technique would be difficult to detect. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex Cloud Unit 42 Cloud Security Assessment can help turn cloud complexity into actionable security insights. If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics Cloud Logging , Google Cloud , AWS , Microsoft Azure Key Architectural Elements Enabling the Attack Before detailing the attack methodology, it’s important to understand several architectural elements that, when combined, make bucket hijacking possible. Data Stream Overview A data stream is an automated, continuous pipeline designed for high-volume data movement between services. Once configured, these streams operate autonomously in the background to push telemetry, audit logs or objects from a source environment to a designated storage destination for processing and long-term retention. Major CSPs facilitate automated data streams. These streams serve as critical nodes for routing, processing and backing up data within an organization's infrastructure, such as: A cloud logging sink in Google Cloud acts as a router for log entries, directing them to a chosen destination. While primarily used to route and store logs in centralized log buckets for purposes like analysis and retention, a sink can also export logs to a Google Cloud Storage (GCS) bucket. Bucket replication in AWS is a feature that automatically duplicates data from a source S3 bucket to a designated destination S3 bucket. Global Uniqueness of Bucket Names Cloud environments often stream data into buckets such as an S3 bucket in AWS or a GCS bucket in Google Cloud. Because bucket names are typically unique across the entire cloud provider, no two users can have the same bucket name. This design simplifies data stream establishment by providing a single, predictable target. However, it also creates a shared namespace where a destination's identity is tied solely to its name, rather than to a specific, immutable account owner. This characteristic is the foundational logic behind our discovery. Permissions to Modify Data Stream Destinations The data stream is frequently defined by a routing resource that is configured with a specific destinatio
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration
+  - Published: 2026-06-22T22:00:04+00:00
+  - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+  - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
+
+### Cluster 84319555f9 — score 10
+
+- Title: Threat Brief: Mitigating Large-Scale Credential Attacks
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-20T02:05:33+00:00
+- Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 4 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 19, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Change the credentials for default accounts, ensuring long, complex p
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
+  - Published: 2026-06-20T02:05:33+00:00
+  - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
+
 ### Cluster e5fc89aea1 — score 10
 
 - Title: Killing me gently: Inside Gentlemen’s EDR killer framework
@@ -2098,6 +1991,47 @@ Autonomy Is Earned, Not Claimed Stephen Gates June 17, 2026 Blogs What 250,000 P
   - Published: 2026-06-17T13:17:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
   - Summary: After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
+
+### Cluster f371ac3a1c — score 10
+
+- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-23T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
+```
+
+#### Full body
+
+```
+The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+  - Published: 2026-06-23T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
 ### Cluster e2ef0ac5b5 — score 10
 
@@ -2353,109 +2287,6 @@ News Download & print article PDF Download & print article PDF NCSC CEO: Hostile
   - Link: https://www.ncsc.gov.uk/news/ncsc-ceo-hostile-states-linked-to-three-quarters-of-cyber-attacks
   - Summary: Dr Richard Horne highlighted the scale of cyber threats against the UK’s critical infrastructure at RUSI’s Annual Security Lecture.
 
-### Cluster 19ebe22969 — score 9
-
-- Title: Webshells Remain Popular, (Mon, Jun 22nd)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-22T14:10:27+00:00
-- Link: https://isc.sans.edu/diary/rss/33096
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Webshells Remain Popular, (Mon, Jun 22nd)
-  - Published: 2026-06-22T14:10:27+00:00
-  - Link: https://isc.sans.edu/diary/rss/33096
-  - Summary: Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
-
-### Cluster a9ba6bfe90 — score 9
-
-- Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-19T08:37:34+00:00
-- Link: https://isc.sans.edu/diary/rss/33090
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-I detected an interesting phishing email this morning. It targets a major Belgian bank:
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)
-  - Published: 2026-06-19T08:37:34+00:00
-  - Link: https://isc.sans.edu/diary/rss/33090
-  - Summary: I detected an interesting phishing email this morning. It targets a major Belgian bank:
-
-### Cluster cfebc78321 — score 9
-
-- Title: The Behavior of Coordinated SSH Brute Force Attacks over the last three months [Guest Diary], (Wed, Jun 17th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-18T01:49:29+00:00
-- Link: https://isc.sans.edu/diary/rss/33086
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-[This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: The Behavior of Coordinated SSH Brute Force Attacks over the last three months [Guest Diary], (Wed, Jun 17th)
-  - Published: 2026-06-18T01:49:29+00:00
-  - Link: https://isc.sans.edu/diary/rss/33086
-  - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
-
 ### Cluster 0d62ef055b — score 9
 
 - Title: AI Threat Readiness Pillar 4: Detect and contain threats in real-time
@@ -2498,49 +2329,6 @@ Wiz Pricing Get a demo Get a demo So far in this series, we’ve covered how to 
   - Published: 2026-06-23T12:33:11+00:00
   - Link: https://www.wiz.io/blog/ai-threat-readiness-pillar-4
   - Summary: Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.
-
-### Cluster e293ff297b — score 9
-
-- Title: FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-23T11:48:06+00:00
-- Link: https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: WordPress
-- cve_ids: CVE-2026-8461
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_products: WordPress
-- cve_ids: CVE-2026-8461
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Nort
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances
-  - Published: 2026-06-23T11:48:06+00:00
-  - Link: https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
-  - Summary: Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek .
 
 ### Cluster 8a24d06359 — score 9
 
@@ -2698,96 +2486,6 @@ The strike illustrates a grim pattern in Russia’s conduct of the war – the s
   - Link: https://www.justsecurity.org/143438/attack-kyiv-monastery-caves-loac/?utm_source=rss&utm_medium=rss&utm_campaign=attack-kyiv-monastery-caves-loac
   - Summary: The strike illustrates a grim pattern in Russia’s conduct of the war – the systematic destruction of Ukrainian religious and cultural sites. The post The Law of Armed Conflict and the Attack on Kyiv’s Monastery of the Caves and Dormition Cathedral appeared first on Just Security .
 
-### Cluster 512ea8982c — score 9
-
-- Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Anthropic/Claude, Google Cloud, Kubernetes
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis
-
-#### Primary article taxonomy
-- affected_products: Kubernetes, Google Cloud, Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
-```
-
-#### Full body
-
-```
-Developers & Practitioners Build and Deploy a Remote MCP Server to GKE in 30 Minutes June 17, 2026 Abdelfettah Sghiouar Cloud Developer Advocate, Google Cloud Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Streamable HTTP, the server operates as an independent process that can handle multiple client connections. This transport uses HTTP POST and GET requests. The server must provide a single HTTP endpoint path that supports both POST and GET methods, such as https://example.com/mcp . You can learn more about the different transports in the official documentation . Benefits of running an MCP server on GKE Running an MCP server remotely on GKE provides several architecture benefits: Scalability: GKE Autopilot is built to handle highly variable traffic. Since MCP Servers are stateless, GKE can scale horizontally to handle spikes in demand efficiently. Centralized access: Teams can share access to a centralized MCP server, allowing developers to connect from local machines, Agents or pipelines instead of running redundant local servers. Updates to the central server immediately benefit everyone. Enhanced security: The Kubernetes Gateway API combined with SSL certificates provides an easy way to force secure, encrypted traffic. This allows only secure connections to the MCP server, preventing unauthorized access. Prerequisites Before starting, ensure the following tools are installed: python 3.10 or higher uv (for package and project management, see the installation documentation ) Google Cloud SDK ( gcloud ) kubectl command-line tool Installation Prepare environment variables Loading... export PROJECT_ID=$(gcloud config get-value project) export REGION=us-central1 Create a folder, mcp-on-gke , to store the code for the server and deployment. Loading... mkdir mcp-on-gke && cd mcp-on-gke Now configure the Google Cloud credentials and set the active project. Loading... gcloud auth login gcloud config set project $PROJECT_ID Initiate the GKE Autopilot cluster creation in the background. This process takes a few minutes, so starting it now allows the cluster to provision while you complete the rest of the setup. Make sure to use an Autopilot version that ensures Cost-Optimized Compute (CCOP) is enabled for fast autoscale. Loading... gcloud container clusters create-auto mcp-cluster \ --region $REGION \ --release-channel rapid \ --async Use uv to create a project, which will generate a pyproject.toml file. Loading... uv init Next, create the additional files needed: server.py for the MCP server code, test_server.py for testing, and a Dockerfile for the container deployment. Math MCP server Large language models are excellent at non-deterministic tasks, such as generating text, summarizing ideas, and reasoning about concepts. However, they can be unreliable for deterministic tasks like math operations. To solve this, developers can create tools that provide valuable context. Using FastMCP , a framework for building MCP servers in Python, it is possible to create a simple math server with two tools: add and s
-```
-
-#### Corroborating sources (2)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Build and Deploy a Remote MCP Server to GKE in 30 Minutes
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/
-  - Summary: Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea
-- **Risky Business News** (practitioner_analysis)
-  - Title: Srsly Risky Biz: Anthropic has artificial, but not emotional, intelligence
-  - Published: 2026-06-18T06:17:55+00:00
-  - Link: https://risky.biz/SRB171/
-  - Summary: Tom Uren and James Wilson talk about Anthropic rolling out its latest models only to have them effectively banned by the US government within days. Although the administration’s process for assessing new models is, ahem, amorphous, Anthropic is doing itself no favours by dismissing its concerns. The company needs to show some emotional intelligence and learn how to manage upwards. They also discuss Section 702 Foreign Intelligence Surveillance Act collection. The law authorising it has lapsed amidst political shenanigans, but it looks like collection can continue until next year. Plenty of time for kicking of political footballs! This episode is also available on YouTube
-
-### Cluster 12d52f8aef — score 8
-
-- Title: AI in the underground: Curiosity, claims, and concerns
-- Source: Sophos X-Ops (detection_response_operations)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
-```
-
-#### Full body
-
-```
-AI in the underground: Curiosity, claims, and concerns Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Written by Sophos Counter Threat Unit Research Team Threat Research AI Dark Web underground Share This Link Copied Counter Threat Unit™ (CTU) researchers have observed artificial intelligence (AI) emerging into a prominent topic in underground communities, with threat actors discussing its potential, claiming its use for malware and tool development, and expressing concerns. Many claims have not been validated, but the posts reveal perceptions about generative AI and examples of how it may be used in cybercriminal activity. In some respect, threat actors are facing the same challenge as everyone else — seeking to preserve economic viability during a technological transition while trying to identify how and when to embrace AI. Access and knowledge sharing Defenders and threat actors test and experiment with AI-enabled capabilities, but from very different positions. Defenders typically benefit from greater access to commercial tooling, dedicated engineering support, and the financial freedom to trial emerging technologies at scale. In contrast, resource-constrained threat actors are looking for practical ways to gain access. CTU™ researchers have observed API keys for generative AI tools being sold via shared accounts, brokered access, and alternative platforms. In one thread, the "CyberThreat" persona offered brokered API keys for tools such as ChatGPT, Claude, and Grok (see Figure 1). In another post, “VOLTIC” advertised access to multiple AI models as a cost-effective solution for buyers who need AI capabilities (see Figure 2). Although both personas were new to the underground marketplaces, the posts quickly attracted interest and other personas endorsed the services. Figure 1: CyberThreat selling brokered API keys Figure 2: VOLTIC advertising an unlimited AI tool While API keys and associated generative AI chatbots are available for sale across underground forums, there appears to be a knowledge gap. Personas turn to each other for guidance ranging from basic setup and access through to practical tradecraft. New channels focused on AI and large language models (LLMs) and their use continually emerge on underground forums (see Figure 3). Threads include discussions about “jailbreaking” public AI models, including efforts to bypass censorship and other safeguards imposed by AI vendors. Personas frequently reference experimentation with prompt‑based techniques to circumvent content controls, including role‑play framing, multi‑stage prompting, contextual manipulation, and iterative refinement. CTU researchers have also observed self-described “experienced AI users” sharing examples and lessons learned, including prompt templates, workflows, examples of LLM experimentation, and purported best practices for operationalizing AI in malicious scripting and automation. Figure 3: Sample of posts on a channel dedicated to AI and machine learning (ML) questions Since January 1, 2026, CTU researchers have noted an increase in offers to hire, or partner with, specialists who can operationalize AI on others’ behalf. Multiple personas known for recruiting various roles (e.g., blockchain developers, coders, social engineers) advertised for AI prompt engineers (see Figure 4). The offering of specialized services is common within underground communities, enabling threat actors to monetize their skills and giving cybercriminals access to expertise and capabilities they lack. Figure 4: Recruitment post for an OpenAI prompt engineer Social engineering and deception Threat actors are exploring AI to enhance social engineering and deception techniques, although only a limited number currently incorporate generative AI into their toolkits. Forum posts suggest that generative AI models can be integrated into common fraud and intrusion workflows to help threat actors overcome language
-```
-
-#### Corroborating sources (1)
-
-- **Sophos X-Ops** (detection_response_operations)
-  - Title: AI in the underground: Curiosity, claims, and concerns
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://www.sophos.com/en-us/blog/ai-in-the-underground-curiosity-claims-and-concerns
-  - Summary: Amid discussions about how artificial intelligence can facilitate cybercrime, some threat actors remain skeptical Categories: Threat Research Tags: AI, Dark Web, underground
-
 ### Cluster 41719728a2 — score 8
 
 - Title: Azure AD Graph Activity Logs: Ingestion and threat detection to close the visibility gap
@@ -2870,41 +2568,48 @@ Find out how a new obfuscated loader evades static detection using .reloc sectio
   - Link: https://www.elastic.co/security-labs/oxloader-malware-loader-infostealer
   - Summary: Find out how a new obfuscated loader evades static detection using .reloc section abuse, five anti-VM/language checks and MBA obfuscation to deliver infostealer malware via Google Ads.
 
-### Cluster f90c59f1e6 — score 8
+### Cluster e293ff297b — score 8
 
-- Title: LLMjacking evolved: Attackers are using stolen AI compute to build offensive agentic tools
-- Source: Sysdig (detection_response_operations)
-- Published: 2026-06-17T00:00:00+00:00
-- Link: https://webflow.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools
+- Title: FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-23T11:48:06+00:00
+- Link: https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- affected_products: WordPress
+- cve_ids: CVE-2026-8461
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- affected_products: WordPress
+- cve_ids: CVE-2026-8461
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek .
+```
 
 #### Full body
 
 ```
-< back to blog LLMjacking evolved: Attackers are using stolen AI compute to build offensive agentic tools Published by: Michael Clark Director of Threat Research @ linkedin Published: June 17, 2026 Table of contents falco feeds by sysdig Falco Feeds extends the power of Falco by giving open source-focused companies access to expert-written rules that are continuously updated as new threats are discovered. learn more On June 12, 2026, the Sysdig Threat Research Team (TRT) observed a threat actor using a misconfigured Ollama model server as the reasoning engine for an automated, multi-stage offensive security tool. The actor was not chatting with the model or reselling access. Instead, they wired access to the AI tool into a software pipeline that scans a target, matches it to known vulnerabilities, writes proof-of-concept exploits, and attempts to break into a victim’s environment — with the model making the decisions at every step. Because the threat actor’s offensive tool sends its full instructions to the model on every request, the Sysdig TRT captured the framework's complete architecture: every stage of its logic, the structure it imposes on the model's output, and the signature it uses to confirm a compromise.The research below documents the threat actor, their framework, and what defenders running self-hosted AI infrastructure should do to defend themselves from threats like this. From resource consumption to autonomous offensive agents This operation is the latest step in a threat pattern the Sysdig TRT has tracked since 2024. In May 2024, we coined the term LLMjacking to describe threat actors using stolen cloud credentials to gain access to a victim's paid AI model services and leverage the compute power, leaving the victim to pay the bill. At the time, we modeled a worst-case scenario that could leave victims paying up to $46,000 per day . By 2025, LLMjacking matured into an industrialized black market , with reverse-proxy infrastructure brokering billions of stolen tokens. As organizations began running their own models locally, the abusable surface shifted again. Ollama, a widely used tool for serving models on local hardware, listens on port 11434 with no authentication by default, so a server reachable from the internet is free model capacity for anyone who finds it. Independent researchers have catalogued roughly 175,000 publicly exposed Ollama instances across more than 130 countries, corroborated by Cisco's Shodan-based survey . What the Sysdig TRT observed on June 12, 2026, is the newest evolution of LLMjacking. The threat actor used exposed model capacity as the brain for their automated hacking tool. Researchers have warned for two years that AI agents could chain a vulnerability advisory into a working exploit, demonstrating that a capable model given a vulnerability description could autonomously exploit 87% of a set of one-day vulnerabilities and that teams of agents could attack zero-day vulnerabilities . That warning is no longer hypothetical. In May, we documented an attacker whose LLM agent chained a single CVE into an internal database in four pivots . There, the agent's reasoning ran off-platform, so we observed its actions but never its brain. This tool operationalizes the same idea on stolen inference, and because its brain runs on a model server we have visibility into, we captured the framework itself. Two trends — the theft of model capacity and autonomous offensive tooling — have converged in a single captured attack. The threat actor The first session the Sysdig TRT observed from this threat actor came from IP 122.183.48.82 , registered to a residential and small-business provider in Hyderabad, India. It began at 15:43 UTC on June 12, 2026, and ran for about eight and a half hours, into the early hours of the next day. Two days later, the same tool returned. On June 14, the tool ran from three additional residential IPs across three sessions totaling roughly six and a half hours: 122.183.48.
+A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Nort
 ```
 
 #### Corroborating sources (1)
 
-- **Sysdig** (detection_response_operations)
-  - Title: LLMjacking evolved: Attackers are using stolen AI compute to build offensive agentic tools
-  - Published: 2026-06-17T00:00:00+00:00
-  - Link: https://webflow.sysdig.com/blog/llmjacking-evolved-attackers-are-using-stolen-ai-compute-to-build-offensive-agentic-tools
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances
+  - Published: 2026-06-23T11:48:06+00:00
+  - Link: https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
+  - Summary: Attackers can send crafted media files to execute code in any application that uses FFmpeg’s libavcodec library. The post FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances appeared first on SecurityWeek .
 
 ### Cluster 4df7286945 — score 8
 
