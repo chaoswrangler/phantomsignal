@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-24T04:20:31.037912+00:00
+- Generated: 2026-06-24T08:27:25.972053+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 284
-- Total clusters raw: 126
-- Total clusters in packet: 51
+- Feeds OK: 77
+- Total items in window: 286
+- Total clusters raw: 125
+- Total clusters in packet: 50
 - Dropped low score: 75
 - Dropped overflow: 0
 
@@ -75,11 +75,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
@@ -95,20 +90,35 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
+  - In window count: 2
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 2
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
@@ -120,26 +130,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 2
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 9
+  - In window count: 10
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -160,35 +155,40 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 2
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -200,16 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,16 +225,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -250,16 +250,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -275,6 +275,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -285,21 +290,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 13
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -315,76 +305,86 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 15
-  - In window count: 15
+  - Item count: 20
+  - In window count: 11
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
+  - Item count: 10
+  - In window count: 1
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
-  - Item count: 30
-  - In window count: 12
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 12
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 17
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 16
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -395,16 +395,6 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,26 +405,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 42
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 43
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 13
+  - In window count: 12
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -477,8 +477,8 @@
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
 - Cluster count: 5
-- Article count: 13
-- Cohesion: 0.32
+- Article count: 12
+- Cohesion: 0.287
 - Shared strong signals: Microsoft Defender
 - Member CVEs: (none)
 - Also targets: (none)
@@ -488,53 +488,12 @@
 - Cluster IDs: 63edb37821, 165b535ec0, f4c821a558, 75ea622200, bc04521832
 - Links:
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
-  - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
+  - https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
   - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
   - https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/
   - https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/
   - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
-
-### WordPress active exploitation
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 4
-- Article count: 6
-- Cohesion: 0.214
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: active_exploitation
-  - affected_products: WordPress
-  - urgency_signals: actively_exploited, preauth_unauth
-- Cluster IDs: d1df71d8fb, 5d3bf28534, e293ff297b, bc04521832
-- Links:
-  - https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
-  - https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
-  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
-  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
-
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 3
-- Article count: 9
-- Cohesion: 0.308
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
-  - affected_products: npm
-- Cluster IDs: 63edb37821, 8ba967c351, 8a24d06359
-- Links:
-  - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
-  - https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
-  - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
-  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
-  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
 
 ### credential theft targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
@@ -572,51 +531,52 @@
   - https://securitylabs.datadoghq.com/articles/agent-id-inside-agent-compromise/
   - https://www.elastic.co/security-labs/aad-graph-activity-logs-threat-detection
 
-### ShinyHunters: data breach
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.482
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: manufacturing_industrial
-- Cluster IDs: 6c7d4b18ea, 8a24d06359
-- Links:
-  - https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/
-  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-
-### supply chain targeting Fortinet
-- Anchor signal: Fortinet
-- Theme key: fortinet
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
 - Cluster count: 2
 - Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: Fortinet
+- Cohesion: 0.238
+- Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: supply_chain
-  - affected_products: Fortinet
-- Cluster IDs: 55705936f5, 8a24d06359
+  - affected_industries: financial_services
+  - affected_products: npm
+- Cluster IDs: 63edb37821, 8ba967c351
 - Links:
-  - https://risky.biz/RBNEWS579/
-  - https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/
-  - https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/
-  - https://cyberscoop.com/fortinet-fortisandbox-vulnerabilities-exploits/
-  - https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices
-  - https://www.infosecurity-magazine.com/news/operation-escaneo-cloudsek-latam/
-  - https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
+  - https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
+  - https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
+  - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
+  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
+
+### WordPress active exploitation
+- Anchor signal: WordPress
+- Theme key: wordpress
+- Cluster count: 3
+- Article count: 7
+- Cohesion: 0.2
+- Shared strong signals: WordPress
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: active_exploitation
+  - affected_products: WordPress
+  - urgency_signals: actively_exploited, preauth_unauth
+- Cluster IDs: 5d3bf28534, e293ff297b, bc04521832
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+  - https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/
+  - https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
+  - https://www.securityweek.com/ffmpeg-pixelsmash-flaw-allows-rce-on-video-players-media-servers-nas-appliances/
+  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
 
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
 - Cluster count: 2
-- Article count: 2
+- Article count: 4
 - Cohesion: 0.2
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
@@ -626,6 +586,8 @@
 - Cluster IDs: 5d3bf28534, 84319555f9
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+  - https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/
+  - https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
 
 ## Forward signals
@@ -649,12 +611,12 @@
 - Pair: CVE-2026-50656 + Apple iOS/macOS (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-50656 + Microsoft Defender (cluster 63edb37821, first observation: True)
 - Pair: CVE-2026-50656 + npm (cluster 63edb37821, first observation: True)
-- Pair: CVE-2026-48907 + WordPress (cluster d1df71d8fb, first observation: True)
 - Pair: CVE-2026-20230 + WordPress (cluster 5d3bf28534, first observation: True)
 - Pair: APT29 + Microsoft Entra (cluster e2ef0ac5b5, first observation: True)
 - Pair: ShinyHunters + Apple iOS/macOS (cluster 6c7d4b18ea, first observation: True)
-- Pair: ShinyHunters + Fortinet (cluster 8a24d06359, first observation: True)
+- Pair: CVE-2026-8461 + OpenAI/ChatGPT (cluster e293ff297b, first observation: True)
 - Pair: CVE-2026-8461 + WordPress (cluster e293ff297b, first observation: True)
+- Pair: CVE-2026-11645 + Anthropic/Claude (cluster bc04521832, first observation: True)
 
 ### Drift (1)
 - **ShinyHunters** (cluster 6c7d4b18ea)
@@ -736,7 +698,7 @@ Back to Blog Products and Tools Weekly Metasploit Update: NTLM Relay Priv Esc, M
 - Published: 2026-06-18T03:43:04+00:00
 - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
 - Fetch status: ok
-- Member count: 7
+- Member count: 6
 - Corroborating source count: 4
 - Strong signals: Microsoft Defender, npm
 
@@ -746,7 +708,7 @@ Back to Blog Products and Tools Weekly Metasploit Update: NTLM Relay Priv Esc, M
 - affected_products: Anthropic/Claude, Apple iOS/macOS, Microsoft Defender, npm
 - cve_ids: CVE-2026-50656
 - urgency_signals: zero_day
-- content_type: incident_report, news_report
+- content_type: news_report
 - confidence_tier: tier_1_primary_research, tier_4_news
 
 #### Primary article taxonomy
@@ -781,10 +743,10 @@ Share Link copied to clipboard! Tags Malware npm Content types Research Products
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/
   - Summary: A poisoned npm package infected 140+ projects with a hidden payload. This report highlights how to detect, hunt, and defend against supply chain attacks using Microsoft Defender and actionable threat intelligence. The post From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet appeared first on Microsoft Security Blog .
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 145 Mastra npm Packages Compromised via Hijacked Contributor Account
-  - Published: 2026-06-17T07:38:24+00:00
-  - Link: https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html
-  - Summary: As many as 145 npm packages associated with the Mastra namespace ("@mastra/*"), a popular open-source JavaScript and TypeScript framework for building artificial intelligence (AI) applications, have been compromised as part of a software supply chain attack codenamed easy-day-js, per findings from Endor Labs, JFrog, OX Security, SafeDep, Socket, StepSecurity, and Synk. "A single npm account (
+  - Title: Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development
+  - Published: 2026-06-17T17:36:28+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html
+  - Summary: Microsoft has formally disclosed that it's working to release a patch to address a Defender zero-day codenamed RoguePlanet. The vulnerability has now been assigned the CVE identifier CVE-2026-50656 (CVSS score: 7.8), with the tech giant describing it as a privilege escalation flaw. "Microsoft is aware of an elevation of privilege in the Microsoft Malware Protection Engine in Microsoft Defender
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Lookalike npm Package Hides a Multi-Stage Windows RAT
   - Published: 2026-06-23T15:00:00+00:00
@@ -914,55 +876,6 @@ The vulnerability
   - Link: https://isc.sans.edu/diary/rss/33094
   - Summary: The vulnerability
 
-### Cluster d1df71d8fb — score 18
-
-- Title: CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-17T05:50:46+00:00
-- Link: https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-48907
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, supply_chain, web_shell_backdoor
-- affected_industries: government
-- affected_products: WordPress
-- cve_ids: CVE-2026-48907
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, web_shell_backdoor, active_exploitation
-- affected_industries: government
-- affected_products: WordPress
-- cve_ids: CVE-2026-48907
-- urgency_signals: actively_exploited, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary
-```
-
-#### Full body
-
-```
-CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution  Ravie Lakshmanan  Jun 17, 2026 Vulnerability / Supply Chain Attack The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary code execution. "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users," CISA said . According to a description of the vulnerability published on CVE.org, the issue resides in the JCE editor extension for Joomla, allowing a bad actor to create new editor profiles for unauthenticated users, effectively paving the way for PHP code upload and execution. The issue impacts JCE versions from 1.0.0 through 2.9.99.4. It has been patched in version 2.9.99.5, released on June 3, 2026. In its release notes, Widget Factory said "insufficient access controls permitted unauthenticated users to upload editor profiles." "The vulnerability is being actively exploited, working exploit code is public, and the attacks are automated, so a site with no public registration is not safe," Joomla said last week. "One important point: updating closes the entry point but does not clean a site that was already compromised. If you were hit before updating, the update will not remove what the attacker left behind." The content management system (CMS) provider has urged users to look for suspicious editor profiles and audit web server access logs for unauthenticated requests to the profile import task, "index.php?option=com_jce&task=profiles.import." Phil E. Taylor of mySites.guru has revealed that the vulnerability is being weaponized to import a rogue editor profile and use it to drop a web shell, granting the attackers a persistent backdoor on the server. Federal Civilian Executive Branch (FCEB) agencies have been ordered to apply the fixes by June 19, 2026. Multiple Campaigns Target WordPress Sites The disclosure comes as Sansec detailed a new supply chain attack campaign that targeted over 1 million sites using OptinMonster, TrustPulse, and PushEngage WordPress plugins, with the threat actors injecting malicious JavaScript that "waits for a logged-in administrator, creates a backdoor admin account, and installs a self-hiding backdoor plugin." In another campaign, unknown attackers have been found to compromise a WordPress site to embed a fake WordPress plugin named "Beloved PBN Entegrasyonu" that stealthily beaconed the site's URL to an external API upon every page load and injected arbitrary HTML or JavaScript returned by the server into the web page's footer. Exactly how the attackers breached the website is unclear, but the access is said to have enabled them to stage two PHP web shells as raw executable code with the "wp_posts" database records and granted them the ability to interact with the scripts over HTTP. This, in turn, facilitated unrestricted read/write access to the entire server file system without requiring any authentication. Specifically, the database-resident payloads allow the threat actor to perform file actions, such as read, write, edit, or delete any file on the server, browse directories across the entire server, change file permissions, rename files, create new files and folders, and upload files from their own computer. "Every visitor to the compromised site received injected PBN outbound links in their page source on every page load, directly damaging the site's search rankings and risking a manual penalty in Google Search Console," Sucuri researcher Puja Srivastava said . "The campaign is operated by a Turkish-speaking threat actor and is bu
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution
-  - Published: 2026-06-17T05:50:46+00:00
-  - Link: https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary
-
 ### Cluster 0ac9d62120 — score 18
 
 - Title: macOS.Gaslight | Rust Backdoor Turns Prompt Injection on the Analyst, Not the Sandbox
@@ -1059,15 +972,15 @@ Share Link copied to clipboard! Content types Research Products and services Mic
 - Published: 2026-06-22T16:50:00+00:00
 - Link: https://blog.trailofbits.com/2026/06/22/introducing-patch-the-planet/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 5
+- Corroborating source count: 5
 - Strong signals: OpenAI/ChatGPT
 
 #### Cluster taxonomy (union across members)
 - threat_categories: supply_chain
-- affected_products: Anthropic/Claude, GitHub, OpenAI/ChatGPT
+- affected_products: GitHub, OpenAI/ChatGPT
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research, tier_3_analysis, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_offensive_research, tier_3_analysis, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: supply_chain
@@ -1087,7 +1000,7 @@ What happens when you clear dozens of Trail of Bits engineers’ schedules, pair
 Page content What happens when you clear dozens of Trail of Bits engineers’ schedules, pair them with every open-source maintainer they can contact, and unleash the latest frontier models like GPT-5.5-Cyber on critical open-source targets? Thanks to our partnership with OpenAI and its Daybreak initiative, we can report that the impact is hundreds of discovered bugs, 64 pull requests, and 51 issues filed across 19 projects (with many more still undergoing coordinated disclosure). That was just the first week of Patch the Planet . Frontier models like GPT-5.5-Cyber are producing a firehose of security findings, and already-stretched maintainers must sift through all of it to separate real vulnerabilities from plausible-sounding false positives. Patch the Planet is different: with our experts orchestrating and triaging findings, we handle the work of fixing and hardening the code alongside the people who maintain it. The first week of Patch the Planet covered 19 projects across cryptography, networking, language infrastructure, and software supply chain. Among these 19 projects were cURL, NATS, pyca, Sigstore, aiohttp, the Go project, freenginx, Python and python.org, urllib3, PyPI, SimpleX, Valkey, and RustCrypto. Over 30 projects have joined the initiative so far, and we’re rapidly expanding it to include more; if you maintain an open-source project, apply to join ! Live look at the Trail of Bits engineering teams Anyone can file an issue, flex, and walk away. We showed up with the patches: 37 are already merged, and many more are in flight. These merges go beyond just fixing bugs: we’re adding new tests and fuzzing harnesses, CI security scanning, supply-chain tooling, correctness fixes, and features maintainers had been meaning to get to. The goal of Patch the Planet is to leave essential open-source projects measurably better off. We brought patches, not just bug reports We’re reporting public findings on GitHub , including 64 total pull requests. We also filed 51 issues, 19 of which are already closed with a fix. This public tally undercounts the work, since several projects take reports through private channels like HackerOne, GitHub security advisories, mailing lists, and private forks, and most of these have not been released publicly yet. What’s in those pull requests matters more than the count. At python.org, we added a CI workflow built on zizmor , an open-source GitHub Actions static analyzer, fixed all of the issues it flagged, and integrated it into their CI. In RustCrypto, we contributed correctness fixes to the big-integer library that higher-level cryptography is built on, alongside genuine feature work in review: serde encoding support and HPKE DHKEM suite IDs. Other patches were plain engineering help: storage-accounting and service-restart fixes in SimpleX, a clearer admin-quarantine confirmation in PyPI’s Warehouse, and supply-chain improvements like SBOM sidecars for Python’s Windows artifacts. We will also be upstreaming many testing improvements and new testing campaigns. Arguably, our best contributions are not even bug or security fixes. Keeping track of all of this is a bot we call Patchy. Patchy monitors every project, posts each new finding and merged patch to our Slack, and, for reasons we consider scientifically sound, reintroduces the common use of goblins, gremlins, and assorted creatures . Here’s Patchy’s description of an issue that has been patched : Patchy’s description of an issue that has been patched When a patch lands, Patchy celebrates with a triumphant PATCHY HAPPY . Making Patchy happy is really what drives us. Bug patched, Patchy happy A few highlights from the week The week produced more than we can fit in this post, but here are some quick highlights. A fuzzing lab built in a day. Given a narrow goal (find remotely exploitable bugs) and no instructions on how, GPT-5.5-Cyber decided that reading the source of one of the most-reviewed C libraries in existence was a poor use of tokens
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (5)
 
 - **Trail of Bits** (offensive_vulnerability_research)
   - Title: Introducing Patch the Planet
@@ -1114,11 +1027,6 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-23T03:56:58+00:00
   - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
   - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: I compiled a unified LLM-CTF benchmark – 2,639 real data points from NeurIPS 2024 + original multi-agent runs
-  - Published: 2026-06-23T23:18:42+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1udwtzp/i_compiled_a_unified_llmctf_benchmark_2639_real/
-  - Summary: I built BORFOLI, a multi-agent AI system that routes queries across 6 LLMs simultaneously. I used it to benchmark LLM performance on real CTF cybersecurity challenges, then compiled those results with published data from the NYU CTF Bench (NeurIPS 2024) into a single unified dataset. The dataset covers 194 challenges across 5 categories (cryptography, web exploitation, forensics, reverse engineering, binary exploitation) tested against 10 model configurations including GPT-4o, Claude 3.5 Sonnet, and Claude 3.7 Sonnet. Key finding: even the best frontier models solve only a small fraction of professional CTF challenges. Claude 3.5 Sonnet performed best at 20% overall. Binary exploitation was hardest across all models. Full dataset, visualizations, and methodology in the Kaggle link. Any Feedback at all is greatly appreciated. if you guys use this data set for any project, please tell me I don't even need credits. submitted by /u/TargetConnect891 [link] [comments]
 
 ### Cluster 55705936f5 — score 15
 
@@ -1127,8 +1035,8 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
 - Published: 2026-06-19T05:23:40+00:00
 - Link: https://risky.biz/RBNEWS579/
 - Fetch status: ok
-- Member count: 6
-- Corroborating source count: 6
+- Member count: 5
+- Corroborating source count: 5
 - Strong signals: Fortinet
 
 #### Cluster taxonomy (union across members)
@@ -1155,18 +1063,13 @@ A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to rem
 Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet devices leaked Presented by Catalin Cimpanu News Editor Claire Aird Newsreader A LOT of Fortinet creds have leaked online, Canadaâs spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish. Your browser does not support the audio element. Risky Bulletin: Creds for 74,000 Fortinet devices leaked â¶ 0:00 / 11:00 Subscribe Brought to you by Ent AI Protect the people, secure the system. Show notes Risky Bulletin: Canadaâs spy agency allowed to remove a botnet from Canadian devices
 ```
 
-#### Corroborating sources (6)
+#### Corroborating sources (5)
 
 - **Risky Business News** (practitioner_analysis)
   - Title: Risky Bulletin: Creds for 74,000 Fortinet devices leaked
   - Published: 2026-06-19T05:23:40+00:00
   - Link: https://risky.biz/RBNEWS579/
   - Summary: A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: What the Fortibleed campaign means for organizations running FortiGate firewalls
-  - Published: 2026-06-23T14:46:57+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/23/fortibleed-investigation-remediation/
-  - Summary: A massive credential-harvesting campaign targeting FortiGate firewalls has exposed thousands of organizations to potential network compromise, and a trove of attacker tools, scripts, and credentials left inadvertently exposed on a server has given researchers an unusually detailed look at how the operation worked. Analysts from ZenoX and CloudSEK have pieced together the full attack chain from the FortiBleed leak, revealing a sophisticated, highly automated pipeline that in some cases achieved full domain-level control of victim … More → The post What the Fortibleed campaign means for organizations running FortiGate firewalls appeared first on Help Net Security .
 - **BleepingComputer** (cyber_news_breach_reporting)
   - Title: FortiBleed campaign used custom FortiGate sniffer to steal credentials
   - Published: 2026-06-22T20:01:02+00:00
@@ -1251,48 +1154,40 @@ Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat 
   - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
   - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
 
-### Cluster a009d3696a — score 13
+### Cluster c929d44d5e — score 13
 
-- Title: Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security
-- Source: OpenSSF Blog (ai_security_agentic_risk)
-- Published: 2026-06-23T19:31:53+00:00
-- Link: https://openssf.org/blog/2026/06/23/bridging-the-gap-between-code-and-research-why-scored-26-matters-for-open-source-security/
-- Fetch status: ok
+- Title: Linux Process Name Masquerading, (Wed, Jun 24th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-24T06:29:03+00:00
+- Link: https://isc.sans.edu/diary/rss/33102
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure, education
+- attack_techniques: T1036
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: critical_infrastructure, education
+- attack_techniques: T1036
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research). It’s a complete reimagining of the traditional academic model.
-```
-
-#### Full body
-
-```
-By Justin Cappos, OpenSSF Ambassador, Professor at New York University Introduction: The Evolving Threat Landscape Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. In academia, the primary incentive is publishing, and the magic word is novelty. Because of that, there’s a strong tendency for researchers to write papers that build on what other academics think the problems are, without ever really talking to the people maintaining real-world projects. Meanwhile, open source software is now used in a staggering 98% of all codebases. It is literally the digital foundation of the modern world, and we desperately need more people with the dedicated time and energy to look deeply at its vulnerabilities. But a paper doesn’t secure a repository if a maintainer can’t actually deploy it. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research) . It’s a complete reimagining of the traditional academic model. We aren’t interested in purely theoretical breakthroughs; we want to publish and promote work that has immediate, practical value to the open source community. Why Co-Location is a Massive Win for the Ecosystem To fix a disconnect, you have to put people in the same room. By co-locating SCORED ’26 with OpenSSF Community Day Europe 2026 in Prague, we are physically bringing academics face-to-face with the cutting edge of open source ecosystems. But the bridge goes deeper than just sharing a venue. We’ve deliberately built our program committee to be heavily drawn from both university faculties and active open source maintainers. We’ve also introduced something I’m incredibly excited about: the Security-in-Practice (SIP) Track. Alongside traditional 11-page research papers, this track features 20-minute talks designed specifically for industry practitioners and maintainers. Personally, I learn an immense amount from hearing from the folks running day-to-day operations for infrastructure like Sigstore or PyPI. Their real-world friction points are exactly what should be guiding academic focus. By bringing practitioners into the fold, we can bust open academic misconceptions and make sure research is actually helpful. 2026 Focus Areas: Solving Tomorrow’s Attack Vectors Today For our 2026 Call for Papers (CFP) , we are focusing heavily on areas where we can drive immediate conflux between research and reality. AI Supply Chains : AI usage has absolutely exploded, making its supply chain security a massive, obvious priority. Reproducible Builds: This tackles one of the most prevalent attack vectors we’ve seen over the last few years. Academics are already deeply engaged here, and we want to cross-pollinate that knowledge with practitioners. Dataset Benchmarking (like SBOMs) : Without effective data, it’s impossible to know what to protect first. Better datasets give us the macro-level visibility we need to understand the overall health – and the hidden weaknesses – of the open source ecosystem. It’s how we move from constantly reacting to fires to proactively preventing them. Call to Action: Shape the Future of Open Source Trust If you’re an academic or a practitioner sitting on the fence about submitting your work before the July 12th deadline, here is my direct pitch to you: If you bring your work to SCORED, it will be scrutinized by the exact community of people who should actually adopt it. This isn’t about padding a resume with another paper; it’s a genuine opportunity to ensure your research has a measurable, positive impact on the real world. Speaking from experience, finding out that code you helped research is protecting millions of users is immensely rewarding. SCORED ’26 Deadlines & Details Submission Deadline (Papers & SIP Talks): July 12, 2026 Author Notification Date: August 22, 2026 Final Materials Due: August 30, 2026 Conference Date: October 6, 2026 Location
+In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
 ```
 
 #### Corroborating sources (1)
 
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - Title: Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security
-  - Published: 2026-06-23T19:31:53+00:00
-  - Link: https://openssf.org/blog/2026/06/23/bridging-the-gap-between-code-and-research-why-scored-26-matters-for-open-source-security/
-  - Summary: Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research). It’s a complete reimagining of the traditional academic model.
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Linux Process Name Masquerading, (Wed, Jun 24th)
+  - Published: 2026-06-24T06:29:03+00:00
+  - Link: https://isc.sans.edu/diary/rss/33102
+  - Summary: In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
 
 ### Cluster bfe56aaca6 — score 13
 
@@ -1383,7 +1278,107 @@ How Elastic's security team built an AI agent with RAG against MITRE's CWE and C
   - Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
   - Summary: How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
 
-### Cluster 61b6596951 — score 12
+### Cluster a009d3696a — score 12
+
+- Title: Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security
+- Source: OpenSSF Blog (ai_security_agentic_risk)
+- Published: 2026-06-23T19:31:53+00:00
+- Link: https://openssf.org/blog/2026/06/23/bridging-the-gap-between-code-and-research-why-scored-26-matters-for-open-source-security/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: critical_infrastructure, education
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research). It’s a complete reimagining of the traditional academic model.
+```
+
+#### Full body
+
+```
+By Justin Cappos, OpenSSF Ambassador, Professor at New York University Introduction: The Evolving Threat Landscape Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. In academia, the primary incentive is publishing, and the magic word is novelty. Because of that, there’s a strong tendency for researchers to write papers that build on what other academics think the problems are, without ever really talking to the people maintaining real-world projects. Meanwhile, open source software is now used in a staggering 98% of all codebases. It is literally the digital foundation of the modern world, and we desperately need more people with the dedicated time and energy to look deeply at its vulnerabilities. But a paper doesn’t secure a repository if a maintainer can’t actually deploy it. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research) . It’s a complete reimagining of the traditional academic model. We aren’t interested in purely theoretical breakthroughs; we want to publish and promote work that has immediate, practical value to the open source community. Why Co-Location is a Massive Win for the Ecosystem To fix a disconnect, you have to put people in the same room. By co-locating SCORED ’26 with OpenSSF Community Day Europe 2026 in Prague, we are physically bringing academics face-to-face with the cutting edge of open source ecosystems. But the bridge goes deeper than just sharing a venue. We’ve deliberately built our program committee to be heavily drawn from both university faculties and active open source maintainers. We’ve also introduced something I’m incredibly excited about: the Security-in-Practice (SIP) Track. Alongside traditional 11-page research papers, this track features 20-minute talks designed specifically for industry practitioners and maintainers. Personally, I learn an immense amount from hearing from the folks running day-to-day operations for infrastructure like Sigstore or PyPI. Their real-world friction points are exactly what should be guiding academic focus. By bringing practitioners into the fold, we can bust open academic misconceptions and make sure research is actually helpful. 2026 Focus Areas: Solving Tomorrow’s Attack Vectors Today For our 2026 Call for Papers (CFP) , we are focusing heavily on areas where we can drive immediate conflux between research and reality. AI Supply Chains : AI usage has absolutely exploded, making its supply chain security a massive, obvious priority. Reproducible Builds: This tackles one of the most prevalent attack vectors we’ve seen over the last few years. Academics are already deeply engaged here, and we want to cross-pollinate that knowledge with practitioners. Dataset Benchmarking (like SBOMs) : Without effective data, it’s impossible to know what to protect first. Better datasets give us the macro-level visibility we need to understand the overall health – and the hidden weaknesses – of the open source ecosystem. It’s how we move from constantly reacting to fires to proactively preventing them. Call to Action: Shape the Future of Open Source Trust If you’re an academic or a practitioner sitting on the fence about submitting your work before the July 12th deadline, here is my direct pitch to you: If you bring your work to SCORED, it will be scrutinized by the exact community of people who should actually adopt it. This isn’t about padding a resume with another paper; it’s a genuine opportunity to ensure your research has a measurable, positive impact on the real world. Speaking from experience, finding out that code you helped research is protecting millions of users is immensely rewarding. SCORED ’26 Deadlines & Details Submission Deadline (Papers & SIP Talks): July 12, 2026 Author Notification Date: August 22, 2026 Final Materials Due: August 30, 2026 Conference Date: October 6, 2026 Location
+```
+
+#### Corroborating sources (1)
+
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - Title: Bridging the Gap Between Code and Research: Why SCORED ’26 Matters for Open Source Security
+  - Published: 2026-06-23T19:31:53+00:00
+  - Link: https://openssf.org/blog/2026/06/23/bridging-the-gap-between-code-and-research-why-scored-26-matters-for-open-source-security/
+  - Summary: Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research). It’s a complete reimagining of the traditional academic model.
+
+### Cluster 5d3bf28534 — score 12
+
+- Title: Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-23T21:48:32+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: CVE-2026-20230
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation
+- affected_products: Palo Alto Networks, WordPress
+- cve_ids: CVE-2026-20230
+- urgency_signals: actively_exploited, poc_available, preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: active_exploitation
+- affected_products: Palo Alto Networks, WordPress
+- cve_ids: CVE-2026-20230
+- urgency_signals: actively_exploited, preauth_unauth, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]
+```
+
+#### Full body
+
+```
+Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks By Lawrence Abrams June 23, 2026 05:48 PM 0 A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. Cisco released security updates for the CVE-2026-20230 flaw on June 3, warning that exploitation could give attackers root privileges on the device. "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device," warned Cisco . "This vulnerability is due to improper input validation for specific HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to write files to the underlying operating system that could be used later to elevate to root ." The flaw was disclosed to Cisco by SSD Secure, who did not share any technical details at the time. Today, threat intelligence firm Defused warned that the flaw is now being actively exploited in attacks. "Over the weekend we observed exploitation of CVE-2026-20230 - Cisco Unified CM (CUCM) WebDialer SSRF → root file-write (CVSS 8.6) No previously recorded exploitation, and not yet listed in CISA KEV," Defused warned on X . Defused says the attacks are originating from a single IP address and use properly constructed file:// payloads to create files on the device. Cisco CVE-2026-20230 exploit on honeypots Source: Defused While the flaw can be exploited in attacks to drop webshells and gain root privileges, the PoC observed by Defused appears designed to identify vulnerable devices by attempting to write a text file named '/tmp/cve-2026-20230-test.txt' to them. After the exploitation was disclosed, SSD Secure published a technical write-up of the flaw explaining how the vulnerability works and sharing a proof-of-concept exploit. The researchers found that an unauthenticated attacker could abuse the Webdialer component's handling of user-supplied URLs to force the application to write arbitrary files to the operating system using file:// URIs. By controlling the file path and the content written to disk, an attacker could exploit the bug to achieve remote code execution and ultimately gain root privileges on vulnerable devices. SSD Secure noted that exploitation requires the attacker to first obtain the target system's hostname before carrying out the file-write attack. However, the researchers demonstrated how that information can be retrieved from the device before exploitation. While the current exploitation appears to be reconnaissance in nature, now that the flaw has been fully disclosed, we will likely see more threat actors target these servers. BleepingComputer contacted Cisco to ask if they, too, are seeing the flaw exploited in attacks and if any IOCs can be shared with defenders, and will update the article if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks CISA flags new SD-WAN flaw as actively exploited in attacks Path traversal flaw in AI dev platform Langflow exploited in attacks Critical Everest Forms Pro flaw exploited to take over WordPress sites
+```
+
+#### Corroborating sources (3)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
+  - Published: 2026-06-23T21:48:32+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
+  - Summary: A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Hackers Exploiting Cisco Unified CM Vulnerability
+  - Published: 2026-06-24T05:44:15+00:00
+  - Link: https://www.securityweek.com/hackers-exploiting-cisco-unified-cm-vulnerability/
+  - Summary: Cisco noted that a PoC had been available for CVE-2026-20230 when it announced patches in early June. The post Hackers Exploiting Cisco Unified CM Vulnerability appeared first on SecurityWeek .
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root
+  - Published: 2026-06-24T06:50:38+00:00
+  - Link: https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
+  - Summary: Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote
+
+### Cluster 61b6596951 — score 11
 
 - Title: Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -1421,53 +1416,6 @@ Back to Blog Detection and Response Why SIEM is Moving Toward Unified Security O
   - Published: 2026-06-23T17:03:34+00:00
   - Link: https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player
   - Summary: Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026). This is the first IDC SIEM MarketScape to bring the enterprise and SMB markets into a single evaluation, and we believe it arrives at a time when the way teams buy and run a SOC is changing quickly. Security teams are no longer evaluating detection and response in isolation. They want their threat data, automation, and view of the attack surface working together, rather than spread across a stack of disconnected tools. We believe Incident Command reflects that shift by bringing threat data, automation, and attack surface context into one platform instead of leaving teams to work across disconnected tools. It also speaks to a broader change in security operations, where context matters more, speed matters more, and teams need a clearer path from alert to action. That same direction runs through Rapid7’s wider point of view on preemptive security: exposure, detecti
-
-### Cluster 5d3bf28534 — score 12
-
-- Title: Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-23T21:48:32+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-20230
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_products: Palo Alto Networks, WordPress
-- cve_ids: CVE-2026-20230
-- urgency_signals: actively_exploited, poc_available, preauth_unauth
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_products: Palo Alto Networks, WordPress
-- cve_ids: CVE-2026-20230
-- urgency_signals: actively_exploited, preauth_unauth, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]
-```
-
-#### Full body
-
-```
-Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks By Lawrence Abrams June 23, 2026 05:48 PM 0 A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. Cisco released security updates for the CVE-2026-20230 flaw on June 3, warning that exploitation could give attackers root privileges on the device. "A vulnerability in Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device," warned Cisco . "This vulnerability is due to improper input validation for specific HTTP requests. An attacker could exploit this vulnerability by sending a crafted HTTP request to an affected device. A successful exploit could allow the attacker to write files to the underlying operating system that could be used later to elevate to root ." The flaw was disclosed to Cisco by SSD Secure, who did not share any technical details at the time. Today, threat intelligence firm Defused warned that the flaw is now being actively exploited in attacks. "Over the weekend we observed exploitation of CVE-2026-20230 - Cisco Unified CM (CUCM) WebDialer SSRF → root file-write (CVSS 8.6) No previously recorded exploitation, and not yet listed in CISA KEV," Defused warned on X . Defused says the attacks are originating from a single IP address and use properly constructed file:// payloads to create files on the device. Cisco CVE-2026-20230 exploit on honeypots Source: Defused While the flaw can be exploited in attacks to drop webshells and gain root privileges, the PoC observed by Defused appears designed to identify vulnerable devices by attempting to write a text file named '/tmp/cve-2026-20230-test.txt' to them. After the exploitation was disclosed, SSD Secure published a technical write-up of the flaw explaining how the vulnerability works and sharing a proof-of-concept exploit. The researchers found that an unauthenticated attacker could abuse the Webdialer component's handling of user-supplied URLs to force the application to write arbitrary files to the operating system using file:// URIs. By controlling the file path and the content written to disk, an attacker could exploit the bug to achieve remote code execution and ultimately gain root privileges on vulnerable devices. SSD Secure noted that exploitation requires the attacker to first obtain the target system's hostname before carrying out the file-write attack. However, the researchers demonstrated how that information can be retrieved from the device before exploitation. While the current exploitation appears to be reconnaissance in nature, now that the flaw has been fully disclosed, we will likely see more threat actors target these servers. BleepingComputer contacted Cisco to ask if they, too, are seeing the flaw exploited in attacks and if any IOCs can be shared with defenders, and will update the article if we receive a response. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks CISA flags new SD-WAN flaw as actively exploited in attacks Path traversal flaw in AI dev platform Langflow exploited in attacks Critical Everest Forms Pro flaw exploited to take over WordPress sites
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks
-  - Published: 2026-06-23T21:48:32+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/
-  - Summary: A high-severity SSRF vulnerability, tracked as CVE-2026-20230, in Cisco Unified Communications Manager Server is now being exploited in attacks. [...]
 
 ### Cluster b9a7dc6e90 — score 11
 
@@ -1772,7 +1720,7 @@ Share Link copied to clipboard! Content types News Products and services Microso
 - Source: Microsoft Security Blog (threat_research_primary)
 - Published: 2026-06-17T17:00:00+00:00
 - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
-- Fetch status: fetch_failed:HTTPError
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -1798,47 +1746,6 @@ See how Microsoft unifies identity and security signals to help teams prevent, d
   - Published: 2026-06-17T17:00:00+00:00
   - Link: https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592
   - Summary: See how Microsoft unifies identity and security signals to help teams prevent, detect, and respond to AI-accelerated attacks faster. The post AI is accelerating cyberattacks—here’s how to stay ahead appeared first on Microsoft Security Blog .
-
-### Cluster f371ac3a1c — score 10
-
-- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-23T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
-```
-
-#### Full body
-
-```
-The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-  - Published: 2026-06-23T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
 ### Cluster e5fc89aea1 — score 10
 
@@ -1927,6 +1834,47 @@ Autonomy Is Earned, Not Claimed Stephen Gates June 17, 2026 Blogs What 250,000 P
   - Published: 2026-06-17T13:17:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/autonomy-is-earned-not-claimed/
   - Summary: After more than 250,000 production pentests, Horizon3.ai explores why trust, reliability, exploitability, and verification matter more than autonomous security claims.
+
+### Cluster f371ac3a1c — score 10
+
+- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-23T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
+```
+
+#### Full body
+
+```
+The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+  - Published: 2026-06-23T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
 ### Cluster e2ef0ac5b5 — score 10
 
@@ -2098,49 +2046,6 @@ Tata Electronics confirms cyberattack as hackers leak data By Bill Toulas June 2
   - Link: https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/
   - Summary: Tata Electronics has confirmed in a statement to BleepingComputer that it was the target of a cyberattack that impacted parts of its IT infrastructure. [...]
 
-### Cluster 4035f6b67d — score 10
-
-- Title: Healthtech firm Xolis suffers data breach impacting 1.4 million people
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-23T19:59:12+00:00
-- Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, supply_chain
-- affected_industries: critical_infrastructure, healthcare, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, data_breach
-- affected_industries: healthcare, critical_infrastructure, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]
-```
-
-#### Full body
-
-```
-Healthtech firm Xolis suffers data breach impacting 1.4 million people By Bill Toulas June 23, 2026 03:59 PM 1 Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. Although the company is not aware of any attempted misuse of the exposed information, it is warning affected individuals to stay alert for potential targeted attacks. Xsolis is a U.S.-based healthcare firm that develops AI-powered software used by more than 600 hospitals and health insurers for utilization management, medical necessity reviews, patient status determinations, discharge planning, and reimbursement decisions. Its flagship platform, Dragonfly, analyzes clinical data in real time to help healthcare providers and payers make more informed, consistent decisions on patient care and insurance coverage. On January 22, the company detected unauthorized activity on its network due to a "targeted phishing attack" that had occurred two days earlier. Xsolis says that it took immediate action to contain the breach and launched an investigation with support from external cybersecurity experts. “On January 22, 2026, Xsolis became aware of unauthorized activity impacting a limited portion of the Xsolis environment resulting from a targeted phishing attack on January 20, 2026,” Xolis says . “We immediately contained the activity and launched an investigation with the assistance of external cybersecurity experts.” The investigation found that the attackers had accessed certain files within the Xsolis environment containing customer information, including: Names Addresses Dates of birth Health insurance information Social Security numbers Medical treatment information According to data passed to the U.S. Dept. of Health and Human Services, 1,396,519 people are impacted . The company reported the incident to law enforcement, implemented additional security measures, and is notifying potentially affected individuals by mail. A sample of the Xolis data breach notification states that the company reset passwords for all users and key accounts, increased system monitoring, and completed the rollout of updated security measures. Additionally, the security training program for employees has been accelerated, and the mechanisms for managing credentials have been strengthened. If the affected customer is a child, Xolis will send the data notification to their parents or legal guardians. Recipients of the notifications will also find enclosed instructions on how to enroll in a 12-month identity monitoring and identity theft restoration service through Kroll. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: LastPass confirms data breach in Klue supply chain attack iRhythm discloses data breach, says hackers stole patient info FBI: Cybercriminals steal health data posing as fraud investigators Maine disables data breach notification portal after fake disclosures Japanese energy firm loses drive with data of 10.9 million clients
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Healthtech firm Xolis suffers data breach impacting 1.4 million people
-  - Published: 2026-06-23T19:59:12+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/
-  - Summary: Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]
-
 ### Cluster 33472b1f9c — score 10
 
 - Title: Modern Web Application Content Discovery
@@ -2243,11 +2148,11 @@ Two men pleaded guilty in the United Kingdom this week to criminal charges stemm
   - Published: 2026-06-23T16:12:49+00:00
   - Link: https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   - Summary: Two men pleaded guilty in the United Kingdom this week to criminal charges stemming from an August 2024 cyberattack that crippled Transport for London, the entity responsible for the public transport network in the Greater London area. The duo were key members of a prolific cybercrime group known as Scattered Spider, and their guilty pleas came on the first day of what was expected to be a six-week trial.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Two Scattered Spider hackers plead guilty over Transport for London cyberattack
-  - Published: 2026-06-23T09:59:48+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/23/transport-london-cyberattack-scattered-spider-members-plead-guilty/
-  - Summary: Two members of the notorious hacker group Scattered Spider have pleaded guilty to charges related to a 2024 cyberattack on Transport for London (TfL) that resulted in £29 million in loss and recovery costs. Thalha Jubair, 20, from London, and Owen Flowers, 18, from Walsall, pleaded guilty at a court hearing in London to offences under the UK’s Computer Misuse Act and will be sentenced on July 16. TfL, the public body responsible for much … More → The post Two Scattered Spider hackers plead guilty over Transport for London cyberattack appeared first on Help Net Security .
+- **The Record** (cyber_news_breach_reporting)
+  - Title: Two Scattered Spider members plead guilty over cyberattack that crippled London transit
+  - Published: 2026-06-23T13:00:00+00:00
+  - Link: https://therecord.media/guilty-plea-tfl-cyberattack-scattered-spider-members
+  - Summary: A 20-year-old and an 18-year-old admitted to infiltrating the network of Transport for London in 2024, disrupting public transportation services for months.
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: Scattered Spider Teens Convicted of TfL Cyber-Attack
   - Published: 2026-06-23T09:29:00+00:00
@@ -2398,52 +2303,48 @@ I detected an interesting phishing email this morning. It targets a major Belgia
   - Link: https://isc.sans.edu/diary/rss/33086
   - Summary: [This is a Guest Diary by Adam Nason, an ISC intern as part of the SANS.edu BACS program]
 
-### Cluster 8a24d06359 — score 9
+### Cluster 4035f6b67d — score 9
 
-- Title: Canadian Electricity Provider London Hydro Discloses Data Breach
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-23T09:25:22+00:00
-- Link: https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
+- Title: Healthtech firm Xolis suffers data breach impacting 1.4 million people
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-23T19:59:12+00:00
+- Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, supply_chain, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Anthropic/Claude, Fortinet, npm
+- threat_categories: data_breach, phishing_social_eng, supply_chain
+- affected_industries: critical_infrastructure, healthcare, legal_professional
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng, data_breach, web_shell_backdoor
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, government, manufacturing_industrial
-- affected_products: Fortinet, Anthropic/Claude, npm
+- threat_categories: supply_chain, phishing_social_eng, data_breach
+- affected_industries: healthcare, critical_infrastructure, legal_professional
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Hackers stole customers’ names, addresses, email addresses, phone numbers, and account information. The post Canadian Electricity Provider London Hydro Discloses Data Breach appeared first on SecurityWeek .
+Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]
 ```
 
 #### Full body
 
 ```
-Canadian electricity provider London Hydro is investigating a data breach that potentially impacted the personal and account information of its customers. London Hydro is a local distribution company serving the City of London, Ontario. It serves roughly 170,000 residential, institutional, commercial, and industrial customers. On June 20, the electricity provider announced that hackers had broken into its systems and that customers’ data was likely accessed. “London Hydro and the appropriate authorities are currently investigating a data security incident which may have impacted a portion of personal information on some accounts,” the company said . The potentially affected data includes personal information such as names, addresses, email addresses, and phone numbers. Account information, including account and billing numbers, service addresses, pricing plans, contract dates, and meter numbers and types, might have been impacted as well. Advertisement. Scroll to continue reading. According to London Hydro, no financial or other sensitive information might have been compromised in the data breach. “The incident did not involve access to financial information or other sensitive categories of information, such as your date of birth, government identification numbers, payment card details, or banking information,” the company said. London Hydro urges customers to be wary of suspicious activity related to their accounts and personal information, including phishing messages, emails, or phone calls. It’s unclear who is responsible for the attack. No known cybercrime group appears to have taken credit for hacking London Hydro. Related: North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Related: More Cybersecurity Firms Disclose Impact From Klue Hack Related: What the Latest ShinyHunters Breaches Reveal About Modern Cyberattacks Related: Texas Parks & Wildlife Data Breach Affects 3 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Russian Initial Access Broker Behind FortiBleed Campaign Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data North Korean Hackers Blamed for Mastra NPM Supply Chain Attack Fortinet Responds to FortiBleed Campaign More Cybersecurity Firms Disclose Impact From Klue Hack CryptoBandits Malware Doubles as a Backdoor, Abuses Tor FortiBleed: 86,000 Fortinet Device Credentials Compromised Cybersecurity Firms Impacted by Klue Supply Chain Attack Latest News Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says Dragos Unveils AI for OT Security Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct Algerian Man Extradited to US for Running Cybercrime Marketplaces FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities faster, while defenders are racing to ship detections
+Healthtech firm Xolis suffers data breach impacting 1.4 million people By Bill Toulas June 23, 2026 03:59 PM 1 Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. Although the company is not aware of any attempted misuse of the exposed information, it is warning affected individuals to stay alert for potential targeted attacks. Xsolis is a U.S.-based healthcare firm that develops AI-powered software used by more than 600 hospitals and health insurers for utilization management, medical necessity reviews, patient status determinations, discharge planning, and reimbursement decisions. Its flagship platform, Dragonfly, analyzes clinical data in real time to help healthcare providers and payers make more informed, consistent decisions on patient care and insurance coverage. On January 22, the company detected unauthorized activity on its network due to a "targeted phishing attack" that had occurred two days earlier. Xsolis says that it took immediate action to contain the breach and launched an investigation with support from external cybersecurity experts. “On January 22, 2026, Xsolis became aware of unauthorized activity impacting a limited portion of the Xsolis environment resulting from a targeted phishing attack on January 20, 2026,” Xolis says . “We immediately contained the activity and launched an investigation with the assistance of external cybersecurity experts.” The investigation found that the attackers had accessed certain files within the Xsolis environment containing customer information, including: Names Addresses Dates of birth Health insurance information Social Security numbers Medical treatment information According to data passed to the U.S. Dept. of Health and Human Services, 1,396,519 people are impacted . The company reported the incident to law enforcement, implemented additional security measures, and is notifying potentially affected individuals by mail. A sample of the Xolis data breach notification states that the company reset passwords for all users and key accounts, increased system monitoring, and completed the rollout of updated security measures. Additionally, the security training program for employees has been accelerated, and the mechanisms for managing credentials have been strengthened. If the affected customer is a child, Xolis will send the data notification to their parents or legal guardians. Recipients of the notifications will also find enclosed instructions on how to enroll in a 12-month identity monitoring and identity theft restoration service through Kroll. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: LastPass confirms data breach in Klue supply chain attack iRhythm discloses data breach, says hackers stole patient info FBI: Cybercriminals steal health data posing as fraud investigators Maine disables data breach notification portal after fake disclosures Japanese energy firm loses drive with data of 10.9 million clients
 ```
 
 #### Corroborating sources (1)
 
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Canadian Electricity Provider London Hydro Discloses Data Breach
-  - Published: 2026-06-23T09:25:22+00:00
-  - Link: https://www.securityweek.com/canadian-electricity-provider-london-hydro-discloses-data-breach/
-  - Summary: Hackers stole customers’ names, addresses, email addresses, phone numbers, and account information. The post Canadian Electricity Provider London Hydro Discloses Data Breach appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Healthtech firm Xolis suffers data breach impacting 1.4 million people
+  - Published: 2026-06-23T19:59:12+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/
+  - Summary: Healthcare technology company Xsolis says that sensitive data belonging to nearly 1.4 million individuals was compromised in a phishing attack that gave attackers access to its network. [...]
 
 ### Cluster 5fa1fc890c — score 9
 
@@ -2691,15 +2592,13 @@ Wiz Pricing Get a demo Get a demo So far in this series, we’ve covered how to 
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_products: WordPress
+- affected_products: OpenAI/ChatGPT, WordPress
 - cve_ids: CVE-2026-8461
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
-- affected_products: WordPress
+- affected_products: WordPress, OpenAI/ChatGPT
 - cve_ids: CVE-2026-8461
 - content_type: news_report
 - confidence_tier: tier_4_news
@@ -2713,7 +2612,7 @@ Attackers can send crafted media files to execute code in any application that u
 #### Full body
 
 ```
-A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Canadian Electricity Provider London Hydro Discloses Data Breach Attackers Exploit
+A vulnerability in the FFmpeg media processing framework allows attackers to crash applications and execute arbitrary code remotely, JFrog warns. FFmpeg is used in most media-processing applications across every platform, including desktop video players, Linux file managers, self-hosted media servers, and cloud transcoding pipelines. Tracked as CVE-2026-8461 (CVSS score of 8.8), the security defect is described as a heap out-of-bounds write within FFmpeg’s libavcodec library, in the MagicYUV decoder. The flaw exists in the MagicYUV decoder’s slice handling and is “caused by an inconsistency between how the frame allocator and the decoder compute chroma plane heights,” JFrog explains. Dubbed PixelSmash , it can be exploited to crash any application that uses FFmpeg. Code execution can be achieved by targeting FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. To gain code execution, an attacker needs to target FFmpeg’s AVBuffer struct, a refcounted buffer management object allocated immediately after each plane’s pixel data. Advertisement. Scroll to continue reading. According to JFrog, by placing a NUL-terminated shell command at a specific out-of-bounds offset, an attacker can obtain shell execution before the FFmpeg process crashes on subsequent heap corruption. PixelSmash can be exploited for remote code execution (RCE) via crafted media files delivered to any application that uses FFmpeg’s libavcodec for video decoding. On desktop, the vulnerability is triggered when the user opens the malicious file in a video player, or when they browse to a folder containing it, if the file manager’s thumbnail generator uses the vulnerable library. Code execution on a server is achieved when the media file is uploaded to a media server, chat platform, or cloud transcoding service, which automatically processes it. The bug can also be exploited on NAS appliances, media appliances, and smart TVs that generate video thumbnails or previews. “No authentication, special privileges, or prior access to the target system is required beyond the ability to deliver a media file – the default attack surface for any media-processing application,” JFrog explains. The exploit payload can be delivered as a 50 KB AVI, MKV, or MOV file. It can be used in zero-click attacks over torrents if the victim has their torrent client set to download media files directly into a monitored media library folder. As soon as the torrent finishes, the automated library scanning executes the payload. On the self-hosted cloud storage platform Nextcloud, which uses an independent FFmpeg build, the vulnerability can be triggered via the optional Movie preview provider, which invokes the system FFmpeg binary to generate thumbnails. “The attacker requires no interaction beyond ensuring the file is visible in a folder listing; the server-side processing handles the rest, making this a near-zero-click vector,” JFrog notes. The cybersecurity firm confirmed successful exploitation of the bug against Kodi, mpv, ffmpegthumbnailer (used by GNOME, KDE, XFCE), Jellyfin, Emby, Nextcloud, Immich, PhotoPrism, and OBS Studio. It also demonstrated successful RCE against Jellyfin. FFmpeg version 8.1.2 contains fixes for PixelSmash. Users are advised to update as soon as possible. Related: Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data Related: Attackers Exploit Gravity SMTP Plugin Flaw to Harvest Valuable WordPress Data Related: New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones Related: Splunk Enterprise Vulnerability Exploited in Attacks Days After Disclosure Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial
 ```
 
 #### Corroborating sources (1)
