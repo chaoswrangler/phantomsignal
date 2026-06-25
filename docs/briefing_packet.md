@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-25T20:11:19.070557+00:00
+- Generated: 2026-06-25T22:25:53.653832+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 277
-- Total clusters raw: 139
-- Total clusters in packet: 63
-- Dropped low score: 76
+- Total items in window: 281
+- Total clusters raw: 143
+- Total clusters in packet: 65
+- Dropped low score: 78
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,36 +75,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -115,11 +100,21 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 3
+  - In window count: 6
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -135,6 +130,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -150,13 +150,23 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -164,16 +174,6 @@
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -195,31 +195,31 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
@@ -230,26 +230,26 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
@@ -280,46 +280,51 @@
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 9
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 100
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 9
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -330,31 +335,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 11
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 18
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -365,21 +370,21 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 15
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 7
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
@@ -389,16 +394,6 @@
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -410,31 +405,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 28
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -509,8 +509,8 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/
+  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
   - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
@@ -532,8 +532,8 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/
+  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
   - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
@@ -555,8 +555,8 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/
+  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
   - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
@@ -600,8 +600,8 @@
 - Links:
   - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/
+  - https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
   - https://securelist.com/strikeshark-campaign/120326/
   - https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/
 
@@ -610,12 +610,12 @@
 - Theme key: handala
 - Cluster count: 4
 - Article count: 3
-- Cohesion: 0.474
+- Cohesion: 0.471
 - Shared strong signals: Handala
 - Member CVEs: (none)
 - Also targets: Salesforce
 - Dominant features:
-  - threat_categories: data_breach, ransomware_extortion, zero_day, active_exploitation
+  - threat_categories: data_breach, ransomware_extortion, phishing_social_eng, zero_day, active_exploitation
   - actor_attribution: Handala
   - affected_industries: manufacturing_industrial, government
   - affected_products: GitLab, Salesforce
@@ -649,6 +649,22 @@
   - https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/
   - https://www.infosecurity-magazine.com/news/aws-continuum-ai-vulnerability/
 
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.545
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Palo Alto Networks
+- Cluster IDs: 58ad2b1b0b, 84319555f9
+- Links:
+  - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+
 ### supply chain targeting npm
 - Anchor signal: npm
 - Theme key: npm
@@ -676,7 +692,7 @@
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
+  - threat_categories: phishing_social_eng, zero_day, active_exploitation
   - affected_products: Ubiquiti UniFi
   - urgency_signals: actively_exploited, zero_day
 - Cluster IDs: 8153a6b280, 0118e0647e
@@ -701,22 +717,6 @@
   - https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
   - https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   - https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
-
-### Fortinet vulnerability activity
-- Anchor signal: Fortinet
-- Theme key: fortinet
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.2
-- Shared strong signals: Fortinet
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Fortinet
-- Cluster IDs: 55705936f5, 96f12a0395
-- Links:
-  - https://risky.biz/RBNEWS579/
-  - https://securelist.com/strikeshark-campaign/120326/
 
 ## Forward signals
 
@@ -747,22 +747,22 @@
 - Pair: CVE-2026-34909 + Ubiquiti UniFi (cluster 8153a6b280, first observation: True)
 
 ### Drift (2)
-- **Handala** (cluster 5b83cbd73b)
-  - New industries: manufacturing_industrial
-  - New products: Cisco, GitLab, Salesforce
-  - Prior top industries: critical_infrastructure, financial_services, government
-  - Prior top products: Fortinet, Palo Alto Networks, npm
 - **ShinyHunters** (cluster 7f66459697)
   - New industries: (none)
   - New products: Azure
   - Prior top industries: education, financial_services, government
   - Prior top products: Anthropic/Claude, GitHub, npm
+- **Handala** (cluster 5b83cbd73b)
+  - New industries: manufacturing_industrial
+  - New products: Cisco, GitLab, Salesforce
+  - Prior top industries: critical_infrastructure, financial_services, government
+  - Prior top products: Fortinet, Palo Alto Networks, npm
 
 ### Persistence (8)
 - cve_ids: CVE-2026-20245 (weeks observed: 4, cluster 92ea9e355d)
 - cve_ids: CVE-2026-11645 (weeks observed: 4, cluster 8153a6b280)
-- actor_attribution: Handala (weeks observed: 4, cluster 5b83cbd73b)
 - actor_attribution: ShinyHunters (weeks observed: 4, cluster 7f66459697)
+- actor_attribution: Handala (weeks observed: 4, cluster 5b83cbd73b)
 - cve_ids: CVE-2026-20127 (weeks observed: 3, cluster 92ea9e355d)
 - cve_ids: CVE-2026-20182 (weeks observed: 3, cluster 92ea9e355d)
 - cve_ids: CVE-2026-20230 (weeks observed: 3, cluster 56627fa3d2)
@@ -882,18 +882,18 @@ Threat Intelligence Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in C
   - Published: 2026-06-25T05:46:54+00:00
   - Link: https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
   - Summary: An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access
-  - Published: 2026-06-24T21:29:10+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
-  - Summary: New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]
 - **SecurityWeek** (cyber_news_breach_reporting)
   - Title: Cisco SD-WAN Zero-Day Exploited Months Before Patching
   - Published: 2026-06-25T06:08:43+00:00
   - Link: https://www.securityweek.com/cisco-sd-wan-zero-day-exploited-months-before-patching/
   - Summary: CVE-2026-20245, the 7th Cisco SD-WAN vulnerability exploited in 2026, was used for months prior to its disclosure and patching. The post Cisco SD-WAN Zero-Day Exploited Months Before Patching appeared first on SecurityWeek .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Mandiant reveals how Cisco SD-WAN zero-day attacks gained root access
+  - Published: 2026-06-24T21:29:10+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/mandiant-reveals-how-cisco-sd-wan-zero-day-attacks-gained-root-access/
+  - Summary: New details have been revealed on how hackers exploited a Cisco Catalyst SD-WAN vulnerability tracked as CVE-2026-20245 in zero-day attacks to create rogue root accounts on targeted devices. [...]
 
-### Cluster 56627fa3d2 — score 26
+### Cluster 56627fa3d2 — score 25
 
 - Title: CVE-2026-20230 | Cisco Unified Communications Manager Server-Side Request Forgery Vulnerability
 - Source: Horizon3 Attack Research (offensive_vulnerability_research)
@@ -1400,49 +1400,6 @@ Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat 
   - Link: https://thehackernews.com/2026/06/salesforce-disables-klue-app.html
   - Summary: Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To that end, organizations will be unable to connect to Salesforce via the app until further notice, the American cloud-based software company noted in an alert published this week. "Salesforce took
 
-### Cluster 6980e28d76 — score 13
-
-- Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-25T10:00:59+00:00
-- Link: https://securelist.com/smb-threat-report-2026/120357/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude
-- content_type: intel_roundup
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude
-- content_type: intel_roundup
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
-```
-
-#### Full body
-
-```
-Table of Contents Key findings Malware and potentially unwanted applications (PUAs) disguised as popular services Other lures for SMBs: Fake communication apps and office software Scammers and phishers tricking victims into providing credentials and funds Email threats: Fake online documents and exploitation of legitimate platforms Corporate infrastructure access for sale: Posts on the dark web Share of posts with initial access offers by business size Cybersecurity action plan for SMBs Authors Vasily Kolesnikov Olga Altukhova Anna Lazaricheva Ekaterina Beloborodova Small and medium-sized businesses (SMBs) remain attractive targets for cybercriminals – in both mass cyberattacks and sophisticated campaigns targeting larger enterprises through trusted relationship attacks. At the same time, smaller businesses may lack the robust cybersecurity policies and necessary resources to protect themselves against an evolving threat landscape. Kaspersky believes that raising awareness can help small and medium-sized enterprises develop an effective protection strategy. Ahead of International SMB Day on June 27, Kaspersky presents the findings of its 2026 threat analysis for SMBs, which includes real-world examples of attacks. Key findings In the first four months of 2026, Kaspersky solutions detected over 33,300 cyberattacks on SMBs masquerading as popular artificial intelligence (AI) tools – almost five times more than in 2025 and 39% more than the number of attacks disguised as the office and collaboration tools that Kaspersky’s research focuses on. Popular messengers and communication services remained the attacker’s most widespread lure, with almost 415,000 attacks involving fake messenger apps and video conferencing software. The attackers follow trends: the AI tools Claude and OpenClaw (ex-ClawdBot/MoltBot), which have gained popularity in 2026, were among the common AI lures. Fraudsters use fake AI tools to scam businesses out of money, while corporate accounts on social media also remain targets. The majority of initial accesses to corporate infrastructures sold on the dark web are allegedly accesses to SMBs. This could be because SMBs tend not to be as well protected as large enterprises and, at the same time, may be trusted contractors for those well-protected enterprises. Malware and potentially unwanted applications (PUAs) disguised as popular services Kaspersky researchers used data from Kaspersky Security Network (KSN) to explore how frequently malicious and unwanted files are disguised as legitimate applications that may be used by SMBs. KSN is a system for processing anonymized cyberthreat-related data shared voluntarily by Kaspersky users. For this part of the report, only anonymized data received from users of Kaspersky solutions for SMBs were analyzed. According to a survey by the Small Business & Entrepreneurship Council (SBE Council), small business owners continue to embrace artificial intelligence and digital transformation as they maintain a generally positive outlook on the economy. Threat actors are also aware of the hype surrounding AI and exploit it for their own benefit. In particular, they actively distribute cyberthreats under the guise of popular AI services. From January to April 2026, Kaspersky solutions detected 33,352 attacks on SMB users in which malware or potentially unwanted applications for PCs were disguised as five popular AI services. This figure represents an increase of almost five times compared to the previous year. This highlights an evolving trend in which threat actors are weaponizing trust in widely used AI platforms and services, especially popular ones like Claude. Kaspersky experts note that it’s important to download apps from official sources and to verify which apps are available for which platforms. Share of attacks targeting SMBs in which malware or PUAs mimic the five popular, legitimate AI apps that Kaspersky’s research focuses on, first four months of 2025 and 2026 ( download
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
-  - Published: 2026-06-25T10:00:59+00:00
-  - Link: https://securelist.com/smb-threat-report-2026/120357/
-  - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
-
 ### Cluster 2666f433e1 — score 13
 
 - Title: Best Vulnerability Management Tools and Software in 2026
@@ -1574,6 +1531,51 @@ Risky Bulletin Podcast June 19, 2026 Risky Bulletin: Creds for 74,000 Fortinet d
   - Link: https://risky.biz/RBNEWS579/
   - Summary: A LOT of Fortinet creds have leaked online, Canada’s spy agency allowed to remove a botnet from Canadian devices, a supply chain attack hits the Mastra AI framework, and Europol disrupts SocGolish.
 
+### Cluster 58ad2b1b0b — score 12
+
+- Title: CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure
+- Source: Unit 42 (threat_research_primary)
+- Published: 2026-06-25T22:00:52+00:00
+- Link: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: critical_infrastructure, government
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage, web_shell_backdoor
+- affected_industries: government, critical_infrastructure
+- affected_products: Palo Alto Networks
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .
+```
+
+#### Full body
+
+```
+Threat Research Center Threat Research Malware Malware CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure 10 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: June 25, 2026 Categories: Malware Threat Research Tags: Backdoor CL-STA-1062 Malware Mimikatz Southeast asia TinyRCT VPN Web shells Share Executive Summary Throughout 2025, we observed a cluster of activity targeting government entities and critical infrastructure in Southeast Asia. Specifically, the activity targeted state-owned enterprises in the energy and government sectors. The Chinese-speaking attackers behind this cluster, which we track as CL-STA-1062 , have been active since at least March 2022. We assess with high confidence that this is the same cluster, known as UAT-7237, that was reported for its campaigns against web hosting infrastructure in Taiwan in mid 2025. We also observed CL-STA-1062 campaigns in earlier operations targeting strategic sectors in East Asia, indicating a broader, sustained regional focus. From a technical standpoint, the attackers behind CL-STA-1062 rely on a hybrid toolkit. While they frequently use common open-source tools such as SoftEther VPN, Mimikatz and VNT, they have recently introduced TinyRCT, a bespoke, previously undocumented backdoor. TinyRCT’s capabilities include: Arbitrary command execution File enumeration and exfiltration Screen capture A self-destruct mechanism We detail the latest campaign linked to CL-STA-1062 against the energy and government sectors in Southeast Asia, and provide a technical analysis of the new TinyRCT backdoor. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex XDR and XSIAM Advanced WildFire Advanced URL Filtering and Advanced DNS Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics CL-STA-1062, Malware , Backdoor , VPN, Mimikatz Latest Campaign Analysis While this article focuses on CL-STA-1062 activity against targets in Southeast Asia during 2025, our telemetry reveals that the attackers behind this cluster have been conducting operations across East Asia since 2022. We assess with high confidence that this is the same activity cluster tracked by Cisco Talos as UAT-7237 , previously reported for its campaigns against web hosting infrastructure in Taiwan. Building on recent observed activity, our investigation into CL-STA-1062 activity highlights a broader long-term strategy in the Asia-Pacific region. Targeting Southeast Asian Government Entities In September 2025, we discovered that the attackers behind CL-STA-1062 had compromised a Southeast Asian government entity by deploying web shells and exfiltrating database information. Figure 1 shows the command line used to exfiltrate data from an MSSQL server. Figure 1. Exfiltrating data from the MSSQL server. During this intrusion, the attackers were also able to conduct network reconnaissance on a separate government entity in the same country. This suggests an effort to identify lateral movement opportunities and broaden their access. In one case, we observed the attacker staging and exfiltrating an entire directory of web server source code from the government entity, as Figure 2 shows. Figure 2. Archiving the folder containing the web server source code. Between October and December 2025, we observed the likely compromise of at least ten different organizations in Southeast Asia. Focusing on Critical Energy Infrastructure Since mid 2025, as part of activities in Southeast Asia, the threat actor behind CL-STA-1062 focused on critical infrastructure. We identified that a critical infrastructure entity had been under attack for several months. The activity within the compromised network was com
+```
+
+#### Corroborating sources (1)
+
+- **Unit 42** (threat_research_primary)
+  - Title: CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure
+  - Published: 2026-06-25T22:00:52+00:00
+  - Link: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+  - Summary: Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .
+
 ### Cluster 73e0a62a37 — score 12
 
 - Title: Beyond IOCs: AI-enabled threat intelligence
@@ -1613,46 +1615,48 @@ Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 202
   - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
   - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
 
-### Cluster 18abdcb9e0 — score 12
+### Cluster 6980e28d76 — score 12
 
-- Title: Introduction to COM usage by Windows threats
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T10:00:26+00:00
-- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+- Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-25T10:00:59+00:00
+- Link: https://securelist.com/smb-threat-report-2026/120357/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- attack_techniques: T1021.003
-- content_type: news_report
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude
+- content_type: intel_roundup
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- attack_techniques: T1021.003
-- content_type: news_report
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude
+- content_type: intel_roundup
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
 ```
 
 #### Full body
 
 ```
-Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
+Table of Contents Key findings Malware and potentially unwanted applications (PUAs) disguised as popular services Other lures for SMBs: Fake communication apps and office software Scammers and phishers tricking victims into providing credentials and funds Email threats: Fake online documents and exploitation of legitimate platforms Corporate infrastructure access for sale: Posts on the dark web Share of posts with initial access offers by business size Cybersecurity action plan for SMBs Authors Vasily Kolesnikov Olga Altukhova Anna Lazaricheva Ekaterina Beloborodova Small and medium-sized businesses (SMBs) remain attractive targets for cybercriminals – in both mass cyberattacks and sophisticated campaigns targeting larger enterprises through trusted relationship attacks. At the same time, smaller businesses may lack the robust cybersecurity policies and necessary resources to protect themselves against an evolving threat landscape. Kaspersky believes that raising awareness can help small and medium-sized enterprises develop an effective protection strategy. Ahead of International SMB Day on June 27, Kaspersky presents the findings of its 2026 threat analysis for SMBs, which includes real-world examples of attacks. Key findings In the first four months of 2026, Kaspersky solutions detected over 33,300 cyberattacks on SMBs masquerading as popular artificial intelligence (AI) tools – almost five times more than in 2025 and 39% more than the number of attacks disguised as the office and collaboration tools that Kaspersky’s research focuses on. Popular messengers and communication services remained the attacker’s most widespread lure, with almost 415,000 attacks involving fake messenger apps and video conferencing software. The attackers follow trends: the AI tools Claude and OpenClaw (ex-ClawdBot/MoltBot), which have gained popularity in 2026, were among the common AI lures. Fraudsters use fake AI tools to scam businesses out of money, while corporate accounts on social media also remain targets. The majority of initial accesses to corporate infrastructures sold on the dark web are allegedly accesses to SMBs. This could be because SMBs tend not to be as well protected as large enterprises and, at the same time, may be trusted contractors for those well-protected enterprises. Malware and potentially unwanted applications (PUAs) disguised as popular services Kaspersky researchers used data from Kaspersky Security Network (KSN) to explore how frequently malicious and unwanted files are disguised as legitimate applications that may be used by SMBs. KSN is a system for processing anonymized cyberthreat-related data shared voluntarily by Kaspersky users. For this part of the report, only anonymized data received from users of Kaspersky solutions for SMBs were analyzed. According to a survey by the Small Business & Entrepreneurship Council (SBE Council), small business owners continue to embrace artificial intelligence and digital transformation as they maintain a generally positive outlook on the economy. Threat actors are also aware of the hype surrounding AI and exploit it for their own benefit. In particular, they actively distribute cyberthreats under the guise of popular AI services. From January to April 2026, Kaspersky solutions detected 33,352 attacks on SMB users in which malware or potentially unwanted applications for PCs were disguised as five popular AI services. This figure represents an increase of almost five times compared to the previous year. This highlights an evolving trend in which threat actors are weaponizing trust in widely used AI platforms and services, especially popular ones like Claude. Kaspersky experts note that it’s important to download apps from official sources and to verify which apps are available for which platforms. Share of attacks targeting SMBs in which malware or PUAs mimic the five popular, legitimate AI apps that Kaspersky’s research focuses on, first four months of 2025 and 2026 ( download
 ```
 
 #### Corroborating sources (1)
 
-- **Cisco Talos** (threat_research_primary)
-  - Title: Introduction to COM usage by Windows threats
-  - Published: 2026-06-25T10:00:26+00:00
-  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
+  - Published: 2026-06-25T10:00:59+00:00
+  - Link: https://securelist.com/smb-threat-report-2026/120357/
+  - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
 
 ### Cluster a5fdf7dc6d — score 12
 
@@ -1735,6 +1739,47 @@ Back to Blog Industry Trends Experts on Experts: Why AI and Compliance Are Forci
   - Published: 2026-06-25T13:00:00+00:00
   - Link: https://www.rapid7.com/blog/post/it-experts-video-series-ai-compliance-force-new-security-operating-models
   - Summary: This week on Experts on Experts, I sat down with Sabeen Malik , Rapid7’s VP of Global Government Affairs and Public Policy, to discuss a shift security leaders can’t afford to treat as separate threads: frontier AI, vulnerability discovery, cybersecurity compliance, and operational resilience. AI is changing how quickly vulnerabilities can be found, validated, and potentially exploited. At the same time, regulators, boards, and customers are asking for stronger proof that controls are working and risk is being reduced. Security leaders are being pushed to move at machine speed while proving the business is resilient. AI vulnerability discovery is moving faster than security standards Sabeen and I started with the policy question. Many of the systems security teams rely on today were designed for a slower era of human-led discovery. Vulnerability disclosure processes, scoring systems, prioritization frameworks, and regulatory expectations all assume organizations have time to assess, ve
+
+### Cluster 18abdcb9e0 — score 11
+
+- Title: Introduction to COM usage by Windows threats
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T10:00:26+00:00
+- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+```
+
+#### Full body
+
+```
+Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Introduction to COM usage by Windows threats
+  - Published: 2026-06-25T10:00:26+00:00
+  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
 
 ### Cluster c929d44d5e — score 11
 
@@ -2419,100 +2464,6 @@ Back to Blog Detection and Response Why SIEM is Moving Toward Unified Security O
   - Link: https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player
   - Summary: Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026). This is the first IDC SIEM MarketScape to bring the enterprise and SMB markets into a single evaluation, and we believe it arrives at a time when the way teams buy and run a SOC is changing quickly. Security teams are no longer evaluating detection and response in isolation. They want their threat data, automation, and view of the attack surface working together, rather than spread across a stack of disconnected tools. We believe Incident Command reflects that shift by bringing threat data, automation, and attack surface context into one platform instead of leaving teams to work across disconnected tools. It also speaks to a broader change in security operations, where context matters more, speed matters more, and teams need a clearer path from alert to action. That same direction runs through Rapid7’s wider point of view on preemptive security: exposure, detecti
 
-### Cluster 5b83cbd73b — score 10
-
-- Title: 25-Year-Old Vulnerability Patched in Curl
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-25T09:25:02+00:00
-- Link: https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion, zero_day
-- actor_attribution: Handala
-- affected_industries: government, manufacturing_industrial
-- affected_products: Cisco, GitLab, Salesforce
-- cve_ids: CVE-2026-10536, CVE-2026-8925, CVE-2026-8926, CVE-2026-8932, CVE-2026-9080
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, data_breach, active_exploitation
-- actor_attribution: Handala
-- affected_industries: government, manufacturing_industrial
-- affected_products: Salesforce, GitLab, Cisco
-- cve_ids: CVE-2026-8932, CVE-2026-8926, CVE-2026-8925, CVE-2026-9080, CVE-2026-10536
-- urgency_signals: zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities. The post 25-Year-Old Vulnerability Patched in Curl appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-The open source data transfer tool and library curl has been updated this week with patches for 18 vulnerabilities, including one introduced 25 years ago. The flaws, four medium and 14 low-severity, were discovered as part of a community effort after Anthropic’s Mythos discovered a single curl bug in early May. This release resolves the highest number of CVEs patched with a single curl update, including an issue that was introduced in version 7.7, shipped on March 22, 2001. Tracked as CVE-2026-8932, it is described as an mTLS connection reuse and could lead to authentication bypass. It affects libcurl applications and not the curl command-line tool. The CVE exists because “libcurl could reuse an existing connection even after client certificate or private key settings had changed,” vulnerability management firm Aisle says . Aisle used its AI platform to identify multiple weaknesses across curl and libcurl, six of which were issued a CVE this year, CVE-2026-8932 included. Advertisement. Scroll to continue reading. The other identified flaws include credential confusion (CVE-2026-8926), double-free (CVE-2026-8925), use-after-free (CVE-2026-9080 and CVE-2026-10536), and improper host validation (CVE-2026-9547). As the company suggests, it’s no surprise that Mythos found a single curl bug and that few security issues are being surfaced in the popular tool and library. “Curl is of particular interest to security researchers: the easy bugs are long gone, and what remains is difficult to find: old protocol paths, state reuse, callback behavior, credential selection, and code paths that are easily forgotten about,” Aisle says. Over 30 billion devices use curl today for data transfer, including servers, phones, and cars, and vulnerabilities in it could prove highly valuable to attackers. However, there have been no public reports of successful in-the-wild exploitation of any security defect in curl. Related: Chrome 149 Update Resolves 18 Severe Vulnerabilities Related: Cisco SD-WAN Zero-Day Exploited Months Before Patching Related: Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says Related: Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs New ‘Mistic’ RAT Opens Door to Several Ransomware Families Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking BeyondTrust, LastPass Impacted by Klue-Salesforce Incident Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Latest News Runlayer Raises $30 Million in Series A Funding Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning GitLab Patches Code Execution, Information Disclosure Vulnerabilities SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition NIST Opens Updated IoT Security Guidance to Public Review Chrome 149 Update Resolves 18 Severe Vulnerabilities Cisco SD-WAN Zero-Day Exploited Months Before Patching Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: 25-Year-Old Vulnerability Patched in Curl
-  - Published: 2026-06-25T09:25:02+00:00
-  - Link: https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/
-  - Summary: The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities. The post 25-Year-Old Vulnerability Patched in Curl appeared first on SecurityWeek .
-
-### Cluster bb7b210925 — score 10
-
-- Title: Hacker gets 18 months for attack that compromised 60,000 betting accounts
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-06-25T10:18:18+00:00
-- Link: https://www.helpnetsecurity.com/2026/06/25/hacker-sentenced-draftkings-credential-stuffing-attac/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_industries: financial_services
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack … More → The post Hacker gets 18 months for attack that compromised 60,000 betting accounts appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Sinisa Markovic , Managing Editor, Help Net Security June 25, 2026 Share Hacker gets 18 months for attack that compromised 60,000 betting accounts A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack against the betting website in November 2022, using usernames and passwords stolen in previous data breaches to gain unauthorized access to user accounts. The group successfully compromised about 60,000 accounts and, in some cases, added payment methods under their control before withdrawing funds from victims’ accounts. Authorities said the scheme affected roughly 1,600 accounts and resulted in the theft of about $600,000. The Justice Department did not name the affected betting website. However, the details align with a November 2022 incident disclosed by DraftKings involving the compromise of about 68,000 customer accounts in a credential stuffing attack. “Access to the victim accounts were also sold on various websites that traffic in stolen accounts, which are frequently referred to as ‘Shops.’ AUSTAD directly controlled and profited from his own shop, which was named after the character Snoopy from the Peanuts comic strip,” the Justice Department said . Austad’s shop website (Source: U.S. Department of Justice) Prosecutors also cited messages Austad exchanged with co-conspirators in which he discussed the investigation and acknowledged that participants knew they were committing fraud. Authorities said Austad controlled cryptocurrency accounts that received about $465,000 worth of cryptocurrency, including proceeds from the scheme. Austad is the third defendant sentenced in the case. Joseph Garrison was sentenced to 18 months in prison in January 2024, followed by Kamerin Stokes, known as “TheMFNPlug,” who received a 30-month sentence in April 2026. More about cybercrime law enforcement US DoJ Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Hacker gets 18 months for attack that compromised 60,000 betting accounts
-  - Published: 2026-06-25T10:18:18+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/25/hacker-sentenced-draftkings-credential-stuffing-attac/
-  - Summary: A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack … More → The post Hacker gets 18 months for attack that compromised 60,000 betting accounts appeared first on Help Net Security .
-
 ### Cluster 49c2eae0f5 — score 10
 
 - Title: Cisco Vulnerability Exploited Months Before Disclosure, Google Warns
@@ -2888,6 +2839,100 @@ Wiz Pricing Get a demo Get a demo Getting comprehensive visibility into your clo
   - Published: 2026-06-25T11:59:34+00:00
   - Link: https://www.wiz.io/blog/runtime-signals-in-security-graph
   - Summary: Wiz now layers runtime signals into the Security Graph, exposing hidden attack paths to give security teams a complete picture of risk.
+
+### Cluster 5b83cbd73b — score 9
+
+- Title: 25-Year-Old Vulnerability Patched in Curl
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-25T09:25:02+00:00
+- Link: https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: Handala
+- affected_industries: government, manufacturing_industrial
+- affected_products: Cisco, GitLab, Salesforce
+- cve_ids: CVE-2026-10536, CVE-2026-8925, CVE-2026-8926, CVE-2026-8932, CVE-2026-9080
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
+- actor_attribution: Handala
+- affected_industries: government, manufacturing_industrial
+- affected_products: Salesforce, GitLab, Cisco
+- cve_ids: CVE-2026-8932, CVE-2026-8926, CVE-2026-8925, CVE-2026-9080, CVE-2026-10536
+- urgency_signals: zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities. The post 25-Year-Old Vulnerability Patched in Curl appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+The open source data transfer tool and library curl has been updated this week with patches for 18 vulnerabilities, including one introduced 25 years ago. The flaws, four medium and 14 low-severity, were discovered as part of a community effort after Anthropic’s Mythos discovered a single curl bug in early May. This release resolves the highest number of CVEs patched with a single curl update, including an issue that was introduced in version 7.7, shipped on March 22, 2001. Tracked as CVE-2026-8932, it is described as an mTLS connection reuse and could lead to authentication bypass. It affects libcurl applications and not the curl command-line tool. The CVE exists because “libcurl could reuse an existing connection even after client certificate or private key settings had changed,” vulnerability management firm Aisle says . Aisle used its AI platform to identify multiple weaknesses across curl and libcurl, six of which were issued a CVE this year, CVE-2026-8932 included. Advertisement. Scroll to continue reading. The other identified flaws include credential confusion (CVE-2026-8926), double-free (CVE-2026-8925), use-after-free (CVE-2026-9080 and CVE-2026-10536), and improper host validation (CVE-2026-9547). As the company suggests, it’s no surprise that Mythos found a single curl bug and that few security issues are being surfaced in the popular tool and library. “Curl is of particular interest to security researchers: the easy bugs are long gone, and what remains is difficult to find: old protocol paths, state reuse, callback behavior, credential selection, and code paths that are easily forgotten about,” Aisle says. Over 30 billion devices use curl today for data transfer, including servers, phones, and cars, and vulnerabilities in it could prove highly valuable to attackers. However, there have been no public reports of successful in-the-wild exploitation of any security defect in curl. Related: Chrome 149 Update Resolves 18 Severe Vulnerabilities Related: Cisco SD-WAN Zero-Day Exploited Months Before Patching Related: Anthropic’s Mythos Model Found Vulnerabilities in Classified US Government Systems, Official Says Related: Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs New ‘Mistic’ RAT Opens Door to Several Ransomware Families Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking BeyondTrust, LastPass Impacted by Klue-Salesforce Incident Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Latest News Runlayer Raises $30 Million in Series A Funding Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning GitLab Patches Code Execution, Information Disclosure Vulnerabilities SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition NIST Opens Updated IoT Security Guidance to Public Review Chrome 149 Update Resolves 18 Severe Vulnerabilities Cisco SD-WAN Zero-Day Exploited Months Before Patching Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the ca
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: 25-Year-Old Vulnerability Patched in Curl
+  - Published: 2026-06-25T09:25:02+00:00
+  - Link: https://www.securityweek.com/25-year-old-vulnerability-patched-in-curl/
+  - Summary: The latest version of the open source data transfer tool resolves 18 medium and low-severity vulnerabilities. The post 25-Year-Old Vulnerability Patched in Curl appeared first on SecurityWeek .
+
+### Cluster bb7b210925 — score 9
+
+- Title: Hacker gets 18 months for attack that compromised 60,000 betting accounts
+- Source: Help Net Security (cyber_news_breach_reporting)
+- Published: 2026-06-25T10:18:18+00:00
+- Link: https://www.helpnetsecurity.com/2026/06/25/hacker-sentenced-draftkings-credential-stuffing-attac/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack … More → The post Hacker gets 18 months for attack that compromised 60,000 betting accounts appeared first on Help Net Security .
+```
+
+#### Full body
+
+```
+Sinisa Markovic , Managing Editor, Help Net Security June 25, 2026 Share Hacker gets 18 months for attack that compromised 60,000 betting accounts A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack against the betting website in November 2022, using usernames and passwords stolen in previous data breaches to gain unauthorized access to user accounts. The group successfully compromised about 60,000 accounts and, in some cases, added payment methods under their control before withdrawing funds from victims’ accounts. Authorities said the scheme affected roughly 1,600 accounts and resulted in the theft of about $600,000. The Justice Department did not name the affected betting website. However, the details align with a November 2022 incident disclosed by DraftKings involving the compromise of about 68,000 customer accounts in a credential stuffing attack. “Access to the victim accounts were also sold on various websites that traffic in stolen accounts, which are frequently referred to as ‘Shops.’ AUSTAD directly controlled and profited from his own shop, which was named after the character Snoopy from the Peanuts comic strip,” the Justice Department said . Austad’s shop website (Source: U.S. Department of Justice) Prosecutors also cited messages Austad exchanged with co-conspirators in which he discussed the investigation and acknowledged that participants knew they were committing fraud. Authorities said Austad controlled cryptocurrency accounts that received about $465,000 worth of cryptocurrency, including proceeds from the scheme. Austad is the third defendant sentenced in the case. Joseph Garrison was sentenced to 18 months in prison in January 2024, followed by Kamerin Stokes, known as “TheMFNPlug,” who received a 30-month sentence in April 2026. More about cybercrime law enforcement US DoJ Share
+```
+
+#### Corroborating sources (1)
+
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: Hacker gets 18 months for attack that compromised 60,000 betting accounts
+  - Published: 2026-06-25T10:18:18+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/25/hacker-sentenced-draftkings-credential-stuffing-attac/
+  - Summary: A 21-year-old man known online as “Snoopy” was sentenced to 18 months in prison for his role in a scheme that hacked user accounts on a fantasy sports and betting website and sold access to them, causing hundreds of thousands of dollars in losses. Nathan Austad of Farmington, Minnesota, pleaded guilty in December 2025 to one count of conspiracy to commit computer intrusion. According to prosecutors, Austad and his co-conspirators launched a credential stuffing attack … More → The post Hacker gets 18 months for attack that compromised 60,000 betting accounts appeared first on Help Net Security .
 
 ### Cluster 1b66fa11df — score 9
 
@@ -3330,7 +3375,7 @@ The investigation conducted by California Water Service (Cal Water) into the rec
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion, supply_chain, zero_day
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
 - actor_attribution: Handala
 - affected_industries: manufacturing_industrial
 - affected_products: GitLab, Salesforce, Ubiquiti UniFi
@@ -3339,7 +3384,7 @@ The investigation conducted by California Water Service (Cal Water) into the rec
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, zero_day, data_breach, active_exploitation
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
 - actor_attribution: Handala
 - affected_industries: manufacturing_industrial
 - affected_products: Salesforce, GitLab, Ubiquiti UniFi
@@ -3356,7 +3401,7 @@ More than half of the bugs are use-after-free defects, which can potentially lea
 #### Full body
 
 ```
-Google on Wednesday rolled out a new Chrome 149 update that resolves 18 vulnerabilities, including four critical and 14 high-severity security defects. More than half of the addressed issues, including three critical and seven high-severity, are use-after-free flaws, a type of memory corruption bug that could lead to remote code execution (RCE). In Chrome, use-after-free vulnerabilities can be combined with security holes in the underlying operating system or in a privileged browser process to escape the sandbox. The remaining eight issues patched in this update are out-of-bounds read, inappropriate implementation, uninitialized use, and insufficient validation of untrusted input bugs. Per Google’s advisory , the most severe of the flaws was reported by an anonymous researcher. The company has yet to disclose the bug bounty amount to be rewarded for the report. The remaining 17 security defects were discovered by Google, a trend that has been ongoing for the past couple of months, likely fueled by the use of AI . Advertisement. Scroll to continue reading. Also notable is the fact that, following a spike in new vulnerability discoveries in April and May, which culminated in a massive batch of 429 patches in early June, the number of fresh security weaknesses addressed with each new Chrome release has dropped into the lower two digits. Google makes no mention of any of the newly resolved vulnerabilities being exploited in the wild. The latest Chrome iteration is now rolling out as versions 149.0.7827.196/197 for Windows and macOS and as version 149.0.7827.196 for Linux. Related: Exclusive: Meet AIVEX, a New Triage Model Built to Reduce Supply Chain Threat and Risk Related: Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Related: Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs Related: Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs New ‘Mistic’ RAT Opens Door to Several Ransomware Families Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking BeyondTrust, LastPass Impacted by Klue-Salesforce Incident Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Latest News Runlayer Raises $30 Million in Series A Funding Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning GitLab Patches Code Execution, Information Disclosure Vulnerabilities 25-Year-Old Vulnerability Patched in Curl SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition NIST Opens Updated IoT Security Guidance to Public Review Cisco SD-WAN Zero-Day Exploited Months Before Patching Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: How Modern Breaches Bypass MFA and Evade Detection June 17, 2026 Today’s attackers are no longer breaking in — they’re logging in. Join this live webinar as we break down the modern identity attack chain and examine how recent breaches exploited weaknesses in authentication, identity verification, and access management processes. Register Webinar: Modern Exposure Validation in the AI Era June 24, 2026 AI has accelerated both sides of the fight. Adversaries are weaponizing vulnerabilities faster, while defenders are racing to ship detec
+Google on Wednesday rolled out a new Chrome 149 update that resolves 18 vulnerabilities, including four critical and 14 high-severity security defects. More than half of the addressed issues, including three critical and seven high-severity, are use-after-free flaws, a type of memory corruption bug that could lead to remote code execution (RCE). In Chrome, use-after-free vulnerabilities can be combined with security holes in the underlying operating system or in a privileged browser process to escape the sandbox. The remaining eight issues patched in this update are out-of-bounds read, inappropriate implementation, uninitialized use, and insufficient validation of untrusted input bugs. Per Google’s advisory , the most severe of the flaws was reported by an anonymous researcher. The company has yet to disclose the bug bounty amount to be rewarded for the report. The remaining 17 security defects were discovered by Google, a trend that has been ongoing for the past couple of months, likely fueled by the use of AI . Advertisement. Scroll to continue reading. Also notable is the fact that, following a spike in new vulnerability discoveries in April and May, which culminated in a massive batch of 429 patches in early June, the number of fresh security weaknesses addressed with each new Chrome release has dropped into the lower two digits. Google makes no mention of any of the newly resolved vulnerabilities being exploited in the wild. The latest Chrome iteration is now rolling out as versions 149.0.7827.196/197 for Windows and macOS and as version 149.0.7827.196 for Linux. Related: Exclusive: Meet AIVEX, a New Triage Model Built to Reduce Supply Chain Threat and Risk Related: Chrome and Firefox Updated to Patch Critical, High-Severity Vulnerabilities Related: Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs Related: Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Critical Ubiquiti Vulnerabilities in Attackers’ Crosshairs New ‘Mistic’ RAT Opens Door to Several Ransomware Families Exploitable CI/CD Vulnerabilities Expose Millions of Repositories to Hijacking BeyondTrust, LastPass Impacted by Klue-Salesforce Incident Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps FFmpeg PixelSmash Flaw Allows RCE on Video Players, Media Servers, NAS Appliances OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery Russian Initial Access Broker Behind FortiBleed Campaign Latest News Runlayer Raises $30 Million in Series A Funding Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning GitLab Patches Code Execution, Information Disclosure Vulnerabilities 25-Year-Old Vulnerability Patched in Curl SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition NIST Opens Updated IoT Security Guidance to Public Review Cisco SD-WAN Zero-Day Exploited Months Before Patching Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environments. Interact with leading solution providers and other end use
 ```
 
 #### Corroborating sources (1)
@@ -3414,24 +3459,57 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exp
   - Link: https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
   - Summary: Mandiant detailed the incident in a blog post Wednesday, but it’s unclear who was behind it or if they managed to get broad visibility into the victim’s internal traffic. The post Malicious hackers exploit Cisco zero-day for highest access level at communications service provider appeared first on CyberScoop .
 
+### Cluster 22ea034880 — score 8
+
+- Title: Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-06-25T21:12:01+00:00
+- Link: https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.
+```
+
+#### Corroborating sources (1)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses
+  - Published: 2026-06-25T21:12:01+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense
+  - Summary: The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.
+
 ### Cluster f8e669b332 — score 8
 
 - Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
 - Source: Black Hills Information Security (detection_response_operations)
 - Published: 2026-06-24T14:00:00+00:00
 - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: credential_theft
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3439,12 +3517,6 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exp
 
 ```
 Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Full body
-
-```
-24 Jun 2026 Blue Team , C2 , David Fletcher , Finding , Informational Top 100 Findings Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks | David Fletcher Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. Lack of outbound network traffic filtering often makes it easier for an attacker to carry out attacks like establishment of Command and Control (C2) communication, credential theft, and credential relay. In addition, when outbound network communication is not sufficiently restricted, network defenders must work harder to find abnormalities in that traffic, because there is a greater variety and larger volume of network communication. Adoption of cloud computing has extended the network boundary to include resources hosted in those cloud providers. As a result, it is critical for organizations to ensure that egress controls are applied uniformly across all paths used to reach the internet. Ideally, egress filters should be engineered to allow the absolute minimum number of outbound ports and protocols necessary for employees to complete assigned tasks. One strategy to reach this goal involves the following steps: Profile outbound network connections using firewall logs or netflow data over a sufficient period to reasonably identify necessary outbound connections. Identify internal IP addresses initiating outbound connections, the destination IP addresses associated with those connections, and the destination ports used for communication. Determine whether any of the above connections violate organizational policy. Configure egress rules to accommodate authorized or ambiguous (uncatalogued but potentially necessary) outbound traffic. Configure a default deny egress rule to stop any traffic that does not meet the criteria in the prior step. Investigate communication associated with ambiguous network connections to determine root cause and conformance with organizational policy. Disable rules associated with unauthorized ambiguous network communication. Mark rules associated with authorized ambiguous network communication as authorized. Review the complete rule set for sufficient specificity. For example, if a host regularly communicates with a single remote IP address, configure the rule as such, rather than allowing communication to any destination IP address on the internet. Monitor firewall logs for any blocked connections and repeat the process above to determine whether the connection should be authorized. The analysis outlined above should be repeated on every egress point that allows communication with the internet. Ensure that you consider on-premises and cloud service connections. Testing Your Own Egress Controls If you are unsure whether you have sufficient egress controls in place, you can perform your own tests as described below. Outbound TCP Scan By performing an outbound scan initiated from inside your network, you can identify TCP ports that can potentially be used for outbound communication. There is one catch: you cannot just scan any arbitrary host on the internet. The host has to listen and respond on all 65,535 available TCP ports. The letmeoutofyour.net host is configured to do just that. In addition, you can use a tool like GoSpoof to create your own instance on the Virtual Private Server (VPS) provider of your choice. The outbound scan can be executed using the PowerShell script below. 1..65535 | % {$test=new-object system.Net.Sockets.TcpClient; $wait = $test.beginConnect("letmeoutofyour.net",$_,$null,$null); ($wait.asyncwaithandle.waitone(250,$false)); if($test.Connected){echo "$_ open"} else {echo "$_ closed"}} | select-string " " | Out-File -Encoding ascii tcp-port-status.txt The script will produce a log file that lists the port number followed by the status (open or closed) of each port
 ```
 
 #### Corroborating sources (1)
