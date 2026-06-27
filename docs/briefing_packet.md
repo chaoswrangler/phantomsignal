@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-27T10:16:29.182703+00:00
+- Generated: 2026-06-27T12:12:29.589666+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 295
-- Total clusters raw: 144
-- Total clusters in packet: 67
+- Feeds OK: 76
+- Total items in window: 294
+- Total clusters raw: 142
+- Total clusters in packet: 65
 - Dropped low score: 77
 - Dropped overflow: 0
 
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -80,11 +85,6 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -95,11 +95,6 @@
   - Status: ok
   - Item count: 25
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -110,56 +105,51 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 10
+  - Item count: 15
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
@@ -169,6 +159,26 @@
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
@@ -180,16 +190,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -200,16 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -235,61 +235,66 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -320,43 +325,33 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 16
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Item count: 15
+  - In window count: 15
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 16
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -370,43 +365,43 @@
   - Status: ok
   - Item count: 50
   - In window count: 24
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 100
+  - Item count: 0
   - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,26 +410,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 42
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -444,7 +444,7 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 8
+  - In window count: 9
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -473,29 +473,6 @@
 
 ## Affinity groups (themes)
 
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 5
-- Article count: 11
-- Cohesion: 0.328
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain
-  - affected_industries: financial_services
-  - affected_products: npm, GitHub, PyPI
-- Cluster IDs: 8ba967c351, a5ba97e7ba, e1538c3d0e, fa3553d2ed, f14be27dbc
-- Links:
-  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
-  - https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/
-  - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-  - https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
-  - https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-  - https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
-  - https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
-
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
 - Theme key: microsoft-defender
@@ -514,25 +491,25 @@
   - https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/
   - https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/
 
-### AWS vulnerability activity
-- Anchor signal: AWS
-- Theme key: aws
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
 - Cluster count: 4
-- Article count: 6
-- Cohesion: 0.221
-- Shared strong signals: AWS
+- Article count: 4
+- Cohesion: 0.284
+- Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: AWS
-- Cluster IDs: a0bb1916a8, 115f04b624, e740e35e5e, 74d16db6ae
+  - threat_categories: supply_chain
+  - affected_industries: financial_services
+  - affected_products: npm, PyPI, GitHub
+- Cluster IDs: 8ba967c351, a5ba97e7ba, e1538c3d0e, fa3553d2ed
 - Links:
-  - https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited
-  - https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
-  - https://securitylabs.datadoghq.com/articles/behind-the-console-aws-aitm-phishing-kit-and-beyond/
-  - https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/
-  - https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/
-  - https://www.wiz.io/blog/amazon-q-vulnerability
+  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
+  - https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/
+  - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+  - https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
 
 ### credential theft targeting Apple iOS/macOS
 - Anchor signal: Apple iOS/macOS
@@ -575,13 +552,13 @@
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
   - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
-### CVE-2026-20127 exploitation activity
-- Anchor signal: CVE-2026-20127
-- Theme key: cve-2026-20127
+### CVE-2026-20182 exploitation activity
+- Anchor signal: CVE-2026-20182
+- Theme key: cve-2026-20182
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.703
-- Shared strong signals: CVE-2026-20127
+- Shared strong signals: CVE-2026-20182
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -594,13 +571,13 @@
   - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
   - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
-### CVE-2026-20182 exploitation activity
-- Anchor signal: CVE-2026-20182
-- Theme key: cve-2026-20182
+### CVE-2026-20127 exploitation activity
+- Anchor signal: CVE-2026-20127
+- Theme key: cve-2026-20127
 - Cluster count: 2
 - Article count: 4
 - Cohesion: 0.703
-- Shared strong signals: CVE-2026-20182
+- Shared strong signals: CVE-2026-20127
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -630,6 +607,25 @@
   - https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
+
+### AWS vulnerability activity
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.208
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: AWS
+- Cluster IDs: a0bb1916a8, 115f04b624, e740e35e5e
+- Links:
+  - https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited
+  - https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
+  - https://securitylabs.datadoghq.com/articles/behind-the-console-aws-aitm-phishing-kit-and-beyond/
+  - https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/
+  - https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/
 
 ### CVE-2026-20230 exploitation activity
 - Anchor signal: CVE-2026-20230
@@ -1176,49 +1172,6 @@ Threat Research Center Threat Research Malware Malware OpenClaw’s Skill Market
   - Published: 2026-06-26T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited
 
-### Cluster c409634b31 — score 16
-
-- Title: Incident Report: CVE-2026-LGTM
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-26T17:58:54+00:00
-- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,088 prompt-injection 155 generative-ai 1,845 llms 1,813 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Incident Report: CVE-2026-LGTM
-  - Published: 2026-06-26T17:58:54+00:00
-  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-
 ### Cluster fd2a2922d1 — score 16
 
 - Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
@@ -1267,6 +1220,49 @@ CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas 
   - Published: 2026-06-26T19:43:06+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
+
+### Cluster c409634b31 — score 16
+
+- Title: Incident Report: CVE-2026-LGTM
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-26T17:58:54+00:00
+- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,088 prompt-injection 155 generative-ai 1,845 llms 1,813 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Incident Report: CVE-2026-LGTM
+  - Published: 2026-06-26T17:58:54+00:00
+  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
 
 ### Cluster 0ac9d62120 — score 16
 
@@ -2018,6 +2014,86 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
   - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
 
+### Cluster 73e0a62a37 — score 10
+
+- Title: Beyond IOCs: AI-enabled threat intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T18:00:26+00:00
+- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+```
+
+#### Full body
+
+```
+Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Beyond IOCs: AI-enabled threat intelligence
+  - Published: 2026-06-25T18:00:26+00:00
+  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+
+### Cluster 18abdcb9e0 — score 10
+
+- Title: Introduction to COM usage by Windows threats
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T10:00:26+00:00
+- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+```
+
+#### Full body
+
+```
+Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Introduction to COM usage by Windows threats
+  - Published: 2026-06-25T10:00:26+00:00
+  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+
 ### Cluster a2f878fad9 — score 10
 
 - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
@@ -2242,86 +2318,6 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/
   - Summary: Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .
 
-### Cluster 73e0a62a37 — score 10
-
-- Title: Beyond IOCs: AI-enabled threat intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T18:00:26+00:00
-- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-```
-
-#### Full body
-
-```
-Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Beyond IOCs: AI-enabled threat intelligence
-  - Published: 2026-06-25T18:00:26+00:00
-  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-
-### Cluster 18abdcb9e0 — score 10
-
-- Title: Introduction to COM usage by Windows threats
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T10:00:26+00:00
-- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-```
-
-#### Full body
-
-```
-Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Introduction to COM usage by Windows threats
-  - Published: 2026-06-25T10:00:26+00:00
-  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-
 ### Cluster 96f12a0395 — score 10
 
 - Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
@@ -2368,6 +2364,133 @@ Table of Contents Introduction Initial infection Exploitation of public-facing a
   - Published: 2026-06-24T10:00:03+00:00
   - Link: https://securelist.com/strikeshark-campaign/120326/
   - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
+
+### Cluster 4cc90df0fb — score 10
+
+- Title: SMB cyber readiness: the road to resilience starts here
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-26T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
+```
+
+#### Full body
+
+```
+Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: SMB cyber readiness: the road to resilience starts here
+  - Published: 2026-06-26T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
+  - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
+
+### Cluster 0d07bde6a5 — score 10
+
+- Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-24T12:35:24+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
+```
+
+#### Full body
+
+```
+ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
+  - Published: 2026-06-24T12:35:24+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
+  - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
+
+### Cluster 7cc9863eff — score 10
+
+- Title: Organizations Buy Answers, Not Activities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-24T16:49:39+00:00
+- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Organizations Buy Answers, Not Activities
+  - Published: 2026-06-24T16:49:39+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
 
 ### Cluster d812e5f8cf — score 10
 
@@ -2495,133 +2618,6 @@ The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Frau
   - Published: 2026-06-23T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
   - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
-
-### Cluster 7cc9863eff — score 10
-
-- Title: Organizations Buy Answers, Not Activities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-24T16:49:39+00:00
-- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-```
-
-#### Full body
-
-```
-Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Organizations Buy Answers, Not Activities
-  - Published: 2026-06-24T16:49:39+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-
-### Cluster 4cc90df0fb — score 10
-
-- Title: SMB cyber readiness: the road to resilience starts here
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-26T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
-```
-
-#### Full body
-
-```
-Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: SMB cyber readiness: the road to resilience starts here
-  - Published: 2026-06-26T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
-  - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
-
-### Cluster 0d07bde6a5 — score 10
-
-- Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-24T12:35:24+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
-```
-
-#### Full body
-
-```
-ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
-  - Published: 2026-06-24T12:35:24+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
-  - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
 
 ### Cluster e1538c3d0e — score 10
 
@@ -3215,51 +3211,6 @@ The FulcrumSec threat actor group recently claimed to have stolen more than a te
   - Published: 2026-06-25T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/build-to-learn-buy-to-scale-when-to-build-your-own-ai-soc-and-when-to-stop
 
-### Cluster 74d16db6ae — score 8
-
-- Title: MCP Auto-Execution: From Git Clone to Cloud Compromise in Amazon Q VS Code Extension
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-06-26T12:00:01+00:00
-- Link: https://www.wiz.io/blog/amazon-q-vulnerability
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- affected_products: AWS
-- cve_ids: CVE-2026-12957
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- affected_products: AWS
-- cve_ids: CVE-2026-12957
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-By automatically loading MCP servers from workspace files, Amazon Q enabled attackers to execute code and access sensitive cloud environments.
-```
-
-#### Full body
-
-```
-Wiz Pricing Get a demo Get a demo Severity High CVE CVE-2026-12957 Affected Versions Language server version < 1.65.0 Fixed In Language server version 1.65.0 Vendor Amazon Web Services Status Fixed Executive Summary Wiz Research discovered a high-severity vulnerability in Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon's AI-powered coding assistant for VS Code, which allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. Amazon Q automatically loaded MCP server configurations from workspace files without user consent. Combined with full environment inheritance, this enabled immediate code execution. Amazon has remediated this issue in language server version 1.65.0. This vulnerability is part of a broader pattern affecting AI coding tools. Similar issues have been independently discovered across the ecosystem - including findings by OX Security and Check Point published around the same time - demonstrating that MCP auto-execution is a systemic risk requiring industry-wide attention. Introduction AI-powered coding assistants have become essential tools for developers. Extensions like Amazon Q, GitHub Copilot, and others integrate deeply into our development environments, offering code suggestions, automated refactoring, and intelligent tooling. To enable richer functionality, many of these tools have adopted the Model Context Protocol (MCP) - a standard that allows AI assistants to spawn local processes and interact with external services. This post details a vulnerability discovered in the Amazon Q VS Code extension where MCP server configurations were automatically loaded and executed from workspace files - without user consent. The result: opening a malicious repository could lead to immediate code execution - with full access to the developer's environment, including cloud credentials, API keys, and internal systems. The Trust Boundary Problem When you open a project folder in VS Code, you're implicitly trusting dozens of configuration files: package.json, .vscode/settings.json, .eslintrc, and many others. Most of these are declarative - they configure behavior but don't execute code directly. Extensions, however, often blur this line. They may read workspace-specific configs and act on them automatically. The critical question becomes: what happens when an attacker controls those config files? The result: a developer clones a seemingly legitimate repository, opens it in their IDE, and malicious configs execute before they've reviewed a single line of code. MCP: Power and Peril The Model Context Protocol enables AI assistants to spawn local processes called "MCP servers". These servers extend the AI's capabilities - connecting to databases, calling APIs, running build tools, or accessing local resources. A typical MCP configuration looks like this: { "mcpServers" : { "database-tool" : { "command" : "npx" , "args" : [ "@modelcontextprotocol/server-postgres" ], "env" : { "DATABASE_URL" : "postgresql://localhost/mydb" } } } } The security model assumes the user explicitly configures these servers. After all, you're granting an AI assistant permission to run arbitrary commands on your machine. This should require informed consent. The vulnerability arose when this assumption was violated: Amazon Q automatically loaded MCP configurations from .amazonq/mcp.json within the workspace - no prompt, no consent, no workspace trust check. Technical Breakdown The vulnerability stemmed from two behaviors in how Amazon Q handled MCP server configurations: Problem 1: Auto-execution without consent The extension loaded .amazonq/mcp.json from the workspace root immediately upon opening the folder. No dialog asked the user to approve these MCP servers. No workspace trust check prevented execution in untrusted folders. Problem 2: Full environment access Spawned processes inherited the user's complete environment. For developers working with
-```
-
-#### Corroborating sources (1)
-
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: MCP Auto-Execution: From Git Clone to Cloud Compromise in Amazon Q VS Code Extension
-  - Published: 2026-06-26T12:00:01+00:00
-  - Link: https://www.wiz.io/blog/amazon-q-vulnerability
-  - Summary: By automatically loading MCP servers from workspace files, Amazon Q enabled attackers to execute code and access sensitive cloud environments.
-
 ### Cluster 86fb4ec2c7 — score 8
 
 - Title: Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth
@@ -3440,16 +3391,18 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exp
 - Source: Black Hills Information Security (detection_response_operations)
 - Published: 2026-06-24T14:00:00+00:00
 - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: credential_theft
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3457,6 +3410,12 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exp
 
 ```
 Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Full body
+
+```
+24 Jun 2026 Blue Team , C2 , David Fletcher , Finding , Informational Top 100 Findings Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks | David Fletcher Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. Lack of outbound network traffic filtering often makes it easier for an attacker to carry out attacks like establishment of Command and Control (C2) communication, credential theft, and credential relay. In addition, when outbound network communication is not sufficiently restricted, network defenders must work harder to find abnormalities in that traffic, because there is a greater variety and larger volume of network communication. Adoption of cloud computing has extended the network boundary to include resources hosted in those cloud providers. As a result, it is critical for organizations to ensure that egress controls are applied uniformly across all paths used to reach the internet. Ideally, egress filters should be engineered to allow the absolute minimum number of outbound ports and protocols necessary for employees to complete assigned tasks. One strategy to reach this goal involves the following steps: Profile outbound network connections using firewall logs or netflow data over a sufficient period to reasonably identify necessary outbound connections. Identify internal IP addresses initiating outbound connections, the destination IP addresses associated with those connections, and the destination ports used for communication. Determine whether any of the above connections violate organizational policy. Configure egress rules to accommodate authorized or ambiguous (uncatalogued but potentially necessary) outbound traffic. Configure a default deny egress rule to stop any traffic that does not meet the criteria in the prior step. Investigate communication associated with ambiguous network connections to determine root cause and conformance with organizational policy. Disable rules associated with unauthorized ambiguous network communication. Mark rules associated with authorized ambiguous network communication as authorized. Review the complete rule set for sufficient specificity. For example, if a host regularly communicates with a single remote IP address, configure the rule as such, rather than allowing communication to any destination IP address on the internet. Monitor firewall logs for any blocked connections and repeat the process above to determine whether the connection should be authorized. The analysis outlined above should be repeated on every egress point that allows communication with the internet. Ensure that you consider on-premises and cloud service connections. Testing Your Own Egress Controls If you are unsure whether you have sufficient egress controls in place, you can perform your own tests as described below. Outbound TCP Scan By performing an outbound scan initiated from inside your network, you can identify TCP ports that can potentially be used for outbound communication. There is one catch: you cannot just scan any arbitrary host on the internet. The host has to listen and respond on all 65,535 available TCP ports. The letmeoutofyour.net host is configured to do just that. In addition, you can use a tool like GoSpoof to create your own instance on the Virtual Private Server (VPS) provider of your choice. The outbound scan can be executed using the PowerShell script below. 1..65535 | % {$test=new-object system.Net.Sockets.TcpClient; $wait = $test.beginConnect("letmeoutofyour.net",$_,$null,$null); ($wait.asyncwaithandle.waitone(250,$false)); if($test.Connected){echo "$_ open"} else {echo "$_ closed"}} | select-string " " | Out-File -Encoding ascii tcp-port-status.txt The script will produce a log file that lists the port number followed by the status (open or closed) of each port
 ```
 
 #### Corroborating sources (1)
@@ -3501,54 +3460,6 @@ The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday add
   - Published: 2026-06-26T12:31:56+00:00
   - Link: https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is
-
-### Cluster f14be27dbc — score 8
-
-- Title: Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-26T11:05:45+00:00
-- Link: https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-- Fetch status: not_attempted
-- Member count: 7
-- Corroborating source count: 3
-- Strong signals: GitHub, npm
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: GitHub, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_products: GitHub, npm
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propagated to the Go ecosystem. "The latest activity includes malicious npm releases affecting LeoPlatform and RStreams packages, GitHub Actions workflow abuse, and a related Go
-```
-
-#### Corroborating sources (3)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
-  - Published: 2026-06-26T11:05:45+00:00
-  - Link: https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-  - Summary: Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propagated to the Go ecosystem. "The latest activity includes malicious npm releases affecting LeoPlatform and RStreams packages, GitHub Actions workflow abuse, and a related Go
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign
-  - Published: 2026-06-22T16:10:10+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign
-  - Summary: Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Lookalike npm Package Hides a Multi-Stage Windows RAT
-  - Published: 2026-06-23T15:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/
-  - Summary: JFrog found an npm package impersonating postcss-selector-parser to drop a multi-stage Windows RAT
 
 ### Cluster 4df7286945 — score 8
 

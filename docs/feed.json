@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-06-27T10:16:29.192163+00:00",
+  "generated_at": "2026-06-27T12:12:29.594971+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2278,
+  "total_items": 2258,
   "feed_status": {
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -17,13 +24,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 4
-    },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -39,13 +39,6 @@
       "item_count": 25,
       "in_window_count": 1
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 6
-    },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
       "cohort": "threat_research_primary",
@@ -60,6 +53,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
@@ -67,11 +67,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
+      "item_count": 15,
+      "in_window_count": 0
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -81,27 +88,6 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
@@ -109,19 +95,12 @@
       "item_count": 10,
       "in_window_count": 7
     },
-    "Horizon3 Attack Research": {
-      "url": "https://horizon3.ai/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 4
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "in_window_count": 1
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -129,6 +108,13 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 3
+    },
+    "Horizon3 Attack Research": {
+      "url": "https://horizon3.ai/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 4
     },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
@@ -142,6 +128,34 @@
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 0
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "watchTowr Labs": {
+      "url": "https://labs.watchtowr.com/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 15,
       "in_window_count": 0
     },
     "Assetnote": {
@@ -158,20 +172,6 @@
       "item_count": 50,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "watchTowr Labs": {
-      "url": "https://labs.watchtowr.com/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 0
-    },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,19 +186,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
     },
     "Sophos X-Ops": {
       "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
@@ -235,26 +235,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 1
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
     },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
@@ -263,12 +249,26 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -277,19 +277,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 4
+    },
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -298,6 +298,13 @@
       "item_count": 100,
       "in_window_count": 5
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Google DeepMind Blog": {
       "url": "https://deepmind.google/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -305,12 +312,12 @@
       "item_count": 100,
       "in_window_count": 1
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
-      "cohort": "cloud_identity_infrastructure",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -354,12 +361,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 30,
-      "in_window_count": 16
+      "item_count": 100,
+      "in_window_count": 0
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -368,33 +375,12 @@
       "item_count": 15,
       "in_window_count": 15
     },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "CyberScoop": {
-      "url": "https://cyberscoop.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 30,
+      "in_window_count": 16
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -403,8 +389,15 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
+    "CyberScoop": {
+      "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
@@ -424,6 +417,27 @@
       "item_count": 50,
       "in_window_count": 24
     },
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
@@ -431,11 +445,11 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 0,
       "in_window_count": 0
     },
     "Troy Hunt": {
@@ -445,27 +459,6 @@
       "item_count": 15,
       "in_window_count": 1
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
-    },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -473,8 +466,8 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,6 +480,20 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -494,26 +501,19 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 42
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Infosecurity Magazine": {
       "url": "https://www.infosecurity-magazine.com/rss/news/",
@@ -527,7 +527,7 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
-      "in_window_count": 8
+      "in_window_count": 9
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -681,48 +681,6 @@
   },
   "affinity_groups": [
     {
-      "label": "supply chain targeting npm",
-      "anchor_signal": "npm",
-      "theme_key": "npm",
-      "dominant_features": {
-        "threat_categories": [
-          "supply_chain"
-        ],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [
-          "npm",
-          "GitHub",
-          "PyPI"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 11,
-      "cohesion": 0.328,
-      "shared_strong_signals": [
-        "npm"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "8ba967c351",
-        "a5ba97e7ba",
-        "e1538c3d0e",
-        "fa3553d2ed",
-        "f14be27dbc"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
-        "https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/",
-        "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
-        "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-        "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
-        "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-        "https://www.infosecurity-magazine.com/news/lookalike-npm-package-postcss/"
-      ]
-    },
-    {
       "label": "Microsoft Defender vulnerability activity",
       "anchor_signal": "Microsoft Defender",
       "theme_key": "microsoft-defender",
@@ -753,35 +711,41 @@
       ]
     },
     {
-      "label": "AWS vulnerability activity",
-      "anchor_signal": "AWS",
-      "theme_key": "aws",
+      "label": "supply chain targeting npm",
+      "anchor_signal": "npm",
+      "theme_key": "npm",
       "dominant_features": {
+        "threat_categories": [
+          "supply_chain"
+        ],
+        "affected_industries": [
+          "financial_services"
+        ],
         "affected_products": [
-          "AWS"
+          "npm",
+          "PyPI",
+          "GitHub"
         ]
       },
       "cluster_count": 4,
-      "article_count": 6,
-      "cohesion": 0.221,
+      "article_count": 4,
+      "cohesion": 0.284,
       "shared_strong_signals": [
-        "AWS"
+        "npm"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "a0bb1916a8",
-        "115f04b624",
-        "e740e35e5e",
-        "74d16db6ae"
+        "8ba967c351",
+        "a5ba97e7ba",
+        "e1538c3d0e",
+        "fa3553d2ed"
       ],
       "links": [
-        "https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited",
-        "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
-        "https://securitylabs.datadoghq.com/articles/behind-the-console-aws-aitm-phishing-kit-and-beyond/",
-        "https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/",
-        "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
-        "https://www.wiz.io/blog/amazon-q-vulnerability"
+        "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+        "https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/",
+        "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
+        "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/"
       ]
     },
     {
@@ -856,41 +820,6 @@
       ]
     },
     {
-      "label": "CVE-2026-20127 exploitation activity",
-      "anchor_signal": "CVE-2026-20127",
-      "theme_key": "cve-2026-20127",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "cve_ids": [
-          "CVE-2026-20127",
-          "CVE-2026-20182",
-          "CVE-2026-20245"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 4,
-      "cohesion": 0.703,
-      "shared_strong_signals": [
-        "CVE-2026-20127"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "92ea9e355d",
-        "76f836fe99"
-      ],
-      "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
-      ]
-    },
-    {
       "label": "CVE-2026-20182 exploitation activity",
       "anchor_signal": "CVE-2026-20182",
       "theme_key": "cve-2026-20182",
@@ -912,6 +841,41 @@
       "cohesion": 0.703,
       "shared_strong_signals": [
         "CVE-2026-20182"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20127 exploitation activity",
+      "anchor_signal": "CVE-2026-20127",
+      "theme_key": "cve-2026-20127",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.703,
+      "shared_strong_signals": [
+        "CVE-2026-20127"
       ],
       "member_cves": [],
       "also_targets": [],
@@ -954,6 +918,36 @@
         "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
         "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
         "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/"
+      ]
+    },
+    {
+      "label": "AWS vulnerability activity",
+      "anchor_signal": "AWS",
+      "theme_key": "aws",
+      "dominant_features": {
+        "affected_products": [
+          "AWS"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.208,
+      "shared_strong_signals": [
+        "AWS"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "a0bb1916a8",
+        "115f04b624",
+        "e740e35e5e"
+      ],
+      "links": [
+        "https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited",
+        "https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/",
+        "https://securitylabs.datadoghq.com/articles/behind-the-console-aws-aitm-phishing-kit-and-beyond/",
+        "https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/",
+        "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/"
       ]
     },
     {
@@ -2145,32 +2139,22 @@
       "author": "Maor Dokhanian",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
+        "threat_categories": [],
         "actor_attribution": [],
         "affected_industries": [],
-        "affected_products": [
-          "AWS"
-        ],
+        "affected_products": [],
         "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-12957"
-        ],
+        "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "AWS": "target"
-        },
+        "role_map": {},
         "weak_tags": {
           "products": []
         }
       },
-      "score": 8,
-      "full_body": "Wiz Pricing Get a demo Get a demo Severity High CVE CVE-2026-12957 Affected Versions Language server version < 1.65.0 Fixed In Language server version 1.65.0 Vendor Amazon Web Services Status Fixed Executive Summary Wiz Research discovered a high-severity vulnerability in Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon's AI-powered coding assistant for VS Code, which allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. Amazon Q automatically loaded MCP server configurations from workspace files without user consent. Combined with full environment inheritance, this enabled immediate code execution. Amazon has remediated this issue in language server version 1.65.0. This vulnerability is part of a broader pattern affecting AI coding tools. Similar issues have been independently discovered across the ecosystem - including findings by OX Security and Check Point published around the same time - demonstrating that MCP auto-execution is a systemic risk requiring industry-wide attention. Introduction AI-powered coding assistants have become essential tools for developers. Extensions like Amazon Q, GitHub Copilot, and others integrate deeply into our development environments, offering code suggestions, automated refactoring, and intelligent tooling. To enable richer functionality, many of these tools have adopted the Model Context Protocol (MCP) - a standard that allows AI assistants to spawn local processes and interact with external services. This post details a vulnerability discovered in the Amazon Q VS Code extension where MCP server configurations were automatically loaded and executed from workspace files - without user consent. The result: opening a malicious repository could lead to immediate code execution - with full access to the developer's environment, including cloud credentials, API keys, and internal systems. The Trust Boundary Problem When you open a project folder in VS Code, you're implicitly trusting dozens of configuration files: package.json, .vscode/settings.json, .eslintrc, and many others. Most of these are declarative - they configure behavior but don't execute code directly. Extensions, however, often blur this line. They may read workspace-specific configs and act on them automatically. The critical question becomes: what happens when an attacker controls those config files? The result: a developer clones a seemingly legitimate repository, opens it in their IDE, and malicious configs execute before they've reviewed a single line of code. MCP: Power and Peril The Model Context Protocol enables AI assistants to spawn local processes called \"MCP servers\". These servers extend the AI's capabilities - connecting to databases, calling APIs, running build tools, or accessing local resources. A typical MCP configuration looks like this: { \"mcpServers\" : { \"database-tool\" : { \"command\" : \"npx\" , \"args\" : [ \"@modelcontextprotocol/server-postgres\" ], \"env\" : { \"DATABASE_URL\" : \"postgresql://localhost/mydb\" } } } } The security model assumes the user explicitly configures these servers. After all, you're granting an AI assistant permission to run arbitrary commands on your machine. This should require informed consent. The vulnerability arose when this assumption was violated: Amazon Q automatically loaded MCP configurations from .amazonq/mcp.json within the workspace - no prompt, no consent, no workspace trust check. Technical Breakdown The vulnerability stemmed from two behaviors in how Amazon Q handled MCP server configurations: Problem 1: Auto-execution without consent The extension loaded .amazonq/mcp.json from the workspace root immediately upon opening the folder. No dialog asked the user to approve these MCP servers. No workspace trust check prevented execution in untrusted folders. Problem 2: Full environment access Spawned processes inherited the user's complete environment. For developers working with",
-      "fetch_status": "ok"
+      "score": 7
     },
     {
       "source": "The Hacker News",
@@ -2204,7 +2188,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Help Net Security",
@@ -2234,7 +2218,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -2298,7 +2282,7 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 7
     },
     {
       "source": "Help Net Security",
@@ -2332,7 +2316,7 @@
           "products": []
         }
       },
-      "score": 7
+      "score": 6
     },
     {
       "source": "Infosecurity Magazine",
@@ -2364,7 +2348,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Help Net Security",
@@ -3394,39 +3378,6 @@
       "score": 4
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
-      "published": "2026-06-25T14:00:00+00:00",
-      "summary": "Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se",
-      "author": "Google Threat Intelligence Group",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "apt_espionage",
-          "web_shell_backdoor"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -3461,6 +3412,39 @@
       "score": 10,
       "full_body": "Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus June 25, 2026 Google Threat Intelligence Group Google Threat Intelligence Visibility and context on the threats that matter most. Contact Us & Get a Demo Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Security Agency (CISA) to Center 16 of Russia’s Federal Security Service (FSB). Turla is one of the oldest known cyber espionage groups with suspected activity dating back to at least 2004 . The actor remains active and continues to evolve its delivery methods, as demonstrated by its deployment of specialized scripts to intercept secure communications from Signal Messenger users, its hijacking of legacy criminal botnets to target Ukrainian organizations, and its recent campaigns targeting military defense sectors using the highly sophisticated KAZUAR toolkit. As part of our continued tracking of this group, this blog post provides an overview of our STOCKSTAY analysis, includes a timeline of key developmental and operational observations, and examines its similarities to KAZUAR to contextualize this new capability within Turla’s ever-growing arsenal. STOCKSTAY Overview STOCKSTAY is a multi-component backdoor written in .NET, using the Windows Forms framework, which communicates with its command and control (C2) via a secure WebSocket connection, utilizing the open-source websocket-sharp library. STOCKSTAY consists of several distinct components that communicate with one another via an inter-process communication (IPC) channel, based on the exchange of WM_COPYDATA messages. STOCKSTAY was originally designed to masquerade as a stock market data viewing tool, incorporating this disguise in both its file naming scheme and its storage of implant configuration, control messages, and response data. While initial versions of the malware observed by GTIG retained the internal aspects of this disguise, in 2025 we identified variants of STOCKSTAY masquerading as other benign applications, such as PDF viewers and calculator utilities. Figure 1: Overview of STOCKSTAY malware architecture STOCKSTAY.STOCKBROKER STOCKSTAY.STOCKBROKER is a proxy-aware tunneler which provides network communication capabilities to the wider STOCKSTAY ecosystem. STOCKSTAY.STOCKBROKER, internally referred to as \" net \", can be instructed to establish a secure WebSocket connection to a specified remote server, after which it acts as a relay between the server and the STOCKSTAY.STOCKMARKET orchestrator. As a result, all C2 communication between STOCKSTAY and the configured C2 server are handled by STOCKSTAY.STOCKBROKER, isolating the malware’s network communications from other malicious host-based activity on the infected machine. STOCKSTAY.STOCKMARKET STOCKSTAY.STOCKMARKET, internally referred to as “ cor ”, is the orchestrator of the STOCKSTAY ecosystem, and enables the implant’s configurability. The malware’s configuration is loaded from an encrypted on-disk configuration file which specifies several options regarding the malwar",
       "fetch_status": "ok"
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/",
+      "published": "2026-06-25T14:00:00+00:00",
+      "summary": "Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se",
+      "author": "Google Threat Intelligence Group",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "apt_espionage",
+          "web_shell_backdoor"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
     },
     {
       "source": "Rapid7",
@@ -4176,38 +4160,6 @@
       "score": 6
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #473: How a hacker could have Rickrolled the entire World Cup",
-      "link": "https://grahamcluley.com/smashing-security-podcast-473/",
-      "published": "2026-06-24T23:10:57+00:00",
-      "summary": "A polite caller from your bank says there is a problem with your account. Don't worry - they'll send someone round to help. They'll even take your cards away to keep them safe. The scam has run rampant, until Dutch police plastered blurred photos of 100 suspects across billboards, supermarkets, and TikTok, with a two-week ultimatum to turn themselves in... or else. Meanwhile, a security researcher called Bob DaHacker got her hands on the live broadcast controls for every match of the 2026 FIFA World Cup. She could have Rickrolled the entire planet, but actually spent days trying to find anyone at FIFA who would pick up the phone. Plus! Don't miss our featured interview with Black Kite's Jeffrey Wheatman exploring ransomware and extortion attacks across Europe. All this and more in episode 473 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Danny Palmer.",
-      "author": "Graham Cluley",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 5
-    },
-    {
       "source": "Horizon3 Attack Research",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -4742,7 +4694,9 @@
       "author": "BHIS",
       "in_window": true,
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "credential_theft"
+        ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [],
@@ -4757,7 +4711,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "24 Jun 2026 Blue Team , C2 , David Fletcher , Finding , Informational Top 100 Findings Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks | David Fletcher Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. Lack of outbound network traffic filtering often makes it easier for an attacker to carry out attacks like establishment of Command and Control (C2) communication, credential theft, and credential relay. In addition, when outbound network communication is not sufficiently restricted, network defenders must work harder to find abnormalities in that traffic, because there is a greater variety and larger volume of network communication. Adoption of cloud computing has extended the network boundary to include resources hosted in those cloud providers. As a result, it is critical for organizations to ensure that egress controls are applied uniformly across all paths used to reach the internet. Ideally, egress filters should be engineered to allow the absolute minimum number of outbound ports and protocols necessary for employees to complete assigned tasks. One strategy to reach this goal involves the following steps: Profile outbound network connections using firewall logs or netflow data over a sufficient period to reasonably identify necessary outbound connections. Identify internal IP addresses initiating outbound connections, the destination IP addresses associated with those connections, and the destination ports used for communication. Determine whether any of the above connections violate organizational policy. Configure egress rules to accommodate authorized or ambiguous (uncatalogued but potentially necessary) outbound traffic. Configure a default deny egress rule to stop any traffic that does not meet the criteria in the prior step. Investigate communication associated with ambiguous network connections to determine root cause and conformance with organizational policy. Disable rules associated with unauthorized ambiguous network communication. Mark rules associated with authorized ambiguous network communication as authorized. Review the complete rule set for sufficient specificity. For example, if a host regularly communicates with a single remote IP address, configure the rule as such, rather than allowing communication to any destination IP address on the internet. Monitor firewall logs for any blocked connections and repeat the process above to determine whether the connection should be authorized. The analysis outlined above should be repeated on every egress point that allows communication with the internet. Ensure that you consider on-premises and cloud service connections. Testing Your Own Egress Controls If you are unsure whether you have sufficient egress controls in place, you can perform your own tests as described below. Outbound TCP Scan By performing an outbound scan initiated from inside your network, you can identify TCP ports that can potentially be used for outbound communication. There is one catch: you cannot just scan any arbitrary host on the internet. The host has to listen and respond on all 65,535 available TCP ports. The letmeoutofyour.net host is configured to do just that. In addition, you can use a tool like GoSpoof to create your own instance on the Virtual Private Server (VPS) provider of your choice. The outbound scan can be executed using the PowerShell script below. 1..65535 | % {$test=new-object system.Net.Sockets.TcpClient; $wait = $test.beginConnect(\"letmeoutofyour.net\",$_,$null,$null); ($wait.asyncwaithandle.waitone(250,$false)); if($test.Connected){echo \"$_ open\"} else {echo \"$_ closed\"}} | select-string \" \" | Out-File -Encoding ascii tcp-port-status.txt The script will produce a log file that lists the port number followed by the status (open or closed) of each port",
+      "fetch_status": "ok"
     },
     {
       "source": "Infosecurity Magazine",
@@ -5105,40 +5061,6 @@
       "score": 5
     },
     {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
-      "link": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-      "published": "2026-06-24T11:00:00+00:00",
-      "summary": "Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used th",
-      "author": "Mandiant",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-20245"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "zero_day"
-        ],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 21
-    },
-    {
       "source": "Google Cloud Threat Intelligence",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -5179,6 +5101,40 @@
       "score": 27,
       "full_body": "Threat Intelligence Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager June 24, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used that access to manipulate default account passwords to evade detection . Exploitation of CVE-2026-20245 : Subsequently, the attacker leveraged a zero-day privilege escalation vulnerability (now tracked as CVE-2026-20245) in Cisco Catalyst SD-WAN Manager to gain root-level access via a malicious CSV upload. Extensive Anti-Forensic Cleanup : The threat actor deleted malicious files, reverted configuration changes, and executed a validation script to ensure indicators are purged . What is SD-WAN? Traditional Wide Area Networks (WANs) rely heavily on physical, proprietary hardware routers to direct traffic. This model is often rigid, complex to scale, and struggles to handle the demands of modern cloud computing. Software-Defined Wide Area Network (SD-WAN) solves this by decoupling the network’s management and control logic from the underlying physical hardware. Instead of configuring individual routers one by one, a centralized software controller is used to orchestrate the entire network from a single dashboard. SD-WANs are typically used by highly distributed organizations, such as banks, retail corporations, technology services, and healthcare providers, to securely connect multiple remote branch locations directly to central cloud services . What is Peering? Within an SD-WAN fabric, peering is the logical process of establishing a trusted, authenticated relationship between distinct network components, such as edge routers, regional hubs, and central controllers. Before any data can be securely transmitted across the network fabric, these devices must perform a digital handshake. During the peering phase, devices mutually authenticate each other using cryptographic certificates. Once identity and trust are verified, they exchange underlying routing tables and automatically build secure tunnels to facilitate safe data transport. Additional Vulnerabilities in Cisco Catalyst SD-WAN Controllers CVE-2026-20127 and CVE-2026-20182 are critical vulnerabilities recently disclosed by Cisco that affect the peering authentication mechanism for Cisco Catalyst SD-WAN controllers. Both vulnerabilities could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges. Intrusion Campaign Overview Initial Access Via Rogue Peering Connections From late 2025 to January 2026, Mandiant observed multiple unauthorized peering connections to the victim’s SD-WAN Manager devices. It is possible that these connections occurred due to the exploitation of CVE-2026-20127 or CVE-2026-20182 as the vulnerabilities were not disclosed, and patches were not available during this period . Beginning in March 2026, further unauthorized peering connections were seen on a device running a software version unaffected by CVE-2026-",
       "fetch_status": "ok"
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
+      "link": "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+      "published": "2026-06-24T11:00:00+00:00",
+      "summary": "Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used th",
+      "author": "Mandiant",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-20245"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "zero_day"
+        ],
+        "content_type": "vulnerability_disclosure",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 21
     },
     {
       "source": "Kaspersky Securelist",
@@ -5784,34 +5740,6 @@
         }
       },
       "score": 7
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Hacker hijacks Brazil’s national alert system, sending “misanthropy” to millions of phones",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hacker-hijacks-brazils-national-alert-system",
-      "published": "2026-06-23T12:16:15+00:00",
-      "summary": "Emergency alert systems work because people believe them. Every time one of these systems issues a false alert - whether through negligence or a deliberate attack - trust erodes. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 5
     },
     {
       "source": "Reddit r/netsec",
@@ -7309,33 +7237,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Apple’s Hide My Email tweak leaves privacy fans fuming",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/apples-hide-my-email-tweak-leaves-privacy-fans-fuming",
-      "published": "2026-06-19T15:47:53+00:00",
-      "summary": "Apple has long marketed itself as the privacy-first tech giant. So why is it making a change to Hide My Email that will make it easier for websites to block anonymous sign-ups - and harder for you to stay private online? Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "The Hacker News",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -7441,36 +7342,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Imposter scams cost Americans $3.5 billion in 2025 – and it’s getting worse",
-      "link": "https://www.fortra.com/blog/imposter-scams-cost-americans-35-billion-2025-and-its-getting-worse",
-      "published": "2026-06-19T13:51:24+00:00",
-      "summary": "Someone is pretending to be your bank, your government, or your local planning office. And according to the FTC, they're making billions doing it. Read more in my article on the Fortra blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services",
-          "government"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -9213,39 +9084,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #472: AI gets hacked, and BitLocker gets bypassed",
-      "link": "https://grahamcluley.com/smashing-security-podcast-472/",
-      "published": "2026-06-17T23:10:17+00:00",
-      "summary": "What if your AI coding assistant could be tricked into stealing your own company's secrets - by reading a single booby-trapped bug report? No phishing email. No malware. No password ever stolen. Just an AI doing exactly what it was told. Meanwhile, someone themselves Nightmare Eclipse has decided to teach Microsoft a lesson. The result? Three zero-days dropped on the internet, one of which lets a thief with a USB stick walk straight past BitLocker. Microsoft is furious. Plus don't miss our featured interview with Son Nguyen Kim of Proton Pass, who explains why plugging AI agents into your email and calendar without thinking twice is rather like hiring a new employee with the keys to everything - and skipping the background check. All this and more in episode 472 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Paul Ducklin.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft BitLocker"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {
-          "Microsoft BitLocker": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -12053,35 +11891,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Maine forced to take down data breach portal after fake notices filed with authorities",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/maine-take-down-data-breach-portal",
-      "published": "2026-06-15T13:23:44+00:00",
-      "summary": "The US state of Maine has taken its public data breach notification portal offline after someone submitted fraudulent breach disclosures impersonating two well-known technology companies. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -12458,37 +12267,6 @@
       }
     },
     {
-      "source": "Reddit r/netsec",
-      "cohort": "reddit_practitioner_osint",
-      "category": "reddit_practitioner_osint",
-      "title": "MeshCentral: From XSS to RCE",
-      "link": "https://www.reddit.com/r/netsec/comments/1u51f9t/meshcentral_from_xss_to_rce/",
-      "published": "2026-06-13T20:34:17+00:00",
-      "summary": "Using Claude Code to find and weaponise an XSS in MeshCentral using a rogue client, resulting in RCE. submitted by /u/kev-thehermit [link] [comments]",
-      "author": "/u/kev-thehermit",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Anthropic/Claude"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_5_chatter",
-        "role_map": {
-          "Anthropic/Claude": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Horizon3 Attack Research",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -12662,33 +12440,6 @@
         ],
         "content_type": "vulnerability_disclosure",
         "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Privacy own-goal: World Cup blunder leaks Lionel Messi’s passport details",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/privacy-own-goal-world-cup-blunder-leaks-lionel-messis-passport-details",
-      "published": "2026-06-12T18:48:06+00:00",
-      "summary": "Argentina's World Cup squad had their passport numbers leaked before a ball was kicked - not by hackers, but by someone who failed to redact a document properly. document. It's a mistake that has been made many times in the past... Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -13430,35 +13181,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Silent Ransom Group: what you need to know",
-      "link": "https://www.fortra.com/blog/silent-ransom-group-what-you-need-know",
-      "published": "2026-06-11T15:43:50+00:00",
-      "summary": "Most extortion gangs hide behind a keyboard. Silent Ransom Group will phone your staff pretending to be IT support - and if that fails, send someone to your office in person to plug in a USB stick. Read more in my article on the Fortra blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Infosecurity Magazine",
       "cohort": "cyber_news_breach_reporting",
       "category": "cyber_news_breach_reporting",
@@ -14080,35 +13802,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #471: This AI worm just rewrote its own rules",
-      "link": "https://grahamcluley.com/smashing-security-podcast-471/",
-      "published": "2026-06-10T23:15:08+00:00",
-      "summary": "Researchers at the University of Toronto have built a worm that thinks for itself. Using free off-the-shelf AI models it works out how to break into each new computer it encounters, and hijacks the powerful ones to host its own AI brain. And then the researchers discovered their creation had quietly removed the list of machines it wasn't supposed to attack. Meanwhile, Meta's shiny new AI customer support agent has been cheerfully helping hackers help themselves to other people's Instagram accounts. Just keep asking, politely but firmly, to have a password reset sent to a different email address - and the AI will eventually agree. All this and more in episode 471 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest James Ball.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "education"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Citizen Lab",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -14415,35 +14108,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Why schools remain one of cybercriminals’ favourite targets",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/why-schools-remain-one-of-cybercriminals-favourite-targets",
-      "published": "2026-06-10T13:18:27+00:00",
-      "summary": "Schools on both sides of the Atlantic have been revealed in recent days to have been hit by hackers, reminding all of us that ransomware gangs see educational instituions as targets all year round. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -16137,33 +15801,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Got a LinkedIn message from a recruiter? It might be Chinese intelligence, warn FBI and MI5",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/linkedin-recruiter-chinese-intelligence-fbi-mi5",
-      "published": "2026-06-05T17:13:31+00:00",
-      "summary": "If you've ever received an out-of-the-blue message via LinkedIn from a recruiter offering some well-paid consultancy work, intelligence agencies have a message for you: be very careful. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "AWS Security Blog",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -16541,33 +16178,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Meta’s own AI chatbot to blame for Instagram accounts being stolen in seconds",
-      "link": "https://www.fortra.com/blog/metas-own-ai-chatbot-blame-instagram-accounts-being-stolen-seconds",
-      "published": "2026-06-04T19:53:59+00:00",
-      "summary": "Hackers have been hijacking Instagram accounts at scale by exploiting Meta's AI support chatbot. And, as if that weren't bad enough, the technique required no technical skill whatsoever. Read more in my article on the Fortra blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -17300,35 +16910,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #470: This AI security flaw might be impossible to fix",
-      "link": "https://grahamcluley.com/smashing-security-podcast-470/",
-      "published": "2026-06-03T23:15:58+00:00",
-      "summary": "A website called \"UK visa portal\" has been quietly collecting passport scans, selfies, and personal data from thousands of travellers who thought they were applying through official channels. They weren't. And when a journalist tried to warn the company, it was lawyers who responded. Meanwhile, a paper from Cornell suggests that prompt injection - the technique malicious actors use to trick AI agents into doing things they really shouldn't - may be fundamentally unsolvable. Which is err... awkward, because everyone is rushing to plug AI agents into their email, files, and corporate networks. Plus don't miss our featured interview with Andrea Sivieri of CoreView, who tells us how hackers can lock your entire organisation out of its Microsoft 365 environment... without having to trick you into running a single piece of malicious code or handing over a password. All this and more in episode 470 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley,",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ai_security"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -19015,33 +18596,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Police arrest man following hack of Ajax football club",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/police-arrest-hack-ajax-football",
-      "published": "2026-05-29T08:04:39+00:00",
-      "summary": "Dutch police have arrested a 35-year-old man suspected of hacking into the computer systems of Amsterdam football giant Ajax, after the personal data of hundreds of thousands of supporters was put at risk. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "ESET WeLiveSecurity",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -19730,35 +19284,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "MyPillow listed on ransomware gang’s leak site, but denies it has been breached",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/mypillow-ransomware-leak-site-denies-breach",
-      "published": "2026-05-28T13:39:39+00:00",
-      "summary": "A notorious ransomware gang claims to have stolen MyPillow's private data, but CEO Mike Lindell calls it a politically motivated \"hit job.\" With the countdown ticking toward a massive dark web leak, who is telling the truth? Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -19979,44 +19504,6 @@
         "role_map": {},
         "weak_tags": {
           "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #469: What your Oura ring won’t tell you",
-      "link": "https://grahamcluley.com/smashing-security-podcast-469/",
-      "published": "2026-05-27T23:05:09+00:00",
-      "summary": "CISA, the US government agency whose entire job is keeping America's critical infrastructure safe from hackers, has had a contractor publish dozens of plain-text credentials to a public GitHub profile. Meanwhile, your Oura ring is quietly transmitting some of its data unencrypted - and when one journalist asked the company how often it hands user data to law enforcement, the answer was quite telling. Plus don't miss our featured interview with OPSWAT's Benny Czarny about his new book \"Cybersecurity Upside Down.\" All this and more in episode 469 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Lesley Carhart.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {
-          "GitHub": "mention"
-        },
-        "weak_tags": {
-          "products": [
-            [
-              "GitHub",
-              "mention",
-              0.26
-            ]
-          ]
         }
       }
     },
@@ -20750,39 +20237,6 @@
         "confidence_tier": "tier_2_operator",
         "role_map": {
           "npm": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "FBI warns of Kali365 phishing kit that breaks into Microsoft 365 accounts – no password required",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-kali365-phishing-kit-breaks-microsoft-365-accounts-no-password-required",
-      "published": "2026-05-26T16:24:02+00:00",
-      "summary": "So, you've enabled multi-factor authentication. You've taught your staff never to type their passwords into dodgy-looking login pages. Surely your Microsoft 365 accounts are safe now? Well, think again. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Microsoft 365"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {
-          "Microsoft 365": "target"
         },
         "weak_tags": {
           "products": []
@@ -21911,35 +21365,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Defenders fall behind, as AI rewrites the rules of a data breach",
-      "link": "https://www.fortra.com/blog/defenders-fall-behind-ai-rewrites-rules-data-breach",
-      "published": "2026-05-21T17:13:28+00:00",
-      "summary": "For almost 20 years, stolen credentials have been the most common route for attackers into organizations, according to the Verizon Data Breach Investigations Report (DBIR). But that's no longer the case. Read more in my article on the Fortra blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "incident_report",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Wiz Research",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -22458,33 +21883,6 @@
       }
     },
     {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "Smashing Security podcast #468: High-speed train hacks and homicidal lawnmowers",
-      "link": "https://grahamcluley.com/smashing-security-podcast-468/",
-      "published": "2026-05-20T23:04:42+00:00",
-      "summary": "A 23-year-old radio enthusiast spent £300 on a piece of kit from the internet, and used it to bring four packed high-speed trains to a screeching halt. His defence in court? Possibly the most creative excuse we've heard all year. Meanwhile, owners of $4,000 robot lawnmowers are discovering that their gadget can be hijacked over the internet, redirected at journalists who foolishly lie down in front of it, and used to harvest Wi-Fi passwords, email addresses, and GPS coordinates. Change the default password? Sure - until the next firmware update silently resets it back. Plus - don't miss our featured interview with XBOW's Brendan Dolan-Gavitt about how AI is transforming penetration testing. All this and more in episode 468 of the \"Smashing Security\" podcast with cybersecurity expert and keynote speaker Graham Cluley, and special guest Geoff White.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "GitHub Security Lab",
       "cohort": "offensive_vulnerability_research",
       "category": "offensive_vulnerability_research",
@@ -22590,37 +21988,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Graham Cluley",
-      "cohort": "practitioner_analysis",
-      "category": "practitioner_analysis",
-      "title": "FBI warns students and staff that ShinyHunters may come knocking after Canvas breach",
-      "link": "https://www.bitdefender.com/en-us/blog/hotforsecurity/fbi-shinyhunters-canvas-breach",
-      "published": "2026-05-20T08:28:36+00:00",
-      "summary": "Having receive a ransom payment for its attack on Canvas, ShinyHunters and other extortion gangs are only likely to be further incentivised to launch similar attacks in future. Read more in my article on the Hot for Security blog.",
-      "author": "Graham Cluley",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_3_analysis",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -35943,7 +35310,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fd81873a460>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7f97e9a58850>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
