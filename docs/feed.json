@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T07:23:43.896439+00:00",
+  "generated_at": "2026-06-27T10:16:29.192163+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_items": 2278,
@@ -11,13 +11,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Unit 42": {
       "url": "https://unit42.paloaltonetworks.com/feed/",
       "cohort": "threat_research_primary",
@@ -25,18 +18,11 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 6
-    },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
       "in_window_count": 1
     },
     "Google Threat Analysis Group": {
@@ -46,6 +32,27 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 1
+    },
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 6
+    },
+    "Cisco Talos": {
+      "url": "https://feeds.feedburner.com/feedburner/Talos",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 2
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
@@ -53,11 +60,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 20,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Microsoft Threat Intelligence": {
@@ -67,19 +74,26 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Cisco Talos": {
-      "url": "https://feeds.feedburner.com/feedburner/Talos",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 2
-    },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
+    "Kaspersky Securelist": {
+      "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 3
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
+    },
+    "Recorded Future": {
+      "url": "https://www.recordedfuture.com/feed",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 4
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -87,13 +101,6 @@
       "status": "ok",
       "item_count": 15,
       "in_window_count": 0
-    },
-    "Kaspersky Securelist": {
-      "url": "https://securelist.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -108,6 +115,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 4
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
     },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
@@ -130,20 +144,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "PortSwigger Research": {
-      "url": "https://portswigger.net/research/rss",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 40,
-      "in_window_count": 0
-    },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
@@ -151,18 +151,18 @@
       "item_count": 78,
       "in_window_count": 0
     },
-    "Recorded Future": {
-      "url": "https://www.recordedfuture.com/feed",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 4
-    },
     "Exploit-DB": {
       "url": "https://www.exploit-db.com/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 50,
+      "in_window_count": 0
+    },
+    "PortSwigger Research": {
+      "url": "https://portswigger.net/research/rss",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 40,
       "in_window_count": 0
     },
     "watchTowr Labs": {
@@ -235,27 +235,6 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -270,6 +249,27 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
@@ -277,19 +277,19 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Sysdig": {
-      "url": "https://sysdig.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
-    },
     "Cloudflare Security": {
       "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
+    },
+    "Sysdig": {
+      "url": "https://sysdig.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -319,13 +319,6 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
@@ -340,19 +333,19 @@
       "item_count": 10,
       "in_window_count": 2
     },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 11
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -382,19 +375,19 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "SecurityWeek": {
-      "url": "https://www.securityweek.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
     },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
@@ -403,12 +396,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
+    "SecurityWeek": {
+      "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 24
+      "item_count": 10,
+      "in_window_count": 10
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,26 +417,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 24
+    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
-    },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -452,12 +438,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Reddit r/cybersecurity": {
       "url": "https://www.reddit.com/r/cybersecurity/.rss",
@@ -466,15 +452,15 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 50,
-      "in_window_count": 43
+      "item_count": 10,
+      "in_window_count": 1
     },
-    "Reddit r/msp": {
-      "url": "https://www.reddit.com/r/msp/.rss",
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
@@ -487,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
+    "Reddit r/msp": {
+      "url": "https://www.reddit.com/r/msp/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -500,13 +486,6 @@
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
@@ -522,6 +501,27 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 42
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -529,18 +529,18 @@
       "item_count": 25,
       "in_window_count": 8
     },
-    "tl;dr sec": {
-      "url": "https://tldrsec.com/feed.xml",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 100,
+      "in_window_count": 1
+    },
+    "tl;dr sec": {
+      "url": "https://tldrsec.com/feed.xml",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Risky Business News": {
@@ -821,6 +821,111 @@
       ]
     },
     {
+      "label": "CVE-2026-20245 exploitation activity",
+      "anchor_signal": "CVE-2026-20245",
+      "theme_key": "cve-2026-20245",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.703,
+      "shared_strong_signals": [
+        "CVE-2026-20245"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20127 exploitation activity",
+      "anchor_signal": "CVE-2026-20127",
+      "theme_key": "cve-2026-20127",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.703,
+      "shared_strong_signals": [
+        "CVE-2026-20127"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20182 exploitation activity",
+      "anchor_signal": "CVE-2026-20182",
+      "theme_key": "cve-2026-20182",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 4,
+      "cohesion": 0.703,
+      "shared_strong_signals": [
+        "CVE-2026-20182"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
+      ]
+    },
+    {
       "label": "Palo Alto Networks vulnerability activity",
       "anchor_signal": "Palo Alto Networks",
       "theme_key": "palo-alto-networks",
@@ -886,34 +991,6 @@
         "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20230/",
         "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
         "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
-      ]
-    },
-    {
-      "label": "WordPress vulnerability activity",
-      "anchor_signal": "WordPress",
-      "theme_key": "wordpress",
-      "dominant_features": {
-        "affected_products": [
-          "WordPress"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 4,
-      "cohesion": 0.246,
-      "shared_strong_signals": [
-        "WordPress"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "d812e5f8cf",
-        "fa3553d2ed",
-        "bc04521832"
-      ],
-      "links": [
-        "https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge",
-        "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-        "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html"
       ]
     },
     {
@@ -1016,64 +1093,6 @@
         "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
         "https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/"
       ]
-    },
-    {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
-      "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.5,
-      "shared_strong_signals": [
-        "Kubernetes"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "2a1cd2055f",
-        "2666f433e1"
-      ],
-      "links": [
-        "https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/",
-        "https://orca.security/resources/blog/best-vulnerability-management-tools/"
-      ]
-    },
-    {
-      "label": "ShinyHunters: ransomware extortion",
-      "anchor_signal": "ShinyHunters",
-      "theme_key": "shinyhunters",
-      "dominant_features": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
-        "affected_industries": [
-          "education"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.303,
-      "shared_strong_signals": [
-        "ShinyHunters"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "7f66459697",
-        "2fd43df2a9"
-      ],
-      "links": [
-        "https://www.intel471.com/blog/shinyhunters-0-day-attacks-after-patching-find-out-if-you-were-breached",
-        "https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/"
-      ]
     }
   ],
   "forward_signals": {
@@ -1146,18 +1165,18 @@
         "first_observation": true
       },
       {
-        "cluster_id": "fd2a2922d1",
-        "pair": "CVE-2026-12569 + Gogs",
+        "cluster_id": "a0bb1916a8",
+        "pair": "CVE-2026-33017 + AWS",
         "first_observation": true
       },
       {
-        "cluster_id": "fd2a2922d1",
-        "pair": "CVE-2026-12569 + Ivanti",
+        "cluster_id": "a0bb1916a8",
+        "pair": "CVE-2026-33017 + OpenAI/ChatGPT",
         "first_observation": true
       },
       {
-        "cluster_id": "fd2a2922d1",
-        "pair": "CVE-2026-12569 + Palo Alto Networks",
+        "cluster_id": "a0bb1916a8",
+        "pair": "CVE-2026-55255 + AWS",
         "first_observation": true
       }
     ],
@@ -1269,7 +1288,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "BleepingComputer",
@@ -1319,7 +1338,7 @@
           "products": []
         }
       },
-      "score": 17,
+      "score": 16,
       "full_body": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March",
       "fetch_status": "ok"
     },
@@ -1351,7 +1370,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "Rapid7",
@@ -1387,7 +1406,7 @@
           "products": []
         }
       },
-      "score": 31,
+      "score": 30,
       "full_body": "Back to Blog Products and Tools Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more Simon Janusz Jun 26, 2026 | Last updated on Jun 26, 2026 | 3 min read Help shape the future of Metasploit Framework We are planning future work in relation to the evasion capabilities present in Metasploit Framework, and how they function/are presented to users. We are currently accepting responses to our feedback form, which means that you can shape the future of how evasive capabilities are implemented in Metasploit Framework. The proposal for the changes can be found here , and you can submit your responses to the form here . The form will stop accepting responses on the 1st of July, 2026. New module content and improvements have also been added this week. This includes a Next.js Middleware Authorization Bypass scanner, LiteLLM Proxy SQL Injection, an unauthenticated API authentication bypass scanner for Audiobookshelf, a deserialization RCE in Dalfox, and improvements to service and host reporting in bruteforce-related modules. New module content (4) Audiobookshelf Unauthenticated API Authentication Bypass Scanner Authors: Kenneth LaCroix and swiftbird07 Type: Auxiliary Pull request: #21565 contributed by kenlacroix Path: scanner/http/audiobookshelf_auth_bypass AttackerKB reference: CVE-2025-25205 Description: Adds audiobookshelf_auth_bypass, a detection module for CVE-2025-25205 — an unauthenticated API authentication bypass in Audiobookshelf (self-hosted audiobook/podcast server), affecting versions 2.17.0 – 2.19.0 (fixed in 2.19.1). BerriAI LiteLLM Proxy Pre-Auth SQL Injection Scanner Authors: Kenneth LaCroix and Tencent YunDing Security Lab Type: Auxiliary Pull request: #21567 contributed by kenlacroix Path: scanner/http/litellm_proxy_sqli AttackerKB reference: CVE-2026-42208 Description: Adds auxiliary/scanner/http/litellm_proxy_sqli, a detection module for CVE-2026-42208 (CVSS 9.3, on the CISA KEV list) — a pre-authentication SQL injection in BerriAI LiteLLM proxy. Next.js Middleware Authorization Bypass Scanner Authors: Kenneth LaCroix, Rachid Allam, and Yasser Allam Type: Auxiliary Pull request: #21566 contributed by kenlacroix Path: scanner/http/nextjs_middleware_auth_bypass AttackerKB reference: CVE-2025-29927 Description: Adds nextjs_middleware_auth_bypass, a detection module for CVE-2025-29927 (CVSS 9.1) — an authorization bypass in self-hosted Next.js applications. Dalfox Found-Action Deserialization RCE Authors: Emmanuel David and Takahiro Yokoyama Type: Exploit Pull request: #21493 contributed by Takahiro-Yoko Path: linux/http/dalfox_server_rce_cve_2026_45087 AttackerKB reference: CVE-2026-45087 Description: This adds an exploit module for Dalfox Server versions <= 2.12.0 which are vulnerable to an unauthenticated RCE tracked as CVE-2026-45087. The vulnerability allows attackers to send arbitrary commands via found-action post parameter which gets deserialized and run in the context of the user running the server. Enhancements and features (2) #21396 from g0tmi1k - This makes improvements to the auth_brute mixin. It adds report_host and report_service calls to the mixin and removes duplicate printing of IP:PORT in the print_brute statements. #21562 from zeroSteiner - Updated the usage of rex-socket's recvfrom method to align with the standard library implementation. This also allows rex-socket to now be used as a drop-in replacement for Ruby's UDPSocket. Documentation You can find the latest Metasploit documentation on our docsite at docs.metasploit.com . Get it As always, you can update to the latest Metasploit Framework with msfupdate and you can get more details on the changes since the last blog post from GitHub: Pull Requests 6.4.140...6.4.141 Full diff 6.4.140...6.4.141 If you are a git user, you can clone the Metasploit Framework repo (master branch) for the latest. To install fresh without using git, you can use the open-source-only Nightly Installers or the commercial edition Metas",
       "fetch_status": "ok"
     },
@@ -2375,7 +2394,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -2403,7 +2422,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -2433,7 +2452,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Help Net Security",
@@ -2467,7 +2486,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Help Net Security",
@@ -2497,7 +2516,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "SecurityWeek",
@@ -2530,7 +2549,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "ESET WeLiveSecurity",
@@ -2564,7 +2583,7 @@
           "products": []
         }
       },
-      "score": 11,
+      "score": 10,
       "full_body": "Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t",
       "fetch_status": "ok"
     },
@@ -2619,7 +2638,7 @@
           "products": []
         }
       },
-      "score": 24,
+      "score": 23,
       "full_body": "Threat actors have successfully exploited a vulnerability in PTC Windchill in the wild, marking the first confirmed real-world abuse of the popular product lifecycle management (PLM) platform. The vulnerability is tracked as CVE-2026-12569 and it affects PTC’s Windchill and FlexPLM products. The improper input validation flaw can be exploited by a remote, unauthenticated attacker to execute arbitrary code via specially crafted requests. The cybersecurity agency CISA added the security hole to its Known Exploited Vulnerabilities (KEV) catalog on Thursday, instructing federal agencies to address it by June 28. SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition This is the first-ever PTC product vulnerability added to CISA’s KEV catalog, and there do not appear to be any public reports describing the exploitation of other flaws. However, authorities have been expecting threat actors to start exploiting PTC products. In March, German police physically alerted companies about the risk posed by a different PTC Windchill vulnerability, CVE-2026-4681. While exploitation at the time seemed imminent, there are no reports of CVE-2026-4681 being used in attacks. Advertisement. Scroll to continue reading. For CVE-2026-12569, PTC began releasing patches and mitigations on June 17. The vendor published indicators of compromise (IoCs) the next day, warning that attackers have been exploiting it to deploy persistent JSP webshells that enable remote command execution and data exfiltration. It’s unclear who is behind the attacks, but PTC updated its advisory on Thursday to warn that it has been receiving reports of “heightened threat activity”. Heise reported just before exploitation was confirmed that German police had begun alerting organizations about the latest PTC vulnerability after learning of imminent attacks. Windchill is widely deployed across industrial and manufacturing organizations — including automotive, aerospace, defense, and heavy machinery companies — making the active exploitation of this vulnerability a significant threat to critical supply chains and operational technology environments. Related : Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Related : Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Related : Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Cisco SD-WAN Zero-Day Exploited Months Before Patching Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware macOS Weaknesses Chained to Silently Disable Endpoint Security Agents Third DraftKings Hacker Sentenced to 18 Months in Prison Hackers Exploiting Cisco Unified CM Vulnerability Dragos Unveils AI for OT Security Latest News Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories More Klue Breach Victims Identified as Hackers Get Hacked In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites $3 Million Reportedly Stolen in Polymarket Hack Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets New Enterprise-Ready MCP Specification Brings New Security Challenges Trending Daily Briefing Newsletter Subscribe to the ",
       "fetch_status": "ok"
     },
@@ -2635,18 +2654,12 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "supply_chain",
-          "phishing_social_eng",
           "data_breach"
         ],
-        "actor_attribution": [
-          "ShinyHunters"
-        ],
+        "actor_attribution": [],
         "affected_industries": [
           "financial_services",
-          "education",
-          "legal_professional"
+          "education"
         ],
         "affected_products": [],
         "tools_used": [],
@@ -2660,9 +2673,7 @@
           "products": []
         }
       },
-      "score": 9,
-      "full_body": "Infosecurity Magazine Home » News » CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach News 26 June 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The UK’s Cyber Monitoring Centre (CMC) has shared its analysis of the Canvas cyber incident affecting Instructure’s Learning Management System as the education technology firm prepares to share its own findings next week. The CMC said that approximately 160 UK higher education institutions were affected and threat actors exfiltrated confidential course and user data. In total, around 9000 educational institutions are thought to have been affected worldwide. While the incident has not met the CMC’s minimum category threshold, the review aims to better understand the financial impact of data breach events, inform the development of the CMC’s data breach analysis model and deepen insight into cyber risk within the UK higher education sector. The CMC considers a cyber-attack a ‘Category 1 event’ if it has loss of £10m ($13m) or impact more than 0.01% of UK organizations. For context, the 2025 cyber-attack against Jaguar Land Rove was ranked as a Category 3 systemic event on the five-point CMC scale. The CMC said that the Canvas event illustrates how data breach events can differ from large-scale disruption events in their financial profile. “In this case, losses appear to be driven more by response, recovery, and risk management activity than by prolonged business interruption,” the CMC review said. How the Canvas Cyber-Attack Unfolded On April 29, Instructure detected unauthorized activity in Canvas . The company said this activity was carried out by a cybercriminal organization known for large-scale attacks across multiple sectors, including technology and education. On May 7, 2026, the same threat actor gained additional access through a second Canvas vulnerability. The unauthorized actor made changes to the pages that appeared when some students and teachers were logged in through Canvas A defacement message which appeared on approximately 330 institutional Canvas login pages led many to conclude that the ShinyHunters extortion group was at the center of the cyber-attack. Attribution has not been confirmed by Instructure. The firm confirmed on May 9 that Canvas was fully online and available for use. CrowdStrike is involved in the forensic investigation into the incident, which Instructure said was carried out using one of its Free-For-Teacher accounts. Cyber Monitoring Centre Review and Recommendations The CMC said that despite the number of higher education institutions affected, there is no evidence of lateral movement of the threat actors into the other institutional systems. The recommendations outline by the CMC were described as “common good practice” for higher education establishments that have been reinforced by analysis of the Canvas event. These include: Align architecture with risk: Priorities protection of mission‑critical systems and high‑value services based on the organization’s risk appetite Separate application and data layers: Improve data integrity, recovery and validation by isolating these components where possible Enforce MFA consistently: Ensure multi-factor authentication is properly implemented across all systems Control third‑party access: Limit and closely manage external access privileges across the supply chain Assess offshore dependencies: Understand risks linked to overseas providers, including legal and support limitations Strengthen SaaS security: Follow provider guidance to avoid misconfigurations and reduce breach risk Test incident response plans: Run breach and outage scenarios to improve resilience and business continuity Canvas Incident Underscores Phishing Risks and Need for Clear Communication Communication was also a key recommendation for organizations responding to an incide",
-      "fetch_status": "ok"
+      "score": 8
     },
     {
       "source": "Help Net Security",
@@ -2693,7 +2704,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Hacker News",
@@ -4383,16 +4394,26 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "zero_day"
+          "zero_day",
+          "apt_espionage",
+          "active_exploitation"
         ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
-          "zero_day"
+          "actively_exploited",
+          "zero_day",
+          "no_patch_yet"
         ],
         "content_type": "news_report",
         "confidence_tier": "tier_4_news",
@@ -4401,7 +4422,9 @@
           "products": []
         }
       },
-      "score": 8
+      "score": 8,
+      "full_body": "Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exploited a previously unknown and unpatched Cisco vulnerability earlier this year to infiltrate a communications service provider and gain the highest level of access possible, Mandiant said Wednesday. Cisco has since patched the flaw, one of seven actively exploited zero-day vulnerabilities this year in its SD-WAN (software-defined wide area network) software used to manage internet traffic within organizations, typically those that are widely distributed, such as banks with numerous branches. But Google-owned cybersecurity firm Mandiant said the attacker (or attackers) could have used its root-level access to obtain broad and undetected visibility into the internal traffic throughout the provider’s entire corporate network. In a caveat, Mandiant also said it could not fully assess how far the compromise actually went because of how cleverly the perpetrators hid their activity. The attack illustrated hackers’ ongoing targeting of edge devices, Mandiant said. Attacks on such devices have been very common and involved in some of the most consequential breaches in recent years, prompting the Cybersecurity and Infrastructure Agency to direct federal agencies to give them special attention this year. Advertisement “This campaign underscores the living off the edge paradigm, where threat actors prioritize the compromise of network appliances to bypass traditional security perimeters,” Mandiant wrote in a blog post . “As organizations increasingly adopt software-defined networking, the orchestrators managing these environments become primary targets. These devices offer a black box environment for threat actors: they often lack the telemetry required for deep forensic analysis, and their role as a central control plane provides a stealthy platform for persistent, wide-scale access to internal enterprise traffic.” Mandiant didn’t attribute the attack to any specific group, citing the work the attacker did to cover their tracks and delete evidence. But it noted that “for state-sponsored actors, the ability to exploit zero-day vulnerabilities in these platforms remains a premier vector for long-term strategic intelligence collection.” Kelli Vanderlee, senior manager for Google Threat Intelligence Group, told CyberScoop that “exploiting zero day vulnerabilities in edge devices and the extensive anti-forensic activities are consistent with previously documented cyber espionage threat actor behavior.” The company also didn’t name the victim service provider. The attacks on the service provider came in two waves. The first activity Mandiant observed from late 2025 to early 2026 exploited one of two then-unpatched vulnerabilities ( CVE-2026-20127 or CVE-2026-20182 ), with the attacker making unauthorized “peering” connections to the victim’s SD-WAN Manager devices in a kind of digital handshake to verify identity and trust. Advertisement Once there, the attacker facilitated its access and used it to manipulate default account passwords in hopes of avoiding detection. Next, the attacker exploited the zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN Manager, activity Mandiant observed in March, and created a rogue user account, “troot” that gave full root-level control. “On June 4, 2026, Cisco published a security advisory about a privilege escalation vulnerability in Cisco Catalyst SD-WAN Manager,” a Cisco spokesperson said. “Cisco strongly recommends customers upgrade to a fixed software release as outlined in the advisory.” Updated 6/24/26: to include Cisco comment. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Oracle logo (Getty Images) (Getty Images) The Cisco Systems logo is displayed at the Mobile World Congress (MWC) in Barcelona on February 25, 2019. (GABRIEL BOUYS / AFP) Latest Podcasts When iPhone exploits turn into commodities Inside Operation Dis",
+      "fetch_status": "ok"
     },
     {
       "source": "Microsoft Security Blog",
@@ -7087,7 +7110,7 @@
       "published": "2026-06-20T09:56:04+00:00",
       "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens",
       "author": "info@thehackernews.com (The Hacker News)",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7111,8 +7134,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 8
+      }
     },
     {
       "source": "Simon Willison",
@@ -35921,7 +35943,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fe7df4297c0>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fd81873a460>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {

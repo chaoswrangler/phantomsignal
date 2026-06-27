@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-27T07:23:43.888702+00:00
+- Generated: 2026-06-27T10:16:29.182703+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 296
+- Total items in window: 295
 - Total clusters raw: 144
-- Total clusters in packet: 68
-- Dropped low score: 76
+- Total clusters in packet: 67
+- Dropped low score: 77
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -75,66 +75,71 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
   - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 1
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -145,6 +150,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -160,30 +170,20 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
   - In window count: 0
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -235,21 +235,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -260,21 +245,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -295,11 +295,6 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -310,16 +305,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -340,26 +335,26 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 24
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,43 +365,38 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 43
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+  - Item count: 10
+  - In window count: 1
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,21 +405,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 27
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -440,20 +425,35 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 42
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 8
-- **tl;dr sec** (practitioner_analysis)
-  - URL: https://tldrsec.com/feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
   - Item count: 100
+  - In window count: 1
+- **tl;dr sec** (practitioner_analysis)
+  - URL: https://tldrsec.com/feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -556,6 +556,63 @@
   - https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
   - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
 
+### CVE-2026-20245 exploitation activity
+- Anchor signal: CVE-2026-20245
+- Theme key: cve-2026-20245
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.703
+- Shared strong signals: CVE-2026-20245
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day
+- Cluster IDs: 92ea9e355d, 76f836fe99
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+
+### CVE-2026-20127 exploitation activity
+- Anchor signal: CVE-2026-20127
+- Theme key: cve-2026-20127
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.703
+- Shared strong signals: CVE-2026-20127
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day
+- Cluster IDs: 92ea9e355d, 76f836fe99
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+
+### CVE-2026-20182 exploitation activity
+- Anchor signal: CVE-2026-20182
+- Theme key: cve-2026-20182
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.703
+- Shared strong signals: CVE-2026-20182
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day
+- Cluster IDs: 92ea9e355d, 76f836fe99
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
@@ -593,23 +650,6 @@
   - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20230/
   - https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
   - https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
-
-### WordPress vulnerability activity
-- Anchor signal: WordPress
-- Theme key: wordpress
-- Cluster count: 3
-- Article count: 4
-- Cohesion: 0.246
-- Shared strong signals: WordPress
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: WordPress
-- Cluster IDs: d812e5f8cf, fa3553d2ed, bc04521832
-- Links:
-  - https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge
-  - https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/
-  - https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
 
 ### CVE-2026-12569 exploitation activity
 - Anchor signal: CVE-2026-12569
@@ -669,40 +709,6 @@
   - https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   - https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
 
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.5
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: 2a1cd2055f, 2666f433e1
-- Links:
-  - https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-  - https://orca.security/resources/blog/best-vulnerability-management-tools/
-
-### ShinyHunters: ransomware extortion
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.303
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion
-  - actor_attribution: ShinyHunters
-  - affected_industries: education
-- Cluster IDs: 7f66459697, 2fd43df2a9
-- Links:
-  - https://www.intel471.com/blog/shinyhunters-0-day-attacks-after-patching-find-out-if-you-were-breached
-  - https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
-
 ## Forward signals
 
 ### Novelty
@@ -727,9 +733,9 @@
 - Pair: CVE-2026-34908 + Ubiquiti UniFi (cluster 8153a6b280, first observation: True)
 - Pair: CVE-2026-34909 + Ubiquiti UniFi (cluster 8153a6b280, first observation: True)
 - Pair: CVE-2026-34910 + Ubiquiti UniFi (cluster 8153a6b280, first observation: True)
-- Pair: CVE-2026-12569 + Gogs (cluster fd2a2922d1, first observation: True)
-- Pair: CVE-2026-12569 + Ivanti (cluster fd2a2922d1, first observation: True)
-- Pair: CVE-2026-12569 + Palo Alto Networks (cluster fd2a2922d1, first observation: True)
+- Pair: CVE-2026-33017 + AWS (cluster a0bb1916a8, first observation: True)
+- Pair: CVE-2026-33017 + OpenAI/ChatGPT (cluster a0bb1916a8, first observation: True)
+- Pair: CVE-2026-55255 + AWS (cluster a0bb1916a8, first observation: True)
 
 ### Drift (1)
 - **Handala** (cluster 32524cab6e)
@@ -812,7 +818,7 @@ Threat Intelligence Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in C
   - Link: https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
   - Summary: An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges
 
-### Cluster 62bb44cac7 — score 31
+### Cluster 62bb44cac7 — score 30
 
 - Title: Weekly Metasploit Update: Modules for Audiobookshelf, LiteLLM, Next.js, Dalfox and more
 - Source: Rapid7 (offensive_vulnerability_research)
@@ -907,7 +913,7 @@ CVE-2026-20230 Cisco Unified Communications Manager Server-Side Request Forgery 
   - Link: https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
   - Summary: Threat actors have begun to exploit a recently disclosed critical security flaw impacting Cisco Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME). The vulnerability, tracked as CVE-2026-20230 (CVSS score: 8.6), is a case of improper input validation for specific HTTP requests that could allow an unauthenticated, remote
 
-### Cluster 32524cab6e — score 24
+### Cluster 32524cab6e — score 23
 
 - Title: First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild
 - Source: SecurityWeek (cyber_news_breach_reporting)
@@ -1130,55 +1136,6 @@ Threat Research Center Threat Research Malware Malware OpenClaw’s Skill Market
   - Link: https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
   - Summary: Unit 42's analysis of ClawHub revealed evasive malicious skills bypassing automated scanners to deploy infostealers and execute agentic financial fraud. The post OpenClaw’s Skill Marketplace and the Emerging AI Supply Chain Threat appeared first on Unit 42 .
 
-### Cluster fd2a2922d1 — score 17
-
-- Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-26T19:43:06+00:00
-- Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, zero_day
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Gogs, Ivanti, Palo Alto Networks
-- cve_ids: CVE-2026-12569, CVE-2026-20230
-- urgency_signals: actively_exploited, poc_available, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, active_exploitation
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- affected_products: Gogs, Ivanti, Palo Alto Networks
-- cve_ids: CVE-2026-20230, CVE-2026-12569
-- urgency_signals: actively_exploited, zero_day, poc_available
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
-```
-
-#### Full body
-
-```
-CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
-  - Published: 2026-06-26T19:43:06+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
-
 ### Cluster a0bb1916a8 — score 16
 
 - Title: Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited
@@ -1261,6 +1218,55 @@ Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code
   - Published: 2026-06-26T17:58:54+00:00
   - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
   - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+
+### Cluster fd2a2922d1 — score 16
+
+- Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-26T19:43:06+00:00
+- Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Gogs, Ivanti, Palo Alto Networks
+- cve_ids: CVE-2026-12569, CVE-2026-20230
+- urgency_signals: actively_exploited, poc_available, zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Gogs, Ivanti, Palo Alto Networks
+- cve_ids: CVE-2026-20230, CVE-2026-12569
+- urgency_signals: actively_exploited, zero_day, poc_available
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
+```
+
+#### Full body
+
+```
+CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
+  - Published: 2026-06-26T19:43:06+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
 
 ### Cluster 0ac9d62120 — score 16
 
@@ -1749,51 +1755,6 @@ NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emer
   - Published: 2026-06-26T16:26:23+00:00
   - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
   - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-
-### Cluster 4cc90df0fb — score 11
-
-- Title: SMB cyber readiness: the road to resilience starts here
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-26T08:50:00+00:00
-- Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
-```
-
-#### Full body
-
-```
-Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: SMB cyber readiness: the road to resilience starts here
-  - Published: 2026-06-26T08:50:00+00:00
-  - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
-  - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
 
 ### Cluster 2666f433e1 — score 11
 
@@ -2408,88 +2369,6 @@ Table of Contents Introduction Initial infection Exploitation of public-facing a
   - Link: https://securelist.com/strikeshark-campaign/120326/
   - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
 
-### Cluster 7cc9863eff — score 10
-
-- Title: Organizations Buy Answers, Not Activities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-24T16:49:39+00:00
-- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-```
-
-#### Full body
-
-```
-Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Organizations Buy Answers, Not Activities
-  - Published: 2026-06-24T16:49:39+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-
-### Cluster 0d07bde6a5 — score 10
-
-- Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
-- Source: ESET WeLiveSecurity (threat_research_primary)
-- Published: 2026-06-24T12:35:24+00:00
-- Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: credential_theft
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
-```
-
-#### Full body
-
-```
-ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and
-```
-
-#### Corroborating sources (1)
-
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
-  - Published: 2026-06-24T12:35:24+00:00
-  - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
-  - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
-
 ### Cluster d812e5f8cf — score 10
 
 - Title: Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge
@@ -2616,6 +2495,133 @@ The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Frau
   - Published: 2026-06-23T00:00:00+00:00
   - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
   - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
+
+### Cluster 7cc9863eff — score 10
+
+- Title: Organizations Buy Answers, Not Activities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-24T16:49:39+00:00
+- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Organizations Buy Answers, Not Activities
+  - Published: 2026-06-24T16:49:39+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+
+### Cluster 4cc90df0fb — score 10
+
+- Title: SMB cyber readiness: the road to resilience starts here
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-26T08:50:00+00:00
+- Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
+```
+
+#### Full body
+
+```
+Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: SMB cyber readiness: the road to resilience starts here
+  - Published: 2026-06-26T08:50:00+00:00
+  - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
+  - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
+
+### Cluster 0d07bde6a5 — score 10
+
+- Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
+- Source: ESET WeLiveSecurity (threat_research_primary)
+- Published: 2026-06-24T12:35:24+00:00
+- Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: credential_theft
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
+```
+
+#### Full body
+
+```
+ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and
+```
+
+#### Corroborating sources (1)
+
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - Title: ESET takes part in Operation Endgame to disrupt Amadey and Stealc
+  - Published: 2026-06-24T12:35:24+00:00
+  - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
+  - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
 
 ### Cluster e1538c3d0e — score 10
 
@@ -2823,51 +2829,6 @@ Webshells have been popular for a long time. We already covered this topic acros
   - Published: 2026-06-22T14:10:27+00:00
   - Link: https://isc.sans.edu/diary/rss/33096
   - Summary: Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
-
-### Cluster 2fd43df2a9 — score 9
-
-- Title: CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-06-26T08:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, supply_chain
-- actor_attribution: ShinyHunters
-- affected_industries: education, financial_services, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach
-- actor_attribution: ShinyHunters
-- affected_industries: financial_services, education, legal_professional
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach News 26 June 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The UK’s Cyber Monitoring Centre (CMC) has shared its analysis of the Canvas cyber incident affecting Instructure’s Learning Management System as the education technology firm prepares to share its own findings next week. The CMC said that approximately 160 UK higher education institutions were affected and threat actors exfiltrated confidential course and user data. In total, around 9000 educational institutions are thought to have been affected worldwide. While the incident has not met the CMC’s minimum category threshold, the review aims to better understand the financial impact of data breach events, inform the development of the CMC’s data breach analysis model and deepen insight into cyber risk within the UK higher education sector. The CMC considers a cyber-attack a ‘Category 1 event’ if it has loss of £10m ($13m) or impact more than 0.01% of UK organizations. For context, the 2025 cyber-attack against Jaguar Land Rove was ranked as a Category 3 systemic event on the five-point CMC scale. The CMC said that the Canvas event illustrates how data breach events can differ from large-scale disruption events in their financial profile. “In this case, losses appear to be driven more by response, recovery, and risk management activity than by prolonged business interruption,” the CMC review said. How the Canvas Cyber-Attack Unfolded On April 29, Instructure detected unauthorized activity in Canvas . The company said this activity was carried out by a cybercriminal organization known for large-scale attacks across multiple sectors, including technology and education. On May 7, 2026, the same threat actor gained additional access through a second Canvas vulnerability. The unauthorized actor made changes to the pages that appeared when some students and teachers were logged in through Canvas A defacement message which appeared on approximately 330 institutional Canvas login pages led many to conclude that the ShinyHunters extortion group was at the center of the cyber-attack. Attribution has not been confirmed by Instructure. The firm confirmed on May 9 that Canvas was fully online and available for use. CrowdStrike is involved in the forensic investigation into the incident, which Instructure said was carried out using one of its Free-For-Teacher accounts. Cyber Monitoring Centre Review and Recommendations The CMC said that despite the number of higher education institutions affected, there is no evidence of lateral movement of the threat actors into the other institutional systems. The recommendations outline by the CMC were described as “common good practice” for higher education establishments that have been reinforced by analysis of the Canvas event. These include: Align architecture with risk: Priorities protection of mission‑critical systems and high‑value services based on the organization’s risk appetite Separate application and data layers: Improve data integrity, recovery and validation by isolating these components where possible Enforce MFA consistently: Ensure multi-factor authentication is properly implemented across all systems Control third‑party access: Limit and closely manage external access privileges across the supply chain Assess offshore dependencies: Understand risks linked to overseas providers, including legal and support limitations Strengthen SaaS security: Follow provider guidance to avoid misconfigurations and reduce breach risk Test incident response plans: Run breach and outage scenarios to improve resilience and business continuity Canvas Incident Underscores Phishing Risks and Need for Clear Communication Communication was also a key recommendation for organizations responding to an incide
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach
-  - Published: 2026-06-26T08:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
-  - Summary: The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
 
 ### Cluster 5fa1fc890c — score 9
 
@@ -3432,20 +3393,24 @@ Polymarket customers lose $3 million in supply-chain attack By Bill Toulas June 
 - Source: CyberScoop (cyber_news_breach_reporting)
 - Published: 2026-06-24T18:47:17+00:00
 - Link: https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: active_exploitation, apt_espionage, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+- urgency_signals: actively_exploited, no_patch_yet, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
+- threat_categories: zero_day, apt_espionage, active_exploitation
+- affected_industries: government
+- cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+- urgency_signals: actively_exploited, zero_day, no_patch_yet
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3453,6 +3418,12 @@ Polymarket customers lose $3 million in supply-chain attack By Bill Toulas June 
 
 ```
 Mandiant detailed the incident in a blog post Wednesday, but it’s unclear who was behind it or if they managed to get broad visibility into the victim’s internal traffic. The post Malicious hackers exploit Cisco zero-day for highest access level at communications service provider appeared first on CyberScoop .
+```
+
+#### Full body
+
+```
+Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exploited a previously unknown and unpatched Cisco vulnerability earlier this year to infiltrate a communications service provider and gain the highest level of access possible, Mandiant said Wednesday. Cisco has since patched the flaw, one of seven actively exploited zero-day vulnerabilities this year in its SD-WAN (software-defined wide area network) software used to manage internet traffic within organizations, typically those that are widely distributed, such as banks with numerous branches. But Google-owned cybersecurity firm Mandiant said the attacker (or attackers) could have used its root-level access to obtain broad and undetected visibility into the internal traffic throughout the provider’s entire corporate network. In a caveat, Mandiant also said it could not fully assess how far the compromise actually went because of how cleverly the perpetrators hid their activity. The attack illustrated hackers’ ongoing targeting of edge devices, Mandiant said. Attacks on such devices have been very common and involved in some of the most consequential breaches in recent years, prompting the Cybersecurity and Infrastructure Agency to direct federal agencies to give them special attention this year. Advertisement “This campaign underscores the living off the edge paradigm, where threat actors prioritize the compromise of network appliances to bypass traditional security perimeters,” Mandiant wrote in a blog post . “As organizations increasingly adopt software-defined networking, the orchestrators managing these environments become primary targets. These devices offer a black box environment for threat actors: they often lack the telemetry required for deep forensic analysis, and their role as a central control plane provides a stealthy platform for persistent, wide-scale access to internal enterprise traffic.” Mandiant didn’t attribute the attack to any specific group, citing the work the attacker did to cover their tracks and delete evidence. But it noted that “for state-sponsored actors, the ability to exploit zero-day vulnerabilities in these platforms remains a premier vector for long-term strategic intelligence collection.” Kelli Vanderlee, senior manager for Google Threat Intelligence Group, told CyberScoop that “exploiting zero day vulnerabilities in edge devices and the extensive anti-forensic activities are consistent with previously documented cyber espionage threat actor behavior.” The company also didn’t name the victim service provider. The attacks on the service provider came in two waves. The first activity Mandiant observed from late 2025 to early 2026 exploited one of two then-unpatched vulnerabilities ( CVE-2026-20127 or CVE-2026-20182 ), with the attacker making unauthorized “peering” connections to the victim’s SD-WAN Manager devices in a kind of digital handshake to verify identity and trust. Advertisement Once there, the attacker facilitated its access and used it to manipulate default account passwords in hopes of avoiding detection. Next, the attacker exploited the zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN Manager, activity Mandiant observed in March, and created a rogue user account, “troot” that gave full root-level control. “On June 4, 2026, Cisco published a security advisory about a privilege escalation vulnerability in Cisco Catalyst SD-WAN Manager,” a Cisco spokesperson said. “Cisco strongly recommends customers upgrade to a fixed software release as outlined in the advisory.” Updated 6/24/26: to include Cisco comment. Share Facebook LinkedIn Twitter Copy Link Advertisement Advertisement More Like This Advertisement Top Stories Advertisement More Scoops Oracle logo (Getty Images) (Getty Images) The Cisco Systems logo is displayed at the Mobile World Congress (MWC) in Barcelona on February 25, 2019. (GABRIEL BOUYS / AFP) Latest Podcasts When iPhone exploits turn into commodities Inside Operation Dis
 ```
 
 #### Corroborating sources (1)
@@ -3612,45 +3583,42 @@ A heap over-read in the Squid web proxy can leak another user's cleartext HTTP r
   - Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
   - Summary: A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
 
-### Cluster bc04521832 — score 8
+### Cluster 2fd43df2a9 — score 8
 
-- Title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-20T09:56:04+00:00
-- Link: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
+- Title: CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-06-26T08:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
 - Fetch status: not_attempted
-- Member count: 2
+- Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-4020, WordPress
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, web_shell_backdoor
-- affected_products: WordPress
-- cve_ids: CVE-2026-4020
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- threat_categories: data_breach
+- affected_industries: education, financial_services
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- affected_products: WordPress
-- cve_ids: CVE-2026-4020
-- urgency_signals: preauth_unauth
-- content_type: news_report
+- threat_categories: data_breach
+- affected_industries: financial_services, education
+- content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens
+The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys
-  - Published: 2026-06-20T09:56:04+00:00
-  - Link: https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html
-  - Summary: Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS score: 5.3), is a medium-severity information disclosure flaw that can allow unauthenticated attackers to extract sensitive data, such as configuration data, API keys, secrets, and OAuth tokens
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach
+  - Published: 2026-06-26T08:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
+  - Summary: The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
 
 ### Cluster 49c2eae0f5 — score 8
 
