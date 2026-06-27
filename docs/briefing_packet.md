@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-27T12:12:29.589666+00:00
+- Generated: 2026-06-27T14:48:12.887097+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 294
-- Total clusters raw: 142
-- Total clusters in packet: 65
-- Dropped low score: 77
+- Total items in window: 296
+- Total clusters raw: 144
+- Total clusters in packet: 62
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,6 +80,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -94,6 +99,11 @@
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
@@ -105,11 +115,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
@@ -120,45 +135,35 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 7
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 3
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 10
+  - Item count: 78
   - In window count: 0
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
@@ -175,33 +180,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -210,6 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -240,61 +240,56 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 4
+  - Item count: 20
+  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -310,21 +305,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
@@ -355,6 +355,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -364,39 +369,24 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - In window count: 25
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: parse_error
   - Item count: 0
-  - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 0
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -405,8 +395,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -415,31 +410,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 42
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
   - Item count: 100
   - In window count: 27
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 43
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -472,6 +472,69 @@
   - In window count: 0
 
 ## Affinity groups (themes)
+
+### CVE-2026-20182 exploitation activity
+- Anchor signal: CVE-2026-20182
+- Theme key: cve-2026-20182
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20182
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
+
+### CVE-2026-20127 exploitation activity
+- Anchor signal: CVE-2026-20127
+- Theme key: cve-2026-20127
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20127
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
+
+### CVE-2026-20245 exploitation activity
+- Anchor signal: CVE-2026-20245
+- Theme key: cve-2026-20245
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20245
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -532,63 +595,6 @@
   - https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/
   - https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
   - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
-
-### CVE-2026-20245 exploitation activity
-- Anchor signal: CVE-2026-20245
-- Theme key: cve-2026-20245
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20245
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-
-### CVE-2026-20182 exploitation activity
-- Anchor signal: CVE-2026-20182
-- Theme key: cve-2026-20182
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20182
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-
-### CVE-2026-20127 exploitation activity
-- Anchor signal: CVE-2026-20127
-- Theme key: cve-2026-20127
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20127
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
 
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
@@ -949,7 +955,7 @@ CISA has added the remote code execution flaw CVE-2026-12569 to its Known Exploi
 #### Full body
 
 ```
-Threat actors have successfully exploited a vulnerability in PTC Windchill in the wild, marking the first confirmed real-world abuse of the popular product lifecycle management (PLM) platform. The vulnerability is tracked as CVE-2026-12569 and it affects PTC’s Windchill and FlexPLM products. The improper input validation flaw can be exploited by a remote, unauthenticated attacker to execute arbitrary code via specially crafted requests. The cybersecurity agency CISA added the security hole to its Known Exploited Vulnerabilities (KEV) catalog on Thursday, instructing federal agencies to address it by June 28. SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition This is the first-ever PTC product vulnerability added to CISA’s KEV catalog, and there do not appear to be any public reports describing the exploitation of other flaws. However, authorities have been expecting threat actors to start exploiting PTC products. In March, German police physically alerted companies about the risk posed by a different PTC Windchill vulnerability, CVE-2026-4681. While exploitation at the time seemed imminent, there are no reports of CVE-2026-4681 being used in attacks. Advertisement. Scroll to continue reading. For CVE-2026-12569, PTC began releasing patches and mitigations on June 17. The vendor published indicators of compromise (IoCs) the next day, warning that attackers have been exploiting it to deploy persistent JSP webshells that enable remote command execution and data exfiltration. It’s unclear who is behind the attacks, but PTC updated its advisory on Thursday to warn that it has been receiving reports of “heightened threat activity”. Heise reported just before exploitation was confirmed that German police had begun alerting organizations about the latest PTC vulnerability after learning of imminent attacks. Windchill is widely deployed across industrial and manufacturing organizations — including automotive, aerospace, defense, and heavy machinery companies — making the active exploitation of this vulnerability a significant threat to critical supply chains and operational technology environments. Related : Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Related : Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Related : Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Cisco SD-WAN Zero-Day Exploited Months Before Patching Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware macOS Weaknesses Chained to Silently Disable Endpoint Security Agents Third DraftKings Hacker Sentenced to 18 Months in Prison Hackers Exploiting Cisco Unified CM Vulnerability Dragos Unveils AI for OT Security Latest News Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories More Klue Breach Victims Identified as Hackers Get Hacked In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites $3 Million Reportedly Stolen in Polymarket Hack Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets New Enterprise-Ready MCP Specification Brings New Security Challenges Trending Daily Briefing Newsletter Subscribe to the
+Threat actors have successfully exploited a vulnerability in PTC Windchill in the wild, marking the first confirmed real-world abuse of the popular product lifecycle management (PLM) platform. The vulnerability is tracked as CVE-2026-12569 and it affects PTC’s Windchill and FlexPLM products. The improper input validation flaw can be exploited by a remote, unauthenticated attacker to execute arbitrary code via specially crafted requests. The cybersecurity agency CISA added the security hole to its Known Exploited Vulnerabilities (KEV) catalog on Thursday, instructing federal agencies to address it by June 28. SecurityWeek ICS Cybersecurity Conference Heads to Nashville for Special 25-Year Anniversary Edition This is the first-ever PTC product vulnerability added to CISA’s KEV catalog, and there do not appear to be any public reports describing the exploitation of other flaws. However, authorities have been expecting threat actors to start exploiting PTC products. In March, German police physically alerted companies about the risk posed by a different PTC Windchill vulnerability, CVE-2026-4681. While exploitation at the time seemed imminent, there are no reports of CVE-2026-4681 being used in attacks. Advertisement. Scroll to continue reading. For CVE-2026-12569, PTC began releasing patches and mitigations on June 17. The vendor published indicators of compromise (IoCs) the next day, warning that attackers have been exploiting it to deploy persistent JSP webshells that enable remote command execution and data exfiltration. It’s unclear who is behind the attacks, but PTC updated its advisory on Thursday to warn that it has been receiving reports of “heightened threat activity”. Heise reported just before exploitation was confirmed that German police had begun alerting organizations about the latest PTC vulnerability after learning of imminent attacks. Windchill is widely deployed across industrial and manufacturing organizations — including automotive, aerospace, defense, and heavy machinery companies — making the active exploitation of this vulnerability a significant threat to critical supply chains and operational technology environments. Related : Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Related : Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Related : Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Cisco SD-WAN Zero-Day Exploited Months Before Patching Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware macOS Weaknesses Chained to Silently Disable Endpoint Security Agents Third DraftKings Hacker Sentenced to 18 Months in Prison Hackers Exploiting Cisco Unified CM Vulnerability Dragos Unveils AI for OT Security Latest News Chinese Framework Powers 200,000 Scam Sites Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories More Klue Breach Victims Identified as Hackers Get Hacked In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites $3 Million Reportedly Stolen in Polymarket Hack Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefin
 ```
 
 #### Corroborating sources (1)
@@ -1390,16 +1396,16 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-23T04:17:44+00:00
   - Link: https://risky.biz/RBNEWSSI133/
   - Summary: In this sponsored interview James Wilson chats with Trail of Bits founder and CEO Dan Guido about its newly announced partnership with OpenAI. Together, they’ve started a new initiative called “Patch the Planet” to support open source maintainers. Being an open source maintainer is more difficult than ever. Just using frontier models to keep up with all the bug reports isn’t enough. Trail of Bits wants to help maintainers by combining its deep cybersecurity expertise with OpenAI’s GPT 5.5 Cyber. As Dan points out in this interview, this isn’t just about helping maintainers find and fix bugs. They’re spending just as much time on SDLC improvements, architecture changes, and the foundations needed to make open source sustainable in the AI era.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
-  - Published: 2026-06-23T03:56:58+00:00
-  - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
-  - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: OpenAI Expands Daybreak to Help Defenders Patch Flaws
   - Published: 2026-06-23T14:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/
   - Summary: OpenAI expanded Daybreak with a full GPT-5.5-Cyber release to help defenders patch software flaws
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
+  - Published: 2026-06-23T03:56:58+00:00
+  - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
+  - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #334 - Thinkst's Package Proxy, OpenAI Daybreak, AI Agents & Canaries
   - Published: 2026-06-25T14:30:00+00:00
@@ -1550,45 +1556,6 @@ How Elastic's security team built an AI agent with RAG against MITRE's CWE and C
   - Published: 2026-06-23T00:00:00+00:00
   - Link: https://www.elastic.co/security-labs/security-advisory-automation-rag-elastic-agent-builder
   - Summary: How Elastic's security team built an AI agent with RAG against MITRE's CWE and CAPEC catalogues to draft CVE advisories from raw vulnerability reports, including the full prompt and crawler configs.
-
-### Cluster fcac4a62c3 — score 12
-
-- Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-26T13:54:54+00:00
-- Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is Risk-Based Vulnerability Management (RBVM)? RBVM vs Context-Aware Prioritization: How the Pieces Fit RBVM is the operating program Why Rule-Based Alert Views Still Leave Teams Stuck Static vs Dynamic Risk Scoring in the Cloud The Alert Lifecycle Problem: When Tickets Lie Stale tickets erode trust Duplicate findings create confusion What a healthy alert lifecycle looks like Operationalizing RBVM: Ownership, Workflow, and Metrics Ownership Workflow Metrics How Orca Supports Cloud RBVM Same CVE, Different Risk Scores by Asset Asset Context Changes the Score Attack Paths and Data Sensitivity Feed the Score Why RBVM Requires More Than Better Scoring Frequently Asked Questions about RBVM Key Takeaways Risk-based vulnerability management (RBVM) is a continuous program that ranks vulnerabilities by the real risk each one poses to a specific asset, then drives remediation to the highest-risk findings first instead of working a severity-sorted backlog. In the cloud, a point-in-time score goes stale within hours. An asset that was internet-facing at scan time can sit behind a closed security group by morning, yet a static ticket still reads Critical. Dynamic risk scoring fixes that gap by recomputing risk when cloud state changes, so urgency tracks exposure rather than the moment a scanner last ran. The second failure is the alert lifecycle. Stale tickets, silent duplicates, and re-scored findings erode trust in the queue until teams stop believing their own tools. A score is only an input. Running RBVM as a program means owning remediation, wiring it into the workflow, and measuring it. Orca operationalizes this with agentless, context-aware scoring that updates as the cloud moves. Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data it can reach, then keeps that assessment current as those conditions change. The model breaks in a predictable place: the cloud moves faster than the score. A vulnerability that was reachable from the internet this afternoon may be isolated tonight after a deploy, and a Critical that mattered yesterday can become noise by the next sprint. Most programs never notice, because the finding was evaluated once and the ticket never reflected the change. This guide answers two questions. First, what RBVM actually is and how it differs from the prioritization methodology that feeds it. Second, how to run it as a cloud program, where static scores and rule-based alert views stop being trustworthy and dynamic scoring, alert-lifecycle trust, remediation ownership, and metrics take over. What Is Risk-Based Vulnerability Management (RBVM)? Risk-based vulnerability management (RBVM) is a program that scores, ranks, and remediates vulnerabilities according to the risk each one creates for a specific asset, not according to the CVSS base score printed on the CVE . Two assets can carry the identical vulnerability and deserve completely different responses, because risk depends on where the flaw lives, who can reach it, and what sits behind it. Legacy vulnerability management treated severity as destiny. A scanner found a Critical, the Critical became a ticket, and the team worked the Criticals top to bottom until the window closed. That worked when assets were long-lived servers in a data center you controlled. It collapses when a single misconfiguration changes an asset’s exposure between two scans. RBVM replaces severity-first triage with risk-first triage. The shift is less about a new scoring method and more about a new operating model: the program decides what to fix based on exposure and blast radius, keeps those priorities current, and proves the backlog is shrinking where it counts. Dimensi
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
-  - Published: 2026-06-26T13:54:54+00:00
-  - Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
-  - Summary: Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
 
 ### Cluster 84319555f9 — score 11
 
@@ -1751,6 +1718,45 @@ NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emer
   - Published: 2026-06-26T16:26:23+00:00
   - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
   - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+
+### Cluster fcac4a62c3 — score 11
+
+- Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-06-26T13:54:54+00:00
+- Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is Risk-Based Vulnerability Management (RBVM)? RBVM vs Context-Aware Prioritization: How the Pieces Fit RBVM is the operating program Why Rule-Based Alert Views Still Leave Teams Stuck Static vs Dynamic Risk Scoring in the Cloud The Alert Lifecycle Problem: When Tickets Lie Stale tickets erode trust Duplicate findings create confusion What a healthy alert lifecycle looks like Operationalizing RBVM: Ownership, Workflow, and Metrics Ownership Workflow Metrics How Orca Supports Cloud RBVM Same CVE, Different Risk Scores by Asset Asset Context Changes the Score Attack Paths and Data Sensitivity Feed the Score Why RBVM Requires More Than Better Scoring Frequently Asked Questions about RBVM Key Takeaways Risk-based vulnerability management (RBVM) is a continuous program that ranks vulnerabilities by the real risk each one poses to a specific asset, then drives remediation to the highest-risk findings first instead of working a severity-sorted backlog. In the cloud, a point-in-time score goes stale within hours. An asset that was internet-facing at scan time can sit behind a closed security group by morning, yet a static ticket still reads Critical. Dynamic risk scoring fixes that gap by recomputing risk when cloud state changes, so urgency tracks exposure rather than the moment a scanner last ran. The second failure is the alert lifecycle. Stale tickets, silent duplicates, and re-scored findings erode trust in the queue until teams stop believing their own tools. A score is only an input. Running RBVM as a program means owning remediation, wiring it into the workflow, and measuring it. Orca operationalizes this with agentless, context-aware scoring that updates as the cloud moves. Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data it can reach, then keeps that assessment current as those conditions change. The model breaks in a predictable place: the cloud moves faster than the score. A vulnerability that was reachable from the internet this afternoon may be isolated tonight after a deploy, and a Critical that mattered yesterday can become noise by the next sprint. Most programs never notice, because the finding was evaluated once and the ticket never reflected the change. This guide answers two questions. First, what RBVM actually is and how it differs from the prioritization methodology that feeds it. Second, how to run it as a cloud program, where static scores and rule-based alert views stop being trustworthy and dynamic scoring, alert-lifecycle trust, remediation ownership, and metrics take over. What Is Risk-Based Vulnerability Management (RBVM)? Risk-based vulnerability management (RBVM) is a program that scores, ranks, and remediates vulnerabilities according to the risk each one creates for a specific asset, not according to the CVSS base score printed on the CVE . Two assets can carry the identical vulnerability and deserve completely different responses, because risk depends on where the flaw lives, who can reach it, and what sits behind it. Legacy vulnerability management treated severity as destiny. A scanner found a Critical, the Critical became a ticket, and the team worked the Criticals top to bottom until the window closed. That worked when assets were long-lived servers in a data center you controlled. It collapses when a single misconfiguration changes an asset’s exposure between two scans. RBVM replaces severity-first triage with risk-first triage. The shift is less about a new scoring method and more about a new operating model: the program decides what to fix based on exposure and blast radius, keeps those priorities current, and proves the backlog is shrinking where it counts. Dimensi
+```
+
+#### Corroborating sources (1)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
+  - Published: 2026-06-26T13:54:54+00:00
+  - Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
+  - Summary: Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
 
 ### Cluster 2666f433e1 — score 11
 
@@ -2014,86 +2020,6 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
   - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
 
-### Cluster 73e0a62a37 — score 10
-
-- Title: Beyond IOCs: AI-enabled threat intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T18:00:26+00:00
-- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-```
-
-#### Full body
-
-```
-Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Beyond IOCs: AI-enabled threat intelligence
-  - Published: 2026-06-25T18:00:26+00:00
-  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-
-### Cluster 18abdcb9e0 — score 10
-
-- Title: Introduction to COM usage by Windows threats
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T10:00:26+00:00
-- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-```
-
-#### Full body
-
-```
-Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Introduction to COM usage by Windows threats
-  - Published: 2026-06-25T10:00:26+00:00
-  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-
 ### Cluster a2f878fad9 — score 10
 
 - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
@@ -2318,6 +2244,86 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/
   - Summary: Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .
 
+### Cluster 73e0a62a37 — score 10
+
+- Title: Beyond IOCs: AI-enabled threat intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T18:00:26+00:00
+- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+```
+
+#### Full body
+
+```
+Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Beyond IOCs: AI-enabled threat intelligence
+  - Published: 2026-06-25T18:00:26+00:00
+  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+
+### Cluster 18abdcb9e0 — score 10
+
+- Title: Introduction to COM usage by Windows threats
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T10:00:26+00:00
+- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+```
+
+#### Full body
+
+```
+Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Introduction to COM usage by Windows threats
+  - Published: 2026-06-25T10:00:26+00:00
+  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+
 ### Cluster 96f12a0395 — score 10
 
 - Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
@@ -2364,6 +2370,47 @@ Table of Contents Introduction Initial infection Exploitation of public-facing a
   - Published: 2026-06-24T10:00:03+00:00
   - Link: https://securelist.com/strikeshark-campaign/120326/
   - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
+
+### Cluster 7cc9863eff — score 10
+
+- Title: Organizations Buy Answers, Not Activities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-24T16:49:39+00:00
+- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Organizations Buy Answers, Not Activities
+  - Published: 2026-06-24T16:49:39+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
 
 ### Cluster 4cc90df0fb — score 10
 
@@ -2450,47 +2497,6 @@ ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc 
   - Published: 2026-06-24T12:35:24+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
   - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
-
-### Cluster 7cc9863eff — score 10
-
-- Title: Organizations Buy Answers, Not Activities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-24T16:49:39+00:00
-- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-```
-
-#### Full body
-
-```
-Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Organizations Buy Answers, Not Activities
-  - Published: 2026-06-24T16:49:39+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
 
 ### Cluster d812e5f8cf — score 10
 
@@ -3005,47 +3011,6 @@ Two men pleaded guilty in the United Kingdom this week to criminal charges stemm
   - Link: https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
   - Summary: Two young British men have pleaded guilty to hacking Transport for London as part of a Scattered Spider plot
 
-### Cluster 06ec8179ea — score 8
-
-- Title: Private Cloud Security: Top Risks and Best Practices (2026)
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-26T12:50:00+00:00
-- Link: https://orca.security/resources/blog/private-cloud-security/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways A private cloud promises control and isolation, and both are real. What neither one buys you is security. “Private” describes who can reach the infrastructure, not whether the infrastructure is configured, patched, and monitored well enough to keep an attacker out once they gain a foothold. That gap is where most private cloud […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is Private Cloud Security? The Shared-Responsibility Shift Public vs. Private vs. Hybrid Cloud Security: Key Differences When a Private Cloud Is the Right Security Choice Core Principles of Private Cloud Security Network Isolation and Segmentation Identity and Access Management Data Protection Physical Security of the Underlying Infrastructure Continuous Monitoring, Logging, and Visibility Vulnerability and Patch Management Across the Owned Stack Private Cloud Security Risks and Challenges Misconfigurations Limited Visibility and Monitoring Gaps Insider and Privileged-User Threats Patching Burden and Unpatched Vulnerabilities Integration and Hybrid Attack Surface Talent and Expertise Shortage and Operational Overhead Compliance Violations and Audit Failures Securing AI and Agentic Workloads in Private Clouds Private Cloud Security Best Practices Compliance and Regulatory Considerations How Orca Secures Private, Public, and Hybrid Cloud Environments Building a Secure Private Cloud Frequently Asked Questions Key Takeaways Private cloud security is the set of controls, architecture, and practices that protect a single-tenant cloud environment, whether it runs on-premises, in a hosted facility, or inside a dedicated VPC. A private cloud gives you isolation and control. It does not give you security by default. You own more of the stack, so more of the security burden moves onto you. The same misconfigurations, weak access controls, and monitoring gaps that breach public clouds apply to private ones, often with less native visibility because there are no provider-side security APIs to lean on. Six principles decide whether a private cloud is actually secure: network isolation, identity, encryption, physical security, continuous monitoring, and patching, with zero trust connecting them. For teams running private and public cloud together, the hardest gap is unified visibility. Orca extends agentless, context-aware risk visibility across hybrid environments, including private workloads, so one risk view spans the whole estate. A private cloud promises control and isolation, and both are real. What neither one buys you is security. “Private” describes who can reach the infrastructure, not whether the infrastructure is configured, patched, and monitored well enough to keep an attacker out once they gain a foothold. That gap is where most private cloud incidents begin. An over-privileged admin, an unpatched hypervisor, a flat internal network, or a logging blind spot behaves the same way it would in a public cloud, except you have fewer built-in security services to help detect and respond to it. This guide explains what private cloud security is, how it differs from public and hybrid cloud security, the core principles that protect a single-tenant environment, the risks that come with operating your own infrastructure, and the best practices that help secure it in 2026. What Is Private Cloud Security? Private cloud security is the architecture, controls, and operational practices that protect a single-tenant cloud environment, where the compute, storage, and network serve one organization rather than many. That environment can sit on-premises in your own data center, in a hosted private cloud run by a provider, or in a logically isolated VPC, and the security goal is the same across all three: keep the workloads, data, and identities inside it safe. A private cloud is a dedicated cloud environment for one tenant, built on platforms like VMware, OpenStack, or a single-tenant VPC. What matters for security is the consequence of single tenancy: isolation removes the noisy-neighbor and shared-plane risks of public cloud, and in exchange it hands you the entire stack to defend yourself. The Shared-Responsibility Shift In public cloud, the shared responsibility model splits the work. The provider secures the physical facility, the hypervisor, and the host network, while you secure your data, identities, a
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Private Cloud Security: Top Risks and Best Practices (2026)
-  - Published: 2026-06-26T12:50:00+00:00
-  - Link: https://orca.security/resources/blog/private-cloud-security/
-  - Summary: Key Takeaways A private cloud promises control and isolation, and both are real. What neither one buys you is security. “Private” describes who can reach the infrastructure, not whether the infrastructure is configured, patched, and monitored well enough to keep an attacker out once they gain a foothold. That gap is where most private cloud […]
-
 ### Cluster f9975b58ef — score 8
 
 - Title: We Need to Talk About Device Code Phishing
@@ -3210,45 +3175,6 @@ The FulcrumSec threat actor group recently claimed to have stolen more than a te
   - Title: Build to learn, buy to scale: When to build your own AI SOC (and when to stop)
   - Published: 2026-06-25T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/build-to-learn-buy-to-scale-when-to-build-your-own-ai-soc-and-when-to-stop
-
-### Cluster 86fb4ec2c7 — score 8
-
-- Title: Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth
-- Source: Chainalysis (ransomware_ecrime_financial_crime)
-- Published: 2026-06-26T14:38:22+00:00
-- Link: https://www.chainalysis.com/blog/sandwich-attack-jaredfromsubway-hack/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Summary JaredfromSubway.eth, the most prolific sandwich-attack bot on Ethereum, was drained of at least $7.5 million in a reverse honeypot… The post Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth appeared first on Chainalysis .
-```
-
-#### Full body
-
-```
-Crime Mercado brasileiro amadurece e enfrenta ameaças cada vez mais sofisticadas: como as tendências globais do crime com cripto estão chegando ao maior mercado da América Latina June 18, 2026
-```
-
-#### Corroborating sources (1)
-
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - Title: Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth
-  - Published: 2026-06-26T14:38:22+00:00
-  - Link: https://www.chainalysis.com/blog/sandwich-attack-jaredfromsubway-hack/
-  - Summary: Summary JaredfromSubway.eth, the most prolific sandwich-attack bot on Ethereum, was drained of at least $7.5 million in a reverse honeypot… The post Inside a Sandwich Attack: Lessons From the $7.5 Million Heist Against JaredfromSubway.eth appeared first on Chainalysis .
 
 ### Cluster ab440398cd — score 8
 
@@ -3426,94 +3352,28 @@ Insufficient egress filtering is a commonly identified vulnerability found durin
   - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
   - Summary: Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
 
-### Cluster d52bbf0c2c — score 8
-
-- Title: CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-26T12:31:56+00:00
-- Link: https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue
-  - Published: 2026-06-26T12:31:56+00:00
-  - Link: https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html
-  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical remote code execution vulnerability impacting PTC Windchill PDMlink and PTC FlexPLM enterprise Product Data Management (PDM) and Product Lifecycle Management (PLM) software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability in question is
-
-### Cluster 4df7286945 — score 8
-
-- Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-22T16:29:00+00:00
-- Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
-  - Published: 2026-06-22T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
-  - Summary: A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
-
 ### Cluster 2fd43df2a9 — score 8
 
 - Title: CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-06-26T08:00:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: education, financial_services
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, supply_chain
+- actor_attribution: ShinyHunters
+- affected_industries: education, financial_services, legal_professional
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services, education
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: financial_services, education, legal_professional
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3521,6 +3381,12 @@ A heap over-read in the Squid web proxy can leak another user's cleartext HTTP r
 
 ```
 The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach CMC Releases Analysis and Guidance for Education Sector After Canvas Data Breach News 26 June 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn The UK’s Cyber Monitoring Centre (CMC) has shared its analysis of the Canvas cyber incident affecting Instructure’s Learning Management System as the education technology firm prepares to share its own findings next week. The CMC said that approximately 160 UK higher education institutions were affected and threat actors exfiltrated confidential course and user data. In total, around 9000 educational institutions are thought to have been affected worldwide. While the incident has not met the CMC’s minimum category threshold, the review aims to better understand the financial impact of data breach events, inform the development of the CMC’s data breach analysis model and deepen insight into cyber risk within the UK higher education sector. The CMC considers a cyber-attack a ‘Category 1 event’ if it has loss of £10m ($13m) or impact more than 0.01% of UK organizations. For context, the 2025 cyber-attack against Jaguar Land Rove was ranked as a Category 3 systemic event on the five-point CMC scale. The CMC said that the Canvas event illustrates how data breach events can differ from large-scale disruption events in their financial profile. “In this case, losses appear to be driven more by response, recovery, and risk management activity than by prolonged business interruption,” the CMC review said. How the Canvas Cyber-Attack Unfolded On April 29, Instructure detected unauthorized activity in Canvas . The company said this activity was carried out by a cybercriminal organization known for large-scale attacks across multiple sectors, including technology and education. On May 7, 2026, the same threat actor gained additional access through a second Canvas vulnerability. The unauthorized actor made changes to the pages that appeared when some students and teachers were logged in through Canvas A defacement message which appeared on approximately 330 institutional Canvas login pages led many to conclude that the ShinyHunters extortion group was at the center of the cyber-attack. Attribution has not been confirmed by Instructure. The firm confirmed on May 9 that Canvas was fully online and available for use. CrowdStrike is involved in the forensic investigation into the incident, which Instructure said was carried out using one of its Free-For-Teacher accounts. Cyber Monitoring Centre Review and Recommendations The CMC said that despite the number of higher education institutions affected, there is no evidence of lateral movement of the threat actors into the other institutional systems. The recommendations outline by the CMC were described as “common good practice” for higher education establishments that have been reinforced by analysis of the Canvas event. These include: Align architecture with risk: Priorities protection of mission‑critical systems and high‑value services based on the organization’s risk appetite Separate application and data layers: Improve data integrity, recovery and validation by isolating these components where possible Enforce MFA consistently: Ensure multi-factor authentication is properly implemented across all systems Control third‑party access: Limit and closely manage external access privileges across the supply chain Assess offshore dependencies: Understand risks linked to overseas providers, including legal and support limitations Strengthen SaaS security: Follow provider guidance to avoid misconfigurations and reduce breach risk Test incident response plans: Run breach and outage scenarios to improve resilience and business continuity Canvas Incident Underscores Phishing Risks and Need for Clear Communication Communication was also a key recommendation for organizations responding to an incide
 ```
 
 #### Corroborating sources (1)
@@ -3537,16 +3403,24 @@ The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK univer
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-06-25T14:15:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+- urgency_signals: no_patch_yet, preauth_unauth, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: government
+- cve_ids: CVE-2026-20245, CVE-2026-20127, CVE-2026-20182
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -3554,6 +3428,12 @@ The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK univer
 
 ```
 A high-severity flaw in Cisco Catalyst SD-WAN Manager disclosed in early June was exploited as early as March
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Cisco Vulnerability Exploited Months Before Disclosure, Google Warns Cisco Vulnerability Exploited Months Before Disclosure, Google Warns News 25 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn A threat actor started exploiting a severe vulnerability in Cisco products at least two months before the flaw was disclosed, a new Google report warned. Tracked as CVE-2026-20245, this high-severity (CVSS 7.8) privilege escalation vulnerability stems from insufficient validation of user-supplied input in the command-line interface (CLI) of Cisco Catalyst SD-WAN Controller, formerly known as SD-WAN vSmart. It affects several versions of Cisco Catalyst SD-WAN Manager as well as related products like Cisco Catalyst SD-WAN Validator. Affected versions of these products are vulnerable regardless of the installation – on-premises, Cloud-Pro, Cloud (Cisco Managed) and Government (FedRAMP). Authenticated, local attackers can exploit it by uploading a crafted file to the affected system and can consequently execute arbitrary commands as root. The zero-day vulnerability was disclosed by Cisco on June 4 after it has observed “limited cases where the exploitation of this bug resulted in a configuration change pushed to edge devices.” However, at the time of disclosure, no patch was available. The tech giant started releasing Catalyst SD-WAN Manager updates with the CVE-2026-20245 fix on June 10. Vulnerability Disclosure in June, Exploitation in March In a new report published on June 24, security researchers at Mandiant, part of Google Cloud, said they identified a threat actor targeting SD-WAN infrastructure at a service provider in early 2026. From late 2025 to January 2026, Mandiant observed multiple unauthorized peering connections to the victim’s SD-WAN Manager devices. The researchers noted that this malicious activity could be linked to the exploitation of CVE-2026-20127 or CVE-2026-20182 as the vulnerabilities were not disclosed, and patches were not available during this period. CVE-2026-20127 and CVE-2026-20182 are critical vulnerabilities recently disclosed by Cisco that affect the peering authentication mechanism for Cisco Catalyst SD-WAN controllers. Both could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges. The Mandiant researchers noticed further unauthorized peering connections on a device running a software version unaffected by CVE-2026-20127 in March. They checked with Cisco, which confirmed that these connections did not leverage CVE-2026-20182 either and could instead be using stolen certificate material from a previous compromise of the same device. They later found that a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access and then used that access to manipulate default account passwords to evade detection. They also identified that a threat actor exploited what is now known as CVE-2026-20245 in Cisco Catalyst SD-WAN Manager to gain root-level access via a malicious CSV upload. This latter actor then deleted malicious files, reverted configuration changes and executed a validation script to ensure indicators have been purged. “It is unclear if the same threat actor was responsible for the late 2025 to January 2026 and March 2026 rogue peering activity,” Mandiant said. New Living-Off-the-Edge Paradigm for Threat Actors Nevertheless, Google highlighted that this campaign “underscores the living-off-the-edge paradigm , where threat actors prioritize the compromise of network appliances to bypass traditional security perimeters.” Mandiant further emphasized that orchestrators managing edge devices and software-defined networking appliances “often lack the telemetry required for deep forensic analysis, and their role as a central control plane provides a stealthy platform for persistent, wide-scale access to intern
 ```
 
 #### Corroborating sources (1)
@@ -3596,3 +3476,36 @@ Cobalt study finds 20-percentage-point drop in number of organizations relying s
   - Published: 2026-06-25T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
   - Summary: Cobalt study finds 20-percentage-point drop in number of organizations relying solely on AI automation for testing
+
+### Cluster 4df7286945 — score 8
+
+- Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-22T16:29:00+00:00
+- Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+  - Published: 2026-06-22T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+  - Summary: A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
