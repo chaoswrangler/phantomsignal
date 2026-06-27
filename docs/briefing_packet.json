@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-27T18:10:37.726244+00:00",
+  "generated_at": "2026-06-27T20:14:20.828636+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
-  "feeds_ok": 77,
+  "feeds_ok": 76,
   "total_items_in_window": 300,
   "total_clusters_raw": 147,
   "total_clusters_in_packet": 60,
@@ -81,12 +81,12 @@
       "item_count": 15,
       "in_window_count": 4
     },
-    "Trend Micro Research": {
-      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+    "Google Threat Analysis Group": {
+      "url": "https://blog.google/threat-analysis-group/rss/",
       "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 1
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "SentinelOne Labs": {
       "url": "https://www.sentinelone.com/labs/feed/",
@@ -95,12 +95,12 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Google Threat Analysis Group": {
-      "url": "https://blog.google/threat-analysis-group/rss/",
+    "Trend Micro Research": {
+      "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
       "cohort": "threat_research_primary",
-      "status": "parse_error",
-      "item_count": 0,
-      "in_window_count": 0
+      "status": "ok",
+      "item_count": 25,
+      "in_window_count": 1
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -130,26 +130,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Citizen Lab": {
-      "url": "https://citizenlab.ca/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
+    },
+    "Citizen Lab": {
+      "url": "https://citizenlab.ca/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -158,19 +151,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
       "cohort": "government_authoritative",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 7
-    },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -179,25 +172,25 @@
       "item_count": 10,
       "in_window_count": 4
     },
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 3
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "Red Canary": {
@@ -214,19 +207,26 @@
       "item_count": 40,
       "in_window_count": 0
     },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 78,
+      "in_window_count": 0
+    },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 50,
       "in_window_count": 4
-    },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 0
     },
     "The DFIR Report": {
       "url": "https://thedfirreport.com/feed/",
@@ -242,19 +242,19 @@
       "item_count": 15,
       "in_window_count": 0
     },
-    "TrustedSec": {
-      "url": "https://www.trustedsec.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "Proofpoint Threat Insight": {
       "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 2
+    },
+    "TrustedSec": {
+      "url": "https://www.trustedsec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
@@ -284,6 +284,13 @@
       "item_count": 10,
       "in_window_count": 0
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -305,6 +312,13 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Huntress": {
+      "url": "https://www.huntress.com/blog/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 4
+    },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
       "cohort": "offensive_vulnerability_research",
@@ -312,26 +326,12 @@
       "item_count": 20,
       "in_window_count": 1
     },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
-    },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Huntress": {
-      "url": "https://www.huntress.com/blog/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 4
     },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
@@ -361,19 +361,19 @@
       "item_count": 100,
       "in_window_count": 5
     },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Cloudflare Radar": {
       "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 0
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
@@ -389,26 +389,26 @@
       "item_count": 10,
       "in_window_count": 2
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
     "Google Cloud Security": {
       "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 11
+    },
+    "OpenSSF Blog": {
+      "url": "https://openssf.org/feed/",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 3
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -417,12 +417,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "OpenSSF Blog": {
-      "url": "https://openssf.org/feed/",
-      "cohort": "ai_security_agentic_risk",
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 2
     },
     "BleepingComputer": {
       "url": "https://www.bleepingcomputer.com/feed/",
@@ -445,13 +445,6 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "AI Snake Oil": {
-      "url": "https://www.aisnakeoil.com/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 0
-    },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -466,12 +459,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Help Net Security": {
-      "url": "https://www.helpnetsecurity.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
+    "AI Snake Oil": {
+      "url": "https://www.aisnakeoil.com/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "item_count": 20,
+      "in_window_count": 0
     },
     "Dark Reading": {
       "url": "https://www.darkreading.com/rss.xml",
@@ -480,12 +473,12 @@
       "item_count": 50,
       "in_window_count": 25
     },
-    "Schneier on Security": {
-      "url": "https://www.schneier.com/feed/atom/",
-      "cohort": "practitioner_analysis",
+    "Help Net Security": {
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 8
+      "in_window_count": 10
     },
     "Black Hills Information Security": {
       "url": "https://www.blackhillsinfosec.com/feed/",
@@ -494,12 +487,26 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Schneier on Security": {
+      "url": "https://www.schneier.com/feed/atom/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 8
+    },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -513,13 +520,6 @@
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
-      "in_window_count": 0
-    },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 0
     },
     "Reddit r/blueteamsec": {
@@ -543,6 +543,13 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
     "Reddit r/AskNetsec": {
       "url": "https://www.reddit.com/r/AskNetsec/.rss",
       "cohort": "reddit_practitioner_osint",
@@ -550,12 +557,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 2
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -570,13 +577,6 @@
       "status": "ok",
       "item_count": 100,
       "in_window_count": 27
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -806,7 +806,7 @@
     },
     {
       "cluster_id": "62bb44cac7",
-      "priority_score": 30,
+      "priority_score": 29,
       "member_count": 1,
       "corroborating_source_count": 1,
       "strong_signals": [],
@@ -1727,143 +1727,6 @@
       ]
     },
     {
-      "cluster_id": "fd2a2922d1",
-      "priority_score": 16,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation",
-          "zero_day"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "government",
-          "manufacturing_industrial",
-          "retail_ecommerce"
-        ],
-        "affected_products": [
-          "Gogs",
-          "Ivanti",
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-12569",
-          "CVE-2026-20230"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "actively_exploited",
-          "poc_available",
-          "zero_day"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-        "published": "2026-06-26T19:43:06+00:00",
-        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
-        "full_body": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "zero_day",
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "government",
-            "manufacturing_industrial",
-            "retail_ecommerce"
-          ],
-          "affected_products": [
-            "Gogs",
-            "Ivanti",
-            "Palo Alto Networks"
-          ],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-20230",
-            "CVE-2026-12569"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "actively_exploited",
-            "zero_day",
-            "poc_available"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Gogs": "target",
-            "Ivanti": "target",
-            "Palo Alto Networks": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
-          "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
-          "published": "2026-06-26T19:43:06+00:00",
-          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day",
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "government",
-              "manufacturing_industrial",
-              "retail_ecommerce"
-            ],
-            "affected_products": [
-              "Gogs",
-              "Ivanti",
-              "Palo Alto Networks"
-            ],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20230",
-              "CVE-2026-12569"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "actively_exploited",
-              "zero_day",
-              "poc_available"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Gogs": "target",
-              "Ivanti": "target",
-              "Palo Alto Networks": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "0ac9d62120",
       "priority_score": 16,
       "member_count": 5,
@@ -2526,6 +2389,143 @@
       ]
     },
     {
+      "cluster_id": "fd2a2922d1",
+      "priority_score": 15,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "active_exploitation",
+          "zero_day"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "government",
+          "manufacturing_industrial",
+          "retail_ecommerce"
+        ],
+        "affected_products": [
+          "Gogs",
+          "Ivanti",
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-12569",
+          "CVE-2026-20230"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available",
+          "zero_day"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+        "published": "2026-06-26T19:43:06+00:00",
+        "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
+        "full_body": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "zero_day",
+            "active_exploitation"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "government",
+            "manufacturing_industrial",
+            "retail_ecommerce"
+          ],
+          "affected_products": [
+            "Gogs",
+            "Ivanti",
+            "Palo Alto Networks"
+          ],
+          "tools_used": [],
+          "cve_ids": [
+            "CVE-2026-20230",
+            "CVE-2026-12569"
+          ],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "actively_exploited",
+            "zero_day",
+            "poc_available"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Gogs": "target",
+            "Ivanti": "target",
+            "Palo Alto Networks": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks",
+          "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+          "published": "2026-06-26T19:43:06+00:00",
+          "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "zero_day",
+              "active_exploitation"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "government",
+              "manufacturing_industrial",
+              "retail_ecommerce"
+            ],
+            "affected_products": [
+              "Gogs",
+              "Ivanti",
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [
+              "CVE-2026-20230",
+              "CVE-2026-12569"
+            ],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "actively_exploited",
+              "zero_day",
+              "poc_available"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Gogs": "target",
+              "Ivanti": "target",
+              "Palo Alto Networks": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "c409634b31",
       "priority_score": 15,
       "member_count": 1,
@@ -2870,114 +2870,6 @@
             "role_map": {},
             "weak_tags": {
               "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "84319555f9",
-      "priority_score": 11,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft",
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "Unit 42",
-        "cohort": "threat_research_primary",
-        "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
-        "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-        "published": "2026-06-26T19:05:33+00:00",
-        "summary": "We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .",
-        "full_body": "Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 5 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 26, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require strong phishing-resistant multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms (including Palo Alto Networks Idira MFA) and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Ch",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng",
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Palo Alto Networks"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {
-            "Palo Alto Networks": "target",
-            "Fortinet": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Fortinet",
-                "mention",
-                0.3
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Unit 42",
-          "cohort": "threat_research_primary",
-          "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
-          "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-          "published": "2026-06-26T19:05:33+00:00",
-          "summary": "We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng",
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Palo Alto Networks"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {
-              "Palo Alto Networks": "target",
-              "Fortinet": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Fortinet",
-                  "mention",
-                  0.3
-                ]
-              ]
             }
           }
         }
@@ -3608,6 +3500,114 @@
             },
             "weak_tags": {
               "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "84319555f9",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft",
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "Unit 42",
+        "cohort": "threat_research_primary",
+        "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+        "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "published": "2026-06-26T19:05:33+00:00",
+        "summary": "We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .",
+        "full_body": "Threat Research Center High Profile Threats General General Threat Brief: Mitigating Large-Scale Credential Attacks 5 min read Related Products Next-Generation Firewall Unit 42 Incident Response By: Andy Piazza Published: June 26, 2026 Categories: General High Profile Threats Tags: Credential theft Fortibleed Password spraying Share Unit 42 is aware of a large-scale password spraying and credential theft campaign (“FortiBleed”) against Fortinet devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. While this activity is not targeting Palo Alto Networks devices, Unit 42 has observed suspicious login attempts in customer telemetry and we are providing this report out of an abundance of caution to ensure our customers have the latest intelligence and product recommendations to protect, detect and respond to attacks to their network. The threat actors are using a curated password list to attempt password spraying against services exposed to the internet. Unit 42 assesses that the initial password list for this activity was likely developed through a mix of previous breaches, including the successful exploitation of vulnerabilities. Once they obtain credentials, they add them to their password list for future attempts against additional targets, as well as for logging into accounts they successfully compromised. The threat actors are leveraging a multi-stage process to gain persistent, high-privilege access: Password spraying for initial access: Massive internet-wide scanning and password spraying attempts against Fortinet, Sophos and MSSQL services Configuration Extraction: Depending on the permissions of their initial access, the actor may exploit a privilege escalation vulnerability prior to pulling device configuration files, including stored credentials Offline Cracking: Offline password cracking of the stolen credentials adds to the password list used in step one to target new devices, as well as to log into compromised devices to establish persistence as an administrator Unit 42 observed an initial access broker (IAB) on the Russian-language cybercrime forum Exploit[.]in claiming responsibility for this campaign, referencing a CVE (no further information), and offering the harvested credentials for sale on June 16, 2026. Unit 42 has not validated their claims at this time. Figure 1. Darkweb post of IAB selling credentials. Unit 42 recommends auditing remote access logs for suspicious activity with a focus on successful logins shortly after large volume password failure events. We also recommend reviewing and implementing the hardening guidance below for edge devices. SOCRadar provided the initial reporting on the targeting of FortiGate devices. We observed attempts targeting MSSQL devices as well, and have seen reports of Sophos devices also being targeted. Palo Alto Networks customers receive assistance protecting against and mitigating credential attacks in the following ways: PAN-OS uses a Master Key to encrypt cryptographic keys in either ES-256-CBC or AES-256-GCM encryption algorithm PAN-OS only stores SHA-256 encrypted and salted hashes Customers can integrate several MFA platforms to enhance their security posture Customers can customize Password Profiles and complexity Customers can follow our Administrative Access Best Practices Palo Alto Networks also recommends the following hardening guidelines: Require MFA: Require strong phishing-resistant multi-factor authentication for all remote services. NGFW customers can integrate several MFA platforms (including Palo Alto Networks Idira MFA) and customize their Password Profiles and complexity to enhance their security posture. Adopt Zero Trust Architecture: Leverage “jump boxes” and Zero Trust Network Access (ZTNA) policies to ensure management interfaces are never exposed directly to the public internet, further narrowing the attack surface for configuration extraction. Change Default Credentials: Ch",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng",
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Palo Alto Networks"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {
+            "Palo Alto Networks": "target",
+            "Fortinet": "mention"
+          },
+          "weak_tags": {
+            "products": [
+              [
+                "Fortinet",
+                "mention",
+                0.3
+              ]
+            ]
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Unit 42",
+          "cohort": "threat_research_primary",
+          "title": "Threat Brief: Mitigating Large-Scale Credential Attacks",
+          "link": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+          "published": "2026-06-26T19:05:33+00:00",
+          "summary": "We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng",
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Palo Alto Networks"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {
+              "Palo Alto Networks": "target",
+              "Fortinet": "mention"
+            },
+            "weak_tags": {
+              "products": [
+                [
+                  "Fortinet",
+                  "mention",
+                  0.3
+                ]
+              ]
             }
           }
         }
@@ -4624,180 +4624,6 @@
       ]
     },
     {
-      "cluster_id": "4cc90df0fb",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "SMB cyber readiness: the road to resilience starts here",
-        "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
-        "published": "2026-06-26T08:50:00+00:00",
-        "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
-        "full_body": "Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "SMB cyber readiness: the road to resilience starts here",
-          "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
-          "published": "2026-06-26T08:50:00+00:00",
-          "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0d07bde6a5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
-        "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
-        "published": "2026-06-24T12:35:24+00:00",
-        "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
-        "full_body": "ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
-          "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
-          "published": "2026-06-24T12:35:24+00:00",
-          "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2a1cd2055f",
       "priority_score": 10,
       "member_count": 1,
@@ -4964,6 +4790,180 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4cc90df0fb",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "SMB cyber readiness: the road to resilience starts here",
+        "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+        "published": "2026-06-26T08:50:00+00:00",
+        "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
+        "full_body": "Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "SMB cyber readiness: the road to resilience starts here",
+          "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+          "published": "2026-06-26T08:50:00+00:00",
+          "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0d07bde6a5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
+        "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
+        "published": "2026-06-24T12:35:24+00:00",
+        "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
+        "full_body": "ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
+          "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
+          "published": "2026-06-24T12:35:24+00:00",
+          "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -7250,48 +7250,6 @@
       ]
     },
     {
-      "label": "CVE-2026-20245 exploitation activity",
-      "anchor_signal": "CVE-2026-20245",
-      "theme_key": "cve-2026-20245",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "affected_industries": [
-          "government"
-        ],
-        "cve_ids": [
-          "CVE-2026-20127",
-          "CVE-2026-20182",
-          "CVE-2026-20245"
-        ],
-        "urgency_signals": [
-          "zero_day",
-          "preauth_unauth",
-          "no_patch_yet"
-        ]
-      },
-      "cluster_count": 3,
-      "article_count": 5,
-      "cohesion": 0.752,
-      "shared_strong_signals": [
-        "CVE-2026-20245"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "92ea9e355d",
-        "76f836fe99",
-        "49c2eae0f5"
-      ],
-      "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
-        "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/"
-      ]
-    },
-    {
       "label": "CVE-2026-20182 exploitation activity",
       "anchor_signal": "CVE-2026-20182",
       "theme_key": "cve-2026-20182",
@@ -7360,6 +7318,48 @@
       "cohesion": 0.752,
       "shared_strong_signals": [
         "CVE-2026-20127"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99",
+        "49c2eae0f5"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
+        "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20245 exploitation activity",
+      "anchor_signal": "CVE-2026-20245",
+      "theme_key": "cve-2026-20245",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "preauth_unauth",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.752,
+      "shared_strong_signals": [
+        "CVE-2026-20245"
       ],
       "member_cves": [],
       "also_targets": [],
