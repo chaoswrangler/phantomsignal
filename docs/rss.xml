@@ -6,18 +6,26 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 28 Jun 2026 21:10:51 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 23:12:24 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
+<title>From CI/CD to Cloud Data: How Shai Hulud Persistence Leads to Redshift Breach</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ui65pg/from_cicd_to_cloud_data_how_shai_hulud/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sun, 28 Jun 2026 19:21:53 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ui65pg/from_cicd_to_cloud_data_how_shai_hulud/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Data breach exposes up to 14.2 million email logins at six ISPs</title>
 <link>https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/</link>
-<description><![CDATA[Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]<br/><br/><em>Tags: supply_chain · data_breach</em>]]></description>
+<description><![CDATA[Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]<br/><br/><em>Tags: data_breach</em>]]></description>
 <pubDate>Sun, 28 Jun 2026 14:13:46 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>supply_chain</category>
 <category>data_breach</category>
 </item>
 <item>
@@ -67,6 +75,15 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
+<title>heavener: This is what happens when you can&apos;t afford EDR licenses</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1uh15gn/heavener_this_is_what_happens_when_you_cant/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sat, 27 Jun 2026 12:10:31 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1uh15gn/heavener_this_is_what_happens_when_you_cant/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+</item>
+<item>
 <title>Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk</title>
 <link>https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk</link>
 <description><![CDATA[Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
@@ -75,6 +92,25 @@
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
 <category>ransomware_extortion</category>
+</item>
+<item>
+<title>CVE-2026-45504: CVE-2026-45504 Microsoft Exchange File Read - allows an authenticated low-privileged user to read arbitrary local files from the Exchange server by creating an EWS ReferenceAttachment with a crafted ProviderEndpointUrl pointing to an attacker-controlled server.</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ugw8oy/cve202645504_cve202645504_microsoft_exchange_file/</link>
+<description><![CDATA[CVE-2026-45504 Microsoft Exchange SSRF via File Read | HawkTrace submitted by /u/digicat [link] [comments]<br/><br/><em>Tags: CVE-2026-45504</em>]]></description>
+<pubDate>Sat, 27 Jun 2026 07:31:03 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ugw8oy/cve202645504_cve202645504_microsoft_exchange_file/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2026-45504</category>
+</item>
+<item>
+<title>gluegate: Memory API proxy via signed mozglue.dll - Detection research PoC: proxy memory operations (memory mapping, local memory allocation) through Mozilla&apos;s signed mozglue.dll so kernel callbacks attribute the final user module to a trusted vendor DLL</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ugw2qw/gluegate_memory_api_proxy_via_signed_mozgluedll/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Sat, 27 Jun 2026 07:21:30 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ugw2qw/gluegate_memory_api_proxy_via_signed_mozgluedll/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>FBI: Russian hackers now target Signal backup recovery keys</title>
@@ -89,15 +125,12 @@
 <item>
 <title>CISA sets urgent deadline to fix Cisco flaw exploited in attacks</title>
 <link>https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/</link>
-<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]<br/><br/><em>Tags: Gogs · Ivanti · Palo Alto Networks · CVE-2026-20230 · CVE-2026-12569 · zero_day · active_exploitation</em>]]></description>
+<description><![CDATA[The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]<br/><br/><em>Tags: active_exploitation</em>]]></description>
 <pubDate>Fri, 26 Jun 2026 19:43:06 +0000</pubDate>
 <guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/</guid>
 <source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
-<category>Gogs</category>
-<category>Ivanti</category>
-<category>Palo Alto Networks</category>
-<category>CVE-2026-20230</category>
+<category>active_exploitation</category>
 </item>
 <item>
 <title>FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys</title>
@@ -533,6 +566,17 @@
 <category>web_shell_backdoor</category>
 </item>
 <item>
+<title>Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]<br/><br/><em>Tags: CVE-2026-20245 · zero_day</em>]]></description>
+<pubDate>Fri, 26 Jun 2026 06:25:33 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
+<category>CVE-2026-20245</category>
+<category>zero_day</category>
+</item>
+<item>
 <title>Risky Bulletin: Operation Endgame dismantles Amadey and StealerC</title>
 <link>https://risky.biz/RBNEWS582/</link>
 <description><![CDATA[Law enforcement dismantles two more malware operations, Japan’s army used infected USB drives, Anthropic accuses Alibaba of distillation attacks, and Australia finds “digital dynamite” on critical networks.<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -541,6 +585,15 @@
 <source url="https://risky.biz/feeds/risky-business-news/">Risky Business News</source>
 <category>practitioner_analysis</category>
 <category>Anthropic/Claude</category>
+</item>
+<item>
+<title>Testing AI Threat Hunting against Real-World KQL: A Side-by-Side Test</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1ufwiza/testing_ai_threat_hunting_against_realworld_kql_a/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Fri, 26 Jun 2026 04:27:32 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1ufwiza/testing_ai_threat_hunting_against_realworld_kql_a/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more</title>
@@ -2924,6 +2977,15 @@
 <category>detection_response_operations</category>
 </item>
 <item>
+<title>5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR</title>
+<link>https://www.greynoise.io/blog/5-things-soar-greynoise-integration</link>
+<description><![CDATA[Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.]]></description>
+<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.greynoise.io/blog/5-things-soar-greynoise-integration</guid>
+<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
+<category>cloud_identity_infrastructure</category>
+</item>
+<item>
 <title>Build and Deploy a Remote MCP Server to GKE in 30 Minutes</title>
 <link>https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes/</link>
 <description><![CDATA[Build and Deploy a Remote MCP Server to GKE in 30 Minutes Integrating context from tools and data sources into LLMs can be challenging, which impacts the ease of development for AI agents. To address this challenge, Anthropic introduced the Model Context Protocol (MCP) , which standardizes how applications provide context to these models. Developers often want to build an MCP server for their APIs to make them available to fellow developers, allowing them to use it as context in their own applications. Google Kubernetes Engine (GKE) provides a scalable, reliable, and secure environment to deploy these remote MCP servers. This guide shows the straightforward process of setting up a secure remote MCP server on GKE. MCP transports The Model Context Protocol follows a client-server architecture. It initially only supported running the server locally using the stdio transport. The protocol has since evolved and now supports remote access transports, specifically Streamable HTTP . With Strea<br/><br/><em>Tags: Anthropic/Claude</em>]]></description>
@@ -2932,15 +2994,6 @@
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>5 Things I Show Every SOC Team When We Wire GreyNoise Into Their SOAR</title>
-<link>https://www.greynoise.io/blog/5-things-soar-greynoise-integration</link>
-<description><![CDATA[Your playbooks move fast, but GreyNoise helps them move smarter. Here are five ways GreyNoise drives better decisions in SOAR.]]></description>
-<pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.greynoise.io/blog/5-things-soar-greynoise-integration</guid>
-<source url="https://www.greynoise.io/blog/rss.xml">GreyNoise</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Fileless Phantom Stealer Targets Browser Credentials</title>
@@ -3259,15 +3312,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Cloudflare CAPTCHA on at least one ampersand</title>
-<link>https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything</link>
-<description><![CDATA[TIL: Cloudflare CAPTCHA on at least one ampersand I&apos;m using Cloudflare&apos;s CAPTCHA (they call it a &quot;Web Application Firewall &gt; Custom rules &gt; Managed Challenge&quot; these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand: (http.request.uri.path wildcard r&quot;/search/*&quot; and http.request.uri.query contains &quot;&amp;&quot;) And now /search/?q=lemur works without triggering a CAPTCHA! Also included: notes on trying out the Cloudflare MCP with Claude Code , though it turned out not to be able to edit the rules in question so I had Claude Code switch to the Cloudflare API instead. Tags: captchas , cloudflare , model-context-protocol , claude-code]]></description>
-<pubDate>Tue, 16 Jun 2026 00:21:36 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
-</item>
-<item>
 <title>The Intelligence No One Else Has: Inside Recorded Future’s Proprietary Collection Engine</title>
 <link>https://www.recordedfuture.com/blog/proprietary-collection-engine</link>
 <description><![CDATA[Learn how Recorded Future’s proprietary collection engine empowers organizations to move beyond reactive security. Discover the power of our four unique intelligence source types—technical, underground, community, and open-source—working together to provide proactive, full-lifecycle threat protection.]]></description>
@@ -3313,15 +3357,6 @@
 <source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
 <category>reddit_practitioner_osint</category>
 <category>ddos</category>
-</item>
-<item>
-<title>datasette-apps 0.1a3</title>
-<link>https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything</link>
-<description><![CDATA[Release: datasette-apps 0.1a3 Fixed a bug where users without the create-app permission could still create apps. #27 Fixed a bug where it was impossible to grant permission to edit an app to users who were not the app&apos;s owner. The rules for edit/delete are now the same as view: if the app is private only the owner can modify it, otherwise permission is controlled by Datasette&apos;s regular permission system. #29 Tags: datasette]]></description>
-<pubDate>Mon, 15 Jun 2026 20:25:07 +0000</pubDate>
-<guid isPermaLink="true">https://simonwillison.net/2026/Jun/15/datasette-apps-2/#atom-everything</guid>
-<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
-<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>HTTP/2 Bomb Attacks Put Telcos, Healthcare Orgs at Risk</title>
@@ -11356,7 +11391,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff947804a60&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7ff94e802a00&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -12101,6 +12136,15 @@
 <guid isPermaLink="true">https://deepmind.google/blog/10-years-of-alphago/</guid>
 <source url="https://deepmind.google/blog/rss.xml">Google DeepMind Blog</source>
 <category>ai_security_agentic_risk</category>
+</item>
+<item>
+<title>Daily BlueTeamSec Briefing Archive - daily AI generated podcast of the last 24hours of posts</title>
+<link>https://www.reddit.com/r/blueteamsec/comments/1rowtkz/daily_blueteamsec_briefing_archive_daily_ai/</link>
+<description><![CDATA[submitted by /u/digicat [link] [comments]]]></description>
+<pubDate>Mon, 09 Mar 2026 10:43:26 +0000</pubDate>
+<guid isPermaLink="true">https://www.reddit.com/r/blueteamsec/comments/1rowtkz/daily_blueteamsec_briefing_archive_daily_ai/</guid>
+<source url="https://www.reddit.com/r/blueteamsec/.rss">Reddit r/blueteamsec</source>
+<category>reddit_practitioner_osint</category>
 </item>
 <item>
 <title>Top 10 Worst Places to Store a Password | Huntress</title>
@@ -20580,7 +20624,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20589,7 +20633,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20598,7 +20642,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20607,7 +20651,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20616,7 +20660,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20625,7 +20669,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20634,7 +20678,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20643,7 +20687,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20652,7 +20696,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20661,7 +20705,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 21:10:51 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 23:12:24 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
