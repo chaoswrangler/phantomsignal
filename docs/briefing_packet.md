@@ -1,6 +1,6 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-28T19:40:00.469312+00:00
+- Generated: 2026-06-28T21:10:51.543757+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
@@ -75,31 +75,26 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 6
+  - Item count: 15
+  - In window count: 4
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
@@ -110,8 +105,18 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -125,56 +130,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
-  - Item count: 40
+  - Item count: 10
   - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -190,6 +185,11 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
@@ -230,36 +230,36 @@
   - Status: ok
   - Item count: 30
   - In window count: 3
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -290,21 +290,16 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -315,46 +310,51 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 15
+  - In window count: 15
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 16
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -365,21 +365,16 @@
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 1
+  - In window count: 8
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,18 +385,18 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -410,11 +405,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -435,6 +430,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 44
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -1448,39 +1448,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code
   - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
   - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
 
-### Cluster d8d3a457ab — score 14
-
-- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-28T07:56:44+00:00
-- Link: https://isc.sans.edu/diary/rss/33106
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-  - Published: 2026-06-28T07:56:44+00:00
-  - Link: https://isc.sans.edu/diary/rss/33106
-  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-
 ### Cluster 3bbc834ec2 — score 14
 
 - Title: Detecting the Klue supply chain attack in Salesforce instances
@@ -1538,6 +1505,39 @@ Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat 
   - Published: 2026-06-22T10:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
   - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
+
+### Cluster d8d3a457ab — score 13
+
+- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-28T07:56:44+00:00
+- Link: https://isc.sans.edu/diary/rss/33106
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+  - Published: 2026-06-28T07:56:44+00:00
+  - Link: https://isc.sans.edu/diary/rss/33106
+  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 
 ### Cluster a5fdf7dc6d — score 12
 
@@ -2000,6 +2000,86 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
   - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
 
+### Cluster 73e0a62a37 — score 10
+
+- Title: Beyond IOCs: AI-enabled threat intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T18:00:26+00:00
+- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+```
+
+#### Full body
+
+```
+Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Beyond IOCs: AI-enabled threat intelligence
+  - Published: 2026-06-25T18:00:26+00:00
+  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
+
+### Cluster 18abdcb9e0 — score 10
+
+- Title: Introduction to COM usage by Windows threats
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T10:00:26+00:00
+- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- attack_techniques: T1021.003
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+```
+
+#### Full body
+
+```
+Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
+```
+
+#### Corroborating sources (1)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: Introduction to COM usage by Windows threats
+  - Published: 2026-06-25T10:00:26+00:00
+  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+
 ### Cluster a2f878fad9 — score 10
 
 - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
@@ -2223,86 +2303,6 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Published: 2026-06-22T16:00:00+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/
   - Summary: Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .
-
-### Cluster 73e0a62a37 — score 10
-
-- Title: Beyond IOCs: AI-enabled threat intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T18:00:26+00:00
-- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-```
-
-#### Full body
-
-```
-Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Beyond IOCs: AI-enabled threat intelligence
-  - Published: 2026-06-25T18:00:26+00:00
-  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-
-### Cluster 18abdcb9e0 — score 10
-
-- Title: Introduction to COM usage by Windows threats
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T10:00:26+00:00
-- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-```
-
-#### Full body
-
-```
-Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Introduction to COM usage by Windows threats
-  - Published: 2026-06-25T10:00:26+00:00
-  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
 
 ### Cluster 96f12a0395 — score 10
 
