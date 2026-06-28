@@ -6,7 +6,7 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 76 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 28 Jun 2026 11:51:34 +0000</lastBuildDate>
+<lastBuildDate>Sun, 28 Jun 2026 14:03:18 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
 <item>
@@ -735,8 +735,8 @@
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
+<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
+<category>threat_research_primary</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
 </item>
@@ -746,8 +746,8 @@
 <description><![CDATA[Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se<br/><br/><em>Tags: apt_espionage · web_shell_backdoor</em>]]></description>
 <pubDate>Thu, 25 Jun 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/</guid>
-<source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
-<category>threat_research_primary</category>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
 <category>apt_espionage</category>
 <category>web_shell_backdoor</category>
 </item>
@@ -1267,17 +1267,6 @@
 <item>
 <title>Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</link>
-<description><![CDATA[Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used th<br/><br/><em>Tags: CVE-2026-20245 · zero_day</em>]]></description>
-<pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>CVE-2026-20245</category>
-<category>zero_day</category>
-</item>
-<item>
-<title>Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager</title>
-<link>https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</link>
 <description><![CDATA[Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used th<br/><br/><em>Tags: CVE-2026-20245 · CVE-2026-20127 · CVE-2026-20182 · zero_day</em>]]></description>
 <pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</guid>
@@ -1286,6 +1275,17 @@
 <category>CVE-2026-20245</category>
 <category>CVE-2026-20127</category>
 <category>CVE-2026-20182</category>
+<category>zero_day</category>
+</item>
+<item>
+<title>Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager</title>
+<link>https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</link>
+<description><![CDATA[Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used th<br/><br/><em>Tags: CVE-2026-20245 · zero_day</em>]]></description>
+<pubDate>Wed, 24 Jun 2026 11:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>CVE-2026-20245</category>
 <category>zero_day</category>
 </item>
 <item>
@@ -3576,16 +3576,6 @@
 <guid isPermaLink="true">https://www.interconnects.ai/p/welcome-to-the-agi-era-of-ai-governance</guid>
 <source url="https://www.interconnects.ai/feed">Interconnects</source>
 <category>ai_security_agentic_risk</category>
-</item>
-<item>
-<title>Researcher accidentally gained access to a threat actor-controlled phishing website</title>
-<link>https://www.reddit.com/r/netsec/comments/1u5dzz8/researcher_accidentally_gained_access_to_a_threat/</link>
-<description><![CDATA[An interesting write-up from https://x.com/unrequitedlyfe describing how an accidental login led to access to a threat actor-controlled phishing website. The blog provides a behind-the-scenes look at phishing infrastructure, operational mistakes made by the actor, backend panels, and infrastructure pivoting opportunities that can assist threat intelligence investigations. Worth a read for those interested in phishing analysis, OSINT, and threat actor infrastructure tracking. submitted by /u/anuraggawande [link] [comments]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Sun, 14 Jun 2026 06:50:30 +0000</pubDate>
-<guid isPermaLink="true">https://www.reddit.com/r/netsec/comments/1u5dzz8/researcher_accidentally_gained_access_to_a_threat/</guid>
-<source url="https://www.reddit.com/r/netsec/.rss">Reddit r/netsec</source>
-<category>reddit_practitioner_osint</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>AI-Accelerated Exploitation: The Mythos-Era Threat Model</title>
@@ -11283,7 +11273,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7fdee01e6d60&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f97ea5e9340&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20507,7 +20497,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20516,7 +20506,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20525,7 +20515,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20534,7 +20524,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20543,7 +20533,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20552,7 +20542,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20561,7 +20551,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20570,7 +20560,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20579,7 +20569,7 @@
 <title>CrowdStrike Named an Innovation and Growth Leader in the 2026 Frost Radar™: Cloud and Application Runtime Security</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-leads-2026-frost-radar-cloud-runtime-security/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20588,7 +20578,7 @@
 <title>CrowdStrike Expands Identity Leadership with OpenID and IDPro</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</link>
 <description><![CDATA[]]></description>
-<pubDate>Sun, 28 Jun 2026 11:51:34 +0000</pubDate>
+<pubDate>Sun, 28 Jun 2026 14:03:18 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-expands-identity-leadership-with-openid-and-idpro/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>

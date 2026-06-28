@@ -1,11 +1,11 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-28T11:51:33.973110+00:00
+- Generated: 2026-06-28T14:03:18.419403+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 76
-- Total items in window: 300
+- Total items in window: 301
 - Total clusters raw: 149
 - Total clusters in packet: 60
 - Dropped low score: 89
@@ -70,66 +70,56 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 1
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 4
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
@@ -140,33 +130,43 @@
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 4
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -195,6 +195,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
@@ -205,11 +210,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -225,16 +225,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 3
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
@@ -245,11 +245,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -265,6 +260,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
@@ -280,16 +280,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 5
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
@@ -300,16 +305,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -320,43 +325,23 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 16
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,26 +350,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 25
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 8
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 25
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -410,16 +410,16 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
@@ -444,16 +444,16 @@
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 10
-- **Embrace the Red** (ai_security_agentic_risk)
-  - URL: https://embracethered.com/blog/index.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
+  - In window count: 11
 - **tl;dr sec** (practitioner_analysis)
   - URL: https://tldrsec.com/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Embrace the Red** (ai_security_agentic_risk)
+  - URL: https://embracethered.com/blog/index.xml
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Risky Business News** (practitioner_analysis)
   - URL: https://risky.biz/feeds/risky-business-news/
@@ -497,6 +497,27 @@
   - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
   - https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
 
+### CVE-2026-20182 exploitation activity
+- Anchor signal: CVE-2026-20182
+- Theme key: cve-2026-20182
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20182
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
+
 ### CVE-2026-20127 exploitation activity
 - Anchor signal: CVE-2026-20127
 - Theme key: cve-2026-20127
@@ -525,27 +546,6 @@
 - Article count: 5
 - Cohesion: 0.752
 - Shared strong signals: CVE-2026-20245
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - affected_industries: government
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
-- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
-
-### CVE-2026-20182 exploitation activity
-- Anchor signal: CVE-2026-20182
-- Theme key: cve-2026-20182
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.752
-- Shared strong signals: CVE-2026-20182
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
@@ -1371,6 +1371,49 @@ Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Inte
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/
   - Summary: Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se
 
+### Cluster c409634b31 — score 15
+
+- Title: Incident Report: CVE-2026-LGTM
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-26T17:58:54+00:00
+- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,088 prompt-injection 155 generative-ai 1,845 llms 1,813 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Incident Report: CVE-2026-LGTM
+  - Published: 2026-06-26T17:58:54+00:00
+  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+
 ### Cluster fd2a2922d1 — score 15
 
 - Title: CISA sets urgent deadline to fix Cisco flaw exploited in attacks
@@ -1419,49 +1462,6 @@ CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas 
   - Published: 2026-06-26T19:43:06+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
   - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
-
-### Cluster c409634b31 — score 15
-
-- Title: Incident Report: CVE-2026-LGTM
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-26T17:58:54+00:00
-- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: Host custom HTML applications inside Datasette - 18th June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,088 prompt-injection 155 generative-ai 1,845 llms 1,813 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Incident Report: CVE-2026-LGTM
-  - Published: 2026-06-26T17:58:54+00:00
-  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
 
 ### Cluster d8d3a457ab — score 14
 
@@ -2015,260 +2015,6 @@ Threat Research Center Threat Research Cloud Cybersecurity Research Cloud Cybers
   - Link: https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/
   - Summary: Unit 42 research details how attackers could exploit global name uniqueness in bucket hijacking to redirect cloud data streams across major CSPs. The post The Global Namespace Risk: Universal Bucket Hijacking Technique for Cloud Data Exfiltration appeared first on Unit 42 .
 
-### Cluster 73e0a62a37 — score 10
-
-- Title: Beyond IOCs: AI-enabled threat intelligence
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T18:00:26+00:00
-- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-```
-
-#### Full body
-
-```
-Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Beyond IOCs: AI-enabled threat intelligence
-  - Published: 2026-06-25T18:00:26+00:00
-  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
-  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
-
-### Cluster 18abdcb9e0 — score 10
-
-- Title: Introduction to COM usage by Windows threats
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-06-25T10:00:26+00:00
-- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- attack_techniques: T1021.003
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-```
-
-#### Full body
-
-```
-Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
-```
-
-#### Corroborating sources (1)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: Introduction to COM usage by Windows threats
-  - Published: 2026-06-25T10:00:26+00:00
-  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
-  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
-
-### Cluster 96f12a0395 — score 10
-
-- Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-24T10:00:03+00:00
-- Link: https://securelist.com/strikeshark-campaign/120326/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
-- affected_industries: government
-- affected_products: Cisco, F5 BIG-IP, Fortinet
-- cve_ids: CVE-2016-4437, CVE-2021-26855, CVE-2021-36260, CVE-2023-32315, CVE-2024-36401
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage
-- affected_industries: government
-- affected_products: Fortinet, Cisco, F5 BIG-IP
-- cve_ids: CVE-2021-26855, CVE-2023-32315, CVE-2024-36401, CVE-2016-4437, CVE-2021-36260
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
-```
-
-#### Full body
-
-```
-Table of Contents Introduction Initial infection Exploitation of public-facing applications Dropper-based distribution SharkLoader installation SharkLoader DLL – Main implant “PerfectDLL Hijacking” technique Decryption and loading of >DscCoreR.mui DscCoreR.mui and SyncRes.dat DLLs Decryption and loading of SyncRes.dat SyncRes.dat decrypted DLL: Multiple API hooks VEH registration and access violation handling Thread creation for Cobalt Strike Beacon execution MinHook DLL, API hooking, and Cobalt Strike beacon Persistence mechanism Post-compromise activity Victimology Attribution Conclusion Indicators of compromise Authors Fareed Radzi Introduction During our research of activity affecting a diplomatic organization in Indonesia, we uncovered a previously undocumented malware family that we have named SharkLoader . What initially appeared to be an isolated case quickly expanded into a broader campaign as we identified additional SharkLoader infections across multiple countries and sectors. Our investigation revealed that SharkLoader serves as a loader designed to deploy Cobalt Strike Beacon on compromised systems. We observed the threat actor deploying SharkLoader through exploitation of internet-facing applications, including Microsoft Exchange, Microsoft SharePoint, and Openfire Server, as well as through malware-based delivery mechanisms. Beyond the diplomatic entity in Indonesia, we identified related activity targeting government organizations in Taiwan, software development companies across multiple countries, and entities in other sectors located in Hong Kong, Lebanon, Syria, Colombia, North Macedonia, Nepal, Serbia, and more. The observed victimology suggests a campaign with broad geographic reach and a diverse target set rather than a narrow focus on a specific industry or region. For now, we are tracking this activity as StrikeShark . Although the operators utilize several open-source post-compromise tools associated with Chinese-speaking developers, we have not identified direct code reuse, infrastructure overlap, or operational similarity to confidently attribute the activity to any known APT or cybercrime group. As a result, attribution remains preliminary and the campaign’s ultimate objectives are still under research. Initial infection Our analysis of SharkLoader intrusions indicates that the threat actor employs multiple methods to gain initial access to victim environments. During our investigation, we observed two primary infection vectors: the exploitation of vulnerabilities in internet-facing applications and the deployment of custom dropper samples, some of which were disguised as legitimate software. Exploitation of public-facing applications In the incident affecting an Indonesian diplomatic entity, the threat actor exploited Microsoft Exchange vulnerabilities, including CVE-2021-26855 (ProxyLogon), to gain access to the target environment. Similar activity was observed in Taiwan, where software development organizations were compromised through exploitation of Openfire (CVE-2023-32315). In a separate incident affecting a Colombian organization, the threat actor exploited a GeoServer instance vulnerable to CVE-2024-36401. Beyond these incidents, we identified additional exploitation activity targeting vulnerabilities in multiple internet-facing enterprise applications and network appliances including those listed below: Remote Code Execution (RCE) Apache Shiro: CVE-2016-4437 Hikvision Products: CVE-2021-36260 Microsoft SharePoint: CVE-2021-27076 Zimbra Collaboration Suite: CVE-2022-27925 Microsoft Exchange Server: CVE-2022-41082 F5 BIG-IP system: CVE-2023-46747 Fortinet FortiOS: CVE-2024-21762 React Server Components: CVE-2025-55182 Authentication Bypass Fortinet FortiOS: CVE-2022-40684 Cisco IOS XE Web UI: CVE-2023-20198 As of the time of writing this article, we haven’t obtained the exploits the attackers used. However, based on the vulnerabilities observed across multiple attacks, we assess with medium
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
-  - Published: 2026-06-24T10:00:03+00:00
-  - Link: https://securelist.com/strikeshark-campaign/120326/
-  - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
-
-### Cluster d812e5f8cf — score 10
-
-- Title: Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: WordPress
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: WordPress
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Recorded Future’s Insikt Group combines human expertise with automated analysis to turn raw data into actionable, industry-leading threat intelligence.
-```
-
-#### Full body
-
-```
-Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge Machines index. Analysts interpret. See why Insikt Group sets the industry standard for turning raw threat data into actionable intelligence. In the previous article in our series on Recorded Future’s unique data sourcing model, we detailed the four types of data we analyze and how, together, they provide unprecedented visibility into each of our customers’ unique threat landscapes. In this final article, we’ll show how our Insikt Group research team turns our raw data into actionable intelligence. The Insikt Group advantage Made up of experts with backgrounds in government, military, law enforcement, and intelligence agencies, the Insikt Group research team brings decades of expertise to their work analyzing the always-evolving threat landscape. The combination of seasoned human judgment with automated data indexing and analysis embodies the “ centaur model ” of intelligence, where human analysts and technology work together to produce insights neither could achieve alone. “Insikt” is Swedish for “insight”. By using their deep knowledge of specific adversary groups and TTPs to contextualize data within broader geopolitical and criminal dynamics, Insikt Group analysts are able to provide insights that automated systems might miss. A research methodology that sets the standard Insikt Group uses advanced technical analysis methodologies to uncover threat actor operations. They include: Infrastructure detection and pivoting: By combining proprietary Recorded Future Network Traffic Analysis with large-scale automated network traffic analytics and expert analysis, the team can detect malicious infrastructure before it’s even activated. The team uses sophisticated methods to track changes in adversary server configurations, domain registrations, autonomous system numbers (ASNs), and multi-tiered infrastructure layers. These findings are the basis for many research streams, including the annual malicious infrastructure report . Victim identification through analysis of adversary infrastructure: Using Network Traffic Analysis Exfiltration Events and geographical intelligence, Insikt Group analysts identify targeted organizations by monitoring communications between victims and command-and-control (C2) servers across 30 billion daily network intelligence records. This approach allows them to identify victim organizations and sectors across malware families and detect ongoing intrusions in near real time. Recent research includes identifying five distinct activity clusters by TAG-144 (Blind Eagle) targeting Colombia government institutions. Network traffic analysis and exfiltration event correlation: The team maintains an analysis pipeline that analyzes billions of network intelligence records to identify patterns indicating active compromises, persistence mechanisms, and data exfiltration. This proprietary capability enables detection of threat actor activities within minutes rather than days or weeks. Examples of recent reports include identifying victims targeted by GrayCharlie using compromised WordPress sites. Multi-source validation and cross-referencing : Analysts integrate data from over 1 million sources in the Intelligence Graph®, including the Recorded Future Platform, open web, dark web, technical feeds, malware intelligence, customer telemetry, and more. This comprehensive, multi-source approach helps them validate findings across disparate data points and pinpoint connections between threat actors, infrastructure, and targets that would be invisible when examining sources in isolation. Combining multiple sources, Insikt Group analysts reported on Telegram-based “guarantee” marketplaces used by Chinese-speaking criminal groups to understand cyber and fraud campaigns. Validation from experts with specialized skills Insikt Group analysts’ multilingual analysis capabilities and cultural expertise enable them to identify and interpret threats that automated sy
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge
-  - Published: 2026-06-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge
-  - Summary: Discover how Recorded Future’s Insikt Group combines human expertise with automated analysis to turn raw data into actionable, industry-leading threat intelligence.
-
-### Cluster 6b57ad32f6 — score 10
-
-- Title: Evaluating Mexico’s New Cybersecurity Plan
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-25T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/mexico-new-cybersecurity-plan-evaluation
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, ransomware_extortion
-- affected_industries: financial_services, government, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, apt_espionage
-- affected_industries: healthcare, financial_services, government, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Explore an analysis of Mexico’s 2025–2030 National Cybersecurity Plan. Discover how Mexico is addressing critical threats like ransomware, organized crime, and AI-driven attacks while preparing its digital infrastructure for the 2026 FIFA World Cup and beyond
-```
-
-#### Full body
-
-```
-Evaluating Mexico’s New Cybersecurity Plan Executive Summary Mexico recently unveiled a new National Cybersecurity Plan to be implemented over the remainder of this decade. The proposed plan lays the foundation to address the top cybersecurity threats Mexico has identified, including organized crime, geopolitical threats, and emerging artificial intelligence (AI) threats. The plan comes at a critical moment, as repeated cyber incidents across federal, state, and local institutions in Mexico have exposed the need for a more coordinated national response to reduce the risk of data theft, ransomware, service disruptions, and institutional reputational damage. Insikt Group analysis of cyber trends from 2020 to 2026 found that Mexico has historically been primarily impacted by ransomware, financial malware and fraud, and hacktivism. Data breaches and theft, organized crime and money laundering, and state-sponsored cybercrime have also represented significant threats. The government, healthcare, and financial sectors have been the primary targets of cyber threat actors, and ransomware continues to be the top threat to Mexican organizations. Mexico also remains an attractive target for state-sponsored cyber activity due to its deep integration with United States (US) supply chains, nearshoring-linked manufacturing base, and underdeveloped cybergovernance. Mexico is among the top five countries globally with the most documented victims of infostealers and stolen payment cards. Our research indicated that DarkForums is the most popular dark web special-access forum where threat actors discuss cyberattacks targeting Mexico. Mexican drug trafficking organizations (DTOs) are known to leverage Chinese money laundering networks (CMLNs) for their drug proceeds, relying on cryptocurrency to obfuscate their flow of illicit funds and soliciting cybercrime-as-a-service to evade arrests. The ongoing 2026 FIFA World Cup, co-hosted by Mexico, will be an initial test of the country’s ability to maintain operations and access to digital services amid increased tourism and international scrutiny. Facing this dynamic, organizations in Mexico should enhance their ability to detect cyber threats, prioritize threat visibility, and strengthen incident response planning. They should also train staff and the public on basic cyber safety, with an emphasis on building a practical understanding of how to respond quickly and effectively when incidents occur. Key Findings Mexico’s proposed National Cybersecurity Plan outlines a path to update the country’s cyber posture at a critical moment. While previous attempts to advance national cybersecurity policy failed to get political traction, the administration of President Claudia Sheinbaum has committed to fully implementing this initiative over the course of her term, facilitated by her party’s majority control of Congress. In addition to the threats outlined in the plan, Insikt Group assesses that Mexico faces significant challenges related to ransomware, financial malware and fraud, and hacktivism. Data breaches and theft, organized crime and money laundering, and state-sponsored cyber threats also continue to pose a major challenge. As Mexico advances its new cyber policy, organizations operating in the country should consider strengthening their threat posture by leveraging cyber threat intelligence solutions, adopting international cyber standards, conducting scenario-planning exercises to improve responses to ransomware, data breaches, cyber espionage, and other threats, and educating employees and the general public. Mexico’s Cybersecurity Positioning On December 4, 2025, Mexico’s 2025–2030 National Cybersecurity Plan (hereinafter, the Plan) was published by the Mexican Digital Transformation and Telecommunications Agency (ATDT). The Plan is meant to update Mexican federal cyber policy for today’s threat environment and to create a more secure and resilient digital security policy ecosystem. While the Plan
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Evaluating Mexico’s New Cybersecurity Plan
-  - Published: 2026-06-25T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/mexico-new-cybersecurity-plan-evaluation
-  - Summary: Explore an analysis of Mexico’s 2025–2030 National Cybersecurity Plan. Discover how Mexico is addressing critical threats like ransomware, organized crime, and AI-driven attacks while preparing its digital infrastructure for the 2026 FIFA World Cup and beyond
-
-### Cluster f371ac3a1c — score 10
-
-- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-06-23T00:00:00+00:00
-- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: retail_ecommerce
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
-```
-
-#### Full body
-
-```
-The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
-  - Published: 2026-06-23T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
-  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
-
 ### Cluster a2f878fad9 — score 10
 
 - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
@@ -2493,87 +2239,132 @@ Share Link copied to clipboard! Content types News Products and services Microso
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/
   - Summary: Ransomware case reveals two parallel threat actors, blending tactics and evasion—showing why isolated signals can often miss modern, overlapping cyberattacks. The post One intrusion, two cyberattackers: Uncovering parallel threat activity appeared first on Microsoft Security Blog .
 
-### Cluster 2a1cd2055f — score 10
+### Cluster 73e0a62a37 — score 10
 
-- Title: NodeZero® Proactive Security Platform
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-26T16:26:23+00:00
-- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+- Title: Beyond IOCs: AI-enabled threat intelligence
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T18:00:26+00:00
+- Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_products: Kubernetes
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
 ```
 
 #### Full body
 
 ```
-NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+Beyond IOCs: AI-enabled threat intelligence By Martin Lee Thursday, June 25, 2026 14:00 Threat Source newsletter Welcome to this week’s Threat Source newsletter. The issue of AI in cybersecurity is often portrayed as a binary choice: either a force multiplier for our adversaries, or a tool bringing professional obsolescence. The reality is more nuanced. While AI certainly brings some advantage to attackers, it also offers advantages to the defender, notably in how we manage, index, and derive value from threat intelligence. Currently, our industry excels in the use and dissemination of indicators of compromise (IOCs). These atomic indicators fit neatly into key-value data stores and their value can be enhanced with added context, neatly structured in STIX/MISP format. However, this is only the tactical layer. Ultimately, we want the consumers of threat intelligence reports to develop their knowledge and to build a picture of the relevance of the threat to their own situation, along with understanding of how they can respond given their resources and constraints. This capability is conferred by the natural language found within strategic and operational intelligence briefings. These reports provide the context required for meaningful response, yet they remain notoriously difficult to index. We are often left with disparate incident reports, darknet monitoring, and malware analysis that fail to cross-reference effectively, further complicated by inconsistent naming conventions for threat actors. This is a problem that large language models (LLMs) may be able to solve. Although AI models have no real understanding of an issue, they can identify synonyms and relate entities across vast, unstructured datasets. This can only make the retrieval of relevant threat intelligence reports easier, and facilitate the generation of relevant advice to protect against threats. There are still issues to resolve. We need to be vigilant regarding the veracity of the data that LLMs ingest, and of the confidentiality of the queries made of such a system. However, the development of personal, domain-specific LLMs offers the possibility of a world of integrated threat intelligence where relevant reports from disparate sources can be easily retrieved, and specific advice returned to even the vaguest of queries. Rather than fearing AI’s potential negative effects on our employment, we can consider AI’s development as a powerful tool that enables access to threat intelligence reports and allows us to provide tailored actionable advice faster to those who need to know it. Ultimately, AI can help us do what we do best: making a difference and making the bad guy’s lives harder. The one big thing Cisco Talos is highlighting how Windows threats increasingly abuse the Component Object Model (COM) to execute malicious activities. While COM is a fundamental Windows technology for legitimate inter-process communication, malware families like Qakbot and WarmCookie hijack it for lateral movement, persistence, and evasion. Because COM functionality relies on opaque GUIDs and indirect vtable calls, it obscures the attacker's intent and makes manual analysis incredibly labor-intensive. Why do I care? Threat actors love COM because it provides convenient access to built-in Windows functionality while making static analysis a nightmare. By hiding malicious behavior behind indirect function calls, attackers easily bypass basic scrutiny and blend in with legitimate system processes. Adversaries are effectively turning Windows' own architecture against itself. If analysts aren't prioritizing COM during triage, they are likely missing critical pieces of the infection chain. So now what? Defenders must sharpen their skills in recognizing COM usage and translating evidence like ProgIDs and vtable offsets into human-readable actions. Leverage specialized tools like OleView.NET, IDA’s COM Helper, and DispatchLogger to map anonymous indirect calls to clear behaviors. Security t
 ```
 
 #### Corroborating sources (1)
 
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: NodeZero® Proactive Security Platform
-  - Published: 2026-06-26T16:26:23+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+- **Cisco Talos** (threat_research_primary)
+  - Title: Beyond IOCs: AI-enabled threat intelligence
+  - Published: 2026-06-25T18:00:26+00:00
+  - Link: https://blog.talosintelligence.com/beyond-iocs-ai-enabled-threat-intelligence/
+  - Summary: In this week’s newsletter, Martin considers how AI will help threat intelligence by creating an easily queryable data source of intelligence reports.
 
-### Cluster 7cc9863eff — score 10
+### Cluster 18abdcb9e0 — score 10
 
-- Title: Organizations Buy Answers, Not Activities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-24T16:49:39+00:00
-- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Title: Introduction to COM usage by Windows threats
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-06-25T10:00:26+00:00
+- Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- attack_techniques: T1021.003
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- attack_techniques: T1021.003
 - content_type: news_report
-- confidence_tier: tier_1_offensive_research
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
 ```
 
 #### Full body
 
 ```
-Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25, 2026 06:00 Threats Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors. Malware frequently uses COM interfaces for lateral movement, execution, download and exfiltration, persistence, evasion, system discovery and automation of built-in Windows and Office functionality. Reverse engineering COM-heavy binaries requires researchers to move from opaque GUIDs and indirect vtable calls to meaningful classes, interfaces and method names. This post is based on research conducted for presentations at AVAR 2025 conference in Kuala Lumpur and a CARO 2026 workshop in Innsbruck. Component Object Model (COM) is one of the Windows technologies that analysts regularly encounter but may not always prioritize during triage, as the manual analysis of COM functionality in binary executable files can be labor-intensive. The post starts with a brief introduction into COM, following how binaries utilizing COM can be analyzed, and some examples of malware families and their usage of COM. The post concludes with a list of further resources. COM as Windows glue COM is an application binary interface (ABI) model for reusing software components. COM objects expose interfaces to client applications, and those interfaces can be consumed by multiple programming languages because the contract exists at the binary interface level rather than at a single language runtime level. COM is a fundamental, principal way for components written in different languages to communicate. Microsoft describes COM as a distributed, object-oriented system for creating binary software components that can interact with each other. COM is also the foundation for technologies such as OLE and ActiveX. Figure 1. COM acts as glue between component consumers and component providers written in different languages. Credit for original figure: James Forshaw, Google Project Zero. This language independence is visible in common scripting and automation patterns. The same COM object may be created from VBScript, PowerShell, Python, or C/C++. For example, a script can instantiate the WScript.Shell COM object and use it to read or write registry values, execute a command, create shortcuts, or access environment variables — and it can do it in a very similar way using different scripting languages supporting COM automation. Figure 2. As a glue between component consumers and component providers, languages such as VBS, PowerShell and Python can use it to access Windows services. DCOM extends the same model across the network Distributed COM (DCOM) extends COM so a client can activate and use COM objects on another system. At a high level, the local client talks to a proxy, the remote server exposes a stub, and the COM runtime transports the method invocation over Microsoft RPC. Figure 2. DCOM uses proxy and stub classes with the COM and RPC runtimes to carry method calls between component consumers and providers. Credit for original figure: James Forshaw, Google Project Zero. The existence of CoCreateInstanceEx API in a binary, with the appropriate parameters, can be used to distinguish between local COM and DCOM. DCOM extends local COM activation by allowing an object to be associated with a specified remote computer. DCOM is also explicitly represented in MITRE ATT&CK as one of the techniques and is described in Remote Services: Distributed Component Object Model, T1021.003 . Classes, interfaces, and the registry Classes and interfaces are two foundational COM concepts. COM classes are templates for creating COM objects. A class is identified by a class identifier (CLSID), a GUID that uniquely identifies the component. GUID is a 128-bit identifier used to uniquely identify COM-related objects and interfaces. The st
 ```
 
 #### Corroborating sources (1)
 
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Organizations Buy Answers, Not Activities
-  - Published: 2026-06-24T16:49:39+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+- **Cisco Talos** (threat_research_primary)
+  - Title: Introduction to COM usage by Windows threats
+  - Published: 2026-06-25T10:00:26+00:00
+  - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
+  - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+
+### Cluster 96f12a0395 — score 10
+
+- Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-24T10:00:03+00:00
+- Link: https://securelist.com/strikeshark-campaign/120326/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- affected_industries: government
+- affected_products: Cisco, F5 BIG-IP, Fortinet
+- cve_ids: CVE-2016-4437, CVE-2021-26855, CVE-2021-36260, CVE-2023-32315, CVE-2024-36401
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- affected_industries: government
+- affected_products: Fortinet, Cisco, F5 BIG-IP
+- cve_ids: CVE-2021-26855, CVE-2023-32315, CVE-2024-36401, CVE-2016-4437, CVE-2021-36260
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Initial infection Exploitation of public-facing applications Dropper-based distribution SharkLoader installation SharkLoader DLL – Main implant “PerfectDLL Hijacking” technique Decryption and loading of >DscCoreR.mui DscCoreR.mui and SyncRes.dat DLLs Decryption and loading of SyncRes.dat SyncRes.dat decrypted DLL: Multiple API hooks VEH registration and access violation handling Thread creation for Cobalt Strike Beacon execution MinHook DLL, API hooking, and Cobalt Strike beacon Persistence mechanism Post-compromise activity Victimology Attribution Conclusion Indicators of compromise Authors Fareed Radzi Introduction During our research of activity affecting a diplomatic organization in Indonesia, we uncovered a previously undocumented malware family that we have named SharkLoader . What initially appeared to be an isolated case quickly expanded into a broader campaign as we identified additional SharkLoader infections across multiple countries and sectors. Our investigation revealed that SharkLoader serves as a loader designed to deploy Cobalt Strike Beacon on compromised systems. We observed the threat actor deploying SharkLoader through exploitation of internet-facing applications, including Microsoft Exchange, Microsoft SharePoint, and Openfire Server, as well as through malware-based delivery mechanisms. Beyond the diplomatic entity in Indonesia, we identified related activity targeting government organizations in Taiwan, software development companies across multiple countries, and entities in other sectors located in Hong Kong, Lebanon, Syria, Colombia, North Macedonia, Nepal, Serbia, and more. The observed victimology suggests a campaign with broad geographic reach and a diverse target set rather than a narrow focus on a specific industry or region. For now, we are tracking this activity as StrikeShark . Although the operators utilize several open-source post-compromise tools associated with Chinese-speaking developers, we have not identified direct code reuse, infrastructure overlap, or operational similarity to confidently attribute the activity to any known APT or cybercrime group. As a result, attribution remains preliminary and the campaign’s ultimate objectives are still under research. Initial infection Our analysis of SharkLoader intrusions indicates that the threat actor employs multiple methods to gain initial access to victim environments. During our investigation, we observed two primary infection vectors: the exploitation of vulnerabilities in internet-facing applications and the deployment of custom dropper samples, some of which were disguised as legitimate software. Exploitation of public-facing applications In the incident affecting an Indonesian diplomatic entity, the threat actor exploited Microsoft Exchange vulnerabilities, including CVE-2021-26855 (ProxyLogon), to gain access to the target environment. Similar activity was observed in Taiwan, where software development organizations were compromised through exploitation of Openfire (CVE-2023-32315). In a separate incident affecting a Colombian organization, the threat actor exploited a GeoServer instance vulnerable to CVE-2024-36401. Beyond these incidents, we identified additional exploitation activity targeting vulnerabilities in multiple internet-facing enterprise applications and network appliances including those listed below: Remote Code Execution (RCE) Apache Shiro: CVE-2016-4437 Hikvision Products: CVE-2021-36260 Microsoft SharePoint: CVE-2021-27076 Zimbra Collaboration Suite: CVE-2022-27925 Microsoft Exchange Server: CVE-2022-41082 F5 BIG-IP system: CVE-2023-46747 Fortinet FortiOS: CVE-2024-21762 React Server Components: CVE-2025-55182 Authentication Bypass Fortinet FortiOS: CVE-2022-40684 Cisco IOS XE Web UI: CVE-2023-20198 As of the time of writing this article, we haven’t obtained the exploits the attackers used. However, based on the vulnerabilities observed across multiple attacks, we assess with medium
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
+  - Published: 2026-06-24T10:00:03+00:00
+  - Link: https://securelist.com/strikeshark-campaign/120326/
+  - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
 
 ### Cluster 4cc90df0fb — score 10
 
@@ -2660,6 +2451,215 @@ ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc 
   - Published: 2026-06-24T12:35:24+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
   - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
+
+### Cluster 2a1cd2055f — score 10
+
+- Title: NodeZero® Proactive Security Platform
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-26T16:26:23+00:00
+- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+```
+
+#### Full body
+
+```
+NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: NodeZero® Proactive Security Platform
+  - Published: 2026-06-26T16:26:23+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+
+### Cluster 7cc9863eff — score 10
+
+- Title: Organizations Buy Answers, Not Activities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-24T16:49:39+00:00
+- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Organizations Buy Answers, Not Activities
+  - Published: 2026-06-24T16:49:39+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+
+### Cluster d812e5f8cf — score 10
+
+- Title: Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: WordPress
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: WordPress
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Discover how Recorded Future’s Insikt Group combines human expertise with automated analysis to turn raw data into actionable, industry-leading threat intelligence.
+```
+
+#### Full body
+
+```
+Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge Machines index. Analysts interpret. See why Insikt Group sets the industry standard for turning raw threat data into actionable intelligence. In the previous article in our series on Recorded Future’s unique data sourcing model, we detailed the four types of data we analyze and how, together, they provide unprecedented visibility into each of our customers’ unique threat landscapes. In this final article, we’ll show how our Insikt Group research team turns our raw data into actionable intelligence. The Insikt Group advantage Made up of experts with backgrounds in government, military, law enforcement, and intelligence agencies, the Insikt Group research team brings decades of expertise to their work analyzing the always-evolving threat landscape. The combination of seasoned human judgment with automated data indexing and analysis embodies the “ centaur model ” of intelligence, where human analysts and technology work together to produce insights neither could achieve alone. “Insikt” is Swedish for “insight”. By using their deep knowledge of specific adversary groups and TTPs to contextualize data within broader geopolitical and criminal dynamics, Insikt Group analysts are able to provide insights that automated systems might miss. A research methodology that sets the standard Insikt Group uses advanced technical analysis methodologies to uncover threat actor operations. They include: Infrastructure detection and pivoting: By combining proprietary Recorded Future Network Traffic Analysis with large-scale automated network traffic analytics and expert analysis, the team can detect malicious infrastructure before it’s even activated. The team uses sophisticated methods to track changes in adversary server configurations, domain registrations, autonomous system numbers (ASNs), and multi-tiered infrastructure layers. These findings are the basis for many research streams, including the annual malicious infrastructure report . Victim identification through analysis of adversary infrastructure: Using Network Traffic Analysis Exfiltration Events and geographical intelligence, Insikt Group analysts identify targeted organizations by monitoring communications between victims and command-and-control (C2) servers across 30 billion daily network intelligence records. This approach allows them to identify victim organizations and sectors across malware families and detect ongoing intrusions in near real time. Recent research includes identifying five distinct activity clusters by TAG-144 (Blind Eagle) targeting Colombia government institutions. Network traffic analysis and exfiltration event correlation: The team maintains an analysis pipeline that analyzes billions of network intelligence records to identify patterns indicating active compromises, persistence mechanisms, and data exfiltration. This proprietary capability enables detection of threat actor activities within minutes rather than days or weeks. Examples of recent reports include identifying victims targeted by GrayCharlie using compromised WordPress sites. Multi-source validation and cross-referencing : Analysts integrate data from over 1 million sources in the Intelligence Graph®, including the Recorded Future Platform, open web, dark web, technical feeds, malware intelligence, customer telemetry, and more. This comprehensive, multi-source approach helps them validate findings across disparate data points and pinpoint connections between threat actors, infrastructure, and targets that would be invisible when examining sources in isolation. Combining multiple sources, Insikt Group analysts reported on Telegram-based “guarantee” marketplaces used by Chinese-speaking criminal groups to understand cyber and fraud campaigns. Validation from experts with specialized skills Insikt Group analysts’ multilingual analysis capabilities and cultural expertise enable them to identify and interpret threats that automated sy
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Where Expertise Meets Algorithm: The Insikt Group® Intelligence Edge
+  - Published: 2026-06-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/expertise-meets-algorithm-intelligence-edge
+  - Summary: Discover how Recorded Future’s Insikt Group combines human expertise with automated analysis to turn raw data into actionable, industry-leading threat intelligence.
+
+### Cluster 6b57ad32f6 — score 10
+
+- Title: Evaluating Mexico’s New Cybersecurity Plan
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-25T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/mexico-new-cybersecurity-plan-evaluation
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage, ransomware_extortion
+- affected_industries: financial_services, government, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, apt_espionage
+- affected_industries: healthcare, financial_services, government, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Explore an analysis of Mexico’s 2025–2030 National Cybersecurity Plan. Discover how Mexico is addressing critical threats like ransomware, organized crime, and AI-driven attacks while preparing its digital infrastructure for the 2026 FIFA World Cup and beyond
+```
+
+#### Full body
+
+```
+Evaluating Mexico’s New Cybersecurity Plan Executive Summary Mexico recently unveiled a new National Cybersecurity Plan to be implemented over the remainder of this decade. The proposed plan lays the foundation to address the top cybersecurity threats Mexico has identified, including organized crime, geopolitical threats, and emerging artificial intelligence (AI) threats. The plan comes at a critical moment, as repeated cyber incidents across federal, state, and local institutions in Mexico have exposed the need for a more coordinated national response to reduce the risk of data theft, ransomware, service disruptions, and institutional reputational damage. Insikt Group analysis of cyber trends from 2020 to 2026 found that Mexico has historically been primarily impacted by ransomware, financial malware and fraud, and hacktivism. Data breaches and theft, organized crime and money laundering, and state-sponsored cybercrime have also represented significant threats. The government, healthcare, and financial sectors have been the primary targets of cyber threat actors, and ransomware continues to be the top threat to Mexican organizations. Mexico also remains an attractive target for state-sponsored cyber activity due to its deep integration with United States (US) supply chains, nearshoring-linked manufacturing base, and underdeveloped cybergovernance. Mexico is among the top five countries globally with the most documented victims of infostealers and stolen payment cards. Our research indicated that DarkForums is the most popular dark web special-access forum where threat actors discuss cyberattacks targeting Mexico. Mexican drug trafficking organizations (DTOs) are known to leverage Chinese money laundering networks (CMLNs) for their drug proceeds, relying on cryptocurrency to obfuscate their flow of illicit funds and soliciting cybercrime-as-a-service to evade arrests. The ongoing 2026 FIFA World Cup, co-hosted by Mexico, will be an initial test of the country’s ability to maintain operations and access to digital services amid increased tourism and international scrutiny. Facing this dynamic, organizations in Mexico should enhance their ability to detect cyber threats, prioritize threat visibility, and strengthen incident response planning. They should also train staff and the public on basic cyber safety, with an emphasis on building a practical understanding of how to respond quickly and effectively when incidents occur. Key Findings Mexico’s proposed National Cybersecurity Plan outlines a path to update the country’s cyber posture at a critical moment. While previous attempts to advance national cybersecurity policy failed to get political traction, the administration of President Claudia Sheinbaum has committed to fully implementing this initiative over the course of her term, facilitated by her party’s majority control of Congress. In addition to the threats outlined in the plan, Insikt Group assesses that Mexico faces significant challenges related to ransomware, financial malware and fraud, and hacktivism. Data breaches and theft, organized crime and money laundering, and state-sponsored cyber threats also continue to pose a major challenge. As Mexico advances its new cyber policy, organizations operating in the country should consider strengthening their threat posture by leveraging cyber threat intelligence solutions, adopting international cyber standards, conducting scenario-planning exercises to improve responses to ransomware, data breaches, cyber espionage, and other threats, and educating employees and the general public. Mexico’s Cybersecurity Positioning On December 4, 2025, Mexico’s 2025–2030 National Cybersecurity Plan (hereinafter, the Plan) was published by the Mexican Digital Transformation and Telecommunications Agency (ATDT). The Plan is meant to update Mexican federal cyber policy for today’s threat environment and to create a more secure and resilient digital security policy ecosystem. While the Plan
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Evaluating Mexico’s New Cybersecurity Plan
+  - Published: 2026-06-25T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/mexico-new-cybersecurity-plan-evaluation
+  - Summary: Explore an analysis of Mexico’s 2025–2030 National Cybersecurity Plan. Discover how Mexico is addressing critical threats like ransomware, organized crime, and AI-driven attacks while preparing its digital infrastructure for the 2026 FIFA World Cup and beyond
+
+### Cluster f371ac3a1c — score 10
+
+- Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-06-23T00:00:00+00:00
+- Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: retail_ecommerce
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
+```
+
+#### Full body
+
+```
+The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Fraud Intelligence team continues to monitor a purchase scam tactic that pulls victims from organic search rather than paid ads by compromising legitimate websites. The scam domains never appear in search results themselves, which means the operations are likely hidden from standard search monitoring and could survive the takedown of any single domain or merchant account. The same tactic is already surfacing in World Cup-themed fraud, and it’s positioned to scale across event-driven scams through 2026. Why this matters now Major sporting events concentrate consumer demand. Fans rush to buy tickets, merchandise, and travel in a short window, and purchase scams follow that demand wherever it spikes. Recorded Future's Payment Fraud Intelligence team has been analyzing a purchase scam tactic built for exactly this kind of event-driven demand. The tactic amounts to SEO poisoning of legitimate websites. What’s most notable isn’t the scam itself but how it finds victims: through organic search results captured by compromising legitimate websites, without the scammers ever buying ads or acquiring their own domains to rank. Purchase scams, briefly As explained in this report , the basic purchase scam model is simple. A site advertises real-looking goods at steep discounts, takes payment, and never ships the product. The usual draw is social media advertising that points to brand impersonation sites. For many victims of purchase scams, the crime doesn’t stop there. The fraudsters operating the scams also steal the payment card data of their “customers,” resulting in a string of unauthorized charges if the theft isn’t quickly noticed. Figures 1-2: Search results showing potential purchase scam pages injected into legitimate websites, and the purchase scam website that visitors are redirected to (Source: Recorded Future) How the tactic works Getting a brand-new scam domain to rank highly in search results normally requires expensive search engine optimization work. By embedding redirects on legitimate, well-ranked sites, scammers can route organic traffic to purchase scam domains without needing to invest in SEO themselves. The Payment Fraud Intelligence team has observed that scammers are using a consistent four-step pattern: Gain unauthorized access to a legitimate website. Plant fake product listings and metadata for search crawlers on that site. Co-opt the site's existing search ranking to attract shoppers. Redirect visitors who arrive from a search result to the scam domains. The redirect is selective: The injected code only fires for visitors who arrive from a search result carrying a specific tracking parameter. Regular visitors and the site's own administrators see the real site, so the compromise often stays undetected. This conditional behavior is a form of cloaking, and it’s what makes the activity so hard to spot. Additionally, there’s a second layer of concealment. The scam domains themselves aren’t indexed by search engines. Only the compromised pages are indexed, so the infrastructure that actually takes payment stays out of view of researchers and security monitoring. Why it’s effective and hard to defend against The economics favor the attacker. The tactic captures organic search traffic without scammers having to pay for the ads or SEO that ranking normally demands, and it generally evades both ad-platform detection and standard search monitoring. Resilience is built in. Operators rotate domains, branding, and content from shared templates, and they distribute payments across several merchant accounts, so the operation can survive the takedown of any single domain or account. The approach monetizes traditionally lower-value targets. When fraudsters scan for vulnerable websites and compromised admin credentials, they seek e-commerce websites with checkout pages that can be infected with e-skimmers. With this purchase scam scheme, the fraudsters fi
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: The Purchase Scam Tactic Headed for the World Cup | Recorded Future
+  - Published: 2026-06-23T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
+  - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
 ### Cluster e1538c3d0e — score 10
 
