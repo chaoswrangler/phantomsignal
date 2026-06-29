@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28T23:12:24.018219+00:00",
+  "generated_at": "2026-06-29T04:43:47.362823+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
   "total_feeds": 80,
   "feeds_ok": 77,
-  "total_items_in_window": 328,
-  "total_clusters_raw": 153,
+  "total_items_in_window": 303,
+  "total_clusters_raw": 151,
   "total_clusters_in_packet": 62,
-  "dropped_low_score": 91,
+  "dropped_low_score": 89,
   "dropped_overflow": 0,
   "cohort_metadata": {
     "threat_research_primary": {
@@ -67,13 +67,6 @@
     }
   },
   "feed_status": {
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 4
-    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -87,6 +80,13 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 1
+    },
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 4
     },
     "Microsoft Security Blog": {
       "url": "https://www.microsoft.com/en-us/security/blog/feed/",
@@ -123,18 +123,18 @@
       "item_count": 15,
       "in_window_count": 2
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Kaspersky Securelist": {
@@ -143,13 +143,6 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 3
-    },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
     },
     "Check Point Research": {
       "url": "https://research.checkpoint.com/feed/",
@@ -165,12 +158,12 @@
       "item_count": 10,
       "in_window_count": 8
     },
-    "ESET WeLiveSecurity": {
-      "url": "https://www.welivesecurity.com/en/rss/feed/",
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 3
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Horizon3 Attack Research": {
       "url": "https://horizon3.ai/feed/",
@@ -182,6 +175,13 @@
     "Volexity": {
       "url": "https://www.volexity.com/feed/",
       "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "GitHub Security Lab": {
+      "url": "https://github.blog/category/security/feed/",
+      "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
@@ -200,12 +200,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "GitHub Security Lab": {
-      "url": "https://github.blog/category/security/feed/",
-      "cohort": "offensive_vulnerability_research",
+    "ESET WeLiveSecurity": {
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 100,
+      "in_window_count": 3
     },
     "Assetnote": {
       "url": "https://www.assetnote.io/resources/research/rss.xml",
@@ -242,13 +242,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -256,18 +249,18 @@
       "item_count": 10,
       "in_window_count": 1
     },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
     "Active Countermeasures": {
       "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 0
-    },
-    "Sophos X-Ops": {
-      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 15,
       "in_window_count": 0
     },
     "Elastic Security Labs": {
@@ -277,6 +270,13 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Sophos X-Ops": {
+      "url": "https://news.sophos.com/en-us/category/threat-research/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 0
+    },
     "SpecterOps": {
       "url": "https://medium.com/feed/specter-ops-posts",
       "cohort": "detection_response_operations",
@@ -284,26 +284,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Rapid7": {
-      "url": "https://www.rapid7.com/blog/rss/",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Datadog Security Labs": {
       "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 3
-    },
-    "Orca Security Research": {
-      "url": "https://orca.security/resources/blog/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 10
+      "in_window_count": 2
     },
     "Trail of Bits": {
       "url": "https://blog.trailofbits.com/feed/",
@@ -312,19 +298,26 @@
       "item_count": 20,
       "in_window_count": 1
     },
+    "Orca Security Research": {
+      "url": "https://orca.security/resources/blog/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 10
+    },
+    "Rapid7": {
+      "url": "https://www.rapid7.com/blog/rss/",
+      "cohort": "offensive_vulnerability_research",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
+    },
     "AWS Security Blog": {
       "url": "https://aws.amazon.com/blogs/security/feed/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "Permiso Security": {
-      "url": "https://permiso.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
     },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
@@ -333,19 +326,19 @@
       "item_count": 100,
       "in_window_count": 4
     },
+    "Permiso Security": {
+      "url": "https://permiso.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Protect AI": {
       "url": "https://protectai.com/blog/rss.xml",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
-    },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
     },
     "Sysdig": {
       "url": "https://sysdig.com/feed/",
@@ -354,12 +347,12 @@
       "item_count": 100,
       "in_window_count": 4
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 0
+      "in_window_count": 2
     },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
@@ -375,26 +368,19 @@
       "item_count": 100,
       "in_window_count": 1
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 0
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
-    },
-    "Chainalysis": {
-      "url": "https://www.chainalysis.com/blog/feed/",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 2
     },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
@@ -403,26 +389,26 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Google Cloud Threat Intelligence": {
-      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
-      "cohort": "threat_research_primary",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 11
+    },
+    "Chainalysis": {
+      "url": "https://www.chainalysis.com/blog/feed/",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 2
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 20,
       "in_window_count": 2
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -431,19 +417,33 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
+    "Google Cloud Threat Intelligence": {
+      "url": "https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v",
+      "cohort": "threat_research_primary",
+      "status": "ok",
       "item_count": 20,
-      "in_window_count": 11
+      "in_window_count": 2
+    },
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 15
     },
     "Simon Willison": {
       "url": "https://simonwillison.net/atom/everything/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 30,
-      "in_window_count": 17
+      "in_window_count": 15
     },
     "SecurityWeek": {
       "url": "https://www.securityweek.com/feed/",
@@ -466,12 +466,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 25
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -480,26 +480,19 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 25
-    },
-    "Troy Hunt": {
-      "url": "https://www.troyhunt.com/rss/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 1
-    },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Team Cymru": {
       "url": "https://www.team-cymru.com/post/rss.xml",
@@ -508,12 +501,12 @@
       "item_count": 100,
       "in_window_count": 0
     },
-    "Reddit r/cybersecurity": {
-      "url": "https://www.reddit.com/r/cybersecurity/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Troy Hunt": {
+      "url": "https://www.troyhunt.com/rss/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 1
     },
     "Krebs on Security": {
       "url": "https://krebsonsecurity.com/feed/",
@@ -522,12 +515,19 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Reddit r/cybersecurity": {
+      "url": "https://www.reddit.com/r/cybersecurity/.rss",
+      "cohort": "reddit_practitioner_osint",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 2
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Reddit r/blueteamsec": {
+      "url": "https://www.reddit.com/r/blueteamsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
     },
     "Reddit r/sysadmin": {
       "url": "https://www.reddit.com/r/sysadmin/.rss",
@@ -536,33 +536,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Intel 471": {
-      "url": "https://intel471.com/blog/feed",
-      "cohort": "ransomware_ecrime_financial_crime",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "The Hacker News": {
-      "url": "https://feeds.feedburner.com/TheHackersNews",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 44
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 27
     },
     "Reddit r/netsecstudents": {
       "url": "https://www.reddit.com/r/netsecstudents/.rss",
@@ -578,19 +557,40 @@
       "item_count": 0,
       "in_window_count": 0
     },
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 2
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 27
+    },
+    "The Hacker News": {
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 50,
+      "in_window_count": 44
+    },
+    "Intel 471": {
+      "url": "https://intel471.com/blog/feed",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
     "Reddit r/netsec": {
       "url": "https://www.reddit.com/r/netsec/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 25,
       "in_window_count": 11
-    },
-    "Reddit r/blueteamsec": {
-      "url": "https://www.reddit.com/r/blueteamsec/.rss",
-      "cohort": "reddit_practitioner_osint",
-      "status": "ok",
-      "item_count": 25,
-      "in_window_count": 24
     },
     "Embrace the Red": {
       "url": "https://embracethered.com/blog/index.xml",
@@ -611,7 +611,7 @@
       "cohort": "practitioner_analysis",
       "status": "ok",
       "item_count": 100,
-      "in_window_count": 6
+      "in_window_count": 8
     },
     "Just Security": {
       "url": "https://www.justsecurity.org/feed/",
@@ -632,8 +632,8 @@
     {
       "cluster_id": "92ea9e355d",
       "priority_score": 33,
-      "member_count": 4,
-      "corroborating_source_count": 4,
+      "member_count": 3,
+      "corroborating_source_count": 3,
       "strong_signals": [
         "CVE-2026-20245"
       ],
@@ -664,8 +664,7 @@
         "confidence_tier": [
           "tier_1_primary_research",
           "tier_2_operator",
-          "tier_4_news",
-          "tier_5_chatter"
+          "tier_4_news"
         ]
       },
       "primary": {
@@ -797,36 +796,6 @@
             ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Reddit r/blueteamsec",
-          "cohort": "reddit_practitioner_osint",
-          "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
-          "link": "https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/",
-          "published": "2026-06-26T06:25:33+00:00",
-          "summary": "submitted by /u/digicat [link] [comments]",
-          "taxonomy": {
-            "threat_categories": [
-              "zero_day"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-20245"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "zero_day"
-            ],
-            "content_type": "vulnerability_disclosure",
-            "confidence_tier": "tier_5_chatter",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -2207,12 +2176,12 @@
           }
         },
         {
-          "source": "The Hacker News",
+          "source": "Infosecurity Magazine",
           "cohort": "cyber_news_breach_reporting",
-          "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-          "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-          "published": "2026-06-23T03:56:58+00:00",
-          "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to",
+          "title": "OpenAI Expands Daybreak to Help Defenders Patch Flaws",
+          "link": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/",
+          "published": "2026-06-23T14:15:00+00:00",
+          "summary": "OpenAI expanded Daybreak with a full GPT-5.5-Cyber release to help defenders patch software flaws",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2235,12 +2204,12 @@
           }
         },
         {
-          "source": "Infosecurity Magazine",
+          "source": "The Hacker News",
           "cohort": "cyber_news_breach_reporting",
-          "title": "OpenAI Expands Daybreak to Help Defenders Patch Flaws",
-          "link": "https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/",
-          "published": "2026-06-23T14:15:00+00:00",
-          "summary": "OpenAI expanded Daybreak with a full GPT-5.5-Cyber release to help defenders patch software flaws",
+          "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+          "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+          "published": "2026-06-23T03:56:58+00:00",
+          "summary": "OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its \"strongest model yet for finding and helping patch software vulnerabilities,\" OpenAI said the model can \"sustain deeper analysis across large codebases\" to",
           "taxonomy": {
             "threat_categories": [],
             "actor_attribution": [],
@@ -2427,18 +2396,30 @@
       "strong_signals": [],
       "taxonomy": {
         "threat_categories": [
-          "active_exploitation"
+          "active_exploitation",
+          "zero_day"
         ],
         "actor_attribution": [],
         "affected_industries": [
-          "government"
+          "government",
+          "manufacturing_industrial",
+          "retail_ecommerce"
         ],
-        "affected_products": [],
+        "affected_products": [
+          "Gogs",
+          "Ivanti",
+          "Palo Alto Networks"
+        ],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-12569",
+          "CVE-2026-20230"
+        ],
         "attack_techniques": [],
         "urgency_signals": [
-          "actively_exploited"
+          "actively_exploited",
+          "poc_available",
+          "zero_day"
         ],
         "content_type": [
           "news_report"
@@ -2454,26 +2435,42 @@
         "link": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
         "published": "2026-06-26T19:43:06+00:00",
         "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
+        "full_body": "CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March",
+        "fetch_status": "ok",
         "taxonomy": {
           "threat_categories": [
+            "zero_day",
             "active_exploitation"
           ],
           "actor_attribution": [],
           "affected_industries": [
-            "government"
+            "government",
+            "manufacturing_industrial",
+            "retail_ecommerce"
           ],
-          "affected_products": [],
+          "affected_products": [
+            "Gogs",
+            "Ivanti",
+            "Palo Alto Networks"
+          ],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-20230",
+            "CVE-2026-12569"
+          ],
           "attack_techniques": [],
           "urgency_signals": [
-            "actively_exploited"
+            "actively_exploited",
+            "zero_day",
+            "poc_available"
           ],
           "content_type": "news_report",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Gogs": "target",
+            "Ivanti": "target",
+            "Palo Alto Networks": "target"
+          },
           "weak_tags": {
             "products": []
           }
@@ -2489,22 +2486,38 @@
           "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]",
           "taxonomy": {
             "threat_categories": [
+              "zero_day",
               "active_exploitation"
             ],
             "actor_attribution": [],
             "affected_industries": [
-              "government"
+              "government",
+              "manufacturing_industrial",
+              "retail_ecommerce"
             ],
-            "affected_products": [],
+            "affected_products": [
+              "Gogs",
+              "Ivanti",
+              "Palo Alto Networks"
+            ],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-20230",
+              "CVE-2026-12569"
+            ],
             "attack_techniques": [],
             "urgency_signals": [
-              "actively_exploited"
+              "actively_exploited",
+              "zero_day",
+              "poc_available"
             ],
             "content_type": "news_report",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Gogs": "target",
+              "Ivanti": "target",
+              "Palo Alto Networks": "target"
+            },
             "weak_tags": {
               "products": []
             }
@@ -2592,194 +2605,6 @@
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_2_operator",
             "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "3bbc834ec2",
-      "priority_score": 14,
-      "member_count": 4,
-      "corroborating_source_count": 4,
-      "strong_signals": [
-        "Salesforce"
-      ],
-      "taxonomy": {
-        "threat_categories": [
-          "cloud_abuse",
-          "phishing_social_eng",
-          "ransomware_extortion",
-          "supply_chain"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Salesforce"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report",
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator",
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Detecting the Klue supply chain attack in Salesforce instances",
-        "link": "https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/",
-        "published": "2026-06-22T00:00:00+00:00",
-        "summary": "We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.",
-        "full_body": "Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat actor compromised backend systems at Klue, a market intelligence platform that hundreds of enterprise organizations use to sync competitive battlecard data with their CRM environments. By the time Klue alerted customers on June 13, the threat actor had already harvested OAuth tokens for Salesforce and Gong, and had begun querying those environments through automated API calls. The group behind the attack, which self-identifies as \"Icarus\" and has been active since at least April 28, 2026, has since run an extortion campaign against multiple victims. One victim, Huntress, published a detailed incident report confirming the compromise of CRM data: business contacts, price quotes, and sales communications. This post summarizes what is known about the attack chain, then provides detection guidance for Salesforce environments monitored by Datadog Cloud SIEM. If you are working through a broader Salesforce threat hunt, our recently published threat hunter's guide to Salesforce covers the many of the threat actor's behaviors and log sources to consider. The Klue attack chain: a single compromised integration gave the threat actor OAuth access to fan out across multiple customer Salesforce orgs and exfiltrate CRM data (click to enlarge). What happened According to Huntress, the compromise followed a pattern common in third-party OAuth abuse campaigns. The threat actor gained initial access through a dormant credential rather than a phishing campaign or a vulnerability exploit. Klue had created the credential for a prototype integration and never decommissioned it. We reconstructed the following timeline from our investigation, Huntress's report, and Klue's disclosures: June 11 : Anomalous behavior begins in Klue's integration infrastructure. Datadog observes the earliest activity at 12:56 UTC. June 12 : Klue identifies unusual network connections from external IP addresses and removes Salesforce access to stop further exfiltration. June 13 : Klue revokes OAuth credentials for all customers, disables integrations, and issues a general customer alert. June 16 : Extortion emails begin arriving at affected organizations, with the subject line \"top secret email\" and a 48-hour deadline to contact the actor through Session Messenger. Timeline of the Klue supply chain attack, from the first anomalous activity on June 11 to Klue's listing on the Icarus leak site on June 19 (click to enlarge). The threat actor ran scripts to issue REST API queries against connected Salesforce instances. The observed user-agent strings suggest the scripts were written in Python. Huntress observed three primary user-agent strings across logs, which align with Datadog's findings. Python-urllib/3.12 Python-urllib/3.14 5238 These user agents made malicious requests against the /services/data/v59.0/query/* endpoint to exfiltrate data quickly. What we found Our analysis of Salesforce event logs surfaced additional detection opportunities for teams responding to this incident or hunting for evidence of Klue-related activity. Identifying the compromised connected application The Klue Battlecards integration will appear in Salesforce logs under different field names depending on the event type. In LoginEvent logs, look for: application : \"Klue Battlecards\" In API events and other event types, the application may surface in the connected app name field: connected_app_name : \"Klue Battlecards\" Detecting OAuth refresh token usage In some instances, the threat actor used OAuth refresh tokens to maintain API access if needed. This behavior appeared in only a subset of affected environments, so treat it as a supplementary indicator rather than a primary detection signal. Where it appears, Salesforce surfaces it differently depending on which event log you have access to. In the Login object this is reflected through: login_sub_type : oauthrefreshtoken And in the LoginEvent object: login_sub_type : ",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "ransomware_extortion",
-            "supply_chain",
-            "phishing_social_eng",
-            "cloud_abuse"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "Salesforce"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "Salesforce": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Detecting the Klue supply chain attack in Salesforce instances",
-          "link": "https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/",
-          "published": "2026-06-22T00:00:00+00:00",
-          "summary": "We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.",
-          "taxonomy": {
-            "threat_categories": [
-              "ransomware_extortion",
-              "supply_chain",
-              "phishing_social_eng",
-              "cloud_abuse"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "Salesforce": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Dark Reading",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
-          "published": "2026-06-23T20:44:09+00:00",
-          "summary": "More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "SecurityWeek",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "More Klue Breach Victims Identified as Hackers Get Hacked",
-          "link": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
-          "published": "2026-06-26T15:01:33+00:00",
-          "summary": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek .",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        },
-        {
-          "source": "Infosecurity Magazine",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens",
-          "link": "https://www.infosecurity-magazine.com/news/klue-breach-compromise/",
-          "published": "2026-06-22T10:15:00+00:00",
-          "summary": "At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "Salesforce"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Salesforce": "target"
-            },
             "weak_tags": {
               "products": []
             }
@@ -4686,180 +4511,6 @@
       ]
     },
     {
-      "cluster_id": "4cc90df0fb",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "phishing_social_eng"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "financial_services"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "no_patch_yet"
-        ],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "SMB cyber readiness: the road to resilience starts here",
-        "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
-        "published": "2026-06-26T08:50:00+00:00",
-        "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
-        "full_body": "Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "phishing_social_eng"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "financial_services"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "no_patch_yet"
-          ],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "SMB cyber readiness: the road to resilience starts here",
-          "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
-          "published": "2026-06-26T08:50:00+00:00",
-          "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
-          "taxonomy": {
-            "threat_categories": [
-              "phishing_social_eng"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "financial_services"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "no_patch_yet"
-            ],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "0d07bde6a5",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "credential_theft"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_1_primary_research"
-        ]
-      },
-      "primary": {
-        "source": "ESET WeLiveSecurity",
-        "cohort": "threat_research_primary",
-        "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
-        "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
-        "published": "2026-06-24T12:35:24+00:00",
-        "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
-        "full_body": "ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "credential_theft"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_1_primary_research",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "ESET WeLiveSecurity",
-          "cohort": "threat_research_primary",
-          "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
-          "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
-          "published": "2026-06-24T12:35:24+00:00",
-          "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
-          "taxonomy": {
-            "threat_categories": [
-              "credential_theft"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_1_primary_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
       "cluster_id": "2a1cd2055f",
       "priority_score": 10,
       "member_count": 1,
@@ -5026,6 +4677,180 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "4cc90df0fb",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "phishing_social_eng"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "financial_services"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "no_patch_yet"
+        ],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "SMB cyber readiness: the road to resilience starts here",
+        "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+        "published": "2026-06-26T08:50:00+00:00",
+        "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
+        "full_body": "Business Security SMB cyber readiness: the road to resilience starts here Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience. Phil Muncaster 26 Jun 2026 • , 5 min. read SMB cybersecurity isn’t always given the attention it deserves, including by small businesses themselves. That’s concerning for various reasons, notably because the companies comprise 90% of the world’s businesses, 70% of its employees, and 50% of global GDP, according to the World Economic Forum (WEF) . With fewer resources to spend on cybersecurity, funds must be allocated as effectively as possible. For these businesses, cyber resilience should be the direction of travel – that is, the ability to continue operating and recover even during a serious incident. But where does the journey start? Cyber readiness is about putting in place the processes and controls to prevent, detect and respond to threats. A new ESET report details how well SMBs are doing, what their biggest challenges are, and what should happen next. Cybersecurity as an operating condition SMBs are in many ways no different from their larger peers. They face a threat landscape that continues to evolve at pace, with adversaries harnessing the latest technologies to increase the volume, scale, and speed of attacks. The corporate attack surface is expanding with each new digital tool and investment. Employees remain a source of risk. And businesses must meet a growing number of regulatory mandates. According to the ESET report, 45% of SMBs suffered a cyber incident last year, and even more (61%) fear an attack over the coming 12 months. They’re most concerned about data loss, operational disruption and financial impact. These are the kinds of concerns that SMB owners share with the CISOs and boards of the largest multinationals. They speak to the business-criticality of cyber readiness. And why security must function as an operating condition – not a siloed IT function, but something deeply embedded into culture and business operations. This shift is critical because while many SMBs eventually recover, 34% still require two to six weeks to resolve an incident – a duration of operational pain that can be disastrous for many firms. ESET SMB Cyber Readiness Index 2026 Read the full report Is it all about AI? The report also reveals that most (73%) SMBs are integrating AI into their business, even though they acknowledge that this will introduce new risks. But there are also concerns about its potential in the wrong hands. In fact, AI-powered malware is cited as the “most concerning threat” by a plurality of respondents. Should it feature so prominently? The truth is that malware using AI in an automated and real-time way is still uncommon, despite what the news headlines may say. Sightings are relatively rare , making it more a topic for cybersecurity researchers than a burning concern for SMBs. If we look at actual cybersecurity incidents, the usual suspects are responsible for the majority of events. Phishing and unpatched vulnerabilities come top, which chimes with data from other sources like Verizon’s latest report – which cites exploitation and phishing as among the top three initial access vectors for SMBs. Weak passwords and a lack of security monitoring also rank high in the ESET data. When it comes to AI, the more acute threat comes from within. According to DBIR, shadow AI is the third most common non-malicious insider action. Meanwhile, while AI-powered malware might not be the most burning concern, AI and automation are helping threat actors to upskill and scale their efforts – for social engineering, vulnerability research and exploitation, and other “legacy” threats. In this context, the SMBs that ESET spoke to are keen to use AI to fight fire with fire, for anticipating threats before they occur, faster identification and mitigation of attacks, and detection of social engineering. The challenge is that these tools either don’t",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "phishing_social_eng"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "financial_services"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [
+            "no_patch_yet"
+          ],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "SMB cyber readiness: the road to resilience starts here",
+          "link": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/",
+          "published": "2026-06-26T08:50:00+00:00",
+          "summary": "Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.",
+          "taxonomy": {
+            "threat_categories": [
+              "phishing_social_eng"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "financial_services"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [
+              "no_patch_yet"
+            ],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "0d07bde6a5",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "credential_theft"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_1_primary_research"
+        ]
+      },
+      "primary": {
+        "source": "ESET WeLiveSecurity",
+        "cohort": "threat_research_primary",
+        "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
+        "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
+        "published": "2026-06-24T12:35:24+00:00",
+        "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
+        "full_body": "ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights Jakub Tomanek Tomáš Procházka 24 Jun 2026 • , 20 min. read A year ago, ESET Research was part of two major operations that disrupted some of the leading cybercriminal operations at the time, Lumma Stealer and Danabot. More recently, our researchers are once again collaborating with private partners and law enforcement, but this time taking aim at the Amadey botnet and Stealc infostealer, both provided via malware-as-a-service (MaaS) offerings. Operation Endgame – coordinated by Microsoft Digital Crimes Unit (DCU), BitSight , Lumen, Mitsui Bussan Secure Directions (MBSD), and other partners – targeted all known network infrastructure used by Amadey and Stealc affiliates in order to cripple their cybercriminal operations. ESET contributed to this effort by providing technical analyses, statistical information, known command and control (C&C) servers, encryption keys, campaign and build identifiers, and other threat intelligence collected during our long-term tracking of both malware families. Key points of this blogpost: ESET took part in the coordinated, global Operation Endgame to disrupt Amadey and Stealc. Operation Endgame impacted around 50 domains and nearly 200 active IP-based C&C servers associated with Amadey and Stealc. ESET provided technical analyses, statistical information, known C&C servers, encryption keys, campaign identifiers, and other insights. We provide an overview of the MaaS ecosystem at the affiliate level for both malware families. We describe how we clustered Amadey and Stealc activity. We summarize the technical properties most relevant to tracking and disruption, including C&C communications, embedded identifiers, and encryption keys. We detail overlaps between activities of Amadey and affiliates of Lumma Stealer. Disruption contribution ESET Research has been tracking both the Amadey botnet and Stealc infostealer for the past three years. For this disruption operation, we shared statistics covering Q4 2025 through H1 2026, along with technical indicators and configuration data extracted from processed malware samples. Our automated systems have been dissecting Amadey and Stealc samples and identifying the fields most relevant for large-scale tracking. These include C&C servers, build identifiers, encryption keys, URL paths, campaign identifiers, and other embedded values used by the malware families during communication with attacker-controlled infrastructure. A major focus of our work was finding reliable methods to handle the large volume of processed samples and to cluster them. This was particularly useful because both Amadey and Stealc are sold as services. As such, the malware samples are distributed and operated by affiliates, often running their own infrastructure, generating or requesting their own builds, and orchestrating their own campaigns. Identifying activity clusters in such ecosystems allows us to spot high-priority targets for disruptions like this one. Sharing technical analyses, statistical information, and threat intelligence, such as C&C server lists, affiliate identifiers, and encryption keys, enables law enforcement agencies to identify, prioritize, and act against infrastructure with a high degree of confidence. IoCs also help distinguish between individual clusters, shared infrastructure, and high-impact botnets whose disruption is likely to have the greatest impact on the overall threat landscape. Ultimately, the disruption affected around 50 domains and nearly 200 active IPs used as C&C servers for either Amadey or Stealc. Disrupted malware families Amadey is a modular malware loader. Its main purpose is to distribute additional malware to compromised systems, although it also offers modules for data exfiltration and",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "credential_theft"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_1_primary_research",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "ESET WeLiveSecurity",
+          "cohort": "threat_research_primary",
+          "title": "ESET takes part in Operation Endgame to disrupt Amadey and Stealc",
+          "link": "https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/",
+          "published": "2026-06-24T12:35:24+00:00",
+          "summary": "ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights",
+          "taxonomy": {
+            "threat_categories": [
+              "credential_theft"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_1_primary_research",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5306,6 +5131,101 @@
       ]
     },
     {
+      "cluster_id": "e1538c3d0e",
+      "priority_score": 10,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "GitHub",
+          "PyPI",
+          "npm"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_2_operator"
+        ]
+      },
+      "primary": {
+        "source": "Datadog Security Labs",
+        "cohort": "cloud_identity_infrastructure",
+        "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
+        "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
+        "published": "2026-06-26T00:00:00+00:00",
+        "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
+        "full_body": "Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "PyPI",
+            "npm",
+            "GitHub"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "news_report",
+          "confidence_tier": "tier_2_operator",
+          "role_map": {
+            "PyPI": "target",
+            "npm": "target",
+            "GitHub": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Datadog Security Labs",
+          "cohort": "cloud_identity_infrastructure",
+          "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
+          "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
+          "published": "2026-06-26T00:00:00+00:00",
+          "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "PyPI",
+              "npm",
+              "GitHub"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_2_operator",
+            "role_map": {
+              "PyPI": "target",
+              "npm": "target",
+              "GitHub": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "195ad94482",
       "priority_score": 10,
       "member_count": 1,
@@ -5459,188 +5379,6 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_offensive_research",
-            "role_map": {},
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "e1538c3d0e",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "GitHub",
-          "PyPI",
-          "npm"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "news_report"
-        ],
-        "confidence_tier": [
-          "tier_2_operator"
-        ]
-      },
-      "primary": {
-        "source": "Datadog Security Labs",
-        "cohort": "cloud_identity_infrastructure",
-        "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
-        "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
-        "published": "2026-06-26T00:00:00+00:00",
-        "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
-        "full_body": "Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [
-            "PyPI",
-            "npm",
-            "GitHub"
-          ],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "news_report",
-          "confidence_tier": "tier_2_operator",
-          "role_map": {
-            "PyPI": "target",
-            "npm": "target",
-            "GitHub": "target"
-          },
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "Datadog Security Labs",
-          "cohort": "cloud_identity_infrastructure",
-          "title": "Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more",
-          "link": "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/",
-          "published": "2026-06-26T00:00:00+00:00",
-          "summary": "Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.",
-          "taxonomy": {
-            "threat_categories": [],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [
-              "PyPI",
-              "npm",
-              "GitHub"
-            ],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "news_report",
-            "confidence_tier": "tier_2_operator",
-            "role_map": {
-              "PyPI": "target",
-              "npm": "target",
-              "GitHub": "target"
-            },
-            "weak_tags": {
-              "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "526d79c926",
-      "priority_score": 10,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "data_breach"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "telecommunications"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "BleepingComputer",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
-        "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-        "published": "2026-06-28T14:13:46+00:00",
-        "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
-        "full_body": "",
-        "fetch_status": "fetch_failed:ReadTimeout",
-        "taxonomy": {
-          "threat_categories": [
-            "data_breach"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [
-            "telecommunications"
-          ],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [],
-          "attack_techniques": [],
-          "urgency_signals": [],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {},
-          "weak_tags": {
-            "products": []
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "BleepingComputer",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
-          "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
-          "published": "2026-06-28T14:13:46+00:00",
-          "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
-          "taxonomy": {
-            "threat_categories": [
-              "data_breach"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [
-              "telecommunications"
-            ],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [],
-            "attack_techniques": [],
-            "urgency_signals": [],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -5842,6 +5580,99 @@
             "urgency_signals": [],
             "content_type": "news_report",
             "confidence_tier": "tier_1_government",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cluster_id": "526d79c926",
+      "priority_score": 9,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [
+          "data_breach",
+          "supply_chain"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "critical_infrastructure",
+          "telecommunications"
+        ],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "BleepingComputer",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+        "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+        "published": "2026-06-28T14:13:46+00:00",
+        "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
+        "full_body": "Data breach exposes up to 14.2 million email logins at six ISPs By Bill Toulas June 28, 2026 10:13 AM 0 Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. The company says that it discovered the compromise on June 17 and responded immediately by blocking the attacker and implementing defense measures. The investigation determined that the hackers exploited a vulnerability in an unnamed third-party software that KDDI Corporation used on its system. “Although technical defensive measures have already been implemented for the system, there remains a possibility that customers' email addresses and passwords were obtained by unauthorized third parties as a result of the incident,” KDDI warns . Scale of exposure KDDI is one of Japan’s largest ISPs, with 45,000 employees and an annual revenue of $32.4 billion. It is a public entity that has operated since 2000, following the merger of IDO, DDI, and KDD, Japan's former state-monopoly international telecommunications provider. The company says that the incident impacted the following five ISP operators and their email services: STNet, Inc. JCOM Co., Ltd. Chubu Telecommunications C., Inc. NIFTY Corporation BIGLOBE Inc. Although the investigation into the incident is still underway and the exact number of impacted accounts has yet to be determined, KDDI said it may have exposed the email addresses and passwords of up to 14,22 million customers. This figure includes current and former customers, as well as inactive accounts that may no longer be in use. Another mitigating factor, according to KDDI, is that some passwords were stored in hashed and/or encrypted form, meaning that they cannot be readily abused for account hijacks even if exposed. However, KDDI did not specify what type of encryption was used or what percentage of accounts had passwords stored in plaintext. KDDI says it has been contacting affected ISPs since June 17 and has also notified Japan's Personal Information Protection Commission and the Ministry of Internal Affairs and Communications. The company is currently working with affected ISPs to implement additional security measures to mitigate the risks arising from this exposure. Meanwhile, customers who may have been exposed are advised to reset their email account passwords as soon as possible. If two-factor authentication (2FA) is available, it would be prudent to set it up as well for additional protection. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Japanese energy firm loses drive with data of 10.9 million clients LastPass confirms data breach in Klue supply chain attack Healthtech firm Xolis suffers data breach impacting 1.4 million people Webinar: Why email security teams are drowning in alerts Klue OAuth breach victim list grows as Icarus hackers claim attack",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "supply_chain",
+            "data_breach"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [
+            "critical_infrastructure",
+            "telecommunications"
+          ],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "BleepingComputer",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+          "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+          "published": "2026-06-28T14:13:46+00:00",
+          "summary": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
+          "taxonomy": {
+            "threat_categories": [
+              "supply_chain",
+              "data_breach"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [
+              "critical_infrastructure",
+              "telecommunications"
+            ],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
             "role_map": {},
             "weak_tags": {
               "products": []
@@ -6799,6 +6630,156 @@
       ]
     },
     {
+      "cluster_id": "c6851e568d",
+      "priority_score": 8,
+      "member_count": 3,
+      "corroborating_source_count": 3,
+      "strong_signals": [
+        "Salesforce"
+      ],
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Salesforce"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report",
+          "news_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "Dark Reading",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
+        "link": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
+        "published": "2026-06-23T20:44:09+00:00",
+        "summary": "More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.",
+        "full_body": "Cyberattacks & Data Breaches Cyber Risk Vulnerabilities & Threats Application Security News Scope of Salesforce Attacks Expands as Icarus Leaks Data More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data. Rob Wright , Senior News Director , Dark Reading June 23, 2026 4 Min Read Source: mikkelwilliam via Getty Images The latest wave of Salesforce data thefts impacted several technology and cybersecurity companies, and the extortion group behind the attacks indicated more victims are coming. The attacks first came to light June 17 when Salesforce disabled integration with Klue's Battlecards application following a breach at the app vendor. Cybersecurity vendor Huntress was the first company to publicly acknowledge its Salesforce data had been compromised, and extortion group Icarus took credit for attacks and warned more victims would emerge. Since then, additional companies have issued disclosures regarding compromised Salesforce data. LastPass said yesterday in a blog post that it was affected by the attacks. While threat actors accessed customer data within the password manager's Salesforce instance, LastPass emphasized that its products, services, and infrastructure were unaffected and that \"customer vaults remain secure.\" Related: In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw LastPass also noted that while Klue's market intelligence platform integrated with its Gong systems , there was \"no evidence the threat actor accessed any Gong-related data.\" Like many organizations that disclosed compromised Salesforce instances, LastPass said it immediately suspended all company access to Klue, rotated exposed API access tokens, and launched an investigation into the attack. Additional cybersecurity and technology companies that disclosed attacks include HackerOne, Recorded Future, Jamf, Snyk OneTrust, Insurity, Tanium, and Sprout Social. Scope of Klue OAuth Token Abuse It appears threat actors may have access to more than just Salesforce instances. Gong itself published a blog post Friday stating that attackers may have accessed \"internal licensed user data\" for a subset of Gong customers that used the Klue integration. The Gong data accessed includes usernames, user business titles, and user emails, according to the company. \"To be clear: this was an incident that originated with third-party integrator Klue. It was not a direct breach of Gong’s own products or systems,\" the company stated. \"Impacted customers were those who chose to connect Klue with Gong. Gong has not identified any direct impact to customer call recordings or transcripts.\" Gong added that Klue provided the company with four suspicious IP addresses, which Gong blocked. After investigating the activity tied to the IP address, Gong determined some customer data was compromised. Dark Reading contacted Gong for further comment. The compromise of more Salesforce instances and Gong user emails could raise concerns about exposed secrets . In previous Salesforce attacks last year — which were tied to the breach of another third-party app vendor, Salesloft — some victims acknowledged that their instances contained secrets. For example, Cloudflare discovered 104 API tokens in its Salesforce instance, which were contained in some support case data files. Those tokens were promptly rotated. Related: EdTech Attackers Shift From Schools to Their Software Suppliers The specter of last year's attacks may have prompted companies affected by Icarus's campaign to carefully review impacted data for any potential secrets or sensitive information beyond what would traditionally be contained in Salesforce instances. For example, HackerOne noted in its disclosure that it has \"strict data segmentation policies and controls\" that prohibit customer vulnerability data from its CRM systems. \"Further, our preliminary forensic investigation has found no indication that any such data was accessed,\" the",
+        "fetch_status": "ok",
+        "taxonomy": {
+          "threat_categories": [
+            "ransomware_extortion"
+          ],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [
+            "Salesforce"
+          ],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {
+            "Salesforce": "target"
+          },
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "Dark Reading",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Scope of Salesforce Attacks Expands as Icarus Leaks Data",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data",
+          "published": "2026-06-23T20:44:09+00:00",
+          "summary": "More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.",
+          "taxonomy": {
+            "threat_categories": [
+              "ransomware_extortion"
+            ],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Salesforce"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "SecurityWeek",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "More Klue Breach Victims Identified as Hackers Get Hacked",
+          "link": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
+          "published": "2026-06-26T15:01:33+00:00",
+          "summary": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek .",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Salesforce"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        },
+        {
+          "source": "Infosecurity Magazine",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens",
+          "link": "https://www.infosecurity-magazine.com/news/klue-breach-compromise/",
+          "published": "2026-06-22T10:15:00+00:00",
+          "summary": "At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [
+              "Salesforce"
+            ],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "news_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {
+              "Salesforce": "target"
+            },
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
+    },
+    {
       "cluster_id": "f8e669b332",
       "priority_score": 8,
       "member_count": 1,
@@ -6874,118 +6855,6 @@
             "role_map": {},
             "weak_tags": {
               "products": []
-            }
-          }
-        }
-      ]
-    },
-    {
-      "cluster_id": "4df7286945",
-      "priority_score": 8,
-      "member_count": 1,
-      "corroborating_source_count": 1,
-      "strong_signals": [],
-      "taxonomy": {
-        "threat_categories": [
-          "active_exploitation"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [
-          "CVE-2026-47729",
-          "CVE-2026-50012"
-        ],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "poc_available"
-        ],
-        "content_type": [
-          "incident_report"
-        ],
-        "confidence_tier": [
-          "tier_4_news"
-        ]
-      },
-      "primary": {
-        "source": "The Hacker News",
-        "cohort": "cyber_news_breach_reporting",
-        "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-        "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-        "published": "2026-06-22T16:29:00+00:00",
-        "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
-        "full_body": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests  Swati Khandelwal  Jun 22, 2026 Vulnerability / Server Security A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed ( CVE-2026-47729 ), after Heartbleed, which leaked memory the same way. Squid describes this as an attack by a trusted client : someone already permitted to use the proxy, not any random host on the internet. That matches Squid's usual home, shared networks like schools, offices, and public Wi-Fi. In those setups, the attacker is just another user of the same proxy. The leak also only reaches traffic that Squid can read. Normal HTTPS rides an opaque CONNECT tunnel, so Squid never sees inside it; the exposed traffic is cleartext HTTP, plus TLS-terminating setups where Squid decrypts and inspects. The attacker also needs the proxy to reach an FTP server they control on port 21. Both FTP and that port are on by default. How the leak works The bug sits in Squid's FTP directory-listing parser. To handle old NetWare servers that padded listings with extra spaces, the code skips whitespace with a loop: while (strchr(w_space, *copyFrom)) ++copyFrom;. If the attacker's FTP server sends a listing line that ends right after the timestamp, with no filename, copyFrom lands on the string's null terminator. strchr treats that terminating NUL as part of the string it searches, so it returns a pointer instead of NULL, and the loop never stops. It walks off the end of the buffer, and xstrdup copies whatever follows back to the attacker as a filename. The leaked bytes are the useful part. Squid reuses freed memory buffers without zeroing them, so a 4KB buffer that recently held a victim's HTTP request still holds most of it. A short FTP line overwrites only the first few bytes; the over-read returns the rest. Calif's demo pulls an Authorization header from a victim sharing the same proxy, enough to act as that user. Proof-of-concept code is public , and no in-the-wild exploitation has been reported as of writing. What to do If you patch, verify the fix, not just the version. Confirm the guard is in FtpGateway.cc, or check your distribution's backport, since distros ship their own builds (Debian packages Squid 5.7). The public thread is still inconsistent: maintainer Amos Jeffries first said Squid 7.6 carried the fix, then corrected that to 7.7 , and on June 22 Debian's Salvatore Bonaccorso noted the referenced commit looks like it is already in 7.6. The fix is small, a null-terminator check before the vulnerable strchr calls , merged to the development branch in April and v7 in May. Squid 7.6 does separately patch CVE-2026-50012, an unrelated cache_digest heap overflow. The cleaner move is the one the researchers recommend anyway: turn FTP off. Chromium dropped FTP years ago, and most networks carry almost none of it, so disabling it removes this attack surface for free, whatever build you run. The risk is real but bounded. SUSE rates it moderate, CVSS 6.5 , and the vector explains the score: the attacker needs proxy access (low privileges), and the only impact is confidentiality, nothing on integrity or availability. Calif credits Anthropic's Claude Mythos Preview, the model behind Project Glasswing , with catching the strchr quirk almost at once, the same kind of buried parser bug AI agents have been surfacing elsewhere , including in FFmpeg. Calif hints Squid's FTP code may not be the last place it forgot to stop reading. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Ai Research , Credential Leak , Proxy Securit",
-        "fetch_status": "ok",
-        "taxonomy": {
-          "threat_categories": [
-            "active_exploitation"
-          ],
-          "actor_attribution": [],
-          "affected_industries": [],
-          "affected_products": [],
-          "tools_used": [],
-          "cve_ids": [
-            "CVE-2026-47729",
-            "CVE-2026-50012"
-          ],
-          "attack_techniques": [],
-          "urgency_signals": [
-            "poc_available"
-          ],
-          "content_type": "incident_report",
-          "confidence_tier": "tier_4_news",
-          "role_map": {
-            "Anthropic/Claude": "mention"
-          },
-          "weak_tags": {
-            "products": [
-              [
-                "Anthropic/Claude",
-                "mention",
-                0.29
-              ]
-            ]
-          }
-        }
-      },
-      "corroborating_sources": [
-        {
-          "source": "The Hacker News",
-          "cohort": "cyber_news_breach_reporting",
-          "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-          "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-          "published": "2026-06-22T16:29:00+00:00",
-          "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
-          "taxonomy": {
-            "threat_categories": [
-              "active_exploitation"
-            ],
-            "actor_attribution": [],
-            "affected_industries": [],
-            "affected_products": [],
-            "tools_used": [],
-            "cve_ids": [
-              "CVE-2026-47729",
-              "CVE-2026-50012"
-            ],
-            "attack_techniques": [],
-            "urgency_signals": [
-              "poc_available"
-            ],
-            "content_type": "incident_report",
-            "confidence_tier": "tier_4_news",
-            "role_map": {
-              "Anthropic/Claude": "mention"
-            },
-            "weak_tags": {
-              "products": [
-                [
-                  "Anthropic/Claude",
-                  "mention",
-                  0.29
-                ]
-              ]
             }
           }
         }
@@ -7106,14 +6975,27 @@
       "corroborating_source_count": 1,
       "strong_signals": [],
       "taxonomy": {
-        "threat_categories": [],
+        "threat_categories": [
+          "vulnerability_disclosure",
+          "zero_day"
+        ],
         "actor_attribution": [],
-        "affected_industries": [],
+        "affected_industries": [
+          "government"
+        ],
         "affected_products": [],
         "tools_used": [],
-        "cve_ids": [],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
         "attack_techniques": [],
-        "urgency_signals": [],
+        "urgency_signals": [
+          "no_patch_yet",
+          "preauth_unauth",
+          "zero_day"
+        ],
         "content_type": [
           "vulnerability_disclosure"
         ],
@@ -7128,22 +7010,43 @@
         "link": "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/",
         "published": "2026-06-25T14:15:00+00:00",
         "summary": "A high-severity flaw in Cisco Catalyst SD-WAN Manager disclosed in early June was exploited as early as March",
-        "full_body": "",
-        "fetch_status": "not_attempted",
+        "full_body": "Infosecurity Magazine Home » News » Cisco Vulnerability Exploited Months Before Disclosure, Google Warns Cisco Vulnerability Exploited Months Before Disclosure, Google Warns News 25 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn A threat actor started exploiting a severe vulnerability in Cisco products at least two months before the flaw was disclosed, a new Google report warned. Tracked as CVE-2026-20245, this high-severity (CVSS 7.8) privilege escalation vulnerability stems from insufficient validation of user-supplied input in the command-line interface (CLI) of Cisco Catalyst SD-WAN Controller, formerly known as SD-WAN vSmart. It affects several versions of Cisco Catalyst SD-WAN Manager as well as related products like Cisco Catalyst SD-WAN Validator. Affected versions of these products are vulnerable regardless of the installation – on-premises, Cloud-Pro, Cloud (Cisco Managed) and Government (FedRAMP). Authenticated, local attackers can exploit it by uploading a crafted file to the affected system and can consequently execute arbitrary commands as root. The zero-day vulnerability was disclosed by Cisco on June 4 after it has observed “limited cases where the exploitation of this bug resulted in a configuration change pushed to edge devices.” However, at the time of disclosure, no patch was available. The tech giant started releasing Catalyst SD-WAN Manager updates with the CVE-2026-20245 fix on June 10. Vulnerability Disclosure in June, Exploitation in March In a new report published on June 24, security researchers at Mandiant, part of Google Cloud, said they identified a threat actor targeting SD-WAN infrastructure at a service provider in early 2026. From late 2025 to January 2026, Mandiant observed multiple unauthorized peering connections to the victim’s SD-WAN Manager devices. The researchers noted that this malicious activity could be linked to the exploitation of CVE-2026-20127 or CVE-2026-20182 as the vulnerabilities were not disclosed, and patches were not available during this period. CVE-2026-20127 and CVE-2026-20182 are critical vulnerabilities recently disclosed by Cisco that affect the peering authentication mechanism for Cisco Catalyst SD-WAN controllers. Both could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges. The Mandiant researchers noticed further unauthorized peering connections on a device running a software version unaffected by CVE-2026-20127 in March. They checked with Cisco, which confirmed that these connections did not leverage CVE-2026-20182 either and could instead be using stolen certificate material from a previous compromise of the same device. They later found that a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access and then used that access to manipulate default account passwords to evade detection. They also identified that a threat actor exploited what is now known as CVE-2026-20245 in Cisco Catalyst SD-WAN Manager to gain root-level access via a malicious CSV upload. This latter actor then deleted malicious files, reverted configuration changes and executed a validation script to ensure indicators have been purged. “It is unclear if the same threat actor was responsible for the late 2025 to January 2026 and March 2026 rogue peering activity,” Mandiant said. New Living-Off-the-Edge Paradigm for Threat Actors Nevertheless, Google highlighted that this campaign “underscores the living-off-the-edge paradigm , where threat actors prioritize the compromise of network appliances to bypass traditional security perimeters.” Mandiant further emphasized that orchestrators managing edge devices and software-defined networking appliances “often lack the telemetry required for deep forensic analysis, and their role as a central control plane provides a stealthy platform for persistent, wide-scale access to intern",
+        "fetch_status": "ok",
         "taxonomy": {
-          "threat_categories": [],
+          "threat_categories": [
+            "zero_day",
+            "vulnerability_disclosure"
+          ],
           "actor_attribution": [],
-          "affected_industries": [],
+          "affected_industries": [
+            "government"
+          ],
           "affected_products": [],
           "tools_used": [],
-          "cve_ids": [],
+          "cve_ids": [
+            "CVE-2026-20245",
+            "CVE-2026-20127",
+            "CVE-2026-20182"
+          ],
           "attack_techniques": [],
-          "urgency_signals": [],
+          "urgency_signals": [
+            "zero_day",
+            "preauth_unauth",
+            "no_patch_yet"
+          ],
           "content_type": "vulnerability_disclosure",
           "confidence_tier": "tier_4_news",
-          "role_map": {},
+          "role_map": {
+            "Google Cloud": "mention"
+          },
           "weak_tags": {
-            "products": []
+            "products": [
+              [
+                "Google Cloud",
+                "mention",
+                0.33
+              ]
+            ]
           }
         }
       },
@@ -7156,19 +7059,40 @@
           "published": "2026-06-25T14:15:00+00:00",
           "summary": "A high-severity flaw in Cisco Catalyst SD-WAN Manager disclosed in early June was exploited as early as March",
           "taxonomy": {
-            "threat_categories": [],
+            "threat_categories": [
+              "zero_day",
+              "vulnerability_disclosure"
+            ],
             "actor_attribution": [],
-            "affected_industries": [],
+            "affected_industries": [
+              "government"
+            ],
             "affected_products": [],
             "tools_used": [],
-            "cve_ids": [],
+            "cve_ids": [
+              "CVE-2026-20245",
+              "CVE-2026-20127",
+              "CVE-2026-20182"
+            ],
             "attack_techniques": [],
-            "urgency_signals": [],
+            "urgency_signals": [
+              "zero_day",
+              "preauth_unauth",
+              "no_patch_yet"
+            ],
             "content_type": "vulnerability_disclosure",
             "confidence_tier": "tier_4_news",
-            "role_map": {},
+            "role_map": {
+              "Google Cloud": "mention"
+            },
             "weak_tags": {
-              "products": []
+              "products": [
+                [
+                  "Google Cloud",
+                  "mention",
+                  0.33
+                ]
+              ]
             }
           }
         }
@@ -7248,9 +7172,210 @@
           }
         }
       ]
+    },
+    {
+      "cluster_id": "4df7286945",
+      "priority_score": 8,
+      "member_count": 1,
+      "corroborating_source_count": 1,
+      "strong_signals": [],
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": [
+          "incident_report"
+        ],
+        "confidence_tier": [
+          "tier_4_news"
+        ]
+      },
+      "primary": {
+        "source": "The Hacker News",
+        "cohort": "cyber_news_breach_reporting",
+        "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+        "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+        "published": "2026-06-22T16:29:00+00:00",
+        "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
+        "full_body": "",
+        "fetch_status": "not_attempted",
+        "taxonomy": {
+          "threat_categories": [],
+          "actor_attribution": [],
+          "affected_industries": [],
+          "affected_products": [],
+          "tools_used": [],
+          "cve_ids": [],
+          "attack_techniques": [],
+          "urgency_signals": [],
+          "content_type": "incident_report",
+          "confidence_tier": "tier_4_news",
+          "role_map": {},
+          "weak_tags": {
+            "products": []
+          }
+        }
+      },
+      "corroborating_sources": [
+        {
+          "source": "The Hacker News",
+          "cohort": "cyber_news_breach_reporting",
+          "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+          "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+          "published": "2026-06-22T16:29:00+00:00",
+          "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
+          "taxonomy": {
+            "threat_categories": [],
+            "actor_attribution": [],
+            "affected_industries": [],
+            "affected_products": [],
+            "tools_used": [],
+            "cve_ids": [],
+            "attack_techniques": [],
+            "urgency_signals": [],
+            "content_type": "incident_report",
+            "confidence_tier": "tier_4_news",
+            "role_map": {},
+            "weak_tags": {
+              "products": []
+            }
+          }
+        }
+      ]
     }
   ],
   "affinity_groups": [
+    {
+      "label": "CVE-2026-20245 exploitation activity",
+      "anchor_signal": "CVE-2026-20245",
+      "theme_key": "cve-2026-20245",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "preauth_unauth",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.752,
+      "shared_strong_signals": [
+        "CVE-2026-20245"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99",
+        "49c2eae0f5"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
+        "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20127 exploitation activity",
+      "anchor_signal": "CVE-2026-20127",
+      "theme_key": "cve-2026-20127",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "preauth_unauth",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.752,
+      "shared_strong_signals": [
+        "CVE-2026-20127"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99",
+        "49c2eae0f5"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
+        "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/"
+      ]
+    },
+    {
+      "label": "CVE-2026-20182 exploitation activity",
+      "anchor_signal": "CVE-2026-20182",
+      "theme_key": "cve-2026-20182",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day"
+        ],
+        "affected_industries": [
+          "government"
+        ],
+        "cve_ids": [
+          "CVE-2026-20127",
+          "CVE-2026-20182",
+          "CVE-2026-20245"
+        ],
+        "urgency_signals": [
+          "zero_day",
+          "preauth_unauth",
+          "no_patch_yet"
+        ]
+      },
+      "cluster_count": 3,
+      "article_count": 5,
+      "cohesion": 0.752,
+      "shared_strong_signals": [
+        "CVE-2026-20182"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "92ea9e355d",
+        "76f836fe99",
+        "49c2eae0f5"
+      ],
+      "links": [
+        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
+        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/",
+        "https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/"
+      ]
+    },
     {
       "label": "Microsoft Defender vulnerability activity",
       "anchor_signal": "Microsoft Defender",
@@ -7318,111 +7443,34 @@
       ]
     },
     {
-      "label": "CVE-2026-20127 exploitation activity",
-      "anchor_signal": "CVE-2026-20127",
-      "theme_key": "cve-2026-20127",
+      "label": "Palo Alto Networks vulnerability activity",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
       "dominant_features": {
-        "threat_categories": [
-          "zero_day"
+        "affected_industries": [
+          "government"
         ],
-        "cve_ids": [
-          "CVE-2026-20127",
-          "CVE-2026-20182",
-          "CVE-2026-20245"
-        ],
-        "urgency_signals": [
-          "zero_day"
+        "affected_products": [
+          "Palo Alto Networks"
         ]
       },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.703,
+      "cluster_count": 3,
+      "article_count": 3,
+      "cohesion": 0.347,
       "shared_strong_signals": [
-        "CVE-2026-20127"
+        "Palo Alto Networks"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "92ea9e355d",
-        "76f836fe99"
+        "fd2a2922d1",
+        "84319555f9",
+        "58ad2b1b0b"
       ],
       "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/",
-        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
-      ]
-    },
-    {
-      "label": "CVE-2026-20182 exploitation activity",
-      "anchor_signal": "CVE-2026-20182",
-      "theme_key": "cve-2026-20182",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "cve_ids": [
-          "CVE-2026-20127",
-          "CVE-2026-20182",
-          "CVE-2026-20245"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.703,
-      "shared_strong_signals": [
-        "CVE-2026-20182"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "92ea9e355d",
-        "76f836fe99"
-      ],
-      "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/",
-        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
-      ]
-    },
-    {
-      "label": "CVE-2026-20245 exploitation activity",
-      "anchor_signal": "CVE-2026-20245",
-      "theme_key": "cve-2026-20245",
-      "dominant_features": {
-        "threat_categories": [
-          "zero_day"
-        ],
-        "cve_ids": [
-          "CVE-2026-20127",
-          "CVE-2026-20182",
-          "CVE-2026-20245"
-        ],
-        "urgency_signals": [
-          "zero_day"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 5,
-      "cohesion": 0.703,
-      "shared_strong_signals": [
-        "CVE-2026-20245"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "92ea9e355d",
-        "76f836fe99"
-      ],
-      "links": [
-        "https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/",
-        "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-        "https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/",
-        "https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/"
+        "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/",
+        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+        "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/"
       ]
     },
     {
@@ -7488,32 +7536,78 @@
       ]
     },
     {
-      "label": "CVE-2026-47729 exploitation activity",
-      "anchor_signal": "CVE-2026-47729",
-      "theme_key": "cve-2026-47729",
+      "label": "CVE-2026-20230 exploitation activity",
+      "anchor_signal": "CVE-2026-20230",
+      "theme_key": "cve-2026-20230",
       "dominant_features": {
         "threat_categories": [
           "active_exploitation"
         ],
+        "affected_industries": [
+          "government"
+        ],
         "cve_ids": [
-          "CVE-2026-47729"
+          "CVE-2026-20230"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "poc_available"
         ]
       },
       "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.571,
+      "article_count": 3,
+      "cohesion": 0.333,
       "shared_strong_signals": [
-        "CVE-2026-47729"
+        "CVE-2026-20230"
       ],
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "2a76d13430",
-        "4df7286945"
+        "56627fa3d2",
+        "fd2a2922d1"
       ],
       "links": [
-        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-47729/",
-        "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html"
+        "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20230/",
+        "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+        "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
+      ]
+    },
+    {
+      "label": "CVE-2026-12569 exploitation activity",
+      "anchor_signal": "CVE-2026-12569",
+      "theme_key": "cve-2026-12569",
+      "dominant_features": {
+        "threat_categories": [
+          "zero_day",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "government",
+          "manufacturing_industrial"
+        ],
+        "cve_ids": [
+          "CVE-2026-12569"
+        ],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day"
+        ]
+      },
+      "cluster_count": 2,
+      "article_count": 2,
+      "cohesion": 0.201,
+      "shared_strong_signals": [
+        "CVE-2026-12569"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "32524cab6e",
+        "fd2a2922d1"
+      ],
+      "links": [
+        "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/",
+        "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
       ]
     },
     {
@@ -7577,58 +7671,6 @@
         "https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/",
         "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
         "https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/"
-      ]
-    },
-    {
-      "label": "Kubernetes vulnerability activity",
-      "anchor_signal": "Kubernetes",
-      "theme_key": "kubernetes",
-      "dominant_features": {
-        "affected_products": [
-          "Kubernetes"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.5,
-      "shared_strong_signals": [
-        "Kubernetes"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "2666f433e1",
-        "2a1cd2055f"
-      ],
-      "links": [
-        "https://orca.security/resources/blog/best-vulnerability-management-tools/",
-        "https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/"
-      ]
-    },
-    {
-      "label": "Palo Alto Networks vulnerability activity",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "affected_products": [
-          "Palo Alto Networks"
-        ]
-      },
-      "cluster_count": 2,
-      "article_count": 2,
-      "cohesion": 0.545,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "84319555f9",
-        "58ad2b1b0b"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-        "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/"
       ]
     }
   ],

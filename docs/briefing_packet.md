@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-28T23:12:24.018219+00:00
+- Generated: 2026-06-29T04:43:47.362823+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 328
-- Total clusters raw: 153
+- Total items in window: 303
+- Total clusters raw: 151
 - Total clusters in packet: 62
-- Dropped low score: 91
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,6 +80,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
@@ -110,26 +110,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Citizen Lab** (threat_research_primary)
   - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
@@ -140,11 +135,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 3
+  - Item count: 10
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -152,6 +147,11 @@
   - In window count: 4
 - **Volexity** (threat_research_primary)
   - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -165,11 +165,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 100
+  - In window count: 3
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -195,91 +195,86 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
-  - In window count: 3
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - In window count: 2
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
@@ -290,56 +285,61 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
   - Item count: 20
   - In window count: 11
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 17
+  - In window count: 15
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -355,76 +355,61 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 25
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 10
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 0
-  - In window count: 0
+  - Item count: 15
+  - In window count: 1
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 44
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 27
 - **Reddit r/netsecstudents** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
@@ -435,16 +420,31 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 27
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 44
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
   - In window count: 11
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 25
-  - In window count: 24
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 8
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -472,6 +472,69 @@
   - In window count: 0
 
 ## Affinity groups (themes)
+
+### CVE-2026-20245 exploitation activity
+- Anchor signal: CVE-2026-20245
+- Theme key: cve-2026-20245
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20245
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
+
+### CVE-2026-20127 exploitation activity
+- Anchor signal: CVE-2026-20127
+- Theme key: cve-2026-20127
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20127
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
+
+### CVE-2026-20182 exploitation activity
+- Anchor signal: CVE-2026-20182
+- Theme key: cve-2026-20182
+- Cluster count: 3
+- Article count: 5
+- Cohesion: 0.752
+- Shared strong signals: CVE-2026-20182
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth, no_patch_yet
+- Cluster IDs: 92ea9e355d, 76f836fe99, 49c2eae0f5
+- Links:
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
 
 ### Microsoft Defender vulnerability activity
 - Anchor signal: Microsoft Defender
@@ -513,65 +576,23 @@
   - https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
   - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
 
-### CVE-2026-20127 exploitation activity
-- Anchor signal: CVE-2026-20127
-- Theme key: cve-2026-20127
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20127
+### Palo Alto Networks vulnerability activity
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.347
+- Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
+  - affected_industries: government
+  - affected_products: Palo Alto Networks
+- Cluster IDs: fd2a2922d1, 84319555f9, 58ad2b1b0b
 - Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-
-### CVE-2026-20182 exploitation activity
-- Anchor signal: CVE-2026-20182
-- Theme key: cve-2026-20182
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20182
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
-
-### CVE-2026-20245 exploitation activity
-- Anchor signal: CVE-2026-20245
-- Theme key: cve-2026-20245
-- Cluster count: 2
-- Article count: 5
-- Cohesion: 0.703
-- Shared strong signals: CVE-2026-20245
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
-  - urgency_signals: zero_day
-- Cluster IDs: 92ea9e355d, 76f836fe99
-- Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/
-  - https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
+  - https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
+  - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
 
 ### supply chain targeting npm
 - Anchor signal: npm
@@ -610,22 +631,44 @@
   - https://aws.amazon.com/blogs/security/restrict-aws-management-console-access-to-expected-networks-with-sign-in-resource-based-policies-and-rcps/
   - https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/
 
-### CVE-2026-47729 exploitation activity
-- Anchor signal: CVE-2026-47729
-- Theme key: cve-2026-47729
+### CVE-2026-20230 exploitation activity
+- Anchor signal: CVE-2026-20230
+- Theme key: cve-2026-20230
 - Cluster count: 2
-- Article count: 2
-- Cohesion: 0.571
-- Shared strong signals: CVE-2026-47729
+- Article count: 3
+- Cohesion: 0.333
+- Shared strong signals: CVE-2026-20230
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: active_exploitation
-  - cve_ids: CVE-2026-47729
-- Cluster IDs: 2a76d13430, 4df7286945
+  - affected_industries: government
+  - cve_ids: CVE-2026-20230
+  - urgency_signals: actively_exploited, poc_available
+- Cluster IDs: 56627fa3d2, fd2a2922d1
 - Links:
-  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-47729/
-  - https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+  - https://horizon3.ai/attack-research/vulnerabilities/cve-2026-20230/
+  - https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html
+  - https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
+
+### CVE-2026-12569 exploitation activity
+- Anchor signal: CVE-2026-12569
+- Theme key: cve-2026-12569
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.201
+- Shared strong signals: CVE-2026-12569
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day, active_exploitation
+  - affected_industries: government, manufacturing_industrial
+  - cve_ids: CVE-2026-12569
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: 32524cab6e, fd2a2922d1
+- Links:
+  - https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/
+  - https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
 
 ### apt espionage targeting Cisco
 - Anchor signal: Cisco
@@ -665,38 +708,6 @@
   - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
   - https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/
   - https://www.infosecurity-magazine.com/news/scattered-spider-teens-convicted/
-
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.5
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: 2666f433e1, 2a1cd2055f
-- Links:
-  - https://orca.security/resources/blog/best-vulnerability-management-tools/
-  - https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-
-### Palo Alto Networks vulnerability activity
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 2
-- Article count: 2
-- Cohesion: 0.545
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Palo Alto Networks
-- Cluster IDs: 84319555f9, 58ad2b1b0b
-- Links:
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
 
 ## Forward signals
 
@@ -757,8 +768,8 @@
 - Published: 2026-06-24T11:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
+- Member count: 3
+- Corroborating source count: 3
 - Strong signals: CVE-2026-20245
 
 #### Cluster taxonomy (union across members)
@@ -767,7 +778,7 @@
 - cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
 - urgency_signals: preauth_unauth, zero_day
 - content_type: vulnerability_disclosure
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news, tier_5_chatter
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: zero_day
@@ -789,7 +800,7 @@ Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski
 Threat Intelligence Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager June 24, 2026 Mandiant Mandiant Services Stop attacks, reduce risk, and advance your security. Contact Mandiant Written by: Chester Sng, Pete Boonyakarn, Logeswaran Nadarajan, Lukasz Lamparski Introduction In early 2026, Mandiant identified a threat actor targeting SD-WAN infrastructure at a service provider. After gaining initial access, the threat actor exploited a zero-day vulnerability ( CVE-2026-20245 ) in Cisco Catalyst SD-WAN to escalate privileges from a compromised administrative account to root-level access. The vulnerability stems from the device’s file upload feature lacking the ability to properly filter malicious data. Throughout the intrusion, to maintain operational security and avoid detection, the threat actor consistently employed anti-forensic techniques, selectively deleting and restoring system configuration files that were modified during their activities. Key Observations Rogue Peering and Credential Manipulation : In March 2026, a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access. The threat actor used that access to manipulate default account passwords to evade detection . Exploitation of CVE-2026-20245 : Subsequently, the attacker leveraged a zero-day privilege escalation vulnerability (now tracked as CVE-2026-20245) in Cisco Catalyst SD-WAN Manager to gain root-level access via a malicious CSV upload. Extensive Anti-Forensic Cleanup : The threat actor deleted malicious files, reverted configuration changes, and executed a validation script to ensure indicators are purged . What is SD-WAN? Traditional Wide Area Networks (WANs) rely heavily on physical, proprietary hardware routers to direct traffic. This model is often rigid, complex to scale, and struggles to handle the demands of modern cloud computing. Software-Defined Wide Area Network (SD-WAN) solves this by decoupling the network’s management and control logic from the underlying physical hardware. Instead of configuring individual routers one by one, a centralized software controller is used to orchestrate the entire network from a single dashboard. SD-WANs are typically used by highly distributed organizations, such as banks, retail corporations, technology services, and healthcare providers, to securely connect multiple remote branch locations directly to central cloud services . What is Peering? Within an SD-WAN fabric, peering is the logical process of establishing a trusted, authenticated relationship between distinct network components, such as edge routers, regional hubs, and central controllers. Before any data can be securely transmitted across the network fabric, these devices must perform a digital handshake. During the peering phase, devices mutually authenticate each other using cryptographic certificates. Once identity and trust are verified, they exchange underlying routing tables and automatically build secure tunnels to facilitate safe data transport. Additional Vulnerabilities in Cisco Catalyst SD-WAN Controllers CVE-2026-20127 and CVE-2026-20182 are critical vulnerabilities recently disclosed by Cisco that affect the peering authentication mechanism for Cisco Catalyst SD-WAN controllers. Both vulnerabilities could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges. Intrusion Campaign Overview Initial Access Via Rogue Peering Connections From late 2025 to January 2026, Mandiant observed multiple unauthorized peering connections to the victim’s SD-WAN Manager devices. It is possible that these connections occurred due to the exploitation of CVE-2026-20127 or CVE-2026-20182 as the vulnerabilities were not disclosed, and patches were not available during this period . Beginning in March 2026, further unauthorized peering connections were seen on a device running a software version unaffected by CVE-2026-
 ```
 
-#### Corroborating sources (4)
+#### Corroborating sources (3)
 
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - Title: Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager
@@ -806,11 +817,6 @@ Threat Intelligence Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in C
   - Published: 2026-06-25T05:46:54+00:00
   - Link: https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
   - Summary: An unknown threat actor exploited a recently disclosed high-severity security flaw impacting Cisco Catalyst SD-WAN as a zero-day at least two months before it was publicly disclosed, according to new findings from Google-owned Mandiant. The vulnerability, tracked as CVE-2026-20245 (CVSS score: 7.8), allows an authenticated, local attacker to execute arbitrary commands with elevated privileges
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - Title: Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager
-  - Published: 2026-06-26T06:25:33+00:00
-  - Link: https://www.reddit.com/r/blueteamsec/comments/1ufyrvs/zeroday_exploitation_of_vulnerability/
-  - Summary: submitted by /u/digicat [link] [comments]
 
 ### Cluster 62bb44cac7 — score 29
 
@@ -1296,16 +1302,16 @@ Page content What happens when you clear dozens of Trail of Bits engineers’ sc
   - Published: 2026-06-26T17:49:07+00:00
   - Link: https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/
   - Summary: Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company information in chats and projects. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
-  - Published: 2026-06-23T03:56:58+00:00
-  - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
-  - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: OpenAI Expands Daybreak to Help Defenders Patch Flaws
   - Published: 2026-06-23T14:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/openai-daybreak-gpt-5-5-cyber/
   - Summary: OpenAI expanded Daybreak with a full GPT-5.5-Cyber release to help defenders patch software flaws
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws
+  - Published: 2026-06-23T03:56:58+00:00
+  - Link: https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html
+  - Summary: OpenAI on Monday said it's releasing an improved version of its GPT‑5.5‑Cyber model to trusted defenders as part of the Daybreak initiative the artificial intelligence (AI) company announced last month. Calling GPT‑5.5‑Cyber its "strongest model yet for finding and helping patch software vulnerabilities," OpenAI said the model can "sustain deeper analysis across large codebases" to
 - **tl;dr sec** (practitioner_analysis)
   - Title: [tl;dr sec] #334 - Thinkst's Package Proxy, OpenAI Daybreak, AI Agents & Canaries
   - Published: 2026-06-25T14:30:00+00:00
@@ -1366,22 +1372,26 @@ Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Inte
 - Source: BleepingComputer (cyber_news_breach_reporting)
 - Published: 2026-06-26T19:43:06+00:00
 - Link: https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/
-- Fetch status: fetch_failed:ReadTimeout
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: government
-- urgency_signals: actively_exploited
+- threat_categories: active_exploitation, zero_day
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Gogs, Ivanti, Palo Alto Networks
+- cve_ids: CVE-2026-12569, CVE-2026-20230
+- urgency_signals: actively_exploited, poc_available, zero_day
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government
-- urgency_signals: actively_exploited
+- threat_categories: zero_day, active_exploitation
+- affected_industries: government, manufacturing_industrial, retail_ecommerce
+- affected_products: Gogs, Ivanti, Palo Alto Networks
+- cve_ids: CVE-2026-20230, CVE-2026-12569
+- urgency_signals: actively_exploited, zero_day, poc_available
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -1389,6 +1399,12 @@ Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Inte
 
 ```
 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. [...]
+```
+
+#### Full body
+
+```
+CISA sets urgent deadline to fix Cisco flaw exploited in attacks By Bill Toulas June 26, 2026 03:43 PM 0 The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is giving federal agencies until Sunday to patch a vulnerability in Cisco Unified Communications Manager Server that is being actively exploited. Identified as CVE-2026-20230, the security issue is server-side request forgery (SSRF) and has been added to the agency's catalog of Known Exploited Vulnerabilities (KEV). Per Binding Operational Directive (BOD) 26-04 , the remediation is deemed urgent and must addressed by Sunday, June 28. Cisco marked CVE-2026-20230 with critical severity and released a patch on June 3, warning that it could be exploited remotely and without authentication via specially crafted HTTP requests. At the time, the company noted that a proof-of-concept exploit existed, but had found no evidence of active exploitation. Last weekend, threat detection startup Defused observed the vulnerability being exploited in attacks to write arbitrary text files to affected endpoints. It is currently unknown what type of threat actor is leveraging CVE-2026-20230 in attacks. Critical flaw in PLM products CISA has also added CVE-2026-12569 to the KEV catalog, an improper input validation flaw impacting the PTC Windchill and FlexPLM software products. Both are product lifecycle management (PLM) systems developed by PTC specifically for the manufacturing, engineering, retail, footwear, apparel, and consumer products industries. CVE-2026-12569 is a critical-severity remote code execution (RCE) vulnerability that can be exploited through the deserialization of untrusted data. PTC disclosed the issue on June 18 and published a security advisory , pointing customers to the complete list of vulnerable Windchill and FlexPLM versions and urging them to immediately take remediation steps. According to the vendor, the flaw affects all versions up to 11.0 and multiple versions of the 11.1, 11.2, 12.0, 12.1, and 13.0 release branches. CISA set the same June 28 deadline for federal agencies to patch CVE-2026-12569. Agencies and organizations bound by BOD 26-04 should take immediate action to secure their systems by applying available security updates and vendor-recommended mitigations, or stop using the products mentioned by the set deadline. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: CISA orders feds to patch max severity Joomla plugin flaw by Friday CISA gives feds three days to patch Ivanti flaw exploited as zero-day CISA orders feds to patch Gogs RCE flaw exploited in zero-day attacks Palo Alto Networks firewall zero-day exploited for nearly a month Weaver E-cology critical bug exploited in attacks since March
 ```
 
 #### Corroborating sources (1)
@@ -1441,64 +1457,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code
   - Published: 2026-06-26T17:58:54+00:00
   - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
   - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-
-### Cluster 3bbc834ec2 — score 14
-
-- Title: Detecting the Klue supply chain attack in Salesforce instances
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-22T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 4
-- Strong signals: Salesforce
-
-#### Cluster taxonomy (union across members)
-- threat_categories: cloud_abuse, phishing_social_eng, ransomware_extortion, supply_chain
-- affected_products: Salesforce
-- content_type: incident_report, news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, cloud_abuse
-- affected_products: Salesforce
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.
-```
-
-#### Full body
-
-```
-Julie Agnes Sparks Senior Security Engineer Overview On June 11, 2026, a threat actor compromised backend systems at Klue, a market intelligence platform that hundreds of enterprise organizations use to sync competitive battlecard data with their CRM environments. By the time Klue alerted customers on June 13, the threat actor had already harvested OAuth tokens for Salesforce and Gong, and had begun querying those environments through automated API calls. The group behind the attack, which self-identifies as "Icarus" and has been active since at least April 28, 2026, has since run an extortion campaign against multiple victims. One victim, Huntress, published a detailed incident report confirming the compromise of CRM data: business contacts, price quotes, and sales communications. This post summarizes what is known about the attack chain, then provides detection guidance for Salesforce environments monitored by Datadog Cloud SIEM. If you are working through a broader Salesforce threat hunt, our recently published threat hunter's guide to Salesforce covers the many of the threat actor's behaviors and log sources to consider. The Klue attack chain: a single compromised integration gave the threat actor OAuth access to fan out across multiple customer Salesforce orgs and exfiltrate CRM data (click to enlarge). What happened According to Huntress, the compromise followed a pattern common in third-party OAuth abuse campaigns. The threat actor gained initial access through a dormant credential rather than a phishing campaign or a vulnerability exploit. Klue had created the credential for a prototype integration and never decommissioned it. We reconstructed the following timeline from our investigation, Huntress's report, and Klue's disclosures: June 11 : Anomalous behavior begins in Klue's integration infrastructure. Datadog observes the earliest activity at 12:56 UTC. June 12 : Klue identifies unusual network connections from external IP addresses and removes Salesforce access to stop further exfiltration. June 13 : Klue revokes OAuth credentials for all customers, disables integrations, and issues a general customer alert. June 16 : Extortion emails begin arriving at affected organizations, with the subject line "top secret email" and a 48-hour deadline to contact the actor through Session Messenger. Timeline of the Klue supply chain attack, from the first anomalous activity on June 11 to Klue's listing on the Icarus leak site on June 19 (click to enlarge). The threat actor ran scripts to issue REST API queries against connected Salesforce instances. The observed user-agent strings suggest the scripts were written in Python. Huntress observed three primary user-agent strings across logs, which align with Datadog's findings. Python-urllib/3.12 Python-urllib/3.14 5238 These user agents made malicious requests against the /services/data/v59.0/query/* endpoint to exfiltrate data quickly. What we found Our analysis of Salesforce event logs surfaced additional detection opportunities for teams responding to this incident or hunting for evidence of Klue-related activity. Identifying the compromised connected application The Klue Battlecards integration will appear in Salesforce logs under different field names depending on the event type. In LoginEvent logs, look for: application : "Klue Battlecards" In API events and other event types, the application may surface in the connected app name field: connected_app_name : "Klue Battlecards" Detecting OAuth refresh token usage In some instances, the threat actor used OAuth refresh tokens to maintain API access if needed. This behavior appeared in only a subset of affected environments, so treat it as a supplementary indicator rather than a primary detection signal. Where it appears, Salesforce surfaces it differently depending on which event log you have access to. In the Login object this is reflected through: login_sub_type : oauthrefreshtoken And in the LoginEvent object: login_sub_type :
-```
-
-#### Corroborating sources (4)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Detecting the Klue supply chain attack in Salesforce instances
-  - Published: 2026-06-22T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/detecting-the-klue-supply-chain-attack-in-salesforce/
-  - Summary: We summarize the Klue supply chain attack and provide detection guidance for Salesforce environments monitored by Datadog Cloud SIEM.
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: Scope of Salesforce Attacks Expands as Icarus Leaks Data
-  - Published: 2026-06-23T20:44:09+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
-  - Summary: More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: More Klue Breach Victims Identified as Hackers Get Hacked
-  - Published: 2026-06-26T15:01:33+00:00
-  - Link: https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/
-  - Summary: Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek .
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens
-  - Published: 2026-06-22T10:15:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
-  - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
 
 ### Cluster d8d3a457ab — score 13
 
@@ -2345,6 +2303,88 @@ Table of Contents Introduction Initial infection Exploitation of public-facing a
   - Link: https://securelist.com/strikeshark-campaign/120326/
   - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
 
+### Cluster 2a1cd2055f — score 10
+
+- Title: NodeZero® Proactive Security Platform
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-26T16:26:23+00:00
+- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+```
+
+#### Full body
+
+```
+NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: NodeZero® Proactive Security Platform
+  - Published: 2026-06-26T16:26:23+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+
+### Cluster 7cc9863eff — score 10
+
+- Title: Organizations Buy Answers, Not Activities
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-24T16:49:39+00:00
+- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: Organizations Buy Answers, Not Activities
+  - Published: 2026-06-24T16:49:39+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+
 ### Cluster 4cc90df0fb — score 10
 
 - Title: SMB cyber readiness: the road to resilience starts here
@@ -2430,88 +2470,6 @@ ESET Research ESET takes part in Operation Endgame to disrupt Amadey and Stealc 
   - Published: 2026-06-24T12:35:24+00:00
   - Link: https://www.welivesecurity.com/en/eset-research/eset-takes-part-operation-endgame-disrupt-amadey-stealc/
   - Summary: ESET researchers assisted in the global disruption of the Amadey botnet and Stealc infostealer, providing technical analysis, infrastructure tracking, and affiliate-level insights
-
-### Cluster 2a1cd2055f — score 10
-
-- Title: NodeZero® Proactive Security Platform
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-26T16:26:23+00:00
-- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-```
-
-#### Full body
-
-```
-NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: NodeZero® Proactive Security Platform
-  - Published: 2026-06-26T16:26:23+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-
-### Cluster 7cc9863eff — score 10
-
-- Title: Organizations Buy Answers, Not Activities
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-24T16:49:39+00:00
-- Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure, financial_services, healthcare, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_industries: healthcare, financial_services, critical_infrastructure, manufacturing_industrial
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-```
-
-#### Full body
-
-```
-Organizations Buy Answers, Not Activities Stephen Gates June 24, 2026 Blogs Attackers Don’t Care About Security Activities. They Care About Exploitability. The cybersecurity industry has spent decades creating categories. Vulnerability management. Penetration testing. Red teaming. Exposure management. Each category exists for a reason. Each solves a real problem. Yet after hundreds of thousands of assessments across healthcare providers, manufacturers, financial institutions, educational organizations, and critical infrastructure operators, we’ve learned something attackers have understood all along: Attackers ignore every one of them. They don’t care whether a weakness was discovered by a scanner, uncovered during a pentest, identified during a red team engagement, or surfaced through an exposure management program. They care whether it helps them achieve their objective. Can it be exploited? Can it be chained with something else? Can it provide access to something valuable? That’s the issue. While the cybersecurity organizes around activities, attackers organize around outcomes. Red Teaming Is Not the Outcome One of the most persistent assumptions in cybersecurity is that completing a security activity automatically improves security. Those activities matter. Red teaming remains one of the most effective ways to understand how an adversary operates. The problem is not the activity itself. The problem is assuming the activity is the outcome. Organizations don’t invest in red teams or red team solutions simply to conduct an engagement. They invest because they are trying to answer a much more important question: what can an attacker actually do in my environment? Understanding exposure is the real objective. That’s the reason a CISO approves the budget. That’s the reason a board asks for assurance. That’s the reason security teams spend time preparing for an engagement. Red teaming is one of the most effective ways to answer those questions. The important point is that organizations ultimately care less about the assessment itself than the insight it provides. Does it help them understand what is actually exploitable and what the operational impact would be? Once that question becomes the focus, the conversation shifts from the activity itself to the outcome it helps achieve. Organizations Need Answers, Not Activities Most organizations aren’t trying to decide whether they need a red team or a pentest. They’re trying to answer practical questions. Are we exposed? What would happen if an attacker got in? Which weaknesses actually matter? Have we reduced risk or simply completed remediation tasks? A global chemical manufacturer provided a perfect example. The organization was preparing for a multi-billion-dollar acquisition and needed to understand whether it was about to inherit exploitable risk along with the assets it was acquiring. That’s a very different problem than “Do we need a red team?” Leadership wasn’t looking for another report. They needed evidence to make an informed business decision before integrating two complex environments. The value wasn’t the assessment itself, it was the clarity the assessment provided. That distinction reveals that organizations are actually buying confidence in a decision. Attackers Don’t Respect Organizational Boundaries Security activities often mirror the way organizations are structured.. That structure makes sense operationally. The problem is that attackers don’t operate within those boundaries. An attacker doesn’t care whether a weakness belongs to the identity team, the network team, or the cloud team. A weak credential, a trust relationship, an exposed system, and a configuration issue may appear unrelated when viewed through organizational ownership. To an attacker, they’re simply pieces of the same attack path. We saw this play out during an assessment for a manufacturer within the Defense Industrial Base. None of the individual weaknesses were particularly alarming on their o
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: Organizations Buy Answers, Not Activities
-  - Published: 2026-06-24T16:49:39+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/the-category-is-not-red-teaming/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
 
 ### Cluster d812e5f8cf — score 10
 
@@ -2640,6 +2598,47 @@ The Purchase Scam Tactic Headed for the World Cup Recorded Future's Payment Frau
   - Link: https://www.recordedfuture.com/blog/world-cup-purchase-scam-tactics
   - Summary: A purchase scam tactic hijacks organic search through compromised sites, and it’s built to scale into 2026 FIFA World Cup fraud. How it works and how to respond.
 
+### Cluster e1538c3d0e — score 10
+
+- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-26T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: GitHub, PyPI, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: PyPI, npm, GitHub
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
+```
+
+#### Full body
+
+```
+Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
+```
+
+#### Corroborating sources (1)
+
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+  - Published: 2026-06-26T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
+
 ### Cluster 195ad94482 — score 10
 
 - Title: Experts on Experts: Why AI and Compliance Are Forcing A New Security Operating Model
@@ -2721,84 +2720,6 @@ Back to Blog Detection and Response Why SIEM is Moving Toward Unified Security O
   - Published: 2026-06-23T17:03:34+00:00
   - Link: https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player
   - Summary: Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026). This is the first IDC SIEM MarketScape to bring the enterprise and SMB markets into a single evaluation, and we believe it arrives at a time when the way teams buy and run a SOC is changing quickly. Security teams are no longer evaluating detection and response in isolation. They want their threat data, automation, and view of the attack surface working together, rather than spread across a stack of disconnected tools. We believe Incident Command reflects that shift by bringing threat data, automation, and attack surface context into one platform instead of leaving teams to work across disconnected tools. It also speaks to a broader change in security operations, where context matters more, speed matters more, and teams need a clearer path from alert to action. That same direction runs through Rapid7’s wider point of view on preemptive security: exposure, detecti
-
-### Cluster e1538c3d0e — score 10
-
-- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-26T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: GitHub, PyPI, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: PyPI, npm, GitHub
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-```
-
-#### Full body
-
-```
-Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-  - Published: 2026-06-26T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-
-### Cluster 526d79c926 — score 10
-
-- Title: Data breach exposes up to 14.2 million email logins at six ISPs
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-28T14:13:46+00:00
-- Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-- Fetch status: fetch_failed:ReadTimeout
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Data breach exposes up to 14.2 million email logins at six ISPs
-  - Published: 2026-06-28T14:13:46+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-  - Summary: Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
 
 ### Cluster 7f66459697 — score 10
 
@@ -2883,6 +2804,49 @@ Webshells have been popular for a long time. We already covered this topic acros
   - Published: 2026-06-22T14:10:27+00:00
   - Link: https://isc.sans.edu/diary/rss/33096
   - Summary: Webshells have been popular for a long time. We already covered this topic across multiple diaries[ 1 ][ 2 ]. I spent some time to track them[ 3 ] and slighly paid less attention to them but today I found another one. It seems to be a new player (pushed on Github two months ago).
+
+### Cluster 526d79c926 — score 9
+
+- Title: Data breach exposes up to 14.2 million email logins at six ISPs
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-28T14:13:46+00:00
+- Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, supply_chain
+- affected_industries: critical_infrastructure, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, data_breach
+- affected_industries: critical_infrastructure, telecommunications
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
+```
+
+#### Full body
+
+```
+Data breach exposes up to 14.2 million email logins at six ISPs By Bill Toulas June 28, 2026 10:13 AM 0 Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. The company says that it discovered the compromise on June 17 and responded immediately by blocking the attacker and implementing defense measures. The investigation determined that the hackers exploited a vulnerability in an unnamed third-party software that KDDI Corporation used on its system. “Although technical defensive measures have already been implemented for the system, there remains a possibility that customers' email addresses and passwords were obtained by unauthorized third parties as a result of the incident,” KDDI warns . Scale of exposure KDDI is one of Japan’s largest ISPs, with 45,000 employees and an annual revenue of $32.4 billion. It is a public entity that has operated since 2000, following the merger of IDO, DDI, and KDD, Japan's former state-monopoly international telecommunications provider. The company says that the incident impacted the following five ISP operators and their email services: STNet, Inc. JCOM Co., Ltd. Chubu Telecommunications C., Inc. NIFTY Corporation BIGLOBE Inc. Although the investigation into the incident is still underway and the exact number of impacted accounts has yet to be determined, KDDI said it may have exposed the email addresses and passwords of up to 14,22 million customers. This figure includes current and former customers, as well as inactive accounts that may no longer be in use. Another mitigating factor, according to KDDI, is that some passwords were stored in hashed and/or encrypted form, meaning that they cannot be readily abused for account hijacks even if exposed. However, KDDI did not specify what type of encryption was used or what percentage of accounts had passwords stored in plaintext. KDDI says it has been contacting affected ISPs since June 17 and has also notified Japan's Personal Information Protection Commission and the Ministry of Internal Affairs and Communications. The company is currently working with affected ISPs to implement additional security measures to mitigate the risks arising from this exposure. Meanwhile, customers who may have been exposed are advised to reset their email account passwords as soon as possible. If two-factor authentication (2FA) is available, it would be prudent to set it up as well for additional protection. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Japanese energy firm loses drive with data of 10.9 million clients LastPass confirms data breach in Klue supply chain attack Healthtech firm Xolis suffers data breach impacting 1.4 million people Webinar: Why email security teams are drowning in alerts Klue OAuth breach victim list grows as Icarus hackers claim attack
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Data breach exposes up to 14.2 million email logins at six ISPs
+  - Published: 2026-06-28T14:13:46+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
+  - Summary: Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
 
 ### Cluster 5fa1fc890c — score 9
 
@@ -3275,6 +3239,59 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close An attacker exp
   - Link: https://cyberscoop.com/cisco-sd-wan-zero-day-exploit-communications-provider/
   - Summary: Mandiant detailed the incident in a blog post Wednesday, but it’s unclear who was behind it or if they managed to get broad visibility into the victim’s internal traffic. The post Malicious hackers exploit Cisco zero-day for highest access level at communications service provider appeared first on CyberScoop .
 
+### Cluster c6851e568d — score 8
+
+- Title: Scope of Salesforce Attacks Expands as Icarus Leaks Data
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-06-23T20:44:09+00:00
+- Link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Salesforce
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_products: Salesforce
+- content_type: incident_report, news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_products: Salesforce
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.
+```
+
+#### Full body
+
+```
+Cyberattacks & Data Breaches Cyber Risk Vulnerabilities & Threats Application Security News Scope of Salesforce Attacks Expands as Icarus Leaks Data More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data. Rob Wright , Senior News Director , Dark Reading June 23, 2026 4 Min Read Source: mikkelwilliam via Getty Images The latest wave of Salesforce data thefts impacted several technology and cybersecurity companies, and the extortion group behind the attacks indicated more victims are coming. The attacks first came to light June 17 when Salesforce disabled integration with Klue's Battlecards application following a breach at the app vendor. Cybersecurity vendor Huntress was the first company to publicly acknowledge its Salesforce data had been compromised, and extortion group Icarus took credit for attacks and warned more victims would emerge. Since then, additional companies have issued disclosures regarding compromised Salesforce data. LastPass said yesterday in a blog post that it was affected by the attacks. While threat actors accessed customer data within the password manager's Salesforce instance, LastPass emphasized that its products, services, and infrastructure were unaffected and that "customer vaults remain secure." Related: In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw LastPass also noted that while Klue's market intelligence platform integrated with its Gong systems , there was "no evidence the threat actor accessed any Gong-related data." Like many organizations that disclosed compromised Salesforce instances, LastPass said it immediately suspended all company access to Klue, rotated exposed API access tokens, and launched an investigation into the attack. Additional cybersecurity and technology companies that disclosed attacks include HackerOne, Recorded Future, Jamf, Snyk OneTrust, Insurity, Tanium, and Sprout Social. Scope of Klue OAuth Token Abuse It appears threat actors may have access to more than just Salesforce instances. Gong itself published a blog post Friday stating that attackers may have accessed "internal licensed user data" for a subset of Gong customers that used the Klue integration. The Gong data accessed includes usernames, user business titles, and user emails, according to the company. "To be clear: this was an incident that originated with third-party integrator Klue. It was not a direct breach of Gong’s own products or systems," the company stated. "Impacted customers were those who chose to connect Klue with Gong. Gong has not identified any direct impact to customer call recordings or transcripts." Gong added that Klue provided the company with four suspicious IP addresses, which Gong blocked. After investigating the activity tied to the IP address, Gong determined some customer data was compromised. Dark Reading contacted Gong for further comment. The compromise of more Salesforce instances and Gong user emails could raise concerns about exposed secrets . In previous Salesforce attacks last year — which were tied to the breach of another third-party app vendor, Salesloft — some victims acknowledged that their instances contained secrets. For example, Cloudflare discovered 104 API tokens in its Salesforce instance, which were contained in some support case data files. Those tokens were promptly rotated. Related: EdTech Attackers Shift From Schools to Their Software Suppliers The specter of last year's attacks may have prompted companies affected by Icarus's campaign to carefully review impacted data for any potential secrets or sensitive information beyond what would traditionally be contained in Salesforce instances. For example, HackerOne noted in its disclosure that it has "strict data segmentation policies and controls" that prohibit customer vulnerability data from its CRM systems. "Further, our preliminary forensic investigation has found no indication that any such data was accessed," the
+```
+
+#### Corroborating sources (3)
+
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: Scope of Salesforce Attacks Expands as Icarus Leaks Data
+  - Published: 2026-06-23T20:44:09+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
+  - Summary: More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: More Klue Breach Victims Identified as Hackers Get Hacked
+  - Published: 2026-06-26T15:01:33+00:00
+  - Link: https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/
+  - Summary: Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek .
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: Klue Breach Enables Hackers to Compromise Cybersecurity Firms via OAuth Tokens
+  - Published: 2026-06-22T10:15:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/klue-breach-compromise/
+  - Summary: At least four cybersecurity firms confirmed they have been affected by a breach of business intelligence platform Klue via Salesforce integration
+
 ### Cluster f8e669b332 — score 8
 
 - Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
@@ -3315,51 +3332,6 @@ Insufficient egress filtering is a commonly identified vulnerability found durin
   - Published: 2026-06-24T14:00:00+00:00
   - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
   - Summary: Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
-
-### Cluster 4df7286945 — score 8
-
-- Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-22T16:29:00+00:00
-- Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-47729, CVE-2026-50012
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- cve_ids: CVE-2026-47729, CVE-2026-50012
-- urgency_signals: poc_available
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
-```
-
-#### Full body
-
-```
-29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests  Swati Khandelwal  Jun 22, 2026 Vulnerability / Server Security A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed ( CVE-2026-47729 ), after Heartbleed, which leaked memory the same way. Squid describes this as an attack by a trusted client : someone already permitted to use the proxy, not any random host on the internet. That matches Squid's usual home, shared networks like schools, offices, and public Wi-Fi. In those setups, the attacker is just another user of the same proxy. The leak also only reaches traffic that Squid can read. Normal HTTPS rides an opaque CONNECT tunnel, so Squid never sees inside it; the exposed traffic is cleartext HTTP, plus TLS-terminating setups where Squid decrypts and inspects. The attacker also needs the proxy to reach an FTP server they control on port 21. Both FTP and that port are on by default. How the leak works The bug sits in Squid's FTP directory-listing parser. To handle old NetWare servers that padded listings with extra spaces, the code skips whitespace with a loop: while (strchr(w_space, *copyFrom)) ++copyFrom;. If the attacker's FTP server sends a listing line that ends right after the timestamp, with no filename, copyFrom lands on the string's null terminator. strchr treats that terminating NUL as part of the string it searches, so it returns a pointer instead of NULL, and the loop never stops. It walks off the end of the buffer, and xstrdup copies whatever follows back to the attacker as a filename. The leaked bytes are the useful part. Squid reuses freed memory buffers without zeroing them, so a 4KB buffer that recently held a victim's HTTP request still holds most of it. A short FTP line overwrites only the first few bytes; the over-read returns the rest. Calif's demo pulls an Authorization header from a victim sharing the same proxy, enough to act as that user. Proof-of-concept code is public , and no in-the-wild exploitation has been reported as of writing. What to do If you patch, verify the fix, not just the version. Confirm the guard is in FtpGateway.cc, or check your distribution's backport, since distros ship their own builds (Debian packages Squid 5.7). The public thread is still inconsistent: maintainer Amos Jeffries first said Squid 7.6 carried the fix, then corrected that to 7.7 , and on June 22 Debian's Salvatore Bonaccorso noted the referenced commit looks like it is already in 7.6. The fix is small, a null-terminator check before the vulnerable strchr calls , merged to the development branch in April and v7 in May. Squid 7.6 does separately patch CVE-2026-50012, an unrelated cache_digest heap overflow. The cleaner move is the one the researchers recommend anyway: turn FTP off. Chromium dropped FTP years ago, and most networks carry almost none of it, so disabling it removes this attack surface for free, whatever build you run. The risk is real but bounded. SUSE rates it moderate, CVSS 6.5 , and the vector explains the score: the attacker needs proxy access (low privileges), and the only impact is confidentiality, nothing on integrity or availability. Calif credits Anthropic's Claude Mythos Preview, the model behind Project Glasswing , with catching the strchr quirk almost at once, the same kind of buried parser bug AI agents have been surfacing elsewhere , including in FFmpeg. Calif hints Squid's FTP code may not be the last place it forgot to stop reading. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Ai Research , Credential Leak , Proxy Securit
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
-  - Published: 2026-06-22T16:29:00+00:00
-  - Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
-  - Summary: A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
 
 ### Cluster 2fd43df2a9 — score 8
 
@@ -3412,16 +3384,24 @@ Infosecurity Magazine Home » News » CMC Releases Analysis and Guidance for Edu
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-06-25T14:15:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/cisco-vulnerability-exploited/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: vulnerability_disclosure, zero_day
+- affected_industries: government
+- cve_ids: CVE-2026-20127, CVE-2026-20182, CVE-2026-20245
+- urgency_signals: no_patch_yet, preauth_unauth, zero_day
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: zero_day, vulnerability_disclosure
+- affected_industries: government
+- cve_ids: CVE-2026-20245, CVE-2026-20127, CVE-2026-20182
+- urgency_signals: zero_day, preauth_unauth, no_patch_yet
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
@@ -3429,6 +3409,12 @@ Infosecurity Magazine Home » News » CMC Releases Analysis and Guidance for Edu
 
 ```
 A high-severity flaw in Cisco Catalyst SD-WAN Manager disclosed in early June was exploited as early as March
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Cisco Vulnerability Exploited Months Before Disclosure, Google Warns Cisco Vulnerability Exploited Months Before Disclosure, Google Warns News 25 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn A threat actor started exploiting a severe vulnerability in Cisco products at least two months before the flaw was disclosed, a new Google report warned. Tracked as CVE-2026-20245, this high-severity (CVSS 7.8) privilege escalation vulnerability stems from insufficient validation of user-supplied input in the command-line interface (CLI) of Cisco Catalyst SD-WAN Controller, formerly known as SD-WAN vSmart. It affects several versions of Cisco Catalyst SD-WAN Manager as well as related products like Cisco Catalyst SD-WAN Validator. Affected versions of these products are vulnerable regardless of the installation – on-premises, Cloud-Pro, Cloud (Cisco Managed) and Government (FedRAMP). Authenticated, local attackers can exploit it by uploading a crafted file to the affected system and can consequently execute arbitrary commands as root. The zero-day vulnerability was disclosed by Cisco on June 4 after it has observed “limited cases where the exploitation of this bug resulted in a configuration change pushed to edge devices.” However, at the time of disclosure, no patch was available. The tech giant started releasing Catalyst SD-WAN Manager updates with the CVE-2026-20245 fix on June 10. Vulnerability Disclosure in June, Exploitation in March In a new report published on June 24, security researchers at Mandiant, part of Google Cloud, said they identified a threat actor targeting SD-WAN infrastructure at a service provider in early 2026. From late 2025 to January 2026, Mandiant observed multiple unauthorized peering connections to the victim’s SD-WAN Manager devices. The researchers noted that this malicious activity could be linked to the exploitation of CVE-2026-20127 or CVE-2026-20182 as the vulnerabilities were not disclosed, and patches were not available during this period. CVE-2026-20127 and CVE-2026-20182 are critical vulnerabilities recently disclosed by Cisco that affect the peering authentication mechanism for Cisco Catalyst SD-WAN controllers. Both could allow an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges. The Mandiant researchers noticed further unauthorized peering connections on a device running a software version unaffected by CVE-2026-20127 in March. They checked with Cisco, which confirmed that these connections did not leverage CVE-2026-20182 either and could instead be using stolen certificate material from a previous compromise of the same device. They later found that a threat actor established initial access via unauthorized peering connections to facilitate Secure Shell (SSH) access and then used that access to manipulate default account passwords to evade detection. They also identified that a threat actor exploited what is now known as CVE-2026-20245 in Cisco Catalyst SD-WAN Manager to gain root-level access via a malicious CSV upload. This latter actor then deleted malicious files, reverted configuration changes and executed a validation script to ensure indicators have been purged. “It is unclear if the same threat actor was responsible for the late 2025 to January 2026 and March 2026 rogue peering activity,” Mandiant said. New Living-Off-the-Edge Paradigm for Threat Actors Nevertheless, Google highlighted that this campaign “underscores the living-off-the-edge paradigm , where threat actors prioritize the compromise of network appliances to bypass traditional security perimeters.” Mandiant further emphasized that orchestrators managing edge devices and software-defined networking appliances “often lack the telemetry required for deep forensic analysis, and their role as a central control plane provides a stealthy platform for persistent, wide-scale access to intern
 ```
 
 #### Corroborating sources (1)
@@ -3471,3 +3457,36 @@ Cobalt study finds 20-percentage-point drop in number of organizations relying s
   - Published: 2026-06-25T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
   - Summary: Cobalt study finds 20-percentage-point drop in number of organizations relying solely on AI automation for testing
+
+### Cluster 4df7286945 — score 8
+
+- Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-22T16:29:00+00:00
+- Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests
+  - Published: 2026-06-22T16:29:00+00:00
+  - Link: https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html
+  - Summary: A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (
