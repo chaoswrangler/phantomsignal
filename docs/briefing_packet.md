@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-06-30T09:53:16.032347+00:00
+- Generated: 2026-06-30T12:16:11.355985+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 314
-- Total clusters raw: 146
-- Total clusters in packet: 73
-- Dropped low score: 73
+- Total items in window: 320
+- Total clusters raw: 152
+- Total clusters in packet: 74
+- Dropped low score: 78
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,96 +70,101 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 3
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 25
   - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 1
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 3
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
@@ -174,11 +179,6 @@
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
@@ -195,28 +195,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 1
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
-- **SpecterOps** (detection_response_operations)
-  - URL: https://medium.com/feed/specter-ops-posts
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,41 +220,46 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
+- **SpecterOps** (detection_response_operations)
+  - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
-  - In window count: 10
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 2
+  - Item count: 10
+  - In window count: 10
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 8
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 0
+  - In window count: 2
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 8
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
@@ -285,15 +285,15 @@
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
@@ -310,48 +310,58 @@
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 15
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 16
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 14
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -359,54 +369,29 @@
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 27
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+  - In window count: 28
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
+  - Item count: 15
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Reddit r/cybersecurity** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/cybersecurity/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Krebs on Security** (practitioner_analysis)
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Reddit r/blueteamsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/blueteamsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 45
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Reddit r/cybersecurity** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -414,7 +399,22 @@
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 2
+  - In window count: 3
+- **Reddit r/blueteamsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/blueteamsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Intel 471** (ransomware_ecrime_financial_crime)
+  - URL: https://intel471.com/blog/feed
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -425,21 +425,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 28
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Intel 471** (ransomware_ecrime_financial_crime)
-  - URL: https://intel471.com/blog/feed
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 26
+  - Item count: 50
+  - In window count: 46
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -473,54 +473,30 @@
 
 ## Affinity groups (themes)
 
-### supply chain targeting npm
-- Anchor signal: npm
-- Theme key: npm
-- Cluster count: 5
-- Article count: 12
-- Cohesion: 0.299
-- Shared strong signals: npm
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: supply_chain, credential_theft
-  - affected_products: npm, PyPI, GitHub
-- Cluster IDs: 58774f7de3, 8ba967c351, a5ba97e7ba, 4baa80ca49, e1538c3d0e
-- Links:
-  - https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
-  - https://www.helpnetsecurity.com/2026/06/30/github-advisory-database-review/
-  - https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-  - https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything
-  - https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
-  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
-  - https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/
-  - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
-  - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-
-### ShinyHunters: zero day
+### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
-- Cluster count: 4
-- Article count: 7
-- Cohesion: 0.316
+- Cluster count: 6
+- Article count: 9
+- Cohesion: 0.268
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, ransomware_extortion, active_exploitation, data_breach, phishing_social_eng
+  - threat_categories: ransomware_extortion, zero_day, active_exploitation, data_breach, phishing_social_eng
   - actor_attribution: ShinyHunters
-  - affected_industries: financial_services, manufacturing_industrial, education
-  - affected_products: Anthropic/Claude
-  - cve_ids: CVE-2026-35273, CVE-2026-20245
+  - affected_industries: financial_services
+  - cve_ids: CVE-2026-35273
   - urgency_signals: zero_day, actively_exploited, preauth_unauth
-- Cluster IDs: 3db35f97c6, 498473218f, 30560fa05d, a58b40e87a
+- Cluster IDs: 3db35f97c6, 498473218f, 30560fa05d, 852815a292, cd8f96b22e, a58b40e87a
 - Links:
   - https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
   - https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
   - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/
   - https://www.intel471.com/blog/shinyhunters-0-day-attacks-after-patching-find-out-if-you-were-breached
+  - https://www.securityweek.com/exploitation-of-recent-oracle-e-business-suite-vulnerability-begins/
+  - https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
   - https://www.securityweek.com/nissan-employee-data-breached-in-oracle-peoplesoft-hack/
 
 ### ransomware extortion targeting Microsoft Defender
@@ -543,83 +519,109 @@
   - https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/
   - https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/
 
-### CVE-2026-20245 exploitation activity
-- Anchor signal: CVE-2026-20245
-- Theme key: cve-2026-20245
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.211
-- Shared strong signals: CVE-2026-20245
+### supply chain targeting npm
+- Anchor signal: npm
+- Theme key: npm
+- Cluster count: 4
+- Article count: 9
+- Cohesion: 0.324
+- Shared strong signals: npm
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: zero_day, active_exploitation
-  - actor_attribution: ShinyHunters
-  - affected_industries: financial_services
-  - cve_ids: CVE-2026-20245
-  - urgency_signals: zero_day, preauth_unauth
-- Cluster IDs: 92ea9e355d, 3db35f97c6, 498473218f
+  - threat_categories: supply_chain
+  - affected_products: npm, PyPI, GitHub
+- Cluster IDs: 58774f7de3, 8ba967c351, a5ba97e7ba, e1538c3d0e
 - Links:
-  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
-  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
-  - https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
-  - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
+  - https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
+  - https://www.helpnetsecurity.com/2026/06/30/github-advisory-database-review/
+  - https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
+  - https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything
+  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
+  - https://openssf.org/newsletter/2026/06/24/openssf-newsletter-june-2026/
+  - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+
+### Apple iOS/macOS vulnerability activity
+- Anchor signal: Apple iOS/macOS
+- Theme key: apple-ios-macos
+- Cluster count: 3
+- Article count: 12
+- Cohesion: 0.2
+- Shared strong signals: Apple iOS/macOS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - affected_products: Apple iOS/macOS
+- Cluster IDs: 7de9036f43, 8ba967c351, de6119ec2c
+- Links:
+  - https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+  - https://www.helpnetsecurity.com/2026/06/30/simplehelp-vulnerability-exploited-cve-2026-48558/
+  - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
+  - https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
+  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
+  - https://isc.sans.edu/diary/rss/33114
+  - https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/
+  - https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html
+  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
+  - https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
 
 ### Kubernetes vulnerability activity
 - Anchor signal: Kubernetes
 - Theme key: kubernetes
-- Cluster count: 4
-- Article count: 4
-- Cohesion: 0.566
+- Cluster count: 3
+- Article count: 3
+- Cohesion: 0.677
 - Shared strong signals: Kubernetes
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - affected_products: Kubernetes
-- Cluster IDs: 2666f433e1, 2a1cd2055f, 9f6687b7df, 9fdf835421
+- Cluster IDs: 2666f433e1, 2a1cd2055f, 9f6687b7df
 - Links:
   - https://orca.security/resources/blog/best-vulnerability-management-tools/
   - https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
   - https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
-  - https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/
 
-### credential theft targeting Linux kernel
-- Anchor signal: Linux kernel
-- Theme key: linux-kernel
-- Cluster count: 3
-- Article count: 6
-- Cohesion: 0.224
-- Shared strong signals: Linux kernel
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: credential_theft, apt_espionage, web_shell_backdoor
-  - affected_industries: financial_services
-  - affected_products: Linux kernel, Anthropic/Claude, GitLab
-- Cluster IDs: a58b40e87a, 55fb938da3, 28fa20c5c7
-- Links:
-  - https://www.securityweek.com/nissan-employee-data-breached-in-oracle-peoplesoft-hack/
-  - https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/
-  - https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/
-  - https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
-
-### Fortinet vulnerability activity
-- Anchor signal: Fortinet
-- Theme key: fortinet
+### CVE-2026-20245 exploitation activity
+- Anchor signal: CVE-2026-20245
+- Theme key: cve-2026-20245
 - Cluster count: 2
-- Article count: 3
+- Article count: 4
 - Cohesion: 0.2
-- Shared strong signals: Fortinet
+- Shared strong signals: CVE-2026-20245
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - affected_products: Fortinet
-- Cluster IDs: 3db35f97c6, 96f12a0395
+  - threat_categories: zero_day
+  - cve_ids: CVE-2026-20245
+  - urgency_signals: zero_day, preauth_unauth
+- Cluster IDs: 92ea9e355d, 498473218f
 - Links:
-  - https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
-  - https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/
-  - https://securelist.com/strikeshark-campaign/120326/
+  - https://cloud.google.com/blog/topics/threat-intelligence/zero-day-exploitation-cisco-catalyst-sd-wan-manager/
+  - https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html
+  - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
+
+### CVE-2026-48558 exploitation activity
+- Anchor signal: CVE-2026-48558
+- Theme key: cve-2026-48558
+- Cluster count: 2
+- Article count: 5
+- Cohesion: 0.545
+- Shared strong signals: CVE-2026-48558
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_industries: financial_services
+  - cve_ids: CVE-2026-48558
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 7de9036f43, 55fb938da3
+- Links:
+  - https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+  - https://www.helpnetsecurity.com/2026/06/30/simplehelp-vulnerability-exploited-cve-2026-48558/
+  - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
+  - https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
+  - https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/
 
 ### Ubiquiti UniFi exploitation (2 CVEs)
 - Anchor signal: Ubiquiti UniFi
@@ -639,26 +641,6 @@
   - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html
 
-### Apple iOS/macOS vulnerability activity
-- Anchor signal: Apple iOS/macOS
-- Theme key: apple-ios-macos
-- Cluster count: 2
-- Article count: 7
-- Cohesion: 0.2
-- Shared strong signals: Apple iOS/macOS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Apple iOS/macOS
-- Cluster IDs: 8ba967c351, de6119ec2c
-- Links:
-  - https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/
-  - https://isc.sans.edu/diary/rss/33114
-  - https://www.sentinelone.com/labs/macos-gaslight-rust-backdoor-turns-prompt-injection-on-the-analyst-not-the-sandbox/
-  - https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html
-  - https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
-  - https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
-
 ### Palo Alto Networks vulnerability activity
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
@@ -674,24 +656,6 @@
 - Links:
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
-
-### CVE-2026-48558 exploitation activity
-- Anchor signal: CVE-2026-48558
-- Theme key: cve-2026-48558
-- Cluster count: 2
-- Article count: 3
-- Cohesion: 0.489
-- Shared strong signals: CVE-2026-48558
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: credential_theft
-  - cve_ids: CVE-2026-48558
-- Cluster IDs: 4baa80ca49, 55fb938da3
-- Links:
-  - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
-  - https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
-  - https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/
 
 ### Salesforce vulnerability activity
 - Anchor signal: Salesforce
@@ -710,63 +674,96 @@
   - https://www.intel471.com/blog/shinyhunters-0-day-attacks-after-patching-find-out-if-you-were-breached
   - https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
 
+### Linux kernel vulnerability activity
+- Anchor signal: Linux kernel
+- Theme key: linux-kernel
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.208
+- Shared strong signals: Linux kernel
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Anthropic/Claude, Linux kernel
+  - urgency_signals: preauth_unauth
+- Cluster IDs: 852815a292, 55fb938da3
+- Links:
+  - https://www.securityweek.com/exploitation-of-recent-oracle-e-business-suite-vulnerability-begins/
+  - https://www.securityweek.com/critical-simplehelp-vulnerability-exploited-for-malware-delivery/
+
+### Cisco vulnerability activity
+- Anchor signal: Cisco
+- Theme key: cisco
+- Cluster count: 2
+- Article count: 2
+- Cohesion: 0.2
+- Shared strong signals: Cisco
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - affected_products: Cisco
+- Cluster IDs: 96f12a0395, a58b40e87a
+- Links:
+  - https://securelist.com/strikeshark-campaign/120326/
+  - https://www.securityweek.com/nissan-employee-data-breached-in-oracle-peoplesoft-hack/
+
 ## Forward signals
 
 ### Novelty
-- Novel cves: 2
-  - CVE-2025-61882 (first seen via The Hacker News at 2026-06-30T05:04:06+00:00, cluster 3db35f97c6)
-  - CVE-2026-43707 (first seen via SANS Internet Storm Center at 2026-06-30T09:31:27+00:00, cluster de6119ec2c)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
-### Velocity bursts (0)
+### Velocity bursts (1)
+- **June 2026 Apple Updates, (Tue, Jun 30th)**
+  - Cluster: de6119ec2c
+  - Sources in window: 3
+  - Window hours: 4.7
+  - Cohort count: 3
 
 ### Leading edge (0)
 
 ### Convergence (15)
 - Pair: CVE-2025-61882 + Cl0p (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2025-61882 + ShinyHunters (cluster 3db35f97c6, first observation: True)
-- Pair: CVE-2025-61882 + Fortinet (cluster 3db35f97c6, first observation: True)
-- Pair: CVE-2026-20245 + Cl0p (cluster 3db35f97c6, first observation: True)
-- Pair: CVE-2026-20245 + ShinyHunters (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-35273 + Cl0p (cluster 3db35f97c6, first observation: True)
-- Pair: CVE-2026-35273 + Fortinet (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-46817 + Cl0p (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-46817 + ShinyHunters (cluster 3db35f97c6, first observation: True)
-- Pair: CVE-2026-46817 + Fortinet (cluster 3db35f97c6, first observation: True)
-- Pair: Cl0p + Fortinet (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-20245 + ShinyHunters (cluster 498473218f, first observation: True)
 - Pair: CVE-2026-20245 + Ubiquiti UniFi (cluster 498473218f, first observation: True)
 - Pair: CVE-2026-34908 + ShinyHunters (cluster 498473218f, first observation: True)
 - Pair: CVE-2026-34908 + Anthropic/Claude (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-34908 + Ubiquiti UniFi (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-34909 + ShinyHunters (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-34909 + Anthropic/Claude (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-34909 + Ubiquiti UniFi (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-41947 + ShinyHunters (cluster 498473218f, first observation: True)
+- Pair: CVE-2026-41947 + Anthropic/Claude (cluster 498473218f, first observation: True)
 
-### Drift (3)
-- **Cl0p** (cluster 3db35f97c6)
-  - New industries: (none)
-  - New products: Fortinet
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: GitHub, Microsoft 365, SolarWinds
-- **ShinyHunters** (cluster 3db35f97c6)
-  - New industries: (none)
-  - New products: Fortinet
-  - Prior top industries: education, financial_services, government
-  - Prior top products: Anthropic/Claude, Azure, npm
+### Drift (2)
+- **RansomHub** (cluster cd8f96b22e)
+  - New industries: financial_services
+  - New products: (none)
+  - Prior top industries: manufacturing_industrial
+  - Prior top products: LiteSpeed
 - **Handala** (cluster a58b40e87a)
   - New industries: education, financial_services
-  - New products: Anthropic/Claude, Linux kernel
+  - New products: (none)
   - Prior top industries: critical_infrastructure, government, manufacturing_industrial
   - Prior top products: Apple iOS/macOS, Cisco, npm
 
-### Persistence (9)
+### Persistence (11)
 - cve_ids: CVE-2026-20245 (weeks observed: 5, cluster 92ea9e355d)
 - actor_attribution: ShinyHunters (weeks observed: 5, cluster 3db35f97c6)
+- actor_attribution: Handala (weeks observed: 5, cluster a58b40e87a)
 - cve_ids: CVE-2026-35273 (weeks observed: 4, cluster 3db35f97c6)
-- actor_attribution: Handala (weeks observed: 4, cluster a58b40e87a)
+- cve_ids: CVE-2026-33825 (weeks observed: 4, cluster 5f0f4d710f)
 - cve_ids: CVE-2026-20127 (weeks observed: 3, cluster 92ea9e355d)
 - cve_ids: CVE-2026-20182 (weeks observed: 3, cluster 92ea9e355d)
+- actor_attribution: Cl0p (weeks observed: 3, cluster 3db35f97c6)
 - cve_ids: CVE-2026-20230 (weeks observed: 3, cluster 56627fa3d2)
-- cve_ids: CVE-2026-48558 (weeks observed: 3, cluster 4baa80ca49)
-- cve_ids: CVE-2026-33825 (weeks observed: 3, cluster 5f0f4d710f)
+- cve_ids: CVE-2026-48558 (weeks observed: 3, cluster 7de9036f43)
+- actor_attribution: Scattered Spider (weeks observed: 3, cluster cd8f96b22e)
 
 ### Tier inversion (0)
 
@@ -937,23 +934,19 @@ Back to Blog Products and Tools Weekly Metasploit Update: Modules for Audiobooks
 - Strong signals: CVE-2026-46817
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ai_security, ransomware_extortion, zero_day
+- threat_categories: active_exploitation, ransomware_extortion, zero_day
 - actor_attribution: Cl0p, ShinyHunters
 - affected_industries: financial_services
-- affected_products: Fortinet
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2025-61882, CVE-2026-20245, CVE-2026-35273, CVE-2026-46817
+- cve_ids: CVE-2025-61882, CVE-2026-35273, CVE-2026-46817
 - urgency_signals: actively_exploited, no_patch_yet, poc_available, preauth_unauth, zero_day
 - content_type: news_report, vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, zero_day, ai_security, active_exploitation
+- threat_categories: ransomware_extortion, zero_day, active_exploitation
 - actor_attribution: ShinyHunters, Cl0p
 - affected_industries: financial_services
-- affected_products: Fortinet
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2026-46817, CVE-2025-61882, CVE-2026-35273, CVE-2026-20245
+- cve_ids: CVE-2026-46817, CVE-2025-61882, CVE-2026-35273
 - urgency_signals: actively_exploited, zero_day, preauth_unauth, no_patch_yet, poc_available
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
@@ -967,7 +960,7 @@ A critical security flaw impacting Oracle E-Business Suite has come under active
 #### Full body
 
 ```
-Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild  Ravie Lakshmanan  Jun 30, 2026 Vulnerability / Enterprise Software A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), refers to an improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances. "Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Payments," according to a description of the flaw in the NIST National Vulnerability Database (NVD). "Successful attacks of this vulnerability can result in the takeover of Oracle Payments." The shortcoming impacts versions from 12.2.3 through 12.2.15. Patches for the flaw were shipped by Oracle as part of its Critical Security Patch Update last month. CVE-2026-46817 has since come under active exploitation, with Defused Cyber noting on Monday that "over the weekend, we observed an actor exploiting the vulnerability on our Oracle E-Business honeypots," adding "this vulnerability has no known previous exploitation and no public PoC [proof-of-concept] code exists." That said, there are currently no details available on how the security flaw is being exploited, who is behind them, and if it's part of a broader opportunistic or targeted campaign aimed at unpatched systems. Late last year, another critical flaw in the same product ( CVE-2025-61882 , CVSS score: 9.8) was weaponized by threat actors linked to the Cl0p ransomware operation, with early attacks launched as far back as August 2025. Earlier this month, the company addressed a critical missing authentication zero-day vulnerability in PeopleSoft Suite ( CVE-2026-35273 , CVSS score: 9.8) that was actively exploited in ShinyHunters data theft and extortion attacks. Automaker Nissan has since acknowledged that it was among those impacted, stating it was the victim of a break-in that involved the exploitation of the PeopleSoft flaw, potentially exposing payroll records, bank details, Social Security numbers, and other personal and financial data belong to its employees in the U.S., Canada, Mexico, and Brazil. "What stood out was that CVE-2026-35273 isn't just another trivial, easy-to-exploit single-request vulnerability," Jake Knott, principal security researcher at watchTowr, said in a statement. "The attack chain is considerably more involved, combining multiple vulnerabilities to plant a malicious file that doesn’t execute immediately but waits until the server restarts." "Where we would normally see simple bugs, this is a chain of multiple vulnerabilities, suggestive of a threat actor with genuine knowledge of and familiarity with the underlying codebase, and the ability to develop targeted capabilities against it." Knott also pointed out that threat actors are exploiting vulnerabilities faster than ever before, urging organizations to assume compromise and activate incident response processes to determine whether access was obtained before patches were applied, what was accessed, and whether persistence was established. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication bypass , cybersecurity , data theft , Enterprise Software , oracle , privilege escalation , Threat Intelligence , Vulnerability ⚡ Top Stories This Week Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered FortiBleed Targeted FortiGate Fir
+Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild  Ravie Lakshmanan  Jun 30, 2026 Vulnerability / Enterprise Software A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), refers to an improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances. "Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Payments," according to a description of the flaw in the NIST National Vulnerability Database (NVD). "Successful attacks of this vulnerability can result in the takeover of Oracle Payments." The shortcoming impacts versions from 12.2.3 through 12.2.15. Patches for the flaw were shipped by Oracle as part of its Critical Security Patch Update last month. CVE-2026-46817 has since come under active exploitation, with Defused Cyber noting on Monday that "over the weekend, we observed an actor exploiting the vulnerability on our Oracle E-Business honeypots," adding "this vulnerability has no known previous exploitation and no public PoC [proof-of-concept] code exists." That said, there are currently no details available on how the security flaw is being exploited, who is behind them, and if it's part of a broader opportunistic or targeted campaign aimed at unpatched systems. Late last year, another critical flaw in the same product ( CVE-2025-61882 , CVSS score: 9.8) was weaponized by threat actors linked to the Cl0p ransomware operation, with early attacks launched as far back as August 2025. Earlier this month, the company addressed a critical missing authentication zero-day vulnerability in PeopleSoft Suite ( CVE-2026-35273 , CVSS score: 9.8) that was actively exploited in ShinyHunters (aka SHADOW-AETHER-015) data theft and extortion attacks. "The notable property of this vulnerability is not its impact, but its near-total lack of observability," Trend Micro said . "The final code-execution step runs through Java's XMLDecoder inside the application server’s own Java virtual machine (JVM), fires on a restart rather than on the inbound request, and needs no child process and no outbound beacon to succeed. A defender watching the usual places sees a quiet system." Automaker Nissan has since acknowledged that it was among those impacted, stating it was the victim of a break-in that involved the exploitation of the PeopleSoft flaw, potentially exposing payroll records, bank details, Social Security numbers, and other personal and financial data belong to its employees in the U.S., Canada, Mexico, and Brazil. "What stood out was that CVE-2026-35273 isn't just another trivial, easy-to-exploit single-request vulnerability," Jake Knott, principal security researcher at watchTowr, said in a statement. "The attack chain is considerably more involved, combining multiple vulnerabilities to plant a malicious file that doesn’t execute immediately but waits until the server restarts." "Where we would normally see simple bugs, this is a chain of multiple vulnerabilities, suggestive of a threat actor with genuine knowledge of and familiarity with the underlying codebase, and the ability to develop targeted capabilities against it." Knott also pointed out that threat actors are exploiting vulnerabilities faster than ever before, urging organizations to assume compromise and activate incident response processes to determine whether access was obtained before patches were applied, what was accessed, and whether persistence was established. Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Authentication bypass , cybersecurity , data theft , Enterprise Software , oracle , privilege escalation , Threat Intelligence , Vulnerability ⚡ Top St
 ```
 
 #### Corroborating sources (2)
@@ -1042,8 +1035,8 @@ CVE-2026-20230 Cisco Unified Communications Manager Server-Side Request Forgery 
 - Published: 2026-06-29T16:10:20+00:00
 - Link: https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
 - Fetch status: ok
-- Member count: 7
-- Corroborating source count: 5
+- Member count: 6
+- Corroborating source count: 4
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
@@ -1070,7 +1063,7 @@ The GitHub Advisory Database is processing more vulnerability reports than ever 
 Madison Ficorilli · @taladrane June 29, 2026 | 10 minutes Share: In May 2026, the GitHub Advisory Database published 1,560 reviewed advisories —more than five times our typical monthly output and the highest in its history. And it still wasn’t enough to keep up. Over the past few months, the vulnerability ecosystem has shifted in a fundamental way. Input across private vulnerability reports, repository advisories, and CVE requests has increased simultaneously, pushing the entire system to a new operating scale. This blog builds on an ongoing GitHub community discussion tracking the evolving nature of vulnerability reporting, as well as PVR and Advisory Database roadmap developments. A recurring theme in that thread is the downstream impact of platform changes on advisory curation and data quality. This aligns with GitHub’s broader shift toward emphasizing quality and shared responsibility in vulnerability reporting, which in turn directly shapes how advisory data must be curated and maintained. TL;DR Review times for new advisories are longer because vulnerability volume and complexity have increased significantly. Advisory quality has not changed: reviewed advisories are still human-validated, and existing alerts continue to function normally. If you want to help, focus on three things: submit complete vulnerability data, coordinate closely with maintainers and researchers, and request CVEs only when there is a clear intention to publish. Record output and unprecedented input May was not a one-time spike. From March through May, we sustained more than 6,000 advisory decisions per month. This included updating existing advisories, publishing new advisories, and reviewing inbound advisories, and exceeded any prior three-month peak. At the same time, inflow accelerated across every source: Private vulnerability reports across the platform increased from ~550/week in January to more than 3,000/week for most of May. Repository advisories scaled from ~650/week to more than 5,000/week. GitHub CNA CVE requests reached almost 4,000 in May alone , nearly 10x year –over year. The CVE program has already published 30,000+ CVEs in 2026. More than 1.7 million total repositories have enabled private vulnerability reporting. This is not a localized surge. It reflects structural change across the vulnerability disclosure ecosystem. The impact Since mid-April, due to this surge, we have not consistently met our internal goals for publication. Processing times extended first to about a week, then to multiple weeks for a meaningful share. Longer publication times can increase exposure windows. We take that seriously, and timeliness is a core part of the value this database provides. What’s still working Our data pipelines and publishing infrastructure have continued to operate through this period. Imports are running, data integrity is intact, and published advisories are accurate. Advisories that reach reviewed status today meet the same quality standard as before. CVE assignment quality has remained strong. Our assignment rate has held between 91–94% through the entire surge, consistent with or better than historical norms and showing that there hasn’t been a clear degradation in the requests we receive. The issue is throughput. The system that validates, enriches, and publishes advisory data is functioning; it is now operating beyond the volume and complexity it was designed to handle. The work isn’t uniform Not every security advisory requires the same level of effort. Some arrive well formatted: the advisory details clearly name the affected package and its relevant ecosystem, the version range is documented, and the fix is tagged. A curator can validate and publish these in under a few minutes. But a growing share of incoming advisories require more investigation: Package disambiguation. The advisory details say “foo”, but is that foo on npm, python-foo on PyPI, or the unrelated foo on Maven? When upstream data doesn’t specify an ecosystem
 ```
 
-#### Corroborating sources (5)
+#### Corroborating sources (4)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Inside the Advisory Database and what happens when vulnerability volume breaks records
@@ -1092,11 +1085,6 @@ Madison Ficorilli · @taladrane June 29, 2026 | 10 minutes Share: In May 2026, t
   - Published: 2026-06-24T23:59:03+00:00
   - Link: https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything
   - Summary: simonw/browser-compat-db Inspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite database. This new GitHub repo includes a Claude Code for web (Opus 4.8) generated script for doing that using sqlite-utils . I wanted the resulting ~66MB SQLite database to be available via the GitHub CDN with open CORS headers. GitHub releases don't have those, but any file stored in a regular GitHub repository does - so I had Codex Desktop (GPT-5.5) build a GitHub Actions workflow that builds the database and then force-pushes it to a db "orphan" branch. You can download the resulting database from here , and since it's hosted with open CORS headers you can also explore it with Datasette Lite . Tags: github , mozilla , projects , github-actions , datasette-lite , ai-assisted-programming , model-context-protocol , mdn
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Clean GitHub repo tricks AI coding agents into running malware
-  - Published: 2026-06-27T14:22:36+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/
-  - Summary: An agentic coding tool tasked with cloning and setting up a seemingly benign GitHub repository could execute a malicious payload that remains invisible to security scanners, AI agents, and human reviewers. [...]
 
 ### Cluster 2a76d13430 — score 19
 
@@ -1193,6 +1181,69 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 29th June 
   - Published: 2026-06-29T14:06:59+00:00
   - Link: https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 29th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Polymarket, a large cryptocurrency-based prediction market, has confirmed a supply chain attack after a third-party frontend vendor breach led to malicious JavaScript being injected into its website. Attackers tricked users into approving fraudulent […] The post 29th June – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 7de9036f43 — score 18
+
+- Title: Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T11:18:47+00:00
+- Link: https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+- Fetch status: ok
+- Member count: 4
+- Corroborating source count: 4
+- Strong signals: CVE-2026-48558
+
+#### Cluster taxonomy (union across members)
+- threat_categories: credential_theft
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, GitHub, Okta
+- cve_ids: CVE-2026-48558
+- urgency_signals: preauth_unauth
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: financial_services
+- affected_products: Apple iOS/macOS, Okta, GitHub
+- cve_ids: CVE-2026-48558
+- urgency_signals: preauth_unauth
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer. The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated
+```
+
+#### Full body
+
+```
+Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer  Ravie Lakshmanan  Jun 30, 2026 AI Security / Vulnerability An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer . The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated attacker could exploit to obtain a fully authenticated "Technician session by submitting a forged token containing arbitrary identity claims. "TaskWeaver is a heavily obfuscated Node.js loader, delivered as jquery.js and executed through node.exe, that implements an encrypted, reusable payload delivery channel rather than a fixed set of post exploitation commands," Blackpoint Cyber said in an analysis. "The observed second stage payload, Djinn Stealer, targets Windows, macOS, and Linux systems." Djinn Stealer is designed to harvest credentials associated with cloud platforms, source control, package registries, infrastructure tooling, AI development assistants, browsers, SSH, and cryptocurrency wallets. Details of CVE-2026-48558 emerged earlier this month when Horizon3.ai, which discovered the flaw, said it affects servers configured to use either generic OIDC or Azure AD OIDC and that it stems from the manner in which SimpleHelp validates the IdP assertions. "In many SimpleHelp deployments that have OIDC-type authentication enabled, an unauthenticated attacker can create and authenticate as a new 'Technician' user," Horizon3.ai security researcher Zach Hanley said . "This Technician, by default, can perform privileged management activities such as remoting into managed endpoints, executing scripts, and more." "Even when the SimpleHelp server is configured to enforce MFA for technicians, this issue allows the attacker to bypass this mechanism because on first login, technicians can self-register their own MFA method." In the attack chain documented by Blackpoint Cyber, successful exploitation of the flaw in the Remote Monitoring and Management (RMM) software is said to have enabled the threat actor to obtain an authenticated "Technician" session on a publicly-accessible server, which was then abused to deploy TaskWeaver and Djinn Stealer. "The compromised RMM platform provided the operator with a trusted administrative channel capable of transferring files and executing commands on systems managed through the server," researchers Nevan Beal and Sam Decker said. TaskWeaver is a modular Node.js loader capable of fingerprinting the system, establishing encrypted communications with a remote server ("a.dev-tunnels[.]com"), and retrieving and executing additional JavaScript payloads with elevated access to the Node.js runtime. The final stage is an information stealer engineered to siphon valuable data from compromised Windows, macOS, or Linux hosts. The breadth of the information targeted by the stealer is as follows - Credentials, history, and bookmarks stored in web browsers Configuration and authentication data associated with AWS, Azure, Google Cloud, Oracle Cloud Infrastructure, Okta, Cloudflare, DigitalOcean, Linode, Heroku, Vercel, Railway, Supabase, Pulumi, Terraform, HashiCorp Vault, and Consul GitHub CLI data Git configuration SSH keys Docker authentication Helm registry information S3 and MinIO client configurations Subversion credentials Credentials for npm, pnpm, Yarn, NuGet, Cargo, Composer, Maven, Gradle, pip, PyPI, Conda, Bun, Ivy, and Scala Build Tool Configuration, authentication, session, and project data associated with Anthropic Claude, Google Gemini, OpenAI Codex, Cline, OpenCode, and Kilo Cryptocurrency wallets and keystores associated with Bitcoin, Litecoin, Dogecoin, Dash, Ethereum, Monero, Zcash, Exodus, Atomic Wallet, and Electrum On Linux systems, the malware also attempts
+```
+
+#### Corroborating sources (4)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer
+  - Published: 2026-06-30T11:18:47+00:00
+  - Link: https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
+  - Summary: An unknown threat actor has been observed exploiting a recently disclosed maximum-severity security flaw in SimpleHelp to deliver two previously unreported malware families, TaskWeaver and Djinn Stealer. The intrusion involves the exploitation of CVE-2026-48558 (CVSS score: 10.0), a critical authentication bypass vulnerability impacting the OpenID Connect (OIDC) flow that an unauthenticated
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: SimpleHelp vulnerability exploited to deliver mighty Djinn Stealer (CVE-2026-48558)
+  - Published: 2026-06-30T10:25:18+00:00
+  - Link: https://www.helpnetsecurity.com/2026/06/30/simplehelp-vulnerability-exploited-cve-2026-48558/
+  - Summary: Attackers are exploiting CVE-2026-48558, a recently patched authentication bypass vulnerability in SimpleHelp RMM, to drop the novel Djinn Stealer malware on victim computers. The malware is capable of targeting Windows, macOS, and Linux systems, and “collects credentials associated with cloud platforms, source control, package registries, infrastructure tooling, AI development assistants, browsers, SSH, and cryptocurrency wallets,” BlackPoint Cyber’s researchers discovered. CVE-2026-48558 exploited SimpleHelp is a remote monitoring and management (RMM) tool popular with managed services providers … More → The post SimpleHelp vulnerability exploited to deliver mighty Djinn Stealer (CVE-2026-48558) appeared first on Help Net Security .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'Djinn' Stealer Targets Cloud, AI Credentials
+  - Published: 2026-06-29T21:29:15+00:00
+  - Link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
+  - Summary: The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Critical SimpleHelp flaw exploited to deploy new stealer malware
+  - Published: 2026-06-29T14:00:00+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
+  - Summary: Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Windows, macOS, and Linux. [...]
 
 ### Cluster 8153a6b280 — score 18
 
@@ -1396,12 +1447,12 @@ Nissan discloses employee data breach linked to Oracle zero-day attacks By Lawre
 - Published: 2026-06-30T09:31:27+00:00
 - Link: https://isc.sans.edu/diary/rss/33114
 - Fetch status: fetch_failed:HTTPError
-- Member count: 6
+- Member count: 7
 - Corroborating source count: 5
 - Strong signals: Apple iOS/macOS
 
 #### Cluster taxonomy (union across members)
-- threat_categories: ai_security, credential_theft, web_shell_backdoor
+- threat_categories: ai_security, credential_theft, phishing_social_eng, web_shell_backdoor
 - affected_products: Anthropic/Claude, Apple iOS/macOS, OpenAI/ChatGPT, npm
 - cve_ids: CVE-2026-43707
 - content_type: news_report
@@ -1435,16 +1486,16 @@ Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have b
   - Published: 2026-06-30T07:15:07+00:00
   - Link: https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html
   - Summary: Apple on Monday released security updates for iOS, macOS, and the Safari web browser to address over three dozen flaws, including four vulnerabilities in WebKit that were discovered using artificial intelligence (AI) tools like Anthropic Claude and OpenAI Codex Security. The WebKit vulnerabilities are listed below - CVE-2026-43707 - A memory corruption issue that could result in an
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ClickFix Now Cybercriminals' Favorite Malware Delivery Technique
+  - Published: 2026-06-30T12:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
+  - Summary: ReliaQuest report warns of a surge in ClickFix social engineering attacks against Windows and macOS users
 - **Dark Reading** (cyber_news_breach_reporting)
   - Title: Apple's MacOS Gap Lets Users Disable Security Tools
   - Published: 2026-06-24T12:00:00+00:00
   - Link: https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools
   - Summary: Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: macOS Backdoor Uses Prompt Injection to Evade AI Triage
-  - Published: 2026-06-24T14:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/macos-gaslight-rust-backdoor/
-  - Summary: SentinelLabs found a North Korea-linked macOS backdoor using prompt injection on AI triage tools
 
 ### Cluster a0bb1916a8 — score 16
 
@@ -1624,53 +1675,6 @@ Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code
   - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
   - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
 
-### Cluster c5f117afff — score 14
-
-- Title: JSP webshells being dropped on unpatched PTC Windchill instances
-- Source: Help Net Security (cyber_news_breach_reporting)
-- Published: 2026-06-29T16:18:49+00:00
-- Link: https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-12569
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- cve_ids: CVE-2026-12569, CVE-2026-4681
-- urgency_signals: actively_exploited, no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: active_exploitation
-- affected_industries: government, manufacturing_industrial, retail_ecommerce
-- cve_ids: CVE-2026-12569, CVE-2026-4681
-- urgency_signals: actively_exploited, preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The US Cybersecurity and Infrastructure Security Agency (CISA) added a vulnerability (CVE-2026-12569) in Windchill and FlexPLM, two product lifecycle management software platforms developed by PTC, to its Known Exploited Vulnerabilities (KEV) catalog. Entries in the KEV catalog don’t contain links to reports of exploitation, but PTC’s advisory keeps getting updated with indicators of compromise and advice for defenders, confirming that attackers are dropping JSP webshells on vulnerable systems. CISA ordered US federal civilian government agencies … More → The post JSP webshells being dropped on unpatched PTC Windchill instances appeared first on Help Net Security .
-```
-
-#### Full body
-
-```
-Zeljka Zorz , Editor-in-Chief, Help Net Security June 29, 2026 Share JSP webshells being dropped on unpatched PTC Windchill instances The US Cybersecurity and Infrastructure Security Agency (CISA) added a vulnerability (CVE-2026-12569) in Windchill and FlexPLM, two product lifecycle management software platforms developed by PTC, to its Known Exploited Vulnerabilities (KEV) catalog. Entries in the KEV catalog don’t contain links to reports of exploitation, but PTC’s advisory keeps getting updated with indicators of compromise and advice for defenders, confirming that attackers are dropping JSP webshells on vulnerable systems. CISA ordered US federal civilian government agencies to address CVE-2026-12569 by June 28, but all organizations using one of these two PLM platform should patch (if they haven’t already) and check for the presence of indicators of compromise. PTC Windchill under attack via CVE-2026-12569 Windchill is PTC’s product lifecycle management platform for manufacturing and engineering-intensive industries, while FlexPLM is a PLM platform for retail, footwear, apparel, and consumer goods industries, CVE-2026-12569 is an improper input validation vulnerability that allows unauthenticated, remote attackers to execute arbitrary code just by sending a malicious request to the network. PTC warned about the flaw on June 17 and proposed remediation steps, then followed up with the release of a patch on June 18, when it confirmed in-the-wild exploitation. Patches for additional versions of the software were released soon after. News outlet Heise Online reported that, around June 17, Germany’s Federal Office for Information Security (BSI) started notifying German companies of “impending cyberattacks on vulnerable Windchill instances”, and urged them to verify they had applied the patch. Interestingly enough, a similar warning by the Federal Criminal Police Office (BKA) on behalf of the BSI was given to German companies in late March 2026 , when a code injection vulnerability (CVE-2026-4681) in those same two platforms was publicly disclosed . CVE-2026-4681 also allowed remote code execution and the indicators of compromise provided in the related advisory suggest it was also exploited in the wild, even though the advisory still states that “there is no evidence of confirmed exploitation affecting PTC customers.” Subscribe to our breaking news e-mail alert to never miss out on the latest breaches, vulnerabilities and cybersecurity threats. Subscribe here! More about BSI CISA Germany manufacturing sector vulnerability Share
-```
-
-#### Corroborating sources (1)
-
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: JSP webshells being dropped on unpatched PTC Windchill instances
-  - Published: 2026-06-29T16:18:49+00:00
-  - Link: https://www.helpnetsecurity.com/2026/06/29/ptc-windchill-cve-2026-12569-exploited/
-  - Summary: The US Cybersecurity and Infrastructure Security Agency (CISA) added a vulnerability (CVE-2026-12569) in Windchill and FlexPLM, two product lifecycle management software platforms developed by PTC, to its Known Exploited Vulnerabilities (KEV) catalog. Entries in the KEV catalog don’t contain links to reports of exploitation, but PTC’s advisory keeps getting updated with indicators of compromise and advice for defenders, confirming that attackers are dropping JSP webshells on vulnerable systems. CISA ordered US federal civilian government agencies … More → The post JSP webshells being dropped on unpatched PTC Windchill instances appeared first on Help Net Security .
-
 ### Cluster 2faa47b093 — score 14
 
 - Title: New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials
@@ -1791,51 +1795,6 @@ Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw 
   - Link: https://thehackernews.com/2026/06/public-poc-released-for-critical.html
   - Summary: A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2. libssh2 is a client-side SSH library, not a server.
 
-### Cluster d5faf7ea86 — score 13
-
-- Title: US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw
-- Source: Infosecurity Magazine (cyber_news_breach_reporting)
-- Published: 2026-06-29T10:00:00+00:00
-- Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach, zero_day
-- affected_industries: financial_services, government, legal_professional
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, data_breach
-- affected_industries: financial_services, government, legal_professional
-- urgency_signals: zero_day
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
-```
-
-#### Full body
-
-```
-Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw News 29 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn The US National Association of Insurance Commissioners (NAIC) has suffered a security breach that has exposed US citizens’ credit rating data. The breach was detected on June 11 and the non-profit association for the US federal insurance system disclosed it to the public on June 17. In its latest update , posted on June 26, the NAIC confirmed that an unauthorized actor gained access to “a portion” of its environment through the exploitation of a zero-day vulnerability in Oracle PeopleSoft, which NAIC uses for internal financial reporting purposes. The incident was the result of “a broad campaign to exploit a vulnerability in PeopleSoft that was unknown to the developer or software users at the time, which affected multiple organizations,” the NAIC added. NAIC Confirms Data Affected and Unaffected by the Breach Once they entered the NAIC’s PeopleSoft environment, the attacker obtained information needed to gain temporary access to certain data storage areas. They then published some of the data accessed. Based on the NAIC’s preliminary findings, these include: Statutory financial reporting information that was already publicly available through state websites like InsData or resellers Credit rating agency data, including rating determinations of insurer investments “Potentially” additional storage data (e.g. routine technical information, such as outdated logs or configuration information) The NAIC said that some credit rating agencies have paused their data feeds following the incident, leading the association to temporarily suspend assigning designations to insurer investments. “Insurers should monitor [Automated Valuation Service Plus] AVS+ for any updates,” said the NAIC. Users have been notified of critical data that was not compromised by the attacker: Personal information of US insurance system users and employees Payment and financial account information, including credit card or banking information Rating agency investment rationale reports Information on any US state insurance departments’ systems Information linked to the National Insurance Producer Registry (NIPR) or the Teammate software provider Some insurance processes data, such as electronic funds transfer, risk-based capital data, policyholder information, producer data and event registration payment information Additionally, the NAIC denied the attacker’s claims that they gained access to information linked to technology provided by the NAIC, including the System for Electronic Rate and Form Filing (SERFF), Online Premium Tax for Insurance (OPTins), Uniform Certificate Authority Application (UCAA), Enterprise Data Platform (EDP) and Regulatory Data Collection (RDC). “Outside cybersecurity experts confirmed the unauthorized party did not take this information, nor compromised these regulatory reporting systems,” the NAIC stated. NAIC Operations Almost Fully Back to Normal In its update, the NAIC said it “promptly” contained the breach following detection and blocked the attacker’s access to its systems. It also engaged outside counsel and cybersecurity experts, who have helped taking additional steps to strengthen its defenses. “FBI coordination is underway,” the NAIC also noted. Finally, the association confirmed that its operations have returned to normal with the exception of online invoice payment via PeopleSoft, which is still unavailable. “We are meeting with credit rating providers and have provided third-party assurances that our systems are secure and the NAIC designation process can resume,” said the NAIC. You may also like US Government IIS Server Breached via Telerik Software Flaw News 16 March 2023 UK Government Cybersecurity Advisory Board Applications Now Open N
-```
-
-#### Corroborating sources (1)
-
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw
-  - Published: 2026-06-29T10:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
-  - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
-
 ### Cluster d8d3a457ab — score 12
 
 - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
@@ -1868,6 +1827,88 @@ YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
   - Published: 2026-06-28T07:56:44+00:00
   - Link: https://isc.sans.edu/diary/rss/33106
   - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
+
+### Cluster 5d507d7678 — score 12
+
+- Title: ToddyCat: your hidden email assistant. Part 2
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-30T10:00:13+00:00
+- Link: https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: apt_espionage
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+An in-depth analysis of Umbrij, a new tool used by the ToddyCat APT group to compromise corporate email communications in Gmail. The attack targeted OAuth authorization tokens, allowing threat actors to gain access to Google services.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Umbrij Execution Environment preparation Acquiring the authorization code Results Detection DLL sideloading Browser launch Revoking third-party access Risk mitigation Takeaways Indicators of compromise Authors Andrey Gunkin Introduction We continue to share details on the malicious techniques and toolsets used by the ToddyCat APT group. In the first part of this report , we examined the group’s attacks aimed at stealing data from browsers, as well as from local and cloud email services. The methods used in that campaign indicated that ToddyCat was attempting to access corporate correspondence while evading monitoring tools. However, all of the group’s methods we described previously are effectively detected by EPP and EDR solutions. The attackers continued their search for ways to bypass security solutions and developed a new tool to gain access to a victim’s cloud account via the Google API. Armed with this tool, the group automated all stages of the attack and managed to remain undetected by monitoring systems. In this part of the report, we break down the mechanics of this new attack and analyze the tool that was used to automate it. We’ll also discuss how to detect and defend against this threat. Umbrij In this campaign, the attackers focused their attention on corporate email communications hosted on Gmail, targeting access compromise via APIs. Because the Google API relies on the OAuth 2.0 protocol for authorization, applications can use an OAuth token to access requested email resources. To acquire this token, the threat actors developed a tool called Umbrij and used it to connect to the browser’s management console in headless mode via a remote debugging port. Through a series of requests, they obtained an OAuth authorization code, which they subsequently exchanged for an access token to reach the target resources via the API. We have dubbed this technique Shadow Token via Remote Debug (STRD). This attack is viable on Chromium-based browsers. If the user has not logged out of their Gmail account, the browser maintains an active session. The attackers exploit this: they launch the browser, connect via the remote debugging port to take control, and send a request to the Gmail service to grant access to the Google account resources within the context of the user’s saved session. During our investigation of this attack, we discovered several versions of the Umbrij tool. These versions included a variety of helper functions designed for debugging, as well as for searching and selecting user accounts within the browser, among other tasks. Kaspersky solutions detect this tool with the following verdicts: HEUR:Trojan-PSW.MSIL.Umbrij.gen, HEUR:Trojan.MSIL.Agent.gen, HEUR:Trojan-PSW.MSIL.Agent.gen. Execution The Umbrij tool was discovered during a proactive threat hunting operation: a scheduled task, KasperskyEndpointSecurityEDRAvp, was running on a user host, launching a digitally signed file. Kaspersky solutions do not create scheduled tasks with that name; the attackers were attempting to masquerade their malicious activity as a legitimate process. The signed file then used the DLL sideloading technique to load the malicious tool. Umbrij execution events within Kaspersky Managed Detection and Response Throughout our observation period, we identified the following legitimate files vulnerable to the DLL sideloading technique that were used to launch Umbrij: BDSubWiz.exe: a component of the Submission Wizard in Bitdefender ConnectAgent, which is used to support connection features and interaction with other Bitdefender services or agents. This file insecurely loads a file named log.dll. VSTestVideoRecorder.exe: a component of the video-recording tool used for testing with Visual Studio (VS Test). This executable insecurely loads a file named Microsoft.VisualStudio.QualityTools.VideoRecorderEngine.dll. GoogleDesktop.exe: the discontinued Google Desktop Search application for indexing files and perfo
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: ToddyCat: your hidden email assistant. Part 2
+  - Published: 2026-06-30T10:00:13+00:00
+  - Link: https://securelist.com/toddycat-apt-umbrij-tool-and-oauth/120251/
+  - Summary: An in-depth analysis of Umbrij, a new tool used by the ToddyCat APT group to compromise corporate email communications in Gmail. The attack targeted OAuth authorization tokens, allowing threat actors to gain access to Google services.
+
+### Cluster 84ad484b78 — score 12
+
+- Title: Shipping post-quantum cryptography to Python
+- Source: Trail of Bits (offensive_vulnerability_research)
+- Published: 2026-06-30T11:00:00+00:00
+- Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_industries: financial_services, government
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
+```
+
+#### Full body
+
+```
+Page content Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That transition cannot happen only at the policy layer. Every application that signs packages, validates certificates, establishes secure channels, or protects long-lived secrets depends on cryptographic libraries. If those libraries do not expose post-quantum algorithms, the software stack cannot migrate. Almost every Python program that touches cryptography goes through pyca/cryptography . It’s currently the eleventh most-downloaded package on PyPI , pulling 1.2 billion downloads in the last month alone. The pyca/cryptography package handles the cryptographic operations of projects like Ansible, Certbot (the Let’s Encrypt client), Apache Airflow, paramiko (the Python-only SSH client), and many others . If pyca/cryptography doesn’t ship post-quantum primitives, the Python ecosystem can’t begin to migrate. Post-quantum support is now one pip install away As of cryptography>=48 , support for post quantum algorithms is just a pip install away. The version 48 release includes our Rust bindings for ML-KEM and ML-DSA, the cross binding API and tests, and support for AWS-LC as a cryptographic backend. It also includes work from pyca/cryptography’s maintainers to support the other cryptographic backends. Sadly, this is not enough for a post-quantum migration drop-in swap. These primitives have different size, performance, and integration tradeoffs than the classical algorithms they replace. PQ algorithm tradeoffs Post-quantum primitives keep the same security strength, but they change the size of the data on the wire. Public keys, signatures, and ciphertexts are often 1–2 orders of magnitude larger than the classical values they replace. The operations are also more complex and therefore slower, but on modern hardware they are still imperceptible for regular use, and are likely to get faster with improved hardware and algorithms. For signatures , here’s how the classical primitive (Ed25519) compares to its post-quantum equivalent (ML-DSA-65): Algorithm Public key Private key Output Ed25519 32 B 32 B 64 B sig ML-DSA-65 1,952 B 32 B 3,309 B sig And for key exchange and encryption , here’s how X25519 compares to its post-quantum equivalent (ML-KEM-768): Algorithm Public key Private key Output X25519 32 B 32 B 32 B shared ML-KEM-768 1,184 B 64 B 1,088 B ciphertext If you maintain a protocol or wire format that hardcodes Ed25519-sized signatures or X25519-sized public keys, the post-quantum migration involves more than a primitive swap. The surrounding fields, length prefixes, and chunking assumptions need to grow with it. Using ML-DSA ( FIPS 204 ): Quantum-resistant signatures ML-DSA is the lattice-based signature scheme that replaces RSA, ECDSA, and Ed25519. The Python API mirrors the existing asymmetric primitives: from cryptography.hazmat.primitives.asymmetric import mldsa private_key = mldsa . MLDSA65PrivateKey . generate () public_key = private_key . public_key () signature = private_key . sign ( b "message" ) public_key . verify ( signature ,
+```
+
+#### Corroborating sources (1)
+
+- **Trail of Bits** (offensive_vulnerability_research)
+  - Title: Shipping post-quantum cryptography to Python
+  - Published: 2026-06-30T11:00:00+00:00
+  - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
+  - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
 
 ### Cluster b7144ae5b1 — score 12
 
@@ -1959,48 +2000,134 @@ Home Blog 27 Biggest Data Breaches in History & What They Teach Us Last Updated:
   - Link: https://www.huntress.com/blog/biggest-data-breaches
   - Summary: Learn about the biggest data breaches of the past 20 years, how they happened, and how you can better protect your organization from major threats.
 
-### Cluster 0712573b7d — score 11
+### Cluster 852815a292 — score 12
 
-- Title: The Gentlemen are knocking: сustom backdoors and evolving tactics
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-29T10:00:35+00:00
-- Link: https://securelist.com/the-gentlemen-raas/120447/
+- Title: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-06-30T11:29:48+00:00
+- Link: https://www.securityweek.com/exploitation-of-recent-oracle-e-business-suite-vulnerability-begins/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, ransomware_extortion, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- threat_categories: active_exploitation, phishing_social_eng, ransomware_extortion, zero_day
+- actor_attribution: Cl0p, ShinyHunters
+- affected_products: Anthropic/Claude, Linux kernel
+- cve_ids: CVE-2026-46817
+- urgency_signals: actively_exploited, poc_available, preauth_unauth, zero_day
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach, web_shell_backdoor
-- affected_industries: critical_infrastructure
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
+- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, active_exploitation
+- actor_attribution: ShinyHunters, Cl0p
+- affected_products: Anthropic/Claude, Linux kernel
+- cve_ids: CVE-2026-46817
+- urgency_signals: actively_exploited, zero_day, preauth_unauth, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
+The critical-severity defect allows unauthenticated attackers to take over the E-Business Suite’s Payments product. The post Exploitation of Recent Oracle E-Business Suite Vulnerability Begins appeared first on SecurityWeek .
 ```
 
 #### Full body
 
 ```
-Table of Contents Introduction Technical details Initial infection vector Reconnaissance Lateral movement Disabling security products Go-based backdoor Go-based ransomware Automated system execution prevention Lateral movement through GPO deployment Lateral movement through PsExec Pre-encryption activities Encryption process C-based ransomware Victims Attribution Conclusion Indicators of compromise Go ransomware C-based ransomware Backdoor Vulnerable drivers Scanning tools File paths Domain and IPs Authors Fatih Şensoy Maher Yamout Introduction This year saw the emergence of The Gentlemen, a prominent example of a group operating under the ransomware-as-a-service (RaaS) model. Although our initial assessment suggested the group first appeared in mid-2025, it actually started ramping up its activities at the beginning of 2026. According to public reports , in the first half of 2026, this group ranks among the top 10 ransomware actors by the number of victim announcements on its data leak site (DLS). We have been observing the activity of The Gentlemen since February 2026 and have discovered new tactics, techniques, and procedures (TTPs) as well as custom tool development efforts, as they target large corporations and critical infrastructure worldwide. In our research, we have uncovered the group’s methods of reconnaissance, network sniffing, and many other techniques that have not been publicly described before by the wider community. Technical details Initial infection vector The Gentlemen group and its affiliates usually get into victim systems by exploiting vulnerabilities in online services and using stolen or weak login credentials, as reported by multiple cybersecurity vendors. They often target devices like hardware VPNs and firewalls that are exposed to the internet, and use leaked or default credentials to gain access. We believe the group is likely collaborating with other actors or initial access brokers (IABs) to gain access to the target organizations. While they often deploy ransomware within a few hours after initial access is obtained, our analysis of several attacks revealed some cases, in which access to the victim’s system had been established long before the ransomware was deployed. These cases involved tactics that are not typically associated with the group. This suggests that the initial breach may not have been executed by The Gentlemen at all, but rather by another group or an initial access broker. Reconnaissance Our investigation reveals that The Gentlemen conduct thorough internal reconnaissance using tools like SharpADWS , NetScan , Advanced IP Scanner , and netsh to map the target environment and identify vulnerabilities. SharpADWS is used to gather detailed Active Directory information, including domain object enumeration, and can bypass standard logging by wrapping LDAP queries in SOAP messages. The group also uses NetScan and Advanced IP Scanner to scan the network, discover active ports and services, and identify potential vulnerabilities, ultimately gaining a deeper understanding of the network and establishing remote control over identified systems. Microsoft’s netsh tool is used to capture network packets and gather intelligence, executing the command cmd.exe /Q /c netsh trace start capture=yes report=no filemode=circular overwrite=yes maxSize=4 > \<target IP>\ADMIN$\{RANDOM-FILE-NAME} 2>&1 to start the capture, and cmd.exe /Q /c netsh trace stop > \<target IP>\ADMIN$\{RANDOM-FILE-NAME} to stop it. The captured data is saved to a shared administrative folder with a random name, and can be analyzed with tools like Wireshark to reveal sensitive information such as unencrypted network activity and potential passwords, which the attackers then use to conduct targeted ransomware attacks. Lateral movement The Gentlemen group leverages the NETLOGON share to distribute the ransomware executable to connected computers, enabling simultaneous attacks on multiple devices. To facilitate lateral movement,
+Threat actors have started exploiting a critical vulnerability in Oracle E-Business Suite (EBS), threat intelligence firm Defused warns. Tracked as CVE-2026-46817 (CVSS score of 9.8), the issue was identified in the File Transmissions component of E-Business Suite’s Payments product. According to Oracle, unauthenticated attackers can exploit the security defect over HTTP to compromise Payments. “Successful attacks of this vulnerability can result in takeover of Oracle Payments,” Oracle notes . CVE-2026-46817 was resolved in late May as part of Oracle’s first monthly Critical Security Patch Update (CSPU), which addressed 77 vulnerabilities . On Monday, Defused warned that the first exploitation attempts against the critical flaw hit its EBS honeypots over the weekend. Advertisement. Scroll to continue reading. The threat intelligence company also points out that there have been no previous reports of the bug’s in-the-wild exploitation and that no public proof-of-concept (PoC) exploit targeting it exists either. Given the vulnerability’s critical severity and the newly observed attacks, organizations are advised to apply Oracle’s patches as soon as possible. Security defects in E-Business Suite and other Oracle products are regularly targeted in attack campaigns. In October 2025, the Cl0p ransomware and extortion group exploited a zero-day flaw in the enterprise product to steal data from more than 100 organizations . In early 2023 , threat actors began exploiting a security weakness in E-Business Suite shortly after a PoC was made public. This month, the infamous extortion group ShinyHunters claimed to have targeted over 100 organizations in a campaign targeting Oracle PeopleSoft , and a handful of victims have already confirmed the impact. Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: Oracle’s Second Monthly Security Updates Deliver 245 Patches Related: Oracle Addresses PeopleSoft Vulnerability Amid Reports of Zero-Day Attacks Related: Oracle WebLogic Vulnerability Exploited in the Wild Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines Straiker Raises $64 Million for AI Security Platform ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve Chinese Framework Powers 200,000 Scam Sites More Klue Breach Victims Identified as Hackers Get Hacked Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites Latest News Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History The AI Token Costs That Can Break Cybersecurity Nissan Employee Data Breached in Oracle PeopleSoft Hack Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help orga
 ```
 
 #### Corroborating sources (1)
 
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: The Gentlemen are knocking: сustom backdoors and evolving tactics
-  - Published: 2026-06-29T10:00:35+00:00
-  - Link: https://securelist.com/the-gentlemen-raas/120447/
-  - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins
+  - Published: 2026-06-30T11:29:48+00:00
+  - Link: https://www.securityweek.com/exploitation-of-recent-oracle-e-business-suite-vulnerability-begins/
+  - Summary: The critical-severity defect allows unauthenticated attackers to take over the E-Business Suite’s Payments product. The post Exploitation of Recent Oracle E-Business Suite Vulnerability Begins appeared first on SecurityWeek .
+
+### Cluster d5faf7ea86 — score 12
+
+- Title: US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw
+- Source: Infosecurity Magazine (cyber_news_breach_reporting)
+- Published: 2026-06-29T10:00:00+00:00
+- Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, zero_day
+- affected_industries: financial_services, government, legal_professional
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day, data_breach
+- affected_industries: financial_services, government, legal_professional
+- urgency_signals: zero_day
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw News 29 June 2026 Written by Kevin Poireault Reporter , Infosecurity Magazine Follow @Kpoireault Connect on LinkedIn The US National Association of Insurance Commissioners (NAIC) has suffered a security breach that has exposed US citizens’ credit rating data. The breach was detected on June 11 and the non-profit association for the US federal insurance system disclosed it to the public on June 17. In its latest update , posted on June 26, the NAIC confirmed that an unauthorized actor gained access to “a portion” of its environment through the exploitation of a zero-day vulnerability in Oracle PeopleSoft, which NAIC uses for internal financial reporting purposes. The incident was the result of “a broad campaign to exploit a vulnerability in PeopleSoft that was unknown to the developer or software users at the time, which affected multiple organizations,” the NAIC added. NAIC Confirms Data Affected and Unaffected by the Breach Once they entered the NAIC’s PeopleSoft environment, the attacker obtained information needed to gain temporary access to certain data storage areas. They then published some of the data accessed. Based on the NAIC’s preliminary findings, these include: Statutory financial reporting information that was already publicly available through state websites like InsData or resellers Credit rating agency data, including rating determinations of insurer investments “Potentially” additional storage data (e.g. routine technical information, such as outdated logs or configuration information) The NAIC said that some credit rating agencies have paused their data feeds following the incident, leading the association to temporarily suspend assigning designations to insurer investments. “Insurers should monitor [Automated Valuation Service Plus] AVS+ for any updates,” said the NAIC. Users have been notified of critical data that was not compromised by the attacker: Personal information of US insurance system users and employees Payment and financial account information, including credit card or banking information Rating agency investment rationale reports Information on any US state insurance departments’ systems Information linked to the National Insurance Producer Registry (NIPR) or the Teammate software provider Some insurance processes data, such as electronic funds transfer, risk-based capital data, policyholder information, producer data and event registration payment information Additionally, the NAIC denied the attacker’s claims that they gained access to information linked to technology provided by the NAIC, including the System for Electronic Rate and Form Filing (SERFF), Online Premium Tax for Insurance (OPTins), Uniform Certificate Authority Application (UCAA), Enterprise Data Platform (EDP) and Regulatory Data Collection (RDC). “Outside cybersecurity experts confirmed the unauthorized party did not take this information, nor compromised these regulatory reporting systems,” the NAIC stated. NAIC Operations Almost Fully Back to Normal In its update, the NAIC said it “promptly” contained the breach following detection and blocked the attacker’s access to its systems. It also engaged outside counsel and cybersecurity experts, who have helped taking additional steps to strengthen its defenses. “FBI coordination is underway,” the NAIC also noted. Finally, the association confirmed that its operations have returned to normal with the exception of online invoice payment via PeopleSoft, which is still unavailable. “We are meeting with credit rating providers and have provided third-party assurances that our systems are secure and the NAIC designation process can resume,” said the NAIC. You may also like US Government IIS Server Breached via Telerik Software Flaw News 16 March 2023 UK Government Cybersecurity Advisory Board Applications Now Open N
+```
+
+#### Corroborating sources (1)
+
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw
+  - Published: 2026-06-29T10:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
+  - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
+
+### Cluster c929d44d5e — score 11
+
+- Title: Linux Process Name Masquerading, (Wed, Jun 24th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-24T06:29:03+00:00
+- Link: https://isc.sans.edu/diary/rss/33102
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- attack_techniques: T1036
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- attack_techniques: T1036
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Linux Process Name Masquerading, (Wed, Jun 24th)
+  - Published: 2026-06-24T06:29:03+00:00
+  - Link: https://isc.sans.edu/diary/rss/33102
+  - Summary: In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
 
 ### Cluster 6980e28d76 — score 11
 
@@ -2044,41 +2171,6 @@ Table of Contents Key findings Malware and potentially unwanted applications (PU
   - Published: 2026-06-25T10:00:59+00:00
   - Link: https://securelist.com/smb-threat-report-2026/120357/
   - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
-
-### Cluster c929d44d5e — score 11
-
-- Title: Linux Process Name Masquerading, (Wed, Jun 24th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-24T06:29:03+00:00
-- Link: https://isc.sans.edu/diary/rss/33102
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- attack_techniques: T1036
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- attack_techniques: T1036
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Linux Process Name Masquerading, (Wed, Jun 24th)
-  - Published: 2026-06-24T06:29:03+00:00
-  - Link: https://isc.sans.edu/diary/rss/33102
-  - Summary: In a previous diary, I talked about stack strings&#;x26;#;x5b; 1 &#;x26;#;x5d; with a practical example of them. Since my SEC670 class, I&#;x26;#;xe2;&#;x26;#;x80;&#;x26;#;x99;m even more interested&#;x26;#;xc2;&#;x26;#;xa0;in malware obfuscation techniques. I had&#;x26;#;xc2;&#;x26;#;xa0;a look at process names. When you list running processes on a computer, can you trust what you see&#;x26;#;x3f; If you&#;x26;#;39;re facing a rootkit, malicious processes can be simply hidden (the API calls or commands to list processed have been tampered). But a malicious process&#;x26;#;xc2;&#;x26;#;xa0;can also mimic a non-suspicious name by masquerading their name. This technique (T1036 in the MITRE ATT&#;x26;CK framework&#;x26;#;x5b; 2 &#;x26;#;x5d;) has been used by attackers in many campaigns. A good example of the Velvet Ant Chinese group&#;x26;#;x5b; 3 &#;x26;#;x5d;. The goal is to hide the &#;x26;#;xe2;&#;x26;#;x80;œmalware&#;x26;#;xe2;&#;x26;#;x80; process name by replacing it with somethi
 
 ### Cluster 6a3df7e65b — score 11
 
@@ -2286,56 +2378,6 @@ By Justin Cappos, OpenSSF Ambassador, Professor at New York University Introduct
   - Published: 2026-06-23T19:31:53+00:00
   - Link: https://openssf.org/blog/2026/06/23/bridging-the-gap-between-code-and-research-why-scored-26-matters-for-open-source-security/
   - Summary: Let’s be completely honest about how we’ve historically handled security research: academia and open source practitioners have basically been living on two different planets. That’s why we created SCORED (the Workshop on Software Supply Chain Offensive and Defensive Research). It’s a complete reimagining of the traditional academic model.
-
-### Cluster 4baa80ca49 — score 11
-
-- Title: 'Djinn' Stealer Targets Cloud, AI Credentials
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-06-29T21:29:15+00:00
-- Link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: CVE-2026-48558
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, supply_chain
-- affected_products: PyPI, npm
-- cve_ids: CVE-2026-48558
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, credential_theft
-- affected_products: PyPI, npm
-- cve_ids: CVE-2026-48558
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.
-```
-
-#### Full body
-
-```
-Cyberattacks & Data Breaches Cyber Risk Application Security Threat Intelligence News 'Djinn' Stealer Targets Cloud, AI Credentials The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems. Jai Vijayan , Contributing Writer June 29, 2026 4 Min Read Source: Dimart Graphics via Shutterstock Vulnerabilities in remote monitoring and management (RMM) tools can give attackers a direct path into enterprise environments, often with the same trusted access that IT administrators rely on to remotely manage systems. A recent intrusion campaign shows how quickly attackers can leverage that access to deploy malware and establish a broad foothold across enterprise networks. The attack began with the threat actor exploiting CVE-2026-48558 , a critical authentication bypass vulnerability in SimpleHelp, an RMM platform used by more than 6,000 organizations to manage millions of endpoint devices, eventually delivering a second-stage payload dubbed Djinn Stealer. Turning an Initial Foothold Into Broad Access Researchers at Blackpoint Cyber's Adversary Pursuit Group (APG) who investigated the incident observed the attacker exploiting the flaw on an Internet-facing SimpleHelp server and obtaining an authenticated technician session, giving them the same remote management capabilities as a legitimate IT administrator. Related: In Less Than 24 Hours, Attackers Weaponize Cisco CUCM Flaw Once inside, the attackers mass deployed an obfuscated JavaScript loader that Blackpoint is tracking as TaskWeaver. The attackers disguised TaskWeaver as a benign file named jsquery.js and hosted it on temporary Cloudflare infrastructure. Blackpoint found the threat actor using the malware to fingerprint compromised systems, establish communications with a command-and-control (C2) server, and retrieve Djinn Stealer. The malware, as Blackpoint noted in its blog, “is built to strip a developer’s machine of everything valuable in a single pass.” This includes cloud credentials, SSH keys, API keys, service account credentials, and other infrastructure secrets. Blackpoint observed the malware targeting credentials for package registries and build-tool ecosystems including npm, Yarn, NuGet, Composer, Maven, and PyPI. An attacker with such credentials could access private packages, publish malicious software, alter dependencies, and execute other supply chain attacks, the security vendor noted. According to Blackpoint, Djinn Stealer is designed to collect and package stolen data on the endpoint, then encrypt it using AES-256-GCM before exfiltration, with the encryption key itself protected by RSA-2048. Most notably, Blackpoint found Djinn Stealer equipped to search for credentials associated with AI development tools and agents, including local configuration files for services such as Claude, Gemini, Codex, Cline, OpenCode, and Kilo. "Many of these tools rely on the Model Context Protocol (MCP) to connect an AI assistant to external tools and data on the developer's behalf, including source repositories, databases, cloud accounts, and internal APIs," according to Blackpoint's report. Such credentials could allow an attacker to access and manipulate data and cloud infrastructure with the same privileges as the developer or the AI agent itself. Related: EdTech Attackers Shift From Schools to Their Software Suppliers "As AI becomes embedded across development, administration, and business workflows, credentials associated with these platforms are becoming increasingly valuable to threat actors," notes Nevan Beal, principal MDR analyst at Blackpoint. Djinn Stealer, he says, stands out not simply for how it targets AI related data. It is notable also because its collection rules cover a broad and comparatively uncommon range of AI development tools alongside CI/CD credentials, package registry authentication, cloud configurations, sou
-```
-
-#### Corroborating sources (2)
-
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'Djinn' Stealer Targets Cloud, AI Credentials
-  - Published: 2026-06-29T21:29:15+00:00
-  - Link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
-  - Summary: The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Critical SimpleHelp flaw exploited to deploy new stealer malware
-  - Published: 2026-06-29T14:00:00+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/
-  - Summary: Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Windows, macOS, and Linux. [...]
 
 ### Cluster 3f8afe359f — score 11
 
@@ -2688,6 +2730,49 @@ Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25,
   - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
   - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
 
+### Cluster 0712573b7d — score 10
+
+- Title: The Gentlemen are knocking: сustom backdoors and evolving tactics
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-29T10:00:35+00:00
+- Link: https://securelist.com/the-gentlemen-raas/120447/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach, web_shell_backdoor
+- affected_industries: critical_infrastructure
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
+```
+
+#### Full body
+
+```
+Table of Contents Introduction Technical details Initial infection vector Reconnaissance Lateral movement Disabling security products Go-based backdoor Go-based ransomware Automated system execution prevention Lateral movement through GPO deployment Lateral movement through PsExec Pre-encryption activities Encryption process C-based ransomware Victims Attribution Conclusion Indicators of compromise Go ransomware C-based ransomware Backdoor Vulnerable drivers Scanning tools File paths Domain and IPs Authors Fatih Şensoy Maher Yamout Introduction This year saw the emergence of The Gentlemen, a prominent example of a group operating under the ransomware-as-a-service (RaaS) model. Although our initial assessment suggested the group first appeared in mid-2025, it actually started ramping up its activities at the beginning of 2026. According to public reports , in the first half of 2026, this group ranks among the top 10 ransomware actors by the number of victim announcements on its data leak site (DLS). We have been observing the activity of The Gentlemen since February 2026 and have discovered new tactics, techniques, and procedures (TTPs) as well as custom tool development efforts, as they target large corporations and critical infrastructure worldwide. In our research, we have uncovered the group’s methods of reconnaissance, network sniffing, and many other techniques that have not been publicly described before by the wider community. Technical details Initial infection vector The Gentlemen group and its affiliates usually get into victim systems by exploiting vulnerabilities in online services and using stolen or weak login credentials, as reported by multiple cybersecurity vendors. They often target devices like hardware VPNs and firewalls that are exposed to the internet, and use leaked or default credentials to gain access. We believe the group is likely collaborating with other actors or initial access brokers (IABs) to gain access to the target organizations. While they often deploy ransomware within a few hours after initial access is obtained, our analysis of several attacks revealed some cases, in which access to the victim’s system had been established long before the ransomware was deployed. These cases involved tactics that are not typically associated with the group. This suggests that the initial breach may not have been executed by The Gentlemen at all, but rather by another group or an initial access broker. Reconnaissance Our investigation reveals that The Gentlemen conduct thorough internal reconnaissance using tools like SharpADWS , NetScan , Advanced IP Scanner , and netsh to map the target environment and identify vulnerabilities. SharpADWS is used to gather detailed Active Directory information, including domain object enumeration, and can bypass standard logging by wrapping LDAP queries in SOAP messages. The group also uses NetScan and Advanced IP Scanner to scan the network, discover active ports and services, and identify potential vulnerabilities, ultimately gaining a deeper understanding of the network and establishing remote control over identified systems. Microsoft’s netsh tool is used to capture network packets and gather intelligence, executing the command cmd.exe /Q /c netsh trace start capture=yes report=no filemode=circular overwrite=yes maxSize=4 > \<target IP>\ADMIN$\{RANDOM-FILE-NAME} 2>&1 to start the capture, and cmd.exe /Q /c netsh trace stop > \<target IP>\ADMIN$\{RANDOM-FILE-NAME} to stop it. The captured data is saved to a shared administrative folder with a random name, and can be analyzed with tools like Wireshark to reveal sensitive information such as unencrypted network activity and potential passwords, which the attackers then use to conduct targeted ransomware attacks. Lateral movement The Gentlemen group leverages the NETLOGON share to distribute the ransomware executable to connected computers, enabling simultaneous attacks on multiple devices. To facilitate lateral movement,
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: The Gentlemen are knocking: сustom backdoors and evolving tactics
+  - Published: 2026-06-29T10:00:35+00:00
+  - Link: https://securelist.com/the-gentlemen-raas/120447/
+  - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
+
 ### Cluster 96f12a0395 — score 10
 
 - Title: StrikeShark: investigating a new campaign delivering Cobalt Strike through SharkLoader
@@ -2734,6 +2819,47 @@ Table of Contents Introduction Initial infection Exploitation of public-facing a
   - Published: 2026-06-24T10:00:03+00:00
   - Link: https://securelist.com/strikeshark-campaign/120326/
   - Summary: Kaspersky researchers analyze a new global campaign dubbed StrikeShark that delivers Cobalt Strike Beacon via custom SharkLoader malware.
+
+### Cluster 2a1cd2055f — score 10
+
+- Title: NodeZero® Proactive Security Platform
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-26T16:26:23+00:00
+- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
+```
+
+#### Full body
+
+```
+NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: NodeZero® Proactive Security Platform
+  - Published: 2026-06-26T16:26:23+00:00
+  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
+  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
 
 ### Cluster 4cc90df0fb — score 10
 
@@ -2907,47 +3033,6 @@ Evaluating Mexico’s New Cybersecurity Plan Executive Summary Mexico recently u
   - Link: https://www.recordedfuture.com/research/mexico-new-cybersecurity-plan-evaluation
   - Summary: Explore an analysis of Mexico’s 2025–2030 National Cybersecurity Plan. Discover how Mexico is addressing critical threats like ransomware, organized crime, and AI-driven attacks while preparing its digital infrastructure for the 2026 FIFA World Cup and beyond
 
-### Cluster 2a1cd2055f — score 10
-
-- Title: NodeZero® Proactive Security Platform
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-26T16:26:23+00:00
-- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-```
-
-#### Full body
-
-```
-NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: NodeZero® Proactive Security Platform
-  - Published: 2026-06-26T16:26:23+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-
 ### Cluster e1538c3d0e — score 10
 
 - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
@@ -3071,6 +3156,51 @@ Back to Blog Detection and Response Why SIEM is Moving Toward Unified Security O
   - Link: https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player
   - Summary: Rapid7 has been named a Major Player in the IDC MarketScape: Worldwide SIEM 2026 Vendor Assessment (#US54126826, June 2026). This is the first IDC SIEM MarketScape to bring the enterprise and SMB markets into a single evaluation, and we believe it arrives at a time when the way teams buy and run a SOC is changing quickly. Security teams are no longer evaluating detection and response in isolation. They want their threat data, automation, and view of the attack surface working together, rather than spread across a stack of disconnected tools. We believe Incident Command reflects that shift by bringing threat data, automation, and attack surface context into one platform instead of leaving teams to work across disconnected tools. It also speaks to a broader change in security operations, where context matters more, speed matters more, and teams need a clearer path from alert to action. That same direction runs through Rapid7’s wider point of view on preemptive security: exposure, detecti
 
+### Cluster cd8f96b22e — score 10
+
+- Title: Insurance giant Aflac discloses data breach after subsidiary hack
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-06-30T11:12:18+00:00
+- Link: https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, ransomware_extortion
+- actor_attribution: RansomHub, Scattered Spider, ShinyHunters
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach
+- actor_attribution: Scattered Spider, ShinyHunters, RansomHub
+- affected_industries: financial_services
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]
+```
+
+#### Full body
+
+```
+Insurance giant Aflac discloses data breach after subsidiary hack By Sergiu Gatlan June 30, 2026 07:12 AM 0 American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. Aflac (short for American Family Life Assurance Company) is a Fortune 500 company and the largest supplemental insurance provider in the United States, serving millions of customers in the U.S. and Japan. In a filing with the U.S. Securities and Exchange Commission (SEC) on Monday, the company revealed that threat actors gained access to Aflac Japan's systems earlier this month. "On June 30, 2026, Aflac Life Insurance Japan Ltd. ("Aflac Japan"), a wholly owned subsidiary of Aflac Incorporated, a Georgia corporation (the "Company"), issued a press release announcing that, on June 25, 2026, Aflac Japan discovered an unauthorized third-party had unlawfully accessed certain of Aflac Japan's systems between June 15, 2026 and June 25, 2026," the insurance company said. "Upon identifying the unlawful access, Aflac Japan promptly took steps designed to contain the incident and prevent further intrusion, including suspending certain systems. Notwithstanding the suspension of certain systems, Aflac Japan continues to serve its policyholders as it responds to this incident." Aflac is now investigating the incident with the help of external cybersecurity experts and has revealed that the threat actors have gained access to some sensitive information stored on the affected systems. The company has alerted Japanese authorities to the incident and will notify affected individuals of the data breach. "Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information. Aflac Japan has notified the Japan Financial Services Agency and other relevant authorities, and intends to provide appropriate notifications to individuals affected by this incident. "This incident is limited to systems in Japan, the Company's systems related to its U.S. business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the Company are not known." An Aflac spokesperson was not immediately available for comment when contacted by BleepingComputer earlier today. One year ago, Aflac disclosed another data breach amid a broader campaign targeting insurance companies across the United States, saying that the attackers may have gained access to documents containing sensitive information about customers, beneficiaries, employees, agents, and other individuals. While Aflac didn't attribute last year's breach to a specific threat group, the incident had all the signs of a Scattered Spider attack. Scattered Spider (also tracked as 0ktapus , UNC3944 , Scatter Swine , Starfraud, and Muddled Libra ) was also behind breaches at Erie Insurance and Philadelphia Insurance Companies (PHLY) , part of the same wave of attacks. They've also previously partnered with other ransomware operations, such as Qilin , RansomHub , and DragonForce , and their list of victims includes MGM Resorts , DoorDash , Caesars , MailChimp , Twilio , Coinbase , Riot Games , and Reddit . Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: Pharma giant Novo Nordisk discloses breach of clinical trials data Infinite Campus data breach affects 137,000 school staff accounts Over 73,000 French govt employees affected in Tchap messenger breach French govt messaging service breached in account hijacking attack 7-Eleven confirms data breach claimed by the ShinyHunters gang
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Insurance giant Aflac discloses data breach after subsidiary hack
+  - Published: 2026-06-30T11:12:18+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/
+  - Summary: American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]
+
 ### Cluster 5f0f4d710f — score 10
 
 - Title: CISA: Windows BlueHammer flaw now exploited by ransomware gangs
@@ -3135,7 +3265,7 @@ CISA: Windows BlueHammer flaw now exploited by ransomware gangs By Sergiu Gatlan
 - threat_categories: active_exploitation, credential_theft, data_breach, phishing_social_eng, ransomware_extortion, zero_day
 - actor_attribution: Handala, ShinyHunters
 - affected_industries: education, financial_services, manufacturing_industrial
-- affected_products: Anthropic/Claude, Cisco, Linux kernel
+- affected_products: Cisco
 - cve_ids: CVE-2026-35273
 - urgency_signals: actively_exploited, zero_day
 - content_type: incident_report
@@ -3145,7 +3275,7 @@ CISA: Windows BlueHammer flaw now exploited by ransomware gangs By Sergiu Gatlan
 - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, zero_day, data_breach, active_exploitation
 - actor_attribution: ShinyHunters, Handala
 - affected_industries: financial_services, manufacturing_industrial, education
-- affected_products: Anthropic/Claude, Linux kernel, Cisco
+- affected_products: Cisco
 - cve_ids: CVE-2026-35273
 - urgency_signals: actively_exploited, zero_day
 - content_type: incident_report
@@ -3160,7 +3290,7 @@ Only a handful of the 100 organizations targeted in the PeopleSoft campaign have
 #### Full body
 
 ```
-Nissan has disclosed a data breach stemming from the recent zero-day campaign targeting Oracle PeopleSoft customers. According to a data breach notification filed with the California Attorney General, Nissan Americas uses Oracle PeopleSoft to manage employee information, including tax administration, payroll, and other records. The carmaker recently learned that it was one of the targets of the campaign, which exploited a zero-day vulnerability tracked as CVE-2026-35273. While Nissan’s investigation is ongoing, the company believes the attackers may have stolen information belonging to current and former employees in the US, Canada, Mexico and Brazil, including SSNs, banking information, and financial and tax data. The ShinyHunters extortion group is believed to be behind the PeopleSoft campaign , but Nissan is not listed on the cybercriminals’ website at the time of writing. Nissan is regularly targeted by threat actors. Most recently, the Everest ransomware group claimed in April to have stolen Nissan customer data. Advertisement. Scroll to continue reading. ShinyHunters allegedly targeted more than 100 organizations in the PeopleSoft campaign, but only a handful of other victims are currently known. The University of Nottingham is widely believed to be a victim of the attack, and the National Association of Insurance Commissioners (NAIC) confirmed last week that it was targeted. On the ShinyHunters website only Illinois Central College and Moody Bible Institute are listed as victims of the PeopleSoft operation. Indeed, the education sector is said to be the most significantly impacted. Related : Nissan Confirms Impact From Red Hat Data Breach Related : More Klue Breach Victims Identified as Hackers Get Hacked Related : Canadian Electricity Provider London Hydro Discloses Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs OpenAI Unveils GPT-5.6 Sol as Its Most Advanced Cybersecurity AI Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories $3 Million Reportedly Stolen in Polymarket Hack First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Cisco SD-WAN Zero-Day Exploited Months Before Patching Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware Latest News Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines Straiker Raises $64 Million for AI Security Platform Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizatio
+Nissan has disclosed a data breach stemming from the recent zero-day campaign targeting Oracle PeopleSoft customers. According to a data breach notification filed with the California Attorney General, Nissan Americas uses Oracle PeopleSoft to manage employee information, including tax administration, payroll, and other records. The carmaker recently learned that it was one of the targets of the campaign, which exploited a zero-day vulnerability tracked as CVE-2026-35273. While Nissan’s investigation is ongoing, the company believes the attackers may have stolen information belonging to current and former employees in the US, Canada, Mexico and Brazil, including SSNs, banking information, and financial and tax data. The ShinyHunters extortion group is believed to be behind the PeopleSoft campaign , but Nissan is not listed on the cybercriminals’ website at the time of writing. Nissan is regularly targeted by threat actors. Most recently, the Everest ransomware group claimed in April to have stolen Nissan customer data. Advertisement. Scroll to continue reading. ShinyHunters allegedly targeted more than 100 organizations in the PeopleSoft campaign, but only a handful of other victims are currently known. The University of Nottingham is widely believed to be a victim of the attack, and the National Association of Insurance Commissioners (NAIC) confirmed last week that it was targeted. On the ShinyHunters website only Illinois Central College and Moody Bible Institute are listed as victims of the PeopleSoft operation. Indeed, the education sector is said to be the most significantly impacted. Related : Nissan Confirms Impact From Red Hat Data Breach Related : More Klue Breach Victims Identified as Hackers Get Hacked Related : Canadian Electricity Provider London Hydro Discloses Data Breach Written By Eduard Kovacs Eduard Kovacs (@EduardKovacs) is senior managing editor at SecurityWeek. He worked as a high school IT teacher before starting a career in journalism in 2011. Eduard holds a bachelor’s degree in industrial informatics and a master’s degree in computer techniques applied in electrical engineering. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Eduard Kovacs Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack OpenAI Unveils GPT-5.6 Sol as Its Most Advanced Cybersecurity AI Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories $3 Million Reportedly Stolen in Polymarket Hack First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild Cal Water Says No OT Systems Breached in Iranian Handala Cyberattack Lantronix Serial-to-IP Converter Flaw Exploited in Attacks After OT Threat Warning Cisco SD-WAN Zero-Day Exploited Months Before Patching Latest News Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History Exploitation of Recent Oracle E-Business Suite Vulnerability Begins The AI Token Costs That Can Break Cybersecurity Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will he
 ```
 
 #### Corroborating sources (1)
@@ -3183,18 +3313,18 @@ Nissan has disclosed a data breach stemming from the recent zero-day campaign ta
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, credential_theft, web_shell_backdoor
+- threat_categories: credential_theft
 - affected_industries: financial_services, government
-- affected_products: Anthropic/Claude, GitLab, Linux kernel
+- affected_products: Anthropic/Claude, Linux kernel
 - cve_ids: CVE-2026-48558
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: credential_theft, apt_espionage, web_shell_backdoor
+- threat_categories: credential_theft
 - affected_industries: financial_services, government
-- affected_products: Anthropic/Claude, GitLab, Linux kernel
+- affected_products: Anthropic/Claude, Linux kernel
 - cve_ids: CVE-2026-48558
 - urgency_signals: preauth_unauth
 - content_type: vulnerability_disclosure
@@ -3209,7 +3339,7 @@ The threat actor is focused on collecting credentials, SSH keys, cryptocurrency 
 #### Full body
 
 ```
-A recent authentication bypass vulnerability in the SimpleHelp remote monitoring and management (RMM) software has been exploited for malware delivery. Tracked as CVE-2026-48558 (CVSS score of 10), the bug impacts SimpleHelp’s OpenID Connect (OIDC) authentication flow and allows a remote attacker to obtain a fully authenticated technician session. The issue exists because, when OIDC authentication is configured, the application does not verify the cryptographic signature of identity tokens, allowing an unauthenticated attacker to submit a forged token during login. By accessing an internet-facing SimpleHelp server, an attacker can transfer files and execute commands on all systems managed through the server. In an attack observed by Blackpoint , a threat actor abused this access to deploy two malware families: TaskWeaver, a Node.js loader, and Djinn Stealer, a cross-platform information stealer. TaskWeaver was used to perform system fingerprinting and to deploy a JavaScript payload that was executed with full Node.js access. The loader has a simple structure and can be used to deploy any encrypted payload, Blackpoint says. Advertisement. Scroll to continue reading. Djinn was specifically designed to steal secrets from developer machines, including cloud credentials, SSH keys, infrastructure configurations, source control tokens, package registry authentication, development tooling, cryptocurrency wallets, and all browser data. “Most notably, it takes the credentials for AI development tools, giving an attacker a foothold to tamper with the very pipelines teams are building on,” Blackpoint notes. The security defect was addressed in late May in SimpleHelp versions 5.5.16 and 6.0 RC2. Organizations are advised to update their deployments and to check application logs for unfamiliar technician names and email addresses to identify potential compromises. On Monday, following Blackpoint’s report, the US cybersecurity agency CISA added CVE-2026-48558 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within three days, in line with BOD 26-04 guidance. Related: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Related: New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking Related: Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories Related: Linux Foundation Unveils New Open Source Security Project Akrites Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve Chinese Framework Powers 200,000 Scam Sites More Klue Breach Victims Identified as Hackers Get Hacked Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets Runlayer Raises $30 Million in Series A Funding GitLab Patches Code Execution, Information Disclosure Vulnerabilities Latest News Nissan Employee Data Breached in Oracle PeopleSoft Hack Quantifind Raises $200 Million for AI-Native Risk Intelligence New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines Straiker Raises $64 Million for AI Security Platform Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to C
+A recent authentication bypass vulnerability in the SimpleHelp remote monitoring and management (RMM) software has been exploited for malware delivery. Tracked as CVE-2026-48558 (CVSS score of 10), the bug impacts SimpleHelp’s OpenID Connect (OIDC) authentication flow and allows a remote attacker to obtain a fully authenticated technician session. The issue exists because, when OIDC authentication is configured, the application does not verify the cryptographic signature of identity tokens, allowing an unauthenticated attacker to submit a forged token during login. By accessing an internet-facing SimpleHelp server, an attacker can transfer files and execute commands on all systems managed through the server. In an attack observed by Blackpoint , a threat actor abused this access to deploy two malware families: TaskWeaver, a Node.js loader, and Djinn Stealer, a cross-platform information stealer. TaskWeaver was used to perform system fingerprinting and to deploy a JavaScript payload that was executed with full Node.js access. The loader has a simple structure and can be used to deploy any encrypted payload, Blackpoint says. Advertisement. Scroll to continue reading. Djinn was specifically designed to steal secrets from developer machines, including cloud credentials, SSH keys, infrastructure configurations, source control tokens, package registry authentication, development tooling, cryptocurrency wallets, and all browser data. “Most notably, it takes the credentials for AI development tools, giving an attacker a foothold to tamper with the very pipelines teams are building on,” Blackpoint notes. The security defect was addressed in late May in SimpleHelp versions 5.5.16 and 6.0 RC2. Organizations are advised to update their deployments and to check application logs for unfamiliar technician names and email addresses to identify potential compromises. On Monday, following Blackpoint’s report, the US cybersecurity agency CISA added CVE-2026-48558 to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch it within three days, in line with BOD 26-04 guidance. Related: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access Related: New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking Related: Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories Related: Linux Foundation Unveils New Open Source Security Project Akrites Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines Straiker Raises $64 Million for AI Security Platform ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve Chinese Framework Powers 200,000 Scam Sites More Klue Breach Victims Identified as Hackers Get Hacked Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites Latest News Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History Exploitation of Recent Oracle E-Business Suite Vulnerability Begins The AI Token Costs That Can Break Cybersecurity Nissan Employee Data Breached in Oracle PeopleSoft Hack Quantifind Raises $200 Million for AI-Native Risk Intelligence New Controller Flaws Expose Highway Signs and Billboards to Remote Hacking WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry exper
 ```
 
 #### Corroborating sources (1)
@@ -3345,58 +3475,6 @@ Home Blog The Hacker’s 2026 Playbook from the Dark Web Published: June 29, 202
   - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
   - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
 
-### Cluster 28fa20c5c7 — score 9
-
-- Title: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-06-29T11:20:13+00:00
-- Link: https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/
-- Fetch status: ok
-- Member count: 4
-- Corroborating source count: 2
-- Strong signals: Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: GitLab, Linux kernel
-- cve_ids: CVE-2026-43284, CVE-2026-43500, CVE-2026-43503, CVE-2026-46300, CVE-2026-46331
-- urgency_signals: no_patch_yet, poc_available
-- content_type: intel_roundup, news_report, vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_products: Linux kernel, GitLab
-- cve_ids: CVE-2026-43503, CVE-2026-43284, CVE-2026-43500, CVE-2026-46300
-- urgency_signals: no_patch_yet, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-JFrog has published technical details and a proof of concept (PoC) targeting a recent high-severity Linux kernel vulnerability that could allow any local user to gain root privileges. Tracked as CVE-2026-43503 (CVSS score of 8.8) and referred to as DirtyClone , the local privilege escalation bug was resolved on May 24, shortly after being reported to the Linux kernel maintainers. Now, JFrog explains that the flaw is a variant of DirtyFrag (also known as Copy Fail 2) and Fragnesia , which were addressed in mid-May. They share similarities with Dirty Pipe, a Linux kernel defect disclosed in 2022. These memory corruption security defects affecting the Linux kernel’s core networking stack are rooted in how socket buffers (skb) reference shared page-cache memory, and can be weaponized using in-place cryptographic transformations in various subsystems. The flaws demonstrate “a broader exploitation pattern affecting multiple skb (socket buffer) processing paths, showing that the underlying attack primitive is not limited to a single vulnerable code path”, JFrog says. At a high level, the vulnerabilities exist because the kernel does not separate the page cache used for executables and files from packet data processed via zero-copy paths, and in-place transformations such as encryption/decryption that write back to the same buffer. Advertisement. Scroll to continue reading. “When these three contexts intersect, the kernel may modify memory that is still semantically tied to a file, leading to corruption of file-backed data in place,” JFrog says. According to the cybersecurity firm, while the fix for DirtyFrag sets a metadata flag for spliced UDP packets to prevent direct modification of file-backed pages, the patch for Fragnesia ensures that the flag propagates across functions. Updating to Linux kernel version v7.1-rc5 prevents the exploitation of DirtyClone. Only kernels that contain the complete chain of fixes for the DirtyFrag vulnerability family are protected. “Systems entirely unpatched for the original flaws (CVE-2026-43284 and CVE-2026-43500) remain broadly exposed. Additionally, any mainline, stable, or Long Term Support (LTS) kernel branch that applied the initial mitigations but lacks the subsequent follow-up patches (CVE-2026-46300 and CVE-2026-43503) remains vulnerable to specific bypasses,” JFrog explains. Popular Linux distributions that enable unprivileged user namespaces, such as Debian, Fedora, and Ubuntu, are affected. Any local user with the CAP_NET_ADMIN capability on a server or device running an affected kernel version can gain root privileges. This poses a high risk to multi-tenant cloud environments, Kubernetes clusters, and containerized workloads, the company says. Related: Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks Related: Organizations Warned of Exploited Linux Kernel Vulnerability Related: 19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access Related: PoC Released for DirtyDecrypt Linux Kernel Vulnerability Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire US Offers $10 Million Bounty for Russian State Hackers as Messaging App Attacks Evolve Chinese Framework Powers 200,000 Scam Sites More Klue Breach Victims Identified as Hackers Get Hacked Nebulock Raises $25 Million for AI-Native Contextual Security Linux Foundation Unveils New Open Source Security Project Akrites Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets Runlayer Raises $30 Million in Series A Funding GitLab Patches Code Execution, Information Disclosure Vulnerabilities Latest News Nissan Employee Data Breached in Oracle PeopleSoft Hack Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence New C
-```
-
-#### Corroborating sources (2)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access
-  - Published: 2026-06-29T11:20:13+00:00
-  - Link: https://www.securityweek.com/dirtyclone-linux-kernel-vulnerability-leads-to-root-access/
-  - Summary: A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: ⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More
-  - Published: 2026-06-29T14:41:07+00:00
-  - Link: https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html
-  - Summary: This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy cracks, and defenders have more cleanup waiting. Here’s the full Monday recap. ⚡ Threat of the Week New DirtyClone Linux Kernel Flaw Lets Local
-
 ### Cluster 9f6687b7df — score 8
 
 - Title: Kubernetes Compliance Tools: Automating CIS Benchmarks
@@ -3444,18 +3522,16 @@ Table of contents What Is the CIS Kubernetes Benchmark ? The Core Challenges of 
 - Source: AWS Security Blog (cloud_identity_infrastructure)
 - Published: 2026-06-29T19:30:59+00:00
 - Link: https://aws.amazon.com/blogs/security/what-the-june-2026-threat-technique-catalog-update-means-for-your-aws-environment/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: AWS, Kubernetes
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_products: Kubernetes, AWS
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3463,12 +3539,6 @@ Table of contents What Is the CIS Kubernetes Benchmark ? The Core Challenges of 
 
 ```
 The AWS Customer Incident Response Team (AWS CIRT) encounters patterns that repeat across engagements when helping customers respond to security incidents. We’re passionate about making sure that information is accessible so that everyone can improve their security posture and their organization’s resilience to disruption. The primary method we use to share this information is the […]
-```
-
-#### Full body
-
-```
-AWS Security Blog What the June 2026 Threat Technique Catalog update means for your AWS environment The AWS Customer Incident Response Team (AWS CIRT) encounters patterns that repeat across engagements when helping customers respond to security incidents. We’re passionate about making sure that information is accessible so that everyone can improve their security posture and their organization’s resilience to disruption. The primary method we use to share this information is the Threat Technique Catalog for AWS (TTC) . The latest update to the catalog for June 2026 focuses on container security, organization-level trust, and compute hijacking. Each new entry reflects something we’ve encountered in practice, and each provides straightforward mitigation. This post breaks down what changed, why it matters, and what you can do about it today. What we’re seeing We’ve added five new entries to the TTC. EKS workload modification Amazon Elastic Kubernetes Service (Amazon EKS) gives teams powerful orchestration capabilities. We’re seeing threat actors who have obtained Kubernetes credentials or an AWS Identity and Access Management (IAM) role with EKS permissions modify running workloads—altering container images, injecting sidecar containers, or changing pod specifications to introduce malicious code into a deployment. Nothing new is created. The workload already exists, it might be running in production, and by modifying it in place the threat actor inherits the network access, service account permissions, and data access the legitimate workload already had. Without admission controllers or image verification, these changes can go unnoticed until the impact shows up downstream. Enforcing image signing through admission controllers, restricting workload changes with Kubernetes role-based access control (RBAC), and enabling Amazon GuardDuty EKS Protection to surface anomalous cluster activity all reduce this risk. For more information, see EKS Modification – Workload Integrity Degradation . Exploit public-facing application – EKS Publicly exposed Kubernetes API servers and misconfigured ingress controllers continue to be an entry point we see exploited. This technique captures threat actors targeting the customer-deployed workloads running on Amazon EKS—not EKS itself—and their exposure to the internet. The pattern starts with an exposed service and an application-level weakness, then pivots from the compromised pod toward broader cluster access. When inside a pod, a threat actor can query the instance metadata service, read mounted service account tokens, or move laterally across the cluster network. Limiting public exposure of the Kubernetes API server, applying network policies to restrict pod-to-pod communication, and running workloads with least-privilege service accounts reduce the risk of this technique succeeding. For more information about this technique, see Exploit Public-Facing Application . Assume root into organization member account AWS Organizations centralizes trust across member accounts, and that trust runs in one direction—from the management account downward. We’ve observed threat actors who compromise a management account—or gain sufficient privilege within one—use that position to assume root access into member accounts using sts:AssumeRoot . Because the trust is inherent to the organization structure, this can avoid the access controls a member account administrator has configured. With root access to a member account, a threat actor can disable security controls, delete resources, change billing configurations, and establish persistence that survives remediation focused on IAM principals. We strongly encourage implementing service control policies (SCPs) that restrict which principals can call sts:AssumeRoot and under what conditions, and monitoring for sts:AssumeRoot calls in AWS CloudTrail . For more information, see Assume Root into Organization Member Account . Compute hijacking – EKS Compute hijacking rema
 ```
 
 #### Corroborating sources (1)
@@ -3485,20 +3555,16 @@ AWS Security Blog What the June 2026 Threat Technique Catalog update means for y
 - Source: Huntress (detection_response_operations)
 - Published: 2026-06-29T07:00:00+00:00
 - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3506,12 +3572,6 @@ AWS Security Blog What the June 2026 Threat Technique Catalog update means for y
 
 ```
 Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
-```
-
-#### Full body
-
-```
-Home Blog Defence Impairment Olympics Published: June 29, 2026 Defence Impairment Olympics By: Mark O'Halloran Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways We recently detected an incident on June 7 that started with simple enumeration commands - but our investigation into the attack showed the threat actor taking aggressive steps to hide their tracks. The investigation into the attack initially showed a few defence impairment techniques, like steganography and timestomping. However, our investigation broadened when we found a breadcrumb left behind - and batch script called i.bat - that showed the threat actor attempting to disable Defender, kill Sysmon and Filebeat, uninstall the ModSecurity WAF, downgrade WDigest credential protection— all before Mimikatz was executed to dump credentials. Following the SOC's initial response and delivery of remediation steps, a window of exposure occurred when the server was brought back online prior to complete patching. The threat actor leveraged this premature reconnection to continue their attack. This scenario highlights a common challenge in incident response: thorough closure and verified remediation are just as critical as the initial detection. Organizations can defend against these techniques with foundational security measures, including implementing sufficient and correctly configured logging on their servers and endpoints, and ensuring software is updated and patched. Acknowledgements: Special thanks to Adrian Garcia, Amelia Casley, Olly Maxwell and Anton Ovrutsky for their contributions to this investigation and write-up. Background At Huntress, we have visibility into various parts of a threat actor's attack chain: including how they enter the victim's environment (initial access), how they research the environment (enumeration), and how they move around the environment (lateral movement). One tactic that we see a fair amount of is defence evasion and defence impairment; or specific measures threat actors take to hide their tracks during an incident and to disable defence mechanisms. We recently responded to an incident on June 7 where a threat actor initially performed enumeration activity before later carrying out almost a dozen different types of defence impairment commands, including disabling the IIS logs, tampering with Microsoft Defender, using WMI Event Consumer to clear the Windows Event Logs, using timestomping, and more. We have outlined the defence impairment tactics we saw in this incident; by better understanding these techniques and how they play out in a targeted environment, organizations can get a stronger sense of where they should prioritize their defenses and look for signs of potential compromise. A steganographic webshell: The first commands On June 7, Huntress responded to a web server compromise spawning from a webshell that was uploaded to a vulnerable server by a threat actor. Due to insufficient logging, Huntress was unable to determine the exact initial access mechanism. There was, however, some evidence that the particular server had potentially suffered an Adobe ColdFusion exploitation attempt. Upon closer inspection of the historical logs, we found evidence of possible exploitation of ColdFusion bugs, including a critical remote code execution vulnerability ( CVE-2023-26360 ), improper access control bug ( CVE-2023-29298 ), and deserialization flaw ( CVE-2023-29300 ). The evidence that we did have stemmed from the presence of known targeted endpoints in historical logs: CFIDE/adminapi/_datasource/setmsaccessRegistry.cfm /CFIDE/adminapi/_datasource/setsldatasource.cfm /CFIDE/adminapi/_datasource/setdsn.cfm /CFIDE/adminapi/_datasource/formatjdbcurl.cfm /CFIDE/adminapi/_datasource/getaccessdefaultsfromRegistry.cfm /CFIDE/adminapi/_datasource/geturldefaults.cfm /CFIDE/adminapi/customtags/l10n.cfm /CFIDE/adminapi/serverinstance.cfc /CFIDE/adminapi/servermonitoring.cfc While normally, the acces
 ```
 
 #### Corroborating sources (1)
@@ -3649,77 +3709,38 @@ Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Senso
   - Link: https://www.wiz.io/blog/sensor-wls-for-on-prem
   - Summary: Move beyond chasing vulnerabilities to a unified hybrid risk strategy. The Sensor Workload Scanner is now GA and extends our risk prioritization engine to on-premise environments to identify the critical attack paths across your hybrid cloud.
 
-### Cluster 20c4513213 — score 8
+### Cluster f8e669b332 — score 8
 
-- Title: The Borderless Attack Surface: Securing Public Sector Hybrid Environments
-- Source: Wiz Research (cloud_identity_infrastructure)
-- Published: 2026-06-29T11:00:00+00:00
-- Link: https://www.wiz.io/blog/wiz-xm-securing-public-sector-hybrid-environments
+- Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-06-24T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_industries: government
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency efficiency through cross-team collaboration
+Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
 ```
 
 #### Corroborating sources (1)
 
-- **Wiz Research** (cloud_identity_infrastructure)
-  - Title: The Borderless Attack Surface: Securing Public Sector Hybrid Environments
-  - Published: 2026-06-29T11:00:00+00:00
-  - Link: https://www.wiz.io/blog/wiz-xm-securing-public-sector-hybrid-environments
-  - Summary: Aligning Modern CNAPP Telemetry with realistic risk assessments to drive agency efficiency through cross-team collaboration
-
-### Cluster 526d79c926 — score 8
-
-- Title: Data breach exposes up to 14.2 million email logins at six ISPs
-- Source: BleepingComputer (cyber_news_breach_reporting)
-- Published: 2026-06-28T14:13:46+00:00
-- Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: telecommunications
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
-```
-
-#### Corroborating sources (1)
-
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Data breach exposes up to 14.2 million email logins at six ISPs
-  - Published: 2026-06-28T14:13:46+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/
-  - Summary: Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
+  - Published: 2026-06-24T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
+  - Summary: Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster c6851e568d — score 8
 
@@ -3755,39 +3776,6 @@ More victims have emerged after attackers breached application vendor Klue and u
   - Published: 2026-06-23T20:44:09+00:00
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/scope-salesforce-attacks-expands-icarus-leaks-data
   - Summary: More victims have emerged after attackers breached application vendor Klue and used its OAuth tokens to steal customers' Salesforce data.
-
-### Cluster f8e669b332 — score 8
-
-- Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-06-24T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks
-  - Published: 2026-06-24T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/insufficient-egress-filtering/
-  - Summary: Insufficient egress filtering is a commonly identified vulnerability found during BHIS penetration tests. The insufficient egress filtering finding indicates that network traffic leaving the organization’s environment is not properly restricted. The post Insufficient Egress Filtering: How Weak Outbound Controls Enable Attacks appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster c0449d7e43 — score 8
 
@@ -3959,3 +3947,38 @@ Cobalt study finds 20-percentage-point drop in number of organizations relying s
   - Published: 2026-06-25T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
   - Summary: Cobalt study finds 20-percentage-point drop in number of organizations relying solely on AI automation for testing
+
+### Cluster 6b9796d854 — score 8
+
+- Title: Trusted by NVIDIA, Amazon and Banks, This Extension Let Any Website run a drive-by RCE. CVSS 9.3
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-06-30T11:32:57+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1ujmn5c/trusted_by_nvidia_amazon_and_banks_this_extension/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/acorn222 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Trusted by NVIDIA, Amazon and Banks, This Extension Let Any Website run a drive-by RCE. CVSS 9.3
+  - Published: 2026-06-30T11:32:57+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1ujmn5c/trusted_by_nvidia_amazon_and_banks_this_extension/
+  - Summary: submitted by /u/acorn222 [link] [comments]
