@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-02T20:23:59.638000+00:00
+- Generated: 2026-07-02T22:13:22.517961+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 335
-- Total clusters raw: 158
-- Total clusters in packet: 73
-- Dropped low score: 85
+- Feeds OK: 76
+- Total items in window: 332
+- Total clusters raw: 153
+- Total clusters in packet: 71
+- Dropped low score: 82
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,21 +70,21 @@
 
 ## Feed status
 
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -95,46 +95,46 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 7
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
@@ -145,41 +145,36 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
+  - Item count: 78
   - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Recorded Future** (threat_research_primary)
   - URL: https://www.recordedfuture.com/feed
   - Status: ok
@@ -190,23 +185,23 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -225,11 +220,6 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 2
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
@@ -240,21 +230,31 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 5
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
@@ -270,76 +270,66 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 7
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
-  - In window count: 1
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
   - In window count: 1
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
   - Item count: 20
   - In window count: 2
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
   - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 5
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
-  - In window count: 5
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
   - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
+  - Item count: 5
+  - In window count: 5
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
-  - Item count: 30
-  - In window count: 19
+  - Item count: 20
+  - In window count: 20
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -350,36 +340,46 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 32
+  - Item count: 30
+  - In window count: 19
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 1
+  - Item count: 50
+  - In window count: 29
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Troy Hunt** (practitioner_analysis)
   - URL: https://www.troyhunt.com/rss/
   - Status: ok
@@ -390,10 +390,10 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 100
+  - Item count: 10
   - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
@@ -405,36 +405,36 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
-  - Item count: 100
-  - In window count: 22
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 22
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -476,17 +476,17 @@
 ### Apple iOS/macOS active exploitation
 - Anchor signal: Apple iOS/macOS
 - Theme key: apple-ios-macos
-- Cluster count: 7
-- Article count: 17
-- Cohesion: 0.211
+- Cluster count: 6
+- Article count: 12
+- Cohesion: 0.213
 - Shared strong signals: Apple iOS/macOS
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, data_breach, phishing_social_eng, zero_day, active_exploitation
-  - affected_products: Apple iOS/macOS, Azure, Microsoft SharePoint
+  - affected_products: Apple iOS/macOS, Microsoft SharePoint
   - urgency_signals: actively_exploited, zero_day
-- Cluster IDs: 928f035919, 7de9036f43, de6119ec2c, 11f77a277a, 57ef1249ed, 6c76262a4a, 395a86ea64
+- Cluster IDs: 928f035919, 7de9036f43, de6119ec2c, 11f77a277a, 57ef1249ed, 6c76262a4a
 - Links:
   - https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/
   - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
@@ -495,37 +495,11 @@
   - https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html
   - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
   - https://isc.sans.edu/diary/rss/33114
-  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
+  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
   - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
   - https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
-  - https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
-  - https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
-  - https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
-  - https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
-
-### Palo Alto Networks active exploitation
-- Anchor signal: Palo Alto Networks
-- Theme key: palo-alto-networks
-- Cluster count: 5
-- Article count: 5
-- Cohesion: 0.375
-- Shared strong signals: Palo Alto Networks
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: phishing_social_eng, active_exploitation
-  - affected_industries: critical_infrastructure, government
-  - affected_products: Palo Alto Networks
-  - urgency_signals: actively_exploited
-- Cluster IDs: e4a3ada988, 5b50b4b7b2, 4541afab04, 84319555f9, 58ad2b1b0b
-- Links:
-  - https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/
-  - https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
-  - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
-  - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
 
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
@@ -567,10 +541,31 @@
   - https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/
   - https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
   - https://isc.sans.edu/diary/rss/33114
-  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
+  - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+
+### Palo Alto Networks active exploitation
+- Anchor signal: Palo Alto Networks
+- Theme key: palo-alto-networks
+- Cluster count: 4
+- Article count: 4
+- Cohesion: 0.324
+- Shared strong signals: Palo Alto Networks
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: phishing_social_eng, active_exploitation
+  - affected_industries: critical_infrastructure, government
+  - affected_products: Palo Alto Networks
+  - urgency_signals: actively_exploited
+- Cluster IDs: e4a3ada988, 5b50b4b7b2, 4541afab04, 84319555f9
+- Links:
+  - https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/
+  - https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
+  - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
 
 ### Citrix exploitation (CVE-2026-8451)
 - Anchor signal: Citrix
@@ -685,10 +680,10 @@
   - threat_categories: ransomware_extortion
   - affected_industries: financial_services
   - cve_ids: CVE-2025-3248
-- Cluster IDs: 728fb2c9de, db017396fb
+- Cluster IDs: db017396fb, 728fb2c9de
 - Links:
-  - https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
+  - https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
 
 ### Ubiquiti UniFi exploitation (5 CVEs)
 - Anchor signal: Ubiquiti UniFi
@@ -730,7 +725,8 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2026-35616 (first seen via Orca Security Research at 2026-07-02T20:55:24+00:00, cluster 6a5eaa4b15)
 - Novel actors: 0
 - Novel products: 0
 
@@ -756,9 +752,9 @@
 - Pair: CVE-2026-35273 + Cl0p (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-46817 + Cl0p (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-46817 + ShinyHunters (cluster 3db35f97c6, first observation: True)
+- Pair: CVE-2026-35616 + Fortinet (cluster 6a5eaa4b15, first observation: True)
 - Pair: CVE-2026-43707 + Anthropic/Claude (cluster 87e2639a3b, first observation: True)
 - Pair: CVE-2026-43707 + Apple iOS/macOS (cluster 87e2639a3b, first observation: True)
-- Pair: CVE-2026-43707 + Google Cloud (cluster 87e2639a3b, first observation: True)
 
 ### Drift (0)
 
@@ -869,7 +865,7 @@ A critical vulnerability (CVE-2026-33017, CVSS 9.8) was disclosed affecting Lang
 #### Full body
 
 ```
-Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Product Info Orca MCP: When Text Stops Sc
+Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Research FortiBleed Campaign Harvests 110
 ```
 
 #### Corroborating sources (2)
@@ -1097,6 +1093,75 @@ Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild  R
   - Published: 2026-06-30T05:04:06+00:00
   - Link: https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
   - Summary: A critical security flaw impacting Oracle E-Business Suite has come under active exploitation in the wild, according to Defused Cyber. The vulnerability, tracked as CVE-2026-46817 (CVSS score: 9.8), refers to an improper privilege management and authentication flaw in Oracle Payments that could be abused to take over susceptible instances. "Easily exploitable vulnerability allows
+
+### Cluster 6a5eaa4b15 — score 20
+
+- Title: FortiBleed Campaign Harvests 110M+ Credentials, Fuels Ransomware Operations
+- Source: Orca Security Research (cloud_identity_infrastructure)
+- Published: 2026-07-02T20:55:24+00:00
+- Link: https://orca.security/resources/blog/fortibleed-credential-theft-vulnerability/
+- Fetch status: ok
+- Member count: 6
+- Corroborating source count: 5
+- Strong signals: CVE-2026-35616, Fortinet
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, credential_theft, phishing_social_eng, ransomware_extortion, web_shell_backdoor, zero_day
+- affected_industries: financial_services, manufacturing_industrial
+- affected_products: Fortinet
+- cve_ids: CVE-2026-35616
+- urgency_signals: actively_exploited, critical_cvss, zero_day
+- content_type: incident_report, news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, credential_theft, zero_day, web_shell_backdoor, active_exploitation
+- affected_industries: manufacturing_industrial
+- affected_products: Fortinet
+- cve_ids: CVE-2026-35616
+- urgency_signals: actively_exploited, zero_day, critical_cvss
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users […]
+```
+
+#### Full body
+
+```
+A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users should upgrade FortiClient EMS to version 7.4.7 or later, or apply the out-of-band hotfix for 7.4.5 and 7.4.6. All credentials on FortiGate-managed infrastructure should be rotated immediately, including VPN, RADIUS, NTLM, Kerberos, and admin accounts. Organizations should audit FortiGate admin accounts for the unauthorized “adminin” backdoor account, restrict FortiClient EMS port 8013 to trusted IP ranges, enable MFA on all FortiGate administrative interfaces, and hunt for FortigateSniffer indicators of compromise. Known C2 infrastructure (83.138.53.110 and associated Tor exit nodes) should be blocked. About FortiBleed The operation, attributed to a Russian-speaking initial access broker (IAB), scanned the entire internet-facing FortiGate attack surface and achieved admin-level access on 409 targets, with 354 suffering full domain compromise. The attackers deployed a custom Golang packet sniffer called “FortigateSniffer” on approximately 12,000 devices, abusing FortiOS’s native diagnose sniffer packet command to passively intercept authentication traffic across 24 protocols. This approach allowed the operators to harvest RADIUS, NTLM, and Kerberos credentials at scale, amassing over 110 million credentials without triggering traditional intrusion detection. SOCRadar’s Threat Research Unit directly linked the FortiBleed operation to the INC Ransom and Lynx ransomware-as-a-service (RaaS) groups. An operator with access to FortiBleed infrastructure was discovered actively logged into both INC and Lynx ransomware negotiation panels, and victim data overlapped between the campaigns. At least 12 confirmed ransomware deployments with hundreds of encrypted endpoints resulted from FortiBleed-sourced initial access. About CVE-2026-35616 In parallel, CVE-2026-35616 (CVSS 9.1), an improper access control flaw in Fortinet FortiClient EMS versions 7.4.5 and 7.4.6, is being actively exploited in the wild. Arctic Wolf observed attackers exploiting this vulnerability to modify remote access profiles, inject malicious PowerShell into VPN configuration scripts, and deploy the EKZ Stealer infostealer (disguised as “FortiEndpoint_Patch.exe”) across managed endpoint fleets. EKZ Stealer extracts credentials from Chrome, Edge, and Firefox, including bypassing Chromium’s encrypted password storage. CISA added CVE-2026-35616 to its Known Exploited Vulnerabilities catalog on April 6, 2026. No authentication is required to exploit this issue. Affected Systems The following components are affected: FortiGate firewalls (all internet-facing deployments) and FortiClient EMS versions 7.4.5 through 7.4.6. These components are widely deployed across enterprise environments, particularly in manufacturing, technology, and logistics sectors in LATAM and APAC. Organizations using FortiGate-managed VPN or remote access infrastructure are at heightened risk, as credentials may have been passively captured via the sniffer component. Investigators also assess the threat actors may possess an undisclosed Nextcloud zero-day, and SOCRadar discovered artifacts indicating potential targeting of Citrix remote access infrastructure. Risk Impact At the time of writing, FortiBleed is confirmed as an active campaign with at least 12 ransomware deployments traced back to its access brokering, and CVE-2026-35616 has been added to CISA’s KEV catalog confirming active exploitation. The severity, scale, and direct link to ransomware operations make this threat exceptionally high risk, especially for organizations with internet-facing Fortinet infrastructure. Succ
+```
+
+#### Corroborating sources (5)
+
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: FortiBleed Campaign Harvests 110M+ Credentials, Fuels Ransomware Operations
+  - Published: 2026-07-02T20:55:24+00:00
+  - Link: https://orca.security/resources/blog/fortibleed-credential-theft-vulnerability/
+  - Summary: A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users […]
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks
+  - Published: 2026-07-02T12:34:29+00:00
+  - Link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
+  - Summary: Researchers say credentials harvested from hundreds of thousands of FortiGate firewalls are being used to facilitate ransomware attacks by the INC and Lynx operations. The post FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks appeared first on SecurityWeek .
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
+  - Published: 2026-07-02T19:11:33+00:00
+  - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
+  - Summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
+  - Published: 2026-07-02T08:00:49+00:00
+  - Link: https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
+  - Summary: The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. "An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: FortiBleed credential-theft campaign linked to Lynx ransomware
+  - Published: 2026-07-01T21:37:24+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
+  - Summary: The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. [...]
 
 ### Cluster 58774f7de3 — score 20
 
@@ -1701,49 +1766,6 @@ Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Steal
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
   - Summary: The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.
 
-### Cluster c409634b31 — score 15
-
-- Title: Incident Report: CVE-2026-LGTM
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-26T17:58:54+00:00
-- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Have your agent record video demos of its work with shot-scraper video - 30th June 2026 Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,097 prompt-injection 155 generative-ai 1,854 llms 1,822 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Incident Report: CVE-2026-LGTM
-  - Published: 2026-06-26T17:58:54+00:00
-  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-
 ### Cluster 5b50b4b7b2 — score 15
 
 - Title: Citrix patches a new NetScaler flaw with echoes of CitrixBleed
@@ -1793,6 +1815,49 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close Citrix publishe
   - Link: https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
   - Summary: The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs. The post Citrix patches a new NetScaler flaw with echoes of CitrixBleed appeared first on CyberScoop .
 
+### Cluster c409634b31 — score 15
+
+- Title: Incident Report: CVE-2026-LGTM
+- Source: Simon Willison (ai_security_agentic_risk)
+- Published: 2026-06-26T17:58:54+00:00
+- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+```
+
+#### Full body
+
+```
+Simon Willison’s Weblog Subscribe Sponsored by: Depot — AI agents write code in seconds. CI shouldn't make them wait minutes. Try Depot CI 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Have your agent record video demos of its work with shot-scraper video - 30th June 2026 Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,097 prompt-injection 155 generative-ai 1,854 llms 1,822 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
+```
+
+#### Corroborating sources (1)
+
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Incident Report: CVE-2026-LGTM
+  - Published: 2026-06-26T17:58:54+00:00
+  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
+  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
+
 ### Cluster de6119ec2c — score 15
 
 - Title: June 2026 Apple Updates, (Tue, Jun 30th)
@@ -1828,16 +1893,16 @@ Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have b
   - Published: 2026-06-30T09:31:27+00:00
   - Link: https://isc.sans.edu/diary/rss/33114
   - Summary: Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have been no updates for other Apple operating systems (visionOS, watchOS, tvOS). Usually, Apple updates all products at the same time.
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - Title: ClickFix Now Cybercriminals' Favorite Malware Delivery Technique
-  - Published: 2026-06-30T12:00:00+00:00
-  - Link: https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
-  - Summary: ReliaQuest report warns of a surge in ClickFix social engineering attacks against Windows and macOS users
 - **The Hacker News** (cyber_news_breach_reporting)
   - Title: Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer
   - Published: 2026-06-29T05:36:06+00:00
   - Link: https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
   - Summary: Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts. "This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain 'compatible' with npm v12's security hardenings," JFrog said in a
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - Title: ClickFix Now Cybercriminals' Favorite Malware Delivery Technique
+  - Published: 2026-06-30T12:00:00+00:00
+  - Link: https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
+  - Summary: ReliaQuest report warns of a surge in ClickFix social engineering attacks against Windows and macOS users
 
 ### Cluster c4a141b0a0 — score 14
 
@@ -1982,51 +2047,6 @@ Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clus
   - Published: 2026-06-29T17:19:10+00:00
   - Link: https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
   - Summary: Kubernetes compliance tools automate the enforcement of CIS Benchmarks, enabling teams to continuously validate cluster configurations against industry-accepted security baselines without slowing release velocity. The right tooling replaces manual audits with policy-driven checks that run across the CI/CD pipeline, from build to runtime, catching misconfigurations before they reach production. Maintaining multi-cloud compliance across dozens or […]
-
-### Cluster 728fb2c9de — score 13
-
-- Title: AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-02T09:13:13+00:00
-- Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- cve_ids: CVE-2021-29441, CVE-2025-3248
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion
-- affected_industries: financial_services
-- cve_ids: CVE-2025-3248, CVE-2021-29441
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
-```
-
-#### Full body
-
-```
-AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack  Swati Khandelwal  Jul 02, 2026 Artificial Intelligence / Malware Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always needed a skilled person somewhere in the loop, either at the keyboard or writing the script the malware follows. If a model can chain those steps on its own, the skill needed to run an attack drops to whatever it costs to rent an AI agent. The way in was an old, already-patched bug. JADEPUFFER exploited CVE-2025-3248 , a missing-authentication flaw in Langflow , an open-source tool for building AI apps and agent workflows. The flaw lets anyone who can reach the server run their own Python code on it, no login needed. Langflow boxes are a tempting target because they often sit exposed on the internet and hold API keys and cloud credentials for the services they connect to. The flaw was fixed in Langflow 1.3.0 and added to CISA's Known Exploited Vulnerabilities list in May 2025, but plenty of servers were never updated. It is not even the only Langflow bug being hit this way . Once inside, the agent worked fast and cleaned up after itself. It mapped the machine, then swept it for secrets: API keys for AI services (OpenAI, Anthropic, DeepSeek, Gemini), cloud credentials (Chinese providers like Alibaba and Tencent alongside AWS, Google, and Azure), crypto wallet keys, and database logins. It raided a MinIO storage server using its factory-default login (minioadmin:minioadmin), which had never been changed. It also set up a way back in, adding a scheduled task that pinged the attacker's server every 30 minutes. Then it pivoted to its real target: a separate, internet-facing server running a MySQL database and Alibaba's Nacos, a settings and service directory common in microservice setups. The agent logged into the database as root. Sysdig says it never saw where those root credentials came from, so their origin is unknown. From there, it took over Nacos using a 2021 authentication bypass ( CVE-2021-29441 ) and a default signing key that Nacos has shipped unchanged since 2020, then planted its own admin account. The Ransom Note With No Key The agent encrypted all 1,342 Nacos settings, dropped the original tables, and left a ransom note demanding Bitcoin with a Proton Mail contact. It generated a random encryption key, printed it to the screen once, and never saved or sent it anywhere. There is no key to hand over. The victim cannot get the data back even if they pay. (The note claims AES-256; Sysdig notes the tool it used defaults to weaker AES-128, though the result is the same.) It then went further, deleting whole databases and leaving a comment in its own code claiming it had already copied the data somewhere else. Sysdig says that is the agent talking, not something the team could confirm, and found no evidence that any data was actually left. How Experts Know an AI Was Driving The clearest sign was the code itself. The attack payloads were full of plain-English notes explaining why each step was being taken, the running commentary a human hacker never bothers to write, but a model produces by default. The agent also fixed its own mistakes at machine speed. In one case, it went from a failed login to a correct, multi-step fix in 31 seconds, diagnosing the exact cause instead of blindly retrying. Sysdig counted more than 600 separate, purposeful payloads across the operation. One detail is still a puzzle. The Bitcoin address in the ransom note is the exact sample address that appears throughout Bitcoin's own developer documentation, which means it shows up all over the text these models are trained on. It is also
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack
-  - Published: 2026-07-02T09:13:13+00:00
-  - Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
-  - Summary: Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
 
 ### Cluster c63166a0d1 — score 13
 
@@ -2234,6 +2254,98 @@ Home Blog What’s the Average Cost of a Data Breach? Last Updated: June 26, 202
   - Published: 2026-07-01T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
 
+### Cluster 728fb2c9de — score 12
+
+- Title: AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-02T09:13:13+00:00
+- Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- cve_ids: CVE-2021-29441, CVE-2025-3248
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: financial_services
+- cve_ids: CVE-2025-3248, CVE-2021-29441
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
+```
+
+#### Full body
+
+```
+AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack  Swati Khandelwal  Jul 02, 2026 Artificial Intelligence / Malware Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always needed a skilled person somewhere in the loop, either at the keyboard or writing the script the malware follows. If a model can chain those steps on its own, the skill needed to run an attack drops to whatever it costs to rent an AI agent. The way in was an old, already-patched bug. JADEPUFFER exploited CVE-2025-3248 , a missing-authentication flaw in Langflow , an open-source tool for building AI apps and agent workflows. The flaw lets anyone who can reach the server run their own Python code on it, no login needed. Langflow boxes are a tempting target because they often sit exposed on the internet and hold API keys and cloud credentials for the services they connect to. The flaw was fixed in Langflow 1.3.0 and added to CISA's Known Exploited Vulnerabilities list in May 2025, but plenty of servers were never updated. It is not even the only Langflow bug being hit this way . Once inside, the agent worked fast and cleaned up after itself. It mapped the machine, then swept it for secrets: API keys for AI services (OpenAI, Anthropic, DeepSeek, Gemini), cloud credentials (Chinese providers like Alibaba and Tencent alongside AWS, Google, and Azure), crypto wallet keys, and database logins. It raided a MinIO storage server using its factory-default login (minioadmin:minioadmin), which had never been changed. It also set up a way back in, adding a scheduled task that pinged the attacker's server every 30 minutes. Then it pivoted to its real target: a separate, internet-facing server running a MySQL database and Alibaba's Nacos, a settings and service directory common in microservice setups. The agent logged into the database as root. Sysdig says it never saw where those root credentials came from, so their origin is unknown. From there, it took over Nacos using a 2021 authentication bypass ( CVE-2021-29441 ) and a default signing key that Nacos has shipped unchanged since 2020, then planted its own admin account. The Ransom Note With No Key The agent encrypted all 1,342 Nacos settings, dropped the original tables, and left a ransom note demanding Bitcoin with a Proton Mail contact. It generated a random encryption key, printed it to the screen once, and never saved or sent it anywhere. There is no key to hand over. The victim cannot get the data back even if they pay. (The note claims AES-256; Sysdig notes the tool it used defaults to weaker AES-128, though the result is the same.) It then went further, deleting whole databases and leaving a comment in its own code claiming it had already copied the data somewhere else. Sysdig says that is the agent talking, not something the team could confirm, and found no evidence that any data was actually left. How Experts Know an AI Was Driving The clearest sign was the code itself. The attack payloads were full of plain-English notes explaining why each step was being taken, the running commentary a human hacker never bothers to write, but a model produces by default. The agent also fixed its own mistakes at machine speed. In one case, it went from a failed login to a correct, multi-step fix in 31 seconds, diagnosing the exact cause instead of blindly retrying. Sysdig counted more than 600 separate, purposeful payloads across the operation. One detail is still a puzzle. The Bitcoin address in the ransom note is the exact sample address that appears throughout Bitcoin's own developer documentation, which means it shows up all over the text these models are trained on. It is also
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack
+  - Published: 2026-07-02T09:13:13+00:00
+  - Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
+  - Summary: Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
+
+### Cluster 4541afab04 — score 12
+
+- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T07:20:51+00:00
+- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Android, Palo Alto Networks, npm
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: healthcare, financial_services, government
+- affected_products: npm, Android, Palo Alto Networks
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+```
+
+#### Full body
+
+```
+Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+  - Published: 2026-07-01T07:20:51+00:00
+  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+
 ### Cluster 57ef1249ed — score 12
 
 - Title: Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day
@@ -2329,92 +2441,6 @@ Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Da
   - Published: 2026-06-29T10:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
   - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
-
-### Cluster 4541afab04 — score 12
-
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Android, Palo Alto Networks, npm
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: healthcare, financial_services, government
-- affected_products: npm, Android, Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-```
-
-#### Full body
-
-```
-Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-
-### Cluster fcac4a62c3 — score 11
-
-- Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
-- Source: Orca Security Research (cloud_identity_infrastructure)
-- Published: 2026-06-26T13:54:54+00:00
-- Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
-```
-
-#### Full body
-
-```
-Table of contents Key Takeaways What Is Risk-Based Vulnerability Management (RBVM)? RBVM vs Context-Aware Prioritization: How the Pieces Fit RBVM is the operating program Why Rule-Based Alert Views Still Leave Teams Stuck Static vs Dynamic Risk Scoring in the Cloud The Alert Lifecycle Problem: When Tickets Lie Stale tickets erode trust Duplicate findings create confusion What a healthy alert lifecycle looks like Operationalizing RBVM: Ownership, Workflow, and Metrics Ownership Workflow Metrics How Orca Supports Cloud RBVM Same CVE, Different Risk Scores by Asset Asset Context Changes the Score Attack Paths and Data Sensitivity Feed the Score Why RBVM Requires More Than Better Scoring Frequently Asked Questions about RBVM Key Takeaways Risk-based vulnerability management (RBVM) is a continuous program that ranks vulnerabilities by the real risk each one poses to a specific asset, then drives remediation to the highest-risk findings first instead of working a severity-sorted backlog. In the cloud, a point-in-time score goes stale within hours. An asset that was internet-facing at scan time can sit behind a closed security group by morning, yet a static ticket still reads Critical. Dynamic risk scoring fixes that gap by recomputing risk when cloud state changes, so urgency tracks exposure rather than the moment a scanner last ran. The second failure is the alert lifecycle. Stale tickets, silent duplicates, and re-scored findings erode trust in the queue until teams stop believing their own tools. A score is only an input. Running RBVM as a program means owning remediation, wiring it into the workflow, and measuring it. Orca operationalizes this with agentless, context-aware scoring that updates as the cloud moves. Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data it can reach, then keeps that assessment current as those conditions change. The model breaks in a predictable place: the cloud moves faster than the score. A vulnerability that was reachable from the internet this afternoon may be isolated tonight after a deploy, and a Critical that mattered yesterday can become noise by the next sprint. Most programs never notice, because the finding was evaluated once and the ticket never reflected the change. This guide answers two questions. First, what RBVM actually is and how it differs from the prioritization methodology that feeds it. Second, how to run it as a cloud program, where static scores and rule-based alert views stop being trustworthy and dynamic scoring, alert-lifecycle trust, remediation ownership, and metrics take over. What Is Risk-Based Vulnerability Management (RBVM)? Risk-based vulnerability management (RBVM) is a program that scores, ranks, and remediates vulnerabilities according to the risk each one creates for a specific asset, not according to the CVSS base score printed on the CVE . Two assets can carry the identical vulnerability and deserve completely different responses, because risk depends on where the flaw lives, who can reach it, and what sits behind it. Legacy vulnerability management treated severity as destiny. A scanner found a Critical, the Critical became a ticket, and the team worked the Criticals top to bottom until the window closed. That worked when assets were long-lived servers in a data center you controlled. It collapses when a single misconfiguration changes an asset’s exposure between two scans. RBVM replaces severity-first triage with risk-first triage. The shift is less about a new scoring method and more about a new operating model: the program decides what to fix based on exposure and blast radius, keeps those priorities current, and proves the backlog is shrinking where it counts. Dimensi
-```
-
-#### Corroborating sources (1)
-
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
-  - Published: 2026-06-26T13:54:54+00:00
-  - Link: https://orca.security/resources/blog/risk-based-vulnerability-management/
-  - Summary: Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]
 
 ### Cluster a36f6c9249 — score 11
 
@@ -2604,51 +2630,6 @@ Threat Research Center High Profile Threats General General Threat Brief: Mitiga
   - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
 
-### Cluster 58ad2b1b0b — score 10
-
-- Title: CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure
-- Source: Unit 42 (threat_research_primary)
-- Published: 2026-06-25T22:00:52+00:00
-- Link: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: critical_infrastructure, government
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: apt_espionage, web_shell_backdoor
-- affected_industries: government, critical_infrastructure
-- affected_products: Palo Alto Networks
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .
-```
-
-#### Full body
-
-```
-Threat Research Center Threat Research Malware Malware CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure 10 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: June 25, 2026 Categories: Malware Threat Research Tags: Backdoor CL-STA-1062 Malware Mimikatz Southeast asia TinyRCT VPN Web shells Share Executive Summary Throughout 2025, we observed a cluster of activity targeting government entities and critical infrastructure in Southeast Asia. Specifically, the activity targeted state-owned enterprises in the energy and government sectors. The Chinese-speaking attackers behind this cluster, which we track as CL-STA-1062 , have been active since at least March 2022. We assess with high confidence that this is the same cluster, known as UAT-7237, that was reported for its campaigns against web hosting infrastructure in Taiwan in mid 2025. We also observed CL-STA-1062 campaigns in earlier operations targeting strategic sectors in East Asia, indicating a broader, sustained regional focus. From a technical standpoint, the attackers behind CL-STA-1062 rely on a hybrid toolkit. While they frequently use common open-source tools such as SoftEther VPN, Mimikatz and VNT, they have recently introduced TinyRCT, a bespoke, previously undocumented backdoor. TinyRCT’s capabilities include: Arbitrary command execution File enumeration and exfiltration Screen capture A self-destruct mechanism We detail the latest campaign linked to CL-STA-1062 against the energy and government sectors in Southeast Asia, and provide a technical analysis of the new TinyRCT backdoor. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex XDR and XSIAM Advanced WildFire Advanced URL Filtering and Advanced DNS Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics CL-STA-1062, Malware , Backdoor , VPN, Mimikatz Latest Campaign Analysis While this article focuses on CL-STA-1062 activity against targets in Southeast Asia during 2025, our telemetry reveals that the attackers behind this cluster have been conducting operations across East Asia since 2022. We assess with high confidence that this is the same activity cluster tracked by Cisco Talos as UAT-7237 , previously reported for its campaigns against web hosting infrastructure in Taiwan. Building on recent observed activity, our investigation into CL-STA-1062 activity highlights a broader long-term strategy in the Asia-Pacific region. Targeting Southeast Asian Government Entities In September 2025, we discovered that the attackers behind CL-STA-1062 had compromised a Southeast Asian government entity by deploying web shells and exfiltrating database information. Figure 1 shows the command line used to exfiltrate data from an MSSQL server. Figure 1. Exfiltrating data from the MSSQL server. During this intrusion, the attackers were also able to conduct network reconnaissance on a separate government entity in the same country. This suggests an effort to identify lateral movement opportunities and broaden their access. In one case, we observed the attacker staging and exfiltrating an entire directory of web server source code from the government entity, as Figure 2 shows. Figure 2. Archiving the folder containing the web server source code. Between October and December 2025, we observed the likely compromise of at least ten different organizations in Southeast Asia. Focusing on Critical Energy Infrastructure Since mid 2025, as part of activities in Southeast Asia, the threat actor behind CL-STA-1062 focused on critical infrastructure. We identified that a critical infrastructure entity had been under attack for several months. The activity within the compromised network was com
-```
-
-#### Corroborating sources (1)
-
-- **Unit 42** (threat_research_primary)
-  - Title: CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure
-  - Published: 2026-06-25T22:00:52+00:00
-  - Link: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
-  - Summary: Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .
-
 ### Cluster 1c995def22 — score 10
 
 - Title: Securing AI agents: When AI tools move from reading to acting
@@ -2734,55 +2715,6 @@ Share Link copied to clipboard! Tags Phishing Content types Research Products an
   - Published: 2026-06-25T22:30:29+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
   - Summary: Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection. The post Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access appeared first on Microsoft Security Blog .
-
-### Cluster f2b3bd6ba4 — score 10
-
-- Title: 22nd June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-01T11:29:38+00:00
-- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
-- urgency_signals: zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 22nd June – Threat Intelligence Report
-  - Published: 2026-07-01T11:29:38+00:00
-  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 5fe3559a01 — score 10
 
@@ -2952,6 +2884,55 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
 
+### Cluster f2b3bd6ba4 — score 10
+
+- Title: 22nd June – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-01T11:29:38+00:00
+- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 22nd June – Threat Intelligence Report
+  - Published: 2026-07-01T11:29:38+00:00
+  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+
 ### Cluster 6a3df7e65b — score 10
 
 - Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
@@ -3120,47 +3101,6 @@ Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Ins
   - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
   - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
-### Cluster e1538c3d0e — score 10
-
-- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-26T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: GitHub, PyPI, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: PyPI, npm, GitHub
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-```
-
-#### Full body
-
-```
-Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-  - Published: 2026-06-26T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-
 ### Cluster fbb9c91ae0 — score 10
 
 - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
@@ -3241,6 +3181,47 @@ Page content Post-quantum cryptography is now one pip-install away for the entir
   - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
   - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
 
+### Cluster e1538c3d0e — score 10
+
+- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-26T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: GitHub, PyPI, npm
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: PyPI, npm, GitHub
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
+```
+
+#### Full body
+
+```
+Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
+```
+
+#### Corroborating sources (1)
+
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+  - Published: 2026-06-26T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
+
 ### Cluster 6c76262a4a — score 10
 
 - Title: New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
@@ -3287,66 +3268,6 @@ Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetS
   - Published: 2026-07-02T15:04:22+00:00
   - Link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
   - Summary: Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek .
-
-### Cluster 395a86ea64 — score 10
-
-- Title: FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-02T12:34:29+00:00
-- Link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
-- Fetch status: ok
-- Member count: 5
-- Corroborating source count: 4
-- Strong signals: Fortinet
-
-#### Cluster taxonomy (union across members)
-- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- affected_industries: financial_services
-- affected_products: Apple iOS/macOS, Azure, Fortinet
-- urgency_signals: zero_day
-- content_type: incident_report, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach
-- affected_products: Apple iOS/macOS, Azure, Fortinet
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Researchers say credentials harvested from hundreds of thousands of FortiGate firewalls are being used to facilitate ransomware attacks by the INC and Lynx operations. The post FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-FortiBleed, the large-scale credential-harvesting operation targeting organizations in 150 countries, has led to the deployment of INC Ransom and Lynx ransomware families, SOCRadar reports. Uncovered in mid-June, FortiBleed has been targeting over 430,000 FortiGate firewalls for the deployment of a network sniffer dubbed FortigateSniffer to capture the traffic passing through them and extract cleartext credentials and password hashes for future compromise. The campaign is likely mounted by a Russian initial access broker aiming to gain access to Active Directory domains, steal sensitive information, and establish persistent access. FortiBleed has been ongoing since at least February, and the attackers are estimated to have compromised over 110 million credentials. Now, SOCRadar says it has observed scanning activity against roughly 11,250 FortiGate portals and that the attackers gained administrative access on 409 targets. The threat actor was observed completing the full attack chain on 354 targets, including compromising VPNs, accessing the domain controller, and gaining domain admin privileges. Advertisement. Scroll to continue reading. Of these, 12 incidents have resulted in ransomware deployment, with “hundreds of endpoints encrypted across affected organizations,” SOCRadar says. An operational security error by the attackers provided the cybersecurity company with visibility into their environment and with access to internal files, logs, and documentation. SOCRadar observed both an operator logged into both INC Ransom and Lynx ransomware negotiation panels, and overlaps between FortiBleed victims and INC targets, confirming that the same organizations were targeted in both operations. “Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment,” SOCRadar notes. Analysis of an internal tracking document associated with FortiBleed suggests that the operation involves roughly 20 individuals, with some focused on high-impact intrusions and others providing technical support. “FortiBleed isn’t an isolated credential-theft operation sitting off to the side of the ransomware economy; it’s feeding directly into it. The same access broker infrastructure that quietly intercepted authentication traffic across hundreds of thousands of firewalls is connected, through a shared operator, to two of the more active ransomware brands operating today,” SOCRadar notes. INC Ransom emerged in mid-2023 and has been one of the most prolific ransomware-as-a-service (RaaS) operations. Lynx was likely released as an updated variant a year later. Related: BlueHammer Vulnerability Exploited in Ransomware Attacks Related: New ‘Mistic’ RAT Opens Door to Several Ransomware Families Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: FBI: Cybercrime Losses Neared $21 Billion in 2025 Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Massive Password Spray Campaign Targeting Azure CLI Aflac Japan Data Breach Impacts 4.38 Million Exploitation of Recent Oracle E-Business Suite Vulnerability Begins Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence Latest News New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development Trump Administration Lifts Restrictions
-```
-
-#### Corroborating sources (4)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks
-  - Published: 2026-07-02T12:34:29+00:00
-  - Link: https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/
-  - Summary: Researchers say credentials harvested from hundreds of thousands of FortiGate firewalls are being used to facilitate ransomware attacks by the INC and Lynx operations. The post FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks appeared first on SecurityWeek .
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs
-  - Published: 2026-07-02T19:11:33+00:00
-  - Link: https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs
-  - Summary: After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: FortiBleed credential-theft campaign linked to Lynx ransomware
-  - Published: 2026-07-01T21:37:24+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/
-  - Summary: The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. [...]
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations
-  - Published: 2026-07-02T08:00:49+00:00
-  - Link: https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html
-  - Summary: The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. "An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment
 
 ### Cluster a56bf79002 — score 10
 
@@ -3572,7 +3493,7 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
 - Source: Orca Security Research (cloud_identity_infrastructure)
 - Published: 2026-07-02T18:50:00+00:00
 - Link: https://orca.security/resources/blog/ciem-vs-iam-vs-pam/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3591,6 +3512,12 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
 Key Takeaways IAM, PAM, and CIEM all manage “access,” which is exactly why teams confuse them. The acronyms sound interchangeable, and every vendor draws the lines a little differently. They solve genuinely different problems, and in the cloud the gaps between them are where breaches happen. Here is the short version. Identity and Access Management […]
 ```
 
+#### Full body
+
+```
+Table of contents Key Takeaways Quick Answer: CIEM vs IAM vs PAM at a Glance What Is IAM (Identity and Access Management)? What Is PAM (Privileged Access Management)? What Is CIEM (Cloud Infrastructure Entitlement Management)? CIEM vs IAM vs PAM: Key Differences Focus and Objective Identity Types Covered Environment Core Function and What Each One Misses CIEM vs IAM: How They Compare CIEM vs PAM: How They Compare How CIEM, IAM, and PAM Work Together Related Acronyms (Don’t Get Confused) PIM vs PAM IGA vs IAM CIEM vs CSPM CIEM vs SIEM Where ITDR Fits Which Do You Need for Cloud Security? How IAM, PAM, and CIEM Fit Together Frequently asked questions about CIEM vs IAM vs PAM Key Takeaways IAM, PAM, and CIEM all manage access but solve different problems: IAM decides who can log in and what they can do, PAM protects the most powerful accounts, and CIEM right-sizes cloud entitlements for human and machine identities. IAM and PAM grew up around human users and on-premises systems. CIEM is the cloud-native layer they were never built to cover, including non-human identities and multi-cloud permission sprawl. They complement each other; they do not replace each other. CIEM cannot authenticate users or vault passwords, and IAM and PAM cannot tell you that a service account can reach a database it never uses. Most cloud organizations need IAM and CIEM at minimum, plus PAM wherever humans hold privileged access. Larger or regulated estates add IGA, PIM, and ITDR. Orca analyzes effective cloud permissions agentlessly and ties each over-privileged identity to the attack path it opens, so teams fix the entitlements that matter first. IAM, PAM, and CIEM all manage “access,” which is exactly why teams confuse them. The acronyms sound interchangeable, and every vendor draws the lines a little differently. They solve genuinely different problems, and in the cloud the gaps between them are where breaches happen. Here is the short version. Identity and Access Management (IAM) authenticates a user and decides what that user is allowed to do. Privileged Access Management (PAM) protects the small set of powerful accounts that can change or destroy your environment. Cloud Infrastructure Entitlement Management (CIEM) measures and right-sizes the permissions every identity actually holds across your cloud, including the machine identities IAM and PAM tend to miss. This article defines each category, compares them across the axes that matter, shows how they layer, and clears up the related acronyms (PIM, IGA, CSPM, SIEM, ITDR) that pile onto the confusion. Quick Answer: CIEM vs IAM vs PAM at a Glance IAM, PAM, and CIEM are three layers of identity security, not three names for the same tool. IAM manages identities and their access rights. PAM secures and monitors privileged accounts. CIEM analyzes and reduces the cloud entitlements those identities accumulate. You typically run them together: IAM as the foundation, PAM around privileged human access, and CIEM as the cloud-native layer that catches over-permissioned human and machine identities at scale. One access event seen through all three lenses makes the split concrete. IAM lets the user log in and confirms their role. PAM vaults the admin’s credentials and records the privileged session. CIEM flags that the user’s role has effective access to a production database it has never used, helping you remove the unnecessary entitlement. What Is IAM (Identity and Access Management)? IAM is the framework that authenticates identities and authorizes what they can access. It is the foundation every other identity control sits on, and it answers two questions: who is this, and what are they allowed to do. In practice, IAM handles the identity lifecycle. It provisions an account when someone joins, adjusts entitlements when they change roles, and deprovisions access when they leave. It enforces authentication through single sign-on (SSO) and multi-factor authentication (MFA), and it structures permissions thr
+```
+
 #### Corroborating sources (1)
 
 - **Orca Security Research** (cloud_identity_infrastructure)
@@ -3605,18 +3532,18 @@ Key Takeaways IAM, PAM, and CIEM all manage “access,” which is exactly why t
 - Source: Orca Security Research (cloud_identity_infrastructure)
 - Published: 2026-07-02T18:50:00+00:00
 - Link: https://orca.security/resources/blog/itdr-for-the-cloud/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: credential_theft
+- threat_categories: cloud_abuse, credential_theft
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: credential_theft
+- threat_categories: credential_theft, cloud_abuse
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3624,6 +3551,12 @@ Key Takeaways IAM, PAM, and CIEM all manage “access,” which is exactly why t
 
 ```
 Key Takeaways ITDR (Identity Threat Detection and Response) detects and responds to identity-based attacks in real time: credential theft, token abuse, anomalous privilege use, and account takeover. Gartner introduced the term in 2022 to describe the gap between authentication and runtime identity abuse. IAM may decide who gets in, but ITDR monitors how a legitimate-looking […]
+```
+
+#### Full body
+
+```
+Table of contents Key Takeaways What Is ITDR (Identity Threat Detection and Response)? Why identity became the primary cloud attack vector ITDR in the cloud vs. traditional (AD/endpoint) ITDR Why ITDR Matters for Cloud Security How ITDR Works: Core Components Identity inventory and contextual visibility Behavioral baselining and anomaly detection Threat intelligence and risk-based prioritization Real-time alerting, automated response and containment Investigation and remediation ITDR for Machine and Non-Human Identities Cloud ITDR Use Cases and Real-World Attacks CSP credential and access-key compromise Anomalous IAM role assumption and privilege escalation Insider threat and account takeover OAuth/OIDC token and federation abuse ITDR vs. IAM vs. PAM vs. EDR vs. CIEM ITDR vs. IAM ITDR vs. EDR ITDR vs. CIEM: posture vs. runtime What to Look For in an ITDR Solution How Orca Approaches Cloud ITDR Frequently asked questions about ITDR for the Cloud Key Takeaways ITDR (Identity Threat Detection and Response) is a security discipline, coined by Gartner in 2022, that detects and responds to attacks against identities: stolen credentials, abused tokens, anomalous role assumption, and hijacked accounts that prevention tools let through. Identity is now the primary cloud attack surface. CrowdStrike’s 2026 Global Threat Report found that 82% of detected intrusions were malware-free, reflecting attackers’ growing reliance on stolen credentials and legitimate identity abuse rather than malware. In the cloud, the identities under attack are increasingly machines: service accounts, access keys, OAuth apps, and workload identities that cannot pass an MFA prompt and that no human watches. ITDR is not IAM, PAM, EDR, or CIEM. It works on the identity plane at runtime, assuming credentials will be compromised, and it detects abuse of legitimate-but-stolen access that authentication and posture tools cannot catch. CIEM and ITDR are complementary halves of cloud identity security: CIEM hardens the attack surface (posture), and ITDR defends it when an identity is abused (runtime). Orca runs both on one agentless data model, so an identity threat is scored by the sensitive data and resources it can actually reach. ITDR (Identity Threat Detection and Response) detects and responds to identity-based attacks in real time: credential theft, token abuse, anomalous privilege use, and account takeover. Gartner introduced the term in 2022 to describe the gap between authentication and runtime identity abuse. IAM may decide who gets in, but ITDR monitors how a legitimate-looking identity behaves once it is inside. The category matters because identity has become a primary cloud attack surface. Attackers increasingly rely on stolen credentials, trusted identities, and legitimate administration tools rather than traditional malware, shifting the defensive focus from preventing initial access to detecting misuse after authentication. In the cloud, the twist is that most identities are not people. Service accounts, access keys, and OAuth grants outnumber human users, and they carry the standing access attackers want. This article defines ITDR, explains why identity became a cloud attack vector, walks through how ITDR works, covers machine and non-human identities, shows common cloud attack patterns, and distinguishes ITDR from IAM, PAM, EDR, and cloud infrastructure entitlement management . What Is ITDR (Identity Threat Detection and Response)? ITDR stands for Identity Threat Detection and Response. It is a security discipline that monitors identities and their behavior for signs of compromise, then detects, alerts on, and responds to identity-based attacks as they happen. Gartner coined the term in 2022 to describe tools and practices that protect the identity infrastructure itself, after a run of breaches showed that attackers were targeting identity systems directly rather than exploiting software vulnerabilities. The defining assumption separates ITDR from ev
 ```
 
 #### Corroborating sources (1)
@@ -3770,39 +3703,6 @@ Huntress analyzed a credential dumping attack where threat actors disabled Defen
   - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
   - Summary: Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
 
-### Cluster 179d9b0465 — score 8
-
-- Title: Finding and Addressing Vulnerable and Outdated Web Application Components
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-01T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Finding and Addressing Vulnerable and Outdated Web Application Components
-  - Published: 2026-07-01T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
-  - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
-
 ### Cluster 61f5afc3be — score 8
 
 - Title: Scattered Spider suspect extradited over $8 million ransom scheme
@@ -3849,6 +3749,72 @@ A suspected Scattered Spider member has been extradited to the United States to 
   - Published: 2026-07-01T19:28:07+00:00
   - Link: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
   - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police
+
+### Cluster 179d9b0465 — score 8
+
+- Title: Finding and Addressing Vulnerable and Outdated Web Application Components
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-01T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Corroborating sources (1)
+
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Finding and Addressing Vulnerable and Outdated Web Application Components
+  - Published: 2026-07-01T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
+  - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
+
+### Cluster ae77ed43fa — score 8
+
+- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T17:46:07+00:00
+- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+  - Published: 2026-06-30T17:46:07+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
 
 ### Cluster 31e5b2aa9f — score 8
 
@@ -3991,36 +3957,3 @@ The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK univer
   - Published: 2026-06-26T08:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/cmc-analysis-education-canvas-data/
   - Summary: The UK Cyber Monitoring Centre reviews the Canvas breach affecting 160 UK universities, highlighting data theft risks and financial impacts of cyber incidents
-
-### Cluster ae77ed43fa — score 8
-
-- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-30T17:46:07+00:00
-- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  - Published: 2026-06-30T17:46:07+00:00
-  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its

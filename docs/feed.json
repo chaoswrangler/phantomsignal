@@ -1,9 +1,16 @@
 {
-  "generated_at": "2026-07-02T20:23:59.644506+00:00",
+  "generated_at": "2026-07-02T22:13:22.528704+00:00",
   "lookback_hours": 168,
   "lookback_human": "7 days",
-  "total_items": 2278,
+  "total_items": 2228,
   "feed_status": {
+    "Unit 42": {
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 15,
+      "in_window_count": 3
+    },
     "CrowdStrike": {
       "url": "https://www.crowdstrike.com/blog/feed/",
       "cohort": "threat_research_primary",
@@ -11,19 +18,12 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "SentinelOne Labs": {
-      "url": "https://www.sentinelone.com/labs/feed/",
+    "Microsoft Security Blog": {
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
       "item_count": 10,
-      "in_window_count": 1
-    },
-    "Unit 42": {
-      "url": "https://unit42.paloaltonetworks.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "in_window_count": 7
     },
     "Google Threat Analysis Group": {
       "url": "https://blog.google/threat-analysis-group/rss/",
@@ -39,19 +39,26 @@
       "item_count": 25,
       "in_window_count": 0
     },
+    "SentinelOne Labs": {
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Microsoft Threat Intelligence": {
+      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
     "Sekoia": {
       "url": "https://blog.sekoia.io/feed/",
       "cohort": "threat_research_primary",
       "status": "parse_error",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Microsoft Security Blog": {
-      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 7
     },
     "Cisco Talos": {
       "url": "https://feeds.feedburner.com/feedburner/Talos",
@@ -60,12 +67,12 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "Check Point Research": {
-      "url": "https://research.checkpoint.com/feed/",
-      "cohort": "threat_research_primary",
+    "NCSC UK": {
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "cohort": "government_authoritative",
       "status": "ok",
-      "item_count": 15,
-      "in_window_count": 3
+      "item_count": 20,
+      "in_window_count": 1
     },
     "Citizen Lab": {
       "url": "https://citizenlab.ca/feed/",
@@ -74,13 +81,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "NCSC UK": {
-      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
-      "cohort": "government_authoritative",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Kaspersky Securelist": {
       "url": "https://securelist.com/feed/",
       "cohort": "threat_research_primary",
@@ -88,12 +88,12 @@
       "item_count": 10,
       "in_window_count": 6
     },
-    "Microsoft Threat Intelligence": {
-      "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/",
+    "Check Point Research": {
+      "url": "https://research.checkpoint.com/feed/",
       "cohort": "threat_research_primary",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
+      "item_count": 15,
+      "in_window_count": 3
     },
     "SANS Internet Storm Center": {
       "url": "https://isc.sans.edu/rssfeed_full.xml",
@@ -109,13 +109,6 @@
       "item_count": 10,
       "in_window_count": 4
     },
-    "Volexity": {
-      "url": "https://www.volexity.com/feed/",
-      "cohort": "threat_research_primary",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 0
-    },
     "ESET WeLiveSecurity": {
       "url": "https://www.welivesecurity.com/en/rss/feed/",
       "cohort": "threat_research_primary",
@@ -123,25 +116,11 @@
       "item_count": 100,
       "in_window_count": 3
     },
-    "Red Canary": {
-      "url": "https://redcanary.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "PortSwigger Research": {
       "url": "https://portswigger.net/research/rss",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
       "item_count": 40,
-      "in_window_count": 0
-    },
-    "Assetnote": {
-      "url": "https://www.assetnote.io/resources/research/rss.xml",
-      "cohort": "offensive_vulnerability_research",
-      "status": "ok",
-      "item_count": 78,
       "in_window_count": 0
     },
     "GitHub Security Lab": {
@@ -151,12 +130,26 @@
       "item_count": 10,
       "in_window_count": 3
     },
-    "Exploit-DB": {
-      "url": "https://www.exploit-db.com/rss.xml",
+    "Assetnote": {
+      "url": "https://www.assetnote.io/resources/research/rss.xml",
       "cohort": "offensive_vulnerability_research",
       "status": "ok",
-      "item_count": 50,
+      "item_count": 78,
       "in_window_count": 0
+    },
+    "Volexity": {
+      "url": "https://www.volexity.com/feed/",
+      "cohort": "threat_research_primary",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 0
+    },
+    "Red Canary": {
+      "url": "https://redcanary.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
     },
     "Recorded Future": {
       "url": "https://www.recordedfuture.com/feed",
@@ -172,13 +165,6 @@
       "item_count": 15,
       "in_window_count": 3
     },
-    "The DFIR Report": {
-      "url": "https://thedfirreport.com/feed/",
-      "cohort": "detection_response_operations",
-      "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
-    },
     "TrustedSec": {
       "url": "https://www.trustedsec.com/feed/",
       "cohort": "detection_response_operations",
@@ -186,15 +172,22 @@
       "item_count": 10,
       "in_window_count": 1
     },
-    "Active Countermeasures": {
-      "url": "https://www.activecountermeasures.com/feed/",
+    "The DFIR Report": {
+      "url": "https://thedfirreport.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 10,
+      "in_window_count": 1
+    },
+    "Proofpoint Threat Insight": {
+      "url": "https://www.proofpoint.com/us/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
       "in_window_count": 0
     },
-    "Proofpoint Threat Insight": {
-      "url": "https://www.proofpoint.com/us/rss.xml",
+    "Active Countermeasures": {
+      "url": "https://www.activecountermeasures.com/feed/",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 10,
@@ -221,13 +214,6 @@
       "item_count": 10,
       "in_window_count": 0
     },
-    "Datadog Security Labs": {
-      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 2
-    },
     "Rapid7": {
       "url": "https://www.rapid7.com/blog/rss/",
       "cohort": "offensive_vulnerability_research",
@@ -242,13 +228,6 @@
       "item_count": 20,
       "in_window_count": 2
     },
-    "AWS Security Blog": {
-      "url": "https://aws.amazon.com/blogs/security/feed/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 3
-    },
     "Orca Security Research": {
       "url": "https://orca.security/resources/blog/feed/",
       "cohort": "cloud_identity_infrastructure",
@@ -256,12 +235,33 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "Datadog Security Labs": {
+      "url": "https://securitylabs.datadoghq.com/rss/feed.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 30,
+      "in_window_count": 2
+    },
     "Huntress": {
       "url": "https://www.huntress.com/blog/rss.xml",
       "cohort": "detection_response_operations",
       "status": "ok",
       "item_count": 100,
       "in_window_count": 5
+    },
+    "Exploit-DB": {
+      "url": "https://www.exploit-db.com/rss.xml",
+      "cohort": "offensive_vulnerability_research",
+      "status": "parse_error",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "AWS Security Blog": {
+      "url": "https://aws.amazon.com/blogs/security/feed/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 3
     },
     "Permiso Security": {
       "url": "https://permiso.io/blog/rss.xml",
@@ -284,13 +284,6 @@
       "item_count": 100,
       "in_window_count": 2
     },
-    "Cloudflare Security": {
-      "url": "https://blog.cloudflare.com/tag/security/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
-    },
     "Wiz Research": {
       "url": "https://www.wiz.io/feed/rss.xml",
       "cohort": "cloud_identity_infrastructure",
@@ -298,18 +291,11 @@
       "item_count": 100,
       "in_window_count": 7
     },
-    "Cloudflare Radar": {
-      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+    "Cloudflare Security": {
+      "url": "https://blog.cloudflare.com/tag/security/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
       "item_count": 20,
-      "in_window_count": 1
-    },
-    "Google DeepMind Blog": {
-      "url": "https://deepmind.google/blog/rss.xml",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 100,
       "in_window_count": 1
     },
     "Google Cloud Threat Intelligence": {
@@ -319,6 +305,13 @@
       "item_count": 20,
       "in_window_count": 2
     },
+    "Cloudflare Radar": {
+      "url": "https://blog.cloudflare.com/tag/cloudflare-radar/rss/",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 20,
+      "in_window_count": 1
+    },
     "Coveware": {
       "url": "https://www.coveware.com/blog?format=rss",
       "cohort": "ransomware_ecrime_financial_crime",
@@ -326,18 +319,25 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Google Cloud Security": {
-      "url": "https://cloudblog.withgoogle.com/rss/",
-      "cohort": "cloud_identity_infrastructure",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 20
-    },
     "OpenSSF Blog": {
       "url": "https://openssf.org/feed/",
       "cohort": "ai_security_agentic_risk",
       "status": "ok",
       "item_count": 10,
+      "in_window_count": 1
+    },
+    "Google DeepMind Blog": {
+      "url": "https://deepmind.google/blog/rss.xml",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Interconnects": {
+      "url": "https://www.interconnects.ai/feed",
+      "cohort": "ai_security_agentic_risk",
+      "status": "ok",
+      "item_count": 20,
       "in_window_count": 1
     },
     "Chainalysis": {
@@ -347,12 +347,12 @@
       "item_count": 10,
       "in_window_count": 5
     },
-    "Interconnects": {
-      "url": "https://www.interconnects.ai/feed",
-      "cohort": "ai_security_agentic_risk",
+    "BleepingComputer": {
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 20,
-      "in_window_count": 1
+      "item_count": 15,
+      "in_window_count": 15
     },
     "The Record": {
       "url": "https://therecord.media/feed",
@@ -361,26 +361,12 @@
       "item_count": 5,
       "in_window_count": 5
     },
-    "BleepingComputer": {
-      "url": "https://www.bleepingcomputer.com/feed/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 15,
-      "in_window_count": 15
-    },
-    "GreyNoise": {
-      "url": "https://www.greynoise.io/blog/rss.xml",
+    "Google Cloud Security": {
+      "url": "https://cloudblog.withgoogle.com/rss/",
       "cohort": "cloud_identity_infrastructure",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 0
-    },
-    "Simon Willison": {
-      "url": "https://simonwillison.net/atom/everything/",
-      "cohort": "ai_security_agentic_risk",
-      "status": "ok",
-      "item_count": 30,
-      "in_window_count": 19
+      "item_count": 20,
+      "in_window_count": 20
     },
     "AI Snake Oil": {
       "url": "https://www.aisnakeoil.com/feed",
@@ -396,6 +382,13 @@
       "item_count": 10,
       "in_window_count": 10
     },
+    "GreyNoise": {
+      "url": "https://www.greynoise.io/blog/rss.xml",
+      "cohort": "cloud_identity_infrastructure",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 0
+    },
     "CyberScoop": {
       "url": "https://cyberscoop.com/feed/",
       "cohort": "cyber_news_breach_reporting",
@@ -403,19 +396,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Black Hills Information Security": {
-      "url": "https://www.blackhillsinfosec.com/feed/",
-      "cohort": "detection_response_operations",
+    "Simon Willison": {
+      "url": "https://simonwillison.net/atom/everything/",
+      "cohort": "ai_security_agentic_risk",
       "status": "ok",
-      "item_count": 100,
-      "in_window_count": 1
-    },
-    "Dark Reading": {
-      "url": "https://www.darkreading.com/rss.xml",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 50,
-      "in_window_count": 32
+      "item_count": 30,
+      "in_window_count": 19
     },
     "Help Net Security": {
       "url": "https://www.helpnetsecurity.com/feed/",
@@ -424,12 +410,12 @@
       "item_count": 10,
       "in_window_count": 10
     },
-    "Krebs on Security": {
-      "url": "https://krebsonsecurity.com/feed/",
-      "cohort": "practitioner_analysis",
+    "Dark Reading": {
+      "url": "https://www.darkreading.com/rss.xml",
+      "cohort": "cyber_news_breach_reporting",
       "status": "ok",
-      "item_count": 10,
-      "in_window_count": 1
+      "item_count": 50,
+      "in_window_count": 29
     },
     "Schneier on Security": {
       "url": "https://www.schneier.com/feed/atom/",
@@ -437,6 +423,20 @@
       "status": "ok",
       "item_count": 10,
       "in_window_count": 8
+    },
+    "Black Hills Information Security": {
+      "url": "https://www.blackhillsinfosec.com/feed/",
+      "cohort": "detection_response_operations",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
+    },
+    "Team Cymru": {
+      "url": "https://www.team-cymru.com/post/rss.xml",
+      "cohort": "ransomware_ecrime_financial_crime",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 1
     },
     "Troy Hunt": {
       "url": "https://www.troyhunt.com/rss/",
@@ -452,11 +452,11 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Team Cymru": {
-      "url": "https://www.team-cymru.com/post/rss.xml",
-      "cohort": "ransomware_ecrime_financial_crime",
+    "Krebs on Security": {
+      "url": "https://krebsonsecurity.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 100,
+      "item_count": 10,
       "in_window_count": 1
     },
     "Reddit r/blueteamsec": {
@@ -473,12 +473,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/netsecstudents": {
-      "url": "https://www.reddit.com/r/netsecstudents/.rss",
-      "cohort": "reddit_practitioner_osint",
+    "Graham Cluley": {
+      "url": "https://grahamcluley.com/feed/",
+      "cohort": "practitioner_analysis",
       "status": "ok",
-      "item_count": 0,
-      "in_window_count": 0
+      "item_count": 20,
+      "in_window_count": 4
     },
     "Reddit r/msp": {
       "url": "https://www.reddit.com/r/msp/.rss",
@@ -487,26 +487,12 @@
       "item_count": 0,
       "in_window_count": 0
     },
-    "Reddit r/AskNetsec": {
-      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+    "Reddit r/netsecstudents": {
+      "url": "https://www.reddit.com/r/netsecstudents/.rss",
       "cohort": "reddit_practitioner_osint",
       "status": "ok",
       "item_count": 0,
       "in_window_count": 0
-    },
-    "Graham Cluley": {
-      "url": "https://grahamcluley.com/feed/",
-      "cohort": "practitioner_analysis",
-      "status": "ok",
-      "item_count": 20,
-      "in_window_count": 4
-    },
-    "Infosecurity Magazine": {
-      "url": "https://www.infosecurity-magazine.com/rss/news/",
-      "cohort": "cyber_news_breach_reporting",
-      "status": "ok",
-      "item_count": 100,
-      "in_window_count": 22
     },
     "The Hacker News": {
       "url": "https://feeds.feedburner.com/TheHackersNews",
@@ -514,6 +500,20 @@
       "status": "ok",
       "item_count": 50,
       "in_window_count": 50
+    },
+    "Reddit r/AskNetsec": {
+      "url": "https://www.reddit.com/r/AskNetsec/.rss",
+      "cohort": "reddit_practitioner_osint",
+      "status": "ok",
+      "item_count": 0,
+      "in_window_count": 0
+    },
+    "Infosecurity Magazine": {
+      "url": "https://www.infosecurity-magazine.com/rss/news/",
+      "cohort": "cyber_news_breach_reporting",
+      "status": "ok",
+      "item_count": 100,
+      "in_window_count": 22
     },
     "Intel 471": {
       "url": "https://intel471.com/blog/feed",
@@ -694,7 +694,6 @@
         ],
         "affected_products": [
           "Apple iOS/macOS",
-          "Azure",
           "Microsoft SharePoint"
         ],
         "urgency_signals": [
@@ -702,9 +701,9 @@
           "zero_day"
         ]
       },
-      "cluster_count": 7,
-      "article_count": 17,
-      "cohesion": 0.211,
+      "cluster_count": 6,
+      "article_count": 12,
+      "cohesion": 0.213,
       "shared_strong_signals": [
         "Apple iOS/macOS"
       ],
@@ -716,8 +715,7 @@
         "de6119ec2c",
         "11f77a277a",
         "57ef1249ed",
-        "6c76262a4a",
-        "395a86ea64"
+        "6c76262a4a"
       ],
       "links": [
         "https://www.securityweek.com/cisa-warns-of-actively-exploited-microsoft-sharepoint-vulnerability/",
@@ -727,58 +725,11 @@
         "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
         "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
         "https://isc.sans.edu/diary/rss/33114",
-        "https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/",
         "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/",
         "https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/",
         "https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/",
-        "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/",
-        "https://www.securityweek.com/fortibleed-campaign-linked-to-inc-lynx-ransomware-attacks/",
-        "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
-        "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
-        "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html"
-      ]
-    },
-    {
-      "label": "Palo Alto Networks active exploitation",
-      "anchor_signal": "Palo Alto Networks",
-      "theme_key": "palo-alto-networks",
-      "dominant_features": {
-        "threat_categories": [
-          "phishing_social_eng",
-          "active_exploitation"
-        ],
-        "affected_industries": [
-          "critical_infrastructure",
-          "government"
-        ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
-        "urgency_signals": [
-          "actively_exploited"
-        ]
-      },
-      "cluster_count": 5,
-      "article_count": 5,
-      "cohesion": 0.375,
-      "shared_strong_signals": [
-        "Palo Alto Networks"
-      ],
-      "member_cves": [],
-      "also_targets": [],
-      "cluster_ids": [
-        "e4a3ada988",
-        "5b50b4b7b2",
-        "4541afab04",
-        "84319555f9",
-        "58ad2b1b0b"
-      ],
-      "links": [
-        "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
-        "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
-        "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
-        "https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/"
+        "https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/"
       ]
     },
     {
@@ -859,10 +810,51 @@
         "https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/",
         "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
         "https://isc.sans.edu/diary/rss/33114",
-        "https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/",
         "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/",
         "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
         "https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/"
+      ]
+    },
+    {
+      "label": "Palo Alto Networks active exploitation",
+      "anchor_signal": "Palo Alto Networks",
+      "theme_key": "palo-alto-networks",
+      "dominant_features": {
+        "threat_categories": [
+          "phishing_social_eng",
+          "active_exploitation"
+        ],
+        "affected_industries": [
+          "critical_infrastructure",
+          "government"
+        ],
+        "affected_products": [
+          "Palo Alto Networks"
+        ],
+        "urgency_signals": [
+          "actively_exploited"
+        ]
+      },
+      "cluster_count": 4,
+      "article_count": 4,
+      "cohesion": 0.324,
+      "shared_strong_signals": [
+        "Palo Alto Networks"
+      ],
+      "member_cves": [],
+      "also_targets": [],
+      "cluster_ids": [
+        "e4a3ada988",
+        "5b50b4b7b2",
+        "4541afab04",
+        "84319555f9"
+      ],
+      "links": [
+        "https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/",
+        "https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/",
+        "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+        "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/"
       ]
     },
     {
@@ -1062,12 +1054,12 @@
       "member_cves": [],
       "also_targets": [],
       "cluster_ids": [
-        "728fb2c9de",
-        "db017396fb"
+        "db017396fb",
+        "728fb2c9de"
       ],
       "links": [
-        "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-        "https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion"
+        "https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion",
+        "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
       ]
     },
     {
@@ -1155,7 +1147,14 @@
   ],
   "forward_signals": {
     "novelty": {
-      "cves": [],
+      "cves": [
+        {
+          "value": "CVE-2026-35616",
+          "cluster_id": "6a5eaa4b15",
+          "first_source": "Orca Security Research",
+          "first_published": "2026-07-02T20:55:24+00:00"
+        }
+      ],
       "actors": [],
       "products": []
     },
@@ -1231,6 +1230,11 @@
         "first_observation": true
       },
       {
+        "cluster_id": "6a5eaa4b15",
+        "pair": "CVE-2026-35616 + Fortinet",
+        "first_observation": true
+      },
+      {
         "cluster_id": "87e2639a3b",
         "pair": "CVE-2026-43707 + Anthropic/Claude",
         "first_observation": true
@@ -1238,11 +1242,6 @@
       {
         "cluster_id": "87e2639a3b",
         "pair": "CVE-2026-43707 + Apple iOS/macOS",
-        "first_observation": true
-      },
-      {
-        "cluster_id": "87e2639a3b",
-        "pair": "CVE-2026-43707 + Google Cloud",
         "first_observation": true
       }
     ],
@@ -1312,6 +1311,54 @@
     "tier_inversion": []
   },
   "items": [
+    {
+      "source": "Orca Security Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "FortiBleed Campaign Harvests 110M+ Credentials, Fuels Ransomware Operations",
+      "link": "https://orca.security/resources/blog/fortibleed-credential-theft-vulnerability/",
+      "published": "2026-07-02T20:55:24+00:00",
+      "summary": "A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users […]",
+      "author": "Devonte Grant",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [
+          "ransomware_extortion",
+          "credential_theft",
+          "zero_day",
+          "web_shell_backdoor",
+          "active_exploitation"
+        ],
+        "actor_attribution": [],
+        "affected_industries": [
+          "manufacturing_industrial"
+        ],
+        "affected_products": [
+          "Fortinet"
+        ],
+        "tools_used": [],
+        "cve_ids": [
+          "CVE-2026-35616"
+        ],
+        "attack_techniques": [],
+        "urgency_signals": [
+          "actively_exploited",
+          "zero_day",
+          "critical_cvss"
+        ],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Fortinet": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 18,
+      "full_body": "A critical credential-harvesting campaign dubbed “FortiBleed” has been exposed, systematically targeting over 430,000 FortiGate firewalls worldwide and exploiting CVE-2026-35616 (CVSS 9.1) in FortiClient EMS, enabling attackers to gain admin access, deploy packet sniffers, and fuel ransomware operations at scale. Due to the massive scope and active exploitation, immediate patching and credential rotation are required. Users should upgrade FortiClient EMS to version 7.4.7 or later, or apply the out-of-band hotfix for 7.4.5 and 7.4.6. All credentials on FortiGate-managed infrastructure should be rotated immediately, including VPN, RADIUS, NTLM, Kerberos, and admin accounts. Organizations should audit FortiGate admin accounts for the unauthorized “adminin” backdoor account, restrict FortiClient EMS port 8013 to trusted IP ranges, enable MFA on all FortiGate administrative interfaces, and hunt for FortigateSniffer indicators of compromise. Known C2 infrastructure (83.138.53.110 and associated Tor exit nodes) should be blocked. About FortiBleed The operation, attributed to a Russian-speaking initial access broker (IAB), scanned the entire internet-facing FortiGate attack surface and achieved admin-level access on 409 targets, with 354 suffering full domain compromise. The attackers deployed a custom Golang packet sniffer called “FortigateSniffer” on approximately 12,000 devices, abusing FortiOS’s native diagnose sniffer packet command to passively intercept authentication traffic across 24 protocols. This approach allowed the operators to harvest RADIUS, NTLM, and Kerberos credentials at scale, amassing over 110 million credentials without triggering traditional intrusion detection. SOCRadar’s Threat Research Unit directly linked the FortiBleed operation to the INC Ransom and Lynx ransomware-as-a-service (RaaS) groups. An operator with access to FortiBleed infrastructure was discovered actively logged into both INC and Lynx ransomware negotiation panels, and victim data overlapped between the campaigns. At least 12 confirmed ransomware deployments with hundreds of encrypted endpoints resulted from FortiBleed-sourced initial access. About CVE-2026-35616 In parallel, CVE-2026-35616 (CVSS 9.1), an improper access control flaw in Fortinet FortiClient EMS versions 7.4.5 and 7.4.6, is being actively exploited in the wild. Arctic Wolf observed attackers exploiting this vulnerability to modify remote access profiles, inject malicious PowerShell into VPN configuration scripts, and deploy the EKZ Stealer infostealer (disguised as “FortiEndpoint_Patch.exe”) across managed endpoint fleets. EKZ Stealer extracts credentials from Chrome, Edge, and Firefox, including bypassing Chromium’s encrypted password storage. CISA added CVE-2026-35616 to its Known Exploited Vulnerabilities catalog on April 6, 2026. No authentication is required to exploit this issue. Affected Systems The following components are affected: FortiGate firewalls (all internet-facing deployments) and FortiClient EMS versions 7.4.5 through 7.4.6. These components are widely deployed across enterprise environments, particularly in manufacturing, technology, and logistics sectors in LATAM and APAC. Organizations using FortiGate-managed VPN or remote access infrastructure are at heightened risk, as credentials may have been passively captured via the sniffer component. Investigators also assess the threat actors may possess an undisclosed Nextcloud zero-day, and SOCRadar discovered artifacts indicating potential targeting of Citrix remote access infrastructure. Risk Impact At the time of writing, FortiBleed is confirmed as an active campaign with at least 12 ransomware deployments traced back to its access brokering, and CVE-2026-35616 has been added to CISA’s KEV catalog confirming active exploitation. The severity, scale, and direct link to ransomware operations make this threat exceptionally high risk, especially for organizations with internet-facing Fortinet infrastructure. Succ",
+      "fetch_status": "ok"
+    },
     {
       "source": "Dark Reading",
       "cohort": "cyber_news_breach_reporting",
@@ -1491,7 +1538,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Table of contents Key Takeaways Quick Answer: CIEM vs IAM vs PAM at a Glance What Is IAM (Identity and Access Management)? What Is PAM (Privileged Access Management)? What Is CIEM (Cloud Infrastructure Entitlement Management)? CIEM vs IAM vs PAM: Key Differences Focus and Objective Identity Types Covered Environment Core Function and What Each One Misses CIEM vs IAM: How They Compare CIEM vs PAM: How They Compare How CIEM, IAM, and PAM Work Together Related Acronyms (Don’t Get Confused) PIM vs PAM IGA vs IAM CIEM vs CSPM CIEM vs SIEM Where ITDR Fits Which Do You Need for Cloud Security? How IAM, PAM, and CIEM Fit Together Frequently asked questions about CIEM vs IAM vs PAM Key Takeaways IAM, PAM, and CIEM all manage access but solve different problems: IAM decides who can log in and what they can do, PAM protects the most powerful accounts, and CIEM right-sizes cloud entitlements for human and machine identities. IAM and PAM grew up around human users and on-premises systems. CIEM is the cloud-native layer they were never built to cover, including non-human identities and multi-cloud permission sprawl. They complement each other; they do not replace each other. CIEM cannot authenticate users or vault passwords, and IAM and PAM cannot tell you that a service account can reach a database it never uses. Most cloud organizations need IAM and CIEM at minimum, plus PAM wherever humans hold privileged access. Larger or regulated estates add IGA, PIM, and ITDR. Orca analyzes effective cloud permissions agentlessly and ties each over-privileged identity to the attack path it opens, so teams fix the entitlements that matter first. IAM, PAM, and CIEM all manage “access,” which is exactly why teams confuse them. The acronyms sound interchangeable, and every vendor draws the lines a little differently. They solve genuinely different problems, and in the cloud the gaps between them are where breaches happen. Here is the short version. Identity and Access Management (IAM) authenticates a user and decides what that user is allowed to do. Privileged Access Management (PAM) protects the small set of powerful accounts that can change or destroy your environment. Cloud Infrastructure Entitlement Management (CIEM) measures and right-sizes the permissions every identity actually holds across your cloud, including the machine identities IAM and PAM tend to miss. This article defines each category, compares them across the axes that matter, shows how they layer, and clears up the related acronyms (PIM, IGA, CSPM, SIEM, ITDR) that pile onto the confusion. Quick Answer: CIEM vs IAM vs PAM at a Glance IAM, PAM, and CIEM are three layers of identity security, not three names for the same tool. IAM manages identities and their access rights. PAM secures and monitors privileged accounts. CIEM analyzes and reduces the cloud entitlements those identities accumulate. You typically run them together: IAM as the foundation, PAM around privileged human access, and CIEM as the cloud-native layer that catches over-permissioned human and machine identities at scale. One access event seen through all three lenses makes the split concrete. IAM lets the user log in and confirms their role. PAM vaults the admin’s credentials and records the privileged session. CIEM flags that the user’s role has effective access to a production database it has never used, helping you remove the unnecessary entitlement. What Is IAM (Identity and Access Management)? IAM is the framework that authenticates identities and authorizes what they can access. It is the foundation every other identity control sits on, and it answers two questions: who is this, and what are they allowed to do. In practice, IAM handles the identity lifecycle. It provisions an account when someone joins, adjusts entitlements when they change roles, and deprovisions access when they leave. It enforces authentication through single sign-on (SSO) and multi-factor authentication (MFA), and it structures permissions thr",
+      "fetch_status": "ok"
     },
     {
       "source": "Orca Security Research",
@@ -1505,7 +1554,8 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "credential_theft"
+          "credential_theft",
+          "cloud_abuse"
         ],
         "actor_attribution": [],
         "affected_industries": [],
@@ -1521,7 +1571,9 @@
           "products": []
         }
       },
-      "score": 9
+      "score": 9,
+      "full_body": "Table of contents Key Takeaways What Is ITDR (Identity Threat Detection and Response)? Why identity became the primary cloud attack vector ITDR in the cloud vs. traditional (AD/endpoint) ITDR Why ITDR Matters for Cloud Security How ITDR Works: Core Components Identity inventory and contextual visibility Behavioral baselining and anomaly detection Threat intelligence and risk-based prioritization Real-time alerting, automated response and containment Investigation and remediation ITDR for Machine and Non-Human Identities Cloud ITDR Use Cases and Real-World Attacks CSP credential and access-key compromise Anomalous IAM role assumption and privilege escalation Insider threat and account takeover OAuth/OIDC token and federation abuse ITDR vs. IAM vs. PAM vs. EDR vs. CIEM ITDR vs. IAM ITDR vs. EDR ITDR vs. CIEM: posture vs. runtime What to Look For in an ITDR Solution How Orca Approaches Cloud ITDR Frequently asked questions about ITDR for the Cloud Key Takeaways ITDR (Identity Threat Detection and Response) is a security discipline, coined by Gartner in 2022, that detects and responds to attacks against identities: stolen credentials, abused tokens, anomalous role assumption, and hijacked accounts that prevention tools let through. Identity is now the primary cloud attack surface. CrowdStrike’s 2026 Global Threat Report found that 82% of detected intrusions were malware-free, reflecting attackers’ growing reliance on stolen credentials and legitimate identity abuse rather than malware. In the cloud, the identities under attack are increasingly machines: service accounts, access keys, OAuth apps, and workload identities that cannot pass an MFA prompt and that no human watches. ITDR is not IAM, PAM, EDR, or CIEM. It works on the identity plane at runtime, assuming credentials will be compromised, and it detects abuse of legitimate-but-stolen access that authentication and posture tools cannot catch. CIEM and ITDR are complementary halves of cloud identity security: CIEM hardens the attack surface (posture), and ITDR defends it when an identity is abused (runtime). Orca runs both on one agentless data model, so an identity threat is scored by the sensitive data and resources it can actually reach. ITDR (Identity Threat Detection and Response) detects and responds to identity-based attacks in real time: credential theft, token abuse, anomalous privilege use, and account takeover. Gartner introduced the term in 2022 to describe the gap between authentication and runtime identity abuse. IAM may decide who gets in, but ITDR monitors how a legitimate-looking identity behaves once it is inside. The category matters because identity has become a primary cloud attack surface. Attackers increasingly rely on stolen credentials, trusted identities, and legitimate administration tools rather than traditional malware, shifting the defensive focus from preventing initial access to detecting misuse after authentication. In the cloud, the twist is that most identities are not people. Service accounts, access keys, and OAuth grants outnumber human users, and they carry the standing access attackers want. This article defines ITDR, explains why identity became a cloud attack vector, walks through how ITDR works, covers machine and non-human identities, shows common cloud attack patterns, and distinguishes ITDR from IAM, PAM, EDR, and cloud infrastructure entitlement management . What Is ITDR (Identity Threat Detection and Response)? ITDR stands for Identity Threat Detection and Response. It is a security discipline that monitors identities and their behavior for signs of compromise, then detects, alerts on, and responds to identity-based attacks as they happen. Gartner coined the term in 2022 to describe tools and practices that protect the identity infrastructure itself, after a run of breaches showed that attackers were targeting identity systems directly rather than exploiting software vulnerabilities. The defining assumption separates ITDR from ev",
+      "fetch_status": "ok"
     },
     {
       "source": "Orca Security Research",
@@ -2105,14 +2157,11 @@
       "in_window": true,
       "taxonomy": {
         "threat_categories": [
-          "ransomware_extortion",
-          "data_breach"
+          "ransomware_extortion"
         ],
         "actor_attribution": [],
         "affected_industries": [],
         "affected_products": [
-          "Apple iOS/macOS",
-          "Azure",
           "Fortinet"
         ],
         "tools_used": [],
@@ -2122,17 +2171,13 @@
         "content_type": "incident_report",
         "confidence_tier": "tier_4_news",
         "role_map": {
-          "Apple iOS/macOS": "target",
-          "Azure": "target",
           "Fortinet": "target"
         },
         "weak_tags": {
           "products": []
         }
       },
-      "score": 10,
-      "full_body": "FortiBleed, the large-scale credential-harvesting operation targeting organizations in 150 countries, has led to the deployment of INC Ransom and Lynx ransomware families, SOCRadar reports. Uncovered in mid-June, FortiBleed has been targeting over 430,000 FortiGate firewalls for the deployment of a network sniffer dubbed FortigateSniffer to capture the traffic passing through them and extract cleartext credentials and password hashes for future compromise. The campaign is likely mounted by a Russian initial access broker aiming to gain access to Active Directory domains, steal sensitive information, and establish persistent access. FortiBleed has been ongoing since at least February, and the attackers are estimated to have compromised over 110 million credentials. Now, SOCRadar says it has observed scanning activity against roughly 11,250 FortiGate portals and that the attackers gained administrative access on 409 targets. The threat actor was observed completing the full attack chain on 354 targets, including compromising VPNs, accessing the domain controller, and gaining domain admin privileges. Advertisement. Scroll to continue reading. Of these, 12 incidents have resulted in ransomware deployment, with “hundreds of endpoints encrypted across affected organizations,” SOCRadar says. An operational security error by the attackers provided the cybersecurity company with visibility into their environment and with access to internal files, logs, and documentation. SOCRadar observed both an operator logged into both INC Ransom and Lynx ransomware negotiation panels, and overlaps between FortiBleed victims and INC targets, confirming that the same organizations were targeted in both operations. “Finding a single operator working both panels, using infrastructure traceable back to FortiBleed, is the clearest evidence yet that FortiGate credentials harvested through this campaign are being handed off, or used directly, for ransomware deployment,” SOCRadar notes. Analysis of an internal tracking document associated with FortiBleed suggests that the operation involves roughly 20 individuals, with some focused on high-impact intrusions and others providing technical support. “FortiBleed isn’t an isolated credential-theft operation sitting off to the side of the ransomware economy; it’s feeding directly into it. The same access broker infrastructure that quietly intercepted authentication traffic across hundreds of thousands of firewalls is connected, through a shared operator, to two of the more active ransomware brands operating today,” SOCRadar notes. INC Ransom emerged in mid-2023 and has been one of the most prolific ransomware-as-a-service (RaaS) operations. Lynx was likely released as an updated variant a year later. Related: BlueHammer Vulnerability Exploited in Ransomware Attacks Related: New ‘Mistic’ RAT Opens Door to Several Ransomware Families Related: Microsoft Teams Relay Servers Abused in DragonForce Ransomware Attack Related: FBI: Cybercrime Losses Neared $21 Billion in 2025 Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Massive Password Spray Campaign Targeting Azure CLI Aflac Japan Data Breach Impacts 4.38 Million Exploitation of Recent Oracle E-Business Suite Vulnerability Begins Critical SimpleHelp Vulnerability Exploited for Malware Delivery Quantifind Raises $200 Million for AI-Native Risk Intelligence Latest News New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development Trump Administration Lifts Restrictions",
-      "fetch_status": "ok"
+      "score": 10
     },
     {
       "source": "Dark Reading",
@@ -2492,7 +2537,7 @@
           "products": []
         }
       },
-      "score": 13,
+      "score": 12,
       "full_body": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack  Swati Khandelwal  Jul 02, 2026 Artificial Intelligence / Malware Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always needed a skilled person somewhere in the loop, either at the keyboard or writing the script the malware follows. If a model can chain those steps on its own, the skill needed to run an attack drops to whatever it costs to rent an AI agent. The way in was an old, already-patched bug. JADEPUFFER exploited CVE-2025-3248 , a missing-authentication flaw in Langflow , an open-source tool for building AI apps and agent workflows. The flaw lets anyone who can reach the server run their own Python code on it, no login needed. Langflow boxes are a tempting target because they often sit exposed on the internet and hold API keys and cloud credentials for the services they connect to. The flaw was fixed in Langflow 1.3.0 and added to CISA's Known Exploited Vulnerabilities list in May 2025, but plenty of servers were never updated. It is not even the only Langflow bug being hit this way . Once inside, the agent worked fast and cleaned up after itself. It mapped the machine, then swept it for secrets: API keys for AI services (OpenAI, Anthropic, DeepSeek, Gemini), cloud credentials (Chinese providers like Alibaba and Tencent alongside AWS, Google, and Azure), crypto wallet keys, and database logins. It raided a MinIO storage server using its factory-default login (minioadmin:minioadmin), which had never been changed. It also set up a way back in, adding a scheduled task that pinged the attacker's server every 30 minutes. Then it pivoted to its real target: a separate, internet-facing server running a MySQL database and Alibaba's Nacos, a settings and service directory common in microservice setups. The agent logged into the database as root. Sysdig says it never saw where those root credentials came from, so their origin is unknown. From there, it took over Nacos using a 2021 authentication bypass ( CVE-2021-29441 ) and a default signing key that Nacos has shipped unchanged since 2020, then planted its own admin account. The Ransom Note With No Key The agent encrypted all 1,342 Nacos settings, dropped the original tables, and left a ransom note demanding Bitcoin with a Proton Mail contact. It generated a random encryption key, printed it to the screen once, and never saved or sent it anywhere. There is no key to hand over. The victim cannot get the data back even if they pay. (The note claims AES-256; Sysdig notes the tool it used defaults to weaker AES-128, though the result is the same.) It then went further, deleting whole databases and leaving a comment in its own code claiming it had already copied the data somewhere else. Sysdig says that is the agent talking, not something the team could confirm, and found no evidence that any data was actually left. How Experts Know an AI Was Driving The clearest sign was the code itself. The attack payloads were full of plain-English notes explaining why each step was being taken, the running commentary a human hacker never bothers to write, but a model produces by default. The agent also fixed its own mistakes at machine speed. In one case, it went from a failed login to a correct, multi-step fix in 31 seconds, diagnosing the exact cause instead of blindly retrying. Sysdig counted more than 600 separate, purposeful payloads across the operation. One detail is still a puzzle. The Bitcoin address in the ransom note is the exact sample address that appears throughout Bitcoin's own developer documentation, which means it shows up all over the text these models are trained on. It is also ",
       "fetch_status": "ok"
     },
@@ -2522,7 +2567,7 @@
           "products": []
         }
       },
-      "score": 6
+      "score": 5
     },
     {
       "source": "The Hacker News",
@@ -2995,7 +3040,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "BleepingComputer",
@@ -3023,7 +3068,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "Dark Reading",
@@ -3053,7 +3098,7 @@
           "products": []
         }
       },
-      "score": 5
+      "score": 4
     },
     {
       "source": "The Record",
@@ -3335,7 +3380,7 @@
         }
       },
       "score": 43,
-      "full_body": "Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Product Info Orca MCP: When Text Stops Sc",
+      "full_body": "Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help A critical vulnerability ( CVE-2026-33017 , CVSS 9.8) was disclosed affecting Langflow, a widely used open-source AI application builder, allowing attackers to execute arbitrary code on the server via a single unauthenticated HTTP request. Due to the potential for full system compromise, data theft, and lateral movement across enterprise networks, immediate patching is required. About CVE-2026-33017 The issue originates from Langflow’s public flow-building API endpoint (/api/v1/build_public_tmp/{flow_id}/flow), where a lack of input sanitization and sandboxing for user-supplied flow definitions leads to arbitrary Python code execution on the server. By sending a specially crafted POST request containing malicious Python code in a node definition, attackers can gain full remote code execution without any authentication or user interaction, potentially compromising the entire host and any connected cloud infrastructure . An active campaign exploiting this vulnerability was observed by Trend Micro researchers over a 19-day window in spring 2026. Attackers weaponized the flaw within 20 hours of the advisory’s publication, before any public proof-of-concept existed. The attack chain delivers “lambsys,” a Go-based binary that kills 39 rival cryptominer processes, disables security controls including AppArmor, SELinux, UFW, and iptables, wipes system logs, and deploys a customized XMRig Monero miner with geo-aware pool selection. The malware also harvests environment variables, .env files, database credentials, and API keys from compromised hosts. Affected Systems The following components are affected: Langflow, all versions up to and including 1.8.2. Langflow has over 145,000 GitHub stars and is widely deployed in AI/ML pipeline infrastructure across enterprise and cloud environments, particularly when flow-building endpoints are exposed to the internet. Approximately 7,000 Langflow servers were found internet-accessible at the time of discovery. Other frameworks or services relying on Langflow as a backend may also be impacted. Users should upgrade to Langflow version 1.9.0 or later immediately. Notably, version 1.8.2 was widely reported as patched but remains vulnerable according to JFrog Security Research. Organizations that cannot deploy 1.9.0 immediately should install the nightly build (1.9.0.dev18 or later) as an interim fix. All API keys, database credentials, and SSH keys on any previously exposed instances should be rotated, and teams should monitor for outbound connections to 83.142.209[.]214 and the presence of the “lambsys” binary or unexpected cron entries. Risk Impact At the time of writing, working exploits are actively used in the wild, and the vulnerability has been added to CISA’s Known Exploited Vulnerabilities catalog with a federal remediation deadline. No authentication is required to exploit this issue. The severity and ease of exploitation make this vulnerability extremely high risk, especially in internet-facing deployments. Successful exploitation could allow attackers to execute arbitrary code on the server, steal credentials and sensitive data from environment variables and configuration files, and laterally move through enterprise networks using harvested SSH keys, leading to service disruption, data exposure, or full infrastructure compromise. How Orca Can Help Orca enables customers to quickly identify assets running vulnerable Langflow versions, understand their exposure in context , including internet accessibility, runtime reachability, and asset criticality, and prioritize remediation based on real risk rather than CVSS alone. Orca’s platform highlights affected assets directly in the newItem view, helping security teams focus on the most critical remediation paths first Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can Help Related articles Research FortiBleed Campaign Harvests 110",
       "fetch_status": "ok"
     },
     {
@@ -5224,6 +5269,38 @@
       "source": "Google Cloud Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
+      "title": "What Google Cloud announced in AI this month",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our main focus in June was helping your teams build, scale, and secure AI. Today, we’re sharing a fresh roundup of updates designed to help you run smarter, more secure applications while keeping everything under your control. We even shared a cool virtual shopping demo at Cannes to show how retailers can make product discovery more exciting. Let’s dive in! Top announcements Introducing the Open Knowledge Format : We introduced the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need. Collaboration with Apple on its expanded Private Cloud Compute (PCC) systems : Our collabor",
+      "author": "Andrea Sanin",
+      "in_window": true,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [
+          "Google Cloud"
+        ],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "news_report",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {
+          "Google Cloud": "target"
+        },
+        "weak_tags": {
+          "products": []
+        }
+      },
+      "score": 7
+    },
+    {
+      "source": "Google Cloud Security",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
       "title": "Build agents even faster with Gemini Enterprise Agent Platform’s fully-managed, remote MCP server",
       "link": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-enterprise-agent-platform-remote-mcp-server/",
       "published": "2026-06-30T16:00:00+00:00",
@@ -5249,38 +5326,6 @@
           "Google Cloud": "target",
           "Google/Gemini": "target",
           "Anthropic/Claude": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 7
-    },
-    {
-      "source": "Google Cloud Security",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "What Google Cloud announced in AI this month",
-      "link": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/",
-      "published": "2026-06-30T16:00:00+00:00",
-      "summary": "Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our main focus in June was helping your teams build, scale, and secure AI. Today, we’re sharing a fresh roundup of updates designed to help you run smarter, more secure applications while keeping everything under your control. We even shared a cool virtual shopping demo at Cannes to show how retailers can make product discovery more exciting. Let’s dive in! Top announcements Introducing the Open Knowledge Format : We introduced the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need. Collaboration with Apple on its expanded Private Cloud Compute (PCC) systems : Our collabor",
-      "author": "Andrea Sanin",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Google Cloud"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {
-          "Google Cloud": "target"
         },
         "weak_tags": {
           "products": []
@@ -7511,36 +7556,6 @@
       "score": 7
     },
     {
-      "source": "Orca Security Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Risk-Based Vulnerability Management for the Cloud: A 2026 Guide",
-      "link": "https://orca.security/resources/blog/risk-based-vulnerability-management/",
-      "published": "2026-06-26T13:54:54+00:00",
-      "summary": "Key Takeaways Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data […]",
-      "author": "Ashleigh Lee",
-      "in_window": true,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "vulnerability_disclosure",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      },
-      "score": 11,
-      "full_body": "Table of contents Key Takeaways What Is Risk-Based Vulnerability Management (RBVM)? RBVM vs Context-Aware Prioritization: How the Pieces Fit RBVM is the operating program Why Rule-Based Alert Views Still Leave Teams Stuck Static vs Dynamic Risk Scoring in the Cloud The Alert Lifecycle Problem: When Tickets Lie Stale tickets erode trust Duplicate findings create confusion What a healthy alert lifecycle looks like Operationalizing RBVM: Ownership, Workflow, and Metrics Ownership Workflow Metrics How Orca Supports Cloud RBVM Same CVE, Different Risk Scores by Asset Asset Context Changes the Score Attack Paths and Data Sensitivity Feed the Score Why RBVM Requires More Than Better Scoring Frequently Asked Questions about RBVM Key Takeaways Risk-based vulnerability management (RBVM) is a continuous program that ranks vulnerabilities by the real risk each one poses to a specific asset, then drives remediation to the highest-risk findings first instead of working a severity-sorted backlog. In the cloud, a point-in-time score goes stale within hours. An asset that was internet-facing at scan time can sit behind a closed security group by morning, yet a static ticket still reads Critical. Dynamic risk scoring fixes that gap by recomputing risk when cloud state changes, so urgency tracks exposure rather than the moment a scanner last ran. The second failure is the alert lifecycle. Stale tickets, silent duplicates, and re-scored findings erode trust in the queue until teams stop believing their own tools. A score is only an input. Running RBVM as a program means owning remediation, wiring it into the workflow, and measuring it. Orca operationalizes this with agentless, context-aware scoring that updates as the cloud moves. Risk-based vulnerability management (RBVM) is the practice of prioritizing vulnerabilities by the actual risk they pose to your environment, rather than by raw severity, so your team fixes what is genuinely dangerous before what merely scores high. It evaluates vulnerabilities in the context of the asset they affect, its exposure, and the data it can reach, then keeps that assessment current as those conditions change. The model breaks in a predictable place: the cloud moves faster than the score. A vulnerability that was reachable from the internet this afternoon may be isolated tonight after a deploy, and a Critical that mattered yesterday can become noise by the next sprint. Most programs never notice, because the finding was evaluated once and the ticket never reflected the change. This guide answers two questions. First, what RBVM actually is and how it differs from the prioritization methodology that feeds it. Second, how to run it as a cloud program, where static scores and rule-based alert views stop being trustworthy and dynamic scoring, alert-lifecycle trust, remediation ownership, and metrics take over. What Is Risk-Based Vulnerability Management (RBVM)? Risk-based vulnerability management (RBVM) is a program that scores, ranks, and remediates vulnerabilities according to the risk each one creates for a specific asset, not according to the CVSS base score printed on the CVE . Two assets can carry the identical vulnerability and deserve completely different responses, because risk depends on where the flaw lives, who can reach it, and what sits behind it. Legacy vulnerability management treated severity as destiny. A scanner found a Critical, the Critical became a ticket, and the team worked the Criticals top to bottom until the window closed. That worked when assets were long-lived servers in a data center you controlled. It collapses when a single misconfiguration changes an asset’s exposure between two scans. RBVM replaces severity-first triage with risk-first triage. The shift is less about a new scoring method and more about a new operating model: the program decides what to fix based on exposure and blast radius, keeps those priorities current, and proves the backlog is shrinking where it counts. Dimensi",
-      "fetch_status": "ok"
-    },
-    {
       "source": "Kaspersky Securelist",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -7907,7 +7922,7 @@
       "published": "2026-06-25T22:00:52+00:00",
       "summary": "Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .",
       "author": "Unit 42",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "apt_espionage",
@@ -7918,32 +7933,18 @@
           "government",
           "critical_infrastructure"
         ],
-        "affected_products": [
-          "Palo Alto Networks"
-        ],
+        "affected_products": [],
         "tools_used": [],
         "cve_ids": [],
         "attack_techniques": [],
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_1_primary_research",
-        "role_map": {
-          "Palo Alto Networks": "target",
-          "Cisco": "mention"
-        },
+        "role_map": {},
         "weak_tags": {
-          "products": [
-            [
-              "Cisco",
-              "mention",
-              0.26
-            ]
-          ]
+          "products": []
         }
-      },
-      "score": 10,
-      "full_body": "Threat Research Center Threat Research Malware Malware CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure 10 min read Related Products Advanced DNS Security Advanced URL Filtering Advanced WildFire Cloud-Delivered Security Services Cortex Cortex XDR Cortex XSIAM Unit 42 Incident Response By: Unit 42 Published: June 25, 2026 Categories: Malware Threat Research Tags: Backdoor CL-STA-1062 Malware Mimikatz Southeast asia TinyRCT VPN Web shells Share Executive Summary Throughout 2025, we observed a cluster of activity targeting government entities and critical infrastructure in Southeast Asia. Specifically, the activity targeted state-owned enterprises in the energy and government sectors. The Chinese-speaking attackers behind this cluster, which we track as CL-STA-1062 , have been active since at least March 2022. We assess with high confidence that this is the same cluster, known as UAT-7237, that was reported for its campaigns against web hosting infrastructure in Taiwan in mid 2025. We also observed CL-STA-1062 campaigns in earlier operations targeting strategic sectors in East Asia, indicating a broader, sustained regional focus. From a technical standpoint, the attackers behind CL-STA-1062 rely on a hybrid toolkit. While they frequently use common open-source tools such as SoftEther VPN, Mimikatz and VNT, they have recently introduced TinyRCT, a bespoke, previously undocumented backdoor. TinyRCT’s capabilities include: Arbitrary command execution File enumeration and exfiltration Screen capture A self-destruct mechanism We detail the latest campaign linked to CL-STA-1062 against the energy and government sectors in Southeast Asia, and provide a technical analysis of the new TinyRCT backdoor. Palo Alto Networks customers are better protected from the threats discussed above through the following products and services: Cortex XDR and XSIAM Advanced WildFire Advanced URL Filtering and Advanced DNS Security If you think you might have been compromised or have an urgent matter, contact the Unit 42 Incident Response team . Related Unit 42 Topics CL-STA-1062, Malware , Backdoor , VPN, Mimikatz Latest Campaign Analysis While this article focuses on CL-STA-1062 activity against targets in Southeast Asia during 2025, our telemetry reveals that the attackers behind this cluster have been conducting operations across East Asia since 2022. We assess with high confidence that this is the same activity cluster tracked by Cisco Talos as UAT-7237 , previously reported for its campaigns against web hosting infrastructure in Taiwan. Building on recent observed activity, our investigation into CL-STA-1062 activity highlights a broader long-term strategy in the Asia-Pacific region. Targeting Southeast Asian Government Entities In September 2025, we discovered that the attackers behind CL-STA-1062 had compromised a Southeast Asian government entity by deploying web shells and exfiltrating database information. Figure 1 shows the command line used to exfiltrate data from an MSSQL server. Figure 1. Exfiltrating data from the MSSQL server. During this intrusion, the attackers were also able to conduct network reconnaissance on a separate government entity in the same country. This suggests an effort to identify lateral movement opportunities and broaden their access. In one case, we observed the attacker staging and exfiltrating an entire directory of web server source code from the government entity, as Figure 2 shows. Figure 2. Archiving the folder containing the web server source code. Between October and December 2025, we observed the likely compromise of at least ten different organizations in Southeast Asia. Focusing on Critical Energy Infrastructure Since mid 2025, as part of activities in Southeast Asia, the threat actor behind CL-STA-1062 focused on critical infrastructure. We identified that a critical infrastructure entity had been under attack for several months. The activity within the compromised network was com",
-      "fetch_status": "ok"
+      }
     },
     {
       "source": "Dark Reading",
@@ -7954,7 +7955,7 @@
       "published": "2026-06-25T21:54:34+00:00",
       "summary": "The flaw enables server-side request forgery (SSRF) and escalates privileges to root, impacting Cisco Unified CM and Unified CM SME deployments.",
       "author": "Jai Vijayan",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -7970,8 +7971,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "Dark Reading",
@@ -7982,7 +7982,7 @@
       "published": "2026-06-25T21:12:01+00:00",
       "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
       "author": "Nate Nelson",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [
           "apt_espionage"
@@ -8000,8 +8000,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 6
+      }
     },
     {
       "source": "Dark Reading",
@@ -8012,7 +8011,7 @@
       "published": "2026-06-25T20:34:14+00:00",
       "summary": "Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters' Notebook video series.",
       "author": "Arielle Waldman",
-      "in_window": true,
+      "in_window": false,
       "taxonomy": {
         "threat_categories": [],
         "actor_attribution": [],
@@ -8028,8 +8027,7 @@
         "weak_tags": {
           "products": []
         }
-      },
-      "score": 4
+      }
     },
     {
       "source": "OpenSSF Blog",
@@ -18486,33 +18484,6 @@
       }
     },
     {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] OpenEMR 7.0.2 - Arbitrary File Read",
-      "link": "https://www.exploit-db.com/exploits/52610",
-      "published": "2026-06-08T00:00:00+00:00",
-      "summary": "OpenEMR 7.0.2 - Arbitrary File Read",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Recorded Future",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -18710,39 +18681,6 @@
         "content_type": "low_signal",
         "confidence_tier": "tier_3_analysis",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-      "link": "https://www.exploit-db.com/exploits/52609",
-      "published": "2026-06-05T00:00:00+00:00",
-      "summary": "WordPress Contest Gallery 28.1.4 - Unauthenticated Blind SQL Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "WordPress": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -20454,68 +20392,6 @@
       }
     },
     {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Drupal Core 10.5.5 - Error-Based SQL Injection",
-      "link": "https://www.exploit-db.com/exploits/52608",
-      "published": "2026-06-01T00:00:00+00:00",
-      "summary": "Drupal Core 10.5.5 - Error-Based SQL Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Drupal"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Drupal": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] WordPress OrderConvo 14 - Path Traversal",
-      "link": "https://www.exploit-db.com/exploits/52607",
-      "published": "2026-06-01T00:00:00+00:00",
-      "summary": "WordPress OrderConvo 14 - Path Traversal",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "WordPress": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Risky Business News",
       "cohort": "practitioner_analysis",
       "category": "practitioner_analysis",
@@ -20538,114 +20414,6 @@
         "urgency_signals": [],
         "content_type": "incident_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[remote] Notepad++ 8.9.6 - Arbitrary Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52606",
-      "published": "2026-05-30T00:00:00+00:00",
-      "summary": "Notepad++ 8.9.6 - Arbitrary Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] YAMCS yamcs-core 5.12.7 - No Rate Limiting",
-      "link": "https://www.exploit-db.com/exploits/52605",
-      "published": "2026-05-30T00:00:00+00:00",
-      "summary": "YAMCS yamcs-core 5.12.7 - No Rate Limiting",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] YAMCS yamcs-core 5.12.7 - User Enumeration",
-      "link": "https://www.exploit-db.com/exploits/52604",
-      "published": "2026-05-30T00:00:00+00:00",
-      "summary": "YAMCS yamcs-core 5.12.7 - User Enumeration",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] YAMCS yamcs-core 5.12.7 - LDAP Injection",
-      "link": "https://www.exploit-db.com/exploits/52603",
-      "published": "2026-05-30T00:00:00+00:00",
-      "summary": "YAMCS yamcs-core 5.12.7 - LDAP Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -20826,425 +20594,6 @@
         "role_map": {
           "Gogs": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[remote] Microsoft - NTLMv2 Hash Capture",
-      "link": "https://www.exploit-db.com/exploits/52601",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Microsoft - NTLMv2 Hash Capture",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] MikroORM 7.0.13 - SQL Injection",
-      "link": "https://www.exploit-db.com/exploits/52600",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "MikroORM 7.0.13 - SQL Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Prodigy Commerce 3.3.0 - Local File Inclusion",
-      "link": "https://www.exploit-db.com/exploits/52598",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Prodigy Commerce 3.3.0 - Local File Inclusion",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Langflow 1.3.0 - Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52597",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Langflow 1.3.0 - Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52596",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Quick Playground for WordPress 1.3.1 - Unauthenticated Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion",
-      "link": "https://www.exploit-db.com/exploits/52595",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "ImageMagick - Infinite Loop in the MIFF decoder can lead to CPU exhaustion",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] ZTE Routers - Unauthenticated Denial of Service",
-      "link": "https://www.exploit-db.com/exploits/52594",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "ZTE Routers - Unauthenticated Denial of Service",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] ZTE ZXHN H188A V6 - Authentication Bypass",
-      "link": "https://www.exploit-db.com/exploits/52593",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "ZTE ZXHN H188A V6 - Authentication Bypass",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] ZTE H298A / H108N - Unauthenticated Credential Exposure",
-      "link": "https://www.exploit-db.com/exploits/52592",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "ZTE H298A / H108N - Unauthenticated Credential Exposure",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Linux Kernel - Local Privilege Escalation",
-      "link": "https://www.exploit-db.com/exploits/52591",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Linux Kernel - Local Privilege Escalation",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Linux kernel": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52590",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "MixPHP Framework 2.2.17 - Unsafe Deserialization Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[remote] Wing FTP Server 8.1.3 - Authenticated Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52589",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "Wing FTP Server 8.1.3 - Authenticated Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)",
-      "link": "https://www.exploit-db.com/exploits/52588",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "CubeCart < 6.7.0 - Reflected Cross-Site Scripting (XSS) (Unauthenticated)",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[remote] strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow",
-      "link": "https://www.exploit-db.com/exploits/52587",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "strongSwan 5.9.13 - libsimaka EAP-SIM/AKA heap buffer overflow",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[dos] strongSwan 5.9.13 - DoS",
-      "link": "https://www.exploit-db.com/exploits/52586",
-      "published": "2026-05-29T00:00:00+00:00",
-      "summary": "strongSwan 5.9.13 - DoS",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -21474,37 +20823,6 @@
         "urgency_signals": [],
         "content_type": "low_signal",
         "confidence_tier": "tier_2_operator",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Unit 42",
-      "cohort": "threat_research_primary",
-      "category": "threat_research_primary",
-      "title": "2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface",
-      "link": "https://unit42.paloaltonetworks.com/fifa-world-cup-attack-surface/",
-      "published": "2026-05-28T10:00:53+00:00",
-      "summary": "The 2026 World Cup presents major cyber risks from ransomware groups, state-aligned actors, and other groups targeting critical infrastructure. Learn more here. The post 2026 World Cup: Discussing The World’s Biggest Game’s Attack Surface appeared first on Unit 42 .",
-      "author": "Justin Moore",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ransomware_extortion"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [
-          "critical_infrastructure"
-        ],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_primary_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -22054,199 +21372,6 @@
       }
     },
     {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Linux Kernel - Local Privilege Escalation",
-      "link": "https://www.exploit-db.com/exploits/52585",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "Linux Kernel - Local Privilege Escalation",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Linux kernel": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Casdoor 3.54.1 - Arbitrary File Write via Path Traversal",
-      "link": "https://www.exploit-db.com/exploits/52584",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "Casdoor 3.54.1 - Arbitrary File Write via Path Traversal",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] EspoCRM 9.3.3 - SSRF",
-      "link": "https://www.exploit-db.com/exploits/52583",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "EspoCRM 9.3.3 - SSRF",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] scramble - Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52582",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "scramble - Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[hardware] MeiG Smart FORGE_SLT711 - OS Command Injection",
-      "link": "https://www.exploit-db.com/exploits/52581",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "MeiG Smart FORGE_SLT711 - OS Command Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Realtek rtl819x - Local Privilege",
-      "link": "https://www.exploit-db.com/exploits/52580",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "Realtek rtl819x - Local Privilege",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] OpenCATS 0.9.7.4 - SQL Injection",
-      "link": "https://www.exploit-db.com/exploits/52579",
-      "published": "2026-05-27T00:00:00+00:00",
-      "summary": "OpenCATS 0.9.7.4 - SQL Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Sysdig",
       "cohort": "detection_response_operations",
       "category": "detection_response_operations",
@@ -22474,182 +21599,6 @@
         "content_type": "news_report",
         "confidence_tier": "tier_2_operator",
         "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Grav CMS 2.0.0-beta.2 - Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52578",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "Grav CMS 2.0.0-beta.2 - Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service",
-      "link": "https://www.exploit-db.com/exploits/52577",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "Apache HTTP Server 2.4.66 - 'mod_http2' Double-Free Denial of Service",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[hardware] D-Link DSL2600U - 'rom-0' Admin Password Disclosure",
-      "link": "https://www.exploit-db.com/exploits/52576",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "D-Link DSL2600U - 'rom-0' Admin Password Disclosure",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Wordpress Temporary Login Plugin 1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover",
-      "link": "https://www.exploit-db.com/exploits/52575",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "Wordpress Temporary Login Plugin 1.0.0 - 'temp-login-token' Authentication Bypass to Account Takeover",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "WordPress"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "WordPress": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] cPanel - CRLF Injection",
-      "link": "https://www.exploit-db.com/exploits/52574",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "cPanel - CRLF Injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "cPanel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "cPanel": "target"
-        },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Linux Kernel 6.8 - Local Privilege Escalation",
-      "link": "https://www.exploit-db.com/exploits/52573",
-      "published": "2026-05-26T00:00:00+00:00",
-      "summary": "Linux Kernel 6.8 - Local Privilege Escalation",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [
-          "Linux kernel"
-        ],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {
-          "Linux kernel": "target"
-        },
         "weak_tags": {
           "products": []
         }
@@ -23512,143 +22461,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Cockpit 359 - RCE",
-      "link": "https://www.exploit-db.com/exploits/52572",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "Cockpit 359 - RCE",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] BookStack 25.12.1 - Denial of Service",
-      "link": "https://www.exploit-db.com/exploits/52571",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "BookStack 25.12.1 - Denial of Service",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [
-          "ddos"
-        ],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path",
-      "link": "https://www.exploit-db.com/exploits/52570",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "Lenovo LegionSpace 1.7.11.2 - 'DAService' Unquoted Service Path",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] solaredge - (CSRF-OOB-Injection)",
-      "link": "https://www.exploit-db.com/exploits/52569",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "solaredge - (CSRF-OOB-Injection)",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] FUXA 1.2.9 - RCE",
-      "link": "https://www.exploit-db.com/exploits/52568",
-      "published": "2026-05-21T00:00:00+00:00",
-      "summary": "FUXA 1.2.9 - RCE",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -25264,89 +24076,6 @@
       }
     },
     {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Windows Snipping Tool - NTLMv2 Hash Hijack",
-      "link": "https://www.exploit-db.com/exploits/52567",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "Windows Snipping Tool - NTLMv2 Hash Hijack",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-      "link": "https://www.exploit-db.com/exploits/52566",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "Remote Sunrise Helper for Windows 2026.14 - Unauthenticated File/Directory Listing",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[local] Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52565",
-      "published": "2026-05-15T00:00:00+00:00",
-      "summary": "Remote Sunrise Helper for Windows 2026.14 - Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
       "source": "Recorded Future",
       "cohort": "threat_research_primary",
       "category": "threat_research_primary",
@@ -25733,114 +24462,6 @@
         "urgency_signals": [],
         "content_type": "news_report",
         "confidence_tier": "tier_3_analysis",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI",
-      "link": "https://www.exploit-db.com/exploits/52564",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "WordPress Plugin Supsystic Contact Form 1.7.36 - SSTI",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Apache HertzBeat 1.8.0 - Remote Code Execution",
-      "link": "https://www.exploit-db.com/exploits/52563",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "Apache HertzBeat 1.8.0 - Remote Code Execution",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] ePati Antikor NGFW 2.0.1301 - Authentication Bypass",
-      "link": "https://www.exploit-db.com/exploits/52562",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "ePati Antikor NGFW 2.0.1301 - Authentication Bypass",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] PJPROJECT 2.16 - Heap Bufferoverflow",
-      "link": "https://www.exploit-db.com/exploits/52561",
-      "published": "2026-05-14T00:00:00+00:00",
-      "summary": "PJPROJECT 2.16 - Heap Bufferoverflow",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
         "role_map": {},
         "weak_tags": {
           "products": []
@@ -26241,62 +24862,6 @@
         "role_map": {
           "npm": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] Ninja Forms Uploads - Unauthenticated PHP File Upload",
-      "link": "https://www.exploit-db.com/exploits/52560",
-      "published": "2026-05-13T00:00:00+00:00",
-      "summary": "Ninja Forms Uploads - Unauthenticated PHP File Upload",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [
-          "preauth_unauth"
-        ],
-        "content_type": "news_report",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Exploit-DB",
-      "cohort": "offensive_vulnerability_research",
-      "category": "offensive_vulnerability_research",
-      "title": "[webapps] glances 4.5.2 - command injection",
-      "link": "https://www.exploit-db.com/exploits/52559",
-      "published": "2026-05-13T00:00:00+00:00",
-      "summary": "glances 4.5.2 - command injection",
-      "author": "",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_1_offensive_research",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -27543,6 +26108,33 @@
       }
     },
     {
+      "source": "Wiz Research",
+      "cohort": "cloud_identity_infrastructure",
+      "category": "cloud_identity_infrastructure",
+      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
+      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
+      "published": "2026-05-07T13:00:00+00:00",
+      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
+      "author": "Roi Kessler",
+      "in_window": false,
+      "taxonomy": {
+        "threat_categories": [],
+        "actor_attribution": [],
+        "affected_industries": [],
+        "affected_products": [],
+        "tools_used": [],
+        "cve_ids": [],
+        "attack_techniques": [],
+        "urgency_signals": [],
+        "content_type": "low_signal",
+        "confidence_tier": "tier_2_operator",
+        "role_map": {},
+        "weak_tags": {
+          "products": []
+        }
+      }
+    },
+    {
       "source": "Cloudflare Security",
       "cohort": "cloud_identity_infrastructure",
       "category": "cloud_identity_infrastructure",
@@ -27568,33 +26160,6 @@
         "role_map": {
           "Linux kernel": "target"
         },
-        "weak_tags": {
-          "products": []
-        }
-      }
-    },
-    {
-      "source": "Wiz Research",
-      "cohort": "cloud_identity_infrastructure",
-      "category": "cloud_identity_infrastructure",
-      "title": "Build Fast, Build Secure: Wiz findings are now in Lovable",
-      "link": "https://www.wiz.io/blog/introducing-wiz-lovable-integration",
-      "published": "2026-05-07T13:00:00+00:00",
-      "summary": "With Wiz in Lovable, every builder can catch and fix risks in real time, keeping apps secure as they’re created",
-      "author": "Roi Kessler",
-      "in_window": false,
-      "taxonomy": {
-        "threat_categories": [],
-        "actor_attribution": [],
-        "affected_industries": [],
-        "affected_products": [],
-        "tools_used": [],
-        "cve_ids": [],
-        "attack_techniques": [],
-        "urgency_signals": [],
-        "content_type": "low_signal",
-        "confidence_tier": "tier_2_operator",
-        "role_map": {},
         "weak_tags": {
           "products": []
         }
@@ -36825,7 +35390,7 @@
       "title": "M-Trends 2026: Data, Insights, and Strategies From the Frontlines",
       "link": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/",
       "published": "2026-03-23T14:00:00+00:00",
-      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fe9a3126eb0>), ('btn_text', 'Downl",
+      "summary": "Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block <ListValue: [StructValue([('title', 'M-Trends 2026 is available!'), ('body', <wagtail.rich_text.RichText object at 0x7fbdc9b2ed90>), ('btn_text', 'Downl",
       "author": "Jurgen Kutscher",
       "in_window": false,
       "taxonomy": {
