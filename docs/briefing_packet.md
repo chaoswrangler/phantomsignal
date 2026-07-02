@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-02T05:04:16.214489+00:00
+- Generated: 2026-07-02T08:20:09.238836+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 328
-- Total clusters raw: 156
-- Total clusters in packet: 72
-- Dropped low score: 84
+- Feeds OK: 76
+- Total items in window: 330
+- Total clusters raw: 160
+- Total clusters in packet: 71
+- Dropped low score: 89
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -85,41 +85,36 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 0
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Trend Micro Research** (threat_research_primary)
   - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 4
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
@@ -140,11 +135,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 15
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,40 +150,50 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
-  - In window count: 0
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
+  - In window count: 0
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
+  - Status: ok
+  - Item count: 78
+  - In window count: 0
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
@@ -200,20 +205,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
+  - In window count: 0
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
   - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
@@ -230,56 +230,56 @@
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Protect AI** (ai_security_agentic_risk)
-  - URL: https://protectai.com/blog/rss.xml
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
+- **Protect AI** (ai_security_agentic_risk)
+  - URL: https://protectai.com/blog/rss.xml
   - Status: ok
-  - Item count: 20
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 7
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -295,6 +295,16 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
@@ -305,48 +315,33 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 18
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 18
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -355,8 +350,8 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -365,6 +360,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 29
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
@@ -375,26 +375,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 9
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 24
+  - Item count: 15
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -405,13 +395,23 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/msp** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/msp/.rss
+- **Reddit r/sysadmin** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/sysadmin** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/sysadmin/.rss
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Reddit r/msp** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,26 +425,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 100
+  - In window count: 24
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
   - Item count: 25
-  - In window count: 10
+  - In window count: 11
 - **Embrace the Red** (ai_security_agentic_risk)
   - URL: https://embracethered.com/blog/index.xml
   - Status: ok
@@ -459,7 +459,7 @@
   - URL: https://risky.biz/feeds/risky-business-news/
   - Status: ok
   - Item count: 100
-  - In window count: 6
+  - In window count: 7
 - **Just Security** (policy_strategy_geopolitics)
   - URL: https://www.justsecurity.org/feed/
   - Status: ok
@@ -500,14 +500,14 @@
 - Theme key: shinyhunters
 - Cluster count: 4
 - Article count: 4
-- Cohesion: 0.286
+- Cohesion: 0.28
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
   - threat_categories: ransomware_extortion, zero_day, phishing_social_eng, data_breach, active_exploitation
   - actor_attribution: ShinyHunters
-  - affected_industries: financial_services, healthcare
+  - affected_industries: financial_services
   - cve_ids: CVE-2026-35273
   - urgency_signals: zero_day, preauth_unauth
 - Cluster IDs: 3db35f97c6, 498473218f, a36f6c9249, 57ef1249ed
@@ -531,9 +531,9 @@
 - Cluster IDs: 58774f7de3, de6119ec2c, 4541afab04, e1538c3d0e
 - Links:
   - https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
-  - https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-  - https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
+  - https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
   - https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/
+  - https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
   - https://isc.sans.edu/diary/rss/33114
   - https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/
   - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
@@ -600,6 +600,30 @@
   - https://orca.security/resources/blog/best-vulnerability-management-tools/
   - https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
 
+### ransomware extortion targeting AWS
+- Anchor signal: AWS
+- Theme key: aws
+- Cluster count: 3
+- Article count: 8
+- Cohesion: 0.2
+- Shared strong signals: AWS
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, phishing_social_eng, credential_theft
+  - affected_industries: financial_services
+  - affected_products: AWS, OpenAI/ChatGPT
+  - urgency_signals: poc_available
+- Cluster IDs: 93502a2013, a0bb1916a8, 57ef1249ed
+- Links:
+  - https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/
+  - https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
+  - https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything
+  - https://embracethered.com/blog/posts/2026/toctou-agent-what-you-click-is-not-what-you-get/
+  - https://tldrsec.com/p/tldr-sec-334
+  - https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited
+  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
+
 ### Kubernetes vulnerability activity
 - Anchor signal: Kubernetes
 - Theme key: kubernetes
@@ -617,30 +641,6 @@
   - https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
   - https://orca.security/resources/blog/best-vulnerability-management-tools/
   - https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-
-### ransomware extortion targeting AWS
-- Anchor signal: AWS
-- Theme key: aws
-- Cluster count: 3
-- Article count: 8
-- Cohesion: 0.2
-- Shared strong signals: AWS
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng
-  - affected_industries: financial_services
-  - affected_products: AWS, OpenAI/ChatGPT
-  - urgency_signals: poc_available
-- Cluster IDs: 93502a2013, a0bb1916a8, 57ef1249ed
-- Links:
-  - https://research.checkpoint.com/2026/browser-only-ransomware-from-llm-hallucinations-to-a-practical-attack-technique/
-  - https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html
-  - https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything
-  - https://embracethered.com/blog/posts/2026/toctou-agent-what-you-click-is-not-what-you-get/
-  - https://tldrsec.com/p/tldr-sec-334
-  - https://webflow.sysdig.com/blog/understanding-langflow-cve-2026-55255-and-why-higher-cvss-vulnerabilities-arent-always-the-most-exploited
-  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
 
 ### Apple iOS/macOS vulnerability activity
 - Anchor signal: Apple iOS/macOS
@@ -707,28 +707,29 @@
   - https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html
   - https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
 
-### ransomware extortion targeting Salesforce
-- Anchor signal: Salesforce
-- Theme key: salesforce
+### Microsoft 365 vulnerability activity
+- Anchor signal: Microsoft 365
+- Theme key: microsoft-365
 - Cluster count: 2
-- Article count: 2
+- Article count: 4
 - Cohesion: 0.2
-- Shared strong signals: Salesforce
+- Shared strong signals: Microsoft 365
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-  - affected_products: Salesforce
-  - urgency_signals: zero_day
-- Cluster IDs: 57ef1249ed, f2b3bd6ba4
+  - affected_products: Microsoft 365
+- Cluster IDs: 26d1b14830, 5472a00679
 - Links:
-  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
-  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  - https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+  - https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/
 
 ## Forward signals
 
 ### Novelty
-- Novel cves: 0
+- Novel cves: 1
+  - CVE-2025-11371 (first seen via The Hacker News at 2026-07-02T05:46:45+00:00, cluster 26d1b14830)
 - Novel actors: 0
 - Novel products: 0
 
@@ -748,17 +749,12 @@
 - Pair: CVE-2026-46817 + ShinyHunters (cluster 3db35f97c6, first observation: True)
 - Pair: CVE-2026-33825 + Azure (cluster cbf58da82f, first observation: True)
 - Pair: CVE-2026-33825 + Ubiquiti UniFi (cluster cbf58da82f, first observation: True)
+- Pair: CVE-2025-11371 + Microsoft 365 (cluster 26d1b14830, first observation: True)
+- Pair: CVE-2025-11371 + Microsoft SharePoint (cluster 26d1b14830, first observation: True)
+- Pair: CVE-2026-45659 + Microsoft 365 (cluster 26d1b14830, first observation: True)
 - Pair: CVE-2026-20245 + ShinyHunters (cluster 498473218f, first observation: True)
-- Pair: CVE-2026-20245 + Ubiquiti UniFi (cluster 498473218f, first observation: True)
-- Pair: CVE-2026-34908 + ShinyHunters (cluster 498473218f, first observation: True)
-- Pair: CVE-2026-34908 + Anthropic/Claude (cluster 498473218f, first observation: True)
 
-### Drift (1)
-- **Scattered Spider** (cluster 31e5b2aa9f)
-  - New industries: (none)
-  - New products: OpenAI/ChatGPT
-  - Prior top industries: financial_services, government, healthcare
-  - Prior top products: AWS, Apple iOS/macOS, npm
+### Drift (0)
 
 ### Persistence (8)
 - actor_attribution: ShinyHunters (weeks observed: 5, cluster 3db35f97c6)
@@ -831,7 +827,7 @@ Welcome back to another watchTowr Labs blog post. This time, we're looking at Pr
   - Link: https://www.reddit.com/r/netsec/comments/1uj2a4w/enterprise_tech_in_shell_out_progress_kemp/
   - Summary: submitted by /u/dx7r__ [link] [comments]
 
-### Cluster aadab8aa23 — score 47
+### Cluster aadab8aa23 — score 46
 
 - Title: Langflow RCE Actively Exploited to Deploy Cryptominers on AI Infrastructure
 - Source: Orca Security Research (cloud_identity_infrastructure)
@@ -1081,6 +1077,58 @@ A Microsoft Defender vulnerability tracked as BlueHammer and CVE-2026-33825 is b
   - Link: https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/
   - Summary: The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released. The post BlueHammer Vulnerability Exploited in Ransomware Attacks appeared first on SecurityWeek .
 
+### Cluster 26d1b14830 — score 21
+
+- Title: SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-02T05:46:45+00:00
+- Link: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: CVE-2026-45659, Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng, ransomware_extortion
+- affected_industries: government
+- affected_products: Microsoft 365, Microsoft SharePoint
+- cve_ids: CVE-2025-11371, CVE-2026-45659
+- content_type: news_report, vulnerability_disclosure
+- confidence_tier: tier_1_primary_research, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion
+- affected_industries: government
+- affected_products: Microsoft SharePoint
+- cve_ids: CVE-2026-45659, CVE-2025-11371
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue
+```
+
+#### Full body
+
+```
+SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation  Ravie Lakshmanan  Jul 02, 2026 Vulnerability / Threat Intelligence The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue was addressed by Microsoft in May 2026 for SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Enterprise Server 2016. Microsoft noted that any authenticated attacker could trigger the vulnerability, and that it does not require admin or other elevated privileges. In a network-based attack, an authenticated attacker with a minimum of Site Member permissions (PR:L) could leverage it to execute code remotely on the SharePoint Server. "Microsoft SharePoint Server contains a deserialization of untrusted data vulnerability which allows an authorized attacker to execute code over a network," CISA said . According to the Windows maker's advisory, the flaw has been tagged with an "Exploitation Less Likely" assessment. It's currently not known how the vulnerability is being exploited, who is behind the activity, and what the end goals of these efforts are. In light of active exploitation, Federal Civilian Executive Branch (FCEB) agencies are advised to apply the fixes by July 4, 2026. Microsoft Uncovers Parallel Threat Activity from 2 Clusters Late last month, Microsoft revealed that a routine ransomware investigation uncovered two unrelated attackers operating simultaneously within the same network, while adopting deliberate techniques to establish persistent access and complicate incident response efforts. One set of attacks has been attributed to Storm-2603 , a threat actor known for deploying Warlock ransomware often by exploiting known vulnerabilities in on-premises SharePoint servers since mid-2025 . "In this case, initial access was likely attempted through a separate vulnerability, with requests for files like win.ini and web.config, indicating probing for local file inclusion," Microsoft said. Evidence points to it being CVE-2025-11371 (CVSS score: 9.1), a critical flaw impacting Gladinet Triofox. Upon gaining initial access, the threat actor is said to have deployed tools like Velociraptor to blend malicious activity with trusted administrative behavior, as well as established multiple remote access channels through Cloudflare tunneling, Zoho Assist, and Secure Shell (SSH) connections configured through Visual Studio Code. The attack also escalated privileges by creating new local and domain administrator accounts, while a vulnerable driver ("NSecKrnl.sys") acted as a conduit for tampering with endpoint security protections to help reduce their visibility. In tandem, Microsoft said it uncovered signs of a second, unrelated threat actor co-existing in the same environment using DLL side-loading and custom backdoors, thereby making attribution more challenging. Further investigation uncovered that the attackers had moved laterally beyond the first network and into a second organization, which confirmed they had been compromised by the same ransomware activity attributed to Storm-2603. "Together, these overlapping activity streams enabled sustained access while masking the full scope of the intrusion," the Microsoft Incident Response team said. "The blend of known ransomware tactics and hidden techniques allowed the threat actors to establish deep and lasting access." "What may appear to be a single ransomware incident can quickly expand into something more complex-spanning organizations, blending tactics, and even involving multiple threat actors operating in parallel. For security teams, the implication is clear: isolated signals rarely tell the full story." Found this
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation
+  - Published: 2026-07-02T05:46:45+00:00
+  - Link: https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+  - Summary: The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue
+- **Cisco Talos** (threat_research_primary)
+  - Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
+  - Published: 2026-07-01T10:00:38+00:00
+  - Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  - Summary: Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
+
 ### Cluster 58774f7de3 — score 20
 
 - Title: Inside the Advisory Database and what happens when vulnerability volume breaks records
@@ -1093,7 +1141,7 @@ A Microsoft Defender vulnerability tracked as BlueHammer and CVE-2026-33825 is b
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
-- threat_categories: supply_chain, vulnerability_disclosure
+- threat_categories: vulnerability_disclosure
 - affected_products: GitHub, PyPI, npm
 - urgency_signals: poc_available
 - content_type: news_report, vulnerability_disclosure
@@ -1125,20 +1173,20 @@ Madison Ficorilli · @taladrane June 29, 2026 | Updated July 1, 2026 | 10 minute
   - Link: https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
   - Summary: The GitHub Advisory Database is processing more vulnerability reports than ever before. Here's what's driving the surge, how we're responding, and how the community can help. The post Inside the Advisory Database and what happens when vulnerability volume breaks records appeared first on The GitHub Blog .
 - **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack
-  - Published: 2026-06-26T11:05:45+00:00
-  - Link: https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
-  - Summary: Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propagated to the Go ecosystem. "The latest activity includes malicious npm releases affecting LeoPlatform and RStreams packages, GitHub Actions workflow abuse, and a related Go
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: New ChocoPoC malware targets researchers via trojanized PoC exploits
-  - Published: 2026-07-01T20:08:13+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
-  - Summary: Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a campaign believed to target cybersecurity researchers. [...]
+  - Title: New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos
+  - Published: 2026-07-02T07:24:23+00:00
+  - Link: https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html
+  - Summary: Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and
 - **Help Net Security** (cyber_news_breach_reporting)
   - Title: GitHub’s new tool helps prevent costly open-source license violations
   - Published: 2026-07-02T04:00:33+00:00
   - Link: https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/
   - Summary: GitHub’s Open Source Program Office (OSPO) uses the new GitHub License Compliance feature, now in public preview, to manage thousands of open-source dependencies and identify dependencies whose licenses require review. The feature is available to GitHub Advanced Security customers and allows them to review new dependencies in pull requests, verify that their licenses comply with organizational policies, and approve new licenses or package-specific exceptions when needed. GitHub Enterprise Cloud customers can use the License Compliance … More → The post GitHub’s new tool helps prevent costly open-source license violations appeared first on Help Net Security .
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: New ChocoPoC malware targets researchers via trojanized PoC exploits
+  - Published: 2026-07-01T20:08:13+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
+  - Summary: Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a campaign believed to target cybersecurity researchers. [...]
 
 ### Cluster eb301db5d3 — score 19
 
@@ -1349,63 +1397,6 @@ CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Link: https://tldrsec.com/p/tldr-sec-334
   - Summary: OSS tool to prevent supply chain attacks without client-side firewalls, OpenAI announces new GPT-5.5-Cyber, Codex Security plugin updates, and more, can AI agents compromise an AWS cyber range without tripping canaries?
 
-### Cluster c062e7f12d — score 17
-
-- Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-01T10:00:38+00:00
-- Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Microsoft 365, Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Cisco, Microsoft SharePoint
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
-```
-
-#### Full body
-
-```
-ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365 By Michael Kelley Wednesday, July 1, 2026 06:00 Threat Advisory Cisco Talos identified a fully-featured phishing-as-a-service (PhaaS) operator panel, branded "ARToken," that shares infrastructure, API contracts, and operational patterns with the EvilTokens platform documented by Sekoia and Microsoft in early 2026. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Analysis of the platform's publicly served JavaScript bundle reveals the complete post-compromise toolkit available to affiliates, including capabilities not previously detailed in public reporting on EvilTokens. The phishing kit deploys a seven-layer anti-analysis system combining client-side behavioral verification with XOR-encrypted payloads, a more sophisticated evasion approach than the server-side X-Antibot-Token mechanism documented in prior EvilTokens research. Background: EvilTokens and device code phishing-as-a-service In March 2026, Sekoia published a two-part analysis of EvilTokens, a PhaaS platform that abuses Microsoft's OAuth 2.0 Device Authorization Grant (RFC 8628) to capture victim tokens while bypassing multi-factor authentication (MFA) entirely. Microsoft confirmed the campaign's scale in April 2026, noting significantly higher success rates than previous device code attacks, AI-powered personalized lures, and a post-compromise pipeline that included automated device registration for persistent access. By the time of Microsoft's publication, Sekoia had documented approximately 500 Cloudflare Workers domains and over 1,000 total phishing pages operating under the EvilTokens umbrella, with affiliates targeting finance professionals, HR staff, and logistics personnel across global regions. EvilTokens' second-stage capabilities, revealed in Sekoia's Part 2 research , include an AI-augmented BEC pipeline chaining Groq-hosted Llama models for financial exposure scoring and GPT-4o-mini for email translation, producing three tailored BEC scenarios per compromised mailbox. The platform sells access at $1,500 one-time plus $500/month, with a standalone "Portal Browser" for $500 lifetime. The lure in the wild: Vendor-impersonation invoice fraud Most public reporting on EvilTokens covers the panel and the kit. What it has not shown is how an ARToken lure actually reaches an inbox. Talos recovered two near-identical messages, sent roughly four minutes apart on April 20, 2026, that initiate the chain. The tradecraft is targeted, not spray-and-pray. Figure 1. A sample ARToken phishing email The messages spoof an accounts-payable contact at a legitimate Wisconsin contractor, addressed to an accounts-payable recipient at a U.S. life-sciences company — abusing a real vendor relationship rather than inventing a sender. The lure theme is an outstanding-invoice query ("the following invoices appear to still be outstanding… advise when this will be processed"), the kind of message accounts-payable staff are conditioned to act on. Other features of note in this email include: The From header presents the vendor's real domain, but Reply-To quietly redirects replies to an unrelated domain — a classic reply-pivot that keeps any victim response away from the spoofed organization. All three checks fail: SPF, DKIM (body-hash mismatch), and DMARC (compauth=none reason=405). The display identity is not authenticated from the sending path. Each message carries short random hex strings and an inline signature image (pumber.png), consistent with light per-message mutation to frustrate exact-match content rules. The visible anchor text reads as the vendor's genuine SharePoint tenant: “https[:]//mononapfp.sharepoint[.]com/:f:/document/INV-IgCx1X50pgUjR7iAjZL2fuQaAW4GfKVs6wHT3BYv9sgwW7g” However, the actual hr
-```
-
-#### Corroborating sources (3)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
-  - Published: 2026-07-01T10:00:38+00:00
-  - Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-  - Summary: Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
-- **Huntress** (detection_response_operations)
-  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
-  - Published: 2026-06-29T14:00:00+00:00
-  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
-  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: The ARToken phishing panel targets Microsoft 365 accounts
-  - Published: 2026-07-01T10:00:41+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/
-  - Summary: Accounts-payable staff at U.S. companies keep receiving invoice emails that look like they come from vendors they already work with. One landed at a life-sciences company in April 2026, addressed to the person who handles payments and written in the voice of a Wisconsin contractor’s billing contact. It asked about invoices that appeared to still be outstanding, the sort of note an accounts-payable team handles every day. Behind it sits a phishing operation Cisco Talos … More → The post The ARToken phishing panel targets Microsoft 365 accounts appeared first on Help Net Security .
-
 ### Cluster a0bb1916a8 — score 16
 
 - Title: Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited
@@ -1542,56 +1533,6 @@ Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Steal
   - Link: https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
   - Summary: The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.
 
-### Cluster df28d0fe5c — score 16
-
-- Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T19:40:06+00:00
-- Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Kubernetes
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
-- urgency_signals: no_patch_yet, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
-- urgency_signals: preauth_unauth, no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
-```
-
-#### Full body
-
-```
-Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters  Swati Khandelwal  Jul 01, 2026 Kubernetes / Server Security Argo CD , a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv , which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in January 2025; roughly eighteen months later, it remains unpatched, so it published the details to warn users. The bug sits in repo-server, the Argo CD component that reads Git repositories and builds Kubernetes manifests, the files that define what the cluster deploys. Its internal gRPC service has no authentication; anyone who can reach it can send a crafted request to run a command. Synacktiv demonstrated the attack against Argo CD v2.13.3 and reports no patched release; it did not publish a full list of affected versions. The technique abuses kustomize , a standard tool Argo CD runs to turn repository files into manifests. Kustomize has a --helm-command option that points to the helm binary it should call. Synacktiv found that an unauthenticated request to the repo-server's GenerateManifest service can set that option to a script instead, pulled from an attacker-controlled Git repository. When kustomize runs, it executes the script rather than helm. But "internal" does not mean isolated by default. Argo CD ships Kubernetes network policies that wall the repo-server off from everything except its own components. Synacktiv found the Helm chart, a common way to install Argo CD, leaves those policies off by default , with networkPolicy.create set to false. In that setup, an attacker who compromises a single pod in the cluster can reach the repo-server and trigger the bug. Running code on the repo-server is not the end of it. Synacktiv used that access to read the cluster's Redis password from an environment variable, connect to Argo CD's Redis cache, and poison the stored deployment data. On the next automatic sync, Argo CD deployed an attacker-supplied workload. That step revives CVE-2024-31989 , a 2024 flaw Cycode found where Argo CD's Redis had no password, letting any pod in the cluster poison the deployment cache. Argo CD fixed that by adding a Redis password, but the cache itself is still not signed, so stealing the password back reopens the same attack. What to do There is no patched version, so the defense is network isolation. Turn on Kubernetes network policies so only Argo CD's own components can reach the repo-server and Redis ports. Argo CD provides the policy files; Helm users have to enable them because the chart leaves them off. Check what is active with: kubectl get networkpolicy -A. A healthy install shows one network policy per component, including the repo-server and Redis. If those policies are missing, the repo-server and Redis ports are reachable from the rest of the cluster. Synacktiv built a tool, argo-cdown, that automates the full attack. It is holding the tool back for now to give defenders time to lock down their network policies, and says it will publish it on GitHub later so administrators can test their own deployments. This is not Argo CD's first exposure of its own internals. In September 2025, it patched CVE-2025-55190 , where an API token with only basic read access could pull back a project's Git repository credentials, a flaw that The Hacker News flagged at the time . In May 2026, another bug, CVE-2026-42880 , allowed read-only users to read plaintext Kubernetes secrets. The pattern is hard to miss: Argo CD concentrates cluster access and repository secrets, and its internal surfaces keep handing them out, to an unauthenticated request in one bug and a low-privilege token in the next. Until a patch ships, treating the cluster network as hostile is the onl
-```
-
-#### Corroborating sources (2)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
-  - Published: 2026-07-01T19:40:06+00:00
-  - Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-  - Summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - Title: Kubernetes Compliance Tools: Automating CIS Benchmarks
-  - Published: 2026-06-29T17:19:10+00:00
-  - Link: https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
-  - Summary: Kubernetes compliance tools automate the enforcement of CIS Benchmarks, enabling teams to continuously validate cluster configurations against industry-accepted security baselines without slowing release velocity. The right tooling replaces manual audits with policy-driven checks that run across the CI/CD pipeline, from build to runtime, catching misconfigurations before they reach production. Maintaining multi-cloud compliance across dozens or […]
-
 ### Cluster c409634b31 — score 15
 
 - Title: Incident Report: CVE-2026-LGTM
@@ -1683,6 +1624,56 @@ Advertisement Subscribe to our daily newsletter. Subscribe Close Citrix publishe
   - Published: 2026-06-30T21:46:38+00:00
   - Link: https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
   - Summary: The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs. The post Citrix patches a new NetScaler flaw with echoes of CitrixBleed appeared first on CyberScoop .
+
+### Cluster df28d0fe5c — score 15
+
+- Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T19:40:06+00:00
+- Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Kubernetes
+
+#### Cluster taxonomy (union across members)
+- affected_products: Kubernetes
+- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
+- urgency_signals: no_patch_yet, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- affected_products: Kubernetes
+- cve_ids: CVE-2024-31989, CVE-2025-55190, CVE-2026-42880
+- urgency_signals: preauth_unauth, no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
+```
+
+#### Full body
+
+```
+Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters  Swati Khandelwal  Jul 01, 2026 Kubernetes / Server Security Argo CD , a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv , which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in January 2025; roughly eighteen months later, it remains unpatched, so it published the details to warn users. The bug sits in repo-server, the Argo CD component that reads Git repositories and builds Kubernetes manifests, the files that define what the cluster deploys. Its internal gRPC service has no authentication; anyone who can reach it can send a crafted request to run a command. Synacktiv demonstrated the attack against Argo CD v2.13.3 and reports no patched release; it did not publish a full list of affected versions. The technique abuses kustomize , a standard tool Argo CD runs to turn repository files into manifests. Kustomize has a --helm-command option that points to the helm binary it should call. Synacktiv found that an unauthenticated request to the repo-server's GenerateManifest service can set that option to a script instead, pulled from an attacker-controlled Git repository. When kustomize runs, it executes the script rather than helm. But "internal" does not mean isolated by default. Argo CD ships Kubernetes network policies that wall the repo-server off from everything except its own components. Synacktiv found the Helm chart, a common way to install Argo CD, leaves those policies off by default , with networkPolicy.create set to false. In that setup, an attacker who compromises a single pod in the cluster can reach the repo-server and trigger the bug. Running code on the repo-server is not the end of it. Synacktiv used that access to read the cluster's Redis password from an environment variable, connect to Argo CD's Redis cache, and poison the stored deployment data. On the next automatic sync, Argo CD deployed an attacker-supplied workload. That step revives CVE-2024-31989 , a 2024 flaw Cycode found where Argo CD's Redis had no password, letting any pod in the cluster poison the deployment cache. Argo CD fixed that by adding a Redis password, but the cache itself is still not signed, so stealing the password back reopens the same attack. What to do There is no patched version, so the defense is network isolation. Turn on Kubernetes network policies so only Argo CD's own components can reach the repo-server and Redis ports. Argo CD provides the policy files; Helm users have to enable them because the chart leaves them off. Check what is active with: kubectl get networkpolicy -A. A healthy install shows one network policy per component, including the repo-server and Redis. If those policies are missing, the repo-server and Redis ports are reachable from the rest of the cluster. Synacktiv built a tool, argo-cdown, that automates the full attack. It is holding the tool back for now to give defenders time to lock down their network policies, and says it will publish it on GitHub later so administrators can test their own deployments. This is not Argo CD's first exposure of its own internals. In September 2025, it patched CVE-2025-55190 , where an API token with only basic read access could pull back a project's Git repository credentials, a flaw that The Hacker News flagged at the time . In May 2026, another bug, CVE-2026-42880 , allowed read-only users to read plaintext Kubernetes secrets. The pattern is hard to miss: Argo CD concentrates cluster access and repository secrets, and its internal surfaces keep handing them out, to an unauthenticated request in one bug and a low-privilege token in the next. Until a patch ships, treating the cluster network as hostile is the onl
+```
+
+#### Corroborating sources (2)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters
+  - Published: 2026-07-01T19:40:06+00:00
+  - Link: https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+  - Summary: Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - Title: Kubernetes Compliance Tools: Automating CIS Benchmarks
+  - Published: 2026-06-29T17:19:10+00:00
+  - Link: https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
+  - Summary: Kubernetes compliance tools automate the enforcement of CIS Benchmarks, enabling teams to continuously validate cluster configurations against industry-accepted security baselines without slowing release velocity. The right tooling replaces manual audits with policy-driven checks that run across the CI/CD pipeline, from build to runtime, catching misconfigurations before they reach production. Maintaining multi-cloud compliance across dozens or […]
 
 ### Cluster de6119ec2c — score 15
 
@@ -1781,53 +1772,6 @@ Back to Blog Artificial Intelligence Modernizing Global Vulnerability Standards 
   - Published: 2026-06-29T12:37:04+00:00
   - Link: https://www.rapid7.com/blog/post/ai-modernizing-global-vulnerability-standards
   - Summary: As AI-driven vulnerability discovery accelerates, the cybersecurity ecosystem is being forced to examine whether the standards, disclosure processes, and prioritization frameworks defenders rely on can still keep pace. Many of those systems were built around human-speed discovery, manageable vulnerability volumes, and exploitability confirmed after the fact, which leaves them under increasing strain as frontier AI capabilities mature. During a private sector consultation with the White House in June, Corey Thomas and I presented Rapid7’s new policy paper, Modernizing Global Vulnerability Standards , which lays out where today’s vulnerability management infrastructure is breaking under AI-era conditions and what governments, security companies, and frontier AI providers need to do next. In recent guidance, the Five Eyes cyber security agencies warned that AI is rapidly transforming cyber risk by increasing the speed, scale, and sophistication of threats, lowering barriers for malicious
-
-### Cluster 4541afab04 — score 13
-
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Android, Palo Alto Networks, npm
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: healthcare, financial_services, government
-- affected_products: npm, Android, Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-```
-
-#### Full body
-
-```
-Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
 
 ### Cluster c63166a0d1 — score 13
 
@@ -2051,9 +1995,9 @@ Medtronic notifies customers impacted by ShinyHunters data breach By Bill Toulas
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion, zero_day
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion, zero_day
 - actor_attribution: ShinyHunters
-- affected_industries: education, financial_services, healthcare
+- affected_industries: education, financial_services, government
 - affected_products: AWS, Apple iOS/macOS, Salesforce
 - cve_ids: CVE-2026-35273
 - urgency_signals: zero_day
@@ -2061,10 +2005,10 @@ Medtronic notifies customers impacted by ShinyHunters data breach By Bill Toulas
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, zero_day, data_breach
 - actor_attribution: ShinyHunters
-- affected_industries: healthcare, financial_services, education
-- affected_products: Salesforce, Apple iOS/macOS, AWS
+- affected_industries: financial_services, government, education
+- affected_products: Salesforce, AWS, Apple iOS/macOS
 - cve_ids: CVE-2026-35273
 - urgency_signals: zero_day
 - content_type: incident_report
@@ -2079,7 +2023,7 @@ Nissan says employees' data was stolen via the Oracle PeopleSoft zero-day campai
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day News 30 June 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Nissan has disclosed that current and former employees may have had sensitive personal data stolen, including Social Security numbers, banking details and tax records, after attackers exploited a zero-day flaw in Oracle's PeopleSoft software. The carmaker said in a breach notification published on June 26 that Oracle had warned it of a cyber event affecting hundreds of companies, and that Nissan was specifically targeted. It believes the breach affected current and former staff in the US, Canada, Mexico and Brazil and exposed data, including national identification numbers and dependent or beneficiary information. Caught in a Mass PeopleSoft Campaign Nissan described the entry point only as an unknown vulnerability in Oracle PeopleSoft, the enterprise software it uses to run payroll and HR. The flaw, tracked as CVE-2026-35273, is a critical remote code execution bug that attackers exploited as a zero-day. The wider campaign has been linked to the ShinyHunters extortion group, which claimed to have hit more than 100 organizations, mostly universities. Oracle issued an out-of-band advisory and mitigations only after the attacks began. Nissan's filing put the breach on May 27 and June 9, the window in which the campaign ran. Most named victims so far have been universities, making Nissan one of the larger corporate names caught in it. Read more on ShinyHunters' campaigns: ShinyHunters Targets Hundreds of Websites in New Salesforce Campaign Sensitive Data and a Payroll Lockdown Beyond Social Security and national identification numbers, Nissan said the exposed information could include contact and banking details, financial and tax data plus dependent or beneficiary records. The company said it had secured its systems, was working with Oracle and would offer affected staff free credit or dark web monitoring where available. As a precaution, Nissan has restricted payroll access so that staff must use a network computer or secured VPN to view pay slips or change direct deposit details, and it is adding extra identity checks before processing payroll requests. It urged employees to watch for phishing, change reused passwords and enable multi-factor authentication (MFA). Simon Pamplin, CTO at data security firm Certes, called it "a mass-casualty event across hundreds of unrelated organizations," warning that patching the flaw does nothing for data already taken during the exploitation window. Nissan said its investigation was ongoing and that affected individuals would be contacted directly. Image credit: Luthfi Syahwal / Shutterstock.com You may also like Medtronic Confirms Data Breach After ShinyHunters Claims News 28 April 2026 New Data Theft Campaign Targets Salesforce via Salesloft App News 27 August 2025 Workday Reveals CRM Breach News 18 August 2025 Allianz Life Data Breach Exposes Personal Data of 1.1 Million Customers News 19 August 2025 Hackers Exploit Misconfigurations in Public Websites With Improperly Exposed AWS Credentials News 10 December 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Trust in Automated AI Vulnerability Scanning Collapses to 9%, New Study Finds News 25 June 2026 1 OpenAI Reveals GPT-5.6 Sol Cybersecurity Model, Restricts Early Access News 29 June 2026 2 ClickFix Now Cybercriminals' Favorite Malware Delivery Technique News 30 June 2026 3 Cisco Vulnerability Exploited Months Before Disclosure, Google Warns News 25 June 2026 4 Hackers Leverage Blockchain to Hit Japan's Hotels Through Booking.com Phishing News 30 June 2026 5 UK Healthcare Sector Records Tenfold Increase in Cyber-Attacks News 30 June 2026 6 macOS Flaw Lets Standard Users Disable EDR and MDM News 25 June 2026 1 Microsoft Attributes Mastra AI Supply
+Infosecurity Magazine Home » News » Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day News 30 June 2026 Written by Alessandro Mascellino News Reporter Email Alessandro Follow @a_mascellino Nissan has disclosed that current and former employees may have had sensitive personal data stolen, including Social Security numbers, banking details and tax records, after attackers exploited a zero-day flaw in Oracle's PeopleSoft software. The carmaker said in a breach notification published on June 26 that Oracle had warned it of a cyber event affecting hundreds of companies, and that Nissan was specifically targeted. It believes the breach affected current and former staff in the US, Canada, Mexico and Brazil and exposed data, including national identification numbers and dependent or beneficiary information. Caught in a Mass PeopleSoft Campaign Nissan described the entry point only as an unknown vulnerability in Oracle PeopleSoft, the enterprise software it uses to run payroll and HR. The flaw, tracked as CVE-2026-35273, is a critical remote code execution bug that attackers exploited as a zero-day. The wider campaign has been linked to the ShinyHunters extortion group, which claimed to have hit more than 100 organizations, mostly universities. Oracle issued an out-of-band advisory and mitigations only after the attacks began. Nissan's filing put the breach on May 27 and June 9, the window in which the campaign ran. Most named victims so far have been universities, making Nissan one of the larger corporate names caught in it. Read more on ShinyHunters' campaigns: ShinyHunters Targets Hundreds of Websites in New Salesforce Campaign Sensitive Data and a Payroll Lockdown Beyond Social Security and national identification numbers, Nissan said the exposed information could include contact and banking details, financial and tax data plus dependent or beneficiary records. The company said it had secured its systems, was working with Oracle and would offer affected staff free credit or dark web monitoring where available. As a precaution, Nissan has restricted payroll access so that staff must use a network computer or secured VPN to view pay slips or change direct deposit details, and it is adding extra identity checks before processing payroll requests. It urged employees to watch for phishing, change reused passwords and enable multi-factor authentication (MFA). Simon Pamplin, CTO at data security firm Certes, called it "a mass-casualty event across hundreds of unrelated organizations," warning that patching the flaw does nothing for data already taken during the exploitation window. Nissan said its investigation was ongoing and that affected individuals would be contacted directly. Image credit: Luthfi Syahwal / Shutterstock.com You may also like Medtronic Confirms Data Breach After ShinyHunters Claims News 28 April 2026 New Data Theft Campaign Targets Salesforce via Salesloft App News 27 August 2025 Workday Reveals CRM Breach News 18 August 2025 Allianz Life Data Breach Exposes Personal Data of 1.1 Million Customers News 19 August 2025 Hackers Exploit Misconfigurations in Public Websites With Improperly Exposed AWS Credentials News 10 December 2024 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Fileless Malware Abuses Google Blogspot to Deploy Infostealer in Memory News 1 July 2026 1 ClickFix Now Cybercriminals' Favorite Malware Delivery Technique News 30 June 2026 2 US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw News 29 June 2026 3 Brazilian Banking Trojan Ousaban Targets Spain and Portugal News 1 July 2026 4 The New Hacktivists: How Global Conflict Turned a Nuisance Into a Security Threat Opinion 1 July 2026 5 The Readiness Gap: What Wimbledon Reveals About Modern Cyber Defense Opinion 30 June 2026 6 Trust in Automated AI Vulnerability Scanning Collapses to 9%, New Study Finds News 25 June 2026 1 macOS Flaw Lets S
 ```
 
 #### Corroborating sources (1)
@@ -2135,6 +2079,53 @@ Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Da
   - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
   - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
 
+### Cluster 4541afab04 — score 12
+
+- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T07:20:51+00:00
+- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Android, Palo Alto Networks, npm
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: healthcare, financial_services, government
+- affected_products: npm, Android, Palo Alto Networks
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+```
+
+#### Full body
+
+```
+Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+  - Published: 2026-07-01T07:20:51+00:00
+  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+
 ### Cluster 353c2fa166 — score 12
 
 - Title: Get started with the Claude apps gateway for Google Cloud
@@ -2142,7 +2133,7 @@ Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Da
 - Published: 2026-07-01T16:00:00+00:00
 - Link: https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/
 - Fetch status: ok
-- Member count: 8
+- Member count: 7
 - Corroborating source count: 6
 - Strong signals: Anthropic/Claude
 
@@ -2203,6 +2194,92 @@ Developers & Practitioners Get started with the Claude apps gateway for Google C
   - Link: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
   - Summary: Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]
 
+### Cluster 5fe3559a01 — score 11
+
+- Title: The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-01T10:00:51+00:00
+- Link: https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: ScreenConnect
+
+#### Cluster taxonomy (union across members)
+- affected_industries: critical_infrastructure
+- affected_products: ScreenConnect
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: critical_infrastructure
+- affected_products: ScreenConnect
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky experts have uncovered a malicious network infrastructure for delivering AsyncRAT. The Trojan is dropped via compromised ScreenConnect software. In this post, we break down the infection chain and analyze the C2 infrastructure.
+```
+
+#### Full body
+
+```
+Threat Response Table of Contents Introduction Initial incident investigation How ScreenConnect entered the system Expanding the investigation Fake domain infrastructure Cluster 1: 162.216.241[.]242 and 198.23.185[.]81 Cluster 2: 2.59.134[.]97 C2 infrastructure analysis Takeaways Detection by Kaspersky solutions Indicators of compromise Loaders Malicious library: install.res.1033.dll AsyncRAT C2 Fake websites addresses Fake domain infrastructure ScreenConnect C2 Introduction To access compromised systems, threat actors frequently abuse legitimate remote monitoring tools. At first glance, these utilities rarely raise red flags: they are signed with valid digital certificates, often allowlisted under corporate IT policies, and fully supported by OS vendors. However, they grant attackers the ability to harvest data from target devices, drop malware, and move laterally across the network. During a recent investigation engagement, the Kaspersky Managed Detection and Response (MDR) team discovered the ScreenConnect remote access tool being leveraged to deploy and execute an AsyncRAT payload. A deep dive into this single incident unraveled a massive campaign distributing malicious installer archives hosted on spoofed websites. These installers masquerade as popular software like OBS Studio, DNS Jumper, DS4Windows, Bandicam, and others. In total, we uncovered more than 90 domain names localized across 10 languages. The malicious archives bundle a legitimate, signed Microsoft install.exe binary alongside a rogue install.res.1033.dll library. It is loaded onto the device via DLL sideloading and deploys the ScreenConnect service, which awaits further instructions from the threat actors. As a result, what initially appeared to be an isolated ScreenConnect incident served as the starting point for a full investigation into the threat actor’s C2 infrastructure. Every spoofed site we uncovered followed the exact same playbook: dropping a hidden ScreenConnect remote administration service under the guise of a legitimate software installer. This allowed the attackers to maintain control over compromised endpoints, with victims ranging from individual users to organizations. We continue to break down complex, multi-stage incidents like this in our ongoing The SOC Files series . In this post, we take a deep dive into the technical execution of the ScreenConnect attack and analyze the broader infrastructure under the threat actor’s control. Initial incident investigation The investigation was triggered by an alert from Kaspersky MDR, which flagged the creation and execution of suspicious PowerShell and VBS scripts spawned by a ScreenConnect process. About ScreenConnect ScreenConnect is a legitimate remote management utility. Kaspersky solutions detect it as not-a-virus:HEUR:RemoteAdmin.MSIL.ConnectWise.gen. ScreenConnect was running as an Access-type service — enabling direct remote connectivity — with the server explicitly passed via the command line: ScreenConnect service execution event with suspicious parameters Once running, ScreenConnect created and executed a PowerShell script named Fj5NmEsp9EuKrun.ps1 : Malicious PowerShell script creation Below is an excerpt from the contents of the script: Snippet of Fj5NmEsp9EuKrun.ps1 This script configures Microsoft Defender exclusions for the following objects: All disks in the system: C:\, D:\, and others All root directories on the C:\ drive, as well as the C:\Users\Public directory RegAsm.exe process Additionally, the script disables User Account Control (UAC) prompts by setting the ConsentPromptBehaviorAdmin registry parameter to 0. Following this setup, the ScreenConnect service goes on to create a VBScript file: Malicious VBScript creation The installer_method3_stream.vbs script creates five files in the C:\Users\Public directory ( msgbox.txt , secret_bytes.txt , 1.vb , cap.ps1 , and script.vbs ) and immediately triggers their execution by launching script.vbs . Contents of script.vbs This scr
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign
+  - Published: 2026-07-01T10:00:51+00:00
+  - Link: https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/
+  - Summary: Kaspersky experts have uncovered a malicious network infrastructure for delivering AsyncRAT. The Trojan is dropped via compromised ScreenConnect software. In this post, we break down the infection chain and analyze the C2 infrastructure.
+
+### Cluster 6980e28d76 — score 11
+
+- Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-06-25T10:00:59+00:00
+- Link: https://securelist.com/smb-threat-report-2026/120357/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude
+- content_type: intel_roundup
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Anthropic/Claude
+- content_type: intel_roundup
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
+```
+
+#### Full body
+
+```
+Table of Contents Key findings Malware and potentially unwanted applications (PUAs) disguised as popular services Other lures for SMBs: Fake communication apps and office software Scammers and phishers tricking victims into providing credentials and funds Email threats: Fake online documents and exploitation of legitimate platforms Corporate infrastructure access for sale: Posts on the dark web Share of posts with initial access offers by business size Cybersecurity action plan for SMBs Authors Vasily Kolesnikov Olga Altukhova Anna Lazaricheva Ekaterina Beloborodova Small and medium-sized businesses (SMBs) remain attractive targets for cybercriminals – in both mass cyberattacks and sophisticated campaigns targeting larger enterprises through trusted relationship attacks. At the same time, smaller businesses may lack the robust cybersecurity policies and necessary resources to protect themselves against an evolving threat landscape. Kaspersky believes that raising awareness can help small and medium-sized enterprises develop an effective protection strategy. Ahead of International SMB Day on June 27, Kaspersky presents the findings of its 2026 threat analysis for SMBs, which includes real-world examples of attacks. Key findings In the first four months of 2026, Kaspersky solutions detected over 33,300 cyberattacks on SMBs masquerading as popular artificial intelligence (AI) tools – almost five times more than in 2025 and 39% more than the number of attacks disguised as the office and collaboration tools that Kaspersky’s research focuses on. Popular messengers and communication services remained the attacker’s most widespread lure, with almost 415,000 attacks involving fake messenger apps and video conferencing software. The attackers follow trends: the AI tools Claude and OpenClaw (ex-ClawdBot/MoltBot), which have gained popularity in 2026, were among the common AI lures. Fraudsters use fake AI tools to scam businesses out of money, while corporate accounts on social media also remain targets. The majority of initial accesses to corporate infrastructures sold on the dark web are allegedly accesses to SMBs. This could be because SMBs tend not to be as well protected as large enterprises and, at the same time, may be trusted contractors for those well-protected enterprises. Malware and potentially unwanted applications (PUAs) disguised as popular services Kaspersky researchers used data from Kaspersky Security Network (KSN) to explore how frequently malicious and unwanted files are disguised as legitimate applications that may be used by SMBs. KSN is a system for processing anonymized cyberthreat-related data shared voluntarily by Kaspersky users. For this part of the report, only anonymized data received from users of Kaspersky solutions for SMBs were analyzed. According to a survey by the Small Business & Entrepreneurship Council (SBE Council), small business owners continue to embrace artificial intelligence and digital transformation as they maintain a generally positive outlook on the economy. Threat actors are also aware of the hype surrounding AI and exploit it for their own benefit. In particular, they actively distribute cyberthreats under the guise of popular AI services. From January to April 2026, Kaspersky solutions detected 33,352 attacks on SMB users in which malware or potentially unwanted applications for PCs were disguised as five popular AI services. This figure represents an increase of almost five times compared to the previous year. This highlights an evolving trend in which threat actors are weaponizing trust in widely used AI platforms and services, especially popular ones like Claude. Kaspersky experts note that it’s important to download apps from official sources and to verify which apps are available for which platforms. Share of attacks targeting SMBs in which malware or PUAs mimic the five popular, legitimate AI apps that Kaspersky’s research focuses on, first four months of 2025 and 2026 ( download
+```
+
+#### Corroborating sources (1)
+
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
+  - Published: 2026-06-25T10:00:59+00:00
+  - Link: https://securelist.com/smb-threat-report-2026/120357/
+  - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
+
 ### Cluster f2b3bd6ba4 — score 11
 
 - Title: 22nd June – Threat Intelligence Report
@@ -2251,172 +2328,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June 
   - Published: 2026-07-01T11:29:38+00:00
   - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
   - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
-
-### Cluster 5fe3559a01 — score 11
-
-- Title: The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-01T10:00:51+00:00
-- Link: https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: ScreenConnect
-
-#### Cluster taxonomy (union across members)
-- affected_industries: critical_infrastructure
-- affected_products: ScreenConnect
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: critical_infrastructure
-- affected_products: ScreenConnect
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky experts have uncovered a malicious network infrastructure for delivering AsyncRAT. The Trojan is dropped via compromised ScreenConnect software. In this post, we break down the infection chain and analyze the C2 infrastructure.
-```
-
-#### Full body
-
-```
-Threat Response Table of Contents Introduction Initial incident investigation How ScreenConnect entered the system Expanding the investigation Fake domain infrastructure Cluster 1: 162.216.241[.]242 and 198.23.185[.]81 Cluster 2: 2.59.134[.]97 C2 infrastructure analysis Takeaways Detection by Kaspersky solutions Indicators of compromise Loaders Malicious library: install.res.1033.dll AsyncRAT C2 Fake websites addresses Fake domain infrastructure ScreenConnect C2 Introduction To access compromised systems, threat actors frequently abuse legitimate remote monitoring tools. At first glance, these utilities rarely raise red flags: they are signed with valid digital certificates, often allowlisted under corporate IT policies, and fully supported by OS vendors. However, they grant attackers the ability to harvest data from target devices, drop malware, and move laterally across the network. During a recent investigation engagement, the Kaspersky Managed Detection and Response (MDR) team discovered the ScreenConnect remote access tool being leveraged to deploy and execute an AsyncRAT payload. A deep dive into this single incident unraveled a massive campaign distributing malicious installer archives hosted on spoofed websites. These installers masquerade as popular software like OBS Studio, DNS Jumper, DS4Windows, Bandicam, and others. In total, we uncovered more than 90 domain names localized across 10 languages. The malicious archives bundle a legitimate, signed Microsoft install.exe binary alongside a rogue install.res.1033.dll library. It is loaded onto the device via DLL sideloading and deploys the ScreenConnect service, which awaits further instructions from the threat actors. As a result, what initially appeared to be an isolated ScreenConnect incident served as the starting point for a full investigation into the threat actor’s C2 infrastructure. Every spoofed site we uncovered followed the exact same playbook: dropping a hidden ScreenConnect remote administration service under the guise of a legitimate software installer. This allowed the attackers to maintain control over compromised endpoints, with victims ranging from individual users to organizations. We continue to break down complex, multi-stage incidents like this in our ongoing The SOC Files series . In this post, we take a deep dive into the technical execution of the ScreenConnect attack and analyze the broader infrastructure under the threat actor’s control. Initial incident investigation The investigation was triggered by an alert from Kaspersky MDR, which flagged the creation and execution of suspicious PowerShell and VBS scripts spawned by a ScreenConnect process. About ScreenConnect ScreenConnect is a legitimate remote management utility. Kaspersky solutions detect it as not-a-virus:HEUR:RemoteAdmin.MSIL.ConnectWise.gen. ScreenConnect was running as an Access-type service — enabling direct remote connectivity — with the server explicitly passed via the command line: ScreenConnect service execution event with suspicious parameters Once running, ScreenConnect created and executed a PowerShell script named Fj5NmEsp9EuKrun.ps1 : Malicious PowerShell script creation Below is an excerpt from the contents of the script: Snippet of Fj5NmEsp9EuKrun.ps1 This script configures Microsoft Defender exclusions for the following objects: All disks in the system: C:\, D:\, and others All root directories on the C:\ drive, as well as the C:\Users\Public directory RegAsm.exe process Additionally, the script disables User Account Control (UAC) prompts by setting the ConsentPromptBehaviorAdmin registry parameter to 0. Following this setup, the ScreenConnect service goes on to create a VBScript file: Malicious VBScript creation The installer_method3_stream.vbs script creates five files in the C:\Users\Public directory ( msgbox.txt , secret_bytes.txt , 1.vb , cap.ps1 , and script.vbs ) and immediately triggers their execution by launching script.vbs . Contents of script.vbs This scr
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: The SOC Files: ScreenConnect masked as freeware. An inside look at a large-scale campaign
-  - Published: 2026-07-01T10:00:51+00:00
-  - Link: https://securelist.com/tr/the-soc-files-screenconnect-campaign-with-asyncrat/120472/
-  - Summary: Kaspersky experts have uncovered a malicious network infrastructure for delivering AsyncRAT. The Trojan is dropped via compromised ScreenConnect software. In this post, we break down the infection chain and analyze the C2 infrastructure.
-
-### Cluster 221aee19d6 — score 11
-
-- Title: OpenClaw: risks for the users and how to mitigate them
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-07-01T06:42:48+00:00
-- Link: https://securelist.com/openclaw-security/120484/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Researching OpenClaw vulnerabilities, malicious skills, and other security issues with the popular agent, and providing tips on how to mitigate them.
-```
-
-#### Full body
-
-```
-Table of Contents OpenClaw skills OpenClaw vulnerabilities Malicious skills Authors Kaspersky OpenClaw, which was previously known as Clawdbot and Moltbot, is today one of the most successful and fast‑growing ecosystems for AI agents, recognized worldwide. The project quickly became popular with users because of its flexibility and ability to solve fairly complex tasks that previously required a lot of time for automation and execution. A dedicated marketplace appeared quickly after the project started gaining traction, where developers and users began publishing tools that integrate with OpenClaw. Currently, employees all over the world use OpenClaw to automate their tasks, often unaware of risks this practice introduces to them and their employers. In this article we will examine several security aspects of OpenClaw, look at how attackers can target this system, which vulnerabilities are already known, and how to protect your organization against these issues. OpenClaw skills The project’s success was ensured by the fact that the agent accepts natural language instructions, does not require knowledge of programming languages, and allows the use of skills, which expand its capabilities. The overall architecture of OpenClaw can be seen below: The OpenClaw overall architecture As shown in the diagram, the system is designed to be used with agent skills. These skills can reside locally on the system where the agent is installed or they can be obtained from external sources. At the time of writing this article, a dedicated hub named “ClawHub” is used for sharing skills with other users. One of the key features of OpenClaw skills is that they are easy to create and do not require coding. A skill is in essence a set of commands written in natural language, although it can contain code. Currently, there is a general description of the skill format: it is usually a text file named SKILL.md , although more complex variants may exist. The primary requirement for these files is that they use a plaintext format. To illustrate what this looks like, here is a fragment of a skill: Openclaw skill example The applications for OpenClaw skills are quite broad and can include everyday tasks like checking email, performing routine operations and calculations on a computer, as well as more complex pipelines that handle testing, research, or software development. For most actions, the agent requires access to the operating system’s file system, as well as to the tokens and keys of the systems it will interact with. All necessary data are usually provided by users either through environment variables or in plaintext files located alongside the agent. Since many skills enable automation of work processes, employees worldwide actively use them. This fact, combined with the widespread adoption of the system and the overall popularity of artificial‑intelligence technologies, has attracted attackers to the project. OpenClaw vulnerabilities In less than two years, around 530 vulnerabilities have been discovered both in OpenClaw itself and in the underlying technologies. That said, the publication of OpenClaw vulnerabilities in the CVE database began only in February 2026. Below is a breakdown of these vulnerabilities by severity. Registered vulnerabilities ( download ) As shown in the chart, the number of high-severity vulnerabilities is quite large. Most of these vulnerabilities fundamentally involve issues with storing sensitive data and operating with excessively high privileges. Each of them can be exploited to hijack the agent or inject commands that it will execute. Malicious skills Besides exploiting vulnerabilities and deceiving users, there are more specific attack vectors against OpenClaw, namely, skills. Research logically draws a parallel between supply‑chain attacks and the distribution of malicious skills. However, unlike usual supply-chain attacks, creating malicious skills is trivial because there is no longer a need to develop custom malw
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: OpenClaw: risks for the users and how to mitigate them
-  - Published: 2026-07-01T06:42:48+00:00
-  - Link: https://securelist.com/openclaw-security/120484/
-  - Summary: Researching OpenClaw vulnerabilities, malicious skills, and other security issues with the popular agent, and providing tips on how to mitigate them.
-
-### Cluster 6980e28d76 — score 11
-
-- Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
-- Source: Kaspersky Securelist (threat_research_primary)
-- Published: 2026-06-25T10:00:59+00:00
-- Link: https://securelist.com/smb-threat-report-2026/120357/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude
-- content_type: intel_roundup
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Anthropic/Claude
-- content_type: intel_roundup
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
-```
-
-#### Full body
-
-```
-Table of Contents Key findings Malware and potentially unwanted applications (PUAs) disguised as popular services Other lures for SMBs: Fake communication apps and office software Scammers and phishers tricking victims into providing credentials and funds Email threats: Fake online documents and exploitation of legitimate platforms Corporate infrastructure access for sale: Posts on the dark web Share of posts with initial access offers by business size Cybersecurity action plan for SMBs Authors Vasily Kolesnikov Olga Altukhova Anna Lazaricheva Ekaterina Beloborodova Small and medium-sized businesses (SMBs) remain attractive targets for cybercriminals – in both mass cyberattacks and sophisticated campaigns targeting larger enterprises through trusted relationship attacks. At the same time, smaller businesses may lack the robust cybersecurity policies and necessary resources to protect themselves against an evolving threat landscape. Kaspersky believes that raising awareness can help small and medium-sized enterprises develop an effective protection strategy. Ahead of International SMB Day on June 27, Kaspersky presents the findings of its 2026 threat analysis for SMBs, which includes real-world examples of attacks. Key findings In the first four months of 2026, Kaspersky solutions detected over 33,300 cyberattacks on SMBs masquerading as popular artificial intelligence (AI) tools – almost five times more than in 2025 and 39% more than the number of attacks disguised as the office and collaboration tools that Kaspersky’s research focuses on. Popular messengers and communication services remained the attacker’s most widespread lure, with almost 415,000 attacks involving fake messenger apps and video conferencing software. The attackers follow trends: the AI tools Claude and OpenClaw (ex-ClawdBot/MoltBot), which have gained popularity in 2026, were among the common AI lures. Fraudsters use fake AI tools to scam businesses out of money, while corporate accounts on social media also remain targets. The majority of initial accesses to corporate infrastructures sold on the dark web are allegedly accesses to SMBs. This could be because SMBs tend not to be as well protected as large enterprises and, at the same time, may be trusted contractors for those well-protected enterprises. Malware and potentially unwanted applications (PUAs) disguised as popular services Kaspersky researchers used data from Kaspersky Security Network (KSN) to explore how frequently malicious and unwanted files are disguised as legitimate applications that may be used by SMBs. KSN is a system for processing anonymized cyberthreat-related data shared voluntarily by Kaspersky users. For this part of the report, only anonymized data received from users of Kaspersky solutions for SMBs were analyzed. According to a survey by the Small Business & Entrepreneurship Council (SBE Council), small business owners continue to embrace artificial intelligence and digital transformation as they maintain a generally positive outlook on the economy. Threat actors are also aware of the hype surrounding AI and exploit it for their own benefit. In particular, they actively distribute cyberthreats under the guise of popular AI services. From January to April 2026, Kaspersky solutions detected 33,352 attacks on SMB users in which malware or potentially unwanted applications for PCs were disguised as five popular AI services. This figure represents an increase of almost five times compared to the previous year. This highlights an evolving trend in which threat actors are weaponizing trust in widely used AI platforms and services, especially popular ones like Claude. Kaspersky experts note that it’s important to download apps from official sources and to verify which apps are available for which platforms. Share of attacks targeting SMBs in which malware or PUAs mimic the five popular, legitimate AI apps that Kaspersky’s research focuses on, first four months of 2025 and 2026 ( download
-```
-
-#### Corroborating sources (1)
-
-- **Kaspersky Securelist** (threat_research_primary)
-  - Title: Inside the 2026 SMB threat landscape: From phishing and scams to fake AI tools
-  - Published: 2026-06-25T10:00:59+00:00
-  - Link: https://securelist.com/smb-threat-report-2026/120357/
-  - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
-
-### Cluster fbb9c91ae0 — score 11
-
-- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-01T15:26:27+00:00
-- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-```
-
-#### Full body
-
-```
-Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-  - Published: 2026-07-01T15:26:27+00:00
-  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
 ### Cluster fcac4a62c3 — score 11
 
@@ -2498,6 +2409,45 @@ Table of contents What Is Vulnerability Management (and What Do VM Tools Do)? VM
   - Link: https://orca.security/resources/blog/best-vulnerability-management-tools/
   - Summary: Key Takeaways Security teams cannot patch everything. Published vulnerabilities crossed 40,000 in 2024 and climbed past 48,000 in 2025 (CVE Program / NVD data). The challenge isn’t finding vulnerabilities. It’s knowing which ones matter most. That’s why choosing the right vulnerability management tool is critical: the best platforms prioritize real risk instead of overwhelming teams […]
 
+### Cluster fbb9c91ae0 — score 11
+
+- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-01T15:26:27+00:00
+- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+```
+
+#### Full body
+
+```
+Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+  - Published: 2026-07-01T15:26:27+00:00
+  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+
 ### Cluster 3f8afe359f — score 11
 
 - Title: Major Increase in Ransomware Attacks Targeting Europe, Warns New Report
@@ -2544,49 +2494,6 @@ Infosecurity Magazine Home » News » Major Increase in Ransomware Attacks Targe
   - Published: 2026-06-25T10:45:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/increase-ransomware-europe/
   - Summary: Analysis of ransomware incidents by researchers at Black Kite found that attacks have risen by over 50% in the last year, with supply chain attacks increasing
-
-### Cluster 0148b0b7f4 — score 11
-
-- Title: Risky Bulletin: Researcher drops giant cache of zero-days
-- Source: Risky Business News (practitioner_analysis)
-- Published: 2026-07-01T06:55:07+00:00
-- Link: https://risky.biz/RBNEWS584/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_3_analysis
-
-#### Summary
-
-```
-An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
-```
-
-#### Full body
-
-```
-Risky Bulletin Podcast July 01, 2026 Risky Bulletin: Researcher drops giant cache of zero-days Presented by Catalin Cimpanu News Editor Claire Aird Newsreader An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider. Your browser does not support the audio element. Risky Bulletin: Researcher drops giant cache of zero-days â¶ 0:00 / 9:45 Subscribe Brought to you by Corelight Corelight: Evidence-Based NDR and Threat Hunting Platform Show notes Risky Bulletin: Researcher drops giant cache of zero-days
-```
-
-#### Corroborating sources (1)
-
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Researcher drops giant cache of zero-days
-  - Published: 2026-07-01T06:55:07+00:00
-  - Link: https://risky.biz/RBNEWS584/
-  - Summary: An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
 
 ### Cluster 1c995def22 — score 10
 
@@ -2842,42 +2749,46 @@ Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25,
   - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
   - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
 
-### Cluster e3e5c74bb1 — score 10
+### Cluster 221aee19d6 — score 10
 
-- Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-01T05:10:20+00:00
-- Link: https://isc.sans.edu/diary/rss/33118
-- Fetch status: fetch_failed:HTTPError
+- Title: OpenClaw: risks for the users and how to mitigate them
+- Source: Kaspersky Securelist (threat_research_primary)
+- Published: 2026-07-01T06:42:48+00:00
+- Link: https://securelist.com/openclaw-security/120484/
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- threat_categories: supply_chain
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- threat_categories: supply_chain
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+Researching OpenClaw vulnerabilities, malicious skills, and other security issues with the popular agent, and providing tips on how to mitigate them.
+```
+
+#### Full body
+
+```
+Table of Contents OpenClaw skills OpenClaw vulnerabilities Malicious skills Authors Kaspersky OpenClaw, which was previously known as Clawdbot and Moltbot, is today one of the most successful and fast‑growing ecosystems for AI agents, recognized worldwide. The project quickly became popular with users because of its flexibility and ability to solve fairly complex tasks that previously required a lot of time for automation and execution. A dedicated marketplace appeared quickly after the project started gaining traction, where developers and users began publishing tools that integrate with OpenClaw. Currently, employees all over the world use OpenClaw to automate their tasks, often unaware of risks this practice introduces to them and their employers. In this article we will examine several security aspects of OpenClaw, look at how attackers can target this system, which vulnerabilities are already known, and how to protect your organization against these issues. OpenClaw skills The project’s success was ensured by the fact that the agent accepts natural language instructions, does not require knowledge of programming languages, and allows the use of skills, which expand its capabilities. The overall architecture of OpenClaw can be seen below: The OpenClaw overall architecture As shown in the diagram, the system is designed to be used with agent skills. These skills can reside locally on the system where the agent is installed or they can be obtained from external sources. At the time of writing this article, a dedicated hub named “ClawHub” is used for sharing skills with other users. One of the key features of OpenClaw skills is that they are easy to create and do not require coding. A skill is in essence a set of commands written in natural language, although it can contain code. Currently, there is a general description of the skill format: it is usually a text file named SKILL.md , although more complex variants may exist. The primary requirement for these files is that they use a plaintext format. To illustrate what this looks like, here is a fragment of a skill: Openclaw skill example The applications for OpenClaw skills are quite broad and can include everyday tasks like checking email, performing routine operations and calculations on a computer, as well as more complex pipelines that handle testing, research, or software development. For most actions, the agent requires access to the operating system’s file system, as well as to the tokens and keys of the systems it will interact with. All necessary data are usually provided by users either through environment variables or in plaintext files located alongside the agent. Since many skills enable automation of work processes, employees worldwide actively use them. This fact, combined with the widespread adoption of the system and the overall popularity of artificial‑intelligence technologies, has attracted attackers to the project. OpenClaw vulnerabilities In less than two years, around 530 vulnerabilities have been discovered both in OpenClaw itself and in the underlying technologies. That said, the publication of OpenClaw vulnerabilities in the CVE database began only in February 2026. Below is a breakdown of these vulnerabilities by severity. Registered vulnerabilities ( download ) As shown in the chart, the number of high-severity vulnerabilities is quite large. Most of these vulnerabilities fundamentally involve issues with storing sensitive data and operating with excessively high privileges. Each of them can be exploited to hijack the agent or inject commands that it will execute. Malicious skills Besides exploiting vulnerabilities and deceiving users, there are more specific attack vectors against OpenClaw, namely, skills. Research logically draws a parallel between supply‑chain attacks and the distribution of malicious skills. However, unlike usual supply-chain attacks, creating malicious skills is trivial because there is no longer a need to develop custom malw
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-  - Published: 2026-07-01T05:10:20+00:00
-  - Link: https://isc.sans.edu/diary/rss/33118
-  - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+- **Kaspersky Securelist** (threat_research_primary)
+  - Title: OpenClaw: risks for the users and how to mitigate them
+  - Published: 2026-07-01T06:42:48+00:00
+  - Link: https://securelist.com/openclaw-security/120484/
+  - Summary: Researching OpenClaw vulnerabilities, malicious skills, and other security issues with the popular agent, and providing tips on how to mitigate them.
 
 ### Cluster 5d507d7678 — score 10
 
@@ -2962,49 +2873,6 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Published: 2026-06-29T10:00:35+00:00
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
-
-### Cluster 5bbda948e4 — score 10
-
-- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
-```
-
-#### Full body
-
-```
-Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-  - Published: 2026-07-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
 ### Cluster 6a3df7e65b — score 10
 
@@ -3130,6 +2998,49 @@ Business Security SMB cyber readiness: the road to resilience starts here Your b
   - Published: 2026-06-26T08:50:00+00:00
   - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
   - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
+
+### Cluster 5bbda948e4 — score 10
+
+- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+```
+
+#### Full body
+
+```
+Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+  - Published: 2026-07-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
 ### Cluster e1538c3d0e — score 10
 
@@ -3299,48 +3210,133 @@ Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Inte
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/
   - Summary: Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se
 
-### Cluster cc659a0154 — score 9
+### Cluster 0148b0b7f4 — score 10
 
-- Title: SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterprise
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-01T19:00:00+00:00
-- Link: https://cloud.google.com/blog/products/databases/socradar-powers-rapid-threat-detection-with-alloydb-and-gemini-enterprise/
+- Title: Risky Bulletin: Researcher drops giant cache of zero-days
+- Source: Risky Business News (practitioner_analysis)
+- Published: 2026-07-01T06:55:07+00:00
+- Link: https://risky.biz/RBNEWS584/
 - Fetch status: ok
-- Member count: 2
+- Member count: 1
 - Corroborating source count: 1
-- Strong signals: Google/Gemini
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, Google Cloud, Google/Gemini
+- threat_categories: zero_day
+- urgency_signals: zero_day
 - content_type: news_report
-- confidence_tier: tier_2_operator
+- confidence_tier: tier_3_analysis
 
 #### Primary article taxonomy
-- affected_industries: financial_services
-- affected_products: Google/Gemini
+- threat_categories: zero_day
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_3_analysis
+
+#### Summary
+
+```
+An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
+```
+
+#### Full body
+
+```
+Risky Bulletin Podcast July 01, 2026 Risky Bulletin: Researcher drops giant cache of zero-days Presented by Catalin Cimpanu News Editor Claire Aird Newsreader An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider. Your browser does not support the audio element. Risky Bulletin: Researcher drops giant cache of zero-days â¶ 0:00 / 9:45 Subscribe Brought to you by Corelight Corelight: Evidence-Based NDR and Threat Hunting Platform Show notes Risky Bulletin: Researcher drops giant cache of zero-days
+```
+
+#### Corroborating sources (1)
+
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Researcher drops giant cache of zero-days
+  - Published: 2026-07-01T06:55:07+00:00
+  - Link: https://risky.biz/RBNEWS584/
+  - Summary: An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
+
+### Cluster 5472a00679 — score 10
+
+- Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
+- Source: Huntress (detection_response_operations)
+- Published: 2026-06-29T14:00:00+00:00
+- Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 2
+- Strong signals: Microsoft 365
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_products: Cisco, Microsoft 365
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Microsoft 365
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocit
+Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
 ```
 
 #### Full body
 
 ```
-Databases SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterprise July 1, 2026 Ahmet Kuruköse SOCRadar, Co-Founder, CTO Sailesh Krishnamurthy VP, Google Databases Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocity data ingestion and heavy, real-time analytical queries. This created a severe data bottleneck, slowing down the delivery of critical insights to customers and pulling engineers away from innovation to focus on constant manual database tuning. Evaluating database alternatives: The hunt for scalability The engineering team realized their traditional PostgreSQL environment had reached its absolute performance limits. To scale, SOCRadar needed a high-performance fully managed database that could dramatically slash operational overhead while elegantly handling a complex, hybrid workload. They evaluated alternatives and selected Google Cloud's AlloyDB for PostgreSQL . Because AlloyDB is fully PostgreSQL-compatible, it offered a low-risk migration path while promising a specialized architecture built to handle both high-volume transactions and real-time analytics simultaneously. To accelerate the transition, SOCRadar partnered with NGC, a Premier Business Partner, who meticulously validated the architecture before executing a precision cutover with minimal downtime. Taming a "triple-threat" workload Migrating to AlloyDB transformed how SOCRadar processes massive, diverse cyber telemetry. Today, AlloyDB effortlessly manages what SOCRadar’s engineering team calls a "triple-threat" query environment , maintaining sub-second lookup latency even as processing volumes scale. To understand the performance leaps, it helps to separate the system’s velocity (handling live data streams) from its depth (analyzing historical data): High-Velocity Transactional Ingestion (OLTP): The platform constantly ingests real-time telemetry from thousands of disparate, fast-moving sources—including Dark Web forums, botnet logs, and social media feeds. AlloyDB handles these continuous INSERT and UPSERT operations with a 3.2x boost in live ingestion velocity , ensuring that the newest threat indicators are immediately recorded and available for detection. Real-Time Operational Point-Reads: When a security analyst is actively investigating a live incident, speed is everything. Baseline performance testing under zero-load conditions for random ID lookups on indexed fields (e.g., querying a specific Indicator of Compromise by ID) showed that standard queries requiring 3 to 3.5 seconds were completed in just 1 second on AlloyDB. Deep Analytical Aggregations (OLAP): When a client requests a complex sectoral report such as correlating the most prevalent attack vectors in the finance sector over an entire year, the database must execute deep scans across vast historical datasets. Leveraging AlloyDB’s built-in In-Memory Columnar Engine , these analytical queries run up to 20x faster than standard PostgreSQL. More than j
+Home Blog The Hacker’s 2026 Playbook from the Dark Web Published: June 29, 2026 The Hacker’s 2026 Playbook from the Dark Web By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Sometimes it starts with something as simple as dragging a link into your browser. Three seconds later, a cybercriminal has the tokens they need to hijack your Microsoft 365 account. You didn't do anything that security awareness training teaches you to avoid. You just followed instructions that looked normal. That is what modern cybercrime looks like right now. That is also what makes this tradecraft so effective. The attack doesn't force its way in. It slips into the middle of an ordinary workflow and turns a routine action into an unwanted interruption that gives an attacker exactly what they need. You've probably seen the setup before The setup feels familiar because we've all been trained to click through little prompts online: click the CAPTCHA , accept the cookie prompt, or press the key combo. Keep moving without thinking. That muscle memory is exactly what attackers are counting on. That's the idea behind ClickFix . Attackers show a fake prompt that tells you to press keyboard shortcuts like Windows key + R, then Ctrl+V, then Enter. On the surface, it feels harmless. In reality, you're pasting and running attacker-supplied commands on your own machine. What makes ClickFix so nasty is how little technical friction it needs. There isn't a vulnerability to exploit or a firewall showdown. The attacker just needs a simple, believable lie that fits into your workflow. ClickFix exploded in 2025, and while it is still very much alive, attackers have already started morphing the same idea into something even slicker. ConsentFix takes the same trick into Microsoft 365 That newer variation is called ConsentFix. Instead of nudging you into pasting a command, it abuses something Microsoft 365 users see all the time: OAuth consent flows and sign-in prompts that look familiar enough to breeze past without much thought. The flow is deceptively simple. The attacker sends a phishing lure, often using trusted platforms like Dropbox or DocSend. The content may even be password-protected, which makes it harder for security tooling, like antivirus software, to inspect. You click through, see what looks like a legitimate Microsoft sign-in experience, and are told to finish the process manually by dragging a localhost callback link into the browser. That drag-and-drop moment is the trap. Instead of completing a harmless step, you unknowingly hand over OAuth tokens that let the attacker hijack the session. Once those tokens are captured, the attacker can access your email, OneDrive, Teams, and other Microsoft 365 resources without needing the password or fighting through MFA in the usual way. That is what makes ConsentFix feel so different from traditional phishing. The user isn't typing credentials into an obvious fake form. They are completing what looks like a legitimate auth flow and giving away the session itself. Figure 1: ConsentFix hijacks the Microsoft 365 sign-in flow by turning a familiar user action into stolen session access. The real story is how easy this has become to copy By early March 2026, the blueprint was already sitting on a public Russian cybercrime forum. The post walked through ConsentFix step by step, complete with working code, infrastructure screenshots, and a video walkthrough showing other criminals exactly how to run it. That post was a cybercrime playbook in plain sight, laying out how to build and copy the attack. The infrastructure highlighted in the forum post leaned on free or widely available services, including Cloudflare Pages, workers.dev , Pipedream webhooks, Dropbox, and DocSend. The tutorial also showed how attackers spot victims before they ever send the phish. According to the video and forum material, they used LinkedIn employer profiles, ZoomInfo, and Hunter.io to map targets and shape their
+```
+
+#### Corroborating sources (2)
+
+- **Huntress** (detection_response_operations)
+  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
+  - Published: 2026-06-29T14:00:00+00:00
+  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: The ARToken phishing panel targets Microsoft 365 accounts
+  - Published: 2026-07-01T10:00:41+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/
+  - Summary: Accounts-payable staff at U.S. companies keep receiving invoice emails that look like they come from vendors they already work with. One landed at a life-sciences company in April 2026, addressed to the person who handles payments and written in the voice of a Wisconsin contractor’s billing contact. It asked about invoices that appeared to still be outstanding, the sort of note an accounts-payable team handles every day. Behind it sits a phishing operation Cisco Talos … More → The post The ARToken phishing panel targets Microsoft 365 accounts appeared first on Help Net Security .
+
+### Cluster e3e5c74bb1 — score 9
+
+- Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-01T05:10:20+00:00
+- Link: https://isc.sans.edu/diary/rss/33118
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
 ```
 
 #### Corroborating sources (1)
 
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterprise
-  - Published: 2026-07-01T19:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/databases/socradar-powers-rapid-threat-detection-with-alloydb-and-gemini-enterprise/
-  - Summary: Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocit
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
+  - Published: 2026-07-01T05:10:20+00:00
+  - Link: https://isc.sans.edu/diary/rss/33118
+  - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
 
 ### Cluster 179d9b0465 — score 9
 
@@ -3393,18 +3389,16 @@ Vulnerable and outdated software components are one of the most common issues en
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- threat_categories: credential_theft, data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: Scattered Spider
-- affected_industries: financial_services, healthcare
-- affected_products: OpenAI/ChatGPT
+- affected_industries: financial_services, government, healthcare
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- threat_categories: ransomware_extortion, phishing_social_eng, credential_theft, data_breach
 - actor_attribution: Scattered Spider
-- affected_industries: healthcare, financial_services
-- affected_products: OpenAI/ChatGPT
+- affected_industries: healthcare, financial_services, government
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3417,7 +3411,7 @@ Aflac Japan has notified regulators that policy details and personal and banking
 #### Full body
 
 ```
-Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breach Impacting Millions Insurance Giant Aflac Discloses Data Breach Impacting Millions News 1 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster US insurer Aflac has disclosed a major data breach after hackers managed to access highly sensitive personal and financial information. The company’s Aflac Japan subsidiary discovered the intrusion on June 25, it said in a filing with the SEC yesterday (June 30). It explained that an “unauthorized third party” had accessed certain systems between June 15 and June 25. “Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information,” it revealed. “This incident is limited to systems in Japan, the company’s systems related to its US business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the company are not known.” Read more on insurance sector breaches: Third-Party Breach Impacts Majority of Allianz Life US Customers. A statement posted on Aflac Japan’s website revealed that the incident impacted the firm’s customer portal. “Please note that some systems are currently shut down to prevent the spread of unauthorized access,” it said (via Google Translate). “However, inquiries and procedures, including claims for insurance benefits and other payments, are being handled as usual through our call center and other channels.” Among the services currently out of action are reservations for medical check-ups and health screening, and the firm’s AI support concierge. According to local reports , personal and financial information on nearly 4.4 million customers has been compromised. This includes information about the premium payment accounts of around 230,000 customers. Another Scattered Spider Attack? This isn’t the first time Aflac Japan has suffered at the hands of threat actors. In 2023, Aflac Japan customers’ details were stolen and put up for sale after a third-party US contractor was reportedly breached. A year ago, the firm suffered another data breach which was claimed to be part of a wider campaign targeting US insurers thought to be the work of the Scattered Spider group. Joshua Roback, principal security solution architect at Swimlane, said the latest compromise could also be linked to the notorious extortion group. “Large insurers are sprawling ecosystems of subsidiaries, support teams, legacy platforms and regional workflows. That gives threat actors more places to test access, reuse lessons from prior campaigns and search for the fastest path back to valuable data,” he said. “The answer is not just more alerts. Security teams need connected workflows that can turn a signal in one part of the business into action everywhere else. Agentic AI and automation can help prioritize the riskiest activity, trigger containment steps and keep remediation moving before attackers get comfortable.” Aflac Japan has notified the relevant authorities and claimed that “no misuse of the information related to this incident has been confirmed.” Image credit: yu_photo / Shutterstock.com You may also like Millions of Insurance Customers Compromised Via Supplier News 13 January 2023 Phishing Alert as Erie Insurance Reveals Cyber “Event” News 12 June 2025 Over 80% of UK Firms Don’t Have Specialist Cyber Insurance News 5 February 2020 Global Firms Under-Insured Despite Breach Concerns News 5 November 2019 Why Cyber Insurance Works Opinion 4 April 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Trust in Automated AI Vulnerability Scanning Collapses to 9%, New Study Finds News 25 June 2026 1 OpenAI Reveals GPT-5.6 Sol Cybersecurity Model, Restricts Early Access News 29 June 2026 2 ClickFix Now Cybercriminals' Favorite Malware Delivery Technique News 30
+Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breach Impacting Millions Insurance Giant Aflac Discloses Data Breach Impacting Millions News 1 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster US insurer Aflac has disclosed a major data breach after hackers managed to access highly sensitive personal and financial information. The company’s Aflac Japan subsidiary discovered the intrusion on June 25, it said in a filing with the SEC yesterday (June 30). It explained that an “unauthorized third party” had accessed certain systems between June 15 and June 25. “Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information,” it revealed. “This incident is limited to systems in Japan, the company’s systems related to its US business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the company are not known.” Read more on insurance sector breaches: Third-Party Breach Impacts Majority of Allianz Life US Customers. A statement posted on Aflac Japan’s website revealed that the incident impacted the firm’s customer portal. “Please note that some systems are currently shut down to prevent the spread of unauthorized access,” it said (via Google Translate). “However, inquiries and procedures, including claims for insurance benefits and other payments, are being handled as usual through our call center and other channels.” Among the services currently out of action are reservations for medical check-ups and health screening, and the firm’s AI support concierge. According to local reports , personal and financial information on nearly 4.4 million customers has been compromised. This includes information about the premium payment accounts of around 230,000 customers. Another Scattered Spider Attack? This isn’t the first time Aflac Japan has suffered at the hands of threat actors. In 2023, Aflac Japan customers’ details were stolen and put up for sale after a third-party US contractor was reportedly breached. A year ago, the firm suffered another data breach which was claimed to be part of a wider campaign targeting US insurers thought to be the work of the Scattered Spider group. Joshua Roback, principal security solution architect at Swimlane, said the latest compromise could also be linked to the notorious extortion group. “Large insurers are sprawling ecosystems of subsidiaries, support teams, legacy platforms and regional workflows. That gives threat actors more places to test access, reuse lessons from prior campaigns and search for the fastest path back to valuable data,” he said. “The answer is not just more alerts. Security teams need connected workflows that can turn a signal in one part of the business into action everywhere else. Agentic AI and automation can help prioritize the riskiest activity, trigger containment steps and keep remediation moving before attackers get comfortable.” Aflac Japan has notified the relevant authorities and claimed that “no misuse of the information related to this incident has been confirmed.” Image credit: yu_photo / Shutterstock.com You may also like Millions of Insurance Customers Compromised Via Supplier News 13 January 2023 Phishing Alert as Erie Insurance Reveals Cyber “Event” News 12 June 2025 Over 80% of UK Firms Don’t Have Specialist Cyber Insurance News 5 February 2020 Global Firms Under-Insured Despite Breach Concerns News 5 November 2019 Why Cyber Insurance Works Opinion 4 April 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Fileless Malware Abuses Google Blogspot to Deploy Infostealer in Memory News 1 July 2026 1 ClickFix Now Cybercriminals' Favorite Malware Delivery Technique News 30 June 2026 2 US Federal Insurance Regulator Confirms Data Breach Via Oracle Flaw News 29 June 2026
 ```
 
 #### Corroborating sources (1)
@@ -3427,47 +3421,6 @@ Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breac
   - Published: 2026-07-01T09:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
   - Summary: Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
-
-### Cluster 40ed42a9f6 — score 8
-
-- Title: Train, triage, repeat: The AI agent changing how we fight phishing
-- Source: Red Canary (detection_response_operations)
-- Published: 2026-06-30T12:33:22+00:00
-- Link: https://redcanary.com/blog/threat-detection/phishing-ai-agent/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Learn how Red Canary engineered a super agent—blending ML, a rules engine, similarity, agentic AI, and LLMs—to classify phishing emails.
-```
-
-#### Full body
-
-```
-Skip Navigation Get a Demo
-```
-
-#### Corroborating sources (1)
-
-- **Red Canary** (detection_response_operations)
-  - Title: Train, triage, repeat: The AI agent changing how we fight phishing
-  - Published: 2026-06-30T12:33:22+00:00
-  - Link: https://redcanary.com/blog/threat-detection/phishing-ai-agent/
-  - Summary: Learn how Red Canary engineered a super agent—blending ML, a rules engine, similarity, agentic AI, and LLMs—to classify phishing emails.
 
 ### Cluster e64c15c5cb — score 8
 
@@ -3516,16 +3469,20 @@ Access DFIR Labs Book a Demo The DFIR Report provides in-depth, real-world intel
 - Source: Huntress (detection_response_operations)
 - Published: 2026-06-29T07:00:00+00:00
 - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3535,6 +3492,12 @@ Access DFIR Labs Book a Demo The DFIR Report provides in-depth, real-world intel
 Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
 ```
 
+#### Full body
+
+```
+Home Blog Defence Impairment Olympics Published: June 29, 2026 Defence Impairment Olympics By: Mark O'Halloran Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways We recently detected an incident on June 7 that started with simple enumeration commands - but our investigation into the attack showed the threat actor taking aggressive steps to hide their tracks. The investigation into the attack initially showed a few defence impairment techniques, like steganography and timestomping. However, our investigation broadened when we found a breadcrumb left behind - and batch script called i.bat - that showed the threat actor attempting to disable Defender, kill Sysmon and Filebeat, uninstall the ModSecurity WAF, downgrade WDigest credential protection— all before Mimikatz was executed to dump credentials. Following the SOC's initial response and delivery of remediation steps, a window of exposure occurred when the server was brought back online prior to complete patching. The threat actor leveraged this premature reconnection to continue their attack. This scenario highlights a common challenge in incident response: thorough closure and verified remediation are just as critical as the initial detection. Organizations can defend against these techniques with foundational security measures, including implementing sufficient and correctly configured logging on their servers and endpoints, and ensuring software is updated and patched. Acknowledgements: Special thanks to Adrian Garcia, Amelia Casley, Olly Maxwell and Anton Ovrutsky for their contributions to this investigation and write-up. Background At Huntress, we have visibility into various parts of a threat actor's attack chain: including how they enter the victim's environment (initial access), how they research the environment (enumeration), and how they move around the environment (lateral movement). One tactic that we see a fair amount of is defence evasion and defence impairment; or specific measures threat actors take to hide their tracks during an incident and to disable defence mechanisms. We recently responded to an incident on June 7 where a threat actor initially performed enumeration activity before later carrying out almost a dozen different types of defence impairment commands, including disabling the IIS logs, tampering with Microsoft Defender, using WMI Event Consumer to clear the Windows Event Logs, using timestomping, and more. We have outlined the defence impairment tactics we saw in this incident; by better understanding these techniques and how they play out in a targeted environment, organizations can get a stronger sense of where they should prioritize their defenses and look for signs of potential compromise. A steganographic webshell: The first commands On June 7, Huntress responded to a web server compromise spawning from a webshell that was uploaded to a vulnerable server by a threat actor. Due to insufficient logging, Huntress was unable to determine the exact initial access mechanism. There was, however, some evidence that the particular server had potentially suffered an Adobe ColdFusion exploitation attempt. Upon closer inspection of the historical logs, we found evidence of possible exploitation of ColdFusion bugs, including a critical remote code execution vulnerability ( CVE-2023-26360 ), improper access control bug ( CVE-2023-29298 ), and deserialization flaw ( CVE-2023-29300 ). The evidence that we did have stemmed from the presence of known targeted endpoints in historical logs: /CFIDE/adminapi/_datasource/setmsaccessRegistry.cfm /CFIDE/adminapi/_datasource/setsldatasource.cfm /CFIDE/adminapi/_datasource/setdsn.cfm /CFIDE/adminapi/_datasource/formatjdbcurl.cfm /CFIDE/adminapi/_datasource/getaccessdefaultsfromRegistry.cfm /CFIDE/adminapi/_datasource/geturldefaults.cfm /CFIDE/adminapi/customtags/l10n.cfm /CFIDE/adminapi/serverinstance.cfc /CFIDE/adminapi/servermonitoring.cfc While normally, the acce
+```
+
 #### Corroborating sources (1)
 
 - **Huntress** (detection_response_operations)
@@ -3542,6 +3505,41 @@ Huntress analyzed a credential dumping attack where threat actors disabled Defen
   - Published: 2026-06-29T07:00:00+00:00
   - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
   - Summary: Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
+
+### Cluster cc659a0154 — score 8
+
+- Title: SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterprise
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-01T19:00:00+00:00
+- Link: https://cloud.google.com/blog/products/databases/socradar-powers-rapid-threat-detection-with-alloydb-and-gemini-enterprise/
+- Fetch status: not_attempted
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: Google/Gemini
+
+#### Cluster taxonomy (union across members)
+- affected_products: Anthropic/Claude, Google Cloud, Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- affected_products: Google/Gemini
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocit
+```
+
+#### Corroborating sources (1)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterprise
+  - Published: 2026-07-01T19:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/databases/socradar-powers-rapid-threat-detection-with-alloydb-and-gemini-enterprise/
+  - Summary: Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocit
 
 ### Cluster 983b258a65 — score 8
 
@@ -3579,47 +3577,6 @@ At Google Cloud, we are committed to providing public sector organizations aroun
   - Published: 2026-07-01T16:00:00+00:00
   - Link: https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/
   - Summary: At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s su
-
-### Cluster 8c86c34358 — score 8
-
-- Title: Teen suspect in Scattered Spider hacks is extradited to US
-- Source: The Record (cyber_news_breach_reporting)
-- Published: 2026-07-01T20:13:00+00:00
-- Link: https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
-- Fetch status: not_attempted
-- Member count: 2
-- Corroborating source count: 2
-- Strong signals: Scattered Spider
-
-#### Cluster taxonomy (union across members)
-- actor_attribution: Scattered Spider
-- affected_industries: government
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- actor_attribution: Scattered Spider
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
-```
-
-#### Corroborating sources (2)
-
-- **The Record** (cyber_news_breach_reporting)
-  - Title: Teen suspect in Scattered Spider hacks is extradited to US
-  - Published: 2026-07-01T20:13:00+00:00
-  - Link: https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
-  - Summary: A complaint unsealed this week accuses a 19-year-old of participating in incidents including a breach of a "luxury-jewelry retailer" in 2025.
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: 19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges
-  - Published: 2026-07-01T19:28:07+00:00
-  - Link: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
-  - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police
 
 ### Cluster 89fcac3d75 — score 8
 
