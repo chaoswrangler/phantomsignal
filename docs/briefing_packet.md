@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-02T00:16:14.781052+00:00
+- Generated: 2026-07-02T05:04:16.214489+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
-- Total items in window: 330
-- Total clusters raw: 157
-- Total clusters in packet: 74
-- Dropped low score: 83
+- Feeds OK: 77
+- Total items in window: 328
+- Total clusters raw: 156
+- Total clusters in packet: 72
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,15 +70,25 @@
 
 ## Feed status
 
+- **CrowdStrike** (threat_research_primary)
+  - URL: https://www.crowdstrike.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 7
 - **Unit 42** (threat_research_primary)
   - URL: https://unit42.paloaltonetworks.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **CrowdStrike** (threat_research_primary)
-  - URL: https://www.crowdstrike.com/blog/feed/
-  - Status: ok
-  - Item count: 10
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
@@ -90,108 +100,98 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 7
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
-- **Cisco Talos** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/feedburner/Talos
-  - Status: ok
-  - Item count: 15
-  - In window count: 4
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
+- **Cisco Talos** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/feedburner/Talos
+  - Status: ok
+  - Item count: 15
+  - In window count: 4
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 9
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
+  - Item count: 50
+  - In window count: 1
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 2
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
-  - Status: ok
-  - Item count: 40
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 100
+  - In window count: 4
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 0
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
+  - Status: ok
+  - Item count: 40
+  - In window count: 0
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -205,86 +205,81 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Elastic Security Labs** (detection_response_operations)
-  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
-  - Item count: 20
+  - Item count: 10
   - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
   - Item count: 15
   - In window count: 0
+- **Elastic Security Labs** (detection_response_operations)
+  - URL: https://www.elastic.co/security-labs/rss/feed.xml
+  - Status: ok
+  - Item count: 20
+  - In window count: 0
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Datadog Security Labs** (cloud_identity_infrastructure)
   - URL: https://securitylabs.datadoghq.com/rss/feed.xml
   - Status: ok
   - Item count: 30
   - In window count: 2
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
-  - Item count: 100
-  - In window count: 8
+  - Item count: 20
+  - In window count: 4
 - **Orca Security Research** (cloud_identity_infrastructure)
   - URL: https://orca.security/resources/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
   - Status: ok
   - Item count: 20
-  - In window count: 3
+  - In window count: 1
 - **Permiso Security** (cloud_identity_infrastructure)
   - URL: https://permiso.io/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 2
+  - In window count: 6
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -300,48 +295,58 @@
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **OpenSSF Blog** (ai_security_agentic_risk)
-  - URL: https://openssf.org/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 5
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **The Record** (cyber_news_breach_reporting)
-  - URL: https://therecord.media/feed
-  - Status: ok
-  - Item count: 5
   - In window count: 5
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
+- **OpenSSF Blog** (ai_security_agentic_risk)
+  - URL: https://openssf.org/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **The Record** (cyber_news_breach_reporting)
+  - URL: https://therecord.media/feed
+  - Status: ok
+  - Item count: 5
+  - In window count: 5
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 18
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
@@ -350,16 +355,6 @@
   - Status: ok
   - Item count: 20
   - In window count: 0
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
@@ -370,21 +365,36 @@
   - Status: ok
   - Item count: 50
   - In window count: 29
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
-  - Item count: 15
+  - Item count: 100
   - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 9
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 24
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -394,11 +404,6 @@
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
-  - In window count: 0
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 0
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
@@ -410,6 +415,21 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
+  - Status: ok
+  - Item count: 0
+  - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Graham Cluley** (practitioner_analysis)
   - URL: https://grahamcluley.com/feed/
   - Status: ok
@@ -420,26 +440,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
-  - Status: ok
-  - Item count: 0
-  - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 24
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -473,33 +473,55 @@
 
 ## Affinity groups (themes)
 
-### phishing social eng targeting Palo Alto Networks
+### Palo Alto Networks active exploitation
 - Anchor signal: Palo Alto Networks
 - Theme key: palo-alto-networks
-- Cluster count: 6
-- Article count: 6
-- Cohesion: 0.426
+- Cluster count: 5
+- Article count: 5
+- Cohesion: 0.377
 - Shared strong signals: Palo Alto Networks
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: phishing_social_eng
+  - threat_categories: phishing_social_eng, active_exploitation
   - affected_industries: critical_infrastructure, government
   - affected_products: Palo Alto Networks
-- Cluster IDs: e4a3ada988, 5b50b4b7b2, 4541afab04, 84319555f9, 58ad2b1b0b, 89fcac3d75
+  - urgency_signals: actively_exploited
+- Cluster IDs: e4a3ada988, 5b50b4b7b2, 4541afab04, 84319555f9, 58ad2b1b0b
 - Links:
   - https://unit42.paloaltonetworks.com/phantom-squatting-hallucinated-web-domains/
   - https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
-  - https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
+
+### ShinyHunters: ransomware extortion
+- Anchor signal: ShinyHunters
+- Theme key: shinyhunters
+- Cluster count: 4
+- Article count: 4
+- Cohesion: 0.286
+- Shared strong signals: ShinyHunters
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, zero_day, phishing_social_eng, data_breach, active_exploitation
+  - actor_attribution: ShinyHunters
+  - affected_industries: financial_services, healthcare
+  - cve_ids: CVE-2026-35273
+  - urgency_signals: zero_day, preauth_unauth
+- Cluster IDs: 3db35f97c6, 498473218f, a36f6c9249, 57ef1249ed
+- Links:
+  - https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
+  - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
+  - https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
 
 ### npm vulnerability activity
 - Anchor signal: npm
 - Theme key: npm
 - Cluster count: 4
-- Article count: 10
+- Article count: 11
 - Cohesion: 0.297
 - Shared strong signals: npm
 - Member CVEs: (none)
@@ -511,10 +533,11 @@
   - https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
   - https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html
   - https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
+  - https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/
   - https://isc.sans.edu/diary/rss/33114
   - https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/
-  - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
   - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
+  - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
 
@@ -539,27 +562,6 @@
   - https://www.securityweek.com/bluehammer-vulnerability-exploited-in-ransomware-attacks/
   - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-
-### ShinyHunters: zero day
-- Anchor signal: ShinyHunters
-- Theme key: shinyhunters
-- Cluster count: 3
-- Article count: 3
-- Cohesion: 0.282
-- Shared strong signals: ShinyHunters
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day, ransomware_extortion, active_exploitation, phishing_social_eng, data_breach
-  - actor_attribution: ShinyHunters
-  - affected_industries: financial_services
-  - cve_ids: CVE-2026-35273
-  - urgency_signals: zero_day, preauth_unauth
-- Cluster IDs: 3db35f97c6, 498473218f, 57ef1249ed
-- Links:
-  - https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html
-  - https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
-  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
 
 ### CVE-2026-33017 exploitation activity
 - Anchor signal: CVE-2026-33017
@@ -658,8 +660,8 @@
   - https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials
   - https://isc.sans.edu/diary/rss/33114
   - https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/
-  - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
   - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
+  - https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
   - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
 
 ### phishing social eng targeting Android
@@ -726,12 +728,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 5
-  - CVE-2026-48276 (first seen via The Hacker News at 2026-07-01T15:25:46+00:00, cluster 8f3530bf08)
-  - CVE-2026-48277 (first seen via The Hacker News at 2026-07-01T15:25:46+00:00, cluster 8f3530bf08)
-  - CVE-2026-48281 (first seen via The Hacker News at 2026-07-01T15:25:46+00:00, cluster 8f3530bf08)
-  - CVE-2026-48283 (first seen via The Hacker News at 2026-07-01T15:25:46+00:00, cluster 8f3530bf08)
-  - CVE-2026-48316 (first seen via The Hacker News at 2026-07-01T15:25:46+00:00, cluster 8f3530bf08)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -756,7 +753,12 @@
 - Pair: CVE-2026-34908 + ShinyHunters (cluster 498473218f, first observation: True)
 - Pair: CVE-2026-34908 + Anthropic/Claude (cluster 498473218f, first observation: True)
 
-### Drift (0)
+### Drift (1)
+- **Scattered Spider** (cluster 31e5b2aa9f)
+  - New industries: (none)
+  - New products: OpenAI/ChatGPT
+  - Prior top industries: financial_services, government, healthcare
+  - Prior top products: AWS, Apple iOS/macOS, npm
 
 ### Persistence (8)
 - actor_attribution: ShinyHunters (weeks observed: 5, cluster 3db35f97c6)
@@ -766,7 +768,7 @@
 - cve_ids: CVE-2026-33017 (weeks observed: 3, cluster aadab8aa23)
 - actor_attribution: Cl0p (weeks observed: 3, cluster 3db35f97c6)
 - cve_ids: CVE-2026-48558 (weeks observed: 3, cluster 7de9036f43)
-- actor_attribution: Scattered Spider (weeks observed: 3, cluster 8c86c34358)
+- actor_attribution: Scattered Spider (weeks observed: 3, cluster 31e5b2aa9f)
 
 ### Tier inversion (1)
 - **Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)**
@@ -1086,8 +1088,8 @@ A Microsoft Defender vulnerability tracked as BlueHammer and CVE-2026-33825 is b
 - Published: 2026-06-29T16:10:20+00:00
 - Link: https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/
 - Fetch status: ok
-- Member count: 4
-- Corroborating source count: 3
+- Member count: 5
+- Corroborating source count: 4
 - Strong signals: GitHub
 
 #### Cluster taxonomy (union across members)
@@ -1112,10 +1114,10 @@ The GitHub Advisory Database is processing more vulnerability reports than ever 
 #### Full body
 
 ```
-Madison Ficorilli · @taladrane June 29, 2026 | 10 minutes Share: In May 2026, the GitHub Advisory Database published 1,560 reviewed advisories —more than five times our typical monthly output and the highest in its history. And it still wasn’t enough to keep up. Over the past few months, the vulnerability ecosystem has shifted in a fundamental way. Input across private vulnerability reports, repository advisories, and CVE requests has increased simultaneously, pushing the entire system to a new operating scale. This blog builds on an ongoing GitHub community discussion tracking the evolving nature of vulnerability reporting, as well as PVR and Advisory Database roadmap developments. A recurring theme in that thread is the downstream impact of platform changes on advisory curation and data quality. This aligns with GitHub’s broader shift toward emphasizing quality and shared responsibility in vulnerability reporting, which in turn directly shapes how advisory data must be curated and maintained. TL;DR Review times for new advisories are longer because vulnerability volume and complexity have increased significantly. Advisory quality has not changed: reviewed advisories are still human-validated, and existing alerts continue to function normally. If you want to help, focus on three things: submit complete vulnerability data, coordinate closely with maintainers and researchers, and request CVEs only when there is a clear intention to publish. Record output and unprecedented input May was not a one-time spike. From March through May, we sustained more than 6,000 advisory decisions per month. This included updating existing advisories, publishing new advisories, and reviewing inbound advisories, and exceeded any prior three-month peak. At the same time, inflow accelerated across every source: Private vulnerability reports across the platform increased from ~550/week in January to more than 3,000/week for most of May. Repository advisories scaled from ~650/week to more than 5,000/week. GitHub CNA CVE requests reached almost 4,000 in May alone , nearly 10x year –over year. The CVE program has already published 30,000+ CVEs in 2026. More than 1.7 million total repositories have enabled private vulnerability reporting. This is not a localized surge. It reflects structural change across the vulnerability disclosure ecosystem. The impact Since mid-April, due to this surge, we have not consistently met our internal goals for publication. Processing times extended first to about a week, then to multiple weeks for a meaningful share. Longer publication times can increase exposure windows. We take that seriously, and timeliness is a core part of the value this database provides. What’s still working Our data pipelines and publishing infrastructure have continued to operate through this period. Imports are running, data integrity is intact, and published advisories are accurate. Advisories that reach reviewed status today meet the same quality standard as before. CVE assignment quality has remained strong. Our assignment rate has held between 91–94% through the entire surge, consistent with or better than historical norms and showing that there hasn’t been a clear degradation in the requests we receive. The issue is throughput. The system that validates, enriches, and publishes advisory data is functioning; it is now operating beyond the volume and complexity it was designed to handle. The work isn’t uniform Not every security advisory requires the same level of effort. Some arrive well formatted: the advisory details clearly name the affected package and its relevant ecosystem, the version range is documented, and the fix is tagged. A curator can validate and publish these in under a few minutes. But a growing share of incoming advisories require more investigation: Package disambiguation. The advisory details say “foo”, but is that foo on npm, python-foo on PyPI, or the unrelated foo on Maven? When upstream data doesn’t specify an ecosystem
+Madison Ficorilli · @taladrane June 29, 2026 | Updated July 1, 2026 | 10 minutes Share: In May 2026, the GitHub Advisory Database published 1,560 reviewed advisories —more than five times our typical monthly output and the highest in its history. And it still wasn’t enough to keep up. Over the past few months, the vulnerability ecosystem has shifted in a fundamental way. Input across private vulnerability reports, repository advisories, and CVE requests has increased simultaneously, pushing the entire system to a new operating scale. This blog builds on an ongoing GitHub community discussion tracking the evolving nature of vulnerability reporting, as well as PVR and Advisory Database roadmap developments. A recurring theme in that thread is the downstream impact of platform changes on advisory curation and data quality. This aligns with GitHub’s broader shift toward emphasizing quality and shared responsibility in vulnerability reporting, which in turn directly shapes how advisory data must be curated and maintained. TL;DR Review times for new advisories are longer because vulnerability volume and complexity have increased significantly. Advisory quality has not changed: reviewed advisories are still human-validated, and existing alerts continue to function normally. If you want to help, focus on three things: submit complete vulnerability data, coordinate closely with maintainers and researchers, and request CVEs only when there is a clear intention to publish. Record output and unprecedented input May was not a one-time spike. From March through May, we sustained more than 6,000 advisory decisions per month. This included updating existing advisories, publishing new advisories, and reviewing inbound advisories, and exceeded any prior three-month peak. At the same time, inflow accelerated across every source: Private vulnerability reports across the platform increased from ~550/week in January to more than 3,000/week for most of May. Repository advisories scaled from ~650/week to more than 5,000/week. GitHub CNA CVE requests reached almost 4,000 in May alone , nearly 10x year –over year. The CVE program has already published 30,000+ CVEs in 2026. More than 1.7 million total repositories have enabled private vulnerability reporting. This is not a localized surge. It reflects structural change across the vulnerability disclosure ecosystem. The impact Since mid-April, due to this surge, we have not consistently met our internal goals for publication. Processing times extended first to about a week, then to multiple weeks for a meaningful share. Longer publication times can increase exposure windows. We take that seriously, and timeliness is a core part of the value this database provides. What’s still working Our data pipelines and publishing infrastructure have continued to operate through this period. Imports are running, data integrity is intact, and published advisories are accurate. Advisories that reach reviewed status today meet the same quality standard as before. CVE assignment quality has remained strong. Our assignment rate has held between 91–94% through the entire surge, consistent with or better than historical norms and showing that there hasn’t been a clear degradation in the requests we receive. The issue is throughput. The system that validates, enriches, and publishes advisory data is functioning; it is now operating beyond the volume and complexity it was designed to handle. The work isn’t uniform Not every security advisory requires the same level of effort. Some arrive well formatted: the advisory details clearly name the affected package and its relevant ecosystem, the version range is documented, and the fix is tagged. A curator can validate and publish these in under a few minutes. But a growing share of incoming advisories require more investigation: Package disambiguation. The advisory details say “foo”, but is that foo on npm, python-foo on PyPI, or the unrelated foo on Maven? When upstream data doesn
 ```
 
-#### Corroborating sources (3)
+#### Corroborating sources (4)
 
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - Title: Inside the Advisory Database and what happens when vulnerability volume breaks records
@@ -1132,6 +1134,11 @@ Madison Ficorilli · @taladrane June 29, 2026 | 10 minutes Share: In May 2026, t
   - Published: 2026-07-01T20:08:13+00:00
   - Link: https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
   - Summary: Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a campaign believed to target cybersecurity researchers. [...]
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: GitHub’s new tool helps prevent costly open-source license violations
+  - Published: 2026-07-02T04:00:33+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/02/github-license-compliance-feature/
+  - Summary: GitHub’s Open Source Program Office (OSPO) uses the new GitHub License Compliance feature, now in public preview, to manage thousands of open-source dependencies and identify dependencies whose licenses require review. The feature is available to GitHub Advanced Security customers and allows them to review new dependencies in pull requests, verify that their licenses comply with organizational policies, and approve new licenses or package-specific exceptions when needed. GitHub Enterprise Cloud customers can use the License Compliance … More → The post GitHub’s new tool helps prevent costly open-source license violations appeared first on Help Net Security .
 
 ### Cluster eb301db5d3 — score 19
 
@@ -1176,7 +1183,7 @@ Threat Response Table of Contents About the vulnerability The role of FlexNet Pu
   - Link: https://securelist.com/tr/schneider-electric-cve-2024-2658-vulnerability/120436/
   - Summary: Analysis of CVE-2024-2658 as found in Schneider Electric's Floating License Manager. Discover how this FlexNet Publisher vulnerability potentially allows attackers to escalate to NT AUTHORITY\SYSTEM privileges and expand their foothold; learn how to mitigate the risk.
 
-### Cluster e4a3ada988 — score 18
+### Cluster e4a3ada988 — score 17
 
 - Title: Phantom Squatting: AI-Hallucinated Domains as a Software Supply Chain Vector
 - Source: Unit 42 (threat_research_primary)
@@ -1274,63 +1281,6 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 29th June 
   - Link: https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 29th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Polymarket, a large cryptocurrency-based prediction market, has confirmed a supply chain attack after a third-party frontend vendor breach led to malicious JavaScript being injected into its website. Attackers tricked users into approving fraudulent […] The post 29th June – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster c062e7f12d — score 17
-
-- Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
-- Source: Cisco Talos (threat_research_primary)
-- Published: 2026-07-01T10:00:38+00:00
-- Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 3
-- Strong signals: Microsoft 365, Microsoft SharePoint
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services
-- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: financial_services
-- affected_products: Microsoft 365, Cisco, Microsoft SharePoint
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
-```
-
-#### Full body
-
-```
-ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365 By Michael Kelley Wednesday, July 1, 2026 06:00 Threat Advisory Cisco Talos identified a fully-featured phishing-as-a-service (PhaaS) operator panel, branded "ARToken," that shares infrastructure, API contracts, and operational patterns with the EvilTokens platform documented by Sekoia and Microsoft in early 2026. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Analysis of the platform's publicly served JavaScript bundle reveals the complete post-compromise toolkit available to affiliates, including capabilities not previously detailed in public reporting on EvilTokens. The phishing kit deploys a seven-layer anti-analysis system combining client-side behavioral verification with XOR-encrypted payloads, a more sophisticated evasion approach than the server-side X-Antibot-Token mechanism documented in prior EvilTokens research. Background: EvilTokens and device code phishing-as-a-service In March 2026, Sekoia published a two-part analysis of EvilTokens, a PhaaS platform that abuses Microsoft's OAuth 2.0 Device Authorization Grant (RFC 8628) to capture victim tokens while bypassing multi-factor authentication (MFA) entirely. Microsoft confirmed the campaign's scale in April 2026, noting significantly higher success rates than previous device code attacks, AI-powered personalized lures, and a post-compromise pipeline that included automated device registration for persistent access. By the time of Microsoft's publication, Sekoia had documented approximately 500 Cloudflare Workers domains and over 1,000 total phishing pages operating under the EvilTokens umbrella, with affiliates targeting finance professionals, HR staff, and logistics personnel across global regions. EvilTokens' second-stage capabilities, revealed in Sekoia's Part 2 research , include an AI-augmented BEC pipeline chaining Groq-hosted Llama models for financial exposure scoring and GPT-4o-mini for email translation, producing three tailored BEC scenarios per compromised mailbox. The platform sells access at $1,500 one-time plus $500/month, with a standalone "Portal Browser" for $500 lifetime. The lure in the wild: Vendor-impersonation invoice fraud Most public reporting on EvilTokens covers the panel and the kit. What it has not shown is how an ARToken lure actually reaches an inbox. Talos recovered two near-identical messages, sent roughly four minutes apart on April 20, 2026, that initiate the chain. The tradecraft is targeted, not spray-and-pray. Figure 1. A sample ARToken phishing email The messages spoof an accounts-payable contact at a legitimate Wisconsin contractor, addressed to an accounts-payable recipient at a U.S. life-sciences company — abusing a real vendor relationship rather than inventing a sender. The lure theme is an outstanding-invoice query ("the following invoices appear to still be outstanding… advise when this will be processed"), the kind of message accounts-payable staff are conditioned to act on. Other features of note in this email include: The From header presents the vendor's real domain, but Reply-To quietly redirects replies to an unrelated domain — a classic reply-pivot that keeps any victim response away from the spoofed organization. All three checks fail: SPF, DKIM (body-hash mismatch), and DMARC (compauth=none reason=405). The display identity is not authenticated from the sending path. Each message carries short random hex strings and an inline signature image (pumber.png), consistent with light per-message mutation to frustrate exact-match content rules. The visible anchor text reads as the vendor's genuine SharePoint tenant: “https[:]//mononapfp.sharepoint[.]com/:f:/document/INV-IgCx1X50pgUjR7iAjZL2fuQaAW4GfKVs6wHT3BYv9sgwW7g” However, the actual hr
-```
-
-#### Corroborating sources (3)
-
-- **Cisco Talos** (threat_research_primary)
-  - Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
-  - Published: 2026-07-01T10:00:38+00:00
-  - Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-  - Summary: Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
-- **Huntress** (detection_response_operations)
-  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
-  - Published: 2026-06-29T14:00:00+00:00
-  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
-  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: The ARToken phishing panel targets Microsoft 365 accounts
-  - Published: 2026-07-01T10:00:41+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/
-  - Summary: Accounts-payable staff at U.S. companies keep receiving invoice emails that look like they come from vendors they already work with. One landed at a life-sciences company in April 2026, addressed to the person who handles payments and written in the voice of a Wisconsin contractor’s billing contact. It asked about invoices that appeared to still be outstanding, the sort of note an accounts-payable team handles every day. Behind it sits a phishing operation Cisco Talos … More → The post The ARToken phishing panel targets Microsoft 365 accounts appeared first on Help Net Security .
-
 ### Cluster 93502a2013 — score 17
 
 - Title: Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique
@@ -1398,6 +1348,63 @@ CATEGORIES AI Research 17 Android Malware 23 Artificial Intelligence 5 ChatGPT 3
   - Published: 2026-06-25T14:30:00+00:00
   - Link: https://tldrsec.com/p/tldr-sec-334
   - Summary: OSS tool to prevent supply chain attacks without client-side firewalls, OpenAI announces new GPT-5.5-Cyber, Codex Security plugin updates, and more, can AI agents compromise an AWS cyber range without tripping canaries?
+
+### Cluster c062e7f12d — score 17
+
+- Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
+- Source: Cisco Talos (threat_research_primary)
+- Published: 2026-07-01T10:00:38+00:00
+- Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 3
+- Strong signals: Microsoft 365, Microsoft SharePoint
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services
+- affected_products: Cisco, Microsoft 365, Microsoft SharePoint
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research, tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: financial_services
+- affected_products: Microsoft 365, Cisco, Microsoft SharePoint
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
+```
+
+#### Full body
+
+```
+ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365 By Michael Kelley Wednesday, July 1, 2026 06:00 Threat Advisory Cisco Talos identified a fully-featured phishing-as-a-service (PhaaS) operator panel, branded "ARToken," that shares infrastructure, API contracts, and operational patterns with the EvilTokens platform documented by Sekoia and Microsoft in early 2026. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token (PRT) persistence, email access, business email compromise (BEC) operations, and SharePoint exfiltration — all accessible to operators through a React-based dashboard. Analysis of the platform's publicly served JavaScript bundle reveals the complete post-compromise toolkit available to affiliates, including capabilities not previously detailed in public reporting on EvilTokens. The phishing kit deploys a seven-layer anti-analysis system combining client-side behavioral verification with XOR-encrypted payloads, a more sophisticated evasion approach than the server-side X-Antibot-Token mechanism documented in prior EvilTokens research. Background: EvilTokens and device code phishing-as-a-service In March 2026, Sekoia published a two-part analysis of EvilTokens, a PhaaS platform that abuses Microsoft's OAuth 2.0 Device Authorization Grant (RFC 8628) to capture victim tokens while bypassing multi-factor authentication (MFA) entirely. Microsoft confirmed the campaign's scale in April 2026, noting significantly higher success rates than previous device code attacks, AI-powered personalized lures, and a post-compromise pipeline that included automated device registration for persistent access. By the time of Microsoft's publication, Sekoia had documented approximately 500 Cloudflare Workers domains and over 1,000 total phishing pages operating under the EvilTokens umbrella, with affiliates targeting finance professionals, HR staff, and logistics personnel across global regions. EvilTokens' second-stage capabilities, revealed in Sekoia's Part 2 research , include an AI-augmented BEC pipeline chaining Groq-hosted Llama models for financial exposure scoring and GPT-4o-mini for email translation, producing three tailored BEC scenarios per compromised mailbox. The platform sells access at $1,500 one-time plus $500/month, with a standalone "Portal Browser" for $500 lifetime. The lure in the wild: Vendor-impersonation invoice fraud Most public reporting on EvilTokens covers the panel and the kit. What it has not shown is how an ARToken lure actually reaches an inbox. Talos recovered two near-identical messages, sent roughly four minutes apart on April 20, 2026, that initiate the chain. The tradecraft is targeted, not spray-and-pray. Figure 1. A sample ARToken phishing email The messages spoof an accounts-payable contact at a legitimate Wisconsin contractor, addressed to an accounts-payable recipient at a U.S. life-sciences company — abusing a real vendor relationship rather than inventing a sender. The lure theme is an outstanding-invoice query ("the following invoices appear to still be outstanding… advise when this will be processed"), the kind of message accounts-payable staff are conditioned to act on. Other features of note in this email include: The From header presents the vendor's real domain, but Reply-To quietly redirects replies to an unrelated domain — a classic reply-pivot that keeps any victim response away from the spoofed organization. All three checks fail: SPF, DKIM (body-hash mismatch), and DMARC (compauth=none reason=405). The display identity is not authenticated from the sending path. Each message carries short random hex strings and an inline signature image (pumber.png), consistent with light per-message mutation to frustrate exact-match content rules. The visible anchor text reads as the vendor's genuine SharePoint tenant: “https[:]//mononapfp.sharepoint[.]com/:f:/document/INV-IgCx1X50pgUjR7iAjZL2fuQaAW4GfKVs6wHT3BYv9sgwW7g” However, the actual hr
+```
+
+#### Corroborating sources (3)
+
+- **Cisco Talos** (threat_research_primary)
+  - Title: ARToken: Inside an EvilTokens affiliate panel targeting Microsoft 365
+  - Published: 2026-07-01T10:00:38+00:00
+  - Link: https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  - Summary: Talos has identified "ARToken," a phishing-as-a-service platform that targets Microsoft 365. The ARToken panel exposes 80+ API endpoints for device code phishing, Primary Refresh Token persistence, email access, BEC operations, and SharePoint exfiltration.
+- **Huntress** (detection_response_operations)
+  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
+  - Published: 2026-06-29T14:00:00+00:00
+  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: The ARToken phishing panel targets Microsoft 365 accounts
+  - Published: 2026-07-01T10:00:41+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/01/artoken-phishing-panel-microsoft-365-accounts/
+  - Summary: Accounts-payable staff at U.S. companies keep receiving invoice emails that look like they come from vendors they already work with. One landed at a life-sciences company in April 2026, addressed to the person who handles payments and written in the voice of a Wisconsin contractor’s billing contact. It asked about invoices that appeared to still be outstanding, the sort of note an accounts-payable team handles every day. Behind it sits a phishing operation Cisco Talos … More → The post The ARToken phishing panel targets Microsoft 365 accounts appeared first on Help Net Security .
 
 ### Cluster a0bb1916a8 — score 16
 
@@ -1717,16 +1724,16 @@ Apple released updates for iOS/iPadOS, macOS, and Safari on Monday. There have b
   - Published: 2026-07-01T09:30:00+00:00
   - Link: https://www.securityweek.com/apple-patches-dozens-of-vulnerabilities-across-ios-macos-and-safari/
   - Summary: The updates fix vulnerabilities in WebKit, the kernel, WebRTC, Web Extensions, and other components affecting iPhone, iPad, Mac, and Safari users. The post Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari appeared first on SecurityWeek .
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer
-  - Published: 2026-06-29T05:36:06+00:00
-  - Link: https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
-  - Summary: Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts. "This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain 'compatible' with npm v12's security hardenings," JFrog said in a
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - Title: ClickFix Now Cybercriminals' Favorite Malware Delivery Technique
   - Published: 2026-06-30T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - Summary: ReliaQuest report warns of a surge in ClickFix social engineering attacks against Windows and macOS users
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer
+  - Published: 2026-06-29T05:36:06+00:00
+  - Link: https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html
+  - Summary: Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts. "This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain 'compatible' with npm v12's security hardenings," JFrog said in a
 
 ### Cluster c4a141b0a0 — score 14
 
@@ -1869,74 +1876,6 @@ Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw 
   - Link: https://thehackernews.com/2026/06/public-poc-released-for-critical.html
   - Summary: A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2. libssh2 is a client-side SSH library, not a server.
 
-### Cluster 353c2fa166 — score 13
-
-- Title: Get started with the Claude apps gateway for Google Cloud
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-01T16:00:00+00:00
-- Link: https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/
-- Fetch status: ok
-- Member count: 7
-- Corroborating source count: 6
-- Strong signals: Anthropic/Claude
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Anthropic/Claude, Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Anthropic/Claude
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkt
-```
-
-#### Full body
-
-```
-Developers & Practitioners Get started with the Claude apps gateway for Google Cloud July 1, 2026 Roy Arsan Applied AI Engineer, Anthropic Ivan Nardini AI Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkthrough lives in the Claude apps gateway on Google Cloud docs .) Why run the gateway Run the gateway to centralize the governance that developers and platform admins otherwise each carry alone such as identity, policy, cost, and routing. Here's what that looks like in practice. Identity. The /login request routes through your identity provider (IdP ) - Google Workspace or any OIDC/OpenID Connect one - and the gateway swaps the token for a short-lived session. No sensitive information lands on the developer’s laptop — such as service-account keys, API keys, or ANTHROPIC_VERTEX_PROJECT_ID . Onboarding is as simple as adding a user to an IdP group; offboarding by removing them, and their next session refresh fails on the spot. Policy. Your RBAC (role-based access control) rules live once in gateway.yaml , resolved per group and enforced server-side. The gateway re-checks availableModels on every /v1/messages call, so editing local managed-settings.json changes nothing — and rule updates reach the whole fleet within the hour. Telemetry. Every claude_code.token.usage metric carries the verified email and groups from the session JWT (signed session token), not the spoofable client-set OTEL_RESOURCE_ATTRIBUTES . The gateway ships them over OTLP/HTTP to a collector you run — Cloud Monitoring, Grafana, Datadog, whatever you use. Spend limits. Set daily, weekly, or monthly caps per user, group, or org via the admin API; the gateway meters tokens against a Cloud SQL ledger and returns a 429 at the cap. Costs are at list price, so treat them as a runaway-usage guardrail, not a bill reconciliation (committed-use discounts and negotiated rates don't show up). Routing. Calls go out under a single Cloud Run service identity. Set region: global for Agent Platform's global endpoint, or add a second upstreams: entry to fail over on 5xx/429/timeout in list order. Either way, inference stays in your GCP project — quota, Data Processing Agreement, and billing all unchanged. How it fits together A developer's local or deployed claude process sends inference traffic to the gateway over HTTPS. The gateway is a stateless container on Cloud Run as shown below. The gateway validates its own session bearer — Google Workspace is only contacted at sign-in and token refresh — checks policy, and forwards the request to Agent Platform using the Cloud Run service account. Cloud SQL holds device-code sign-in state and the spend ledger; an OTLP collector receives the attributed metrics. Setting it up on Google Cloud The full walkthrough, every gcloud command and the complete gateway.yaml reference, is in the Claude apps gateway on Google Cloud docs . The short version: Step 1: Provision the GCP foundation Enable the Age
-```
-
-#### Corroborating sources (6)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Get started with the Claude apps gateway for Google Cloud
-  - Published: 2026-07-01T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/
-  - Summary: Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkt
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Quoting Anthropic
-  - Published: 2026-06-30T23:58:15+00:00
-  - Link: https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything
-  - Summary: We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos , ai , llms
-- **CyberScoop** (cyber_news_breach_reporting)
-  - Title: US lifting export control restrictions on Anthropic’s Mythos, Fable
-  - Published: 2026-07-01T13:36:39+00:00
-  - Link: https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/
-  - Summary: The company and the Commerce Department say they have reached an agreement that will see the AI models released publicly with new guardrails and classifiers. The post US lifting export control restrictions on Anthropic’s Mythos, Fable appeared first on CyberScoop .
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: Anthropic to restore Claude Fable access on Wednesday
-  - Published: 2026-07-01T00:35:14+00:00
-  - Link: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
-  - Summary: Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]
-- **Help Net Security** (cyber_news_breach_reporting)
-  - Title: Claude Sonnet 5 includes safeguards against dangerous cyber use
-  - Published: 2026-07-01T08:45:33+00:00
-  - Link: https://www.helpnetsecurity.com/2026/07/01/anthropic-claude-sonnet-5/
-  - Summary: Anthropic has introduced Claude Sonnet 5, the latest version of its general-purpose AI model, with improved reasoning, coding, tool use, and knowledge work capabilities. The model can make plans, use tools such as browsers and terminals, and complete tasks autonomously. Scores for Sonnet 5 on a variety of evaluations compared to those of Sonnet 4.6 and Opus 4.8 (Source: Anthropic) The company says Sonnet 5 improves reasoning, coding, tool use, and knowledge-work tasks. “Our safety … More → The post Claude Sonnet 5 includes safeguards against dangerous cyber use appeared first on Help Net Security .
-- **Risky Business News** (practitioner_analysis)
-  - Title: Risky Bulletin: Operation Endgame dismantles Amadey and StealerC
-  - Published: 2026-06-26T04:38:21+00:00
-  - Link: https://risky.biz/RBNEWS582/
-  - Summary: Law enforcement dismantles two more malware operations, Japan’s army used infected USB drives, Anthropic accuses Alibaba of distillation attacks, and Australia finds “digital dynamite” on critical networks.
-
 ### Cluster d8d3a457ab — score 12
 
 - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
@@ -1969,45 +1908,6 @@ YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
   - Published: 2026-06-28T07:56:44+00:00
   - Link: https://isc.sans.edu/diary/rss/33106
   - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-
-### Cluster fbb9c91ae0 — score 12
-
-- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-01T15:26:27+00:00
-- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-```
-
-#### Full body
-
-```
-Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-  - Published: 2026-07-01T15:26:27+00:00
-  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
 ### Cluster b7144ae5b1 — score 12
 
@@ -2054,51 +1954,6 @@ Home Blog What’s the Average Cost of a Data Breach? Last Updated: June 26, 202
   - Link: https://www.huntress.com/blog/average-cost-of-a-data-breach
   - Summary: Learn what the average cost of a data breach is and how factors like industry and location impact it. Plus, learn how to protect yourself from costly breaches.
 
-### Cluster e7d7647d31 — score 12
-
-- Title: 27 Biggest Data Breaches in History: Famous Examples
-- Source: Huntress (detection_response_operations)
-- Published: 2026-06-25T04:00:00+00:00
-- Link: https://www.huntress.com/blog/biggest-data-breaches
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
-- affected_products: Anthropic/Claude, OpenAI/ChatGPT
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
-- affected_products: OpenAI/ChatGPT, Anthropic/Claude
-- content_type: incident_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Learn about the biggest data breaches of the past 20 years, how they happened, and how you can better protect your organization from major threats.
-```
-
-#### Full body
-
-```
-Home Blog 27 Biggest Data Breaches in History & What They Teach Us Last Updated: June 25, 2026 27 Biggest Data Breaches in History & What They Teach Us By: Brenda Buckman Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Remember when your biggest online privacy concern was your parents friending you on Facebook? Ah, simpler times. Now, we're navigating a digital minefield where giants like Yahoo, Equifax, and, yes, Facebook have made personal data a hot commodity on the dark web. These biggest data breaches in history offer critical lessons for any business looking to avoid becoming the next famous data breach headline. To make it on this list of the biggest data breaches, the attacks include both a massive number of records exposed and a wide range of data accessed by threat actors. Each data breach example below reveals common patterns in how the largest data breaches unfold—and what could have prevented them. Keep reading to learn more about the biggest global data breaches, what they have in common, and how to prevent them at your organization. The 27 biggest data breaches in history From big names in the credit card game like Capital One to shopping sites like eBay, anyone can fall victim to a data breach, especially if the right protections aren't in place. These famous data breaches show that no industry or company size is immune. It’s important to note that while the term data breach is commonly used to describe any sort of incident involving data, this list actually includes three distinct types of data threats: Data breaches: These are traditional, unauthorized infiltrations of a secure system. Data leaks: This often refers to an unintentional exposure of data due to a misconfiguration issue, such as the storage of unencrypted passwords . Data scraping: This is the automated extraction of large amounts of data, often publicly available, but done in a massive, unauthorized way that violates terms of service. Here’s an overview of some of the largest data incidents of the past 20 years. Breach Location Records exposed Data accessed Chinese Surveillance Network China 4 billion WeChat data, bank details, Alipay profile information, phone numbers, home addresses, and behavioral profiles Yahoo Global 3 billion Names, email addresses, dates of birth, phone numbers, and encrypted or unencrypted security questions and answers National Public Data US, UK, and Canada 2.9 billion Full names, dates of birth, addresses, phone numbers, and Social Security numbers Real Estate Wealth Network United States 1.5 billion Names, addresses, phone numbers, mortgage information, and tax identification numbers River City Media United States 1.4 billion Email and IP addresses, full names, and physical addresses Aadhaar India 1.1 billion Names, addresses, photos, phone numbers, emails, and biometric data Alibaba China 1.1 billion User IDs and phone numbers First American Financial United States 885 million Social Security numbers, bank account details, mortgage and tax records, wire transfer receipts, and driver's license photos LinkedIn Global 700 million Names, email addresses, phone numbers, location, and gender Sina Weibo China 538 million Names, usernames, phone numbers, location, and gender Facebook Global 533 million Names, Facebook IDs, locations, dates of birth, and phone numbers Marriott International (Starwood) Global 500 million Names, mailing addresses, phone numbers, email addresses, passport numbers, dates of birth, other travel details, and encrypted payment card information for a smaller number of people Adult FriendFinder Global 412 million Usernames, email addresses, dates of last visits, passwords, and IP addresses 14. MySpace Global 360 million Email addresses, usernames, and passwords 15. Exactis United States 340 million Full names, email addresses, phone numbers, home addresses, plus the number, age, and gender of a person's children, their interests, and their estimated income 16. NetEase China 235 millio
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: 27 Biggest Data Breaches in History: Famous Examples
-  - Published: 2026-06-25T04:00:00+00:00
-  - Link: https://www.huntress.com/blog/biggest-data-breaches
-  - Summary: Learn about the biggest data breaches of the past 20 years, how they happened, and how you can better protect your organization from major threats.
-
 ### Cluster db017396fb — score 12
 
 - Title: JADEPUFFER: Agentic ransomware for automated database extortion
@@ -2138,6 +1993,51 @@ Home Blog 27 Biggest Data Breaches in History & What They Teach Us Last Updated:
   - Title: JADEPUFFER: Agentic ransomware for automated database extortion
   - Published: 2026-07-01T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
+
+### Cluster a36f6c9249 — score 12
+
+- Title: Medtronic notifies customers impacted by ShinyHunters data breach
+- Source: BleepingComputer (cyber_news_breach_reporting)
+- Published: 2026-07-02T04:25:42+00:00
+- Link: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: ShinyHunters
+
+#### Cluster taxonomy (union across members)
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: ShinyHunters
+- affected_industries: healthcare
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
+```
+
+#### Full body
+
+```
+Medtronic notifies customers impacted by ShinyHunters data breach By Bill Toulas July 2, 2026 12:25 AM 0 Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. The company previously confirmed that its IT systems were compromised by hackers, and the infamous data extortion group ‘ShinyHunters’ claimed the attack. The threat actor said that they were holding 9 million Medtronic records with personally identifiable information (PII) and internal corporate data. “On April 15, 2026, Medtronic became aware of unusual activity on certain corporate IT systems,” reads the company's notification sample . “Medtronic launched an investigation with the assistance of leading third-party cybersecurity experts to determine the impact and scope of the incident.” “The investigation determined that from April 13 to April 19, 2026, an unauthorized actor accessed certain Medtronic corporate IT systems.” The exposed data may include the following: Full name Contact information Date of birth Social Security number Health-related information ShinyHunters typically publishes stolen data if ransom negotiations with the victim organization fail to secure payment. The hackers listed Medtronic on their dark web extortion portal on April 18 and threatened to release the stolen data, allegedly over 9 million records, if a ransom payment wasn’t made by April 21. However, the Medtronic entry was removed from ShinyHunters' listing later the same month. In the notification to customers, Medtronic emphasizes that the stolen data was not exposed online. Medtronic is a medical device company doing business in 150 countries, with an annual revenue of $33.5 billion and 95,000 employees. Although the company suffered a data breach that exposed sensitive customer information, the firm has once again assured that all its devices remain safe to use and are not affected by this cybersecurity incident. Recipients of the notifications are advised to enroll in the offered 24-month credit monitoring and identity theft protection services to mitigate the risk of data exposure. It is also advisable to remain vigilant for suspicious communications that leverage the exposed data to carry out scams, social engineering, and phishing attempts, and to monitor account activity closely. Test every layer before attackers do Security teams log 54% of successful attacks and alert on just 14%. The rest move through your environment unseen. The Picus whitepaper shows how breach and attack simulation tests your SIEM and EDR rules so threats stop slipping by detection. Get the whitepaper Related Articles: NAIC says public data stolen in ShinyHunters' PeopleSoft breach Healthtech firm Xolis suffers data breach impacting 1.4 million people Infinite Campus data breach affects 137,000 school staff accounts Pharma giant Novo Nordisk discloses breach of clinical trials data DentaQuest data breach exposed info of 2.6 million accounts
+```
+
+#### Corroborating sources (1)
+
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Medtronic notifies customers impacted by ShinyHunters data breach
+  - Published: 2026-07-02T04:25:42+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
+  - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
 
 ### Cluster 57ef1249ed — score 12
 
@@ -2234,6 +2134,74 @@ Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Da
   - Published: 2026-06-29T10:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
   - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
+
+### Cluster 353c2fa166 — score 12
+
+- Title: Get started with the Claude apps gateway for Google Cloud
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-01T16:00:00+00:00
+- Link: https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/
+- Fetch status: ok
+- Member count: 8
+- Corroborating source count: 6
+- Strong signals: Anthropic/Claude
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Anthropic/Claude, Google Cloud
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_3_analysis, tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: Anthropic/Claude
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkt
+```
+
+#### Full body
+
+```
+Developers & Practitioners Get started with the Claude apps gateway for Google Cloud July 1, 2026 Roy Arsan Applied AI Engineer, Anthropic Ivan Nardini AI Engineer, Google Cloud Try Gemini Enterprise Business Edition today The front door to AI in the workplace Try now Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkthrough lives in the Claude apps gateway on Google Cloud docs .) Why run the gateway Run the gateway to centralize the governance that developers and platform admins otherwise each carry alone such as identity, policy, cost, and routing. Here's what that looks like in practice. Identity. The /login request routes through your identity provider (IdP ) - Google Workspace or any OIDC/OpenID Connect one - and the gateway swaps the token for a short-lived session. No sensitive information lands on the developer’s laptop — such as service-account keys, API keys, or ANTHROPIC_VERTEX_PROJECT_ID . Onboarding is as simple as adding a user to an IdP group; offboarding by removing them, and their next session refresh fails on the spot. Policy. Your RBAC (role-based access control) rules live once in gateway.yaml , resolved per group and enforced server-side. The gateway re-checks availableModels on every /v1/messages call, so editing local managed-settings.json changes nothing — and rule updates reach the whole fleet within the hour. Telemetry. Every claude_code.token.usage metric carries the verified email and groups from the session JWT (signed session token), not the spoofable client-set OTEL_RESOURCE_ATTRIBUTES . The gateway ships them over OTLP/HTTP to a collector you run — Cloud Monitoring, Grafana, Datadog, whatever you use. Spend limits. Set daily, weekly, or monthly caps per user, group, or org via the admin API; the gateway meters tokens against a Cloud SQL ledger and returns a 429 at the cap. Costs are at list price, so treat them as a runaway-usage guardrail, not a bill reconciliation (committed-use discounts and negotiated rates don't show up). Routing. Calls go out under a single Cloud Run service identity. Set region: global for Agent Platform's global endpoint, or add a second upstreams: entry to fail over on 5xx/429/timeout in list order. Either way, inference stays in your GCP project — quota, Data Processing Agreement, and billing all unchanged. How it fits together A developer's local or deployed claude process sends inference traffic to the gateway over HTTPS. The gateway is a stateless container on Cloud Run as shown below. The gateway validates its own session bearer — Google Workspace is only contacted at sign-in and token refresh — checks policy, and forwards the request to Agent Platform using the Cloud Run service account. Cloud SQL holds device-code sign-in state and the spend ledger; an OTLP collector receives the attributed metrics. Setting it up on Google Cloud The full walkthrough, every gcloud command and the complete gateway.yaml reference, is in the Claude apps gateway on Google Cloud docs . The short version: Step 1: Provision the GCP foundation Enable the Age
+```
+
+#### Corroborating sources (6)
+
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Get started with the Claude apps gateway for Google Cloud
+  - Published: 2026-07-01T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/topics/developers-practitioners/announcing-claude-apps-gateway-for-google-cloud/
+  - Summary: Anthropic's agentic coding tool Claude Code has worked with Google Cloud for a while now. An individual developer could easily point CLAUDE_CODE_USE_VERTEX=1 at a Google Cloud (GCP) project, grant the role roles/aiplatform.user , and inference stays inside your Google Cloud perimeter. That flow works great when it’s just you, or a handful of engineers. But rolling it out across an organization forces you to deal with enterprise friction: you have to manage per-developer cloud credentials, push a managed-settings.json to every laptop over MDM, and not be verified with zero per-developer usage attribution or easily enforceable spend caps. The Claude apps gateway closes that gap. It is a self-hosted service, shipped with the same claude binary, that sits directly between your local Claude Code clients and Google Cloud. This post breaks down exactly why you should run it and what a secure deployment looks like on Google Cloud. (Note: If you want to jump straight to the code, the full walkt
+- **Simon Willison** (ai_security_agentic_risk)
+  - Title: Quoting Anthropic
+  - Published: 2026-06-30T23:58:15+00:00
+  - Link: https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything
+  - Summary: We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5. We'll begin restoring access tomorrow, and will share an update soon. — Anthropic , on Twitter Tags: anthropic , claude , generative-ai , claude-mythos , ai , llms
+- **Help Net Security** (cyber_news_breach_reporting)
+  - Title: What the AI patch gap means for enterprise security
+  - Published: 2026-07-02T04:30:52+00:00
+  - Link: https://www.helpnetsecurity.com/2026/07/02/open-source-ai-patch-gap/
+  - Summary: Open-source maintainers are receiving more vulnerability reports than they can act on, and a rising share now comes from an AI system working at machine speed. Over roughly two months this spring, Anthropic’s Claude Mythos Preview combed through more than 23,000 open-source code paths and routed verified findings to the projects that own them. Tuskira studied what happens to those findings once they reach human hands. The program reported 1,596 verified vulnerabilities, spread across hundreds … More → The post What the AI patch gap means for enterprise security appeared first on Help Net Security .
+- **CyberScoop** (cyber_news_breach_reporting)
+  - Title: US lifting export control restrictions on Anthropic’s Mythos, Fable
+  - Published: 2026-07-01T13:36:39+00:00
+  - Link: https://cyberscoop.com/us-lifting-export-control-restrictions-anthropic-mythos-fable/
+  - Summary: The company and the Commerce Department say they have reached an agreement that will see the AI models released publicly with new guardrails and classifiers. The post US lifting export control restrictions on Anthropic’s Mythos, Fable appeared first on CyberScoop .
+- **Risky Business News** (practitioner_analysis)
+  - Title: Risky Bulletin: Operation Endgame dismantles Amadey and StealerC
+  - Published: 2026-06-26T04:38:21+00:00
+  - Link: https://risky.biz/RBNEWS582/
+  - Summary: Law enforcement dismantles two more malware operations, Japan’s army used infected USB drives, Anthropic accuses Alibaba of distillation attacks, and Australia finds “digital dynamite” on critical networks.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: Anthropic to restore Claude Fable access on Wednesday
+  - Published: 2026-07-01T00:35:14+00:00
+  - Link: https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-to-restore-claude-fable-access-on-wednesday/
+  - Summary: Anthropic has confirmed that the Department of Commerce has lifted export controls on Claude's two most powerful models, Fable 5 and Mythos 5. [...]
 
 ### Cluster f2b3bd6ba4 — score 11
 
@@ -2411,6 +2379,45 @@ Table of Contents Key findings Malware and potentially unwanted applications (PU
   - Link: https://securelist.com/smb-threat-report-2026/120357/
   - Summary: Kaspersky researchers analyze the threat landscape for SMBs in 2026: the rise of attacks involving fake AI tools, phishing schemes, and data sold on the dark web.
 
+### Cluster fbb9c91ae0 — score 11
+
+- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-01T15:26:27+00:00
+- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+```
+
+#### Full body
+
+```
+Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+  - Published: 2026-07-01T15:26:27+00:00
+  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+
 ### Cluster fcac4a62c3 — score 11
 
 - Title: Risk-Based Vulnerability Management for the Cloud: A 2026 Guide
@@ -2581,6 +2588,92 @@ Risky Bulletin Podcast July 01, 2026 Risky Bulletin: Researcher drops giant cach
   - Link: https://risky.biz/RBNEWS584/
   - Summary: An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
 
+### Cluster 1c995def22 — score 10
+
+- Title: Securing AI agents: When AI tools move from reading to acting
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-30T15:57:11+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ai_security, supply_chain
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: supply_chain, ai_security
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights AI and agents As enterprise deployments mature, some enterprise AI agents are shifting from reading content to taking action. In this post, Microsoft Incident Response walks through an attack pattern that targets the fastest growing part of the agentic AI supply chain: Model Context Protocol (MCP) tools. The post provides a practical playbook for detecting, containing, and preventing this class of attack using Microsoft security controls. From reading to acting This is the third post in the AI Application Security series. AI Application Series 1: Security considerations when adopting AI tools examined how AI adoption expands the enterprise attack surface. AI Application Series 2: Detecting and analyzing prompt abuse in AI tools showed how indirect prompt injection can bias the output of a passive AI summarizer. In both cases, the AI only read content and produced text, it did not take action. This post addresses what happens when that boundary changes. AI agents can plan multi-step tasks, decide which tools to invoke, and execute actions on behalf of the user. Microsoft 365 Copilot can draft and send email, create documents, and update calendar entries. Copilot Studio and Azure AI Foundry allow organizations to build custom agents that connect to business systems through MCP. As AI is increasingly used in read-write workflows, the impact profile of vulnerabilities may shift. A prompt injection against a summarizer can bias an output. A prompt injection against an agent can trigger an action. According to the International Data Corporation (IDC) , the number of active AI agents in enterprises is projected to grow from 28.6 million in 2025 to more than 2.2 billion by 2030. That scale is why the OWASP Top 10 for Agentic Applications, released in December 2025 , now sits alongside the LLM Top 10 as a reference framework for defenders. This post focuses on one of its fastest-moving categories: tool misuse and agentic supply chain risk exploited through poisoned MCP tool metadata. Attack pattern: MCP tool poisoning in a finance workflow The pattern below maps to ASI02 – Tool Misuse and ASI04 – Agentic Supply Chain Vulnerabilities . It reflects techniques first disclosed by Invariant Labs in April 2025 and observed in 2026 against a growing range of enterprise agents. The environment A financial operations team builds a Copilot Studio agent to help analysts handle vendor invoices. The agent has generative orchestration enabled and connects to three tools: a Dataverse MCP server holding the approved vendor master, an Outlook connector for vendor correspondence, and a third-party invoice enrichment MCP server added to validate banking details against an external reference database. The third-party server is reviewed by the team’s service owner lead and approved for production use. No separate security review is performed. Attack chain overview Phase 1: Tool description poisoning . A developer pushes an update to the enrichment server. The tool name and user-facing summary remain unchanged, but the MCP tool description is silently modified. This description is the natural-language metadata the agent reads to decide how and when to call the tool. Buried within what appears to be legitimate formatting guidance is a hidden block of instructions directing the agent to retrieve the last thirty unpaid invoices, summarize them, and attach that summary as an additional parameter in the enrichment call—framed as a fraud-heuristic requirement. Phase 2: Silent re-trust .The MCP reflects tool metadata updates dynamically. In configurations where description changes do not trigger a re-approval workflow, the updated instructions become active without additional review. The poisoned description is live in production. Phase 3: User invocation . A financial analyst asks the agent a routine question about a supplier. Without
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Securing AI agents: When AI tools move from reading to acting
+  - Published: 2026-06-30T15:57:11+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
+  - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
+
+### Cluster a2f878fad9 — score 10
+
+- Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
+- Source: Microsoft Security Blog (threat_research_primary)
+- Published: 2026-06-25T22:30:29+00:00
+- Link: https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Microsoft Defender
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection. The post Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access appeared first on Microsoft Security Blog .
+```
+
+#### Full body
+
+```
+Share Link copied to clipboard! Tags Phishing Content types Research Products and services Microsoft Defender Topics Actionable threat insights Microsoft Threat Intelligence has identified an active multi-stage intrusion campaign targeting organizations in the hospitality and hotel industry since April 2026. We’ve observed this activity through aggregated threat intelligence and security signals across multiple organizations in Europe and Asia. Microsoft has not attributed this campaign to a known threat actor. The campaign uses photo-themed ZIP archives that the target users download through the browser. These archives contain fake image shortcut files that, when launched, start an attack chain that relies on obfuscated PowerShell, a Node.js-based implant, dual registry persistence, and command-and-control (C2) communications over non-standard ports. As of this writing, the campaign’s post-compromise activities include C2 beaconing, forced shutdowns, and compilation of portable executable (PE) payloads. While the campaign’s ultimate objective remains unclear, we assess that the threat actor’s investment in ensuring obfuscation and persistence could indicate that they’re preparing the victim devices for more follow-on activities. In late May 2026, we observed the threat actor misusing legitimate services—including the cloud-based scheduling platform Calendly’s email notification infrastructure and Google’s URL redirect functionality—to deliver phishing emails with multilingual lures and subject lines (for example, guest complaints and room inquiries) designed to convince hospitality staff to open the embedded malicious link and download the ZIP archive. These phishing emails attempt to bypass conventional authentication checks through a technique we describe as authentication laundering: by routing phishing messages through a trusted service’s sending infrastructure, the threat actor can make malicious messages appear similar to legitimate notifications to email authentication defenses. We’ve observed the campaign evolving in two distinct waves. The first wave (hereinafter referred to as Wave 1) used shortcut files named IMG-<random numbers>.png.lnk , while the second one (Wave 2) introduced a naming shift to PHOTO-<random numbers>.png.lnk . Wave 2 also introduced a new attack chain stage in which the PowerShell downloader triggered dynamic .NET DLL compilation through csc.exe , and the actor expanded its domain infrastructure to include .cfd domains hosted behind Cloudflare. This blog summarizes the campaign’s Wave 1 and Wave 2 attack chains and provides Microsoft Defender detections and recommendations. It’s intended to share threat intelligence to help organizations better understand, identify, and defend against similar attack techniques. The activity described reflects observed patterns and behaviors and is provided to support defensive security efforts. Attack chain overview Figure 1. Assessed attack chain for the Node.js photo ZIP/LNK campaign showing both Wave 1 and Wave 2 stages. The campaign follows a multi-stage attack chain with limited variation in overall behavior, even as the actor changed its PowerShell obfuscation and delivery refinements between waves. Initial access and user execution The campaign begins with delivery of a browser-downloaded archive with a file name that uses the pattern photo-<random numbers>.zip . In one observed activity, links to these archives were delivered through phishing emails. We assess that this file naming convention was designed to appear ordinary yet relevant to hospitality workflows, which commonly exchange guest photos, reservation-related images, or document snapshots. In Wave 1, the archive contained a fake image shortcut named IMG-<random numbers>.png.lnk , which masqueraded as a PNG file while remaining executable content. In Wave 2, the threat actor introduced a naming shift to PHOTO-<random numbers>.png.lnk (uppercase PHOTO prefix). Successful execution depended on a t
+```
+
+#### Corroborating sources (1)
+
+- **Microsoft Security Blog** (threat_research_primary)
+  - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
+  - Published: 2026-06-25T22:30:29+00:00
+  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
+  - Summary: Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection. The post Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access appeared first on Microsoft Security Blog .
+
 ### Cluster 84319555f9 — score 10
 
 - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
@@ -2669,92 +2762,6 @@ Threat Research Center Threat Research Malware Malware CL-STA-1062 Targets South
   - Link: https://unit42.paloaltonetworks.com/cl-sta-1062-tinyrct-backdoor/
   - Summary: Government entities and critical infrastructure were targeted for espionage in SE Asia by attackers using a hybrid toolkit, including custom TinyRCT backdoor. The post CL-STA-1062 Targets Southeast Asian Governments and Critical Infrastructure appeared first on Unit 42 .
 
-### Cluster 1c995def22 — score 10
-
-- Title: Securing AI agents: When AI tools move from reading to acting
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-30T15:57:11+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security, supply_chain
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: supply_chain, ai_security
-- affected_industries: financial_services
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Content types Research Products and services Microsoft Defender Topics Actionable threat insights AI and agents As enterprise deployments mature, some enterprise AI agents are shifting from reading content to taking action. In this post, Microsoft Incident Response walks through an attack pattern that targets the fastest growing part of the agentic AI supply chain: Model Context Protocol (MCP) tools. The post provides a practical playbook for detecting, containing, and preventing this class of attack using Microsoft security controls. From reading to acting This is the third post in the AI Application Security series. AI Application Series 1: Security considerations when adopting AI tools examined how AI adoption expands the enterprise attack surface. AI Application Series 2: Detecting and analyzing prompt abuse in AI tools showed how indirect prompt injection can bias the output of a passive AI summarizer. In both cases, the AI only read content and produced text, it did not take action. This post addresses what happens when that boundary changes. AI agents can plan multi-step tasks, decide which tools to invoke, and execute actions on behalf of the user. Microsoft 365 Copilot can draft and send email, create documents, and update calendar entries. Copilot Studio and Azure AI Foundry allow organizations to build custom agents that connect to business systems through MCP. As AI is increasingly used in read-write workflows, the impact profile of vulnerabilities may shift. A prompt injection against a summarizer can bias an output. A prompt injection against an agent can trigger an action. According to the International Data Corporation (IDC) , the number of active AI agents in enterprises is projected to grow from 28.6 million in 2025 to more than 2.2 billion by 2030. That scale is why the OWASP Top 10 for Agentic Applications, released in December 2025 , now sits alongside the LLM Top 10 as a reference framework for defenders. This post focuses on one of its fastest-moving categories: tool misuse and agentic supply chain risk exploited through poisoned MCP tool metadata. Attack pattern: MCP tool poisoning in a finance workflow The pattern below maps to ASI02 – Tool Misuse and ASI04 – Agentic Supply Chain Vulnerabilities . It reflects techniques first disclosed by Invariant Labs in April 2025 and observed in 2026 against a growing range of enterprise agents. The environment A financial operations team builds a Copilot Studio agent to help analysts handle vendor invoices. The agent has generative orchestration enabled and connects to three tools: a Dataverse MCP server holding the approved vendor master, an Outlook connector for vendor correspondence, and a third-party invoice enrichment MCP server added to validate banking details against an external reference database. The third-party server is reviewed by the team’s service owner lead and approved for production use. No separate security review is performed. Attack chain overview Phase 1: Tool description poisoning . A developer pushes an update to the enrichment server. The tool name and user-facing summary remain unchanged, but the MCP tool description is silently modified. This description is the natural-language metadata the agent reads to decide how and when to call the tool. Buried within what appears to be legitimate formatting guidance is a hidden block of instructions directing the agent to retrieve the last thirty unpaid invoices, summarize them, and attach that summary as an additional parameter in the enrichment call—framed as a fraud-heuristic requirement. Phase 2: Silent re-trust .The MCP reflects tool metadata updates dynamically. In configurations where description changes do not trigger a re-approval workflow, the updated instructions become active without additional review. The poisoned description is live in production. Phase 3: User invocation . A financial analyst asks the agent a routine question about a supplier. Without
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Securing AI agents: When AI tools move from reading to acting
-  - Published: 2026-06-30T15:57:11+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
-  - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
-
-### Cluster a2f878fad9 — score 10
-
-- Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
-- Source: Microsoft Security Blog (threat_research_primary)
-- Published: 2026-06-25T22:30:29+00:00
-- Link: https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Microsoft Defender
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection. The post Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access appeared first on Microsoft Security Blog .
-```
-
-#### Full body
-
-```
-Share Link copied to clipboard! Tags Phishing Content types Research Products and services Microsoft Defender Topics Actionable threat insights Microsoft Threat Intelligence has identified an active multi-stage intrusion campaign targeting organizations in the hospitality and hotel industry since April 2026. We’ve observed this activity through aggregated threat intelligence and security signals across multiple organizations in Europe and Asia. Microsoft has not attributed this campaign to a known threat actor. The campaign uses photo-themed ZIP archives that the target users download through the browser. These archives contain fake image shortcut files that, when launched, start an attack chain that relies on obfuscated PowerShell, a Node.js-based implant, dual registry persistence, and command-and-control (C2) communications over non-standard ports. As of this writing, the campaign’s post-compromise activities include C2 beaconing, forced shutdowns, and compilation of portable executable (PE) payloads. While the campaign’s ultimate objective remains unclear, we assess that the threat actor’s investment in ensuring obfuscation and persistence could indicate that they’re preparing the victim devices for more follow-on activities. In late May 2026, we observed the threat actor misusing legitimate services—including the cloud-based scheduling platform Calendly’s email notification infrastructure and Google’s URL redirect functionality—to deliver phishing emails with multilingual lures and subject lines (for example, guest complaints and room inquiries) designed to convince hospitality staff to open the embedded malicious link and download the ZIP archive. These phishing emails attempt to bypass conventional authentication checks through a technique we describe as authentication laundering: by routing phishing messages through a trusted service’s sending infrastructure, the threat actor can make malicious messages appear similar to legitimate notifications to email authentication defenses. We’ve observed the campaign evolving in two distinct waves. The first wave (hereinafter referred to as Wave 1) used shortcut files named IMG-<random numbers>.png.lnk , while the second one (Wave 2) introduced a naming shift to PHOTO-<random numbers>.png.lnk . Wave 2 also introduced a new attack chain stage in which the PowerShell downloader triggered dynamic .NET DLL compilation through csc.exe , and the actor expanded its domain infrastructure to include .cfd domains hosted behind Cloudflare. This blog summarizes the campaign’s Wave 1 and Wave 2 attack chains and provides Microsoft Defender detections and recommendations. It’s intended to share threat intelligence to help organizations better understand, identify, and defend against similar attack techniques. The activity described reflects observed patterns and behaviors and is provided to support defensive security efforts. Attack chain overview Figure 1. Assessed attack chain for the Node.js photo ZIP/LNK campaign showing both Wave 1 and Wave 2 stages. The campaign follows a multi-stage attack chain with limited variation in overall behavior, even as the actor changed its PowerShell obfuscation and delivery refinements between waves. Initial access and user execution The campaign begins with delivery of a browser-downloaded archive with a file name that uses the pattern photo-<random numbers>.zip . In one observed activity, links to these archives were delivered through phishing emails. We assess that this file naming convention was designed to appear ordinary yet relevant to hospitality workflows, which commonly exchange guest photos, reservation-related images, or document snapshots. In Wave 1, the archive contained a fake image shortcut named IMG-<random numbers>.png.lnk , which masqueraded as a PNG file while remaining executable content. In Wave 2, the threat actor introduced a naming shift to PHOTO-<random numbers>.png.lnk (uppercase PHOTO prefix). Successful execution depended on a t
-```
-
-#### Corroborating sources (1)
-
-- **Microsoft Security Blog** (threat_research_primary)
-  - Title: Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access
-  - Published: 2026-06-25T22:30:29+00:00
-  - Link: https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/
-  - Summary: Microsoft Threat Intelligence identified an active multi-stage intrusion campaign targeting hospitality organizations in Europe and Asia. The campaign uses photo-themed ZIP archives and fake image shortcut files to deliver a persistent Node.js implant and evade detection. The post Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access appeared first on Microsoft Security Blog .
-
 ### Cluster 73e0a62a37 — score 10
 
 - Title: Beyond IOCs: AI-enabled threat intelligence
@@ -2834,6 +2841,43 @@ Introduction to COM usage by Windows threats By Vanja Svajcer Thursday, June 25,
   - Published: 2026-06-25T10:00:26+00:00
   - Link: https://blog.talosintelligence.com/introduction-to-com-usage-by-windows-threats/
   - Summary: Component Object Model (COM) is a fundamental Windows technology used by legitimate applications for object activation, inter-process communication, automation and language-independent component reuse. Those same qualities make it useful to threat actors.
+
+### Cluster e3e5c74bb1 — score 10
+
+- Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-07-01T05:10:20+00:00
+- Link: https://isc.sans.edu/diary/rss/33118
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_industries: financial_services
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
+  - Published: 2026-07-01T05:10:20+00:00
+  - Link: https://isc.sans.edu/diary/rss/33118
+  - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
 
 ### Cluster 5d507d7678 — score 10
 
@@ -2919,42 +2963,48 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
 
-### Cluster e3e5c74bb1 — score 10
+### Cluster 5bbda948e4 — score 10
 
-- Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-07-01T05:10:20+00:00
-- Link: https://isc.sans.edu/diary/rss/33118
-- Fetch status: fetch_failed:HTTPError
+- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- affected_industries: government
+- affected_products: Android
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_industries: financial_services
+- affected_industries: government
+- affected_products: Android
 - content_type: news_report
-- confidence_tier: tier_1_government
+- confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+```
+
+#### Full body
+
+```
+Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
 ```
 
 #### Corroborating sources (1)
 
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: Why Ask Credentials If There Are Secret Codes?, (Wed, Jul 1st)
-  - Published: 2026-07-01T05:10:20+00:00
-  - Link: https://isc.sans.edu/diary/rss/33118
-  - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+- **Recorded Future** (threat_research_primary)
+  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+  - Published: 2026-07-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
 ### Cluster 6a3df7e65b — score 10
 
@@ -3081,48 +3131,46 @@ Business Security SMB cyber readiness: the road to resilience starts here Your b
   - Link: https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-road-resilience-starts-here/
   - Summary: Your business may be small, but its attack surface is anything but. Readiness is the first step to resilience.
 
-### Cluster 5bbda948e4 — score 10
+### Cluster e1538c3d0e — score 10
 
-- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+- Source: Datadog Security Labs (cloud_identity_infrastructure)
+- Published: 2026-06-26T00:00:00+00:00
+- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Android
+- affected_products: GitHub, PyPI, npm
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- affected_industries: government
-- affected_products: Android
+- affected_products: PyPI, npm, GitHub
 - content_type: news_report
-- confidence_tier: tier_1_primary_research
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
 ```
 
 #### Full body
 
 ```
-Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
+Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
 ```
 
 #### Corroborating sources (1)
 
-- **Recorded Future** (threat_research_primary)
-  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-  - Published: 2026-07-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
+  - Published: 2026-06-26T00:00:00+00:00
+  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
+  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
 
 ### Cluster 195ad94482 — score 10
 
@@ -3208,47 +3256,6 @@ Page content Post-quantum cryptography is now one pip-install away for the entir
   - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
   - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
 
-### Cluster e1538c3d0e — score 10
-
-- Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-- Source: Datadog Security Labs (cloud_identity_infrastructure)
-- Published: 2026-06-26T00:00:00+00:00
-- Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: GitHub, PyPI, npm
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_products: PyPI, npm, GitHub
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-```
-
-#### Full body
-
-```
-Christophe Tafani-Dereeper Cloud Security Researcher and Advocate Sebastian Obregoso Security Researcher In November 2022 we released GuardDog, an open source project originating from an internship at Datadog to identify malicious PyPI packages. Later in February 2023 we released GuardDog 1.0 with support for npm and better heuristics. Then in August 2024 we introduced GuardDog 2.0 with support for custom rules, Golang modules, and YARA scanning. Today we're excited to announce GuardDog 3.0, which brings major changes and enhancements. GuardDog 3.0 features improved console output and a number of new features (click to enlarge) Scanning with YARA instead of Semgrep GuardDog has historically used Semgrep to run source code heuristics. Semgrep is a great tool for building accurate SAST detections, but we found several issues when using it to scan malicious code at scale: it consumes a lot of memory on large files and runs slowly on packages with many files, partly because it spawns a new process for every scan. Semgrep was built as a CLI rather than an efficient library for running scans programmatically. Our Semgrep rules also tended to be too narrow : they overfit specific examples of malicious code, which made new malware harder to identify. For these reasons, we moved away from Semgrep and migrated our rules to YARA, which we run with yara-python . yara-python is an efficient Python library for YARA that invokes native code through a CPython extension. yara-python, the Python interface for YARA that GuardDog 3.0 uses to run its source code rules (click to enlarge) A new risk scoring engine and ruleset But the rule engine was only part of the problem. This section describes where GuardDog 2.0 fell short and how GuardDog 3.0 takes a more opinionated stance on whether a package is likely malicious or benign. Where GuardDog 2.0 fell short GuardDog 2.0 displayed a finding for each Semgrep rule match, with no prioritization, correlation, or confidence that the scanned package was malicious . That design is a problem: GuardDog rules are heuristics , meant to be read as weak signals rather than definitive proof of maliciousness. GuardDog v2.0 displayed every single heuristic matched, without a summary or confidence score (click to enlarge) Anatomy of a malicious package To design the GuardDog 3.0 risk engine, we took a step back and considered how a typical malicious package works: Unusual metadata. Malicious packages may have names that resemble a legitimate popular package, or high version numbers pointing at attempts to exploit dependency confusion . Legitimate packages that have been backdoored may have a mismatch between package.json/requirements.txt on GitHub and npm/PyPI, for instance when an attacker adds a malicious dependency to the package.json file on PyPI, without reflecting the change on GitHub. Execution vector : Pre/post-install scripts, or injected code in the setup.py file. Credential access : Read sensitive credentials from the filesystem or environment variables. Most developers' workstations have long-lived credentials available, so malware typically attempts to access them. Exfiltration: Upload credentials to an attacker-controlled location, for instance by performing an HTTP request with stolen credentials as a payload. Second-stage: Pull a second-stage payload from an attacker-controlled location and execute it. Persistence : Inject code in standard startup locations such as .bashrc or Windows registry keys, so the malicious code still runs even when the malicious package is uninstalled or the machine is restarted. We concluded that malicious packages typically exhibit identifying characteristics across multiple stages of the attack lifecycle. Identifying risks GuardDog 3.0 starts by running two types of YARA rules: Rules that identify capabilities . These are not necessarily malicious, and indicate what a package can do . For instance, capability.network.outbound (perform outbound network calls), or capabili
-```
-
-#### Corroborating sources (1)
-
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - Title: Introducing GuardDog 3.0: A new rules engine, transparent sandboxing, and more
-  - Published: 2026-06-26T00:00:00+00:00
-  - Link: https://securitylabs.datadoghq.com/articles/guarddog-3-0-release/
-  - Summary: Release of GuardDog 3.0, an open-source tool to identify malicious packages, featuring a new YARA-based rules engine, a risk scoring engine, and built-in sandboxing.
-
 ### Cluster 84cd14f9a6 — score 10
 
 - Title: STOCKSTAY Another Day: The Latest Addition to Turla’s Intelligence Gathering Apparatus
@@ -3291,45 +3298,6 @@ Threat Intelligence STOCKSTAY Another Day: The Latest Addition to Turla’s Inte
   - Published: 2026-06-25T14:00:00+00:00
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/stockstay-turla-intelligence-gathering/
   - Summary: Written by: Jordan Jones Introduction Google Threat Intelligence Group (GTIG) has conducted an in-depth analysis of a .NET backdoor, tracked as STOCKSTAY, that has been continually developed and deployed by the Russia-linked threat actor Turla (aka SUMMIT, Secret Blizzard, VENOMOUS BEAR, UAC-0194) since at least December 2022. Turla has deployed STOCKSTAY against government and military organizations in Ukraine, as well as entities with an interest in Italian foreign policy. Used for ongoing cyber espionage, this backdoor shares significant code and functional overlaps with KAZUAR, a successful toolkit previously attributed to Turla. The group has a long history of targeting a wide range of industries, with a particular focus on western Ministries of Foreign Affairs, and defense organizations within the context of heightened political tensions. Turla, and specifically their longstanding Snake implant, has been publicly attributed by the United States Cybersecurity and Infrastructure Se
-
-### Cluster 179d9b0465 — score 10
-
-- Title: Finding and Addressing Vulnerable and Outdated Web Application Components
-- Source: Black Hills Information Security (detection_response_operations)
-- Published: 2026-07-01T14:00:00+00:00
-- Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
-```
-
-#### Full body
-
-```
-1 Jul 2026 Finding , Informational , Melissa Bruno , Web App Top 100 Findings Finding and Addressing Vulnerable and Outdated Web Application Components | Melissa Bruno Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. Vulnerabilities can be present in any of these components and introduce risk into your environment. Keeping these components up to date is essential for maintaining the security of a web application. Vulnerabilities affecting components can range from minor information disclosure to critical remote code execution, which can put the entire organization at risk. Identifying Components — From A Tester’s Perspective It is important for testers to manually review each component utilized by a web application. Tools such as Nessus and Burp Suite’s passive scanner will flag some of the most serious vulnerabilities affecting third-party components, but the vast majority of vulnerabilities do not have associated findings in these tools, and testers relying on these tools to identify vulnerable components will fail to detect most of these issues. The most straightforward way for testers to find components and their associated version numbers is to manually inspect the files returned by the application. The Site Map in Burp Suite and the developer tools in browsers (Firefox’s Debugger and Chrome’s Sources panel), all create an easily browsable list of files used by a web application. Site Map in Mozilla’s Developer Tools Shows jQuery Component In some cases, a component’s name and version number may be readily apparent in the URL or at the top of a file. However, often times, component names and version numbers are buried deep within a file’s source code, and it can be difficult and time-consuming for humans to manually identify these. For the quick identification of third-party components and their version numbers, testers may consider using the Wappalyzer browser plugin. This plugin detects components utilized by the web application and, when possible, the components’ version numbers, and outputs them in a concise list, such as the one shown below. Example Wappalyzer Output Web applications that return verbose error messages that disclose information about the application for debugging purposes may also return component version numbers. Any components mentioned in verbose error messages should be manually investigated. Identifying Vulnerabilities Once you have discovered a component and its associated version number, it’s time to check if that component has any known vulnerabilities. The Snyk Vulnerability Database is a great resource for finding vulnerabilities associated with web components. Example Snyk Vulnerability Summary for jQuery Component Snyk also offers a quick glance at useful information such as the software’s latest version, and how long ago the latest version of the software was published. This information puts into perspective how behind an organization is on patching. If the application is using version 2.1.6, but the latest version is 2.1.7, and it was only released five days ago, there is a good chance that this organization is on top of patching. Conversely, if the organization is 11 versions behind the latest release, patching components may be something that they really need to improve upon. The date that the latest version was published can also provide an important perspective on the state of the software. If the latest version of the software is affected by known vulnerabilities, but the last version update was eight years ago, the component is likely no longer actively maintained, and developers should be advised to disable it. Snyk – Additional Details About jQuery Component If Snyk does not have useful information about a component, plugging the component name and version into
-```
-
-#### Corroborating sources (1)
-
-- **Black Hills Information Security** (detection_response_operations)
-  - Title: Finding and Addressing Vulnerable and Outdated Web Application Components
-  - Published: 2026-07-01T14:00:00+00:00
-  - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
-  - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster cc659a0154 — score 9
 
@@ -3374,142 +3342,44 @@ Databases SOCRadar powers rapid threat detection with AlloyDB and Gemini Enterpr
   - Link: https://cloud.google.com/blog/products/databases/socradar-powers-rapid-threat-detection-with-alloydb-and-gemini-enterprise/
   - Summary: Editor’s note: SOCRadar is a leading cybersecurity company that provides threat intelligence to businesses worldwide. As the volume of cyber threats continued to grow, SOCRadar needed to modernize its data infrastructure to deliver faster insights to its customers. By migrating from PostgreSQL to AlloyDB, SOCRadar achieved a 20x performance boost, reduced operational overhead, and is now better positioned to innovate and grow. How SOCRadar supercharges rapid threat detection with AlloyDB SOCRadar provides external threat intelligence to help organizations across 30+ countries defend against cyberattacks. On the front lines of cybersecurity, timely intelligence is everything and a delay of a few minutes can mean the difference between a blocked exploit and a full-scale breach. As SOCRadar’s business scaled and cyber threat volumes exploded, their on-premises, self-managed PostgreSQL database hit a wall. The database simply couldn't keep pace with the simultaneous demands of high-velocit
 
-### Cluster 983b258a65 — score 9
+### Cluster 179d9b0465 — score 9
 
-- Title: Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval
-- Source: Google Cloud Security (cloud_identity_infrastructure)
-- Published: 2026-07-01T16:00:00+00:00
-- Link: https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: Google Cloud
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Google Cloud
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s su
-```
-
-#### Full body
-
-```
-Security & Identity Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval July 1, 2026 Marc Crandall Global Head of Privacy, Google Cloud Joost Smit Country Lead BeNeLux, Google Cloud At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s summary here ), and that their DPIA concluded that there are no known high data protection risks when the recommended measures are implemented, the Dutch central public sector is now officially enabled to use Google Cloud with a clear path from a privacy-assessment perspective . Accordingly, we encourage Dutch central public sector prospects and customers to engage with us to learn more about Google Cloud. More broadly, we believe this outcome provides a strong foundation for public sector organisations across the Netherlands and beyond, to confidently evaluate and adopt Google Cloud, unlocking modernization and digital transformation securely. This achievement builds upon our strong track record in the region, including the successful completion of the Dutch DPIA on Google Workspace . This previous success affirmed the safe use of Workspace across the Dutch public sector and educational institutions. Together, these assessments demonstrate Google's continued commitment to helping public sector organisations meet their privacy, security, and compliance requirements while benefiting from the innovation and scalability of Google Cloud. Continued support for all customers on their compliance journeys We welcome independent assessments that help strengthen trust, transparency, and accountability. The Dutch government's DPIA process represents an important example of constructive collaboration between public institutions, independent experts, and cloud providers to advance privacy protections. Google Cloud remains committed to helping customers meet their compliance obligations while providing secure, transparent, and privacy-conscious cloud services. We will continue investing in privacy-enhancing technologies, transparency initiatives, and customer controls to support organisations across Europe and around the world. We know first-hand that conducting DPIAs can be a complex task, and we remain firmly committed to helping our customers navigate DPIAs with resources at our comprehensive DPIA Cloud Resource Center . Posted in Security & Identity Public Sector Related articles Security & Identity New IDC study: The business value of Mandiant Consulting By Jurgen Kutscher • 3-minute read Security & Identity Cloud CISO Perspectives: How Google Cloud Security uses AI internally By Chris Betz • 6-minute read Security & Identity Securing agentic AI with perimeter guardrails: What's new in VPC Service Controls By Pratik Bhangale • 5-minute read Security & Identity Verifiable, private AI: Google Cloud expands Confidential Computing frontiers By Sam Lugani • 8-minute read
-```
-
-#### Corroborating sources (1)
-
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - Title: Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval
-  - Published: 2026-07-01T16:00:00+00:00
-  - Link: https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/
-  - Summary: At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s su
-
-### Cluster 89fcac3d75 — score 9
-
-- Title: 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat
-- Source: Dark Reading (cyber_news_breach_reporting)
-- Published: 2026-07-01T15:17:14+00:00
-- Link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
+- Title: Finding and Addressing Vulnerable and Outdated Web Application Components
+- Source: Black Hills Information Security (detection_response_operations)
+- Published: 2026-07-01T14:00:00+00:00
+- Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: phishing_social_eng, supply_chain
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Palo Alto Networks
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
-- threat_categories: supply_chain, phishing_social_eng
-- affected_industries: financial_services, retail_ecommerce
-- affected_products: Palo Alto Networks
 - content_type: news_report
-- confidence_tier: tier_4_news
+- confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.
+Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
 ```
 
 #### Full body
 
 ```
-Endpoint Security Remote Workforce Threat Intelligence Cyber Risk News 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector. Elizabeth Montalbano , Contributing Writer July 1, 2026 4 Min Read Source: Cavan Images via Getty Images Cybercriminals are taking advantage of a new large language model (LLM)-driven attack vector called "phantom squatting" to threaten the software supply chain by registering nonexistent domains linked to legitimate brands to intercept traffic generated by AI systems. One attacker even used an AI coding assistant to build a full phishing kit targeting a high-risk phantom domain that researchers had identified earlier. LLMs consistently hallucinate Web domains for legitimate brands, and this leaves the door open for cybercriminals to exploit of these domains, according to research from Palo Alto Networks' Unit 42 published June 30. The researchers analyzed 913 global brands via 685,339 URL queries across multiple configurations of two distinct LLM models, which generated 250,000 hallucinated domains. They exist alongside the more than 13,220 confirmed malicious URLs related to the brands, the researchers found. Related: Rokarolla Android Trojan Levels Up to Full Device Control, Persistence Unit 42 compared hallucinations of Web domains to how LLMs frequently hallucinate software package names that do not exist in any registry. "Just as an LLM might hallucinate a library name, it can generate fictitious domains for Web portals, API endpoints, or corporate services for a target brand," Unit 42 researchers wrote in the report . People making requests to AI assistants that are directed to the phantom portals are then at risk for malicious activity hiding behind them, they said. Given this, and the fact that LLMs now exist "as a trusted supply chain dependency" across many enterprises, these hallucinated domains are emerging as a significant threat stemming from the use of AI assistants across the enterprise. Exploit Paths for Phantom Squatting One exploit path is if a coding assistant generates a plausible but unregistered benefits portal URL, which would allow an adversary to preemptively register it. Another is if an AI research agent produces a plausible banking portal domain that an adversary could have already registered to capture traffic, according to Unit 42. A third way is if a developer integrates an AI-generated API endpoint into their code, unknowingly directing application data to an attacker-controlled server. "The attack chain is simple: Probe models for invented domains that appear repeatedly, register the most useful names, place phishing or malicious content behind them, and wait for a person (or, increasingly, an autonomous agent) to follow the recommendation," Johan Edholm, security engineer and co-founder at Detectify, tells Dark Reading. "It's cheap, repeatable, and scalable, which is what actually makes an attack dangerous." Related: The Invisible Battlefield: How Cyberwar Is Reshaping Everyday Life Phantom squatting is related to typosquatting, with a key difference, he says. Typosquatting waits for someone to mistype a known domain, while phantom squatting waits for a model to invent a plausible one to which users are directed. This makes detection of the vector more difficult, "because the domain may sit outside the predictable variations defenders normally monitor, and a newly registered domain begins with little or no reputation history," Edholm says. "Montana Empire" Built on a Ghost Unit 42’s proactive monitoring of high-priority hallucinated domains detected registrations of phantom domains by would-be attackers 18 to 51 days after initial identification, they said. In one case, this led to the flagging of a "high-risk" postal service e-commerce domain 23 days before registration that later was used as the victim-fac
+1 Jul 2026 Finding , Informational , Melissa Bruno , Web App Top 100 Findings Finding and Addressing Vulnerable and Outdated Web Application Components | Melissa Bruno Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. Vulnerabilities can be present in any of these components and introduce risk into your environment. Keeping these components up to date is essential for maintaining the security of a web application. Vulnerabilities affecting components can range from minor information disclosure to critical remote code execution, which can put the entire organization at risk. Identifying Components — From A Tester’s Perspective It is important for testers to manually review each component utilized by a web application. Tools such as Nessus and Burp Suite’s passive scanner will flag some of the most serious vulnerabilities affecting third-party components, but the vast majority of vulnerabilities do not have associated findings in these tools, and testers relying on these tools to identify vulnerable components will fail to detect most of these issues. The most straightforward way for testers to find components and their associated version numbers is to manually inspect the files returned by the application. The Site Map in Burp Suite and the developer tools in browsers (Firefox’s Debugger and Chrome’s Sources panel), all create an easily browsable list of files used by a web application. Site Map in Mozilla’s Developer Tools Shows jQuery Component In some cases, a component’s name and version number may be readily apparent in the URL or at the top of a file. However, often times, component names and version numbers are buried deep within a file’s source code, and it can be difficult and time-consuming for humans to manually identify these. For the quick identification of third-party components and their version numbers, testers may consider using the Wappalyzer browser plugin. This plugin detects components utilized by the web application and, when possible, the components’ version numbers, and outputs them in a concise list, such as the one shown below. Example Wappalyzer Output Web applications that return verbose error messages that disclose information about the application for debugging purposes may also return component version numbers. Any components mentioned in verbose error messages should be manually investigated. Identifying Vulnerabilities Once you have discovered a component and its associated version number, it’s time to check if that component has any known vulnerabilities. The Snyk Vulnerability Database is a great resource for finding vulnerabilities associated with web components. Example Snyk Vulnerability Summary for jQuery Component Snyk also offers a quick glance at useful information such as the software’s latest version, and how long ago the latest version of the software was published. This information puts into perspective how behind an organization is on patching. If the application is using version 2.1.6, but the latest version is 2.1.7, and it was only released five days ago, there is a good chance that this organization is on top of patching. Conversely, if the organization is 11 versions behind the latest release, patching components may be something that they really need to improve upon. The date that the latest version was published can also provide an important perspective on the state of the software. If the latest version of the software is affected by known vulnerabilities, but the last version update was eight years ago, the component is likely no longer actively maintained, and developers should be advised to disable it. Snyk – Additional Details About jQuery Component If Snyk does not have useful information about a component, plugging the component name and version into
 ```
 
 #### Corroborating sources (1)
 
-- **Dark Reading** (cyber_news_breach_reporting)
-  - Title: 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat
-  - Published: 2026-07-01T15:17:14+00:00
-  - Link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
-  - Summary: LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.
-
-### Cluster 8f3530bf08 — score 9
-
-- Title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T15:25:46+00:00
-- Link: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ai_security, vulnerability_disclosure, zero_day
-- affected_products: Fortinet
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2026-48276, CVE-2026-48277, CVE-2026-48281, CVE-2026-48283, CVE-2026-48316
-- urgency_signals: actively_exploited, critical_cvss, zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day, ai_security, vulnerability_disclosure, active_exploitation
-- affected_products: Fortinet
-- tools_used: Apple iOS/macOS
-- cve_ids: CVE-2026-48276, CVE-2026-48283, CVE-2026-48277, CVE-2026-48281, CVE-2026-48316
-- urgency_signals: actively_exploited, zero_day, critical_cvss
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities are listed
-```
-
-#### Full body
-
-```
-Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic  Ravie Lakshmanan  Jul 01, 2026 Artificial Intelligence / Vulnerability Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities are listed below - CVE-2026-48276, CVE-2026-48283 (CVSS scores: 10.0) - Unrestricted upload of file with dangerous type vulnerabilities that could lead to arbitrary code execution CVE-2026-48277, CVE-2026-48281, CVE-2026-48316 (CVSS scores: 10.0) - Improper input validation vulnerabilities that could lead to arbitrary code execution CVE-2026-48282 (CVSS score: 10.0) - A path traversal vulnerability that could lead to arbitrary code execution CVE-2026-48313 (CVSS score: 9.3) - A path traversal vulnerability that could lead to arbitrary file system read CVE-2026-48315 (CVSs score: 9.3) - An improper input validation vulnerability that could lead to privilege escalation The issues have been addressed in ColdFusion 2023 Update 21 and ColdFusion 2025 Update 10. Security researchers Anirudh Anand, Matan Sandori, and 2Bsecure have been credited with discovering and reporting CVE-2026-48283, CVE-2026-48313, and CVE-2026-48307. Separately, Adobe has also shipped fixes to close out a critical flaw in Adobe Campaign Classic impacting versions ACC v7: 7.4.3 build 9396 and earlier for Windows and Linux that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-48286 (CVSS score: 10.0), is a case of incorrect authorization that could enable an attacker to execute arbitrary code on affected systems. It has been patched in version ACC v7: 7.4.3 build 9397. Adobe noted that CVE-2026-48286 only impacts on-premise Adobe Campaign instances, including fully on-premise deployments and on-premise components in hybrid deployments. Adobe-hosted instances have already been updated and require no action. The company also emphasized that it has not found any exploits in the wild for any of the issues addressed as part of the two updates. The disclosure comes as Adobe said it's moving from monthly to twice-monthly publication of security bulletins and advisories on the second and fourth Tuesday of each month starting July 14, 2026, as a direct result of accelerated vulnerability discovery using artificial intelligence (AI) models. "The frontier AI capabilities we are using are also available to attackers, and the window between public vulnerability disclosure and active exploitation is compressing from days to hours," Adobe's Chief Security Officer Aanchal Gupta said . "We are applying AI to find and fix vulnerabilities first, and getting those fixes to customers faster is the natural next step." Found this article interesting? Follow us on Google News , Twitter and LinkedIn to read more exclusive content we post. SHARE      Tweet  Share  Share  Share SHARE  Adobe , artificial intelligence , Code Execution , ColdFusion , Path Traversal , Vulnerability ⚡ Top Stories This Week Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool 29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests ⚡ Weekly Recap: Brows
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
-  - Published: 2026-07-01T15:25:46+00:00
-  - Link: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
-  - Summary: Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities are listed
+- **Black Hills Information Security** (detection_response_operations)
+  - Title: Finding and Addressing Vulnerable and Outdated Web Application Components
+  - Published: 2026-07-01T14:00:00+00:00
+  - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
+  - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
 
 ### Cluster 31e5b2aa9f — score 9
 
@@ -3517,20 +3387,24 @@ Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic  Ravie Lak
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-07-01T09:00:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: data_breach
-- affected_industries: financial_services
+- threat_categories: data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_industries: financial_services, healthcare
+- affected_products: OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: data_breach
-- affected_industries: financial_services
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach
+- actor_attribution: Scattered Spider
+- affected_industries: healthcare, financial_services
+- affected_products: OpenAI/ChatGPT
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3538,6 +3412,12 @@ Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic  Ravie Lak
 
 ```
 Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
+```
+
+#### Full body
+
+```
+Infosecurity Magazine Home » News » Insurance Giant Aflac Discloses Data Breach Impacting Millions Insurance Giant Aflac Discloses Data Breach Impacting Millions News 1 July 2026 Written by Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster US insurer Aflac has disclosed a major data breach after hackers managed to access highly sensitive personal and financial information. The company’s Aflac Japan subsidiary discovered the intrusion on June 25, it said in a filing with the SEC yesterday (June 30). It explained that an “unauthorized third party” had accessed certain systems between June 15 and June 25. “Although the investigation remains ongoing, Aflac Japan has determined that certain impacted files contain policy and coverage details, personal information, and bank account information,” it revealed. “This incident is limited to systems in Japan, the company’s systems related to its US business were not accessed by the unauthorized third-party. At this time, the full scope and potential ultimate impact on the company are not known.” Read more on insurance sector breaches: Third-Party Breach Impacts Majority of Allianz Life US Customers. A statement posted on Aflac Japan’s website revealed that the incident impacted the firm’s customer portal. “Please note that some systems are currently shut down to prevent the spread of unauthorized access,” it said (via Google Translate). “However, inquiries and procedures, including claims for insurance benefits and other payments, are being handled as usual through our call center and other channels.” Among the services currently out of action are reservations for medical check-ups and health screening, and the firm’s AI support concierge. According to local reports , personal and financial information on nearly 4.4 million customers has been compromised. This includes information about the premium payment accounts of around 230,000 customers. Another Scattered Spider Attack? This isn’t the first time Aflac Japan has suffered at the hands of threat actors. In 2023, Aflac Japan customers’ details were stolen and put up for sale after a third-party US contractor was reportedly breached. A year ago, the firm suffered another data breach which was claimed to be part of a wider campaign targeting US insurers thought to be the work of the Scattered Spider group. Joshua Roback, principal security solution architect at Swimlane, said the latest compromise could also be linked to the notorious extortion group. “Large insurers are sprawling ecosystems of subsidiaries, support teams, legacy platforms and regional workflows. That gives threat actors more places to test access, reuse lessons from prior campaigns and search for the fastest path back to valuable data,” he said. “The answer is not just more alerts. Security teams need connected workflows that can turn a signal in one part of the business into action everywhere else. Agentic AI and automation can help prioritize the riskiest activity, trigger containment steps and keep remediation moving before attackers get comfortable.” Aflac Japan has notified the relevant authorities and claimed that “no misuse of the information related to this incident has been confirmed.” Image credit: yu_photo / Shutterstock.com You may also like Millions of Insurance Customers Compromised Via Supplier News 13 January 2023 Phishing Alert as Erie Insurance Reveals Cyber “Event” News 12 June 2025 Over 80% of UK Firms Don’t Have Specialist Cyber Insurance News 5 February 2020 Global Firms Under-Insured Despite Breach Concerns News 5 November 2019 Why Cyber Insurance Works Opinion 4 April 2018 What’s Hot on Infosecurity Magazine? Read Shared Watched Editor's Choice Trust in Automated AI Vulnerability Scanning Collapses to 9%, New Study Finds News 25 June 2026 1 OpenAI Reveals GPT-5.6 Sol Cybersecurity Model, Restricts Early Access News 29 June 2026 2 ClickFix Now Cybercriminals' Favorite Malware Delivery Technique News 30
 ```
 
 #### Corroborating sources (1)
@@ -3548,48 +3428,13 @@ Aflac Japan has notified regulators that policy details and personal and banking
   - Link: https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
   - Summary: Aflac Japan has notified regulators that policy details and personal and banking information have been compromised
 
-### Cluster 6441987f88 — score 9
-
-- Title: Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)
-- Source: Reddit r/netsec (reddit_practitioner_osint)
-- Published: 2026-07-01T14:52:02+00:00
-- Link: https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-53657
-
-#### Cluster taxonomy (union across members)
-- cve_ids: CVE-2026-53657
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Primary article taxonomy
-- cve_ids: CVE-2026-53657
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_5_chatter
-
-#### Summary
-
-```
-submitted by /u/Sandwich_1337 [link] [comments]
-```
-
-#### Corroborating sources (1)
-
-- **Reddit r/netsec** (reddit_practitioner_osint)
-  - Title: Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)
-  - Published: 2026-07-01T14:52:02+00:00
-  - Link: https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/
-  - Summary: submitted by /u/Sandwich_1337 [link] [comments]
-
 ### Cluster 40ed42a9f6 — score 8
 
 - Title: Train, triage, repeat: The AI agent changing how we fight phishing
 - Source: Red Canary (detection_response_operations)
 - Published: 2026-06-30T12:33:22+00:00
 - Link: https://redcanary.com/blog/threat-detection/phishing-ai-agent/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3610,6 +3455,12 @@ submitted by /u/Sandwich_1337 [link] [comments]
 Learn how Red Canary engineered a super agent—blending ML, a rules engine, similarity, agentic AI, and LLMs—to classify phishing emails.
 ```
 
+#### Full body
+
+```
+Skip Navigation Get a Demo
+```
+
 #### Corroborating sources (1)
 
 - **Red Canary** (detection_response_operations)
@@ -3624,7 +3475,7 @@ Learn how Red Canary engineered a super agent—blending ML, a rules engine, sim
 - Source: The DFIR Report (detection_response_operations)
 - Published: 2026-06-29T13:07:17+00:00
 - Link: https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira-3/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3643,6 +3494,12 @@ Learn how Red Canary engineered a super agent—blending ML, a rules engine, sim
 
 ```
 Key Takeaways This case was first reported to customers in a threat brief released in July 2025 and in a public flash alert in August 2025 in partnership with Swisscom B2B CSIRT, which observed another intrusion tied to the same campaign. This report contains data from both intrusions. We plan to release a DFIR Labs […] The post From Bing Search to Ransomware: Bumblebee and AdaptixC2 Deliver Akira appeared first on The DFIR Report .
+```
+
+#### Full body
+
+```
+Access DFIR Labs Book a Demo The DFIR Report provides in-depth, real-world intelligence based on observed intrusions, enabling security analysts and teams to strengthen defenses, enhance detection, and accelerate response. Linkedin X Products Threat Intel DFIR Labs Case Artifacts Threat Feed Detection Pack Active Defense Services Training Professional Services Public Reports Company About us Analysts Careers Contact Us
 ```
 
 #### Corroborating sources (1)
@@ -3686,38 +3543,42 @@ Huntress analyzed a credential dumping attack where threat actors disabled Defen
   - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
   - Summary: Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
 
-### Cluster 1a606187f1 — score 8
+### Cluster 983b258a65 — score 8
 
-- Title: The 36 Most Common Cyberattacks (2026) | Huntress
-- Source: Huntress (detection_response_operations)
-- Published: 2026-06-25T04:00:00+00:00
-- Link: https://www.huntress.com/blog/most-common-cyberattacks
+- Title: Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval
+- Source: Google Cloud Security (cloud_identity_infrastructure)
+- Published: 2026-07-01T16:00:00+00:00
+- Link: https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/
 - Fetch status: not_attempted
-- Member count: 1
+- Member count: 2
 - Corroborating source count: 1
-- Strong signals: (none)
+- Strong signals: Google Cloud
 
 #### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Google Cloud
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- affected_industries: government
+- affected_products: Google Cloud
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Summary
 
 ```
-Learn about some of the most common cyberattacks, how threat actors access computers and networks, and how to lower future risks.
+At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s su
 ```
 
 #### Corroborating sources (1)
 
-- **Huntress** (detection_response_operations)
-  - Title: The 36 Most Common Cyberattacks (2026) | Huntress
-  - Published: 2026-06-25T04:00:00+00:00
-  - Link: https://www.huntress.com/blog/most-common-cyberattacks
-  - Summary: Learn about some of the most common cyberattacks, how threat actors access computers and networks, and how to lower future risks.
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - Title: Google Cloud confirmed to offer a safer choice for EU public sector organizations with Dutch DPIA approval
+  - Published: 2026-07-01T16:00:00+00:00
+  - Link: https://cloud.google.com/blog/products/identity-security/google-cloud-confirmed-to-offer-a-safer-choice-for-eu-public-sector-organizations-with-dutch-dpia-approval/
+  - Summary: At Google Cloud, we are committed to providing public sector organizations around the globe with cloud technology that is highly flexible, scalable, and built with market-leading standards for data protection, sovereignty, and security. We understand that for public sector organizations in the European Union, confidence in data protection is not just a preference — it’s a prerequisite. Today, we’re excited to announce a major milestone that reinforces this commitment for Google Cloud. Dutch government DPIA confirms strong privacy foundation for Google Cloud We have successfully collaborated with SLM Rijk , the Dutch government's strategic vendor management agency, who completed their rigorous data protection impact assessment (DPIA) of Google Cloud. This engagement confirms Google Cloud’s strong commitment to strengthening trust in its privacy posture across the Dutch public sector. Given that all the key points raised during the DPIA have been successfully addressed (see SLM Rijk’s su
 
 ### Cluster 8c86c34358 — score 8
 
@@ -3760,75 +3621,40 @@ A complaint unsealed this week accuses a 19-year-old of participating in inciden
   - Link: https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
   - Summary: A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police
 
-### Cluster de5bd134e7 — score 8
+### Cluster 89fcac3d75 — score 8
 
-- Title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T14:42:54+00:00
-- Link: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
-- Fetch status: not_attempted
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: CVE-2026-50548, CVE-2026-50549
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ai_security
-- cve_ids: CVE-2026-50548, CVE-2026-50549
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ai_security
-- cve_ids: CVE-2026-50548, CVE-2026-50549
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs found the pair and named them DuneSlide. They are tracked as CVE-2026-50548 and CVE-2026-50549, both rated 9.8 out of 10 (or 9.3
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands
-  - Published: 2026-07-01T14:42:54+00:00
-  - Link: https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html
-  - Summary: Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs found the pair and named them DuneSlide. They are tracked as CVE-2026-50548 and CVE-2026-50549, both rated 9.8 out of 10 (or 9.3
-
-### Cluster ae77ed43fa — score 8
-
-- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-30T17:46:07+00:00
-- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Title: 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat
+- Source: Dark Reading (cyber_news_breach_reporting)
+- Published: 2026-07-01T15:17:14+00:00
+- Link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
 - Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- content_type: incident_report
+- threat_categories: supply_chain
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- content_type: incident_report
+- threat_categories: supply_chain
+- content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Summary
 
 ```
-New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  - Published: 2026-06-30T17:46:07+00:00
-  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+- **Dark Reading** (cyber_news_breach_reporting)
+  - Title: 'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat
+  - Published: 2026-07-01T15:17:14+00:00
+  - Link: https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat
+  - Summary: LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.
 
 ### Cluster 083a4a03d5 — score 8
 
@@ -4000,3 +3826,106 @@ Cobalt study finds 20-percentage-point drop in number of organizations relying s
   - Published: 2026-06-25T12:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/trust-ai-vulnerability-scanning/
   - Summary: Cobalt study finds 20-percentage-point drop in number of organizations relying solely on AI automation for testing
+
+### Cluster 8f3530bf08 — score 8
+
+- Title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T15:25:46+00:00
+- Link: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- urgency_signals: critical_cvss
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities are listed
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic
+  - Published: 2026-07-01T15:25:46+00:00
+  - Link: https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html
+  - Summary: Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates "resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass," Adobe said in an alert released Tuesday. The vulnerabilities are listed
+
+### Cluster ae77ed43fa — score 8
+
+- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T17:46:07+00:00
+- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+  - Published: 2026-06-30T17:46:07+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+
+### Cluster 6441987f88 — score 8
+
+- Title: Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)
+- Source: Reddit r/netsec (reddit_practitioner_osint)
+- Published: 2026-07-01T14:52:02+00:00
+- Link: https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/
+- Fetch status: not_attempted
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: CVE-2026-53657
+
+#### Cluster taxonomy (union across members)
+- cve_ids: CVE-2026-53657
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Primary article taxonomy
+- cve_ids: CVE-2026-53657
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_5_chatter
+
+#### Summary
+
+```
+submitted by /u/Sandwich_1337 [link] [comments]
+```
+
+#### Corroborating sources (1)
+
+- **Reddit r/netsec** (reddit_practitioner_osint)
+  - Title: Privilege escalation to root in Lima QEMU guests via a world-writable agent socket (CVE-2026-53657)
+  - Published: 2026-07-01T14:52:02+00:00
+  - Link: https://www.reddit.com/r/netsec/comments/1uknvr4/privilege_escalation_to_root_in_lima_qemu_guests/
+  - Summary: submitted by /u/Sandwich_1337 [link] [comments]
