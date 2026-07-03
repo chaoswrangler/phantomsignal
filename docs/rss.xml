@@ -6,9 +6,49 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Fri, 03 Jul 2026 11:37:56 +0000</lastBuildDate>
+<lastBuildDate>Fri, 03 Jul 2026 14:23:31 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>ARToken PhaaS exposes EvilTokens&apos; Microsoft 365 phishing toolkit</title>
+<link>https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/</link>
+<description><![CDATA[A new phishing-as-a-service (PhaaS) platform dubbed &quot;ARToken&quot; appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]<br/><br/><em>Tags: Microsoft 365 · phishing_social_eng</em>]]></description>
+<pubDate>Fri, 03 Jul 2026 14:12:22 +0000</pubDate>
+<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/</guid>
+<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
+<category>cyber_news_breach_reporting</category>
+<category>Microsoft 365</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer</title>
+<link>https://thehackernews.com/2026/07/armored-likho-targets-government.html</link>
+<description><![CDATA[A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. &quot;Armored Likho blends financially motivated campaigns targeting private individuals with targeted cyber espionage aimed at organizations,&quot; Kaspersky said in a technical analysis published today. &quot;<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<pubDate>Fri, 03 Jul 2026 13:36:33 +0000</pubDate>
+<guid isPermaLink="true">https://thehackernews.com/2026/07/armored-likho-targets-government.html</guid>
+<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
+<category>cyber_news_breach_reporting</category>
+<category>apt_espionage</category>
+</item>
+<item>
+<title>Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders</title>
+<link>https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders</link>
+<description><![CDATA[Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?]]></description>
+<pubDate>Fri, 03 Jul 2026 13:01:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>Qilin Dominates Ransomware Market Amid Growing Cybercrime Consolidation</title>
+<link>https://www.infosecurity-magazine.com/news/qilin-dominates-ransomware-market/</link>
+<description><![CDATA[The ransomware landscape is reconsolidating around major players, with Qilin emerging as the leading RaaS operation, researchers say<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<pubDate>Fri, 03 Jul 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/qilin-dominates-ransomware-market/</guid>
+<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
+<category>cyber_news_breach_reporting</category>
+<category>ransomware_extortion</category>
+</item>
 <item>
 <title>Warning Over “Industrialized” Cyber-Attacks After Ransomware Gang Partners With TeamPCP</title>
 <link>https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/</link>
@@ -231,12 +271,13 @@
 <item>
 <title>ITDR for the Cloud: Identity Threat Detection and Response Explained</title>
 <link>https://orca.security/resources/blog/itdr-for-the-cloud/</link>
-<description><![CDATA[Key Takeaways ITDR (Identity Threat Detection and Response) detects and responds to identity-based attacks in real time: credential theft, token abuse, anomalous privilege use, and account takeover. Gartner introduced the term in 2022 to describe the gap between authentication and runtime identity abuse. IAM may decide who gets in, but ITDR monitors how a legitimate-looking […]<br/><br/><em>Tags: credential_theft</em>]]></description>
+<description><![CDATA[Key Takeaways ITDR (Identity Threat Detection and Response) detects and responds to identity-based attacks in real time: credential theft, token abuse, anomalous privilege use, and account takeover. Gartner introduced the term in 2022 to describe the gap between authentication and runtime identity abuse. IAM may decide who gets in, but ITDR monitors how a legitimate-looking […]<br/><br/><em>Tags: credential_theft · cloud_abuse</em>]]></description>
 <pubDate>Thu, 02 Jul 2026 18:50:00 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/itdr-for-the-cloud/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>credential_theft</category>
+<category>cloud_abuse</category>
 </item>
 <item>
 <title>HIPAA Compliance in the Cloud: The Complete Framework Guide</title>
@@ -253,11 +294,14 @@
 <item>
 <title>Cloud Least Privilege: Principles, Best Practices &amp; How to Enforce It</title>
 <link>https://orca.security/resources/blog/cloud-least-privilege-principles-best-practices/</link>
-<description><![CDATA[Key Takeaways In the cloud, identities accumulate permissions they never use, and every unused permission is a reachable path for an attacker who lands on that identity. Most of those identities are not people. They are roles, service accounts, functions, and CI/CD pipelines, and they often hold far more access than the workload behind them […]]]></description>
+<description><![CDATA[Key Takeaways In the cloud, identities accumulate permissions they never use, and every unused permission is a reachable path for an attacker who lands on that identity. Most of those identities are not people. They are roles, service accounts, functions, and CI/CD pipelines, and they often hold far more access than the workload behind them […]<br/><br/><em>Tags: Google Cloud · Azure · AWS</em>]]></description>
 <pubDate>Thu, 02 Jul 2026 18:50:00 +0000</pubDate>
 <guid isPermaLink="true">https://orca.security/resources/blog/cloud-least-privilege-principles-best-practices/</guid>
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+<category>Azure</category>
+<category>AWS</category>
 </item>
 <item>
 <title>Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials</title>
@@ -401,15 +445,12 @@
 <item>
 <title>Researcher Behind &apos;Exploitarium&apos; Explains Release of Undisclosed Zero-Day Exploits</title>
 <link>https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/</link>
-<description><![CDATA[Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first<br/><br/><em>Tags: GitHub · Linux kernel · Gogs · CVE-2026-55200 · CVE-2026-58049 · CVE-2026-58050 · zero_day · vulnerability_disclosure</em>]]></description>
+<description><![CDATA[Infosecurity spoke with the researcher who dumped over 30 proof-of-concept exploits without disclosing the vulnerabilities first<br/><br/><em>Tags: zero_day</em>]]></description>
 <pubDate>Thu, 02 Jul 2026 12:51:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/</guid>
 <source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
 <category>cyber_news_breach_reporting</category>
-<category>GitHub</category>
-<category>Linux kernel</category>
-<category>Gogs</category>
-<category>CVE-2026-55200</category>
+<category>zero_day</category>
 </item>
 <item>
 <title>FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks</title>
@@ -754,16 +795,6 @@
 <pubDate>Wed, 01 Jul 2026 17:18:50 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>phishing_social_eng</category>
-</item>
-<item>
-<title>Webinar: Why traditional email security is no longer enough</title>
-<link>https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/</link>
-<description><![CDATA[Modern phishing, business email compromise, and account takeover attacks increasingly exploit trusted identities and legitimate business workflows, making them harder for traditional email defenses to detect. This webinar explores how behavioral AI can help organizations automate detection and response. [...]<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
-<pubDate>Wed, 01 Jul 2026 16:54:22 +0000</pubDate>
-<guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/</guid>
-<source url="https://www.bleepingcomputer.com/feed/">BleepingComputer</source>
 <category>cyber_news_breach_reporting</category>
 <category>phishing_social_eng</category>
 </item>
@@ -1264,6 +1295,16 @@
 <category>ddos</category>
 </item>
 <item>
+<title>What Google Cloud announced in AI this month</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</link>
+<description><![CDATA[Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our main focus in June was helping your teams build, scale, and secure AI. Today, we’re sharing a fresh roundup of updates designed to help you run smarter, more secure applications while keeping everything under your control. We even shared a cool virtual shopping demo at Cannes to show how retailers can make product discovery more exciting. Let’s dive in! Top announcements Introducing the Open Knowledge Format : We introduced the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need. Collaboration with Apple on its expanded Private Cloud Compute (PCC) systems : Our collabor<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<pubDate>Tue, 30 Jun 2026 16:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</guid>
+<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
+<category>cloud_identity_infrastructure</category>
+<category>Google Cloud</category>
+</item>
+<item>
 <title>Build agents even faster with Gemini Enterprise Agent Platform’s fully-managed, remote MCP server</title>
 <link>https://cloud.google.com/blog/products/ai-machine-learning/gemini-enterprise-agent-platform-remote-mcp-server/</link>
 <description><![CDATA[A couple of months ago, we announced that over 50 Google-managed MCP servers are available. Today, we’ll dive into how to use the Gemini Enterprise Agent Platform remote MCP server to securely connect your external AI agents to the resources inside your Google Cloud environment. Connect your IDE to Google Cloud Think of the Agent Platform MCP server as a bridge between your favorite external development tools and your Google Cloud architecture. If you are building an agent in Antigravity CLI or Claude Code, for example, the Agent Platform MCP server allows that agent to securely interact with your Agent Platform resources. That way, your agent can now easily call models from Model Garden , pull down shared prompt templates , or even manage Notebooks directly within your project – all without ever leaving the IDE. Quicker time-to-value The speed at which you deliver value is one of your greatest advantages. But sometimes, connecting external development environments to cloud infrastruct<br/><br/><em>Tags: Google Cloud · Google/Gemini · Anthropic/Claude</em>]]></description>
@@ -1274,16 +1315,6 @@
 <category>Google Cloud</category>
 <category>Google/Gemini</category>
 <category>Anthropic/Claude</category>
-</item>
-<item>
-<title>What Google Cloud announced in AI this month</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</link>
-<description><![CDATA[Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our main focus in June was helping your teams build, scale, and secure AI. Today, we’re sharing a fresh roundup of updates designed to help you run smarter, more secure applications while keeping everything under your control. We even shared a cool virtual shopping demo at Cannes to show how retailers can make product discovery more exciting. Let’s dive in! Top announcements Introducing the Open Knowledge Format : We introduced the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need. Collaboration with Apple on its expanded Private Cloud Compute (PCC) systems : Our collabor<br/><br/><em>Tags: Google Cloud</em>]]></description>
-<pubDate>Tue, 30 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</guid>
-<source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day</title>
@@ -1845,18 +1876,6 @@
 <category>detection_response_operations</category>
 </item>
 <item>
-<title>Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer</title>
-<link>https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html</link>
-<description><![CDATA[Cybersecurity researchers have uncovered two hijacked npm packages and a cluster of Go packages that are designed to deploy a Python-based information stealer on compromised Windows, Linux, and macOS hosts. &quot;This attack avoids the most common npm execution paths through lifecycle scripts, perhaps in an attempt to remain &apos;compatible&apos; with npm v12&apos;s security hardenings,&quot; JFrog said in a<br/><br/><em>Tags: npm · Apple iOS/macOS · credential_theft</em>]]></description>
-<pubDate>Mon, 29 Jun 2026 05:36:06 +0000</pubDate>
-<guid isPermaLink="true">https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html</guid>
-<source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
-<category>cyber_news_breach_reporting</category>
-<category>npm</category>
-<category>Apple iOS/macOS</category>
-<category>credential_theft</category>
-</item>
-<item>
 <title>Risky Bulletin: White House asks OpenAI to restrict GPT 5.6</title>
 <link>https://risky.biz/RBNEWS583/</link>
 <description><![CDATA[The White House asks OpenAI to keep a tight grip on ChatGPT 5.6, the US Secret Service made some appalling OpSec mistakes, AMD has reintroduced a CPU security feature after consumer backlash, and an Iranian APT operator has been arrested in Montenegro.<br/><br/><em>Tags: apt_espionage</em>]]></description>
@@ -1959,6 +1978,15 @@
 <category>ransomware_ecrime_financial_crime</category>
 </item>
 <item>
+<title>Meeting Trump&apos;s 2030 Quantum Deadline Will be Expensive, Complex</title>
+<link>https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex</link>
+<description><![CDATA[Getting accurate visibility into IT and OT systems will be compounded by multivendor environments, misaligned update life cycles, and interoperability gaps.]]></description>
+<pubDate>Fri, 26 Jun 2026 13:30:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+</item>
+<item>
 <title>Beware of the license manager: how a Schneider Electric software vulnerability puts industrial facilities at risk</title>
 <link>https://securelist.com/tr/schneider-electric-cve-2024-2658-vulnerability/120436/</link>
 <description><![CDATA[Analysis of CVE-2024-2658 as found in Schneider Electric&apos;s Floating License Manager. Discover how this FlexNet Publisher vulnerability potentially allows attackers to escalate to NT AUTHORITY\SYSTEM privileges and expand their foothold; learn how to mitigate the risk.<br/><br/><em>Tags: CVE-2024-2658</em>]]></description>
@@ -1967,6 +1995,15 @@
 <source url="https://securelist.com/feed/">Kaspersky Securelist</source>
 <category>threat_research_primary</category>
 <category>CVE-2024-2658</category>
+</item>
+<item>
+<title>Thanks for Crushing the Submissions Inbox. We&apos;re Trying to Keep Up</title>
+<link>https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder</link>
+<description><![CDATA[It might be taking a bit longer than usual to respond to your submissions — here&apos;s why.]]></description>
+<pubDate>Fri, 26 Jun 2026 13:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/submissions-guidelines-reminder</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>MCP Auto-Execution: From Git Clone to Cloud Compromise in Amazon Q VS Code Extension</title>
@@ -3524,15 +3561,6 @@
 <guid isPermaLink="true">https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/</guid>
 <source url="https://aws.amazon.com/blogs/security/feed/">AWS Security Blog</source>
 <category>cloud_identity_infrastructure</category>
-</item>
-<item>
-<title>Operation Escaneo Signals Shift in LatAm Threat Landscape</title>
-<link>https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape</link>
-<description><![CDATA[The threat group&apos;s curious business model may combine opportunistic monetization alongside intel collection, without much coordination between the two.]]></description>
-<pubDate>Thu, 18 Jun 2026 19:09:21 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>CVE-2026-5667: Unauthenticated Remote Control of Mitsubishi MAC-577IF-2E WiFi Adapters via Probe Request Reconnaissance</title>
@@ -5473,17 +5501,6 @@
 <category>threat_research_primary</category>
 <category>ShinyHunters</category>
 <category>data_breach</category>
-</item>
-<item>
-<title>OpenAI Unveils ChatGPT Account Security Controls</title>
-<link>https://www.infosecurity-magazine.com/news/chatgpt-lockdown-mode-active/</link>
-<description><![CDATA[OpenAI brings Lockdown Mode and Active Sessions to ChatGPT to curb prompt injection data theft<br/><br/><em>Tags: OpenAI/ChatGPT · ai_security</em>]]></description>
-<pubDate>Mon, 08 Jun 2026 14:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.infosecurity-magazine.com/news/chatgpt-lockdown-mode-active/</guid>
-<source url="https://www.infosecurity-magazine.com/rss/news/">Infosecurity Magazine</source>
-<category>cyber_news_breach_reporting</category>
-<category>OpenAI/ChatGPT</category>
-<category>ai_security</category>
 </item>
 <item>
 <title>Measuring the impact of learning with AI in Sierra Leone and beyond</title>
@@ -9467,15 +9484,6 @@
 <category>phishing_social_eng</category>
 </item>
 <item>
-<title>Executive Summary: Defending against China-nexus covert networks of compromised devices</title>
-<link>https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</link>
-<description><![CDATA[Organisations should map and baseline their edge device traffic, especially VPN and remote access connections, and adopt dynamic threat feed filtering that includes known covert network indicators.]]></description>
-<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Defending against China-nexus covert networks of compromised devices</title>
 <link>https://www.ncsc.gov.uk/news/defending-against-china-nexus-covert-networks-of-compromised-devices</link>
 <description><![CDATA[Explaining the widespread shift in tactics, techniques and procedures (TTPs) towards networks of compromised infrastructure, and how to defend against it]]></description>
@@ -9517,6 +9525,15 @@
 <description><![CDATA[Adopting AI will require time, the development of new capabilities and careful oversight.]]></description>
 <pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/supporting-ai-adoption-for-uk-cyber-defence</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>Executive Summary: Defending against China-nexus covert networks of compromised devices</title>
+<link>https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</link>
+<description><![CDATA[Organisations should map and baseline their edge device traffic, especially VPN and remote access connections, and adopt dynamic threat feed filtering that includes known covert network indicators.]]></description>
+<pubDate>Thu, 23 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/news/executive-summary-defending-against-china-nexus-covert-networks-of-compromised-devices</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -9748,20 +9765,20 @@
 <category>cloud_identity_infrastructure</category>
 </item>
 <item>
-<title>New cross domain guidance for government, industry and the wider security community</title>
-<link>https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</link>
-<description><![CDATA[Ensuring cross domain technologies are better understood - and more easily deployed - across sectors.]]></description>
-<pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</guid>
-<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
-<category>government_authoritative</category>
-</item>
-<item>
 <title>Cyber chief: UK faces &quot;perfect storm&quot; for cyber security</title>
 <link>https://www.ncsc.gov.uk/news/cyber-chief-uk-faces-perfect-storm-for-cyber-security</link>
 <description><![CDATA[As the technology landscape develops, the definition of cyber security is expanding with it.]]></description>
 <pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://www.ncsc.gov.uk/news/cyber-chief-uk-faces-perfect-storm-for-cyber-security</guid>
+<source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
+<category>government_authoritative</category>
+</item>
+<item>
+<title>New cross domain guidance for government, industry and the wider security community</title>
+<link>https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</link>
+<description><![CDATA[Ensuring cross domain technologies are better understood - and more easily deployed - across sectors.]]></description>
+<pubDate>Tue, 21 Apr 2026 12:00:00 +0000</pubDate>
+<guid isPermaLink="true">https://www.ncsc.gov.uk/blogs/new-cross-domain-guidance-for-government-industry-and-the-wider-security-community</guid>
 <source url="https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml">NCSC UK</source>
 <category>government_authoritative</category>
 </item>
@@ -11570,7 +11587,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f1d1062b970&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f54351f89a0&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20407,7 +20424,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20416,7 +20433,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20425,7 +20442,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20434,7 +20451,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20443,7 +20460,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20452,7 +20469,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20461,7 +20478,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20470,7 +20487,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20479,7 +20496,7 @@
 <title>CrowdStrike Announces Continuous Identity for AI Agents</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-announces-continuous-identity-for-ai-agents/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20488,7 +20505,7 @@
 <title>Why AI Projects Stall and How CIOs Can Respond</title>
 <link>https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</link>
 <description><![CDATA[]]></description>
-<pubDate>Fri, 03 Jul 2026 11:37:56 +0000</pubDate>
+<pubDate>Fri, 03 Jul 2026 14:23:31 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/why-ai-projects-stall-and-how-cios-can-respond/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
