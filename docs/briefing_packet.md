@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-03T16:40:51.823175+00:00
+- Generated: 2026-07-03T18:17:37.983656+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 77
-- Total items in window: 327
-- Total clusters raw: 147
-- Total clusters in packet: 66
-- Dropped low score: 81
+- Feeds OK: 75
+- Total items in window: 323
+- Total clusters raw: 145
+- Total clusters in packet: 65
+- Dropped low score: 80
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,26 +80,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Microsoft Security Blog** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
+- **Google Threat Analysis Group** (threat_research_primary)
+  - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **SentinelOne Labs** (threat_research_primary)
   - URL: https://www.sentinelone.com/labs/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Google Threat Analysis Group** (threat_research_primary)
-  - URL: https://blog.google/threat-analysis-group/rss/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
+- **Microsoft Security Blog** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -115,75 +110,70 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **NCSC UK** (government_authoritative)
-  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
+- **NCSC UK** (government_authoritative)
+  - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
-  - Item count: 10
-  - In window count: 8
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+  - Item count: 20
+  - In window count: 1
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 6
+  - Item count: 50
+  - In window count: 1
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **ESET WeLiveSecurity** (threat_research_primary)
-  - URL: https://www.welivesecurity.com/en/rss/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
-  - Item count: 100
-  - In window count: 2
+  - Item count: 10
+  - In window count: 6
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 8
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **ESET WeLiveSecurity** (threat_research_primary)
+  - URL: https://www.welivesecurity.com/en/rss/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **Red Canary** (detection_response_operations)
-  - URL: https://redcanary.com/feed/
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 10
-  - In window count: 1
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
-  - Status: ok
-  - Item count: 10
+  - Item count: 40
   - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+- **Red Canary** (detection_response_operations)
+  - URL: https://redcanary.com/feed/
   - Status: ok
-  - Item count: 40
-  - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 0
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
+  - Item count: 10
   - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
@@ -200,76 +190,81 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
+  - Status: parse_error
+  - Item count: 0
   - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 1
+  - Item count: 10
+  - In window count: 0
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
   - In window count: 1
 - **SpecterOps** (detection_response_operations)
   - URL: https://medium.com/feed/specter-ops-posts
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: fetch_error
+  - Item count: 0
+  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 3
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
@@ -280,8 +275,8 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Cloudflare Radar** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
@@ -290,26 +285,21 @@
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Cloudflare Radar** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 4
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -320,6 +310,11 @@
   - Status: ok
   - Item count: 20
   - In window count: 20
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -330,16 +325,21 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 0
+  - Item count: 10
+  - In window count: 4
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **CyberScoop** (cyber_news_breach_reporting)
+  - URL: https://cyberscoop.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -349,29 +349,34 @@
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
-  - In window count: 20
-- **CyberScoop** (cyber_news_breach_reporting)
-  - URL: https://cyberscoop.com/feed/
+  - In window count: 18
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 20
+  - In window count: 0
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 26
+  - In window count: 25
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
-  - In window count: 8
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
+  - In window count: 7
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -380,36 +385,31 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
 - **Reddit r/msp** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/msp/.rss
   - Status: ok
@@ -430,11 +430,11 @@
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
   - Status: ok
-  - Item count: 50
-  - In window count: 50
+  - Item count: 20
+  - In window count: 4
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
   - URL: https://www.infosecurity-magazine.com/rss/news/
   - Status: ok
@@ -764,9 +764,9 @@
 ### Drift (1)
 - **Scattered Spider** (cluster 7dc61d54d0)
   - New industries: manufacturing_industrial
-  - New products: Microsoft SharePoint
+  - New products: (none)
   - Prior top industries: financial_services, government, healthcare
-  - Prior top products: AWS, Apple iOS/macOS, npm
+  - Prior top products: AWS, Apple iOS/macOS, Microsoft SharePoint
 
 ### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 5, cluster 3db35f97c6)
@@ -1682,49 +1682,6 @@ Threat Intelligence Google’s Continued Disruption of Malicious Residential Pro
   - Link: https://cloud.google.com/blog/topics/threat-intelligence/google-continued-disruption-residential-proxy-networks/
   - Summary: Background Today, in coordination with the FBI, Lumen, and others, Google took action against the NetNut residential proxy network, also known as Popa. This action builds on our disruption of the IPIDEA proxy network that took place in January 2026, and is a continuation of Google’s objective to dismantle malicious residential proxy networks. Actions Taken As a part of this disruption we took the following actions: Disabled Google accounts and associated Google services used by NetNut for malware command and control (C2), which directly violates Google’s Terms of Service and Acceptable Use Policy. Shared technical intelligence on NetNut software development kits (SDKs) and backend C2 infrastructure with platform providers, law enforcement, and research firms to help drive ecosystem-wide awareness and enforcement. We ensured Google Play Protect , Android’s built-in security protection, automatically warned users and disabled applications known to incorporate NetNut SDKs, and the system
 
-### Cluster c409634b31 — score 15
-
-- Title: Incident Report: CVE-2026-LGTM
-- Source: Simon Willison (ai_security_agentic_risk)
-- Published: 2026-06-26T17:58:54+00:00
-- Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-```
-
-#### Full body
-
-```
-Simon Willison’s Weblog Subscribe Sponsored by: Sonar — Gartner just named Sonar a Leader in the 2026 Magic Quadrant™ for Technical Debt Management Tools. Read the report and learn how to measure and remediate technical debt across your codebase. Get the report 26th June 2026 - Link Blog Incident Report: CVE-2026-LGTM . Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Posted 26th June 2026 at 5:58 pm Recent articles Have your agent record video demos of its work with shot-scraper video - 30th June 2026 Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code - 22nd June 2026 sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 This is a link post by Simon Willison, posted on 26th June 2026 . security 612 ai 2,098 prompt-injection 155 generative-ai 1,855 llms 1,822 supply-chain 19 ai-security-research 24 andrew-nesbitt 4 Monthly briefing Sponsor me for $10/month and get a curated email digest of the month's most important LLM developments. Pay me to send you less! Sponsor & subscribe Disclosures Colophon © 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025 2026
-```
-
-#### Corroborating sources (1)
-
-- **Simon Willison** (ai_security_agentic_risk)
-  - Title: Incident Report: CVE-2026-LGTM
-  - Published: 2026-06-26T17:58:54+00:00
-  - Link: https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything
-  - Summary: Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing "a 430% YoY increase in adversarial multi-agent security reasoning." The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt
-
 ### Cluster 5b50b4b7b2 — score 15
 
 - Title: Citrix patches a new NetScaler flaw with echoes of CitrixBleed
@@ -1912,39 +1869,6 @@ Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clus
   - Link: https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
   - Summary: Kubernetes compliance tools automate the enforcement of CIS Benchmarks, enabling teams to continuously validate cluster configurations against industry-accepted security baselines without slowing release velocity. The right tooling replaces manual audits with policy-driven checks that run across the CI/CD pipeline, from build to runtime, catching misconfigurations before they reach production. Maintaining multi-cloud compliance across dozens or […]
 
-### Cluster d8d3a457ab — score 12
-
-- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-28T07:56:44+00:00
-- Link: https://isc.sans.edu/diary/rss/33106
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-  - Published: 2026-06-28T07:56:44+00:00
-  - Link: https://isc.sans.edu/diary/rss/33106
-  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-
 ### Cluster 3b18efdb51 — score 12
 
 - Title: Armored Likho digging a snake pit: inside the covert BusySnake Stealer campaign
@@ -1989,6 +1913,39 @@ Threat Response Table of Contents Introduction Initial infection vector EXE atta
   - Published: 2026-07-03T10:00:33+00:00
   - Link: https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/
   - Summary: An inside look at the active Armored Likho APT campaign. The attackers are using spear-phishing, AI-generated loaders, and a new Python-based tool, BusySnake Stealer, to target organizations in Russia, Kazakhstan, and Brazil.
+
+### Cluster d8d3a457ab — score 12
+
+- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-28T07:56:44+00:00
+- Link: https://isc.sans.edu/diary/rss/33106
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_government
+
+#### Summary
+
+```
+YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
+```
+
+#### Corroborating sources (1)
+
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+  - Published: 2026-06-28T07:56:44+00:00
+  - Link: https://isc.sans.edu/diary/rss/33106
+  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 
 ### Cluster db017396fb — score 12
 
@@ -2315,6 +2272,47 @@ Threat Research Center High Profile Threats General General Threat Brief: Mitiga
   - Link: https://unit42.paloaltonetworks.com/large-scale-credential-attacks/
   - Summary: We provide guidance for preparing for and mitigating large-scale credential attacks, focusing on recent campaigns targeting security vendors' devices. The post Threat Brief: Mitigating Large-Scale Credential Attacks appeared first on Unit 42 .
 
+### Cluster cce9192f71 — score 10
+
+- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-02T13:00:02+00:00
+- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_products: OpenAI/ChatGPT
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
+```
+
+#### Full body
+
+```
+AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
+```
+
+#### Corroborating sources (1)
+
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+  - Published: 2026-07-02T13:00:02+00:00
+  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
+  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
+
 ### Cluster 1c995def22 — score 10
 
 - Title: Securing AI agents: When AI tools move from reading to acting
@@ -2358,46 +2356,97 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
   - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
 
-### Cluster cce9192f71 — score 10
+### Cluster 5bbda948e4 — score 10
 
-- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-02T13:00:02+00:00
-- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
+- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- affected_products: OpenAI/ChatGPT
+- affected_industries: government
+- affected_products: Android
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
+- affected_industries: government
+- affected_products: Android
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
+Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 ```
 
 #### Full body
 
 ```
-AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
+Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
 ```
 
 #### Corroborating sources (1)
 
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-  - Published: 2026-07-02T13:00:02+00:00
-  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
-  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
+- **Recorded Future** (threat_research_primary)
+  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+  - Published: 2026-07-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+
+### Cluster f2b3bd6ba4 — score 10
+
+- Title: 22nd June – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-01T11:29:38+00:00
+- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 22nd June – Threat Intelligence Report
+  - Published: 2026-07-01T11:29:38+00:00
+  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
 
 ### Cluster 5fe3559a01 — score 10
 
@@ -2567,55 +2616,6 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
 
-### Cluster f2b3bd6ba4 — score 10
-
-- Title: 22nd June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-01T11:29:38+00:00
-- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
-- urgency_signals: preauth_unauth, zero_day
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
-- urgency_signals: zero_day, preauth_unauth
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
-```
-
-#### Full body
-
-```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
-```
-
-#### Corroborating sources (1)
-
-- **Check Point Research** (threat_research_primary)
-  - Title: 22nd June – Threat Intelligence Report
-  - Published: 2026-07-01T11:29:38+00:00
-  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
-
 ### Cluster 6a3df7e65b — score 10
 
 - Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
@@ -2654,49 +2654,6 @@ CTEM Isn’t Failing. It’s Not Being Operationalized. Stephen Gates June 29, 2
   - Published: 2026-06-29T13:30:00+00:00
   - Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
   - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-
-### Cluster 5bbda948e4 — score 10
-
-- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
-```
-
-#### Full body
-
-```
-Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-  - Published: 2026-07-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
 ### Cluster fbb9c91ae0 — score 10
 
@@ -2913,6 +2870,54 @@ Risky Bulletin Podcast July 01, 2026 Risky Bulletin: Researcher drops giant cach
   - Link: https://risky.biz/RBNEWS584/
   - Summary: An anonymous researcher has dropped a giant cache of zero-day exploits, a sensitive DHS network got hacked, the US Supreme Court restricts geofence warrants, and security firm Huntress has denied accusations of a malicious insider.
 
+### Cluster 5472a00679 — score 10
+
+- Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
+- Source: Huntress (detection_response_operations)
+- Published: 2026-06-29T14:00:00+00:00
+- Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+- Fetch status: ok
+- Member count: 3
+- Corroborating source count: 2
+- Strong signals: Microsoft 365
+
+#### Cluster taxonomy (union across members)
+- threat_categories: mfa_bypass, phishing_social_eng
+- affected_products: Microsoft 365
+- content_type: news_report
+- confidence_tier: tier_2_operator, tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng
+- affected_products: Microsoft 365
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
+```
+
+#### Full body
+
+```
+Home Blog The Hacker’s 2026 Playbook from the Dark Web Published: June 29, 2026 The Hacker’s 2026 Playbook from the Dark Web By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Sometimes it starts with something as simple as dragging a link into your browser. Three seconds later, a cybercriminal has the tokens they need to hijack your Microsoft 365 account. You didn't do anything that security awareness training teaches you to avoid. You just followed instructions that looked normal. That is what modern cybercrime looks like right now. That is also what makes this tradecraft so effective. The attack doesn't force its way in. It slips into the middle of an ordinary workflow and turns a routine action into an unwanted interruption that gives an attacker exactly what they need. You've probably seen the setup before The setup feels familiar because we've all been trained to click through little prompts online: click the CAPTCHA , accept the cookie prompt, or press the key combo. Keep moving without thinking. That muscle memory is exactly what attackers are counting on. That's the idea behind ClickFix . Attackers show a fake prompt that tells you to press keyboard shortcuts like Windows key + R, then Ctrl+V, then Enter. On the surface, it feels harmless. In reality, you're pasting and running attacker-supplied commands on your own machine. What makes ClickFix so nasty is how little technical friction it needs. There isn't a vulnerability to exploit or a firewall showdown. The attacker just needs a simple, believable lie that fits into your workflow. ClickFix exploded in 2025, and while it is still very much alive, attackers have already started morphing the same idea into something even slicker. ConsentFix takes the same trick into Microsoft 365 That newer variation is called ConsentFix. Instead of nudging you into pasting a command, it abuses something Microsoft 365 users see all the time: OAuth consent flows and sign-in prompts that look familiar enough to breeze past without much thought. The flow is deceptively simple. The attacker sends a phishing lure, often using trusted platforms like Dropbox or DocSend. The content may even be password-protected, which makes it harder for security tooling, like antivirus software, to inspect. You click through, see what looks like a legitimate Microsoft sign-in experience, and are told to finish the process manually by dragging a localhost callback link into the browser. That drag-and-drop moment is the trap. Instead of completing a harmless step, you unknowingly hand over OAuth tokens that let the attacker hijack the session. Once those tokens are captured, the attacker can access your email, OneDrive, Teams, and other Microsoft 365 resources without needing the password or fighting through MFA in the usual way. That is what makes ConsentFix feel so different from traditional phishing. The user isn't typing credentials into an obvious fake form. They are completing what looks like a legitimate auth flow and giving away the session itself. Figure 1: ConsentFix hijacks the Microsoft 365 sign-in flow by turning a familiar user action into stolen session access. The real story is how easy this has become to copy By early March 2026, the blueprint was already sitting on a public Russian cybercrime forum. The post walked through ConsentFix step by step, complete with working code, infrastructure screenshots, and a video walkthrough showing other criminals exactly how to run it. That post was a cybercrime playbook in plain sight, laying out how to build and copy the attack. The infrastructure highlighted in the forum post leaned on free or widely available services, including Cloudflare Pages, workers.dev , Pipedream webhooks, Dropbox, and DocSend. The tutorial also showed how attackers spot victims before they ever send the phish. According to the video and forum material, they used LinkedIn employer profiles, ZoomInfo, and Hunter.io to map targets and shape their
+```
+
+#### Corroborating sources (2)
+
+- **Huntress** (detection_response_operations)
+  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
+  - Published: 2026-06-29T14:00:00+00:00
+  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
+  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - Title: ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit
+  - Published: 2026-07-03T14:12:22+00:00
+  - Link: https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
+  - Summary: A new phishing-as-a-service (PhaaS) platform dubbed "ARToken" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]
+
 ### Cluster 146c037604 — score 10
 
 - Title: HIPAA Compliance in the Cloud: The Complete Framework Guide
@@ -2965,54 +2970,6 @@ Table of contents Key Takeaways What Is HIPAA Compliance (and What It Means in t
   - Published: 2026-07-01T05:46:03+00:00
   - Link: https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html
   - Summary: Cybersecurity researchers have warned of a "massive, ongoing, automated password spray attack" aimed at Microsoft's Azure command-line interface (CLI), compromising dozens of accounts in the process. The activity, per Huntress, originates from an IPv6 address range (2a0a:d683::/32) controlled by internet infrastructure provider LSHIY LLC (AS32167). "Between June 12 and June 26, the threat
-
-### Cluster 5472a00679 — score 10
-
-- Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
-- Source: Huntress (detection_response_operations)
-- Published: 2026-06-29T14:00:00+00:00
-- Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
-- Fetch status: ok
-- Member count: 3
-- Corroborating source count: 2
-- Strong signals: Microsoft 365
-
-#### Cluster taxonomy (union across members)
-- threat_categories: mfa_bypass, phishing_social_eng
-- affected_products: Microsoft 365
-- content_type: news_report
-- confidence_tier: tier_2_operator, tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng
-- affected_products: Microsoft 365
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
-```
-
-#### Full body
-
-```
-Home Blog The Hacker’s 2026 Playbook from the Dark Web Published: June 29, 2026 The Hacker’s 2026 Playbook from the Dark Web By: Beth Robinson Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Sometimes it starts with something as simple as dragging a link into your browser. Three seconds later, a cybercriminal has the tokens they need to hijack your Microsoft 365 account. You didn't do anything that security awareness training teaches you to avoid. You just followed instructions that looked normal. That is what modern cybercrime looks like right now. That is also what makes this tradecraft so effective. The attack doesn't force its way in. It slips into the middle of an ordinary workflow and turns a routine action into an unwanted interruption that gives an attacker exactly what they need. You've probably seen the setup before The setup feels familiar because we've all been trained to click through little prompts online: click the CAPTCHA , accept the cookie prompt, or press the key combo. Keep moving without thinking. That muscle memory is exactly what attackers are counting on. That's the idea behind ClickFix . Attackers show a fake prompt that tells you to press keyboard shortcuts like Windows key + R, then Ctrl+V, then Enter. On the surface, it feels harmless. In reality, you're pasting and running attacker-supplied commands on your own machine. What makes ClickFix so nasty is how little technical friction it needs. There isn't a vulnerability to exploit or a firewall showdown. The attacker just needs a simple, believable lie that fits into your workflow. ClickFix exploded in 2025, and while it is still very much alive, attackers have already started morphing the same idea into something even slicker. ConsentFix takes the same trick into Microsoft 365 That newer variation is called ConsentFix. Instead of nudging you into pasting a command, it abuses something Microsoft 365 users see all the time: OAuth consent flows and sign-in prompts that look familiar enough to breeze past without much thought. The flow is deceptively simple. The attacker sends a phishing lure, often using trusted platforms like Dropbox or DocSend. The content may even be password-protected, which makes it harder for security tooling, like antivirus software, to inspect. You click through, see what looks like a legitimate Microsoft sign-in experience, and are told to finish the process manually by dragging a localhost callback link into the browser. That drag-and-drop moment is the trap. Instead of completing a harmless step, you unknowingly hand over OAuth tokens that let the attacker hijack the session. Once those tokens are captured, the attacker can access your email, OneDrive, Teams, and other Microsoft 365 resources without needing the password or fighting through MFA in the usual way. That is what makes ConsentFix feel so different from traditional phishing. The user isn't typing credentials into an obvious fake form. They are completing what looks like a legitimate auth flow and giving away the session itself. Figure 1: ConsentFix hijacks the Microsoft 365 sign-in flow by turning a familiar user action into stolen session access. The real story is how easy this has become to copy By early March 2026, the blueprint was already sitting on a public Russian cybercrime forum. The post walked through ConsentFix step by step, complete with working code, infrastructure screenshots, and a video walkthrough showing other criminals exactly how to run it. That post was a cybercrime playbook in plain sight, laying out how to build and copy the attack. The infrastructure highlighted in the forum post leaned on free or widely available services, including Cloudflare Pages, workers.dev , Pipedream webhooks, Dropbox, and DocSend. The tutorial also showed how attackers spot victims before they ever send the phish. According to the video and forum material, they used LinkedIn employer profiles, ZoomInfo, and Hunter.io to map targets and shape their
-```
-
-#### Corroborating sources (2)
-
-- **Huntress** (detection_response_operations)
-  - Title: The Hacker's 2026 Playbook: Dark Web Tactics Targeting You
-  - Published: 2026-06-29T14:00:00+00:00
-  - Link: https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
-  - Summary: Cybercriminals are hijacking Microsoft 365 accounts in seconds. Learn the 2026 hacker tactics, including ConsentFix, that bypass security training and exploit normal user behavior.
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - Title: ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit
-  - Published: 2026-07-03T14:12:22+00:00
-  - Link: https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
-  - Summary: A new phishing-as-a-service (PhaaS) platform dubbed "ARToken" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to compromise Microsoft 365. [...]
 
 ### Cluster e3e5c74bb1 — score 9
 
@@ -3259,6 +3216,49 @@ Elastic's InfoSec team built AI agents on Elastic Workflows that investigate eve
   - Link: https://www.elastic.co/security-labs/alert-triage-agentic-soc-elastic-workflows
   - Summary: Elastic's InfoSec team built AI agents on Elastic Workflows that investigate every alert and assemble the case before an analyst ever opens it.
 
+### Cluster 4f72cf52f3 — score 8
+
+- Title: Defence Impairment Olympics
+- Source: Huntress (detection_response_operations)
+- Published: 2026-06-29T07:00:00+00:00
+- Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
+- content_type: news_report
+- confidence_tier: tier_2_operator
+
+#### Summary
+
+```
+Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
+```
+
+#### Full body
+
+```
+Home Blog Defence Impairment Olympics Published: June 29, 2026 Defence Impairment Olympics By: Mark O'Halloran Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways We recently detected an incident on June 7 that started with simple enumeration commands - but our investigation into the attack showed the threat actor taking aggressive steps to hide their tracks. The investigation into the attack initially showed a few defence impairment techniques, like steganography and timestomping. However, our investigation broadened when we found a breadcrumb left behind - and batch script called i.bat - that showed the threat actor attempting to disable Defender, kill Sysmon and Filebeat, uninstall the ModSecurity WAF, downgrade WDigest credential protection— all before Mimikatz was executed to dump credentials. Following the SOC's initial response and delivery of remediation steps, a window of exposure occurred when the server was brought back online prior to complete patching. The threat actor leveraged this premature reconnection to continue their attack. This scenario highlights a common challenge in incident response: thorough closure and verified remediation are just as critical as the initial detection. Organizations can defend against these techniques with foundational security measures, including implementing sufficient and correctly configured logging on their servers and endpoints, and ensuring software is updated and patched. Acknowledgements: Special thanks to Adrian Garcia, Amelia Casley, Olly Maxwell and Anton Ovrutsky for their contributions to this investigation and write-up. Background At Huntress, we have visibility into various parts of a threat actor's attack chain: including how they enter the victim's environment (initial access), how they research the environment (enumeration), and how they move around the environment (lateral movement). One tactic that we see a fair amount of is defence evasion and defence impairment; or specific measures threat actors take to hide their tracks during an incident and to disable defence mechanisms. We recently responded to an incident on June 7 where a threat actor initially performed enumeration activity before later carrying out almost a dozen different types of defence impairment commands, including disabling the IIS logs, tampering with Microsoft Defender, using WMI Event Consumer to clear the Windows Event Logs, using timestomping, and more. We have outlined the defence impairment tactics we saw in this incident; by better understanding these techniques and how they play out in a targeted environment, organizations can get a stronger sense of where they should prioritize their defenses and look for signs of potential compromise. A steganographic webshell: The first commands On June 7, Huntress responded to a web server compromise spawning from a webshell that was uploaded to a vulnerable server by a threat actor. Due to insufficient logging, Huntress was unable to determine the exact initial access mechanism. There was, however, some evidence that the particular server had potentially suffered an Adobe ColdFusion exploitation attempt. Upon closer inspection of the historical logs, we found evidence of possible exploitation of ColdFusion bugs, including a critical remote code execution vulnerability ( CVE-2023-26360 ), improper access control bug ( CVE-2023-29298 ), and deserialization flaw ( CVE-2023-29300 ). The evidence that we did have stemmed from the presence of known targeted endpoints in historical logs: /CFIDE/adminapi/_datasource/setmsaccessRegistry.cfm /CFIDE/adminapi/_datasource/setsldatasource.cfm /CFIDE/adminapi/_datasource/setdsn.cfm /CFIDE/adminapi/_datasource/formatjdbcurl.cfm /CFIDE/adminapi/_datasource/getaccessdefaultsfromRegistry.cfm /CFIDE/adminapi/_datasource/geturldefaults.cfm /CFIDE/adminapi/customtags/l10n.cfm /CFIDE/adminapi/serverinstance.cfc /CFIDE/adminapi/servermonitoring.cfc While normally, the acce
+```
+
+#### Corroborating sources (1)
+
+- **Huntress** (detection_response_operations)
+  - Title: Defence Impairment Olympics
+  - Published: 2026-06-29T07:00:00+00:00
+  - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
+  - Summary: Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
+
 ### Cluster b18e5a704f — score 8
 
 - Title: CIEM vs IAM vs PAM: What’s the Difference (and Do You Need All Three)?
@@ -3379,49 +3379,6 @@ Table of contents Key Takeaways What Is the Principle of Least Privilege (PoLP)?
   - Published: 2026-07-02T18:50:00+00:00
   - Link: https://orca.security/resources/blog/cloud-least-privilege-principles-best-practices/
   - Summary: Key Takeaways In the cloud, identities accumulate permissions they never use, and every unused permission is a reachable path for an attacker who lands on that identity. Most of those identities are not people. They are roles, service accounts, functions, and CI/CD pipelines, and they often hold far more access than the workload behind them […]
-
-### Cluster 4f72cf52f3 — score 8
-
-- Title: Defence Impairment Olympics
-- Source: Huntress (detection_response_operations)
-- Published: 2026-06-29T07:00:00+00:00
-- Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor
-- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Primary article taxonomy
-- threat_categories: web_shell_backdoor
-- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
-- content_type: news_report
-- confidence_tier: tier_2_operator
-
-#### Summary
-
-```
-Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
-```
-
-#### Full body
-
-```
-Home Blog Defence Impairment Olympics Published: June 29, 2026 Defence Impairment Olympics By: Mark O'Halloran Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways We recently detected an incident on June 7 that started with simple enumeration commands - but our investigation into the attack showed the threat actor taking aggressive steps to hide their tracks. The investigation into the attack initially showed a few defence impairment techniques, like steganography and timestomping. However, our investigation broadened when we found a breadcrumb left behind - and batch script called i.bat - that showed the threat actor attempting to disable Defender, kill Sysmon and Filebeat, uninstall the ModSecurity WAF, downgrade WDigest credential protection— all before Mimikatz was executed to dump credentials. Following the SOC's initial response and delivery of remediation steps, a window of exposure occurred when the server was brought back online prior to complete patching. The threat actor leveraged this premature reconnection to continue their attack. This scenario highlights a common challenge in incident response: thorough closure and verified remediation are just as critical as the initial detection. Organizations can defend against these techniques with foundational security measures, including implementing sufficient and correctly configured logging on their servers and endpoints, and ensuring software is updated and patched. Acknowledgements: Special thanks to Adrian Garcia, Amelia Casley, Olly Maxwell and Anton Ovrutsky for their contributions to this investigation and write-up. Background At Huntress, we have visibility into various parts of a threat actor's attack chain: including how they enter the victim's environment (initial access), how they research the environment (enumeration), and how they move around the environment (lateral movement). One tactic that we see a fair amount of is defence evasion and defence impairment; or specific measures threat actors take to hide their tracks during an incident and to disable defence mechanisms. We recently responded to an incident on June 7 where a threat actor initially performed enumeration activity before later carrying out almost a dozen different types of defence impairment commands, including disabling the IIS logs, tampering with Microsoft Defender, using WMI Event Consumer to clear the Windows Event Logs, using timestomping, and more. We have outlined the defence impairment tactics we saw in this incident; by better understanding these techniques and how they play out in a targeted environment, organizations can get a stronger sense of where they should prioritize their defenses and look for signs of potential compromise. A steganographic webshell: The first commands On June 7, Huntress responded to a web server compromise spawning from a webshell that was uploaded to a vulnerable server by a threat actor. Due to insufficient logging, Huntress was unable to determine the exact initial access mechanism. There was, however, some evidence that the particular server had potentially suffered an Adobe ColdFusion exploitation attempt. Upon closer inspection of the historical logs, we found evidence of possible exploitation of ColdFusion bugs, including a critical remote code execution vulnerability ( CVE-2023-26360 ), improper access control bug ( CVE-2023-29298 ), and deserialization flaw ( CVE-2023-29300 ). The evidence that we did have stemmed from the presence of known targeted endpoints in historical logs: /CFIDE/adminapi/_datasource/setmsaccessRegistry.cfm /CFIDE/adminapi/_datasource/setsldatasource.cfm /CFIDE/adminapi/_datasource/setdsn.cfm /CFIDE/adminapi/_datasource/formatjdbcurl.cfm /CFIDE/adminapi/_datasource/getaccessdefaultsfromRegistry.cfm /CFIDE/adminapi/_datasource/geturldefaults.cfm /CFIDE/adminapi/customtags/l10n.cfm /CFIDE/adminapi/serverinstance.cfc /CFIDE/adminapi/servermonitoring.cfc While normally, the acce
-```
-
-#### Corroborating sources (1)
-
-- **Huntress** (detection_response_operations)
-  - Title: Defence Impairment Olympics
-  - Published: 2026-06-29T07:00:00+00:00
-  - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
-  - Summary: Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
 
 ### Cluster b70ac4f4d2 — score 8
 
@@ -3589,7 +3546,7 @@ Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetS
 - Source: Black Hills Information Security (detection_response_operations)
 - Published: 2026-07-01T14:00:00+00:00
 - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
@@ -3606,6 +3563,12 @@ Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetS
 
 ```
 Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
+```
+
+#### Full body
+
+```
+1 Jul 2026 Finding , Informational , Melissa Bruno , Web App Top 100 Findings Finding and Addressing Vulnerable and Outdated Web Application Components | Melissa Bruno Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. Vulnerabilities can be present in any of these components and introduce risk into your environment. Keeping these components up to date is essential for maintaining the security of a web application. Vulnerabilities affecting components can range from minor information disclosure to critical remote code execution, which can put the entire organization at risk. Identifying Components — From A Tester’s Perspective It is important for testers to manually review each component utilized by a web application. Tools such as Nessus and Burp Suite’s passive scanner will flag some of the most serious vulnerabilities affecting third-party components, but the vast majority of vulnerabilities do not have associated findings in these tools, and testers relying on these tools to identify vulnerable components will fail to detect most of these issues. The most straightforward way for testers to find components and their associated version numbers is to manually inspect the files returned by the application. The Site Map in Burp Suite and the developer tools in browsers (Firefox’s Debugger and Chrome’s Sources panel), all create an easily browsable list of files used by a web application. Site Map in Mozilla’s Developer Tools Shows jQuery Component In some cases, a component’s name and version number may be readily apparent in the URL or at the top of a file. However, often times, component names and version numbers are buried deep within a file’s source code, and it can be difficult and time-consuming for humans to manually identify these. For the quick identification of third-party components and their version numbers, testers may consider using the Wappalyzer browser plugin. This plugin detects components utilized by the web application and, when possible, the components’ version numbers, and outputs them in a concise list, such as the one shown below. Example Wappalyzer Output Web applications that return verbose error messages that disclose information about the application for debugging purposes may also return component version numbers. Any components mentioned in verbose error messages should be manually investigated. Identifying Vulnerabilities Once you have discovered a component and its associated version number, it’s time to check if that component has any known vulnerabilities. The Snyk Vulnerability Database is a great resource for finding vulnerabilities associated with web components. Example Snyk Vulnerability Summary for jQuery Component Snyk also offers a quick glance at useful information such as the software’s latest version, and how long ago the latest version of the software was published. This information puts into perspective how behind an organization is on patching. If the application is using version 2.1.6, but the latest version is 2.1.7, and it was only released five days ago, there is a good chance that this organization is on top of patching. Conversely, if the organization is 11 versions behind the latest release, patching components may be something that they really need to improve upon. The date that the latest version was published can also provide an important perspective on the state of the software. If the latest version of the software is affected by known vulnerabilities, but the last version update was eight years ago, the component is likely no longer actively maintained, and developers should be advised to disable it. Snyk – Additional Details About jQuery Component If Snyk does not have useful information about a component, plugging the component name and version into
 ```
 
 #### Corroborating sources (1)
