@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-03T14:23:31.244073+00:00
+- Generated: 2026-07-03T16:40:51.823175+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
-- Total items in window: 329
-- Total clusters raw: 149
-- Total clusters in packet: 69
-- Dropped low score: 80
+- Total items in window: 327
+- Total clusters raw: 147
+- Total clusters in packet: 66
+- Dropped low score: 81
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -70,11 +70,6 @@
 
 ## Feed status
 
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -85,23 +80,28 @@
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: ok
-  - Item count: 25
-  - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
+  - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
@@ -115,51 +115,41 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **NCSC UK** (government_authoritative)
   - URL: https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
-  - Status: ok
-  - Item count: 50
-  - In window count: 1
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - URL: https://horizon3.ai/feed/
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 4
+  - In window count: 6
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
   - Item count: 100
   - In window count: 2
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - URL: https://horizon3.ai/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 3
 - **GitHub Security Lab** (offensive_vulnerability_research)
   - URL: https://github.blog/category/security/feed/
   - Status: ok
@@ -170,6 +160,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Assetnote** (offensive_vulnerability_research)
   - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
@@ -180,41 +175,46 @@
   - Status: ok
   - Item count: 40
   - In window count: 0
-- **watchTowr Labs** (offensive_vulnerability_research)
-  - URL: https://labs.watchtowr.com/rss/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **watchTowr Labs** (offensive_vulnerability_research)
+  - URL: https://labs.watchtowr.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **The DFIR Report** (detection_response_operations)
   - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Proofpoint Threat Insight** (detection_response_operations)
-  - URL: https://www.proofpoint.com/us/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 2
 - **TrustedSec** (detection_response_operations)
   - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 1
-- **Sophos X-Ops** (detection_response_operations)
-  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
-  - Status: ok
-  - Item count: 15
   - In window count: 1
 - **Active Countermeasures** (detection_response_operations)
   - URL: https://www.activecountermeasures.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
+- **Proofpoint Threat Insight** (detection_response_operations)
+  - URL: https://www.proofpoint.com/us/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 2
+- **Sophos X-Ops** (detection_response_operations)
+  - URL: https://news.sophos.com/en-us/category/threat-research/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 1
 - **Elastic Security Labs** (detection_response_operations)
   - URL: https://www.elastic.co/security-labs/rss/feed.xml
   - Status: ok
@@ -240,71 +240,61 @@
   - Status: ok
   - Item count: 20
   - In window count: 4
-- **Trail of Bits** (offensive_vulnerability_research)
-  - URL: https://blog.trailofbits.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Huntress** (detection_response_operations)
-  - URL: https://www.huntress.com/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 4
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Trail of Bits** (offensive_vulnerability_research)
+  - URL: https://blog.trailofbits.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Huntress** (detection_response_operations)
+  - URL: https://www.huntress.com/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Sysdig** (detection_response_operations)
-  - URL: https://sysdig.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Security** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/security/rss/
   - Status: ok
   - Item count: 20
+  - In window count: 1
+- **Sysdig** (detection_response_operations)
+  - URL: https://sysdig.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Wiz Research** (cloud_identity_infrastructure)
   - URL: https://www.wiz.io/feed/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Google DeepMind Blog** (ai_security_agentic_risk)
-  - URL: https://deepmind.google/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Google DeepMind Blog** (ai_security_agentic_risk)
+  - URL: https://deepmind.google/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 2
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Chainalysis** (ransomware_ecrime_financial_crime)
-  - URL: https://www.chainalysis.com/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 5
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
@@ -315,6 +305,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
+- **Chainalysis** (ransomware_ecrime_financial_crime)
+  - URL: https://www.chainalysis.com/blog/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 4
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **The Record** (cyber_news_breach_reporting)
   - URL: https://therecord.media/feed
   - Status: ok
@@ -325,63 +330,48 @@
   - Status: ok
   - Item count: 15
   - In window count: 15
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 0
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
   - Item count: 20
   - In window count: 0
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
+  - Status: ok
+  - Item count: 30
+  - In window count: 20
 - **CyberScoop** (cyber_news_breach_reporting)
   - URL: https://cyberscoop.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Dark Reading** (cyber_news_breach_reporting)
   - URL: https://www.darkreading.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 28
+  - In window count: 26
 - **Help Net Security** (cyber_news_breach_reporting)
   - URL: https://www.helpnetsecurity.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
   - Item count: 10
   - In window count: 8
-- **Team Cymru** (ransomware_ecrime_financial_crime)
-  - URL: https://www.team-cymru.com/post/rss.xml
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
@@ -390,6 +380,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
+- **Team Cymru** (ransomware_ecrime_financial_crime)
+  - URL: https://www.team-cymru.com/post/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 1
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
@@ -400,6 +400,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,31 +420,26 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **The Hacker News** (cyber_news_breach_reporting)
-  - URL: https://feeds.feedburner.com/TheHackersNews
-  - Status: ok
-  - Item count: 50
-  - In window count: 50
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 23
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
   - Item count: 100
   - In window count: 0
+- **The Hacker News** (cyber_news_breach_reporting)
+  - URL: https://feeds.feedburner.com/TheHackersNews
+  - Status: ok
+  - Item count: 50
+  - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 23
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -478,7 +478,7 @@
 - Theme key: scattered-spider
 - Cluster count: 9
 - Article count: 10
-- Cohesion: 0.32
+- Cohesion: 0.387
 - Shared strong signals: Scattered Spider
 - Member CVEs: (none)
 - Also targets: Microsoft SharePoint
@@ -487,7 +487,7 @@
   - actor_attribution: Scattered Spider
   - affected_products: Apple iOS/macOS, Microsoft SharePoint
   - urgency_signals: actively_exploited
-- Cluster IDs: d52b9991a8, 7de9036f43, de6119ec2c, 7dc61d54d0, 11f77a277a, 57ef1249ed, 163e996fe8, 6c76262a4a, b70ac4f4d2
+- Cluster IDs: d52b9991a8, 7de9036f43, de6119ec2c, 7dc61d54d0, 57ef1249ed, 163e996fe8, b70ac4f4d2, c1d1bd7e84, 6c76262a4a
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
   - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
@@ -498,21 +498,21 @@
   - https://www.infosecurity-magazine.com/news/clickfix-cybercriminals-favorite/
   - https://www.securityweek.com/medtronic-data-breach-impacts-3-8-million-people/
   - https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
-  - https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
   - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
   - https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
-  - https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
   - https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
   - https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
   - https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/
   - https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
+  - https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
+  - https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
 
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
 - Theme key: shinyhunters
 - Cluster count: 4
 - Article count: 5
-- Cohesion: 0.235
+- Cohesion: 0.224
 - Shared strong signals: ShinyHunters
 - Member CVEs: (none)
 - Also targets: (none)
@@ -520,7 +520,6 @@
   - threat_categories: ransomware_extortion, zero_day, active_exploitation, phishing_social_eng, data_breach
   - actor_attribution: ShinyHunters, Scattered Spider
   - affected_industries: financial_services, manufacturing_industrial
-  - affected_products: Anthropic/Claude
   - cve_ids: CVE-2026-35273
   - urgency_signals: zero_day, actively_exploited, preauth_unauth
 - Cluster IDs: 3db35f97c6, 498473218f, 7dc61d54d0, 57ef1249ed
@@ -594,25 +593,6 @@
   - https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
 
-### Kubernetes vulnerability activity
-- Anchor signal: Kubernetes
-- Theme key: kubernetes
-- Cluster count: 3
-- Article count: 5
-- Cohesion: 0.253
-- Shared strong signals: Kubernetes
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - affected_products: Kubernetes
-- Cluster IDs: f851217332, df28d0fe5c, 2a1cd2055f
-- Links:
-  - https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns
-  - https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/
-  - https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
-  - https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
-  - https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-
 ### AWS vulnerability activity
 - Anchor signal: AWS
 - Theme key: aws
@@ -653,6 +633,30 @@
   - https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
   - https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+
+### ransomware extortion targeting Salesforce
+- Anchor signal: Salesforce
+- Theme key: salesforce
+- Cluster count: 3
+- Article count: 6
+- Cohesion: 0.201
+- Shared strong signals: Salesforce
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, phishing_social_eng, data_breach, zero_day, active_exploitation
+  - actor_attribution: Scattered Spider
+  - affected_industries: financial_services
+  - affected_products: Salesforce
+  - urgency_signals: zero_day
+- Cluster IDs: 57ef1249ed, f2b3bd6ba4, b70ac4f4d2
+- Links:
+  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
+  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
+  - https://therecord.media/teen-suspect-in-scattered-spider-hacks-extradited-to-us
+  - https://www.helpnetsecurity.com/2026/07/02/scattered-spider-criminal-group-suspect-extradited/
+  - https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html
 
 ### Ubiquiti UniFi exploitation (5 CVEs)
 - Anchor signal: Ubiquiti UniFi
@@ -711,23 +715,23 @@
   - https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/
   - https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
 
-### ransomware extortion targeting Salesforce
-- Anchor signal: Salesforce
-- Theme key: salesforce
+### Kubernetes vulnerability activity
+- Anchor signal: Kubernetes
+- Theme key: kubernetes
 - Cluster count: 2
-- Article count: 2
+- Article count: 4
 - Cohesion: 0.2
-- Shared strong signals: Salesforce
+- Shared strong signals: Kubernetes
 - Member CVEs: (none)
 - Also targets: (none)
 - Dominant features:
-  - threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach
-  - affected_products: Salesforce
-  - urgency_signals: zero_day
-- Cluster IDs: 57ef1249ed, f2b3bd6ba4
+  - affected_products: Kubernetes
+- Cluster IDs: f851217332, df28d0fe5c
 - Links:
-  - https://www.infosecurity-magazine.com/news/nissan-oracle-peoplesoft-zero-day/
-  - https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - https://www.sophos.com/en-us/blog/vect-and-teampcp-partner-for-ransomware-campaigns
+  - https://www.infosecurity-magazine.com/news/industrialized-cyberattacks/
+  - https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html
+  - https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
 
 ## Forward signals
 
@@ -760,16 +764,15 @@
 ### Drift (1)
 - **Scattered Spider** (cluster 7dc61d54d0)
   - New industries: manufacturing_industrial
-  - New products: Anthropic/Claude, Microsoft SharePoint
+  - New products: Microsoft SharePoint
   - Prior top industries: financial_services, government, healthcare
   - Prior top products: AWS, Apple iOS/macOS, npm
 
-### Persistence (10)
+### Persistence (9)
 - actor_attribution: ShinyHunters (weeks observed: 5, cluster 3db35f97c6)
 - cve_ids: CVE-2026-20245 (weeks observed: 5, cluster 498473218f)
 - cve_ids: CVE-2026-35273 (weeks observed: 4, cluster 3db35f97c6)
 - actor_attribution: TeamPCP (weeks observed: 4, cluster f851217332)
-- cve_ids: CVE-2026-20230 (weeks observed: 4, cluster 11f77a277a)
 - cve_ids: CVE-2026-33017 (weeks observed: 3, cluster aadab8aa23)
 - actor_attribution: Cl0p (weeks observed: 3, cluster 3db35f97c6)
 - cve_ids: CVE-2026-45659 (weeks observed: 3, cluster d52b9991a8)
@@ -1370,7 +1373,7 @@ FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 29th June 
   - Link: https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/
   - Summary: For the latest discoveries in cyber research for the week of 29th June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Polymarket, a large cryptocurrency-based prediction market, has confirmed a supply chain attack after a third-party frontend vendor breach led to malicious JavaScript being injected into its website. Attackers tricked users into approving fraudulent […] The post 29th June – Threat Intelligence Report appeared first on Check Point Research .
 
-### Cluster 8b38cd09cc — score 17
+### Cluster 8b38cd09cc — score 16
 
 - Title: It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)
 - Source: watchTowr Labs (offensive_vulnerability_research)
@@ -1909,52 +1912,38 @@ Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clus
   - Link: https://orca.security/resources/blog/kubernetes-compliance-tools-automating-cis-benchmarks/
   - Summary: Kubernetes compliance tools automate the enforcement of CIS Benchmarks, enabling teams to continuously validate cluster configurations against industry-accepted security baselines without slowing release velocity. The right tooling replaces manual audits with policy-driven checks that run across the CI/CD pipeline, from build to runtime, catching misconfigurations before they reach production. Maintaining multi-cloud compliance across dozens or […]
 
-### Cluster c63166a0d1 — score 13
+### Cluster d8d3a457ab — score 12
 
-- Title: Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-29T07:06:34+00:00
-- Link: https://thehackernews.com/2026/06/public-poc-released-for-critical.html
-- Fetch status: ok
+- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+- Source: SANS Internet Storm Center (government_authoritative)
+- Published: 2026-06-28T07:56:44+00:00
+- Link: https://isc.sans.edu/diary/rss/33106
+- Fetch status: fetch_failed:HTTPError
 - Member count: 1
 - Corroborating source count: 1
-- Strong signals: CVE-2026-55200
+- Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, ddos
-- affected_products: GitHub
-- cve_ids: CVE-2019-3855, CVE-2025-15661, CVE-2026-55199, CVE-2026-55200
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- content_type: news_report
+- confidence_tier: tier_1_government
 
 #### Primary article taxonomy
-- threat_categories: ddos, active_exploitation
-- affected_products: GitHub
-- cve_ids: CVE-2026-55200, CVE-2019-3855, CVE-2026-55199, CVE-2025-15661
-- urgency_signals: poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
+- content_type: news_report
+- confidence_tier: tier_1_government
 
 #### Summary
 
 ```
-A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2. libssh2 is a client-side SSH library, not a server.
-```
-
-#### Full body
-
-```
-Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw  Swati Khandelwal  Jun 29, 2026 Vulnerability / Open Source A public proof-of-concept is now out for CVE-2026-55200 , a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2 . libssh2 is a client-side SSH library, not a server. That distinction matters. It is embedded in curl, Git, PHP, backup agents, firmware updaters, and a long tail of appliances. Anything that links it and reaches out to an untrusted SSH endpoint is a potential target. Many of those copies are statically linked, so a distro package update will not touch them, and you may not know they are there. How the bug works The flaw lives in ssh2_transport_read() in transport.c, the function that parses incoming SSH packets during the handshake. It read the attacker-controlled packet_length field and rejected only values below 1. It never enforced an upper bound. The size calculation adds packet_length to a couple of small values using 32-bit arithmetic, so a length of 0xffffffff wraps around to a tiny number. libssh2 then allocates a buffer sized for the tiny number, while later code writes the full, oversized packet into it. The result is an out-of-bounds heap write, classed as CWE-680 , integer overflow to buffer overflow, a classic primitive for code execution. The fix adds the missing check, rejecting any packet_length above LIBSSH2_PACKET_MAXPAYLOAD before the math runs. libssh2 has tripped over this before. In 2019, it shipped version 1.8.1 to fix a batch of nine flaws led by CVE-2019-3855 , a near-identical integer overflow in its transport read that also let a malicious server run code on a connecting client. Seven years later, the same class of bug is back in the same code. Security researcher Tristan Madani reported the issue. Maintainers merged the patch through pull request #2052 on June 12. VulnCheck published the CVE on June 17. A public proof-of-concept has been published in "exploitarium," a GitHub archive of exploit code whose author says entries were posted without prior reporting. The archive contains a locally verified SSH trigger scaffold and a controlled local RCE harness for the libssh2 bug, not a turnkey remote exploit. Reliable code execution against a live application would still depend on the target binary, allocator behavior, mitigations, and how the software embeds libssh2. The context is worth weighing. The author concedes the archive went out incomplete, with some entries weak and AI driving the fuzzing. As of now, CISA's exploitation rating for the CVE still reads none, and no in-the-wild use has been reported. What to do There is no fixed libssh2 release yet. The patch sits in the mainline source, and a tagged release is still being prepared , so Linux distributions and downstream projects are backporting it themselves; Debian, for one, already has a repaired build in testing. NHS England Digital has issued an advisory urging affected organizations to update. Inventory everything that links libssh2, including static or bundled copies that package managers will not flag. curl, Git, and PHP deployments are common carriers. Apply a build that includes commit 97acf3d, whether a distro backport or a patched source build, and watch your vendor's advisory channel for release status. Until patched, restrict outbound SSH connections to trusted servers and verify host keys. Give priority to clients that reach external SSH servers or resolve hosts through names that an attacker could redirect. Watch for oversized-packet anomalies and unexplained client crashes. Patch the rest of the batch too: CVE-2026-55199 (CVSS 8.2), a denial of service that traps a connecting client in a CPU loop via a bogus extension count, and CVE-2025-15661 (CVSS 8.3),
+YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 ```
 
 #### Corroborating sources (1)
 
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw
-  - Published: 2026-06-29T07:06:34+00:00
-  - Link: https://thehackernews.com/2026/06/public-poc-released-for-critical.html
-  - Summary: A public proof-of-concept is now out for CVE-2026-55200, a critical flaw in libssh2 that lets a malicious or compromised SSH server trigger memory corruption on a connecting client, with possible code execution. No credentials, no user interaction. The bug affects every release up to and including 1.11.1 and carries a CVSS 4.0 score of 9.2. libssh2 is a client-side SSH library, not a server.
+- **SANS Internet Storm Center** (government_authoritative)
+  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
+  - Published: 2026-06-28T07:56:44+00:00
+  - Link: https://isc.sans.edu/diary/rss/33106
+  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 
 ### Cluster 3b18efdb51 — score 12
 
@@ -2000,39 +1989,6 @@ Threat Response Table of Contents Introduction Initial infection vector EXE atta
   - Published: 2026-07-03T10:00:33+00:00
   - Link: https://securelist.com/tr/armored-likho-apt-with-busysnake-stealer/120292/
   - Summary: An inside look at the active Armored Likho APT campaign. The attackers are using spear-phishing, AI-generated loaders, and a new Python-based tool, BusySnake Stealer, to target organizations in Russia, Kazakhstan, and Brazil.
-
-### Cluster d8d3a457ab — score 12
-
-- Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-- Source: SANS Internet Storm Center (government_authoritative)
-- Published: 2026-06-28T07:56:44+00:00
-- Link: https://isc.sans.edu/diary/rss/33106
-- Fetch status: fetch_failed:HTTPError
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_government
-
-#### Summary
-
-```
-YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
-```
-
-#### Corroborating sources (1)
-
-- **SANS Internet Storm Center** (government_authoritative)
-  - Title: YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)
-  - Published: 2026-06-28T07:56:44+00:00
-  - Link: https://isc.sans.edu/diary/rss/33106
-  - Summary: YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 
 ### Cluster db017396fb — score 12
 
@@ -2089,7 +2045,7 @@ YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 - threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion
 - actor_attribution: Scattered Spider, ShinyHunters
 - affected_industries: healthcare, manufacturing_industrial
-- affected_products: Anthropic/Claude, Apple iOS/macOS, Microsoft SharePoint
+- affected_products: Apple iOS/macOS, Microsoft SharePoint
 - urgency_signals: actively_exploited
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -2098,7 +2054,7 @@ YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
 - threat_categories: ransomware_extortion, phishing_social_eng, data_breach, active_exploitation
 - actor_attribution: Scattered Spider, ShinyHunters
 - affected_industries: healthcare, manufacturing_industrial
-- affected_products: Microsoft SharePoint, Apple iOS/macOS, Anthropic/Claude
+- affected_products: Microsoft SharePoint, Apple iOS/macOS
 - urgency_signals: actively_exploited
 - content_type: incident_report
 - confidence_tier: tier_4_news
@@ -2112,7 +2068,7 @@ In April, ShinyHunters accessed the company’s corporate IT systems and stole p
 #### Full body
 
 ```
-Medical technology giant Medtronic is notifying more than 3.8 million individuals that their personal and medical information was compromised in a recent data breach. The incident occurred in April 2026, when the infamous extortion group ShinyHunters accessed the company’s corporate IT systems. Medtronic confirmed the attack in late April, noting that its products and manufacturing and distribution operations were not affected. ShinyHunters had added the company to its Tor-based leak site on April 17, claiming the theft of over 9 million records of personal information, and terabytes of corporate data. The group has since removed Medtronic from the website, which suggests that the company might have paid a ransom to recover the stolen information. This week, the medical technology titan started sending written notification letters to the affected individuals, confirming that the hackers stole patients’ personal and medical information, including names, contact details, dates of birth, Social Security numbers, and health-related details. Advertisement. Scroll to continue reading. “We have no evidence that any of that information was posted publicly or exposed on the internet,” reads a copy of the company’s notification letter ( PDF ) submitted to the California Attorney General’s Office. Medtronic told the Indiana Attorney General’s Office that 3,834,294 individuals were affected by the incident. The company is providing them with 24 months of free credit monitoring, dark web monitoring, and identity theft restoration services. “Medtronic has implemented additional safeguards and continues to work with third-party cybersecurity experts to identify opportunities to further strengthen the security of its systems. Medtronic has also worked with law enforcement and is notifying relevant regulatory authorities,” the company said. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Related: Xsolis Data Breach Affects 1.4 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News Agentic AI Used to Conduct Ransomware Attack via Langflow Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trump Administration Lifts Restrictions on Anthropic’s Claude Models After Cybersecurity Alarm Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Vir
+Medical technology giant Medtronic is notifying more than 3.8 million individuals that their personal and medical information was compromised in a recent data breach. The incident occurred in April 2026, when the infamous extortion group ShinyHunters accessed the company’s corporate IT systems. Medtronic confirmed the attack in late April, noting that its products and manufacturing and distribution operations were not affected. ShinyHunters had added the company to its Tor-based leak site on April 17, claiming the theft of over 9 million records of personal information, and terabytes of corporate data. The group has since removed Medtronic from the website, which suggests that the company might have paid a ransom to recover the stolen information. This week, the medical technology titan started sending written notification letters to the affected individuals, confirming that the hackers stole patients’ personal and medical information, including names, contact details, dates of birth, Social Security numbers, and health-related details. Advertisement. Scroll to continue reading. “We have no evidence that any of that information was posted publicly or exposed on the internet,” reads a copy of the company’s notification letter ( PDF ) submitted to the California Attorney General’s Office. Medtronic told the Indiana Attorney General’s Office that 3,834,294 individuals were affected by the incident. The company is providing them with 24 months of free credit monitoring, dark web monitoring, and identity theft restoration services. “Medtronic has implemented additional safeguards and continues to work with third-party cybersecurity experts to identify opportunities to further strengthen the security of its systems. Medtronic has also worked with law enforcement and is notifying relevant regulatory authorities,” the company said. Related: Aflac Japan Data Breach Impacts 4.38 Million Related: Nissan Employee Data Breached in Oracle PeopleSoft Hack Related: More Klue Breach Victims Identified as Hackers Get Hacked Related: Xsolis Data Breach Affects 1.4 Million Individuals Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Vi
 ```
 
 #### Corroborating sources (2)
@@ -2127,55 +2083,6 @@ Medical technology giant Medtronic is notifying more than 3.8 million individual
   - Published: 2026-07-02T04:25:42+00:00
   - Link: https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/
   - Summary: Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]
-
-### Cluster 11f77a277a — score 12
-
-- Title: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-02T10:48:43+00:00
-- Link: https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, zero_day
-- actor_attribution: Scattered Spider
-- affected_products: Apple iOS/macOS, Cisco, Microsoft SharePoint
-- cve_ids: CVE-2026-20230
-- urgency_signals: actively_exploited, poc_available, zero_day
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, phishing_social_eng, zero_day, data_breach, active_exploitation
-- actor_attribution: Scattered Spider
-- affected_products: Microsoft SharePoint, Cisco, Apple iOS/macOS
-- cve_ids: CVE-2026-20230
-- urgency_signals: actively_exploited, zero_day, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A PoC exploit has been available since public disclosure, and the first exploitation attempts were observed last week. The post Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Cisco confirmed that a recently patched vulnerability in its Unified Communications Manager (Unified CM) and Unified Communications Manager Session Management Edition (Unified CM SME) has been exploited in the wild. Tracked as CVE-2026-20230 (CVSS score of 8.6), the security defect is described as the improper validation of specific HTTP requests, which could allow attackers to mount SSRF attacks. Successful exploitation of the bug could lead to arbitrary files being dropped to the underlying operating system, which could then be used to gain root access. Only appliances with the WebDialer service enabled are vulnerable, Cisco says. The service is disabled by default. In early June, Cisco rolled out patches for the CVE in Unified CM and Unified CM SME version 14SU6 and announced that the fixes would also be included in version 15SU5, which is expected to arrive in September. Cisco warned that proof-of-concept (PoC) code targeting the vulnerability exists, but said it was not aware of its in-the-wild exploitation. Advertisement. Scroll to continue reading. On Wednesday, the company updated its advisory to warn customers that the security defect is being actively exploited in attacks. “Cisco continues to strongly recommend that customers upgrade to a fixed software release to remediate this vulnerability,” the company said. The warning comes a week after exploit intelligence firm Defused reported seeing exploitation “from a single source using an unvetted PoC” and after SSD Secure Disclosure, which was credited with finding the bug, published technical information and a PoC. At the time, Cisco told SecurityWeek it was not aware of any malicious use of the security weakness. Related: Cisco SD-WAN Zero-Day Exploited Months Before Patching Related: Critical Command Execution Vulnerability Patched in Cisco ISE Related: Cisco Patches Another SD-WAN Zero-Day Exploited in Attacks Related: Cisco Patches Critical Vulnerability in Secure Workload Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Massive Password Spray Campaign Targeting Azure CLI Latest News Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to properly secure cloud environment
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability
-  - Published: 2026-07-02T10:48:43+00:00
-  - Link: https://www.securityweek.com/cisco-confirms-in-the-wild-exploitation-of-unified-cm-vulnerability/
-  - Summary: A PoC exploit has been available since public disclosure, and the first exploitation attempts were observed last week. The post Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability appeared first on SecurityWeek .
 
 ### Cluster 4541afab04 — score 12
 
@@ -2365,47 +2272,6 @@ AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack  Swati 
   - Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - Summary: Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
 
-### Cluster cce9192f71 — score 10
-
-- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-02T13:00:02+00:00
-- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
-```
-
-#### Full body
-
-```
-AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-  - Published: 2026-07-02T13:00:02+00:00
-  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
-  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
-
 ### Cluster 84319555f9 — score 10
 
 - Title: Threat Brief: Mitigating Large-Scale Credential Attacks
@@ -2492,54 +2358,46 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
   - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
 
-### Cluster f2b3bd6ba4 — score 10
+### Cluster cce9192f71 — score 10
 
-- Title: 22nd June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-01T11:29:38+00:00
-- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-02T13:00:02+00:00
+- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
-- urgency_signals: preauth_unauth, zero_day
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
-- urgency_signals: zero_day, preauth_unauth
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 22nd June – Threat Intelligence Report
-  - Published: 2026-07-01T11:29:38+00:00
-  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+  - Published: 2026-07-02T13:00:02+00:00
+  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
+  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 
 ### Cluster 5fe3559a01 — score 10
 
@@ -2709,6 +2567,94 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
 
+### Cluster f2b3bd6ba4 — score 10
+
+- Title: 22nd June – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-01T11:29:38+00:00
+- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 22nd June – Threat Intelligence Report
+  - Published: 2026-07-01T11:29:38+00:00
+  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+
+### Cluster 6a3df7e65b — score 10
+
+- Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
+- Source: Horizon3 Attack Research (offensive_vulnerability_research)
+- Published: 2026-06-29T13:30:00+00:00
+- Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+```
+
+#### Full body
+
+```
+CTEM Isn’t Failing. It’s Not Being Operationalized. Stephen Gates June 29, 2026 Blogs Cybersecurity is full of frameworks, regulations, and directives that tell organizations what they should do. Zero Trust, NIST, CIS Controls, CMMC, DORA, NIS2, and now Continuous Threat Exposure Management (CTEM) all provide valuable guidance and describe desired outcomes. The challenge is that most stop at the “what.” They rarely explain the “how.” That is not a criticism. It is by design. Frameworks establish principles, define expectations, and describe desired outcomes. They are not implementation guides. As a result, security leaders and practitioners are left figuring out how to translate principles into processes, assign ownership, establish accountability, and measure success. Those decisions often determine whether a framework delivers results or becomes another initiative that never moves beyond good intentions. The Gartner® CTEM framework provides a clear vision through its five phases: Scope, Discover, Prioritize, Validate, and Mobilize. Yet many organizations that understand those phases still struggle to build a CTEM program that consistently produces measurable outcomes. Understanding CTEM Is the Easy Part Most security teams do not have a CTEM knowledge problem. Gartner has clearly documented the phases, vendors have built messaging around them, and countless presentations explain how CTEM works. The challenge is that understanding a framework and operating it are two very different things. The question is not whether the pieces exist, but whether those pieces work together to reduce exposure over time. That is where the gap emerges, because the challenge is not understanding CTEM. It is turning CTEM into a repeatable operating model that consistently produces measurable outcomes. The Industry Has Focused on the Phases Most CTEM discussions focus on the framework itself: How do we scope? How do we discover? How do we prioritize? How do we validate? How do we mobilize? Those questions help organizations understand the framework, but they can also create the illusion that adopting CTEM is simply a matter of executing the phases. The organizations making the most progress are focused on a different set of questions: Who owns the process? How do findings move between teams? How do we establish accountability? How do we verify that remediation actually reduced exposure? How do we measure progress over time? These are operational questions, and they are often the difference between a CTEM initiative and a CTEM operating model. Where CTEM Programs Actually Stall Most CTEM programs do not struggle with visibility. They struggle with execution. Security teams often discover exposures, while infrastructure, application, cloud, and identity teams are responsible for fixing them. Each team plays an important role, but no single team owns the end-to-end outcome. As a result, exposures often move from team to team while the original context gets diluted. Security understands why the issue matters. The team responsible for fixing it may only see another ticket in a queue. As findings move across organizational boundaries, priorities compete for attention, ownership becomes fragmented, and validation often becomes inconsistent, leaving organizations uncertain whether risk is actually decreasing. A team may discover an exposure, prioritize it, validate that it matters, and assign remediation to the right group. But if ownership becomes unclear, remediation is delayed, or nobody verifies the outcome, the program has not reduced exposure in any measurable way. Moving work through a process is not the same as reducing exposure. That distinction matters because CTEM is not about generating more findings. It is about creating a repeatable system that helps organizations understand what matters, act on it with confidence, and prove that exposure is decreasing over time. What Operationalization Looks Like in Practice Most organizations already have m
+```
+
+#### Corroborating sources (1)
+
+- **Horizon3 Attack Research** (offensive_vulnerability_research)
+  - Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
+  - Published: 2026-06-29T13:30:00+00:00
+  - Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
+  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
+
 ### Cluster 5bbda948e4 — score 10
 
 - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
@@ -2751,86 +2697,6 @@ Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Ins
   - Published: 2026-07-01T00:00:00+00:00
   - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
   - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
-
-### Cluster 6a3df7e65b — score 10
-
-- Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-29T13:30:00+00:00
-- Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-```
-
-#### Full body
-
-```
-CTEM Isn’t Failing. It’s Not Being Operationalized. Stephen Gates June 29, 2026 Blogs Cybersecurity is full of frameworks, regulations, and directives that tell organizations what they should do. Zero Trust, NIST, CIS Controls, CMMC, DORA, NIS2, and now Continuous Threat Exposure Management (CTEM) all provide valuable guidance and describe desired outcomes. The challenge is that most stop at the “what.” They rarely explain the “how.” That is not a criticism. It is by design. Frameworks establish principles, define expectations, and describe desired outcomes. They are not implementation guides. As a result, security leaders and practitioners are left figuring out how to translate principles into processes, assign ownership, establish accountability, and measure success. Those decisions often determine whether a framework delivers results or becomes another initiative that never moves beyond good intentions. The Gartner® CTEM framework provides a clear vision through its five phases: Scope, Discover, Prioritize, Validate, and Mobilize. Yet many organizations that understand those phases still struggle to build a CTEM program that consistently produces measurable outcomes. Understanding CTEM Is the Easy Part Most security teams do not have a CTEM knowledge problem. Gartner has clearly documented the phases, vendors have built messaging around them, and countless presentations explain how CTEM works. The challenge is that understanding a framework and operating it are two very different things. The question is not whether the pieces exist, but whether those pieces work together to reduce exposure over time. That is where the gap emerges, because the challenge is not understanding CTEM. It is turning CTEM into a repeatable operating model that consistently produces measurable outcomes. The Industry Has Focused on the Phases Most CTEM discussions focus on the framework itself: How do we scope? How do we discover? How do we prioritize? How do we validate? How do we mobilize? Those questions help organizations understand the framework, but they can also create the illusion that adopting CTEM is simply a matter of executing the phases. The organizations making the most progress are focused on a different set of questions: Who owns the process? How do findings move between teams? How do we establish accountability? How do we verify that remediation actually reduced exposure? How do we measure progress over time? These are operational questions, and they are often the difference between a CTEM initiative and a CTEM operating model. Where CTEM Programs Actually Stall Most CTEM programs do not struggle with visibility. They struggle with execution. Security teams often discover exposures, while infrastructure, application, cloud, and identity teams are responsible for fixing them. Each team plays an important role, but no single team owns the end-to-end outcome. As a result, exposures often move from team to team while the original context gets diluted. Security understands why the issue matters. The team responsible for fixing it may only see another ticket in a queue. As findings move across organizational boundaries, priorities compete for attention, ownership becomes fragmented, and validation often becomes inconsistent, leaving organizations uncertain whether risk is actually decreasing. A team may discover an exposure, prioritize it, validate that it matters, and assign remediation to the right group. But if ownership becomes unclear, remediation is delayed, or nobody verifies the outcome, the program has not reduced exposure in any measurable way. Moving work through a process is not the same as reducing exposure. That distinction matters because CTEM is not about generating more findings. It is about creating a repeatable system that helps organizations understand what matters, act on it with confidence, and prove that exposure is decreasing over time. What Operationalization Looks Like in Practice Most organizations already have m
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
-  - Published: 2026-06-29T13:30:00+00:00
-  - Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
-  - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
-
-### Cluster 2a1cd2055f — score 10
-
-- Title: NodeZero® Proactive Security Platform
-- Source: Horizon3 Attack Research (offensive_vulnerability_research)
-- Published: 2026-06-26T16:26:23+00:00
-- Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- affected_products: Kubernetes
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
-```
-
-#### Full body
-
-```
-NodeZero® Proactive Security Platform Horizon3.ai June 26, 2026 Factsheets Emerging vulnerabilities create immediate pressure for security teams. The challenge isn’t determining whether a CVE NodeZero® Proactive Security Platform Security leaders don’t need to find more vulnerabilities—they need to understand which weaknesses attackers can actually exploit before adversaries do. The NodeZero® Proactive Security Platform continuously validates your security posture through autonomous, production-safe pentesting that safely emulates real attacker behavior. Instead of overwhelming teams with vulnerability lists, NodeZero identifies exploitable attack paths, prioritizes what matters most, provides clear remediation guidance, and verifies that fixes work over time. Validate real attack paths across internal, external, cloud, identity, Kubernetes, and hybrid environments Uncover exploitable weaknesses beyond known CVEs, including compromised credentials, exposed data, misconfigurations, weak controls, and risky policies Prioritize remediation based on verified exploitability and business impact instead of vulnerability counts alone Continuously validate security posture with autonomous, production-safe pentesting Produce audit-ready reports with executive summaries, remediation guidance, exploit chains, compromised assets, and verified remediation evidence Measure security improvements over time with continuous validation and retesting Extend proactive security with capabilities including Threat Actor Intelligence, High-Value Targeting, Endpoint Security Effectiveness, Vulnerability Risk Intelligence, and the NodeZero MCP Server NodeZero helps organizations move beyond identifying vulnerabilities to proving resilience. By validating what attackers can actually exploit and verifying that remediation efforts reduce real risk, security teams gain measurable evidence that their defenses are working—not just assumptions. Download the NodeZero Proactive Security Platform Factsheet to learn how Horizon3.ai helps organizations continuously identify, prioritize, remediate, verify, and strengthen their security posture through attacker-perspective validation. Download as PDF How can NodeZero help you? Let our experts walk you through a demonstration of NodeZero ® , so you can see how to put it to work for your organization. Get a Demo Share:
-```
-
-#### Corroborating sources (1)
-
-- **Horizon3 Attack Research** (offensive_vulnerability_research)
-  - Title: NodeZero® Proactive Security Platform
-  - Published: 2026-06-26T16:26:23+00:00
-  - Link: https://horizon3.ai/downloads/factsheets/nodezero-proactive-security-platform/
-  - Summary: Discover how the NodeZero® Proactive Security Platform helps security teams continuously identify exploitable attack paths, prioritize remediation, verify fixes, and prove resilience through autonomous pentesting.
 
 ### Cluster fbb9c91ae0 — score 10
 
@@ -3223,7 +3089,7 @@ The DuneSlide vulnerabilities enable zero-click prompt injection attacks that es
 #### Full body
 
 ```
-Two critical vulnerabilities in the popular AI code editor Cursor could lead to remote code execution on the underlying operating system, Cato Networks reports. The security defects are tracked as CVE-2026-50548 and CVE-2026-50549 (CVSS score of 9.8) and are referred to as DuneSlide , given that they lead to remote code execution (RCE) outside of the IDE’s sandbox. According to Cato, the flaws abuse Cursor’s automatic terminal command execution inside the sandbox, which does not prompt the user for approval, and can be triggered when a victim prompts the IDE to ingest an attacker-controlled payload. The first issue is related to the sandbox’s security boundaries. While command execution should be restricted to the current working directory, a non-default value assigned to the working_directory parameter results in the path being added to the allow list. Thus, an innocuous MCP server request could inject a prompt that would instruct the LLM to set the working directory to an attacker-supplied path outside the project scope. A threat actor could overwrite the cursorsandbox executable, ensuring that “future commands run without sandbox restrictions, so future instructions within the same prompt injection lead to a non-sandboxed RCE,” Cato explains. Advertisement. Scroll to continue reading. Completely independent from this vulnerability, the second security defect affects the IDE’s file path resolution edge cases and could be exploited via symbolic links to bypass out-of-bounds write protections. An attacker could craft a prompt that, when injected in Cursor, instructs the agent to create within the project directory a symlink pointing to an outside file. A flaw in the agent’s path canonicalization logic (it attempts to resolve the symlink to determine its location and verify it is in the project’s directory) results in Cursor falling back to using the original symlink path. “A threat actor can then create a write-only symlink, thus forcing Cursor to assume the resolved path is the symlink path, rather than the target path. This fails its detection that the ultimate destination is out of bounds, allowing the threat actor to link to the cursorsandbox executable once more,” Cato explains. Cato reported the two flaws to Cursor in February. Patches for both were included in Cursor 3.0, which was released on April 2, while the CVE IDs were assigned in early June. Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay Related: Cursor AI Vulnerability Exposed Developer Devices Related: Several Vulnerabilities Patched in AI Code Editor Cursor Related: Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to
+Two critical vulnerabilities in the popular AI code editor Cursor could lead to remote code execution on the underlying operating system, Cato Networks reports. The security defects are tracked as CVE-2026-50548 and CVE-2026-50549 (CVSS score of 9.8) and are referred to as DuneSlide , given that they lead to remote code execution (RCE) outside of the IDE’s sandbox. According to Cato, the flaws abuse Cursor’s automatic terminal command execution inside the sandbox, which does not prompt the user for approval, and can be triggered when a victim prompts the IDE to ingest an attacker-controlled payload. The first issue is related to the sandbox’s security boundaries. While command execution should be restricted to the current working directory, a non-default value assigned to the working_directory parameter results in the path being added to the allow list. Thus, an innocuous MCP server request could inject a prompt that would instruct the LLM to set the working directory to an attacker-supplied path outside the project scope. A threat actor could overwrite the cursorsandbox executable, ensuring that “future commands run without sandbox restrictions, so future instructions within the same prompt injection lead to a non-sandboxed RCE,” Cato explains. Advertisement. Scroll to continue reading. Completely independent from this vulnerability, the second security defect affects the IDE’s file path resolution edge cases and could be exploited via symbolic links to bypass out-of-bounds write protections. An attacker could craft a prompt that, when injected in Cursor, instructs the agent to create within the project directory a symlink pointing to an outside file. A flaw in the agent’s path canonicalization logic (it attempts to resolve the symlink to determine its location and verify it is in the project’s directory) results in Cursor falling back to using the original symlink path. “A threat actor can then create a write-only symlink, thus forcing Cursor to assume the resolved path is the symlink path, rather than the target path. This fails its detection that the ultimate destination is out of bounds, allowing the threat actor to link to the cursorsandbox executable once more,” Cato explains. Cato reported the two flaws to Cursor in February. Patches for both were included in Cursor 3.0, which was released on April 2, while the CVE IDs were assigned in early June. Learn More at the AI Risk Summit | Ritz-Carlton, Half Moon Bay Related: Cursor AI Vulnerability Exposed Developer Devices Related: Several Vulnerabilities Patched in AI Code Editor Cursor Related: Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks Related: When Information Becomes the Attack Surface – Understanding AI Agent Traps Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure H
 ```
 
 #### Corroborating sources (1)
@@ -3233,55 +3099,6 @@ Two critical vulnerabilities in the popular AI code editor Cursor could lead to 
   - Published: 2026-07-03T07:57:53+00:00
   - Link: https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
   - Summary: The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system. The post Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution appeared first on SecurityWeek .
-
-### Cluster 6c76262a4a — score 9
-
-- Title: New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-02T15:04:22+00:00
-- Link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_products: Apple iOS/macOS, Microsoft SharePoint
-- cve_ids: CVE-2026-8451
-- urgency_signals: actively_exploited, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, data_breach, active_exploitation
-- actor_attribution: Scattered Spider
-- affected_products: Microsoft SharePoint, Apple iOS/macOS
-- cve_ids: CVE-2026-8451
-- urgency_signals: actively_exploited, poc_available
-- content_type: vulnerability_disclosure
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetScaler ADC and NetScaler Gateways less than 24 hours after public disclosure, Scottish cybersecurity firm Lupovis reports. Tracked as CVE-2026-8451 (CVSS score of 8.8), the security defect was disclosed on June 30, when Citrix rolled out patches , and attack surface management company watchTowr published technical details on it. The bug is described as an out-of-bounds read issue affecting NetScaler appliances configured as SAML IDP and leading to memory disclosure. It was discovered in NetScaler’s XML parser, which did not terminate unquoted XML attribute values if they were followed by a newline character. Because of the flaw, the parser would read past the intended buffer, and NetScaler would return memory contents in the NSC_TASS cookie in an HTTP response. While it requires that the targeted NetScaler appliances be configured as SAML IDP, the successful exploitation of the vulnerability does not require authentication. Shortly after watchTowr shared details on the security hole and published a detection artefact generator, at least one threat actor started probing exposed NetScaler instances, Lupovis told SecurityWeek . Advertisement. Scroll to continue reading. Initial scanning activity originated from an IP hosted on infrastructure in Frankfurt, Germany, likely using a disposable or purpose-built scanning node. Multiple Lupovis sensors were targeted within a five-hour window, and a payload was immediately dropped on the sensor that responded with a 200 response. The payload included a “bare <samlp:AuthnRequest> tag padded with 476 spaces followed by a newline”, which matches the overread variant in watchTowr’s detection artefact generator. On Thursday, the cybersecurity firm observed a second threat actor probing for exposed NetScaler instances from a Koapu Cloud HK IP address. “Both have demonstrated the same behaviour, probing for the right endpoint, upon receiving a 200 OK with the right response, they have delivered the payload immediately,” Lupovis CEO Xavier Bellekens said. Organizations are advised to patch their NetScaler appliances immediately, or to disable SAML IDP if patching is not possible. They should also check logs for /saml/login traffic, inspect the request values, and check NSC_TASS cookie values to identify exploitation. Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Related: CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Related: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trump Administration Lifts Restrictions
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
-  - Published: 2026-07-02T15:04:22+00:00
-  - Link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
-  - Summary: Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek .
 
 ### Cluster 40ed42a9f6 — score 8
 
@@ -3569,16 +3386,20 @@ Table of contents Key Takeaways What Is the Principle of Least Privilege (PoLP)?
 - Source: Huntress (detection_response_operations)
 - Published: 2026-06-29T07:00:00+00:00
 - Link: https://www.huntress.com/blog/mimikatz-credential-dumping-defence-impairment
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
 #### Primary article taxonomy
+- threat_categories: web_shell_backdoor
+- cve_ids: CVE-2023-26360, CVE-2023-29298, CVE-2023-29300
 - content_type: news_report
 - confidence_tier: tier_2_operator
 
@@ -3586,6 +3407,12 @@ Table of contents Key Takeaways What Is the Principle of Least Privilege (PoLP)?
 
 ```
 Huntress analyzed a credential dumping attack where threat actors disabled Defender, killed monitoring tools, and used Mimikatz to steal credentials.
+```
+
+#### Full body
+
+```
+Home Blog Defence Impairment Olympics Published: June 29, 2026 Defence Impairment Olympics By: Mark O'Halloran Lindsey O'Donnell-Welch Summarize with AI Summarize ChatGPT Claude Perplexity Google AI Key Takeaways We recently detected an incident on June 7 that started with simple enumeration commands - but our investigation into the attack showed the threat actor taking aggressive steps to hide their tracks. The investigation into the attack initially showed a few defence impairment techniques, like steganography and timestomping. However, our investigation broadened when we found a breadcrumb left behind - and batch script called i.bat - that showed the threat actor attempting to disable Defender, kill Sysmon and Filebeat, uninstall the ModSecurity WAF, downgrade WDigest credential protection— all before Mimikatz was executed to dump credentials. Following the SOC's initial response and delivery of remediation steps, a window of exposure occurred when the server was brought back online prior to complete patching. The threat actor leveraged this premature reconnection to continue their attack. This scenario highlights a common challenge in incident response: thorough closure and verified remediation are just as critical as the initial detection. Organizations can defend against these techniques with foundational security measures, including implementing sufficient and correctly configured logging on their servers and endpoints, and ensuring software is updated and patched. Acknowledgements: Special thanks to Adrian Garcia, Amelia Casley, Olly Maxwell and Anton Ovrutsky for their contributions to this investigation and write-up. Background At Huntress, we have visibility into various parts of a threat actor's attack chain: including how they enter the victim's environment (initial access), how they research the environment (enumeration), and how they move around the environment (lateral movement). One tactic that we see a fair amount of is defence evasion and defence impairment; or specific measures threat actors take to hide their tracks during an incident and to disable defence mechanisms. We recently responded to an incident on June 7 where a threat actor initially performed enumeration activity before later carrying out almost a dozen different types of defence impairment commands, including disabling the IIS logs, tampering with Microsoft Defender, using WMI Event Consumer to clear the Windows Event Logs, using timestomping, and more. We have outlined the defence impairment tactics we saw in this incident; by better understanding these techniques and how they play out in a targeted environment, organizations can get a stronger sense of where they should prioritize their defenses and look for signs of potential compromise. A steganographic webshell: The first commands On June 7, Huntress responded to a web server compromise spawning from a webshell that was uploaded to a vulnerable server by a threat actor. Due to insufficient logging, Huntress was unable to determine the exact initial access mechanism. There was, however, some evidence that the particular server had potentially suffered an Adobe ColdFusion exploitation attempt. Upon closer inspection of the historical logs, we found evidence of possible exploitation of ColdFusion bugs, including a critical remote code execution vulnerability ( CVE-2023-26360 ), improper access control bug ( CVE-2023-29298 ), and deserialization flaw ( CVE-2023-29300 ). The evidence that we did have stemmed from the presence of known targeted endpoints in historical logs: /CFIDE/adminapi/_datasource/setmsaccessRegistry.cfm /CFIDE/adminapi/_datasource/setsldatasource.cfm /CFIDE/adminapi/_datasource/setdsn.cfm /CFIDE/adminapi/_datasource/formatjdbcurl.cfm /CFIDE/adminapi/_datasource/getaccessdefaultsfromRegistry.cfm /CFIDE/adminapi/_datasource/geturldefaults.cfm /CFIDE/adminapi/customtags/l10n.cfm /CFIDE/adminapi/serverinstance.cfc /CFIDE/adminapi/servermonitoring.cfc While normally, the acce
 ```
 
 #### Corroborating sources (1)
@@ -3602,19 +3429,26 @@ Huntress analyzed a credential dumping attack where threat actors disabled Defen
 - Source: SecurityWeek (cyber_news_breach_reporting)
 - Published: 2026-07-03T09:30:00+00:00
 - Link: https://www.securityweek.com/alleged-scattered-spider-hacker-extradited-to-us/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 4
 - Corroborating source count: 4
 - Strong signals: Scattered Spider
 
 #### Cluster taxonomy (union across members)
-- actor_attribution: Scattered Spider
-- affected_industries: financial_services, government
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion
+- actor_attribution: Scattered Spider, UNC3944
+- affected_industries: aviation_defense, financial_services, government, retail_ecommerce
+- affected_products: Apple iOS/macOS, Microsoft SharePoint, Salesforce
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- actor_attribution: Scattered Spider
+- threat_categories: ransomware_extortion, phishing_social_eng, data_breach, active_exploitation
+- actor_attribution: Scattered Spider, UNC3944
+- affected_industries: financial_services, aviation_defense, retail_ecommerce
+- affected_products: Salesforce, Microsoft SharePoint, Apple iOS/macOS
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3622,6 +3456,12 @@ Huntress analyzed a credential dumping attack where threat actors disabled Defen
 
 ```
 Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the hacking group linked to more than 100 network intrusions and over $100 million in ransom payments. The post Alleged Scattered Spider Hacker Extradited to US appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A dual US-Estonian citizen was extradited to the US to face charges for his alleged involvement in the activities of the infamous hacking group Scattered Spider. The individual, Peter Stokes , 19, also known as ‘Bouquet’, was arrested in Finland in April while boarding a flight to Japan. He was indicted with counts of conspiracy, computer intrusion, and fraud. In May 2025, together with other co-conspirators, Stokes allegedly hacked a luxury jewelry retailer’s computer system, stole data from it, and demanded an $8 million ransom in cryptocurrency from the victim. While the retailer managed to evict the hackers from its network and no ransom was paid, the attack led to business disruption, which, together with the investigation and mitigation actions, caused at least $2 million in losses. Also tracked as 0ktapus, Muddled Libra, Octo Tempest, Starfraud, Scatter Swine, and UNC3944, Scattered Spider is believed to have hacked at least 100 organizations and to have received over $100 million in ransom payments from its victims. The group is known for its widespread 2025 Salesforce hacking campaign and for the 0ktapus campaign, which hit over 130 organizations in 2022. Advertisement. Scroll to continue reading. Over the past several years, authorities charged , arrested , and sentenced multiple alleged members of the hacking group. In April this year, UK national Tyler Robert Buchanan pleaded guilty in the US for his role in the Scattered Spider operations. In September last year, after making the headlines for high-profile attacks against the retail, insurance, and aviation industries, Scattered Spider announced its retirement . Related: Third DraftKings Hacker Sentenced to 18 Months in Prison Related: Admins of Bulletproof Hosting Service Used by Russian Hackers Arrested in Netherlands Related: Canadian Man Arrested for Operating Kimwolf Botnet Related: Karakurt Ransomware Negotiator Sentenced to Prison Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And What Has to Change) July 8, 2026 Join this live webinar as we break down why email-layer defenses alone can't keep pace with the modern phishing ecosystem, how agentic AI is changing the capacity equation for security teams, and more. Register Virtual Event: 2026 Cloud Security Summit July 16, 2026 This year's summit will help organizations learn how to utilize tools, controls, and design models needed to prope
 ```
 
 #### Corroborating sources (4)
@@ -3653,18 +3493,24 @@ Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the h
 - Source: SecurityWeek (cyber_news_breach_reporting)
 - Published: 2026-07-03T08:13:22+00:00
 - Link: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: apt_espionage
+- threat_categories: active_exploitation, apt_espionage, data_breach, ddos, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_products: Apple iOS/macOS, Microsoft SharePoint, WordPress
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
-- threat_categories: apt_espionage
+- threat_categories: ransomware_extortion, data_breach, ddos, apt_espionage, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_products: Microsoft SharePoint, Apple iOS/macOS, WordPress
+- urgency_signals: actively_exploited
 - content_type: news_report
 - confidence_tier: tier_4_news
 
@@ -3674,6 +3520,12 @@ Prosecutors say 19-year-old Peter Stokes was a member of Scattered Spider, the h
 NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared first on SecurityWeek .
 ```
 
+#### Full body
+
+```
+Google, the FBI, and other organizations coordinated in a joint effort to dismantle NetNut, a massive residential proxy network. Also known as Popa, NetNut is believed to consist of more than 2 million Android devices such as smart TVs and streaming boxes, that have been infected through trojanized applications and malware such as Badbox 2.0 . The network’s operator, linked to the publicly-traded Israeli firm Alarum Technologies Ltd, rented the residential proxies to various threat actors, including cybercriminal and espionage groups. In a single week in June, Google observed 316 distinct threat clusters using NetNut to hide their locations in password-spray attacks and to access victim environments. “We believe our coordinated actions have caused significant degradation to NetNut’s proxy network and its business operations, reducing the available pool of devices for the proxy operator by millions,” Google said . As part of the operation, the internet giant disabled Google accounts and associated services used for command-and-control (C&C), dismantling the botnet’s backend infrastructure. Advertisement. Scroll to continue reading. Additionally, it disabled the infected applications via Google Play Protect and automatically warned victims of the threat. Google also shared threat intelligence with industry partners and law enforcement. According to Google, NetNut is not only selling access to the residential proxy network under its own brand, but also operates a reseller program, allowing other popular brands to whitelabel the NetNut botnet. The NetNut takedown follows the January disruption of IPIDEA , and is expected to have a ripple effect across the ecosystem. “What we have observed is that when faced with the degradation of their own botnet, proxy operators begin buying capacity from their competitors, effectively becoming a reseller. We recognize that creating a lasting disruption in this fluid ecosystem means we must scale our efforts to target the infrastructure of several interconnected providers,” Google says. Related : Google Sues Operators of 10-Million-Device Badbox 2.0 Botnet Related: 15,000 WordPress Websites Cleaned Up in SocGholish Botnet Takedown Related: Dutch Police Dismantle Massive 17-Million-Device Botnet Related: GlassWorm Botnet Disrupted Related: Aisuru and Kimwolf DDoS Botnets Disrupted in International Operation Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure How to Conduct a Successful Audit of AI-Driven Software Development FortiBleed Campaign Linked to INC, Lynx Ransomware Attacks Trending Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing to stay informed on the latest threats, trends, and technology, along with insightful columns from industry experts. Webinar: Why Email Security Keeps Failing (And Wha
+```
+
 #### Corroborating sources (1)
 
 - **SecurityWeek** (cyber_news_breach_reporting)
@@ -3681,6 +3533,55 @@ NetNut rented access to millions of compromised devices, allowing cybercriminals
   - Published: 2026-07-03T08:13:22+00:00
   - Link: https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/
   - Summary: NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared first on SecurityWeek .
+
+### Cluster 6c76262a4a — score 8
+
+- Title: New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-02T15:04:22+00:00
+- Link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, ransomware_extortion
+- actor_attribution: Scattered Spider
+- affected_products: Apple iOS/macOS, Microsoft SharePoint
+- cve_ids: CVE-2026-8451
+- urgency_signals: actively_exploited, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, data_breach, active_exploitation
+- actor_attribution: Scattered Spider
+- affected_products: Microsoft SharePoint, Apple iOS/macOS
+- cve_ids: CVE-2026-8451
+- urgency_signals: actively_exploited, poc_available
+- content_type: vulnerability_disclosure
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+Threat actors began exploiting the latest CitrixBleed-like vulnerability in NetScaler ADC and NetScaler Gateways less than 24 hours after public disclosure, Scottish cybersecurity firm Lupovis reports. Tracked as CVE-2026-8451 (CVSS score of 8.8), the security defect was disclosed on June 30, when Citrix rolled out patches , and attack surface management company watchTowr published technical details on it. The bug is described as an out-of-bounds read issue affecting NetScaler appliances configured as SAML IDP and leading to memory disclosure. It was discovered in NetScaler’s XML parser, which did not terminate unquoted XML attribute values if they were followed by a newline character. Because of the flaw, the parser would read past the intended buffer, and NetScaler would return memory contents in the NSC_TASS cookie in an HTTP response. While it requires that the targeted NetScaler appliances be configured as SAML IDP, the successful exploitation of the vulnerability does not require authentication. Shortly after watchTowr shared details on the security hole and published a detection artefact generator, at least one threat actor started probing exposed NetScaler instances, Lupovis told SecurityWeek . Advertisement. Scroll to continue reading. Initial scanning activity originated from an IP hosted on infrastructure in Frankfurt, Germany, likely using a disposable or purpose-built scanning node. Multiple Lupovis sensors were targeted within a five-hour window, and a payload was immediately dropped on the sensor that responded with a 200 response. The payload included a “bare <samlp:AuthnRequest> tag padded with 476 spaces followed by a newline”, which matches the overread variant in watchTowr’s detection artefact generator. On Thursday, the cybersecurity firm observed a second threat actor probing for exposed NetScaler instances from a Koapu Cloud HK IP address. “Both have demonstrated the same behaviour, probing for the right endpoint, upon receiving a 200 OK with the right response, they have delivered the payload immediately,” Lupovis CEO Xavier Bellekens said. Organizations are advised to patch their NetScaler appliances immediately, or to disable SAML IDP if patching is not possible. They should also check logs for /saml/login traffic, inspect the request values, and check NSC_TASS cookie values to identify exploitation. Related: Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability Related: CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Related: Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Related: Exploitation of Recent Oracle E-Business Suite Vulnerability Begins Written By Ionut Arghire Ionut Arghire is an international correspondent for SecurityWeek. Daily Briefing Newsletter Subscribe to the SecurityWeek Email Briefing for the latest cybersecurity threats, trends, and expert insights. More from Ionut Arghire Cisco Confirms In-the-Wild Exploitation of Unified CM Vulnerability ‘BioShocking’ Attack Tricks AI Browsers Into Stealing Credentials CISA Warns of Actively Exploited Microsoft SharePoint Vulnerability Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities Citrix Patches NetScaler Vulnerabilities, Including New ‘HTTP/2 Bomb’ Attack Apple Patches Dozens of Vulnerabilities Across iOS, macOS, and Safari Dawnguard Raises $6.3 Million for Security Architecture Automation Platform Latest News In Other News: Canadian Hacker Jailed, Open Source Zero-Days, Two Sentenced for ATM Jackpotting Agentic AI Used to Conduct Ransomware Attack via Langflow Medtronic Data Breach Impacts 3.8 Million People Alleged Scattered Spider Hacker Extradited to US Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution How to Conduct a Successful Audit of AI-Driven Software Development Fo
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure
+  - Published: 2026-07-02T15:04:22+00:00
+  - Link: https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
+  - Summary: Hackers are targeting NetScaler appliances using public PoC code to retrieve arbitrary memory content in the HTTP response. The post New CitrixBleed Vulnerability Exploited Immediately After Public Disclosure appeared first on SecurityWeek .
 
 ### Cluster 179d9b0465 — score 8
 
