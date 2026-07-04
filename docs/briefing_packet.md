@@ -1,14 +1,14 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-04T04:40:38.579350+00:00
+- Generated: 2026-07-04T07:52:15.188614+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
 - Feeds OK: 77
 - Total items in window: 321
 - Total clusters raw: 144
-- Total clusters in packet: 61
-- Dropped low score: 83
+- Total clusters in packet: 60
+- Dropped low score: 84
 - Dropped overflow: 0
 
 ## Cohort metadata
@@ -80,16 +80,16 @@
   - Status: ok
   - Item count: 15
   - In window count: 2
-- **SentinelOne Labs** (threat_research_primary)
-  - URL: https://www.sentinelone.com/labs/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 1
 - **Microsoft Security Blog** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Microsoft Threat Intelligence** (threat_research_primary)
+  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
@@ -100,21 +100,16 @@
   - Status: ok
   - Item count: 25
   - In window count: 0
+- **SentinelOne Labs** (threat_research_primary)
+  - URL: https://www.sentinelone.com/labs/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 1
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
-- **Microsoft Threat Intelligence** (threat_research_primary)
-  - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Sekoia** (threat_research_primary)
   - URL: https://blog.sekoia.io/feed/
   - Status: parse_error
@@ -125,21 +120,26 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Check Point Research** (threat_research_primary)
-  - URL: https://research.checkpoint.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 3
-- **Kaspersky Securelist** (threat_research_primary)
-  - URL: https://securelist.com/feed/
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
-  - In window count: 6
+  - In window count: 0
 - **SANS Internet Storm Center** (government_authoritative)
   - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
   - In window count: 8
+- **Kaspersky Securelist** (threat_research_primary)
+  - URL: https://securelist.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Check Point Research** (threat_research_primary)
+  - URL: https://research.checkpoint.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 3
 - **Horizon3 Attack Research** (offensive_vulnerability_research)
   - URL: https://horizon3.ai/feed/
   - Status: ok
@@ -155,48 +155,48 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
 - **PortSwigger Research** (offensive_vulnerability_research)
   - URL: https://portswigger.net/research/rss
   - Status: ok
   - Item count: 40
-  - In window count: 0
-- **Assetnote** (offensive_vulnerability_research)
-  - URL: https://www.assetnote.io/resources/research/rss.xml
-  - Status: ok
-  - Item count: 78
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Assetnote** (offensive_vulnerability_research)
+  - URL: https://www.assetnote.io/resources/research/rss.xml
   - Status: ok
-  - Item count: 50
-  - In window count: 1
+  - Item count: 78
+  - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **Exploit-DB** (offensive_vulnerability_research)
   - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
   - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **The DFIR Report** (detection_response_operations)
-  - URL: https://thedfirreport.com/feed/
+- **TrustedSec** (detection_response_operations)
+  - URL: https://www.trustedsec.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **TrustedSec** (detection_response_operations)
-  - URL: https://www.trustedsec.com/feed/
+- **The DFIR Report** (detection_response_operations)
+  - URL: https://thedfirreport.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
@@ -235,21 +235,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Rapid7** (offensive_vulnerability_research)
-  - URL: https://www.rapid7.com/blog/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **AWS Security Blog** (cloud_identity_infrastructure)
   - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Trail of Bits** (offensive_vulnerability_research)
   - URL: https://blog.trailofbits.com/feed/
   - Status: ok
@@ -259,6 +249,16 @@
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
+  - In window count: 4
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Rapid7** (offensive_vulnerability_research)
+  - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
   - In window count: 4
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
@@ -285,21 +285,16 @@
   - Status: ok
   - Item count: 100
   - In window count: 6
-- **Coveware** (ransomware_ecrime_financial_crime)
-  - URL: https://www.coveware.com/blog?format=rss
-  - Status: parse_error
-  - Item count: 0
-  - In window count: 0
 - **Cloudflare Radar** (cloud_identity_infrastructure)
   - URL: https://blog.cloudflare.com/tag/cloudflare-radar/rss/
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Security** (cloud_identity_infrastructure)
-  - URL: https://cloudblog.withgoogle.com/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 20
+- **Coveware** (ransomware_ecrime_financial_crime)
+  - URL: https://www.coveware.com/blog?format=rss
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Google Cloud Threat Intelligence** (threat_research_primary)
   - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
   - Status: ok
@@ -310,6 +305,11 @@
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google Cloud Security** (cloud_identity_infrastructure)
+  - URL: https://cloudblog.withgoogle.com/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 20
 - **Interconnects** (ai_security_agentic_risk)
   - URL: https://www.interconnects.ai/feed
   - Status: ok
@@ -325,26 +325,26 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **GreyNoise** (cloud_identity_infrastructure)
-  - URL: https://www.greynoise.io/blog/rss.xml
+- **AI Snake Oil** (ai_security_agentic_risk)
+  - URL: https://www.aisnakeoil.com/feed
   - Status: ok
-  - Item count: 100
+  - Item count: 20
   - In window count: 0
 - **BleepingComputer** (cyber_news_breach_reporting)
   - URL: https://www.bleepingcomputer.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 15
+- **GreyNoise** (cloud_identity_infrastructure)
+  - URL: https://www.greynoise.io/blog/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 0
 - **Simon Willison** (ai_security_agentic_risk)
   - URL: https://simonwillison.net/atom/everything/
   - Status: ok
   - Item count: 30
   - In window count: 18
-- **AI Snake Oil** (ai_security_agentic_risk)
-  - URL: https://www.aisnakeoil.com/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 0
 - **SecurityWeek** (cyber_news_breach_reporting)
   - URL: https://www.securityweek.com/feed/
   - Status: ok
@@ -365,11 +365,6 @@
   - Status: ok
   - Item count: 50
   - In window count: 24
-- **Black Hills Information Security** (detection_response_operations)
-  - URL: https://www.blackhillsinfosec.com/feed/
-  - Status: ok
-  - Item count: 100
-  - In window count: 1
 - **Schneier on Security** (practitioner_analysis)
   - URL: https://www.schneier.com/feed/atom/
   - Status: ok
@@ -379,6 +374,11 @@
   - URL: https://krebsonsecurity.com/feed/
   - Status: ok
   - Item count: 10
+  - In window count: 1
+- **Black Hills Information Security** (detection_response_operations)
+  - URL: https://www.blackhillsinfosec.com/feed/
+  - Status: ok
+  - Item count: 100
   - In window count: 1
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
@@ -400,6 +400,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -410,13 +415,13 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/netsecstudents** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/netsecstudents/.rss
+- **Reddit r/AskNetsec** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Reddit r/AskNetsec** (reddit_practitioner_osint)
-  - URL: https://www.reddit.com/r/AskNetsec/.rss
+- **Reddit r/netsecstudents** (reddit_practitioner_osint)
+  - URL: https://www.reddit.com/r/netsecstudents/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
@@ -425,11 +430,6 @@
   - Status: ok
   - Item count: 100
   - In window count: 23
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **The Hacker News** (cyber_news_breach_reporting)
   - URL: https://feeds.feedburner.com/TheHackersNews
   - Status: ok
@@ -671,27 +671,6 @@
   - https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
   - https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
 
-### zero day targeting Gogs
-- Anchor signal: Gogs
-- Theme key: gogs
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Gogs
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: zero_day
-  - affected_industries: government
-  - affected_products: Gogs
-  - urgency_signals: zero_day
-- Cluster IDs: d52b9991a8, a56bf79002
-- Links:
-  - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
-  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
-  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-  - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
-
 ### ransomware extortion targeting Ivanti
 - Anchor signal: Ivanti
 - Theme key: ivanti
@@ -712,6 +691,27 @@
   - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
   - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
   - https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
+
+### zero day targeting Gogs
+- Anchor signal: Gogs
+- Theme key: gogs
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Gogs
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: zero_day
+  - affected_industries: government
+  - affected_products: Gogs
+  - urgency_signals: zero_day
+- Cluster IDs: d52b9991a8, a56bf79002
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
+  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
 
 ### npm vulnerability activity
 - Anchor signal: npm
@@ -2265,47 +2265,6 @@ AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack  Swati 
   - Link: https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html
   - Summary: Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always
 
-### Cluster cce9192f71 — score 10
-
-- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-- Source: SentinelOne Labs (threat_research_primary)
-- Published: 2026-07-02T13:00:02+00:00
-- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_products: OpenAI/ChatGPT
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
-```
-
-#### Full body
-
-```
-AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
-```
-
-#### Corroborating sources (1)
-
-- **SentinelOne Labs** (threat_research_primary)
-  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
-  - Published: 2026-07-02T13:00:02+00:00
-  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
-  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
-
 ### Cluster 1c995def22 — score 10
 
 - Title: Securing AI agents: When AI tools move from reading to acting
@@ -2349,54 +2308,46 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
   - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
 
-### Cluster f2b3bd6ba4 — score 10
+### Cluster cce9192f71 — score 10
 
-- Title: 22nd June – Threat Intelligence Report
-- Source: Check Point Research (threat_research_primary)
-- Published: 2026-07-01T11:29:38+00:00
-- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+- Source: SentinelOne Labs (threat_research_primary)
+- Published: 2026-07-02T13:00:02+00:00
+- Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
 - Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
-- urgency_signals: preauth_unauth, zero_day
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Primary article taxonomy
-- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
-- affected_products: Salesforce, Ubiquiti UniFi, WordPress
-- tools_used: Microsoft 365
-- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
-- urgency_signals: zero_day, preauth_unauth
+- affected_products: OpenAI/ChatGPT
 - content_type: news_report
 - confidence_tier: tier_1_primary_research
 
 #### Summary
 
 ```
-For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 ```
 
 #### Full body
 
 ```
-FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+AI Research Context Engineering | Compaction & Agent Memory for Automated Malware Analysis Gabriel Bernadett-Shapiro / July 2, 2026 Executive Summary Compaction is a context-management pattern used across agent systems to compress prior context into a denser working state for long-running tasks. SentinelLABS evaluated OpenAI’s native Responses API implementation against our automated malware analysis evaluation harness to measure real-world impact on task quality and cost. Compaction reduced input tokens by ~86% with no measurable change to the aggregate evaluation score. Our analysis found that compaction can significantly reduce the cost and noise of long-running security workflows without sacrificing task quality. OpenAI introduced native compaction in a March 2026 engineering post describing extensions to the Responses API. However, the underlying idea is not unique to OpenAI. Anthropic, Google, and other agent frameworks such as LangChain all expose or document related approaches under different names. The core problem these systems address is familiar to anyone who has built an agentic system: context accumulates faster than it stays relevant, and eventually the model is carrying more history than signal. At that point, task quality degrades and costs climb without a corresponding improvement in output. OpenAI’s solution was to build compaction directly into the runtime so developers would not need to build custom summarization and state-carrying systems themselves. The company noted that compaction is the mechanism Codex relies on for long-running coding tasks, which positions it as load-bearing infrastructure rather than a convenience feature. At SentinelLABS, we set out to evaluate how well OpenAI’s compaction would work for automated binary analysis, a domain with its own particular demands on agent memory and state management. Why Malware Analysis Is a Hard Problem for Agents Our evaluation harness gives a model access to a decompiler and asks it to complete the following: Identify important functions and follow code paths Interpret strings, APIs, call relationships, and data structures Rename functions or variables based on observed behavior Propose types or object models and explain what the malware is doing We compare the model’s output against golden reference analysis and written reports across scoring metrics for correctness and completeness. To achieve a high score, the model needs to maintain a working theory for the slice of the binary it is analyzing, track evidence already collected, and hold open questions alongside provisional conclusions. Malware analysis is an iterative process with a low-reward signal. A human analyst might inspect one function, learn something, pivot to another function, revise their theory, check a data structure, then return to update their original conclusion. Models do well in our evaluation where execution paths have straightforward continuity. They struggle when connections are unclear or require multiple rounds of investigation. In observing model performance, we noticed that the agent tended to carry an increasing volume of tokens between tasks. The pattern is familiar to anyone who has run a ReAct-style agent on a non-trivial problem. Each turn adds more context until the model is dragging the full history of the run behind it, most of which stopped being useful several steps ago. A human analyst working the same problem does not keep every raw observation equally active. They compress state between sessions. They remember that a function is probably the command dispatcher, that a particular object looks like transport state, that a given path was a dead end. They also write findings in a notebook, externalizing what they want to persist so they do not have to hold it all in working memory. That distinction between working memory and durable memory is where compaction becomes architecturally useful. How We Applied Compaction Our system uses compaction to carry forward the w
 ```
 
 #### Corroborating sources (1)
 
-- **Check Point Research** (threat_research_primary)
-  - Title: 22nd June – Threat Intelligence Report
-  - Published: 2026-07-01T11:29:38+00:00
-  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
-  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+- **SentinelOne Labs** (threat_research_primary)
+  - Title: Context Engineering | Compaction & Agent Memory for Automated Malware Analysis
+  - Published: 2026-07-02T13:00:02+00:00
+  - Link: https://www.sentinelone.com/labs/context-engineering-compaction-agent-memory-for-automated-malware-analysis/
+  - Summary: Compaction cut input tokens 86% across long-running agent evals with no quality loss. Context discipline matters as much as model selection.
 
 ### Cluster 5fe3559a01 — score 10
 
@@ -2566,6 +2517,55 @@ Table of Contents Introduction Technical details Initial infection vector Reconn
   - Link: https://securelist.com/the-gentlemen-raas/120447/
   - Summary: Kaspersky researchers analyze incidents related to The Gentlemen RaaS group, disclose their tools and TTPs, and find a new ransomware variant.
 
+### Cluster f2b3bd6ba4 — score 10
+
+- Title: 22nd June – Threat Intelligence Report
+- Source: Check Point Research (threat_research_primary)
+- Published: 2026-07-01T11:29:38+00:00
+- Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, data_breach, phishing_social_eng, ransomware_extortion, supply_chain, zero_day
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-34908, CVE-2026-34909, CVE-2026-41947, CVE-2026-41948
+- urgency_signals: preauth_unauth, zero_day
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, supply_chain, phishing_social_eng, zero_day, data_breach, active_exploitation
+- affected_products: Salesforce, Ubiquiti UniFi, WordPress
+- tools_used: Microsoft 365
+- cve_ids: CVE-2026-20245, CVE-2026-41947, CVE-2026-41948, CVE-2026-34908, CVE-2026-34909
+- urgency_signals: zero_day, preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+```
+
+#### Full body
+
+```
+FILTER BY YEAR 2026 2025 2024 2023 2022 2021 2020 2019 2018 2017 2016 22nd June – Threat Intelligence Report July 1, 2026 https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/ For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for 3,087,721 hunting and fishing license customers. Social Security numbers and payment data were not affected. ShapedPlugin, a WordPress plugin vendor, has faced a supply chain attack that delivered malicious updates for three paid plugins through its official updater. The malware installed a hidden fake WooCommerce plugin to steal admin, database, and 2FA credentials and modify affected websites. Incident analysis tied the compromise to vendor release infrastructure. iRhythm Technologies, a US digital health company focused on remote cardiac monitoring, has experienced a cyberattack involving third-party-hosted business applications. The company confirmed that attackers stole protected health information, proprietary data, and other personal data through a social engineering attack. Clinical systems were not affected. Market intelligence platform Klue has confirmed a breach after attackers used compromised legacy integration credentials to steal OAuth tokens connected to customer Salesforce environments. The tokens enabled theft of sales and customer data from several clients, including Huntress, Recorded Future, Tanium, and Jamf. The Icarus extortion group claimed responsibility. AI THREATS Researchers have detailed EvilTokens, an AI-powered phishing-as-a-service operation abusing device-code authentication to steal Microsoft 365 tokens. Huntress observed a 1,380% surge in device-code phishing in early 2026, with AI-generated lures and automated workflows lowering attacker effort. Researchers have crafted a fake AI skill that hijacked more than 26,000 AI agents by abusing trusted marketplaces and Instagram ads in a supply chain attack. The package initially appeared clean, then used attacker-controlled external instructions after approval to trigger data exfiltration across agent platforms. LayerX researchers have demonstrated BioShocking AI, a technique that tricks agentic browsers into bypassing their guardrails. Test cases against ChatGPT Atlas, Perplexity Comet, Claude in Chrome, and other AI browsers showed how game-like prompts could expose credentials and user data. VULNERABILITIES AND PATCHES Cisco has addressed CVE-2026-20245, a high-severity command injection flaw in Catalyst SD-WAN Manager that attackers exploited as a zero-day for months. The flaw allows an administrator to run root commands through a crafted file, affecting on-premises and Cisco-managed cloud deployments. Dify has released version 1.14.2 to fix four vulnerabilities in its open-source AI platform, including critical CVE-2026-41947 and CVE-2026-41948. The flaws could allow unauthenticated access and cross-tenant data exposure, including chat content and uploaded files. Ubiquiti UniFi OS is affected by three flaws, CVE-2026-34908, CVE-2026-34909, and CVE-2026-34910, which are reportedly being exploited against network appliances. The vulnerabilities allow unauthorized changes, file access, and command execution, with exploitation observed in Mirai botnet activity. Check Point IPS provides protection against these threats (Ubiquiti UniFi OS Privilege Escalation (CVE-2026-34908), Ubiquiti UniFi OS Directory Traversal (CVE-2026-34909), Ubiquiti UniFi OS Command Injection (CVE-2026-34910)) Langflow, an open-source AI workflow tool, is reportedly being targeted through exploitation of CVE-2026-55255, alongside ongoing mass exploitation of CVE-2026-33017. Attackers enumerated flow
+```
+
+#### Corroborating sources (1)
+
+- **Check Point Research** (threat_research_primary)
+  - Title: 22nd June – Threat Intelligence Report
+  - Published: 2026-07-01T11:29:38+00:00
+  - Link: https://research.checkpoint.com/2026/22nd-june-threat-intelligence-report/
+  - Summary: For the latest discoveries in cyber research for the week of 22nd June, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Texas Parks and Wildlife Department has been affected by a third-party data breach involving its license system vendor. The incident exposed driver’s license information, passport numbers, emails, phone numbers, and residential addresses for […] The post 22nd June – Threat Intelligence Report appeared first on Check Point Research .
+
 ### Cluster 6a3df7e65b — score 10
 
 - Title: CTEM Isn’t Failing. It’s Not Being Operationalized.
@@ -2648,45 +2648,6 @@ Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Ins
   - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
   - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
-### Cluster fbb9c91ae0 — score 10
-
-- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-- Source: Rapid7 (offensive_vulnerability_research)
-- Published: 2026-07-01T15:26:27+00:00
-- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Primary article taxonomy
-- content_type: news_report
-- confidence_tier: tier_1_offensive_research
-
-#### Summary
-
-```
-AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-```
-
-#### Full body
-
-```
-Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
-```
-
-#### Corroborating sources (1)
-
-- **Rapid7** (offensive_vulnerability_research)
-  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
-  - Published: 2026-07-01T15:26:27+00:00
-  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
-  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
-
 ### Cluster 84ad484b78 — score 10
 
 - Title: Shipping post-quantum cryptography to Python
@@ -2727,6 +2688,45 @@ Page content Post-quantum cryptography is now one pip-install away for the entir
   - Published: 2026-06-30T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
   - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
+
+### Cluster fbb9c91ae0 — score 10
+
+- Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-01T15:26:27+00:00
+- Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
+```
+
+#### Full body
+
+```
+Back to Blog Artificial Intelligence 5 Myths About AI in the SOC Security Teams Need to Rethink Emma Burdett Jul 1, 2026 | Last updated on Jul 1, 2026 | 3 min read WATCH THE SESSION ON-DEMAND AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of the analyst is evolving, but it is not disappearing. Myth 2: More automation means better security outcomes Automation is valuable when it is applied in the right places. In practice, teams are finding the most benefit in areas such as enrichment, summarization, and triage, where large volumes of data need to be processed quickly. High-impact actions such as containment or configuration changes still require oversight, particularly when they can affect production systems or business operations. Myth 3: Speed is more important than transparency As adoption increases, trust becomes more important and analysts need to understand how a conclusion was reached before they act on it, especially in high-pressure situations. The session highlights how explainability builds confidence over time, allowing teams to rely on AI outputs without losing control of the decision-making process. Myth 4: AI is only about efficiency gains Efficiency is part of the story, but the impact runs deeper. AI helps connect signals across fragmented environments, reduces cognitive load, and supports more consistent decision-making. It also changes how teams approach investigation by making it easier to surface patterns and identify relationships that would be difficult to see manually. Myth 5: Attackers benefit more from AI than defenders Both attackers and defenders are learning how to use AI, and both are moving quickly. What matters for security teams is how they apply it within their own workflows. The session explores how AI strengthens detection, investigation, and response when it is integrated into existing processes rather than treated as a standalone capability. Where AI creates real value in the SOC Across the discussion, a clear pattern emerges. AI delivers the most value when it is applied to high-volume, context-heavy tasks, where it can process data, highlight signals, and recommend next steps. Analysts remain central to interpreting those signals, understanding intent, and deciding how to respond. This balance between automation and oversight is what allows teams to scale their operations without losing confidence in their decisions. It also reflects how AI is being adopted across the industry, with most organizations maintaining moderate to high levels of human involvement as they build trust in these systems. For SOC leaders, practitioners, and teams exploring AI, the session offers a grounded view of how these technologies are being applied today, and how that approach is continuing to evolve. Watch the full session to explore how transparent AI supports better decisions in the SOC and how teams are applying it in practice. Article Tags Events Emma Burdett Author Posts
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
+  - Published: 2026-07-01T15:26:27+00:00
+  - Link: https://www.rapid7.com/blog/post/ai-rethinking-5-soc-myths
+  - Summary: AI is now part of almost every conversation in security operations. Most teams are already investing in it, experimenting with it, or trying to understand where it fits. The challenge is not whether to adopt AI, but how to apply it in a way that actually improves outcomes. At the Rapid7 Global Cybersecurity Summit, the session The AI Dilemma: Automating Defense Without Surrendering Judgment explores how AI is being used in the SOC today, and where it creates real value in practice. The discussion centers on a set of assumptions that often shape how teams approach AI, and why those assumptions do not always hold up in real environments. Myth 1: AI will replace analysts Across the session, there is a consistent focus on how AI supports investigation workflows by reducing repetitive work and surfacing relevant context, allowing analysts to focus on decisions that require judgment. AI helps teams move faster, but responsibility and accountability still sit with people. TL;DR, the role of t
 
 ### Cluster 0148b0b7f4 — score 10
 
@@ -3532,69 +3532,28 @@ Infosecurity Magazine Home » News » Russian Hackers Accused of Destructive Cyb
   - Link: https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/
   - Summary: Experts warn the Jaguar Land Rover breach bears hallmarks of Kremlin-backed hackers, citing novel ransomware, strategic timing and efforts to obscure attribution
 
-### Cluster 282924fa4d — score 8
-
-- Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-03T19:40:01+00:00
-- Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: CVE-2026-46242, Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor, zero_day
-- affected_products: Anthropic/Claude, Linux kernel
-- cve_ids: CVE-2026-31431, CVE-2026-31694, CVE-2026-43074, CVE-2026-46242
-- urgency_signals: zero_day
-- content_type: intel_roundup, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: Linux kernel, Anthropic/Claude
-- cve_ids: CVE-2026-46242, CVE-2026-43074, CVE-2026-31431, CVE-2026-31694
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
-```
-
-#### Full body
-
-```
-New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android  Swati Khandelwal  Jul 03, 2026 Linux / Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos , recently found a different bug. The AI caught one flaw and missed this one. A researcher, Jaeyoung Chung, found it and built a working attack. How the Bug Works Epoll is a standard Linux feature that lets a program watch many files or network connections at once. Servers, network services, and web browsers all lean on it. You cannot simply switch it off. Bad Epoll is a "use-after-free" bug. Two parts of the kernel try to clean up the same internal object at the same time. One frees the memory while the other is still writing into it. That brief collision lets an attacker corrupt kernel memory, then climb from a normal account up to root. The catch is timing. The window where the two paths collide is only about six machine instructions wide, so a random attempt almost never lands in it. Chung's exploit widens that window and retries without crashing, reaching root about 99% of the time on tested systems. Two things make it more dangerous: by his account, it can be triggered from inside Chrome's renderer sandbox, which blocks almost every other kernel bug, and it can reach Android, which most Linux privilege bugs cannot. Chung submitted the flaw as a zero-day to Google's kernelCTF program, and full technical details are in his public writeup . There is no sign it has been used in real attacks: as of this writing, it is not on CISA's Known Exploited Vulnerabilities list, and the only working code is that kernelCTF proof of concept. An Android version of the exploit is still in progress. Both bugs trace back to a single 2023 change to the epoll code. Chung says Mythos found the first of the two, now tracked as CVE-2026-43074, with a fix landing earlier in 2026. Anthropic has separately said Mythos found Linux kernel privilege-escalation bugs , though it has not publicly linked that work to Bad Epoll. Finding the first one was a real result, because race-condition bugs are notoriously hard to spot. So why did the same AI miss the sibling flaw? Chung offers two likely reasons and is careful to say no one can be sure. First, the timing window is tiny, so the exact sequence of events is hard to picture even while staring at the code. Second, there is little evidence at runtime. Once the first bug is patched, Bad Epoll's memory error usually does not trip KASAN, the kernel's main bug detector, so nothing flags that something is wrong. Epoll cannot be turned off, so there is no workaround. Apply upstream commit a6dc643c6931 , or install your distribution's backport when it lands. Kernels built on 6.4 or newer are affected unless they already have the fix. Older 6.1-based kernels, including some Android phones such as the Pixel 8, are not, because the bug arrived in 6.4. A Bad Year for the Linux Kernel Bad Epoll joins a well-known family of kernel bugs used to root Android, following earlier entries called Bad Binder , Bad IO_uring , and Bad Spin. It also lands in a busy stretch for Linux privilege flaws, though most of the recent ones work differently. Copy Fail (CVE-2026-31431) landed in April and is now on CISA's Known Exploited Vulnerabilities list. The Dirty Frag chain , Fragnesia , DirtyClone , pedit COW came after it. Both are deterministic page-cache-write bugs, like Dirty Pipe (2022), with no race to win, which makes them far more reliable to run. Bad Epoll is the older, harder kind: a race you have to win, like Dirty Cow (2016). A public proof-of-concept has also appeared for CVE-2026-31694 , a separate flaw in the kernel's FUSE filesystem code, found by the AI-driven researc
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
-  - Published: 2026-07-03T19:40:01+00:00
-  - Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-  - Summary: A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
-
 ### Cluster ae77ed43fa — score 8
 
 - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
 - Source: The Hacker News (cyber_news_breach_reporting)
 - Published: 2026-06-30T17:46:07+00:00
 - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Fetch status: not_attempted
+- Fetch status: ok
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3602,6 +3561,12 @@ New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Androi
 
 ```
 New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Full body
+
+```
+Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
 ```
 
 #### Corroborating sources (1)
