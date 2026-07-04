@@ -1,13 +1,13 @@
 # PHANTOMSignal Briefing Packet
 
-- Generated: 2026-07-03T22:10:22.783501+00:00
+- Generated: 2026-07-04T00:12:06.750014+00:00
 - Lookback hours: 168
 - Lookback human: 7 days
 - Total feeds: 80
-- Feeds OK: 76
+- Feeds OK: 77
 - Total items in window: 320
-- Total clusters raw: 143
-- Total clusters in packet: 60
+- Total clusters raw: 144
+- Total clusters in packet: 61
 - Dropped low score: 83
 - Dropped overflow: 0
 
@@ -70,6 +70,11 @@
 
 ## Feed status
 
+- **Unit 42** (threat_research_primary)
+  - URL: https://unit42.paloaltonetworks.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **CrowdStrike** (threat_research_primary)
   - URL: https://www.crowdstrike.com/blog/feed/
   - Status: ok
@@ -80,20 +85,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Unit 42** (threat_research_primary)
-  - URL: https://unit42.paloaltonetworks.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 2
 - **Google Threat Analysis Group** (threat_research_primary)
   - URL: https://blog.google/threat-analysis-group/rss/
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Sekoia** (threat_research_primary)
-  - URL: https://blog.sekoia.io/feed/
-  - Status: parse_error
-  - Item count: 0
+- **Trend Micro Research** (threat_research_primary)
+  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
+  - Status: ok
+  - Item count: 25
   - In window count: 0
 - **Cisco Talos** (threat_research_primary)
   - URL: https://feeds.feedburner.com/feedburner/Talos
@@ -105,8 +105,23 @@
   - Status: ok
   - Item count: 10
   - In window count: 6
+- **Sekoia** (threat_research_primary)
+  - URL: https://blog.sekoia.io/feed/
+  - Status: parse_error
+  - Item count: 0
+  - In window count: 0
 - **Microsoft Threat Intelligence** (threat_research_primary)
   - URL: https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
+- **Recorded Future** (threat_research_primary)
+  - URL: https://www.recordedfuture.com/feed
+  - Status: ok
+  - Item count: 50
+  - In window count: 1
+- **Citizen Lab** (threat_research_primary)
+  - URL: https://citizenlab.ca/feed/
   - Status: ok
   - Item count: 10
   - In window count: 0
@@ -115,31 +130,21 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Citizen Lab** (threat_research_primary)
-  - URL: https://citizenlab.ca/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Check Point Research** (threat_research_primary)
   - URL: https://research.checkpoint.com/feed/
   - Status: ok
   - Item count: 15
   - In window count: 3
-- **SANS Internet Storm Center** (government_authoritative)
-  - URL: https://isc.sans.edu/rssfeed_full.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 8
 - **Kaspersky Securelist** (threat_research_primary)
   - URL: https://securelist.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 6
-- **Volexity** (threat_research_primary)
-  - URL: https://www.volexity.com/feed/
+- **SANS Internet Storm Center** (government_authoritative)
+  - URL: https://isc.sans.edu/rssfeed_full.xml
   - Status: ok
   - Item count: 10
-  - In window count: 0
+  - In window count: 8
 - **ESET WeLiveSecurity** (threat_research_primary)
   - URL: https://www.welivesecurity.com/en/rss/feed/
   - Status: ok
@@ -150,20 +155,15 @@
   - Status: ok
   - Item count: 10
   - In window count: 3
-- **GitHub Security Lab** (offensive_vulnerability_research)
-  - URL: https://github.blog/category/security/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 3
-- **Recorded Future** (threat_research_primary)
-  - URL: https://www.recordedfuture.com/feed
+- **Exploit-DB** (offensive_vulnerability_research)
+  - URL: https://www.exploit-db.com/rss.xml
   - Status: ok
   - Item count: 50
-  - In window count: 1
-- **PortSwigger Research** (offensive_vulnerability_research)
-  - URL: https://portswigger.net/research/rss
+  - In window count: 0
+- **Volexity** (threat_research_primary)
+  - URL: https://www.volexity.com/feed/
   - Status: ok
-  - Item count: 40
+  - Item count: 10
   - In window count: 0
 - **Red Canary** (detection_response_operations)
   - URL: https://redcanary.com/feed/
@@ -175,11 +175,16 @@
   - Status: ok
   - Item count: 78
   - In window count: 0
-- **Exploit-DB** (offensive_vulnerability_research)
-  - URL: https://www.exploit-db.com/rss.xml
+- **PortSwigger Research** (offensive_vulnerability_research)
+  - URL: https://portswigger.net/research/rss
   - Status: ok
-  - Item count: 50
+  - Item count: 40
   - In window count: 0
+- **GitHub Security Lab** (offensive_vulnerability_research)
+  - URL: https://github.blog/category/security/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 3
 - **watchTowr Labs** (offensive_vulnerability_research)
   - URL: https://labs.watchtowr.com/rss/
   - Status: ok
@@ -195,16 +200,16 @@
   - Status: ok
   - Item count: 10
   - In window count: 1
-- **Active Countermeasures** (detection_response_operations)
-  - URL: https://www.activecountermeasures.com/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Proofpoint Threat Insight** (detection_response_operations)
   - URL: https://www.proofpoint.com/us/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 2
+- **Active Countermeasures** (detection_response_operations)
+  - URL: https://www.activecountermeasures.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Sophos X-Ops** (detection_response_operations)
   - URL: https://news.sophos.com/en-us/category/threat-research/feed/
   - Status: ok
@@ -220,13 +225,18 @@
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Trend Micro Research** (threat_research_primary)
-  - URL: https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787
-  - Status: fetch_error
-  - Item count: 0
-  - In window count: 0
 - **Rapid7** (offensive_vulnerability_research)
   - URL: https://www.rapid7.com/blog/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
+- **Datadog Security Labs** (cloud_identity_infrastructure)
+  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
+  - Status: ok
+  - Item count: 30
+  - In window count: 1
+- **AWS Security Blog** (cloud_identity_infrastructure)
+  - URL: https://aws.amazon.com/blogs/security/feed/
   - Status: ok
   - Item count: 20
   - In window count: 3
@@ -235,46 +245,41 @@
   - Status: ok
   - Item count: 20
   - In window count: 2
-- **Orca Security Research** (cloud_identity_infrastructure)
-  - URL: https://orca.security/resources/blog/feed/
-  - Status: ok
-  - Item count: 10
-  - In window count: 10
-- **Datadog Security Labs** (cloud_identity_infrastructure)
-  - URL: https://securitylabs.datadoghq.com/rss/feed.xml
-  - Status: ok
-  - Item count: 30
-  - In window count: 1
-- **Permiso Security** (cloud_identity_infrastructure)
-  - URL: https://permiso.io/blog/rss.xml
-  - Status: ok
-  - Item count: 10
-  - In window count: 0
 - **Huntress** (detection_response_operations)
   - URL: https://www.huntress.com/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 4
-- **AWS Security Blog** (cloud_identity_infrastructure)
-  - URL: https://aws.amazon.com/blogs/security/feed/
+- **Orca Security Research** (cloud_identity_infrastructure)
+  - URL: https://orca.security/resources/blog/feed/
   - Status: ok
-  - Item count: 20
-  - In window count: 3
+  - Item count: 10
+  - In window count: 10
+- **Permiso Security** (cloud_identity_infrastructure)
+  - URL: https://permiso.io/blog/rss.xml
+  - Status: ok
+  - Item count: 10
+  - In window count: 0
 - **Protect AI** (ai_security_agentic_risk)
   - URL: https://protectai.com/blog/rss.xml
   - Status: ok
   - Item count: 10
   - In window count: 0
-- **Cloudflare Security** (cloud_identity_infrastructure)
-  - URL: https://blog.cloudflare.com/tag/security/rss/
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Sysdig** (detection_response_operations)
   - URL: https://sysdig.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Cloudflare Security** (cloud_identity_infrastructure)
+  - URL: https://blog.cloudflare.com/tag/security/rss/
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
+- **Wiz Research** (cloud_identity_infrastructure)
+  - URL: https://www.wiz.io/feed/rss.xml
+  - Status: ok
+  - Item count: 100
+  - In window count: 6
 - **Google DeepMind Blog** (ai_security_agentic_risk)
   - URL: https://deepmind.google/blog/rss.xml
   - Status: ok
@@ -285,36 +290,36 @@
   - Status: ok
   - Item count: 20
   - In window count: 1
-- **Google Cloud Threat Intelligence** (threat_research_primary)
-  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
-  - Status: ok
-  - Item count: 20
-  - In window count: 2
-- **Wiz Research** (cloud_identity_infrastructure)
-  - URL: https://www.wiz.io/feed/rss.xml
-  - Status: ok
-  - Item count: 100
-  - In window count: 6
 - **Coveware** (ransomware_ecrime_financial_crime)
   - URL: https://www.coveware.com/blog?format=rss
   - Status: parse_error
   - Item count: 0
   - In window count: 0
-- **Interconnects** (ai_security_agentic_risk)
-  - URL: https://www.interconnects.ai/feed
-  - Status: ok
-  - Item count: 20
-  - In window count: 1
 - **Chainalysis** (ransomware_ecrime_financial_crime)
   - URL: https://www.chainalysis.com/blog/feed/
   - Status: ok
   - Item count: 10
   - In window count: 4
+- **Google Cloud Threat Intelligence** (threat_research_primary)
+  - URL: https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v
+  - Status: ok
+  - Item count: 20
+  - In window count: 2
+- **Interconnects** (ai_security_agentic_risk)
+  - URL: https://www.interconnects.ai/feed
+  - Status: ok
+  - Item count: 20
+  - In window count: 1
 - **OpenSSF Blog** (ai_security_agentic_risk)
   - URL: https://openssf.org/feed/
   - Status: ok
   - Item count: 10
   - In window count: 1
+- **BleepingComputer** (cyber_news_breach_reporting)
+  - URL: https://www.bleepingcomputer.com/feed/
+  - Status: ok
+  - Item count: 15
+  - In window count: 15
 - **Google Cloud Security** (cloud_identity_infrastructure)
   - URL: https://cloudblog.withgoogle.com/rss/
   - Status: ok
@@ -325,21 +330,16 @@
   - Status: ok
   - Item count: 5
   - In window count: 5
-- **BleepingComputer** (cyber_news_breach_reporting)
-  - URL: https://www.bleepingcomputer.com/feed/
-  - Status: ok
-  - Item count: 15
-  - In window count: 15
 - **GreyNoise** (cloud_identity_infrastructure)
   - URL: https://www.greynoise.io/blog/rss.xml
   - Status: ok
   - Item count: 100
   - In window count: 0
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - URL: https://www.securityweek.com/feed/
+- **Simon Willison** (ai_security_agentic_risk)
+  - URL: https://simonwillison.net/atom/everything/
   - Status: ok
-  - Item count: 10
-  - In window count: 10
+  - Item count: 30
+  - In window count: 18
 - **AI Snake Oil** (ai_security_agentic_risk)
   - URL: https://www.aisnakeoil.com/feed
   - Status: ok
@@ -350,56 +350,61 @@
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Simon Willison** (ai_security_agentic_risk)
-  - URL: https://simonwillison.net/atom/everything/
-  - Status: ok
-  - Item count: 30
-  - In window count: 19
-- **Dark Reading** (cyber_news_breach_reporting)
-  - URL: https://www.darkreading.com/rss.xml
-  - Status: ok
-  - Item count: 50
-  - In window count: 24
-- **Help Net Security** (cyber_news_breach_reporting)
-  - URL: https://www.helpnetsecurity.com/feed/
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - URL: https://www.securityweek.com/feed/
   - Status: ok
   - Item count: 10
   - In window count: 10
-- **Schneier on Security** (practitioner_analysis)
-  - URL: https://www.schneier.com/feed/atom/
-  - Status: ok
-  - Item count: 10
-  - In window count: 6
 - **Black Hills Information Security** (detection_response_operations)
   - URL: https://www.blackhillsinfosec.com/feed/
   - Status: ok
   - Item count: 100
   - In window count: 1
+- **Help Net Security** (cyber_news_breach_reporting)
+  - URL: https://www.helpnetsecurity.com/feed/
+  - Status: ok
+  - Item count: 10
+  - In window count: 10
+- **Dark Reading** (cyber_news_breach_reporting)
+  - URL: https://www.darkreading.com/rss.xml
+  - Status: ok
+  - Item count: 50
+  - In window count: 24
+- **Schneier on Security** (practitioner_analysis)
+  - URL: https://www.schneier.com/feed/atom/
+  - Status: ok
+  - Item count: 10
+  - In window count: 6
+- **Troy Hunt** (practitioner_analysis)
+  - URL: https://www.troyhunt.com/rss/
+  - Status: ok
+  - Item count: 15
+  - In window count: 2
 - **Team Cymru** (ransomware_ecrime_financial_crime)
   - URL: https://www.team-cymru.com/post/rss.xml
   - Status: ok
   - Item count: 100
-  - In window count: 1
-- **Krebs on Security** (practitioner_analysis)
-  - URL: https://krebsonsecurity.com/feed/
-  - Status: ok
-  - Item count: 10
   - In window count: 1
 - **Reddit r/cybersecurity** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/cybersecurity/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Troy Hunt** (practitioner_analysis)
-  - URL: https://www.troyhunt.com/rss/
+- **Krebs on Security** (practitioner_analysis)
+  - URL: https://krebsonsecurity.com/feed/
   - Status: ok
-  - Item count: 15
-  - In window count: 2
+  - Item count: 10
+  - In window count: 1
 - **Reddit r/blueteamsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/blueteamsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
+- **Graham Cluley** (practitioner_analysis)
+  - URL: https://grahamcluley.com/feed/
+  - Status: ok
+  - Item count: 20
+  - In window count: 4
 - **Reddit r/sysadmin** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/sysadmin/.rss
   - Status: ok
@@ -415,21 +420,11 @@
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Graham Cluley** (practitioner_analysis)
-  - URL: https://grahamcluley.com/feed/
-  - Status: ok
-  - Item count: 20
-  - In window count: 4
 - **Reddit r/AskNetsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/AskNetsec/.rss
   - Status: ok
   - Item count: 0
   - In window count: 0
-- **Infosecurity Magazine** (cyber_news_breach_reporting)
-  - URL: https://www.infosecurity-magazine.com/rss/news/
-  - Status: ok
-  - Item count: 100
-  - In window count: 23
 - **Intel 471** (ransomware_ecrime_financial_crime)
   - URL: https://intel471.com/blog/feed
   - Status: ok
@@ -440,6 +435,11 @@
   - Status: ok
   - Item count: 50
   - In window count: 50
+- **Infosecurity Magazine** (cyber_news_breach_reporting)
+  - URL: https://www.infosecurity-magazine.com/rss/news/
+  - Status: ok
+  - Item count: 100
+  - In window count: 23
 - **Reddit r/netsec** (reddit_practitioner_osint)
   - URL: https://www.reddit.com/r/netsec/.rss
   - Status: ok
@@ -502,18 +502,19 @@
 ### Scattered Spider targeting Apple iOS/macOS
 - Anchor signal: Scattered Spider
 - Theme key: scattered-spider
-- Cluster count: 7
-- Article count: 7
-- Cohesion: 0.332
+- Cluster count: 6
+- Article count: 6
+- Cohesion: 0.333
 - Shared strong signals: Scattered Spider
 - Member CVEs: (none)
 - Also targets: Microsoft SharePoint
 - Dominant features:
-  - threat_categories: ransomware_extortion, data_breach, phishing_social_eng, active_exploitation
-  - actor_attribution: Scattered Spider
+  - threat_categories: ransomware_extortion, data_breach, phishing_social_eng, active_exploitation, zero_day
+  - actor_attribution: Scattered Spider, ShinyHunters
+  - affected_industries: financial_services, healthcare
   - affected_products: Apple iOS/macOS, Microsoft SharePoint
-  - urgency_signals: actively_exploited
-- Cluster IDs: d52b9991a8, 57ef1249ed, 7dc61d54d0, 163e996fe8, 6c76262a4a, 31e5b2aa9f, af46e29c96
+  - urgency_signals: actively_exploited, zero_day
+- Cluster IDs: d52b9991a8, 57ef1249ed, 7dc61d54d0, 163e996fe8, 6c76262a4a, 31e5b2aa9f
 - Links:
   - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
   - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
@@ -524,7 +525,6 @@
   - https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/
   - https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/
   - https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/
-  - https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/
 
 ### ShinyHunters: ransomware extortion
 - Anchor signal: ShinyHunters
@@ -671,27 +671,6 @@
   - https://www.huntress.com/blog/hacker-tactics-2026-dark-web-playbook
   - https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/
 
-### ransomware extortion targeting Ivanti
-- Anchor signal: Ivanti
-- Theme key: ivanti
-- Cluster count: 2
-- Article count: 4
-- Cohesion: 0.2
-- Shared strong signals: Ivanti
-- Member CVEs: (none)
-- Also targets: (none)
-- Dominant features:
-  - threat_categories: ransomware_extortion, zero_day
-  - affected_industries: government
-  - affected_products: Ivanti
-  - urgency_signals: zero_day
-- Cluster IDs: d52b9991a8, 083a4a03d5
-- Links:
-  - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
-  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
-  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
-  - https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
-
 ### zero day targeting Gogs
 - Anchor signal: Gogs
 - Theme key: gogs
@@ -712,6 +691,27 @@
   - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
   - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
   - https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/
+
+### ransomware extortion targeting Ivanti
+- Anchor signal: Ivanti
+- Theme key: ivanti
+- Cluster count: 2
+- Article count: 4
+- Cohesion: 0.2
+- Shared strong signals: Ivanti
+- Member CVEs: (none)
+- Also targets: (none)
+- Dominant features:
+  - threat_categories: ransomware_extortion, zero_day
+  - affected_industries: government
+  - affected_products: Ivanti
+  - urgency_signals: zero_day
+- Cluster IDs: d52b9991a8, 083a4a03d5
+- Links:
+  - https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/
+  - https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html
+  - https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/
+  - https://www.infosecurity-magazine.com/news/simplehelp-rmm-vulnerability/
 
 ### npm vulnerability activity
 - Anchor signal: npm
@@ -734,12 +734,7 @@
 ## Forward signals
 
 ### Novelty
-- Novel cves: 5
-  - CVE-2026-6682 (first seen via The Hacker News at 2026-07-03T20:19:31+00:00, cluster 5811e9602e)
-  - CVE-2026-6683 (first seen via The Hacker News at 2026-07-03T20:19:31+00:00, cluster 5811e9602e)
-  - CVE-2026-6685 (first seen via The Hacker News at 2026-07-03T20:19:31+00:00, cluster 5811e9602e)
-  - CVE-2026-6687 (first seen via The Hacker News at 2026-07-03T20:19:31+00:00, cluster 5811e9602e)
-  - CVE-2026-6688 (first seen via The Hacker News at 2026-07-03T20:19:31+00:00, cluster 5811e9602e)
+- Novel cves: 0
 - Novel actors: 0
 - Novel products: 0
 
@@ -898,6 +893,41 @@ Table of contents About CVE-2026-33017 Affected Systems Risk Impact How Orca Can
   - Published: 2026-06-30T15:47:20+00:00
   - Link: https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html
   - Summary: Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI)
+
+### Cluster e9c83acbdf — score 35
+
+- Title: Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more
+- Source: Rapid7 (offensive_vulnerability_research)
+- Published: 2026-07-03T22:11:22+00:00
+- Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/
+- Fetch status: fetch_failed:HTTPError
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Primary article taxonomy
+- urgency_signals: preauth_unauth
+- content_type: news_report
+- confidence_tier: tier_1_offensive_research
+
+#### Summary
+
+```
+It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga
+```
+
+#### Corroborating sources (1)
+
+- **Rapid7** (offensive_vulnerability_research)
+  - Title: Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more
+  - Published: 2026-07-03T22:11:22+00:00
+  - Link: https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/
+  - Summary: It's Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u <session_id> . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga
 
 ### Cluster 3e07d24a57 — score 29
 
@@ -1903,6 +1933,98 @@ YARA-X&#;x26;#;39;s 1.18.0 release brings 3 improvements and 2 bugfixes.
   - Published: 2026-07-01T00:00:00+00:00
   - Link: https://webflow.sysdig.com/blog/jadepuffer-agentic-ransomware-for-automated-database-extortion
 
+### Cluster 5811e9602e — score 12
+
+- Title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-03T20:19:31+00:00
+- Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: financial_services, manufacturing_industrial
+- cve_ids: CVE-2026-6682, CVE-2026-6683, CVE-2026-6685, CVE-2026-6687, CVE-2026-6688
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- affected_industries: financial_services, manufacturing_industrial
+- cve_ids: CVE-2026-6682, CVE-2026-6687, CVE-2026-6688, CVE-2026-6685, CVE-2026-6683
+- urgency_signals: no_patch_yet
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
+```
+
+#### Full body
+
+```
+Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices  Swati Khandelwal  Jul 03, 2026 Vulnerability / IoT Security Security firm runZero has disclosed seven vulnerabilities in FatFs , a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on real-time operating systems. On the worst-affected systems, an attacker who gets a booby-trapped USB drive, SD card, or update file onto a device can corrupt its memory and run their own code. Many embedded devices lack the memory protections found on phones and desktops, which is why runZero says "any physical access leads to a jailbreak." A public kiosk, a camera with an SD slot, an ATM, or a voting machine with a USB port should not hand over full control after a moment of physical access, but here it can. All seven bugs work the same basic way. The device tries to read a storage volume or firmware image that has been deliberately malformed, and FatFs mishandles the bad data. runZero rated the set CVSS Medium to High, with no Criticals. The headline bug is CVE-2026-6682 (CVSS 7.6), an integer overflow in the code that mounts a FAT32 volume. Bad math can produce a false file size, which later code treats as a real read length. On real hardware, that can become memory corruption and code execution. Here are all seven, worst first by runZero's ranking: CVE-2026-6682 (7.6, High): FAT32 mount integer overflow leading to memory corruption and possible code execution. Reachable through some firmware updates, not just physical media. CVE-2026-6687 (7.6, High): an exFAT volume-label field overflows a small buffer, giving an attacker a clean memory-corruption foothold. CVE-2026-6688 (7.6, High): long filenames overflow the wrapper code many projects put around FatFs, such as a strcpy of fno.fname into a fixed buffer. Hard to fix inside FatFs alone. CVE-2026-6685 (6.1, Medium): a math wrap in cache handling on fragmented volumes that can silently corrupt data. CVE-2026-6683 (4.6, Medium): an exFAT divide-by-zero that crashes the device. In an update flow, it can brick hardware. Also reachable through some firmware updates. CVE-2026-6686 (4.6, Medium): a file extended past its end can leak leftover data from previously deleted files. CVE-2026-6684 (4.6, Medium): a malformed GPT partition table (the disk's map) can hang the device during mount. It is the only one of the seven fixed upstream, in FatFs R0.16. Here is the hard part. FatFs is maintained by one developer in a small corner of the internet, and runZero says it tried repeatedly to reach the maintainer and looped in Japan's JPCERT/CC coordination center, with no response. By runZero's account, there is no upstream fix for the memory-corruption bugs, no security mailing list, and no way for the many products that bundle FatFs to learn they are affected. Updating helps with the GPT hang, since the current release blocks it, but the rest fall to downstream vendors to patch on their own. runZero names affected platforms, including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr, MicroPython, ArduPilot, RT-Thread, Mbed, Samsung TizenRT, and the SWUpdate updater. That pushes the problem downstream into consumer IoT, industrial gear, drones, and crypto wallets. As of runZero's July 1 disclosure, no attacks using these bugs had been reported, and none have surfaced since. But the exploit material is already public: runZero shipped proof-of-concept disk images, a test harness, and a working QEMU-based exploit example in a companion repository . If you build firmware that touches FAT or exFAT media, the advice is direct. Find the copy of FatFs in your product, audit the wrapper code around it, look hard at how you handle filenames and file sizes, and plan to patc
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
+  - Published: 2026-07-03T20:19:31+00:00
+  - Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
+  - Summary: Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
+
+### Cluster 4541afab04 — score 12
+
+- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-01T07:20:51+00:00
+- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: Palo Alto Networks
+
+#### Cluster taxonomy (union across members)
+- threat_categories: active_exploitation, phishing_social_eng
+- affected_industries: financial_services, government, healthcare
+- affected_products: Android, Palo Alto Networks, npm
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: phishing_social_eng, active_exploitation
+- affected_industries: healthcare, financial_services, government
+- affected_products: npm, Android, Palo Alto Networks
+- urgency_signals: actively_exploited
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+```
+
+#### Full body
+
+```
+Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
+  - Published: 2026-07-01T07:20:51+00:00
+  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
+  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
+
 ### Cluster 57ef1249ed — score 12
 
 - Title: Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day
@@ -1998,98 +2120,6 @@ Infosecurity Magazine Home » News » US Federal Insurance Regulator Confirms Da
   - Published: 2026-06-29T10:00:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/
   - Summary: An attacker has exploited a zero day in Oracle Peoplesoft to gain access to the IT systems of the NAIC, the standard-setting association for the US federal insurance system
-
-### Cluster 5811e9602e — score 12
-
-- Title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-03T20:19:31+00:00
-- Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: financial_services, manufacturing_industrial
-- cve_ids: CVE-2026-6682, CVE-2026-6683, CVE-2026-6685, CVE-2026-6687, CVE-2026-6688
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- affected_industries: financial_services, manufacturing_industrial
-- cve_ids: CVE-2026-6682, CVE-2026-6687, CVE-2026-6688, CVE-2026-6685, CVE-2026-6683
-- urgency_signals: no_patch_yet
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
-```
-
-#### Full body
-
-```
-Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices  Swati Khandelwal  Jul 03, 2026 Vulnerability / IoT Security Security firm runZero has disclosed seven vulnerabilities in FatFs , a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on real-time operating systems. On the worst-affected systems, an attacker who gets a booby-trapped USB drive, SD card, or update file onto a device can corrupt its memory and run their own code. Many embedded devices lack the memory protections found on phones and desktops, which is why runZero says "any physical access leads to a jailbreak." A public kiosk, a camera with an SD slot, an ATM, or a voting machine with a USB port should not hand over full control after a moment of physical access, but here it can. All seven bugs work the same basic way. The device tries to read a storage volume or firmware image that has been deliberately malformed, and FatFs mishandles the bad data. runZero rated the set CVSS Medium to High, with no Criticals. The headline bug is CVE-2026-6682 (CVSS 7.6), an integer overflow in the code that mounts a FAT32 volume. Bad math can produce a false file size, which later code treats as a real read length. On real hardware, that can become memory corruption and code execution. Here are all seven, worst first by runZero's ranking: CVE-2026-6682 (7.6, High): FAT32 mount integer overflow leading to memory corruption and possible code execution. Reachable through some firmware updates, not just physical media. CVE-2026-6687 (7.6, High): an exFAT volume-label field overflows a small buffer, giving an attacker a clean memory-corruption foothold. CVE-2026-6688 (7.6, High): long filenames overflow the wrapper code many projects put around FatFs, such as a strcpy of fno.fname into a fixed buffer. Hard to fix inside FatFs alone. CVE-2026-6685 (6.1, Medium): a math wrap in cache handling on fragmented volumes that can silently corrupt data. CVE-2026-6683 (4.6, Medium): an exFAT divide-by-zero that crashes the device. In an update flow, it can brick hardware. Also reachable through some firmware updates. CVE-2026-6686 (4.6, Medium): a file extended past its end can leak leftover data from previously deleted files. CVE-2026-6684 (4.6, Medium): a malformed GPT partition table (the disk's map) can hang the device during mount. It is the only one of the seven fixed upstream, in FatFs R0.16. Here is the hard part. FatFs is maintained by one developer in a small corner of the internet, and runZero says it tried repeatedly to reach the maintainer and looped in Japan's JPCERT/CC coordination center, with no response. By runZero's account, there is no upstream fix for the memory-corruption bugs, no security mailing list, and no way for the many products that bundle FatFs to learn they are affected. Updating helps with the GPT hang, since the current release blocks it, but the rest fall to downstream vendors to patch on their own. runZero names affected platforms, including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr, MicroPython, ArduPilot, RT-Thread, Mbed, Samsung TizenRT, and the SWUpdate updater. That pushes the problem downstream into consumer IoT, industrial gear, drones, and crypto wallets. As of runZero's July 1 disclosure, no attacks using these bugs had been reported, and none have surfaced since. But the exploit material is already public: runZero shipped proof-of-concept disk images, a test harness, and a working QEMU-based exploit example in a companion repository . If you build firmware that touches FAT or exFAT media, the advice is direct. Find the copy of FatFs in your product, audit the wrapper code around it, look hard at how you handle filenames and file sizes, and plan to patc
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices
-  - Published: 2026-07-03T20:19:31+00:00
-  - Link: https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html
-  - Summary: Security firm runZero has disclosed seven vulnerabilities in FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD cards. The flaws matter because FatFs is nearly everywhere. It ships inside the firmware that runs security cameras, drones, industrial controllers, hardware crypto wallets, and other devices built on
-
-### Cluster 4541afab04 — score 12
-
-- Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-01T07:20:51+00:00
-- Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: Palo Alto Networks
-
-#### Cluster taxonomy (union across members)
-- threat_categories: active_exploitation, phishing_social_eng
-- affected_industries: financial_services, government, healthcare
-- affected_products: Android, Palo Alto Networks, npm
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: phishing_social_eng, active_exploitation
-- affected_industries: healthcare, financial_services, government
-- affected_products: npm, Android, Palo Alto Networks
-- urgency_signals: actively_exploited
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
-```
-
-#### Full body
-
-```
-Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware  Swati Khandelwal  Jul 01, 2026 Artificial Intelligence / Threat Intelligence Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting , and its new research shows it is already happening in the wild. The reason it matters is trust. Developers and AI assistants increasingly treat the links a model hands back as real. When a model invents a domain that does not exist yet, whoever registers it first inherits all of that misplaced trust, with no phishing email and no malicious ad required. To measure the problem, Unit 42 asked two AI models 685,339 questions about 913 well-known brands across technology, finance, healthcare, government, gambling, and other sectors. The models produced 2.1 million links. Threat intelligence already flagged 13,229 of them as outright malicious, meaning the AI was handing out known-bad addresses. Roughly 250,000 of the invented domains had no owner yet, each a ready target for whoever registers it first. How phantom squatting works The attack works because a brand-new domain has no reputation. Blocklists, threat feeds, and reputation scores all need a site to misbehave for a while before they flag it. A freshly registered phantom domain has no such record, so those filters have nothing to flag. By the time they catch up, the victim has already been sent to the site by a tool they trust. Two details make it worse. The fake domains were not sitting in the training data: both models shipped before the real malicious sites existed, so the addresses come from the models' own language patterns, not memory. And those patterns are consistent. Different models often invent the same fake domain for the same question, which makes an attacker's next target easy to guess. Turning up a model's "creativity" setting only produced more invented domains. As Unit 42's researchers put it, the vector "exploits a structural property of LLM architectures that remains inherently unpatchable." Two observed cases Two cases show the full loop. On March 8, 2026, Unit 42's system predicted that AI models would invent a domain resembling a national postal service's online marketplace. Both models generated it at every temperature setting, a strong sign that they treated the fake site as fact. Twenty-three days later, on March 31, an attacker registered that exact domain and stood up a phishing kit named Montana Empire. The kit copied the real storefront in real time. It stole card numbers, bank-transfer details, and national ID data. A Telegram bot lets the operator approve victims' one-time passcodes by hand. The giveaway: leftover project files and session logs showed the criminal had built the kit with an AI coding assistant. Attacker and defender reached the same fake domain the same way, by asking an AI. In the second case, Unit 42 flagged a hallucinated postal-service domain a full 51 days before an attacker registered it. The attacker then wrapped it in a pixel-perfect brand clone, added a fake 4.8-star rating and a claim of over two million users, and used it to push a malicious Android app. Other detected domains impersonated a major UAE bank that an attacker had already been abusing for nearly a year, a European bank, and sports-betting sites aimed at users in Bangladesh. An old trick with a new target Phantom squatting is the domain version of slopsquatting , where attackers register the fake software package names that AI coding tools invent. That is not a hypothetical. A large USENIX study found code-generating models routinely suggest package names that do not exist, and the PhantomRaven campaign turned exactly that behavior into malware hidden in 126 npm packages with more than 86,000 installs. It points to a l
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware
-  - Published: 2026-07-01T07:20:51+00:00
-  - Link: https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html
-  - Summary: Large language models keep inventing web addresses that do not exist. Attackers have started buying those made-up domains before anyone else can, then hosting phishing pages on them to catch traffic that AI tools point their way. Palo Alto Networks' Unit 42 calls the trick phantom squatting, and its new research shows it is already happening in the wild. The reason it matters is
 
 ### Cluster 3b18efdb51 — score 11
 
@@ -2318,6 +2348,49 @@ Share Link copied to clipboard! Content types Research Products and services Mic
   - Published: 2026-06-30T15:57:11+00:00
   - Link: https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/
   - Summary: MCP tool poisoning turns trusted AI agents into a control plane for data loss. Learn how threat actors manipulate tool descriptions to trigger unauthorized actions, and how to detect, contain, and prevent it. The post Securing AI agents: When AI tools move from reading to acting appeared first on Microsoft Security Blog .
+
+### Cluster 5bbda948e4 — score 10
+
+- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+- Source: Recorded Future (threat_research_primary)
+- Published: 2026-07-01T00:00:00+00:00
+- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- affected_industries: government
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Primary article taxonomy
+- affected_industries: government
+- affected_products: Android
+- content_type: news_report
+- confidence_tier: tier_1_primary_research
+
+#### Summary
+
+```
+Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
+```
+
+#### Full body
+
+```
+Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
+```
+
+#### Corroborating sources (1)
+
+- **Recorded Future** (threat_research_primary)
+  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
+  - Published: 2026-07-01T00:00:00+00:00
+  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
+  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
 
 ### Cluster f2b3bd6ba4 — score 10
 
@@ -2575,49 +2648,6 @@ CTEM Isn’t Failing. It’s Not Being Operationalized. Stephen Gates June 29, 2
   - Link: https://horizon3.ai/intelligence/blogs/ctem-isnt-failing-its-being-operationalized/
   - Summary: Security leaders don't buy red teaming—they buy confidence. Learn why exploitability, not security activities, should drive prioritization, remediation, and risk decisions.
 
-### Cluster 5bbda948e4 — score 10
-
-- Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-- Source: Recorded Future (threat_research_primary)
-- Published: 2026-07-01T00:00:00+00:00
-- Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Primary article taxonomy
-- affected_industries: government
-- affected_products: Android
-- content_type: news_report
-- confidence_tier: tier_1_primary_research
-
-#### Summary
-
-```
-Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
-```
-
-#### Full body
-
-```
-Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool Executive Summary Insikt Group has identified new infrastructure associated with the TAG-182 threat cluster, used to disseminate MarkiRAT malware in support of Iranian government surveillance operations. It is highly likely that TAG-182 is targeting Iranians living inside and outside the country using different lures, including free download tools and fake VPN applications. The group’s operations are highly likely active across social media platforms like Instagram. As the kinetic conflict with the United States and Israel has subsided since April 2026, Iran's security apparatus is likely redirecting its focus toward intensified cyber surveillance and digital enforcement operations targeting perceived dissidents and alleged foreign collaborators. TAG-182’s operations are consistent with these security objectives and are likely to continue following the partial restoration of internet access in Iran on May 26, 2026. The indicators of compromise (IoCs) for this report are viewable in Appendix A , while defensive signatures are located in Appendix C and Appendix D . Key Findings TAG-182 is highly likely a component of Iran’s broader surveillance ecosystem, using MarkiRAT malware distributed through fake Android applications masquerading as legitimate services such as VPNs and media tools to collect intelligence from Iranian targets. The MarkiRAT sample identified during this research shares notable tradecraft overlaps with historical variants, including the use of the Background Intelligent Transfer Service (BITS), suggesting a credible relationship between TAG-182 and activity previously attributed to Ferocious Kitten. However, while these similarities support an operational connection, additional evidence is necessary to confidently assess that the two clusters are organizationally linked. Since Iran’s reconnection to the global internet, Iranian surveillance operations are highly likely to increase as authorities seek to identify and monitor perceived dissidents amid concerns over internal unrest and potential uprisings. The majority of Iranian intelligence and security organizations are likely to prioritize enhanced digital surveillance and intelligence collection to support domestic security objectives. Threat Analysis In early 2026, open-source information surfaced malware samples linked to MarkiRAT, which has historically been used by Ferocious Kitten for surveillance against anti-government networks, activists, and human rights advocates inside Iran. The IoCs, specifically the lures, suggest that threat actors custom-built a website that acts as a staging point for an application called “YESHICA” ( Table 1 ). Other sample names also include “Pis2ray VPN”, which is not a legitimate application on either Google Play or Apple’s App Store (see Appendix A for additional IoCs). In March 2026, Insikt Group identified a new sample associated with TAG-182’s updated infrastructure that uses an almost identical media player theme name, “YESHICA YEPlayer” ( Figure 1 ). Figure 1: TAG-182 continued to operate using similarly named applications despite open-source exposure of its tradecraft and infrastructure (Source: Recorded Future) SHA256 Hash File Name C2 Address 3b172281f65ceaee280ae810edb6fd39a1ecd25649f929f246c0405df94f4c89 YEPlayer.dll 212[.]83[.]61[.]198 66dcd98c6b310f4429890821e609d48cc6395a6be15ffe5a121ec68b7a8f7402 YEMPlayer.zip 212[.]83[.]61[.]198 51a6686b8c5ec7c610637398f3de43589f4e9fcbe8bcc0245343c5454d3b91de YEMPlayer.msi 212[.]83[.]61[.]198 a4f1b79e96a7d016de1991a64506792018de99eac5df00f7cabe26ef41b2bd81 Pis2rayVPN.msi 212[.]83[.]61[.]198 400eb6a94810323a1fc5f8ab31c682fe765aaec2cc61b37c31d719c7e45c9a6c Pis2rayVPN.zip 212[.]83[.]61[.]198 8a7f5c8533df9e51b2da7cc2aeb52d8787418e4915577cc9288be1e46d1945c6 Pis2rayN.dll 212[.]83[.]61[.]198 Table 1: Malware samples linked to TAG-182 threat activity (Source: Recorded Future, Social Media ) Figure 2: TAG-182 routes target
-```
-
-#### Corroborating sources (1)
-
-- **Recorded Future** (threat_research_primary)
-  - Title: Iran-Nexus TAG-182 Disseminates MarkiRAT Surveillance Tool
-  - Published: 2026-07-01T00:00:00+00:00
-  - Link: https://www.recordedfuture.com/research/nexus-tag182-disseminates-markirat
-  - Summary: Discover how Iranian-nexus threat cluster TAG-182 uses MarkiRAT malware and fake VPN/media apps to conduct cyber surveillance operations against domestic targets.
-
 ### Cluster fbb9c91ae0 — score 10
 
 - Title: 5 Myths About AI in the SOC Security Teams Need to Rethink
@@ -2697,51 +2727,6 @@ Page content Post-quantum cryptography is now one pip-install away for the entir
   - Published: 2026-06-30T11:00:00+00:00
   - Link: https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/
   - Summary: Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography . On June 22, 2026, the White House ordered the U.S. government to accelerate its transition to post-quantum cryptography. The order says large-scale quantum computers, especially in adversarial hands, will threaten widely used cryptographic systems, and that attackers may already be collecting encrypted data now so they can decrypt it later. It also sets concrete migration deadlines: high-value and high-impact federal systems must use post-quantum key establishment by December 31, 2030 , and post-quantum digital signatures by December 31, 2031 . And even if you don’t care about quantum resistance, that’s not a problem because quantum resistance isn’t the main benefit of post-quantum crypto. That
-
-### Cluster a1f4dc8406 — score 10
-
-- Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
-- Source: SecurityWeek (cyber_news_breach_reporting)
-- Published: 2026-07-03T11:00:00+00:00
-- Link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: ransomware_extortion, vulnerability_disclosure, web_shell_backdoor
-- affected_industries: financial_services
-- cve_ids: CVE-2021-29441, CVE-2025-3248
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: ransomware_extortion, web_shell_backdoor, vulnerability_disclosure
-- affected_industries: financial_services
-- cve_ids: CVE-2025-3248, CVE-2021-29441
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-Attack demonstrates how LLM agents can combine known exploitation techniques with real-time reasoning to automate complex, multi-stage intrusions. The post Agentic AI Used to Conduct Ransomware Attack via Langflow appeared first on SecurityWeek .
-```
-
-#### Full body
-
-```
-A threat actor exploited a vulnerability in Langflow to access an organization’s instance and abuse it in an agentic ransomware attack, cloud security firm Sysdig reports. Langflow is a Python-based, LLM-agnostic open source framework used for building LLM-driven applications and agent workflows. As part of the attack, a threat actor tracked as JadePuffer gained access to an internet-exposed Langflow instance through the exploitation of CVE-2025-3248 (CVSS score of 9.8), a critical missing authentication vulnerability disclosed in April. Successful exploitation of the bug allows attackers to execute arbitrary Python code on the host on which Langflow is running. CISA flagged the flaw as exploited in early May. After gaining code execution, JadePuffer used the LLM for reconnaissance and swept the system for secrets, including API keys, cloud credentials, cryptocurrency wallets, configuration files, and database credentials. Next, the threat actor dumped Langflow’s Postgres database to harvest the secrets in it, scanned the reachable internal address space and named services, probed for MinIO addresses for further credential extraction, and deployed a cron job for persistent access to the Langflow server. Advertisement. Scroll to continue reading. Throughout this initial phase, the LLM was observed adapting its actions in real time to complete tasks, extract credentials from different file types, and log into discovered endpoints. During the second phase of the attack, JadePuffer used the LLM to pivot to a production server hosting a MySQL database and an Alibaba Naming and Configuration Service (Nacos) configuration platform. Widely used in Alibaba microservice architectures, Nacos has been plagued by various security bypasses and uses a well-known default JWT signing key that allows for easy token forgery. Lateral movement and encryption JadePuffer connected to this server using a payload that contained root credentials for the MySQL port and abused the LLM to target the Nacos service through multiple vectors. “That includes exploiting the auth-bypass family (CVE-2021-29441), forging a valid JWT using Nacos’s well-known default signing key, and, with root database access, injecting a backdoor administrator directly into the Nacos backing database,” Sysdig explains. During the attack, the LLM adjusted the payload to pass login verification, checked for User Defined Functions (UDF), which can lead to OS command execution, and issued a completion marker before ransomware deployment. Next, it encrypted 1,342 Nacos service configuration items and created an extortion table containing the ransom demand, a payment address, and a contact email address. The encryption key was randomly generated but never persisted or transmitted, essentially preventing data recovery. “Captured payloads show the LLM escalating from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” Sysdig notes. The payloads analyzed by the cybersecurity firm contained natural-language commentary on each action, indicative of LLM-generated code. Furthermore, they showed how the LLM corrected its actions to address failures and provide accurate diagnoses. “During the operation, the LLM parsed free-text context presented by the target and took an action that only makes sense if that text was read and understood, rather than pattern-matched by a scanner. This behavior recurred across sessions weeks apart,” Sysdig notes. According to the company, this attack shows that LLM agents significantly lower the barrier for malicious operations, which now require a capable model rather than a capable human. The AI combined known techniques in a successful attack against neglected infrastructure, with close to zero cost to the attacker. “Defenders should expect the volume and breadth of such campaigns to rise as agentic tooling matures, and they should treat exposed application servers, unhardened configuration stores, and internet-facing
-```
-
-#### Corroborating sources (1)
-
-- **SecurityWeek** (cyber_news_breach_reporting)
-  - Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
-  - Published: 2026-07-03T11:00:00+00:00
-  - Link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
-  - Summary: Attack demonstrates how LLM agents can combine known exploitation techniques with real-time reasoning to automate complex, multi-stage intrusions. The post Agentic AI Used to Conduct Ransomware Attack via Langflow appeared first on SecurityWeek .
 
 ### Cluster 0148b0b7f4 — score 10
 
@@ -2870,6 +2855,51 @@ This morning, an interesting phishing email hit my mailbox. It targets Metamask[
   - Published: 2026-07-01T05:10:20+00:00
   - Link: https://isc.sans.edu/diary/rss/33118
   - Summary: This morning, an interesting phishing email hit my mailbox. It targets Metamask[ 1 ], a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, and receive crypto money. It's pretty popular, so a juicy target for criminals. In February, I already mentioned a campaign against them[ 2 ].
+
+### Cluster a1f4dc8406 — score 9
+
+- Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
+- Source: SecurityWeek (cyber_news_breach_reporting)
+- Published: 2026-07-03T11:00:00+00:00
+- Link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: ransomware_extortion, vulnerability_disclosure, web_shell_backdoor
+- affected_industries: financial_services
+- cve_ids: CVE-2021-29441, CVE-2025-3248
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: ransomware_extortion, web_shell_backdoor, vulnerability_disclosure
+- affected_industries: financial_services
+- cve_ids: CVE-2025-3248, CVE-2021-29441
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+Attack demonstrates how LLM agents can combine known exploitation techniques with real-time reasoning to automate complex, multi-stage intrusions. The post Agentic AI Used to Conduct Ransomware Attack via Langflow appeared first on SecurityWeek .
+```
+
+#### Full body
+
+```
+A threat actor exploited a vulnerability in Langflow to access an organization’s instance and abuse it in an agentic ransomware attack, cloud security firm Sysdig reports. Langflow is a Python-based, LLM-agnostic open source framework used for building LLM-driven applications and agent workflows. As part of the attack, a threat actor tracked as JadePuffer gained access to an internet-exposed Langflow instance through the exploitation of CVE-2025-3248 (CVSS score of 9.8), a critical missing authentication vulnerability disclosed in April. Successful exploitation of the bug allows attackers to execute arbitrary Python code on the host on which Langflow is running. CISA flagged the flaw as exploited in early May. After gaining code execution, JadePuffer used the LLM for reconnaissance and swept the system for secrets, including API keys, cloud credentials, cryptocurrency wallets, configuration files, and database credentials. Next, the threat actor dumped Langflow’s Postgres database to harvest the secrets in it, scanned the reachable internal address space and named services, probed for MinIO addresses for further credential extraction, and deployed a cron job for persistent access to the Langflow server. Advertisement. Scroll to continue reading. Throughout this initial phase, the LLM was observed adapting its actions in real time to complete tasks, extract credentials from different file types, and log into discovered endpoints. During the second phase of the attack, JadePuffer used the LLM to pivot to a production server hosting a MySQL database and an Alibaba Naming and Configuration Service (Nacos) configuration platform. Widely used in Alibaba microservice architectures, Nacos has been plagued by various security bypasses and uses a well-known default JWT signing key that allows for easy token forgery. Lateral movement and encryption JadePuffer connected to this server using a payload that contained root credentials for the MySQL port and abused the LLM to target the Nacos service through multiple vectors. “That includes exploiting the auth-bypass family (CVE-2021-29441), forging a valid JWT using Nacos’s well-known default signing key, and, with root database access, injecting a backdoor administrator directly into the Nacos backing database,” Sysdig explains. During the attack, the LLM adjusted the payload to pass login verification, checked for User Defined Functions (UDF), which can lead to OS command execution, and issued a completion marker before ransomware deployment. Next, it encrypted 1,342 Nacos service configuration items and created an extortion table containing the ransom demand, a payment address, and a contact email address. The encryption key was randomly generated but never persisted or transmitted, essentially preventing data recovery. “Captured payloads show the LLM escalating from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” Sysdig notes. The payloads analyzed by the cybersecurity firm contained natural-language commentary on each action, indicative of LLM-generated code. Furthermore, they showed how the LLM corrected its actions to address failures and provide accurate diagnoses. “During the operation, the LLM parsed free-text context presented by the target and took an action that only makes sense if that text was read and understood, rather than pattern-matched by a scanner. This behavior recurred across sessions weeks apart,” Sysdig notes. According to the company, this attack shows that LLM agents significantly lower the barrier for malicious operations, which now require a capable model rather than a capable human. The AI combined known techniques in a successful attack against neglected infrastructure, with close to zero cost to the attacker. “Defenders should expect the volume and breadth of such campaigns to rise as agentic tooling matures, and they should treat exposed application servers, unhardened configuration stores, and internet-facing
+```
+
+#### Corroborating sources (1)
+
+- **SecurityWeek** (cyber_news_breach_reporting)
+  - Title: Agentic AI Used to Conduct Ransomware Attack via Langflow
+  - Published: 2026-07-03T11:00:00+00:00
+  - Link: https://www.securityweek.com/agentic-ai-used-to-conduct-ransomware-attack-via-langflow/
+  - Summary: Attack demonstrates how LLM agents can combine known exploitation techniques with real-time reasoning to automate complex, multi-stage intrusions. The post Agentic AI Used to Conduct Ransomware Attack via Langflow appeared first on SecurityWeek .
 
 ### Cluster ce59bc14b1 — score 9
 
@@ -3310,6 +3340,98 @@ Vulnerable and outdated software components are one of the most common issues en
   - Link: https://www.blackhillsinfosec.com/vulnerable-and-outdated-web-application-components/
   - Summary: Vulnerable and outdated software components are one of the most common issues encountered by BHIS during web application penetration tests. The vast majority of web applications use third-party components such as jQuery, Angular, Bootstrap, or countless other libraries. The post Finding and Addressing Vulnerable and Outdated Web Application Components appeared first on Black Hills Information Security, Inc. .
 
+### Cluster 282924fa4d — score 8
+
+- Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-07-03T19:40:01+00:00
+- Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+- Fetch status: ok
+- Member count: 2
+- Corroborating source count: 1
+- Strong signals: CVE-2026-46242, Linux kernel
+
+#### Cluster taxonomy (union across members)
+- threat_categories: web_shell_backdoor, zero_day
+- affected_products: Anthropic/Claude, Linux kernel
+- cve_ids: CVE-2026-31431, CVE-2026-31694, CVE-2026-43074, CVE-2026-46242
+- urgency_signals: zero_day
+- content_type: intel_roundup, news_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: zero_day
+- affected_products: Linux kernel, Anthropic/Claude
+- cve_ids: CVE-2026-46242, CVE-2026-43074, CVE-2026-31431, CVE-2026-31694
+- urgency_signals: zero_day
+- content_type: news_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
+```
+
+#### Full body
+
+```
+New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android  Swati Khandelwal  Jul 03, 2026 Linux / Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos , recently found a different bug. The AI caught one flaw and missed this one. A researcher, Jaeyoung Chung, found it and built a working attack. How the Bug Works Epoll is a standard Linux feature that lets a program watch many files or network connections at once. Servers, network services, and web browsers all lean on it. You cannot simply switch it off. Bad Epoll is a "use-after-free" bug. Two parts of the kernel try to clean up the same internal object at the same time. One frees the memory while the other is still writing into it. That brief collision lets an attacker corrupt kernel memory, then climb from a normal account up to root. The catch is timing. The window where the two paths collide is only about six machine instructions wide, so a random attempt almost never lands in it. Chung's exploit widens that window and retries without crashing, reaching root about 99% of the time on tested systems. Two things make it more dangerous: by his account, it can be triggered from inside Chrome's renderer sandbox, which blocks almost every other kernel bug, and it can reach Android, which most Linux privilege bugs cannot. Chung submitted the flaw as a zero-day to Google's kernelCTF program, and full technical details are in his public writeup . There is no sign it has been used in real attacks: as of this writing, it is not on CISA's Known Exploited Vulnerabilities list, and the only working code is that kernelCTF proof of concept. An Android version of the exploit is still in progress. Both bugs trace back to a single 2023 change to the epoll code. Chung says Mythos found the first of the two, now tracked as CVE-2026-43074, with a fix landing earlier in 2026. Anthropic has separately said Mythos found Linux kernel privilege-escalation bugs , though it has not publicly linked that work to Bad Epoll. Finding the first one was a real result, because race-condition bugs are notoriously hard to spot. So why did the same AI miss the sibling flaw? Chung offers two likely reasons and is careful to say no one can be sure. First, the timing window is tiny, so the exact sequence of events is hard to picture even while staring at the code. Second, there is little evidence at runtime. Once the first bug is patched, Bad Epoll's memory error usually does not trip KASAN, the kernel's main bug detector, so nothing flags that something is wrong. Epoll cannot be turned off, so there is no workaround. Apply upstream commit a6dc643c6931 , or install your distribution's backport when it lands. Kernels built on 6.4 or newer are affected unless they already have the fix. Older 6.1-based kernels, including some Android phones such as the Pixel 8, are not, because the bug arrived in 6.4. A Bad Year for the Linux Kernel Bad Epoll joins a well-known family of kernel bugs used to root Android, following earlier entries called Bad Binder , Bad IO_uring , and Bad Spin. It also lands in a busy stretch for Linux privilege flaws, though most of the recent ones work differently. Copy Fail (CVE-2026-31431) landed in April and is now on CISA's Known Exploited Vulnerabilities list. The Dirty Frag chain , Fragnesia , DirtyClone , pedit COW came after it. Both are deterministic page-cache-write bugs, like Dirty Pipe (2022), with no race to win, which makes them far more reliable to run. Bad Epoll is the older, harder kind: a race you have to win, like Dirty Cow (2016). A public proof-of-concept has also appeared for CVE-2026-31694 , a separate flaw in the kernel's FUSE filesystem code, found by the AI-driven researc
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
+  - Published: 2026-07-03T19:40:01+00:00
+  - Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
+  - Summary: A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
+
+### Cluster ae77ed43fa — score 8
+
+- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+- Source: The Hacker News (cyber_news_breach_reporting)
+- Published: 2026-06-30T17:46:07+00:00
+- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+- Fetch status: ok
+- Member count: 1
+- Corroborating source count: 1
+- Strong signals: (none)
+
+#### Cluster taxonomy (union across members)
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Primary article taxonomy
+- threat_categories: supply_chain
+- affected_industries: financial_services
+- affected_products: Azure, Microsoft/Copilot
+- content_type: incident_report
+- confidence_tier: tier_4_news
+
+#### Summary
+
+```
+New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+```
+
+#### Full body
+
+```
+Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
+```
+
+#### Corroborating sources (1)
+
+- **The Hacker News** (cyber_news_breach_reporting)
+  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
+  - Published: 2026-06-30T17:46:07+00:00
+  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
+  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
+
 ### Cluster a56bf79002 — score 8
 
 - Title: Researcher Behind 'Exploitarium' Explains Release of Undisclosed Zero-Day Exploits
@@ -3463,22 +3585,18 @@ Infosecurity Magazine Home » News » Critical SimpleHelp Vulnerability Exploite
 - Source: Infosecurity Magazine (cyber_news_breach_reporting)
 - Published: 2026-06-29T09:15:00+00:00
 - Link: https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/
-- Fetch status: ok
+- Fetch status: not_attempted
 - Member count: 1
 - Corroborating source count: 1
 - Strong signals: (none)
 
 #### Cluster taxonomy (union across members)
 - threat_categories: ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_industries: critical_infrastructure
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
 #### Primary article taxonomy
 - threat_categories: ransomware_extortion
-- actor_attribution: Scattered Spider
-- affected_industries: critical_infrastructure
 - content_type: incident_report
 - confidence_tier: tier_4_news
 
@@ -3488,12 +3606,6 @@ Infosecurity Magazine Home » News » Critical SimpleHelp Vulnerability Exploite
 Experts warn the Jaguar Land Rover breach bears hallmarks of Kremlin-backed hackers, citing novel ransomware, strategic timing and efforts to obscure attribution
 ```
 
-#### Full body
-
-```
-Infosecurity Magazine Home » News » Russian Hackers Accused of Destructive Cyber-Attack on Jaguar Land Rover Russian Hackers Accused of Destructive Cyber-Attack on Jaguar Land Rover News 29 June 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Security experts and practitioners have weighed in on a new report claiming that Russia was behind the Jaguar Land Rover (JLR) breach last year. The New York Times report cited people close to the investigation in its story on June 26 linking Russian hackers to the incident, which is estimated to have cost the British economy £1.9bn ($2.5bn). Microsoft, which was tracking the Russians, reportedly raised the alarm with JLR. However, while the report didn’t explicitly link the Putin regime with the attack, experts have been more forthright. Halcyon Ransomware Research Center SVP and former FBI cyber deputy director, Cynthia Kaiser, said there are several reasons to believe Kremlin involvement. There was seemingly no ransom demand and the attack landed just before a new vehicle rollout, she said. The hackers also used novel ransomware with a “mind-blowing” algorithm, and JLR’s Land Rover fleet have strong links to the British royals and military, Kaiser argued. “There are a lot of good reasons why nation states use criminal tactics when conducting destructive attacks. They are fast, scalable, and highly repeatable. They exploit common weaknesses that exist across nearly every critical infrastructure environment. And critically, they complicate attribution, allowing attackers to operate below traditional response thresholds,” she continued. “But this is the first time I can remember where it is now highly suspected that Russia at least tacitly approved an economically destructive attack, delivering an estimated $2.5bn hit to the British economy and costing the company about $350m in the 2026 fiscal year.” Read more on JLR attack: Jaguar Land Rover's Q3 Sales Crash Amid Cyber-Attack Fallout By disguising the attack as a cybercrime effort, the threat actors helped create enough doubt to limit a geopolitical response, Kasier claimed. “Adversaries believe they can stop appropriate reactions from democratic nations by planting seeds of doubt,” she said. “We all need to be more forward leaning in expecting and responding to nation states who will almost certainly increase their use of criminal tactics in the future.” The Scattered Lapsus$ Hunters Distraction Initially, attribution efforts were complicated by claims by Scattered Lapsus$ Hunters that it was responsible for the attack, which closely followed extortion attacks on M&S and Co-op Group by Scattered Spider. However, former Paramount CISO and now VC partner, Pete Chronis, has also backed the Russia theory. “When JLR got hacked, nobody asked for money,” he said in a LinkedIn post . “Sit with that. Ransomware gangs lock you up because they want a payout. Whoever hit JLR didn’t want one. No demand, no negotiation. They just wanted the company on the floor. That’s why Russia is in the frame, and why this reads less like crime and more like sabotage.” Ashish Shrestha – CEO of Zyn Global and group CISO of JLR at the time of the cyber incident – told Infosecurity in a conversation on June 18 that at the time of the cyber-attack they knew the attacker was “quite sophisticated.” However, he did not confirm attribution of the incident. Shrestha said that within the first 24 hours of the incident the threat actors asked him not to involved law enforcement. “I had law enforcement physically in my world,” he said, and at no time did Shrestha or his team reach out to their attackers. On recovery, he noted that his team was taking its time to ensure the adversaries would not be able to conduct a follow-on attack. "Business continuity is not just about coming back, but coming back stronger," he noted. Interes
-```
-
 #### Corroborating sources (1)
 
 - **Infosecurity Magazine** (cyber_news_breach_reporting)
@@ -3501,95 +3613,3 @@ Infosecurity Magazine Home » News » Russian Hackers Accused of Destructive Cyb
   - Published: 2026-06-29T09:15:00+00:00
   - Link: https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/
   - Summary: Experts warn the Jaguar Land Rover breach bears hallmarks of Kremlin-backed hackers, citing novel ransomware, strategic timing and efforts to obscure attribution
-
-### Cluster 282924fa4d — score 8
-
-- Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-07-03T19:40:01+00:00
-- Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-- Fetch status: ok
-- Member count: 2
-- Corroborating source count: 1
-- Strong signals: CVE-2026-46242, Linux kernel
-
-#### Cluster taxonomy (union across members)
-- threat_categories: web_shell_backdoor, zero_day
-- affected_products: Anthropic/Claude, Linux kernel
-- cve_ids: CVE-2026-31431, CVE-2026-31694, CVE-2026-43074, CVE-2026-46242
-- urgency_signals: zero_day
-- content_type: intel_roundup, news_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: zero_day
-- affected_products: Linux kernel, Anthropic/Claude
-- cve_ids: CVE-2026-46242, CVE-2026-43074, CVE-2026-31431, CVE-2026-31694
-- urgency_signals: zero_day
-- content_type: news_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
-```
-
-#### Full body
-
-```
-New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android  Swati Khandelwal  Jul 03, 2026 Linux / Android A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos , recently found a different bug. The AI caught one flaw and missed this one. A researcher, Jaeyoung Chung, found it and built a working attack. How the Bug Works Epoll is a standard Linux feature that lets a program watch many files or network connections at once. Servers, network services, and web browsers all lean on it. You cannot simply switch it off. Bad Epoll is a "use-after-free" bug. Two parts of the kernel try to clean up the same internal object at the same time. One frees the memory while the other is still writing into it. That brief collision lets an attacker corrupt kernel memory, then climb from a normal account up to root. The catch is timing. The window where the two paths collide is only about six machine instructions wide, so a random attempt almost never lands in it. Chung's exploit widens that window and retries without crashing, reaching root about 99% of the time on tested systems. Two things make it more dangerous: by his account, it can be triggered from inside Chrome's renderer sandbox, which blocks almost every other kernel bug, and it can reach Android, which most Linux privilege bugs cannot. Chung submitted the flaw as a zero-day to Google's kernelCTF program, and full technical details are in his public writeup . There is no sign it has been used in real attacks: as of this writing, it is not on CISA's Known Exploited Vulnerabilities list, and the only working code is that kernelCTF proof of concept. An Android version of the exploit is still in progress. Both bugs trace back to a single 2023 change to the epoll code. Chung says Mythos found the first of the two, now tracked as CVE-2026-43074, with a fix landing earlier in 2026. Anthropic has separately said Mythos found Linux kernel privilege-escalation bugs , though it has not publicly linked that work to Bad Epoll. Finding the first one was a real result, because race-condition bugs are notoriously hard to spot. So why did the same AI miss the sibling flaw? Chung offers two likely reasons and is careful to say no one can be sure. First, the timing window is tiny, so the exact sequence of events is hard to picture even while staring at the code. Second, there is little evidence at runtime. Once the first bug is patched, Bad Epoll's memory error usually does not trip KASAN, the kernel's main bug detector, so nothing flags that something is wrong. Epoll cannot be turned off, so there is no workaround. Apply upstream commit a6dc643c6931 , or install your distribution's backport when it lands. Kernels built on 6.4 or newer are affected unless they already have the fix. Older 6.1-based kernels, including some Android phones such as the Pixel 8, are not, because the bug arrived in 6.4. A Bad Year for the Linux Kernel Bad Epoll joins a well-known family of kernel bugs used to root Android, following earlier entries called Bad Binder , Bad IO_uring , and Bad Spin. It also lands in a busy stretch for Linux privilege flaws, though most of the recent ones work differently. Copy Fail (CVE-2026-31431) landed in April and is now on CISA's Known Exploited Vulnerabilities list. The Dirty Frag chain , Fragnesia , DirtyClone , pedit COW came after it. Both are deterministic page-cache-write bugs, like Dirty Pipe (2022), with no race to win, which makes them far more reliable to run. Bad Epoll is the older, harder kind: a race you have to win, like Dirty Cow (2016). A public proof-of-concept has also appeared for CVE-2026-31694 , a separate flaw in the kernel's FUSE filesystem code, found by the AI-driven researc
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: New "Bad Epoll" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android
-  - Published: 2026-07-03T19:40:01+00:00
-  - Link: https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html
-  - Summary: A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Android, and a fix is out. Bad Epoll sits in the same small stretch of kernel code where Anthropic's most powerful AI model, Mythos, recently found a different bug. The AI caught one flaw and missed
-
-### Cluster ae77ed43fa — score 8
-
-- Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-- Source: The Hacker News (cyber_news_breach_reporting)
-- Published: 2026-06-30T17:46:07+00:00
-- Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-- Fetch status: ok
-- Member count: 1
-- Corroborating source count: 1
-- Strong signals: (none)
-
-#### Cluster taxonomy (union across members)
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Primary article taxonomy
-- threat_categories: supply_chain
-- affected_industries: financial_services
-- affected_products: Azure, Microsoft/Copilot
-- content_type: incident_report
-- confidence_tier: tier_4_news
-
-#### Summary
-
-```
-New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its
-```
-
-#### Full body
-
-```
-Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data  Swati Khandelwal  Jun 30, 2026 Artificial Intelligence / Supply Chain Security New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its Defender security research team, and it lands as companies start letting AI do more than read and summarize. What changes when an agent can act Until recently, the workplace AI risk was mostly framed around what a model read and wrote. A poisoned document could skew an answer, and that was mostly where it ended. Agents are different. Microsoft 365 Copilot can send email, create files, and change calendars. Custom agents built in Copilot Studio or Azure AI Foundry can reach into business systems and run multi-step jobs on their own. The same injection trick that biases a summary now triggers an action. Against a reader, an attack changes the output. Against an agent, it changes what the software actually does. These agents reach business systems through MCP, the Model Context Protocol , an open protocol that lets an AI call outside tools the way an app calls an API. Microsoft calls it the fastest-growing part of the agentic AI supply chain, which makes it an expanding attack surface. How the attack works Every MCP tool ships with a description: a few lines of plain text that tell the agent what the tool does and when to use it. The agent reads that text to decide how to act. That is the whole weakness. The description is just words, and words can carry instructions. Microsoft walks through it with an invoice example, built to show the pattern rather than report a named victim. A finance team stands up an agent to handle vendor invoices. It connects to three tools, including a third-party "invoice enrichment" service that was approved for use but never given a real security review. Then the attacker updates that third-party tool. The name and the visible summary stay the same. Buried in the description, dressed up as formatting notes, is a hidden order: grab the last thirty unpaid invoices and attach them to the next call. MCP picks up description changes on the fly. In setups without a re-approval trigger, the poisoned version goes live with no extra review. After that, an analyst asks a routine question about a supplier. The agent follows the hidden order, collects the invoices and sends them along as part of a normal-looking request. The tool returns a clean answer and quietly copies the stolen data to a server the attacker controls. The analyst sees nothing wrong. Each move the agent makes is legitimate on its own. The tool was approved. The data query ran with the analyst's own permissions. The outbound call went to a server that was allowed when it was added. The weakness is not in any one system. It lives in what Microsoft calls "the trust boundary between them." The deeper problem is that MCP mixes instructions and data in the same place. A tool's description lives in the agent's working memory right next to its real orders, so editing that description can steer the agent as effectively as rewriting its system prompt. The agent has no reliable way to tell an honest instruction from a malicious one slipped in by whoever maintains the tool. Microsoft notes this is not a bug in Copilot itself. It is a trust gap opened up by plugging in outside tools. What defenders should do Microsoft's advice, stripped to plain terms: Treat every connected tool as part of your supply chain. Keep a list of approved tool publishers, turn off "allow all," and let an agent use only the specific tools it needs. Treat a tool's description like a system prompt. Review changes to it the way you would review a code cha
-```
-
-#### Corroborating sources (1)
-
-- **The Hacker News** (cyber_news_breach_reporting)
-  - Title: Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data
-  - Published: 2026-06-30T17:46:07+00:00
-  - Link: https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html
-  - Summary: New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its

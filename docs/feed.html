@@ -1,9 +1,16 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><title>PHANTOMSignal feed.json</title><style>body{margin:0;background:#0b0f14;color:#e8f4ff;font-family:'JetBrains Mono',Consolas,monospace}pre{margin:0;padding:24px;font-size:13px;line-height:1.5;white-space:pre-wrap;word-break:break-word}</style></head><body><pre>{
-  &quot;generated_at&quot;: &quot;2026-07-03T22:10:22.793442+00:00&quot;,
+  &quot;generated_at&quot;: &quot;2026-07-04T00:12:06.762069+00:00&quot;,
   &quot;lookback_hours&quot;: 168,
   &quot;lookback_human&quot;: &quot;7 days&quot;,
-  &quot;total_items&quot;: 2253,
+  &quot;total_items&quot;: 2278,
   &quot;feed_status&quot;: {
+    &quot;Unit 42&quot;: {
+      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;CrowdStrike&quot;: {
       &quot;url&quot;: &quot;https://www.crowdstrike.com/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -18,13 +25,6 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Unit 42&quot;: {
-      &quot;url&quot;: &quot;https://unit42.paloaltonetworks.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 2
-    },
     &quot;Google Threat Analysis Group&quot;: {
       &quot;url&quot;: &quot;https://blog.google/threat-analysis-group/rss/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
@@ -32,11 +32,11 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Sekoia&quot;: {
-      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+    &quot;Trend Micro Research&quot;: {
+      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;parse_error&quot;,
-      &quot;item_count&quot;: 0,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 25,
       &quot;in_window_count&quot;: 0
     },
     &quot;Cisco Talos&quot;: {
@@ -53,8 +53,29 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 6
     },
+    &quot;Sekoia&quot;: {
+      &quot;url&quot;: &quot;https://blog.sekoia.io/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;parse_error&quot;,
+      &quot;item_count&quot;: 0,
+      &quot;in_window_count&quot;: 0
+    },
     &quot;Microsoft Threat Intelligence&quot;: {
       &quot;url&quot;: &quot;https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
+    },
+    &quot;Recorded Future&quot;: {
+      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;Citizen Lab&quot;: {
+      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
@@ -67,26 +88,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Citizen Lab&quot;: {
-      &quot;url&quot;: &quot;https://citizenlab.ca/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Check Point Research&quot;: {
       &quot;url&quot;: &quot;https://research.checkpoint.com/feed/&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 15,
       &quot;in_window_count&quot;: 3
-    },
-    &quot;SANS Internet Storm Center&quot;: {
-      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
-      &quot;cohort&quot;: &quot;government_authoritative&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 8
     },
     &quot;Kaspersky Securelist&quot;: {
       &quot;url&quot;: &quot;https://securelist.com/feed/&quot;,
@@ -95,12 +102,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 6
     },
-    &quot;Volexity&quot;: {
-      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+    &quot;SANS Internet Storm Center&quot;: {
+      &quot;url&quot;: &quot;https://isc.sans.edu/rssfeed_full.xml&quot;,
+      &quot;cohort&quot;: &quot;government_authoritative&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
+      &quot;in_window_count&quot;: 8
     },
     &quot;ESET WeLiveSecurity&quot;: {
       &quot;url&quot;: &quot;https://www.welivesecurity.com/en/rss/feed/&quot;,
@@ -116,25 +123,18 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 3
     },
-    &quot;GitHub Security Lab&quot;: {
-      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+    &quot;Exploit-DB&quot;: {
+      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 3
-    },
-    &quot;Recorded Future&quot;: {
-      &quot;url&quot;: &quot;https://www.recordedfuture.com/feed&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 0
     },
-    &quot;PortSwigger Research&quot;: {
-      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+    &quot;Volexity&quot;: {
+      &quot;url&quot;: &quot;https://www.volexity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 40,
+      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
     &quot;Red Canary&quot;: {
@@ -151,12 +151,19 @@
       &quot;item_count&quot;: 78,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Exploit-DB&quot;: {
-      &quot;url&quot;: &quot;https://www.exploit-db.com/rss.xml&quot;,
+    &quot;PortSwigger Research&quot;: {
+      &quot;url&quot;: &quot;https://portswigger.net/research/rss&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
+      &quot;item_count&quot;: 40,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;GitHub Security Lab&quot;: {
+      &quot;url&quot;: &quot;https://github.blog/category/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 3
     },
     &quot;watchTowr Labs&quot;: {
       &quot;url&quot;: &quot;https://labs.watchtowr.com/rss/&quot;,
@@ -179,19 +186,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Active Countermeasures&quot;: {
-      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Proofpoint Threat Insight&quot;: {
       &quot;url&quot;: &quot;https://www.proofpoint.com/us/rss.xml&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 2
+    },
+    &quot;Active Countermeasures&quot;: {
+      &quot;url&quot;: &quot;https://www.activecountermeasures.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 0
     },
     &quot;Sophos X-Ops&quot;: {
       &quot;url&quot;: &quot;https://news.sophos.com/en-us/category/threat-research/feed/&quot;,
@@ -214,16 +221,23 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Trend Micro Research&quot;: {
-      &quot;url&quot;: &quot;https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&amp;category=787&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;fetch_error&quot;,
-      &quot;item_count&quot;: 0,
-      &quot;in_window_count&quot;: 0
-    },
     &quot;Rapid7&quot;: {
       &quot;url&quot;: &quot;https://www.rapid7.com/blog/rss/&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 4
+    },
+    &quot;Datadog Security Labs&quot;: {
+      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 1
+    },
+    &quot;AWS Security Blog&quot;: {
+      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 3
@@ -235,19 +249,19 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 2
     },
+    &quot;Huntress&quot;: {
+      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 4
+    },
     &quot;Orca Security Research&quot;: {
       &quot;url&quot;: &quot;https://orca.security/resources/blog/feed/&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
-    },
-    &quot;Datadog Security Labs&quot;: {
-      &quot;url&quot;: &quot;https://securitylabs.datadoghq.com/rss/feed.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 1
     },
     &quot;Permiso Security&quot;: {
       &quot;url&quot;: &quot;https://permiso.io/blog/rss.xml&quot;,
@@ -256,26 +270,19 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Huntress&quot;: {
-      &quot;url&quot;: &quot;https://www.huntress.com/blog/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 4
-    },
-    &quot;AWS Security Blog&quot;: {
-      &quot;url&quot;: &quot;https://aws.amazon.com/blogs/security/feed/&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 3
-    },
     &quot;Protect AI&quot;: {
       &quot;url&quot;: &quot;https://protectai.com/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Sysdig&quot;: {
+      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Cloudflare Security&quot;: {
       &quot;url&quot;: &quot;https://blog.cloudflare.com/tag/security/rss/&quot;,
@@ -284,12 +291,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Sysdig&quot;: {
-      &quot;url&quot;: &quot;https://sysdig.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;detection_response_operations&quot;,
+    &quot;Wiz Research&quot;: {
+      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
+      &quot;in_window_count&quot;: 6
     },
     &quot;Google DeepMind Blog&quot;: {
       &quot;url&quot;: &quot;https://deepmind.google/blog/rss.xml&quot;,
@@ -305,33 +312,12 @@
       &quot;item_count&quot;: 20,
       &quot;in_window_count&quot;: 1
     },
-    &quot;Google Cloud Threat Intelligence&quot;: {
-      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
-      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 2
-    },
-    &quot;Wiz Research&quot;: {
-      &quot;url&quot;: &quot;https://www.wiz.io/feed/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 6
-    },
     &quot;Coveware&quot;: {
       &quot;url&quot;: &quot;https://www.coveware.com/blog?format=rss&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;parse_error&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Interconnects&quot;: {
-      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 1
     },
     &quot;Chainalysis&quot;: {
       &quot;url&quot;: &quot;https://www.chainalysis.com/blog/feed/&quot;,
@@ -340,12 +326,33 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 4
     },
+    &quot;Google Cloud Threat Intelligence&quot;: {
+      &quot;url&quot;: &quot;https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 2
+    },
+    &quot;Interconnects&quot;: {
+      &quot;url&quot;: &quot;https://www.interconnects.ai/feed&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 1
+    },
     &quot;OpenSSF Blog&quot;: {
       &quot;url&quot;: &quot;https://openssf.org/feed/&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
+    },
+    &quot;BleepingComputer&quot;: {
+      &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 15
     },
     &quot;Google Cloud Security&quot;: {
       &quot;url&quot;: &quot;https://cloudblog.withgoogle.com/rss/&quot;,
@@ -361,13 +368,6 @@
       &quot;item_count&quot;: 5,
       &quot;in_window_count&quot;: 5
     },
-    &quot;BleepingComputer&quot;: {
-      &quot;url&quot;: &quot;https://www.bleepingcomputer.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 15
-    },
     &quot;GreyNoise&quot;: {
       &quot;url&quot;: &quot;https://www.greynoise.io/blog/rss.xml&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -375,12 +375,12 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 0
     },
-    &quot;SecurityWeek&quot;: {
-      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+    &quot;Simon Willison&quot;: {
+      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 10
+      &quot;item_count&quot;: 30,
+      &quot;in_window_count&quot;: 18
     },
     &quot;AI Snake Oil&quot;: {
       &quot;url&quot;: &quot;https://www.aisnakeoil.com/feed&quot;,
@@ -396,33 +396,12 @@
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
     },
-    &quot;Simon Willison&quot;: {
-      &quot;url&quot;: &quot;https://simonwillison.net/atom/everything/&quot;,
-      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 30,
-      &quot;in_window_count&quot;: 19
-    },
-    &quot;Dark Reading&quot;: {
-      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 50,
-      &quot;in_window_count&quot;: 24
-    },
-    &quot;Help Net Security&quot;: {
-      &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
+    &quot;SecurityWeek&quot;: {
+      &quot;url&quot;: &quot;https://www.securityweek.com/feed/&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 10
-    },
-    &quot;Schneier on Security&quot;: {
-      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
-      &quot;in_window_count&quot;: 6
     },
     &quot;Black Hills Information Security&quot;: {
       &quot;url&quot;: &quot;https://www.blackhillsinfosec.com/feed/&quot;,
@@ -431,18 +410,39 @@
       &quot;item_count&quot;: 100,
       &quot;in_window_count&quot;: 1
     },
+    &quot;Help Net Security&quot;: {
+      &quot;url&quot;: &quot;https://www.helpnetsecurity.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 10
+    },
+    &quot;Dark Reading&quot;: {
+      &quot;url&quot;: &quot;https://www.darkreading.com/rss.xml&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 50,
+      &quot;in_window_count&quot;: 24
+    },
+    &quot;Schneier on Security&quot;: {
+      &quot;url&quot;: &quot;https://www.schneier.com/feed/atom/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 6
+    },
+    &quot;Troy Hunt&quot;: {
+      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 15,
+      &quot;in_window_count&quot;: 2
+    },
     &quot;Team Cymru&quot;: {
       &quot;url&quot;: &quot;https://www.team-cymru.com/post/rss.xml&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 1
-    },
-    &quot;Krebs on Security&quot;: {
-      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 10,
       &quot;in_window_count&quot;: 1
     },
     &quot;Reddit r/cybersecurity&quot;: {
@@ -452,12 +452,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Troy Hunt&quot;: {
-      &quot;url&quot;: &quot;https://www.troyhunt.com/rss/&quot;,
+    &quot;Krebs on Security&quot;: {
+      &quot;url&quot;: &quot;https://krebsonsecurity.com/feed/&quot;,
       &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
       &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 15,
-      &quot;in_window_count&quot;: 2
+      &quot;item_count&quot;: 10,
+      &quot;in_window_count&quot;: 1
     },
     &quot;Reddit r/blueteamsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/blueteamsec/.rss&quot;,
@@ -465,6 +465,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
+    },
+    &quot;Graham Cluley&quot;: {
+      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
+      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 20,
+      &quot;in_window_count&quot;: 4
     },
     &quot;Reddit r/sysadmin&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/sysadmin/.rss&quot;,
@@ -487,26 +494,12 @@
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
     },
-    &quot;Graham Cluley&quot;: {
-      &quot;url&quot;: &quot;https://grahamcluley.com/feed/&quot;,
-      &quot;cohort&quot;: &quot;practitioner_analysis&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 20,
-      &quot;in_window_count&quot;: 4
-    },
     &quot;Reddit r/AskNetsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/AskNetsec/.rss&quot;,
       &quot;cohort&quot;: &quot;reddit_practitioner_osint&quot;,
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 0,
       &quot;in_window_count&quot;: 0
-    },
-    &quot;Infosecurity Magazine&quot;: {
-      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
-      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
-      &quot;status&quot;: &quot;ok&quot;,
-      &quot;item_count&quot;: 100,
-      &quot;in_window_count&quot;: 23
     },
     &quot;Intel 471&quot;: {
       &quot;url&quot;: &quot;https://intel471.com/blog/feed&quot;,
@@ -521,6 +514,13 @@
       &quot;status&quot;: &quot;ok&quot;,
       &quot;item_count&quot;: 50,
       &quot;in_window_count&quot;: 50
+    },
+    &quot;Infosecurity Magazine&quot;: {
+      &quot;url&quot;: &quot;https://www.infosecurity-magazine.com/rss/news/&quot;,
+      &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
+      &quot;status&quot;: &quot;ok&quot;,
+      &quot;item_count&quot;: 100,
+      &quot;in_window_count&quot;: 23
     },
     &quot;Reddit r/netsec&quot;: {
       &quot;url&quot;: &quot;https://www.reddit.com/r/netsec/.rss&quot;,
@@ -738,22 +738,29 @@
           &quot;ransomware_extortion&quot;,
           &quot;data_breach&quot;,
           &quot;phishing_social_eng&quot;,
-          &quot;active_exploitation&quot;
+          &quot;active_exploitation&quot;,
+          &quot;zero_day&quot;
         ],
         &quot;actor_attribution&quot;: [
-          &quot;Scattered Spider&quot;
+          &quot;Scattered Spider&quot;,
+          &quot;ShinyHunters&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;financial_services&quot;,
+          &quot;healthcare&quot;
         ],
         &quot;affected_products&quot;: [
           &quot;Apple iOS/macOS&quot;,
           &quot;Microsoft SharePoint&quot;
         ],
         &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;
+          &quot;actively_exploited&quot;,
+          &quot;zero_day&quot;
         ]
       },
-      &quot;cluster_count&quot;: 7,
-      &quot;article_count&quot;: 7,
-      &quot;cohesion&quot;: 0.332,
+      &quot;cluster_count&quot;: 6,
+      &quot;article_count&quot;: 6,
+      &quot;cohesion&quot;: 0.333,
       &quot;shared_strong_signals&quot;: [
         &quot;Scattered Spider&quot;
       ],
@@ -767,8 +774,7 @@
         &quot;7dc61d54d0&quot;,
         &quot;163e996fe8&quot;,
         &quot;6c76262a4a&quot;,
-        &quot;31e5b2aa9f&quot;,
-        &quot;af46e29c96&quot;
+        &quot;31e5b2aa9f&quot;
       ],
       &quot;links&quot;: [
         &quot;https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/&quot;,
@@ -779,8 +785,7 @@
         &quot;https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/&quot;,
         &quot;https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/&quot;,
         &quot;https://www.securityweek.com/new-citrixbleed-vulnerability-exploited-immediately-after-public-disclosure/&quot;,
-        &quot;https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/&quot;,
-        &quot;https://www.infosecurity-magazine.com/news/russian-hackers-destructive-jaguar/&quot;
+        &quot;https://www.infosecurity-magazine.com/news/insurance-giant-aflac-data-breach/&quot;
       ]
     },
     {
@@ -1074,6 +1079,43 @@
       ]
     },
     {
+      &quot;label&quot;: &quot;zero day targeting Gogs&quot;,
+      &quot;anchor_signal&quot;: &quot;Gogs&quot;,
+      &quot;theme_key&quot;: &quot;gogs&quot;,
+      &quot;dominant_features&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;zero_day&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [
+          &quot;Gogs&quot;
+        ],
+        &quot;urgency_signals&quot;: [
+          &quot;zero_day&quot;
+        ]
+      },
+      &quot;cluster_count&quot;: 2,
+      &quot;article_count&quot;: 4,
+      &quot;cohesion&quot;: 0.2,
+      &quot;shared_strong_signals&quot;: [
+        &quot;Gogs&quot;
+      ],
+      &quot;member_cves&quot;: [],
+      &quot;also_targets&quot;: [],
+      &quot;cluster_ids&quot;: [
+        &quot;d52b9991a8&quot;,
+        &quot;a56bf79002&quot;
+      ],
+      &quot;links&quot;: [
+        &quot;https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/&quot;,
+        &quot;https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html&quot;,
+        &quot;https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/&quot;,
+        &quot;https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/&quot;
+      ]
+    },
+    {
       &quot;label&quot;: &quot;ransomware extortion targeting Ivanti&quot;,
       &quot;anchor_signal&quot;: &quot;Ivanti&quot;,
       &quot;theme_key&quot;: &quot;ivanti&quot;,
@@ -1112,43 +1154,6 @@
       ]
     },
     {
-      &quot;label&quot;: &quot;zero day targeting Gogs&quot;,
-      &quot;anchor_signal&quot;: &quot;Gogs&quot;,
-      &quot;theme_key&quot;: &quot;gogs&quot;,
-      &quot;dominant_features&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;
-        ],
-        &quot;affected_industries&quot;: [
-          &quot;government&quot;
-        ],
-        &quot;affected_products&quot;: [
-          &quot;Gogs&quot;
-        ],
-        &quot;urgency_signals&quot;: [
-          &quot;zero_day&quot;
-        ]
-      },
-      &quot;cluster_count&quot;: 2,
-      &quot;article_count&quot;: 4,
-      &quot;cohesion&quot;: 0.2,
-      &quot;shared_strong_signals&quot;: [
-        &quot;Gogs&quot;
-      ],
-      &quot;member_cves&quot;: [],
-      &quot;also_targets&quot;: [],
-      &quot;cluster_ids&quot;: [
-        &quot;d52b9991a8&quot;,
-        &quot;a56bf79002&quot;
-      ],
-      &quot;links&quot;: [
-        &quot;https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/&quot;,
-        &quot;https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html&quot;,
-        &quot;https://blog.talosintelligence.com/artoken-inside-an-eviltokens-affiliate-panel-targeting-microsoft-365/&quot;,
-        &quot;https://www.infosecurity-magazine.com/news/researcher-exploitarium-exploits/&quot;
-      ]
-    },
-    {
       &quot;label&quot;: &quot;npm vulnerability activity&quot;,
       &quot;anchor_signal&quot;: &quot;npm&quot;,
       &quot;theme_key&quot;: &quot;npm&quot;,
@@ -1179,38 +1184,7 @@
   ],
   &quot;forward_signals&quot;: {
     &quot;novelty&quot;: {
-      &quot;cves&quot;: [
-        {
-          &quot;value&quot;: &quot;CVE-2026-6682&quot;,
-          &quot;cluster_id&quot;: &quot;5811e9602e&quot;,
-          &quot;first_source&quot;: &quot;The Hacker News&quot;,
-          &quot;first_published&quot;: &quot;2026-07-03T20:19:31+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-6683&quot;,
-          &quot;cluster_id&quot;: &quot;5811e9602e&quot;,
-          &quot;first_source&quot;: &quot;The Hacker News&quot;,
-          &quot;first_published&quot;: &quot;2026-07-03T20:19:31+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-6685&quot;,
-          &quot;cluster_id&quot;: &quot;5811e9602e&quot;,
-          &quot;first_source&quot;: &quot;The Hacker News&quot;,
-          &quot;first_published&quot;: &quot;2026-07-03T20:19:31+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-6687&quot;,
-          &quot;cluster_id&quot;: &quot;5811e9602e&quot;,
-          &quot;first_source&quot;: &quot;The Hacker News&quot;,
-          &quot;first_published&quot;: &quot;2026-07-03T20:19:31+00:00&quot;
-        },
-        {
-          &quot;value&quot;: &quot;CVE-2026-6688&quot;,
-          &quot;cluster_id&quot;: &quot;5811e9602e&quot;,
-          &quot;first_source&quot;: &quot;The Hacker News&quot;,
-          &quot;first_published&quot;: &quot;2026-07-03T20:19:31+00:00&quot;
-        }
-      ],
+      &quot;cves&quot;: [],
       &quot;actors&quot;: [],
       &quot;products&quot;: []
     },
@@ -1400,6 +1374,38 @@
     &quot;tier_inversion&quot;: []
   },
   &quot;items&quot;: [
+    {
+      &quot;source&quot;: &quot;Rapid7&quot;,
+      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
+      &quot;title&quot;: &quot;Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more&quot;,
+      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/&quot;,
+      &quot;published&quot;: &quot;2026-07-03T22:11:22+00:00&quot;,
+      &quot;summary&quot;: &quot;It&#x27;s Time to Upgrade Your SMB Session This week, Metasploit contributor Dean Welch has added an SMB to Meterpreter session upgrade module. It uses PsExec to facilitate the upgrade. Users can load the module with use windows/manage/smb_to_meterpreter and specify the session number they wish to upgrade. This functionality is also available with the command sessions -u &lt;session_id&gt; . This work is part of an overarching effort to enable a variety of session types to be upgraded to Meterpreter when possible. New module content (3) Peyara Remote Mouse 1.0.1 Unauthenticated Remote Code Execution Author: tmrswrr Type: Exploit Pull request: #21491 contributed by capture0x Path: windows/misc/peyara_remote_mouse_rce Description: Adds an exploit module for Peyara Remote Mouse v1.0.1 unauthenticated RCE. Linux Execute Command Authors: bcoles bcoles@gmail.com and modexp Type: Payload (Single) Pull request: #21239 contributed by bcoles Path: linux/loongarch64/exec Description: Adds a new linux/loonga&quot;,
+      &quot;author&quot;: &quot;Jack Heysel&quot;,
+      &quot;in_window&quot;: true,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [
+          &quot;preauth_unauth&quot;
+        ],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      },
+      &quot;score&quot;: 35,
+      &quot;full_body&quot;: &quot;&quot;,
+      &quot;fetch_status&quot;: &quot;fetch_failed:HTTPError&quot;
+    },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
       &quot;cohort&quot;: &quot;cyber_news_breach_reporting&quot;,
@@ -1759,7 +1765,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8
+      &quot;score&quot;: 7
     },
     {
       &quot;source&quot;: &quot;The Hacker News&quot;,
@@ -1787,7 +1793,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 6
+      &quot;score&quot;: 5
     },
     {
       &quot;source&quot;: &quot;SecurityWeek&quot;,
@@ -1824,7 +1830,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 10,
+      &quot;score&quot;: 9,
       &quot;full_body&quot;: &quot;A threat actor exploited a vulnerability in Langflow to access an organization’s instance and abuse it in an agentic ransomware attack, cloud security firm Sysdig reports. Langflow is a Python-based, LLM-agnostic open source framework used for building LLM-driven applications and agent workflows. As part of the attack, a threat actor tracked as JadePuffer gained access to an internet-exposed Langflow instance through the exploitation of CVE-2025-3248 (CVSS score of 9.8), a critical missing authentication vulnerability disclosed in April. Successful exploitation of the bug allows attackers to execute arbitrary Python code on the host on which Langflow is running. CISA flagged the flaw as exploited in early May. After gaining code execution, JadePuffer used the LLM for reconnaissance and swept the system for secrets, including API keys, cloud credentials, cryptocurrency wallets, configuration files, and database credentials. Next, the threat actor dumped Langflow’s Postgres database to harvest the secrets in it, scanned the reachable internal address space and named services, probed for MinIO addresses for further credential extraction, and deployed a cron job for persistent access to the Langflow server. Advertisement. Scroll to continue reading. Throughout this initial phase, the LLM was observed adapting its actions in real time to complete tasks, extract credentials from different file types, and log into discovered endpoints. During the second phase of the attack, JadePuffer used the LLM to pivot to a production server hosting a MySQL database and an Alibaba Naming and Configuration Service (Nacos) configuration platform. Widely used in Alibaba microservice architectures, Nacos has been plagued by various security bypasses and uses a well-known default JWT signing key that allows for easy token forgery. Lateral movement and encryption JadePuffer connected to this server using a payload that contained root credentials for the MySQL port and abused the LLM to target the Nacos service through multiple vectors. “That includes exploiting the auth-bypass family (CVE-2021-29441), forging a valid JWT using Nacos’s well-known default signing key, and, with root database access, injecting a backdoor administrator directly into the Nacos backing database,” Sysdig explains. During the attack, the LLM adjusted the payload to pass login verification, checked for User Defined Functions (UDF), which can lead to OS command execution, and issued a completion marker before ransomware deployment. Next, it encrypted 1,342 Nacos service configuration items and created an extortion table containing the ransom demand, a payment address, and a contact email address. The encryption key was randomly generated but never persisted or transmitted, essentially preventing data recovery. “Captured payloads show the LLM escalating from row-level deletion to dropping entire database schemas, narrating its own targeting rationale,” Sysdig notes. The payloads analyzed by the cybersecurity firm contained natural-language commentary on each action, indicative of LLM-generated code. Furthermore, they showed how the LLM corrected its actions to address failures and provide accurate diagnoses. “During the operation, the LLM parsed free-text context presented by the target and took an action that only makes sense if that text was read and understood, rather than pattern-matched by a scanner. This behavior recurred across sessions weeks apart,” Sysdig notes. According to the company, this attack shows that LLM agents significantly lower the barrier for malicious operations, which now require a capable model rather than a capable human. The AI combined known techniques in a successful attack against neglected infrastructure, with close to zero cost to the attacker. “Defenders should expect the volume and breadth of such campaigns to rise as agentic tooling matures, and they should treat exposed application servers, unhardened configuration stores, and internet-facing &quot;,
       &quot;fetch_status&quot;: &quot;ok&quot;
     },
@@ -7511,12 +7517,8 @@
         &quot;threat_categories&quot;: [
           &quot;ransomware_extortion&quot;
         ],
-        &quot;actor_attribution&quot;: [
-          &quot;Scattered Spider&quot;
-        ],
-        &quot;affected_industries&quot;: [
-          &quot;critical_infrastructure&quot;
-        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
         &quot;affected_products&quot;: [],
         &quot;tools_used&quot;: [],
         &quot;cve_ids&quot;: [],
@@ -7529,9 +7531,7 @@
           &quot;products&quot;: []
         }
       },
-      &quot;score&quot;: 8,
-      &quot;full_body&quot;: &quot;Infosecurity Magazine Home » News » Russian Hackers Accused of Destructive Cyber-Attack on Jaguar Land Rover Russian Hackers Accused of Destructive Cyber-Attack on Jaguar Land Rover News 29 June 2026 Written by Beth Maundrill Editor , Infosecurity Magazine Follow @GunshipGirl Connect on LinkedIn Phil Muncaster UK / EMEA News Reporter , Infosecurity Magazine Email Phil Follow @philmuncaster Security experts and practitioners have weighed in on a new report claiming that Russia was behind the Jaguar Land Rover (JLR) breach last year. The New York Times report cited people close to the investigation in its story on June 26 linking Russian hackers to the incident, which is estimated to have cost the British economy £1.9bn ($2.5bn). Microsoft, which was tracking the Russians, reportedly raised the alarm with JLR. However, while the report didn’t explicitly link the Putin regime with the attack, experts have been more forthright. Halcyon Ransomware Research Center SVP and former FBI cyber deputy director, Cynthia Kaiser, said there are several reasons to believe Kremlin involvement. There was seemingly no ransom demand and the attack landed just before a new vehicle rollout, she said. The hackers also used novel ransomware with a “mind-blowing” algorithm, and JLR’s Land Rover fleet have strong links to the British royals and military, Kaiser argued. “There are a lot of good reasons why nation states use criminal tactics when conducting destructive attacks. They are fast, scalable, and highly repeatable. They exploit common weaknesses that exist across nearly every critical infrastructure environment. And critically, they complicate attribution, allowing attackers to operate below traditional response thresholds,” she continued. “But this is the first time I can remember where it is now highly suspected that Russia at least tacitly approved an economically destructive attack, delivering an estimated $2.5bn hit to the British economy and costing the company about $350m in the 2026 fiscal year.” Read more on JLR attack: Jaguar Land Rover&#x27;s Q3 Sales Crash Amid Cyber-Attack Fallout By disguising the attack as a cybercrime effort, the threat actors helped create enough doubt to limit a geopolitical response, Kasier claimed. “Adversaries believe they can stop appropriate reactions from democratic nations by planting seeds of doubt,” she said. “We all need to be more forward leaning in expecting and responding to nation states who will almost certainly increase their use of criminal tactics in the future.” The Scattered Lapsus$ Hunters Distraction Initially, attribution efforts were complicated by claims by Scattered Lapsus$ Hunters that it was responsible for the attack, which closely followed extortion attacks on M&amp;S and Co-op Group by Scattered Spider. However, former Paramount CISO and now VC partner, Pete Chronis, has also backed the Russia theory. “When JLR got hacked, nobody asked for money,” he said in a LinkedIn post . “Sit with that. Ransomware gangs lock you up because they want a payout. Whoever hit JLR didn’t want one. No demand, no negotiation. They just wanted the company on the floor. That’s why Russia is in the frame, and why this reads less like crime and more like sabotage.” Ashish Shrestha – CEO of Zyn Global and group CISO of JLR at the time of the cyber incident – told Infosecurity in a conversation on June 18 that at the time of the cyber-attack they knew the attacker was “quite sophisticated.” However, he did not confirm attribution of the incident. Shrestha said that within the first 24 hours of the incident the threat actors asked him not to involved law enforcement. “I had law enforcement physically in my world,” he said, and at no time did Shrestha or his team reach out to their attackers. On recovery, he noted that his team was taking its time to ensure the adversaries would not be able to conduct a follow-on attack. \&quot;Business continuity is not just about coming back, but coming back stronger,\&quot; he noted. Interes&quot;,
-      &quot;fetch_status&quot;: &quot;ok&quot;
+      &quot;score&quot;: 8
     },
     {
       &quot;source&quot;: &quot;Infosecurity Magazine&quot;,
@@ -7732,6 +7732,35 @@
         }
       },
       &quot;score&quot;: 4
+    },
+    {
+      &quot;source&quot;: &quot;Simon Willison&quot;,
+      &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
+      &quot;title&quot;: &quot;Quoting Dean W. Ball&quot;,
+      &quot;link&quot;: &quot;https://simonwillison.net/2026/Jun/26/dean-w-ball/#atom-everything&quot;,
+      &quot;published&quot;: &quot;2026-06-26T22:25:46+00:00&quot;,
+      &quot;summary&quot;: &quot;This is a bad state of affairs. Consider, in particular, some industry dynamics: Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that they are broadly available. After that period elapses, the models become sub-frontier, competition emerges, and margins compress. Every week of delay is eating into the narrow window that labs have to make their accounting work. The ongoing AI infrastructure buildout—the one that is, according to former US AI Czar David Sacks, essential to the US economy , assumes a functionally global total addressable market for US AI services. No one is building $100 billion dollar data centers to serve frontier models to whatever 100 companies the US government will allow access. [...] — Dean W. Ball , 35 thoughts on what has happened and what America should do Tags: anthropic , generative-ai , openai , ai , llms&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
     },
     {
       &quot;source&quot;: &quot;Simon Willison&quot;,
@@ -11633,6 +11662,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
         &quot;confidence_tier&quot;: &quot;tier_5_chatter&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;TrendAI™ Named Trusted Partner in the OpenAI Daybreak Cyber Partner Program&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program&quot;,
+      &quot;published&quot;: &quot;2026-06-22T17:03:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -15774,6 +15830,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;TrendAI™ Integrates Claude Compliance API Into TrendAI Vision One™&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2026-06-12-TrendAI-TM-Integrates-Claude-Compliance-API-Into-TrendAI-Vision-One-TM&quot;,
+      &quot;published&quot;: &quot;2026-06-12T16:26:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Citizen Lab&quot;,
       &quot;cohort&quot;: &quot;threat_research_primary&quot;,
       &quot;category&quot;: &quot;threat_research_primary&quot;,
@@ -18442,42 +18525,6 @@
       }
     },
     {
-      &quot;source&quot;: &quot;Rapid7&quot;,
-      &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
-      &quot;title&quot;: &quot;Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)&quot;,
-      &quot;link&quot;: &quot;https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751&quot;,
-      &quot;published&quot;: &quot;2026-06-08T17:05:16+00:00&quot;,
-      &quot;summary&quot;: &quot;Overview On June 8, 2026, Check Point published a security advisory for CVE-2026-50751 , a critical authentication bypass vulnerability affecting Check Point Remote Access VPN, Mobile Access, and Spark Firewall products. The vulnerability affects deployments configured to use the deprecated IKEv1 key exchange protocol where gateways accept legacy Remote Access clients and do not require a machine certificate for connections. CVE-2026-50751, classified as improper authentication ( CWE-287 ), has a CVSS score of 9.3. The vulnerability stems from a logic flow weakness in how Remote Access and Mobile Access components validate certificates during IKEv1 key exchange; successful exploitation allows an unauthenticated attacker to establish a VPN session without providing valid credentials. Per the vendor, additional post-authentication activity is required to access internal resources or escalate privileges. Check Point has indicated that CVE-2026-50751 is being actively exploited in the wild&quot;,
-      &quot;author&quot;: &quot;Rapid7&quot;,
-      &quot;in_window&quot;: false,
-      &quot;taxonomy&quot;: {
-        &quot;threat_categories&quot;: [
-          &quot;zero_day&quot;,
-          &quot;active_exploitation&quot;
-        ],
-        &quot;actor_attribution&quot;: [],
-        &quot;affected_industries&quot;: [],
-        &quot;affected_products&quot;: [],
-        &quot;tools_used&quot;: [],
-        &quot;cve_ids&quot;: [
-          &quot;CVE-2026-50751&quot;
-        ],
-        &quot;attack_techniques&quot;: [],
-        &quot;urgency_signals&quot;: [
-          &quot;actively_exploited&quot;,
-          &quot;zero_day&quot;,
-          &quot;preauth_unauth&quot;
-        ],
-        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
-        &quot;confidence_tier&quot;: &quot;tier_1_offensive_research&quot;,
-        &quot;role_map&quot;: {},
-        &quot;weak_tags&quot;: {
-          &quot;products&quot;: []
-        }
-      }
-    },
-    {
       &quot;source&quot;: &quot;AWS Security Blog&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -19411,6 +19458,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;TrendAI™ Joins Anthropic&#x27;s Project Glasswing&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2026-06-03-TrendAI-TM-Joins-Anthropics-Project-Glasswing&quot;,
+      &quot;published&quot;: &quot;2026-06-04T01:06:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -36407,6 +36481,35 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Organizations Overlook AI Risk as Governance Fails to Keep Up&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2026-03-25-Organizations-Overlook-AI-Risk-as-Governance-Fails-to-Keep-Up,1&quot;,
+      &quot;published&quot;: &quot;2026-03-25T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Trail of Bits&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -36903,7 +37006,7 @@
       &quot;title&quot;: &quot;M-Trends 2026: Data, Insights, and Strategies From the Frontlines&quot;,
       &quot;link&quot;: &quot;https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/&quot;,
       &quot;published&quot;: &quot;2026-03-23T14:00:00+00:00&quot;,
-      &quot;summary&quot;: &quot;Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&#x27;title&#x27;, &#x27;M-Trends 2026 is available!&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText object at 0x7f1d12668cd0&gt;), (&#x27;btn_text&#x27;, &#x27;Downl&quot;,
+      &quot;summary&quot;: &quot;Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&#x27;title&#x27;, &#x27;M-Trends 2026 is available!&#x27;), (&#x27;body&#x27;, &lt;wagtail.rich_text.RichText object at 0x7fbdc92a9a90&gt;), (&#x27;btn_text&#x27;, &#x27;Downl&quot;,
       &quot;author&quot;: &quot;Jurgen Kutscher&quot;,
       &quot;in_window&quot;: false,
       &quot;taxonomy&quot;: {
@@ -45571,6 +45674,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Predicts 2026 as the Year Scams Become AI-Driven, AI-Scaled, and Emotion-Engineered&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-12-03-Trend-Micro-Predicts-2026-as-the-Year-Scams-Become-AI-Driven,-AI-Scaled,-and-Emotion-Engineered&quot;,
+      &quot;published&quot;: &quot;2025-12-03T22:18:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Black Hills Information Security&quot;,
       &quot;cohort&quot;: &quot;detection_response_operations&quot;,
       &quot;category&quot;: &quot;detection_response_operations&quot;,
@@ -45897,6 +46027,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Predicts 2026 as the Year Cybercrime Becomes Fully Industrialized&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-11-25-Trend-Micro-Predicts-2026-as-the-Year-Cybercrime-Becomes-Fully-Industrialized&quot;,
+      &quot;published&quot;: &quot;2025-11-25T13:01:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -46335,6 +46492,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;New Trend Micro Survey Shows Economic Strain and Overconfidence put Holiday Shoppers at Greater Risk of Online Scams&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-11-19-New-Trend-Micro-Survey-Shows-Economic-Strain-and-Overconfidence-put-Holiday-Shoppers-at-Greater-Risk-of-Online-Scams&quot;,
+      &quot;published&quot;: &quot;2025-11-19T13:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -47577,6 +47761,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Awards Over $1,000,000 to Ethical Hackers&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-10-27-Trend-Micro-Awards-Over-1,000,000-to-Ethical-Hackers&quot;,
+      &quot;published&quot;: &quot;2025-10-27T12:01:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -50438,6 +50649,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Unmasks Global \&quot;Task Scam\&quot; Industry&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-08-19-Trend-Micro-Unmasks-Global-Task-Scam-Industry&quot;,
+      &quot;published&quot;: &quot;2025-08-19T12:02:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Team Cymru&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;category&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
@@ -52012,6 +52250,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Warns of Thousands of Exposed AI Servers&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-07-29-Trend-Micro-Warns-of-Thousands-of-Exposed-AI-Servers&quot;,
+      &quot;published&quot;: &quot;2025-07-29T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Intel 471&quot;,
       &quot;cohort&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
       &quot;category&quot;: &quot;ransomware_ecrime_financial_crime&quot;,
@@ -52472,6 +52737,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;AI-Generated Media Drives Real-World Fraud, Identity Theft, and Business Compromise&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-07-09-AI-Generated-Media-Drives-Real-World-Fraud,-Identity-Theft,-and-Business-Compromise&quot;,
+      &quot;published&quot;: &quot;2025-07-09T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;GreyNoise&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -52602,6 +52894,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;AI on the Frontline: Global Firms Back Innovation, Brace for New Cyber Threats&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-07-01-AI-on-the-Frontline-Global-Firms-Back-Innovation,-Brace-for-New-Cyber-Threats&quot;,
+      &quot;published&quot;: &quot;2025-07-01T18:55:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -54855,6 +55174,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;New Research Reveals Three Quarters of Cybersecurity Incidents Occur Due to Unmanaged Assets&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-04-29-New-Research-Reveals-Three-Quarters-of-Cybersecurity-Incidents-Occur-Due-to-Unmanaged-Assets&quot;,
+      &quot;published&quot;: &quot;2025-04-29T11:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;GreyNoise&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -55789,6 +56135,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;low_signal&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Customers Lower Cyber Risk Scores Through Proactive Security&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2025-03-25-Trend-Micro-Customers-Lower-Cyber-Risk-Scores-Through-Proactive-Security&quot;,
+      &quot;published&quot;: &quot;2025-03-25T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -58645,6 +59018,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Predicts Emergence of Deepfake-Powered Malicious Digital Twins&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-12-16-Trend-Micro-Predicts-Emergence-of-Deepfake-Powered-Malicious-Digital-Twins&quot;,
+      &quot;published&quot;: &quot;2024-12-16T13:02:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Embrace the Red&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
@@ -59362,6 +59762,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Warns Devices and Accounts are Highest-Risk Assets&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-09-25-Trend-Micro-Warns-Devices-and-Accounts-are-Highest-Risk-Assets&quot;,
+      &quot;published&quot;: &quot;2024-09-25T12:03:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;GreyNoise&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -59449,6 +59876,33 @@
         &quot;urgency_signals&quot;: [],
         &quot;content_type&quot;: &quot;news_report&quot;,
         &quot;confidence_tier&quot;: &quot;tier_2_operator&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Only One Third of Organizations Run Round-the-Clock Cybersecurity&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-09-19-Only-One-Third-of-Organizations-Run-Round-the-Clock-Cybersecurity&quot;,
+      &quot;published&quot;: &quot;2024-09-19T12:02:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
         &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
@@ -60149,6 +60603,62 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro #1 in Vulnerability Disclosure, Helping Prevent Breaches and Save Businesses Millions&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-06-25-Trend-Micro-1-in-Vulnerability-Disclosure,-Helping-Prevent-Breaches-and-Save-Businesses-Millions&quot;,
+      &quot;published&quot;: &quot;2024-06-25T12:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;vulnerability_disclosure&quot;
+        ],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;vulnerability_disclosure&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Scores 100% on Attack Visibility in Latest MITRE Engenuity ATT&amp;CK® Evaluations&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-06-18-Trend-Micro-Scores-100-on-Attack-Visibility-in-Latest-MITRE-Engenuity-ATT-CK-R-Evaluations,1&quot;,
+      &quot;published&quot;: &quot;2024-06-18T14:54:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;GreyNoise&quot;,
       &quot;cohort&quot;: &quot;cloud_identity_infrastructure&quot;,
       &quot;category&quot;: &quot;cloud_identity_infrastructure&quot;,
@@ -60356,6 +60866,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;IT Security Leaders Are Failing to Close a Boardroom Credibility Gap&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-05-21-IT-Security-Leaders-Are-Failing-to-Close-a-Boardroom-Credibility-Gap&quot;,
+      &quot;published&quot;: &quot;2024-05-21T15:30:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Embrace the Red&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
@@ -60552,6 +61089,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Cyber Threat Surge: Trend Micro Blocks 160 billion Incidents in 2023&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-03-06-Cyber-Threat-Surge-Trend-Micro-Blocks-160-billion-Incidents-in-2023&quot;,
+      &quot;published&quot;: &quot;2024-03-06T19:57:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;PortSwigger Research&quot;,
       &quot;cohort&quot;: &quot;offensive_vulnerability_research&quot;,
       &quot;category&quot;: &quot;offensive_vulnerability_research&quot;,
@@ -60664,6 +61228,37 @@
         &quot;role_map&quot;: {
           &quot;Google/Gemini&quot;: &quot;target&quot;
         },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Global Law Enforcers Seek Trend Micro&#x27;s Help in Taking Down Top Ransomware Threat Group LockBit&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2024-02-22-Global-Law-Enforcers-Seek-Trend-Micros-Help-in-Taking-Down-Top-Ransomware-Threat-Group-LockBit&quot;,
+      &quot;published&quot;: &quot;2024-02-22T11:12:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [
+          &quot;ransomware_extortion&quot;
+        ],
+        &quot;actor_attribution&quot;: [
+          &quot;LockBit&quot;
+        ],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
@@ -62512,6 +63107,33 @@
       }
     },
     {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;Trend Micro Named a Leader in Endpoint Security&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2023-10-19-Trend-Micro-Named-a-Leader-in-Endpoint-Security&quot;,
+      &quot;published&quot;: &quot;2023-10-19T16:23:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
       &quot;source&quot;: &quot;Embrace the Red&quot;,
       &quot;cohort&quot;: &quot;ai_security_agentic_risk&quot;,
       &quot;category&quot;: &quot;ai_security_agentic_risk&quot;,
@@ -62659,6 +63281,64 @@
         &quot;role_map&quot;: {
           &quot;OpenAI/ChatGPT&quot;: &quot;target&quot;
         },
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;One in Six Attacks on U.S. Government Offices Linked to LockBit&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2023-09-21-One-in-Six-Attacks-on-U-S-Government-Offices-Linked-to-LockBit&quot;,
+      &quot;published&quot;: &quot;2023-09-21T17:00:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [
+          &quot;LockBit&quot;
+        ],
+        &quot;affected_industries&quot;: [
+          &quot;government&quot;
+        ],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;news_report&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
+        &quot;weak_tags&quot;: {
+          &quot;products&quot;: []
+        }
+      }
+    },
+    {
+      &quot;source&quot;: &quot;Trend Micro Research&quot;,
+      &quot;cohort&quot;: &quot;threat_research_primary&quot;,
+      &quot;category&quot;: &quot;threat_research_primary&quot;,
+      &quot;title&quot;: &quot;New Report Highlights Key Elements of Cloud Workload Security Landscape&quot;,
+      &quot;link&quot;: &quot;https://newsroom.trendmicro.com/2023-09-18-New-Report-Highlights-Key-Elements-of-Cloud-Workload-Security-Landscape&quot;,
+      &quot;published&quot;: &quot;2023-09-18T20:46:00+00:00&quot;,
+      &quot;summary&quot;: &quot;&quot;,
+      &quot;author&quot;: &quot;&quot;,
+      &quot;in_window&quot;: false,
+      &quot;taxonomy&quot;: {
+        &quot;threat_categories&quot;: [],
+        &quot;actor_attribution&quot;: [],
+        &quot;affected_industries&quot;: [],
+        &quot;affected_products&quot;: [],
+        &quot;tools_used&quot;: [],
+        &quot;cve_ids&quot;: [],
+        &quot;attack_techniques&quot;: [],
+        &quot;urgency_signals&quot;: [],
+        &quot;content_type&quot;: &quot;low_signal&quot;,
+        &quot;confidence_tier&quot;: &quot;tier_1_primary_research&quot;,
+        &quot;role_map&quot;: {},
         &quot;weak_tags&quot;: {
           &quot;products&quot;: []
         }
