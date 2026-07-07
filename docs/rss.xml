@@ -6,9 +6,41 @@
 <atom:link href="https://chaoswrangler.github.io/phantomsignal/rss.xml" rel="self" type="application/rss+xml" />
 <description>Curated CTI from 77 sources over 7 days. Filtered for relevance, deduplicated, tagged by threat category and likely affected industry.</description>
 <language>en-us</language>
-<lastBuildDate>Tue, 07 Jul 2026 20:06:01 +0000</lastBuildDate>
+<lastBuildDate>Tue, 07 Jul 2026 21:38:55 +0000</lastBuildDate>
 <generator>PHANTOMSignal aggregator</generator>
 <ttl>60</ttl>
+<item>
+<title>Big Brand Jobs Scam Targets Marketing Pros&apos; Google Accounts</title>
+<link>https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts</link>
+<description><![CDATA[The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.<br/><br/><em>Tags: phishing_social_eng</em>]]></description>
+<pubDate>Tue, 07 Jul 2026 21:02:29 +0000</pubDate>
+<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/big-brand-jobs-scam-marketing-pros-google-accounts</guid>
+<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
+<category>cyber_news_breach_reporting</category>
+<category>phishing_social_eng</category>
+</item>
+<item>
+<title>Best CWPP Tools in 2026: The Cloud Workload Protection Platform Buyer’s Guide</title>
+<link>https://orca.security/resources/blog/best-cwpp-tools/</link>
+<description><![CDATA[Key Takeaways CWPP tools protect the workloads where your code actually runs, and where breaches actually land. That matters because cloud workloads no longer sit still: they spin up and tear down in minutes, span multiple clouds, and multiply faster than security teams can deploy and maintain agents. That shift is why the CWPP market […]<br/><br/><em>Tags: Palo Alto Networks · Kubernetes · Microsoft Defender</em>]]></description>
+<pubDate>Tue, 07 Jul 2026 20:40:00 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/best-cwpp-tools/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>Palo Alto Networks</category>
+<category>Kubernetes</category>
+<category>Microsoft Defender</category>
+</item>
+<item>
+<title>Cloud Workload Protection Best Practices: How to Secure Cloud Workloads in 2026</title>
+<link>https://orca.security/resources/blog/cloud-workload-protection-best-practices/</link>
+<description><![CDATA[Key Takeaways Cloud workloads, your virtual machines, containers, Kubernetes pods, and serverless functions, are where code runs and where breaches land. Securing them well is not a single control you buy once. It is a continuous discipline that runs across the whole lifecycle of a workload, from the image built in a pipeline to the […]<br/><br/><em>Tags: Kubernetes</em>]]></description>
+<pubDate>Tue, 07 Jul 2026 20:40:00 +0000</pubDate>
+<guid isPermaLink="true">https://orca.security/resources/blog/cloud-workload-protection-best-practices/</guid>
+<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
+<category>cloud_identity_infrastructure</category>
+<category>Kubernetes</category>
+</item>
 <item>
 <title>Chinese hackers develop LONGLEASH malware to expand ORB network</title>
 <link>https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/</link>
@@ -402,15 +434,12 @@
 <item>
 <title>Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities</title>
 <link>https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html</link>
-<description><![CDATA[A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,<br/><br/><em>Tags: UNC5174 · CVE-2024-42009 · CVE-2025-49113 · phishing_social_eng · web_shell_backdoor</em>]]></description>
+<description><![CDATA[A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,<br/><br/><em>Tags: CVE-2024-42009</em>]]></description>
 <pubDate>Tue, 07 Jul 2026 09:10:51 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
-<category>UNC5174</category>
 <category>CVE-2024-42009</category>
-<category>CVE-2025-49113</category>
-<category>phishing_social_eng</category>
 </item>
 <item>
 <title>Suspected Chinese espionage group used a Roundcube exploit chain to burrow into universities</title>
@@ -638,11 +667,12 @@
 <item>
 <title>Shift into high gear with agents: Securing the software-defined vehicle</title>
 <link>https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/</link>
-<description><![CDATA[The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for rapid innovation with many new capabilities delivered over the air. By integrating AI and agents, the next generation of SDVs will be capable of turning raw telemetry into actionable insights in real-time, allowing for a fundamental rethink of how vehicles interact with their environment and their users . To better support and secure SDVs, Google Cloud and Valtech have partnered to develop Nexus SDV , a highly-scalable, AI-enabled connected vehicle platform built on Google Cloud. This modular, developer-friendly and open-source solution is designed to manage up to 100 million devices, and features deep integration with Android Automotive OS (AAOS) to streamline data flows and in-vehicle experiences. We are proud to announce the first release of the Nexus SDV open-source <br/><br/><em>Tags: Google Cloud</em>]]></description>
+<description><![CDATA[The automotive industry is at a pivotal crossroads as it hits the gas on adopting new technology. The era of the traditional connected vehicle has shifted into the age of the software-defined vehicle (SDV), notable for rapid innovation with many new capabilities delivered over the air. By integrating AI and agents, the next generation of SDVs will be capable of turning raw telemetry into actionable insights in real-time, allowing for a fundamental rethink of how vehicles interact with their environment and their users . To better support and secure SDVs, Google Cloud and Valtech have partnered to develop Nexus SDV , a highly-scalable, AI-enabled connected vehicle platform built on Google Cloud. This modular, developer-friendly and open-source solution is designed to manage up to 100 million devices, and features deep integration with Android Automotive OS (AAOS) to streamline data flows and in-vehicle experiences. We are proud to announce the first release of the Nexus SDV open-source <br/><br/><em>Tags: Google/Gemini · Google Cloud</em>]]></description>
 <pubDate>Mon, 06 Jul 2026 16:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
+<category>Google/Gemini</category>
 <category>Google Cloud</category>
 </item>
 <item>
@@ -903,11 +933,12 @@
 <item>
 <title>U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case</title>
 <link>https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html</link>
-<description><![CDATA[A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single<br/><br/><em>Tags: ransomware_extortion</em>]]></description>
+<description><![CDATA[A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the blockchain trail the payment left. The odd part: the group that took the money calls itself Kairos, but it may not be a ransomware gang at all. Krishnan found no sign that it ever locked a single<br/><br/><em>Tags: Silent Ransom Group · ransomware_extortion</em>]]></description>
 <pubDate>Sat, 04 Jul 2026 12:47:53 +0000</pubDate>
 <guid isPermaLink="true">https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html</guid>
 <source url="https://feeds.feedburner.com/TheHackersNews">The Hacker News</source>
 <category>cyber_news_breach_reporting</category>
+<category>Silent Ransom Group</category>
 <category>ransomware_extortion</category>
 </item>
 <item>
@@ -1134,27 +1165,6 @@
 <source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
 <category>cloud_identity_infrastructure</category>
 <category>credential_theft</category>
-</item>
-<item>
-<title>HIPAA Compliance in the Cloud: The Complete Framework Guide</title>
-<link>https://orca.security/resources/blog/hipaa-compliance-cloud/</link>
-<description><![CDATA[Key Takeaways HIPAA compliance in the cloud is the practice of protecting electronic protected health information (ePHI) to the standard set by the HIPAA Rules while that data is stored and processed in cloud services like AWS, Azure, and Google Cloud. It combines the Privacy Rule, the Security Rule, and the Breach Notification Rule with […]<br/><br/><em>Tags: Google Cloud · Azure · AWS</em>]]></description>
-<pubDate>Thu, 02 Jul 2026 18:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/hipaa-compliance-cloud/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
-<category>Azure</category>
-<category>AWS</category>
-</item>
-<item>
-<title>Cloud Least Privilege: Principles, Best Practices &amp; How to Enforce It</title>
-<link>https://orca.security/resources/blog/cloud-least-privilege-principles-best-practices/</link>
-<description><![CDATA[Key Takeaways In the cloud, identities accumulate permissions they never use, and every unused permission is a reachable path for an attacker who lands on that identity. Most of those identities are not people. They are roles, service accounts, functions, and CI/CD pipelines, and they often hold far more access than the workload behind them […]]]></description>
-<pubDate>Thu, 02 Jul 2026 18:50:00 +0000</pubDate>
-<guid isPermaLink="true">https://orca.security/resources/blog/cloud-least-privilege-principles-best-practices/</guid>
-<source url="https://orca.security/resources/blog/feed/">Orca Security Research</source>
-<category>cloud_identity_infrastructure</category>
 </item>
 <item>
 <title>Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials</title>
@@ -1845,19 +1855,6 @@
 <category>ai_security_agentic_risk</category>
 </item>
 <item>
-<title>Citrix patches a new NetScaler flaw with echoes of CitrixBleed</title>
-<link>https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/</link>
-<description><![CDATA[The bulletin includes six NetScaler issues, but attention is centered on a high-severity flaw with similarities to earlier actively exploited bugs. The post Citrix patches a new NetScaler flaw with echoes of CitrixBleed appeared first on CyberScoop .<br/><br/><em>Tags: Palo Alto Networks · Citrix · Anthropic/Claude · CVE-2026-8451 · CVE-2026-3055 · ransomware_extortion · ddos · vulnerability_disclosure</em>]]></description>
-<pubDate>Tue, 30 Jun 2026 21:46:38 +0000</pubDate>
-<guid isPermaLink="true">https://cyberscoop.com/citrix-netscaler-flaw-cve-2026-8451-citrixbleed/</guid>
-<source url="https://cyberscoop.com/feed/">CyberScoop</source>
-<category>cyber_news_breach_reporting</category>
-<category>Palo Alto Networks</category>
-<category>Citrix</category>
-<category>Anthropic/Claude</category>
-<category>CVE-2026-8451</category>
-</item>
-<item>
 <title>Fake Bug Report Hijacks AI Coding Agents at Scale</title>
 <link>https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents</link>
 <description><![CDATA[&quot;Agentjacking&quot; is the latest demonstration of how easily attackers can exploit an AI agent&apos;s inability to differentiate between content and instructions.]]></description>
@@ -1865,6 +1862,15 @@
 <guid isPermaLink="true">https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents</guid>
 <source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
 <category>cyber_news_breach_reporting</category>
+</item>
+<item>
+<title>What&apos;s new in Claude Sonnet 5</title>
+<link>https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything</link>
+<description><![CDATA[What&apos;s new in Claude Sonnet 5 Claude Sonnet 5 came out this morning . I always head straight for the &quot;what&apos;s new&quot; developer docs because they tend to have more actionable information than the official announcement post. Anthropic say of Sonnet 5 that &quot;its performance is close to that of Opus 4.8, but at lower prices&quot;. The system card helps explain how they were able to release the model without being blocked by the US government: Sonnet 5 is significantly less capable at cyber tasks than Mythos 5: its safeguards are thus similar to those we apply to Opus 4.7 and Opus 4.8 (models that are more capable than Sonnet 5 but much less capable than Mythos 5). Of note from the &quot;what&apos;s new&quot; API changes: Sampling parameters temperature , top_p , top_k are no longer supported. It has a 1 million token context window and 128,000 maximum output tokens. It features &quot;the same set of tools and platform features as Claude Sonnet 4.6&quot; Adaptive thinking is on by default, unless you specify &quot;thinking&quot;: {ty]]></description>
+<pubDate>Tue, 30 Jun 2026 21:23:02 +0000</pubDate>
+<guid isPermaLink="true">https://simonwillison.net/2026/Jun/30/claude-sonnet-5/#atom-everything</guid>
+<source url="https://simonwillison.net/atom/everything/">Simon Willison</source>
+<category>ai_security_agentic_risk</category>
 </item>
 <item>
 <title>Scammers race to cash in on Venezuelan earthquake disaster</title>
@@ -1998,14 +2004,13 @@
 <category>threat_research_primary</category>
 </item>
 <item>
-<title>What Google Cloud announced in AI this month</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</link>
-<description><![CDATA[Editor’s note : Want to keep up with the latest from Google Cloud? Check back here for a monthly recap of our latest updates, announcements, resources, events, learning opportunities, and more. Our main focus in June was helping your teams build, scale, and secure AI. Today, we’re sharing a fresh roundup of updates designed to help you run smarter, more secure applications while keeping everything under your control. We even shared a cool virtual shopping demo at Cannes to show how retailers can make product discovery more exciting. Let’s dive in! Top announcements Introducing the Open Knowledge Format : We introduced the Open Knowledge Format (OKF), an open specification that formalizes the LLM-wiki pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need. Collaboration with Apple on its expanded Private Cloud Compute (PCC) systems : Our collabor<br/><br/><em>Tags: Google Cloud</em>]]></description>
+<title>Modernizing financial services with deployment freedom and transformational AI with AlloyDB Omni</title>
+<link>https://cloud.google.com/blog/products/databases/alloydb-omni-secure-hybrid-database-modernization-for-finance/</link>
+<description><![CDATA[The financial services industry (FSI) operates under a unique set of non-negotiable requirements: the need for strict regulatory compliance, sub-millisecond transactional speeds, and security that verges on impenetrable. Historically, organizations have met these standards by relying on brittle, proprietary database systems, leaving them with massive technical debt, operational overhead, and vendor lock-in. At the same time, financial services companies are facing a series of daunting challenges: The licensing trap and technical debt: Decades of reliance on legacy commercial databases have left institutions with skyrocketing maintenance costs and restrictive licenses that refuse to scale. In fact, a global investment bank might find that over 70% of its IT budget is swallowed up by decades-old COBOL core banking systems and siloed ledger databases—leaving virtually no capital to develop the real-time, AI-driven fraud detection tools their clients are actively demanding. The tug of war ]]></description>
 <pubDate>Tue, 30 Jun 2026 16:00:00 +0000</pubDate>
-<guid isPermaLink="true">https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month/</guid>
+<guid isPermaLink="true">https://cloud.google.com/blog/products/databases/alloydb-omni-secure-hybrid-database-modernization-for-finance/</guid>
 <source url="https://cloudblog.withgoogle.com/rss/">Google Cloud Security</source>
 <category>cloud_identity_infrastructure</category>
-<category>Google Cloud</category>
 </item>
 <item>
 <title>Nissan Discloses Employee Data Breach Linked to Oracle Zero-Day</title>
@@ -3721,15 +3726,6 @@
 <category>cyber_news_breach_reporting</category>
 </item>
 <item>
-<title>FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist</title>
-<link>https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers</link>
-<description><![CDATA[The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.]]></description>
-<pubDate>Tue, 23 Jun 2026 12:34:54 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
-</item>
-<item>
 <title>AI Threat Readiness Pillar 4: Detect and contain threats in real-time</title>
 <link>https://www.wiz.io/blog/ai-threat-readiness-pillar-4</link>
 <description><![CDATA[Your guide to operationalizing AI-powered threat detection and response with Wiz to stay ahead of AI-driven attackers.]]></description>
@@ -3830,15 +3826,6 @@
 <guid isPermaLink="true">https://unit42.paloaltonetworks.com/cloud-bucket-hijacking-risks/</guid>
 <source url="https://unit42.paloaltonetworks.com/feed/">Unit 42</source>
 <category>threat_research_primary</category>
-</item>
-<item>
-<title>DifyTap Bugs Let Attackers &apos;Wiretap&apos; AI Chat Histories</title>
-<link>https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories</link>
-<description><![CDATA[Four vulnerabilities allow attackers to exploit Dify, a platform for AI application building and management, to silently access and exfiltrate sensitive data.]]></description>
-<pubDate>Mon, 22 Jun 2026 21:14:11 +0000</pubDate>
-<guid isPermaLink="true">https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories</guid>
-<source url="https://www.darkreading.com/rss.xml">Dark Reading</source>
-<category>cyber_news_breach_reporting</category>
 </item>
 <item>
 <title>Between Two Nerds: The PRC vs AI</title>
@@ -11805,7 +11792,7 @@
 <item>
 <title>M-Trends 2026: Data, Insights, and Strategies From the Frontlines</title>
 <link>https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</link>
-<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f1ce9403700&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
+<description><![CDATA[Every year, the cyber threat landscape forces defenders to adapt to evolving adversary tactics, techniques, and procedures (TTPs). In 2025, Mandiant observed a clear divergence in adversary pacing that closely aligns with the trends we have been documenting for defenders over the past year. On one end of the spectrum, cyber criminal groups optimized for immediate impact and deliberate recovery denial. On the other end, sophisticated cyber espionage groups and insider threats optimized for extreme persistence, utilizing unmonitored edge devices and native network functionalities to evade detection. Today, we release M-Trends 2026. Grounded in over 500,000 hours of frontline incident investigations conducted by Mandiant globally in 2025, this report provides a definitive look at the TTPs actively being used in breaches today. aside_block &lt;ListValue: [StructValue([(&apos;title&apos;, &apos;M-Trends 2026 is available!&apos;), (&apos;body&apos;, &lt;wagtail.rich_text.RichText object at 0x7f667b292280&gt;), (&apos;btn_text&apos;, &apos;Downl<br/><br/><em>Tags: apt_espionage</em>]]></description>
 <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
 <guid isPermaLink="true">https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026/</guid>
 <source url="https://feeds.feedburner.com/threatintelligence/pvexyqv7v0v">Google Cloud Threat Intelligence</source>
@@ -20567,7 +20554,7 @@
 <title>CrowdStrike Uncovers New Prompt Injection Techniques</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</link>
 <description><![CDATA[<br/><br/><em>Tags: ai_security</em>]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-prompt-injection-techniques/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20577,7 +20564,7 @@
 <title>How AI-leading Security Teams Are Building the Agentic SOC</title>
 <link>https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/how-ai-leading-security-teams-are-building-the-agentic-soc/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20586,7 +20573,7 @@
 <title>Browser Security: Zero-Days Are Only Part of the Problem</title>
 <link>https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/browser-security-zero-days-are-only-part-of-the-problem/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20595,7 +20582,7 @@
 <title>Falcon Cloud Security June 2026 Release: Updates for Azure and Google Cloud</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20604,7 +20591,7 @@
 <title>The Identity Problem Hiding in AI Agent Deployments</title>
 <link>https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/the-identity-problem-hiding-in-ai-agent-deployments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20613,7 +20600,7 @@
 <title>94% of Organizations Report Cloud Breaches: CrowdStrike State of CDR Survey</title>
 <link>https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/crowdstrike-state-of-cdr-survey-key-takeaways/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20622,7 +20609,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 2: Stop Threat Actors from Clicking Once and Staying Forever</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-two/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20631,7 +20618,7 @@
 <title>New Abuse of the ClickOnce Technology, Part 1: The Inner Workings of ClickOnce Application Deployment</title>
 <link>https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/new-abuse-of-the-clickonce-technology-part-one/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20640,7 +20627,7 @@
 <title>After Executive Order 14409: Next Steps for Securing AI</title>
 <link>https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/after-executive-order-14409-next-steps-for-securing-ai/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
@@ -20649,7 +20636,7 @@
 <title>Falcon Exposure Management Now Available for Third-Party Environments</title>
 <link>https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</link>
 <description><![CDATA[]]></description>
-<pubDate>Tue, 07 Jul 2026 20:06:01 +0000</pubDate>
+<pubDate>Tue, 07 Jul 2026 21:38:55 +0000</pubDate>
 <guid isPermaLink="true">https://www.crowdstrike.com/en-us/blog/falcon-exposure-management-now-available-for-third-party-environments/</guid>
 <source url="https://www.crowdstrike.com/blog/feed/">CrowdStrike</source>
 <category>threat_research_primary</category>
